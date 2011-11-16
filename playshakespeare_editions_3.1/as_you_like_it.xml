@@ -28,8 +28,10 @@
 <PERSONA short="CEL.">Celia, daughter to Duke Frederick</PERSONA>
 <PERSONA short="PHE.">Phebe, a shepherdess</PERSONA>
 <PERSONA short="AUD.">Audrey, a country wench</PERSONA>
-<PERSONA short="1. LORD.">First Lord</PERSONA>
-<PERSONA short="2. LORD.">Second Lord</PERSONA>
+<PERSONA short="1. LORD. COURT.">First Lord at Court</PERSONA>
+<PERSONA short="2. LORD. COURT.">Second Lord at Court</PERSONA>
+<PERSONA short="1. LORD. ARD.">First Lord in Arden</PERSONA>
+<PERSONA short="2. LORD. ARD.">Second Lord in Arden</PERSONA>
 <PERSONA short="1. PAGE.">First Page</PERSONA>
 <PERSONA short="2. PAGE.">Second Page</PERSONA>
 <PERSONA>Foresters</PERSONA>
@@ -273,7 +275,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>A lawn before the Duke&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Rosalind, Celia, Clown (Touchstone), Le Beau, Duke Frederick, Lords, Orlando, Charles, Attendants)</SCENEPERSONAE>
+<SCENEPERSONAE>(Rosalind, Celia, Clown Touchstone, Le Beau, Duke Frederick, Lords, Orlando, Charles, Attendants)</SCENEPERSONAE>
 <STAGEDIR>Enter Rosalind and Celia.</STAGEDIR>
 
 <SPEECH>
@@ -1241,7 +1243,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The Forest of Arden.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Senior, Amiens, Lords)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Senior, Amiens, Lords in Arden)</SCENEPERSONAE>
 <STAGEDIR>Enter Duke Senior, Amiens, and two or three Lords, like foresters.</STAGEDIR>
 
 <SPEECH>
@@ -1282,7 +1284,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>Indeed, my lord,</LINE>
 <LINE>The melancholy Jaques grieves at that,</LINE>
 <LINE>And in that kind swears you do more usurp</LINE>
@@ -1311,7 +1313,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>O yes, into a thousand similes.</LINE>
 <LINE>First, for his weeping into the needless stream:</LINE>
 <LINE>&#8220;Poor deer,&#8221; quoth he, &#8220;thou mak&#8217;st a testament</LINE>
@@ -1339,7 +1341,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. LORD.</SPEAKER>
+<SPEAKER>2. LORD. ARD.</SPEAKER>
 <LINE>We did, my lord, weeping and commenting</LINE>
 <LINE>Upon the sobbing deer.</LINE>
 </SPEECH>
@@ -1352,7 +1354,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>I&#8217;ll bring you to him straight.</LINE>
 </SPEECH>
 
@@ -1363,7 +1365,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The Duke&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Frederick, Lords)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Frederick, Lords at Court)</SCENEPERSONAE>
 <STAGEDIR>Enter Duke Frederick with Lords.</STAGEDIR>
 
 <SPEECH>
@@ -1919,7 +1921,7 @@
 <SCENE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>The forest.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Senior, Amiens, Lords, Jaques, Orlando, Adam)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Senior, Amiens, Lords in Arden, Jaques, Orlando, Adam)</SCENEPERSONAE>
 <STAGEDIR>A table set out. Enter Duke Senior, Amiens, and Lords, like outlaws.</STAGEDIR>
 
 <SPEECH>
@@ -1929,7 +1931,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>My lord, he is but even now gone hence;</LINE>
 <LINE>Here was he merry, hearing of a song.</LINE>
 </SPEECH>
@@ -1944,7 +1946,7 @@
 <STAGEDIR>Enter Jaques.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>He saves my labor by his own approach.</LINE>
 </SPEECH>
 
@@ -2296,7 +2298,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The palace.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Frederick, Lords, Oliver)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Frederick, Lords at Court, Oliver)</SCENEPERSONAE>
 <STAGEDIR>Enter Duke Frederick, Lords, and Oliver.</STAGEDIR>
 
 <SPEECH>
@@ -4147,7 +4149,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The forest.</SCENELOCATION>
-<SCENEPERSONAE>(Jaques, Lords)</SCENEPERSONAE>
+<SCENEPERSONAE>(Jaques, Lords in ARden)</SCENEPERSONAE>
 <STAGEDIR>Enter Jaques and Lords as foresters.</STAGEDIR>
 
 <SPEECH>
@@ -4156,7 +4158,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. ARD.</SPEAKER>
 <LINE>Sir, it was I.</LINE>
 </SPEECH>
 
@@ -4166,7 +4168,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. LORD.</SPEAKER>
+<SPEAKER>2. LORD. ARD.</SPEAKER>
 <LINE>Yes, sir.</LINE>
 </SPEECH>
 
@@ -4179,7 +4181,7 @@
 <STAGEDIR>Song</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. LORD.</SPEAKER>
+<SPEAKER>2. LORD. ARD.</SPEAKER>
 <LINE type="lyric">What shall he have that kill&#8217;d the deer?</LINE>
 <LINE type="lyric">His leather skin and horns to wear.</LINE>
 <LINE type="lyric">Then sing him home.</LINE>

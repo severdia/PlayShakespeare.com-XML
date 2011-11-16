@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="plays.xsl"?>
 
-
-
 <PLAY>
 <TITLE>The Tragedy of Richard the Third</TITLE>
 <TITLESHORT>Richard III</TITLESHORT>
@@ -14,7 +12,7 @@
 <PERSONA short="YORK.">Richard, Duke of York, son to the King</PERSONA>
 <PERSONA short="CLAR.">George, Duke of Clarence, brother to the King</PERSONA>
 <PERSONA short="GLOU., K. RICH.">Richard, Duke of Gloucester, afterwards King Richard III, brother to the King</PERSONA>
-<PERSONA short="BOY.">Edward Plantagenet, Earl of Warwick, a young son of Clarence</PERSONA>
+<PERSONA short="EDW.,CHIL.">Edward Plantagenet, Earl of Warwick, a young son of Clarence</PERSONA>
 <PERSONA short="RICHM.">Henry, Earl of Richmond, afterwards King Henry VII</PERSONA>
 <PERSONA short="CARD.">Cardinal Bourchier, Archbishop of Canterbury</PERSONA>
 <PERSONA short="ARCH.">Thomas Rotherham, Archbishop of York</PERSONA>
@@ -49,9 +47,9 @@
 <PERSONA short="Q. MAR.">Margaret, widow of King Henry VI</PERSONA>
 <PERSONA short="DUCH.">Duchess of York, mother to King Edward IV, Clarence, and Gloucester</PERSONA>
 <PERSONA short="ANNE.">Lady Anne, widow of Edward, Prince of Wales, son to King Henry VI; afterwards married to Richard, Duke of Gloucester</PERSONA>
-<PERSONA short="GIRL.">Margaret Plantagenet, Countess of Salisbury, a young daughter of Clarence</PERSONA>
-<PERSONA short="GHOST. OF ED.">Ghost of Prince Edward</PERSONA>
-<PERSONA short="GHOST. OF HENRY.">Ghost of Henry the Sixth</PERSONA>
+<PERSONA short="MARG.,CHIL.">Margaret Plantagenet, Countess of Salisbury, a young daughter of Clarence</PERSONA>
+<PERSONA short="GHOST. OF ED.">Ghost of Prince Edward of Lancaster</PERSONA>
+<PERSONA short="GHOST. OF HENRY.">Ghost of King Henry the Sixth</PERSONA>
 <PERSONA short="GHOST. OF C.">Ghost of Clarence</PERSONA>
 <PERSONA short="GHOST. OF H.">Ghost of Hastings</PERSONA>
 <PERSONA short="GHOSTS. PRINC.">Ghosts of The Two Young Princes</PERSONA>
@@ -79,6 +77,11 @@
 <PERSONA short="2. MESS.">Second Messenger</PERSONA>
 <PERSONA short="3. MESS.">Third Messenger</PERSONA>
 <PERSONA short="4. MESS.">Fourth Messenger</PERSONA>
+
+<PERSONA short="1. LORD. RICH.">First Lord to Richmond</PERSONA>
+<PERSONA short="2. LORD. RICH.">Second Lord to Richmond</PERSONA>
+<PERSONA short="MESS. QUEEN.">Messenger to the Queen</PERSONA>
+<PERSONA short="STAN. MESS.">Stanley Messenger</PERSONA>
 <PERSONA>Soldiers</PERSONA>
 </PERSONAE>
 
@@ -399,7 +402,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. Another street.</SCENELOCATION>
 <SCENEPERSONAE>(Henry the Sixth, Halberds, Lady Anne, Tressel, Berkeley, Richard Duke of Gloucester)</SCENEPERSONAE>
-<STAGEDIR>Enter the corse of Henry the Sixth, with Halberds to guard it, Lady Anne being the mourner, attended by Tressel and Berkeley.</STAGEDIR>
+<STAGEDIR>Enter the corpse of Henry the Sixth, with Halberds to guard it, Lady Anne being the mourner, attended by Tressel and Berkeley.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ANNE.</SPEAKER>
@@ -2845,7 +2848,7 @@
 <STAGEDIR>Enter the old Duchess of York with the two children of Clarence (Edward and Margaret Plantagenet).</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Good grandam, tell us, is our father dead?</LINE>
 </SPEECH>
 
@@ -2855,13 +2858,13 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>GIRL.</SPEAKER>
+<SPEAKER>MARG.</SPEAKER>
 <LINE>Why do you weep so oft, and beat your breast,</LINE>
 <LINE>And cry, &#8220;O Clarence, my unhappy son!&#8221;?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Why do you look on us, and shake your head,</LINE>
 <LINE>And call us orphans, wretches, castaways,</LINE>
 <LINE>If that our noble father were alive?</LINE>
@@ -2876,7 +2879,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Then you conclude, my grandam, he is dead.</LINE>
 <LINE>The King mine uncle is to blame for it.</LINE>
 <LINE>God will revenge it, whom I will importune</LINE>
@@ -2884,7 +2887,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>GIRL.</SPEAKER>
+<SPEAKER>MARG.</SPEAKER>
 <LINE>And so will I.</LINE>
 </SPEECH>
 
@@ -2896,7 +2899,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Grandam, we can; for my good uncle Gloucester</LINE>
 <LINE>Told me the King, provok&#8217;d to it by the Queen,</LINE>
 <LINE>Devis&#8217;d impeachments to imprison him;</LINE>
@@ -2915,7 +2918,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Think you my uncle did dissemble, grandam?</LINE>
 </SPEECH>
 
@@ -2925,7 +2928,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>I cannot think it. Hark, what noise is this?</LINE>
 </SPEECH>
 <STAGEDIR>Enter the Queen Elizabeth with her hair about her ears; Rivers and Dorset after her.</STAGEDIR>
@@ -2975,13 +2978,13 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>EDW.</SPEAKER>
 <LINE>Ah, aunt! you wept not for our father&#8217;s death;</LINE>
 <LINE>How can we aid you with our kindred tears?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>GIRL.</SPEAKER>
+<SPEAKER>MARG.</SPEAKER>
 <LINE>Our fatherless distress was left unmoan&#8217;d,</LINE>
 <LINE>Your widow-dolor likewise be unwept!</LINE>
 </SPEECH>
@@ -3329,7 +3332,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>London. The palace.</SCENELOCATION>
-<SCENEPERSONAE>(Archbishop of York, Duke of York, Queen Elizabeth, Duchess of York, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Archbishop of York, Duke of York, Queen Elizabeth, Duchess of York, Messenger to the Queen)</SCENEPERSONAE>
 <STAGEDIR>Enter Archbishop of York, the young Duke of York, the Queen Elizabeth, and the Duchess of York.</STAGEDIR>
 
 <SPEECH>
@@ -3444,7 +3447,7 @@
 <SPEAKER>Q. ELIZ.</SPEAKER>
 <LINE>Pitchers have ears.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Messenger to the Queen.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ARCH.</SPEAKER>
@@ -3452,7 +3455,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. QUEEN.</SPEAKER>
 <LINE>Such news, my lord, as grieves me to report.</LINE>
 </SPEECH>
 
@@ -3472,7 +3475,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. QUEEN.</SPEAKER>
 <LINE>Lord Rivers and Lord Grey are sent to Pomfret,</LINE>
 <LINE>And with them Sir Thomas Vaughan, prisoners.</LINE>
 </SPEECH>
@@ -3483,7 +3486,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. QUEEN.</SPEAKER>
 <LINE offset="5">The mighty dukes,</LINE>
 <LINE>Gloucester and Buckingham.</LINE>
 </SPEECH>
@@ -3494,7 +3497,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. QUEEN.</SPEAKER>
 <LINE>The sum of all I can I have disclos&#8217;d.</LINE>
 <LINE>Why, or for what, the nobles were committed</LINE>
 <LINE>Is all unknown to me, my gracious lord.</LINE>
@@ -4123,11 +4126,11 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before Lord Hastings&#8217; house.</SCENELOCATION>
-<SCENEPERSONAE>(Messenger, Lord Hastings, Catesby, Lord Stanley, Pursuivant, Priest, Buckingham)</SCENEPERSONAE>
+<SCENEPERSONAE>(Stanley Messenger, Lord Hastings, Catesby, Lord Stanley, Pursuivant, Priest, Buckingham)</SCENEPERSONAE>
 <STAGEDIR>Enter a Messenger to the door of Hastings.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>My lord! my lord!</LINE>
 </SPEECH>
 
@@ -4138,7 +4141,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>One from the Lord Stanley.</LINE>
 </SPEECH>
 
@@ -4149,7 +4152,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>Upon the stroke of four.</LINE>
 </SPEECH>
 <STAGEDIR>Enter Lord Hastings.</STAGEDIR>
@@ -4160,7 +4163,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>So it appears by that I have to say:</LINE>
 <LINE>First, he commends him to your noble self.</LINE>
 </SPEECH>
@@ -4171,7 +4174,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>Then certifies your lordship that this night</LINE>
 <LINE>He dreamt the boar had rased off his helm.</LINE>
 <LINE>Besides, he says there are two Councils kept;</LINE>
@@ -4203,7 +4206,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STAN. MESS.</SPEAKER>
 <LINE>I&#8217;ll go, my lord, and tell him what you say.</LINE>
 </SPEECH>
 <STAGEDIR>Exit.</STAGEDIR>
@@ -8036,7 +8039,7 @@
 
 <STAGEDIR>Sleeps.</STAGEDIR>
 
-<STAGEDIR>Enter the Ghost of young Prince Edward, son to Henry the Sixth, to Richard.</STAGEDIR>
+<STAGEDIR>Enter the Ghost of young Prince Edward of Lancaster, son to Henry the Sixth, to Richard.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GHOST. OF ED.</SPEAKER>
@@ -8051,7 +8054,7 @@
 <LINE>King Henry&#8217;s issue, Richmond, comforts thee.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter the Ghost of Henry the Sixth.</STAGEDIR>
+<STAGEDIR>Enter the Ghost of King Henry the Sixth.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GHOST. OF HENRY.</SPEAKER>
@@ -8107,7 +8110,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL</SPEAKER>
+<SPEAKER>ALL. GHOSTS.</SPEAKER>
 <STAGEDIR>To Richmond.</STAGEDIR>
 <LINE>Awake and think our wrongs in Richard&#8217;s bosom</LINE>
 <LINE>Will conquer him! Awake and win the day!</LINE>
@@ -8270,7 +8273,7 @@
 <STAGEDIR>Enter the Lords to Richmond sitting in his tent.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>LORDS.</SPEAKER>
+<SPEAKER>1. LORD. RICH.</SPEAKER>
 <LINE>Good morrow, Richmond!</LINE>
 </SPEECH>
 
@@ -8281,7 +8284,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORDS.</SPEAKER>
+<SPEAKER>2. LORD. RICH.</SPEAKER>
 <LINE>How have you slept, my lord?</LINE>
 </SPEECH>
 
@@ -8298,7 +8301,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORDS.</SPEAKER>
+<SPEAKER>1. LORD. RICH.</SPEAKER>
 <LINE>Upon the stroke of four.</LINE>
 </SPEECH>
 

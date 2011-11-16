@@ -9,7 +9,7 @@
 
 <PERSONAE>
 <PERSONA short="KING.">King Henry the Fourth</PERSONA>
-<PERSONA short="PRINCE.">Henry, Prince of Wales, son to the King</PERSONA>
+<PERSONA short="PRINCE.,THIEVES.">Henry, Prince of Wales, son to the King</PERSONA>
 <PERSONA short="LAN.">Prince John of Lancaster, son to the King</PERSONA>
 <PERSONA short="WEST.">Earl of Westmorland</PERSONA>
 <PERSONA short="BLUNT.">Sir Walter Blunt</PERSONA>
@@ -23,7 +23,7 @@
 <PERSONA short="VER.">Sir Richard Vernon</PERSONA>
 <PERSONA short="FAL.">Sir John Falstaff</PERSONA>
 <PERSONA short="SIR M.">Sir Michael, of the household of the Archbishop of York</PERSONA>
-<PERSONA short="POINS.">Edward Poins, gentleman-in-waiting to Prince Henry</PERSONA>
+<PERSONA short="POINS.,THIEVES.">Edward Poins, gentleman-in-waiting to Prince Henry</PERSONA>
 <PERSONA short="GADS.">Gadshill</PERSONA>
 <PERSONA short="PETO.">Peto</PERSONA>
 <PERSONA short="BARD.">Bardolph</PERSONA>
@@ -1113,7 +1113,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Rochester. An inn yard.</SCENELOCATION>
-<SCENEPERSONAE>(Carriers, Gadshill, Chamberlain)</SCENEPERSONAE>
+<SCENEPERSONAE>(Carriers, Gadshill, Chamberlain, Ostler)</SCENEPERSONAE>
 <STAGEDIR>Enter a Carrier with a lantern in his hand.</STAGEDIR>
 
 <SPEECH>
@@ -1328,9 +1328,9 @@
 
 <SPEECH>
 <SPEAKER>FAL.</SPEAKER>
-<LINE>I am accurs&#8217;d to rob in that thieve&#8217;s company. The rascal hath remov&#8217;d my horse, and tied him I know not where. If I travel but four foot by the squier further afoot, I shall break my wind. Well, I doubt not but to die a fair death for all this, if I scape hanging for killing that rogue. I have forsworn his company hourly any time this two and twenty years, and yet I am bewitch&#8217;d with the rogue&#8217;s company. If the rascal have not given me medicines to make me love him, I&#8217;ll be hang&#8217;d. It could not be else, I have drunk medicines. Poins! Hal! a plague upon you both! Bardolph! Peto! I&#8217;ll starve ere I&#8217;ll rob a foot further. And &#8217;twere not as good a deed as drink to turn true man and to leave these rogues, I am the veriest varlet that ever chew&#8217;d with a tooth. Eight yards of uneven ground is threescore and ten miles afoot with me, and the stony-hearted villains know it well enough. A plague upon it when thieves cannot be true one to another!</LINE>
+<LINE>I am accurs&#8217;d to rob in that thieve&#8217;s company. The rascal hath remov&#8217;d my horse, and tied him I know not where. If I travel but four foot by the squier further afoot, I shall break my wind. Well, I doubt not but to die a fair death for all this, if I scape hanging for killing that rogue. I have forsworn his company hourly any time this two and twenty years, and yet I am bewitch&#8217;d with the rogue&#8217;s company. If the rascal have not given me medicines to make me love him, I&#8217;ll be hang&#8217;d. It could not be else, I have drunk medicines. Poins! Hal! A plague upon you both! Bardolph! Peto! I&#8217;ll starve ere I&#8217;ll rob a foot further. And &#8217;twere not as good a deed as drink to turn true man and to leave these rogues, I am the veriest varlet that ever chew&#8217;d with a tooth. Eight yards of uneven ground is threescore and ten miles afoot with me, and the stony-hearted villains know it well enough. A plague upon it when thieves cannot be true one to another!</LINE>
 <STAGEDIR>They whistle.</STAGEDIR>
-<LINE>Whew! a plague upon you all! Give me my horse, you rogues, give me my horse, and be hang&#8217;d!</LINE>
+<LINE>Whew! A plague upon you all! Give me my horse, you rogues, give me my horse, and be hang&#8217;d!</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1356,7 +1356,7 @@
 
 <SPEECH>
 <SPEAKER>PRINCE.</SPEAKER>
-<LINE>Out, ye rogue! shall I be your ostler?</LINE>
+<LINE>Out, ye rogue! Shall I be your ostler?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1490,7 +1490,7 @@
 
 <SPEECH>
 <SPEAKER>FAL.</SPEAKER>
-<LINE>Strike! down with them! cut the villains&#8217; throats! Ah, whoreson caterpillars! bacon-fed knaves! they hate us youth. Down with them! fleece them!</LINE>
+<LINE>Strike! Down with them! Cut the villains&#8217; throats! Ah, whoreson caterpillars! Bacon-fed knaves! They hate us youth. Down with them! Fleece them!</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1506,7 +1506,6 @@
 <STAGEDIR>Here they rob them and bind them. Exeunt.</STAGEDIR>
 
 <STAGEDIR>Enter the Prince and Poins in buckram.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>PRINCE.</SPEAKER>
@@ -2698,7 +2697,7 @@
 
 <STAGEDIR>Exeunt all except the Prince and Peto.</STAGEDIR>
 
-<STAGEDIR>Enter Sheriff and the Carrier.</STAGEDIR>
+<STAGEDIR>Enter Sheriff and the First Carrier.</STAGEDIR>
 <LINE>Now, Master Sheriff, what is your will with me?</LINE>
 </SPEECH>
 
@@ -4020,7 +4019,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The rebel camp near Shrewsbury.</SCENELOCATION>
-<SCENEPERSONAE>(Hotspur, Worcester, Douglas, Messenger, Sir Richard Vernon)</SCENEPERSONAE>
+<SCENEPERSONAE>(Hotspur, Worcester, Douglas, First Messenger, Sir Richard Vernon)</SCENEPERSONAE>
 <STAGEDIR>Enter Hotspur, Worcester, and Douglas.</STAGEDIR>
 
 <SPEECH>
@@ -4051,7 +4050,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>These letters come from your father.</LINE>
 </SPEECH>
 
@@ -4061,7 +4060,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>He cannot come, my lord, he is grievous sick.</LINE>
 </SPEECH>
 
@@ -4073,7 +4072,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>His letters bears his mind, not I, my lord.</LINE>
 </SPEECH>
 
@@ -4083,7 +4082,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>He did, my lord, four days ere I set forth,</LINE>
 <LINE>And at the time of my departure thence</LINE>
 <LINE>He was much fear&#8217;d by his physicians.</LINE>
@@ -4976,7 +4975,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The rebel camp.</SCENELOCATION>
-<SCENEPERSONAE>(Worcester, Sir Richard Vernon, Percy Hotspur, Douglas, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Worcester, Sir Richard Vernon, Percy Hotspur, Douglas, Second Messenger, Third Messenger)</SCENEPERSONAE>
 <STAGEDIR>Enter Worcester, Sir Richard Vernon.</STAGEDIR>
 
 <SPEECH>
@@ -5129,10 +5128,10 @@
 <LINE>Than I, that have not well the gift of tongue,</LINE>
 <LINE>Can lift your blood up with persuasion.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. MESS.</SPEAKER>
 <LINE>My lord, here are letters for you.</LINE>
 </SPEECH>
 
@@ -5148,10 +5147,10 @@
 <LINE>Now for our consciences, the arms are fair</LINE>
 <LINE>When the intent of bearing them is just.</LINE>
 </SPEECH>
-<STAGEDIR>Enter another Messenger.</STAGEDIR>
+<STAGEDIR>Enter Third Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. MESS.</SPEAKER>
+<SPEAKER>3. MESS.</SPEAKER>
 <LINE>My lord, prepare, the King comes on apace.</LINE>
 </SPEECH>
 
