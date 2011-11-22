@@ -37,8 +37,8 @@
 <PERSONA>Attendants</PERSONA>
 </PERSONAE>
 
-
-
+BOY. 
+<PERSONA short="FRI. PET.">Friar Peter Thomas</PERSONA>
 
 <ACT>
 <ACTTITLE>Act 1</ACTTITLE>
@@ -700,8 +700,8 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A monastery.</SCENELOCATION>
-<SCENEPERSONAE>(Duke, Friar Thomas)</SCENEPERSONAE>
-<STAGEDIR>Enter Duke and Friar Thomas.</STAGEDIR>
+<SCENEPERSONAE>(Duke, Friar Peter)</SCENEPERSONAE>
+<STAGEDIR>Enter Duke and Friar Peter.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DUKE.</SPEAKER>
@@ -714,7 +714,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. T.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE offset="4">May your Grace speak of it?</LINE>
 </SPEECH>
 
@@ -734,7 +734,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. T.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Gladly, my lord.</LINE>
 </SPEECH>
 
@@ -756,7 +756,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. T.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE offset="4">It rested in your Grace</LINE>
 <LINE>To unloose this tied-up justice when you pleas&#8217;d:</LINE>
 <LINE>And it in you more dreadful would have seem&#8217;d</LINE>
@@ -3818,12 +3818,15 @@
 
 <STAGEDIR>Song</STAGEDIR>
 
-<LINE>Take, O, take those lips away,</LINE>
-<LINE offset="2">That so sweetly were forsworn,</LINE>
-<LINE>And those eyes, the break of day,</LINE>
-<LINE offset="2">Lights that do mislead the morn;</LINE>
-<LINE>But my kisses bring again, bring again,</LINE>
-<LINE>Seals of love, but seal&#8217;d in vain, seal&#8217;d in vain.</LINE>
+<SPEECH>
+<SPEAKER>BOY.</SPEAKER>
+<LINE type="lyric">Take, O, take those lips away,</LINE>
+<LINE type="lyric">That so sweetly were forsworn,</LINE>
+<LINE type="lyric">And those eyes, the break of day,</LINE>
+<LINE type="lyric">Lights that do mislead the morn;</LINE>
+<LINE type="lyric">But my kisses bring again, bring again,</LINE>
+<LINE type="lyric">Seals of love, but seal&#8217;d in vain, seal&#8217;d in vain.</LINE>
+</SPEECH>
 
 <STAGEDIR>Enter Duke disguised as a friar.</STAGEDIR>
 
@@ -3832,7 +3835,6 @@
 <LINE>Break off thy song, and haste thee quick away.</LINE>
 <LINE>Here comes a man of comfort, whose advice</LINE>
 <LINE>Hath often still&#8217;d my brawling discontent.</LINE>
-
 <STAGEDIR>Exit Boy.</STAGEDIR>
 <LINE>I cry you mercy, sir, and well could wish</LINE>
 <LINE>You had not found me here so musical.</LINE>
@@ -4941,7 +4943,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE offset="5">It shall be speeded well.</LINE>
 </SPEECH>
 
@@ -5000,7 +5002,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Come, I have found you out a stand most fit,</LINE>
 <LINE>Where you may have such vantage on the Duke,</LINE>
 <LINE>He shall not pass you. Twice have the trumpets sounded;</LINE>
@@ -5064,7 +5066,7 @@
 <STAGEDIR>Enter Friar Peter and Isabella.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Now is your time: speak loud, and kneel before him.</LINE>
 </SPEECH>
 
@@ -5362,7 +5364,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Blessed be your royal Grace!</LINE>
 <LINE>I have stood by, my lord, and I have heard</LINE>
 <LINE>Your royal ear abus&#8217;d. First, hath this woman</LINE>
@@ -5378,7 +5380,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>I know him for a man divine and holy,</LINE>
 <LINE>Not scurvy, nor a temporary meddler,</LINE>
 <LINE>As he&#8217;s reported by this gentleman;</LINE>
@@ -5392,7 +5394,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Well; he in time may come to clear himself;</LINE>
 <LINE>But at this instant he is sick, my lord,</LINE>
 <LINE>Of a strange fever. Upon his mere request,</LINE>
@@ -5634,7 +5636,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FRI. P.</SPEAKER>
+<SPEAKER>FRI. PET.</SPEAKER>
 <LINE>Would he were here, my lord, for he indeed</LINE>
 <LINE>Hath set the women on to this complaint.</LINE>
 <LINE>Your Provost knows the place where he abides,</LINE>

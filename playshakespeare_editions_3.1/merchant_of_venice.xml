@@ -22,7 +22,7 @@
 <PERSONA short="GOB.">Old Gobbo, father to Launcelot</PERSONA>
 <PERSONA short="LEON.">Leonardo, servant to Bassanio</PERSONA>
 <PERSONA short="BALTH.">Balthazar, servant to Portia</PERSONA>
-<PERSONA short="MESS.">Stephano, servant to Portia</PERSONA>
+<PERSONA short="STEPH.">Stephano, servant to Portia</PERSONA>
 <PERSONA short="POR.">Portia, a rich heiress, of Belmont</PERSONA>
 <PERSONA short="NER.">Nerissa, waiting-gentlewoman to Portia</PERSONA>
 <PERSONA short="JES.">Jessica, daughter to Shylock</PERSONA>
@@ -33,6 +33,10 @@
 <PERSONA short="SING.">Singer</PERSONA>
 <PERSONA>Attendants</PERSONA>
 </PERSONAE>
+
+
+ANT. SERV.  Antonio's Servant
+
 
 
 <ACT>
@@ -2057,7 +2061,7 @@
 <SCENE>
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>Belmont. A room in Portia&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Nerissa, Servitor, Prince of Arragon, Portia, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Nerissa, Servitor, Prince of Arragon, Portia, Stephano)</SCENEPERSONAE>
 <STAGEDIR>Enter Nerissa and a Servitor.</STAGEDIR>
 
 <SPEECH>
@@ -2198,10 +2202,10 @@
 <SPEAKER>POR.</SPEAKER>
 <LINE>Come draw the curtain, Nerissa.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Messenger.</STAGEDIR>
+<STAGEDIR>Enter Stephano.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STEPH.</SPEAKER>
 <LINE>Where is my lady?</LINE>
 </SPEECH>
 
@@ -2211,7 +2215,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STEPH.</SPEAKER>
 <LINE>Madam, there is alighted at your gate</LINE>
 <LINE>A young Venetian, one that comes before</LINE>
 <LINE>To signify th&#8217; approaching of his lord,</LINE>
@@ -2247,7 +2251,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Venice. A street.</SCENELOCATION>
-<SCENEPERSONAE>(Solanio, Salerio, Shylock, Servingman, Tubal)</SCENEPERSONAE>
+<SCENEPERSONAE>(Solanio, Salerio, Shylock, Antonio&#8217;s Servant, Tubal)</SCENEPERSONAE>
 <STAGEDIR>Enter Solanio and Salerio.</STAGEDIR>
 
 <SPEECH>
@@ -2263,7 +2267,6 @@
 <SPEECH>
 <SPEAKER>SOL.</SPEAKER>
 <LINE>I would she were as lying a gossip in that as ever knapp&#8217;d ginger or made her neighbors believe she wept for the death of a third husband. But it is true, without any slips of prolixity, or crossing the plain highway of talk, that the good Antonio, the honest Antonio&#8212;O that I had a title good enough to keep his name company!&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -2351,7 +2354,7 @@
 <STAGEDIR>Enter a Servingman from Antonio.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>ANT. SERV.</SPEAKER>
 <LINE>Gentlemen, my master Antonio is at his house, and desires to speak with you both.</LINE>
 </SPEECH>
 
@@ -4503,7 +4506,6 @@
 <LINE>Come, good sir, will you show me to this house?</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -4514,7 +4516,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Belmont. Avenue to Portia&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Lorenzo, Jessica, Messengers, Launcelot, Musicians, Portia, Nerissa, Bassanio, Antonio, Gratiano, Followers)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lorenzo, Jessica, Stephano, Launcelot, Musicians, Portia, Nerissa, Bassanio, Antonio, Gratiano, Followers)</SCENEPERSONAE>
 <STAGEDIR>Enter Lorenzo and Jessica.</STAGEDIR>
 
 <SPEECH>
@@ -4578,7 +4580,7 @@
 <LINE>I would out-night you, did nobody come;</LINE>
 <LINE>But hark, I hear the footing of a man.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Stephano.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LOR.</SPEAKER>
@@ -4586,7 +4588,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STEPH.</SPEAKER>
 <LINE>A friend.</LINE>
 </SPEECH>
 
@@ -4596,7 +4598,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STEPH.</SPEAKER>
 <LINE>Stephano is my name, and I bring word</LINE>
 <LINE>My mistress will before the break of day</LINE>
 <LINE>Be here at Belmont. She doth stray about</LINE>
@@ -4610,7 +4612,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>STEPH.</SPEAKER>
 <LINE>None but a holy hermit and her maid.</LINE>
 <LINE>I pray you, is my master yet return&#8217;d?</LINE>
 </SPEECH>
@@ -4660,7 +4662,6 @@
 </SPEECH>
 <STAGEDIR>Exit.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>LOR.</SPEAKER>
 <LINE>Sweet soul, let&#8217;s in, and there expect their coming.</LINE>
@@ -4669,7 +4670,7 @@
 <LINE>Within the house, your mistress is at hand,</LINE>
 <LINE>And bring your music forth into the air.</LINE>
 
-<STAGEDIR>Exit Messenger.</STAGEDIR>
+<STAGEDIR>Exit Stephano.</STAGEDIR>
 <LINE>How sweet the moonlight sleeps upon this bank!</LINE>
 <LINE>Here will we sit, and let the sounds of music</LINE>
 <LINE>Creep in our ears. Soft stillness and the night</LINE>

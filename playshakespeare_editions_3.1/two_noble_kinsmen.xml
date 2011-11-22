@@ -18,7 +18,7 @@
 <PERSONA short="3. KNIGHT., ALL KNIGHTS.">Third Knight</PERSONA>
 <PERSONA short="ALL KNIGHTS.">All Six Knights</PERSONA>
 <PERSONA short="HER.">Herald</PERSONA>
-<PERSONA short="JAIL.">Jailer (also called Keeper)</PERSONA>
+<PERSONA short="JAIL.">Jailer</PERSONA>
 <PERSONA short="WOOER.">Wooer to the Jailer&#8217;s Daughter</PERSONA>
 <PERSONA short="DOCT.">Doctor, to the Jailer</PERSONA>
 <PERSONA short="BROTH.">Brother, to the Jailer</PERSONA>
@@ -56,7 +56,6 @@
 
 <ACT>
 <ACTTITLE>Act 1</ACTTITLE>
-
 
 <PROLOGUE>
 <SCENETITLE>Prologue</SCENETITLE>
@@ -1245,7 +1244,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The prison.</SCENELOCATION>
-<SCENEPERSONAE>(Palamon, Arcite, Emilia, Woman, Keeper)</SCENEPERSONAE>
+<SCENEPERSONAE>(Palamon, Arcite, Emilia, Woman, Jailer)</SCENEPERSONAE>
 <STAGEDIR>Enter Palamon, and Arcite in prison.</STAGEDIR>
 
 <SPEECH>
@@ -1877,7 +1876,7 @@
 <LINE>And pitch between her arms to anger thee.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Keeper above.</STAGEDIR>
+<STAGEDIR>Enter Jailer above.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAL.</SPEAKER>
@@ -1917,7 +1916,7 @@
 <LINE>Of your fair cousin&#8217;s company.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Arcite and Keeper.</STAGEDIR>
+<STAGEDIR>Exeunt Arcite and Jailer.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAL.</SPEAKER>
@@ -1942,7 +1941,7 @@
 <LINE>So near the gods in nature, they should fear her;</LINE>
 <LINE>And then I am sure she would love me.</LINE>
 
-<STAGEDIR>Enter Keeper above.</STAGEDIR>
+<STAGEDIR>Enter Jailer above.</STAGEDIR>
 
 <LINE offset="8">How now, keeper,</LINE>
 <LINE>Where&#8217;s Arcite?</LINE>
@@ -2067,7 +2066,7 @@
 <LINE>Dream how I suffer!&#8212;Come; now bury me.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Palamon and Keeper.</STAGEDIR> 
+<STAGEDIR>Exeunt Palamon and Jailer.</STAGEDIR> 
 
 </SCENE>
 
@@ -3265,12 +3264,12 @@
 
 <STAGEDIR>Sing.</STAGEDIR>
 
-<LINE>&#8220;For I&#8217;ll cut my green coat a foot above my knee,</LINE>
-<LINE>And I&#8217;ll clip my yellow locks an inch below mine e&#8217;e.</LINE>
-<LINE offset="2">Hey, nonny, nonny, nonny.</LINE>
-<LINE>He s&#8217; buy me a white cut, forth for to ride,</LINE>
-<LINE>And I&#8217;ll go seek him through the world that is so wide.</LINE>
-<LINE offset="2">Hey, nonny, nonny, nonny.&#8221;</LINE>
+<LINE type="lyric">&#8220;For I&#8217;ll cut my green coat a foot above my knee,</LINE>
+<LINE type="lyric">And I&#8217;ll clip my yellow locks an inch below mine e&#8217;e.</LINE>
+<LINE type="lyric">Hey, nonny, nonny, nonny.</LINE>
+<LINE type="lyric">He s&#8217; buy me a white cut, forth for to ride,</LINE>
+<LINE type="lyric">And I&#8217;ll go seek him through the world that is so wide.</LINE>
+<LINE type="lyric">Hey, nonny, nonny, nonny.&#8221;</LINE>
 <LINE>O for a prick now, like a nightingale,</LINE>
 <LINE>To put my breast against! I shall sleep like a top else.</LINE>
 </SPEECH>
@@ -3451,19 +3450,19 @@
 <SPEECH>
 <SPEAKER>DAUGH.</SPEAKER>
 <STAGEDIR>Sings.</STAGEDIR>
-<LINE offset="2">&#8220;The George Alow came from the south,</LINE>
-<LINE offset="2">From the coast of Barbary-a;</LINE>
-<LINE offset="2">And there he met with brave gallants of war,</LINE>
-<LINE offset="2">By one, by two, by three-a.</LINE>
-<LINE offset="2">Well hail&#8217;d, well hail&#8217;d, you jolly gallants!</LINE>
-<LINE offset="2">And whither now are you bound-a?</LINE>
-<LINE offset="2">O, let me have your company</LINE>
-<LINE offset="2">Till I come to the sound-a.&#8221;</LINE>
-<LINE offset="2">&#8220;There was three fools fell out about an howlet:</LINE>
-<LINE offset="2">The one said it was an owl,</LINE>
-<LINE offset="2">The other he said nay,</LINE>
-<LINE offset="2">The third he said it was a hawk,</LINE>
-<LINE offset="2">And her bells were cut away.&#8221;</LINE>
+<LINE type="lyric">&#8220;The George Alow came from the south,</LINE>
+<LINE type="lyric">From the coast of Barbary-a;</LINE>
+<LINE type="lyric">And there he met with brave gallants of war,</LINE>
+<LINE type="lyric">By one, by two, by three-a.</LINE>
+<LINE type="lyric">Well hail&#8217;d, well hail&#8217;d, you jolly gallants!</LINE>
+<LINE type="lyric">And whither now are you bound-a?</LINE>
+<LINE type="lyric">O, let me have your company</LINE>
+<LINE type="lyric">Till I come to the sound-a.&#8221;</LINE>
+<LINE type="lyric">&#8220;There was three fools fell out about an howlet:</LINE>
+<LINE type="lyric">The one said it was an owl,</LINE>
+<LINE type="lyric">The other he said nay,</LINE>
+<LINE type="lyric">The third he said it was a hawk,</LINE>
+<LINE type="lyric">And her bells were cut away.&#8221;</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -4598,7 +4597,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Athens. A room in the prison.</SCENELOCATION>
-<SCENEPERSONAE>(Jailer, Two Friends, Wooer, Brother, Daughter)</SCENEPERSONAE>
+<SCENEPERSONAE>(Jailer, Two Friends, Wooer, Jailer&#8217;s Brother Daughter)</SCENEPERSONAE>
 <STAGEDIR>Enter Jailer and his Friend.</STAGEDIR>
 
 <SPEECH>
@@ -4896,12 +4895,12 @@
 <SPEECH>
 <SPEAKER>DAUGH.</SPEAKER>
 <STAGEDIR>Sings.</STAGEDIR>
-<LINE>&#8220;May you never more enjoy the light,&#8221; etc.</LINE>
+<LINE type="lyric">&#8220;May you never more enjoy the light,&#8221; etc.</LINE>
 <LINE>Is not this a fine song?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="5">O, a very fine one!</LINE>
 </SPEECH>
 
@@ -4911,7 +4910,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="5">I think you can.</LINE>
 </SPEECH>
 
@@ -4922,7 +4921,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE>Yes.</LINE>
 </SPEECH>
 
@@ -4932,7 +4931,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="7">I&#8217;ll bring it tomorrow.</LINE>
 </SPEECH>
 
@@ -4945,11 +4944,11 @@
 
 <STAGEDIR>Sings.</STAGEDIR>
 
-<LINE>&#8220;O fair, O sweet,&#8221; etc.</LINE>
+<LINE type="lyric">&#8220;O fair, O sweet,&#8221; etc.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE>You must ev&#8217;n take it patiently.</LINE>
 </SPEECH>
 
@@ -4980,7 +4979,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE>By no mean cross her, she is then distemper&#8217;d</LINE>
 <LINE>Far worse than now she shows.</LINE>
 </SPEECH>
@@ -5055,7 +5054,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="3">Heaven forbid, man!</LINE>
 </SPEECH>
 
@@ -5111,7 +5110,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="6">Let&#8217;s get her in.</LINE>
 </SPEECH>
 
@@ -5121,7 +5120,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BROTH.</SPEAKER>
+<SPEAKER>JAIL. BROTH.</SPEAKER>
 <LINE offset="4">Where&#8217;s the pilot?</LINE>
 </SPEECH>
 
@@ -5147,7 +5146,7 @@
 
 <STAGEDIR>Sings.</STAGEDIR>
 
-<LINE>&#8220;When Cynthia with her borrowed light,&#8221; etc.</LINE>
+<LINE type="lyric">&#8220;When Cynthia with her borrowed light,&#8221; etc.</LINE>
 </SPEECH>
 
 <STAGEDIR>Exeunt.</STAGEDIR> 
@@ -5281,7 +5280,7 @@
 <LINE offset="5">And I.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Messenger.</STAGEDIR>
+<STAGEDIR>Enter First Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THE.</SPEAKER>
@@ -5289,7 +5288,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="6">From the knights.</LINE>
 </SPEECH>
 
@@ -5300,7 +5299,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="8">I will, sir,</LINE>
 <LINE>And truly what I think. Six braver spirits</LINE>
 <LINE>Than these they have brought (if we judge by the outside)</LINE>
@@ -5376,7 +5375,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="6">There&#8217;s another,</LINE>
 <LINE>A little man, but of a tough soul, seeming</LINE>
 <LINE>As great as any. Fairer promises</LINE>
@@ -5389,7 +5388,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="5">The same, my lord.</LINE>
 <LINE>Are they not sweet ones?</LINE>
 </SPEECH>
@@ -5400,7 +5399,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="9">Methinks,</LINE>
 <LINE>Being so few and well dispos&#8217;d, they show</LINE>
 <LINE>Great and fine art in nature. He&#8217;s white-hair&#8217;d,</LINE>
@@ -5556,7 +5555,7 @@
 <LINE>To hear there a proud lady and a proud city-wife howl together! I were a beast and I&#8217;ld call it good sport. One cries, &#8220;O, this smoke!&#8221; th&#8217; other, &#8220;This fire!&#8221; One cries, &#8220;O, that ever I did it behind the arras!&#8221; and then howls; th&#8217; other curses a suing fellow and her garden-house.</LINE>
 
 <STAGEDIR>Sings.</STAGEDIR>
-<LINE>&#8220;I will be true, my stars, my fate,&#8221; etc.</LINE>
+<LINE type="lyric">&#8220;I will be true, my stars, my fate,&#8221; etc.</LINE>
 </SPEECH>
 
 <STAGEDIR>Exit Daughter.</STAGEDIR>
@@ -5788,7 +5787,7 @@
 <LINE>If they had mothers; I had one, a woman,</LINE>
 <LINE>And women &#8217;twere they wrong&#8217;d. I knew a man</LINE>
 <LINE>Of eighty winters&#8212;this I told them&#8212;who</LINE>
-<LINE>A lass of fourteen brided. &#8217;twas thy power</LINE>
+<LINE>A lass of fourteen brided. &#8217;Twas thy power</LINE>
 <LINE>To put life into dust: the aged cramp</LINE>
 <LINE>Had screw&#8217;d his square foot round,</LINE>
 <LINE>The gout had knit his fingers into knots,</LINE>
@@ -5879,7 +5878,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>A darkened Room in the Prison.</SCENELOCATION>
-<SCENEPERSONAE>(Doctor, Jailer, Wooer, Daughter, Maid, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Doctor, Jailer, Wooer, Daughter, Maid, First Messenger)</SCENEPERSONAE>
 <STAGEDIR>Enter Doctor, Jailer, and Wooer in habit of Palamon.</STAGEDIR>
 
 <SPEECH>
@@ -6311,7 +6310,7 @@
 <LINE>But I&#8217;ll kiss him up again.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter First Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>MESS.</SPEAKER>
@@ -6325,7 +6324,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="8">They are.</LINE>
 <LINE>You bear a charge there too.</LINE>
 </SPEECH>
@@ -6590,7 +6589,7 @@
 
 <SPEECH>
 <SPEAKER>EMIL.</SPEAKER>
-<LINE>Then he has won. &#8217;twas ever likely:</LINE>
+<LINE>Then he has won. &#8217;Twas ever likely:</LINE>
 <LINE>He look&#8217;d all grace and success, and he is</LINE>
 <LINE>Doubtless the prim&#8217;st of men. I prithee run</LINE>
 <LINE>And tell me how it goes.</LINE>
@@ -6765,7 +6764,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>The same; a Block prepared.</SCENELOCATION>
-<SCENEPERSONAE>(Palamon, Three Knights, Jailer, Executioner, Guard, Messenger, Pirithous, Theseus, Hippolyta, Emilia, Arcite)</SCENEPERSONAE>
+<SCENEPERSONAE>(Palamon, Three Knights, Jailer, Executioner, Guard, Second Messenger, Pirithous, Theseus, Hippolyta, Emilia, Arcite)</SCENEPERSONAE>
 <STAGEDIR>A block ready. Enter Palamon and his Knights pinion&#8217;d, Jailer, Executioner, etc., Guard.</STAGEDIR>
 
 <SPEECH>
@@ -6890,7 +6889,7 @@
 <STAGEDIR>Enter in haste a Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. MESS.</SPEAKER>
 <LINE>Hold, hold! O, hold, hold, hold!</LINE>
 </SPEECH>
 
@@ -7064,7 +7063,6 @@
 <STAGEDIR>Flourish. Exeunt.</STAGEDIR> 
 </SCENE>
 
-
 <EPILOGUE>
 <SCENETITLE>Epilogue</SCENETITLE>
 <SCENEPERSONAE>(Epilogue)</SCENEPERSONAE>
@@ -7094,10 +7092,7 @@
 
 </EPILOGUE>
 
-
 </ACT>
-
-
 
 <AUTHORDETAILS>
 <AUTHOR>PlayShakespeare.com</AUTHOR>

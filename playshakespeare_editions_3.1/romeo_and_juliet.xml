@@ -13,7 +13,6 @@
 <PERSONA short="PAR.">Paris, a young nobleman, kinsman to the Prince</PERSONA>
 <PERSONA short="MON.">Montague, head of house at variance with Capulets</PERSONA>
 <PERSONA short="CAP.">Capulet, head of house at variance with Montagues</PERSONA>
-<PERSONA short="2. CAP.">An Old Man, of the Capulet family</PERSONA>
 <PERSONA short="ROM.">Romeo, son to Montague</PERSONA>
 <PERSONA short="MER.">Mercutio, kinsman to the Prince, and friend to Romeo</PERSONA>
 <PERSONA short="BEN.">Benvolio, nephew to Montague, and friend to Romeo</PERSONA>
@@ -25,7 +24,6 @@
 <PERSONA short="ABR.">Abram, servant to Montague</PERSONA>
 <PERSONA short="SAM.">Sampson, servant to Capulet</PERSONA>
 <PERSONA short="GRE.">Gregory, servant to Capulet</PERSONA>
-<PERSONA short="CLOWN.">Clown, servant to Capulet</PERSONA>
 <PERSONA short="PET.">Peter, servant to Juliet&#8217;s nurse</PERSONA>
 <PERSONA short="PAGE.">Page to Paris</PERSONA>
 <PERSONA short="AP.">Apothecary</PERSONA>
@@ -53,6 +51,10 @@
 <PERSONA short="2. SERV.">Second Servant</PERSONA>
 <PERSONA>Attendants</PERSONA>
 </PERSONAE>
+
+2. SERV.  Second Servingman
+OLD. CAP.   Old Capulet
+
 
 
 <ACT>
@@ -717,8 +719,8 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>A street.</SCENELOCATION>
-<SCENEPERSONAE>(Capulet, County Paris, Clown, Benvolio, Romeo)</SCENEPERSONAE>
-<STAGEDIR>Enter Capulet, County Paris, and the Clown, Capulet&#8217;s Servant.</STAGEDIR>
+<SCENEPERSONAE>(Capulet, County Paris, Second Servingman, Benvolio, Romeo)</SCENEPERSONAE>
+<STAGEDIR>Enter Capulet, County Paris, and Second Servingman, the clown.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAP.</SPEAKER>
@@ -773,7 +775,7 @@
 <LINE>May stand in number, though in reck&#8217;ning none.</LINE>
 <LINE>Come go with me.</LINE>
 
-<STAGEDIR>To Servant.</STAGEDIR>
+<STAGEDIR>To Second Servingman.</STAGEDIR>
 <LINE>Go, sirrah, trudge about</LINE>
 <LINE>Through fair Verona, find those persons out</LINE>
 <LINE>Whose names are written there, and to them say,</LINE>
@@ -783,7 +785,7 @@
 <STAGEDIR>Exit with Paris.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>Find them out whose names are written here! It is written that the shoemaker should meddle with his yard and the tailor with his last, the fisher with his pencil and the painter with his nets; but I am sent to find those persons whose names are here writ, and can never find what names the writing person hath here writ. I must to the learned. In good time!</LINE>
 </SPEECH>
 <STAGEDIR>Enter Benvolio and Romeo.</STAGEDIR>
@@ -826,7 +828,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>God gi&#8217; god-den. I pray, sir, can you read?</LINE>
 </SPEECH>
 
@@ -847,7 +849,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>Ye say honestly, rest you merry!</LINE>
 </SPEECH>
 
@@ -859,7 +861,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>Up.</LINE>
 </SPEECH>
 
@@ -869,7 +871,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>To our house.</LINE>
 </SPEECH>
 
@@ -879,7 +881,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>My master&#8217;s.</LINE>
 </SPEECH>
 
@@ -889,7 +891,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLOWN.</SPEAKER>
+<SPEAKER>2. SERV.</SPEAKER>
 <LINE>Now I&#8217;ll tell you without asking. My master is the great rich Capulet, and if you be not of the house of Montagues, I pray come and crush a cup of wine. Rest you merry!</LINE>
 </SPEECH>
 <STAGEDIR>Exit.</STAGEDIR>
@@ -937,7 +939,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A room in Capulet&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Lady Capulet, Nurse, Juliet, Servingman)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lady Capulet, Nurse, Juliet, First Servingman)</SCENEPERSONAE>
 <STAGEDIR>Enter Capulet&#8217;s Wife, and Nurse.</STAGEDIR>
 
 
@@ -1148,10 +1150,10 @@
 <LINE>But no more deep will I endart mine eye</LINE>
 <LINE>Than your consent gives strength to make it fly.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Servingman.</STAGEDIR>
+<STAGEDIR>Enter First Servingman.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. SERV.</SPEAKER>
 <LINE>Madam, the guests are come, supper serv&#8217;d up, you call&#8217;d, my young lady ask&#8217;d for, the nurse curs&#8217;d in the pantry, and every thing in extremity. I must hence to wait; I beseech you follow straight.</LINE>
 </SPEECH>
 <STAGEDIR>Exit.</STAGEDIR>
@@ -1415,7 +1417,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>A hall in Capulet&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Servingmen, Anthony, Potpan, Capulet, Lady Capulet, Juliet, Tybalt, Nurse, Servingmen, Guests, Gentlewomen, Maskers)</SCENEPERSONAE>
+<SCENEPERSONAE>(Anthony, Potpan, Capulet, Lady Capulet, Old Capulet, Juliet, Tybalt, Nurse, Servingmen, Guests, Gentlewomen, Maskers)</SCENEPERSONAE>
 <STAGEDIR>And Servingmen come forth with napkins.</STAGEDIR>
 
 <SPEECH>
@@ -1452,7 +1454,7 @@
 </SPEECH>
 <STAGEDIR>Exeunt.</STAGEDIR>
 
-<STAGEDIR>Enter Capulet, Lady Capulet, Juliet, Tybalt, Nurse, Servingmen, and all the Guests and Gentlewomen to the Maskers.</STAGEDIR>
+<STAGEDIR>Enter Capulet, Lady Capulet, Old Capulet, Juliet, Tybalt, Nurse, Servingmen, and all the Guests and Gentlewomen to the Maskers.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAP.</SPEAKER>
@@ -1479,7 +1481,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. CAP.</SPEAKER>
+<SPEAKER>OLD. CAP.</SPEAKER>
 <LINE offset="3">By&#8217;r lady, thirty years.</LINE>
 </SPEECH>
 
@@ -1492,7 +1494,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. CAP.</SPEAKER>
+<SPEAKER>OLD. CAP.</SPEAKER>
 <LINE>&#8217;Tis more, &#8217;tis more. His son is elder, sir;</LINE>
 <LINE>His son is thirty.</LINE>
 </SPEECH>
@@ -5254,8 +5256,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Hall in Capulet&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Capulet, Lady Capulet, Nurse, Servingmen, Juliet)</SCENEPERSONAE>
-<STAGEDIR>Enter Father Capulet, Mother Lady Capulet, Nurse, and Servingmen, two or three.</STAGEDIR>
-
+<STAGEDIR>Enter Capulet, Mother Lady Capulet, Nurse, and Servingmen, two or three.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAP.</SPEAKER>

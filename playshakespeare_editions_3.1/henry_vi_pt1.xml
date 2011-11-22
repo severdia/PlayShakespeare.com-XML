@@ -38,7 +38,7 @@
 <PERSONA short="BAST.">Bastard of Orleance</PERSONA>
 <PERSONA>Governor of Paris</PERSONA>
 <PERSONA short="M. GUN.">Master Gunner of Orleance</PERSONA>
-<PERSONA short="BOY.">Son of Master Gunner of Orleance</PERSONA>
+<PERSONA short="M. GUN. BOY.">Son of Master Gunner of Orleance</PERSONA>
 <PERSONA short="GEN.">General of the French forces in Bordeaux</PERSONA>
 <PERSONA short="SERG.">French Sergeant</PERSONA>
 <PERSONA short="PORT.">Porter</PERSONA>
@@ -68,8 +68,13 @@
 <PERSONA short="SERVINGMEN.">Servingman</PERSONA>
 </PERSONAE>
 
+<PERSONA short="1. GLOU. SERV.">Gloucester's First Serving Attendant</PERSONA>
+<PERSONA short="2. GLOU. SERV.">Gloucester's Second Serving Attendant</PERSONA>
 
-
+WIN. SERV. ATT.  Winchester's Serving Attendant
+1. GLOU. SERV. ATT.   Gloucester's First Serving Attendant
+2. GLOU. SERV. ATT.  Gloucester's Second Serving Attendant
+SOLD. WATCH.  Soldier of the Watch
 
 
 <ACT>
@@ -170,7 +175,7 @@
 <STAGEDIR>Enter a Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>My honorable lords, health to you all!</LINE>
 <LINE>Sad tidings bring I to you out of France,</LINE>
 <LINE>Of loss, of slaughter, and discomfiture:</LINE>
@@ -198,7 +203,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>No treachery, but want of men and money.</LINE>
 <LINE>Amongst the soldiers this is muttered,</LINE>
 <LINE>That here you maintain several factions;</LINE>
@@ -720,8 +725,8 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>London. Before the Tower.</SCENELOCATION>
-<SCENEPERSONAE>(Gloucester, Servingmen, Woodvile the Lieutenant, Winchester, Mayor of London, Officers)</SCENEPERSONAE>
-<STAGEDIR>Enter Gloucester with his Servingmen in blue coats.</STAGEDIR>
+<SCENEPERSONAE>(Gloucester, Gloucester&#8217;s First Serving Attendant, First Warder, Second Warder, Woodvile the Lieutenant, Winchester, Mayor of London, Officers)</SCENEPERSONAE>
+<STAGEDIR>Enter Gloucester with his Serving Attendants in blue coats.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
@@ -738,7 +743,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. GLOU. SERV.</SPEAKER>
 <LINE>It is the noble Duke of Gloucester.</LINE>
 </SPEECH>
 
@@ -749,7 +754,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. GLOU. SERV.</SPEAKER>
 <LINE>Villains, answer you so the Lord Protector?</LINE>
 </SPEECH>
 
@@ -798,7 +803,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERVINGMEN.</SPEAKER>
+<SPEAKER>2. GLOU. SERV.</SPEAKER>
 <LINE>Open the gates unto the Lord Protector,</LINE>
 <LINE>Or we&#8217;ll burst them open, if that you come not quickly.</LINE>
 </SPEECH>
@@ -960,7 +965,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Orleans.</SCENELOCATION>
-<SCENEPERSONAE>(Master Gunner of Orleance, Boy, Salisbury, Talbot, Sir William Glans-Dale, Sir Thomas Gargrave, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Master Gunner of Orleance, Master Gunner&#8217;s Boy, Salisbury, Talbot, Sir William Glans-Dale, Sir Thomas Gargrave, Messenger)</SCENEPERSONAE>
 <STAGEDIR>Enter the Master Gunner of Orleance and his Boy.</STAGEDIR>
 
 <SPEECH>
@@ -970,7 +975,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>M. GUN. BOY.</SPEAKER>
 <LINE>Father, I know, and oft have shot at them,</LINE>
 <LINE>Howe&#8217;er unfortunate I miss&#8217;d my aim.</LINE>
 </SPEECH>
@@ -997,13 +1002,12 @@
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>M. GUN. BOY.</SPEAKER>
 <LINE>Father, I warrant you, take you no care,</LINE>
 <LINE>I&#8217;ll never trouble you, if I may spy them.</LINE>
 </SPEECH>
 
 <STAGEDIR>Exit.</STAGEDIR>
-
 
 <STAGEDIR>Enter Salisbury and Talbot, Sir William Glans-Dale, Sir Thomas Gargrave, on the turrets, with others.</STAGEDIR>
 
@@ -1134,7 +1138,7 @@
 <STAGEDIR>Enter a Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>4. MESS.</SPEAKER>
 <LINE>My lord, my lord, the French have gather&#8217;d head.</LINE>
 <LINE>The Dauphin, with one Joan de Pucelle join&#8217;d,</LINE>
 <LINE>A holy prophetess new risen up,</LINE>
@@ -1306,7 +1310,7 @@
 <STAGEDIR>Enter a French Sergeant of a band, with two Sentinels.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERG.</SPEAKER>
+<SPEAKER>FR. SERG.</SPEAKER>
 <LINE>Sirs, take your places and be vigilant.</LINE>
 <LINE>If any noise or soldier you perceive</LINE>
 <LINE>Near to the walls, by some apparent sign</LINE>
@@ -1520,7 +1524,7 @@
 <STAGEDIR>Alarum. Enter an English Soldier crying, &#8220;A Talbot! A Talbot!&#8221; They fly, leaving their clothes behind.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>ENG. SOLD.</SPEAKER>
 <LINE>I&#8217;ll be so bold to take what they have left.</LINE>
 <LINE>The cry of Talbot serves me for a sword,</LINE>
 <LINE>For I have loaden me with many spoils,</LINE>
@@ -1533,7 +1537,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Orleans. Within the town.</SCENELOCATION>
-<SCENEPERSONAE>(Talbot, Bedford, Burgundy, Captain, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Talbot, Bedford, Burgundy, Captain, Messenger of the Countess)</SCENEPERSONAE>
 <STAGEDIR>Enter Talbot, Bedford, Burgundy, a Captain, and others, their Drums beating a dead march.</STAGEDIR>
 
 <SPEECH>
@@ -1585,10 +1589,10 @@
 <LINE>After that things are set in order here,</LINE>
 <LINE>We&#8217;ll follow them with all the power we have.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Messenger of the Countess.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. COUNT.</SPEAKER>
 <LINE>All hail, my lords! Which of this princely train</LINE>
 <LINE>Call ye the warlike Talbot, for his acts</LINE>
 <LINE>So much applauded through the realm of France?</LINE>
@@ -1600,7 +1604,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. COUNT.</SPEAKER>
 <LINE>The virtuous lady, Countess of Auvergne,</LINE>
 <LINE>With modesty admiring thy renown,</LINE>
 <LINE>By me entreats, great lord, thou wouldst vouchsafe</LINE>
@@ -1655,7 +1659,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Auvergne. The Countess&#8217;s castle.</SCENELOCATION>
-<SCENEPERSONAE>(Countess of Auvergne, Porter, Messenger, Talbot, Porter, Soldiers)</SCENEPERSONAE>
+<SCENEPERSONAE>(Countess of Auvergne, Porter, Messenger of the Countess, Talbot, Porter, Soldiers)</SCENEPERSONAE>
 <STAGEDIR>Enter Countess of Auvergne and her Porter.</STAGEDIR>
 
 <SPEECH>
@@ -1680,10 +1684,10 @@
 <LINE>Fain would mine eyes be witness with mine ears</LINE>
 <LINE>To give their censure of these rare reports.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Messenger and Talbot.</STAGEDIR>
+<STAGEDIR>Enter Messenger of the Countess and Talbot.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. COUNT.</SPEAKER>
 <LINE>Madam,</LINE>
 <LINE>According as your ladyship desir&#8217;d,</LINE>
 <LINE>By message crav&#8217;d, so is Lord Talbot come.</LINE>
@@ -1695,7 +1699,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. COUNT.</SPEAKER>
 <LINE>Madam, it is.</LINE>
 </SPEECH>
 
@@ -1727,7 +1731,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. COUNT.</SPEAKER>
 <LINE>Stay, my Lord Talbot, for my lady craves</LINE>
 <LINE>To know the cause of your abrupt departure.</LINE>
 </SPEECH>
@@ -2415,7 +2419,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. The Parliament-house.</SCENELOCATION>
-<SCENEPERSONAE>(King, Exeter, Gloucester, Winchester, Warwick, Somerset, Suffolk, Richard Plantagenet, Mayor of London, Servingmen)</SCENEPERSONAE>
+<SCENEPERSONAE>(King, Exeter, Gloucester, Winchester, Warwick, Somerset, Suffolk, Richard Plantagenet, Mayor of London, Serving Attendants)</SCENEPERSONAE>
 <STAGEDIR>Flourish. Enter King, Exeter, Gloucester, Winchester, Warwick, Somerset, Suffolk, Richard Plantagenet, and others. Gloucester offers to put up a bill; Winchester snatches it, tears it.</STAGEDIR>
 
 <SPEECH>
@@ -2610,12 +2614,12 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>WIN. SERV. ATT.</SPEAKER>
 <LINE>Nay, if we be forbidden stones, we&#8217;ll fall to it with our teeth.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>1. GLOU. SERV. ATT.</SPEAKER>
 <LINE>Do what ye dare, we are as resolute.</LINE>
 </SPEECH>
 <STAGEDIR>Skirmish again.</STAGEDIR>
@@ -2627,7 +2631,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SERV.</SPEAKER>
+<SPEAKER>2. GLOU. SERV. ATT.</SPEAKER>
 <LINE>My lord, we know your Grace to be a man</LINE>
 <LINE>Just and upright; and, for your royal birth,</LINE>
 <LINE>Inferior to none but to his Majesty;</LINE>
@@ -2639,7 +2643,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>WIN. SERV. ATT.</SPEAKER>
 <LINE>Ay, and the very parings of our nails</LINE>
 <LINE>Shall pitch a field when we are dead.</LINE>
 </SPEECH>
@@ -2743,17 +2747,17 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>WIN. SERV. ATT.</SPEAKER>
 <LINE>Content, I&#8217;ll to the surgeon&#8217;s.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>1. GLOU. SERV. ATT.</SPEAKER>
 <LINE offset="6">And so will I.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SERV.</SPEAKER>
+<SPEAKER>2. GLOU. SERV. ATT.</SPEAKER>
 <LINE>And I will see what physic the tavern affords.</LINE>
 </SPEECH>
 <STAGEDIR>Exeunt Servingmen, Mayor, etc.</STAGEDIR>
@@ -2879,7 +2883,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>France. Before Rouen.</SCENELOCATION>
-<SCENEPERSONAE>(Pucelle, Four Soldiers, Charles, Bastard, Alanson, Reignier, Talbot, Bedford, Talbot, Burgundy, Sir John Falstaff, Captain)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pucelle, Four Soldiers, Soldier of the Watch, Charles, Bastard, Alanson, Reignier, Talbot, Bedford, Talbot, Burgundy, Sir John Falstaff, Captain)</SCENEPERSONAE>
 <STAGEDIR>Enter Pucelle, disguis&#8217;d, with four Soldiers with sacks upon their backs.</STAGEDIR>
 
 <SPEECH>
@@ -2904,22 +2908,20 @@
 
 <STAGEDIR>Knock.</STAGEDIR>
 
-
-
 <SPEECH>
-<SPEAKER>WATCH.</SPEAKER>
+<SPEAKER>SOLD. WATCH.</SPEAKER>
 <STAGEDIR>Within.</STAGEDIR>
-<LINE>Qui l&#224;?</LINE>
+<LINE><FRENCH>Qui l&#224;?</FRENCH></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>PUC.</SPEAKER>
-<LINE>Paysans, la pauvre gens de France,</LINE>
+<LINE><FRENCH>Paysans, la pauvre gens de France,</FRENCH></LINE>
 <LINE>Poor market folks that come to sell their corn.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WATCH.</SPEAKER>
+<SPEAKER>SOLD. WATCH.</SPEAKER>
 <LINE>Enter, go in, the market bell is rung.</LINE>
 </SPEECH>
 
@@ -3943,7 +3945,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before Bourdeaux.</SCENELOCATION>
-<SCENEPERSONAE>(Talbot, Trump, General)</SCENEPERSONAE>
+<SCENEPERSONAE>(Talbot, Talbot&#8217;s Trumpter, General)</SCENEPERSONAE>
 <STAGEDIR>Enter Talbot with Trump and Drum before Burdeaux.</STAGEDIR>
 
 <SPEECH>
@@ -4035,7 +4037,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>5. MESS.</SPEAKER>
 <LINE>They are return&#8217;d, my lord, and give it out</LINE>
 <LINE>That he is march&#8217;d to Burdeaux with his power</LINE>
 <LINE>To fight with Talbot. As he march&#8217;d along,</LINE>
@@ -4661,7 +4663,7 @@
 <SPEECH>
 <SPEAKER>KING.</SPEAKER>
 <LINE>Have you perus&#8217;d the letters from the Pope,</LINE>
-<LINE>The Emperor, and the Earl of Arminack?</LINE>
+<LINE>The Emperor, and the Earl of Armagnac?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -4696,7 +4698,7 @@
 <SPEAKER>GLOU.</SPEAKER>
 <LINE>Beside, my lord, the sooner to effect</LINE>
 <LINE>And surer bind this knot of amity,</LINE>
-<LINE>The Earl of Arminack, near knit to Charles,</LINE>
+<LINE>The Earl of Armagnac, near knit to Charles,</LINE>
 <LINE>A man of great authority in France,</LINE>
 <LINE>Proffers his only daughter to your Grace</LINE>
 <LINE>In marriage, with a large and sumptuous dowry.</LINE>
@@ -4737,7 +4739,7 @@
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
-<STAGEDIR>To the Ambassador from Arminack.</STAGEDIR>
+<STAGEDIR>To the Ambassador from Armagnac.</STAGEDIR>
 <LINE>And for the proffer of my lord your master,</LINE>
 <LINE>I have inform&#8217;d his Highness so at large,</LINE>
 <LINE>As liking of the lady&#8217;s virtuous gifts,</LINE>
@@ -5817,7 +5819,7 @@
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
-<LINE>And so the Earl of Arminack may do,</LINE>
+<LINE>And so the Earl of Armagnac may do,</LINE>
 <LINE>Because he is near kinsman unto Charles.</LINE>
 </SPEECH>
 
