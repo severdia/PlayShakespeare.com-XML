@@ -40,8 +40,8 @@
 <PERSONA short="BOLING.">Roger Bolingbrook, a conjurer</PERSONA>
 <PERSONA short="HOR.">Thomas Horner, an armorer</PERSONA>
 <PERSONA short="PETER.">Peter Thump, armorer&#8217;s man</PERSONA>
-<PERSONA short="CLERK.">Clerk of Chartam</PERSONA>
-<PERSONA short="MAY.">Mayor of Saint Albons</PERSONA>
+<PERSONA short="CLERK. CHAT.">Clerk of Chatham</PERSONA>
+<PERSONA short="MAY.">Mayor of Saint Albans</PERSONA>
 <PERSONA short="SIMP.">Simpcox, an impostor</PERSONA>
 <PERSONA short="CADE.">Jack Cade, a rebel</PERSONA>
 <PERSONA short="BEVIS.">George Bevis, follower of Cade</PERSONA>
@@ -54,7 +54,7 @@
 <PERSONA short="QUEEN.">Margaret, Queen to King Henry</PERSONA>
 <PERSONA short="DUCH.">Eleanor, Duchess of Gloucester</PERSONA>
 <PERSONA short="M. JORD.">Margery Jordan, a witch</PERSONA>
-<PERSONA short="WIFE.">Wife to Simpcox</PERSONA>
+<PERSONA short="SIMP. WIFE.">Wife to Simpcox</PERSONA>
 <PERSONA short="SPIR.">Spirit</PERSONA>
 <PERSONA>Lords</PERSONA>
 <PERSONA>Ladies</PERSONA>
@@ -64,7 +64,7 @@
 <PERSONA>Aldermen</PERSONA>
 <PERSONA short="SHER.">Sheriff</PERSONA>
 <PERSONA>Officers</PERSONA>
-<PERSONA short="SOLD.">Soldier</PERSONA>
+<PERSONA short="REBEL SOLD.">Rebel Soldier</PERSONA>
 <PERSONA>Guards</PERSONA>
 <PERSONA short="HER.">Herald</PERSONA>
 <PERSONA short="MESS.">Messenger</PERSONA>
@@ -73,12 +73,19 @@
 <PERSONA short="BEAD.">Beadle</PERSONA>
 <PERSONA short="1. PREN.">First Prentice</PERSONA>
 <PERSONA short="2. PREN.">Second Prentice</PERSONA>
-<PERSONA short="ONE.">One Citizen</PERSONA>
+<PERSONA short="ONE. CIT.">One Citizen</PERSONA>
 <PERSONA short="1. NEIGH.">First Neighbor</PERSONA>
 <PERSONA short="2. NEIGH.">Second Neighbor</PERSONA>
 <PERSONA short="3. NEIGH.">Third Neighbor</PERSONA>
 <PERSONA short="COMMONS.">Commoner</PERSONA>
-<PERSONA short="1. CIT.">First Citizen</PERSONA>
+<PERSONA short="1. LOND. CIT.">First London Citizen</PERSONA>
+
+
+1. ROYAL MESS.
+REBEL MESS.
+GLOU. SERV.  Gloucester's Servingman
+SHER. LOND. Sheriff of London
+1. COMMON.
 
 </PERSONAE>
 
@@ -90,6 +97,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. The palace.</SCENELOCATION>
 <SCENEPERSONAE>(King Henry, Duke Humphrey of Gloucester, Salisbury, Warwick, Cardinal Beauford, Queen, Suffolk, York, Somerset, Buckingham)</SCENEPERSONAE>
+
 <STAGEDIR>Flourish of trumpets: then hoboys. Enter King Henry, Duke Humphrey of Gloucester, Salisbury, Warwick, and Cardinal Beauford, on the one side; the Queen, Suffolk, York, Somerset, and Buckingham, on the other.</STAGEDIR>
 
 <SPEECH>
@@ -149,6 +157,7 @@
 <STAGEDIR>Kneel.</STAGEDIR>
 <LINE>Long live Queen Margaret, England&#8217;s happiness!</LINE>
 </SPEECH>
+
 <STAGEDIR>Flourish.</STAGEDIR>
 
 <SPEECH>
@@ -169,6 +178,7 @@
 <STAGEDIR>Reads.</STAGEDIR>
 <LINE>&#8220;Inprimis, It is agreed between the French King Charles, and William de la Pole, Marquess of Suffolk, ambassador for Henry King of England, that the said Henry shall espouse the Lady Margaret, daughter unto Reignier King of Naples, Sicilia, and Jerusalem, and crown her Queen of England ere the thirtieth of May next ensuing. Item, It is further agreed between them, that the duchy of Anjou and the county of Maine shall be releas&#8217;d and deliver&#8217;d over to the King her father&#8221;&#8212;</LINE>
 </SPEECH>
+
 <STAGEDIR>Duke Humphrey lets it fall.</STAGEDIR>
 
 <SPEECH>
@@ -209,6 +219,7 @@
 <LINE>Come, let us in, and with all speed provide</LINE>
 <LINE>To see her coronation be perform&#8217;d.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt King, Queen, and Suffolk. Manent the rest, stayed by Gloucester.</STAGEDIR>
 
 <SPEECH>
@@ -318,6 +329,7 @@
 <LINE>Lordings, farewell, and say, when I am gone,</LINE>
 <LINE>I prophesied France will be lost ere long.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Humphrey.</STAGEDIR>
 
 <SPEECH>
@@ -356,6 +368,7 @@
 <LINE>This weighty business will not brook delay,</LINE>
 <LINE>I&#8217;ll to the Duke of Suffolk presently.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Cardinal.</STAGEDIR>
 
 <SPEECH>
@@ -373,6 +386,7 @@
 <LINE>Or thou or I, Somerset, will be Protector,</LINE>
 <LINE>Despite Duke Humphrey or the Cardinal.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Buckingham and Somerset.</STAGEDIR>
 
 <SPEECH>
@@ -430,6 +444,7 @@
 <LINE>Main chance, father, you meant, but I meant Maine,</LINE>
 <LINE>Which I will win from France, or else be slain.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Warwick and Salisbury. Manet York.</STAGEDIR>
 
 <SPEECH>
@@ -481,6 +496,7 @@
 <LINE>And force perforce I&#8217;ll make him yield the crown,</LINE>
 <LINE>Whose bookish rule hath pull&#8217;d fair England down.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit York.</STAGEDIR> 
 
 </SCENE>
@@ -488,7 +504,8 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>London. Gloucester&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Humphrey of Gloucester, Eleanor the Duchess, Messenger, Hume)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Humphrey of Gloucester, Eleanor the Duchess, First Royal Messenger, Hume)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Duke Humphrey of Gloucester and his wife Eleanor the Duchess.</STAGEDIR>
 
 <SPEECH>
@@ -577,12 +594,13 @@
 <SPEAKER>GLOU.</SPEAKER>
 <LINE>Nay, be not angry, I am pleas&#8217;d again.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. ROYAL MESS.</SPEAKER>
 <LINE>My Lord Protector, &#8217;tis his Highness&#8217; pleasure</LINE>
-<LINE>You do prepare to ride unto Saint Albons,</LINE>
+<LINE>You do prepare to ride unto Saint Albans,</LINE>
 <LINE>Where as the King and Queen do mean to hawk.</LINE>
 </SPEECH>
 
@@ -606,6 +624,7 @@
 <LINE>Where are you there? Sir John! Nay, fear not, man,</LINE>
 <LINE>We are alone, here&#8217;s none but thee and I.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Hume.</STAGEDIR>
 
 <SPEECH>
@@ -643,11 +662,12 @@
 <SPEECH>
 <SPEAKER>DUCH.</SPEAKER>
 <LINE>It is enough, I&#8217;ll think upon the questions.</LINE>
-<LINE>When from Saint Albons we do make return,</LINE>
+<LINE>When from Saint Albans we do make return,</LINE>
 <LINE>We&#8217;ll see these things effected to the full.</LINE>
 <LINE>Here, Hume, take this reward. Make merry, man,</LINE>
 <LINE>With thy confederates in this weighty cause.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Eleanor.</STAGEDIR>
 
 <SPEECH>
@@ -674,6 +694,7 @@
 <LINE>And her attainture will be Humphrey&#8217;s fall.</LINE>
 <LINE>Sort how it will, I shall have gold for all.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR> 
 
 </SCENE>
@@ -682,6 +703,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The palace.</SCENELOCATION>
 <SCENEPERSONAE>(Petitioners, Peter, Suffolk, Queen, King, Duke Humphrey of Gloucester, Cardinal, Buckingham, York, Somerset, Salisbury, Warwick, Duchess of Gloucester)</SCENEPERSONAE>
+
 <STAGEDIR>Enter three or four Petitioners, Peter the Armorer&#8217;s man being one.</STAGEDIR>
 
 <SPEECH>
@@ -693,8 +715,8 @@
 <SPEAKER>2. PETIT.</SPEAKER>
 <LINE>Marry, the Lord protect him, for he&#8217;s a good man! Jesu bless him!</LINE>
 </SPEECH>
-<STAGEDIR>Enter Suffolk and Queen.</STAGEDIR>
 
+<STAGEDIR>Enter Suffolk and Queen.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PETER.</SPEAKER>
@@ -761,6 +783,7 @@
 <STAGEDIR>Enter Servant.</STAGEDIR>
 <LINE>Take this fellow in, and send for his master with a pursuivant presently. We&#8217;ll hear more of your matter before the King.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Servant with Peter.</STAGEDIR>
 
 <SPEECH>
@@ -997,6 +1020,7 @@
 <LINE>Though in this place most master wear no breeches,</LINE>
 <LINE>She shall not strike Dame Eleanor unreveng&#8217;d.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Eleanor.</STAGEDIR>
 
 <SPEECH>
@@ -1006,6 +1030,7 @@
 <LINE>She&#8217;s tickled now; her fume needs no spurs,</LINE>
 <LINE>She&#8217;ll gallop far enough to her destruction.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Buckingham.</STAGEDIR>
 <STAGEDIR>Enter Humphrey of Gloucester.</STAGEDIR>
 
@@ -1057,6 +1082,7 @@
 <SPEAKER>WAR.</SPEAKER>
 <LINE>Image of pride, why should I hold my peace?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Horner the armorer and his man Peter, guarded.</STAGEDIR>
 
 <SPEECH>
@@ -1160,7 +1186,8 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Gloucester&#8217;s garden.</SCENELOCATION>
-<SCENEPERSONAE>(Margery Jordan, Hume, Southwell, Bolingbrook, Eleanor the Duchess, Hume, Spirit, Duke of York, Duke of Buckingham, Guard, Sir Humphrey Stafford, Servingman)</SCENEPERSONAE>
+<SCENEPERSONAE>(Margery Jordan, Hume, Southwell, Bolingbrook, Eleanor the Duchess, Hume, Spirit, Duke of York, Duke of Buckingham, Guard, Sir Humphrey Stafford, Gloucester Servingman)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the witch, Margery Jordan, the two priests&#8212;Hume and Southwell&#8212;and Bolingbrook.</STAGEDIR>
 
 <SPEECH>
@@ -1186,6 +1213,7 @@
 <STAGEDIR>She lies down upon her face.</STAGEDIR>
 <LINE>John Southwell, read you; and let us to our work.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Eleanor the Duchess aloft, Hume following.</STAGEDIR>
 
 <SPEECH>
@@ -1205,6 +1233,7 @@
 <LINE>Madam, sit you and fear not. Whom we raise,</LINE>
 <LINE>We will make fast within a hallow&#8217;d verge.</LINE>
 </SPEECH>
+
 <STAGEDIR>Here do the ceremonies belonging, and make the circle; Bolingbrook or Southwell reads, &#8220;Conjuro te, etc.&#8221; It thunders and lightens terribly; then the Spirit riseth.</STAGEDIR>
 
 <SPEECH>
@@ -1229,6 +1258,7 @@
 <SPEAKER>BOLING.</SPEAKER>
 <LINE>&#8220;First of the King: what shall of him become?&#8221;</LINE>
 </SPEECH>
+
 <STAGEDIR>Reading out of a paper.</STAGEDIR>
 
 <SPEECH>
@@ -1236,6 +1266,7 @@
 <LINE>The duke yet lives that Henry shall depose;</LINE>
 <LINE>But him out-live, and die a violent death.</LINE>
 </SPEECH>
+
 <STAGEDIR>As the Spirit speaks, Bolingbrook writes the answer.</STAGEDIR>
 
 <SPEECH>
@@ -1266,10 +1297,10 @@
 <LINE>Descend to darkness and the burning lake!</LINE>
 <LINE>False fiend, avoid!</LINE>
 </SPEECH>
+
 <STAGEDIR>Thunder and lightning. Exit Spirit sinking down again.</STAGEDIR>
 
 <STAGEDIR>Enter the Duke of York and the Duke of Buckingham with their Guard, Sir Humphrey Stafford as Captain, and break in.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>YORK.</SPEAKER>
@@ -1298,8 +1329,8 @@
 <LINE>We&#8217;ll see your trinkets here all forthcoming.</LINE>
 <LINE>All away!</LINE>
 </SPEECH>
-<STAGEDIR>Exit Guard with Jordan, Southwell, etc.</STAGEDIR>
 
+<STAGEDIR>Exit Guard with Jordan, Southwell, etc.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>YORK.</SPEAKER>
@@ -1322,7 +1353,7 @@
 <LINE>Than where castles mounted stand.&#8221;</LINE>
 <LINE>Come, come, my lords, these oracles</LINE>
 <LINE>Are hardly attain&#8217;d, and hardly understood.</LINE>
-<LINE>The King is now in progress towards Saint Albons,</LINE>
+<LINE>The King is now in progress towards Saint Albans,</LINE>
 <LINE>With him the husband of this lovely lady.</LINE>
 <LINE>Thither goes these news, as fast as horse can carry them&#8212;</LINE>
 <LINE>A sorry breakfast for my Lord Protector.</LINE>
@@ -1338,10 +1369,11 @@
 <SPEAKER>YORK.</SPEAKER>
 <LINE>At your pleasure, my good lord. Who&#8217;s within there, ho?</LINE>
 
-<STAGEDIR>Enter a Servingman.</STAGEDIR>
+<STAGEDIR>Enter Gloucester&#8217;s Servingman.</STAGEDIR>
 <LINE>Invite my Lords of Salisbury and Warwick</LINE>
 <LINE>To sup with me tomorrow night. Away!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -1352,7 +1384,8 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Saint Alban&#8217;s.</SCENELOCATION>
-<SCENEPERSONAE>(King, Queen, Protector Gloucester, Cardinal, Suffolk, Falc&#8217;ners, Mayor of Saint Albons, Simpcox, Simpcox&#8217;s Wife, Beadle, Buckingham, One Citizen)</SCENEPERSONAE>
+<SCENEPERSONAE>(King, Queen, Protector Gloucester, Cardinal, Suffolk, Falc&#8217;ners, Mayor of Saint Albans, Simpcox, Simpcox&#8217;s Wife, Beadle, Buckingham, One Citizen)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the King, Queen with her hawk on her fist, Protector Gloucester, Cardinal, and Suffolk, with Falc&#8217;ners hallowing.</STAGEDIR>
 
 <SPEECH>
@@ -1545,8 +1578,8 @@
 <LINE>When such strings jar, what hope of harmony?</LINE>
 <LINE>I pray, my lords, let me compound this strife.</LINE>
 </SPEECH>
-<STAGEDIR>Enter one crying, &#8220;A miracle!&#8221; </STAGEDIR>
 
+<STAGEDIR>Enter one crying, &#8220;A miracle!&#8221; </STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
@@ -1555,7 +1588,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ONE.</SPEAKER>
+<SPEAKER>ONE. CIT.</SPEAKER>
 <LINE>A miracle, a miracle!</LINE>
 </SPEECH>
 
@@ -1565,7 +1598,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ONE.</SPEAKER>
+<SPEAKER>ONE. CIT.</SPEAKER>
 <LINE>Forsooth, a blind man at Saint Albon&#8217;s shrine,</LINE>
 <LINE>Within this half hour, hath receiv&#8217;d his sight,</LINE>
 <LINE>A man that ne&#8217;er saw in his life before.</LINE>
@@ -1576,7 +1609,8 @@
 <LINE>Now God be prais&#8217;d, that to believing souls</LINE>
 <LINE>Gives light in darkness, comfort in despair!</LINE>
 </SPEECH>
-<STAGEDIR>Enter the Mayor of Saint Albons and his Brethren, with music, bearing the man Simpcox between two in a chair, Simpcox&#8217;s Wife and others following.</STAGEDIR>
+
+<STAGEDIR>Enter the Mayor of Saint Albans and his Brethren, with music, bearing the man Simpcox between two in a chair, Simpcox&#8217;s Wife and others following.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAR.</SPEAKER>
@@ -1609,7 +1643,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>Ay indeed was he.</LINE>
 </SPEECH>
 
@@ -1619,7 +1653,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>His wife, and&#8217;t like your worship.</LINE>
 </SPEECH>
 
@@ -1660,7 +1694,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>Most true, forsooth; and many time and oft</LINE>
 <LINE>Myself have heard a voice to call him so.</LINE>
 </SPEECH>
@@ -1686,7 +1720,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>A plum-tree, master.</LINE>
 </SPEECH>
 
@@ -1711,7 +1745,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>Too true, and bought his climbing very dear.</LINE>
 </SPEECH>
 
@@ -1838,7 +1872,7 @@
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
-<LINE>My masters of Saint Albons, have you not</LINE>
+<LINE>My masters of Saint Albans, have you not</LINE>
 <LINE>Beadles in your town, and things call&#8217;d whips?</LINE>
 </SPEECH>
 
@@ -1856,7 +1890,8 @@
 <SPEAKER>MAY.</SPEAKER>
 <LINE>Sirrah, go fetch the beadle hither straight.</LINE>
 </SPEECH>
-<STAGEDIR>Exit one.</STAGEDIR>
+
+<STAGEDIR>Exit One Citizen.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
@@ -1870,6 +1905,7 @@
 <LINE>Alas, master, I am not able to stand alone;</LINE>
 <LINE>You go about to torture me in vain.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter a Beadle with whips.</STAGEDIR>
 
 <SPEECH>
@@ -1886,6 +1922,7 @@
 <SPEAKER>SIMP.</SPEAKER>
 <LINE>Alas, master, what shall I do? I am not able to stand.</LINE>
 </SPEECH>
+
 <STAGEDIR>After the Beadle hath hit him once, he leaps over the stool and runs away; and they follow and cry, &#8220;A miracle!&#8221; </STAGEDIR>
 
 <SPEECH>
@@ -1904,7 +1941,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WIFE.</SPEAKER>
+<SPEAKER>SIMP. WIFE.</SPEAKER>
 <LINE>Alas, sir, we did it for pure need.</LINE>
 </SPEECH>
 
@@ -1913,6 +1950,7 @@
 <LINE>Lee them be whipt through every market town,</LINE>
 <LINE>Till they come to Berwick, from whence they came.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Wife, Beadle, Mayor, etc.</STAGEDIR>
 
 <SPEECH>
@@ -1930,6 +1968,7 @@
 <LINE>But you have done more miracles than I:</LINE>
 <LINE>You made in a day, my lord, whole towns to fly.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Buckingham.</STAGEDIR>
 
 <SPEECH>
@@ -2006,6 +2045,7 @@
 <LINE>And poise the cause in justice&#8217; equal scales,</LINE>
 <LINE>Whose beam stands sure, whose rightful cause prevails.</LINE>
 </SPEECH>
+
 <STAGEDIR>Flourish. Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -2014,6 +2054,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>London. York&#8217;s garden.</SCENELOCATION>
 <SCENEPERSONAE>(York, Salisbury, Warwick)</SCENEPERSONAE>
+
 <STAGEDIR>Enter York, Salisbury, and Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -2162,6 +2203,7 @@
 <LINE>Richard shall live to make the Earl of Warwick</LINE>
 <LINE>The greatest man in England but the King.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -2170,6 +2212,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A hall of justice.</SCENELOCATION>
 <SCENEPERSONAE>(King, Queen, Gloucester, York, Suffolk, Salisbury, Guard, Duchess of Gloucester, Margery Jordan, Southwell, Hume, Bolingbrook, Horner, Neighbors, Peter, Prentices)</SCENEPERSONAE>
+
 <STAGEDIR>Sound trumpets. Enter the King and State: the Queen, Gloucester, York, Suffolk, and Salisbury, with Guard, to banish the Duchess. Enter, guarded, the Duchess of Gloucester, Margery Jordan, Southwell, Hume, and Bolingbrook.</STAGEDIR>
 
 <SPEECH>
@@ -2235,6 +2278,7 @@
 <LINE>Farewell, good King; when I am dead and gone,</LINE>
 <LINE>May honorable peace attend thy throne!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Gloucester.</STAGEDIR>
 
 <SPEECH>
@@ -2360,6 +2404,7 @@
 <SPEAKER>HOR.</SPEAKER>
 <LINE>Hold, Peter, hold! I confess, I confess treason.</LINE>
 </SPEECH>
+
 <STAGEDIR>He dies.</STAGEDIR>
 
 <SPEECH>
@@ -2390,7 +2435,8 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>A street.</SCENELOCATION>
-<SCENEPERSONAE>(Duke Humphrey of Gloucester, Servant, Duchess of Gloucester, Sir John Stanley, Sheriff, Officers, Herald)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke Humphrey of Gloucester, Gloucester&#8217;s Servingman, Duchess of Gloucester, Sir John Stanley, Sheriff of London, Officers, Herald)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Duke Humphrey of Gloucester and his Men in mourning cloaks.</STAGEDIR>
 
 <SPEECH>
@@ -2403,7 +2449,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERVANT.</SPEAKER>
+<SPEAKER>GLOU. SERV.</SPEAKER>
 <LINE offset="4">Ten, my lord.</LINE>
 </SPEECH>
 
@@ -2421,10 +2467,11 @@
 <LINE>But soft, I think she comes, and I&#8217;ll prepare</LINE>
 <LINE>My tear-stain&#8217;d eyes to see her miseries.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter the Duchess of Gloucester, barefoot, in a white sheet, and verses written on her back and pinned on, and a taper burning in her hand, with Sir John Stanley, the Sheriff, and Officers.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERVANT.</SPEAKER>
+<SPEAKER>GLOU. SERV.</SPEAKER>
 <LINE>So please your Grace, we&#8217;ll take her from the sheriff.</LINE>
 </SPEECH>
 
@@ -2499,6 +2546,7 @@
 <LINE>I pray thee sort thy heart to patience,</LINE>
 <LINE>These few days&#8217; wonder will be quickly worn.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter a Herald.</STAGEDIR>
 
 <SPEECH>
@@ -2518,7 +2566,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SHER.</SPEAKER>
+<SPEAKER>SHER. LOND.</SPEAKER>
 <LINE>And&#8217;t please your Grace, here my commission stays;</LINE>
 <LINE>And Sir John Stanley is appointed now</LINE>
 <LINE>To take her with him to the Isle of Man.</LINE>
@@ -2551,6 +2599,7 @@
 <SPEAKER>GLOU.</SPEAKER>
 <LINE>Witness my tears, I cannot stay to speak.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Gloucester with his Men.</STAGEDIR>
 
 <SPEECH>
@@ -2589,7 +2638,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SHER.</SPEAKER>
+<SPEAKER>SHER. LOND.</SPEAKER>
 <LINE>It is my office, and, madam, pardon me.</LINE>
 </SPEECH>
 
@@ -2624,6 +2673,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The Abbey at Bury St. Edmund&#8217;s.</SCENELOCATION>
 <SCENEPERSONAE>(Heralds, King, Queen, Cardinal, Suffolk, York, Buckingham, Salisbury, Warwick, Somerset, Gloucester, Post)</SCENEPERSONAE>
+
 <STAGEDIR>Sound a sennet. Enter two Heralds before. Then enter King, Queen, Cardinal, Suffolk, York, Buckingham, Salisbury, and Warwick to the parliament.</STAGEDIR>
 
 <SPEECH>
@@ -2738,6 +2788,7 @@
 <LINE>Take heed, my lord, the welfare of us all</LINE>
 <LINE>Hangs on the cutting short that fraudful man.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Somerset.</STAGEDIR>
 
 <SPEECH>
@@ -2771,6 +2822,7 @@
 <LINE>But I will remedy this gear ere long,</LINE>
 <LINE>Or sell my title for a glorious grave.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Gloucester.</STAGEDIR>
 
 <SPEECH>
@@ -2950,6 +3002,7 @@
 <LINE>Ah, that my fear were false, ah, that it were!</LINE>
 <LINE>For, good King Henry, thy decay I fear.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Gloucester with the Cardinal&#8217;s Men.</STAGEDIR>
 
 <SPEECH>
@@ -2991,6 +3044,7 @@
 <LINE>His fortunes I will weep, and &#8217;twixt each groan</LINE>
 <LINE>Say, &#8220;Who&#8217;s a traitor, Gloucester he is none.&#8221;</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit with Buckingham, Salisbury, and Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -3107,6 +3161,7 @@
 <LINE>And I; and now we three have spoke it,</LINE>
 <LINE>It skills not greatly who impugns our doom.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter a Post.</STAGEDIR>
 
 <SPEECH>
@@ -3118,6 +3173,7 @@
 <LINE>Before the wound do grow uncurable;</LINE>
 <LINE>For being green, there is great hope of help.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -3222,6 +3278,7 @@
 <SPEAKER>SUF.</SPEAKER>
 <LINE>I&#8217;ll see it truly done, my Lord of York.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt. Manet York.</STAGEDIR>
 
 <SPEECH>
@@ -3280,6 +3337,7 @@
 <LINE>For Humphrey being dead, as he shall be,</LINE>
 <LINE>And Henry put apart, the next for me.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR> 
 
 </SCENE>
@@ -3287,9 +3345,9 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Bury St. Edmund&#8217;s. A room of state.</SCENELOCATION>
-<SCENEPERSONAE>(Murderers, Suffolk, King, Queen, Cardinal, Somerset, Attendants, Warwick, Salisbury, Gloucester, Vaux, Commoner)</SCENEPERSONAE>
-<STAGEDIR>Enter two or three Murderers running over the stage, from the murder of Duke Humphrey.</STAGEDIR>
+<SCENEPERSONAE>(Murderers, Suffolk, King, Queen, Cardinal, Somerset, Attendants, Warwick, Salisbury, Gloucester, Vaux, First Commoner)</SCENEPERSONAE>
 
+<STAGEDIR>Enter two or three Murderers running over the stage, from the murder of Duke Humphrey.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. MUR.</SPEAKER>
@@ -3302,6 +3360,7 @@
 <LINE>O that it were to do! What have we done?</LINE>
 <LINE>Didst ever hear a man so penitent?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Suffolk.</STAGEDIR>
 
 <SPEECH>
@@ -3337,6 +3396,7 @@
 <SPEAKER>SUF.</SPEAKER>
 <LINE>Away, be gone.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR>
 
 <STAGEDIR>Sound trumpets. Enter the King, the Queen, Cardinal, Suffolk, Somerset, with Attendants.</STAGEDIR>
@@ -3394,6 +3454,7 @@
 <LINE>God&#8217;s secret judgment. I did dream tonight</LINE>
 <LINE>The Duke was dumb and could not speak a word.</LINE>
 </SPEECH>
+
 <STAGEDIR>King sounds.</STAGEDIR>
 
 <SPEECH>
@@ -3529,6 +3590,7 @@
 <LINE>Ay me, I can no more! Die, Margaret!</LINE>
 <LINE>For Henry weeps that thou dost live so long.</LINE>
 </SPEECH>
+
 <STAGEDIR>Noise within. Enter Warwick, Salisbury, and many Commons.</STAGEDIR>
 
 <SPEECH>
@@ -3556,6 +3618,7 @@
 <LINE>That shall I do, my liege. Stay, Salisbury,</LINE>
 <LINE>With the rude multitude till I return.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Warwick; then Salisbury with the Commons.</STAGEDIR>
 
 <SPEECH>
@@ -3676,6 +3739,7 @@
 <LINE>Say, if thou dar&#8217;st, proud Lord of Warwickshire,</LINE>
 <LINE>That I am faulty in Duke Humphrey&#8217;s death.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Cardinal, Somerset, and others.</STAGEDIR>
 
 <SPEECH>
@@ -3734,6 +3798,7 @@
 <LINE>Unworthy though thou art, I&#8217;ll cope with thee,</LINE>
 <LINE>And do some service to Duke Humphrey&#8217;s ghost.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Suffolk and Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -3743,12 +3808,14 @@
 <LINE>And he but naked, though lock&#8217;d up in steel,</LINE>
 <LINE>Whose conscience with injustice is corrupted.</LINE>
 </SPEECH>
+
 <STAGEDIR>A noise within.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>QUEEN.</SPEAKER>
 <LINE>What noise is this?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Suffolk and Warwick with their weapons drawn.</STAGEDIR>
 
 <SPEECH>
@@ -3763,6 +3830,7 @@
 <LINE>The trait&#8217;rous Warwick, with the men of Bury,</LINE>
 <LINE>Set all upon me, mighty sovereign.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Salisbury.</STAGEDIR>
 
 <SPEECH>
@@ -3798,9 +3866,8 @@
 <LINE>They say is shamefully bereft of life.</LINE>
 </SPEECH>
 
-
 <SPEECH>
-<SPEAKER>COMMONS.</SPEAKER>
+<SPEAKER>1. COMMON.</SPEAKER>
 <STAGEDIR>Within.</STAGEDIR>
 <LINE>An answer from the King, my Lord of Salisbury!</LINE>
 </SPEECH>
@@ -3817,7 +3884,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COMMONS.</SPEAKER>
+<SPEAKER>1. COMMON.</SPEAKER>
 <STAGEDIR>Within.</STAGEDIR>
 <LINE>An answer from the King, or we will all break in!</LINE>
 </SPEECH>
@@ -3835,6 +3902,7 @@
 <LINE>He shall not breathe infection in this air</LINE>
 <LINE>But three days longer, on the pain of death.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Salisbury.</STAGEDIR>
 
 <SPEECH>
@@ -3855,6 +3923,7 @@
 <LINE>Come, Warwick, come, good Warwick, go with me,</LINE>
 <LINE>I have great matters to impart to thee.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit with Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -3955,6 +4024,7 @@
 <LINE>I can no more: live thou to joy thy life;</LINE>
 <LINE>Myself no joy in nought but that thou liv&#8217;st.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Vaux.</STAGEDIR>
 
 <SPEECH>
@@ -4044,6 +4114,7 @@
 <SPEAKER>QUEEN.</SPEAKER>
 <LINE offset="5">This way for me.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt severally.</STAGEDIR> 
 
 </SCENE>
@@ -4052,6 +4123,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A bedchamber.</SCENELOCATION>
 <SCENEPERSONAE>(King, Salisbury, Warwick, Cardinal)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the King, Salisbury, and Warwick to the Cardinal in bed, raving and staring as if he were mad.</STAGEDIR>
 
 <SPEECH>
@@ -4144,6 +4216,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The coast of Kent.</SCENELOCATION>
 <SCENEPERSONAE>(Lieutenant, Shipmaster, Mate, Walter Whitmore, Suffolk, Gentlemen)</SCENEPERSONAE>
+
 <STAGEDIR>Alarum within. Ord&#8217;nance goes off like as it were a fight at sea. Enter Lieutenant, a Shipmaster and his Mate, Walter Whitmore, and others; with them Suffolk, disguised, and other Gentlemen, prisoners.</STAGEDIR>
 
 <SPEECH>
@@ -4432,6 +4505,7 @@
 <LINE>Stabb&#8217;d Julius Caesar; savage islanders</LINE>
 <LINE>Pompey the Great; and Suffolk dies by pirates.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Walter Whitmore with Suffolk.</STAGEDIR>
 
 <SPEECH>
@@ -4440,6 +4514,7 @@
 <LINE>It is our pleasure one of them depart;</LINE>
 <LINE>Therefore come you with us and let him go.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Lieutenant and the rest. Manet the First Gentleman.</STAGEDIR>
 
 <STAGEDIR>Enter Walter Whitmore with the body of Suffolk.</STAGEDIR>
@@ -4449,6 +4524,7 @@
 <LINE>There let his head and liveless body lie,</LINE>
 <LINE>Until the Queen his mistress bury it.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Walter.</STAGEDIR>
 
 <SPEECH>
@@ -4458,6 +4534,7 @@
 <LINE>If he revenge it not, yet will his friends;</LINE>
 <LINE>So will the Queen, that living held him dear.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit with the body.</STAGEDIR> 
 
 </SCENE>
@@ -4465,7 +4542,8 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Blackheath.</SCENELOCATION>
-<SCENEPERSONAE>(George Bevis, John Holland, Cade, Dick the butcher, Smith the weaver, Sawyer, Clerk, Michael, Sir Humphrey Stafford, his Brother, Soldiers)</SCENEPERSONAE>
+<SCENEPERSONAE>(George Bevis, John Holland, Cade, Dick the butcher, Smith the weaver, Sawyer, Clerk of Chatham, Michael, Sir Humphrey Stafford, his Brother, Soldiers)</SCENEPERSONAE>
+
 <STAGEDIR>Enter George Bevis and John Holland with long staves.</STAGEDIR>
 
 <SPEECH>
@@ -4684,11 +4762,12 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Nay, that I mean to do. Is not this a lamentable thing, that of the skin of an innocent lamb should be made parchment? That parchment, being scribbled o&#8217;er, should undo a man? Some say the bee stings, but I say, &#8217;tis the bee&#8217;s wax; for I did but seal once to a thing, and I was never mine own man since. How now? Who&#8217;s there?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter one with a Clerk.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SMITH.</SPEAKER>
-<LINE>The clerk of Chartam. He can write and read and cast accompt.</LINE>
+<LINE>The clerk of Chatham. He can write and read and cast accompt.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -4727,7 +4806,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLERK.</SPEAKER>
+<SPEAKER>CLERK. CHAT.</SPEAKER>
 <LINE>Emmanuel.</LINE>
 </SPEECH>
 
@@ -4742,7 +4821,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>CLERK.</SPEAKER>
+<SPEAKER>CLERK. CHAT.</SPEAKER>
 <LINE>Sir, I thank God, I have been so well brought up that I can write my name.</LINE>
 </SPEECH>
 
@@ -4755,7 +4834,8 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Away with him, I say! Hang him with his pen and inkhorn about his neck.</LINE>
 </SPEECH>
-<STAGEDIR>Exit one with the Clerk.</STAGEDIR>
+
+<STAGEDIR>Exit one with the Clerk of Chatham.</STAGEDIR>
 
 <STAGEDIR>Enter Michael.</STAGEDIR>
 
@@ -4932,6 +5012,7 @@
 <LINE>Be hang&#8217;d up for example at their doors.</LINE>
 <LINE>And you that be the King&#8217;s friends, follow me.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit with his Brother and Men.</STAGEDIR>
 
 <SPEECH>
@@ -4953,6 +5034,7 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>But then are we in order when we are most out of order. Come, march forward.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -4961,6 +5043,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Another part of Blackheath.</SCENELOCATION>
 <SCENEPERSONAE>(Cade, Dick)</SCENEPERSONAE>
+
 <STAGEDIR>Alarums to the fight, wherein both the Staffords are slain. Enter Cade and the rest.</STAGEDIR>
 
 <SPEECH>
@@ -4999,6 +5082,7 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Fear not that, I warrant thee. Come, let&#8217;s march towards London.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -5007,6 +5091,7 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>London. The palace.</SCENELOCATION>
 <SCENEPERSONAE>(King, Queen, Duke of Buckingham, Lord Say, Messengers)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the King with a supplication and the Queen with Suffolk&#8217;s head, the Duke of Buckingham and the Lord Say.</STAGEDIR>
 
 <SPEECH>
@@ -5064,6 +5149,7 @@
 <SPEAKER>QUEEN.</SPEAKER>
 <LINE>No, my love, I should not mourn, but die for thee.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter a Messenger.</STAGEDIR>
 
 <SPEECH>
@@ -5116,6 +5202,7 @@
 <LINE>And therefore in this city will I stay</LINE>
 <LINE>And live alone as secret as I may.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter another Messenger.</STAGEDIR>
 
 <SPEECH>
@@ -5157,6 +5244,7 @@
 <LINE>The trust I have is in mine innocence,</LINE>
 <LINE>And therefore am I bold and resolute.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -5164,7 +5252,8 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>London. The Tower.</SCENELOCATION>
-<SCENEPERSONAE>(Lord Scales, Citizens)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lord Scales, First London Citizen, Citizens)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Lord Scales upon the Tower, walking. Then enters two or three Citizens below.</STAGEDIR>
 
 <SPEECH>
@@ -5173,7 +5262,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. CIT.</SPEAKER>
+<SPEAKER>1. LOND. CIT.</SPEAKER>
 <LINE>No, my lord, nor likely to be slain; for they have won the Bridge, killing all those that withstand them. The Lord Mayor craves aid of your honor from the Tower to defend the city from the rebels.</LINE>
 </SPEECH>
 
@@ -5190,23 +5279,24 @@
 
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
-
 </SCENE>
 
 <SCENE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>London. Cannon Street.</SCENELOCATION>
-<SCENEPERSONAE>(Jack Cade, Soldiers, Dick, Smith)</SCENEPERSONAE>
+<SCENEPERSONAE>(Jack Cade, Rebel Soldier, Soldiers, Dick, Smith)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Jack Cade and the rest, and strikes his staff on London Stone.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Now is Mortimer lord of this city. And here, sitting upon London Stone, I charge and command that, of the city&#8217;s cost, the pissing-conduit run nothing but claret wine this first year of our reign. And now henceforward it shall be treason for any that calls me other than Lord Mortimer.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Soldier running.</STAGEDIR>
+
+<STAGEDIR>Enter a Rebel Soldier running.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>REBEL SOLD.</SPEAKER>
 <LINE>Jack Cade! Jack Cade!</LINE>
 </SPEECH>
 
@@ -5214,8 +5304,8 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Knock him down there.</LINE>
 </SPEECH>
-<STAGEDIR>They kill him.</STAGEDIR>
 
+<STAGEDIR>They kill him.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SMITH.</SPEAKER>
@@ -5231,6 +5321,7 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Come, then, let&#8217;s go fight with them. But first go and set London Bridge on fire, and if you can, burn down the Tower too. Come, let&#8217;s away.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt omnes.</STAGEDIR> 
 
 </SCENE>
@@ -5238,7 +5329,8 @@
 <SCENE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>London. Smithfield.</SCENELOCATION>
-<SCENEPERSONAE>(Matthew Goffe, Jack Cade, Messenger, George Bevis, Lord Say)</SCENEPERSONAE>
+<SCENEPERSONAE>(Matthew Goffe, Jack Cade, Rebel Messenger, George Bevis, Lord Say)</SCENEPERSONAE>
+
 <STAGEDIR>Alarums. Matthew Goffe is slain, and all the rest. Then enter Jack Cade with his company.</STAGEDIR>
 
 <SPEECH>
@@ -5288,12 +5380,14 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>And henceforward all things shall be in common.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+
+<STAGEDIR>Enter a Rebel Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>REBEL MESS.</SPEAKER>
 <LINE>My lord, a prize, a prize! Here&#8217;s the Lord Say, which sold the towns in France; he that made us pay one and twenty fifteens, and one shilling to the pound, the last subsidy.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter George Bevis with the Lord Say.</STAGEDIR>
 
 <SPEECH>
@@ -5464,6 +5558,7 @@
 <SPEAKER>ALL.</SPEAKER>
 <LINE>O, brave!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter one with the heads of Say and Cromer upon two poles.</STAGEDIR>
 
 <SPEECH>
@@ -5479,6 +5574,7 @@
 <SCENETITLE>Scene 8</SCENETITLE>
 <SCENELOCATION>Southwark.</SCENELOCATION>
 <SCENEPERSONAE>(Cade, Buckingham, Clifford)</SCENEPERSONAE>
+
 <STAGEDIR>Alarum and retreat. Enter again Cade and all his rabblement.</STAGEDIR>
 
 <SPEECH>
@@ -5487,6 +5583,7 @@
 <STAGEDIR>Sound a parley.</STAGEDIR>
 <LINE>What noise is this I hear? Dare any be so bold to sound retreat or parley when I command them kill?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Buckingham and old Clifford attended.</STAGEDIR>
 
 <SPEECH>
@@ -5571,6 +5668,7 @@
 <LINE>Follow me, soldiers, we&#8217;ll devise a mean</LINE>
 <LINE>To reconcile you all unto the King.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt omnes.</STAGEDIR> 
 
 </SCENE>
@@ -5579,6 +5677,7 @@
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>Kenilworth Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Queen, Somerset, Buckingham, Clifford, Messenger)</SCENEPERSONAE>
+
 <STAGEDIR>Sound trumpets. Enter King, Queen, and Somerset on the tarras.</STAGEDIR>
 
 <SPEECH>
@@ -5590,6 +5689,7 @@
 <LINE>Was never subject long&#8217;d to be a king</LINE>
 <LINE>As I do long and wish to be a subject.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Buckingham and old Clifford.</STAGEDIR>
 
 <SPEECH>
@@ -5602,6 +5702,7 @@
 <LINE>Why, Buckingham, is the traitor Cade surpris&#8217;d?</LINE>
 <LINE>Or is he but retir&#8217;d to make him strong?</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter, below, multitudes with halters about their necks.</STAGEDIR>
 
 <SPEECH>
@@ -5628,6 +5729,7 @@
 <SPEAKER>ALL.</SPEAKER>
 <LINE>God save the King! God save the King!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter a Messenger.</STAGEDIR>
 
 <SPEECH>
@@ -5680,6 +5782,7 @@
 <LINE>Come, wife, let&#8217;s in, and learn to govern better,</LINE>
 <LINE>For yet may England curse my wretched reign.</LINE>
 </SPEECH>
+
 <STAGEDIR>Flourish. Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -5688,12 +5791,14 @@
 <SCENETITLE>Scene 10</SCENETITLE>
 <SCENELOCATION>Kent. Iden&#8217;s garden.</SCENELOCATION>
 <SCENEPERSONAE>(Cade, Iden, Servants)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Cade.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CADE.</SPEAKER>
-<LINE>Fie on ambitions! Fie on myself, that have a sword, and yet am ready to famish! These five days have I hid me in these woods and durst not peep out, for all the country is laid for me; but now am I so hungry that, if I might have a lease of my life for a thousand years, I could stay no longer. Wherefore, on a brick wall have I climb&#8217;d into this garden, to see if I can eat grass, or pick a sallet another while, which is not amiss to cool a man&#8217;s stomach this hot weather. And I think this word &#8217;sallet&#8217; was born to do me good; for many a time, but for a sallet, my brain-pan had been cleft with a brown bill; and many a time, when I have been dry and bravely marching, it hath serv&#8217;d me instead of a quart pot to drink in; and now the word &#8217;sallet&#8217; must serve me to feed on.</LINE>
+<LINE>Fie on ambitions! Fie on myself, that have a sword, and yet am ready to famish! These five days have I hid me in these woods and durst not peep out, for all the country is laid for me; but now am I so hungry that, if I might have a lease of my life for a thousand years, I could stay no longer. Wherefore, on a brick wall have I climb&#8217;d into this garden, to see if I can eat grass, or pick a sallet another while, which is not amiss to cool a man&#8217;s stomach this hot weather. And I think this word &#8217;sallet&#8217; was born to do me good; for many a time, but for a sallet, my brain-pan had been cleft with a brown bill; and many a time, when I have been dry and bravely marching, it hath serv&#8217;d me instead of a quart pot to drink in; and now the word &#8216;sallet&#8217; must serve me to feed on.</LINE>
 </SPEECH>
+
 <STAGEDIR>He lies down picking of herbs and eating them.</STAGEDIR>
 
 <STAGEDIR>Enter Iden followed at a distance by his Servants.</STAGEDIR>
@@ -5770,6 +5875,7 @@
 <SPEAKER>CADE.</SPEAKER>
 <LINE>Iden, farewell, and be proud of thy victory. Tell Kent from me, she hath lost her best man, and exhort all the world to be cowards; for I, that never fear&#8217;d any, am vanquish&#8217;d by famine, not by valor.</LINE>
 </SPEECH>
+
 <STAGEDIR>Dies.</STAGEDIR>
 
 <SPEECH>
@@ -5796,6 +5902,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Fields between Dartford and Blackheath.</SCENELOCATION>
 <SCENEPERSONAE>(York, Buckingham, Soldiers, King, Attendants, Iden, Queen, Somerset, Edward, Richard Plantagenet, Clifford, Young Clifford, Earl of Warwick, Earl of Salisbury)</SCENEPERSONAE>
+
 <STAGEDIR>Enter York and his army of Irish with Drum and Colors.</STAGEDIR>
 
 <SPEECH>
@@ -5897,6 +6004,7 @@
 <LINE>York, I commend this kind submission;</LINE>
 <LINE>We twain will go into his Highness&#8217; tent.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter King and Attendants.</STAGEDIR>
 
 <SPEECH>
@@ -5922,6 +6030,7 @@
 <LINE>And fight against that monstrous rebel Cade,</LINE>
 <LINE>Who since I heard to be discomfited.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Iden with Cade&#8217;s head.</STAGEDIR>
 
 <SPEECH>
@@ -5977,6 +6086,7 @@
 <LINE>May Iden live to merit such a bounty,</LINE>
 <LINE>And never live but true unto his liege!</LINE>
 </SPEECH>
+
 <STAGEDIR>Rises.</STAGEDIR>
 
 <STAGEDIR>Enter Queen and Somerset.</STAGEDIR>
@@ -6040,8 +6150,8 @@
 <LINE>To say if that the bastard boys of York</LINE>
 <LINE>Shall be the surety for their traitor father.</LINE>
 </SPEECH>
-<STAGEDIR>Exit Buckingham.</STAGEDIR>
 
+<STAGEDIR>Exit Buckingham.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>YORK.</SPEAKER>
@@ -6054,6 +6164,7 @@
 <STAGEDIR>Enter Edward and Richard Plantagenet with Drum and Soldiers at one door.</STAGEDIR>
 <LINE>See where they come, I&#8217;ll warrant they&#8217;ll make it good.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Clifford and his son Young Clifford with Drum and Soldiers at the other door.</STAGEDIR>
 
 <SPEECH>
@@ -6065,6 +6176,7 @@
 <SPEAKER>CLIF.</SPEAKER>
 <LINE>Health and all happiness to my lord the King!</LINE>
 </SPEECH>
+
 <STAGEDIR>Kneels.</STAGEDIR>
 
 <SPEECH>
@@ -6129,6 +6241,7 @@
 <LINE>They may astonish these fell-lurking curs.</LINE>
 <LINE>Bid Salisbury and Warwick come to me.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter the Earls of Warwick and Salisbury with Drum and Soldiers.</STAGEDIR>
 
 <SPEECH>
@@ -6289,8 +6402,9 @@
 
 <SPEECH>
 <SPEAKER>RICH.</SPEAKER>
-<LINE>If not in heaven, You&#8217;ll surely sup in hell.</LINE>
+<LINE>If not in heaven, you&#8217;ll surely sup in hell.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt severally.</STAGEDIR> 
 
 </SCENE>
@@ -6299,6 +6413,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Saint Alban&#8217;s.</SCENELOCATION>
 <SCENEPERSONAE>(Warwick, York, Clifford, Young Clifford, Richard, Somerset, King, Queen)</SCENEPERSONAE>
+
 <STAGEDIR>Alarums to the battle. Enter Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -6322,6 +6437,7 @@
 <LINE>And made a prey for carrion kites and crows</LINE>
 <LINE>Even of the bonny beast he lov&#8217;d so well.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter old Clifford.</STAGEDIR>
 
 <SPEECH>
@@ -6341,6 +6457,7 @@
 <LINE>As I intend, Clifford, to thrive today,</LINE>
 <LINE>It grieves my soul to leave thee unassail&#8217;d.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Warwick.</STAGEDIR>
 
 <SPEECH>
@@ -6375,20 +6492,22 @@
 <SPEAKER>YORK.</SPEAKER>
 <LINE>A dreadful lay! Address thee instantly.</LINE>
 </SPEECH>
+
 <STAGEDIR>They fight, and Clifford falls.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CLIF.</SPEAKER>
-<LINE>La fin couronne les oeuvres.</LINE>
+<LINE><FRENCH>La fin couronne les oeuvres.</FRENCH></LINE>
 </SPEECH>
-<STAGEDIR>Dies.</STAGEDIR>
 
+<STAGEDIR>Dies.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>YORK.</SPEAKER>
 <LINE>Thus war hath given thee peace, for thou art still.</LINE>
 <LINE>Peace with his soul, heaven, if it be thy will!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <STAGEDIR>Enter Young Clifford.</STAGEDIR>
@@ -6436,6 +6555,7 @@
 <LINE>But then Aeneas bare a living load&#8212;</LINE>
 <LINE>Nothing so heavy as these woes of mine.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit bearing off his father.</STAGEDIR>
 
 <STAGEDIR>Enter Richard and Somerset to fight. Somerset is killed under the sign of the Castle Inn.</STAGEDIR>
@@ -6444,11 +6564,12 @@
 <SPEAKER>RICH.</SPEAKER>
 <LINE>So lie thou there;</LINE>
 <LINE>For underneath an alehouse&#8217; paltry sign,</LINE>
-<LINE>The Castle in Saint Albons, Somerset</LINE>
+<LINE>The Castle in Saint Albans, Somerset</LINE>
 <LINE>Hath made the wizard famous in his death.</LINE>
 <LINE>Sword, hold thy temper; heart, be wrathful still:</LINE>
 <LINE>Priests pray for enemies, but princes kill.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <STAGEDIR>Fight. Excursions. Enter King, Queen, and others.</STAGEDIR>
@@ -6478,6 +6599,7 @@
 <LINE>And where this breach now in our fortunes made</LINE>
 <LINE>May readily be stopp&#8217;d.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Young Clifford.</STAGEDIR>
 
 <SPEECH>
@@ -6490,6 +6612,7 @@
 <LINE>To see their day, and them our fortune give.</LINE>
 <LINE>Away, my lord, away!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -6498,6 +6621,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Fields near St. Alban&#8217;s.</SCENELOCATION>
 <SCENEPERSONAE>(York, Richard, Warwick, Soldiers, Salisbury)</SCENEPERSONAE>
+
 <STAGEDIR>Alarum. Retreat. Enter York, Richard, Warwick, and Soldiers with Drum and Colors.</STAGEDIR>
 
 <SPEECH>
@@ -6522,6 +6646,7 @@
 <LINE>So was his will in his old feeble body.</LINE>
 <LINE>But noble as he is, look where he comes.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Salisbury.</STAGEDIR>
 
 <SPEECH>
@@ -6549,12 +6674,14 @@
 <SPEAKER>WAR.</SPEAKER>
 <LINE>After them! Nay, before them, if we can.</LINE>
 <LINE>Now, by my faith, lords, &#8217;twas a glorious day.</LINE>
-<LINE>Saint Albons battle won by famous York</LINE>
+<LINE>Saint Albans battle won by famous York</LINE>
 <LINE>Shall be eterniz&#8217;d in all age to come.</LINE>
 <LINE>Sound drum and trumpets, and to London all,</LINE>
 <LINE>And more such days as these to us befall!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR>
+
 </SCENE>
 </ACT>
 

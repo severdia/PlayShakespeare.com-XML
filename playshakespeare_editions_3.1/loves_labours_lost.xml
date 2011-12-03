@@ -39,6 +39,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The King of Navarre&#8217;s park.</SCENELOCATION>
 <SCENEPERSONAE>(King of Navarre, Berowne, Longaville, Dumaine, Constable Dull, Costard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Ferdinand, King of Navarre, Berowne, Longaville, and Dumaine.</STAGEDIR>
 
 <SPEECH>
@@ -689,7 +690,6 @@
 
 <STAGEDIR>Exeunt King, Longaville, and Dumaine.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>BER.</SPEAKER>
 <LINE>I&#8217;ll lay my head to any good man&#8217;s hat,</LINE>
@@ -706,11 +706,11 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Armado, Moth, Clown Costard, Constable Dull, Wench Jaquenetta)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Armado and Moth, his page.</STAGEDIR>
 
 <SPEECH>
@@ -1002,14 +1002,14 @@
 
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
-<LINE offset="2">If she be made of white and red,</LINE>
-<LINE offset="2">Her faults will ne&#8217;er be known,</LINE>
-<LINE offset="2">For blush in cheeks by faults are bred,</LINE>
-<LINE offset="2">And fears by pale white shown:</LINE>
-<LINE offset="2">Then if she fear, or be to blame,</LINE>
-<LINE offset="2">By this you shall not know,</LINE>
-<LINE offset="2">For still her cheeks possess the same</LINE>
-<LINE offset="2">Which native she doth owe.</LINE>
+<LINE type="recite">If she be made of white and red,</LINE>
+<LINE type="recite">Her faults will ne&#8217;er be known,</LINE>
+<LINE type="recite">For blush in cheeks by faults are bred,</LINE>
+<LINE type="recite">And fears by pale white shown:</LINE>
+<LINE type="recite">Then if she fear, or be to blame,</LINE>
+<LINE type="recite">By this you shall not know,</LINE>
+<LINE type="recite">For still her cheeks possess the same</LINE>
+<LINE type="recite">Which native she doth owe.</LINE>
 <LINE>A dangerous rhyme, master, against the reason of white and red.</LINE>
 </SPEECH>
 
@@ -1128,7 +1128,6 @@
 
 <STAGEDIR>Exeunt Dull and Jaquenetta.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>ARM.</SPEAKER>
 <LINE>Villain, thou shalt fast for thy offenses ere thou be pardoned.</LINE>
@@ -1186,7 +1185,6 @@
 
 <STAGEDIR>Exit with Moth.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>ARM.</SPEAKER>
 <LINE>I do affect the very ground (which is base) where her shoe (which is baser) guided by her foot (which is basest) doth tread. I shall be forsworn (which is a great argument of falsehood) if I love. And how can that be true love, which is falsely attempted? Love is a familiar; Love is a devil; there is no evil angel but Love. Yet was Sampson so tempted, and he had an excellent strength; yet was Salomon so seduced, and he had a very good wit. Cupid&#8217;s butt-shaft is too hard for Hercules&#8217; club, and therefore too much odds for a Spaniard&#8217;s rapier. The first and second cause will not serve my turn; the passado he respects not, the duello he regards not: his disgrace is to be called boy, but his glory is to subdue men. Adieu, valor, rust, rapier, be still, drum, for your manager is in love; yea, he loveth. Assist me, some extemporal god of rhyme, for I am sure I shall turn sonnet. Devise, wit, write, pen, for I am for whole volumes in folio.</LINE>
@@ -1203,8 +1201,8 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Princess of France, Rosaline, Maria, Katherine, Lords, Boyet, King of Navarre, Longaville, Dumaine, Berowne, Attendants)</SCENEPERSONAE>
-<STAGEDIR>Enter the Princess of France with three attending Ladies (Rosaline, Maria, Katherine) and three Lords, one named Boyet.</STAGEDIR>
 
+<STAGEDIR>Enter the Princess of France with three attending Ladies (Rosaline, Maria, Katherine) and three Lords, one named Boyet.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BOYET.</SPEAKER>
@@ -1821,7 +1819,6 @@
 
 <STAGEDIR>Offering to kiss her.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>KATH.</SPEAKER>
 <LINE offset="6">Not so, gentle beast.</LINE>
@@ -1941,7 +1938,6 @@
 
 <STAGEDIR>Exeunt omnes.</STAGEDIR> 
 
-
 </SCENE>
 </ACT>
 
@@ -1951,6 +1947,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Armado, Moth, Costard, Berowne)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Braggart Armado and his Boy Moth.</STAGEDIR>
 
 <SPEECH>
@@ -2132,7 +2129,6 @@
 
 <STAGEDIR>Enter Page Moth and Clown Costard.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
 <LINE>A wonder, master! Here&#8217;s a costard broken in a shin.</LINE>
@@ -2163,8 +2159,8 @@
 <LINE>No, page, it is an epilogue or discourse, to make plain</LINE>
 <LINE>Some obscure precedence that hath tofore been sain.</LINE>
 <LINE>I will example it:</LINE>
-<LINE offset="2">The fox, the ape, and the humble-bee</LINE>
-<LINE offset="2">Were still at odds, being but three.</LINE>
+<LINE type="recite">The fox, the ape, and the humble-bee</LINE>
+<LINE type="recite">Were still at odds, being but three.</LINE>
 <LINE>There&#8217;s the moral. Now the l&#8217;envoy.</LINE>
 </SPEECH>
 
@@ -2175,23 +2171,23 @@
 
 <SPEECH>
 <SPEAKER>ARM.</SPEAKER>
-<LINE offset="2">The fox, the ape, and the humble-bee</LINE>
-<LINE offset="2">Were still at odds, being but three.</LINE>
+<LINE type="recite">The fox, the ape, and the humble-bee</LINE>
+<LINE type="recite">Were still at odds, being but three.</LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
-<LINE offset="2">Until the goose came out of door,</LINE>
-<LINE offset="2">And stayed the odds by adding four.</LINE>
+<LINE type="recite">Until the goose came out of door,</LINE>
+<LINE type="recite">And stayed the odds by adding four.</LINE>
 <LINE>Now will I begin your moral, and do you follow with my l&#8217;envoy:</LINE>
-<LINE offset="2">The fox, the ape, and the humble-bee</LINE>
-<LINE offset="2">Were still at odds, being but three.</LINE>
+<LINE type="recite">The fox, the ape, and the humble-bee</LINE>
+<LINE type="recite">Were still at odds, being but three.</LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>ARM.</SPEAKER>
-<LINE offset="2">Until the goose came out of door,</LINE>
-<LINE offset="2">Staying the odds by adding four.</LINE>
+<LINE type="recite">Until the goose came out of door,</LINE>
+<LINE type="recite">Staying the odds by adding four.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -2285,7 +2281,6 @@
 </SPEECH>
 
 <STAGEDIR>Exit Armado, followed by Moth.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>COST.</SPEAKER>
@@ -2385,7 +2380,6 @@
 
 <STAGEDIR>Exit.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>BER.</SPEAKER>
 <LINE>O, and I, forsooth, in love! I, that have been love&#8217;s whip,</LINE>
@@ -2424,7 +2418,6 @@
 
 <STAGEDIR>Exit.</STAGEDIR> 
 
-
 </SCENE>
 </ACT>
 
@@ -2434,6 +2427,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Princess, Forester, Rosaline, Maria, Katherine, Lords, Boyet, Costard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the Princess, a Forester, her Ladies (Rosaline, Maria, Katherine), and her Lords, among them Boyet.</STAGEDIR>
 
 <SPEECH>
@@ -2529,8 +2523,8 @@
 <LINE>Only for praise&#8212;and praise we may afford</LINE>
 <LINE>To any lady that subdues a lord.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Clown Costard.</STAGEDIR>
 
+<STAGEDIR>Enter Clown Costard.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BOYET.</SPEAKER>
@@ -2669,7 +2663,6 @@
 
 <STAGEDIR>Exeunt Princess and Train.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>BOYET.</SPEAKER>
 <LINE>Who is the shooter? Who is the shooter?</LINE>
@@ -2747,6 +2740,7 @@
 <LINE type="lyric">And I cannot, cannot, cannot,</LINE>
 <LINE type="lyric">And I cannot, another can.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Rosaline and Katherine.</STAGEDIR>
 
 <SPEECH>
@@ -2819,14 +2813,13 @@
 
 <STAGEDIR>Exit.</STAGEDIR> 
 
-
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Dull, Holofernes, Nathaniel, Jaquenetta, Costard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Dull, Holofernes the Pedant, and Nathaniel from watching the hunt.</STAGEDIR>
 
 <SPEECH>
@@ -2971,8 +2964,8 @@
 <SPEAKER>HOL.</SPEAKER>
 <LINE>Mehercle, if their sons be ingenious, they shall want no instruction; if their daughters be capable, I will put it to them: but vir sapit qui pauca loquitur. A soul feminine saluteth us.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Jaquenetta and the Clown Costard.</STAGEDIR>
 
+<STAGEDIR>Enter Jaquenetta and the Clown Costard.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>JAQ.</SPEAKER>
@@ -3098,16 +3091,16 @@
 <STAGEDIR>To Dull.</STAGEDIR>
 <LINE>Sir, I do invite you too, you shall not say me nay: pauca verba. Away, the gentles are at their game, and we will to our recreation.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
-
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Berowne, King, Longaville, Dumaine, Jaquenetta, Costard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Berowne with a paper in his hand, alone.</STAGEDIR>
 
 <SPEECH>
@@ -3325,7 +3318,6 @@
 <LINE offset="4">And I had mine!</LINE>
 </SPEECH>
 
-
 <SPEECH>
 <SPEAKER>KING</SPEAKER>
 <STAGEDIR>Aside.</STAGEDIR>
@@ -3489,6 +3481,7 @@
 <SPEAKER>BER.</SPEAKER>
 <LINE>I post from love; good lover, let me go.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Jaquenetta and Clown Costard.</STAGEDIR>
 
 <SPEECH>
@@ -3943,6 +3936,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Holofernes, Sir Nathaniel, Dull. Armado, Moth, Costard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the Pedant Holofernes, the Curate Sir Nathaniel, and Dull.</STAGEDIR>
 
 <SPEECH>
@@ -3983,7 +3977,6 @@
 </SPEECH>
 
 <STAGEDIR>Enter Braggart Armado, Boy Moth, and Costard.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>NATH.</SPEAKER>
@@ -4242,6 +4235,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same.</SCENELOCATION>
 <SCENEPERSONAE>(Princess, Maria, Katherine, Rosaline, Boyet, Blackmoors, Moth, King Navarre, Lords, Costard, Armado, Sir Nathaniel, Holofernes, Berowne, Monsieur Marcade)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the Ladies: the Princess, Maria, Katherine, and Rosaline.</STAGEDIR>
 
 <SPEECH>
@@ -4465,7 +4459,6 @@
 </SPEECH>
 
 <STAGEDIR>Enter Boyet.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>PRIN.</SPEAKER>
@@ -5245,6 +5238,7 @@
 <LINE>I will, and so will she, I know, my lord.</LINE>
 
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -5276,6 +5270,7 @@
 <LINE>A blister on his sweet tongue, with my heart,</LINE>
 <LINE>That put Armado&#8217;s page out of his part!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter the Princess, ushered by Boyet, and her Ladies.</STAGEDIR>
 
 <SPEECH>
@@ -5789,6 +5784,7 @@
 <SPEAKER>ARM.</SPEAKER>
 <LINE>Anointed, I implore so much expense of thy royal sweet breath as will utter a brace of words.</LINE>
 </SPEECH>
+
 <STAGEDIR>Converses apart with the King, and delivers him a paper.</STAGEDIR>
 
 <SPEECH>
@@ -5812,7 +5808,6 @@
 </SPEECH>
 
 <STAGEDIR>Exit.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>KING.</SPEAKER>
@@ -5842,6 +5837,7 @@
 <SPEAKER>KING.</SPEAKER>
 <LINE>The ship is under sail, and here she comes amain.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Costard for Pompey.</STAGEDIR>
 <SPEECH>
 <SPEAKER>COST.</SPEAKER>
@@ -6264,6 +6260,7 @@
 <STAGEDIR>To the Princess.</STAGEDIR>
 <LINE>Sweet royalty, bestow on me the sense of hearing.</LINE>
 </SPEECH>
+
 <STAGEDIR>Berowne steps forth to whisper to Costard and then returns to his place.</STAGEDIR>
 
 <SPEECH>
@@ -6757,7 +6754,6 @@
 </SPEECH>
 
 <STAGEDIR>Enter Braggart Armado.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>ARM.</SPEAKER>

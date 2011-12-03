@@ -20,7 +20,7 @@
 <PERSONA short="CHAN.">Lord Chancellor</PERSONA>
 <PERSONA short="GARD.">Gardiner, secretary to the King, afterwards Bishop of Winchester</PERSONA>
 <PERSONA short="LIN.">Bishop of Lincoln</PERSONA>
-<PERSONA short="ABUR.">Lord Aburgavenny</PERSONA>
+<PERSONA short="ABUR.">Lord Abergavenny</PERSONA>
 <PERSONA short="SAN.">Lord Sands (called also Sir Walter Sands)</PERSONA>
 <PERSONA short="GUIL.">Sir Henry Guilford</PERSONA>
 <PERSONA short="LOV.">Sir Thomas Lovell</PERSONA>
@@ -33,7 +33,7 @@
 <PERSONA short="2. GENT., BOTH. 1. GENT. AND 2. GENT.">Second Gentleman</PERSONA>
 <PERSONA short="3. GENT.">Third Gentleman</PERSONA>
 <PERSONA short="BUTTS.">Doctor Butts, physician to the King</PERSONA>
-<PERSONA short="GART.">Garter King-at-Arms</PERSONA>
+<PERSONA short="GART.">Garter King-of-Arms</PERSONA>
 <PERSONA short="SURV.">Surveyor to the Duke of Buckingham</PERSONA>
 <PERSONA short="BRAN.">Brandon</PERSONA>
 <PERSONA short="SERG.">Sergeant-at-Arms</PERSONA>
@@ -107,8 +107,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. An ante-chamber in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Duke of Norfolk, Duke of Buckingham, Lord Aburgavenny, Cardinal Wolsey, Guards, Secretaries, Brandon, Sergeant-at-Arms)</SCENEPERSONAE>
-<STAGEDIR>Enter the Duke of Norfolk at one door; at the other, the Duke of Buckingham and the Lord Aburgavenny.</STAGEDIR>
+<SCENEPERSONAE>(Duke of Norfolk, Duke of Buckingham, Lord Abergavenny, Cardinal Wolsey, Guards, Secretaries, Brandon, Sergeant-at-Arms)</SCENEPERSONAE>
+
+<STAGEDIR>Enter the Duke of Norfolk at one door; at the other, the Duke of Buckingham and the Lord Abergavenny.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BUCK.</SPEAKER>
@@ -562,7 +563,7 @@
 <SPEECH>
 <SPEAKER>BRAN.</SPEAKER>
 <LINE>Nay, he must bear you company.</LINE>
-<STAGEDIR>To Aburgavenny.</STAGEDIR>
+<STAGEDIR>To Abergavenny.</STAGEDIR>
 <LINE offset="7">The King</LINE>
 <LINE>Is pleas&#8217;d you shall to th&#8217; Tower, till you know</LINE>
 <LINE>How he determines further.</LINE>
@@ -618,11 +619,11 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. The council-chamber.</SCENELOCATION>
 <SCENEPERSONAE>(King Henry, Cardinal, Nobles, Sir Thomas Lovell, Secretary, Duke of Norfolk. Queen Katherine, Suffolk, Surveyor)</SCENEPERSONAE>
+
 <STAGEDIR>Cornets. Enter King Henry, leaning on the Cardinal&#8217;s shoulder, the Nobles, and Sir Thomas Lovell; the Cardinal places himself under the King&#8217;s feet on his right side, his Secretary in attendance.</STAGEDIR>
 
 <SPEECH>
@@ -799,7 +800,6 @@
 <LINE>The force of this commission. Pray look to&#8217;t;</LINE>
 <LINE>I put it to your care.</LINE>
 </SPEECH>
-
 
 <SPEECH>
 <SPEAKER>WOL.</SPEAKER> <STAGEDIR>Aside to the Secretary.</STAGEDIR>
@@ -1060,6 +1060,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>An ante-chamber in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Lord Chamberlain, Lord Sands, Sir Thomas Lovell)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Lord Chamberlain and Lord Sands.</STAGEDIR>
 
 <SPEECH>
@@ -1247,11 +1248,11 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>A Hall in York Place.</SCENELOCATION>
 <SCENEPERSONAE>(Cardinal, Anne Bullen, Ladies, Gentlemen, Sir Henry Guilford, Lord Chamberlain, Lord Sands, Lovell, Servant, King)</SCENEPERSONAE>
+
 <STAGEDIR>Hoboys. A small table under a state for the Cardinal, a longer table for the guests. Then enter Anne Bullen and divers other Ladies and Gentlemen as guests, at one door; at another door, enter Sir Henry Guilford.</STAGEDIR>
 
 <SPEECH>
@@ -1619,6 +1620,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Westminster. A street.</SCENELOCATION>
 <SCENEPERSONAE>(Gentlemen, Buckingham, Tipstaves, Sir Thomas Lovell, Sir Nicholas Vaux, Sir Walter Sands)</SCENEPERSONAE>
+
 <STAGEDIR>Enter two Gentlemen at several doors.</STAGEDIR>
 
 <SPEECH>
@@ -1907,7 +1909,6 @@
 
 <STAGEDIR>Exeunt Duke and Train.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>1. GENT.</SPEAKER>
 <LINE>O, this is full of pity! Sir, it calls,</LINE>
@@ -1997,11 +1998,11 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>An ante-chamber in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Lord Chamberlain, Duke of Norfolk, Duke of Suffolk, King, Wolsey, Campeius, Gardiner)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Lord Chamberlain reading this letter.</STAGEDIR>
 
 <SPEECH>
@@ -2200,7 +2201,6 @@
 <LINE>Of private conference.</LINE>
 </SPEECH>
 
-
 <SPEECH>
 <SPEAKER>KING.</SPEAKER><STAGEDIR>To Norfolk and Suffolk.</STAGEDIR>
 <LINE offset="5">We are busy; go.</LINE>
@@ -2385,6 +2385,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>An ante-chamber of the Queen&#8217;s apartments.</SCENELOCATION>
 <SCENEPERSONAE>(Anne Bullen, Old Lady, Lord Chamberlain)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Anne Bullen and an Old Lady.</STAGEDIR>
 
 <SPEECH>
@@ -2652,8 +2653,9 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>A hall in Black-Friars.</SCENELOCATION>
-<SCENEPERSONAE>(Vergers, Scribes, Arch Bishop of Canterbury, Bishop of Lincoln, Bishop of Ely, Bishop of Rochester, Bishop of Saint Asaph, Gentleman, Priests, Gentleman Usher, Sergeant-at-Arms, Cardinals, Noble-Men, King, Queen, Attendants)</SCENEPERSONAE>
-<STAGEDIR>Trumpets, sennet, and cornets. Enter two Vergers, with short silver wands; next them, two Scribes, in the habit of doctors; after them, the Arch Bishop of Canterbury alone; after him, the Bishops of Lincoln, Ely, Rochester, and Saint Asaph; next them, with some small distance, follows a Gentleman bearing the purse, with the great seal, and a cardinal&#8217;s hat; then two Priests bearing each a silver cross; then a Gentleman Usher bare-headed, accompanied with a Sergeant-at-Arms bearing a silver mace; then two Gentlemen bearing two great silver pillars; after them, side by side, the two Cardinals; two Noble-Men with the sword and mace. The King takes place under the cloth of state; the two Cardinals sit under him as judges. The Queen takes place some distance from the King. The Bishops place themselves on each side the court, in manner of a consistory; below them, the Scribes. The Lords sit next the Bishops. The rest of the Attendants stand in convenient order about the stage.</STAGEDIR>
+<SCENEPERSONAE>(Vergers, Scribes, Archbishop of Canterbury, Bishop of Lincoln, Bishop of Ely, Bishop of Rochester, Bishop of Saint Asaph, Gentleman, Priests, Gentleman Usher, Sergeant-at-Arms, Cardinals, Noble-Men, King, Queen, Attendants)</SCENEPERSONAE>
+
+<STAGEDIR>Trumpets, sennet, and cornets. Enter two Vergers, with short silver wands; next them, two Scribes, in the habit of doctors; after them, the Archbishop of Canterbury alone; after him, the Bishops of Lincoln, Ely, Rochester, and Saint Asaph; next them, with some small distance, follows a Gentleman bearing the purse, with the great seal, and a cardinal&#8217;s hat; then two Priests bearing each a silver cross; then a Gentleman Usher bare-headed, accompanied with a Sergeant-at-Arms bearing a silver mace; then two Gentlemen bearing two great silver pillars; after them, side by side, the two Cardinals; two Noble-Men with the sword and mace. The King takes place under the cloth of state; the two Cardinals sit under him as judges. The Queen takes place some distance from the King. The Bishops place themselves on each side the court, in manner of a consistory; below them, the Scribes. The Lords sit next the Bishops. The rest of the Attendants stand in convenient order about the stage.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>WOL.</SPEAKER>
@@ -3058,6 +3060,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. Queen Katharine&#8217;s apartments.</SCENELOCATION>
 <SCENEPERSONAE>(Queen, Women, Gentleman, Wolsey, Campeius)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Queen and her Women as at work.</STAGEDIR>
 
 <SPEECH>
@@ -3415,6 +3418,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Ante-chamber to King Henry VIII&#8217;s apartment.</SCENELOCATION>
 <SCENEPERSONAE>(Duke of Norfolk, Duke of Suffolk, Lord Surrey, Lord Chamberlain, Wolsey, Cromwell, King, Lovell)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the Duke of Norfolk, Duke of Suffolk, Lord Surrey, and Lord Chamberlain.</STAGEDIR>
 
 <SPEECH>
@@ -4426,7 +4430,8 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>A street in Westminster.</SCENELOCATION>
-<SCENEPERSONAE>(Gentlemen, Judges, Lord Chancellor, Quiristers, Mayor of London, Garter, Marquess Dorset, Duke of Suffolk, Duke of Norfolk, Cinque-Ports, Queen, Bishop of London, Bishop of Winchester, Duchess of Norfolk, Ladies, Countessess)</SCENEPERSONAE>
+<SCENEPERSONAE>(Gentlemen, Judges, Lord Chancellor, Choristers, Mayor of London, Garter, Marquess Dorset, Duke of Suffolk, Duke of Norfolk, Cinque-Ports, Queen, Bishop of London, Bishop of Winchester, Duchess of Norfolk, Ladies, Countessess)</SCENEPERSONAE>
+
 <STAGEDIR>Enter two Gentlemen, meeting one another.</STAGEDIR>
 
 <SPEECH>
@@ -4519,20 +4524,20 @@
 <LINE>The trumpets sound; stand close, the Queen is coming.</LINE>
 </SPEECH>
 
-<STAGEDIR>Hoboys.</STAGEDIR>
-<STAGEDIR>The Order of the Coronation</STAGEDIR>
-<STAGEDIR>1. A lively flourish of trumpets.</STAGEDIR>
-<STAGEDIR>2. Then, two JUDGES.</STAGEDIR>
-<STAGEDIR>3. LORD CHANCELLOR, with purse and mace before him.</STAGEDIR>
-<STAGEDIR>4. QUIRISTERS, singing.</STAGEDIR>
-<STAGEDIR>Music.</STAGEDIR>
-<STAGEDIR>5. MAYOR OF LONDON, bearing the mace. Then GARTER, in his coat of arms, and on his head he wore a gilt copper crown.</STAGEDIR>
-<STAGEDIR>6. MARQUESS DORSET, bearing a sceptre of gold, on his head a demi-coronal of gold. With him, the EARL OF SURREY, bearing the rod of silver with the dove, crowned with an earl&#8217;s coronet. Collars of Esses.</STAGEDIR>
-<STAGEDIR>7. DUKE OF SUFFOLK, in his robe of estate, his coronet on his head, bearing a long white wand, as High Steward. With him, the DUKE OF NORFOLK, with the rod of marshalship, a coronet on his head. Collars of Esses.</STAGEDIR>
-<STAGEDIR>8. A canopy borne by four of the CINQUE-PORTS; under it, the QUEEN in her robe, in her hair, richly adorned with pearl, crowned. On each side her, the BISHOPS OF LONDON and WINCHESTER.</STAGEDIR>
-<STAGEDIR>9. The old DUCHESS OF NORFOLK, in a coronal of gold, wrought with flowers, bearing the Queen&#8217;s train.</STAGEDIR>
-<STAGEDIR>10. Certain LADIES or COUNTESSES, with plain circlets of gold without flowers.</STAGEDIR>
-<STAGEDIR>Exeunt, first passing over the stage in order and state, and then a great flourish of trumpets.</STAGEDIR>
+<STAGEDIR display="newline">Hoboys.</STAGEDIR>
+<STAGEDIR display="newline">The Order of the Coronation</STAGEDIR>
+<STAGEDIR display="newline">1. A lively flourish of trumpets.</STAGEDIR>
+<STAGEDIR display="newline">2. Then, two JUDGES.</STAGEDIR>
+<STAGEDIR display="newline">3. LORD CHANCELLOR, with purse and mace before him.</STAGEDIR>
+<STAGEDIR display="newline">4. CHORISTERS, singing.</STAGEDIR>
+<STAGEDIR display="newline">Music.</STAGEDIR>
+<STAGEDIR display="newline">5. MAYOR OF LONDON, bearing the mace. Then GARTER, in his coat of arms, and on his head he wore a gilt copper crown.</STAGEDIR>
+<STAGEDIR display="newline">6. MARQUESS DORSET, bearing a sceptre of gold, on his head a demi-coronal of gold. With him, the EARL OF SURREY, bearing the rod of silver with the dove, crowned with an earl&#8217;s coronet. Collars of Esses.</STAGEDIR>
+<STAGEDIR display="newline">7. DUKE OF SUFFOLK, in his robe of estate, his coronet on his head, bearing a long white wand, as High Steward. With him, the DUKE OF NORFOLK, with the rod of marshalship, a coronet on his head. Collars of Esses.</STAGEDIR>
+<STAGEDIR display="newline">8. A canopy borne by four of the CINQUE-PORTS; under it, the QUEEN in her robe, in her hair, richly adorned with pearl, crowned. On each side her, the BISHOPS OF LONDON and WINCHESTER.</STAGEDIR>
+<STAGEDIR display="newline">9. The old DUCHESS OF NORFOLK, in a coronal of gold, wrought with flowers, bearing the Queen&#8217;s train.</STAGEDIR>
+<STAGEDIR display="newline">10. Certain LADIES or COUNTESSES, with plain circlets of gold without flowers.</STAGEDIR>
+<STAGEDIR display="newline">Exeunt, first passing over the stage in order and state, and then a great flourish of trumpets.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>2. GENT.</SPEAKER>
@@ -4769,7 +4774,6 @@
 <LINE>I&#8217;ll tell ye more.</LINE>
 </SPEECH>
 
-
 <SPEECH>
 <SPEAKER>BOTH. 1. GENT. AND 2. GENT.</SPEAKER>
 <LINE offset="3">You may command us, sir.</LINE>
@@ -4779,13 +4783,12 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Kimbolton.</SCENELOCATION>
 <SCENEPERSONAE>(Katherine, Dowager, Griffith, Patience, Six Vision Dancers, Messenger, Lord Capuchius)</SCENEPERSONAE>
-<STAGEDIR>Enter Katherine, Dowager, sick, led between Griffith, her gentleman usher, and Patience, her woman.</STAGEDIR>
 
+<STAGEDIR>Enter Katherine, Dowager, sick, led between Griffith, her gentleman usher, and Patience, her woman.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GRIF.</SPEAKER>
@@ -4999,7 +5002,6 @@
 
 <STAGEDIR>Enter a Messenger.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>MESS.</SPEAKER>
 <LINE>And&#8217;t like your Grace&#8212;</LINE>
@@ -5170,6 +5172,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. A gallery in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Gardiner, Bishop of Winchester, Page, Sir Thomas Lovell, King, Suffolk, Sir Anthony Denny, Cranmer, Old Lady)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gardiner, Bishop of Winchester, a Page with a torch before him, met by Sir Thomas Lovell.</STAGEDIR>
 
 <SPEECH>
@@ -5463,7 +5466,6 @@
 <LINE>Would come against you.</LINE>
 </SPEECH>
 
-
 <SPEECH>
 <SPEAKER>CRAN.</SPEAKER> <STAGEDIR>Kneeling.</STAGEDIR>
 <LINE offset="5">I humbly thank your Highness,</LINE>
@@ -5548,7 +5550,6 @@
 
 <STAGEDIR>Enter Old Lady.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>GENT.</SPEAKER> <STAGEDIR>Within.</STAGEDIR>
 <LINE>Come back! What mean you?</LINE>
@@ -5616,7 +5617,8 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before the council-chamber.</SCENELOCATION>
-<SCENEPERSONAE>(Pursuivants, Pages, Cranmer, Archbishop of Canterbury, Keeper, Doctor Butts, King, Lord Chancellor, Duke of Suffolk, Duke of Norfolk, Surrey, Lord Chamberlain, Gardiner, Cromwell, Guard)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pursuivants, Pages, Cranmer, Archbishop of Canterbury, Keeper, Doctor Butts, King, Lord Chancellor, Duke of Suffolk, Duke of Norfolk, Surrey, Lord Chamberlain, Gardiner, Cromwell, Council Guards)</SCENEPERSONAE>
+
 <STAGEDIR>Pursuivants, Pages, etc., attending. Enter Cranmer, Archbishop of Canterbury.</STAGEDIR>
 
 <SPEECH>
@@ -6157,11 +6159,11 @@
 
 </SCENE>
 
-
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The Council-Chamber.</SCENELOCATION>
 <SCENEPERSONAE>(Porter, Man, Servant, Lord Chamberlain)</SCENEPERSONAE>
+
 <STAGEDIR>Noise and tumult within. Enter Porter and his Man.</STAGEDIR>
 
 <SPEECH>
@@ -6309,6 +6311,7 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>The Palace-Yard.</SCENELOCATION>
 <SCENEPERSONAE>(Aldermen, Lord Mayor, Garter, Cranmer, Duke of Norfolk, Duke of Suffolk, Noblemen, Duchess of Norfolk, Marchioness Dorset, Ladies, King, Guard)</SCENEPERSONAE>
+
 <STAGEDIR>Enter trumpets, sounding; then two Aldermen, Lord Mayor, Garter, Cranmer, Duke of Norfolk with his marshal&#8217;s staff, Duke of Suffolk, two Noblemen bearing great standing-bowls for the christening gifts; then four Noblemen bearing a canopy, under which the Duchess of Norfolk, godmother, bearing the child richly habited in a mantle, etc., train borne by a Lady; then follows the Marchioness Dorset, the other godmother, and Ladies. The troop pass once about the stage, and Garter speaks.</STAGEDIR>
 
 <SPEECH>

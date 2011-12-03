@@ -51,6 +51,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Elsinore. A platform before the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Barnardo, Francisco, Horatio, Marcellus, Ghost)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Barnardo and Francisco, two sentinels, meeting.</STAGEDIR>
 
 <SPEECH>
@@ -1110,6 +1111,7 @@
 </SPEECH>
 
 <STAGEDIR>Exit.</STAGEDIR>
+
 </SCENE>
 
 <SCENE>
@@ -1377,6 +1379,7 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Elsinore. The platform before the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Hamlet, Horatio, Marcellus, Ghost)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Hamlet, Horatio, and Marcellus.</STAGEDIR>
 
 <SPEECH>
@@ -1782,7 +1785,7 @@
 <LINE>To prick and sting her. Fare thee well at once!</LINE>
 <LINE>The glow-worm shows the matin to be near,</LINE>
 <LINE>And gins to pale his uneffectual fire.</LINE>
-<LINE>Adieu, adieu, adieu! Remember me.</LINE>
+<LINE><FRENCH>Adieu, adieu, adieu!</FRENCH> Remember me.</LINE>
 </SPEECH>
 
 <STAGEDIR>Exit.</STAGEDIR>
@@ -1811,7 +1814,7 @@
 <STAGEDIR>He writes.</STAGEDIR>
 
 <LINE>So, uncle, there you are. Now to my word:</LINE>
-<LINE>It is &#8220;Adieu, adieu! Remember me.&#8221;</LINE>
+<LINE>It is &#8220;<FRENCH>Adieu, adieu!</FRENCH> Remember me.&#8221;</LINE>
 <LINE>I have sworn&#8217;t.</LINE>
 </SPEECH>
 
@@ -2089,7 +2092,8 @@
 <LINE>Nay, come, let&#8217;s go together.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt.</STAGEDIR> 
+<STAGEDIR>Exeunt.</STAGEDIR>
+
 </SCENE>
 </ACT>
 
@@ -2628,13 +2632,13 @@
 
 <STAGEDIR>Reads the letter.</STAGEDIR>
 
-<LINE offset="2">&#8220;Doubt thou the stars are fire,</LINE>
-<LINE offset="2">Doubt that the sun doth move,</LINE>
-<LINE offset="2">Doubt truth to be a liar,</LINE>
-<LINE offset="2">But never doubt I love.</LINE>
-<LINE>O dear Ophelia, I am ill at these numbers. I have not art to reckon my groans, but that I love thee best, O most best, believe it. Adieu.</LINE>
-<LINE>Thine evermore, most dear lady,</LINE>
-<LINE offset="2">whilst this machine is to him, Hamlet.&#8221;</LINE>
+<LINE type="recite">&#8220;Doubt thou the stars are fire,</LINE>
+<LINE type="recite">Doubt that the sun doth move,</LINE>
+<LINE type="recite">Doubt truth to be a liar,</LINE>
+<LINE type="recite">But never doubt I love.</LINE>
+<LINE type="recite">O dear Ophelia, I am ill at these numbers. I have not art to reckon my groans, but that I love thee best, O most best, believe it. <FRENCH>Adieu.</FRENCH></LINE>
+<LINE type="recite">Thine evermore, most dear lady,</LINE>
+<LINE type="recite">whilst this machine is to him, Hamlet.&#8221;</LINE>
 <LINE>This in obedience hath my daughter shown me,</LINE>
 <LINE>And more above, hath his solicitings,</LINE>
 <LINE>As they fell out by time, by means, and place,</LINE>
@@ -3539,6 +3543,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Elsinore. A room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern, Lords, Hamlet)</SCENEPERSONAE>
+
 <STAGEDIR>Enter King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern, Lords.</STAGEDIR>
 
 <SPEECH>
@@ -4848,6 +4853,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Rosencrantz, Guildenstern, Polonius, Hamlet)</SCENEPERSONAE>
+
 <STAGEDIR>Enter King, Rosencrantz, and Guildenstern.</STAGEDIR>
 
 <SPEECH>
@@ -5491,6 +5497,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Elsinore. A room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Queen, Rosencrantz, Guildenstern)</SCENEPERSONAE>
+
 <STAGEDIR>Enter King and Queen with Rosencrantz and Guildenstern.</STAGEDIR>
 
 <SPEECH>
@@ -5584,6 +5591,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Elsinore. A passage in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Hamlet, Rosencrantz, Guildenstern)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Hamlet.</STAGEDIR>
 
 <SPEECH>
@@ -5683,6 +5691,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Elsinore. A room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Attendants, Rosencrantz, Hamlet, Guildenstern)</SCENEPERSONAE>
+
 <STAGEDIR>Enter King and two or three.</STAGEDIR>
 
 <SPEECH>
@@ -5871,6 +5880,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Near Elsinore.</SCENELOCATION>
 <SCENEPERSONAE>(Fortinbras, Captain, Hamlet, Rosencrantz, Guildenstern)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Fortinbras with his army over the stage.</STAGEDIR>
 
 <SPEECH>
@@ -6026,6 +6036,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Elsinore. A room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Horatio, Queen Gertrude, Gentleman, Ophelia, King, Messenger, Laertes, Followers)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Horatio, Queen Gertrude, and a Gentleman.</STAGEDIR>
 
 <SPEECH>
@@ -6563,6 +6574,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>Elsinore. Another room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Horatio, Gentleman, Sailors)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Horatio and others.</STAGEDIR>
 
 <SPEECH>
@@ -6620,6 +6632,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>Elsinore. Another room in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(King, Laertes, Messenger, Queen)</SCENEPERSONAE>
+
 <STAGEDIR>Enter King and Laertes.</STAGEDIR>
 
 <SPEECH>
@@ -6987,7 +7000,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <LINE>And therefore I forbid my tears; but yet</LINE>
 <LINE>It is our trick, Nature her custom holds,</LINE>
 <LINE>Let shame say what it will; when these are gone,</LINE>
-<LINE>The woman will be out. Adieu, my lord,</LINE>
+<LINE>The woman will be out. <FRENCH>Adieu</FRENCH>, my lord,</LINE>
 <LINE>I have a speech a&#8217; fire that fain would blaze,</LINE>
 <LINE>But that this folly drowns it.</LINE>
 </SPEECH>
@@ -7702,6 +7715,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Elsinore. A hall in the Castle.</SCENELOCATION>
 <SCENEPERSONAE>(Hamlet, Horatio, Osric, Lord, King, Queen, Laertes, Fortinbras, English Ambassadors, Attendants)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Hamlet and Horatio.</STAGEDIR>
 
 <SPEECH>
@@ -8555,7 +8569,7 @@ the door upon your own liberty if you deny your griefs to your friend.</LINE>
 <SPEECH>
 <SPEAKER>HAM.</SPEAKER>
 <LINE>Heaven make thee free of it! I follow thee.</LINE>
-<LINE>I am dead, Horatio. Wretched queen, adieu!</LINE>
+<LINE>I am dead, Horatio. Wretched queen, <FRENCH>adieu</FRENCH>!</LINE>
 <LINE>You that look pale, and tremble at this chance,</LINE>
 <LINE>That are but mutes or audience to this act,</LINE>
 <LINE>Had I but time&#8212;as this fell sergeant, Death,</LINE>

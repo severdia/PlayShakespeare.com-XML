@@ -51,6 +51,14 @@
 <PERSONA short="2. FISH.">Second Fisherman</PERSONA>
 <PERSONA short="3. FISH.">Third Fisherman</PERSONA>
 <PERSONA short="MESS.">Messenger</PERSONA>
+
+ANT. MESS.  Antiochan Messenger
+LORD. TAR.  Lord of Tarsus
+1. GENT. TYRE.  First Gentleman of Tyre
+LORD. MYT.   Lord of Myteline
+
+
+
 </PERSONAE>
 
 
@@ -61,6 +69,7 @@
 <PROLOGUE>
 <SCENETITLE>Act 1 Prologue</SCENETITLE>
 <SCENEPERSONAE>(Gower)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>
@@ -119,7 +128,8 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Antioch. A room in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Antiochus, Prince Pericles, Followers, Daughter of Antiochus, Thaliard, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antiochus, Prince Pericles, Followers, Daughter of Antiochus, Thaliard, Antiochan Messenger)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Antiochus, Prince Pericles, and Followers.</STAGEDIR>
 
 <SPEECH>
@@ -134,6 +144,7 @@
 <LINE>Embold&#8217;ned with the glory of her praise,</LINE>
 <LINE>Think death no hazard in this enterprise.</LINE>
 </SPEECH>
+
 <STAGEDIR>Music.</STAGEDIR>
 
 <SPEECH>
@@ -145,6 +156,7 @@
 <LINE>The senate-house of planets all did sit,</LINE>
 <LINE>To knit in her their best perfections.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Antiochus&#8217; Daughter.</STAGEDIR>
 
 <SPEECH>
@@ -310,6 +322,7 @@
 <LINE>And until then your entertain shall be</LINE>
 <LINE>As doth befit our honor and your worth.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt. Manet Pericles solus.</STAGEDIR>
 
 <SPEECH>
@@ -337,6 +350,7 @@
 <LINE>Then lest my life be cropp&#8217;d to keep you clear,</LINE>
 <LINE>By flight I&#8217;ll shun the danger which I fear.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 <STAGEDIR>Enter Antiochus.</STAGEDIR>
 
@@ -353,7 +367,6 @@
 </SPEECH>
 
 <STAGEDIR>Enter Thaliard.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>THAL.</SPEAKER>
@@ -381,12 +394,12 @@
 <SPEAKER>ANT.</SPEAKER>
 <LINE offset="7">Enough.</LINE>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter an Antiochan Messenger.</STAGEDIR>
 <LINE>Let your breath cool yourself, telling your haste.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>ANT. MESS.</SPEAKER>
 <LINE>My lord, Prince Pericles is fled.</LINE>
 </SPEECH>
 
@@ -419,16 +432,14 @@
 
 <STAGEDIR>Exit.</STAGEDIR> 
 
-
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Tyre. A room in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Pericles, Lords, Helicanus)</SCENEPERSONAE>
-<STAGEDIR>Enter Pericles with his Lords.</STAGEDIR>
 
+<STAGEDIR>Enter Pericles with his Lords.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -497,8 +508,8 @@
 <LINE>Prince, pardon me, or strike me, if you please,</LINE>
 <LINE>I cannot be much lower than my knees.</LINE>
 </SPEECH>
-<STAGEDIR>Kneels.</STAGEDIR>
 
+<STAGEDIR>Kneels.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -643,24 +654,24 @@
 <LINE>That time of both this truth shall ne&#8217;er convince,</LINE>
 <LINE>Thou show&#8217;dst a subject&#8217;s shine, I a true prince&#8217;.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Tyre. An ante-chamber in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Thaliard, Helicanus, Escanes, Lords)</SCENEPERSONAE>
-<STAGEDIR>Enter Thaliard solus.</STAGEDIR>
 
+<STAGEDIR>Enter Thaliard solus.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THAL.</SPEAKER>
 <LINE>So this is Tyre, and this the court. Here must I kill King Pericles; and if I do it not, I am sure to be hang&#8217;d at home. &#8217;Tis dangerous. Well, I perceive he was a wise fellow and had good discretion that, being bid to ask what he would of the king, desir&#8217;d he might know none of his secrets. Now do I see he had some reason for&#8217;t; for if a king bid a man be a villain, he&#8217;s bound by the indenture of his oath to be one. Husht! Here comes the lords of Tyre.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Helicanus, Escanes, with other Lords.</STAGEDIR>
 
+<STAGEDIR>Enter Helicanus, Escanes, with other Lords.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>HEL.</SPEAKER>
@@ -728,6 +739,7 @@
 <LINE>Yet ere you shall depart, this we desire,</LINE>
 <LINE>As friends to Antioch, we may feast in Tyre.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -735,7 +747,8 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Tarsus. A room in the Governor&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Cleon, Dionyza, Lords, Pericles, Attendants)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleon, Dionyza, Lords, Lord of Tarsus, Pericles, Attendants)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Cleon, the Governor of Tharsus, with his wife Dionyza and others.</STAGEDIR>
 
 <SPEECH>
@@ -828,10 +841,11 @@
 <LINE>With their superfluous riots, hear these tears!</LINE>
 <LINE>The misery of Tharsus may be theirs.</LINE>
 </SPEECH>
-<STAGEDIR>Enter a Lord.</STAGEDIR>
+
+<STAGEDIR>Enter a Lord of Tarsus.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>LORD. TAR.</SPEAKER>
 <LINE>Where&#8217;s the Lord Governor?</LINE>
 </SPEECH>
 
@@ -843,7 +857,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>LORD. TAR.</SPEAKER>
 <LINE>We have descried, upon our neighboring shore,</LINE>
 <LINE>A portly sail of ships make hitherward.</LINE>
 </SPEECH>
@@ -862,7 +876,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>LORD. TAR.</SPEAKER>
 <LINE>That&#8217;s the least fear; for by the semblance</LINE>
 <LINE>Of their white flags display&#8217;d, they bring us peace,</LINE>
 <LINE>And come to us as favorers, not as foes.</LINE>
@@ -881,9 +895,10 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>LORD. TAR.</SPEAKER>
 <LINE>I go, my lord.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -891,8 +906,8 @@
 <LINE>Welcome is peace, if he on peace consist;</LINE>
 <LINE>If wars, we are unable to resist.</LINE>
 </SPEECH>
-<STAGEDIR>Enter Pericles with Lord and Attendants.</STAGEDIR>
 
+<STAGEDIR>Enter Pericles with Lord and Attendants.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -938,6 +953,7 @@
 <LINE>Which welcome we&#8217;ll accept; feast here awhile,</LINE>
 <LINE>Until our stars that frown lend us a smile.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -951,6 +967,7 @@
 <PROLOGUE>
 <SCENETITLE>Act 2 Prologue</SCENETITLE>
 <SCENEPERSONAE>(Gower, Pericles, Cleon, First Tyrian Messenger)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>
@@ -972,7 +989,7 @@
 <LINE>But tidings to the contrary</LINE>
 <LINE>Are brought your eyes; what need speak I?</LINE>
 <STAGEDIR>Dumb Show.</STAGEDIR>
-<STAGEDIR>Enter at one door Pericles talking with Cleon; all the Train with them. Enter at another door a Messenger with a letter to Pericles; Pericles shows the letter to Cleon; Pericles gives the Messenger a reward and knights him. Exit Pericles at one door and Cleon at another.</STAGEDIR>
+<STAGEDIR>Enter at one door Pericles talking with Cleon; all the Train with them. Enter at another door the First Tyrian Messenger with a letter to Pericles; Pericles shows the letter to Cleon; Pericles gives the Messenger a reward and knights him. Exit Pericles at one door and Cleon at another.</STAGEDIR>
 <LINE>Good Helicane, that stay&#8217;d at home,</LINE>
 <LINE>Not to eat honey like a drone</LINE>
 <LINE>From others&#8217; labors; for though he strive</LINE>
@@ -1008,6 +1025,7 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Pentapolis. An open place by the sea-side.</SCENELOCATION>
 <SCENEPERSONAE>(Pericles, Three Fishermen)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Pericles wet.</STAGEDIR>
 
 <SPEECH>
@@ -1202,8 +1220,8 @@
 <SPEAKER>2. FISH.</SPEAKER>
 <LINE>O, not all, my friend, not all; for if all your beggars were whipt, I would wish no better office than to be beadle. But, master, I&#8217;ll go draw up the net.</LINE>
 </SPEECH>
-<STAGEDIR>Exit with Third Fisherman.</STAGEDIR>
 
+<STAGEDIR>Exit with Third Fisherman.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -1254,6 +1272,7 @@
 <SPEAKER>1. FISH.</SPEAKER>
 <LINE>O, sir, things must be as they may; and what a man cannot get, he may lawfully deal for his wive&#8217;s soul.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter the two other Fishermen drawing up a net.</STAGEDIR>
 
 <SPEECH>
@@ -1340,6 +1359,7 @@
 <LINE>Then honor be but a goal to my will,</LINE>
 <LINE>This day I&#8217;ll rise, or else add ill to ill.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -1348,6 +1368,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</SCENELOCATION>
 <SCENEPERSONAE>(Simonides, Three Lords, Princess Thaisa, First Knight, Pages, Second Knight, Third Knight, Fourth Knight, Fifth Knight)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Simonides, with attendance, Lords, and Thaisa.</STAGEDIR>
 
 <SPEECH>
@@ -1368,6 +1389,7 @@
 <LINE>Sits here like beauty&#8217;s child, whom nature gat</LINE>
 <LINE>For men to see, and seeing wonder at.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit a Lord.</STAGEDIR>
 
 <SPEECH>
@@ -1390,6 +1412,7 @@
 <SPEAKER>THAI.</SPEAKER>
 <LINE>Which, to preserve mine honor, I&#8217;ll perform.</LINE>
 </SPEECH>
+
 <STAGEDIR>The First Knight passes by and his Page presents his shield to the Princess.</STAGEDIR>
 
 <SPEECH>
@@ -1434,6 +1457,7 @@
 <LINE>And his device, a wreath of chivalry;</LINE>
 <LINE>The word: &#8220;Me pompae provexit apex.&#8221;</LINE>
 </SPEECH>
+
 <STAGEDIR>Fourth Knight passes by.</STAGEDIR>
 
 <SPEECH>
@@ -1452,8 +1476,8 @@
 <LINE>Which shows that beauty hath his power and will,</LINE>
 <LINE>Which can as well inflame as it can kill.</LINE>
 </SPEECH>
-<STAGEDIR>Fifth Knight passes by.</STAGEDIR>
 
+<STAGEDIR>Fifth Knight passes by.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THAI.</SPEAKER>
@@ -1461,8 +1485,8 @@
 <LINE>Holding out gold that&#8217;s by the touchstone tried;</LINE>
 <LINE>The motto thus: &#8220;Sic spectanda fides.&#8221;</LINE>
 </SPEECH>
-<STAGEDIR>Sixth Knight, Pericles, as he passes by, himself presents his device to the Princess.</STAGEDIR>
 
+<STAGEDIR>Sixth Knight, Pericles, as he passes by, himself presents his device to the Princess.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SIM.</SPEAKER>
@@ -1517,14 +1541,13 @@
 
 <STAGEDIR>Great shouts within, and all cry. &#8220;The mean knight!&#8221; </STAGEDIR> 
 
-
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The same. A hall of state.</SCENELOCATION>
 <SCENEPERSONAE>(King Simonides, Thaisa, Marshal, Lords, Ladies, Attendants, Knights)</SCENEPERSONAE>
+
 <STAGEDIR>A banquet prepared. Enter the King Simonides, Thaisa, Marshal, Lords, Ladies, Attendants, and Knights, from tilting.</STAGEDIR>
 
 <SPEECH>
@@ -1605,7 +1628,6 @@
 <LINE>By Jove, I wonder, that is king of thoughts,</LINE>
 <LINE>These cates resist me, he not thought upon.</LINE>
 </SPEECH>
-
 
 <SPEECH>
 <SPEAKER>THAI.</SPEAKER><STAGEDIR>Aside.</STAGEDIR>
@@ -1829,8 +1851,8 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Tyre. A room in the Governor&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Helicanus, Escanes, Three Lords)</SCENEPERSONAE>
-<STAGEDIR>Enter Helicanus and Escanes.</STAGEDIR>
 
+<STAGEDIR>Enter Helicanus and Escanes.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>HEL.</SPEAKER>
@@ -1864,8 +1886,8 @@
 <SPEAKER>ESCA.</SPEAKER>
 <LINE>&#8217;Tis very true.</LINE>
 </SPEECH>
-<STAGEDIR>Enter two or three Lords.</STAGEDIR>
 
+<STAGEDIR>Enter two or three Lords.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. LORD.</SPEAKER>
@@ -1960,6 +1982,7 @@
 <LINE>Then you love us, we you, and we&#8217;ll clasp hands:</LINE>
 <LINE>When peers thus knit, a kingdom ever stands.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -1968,6 +1991,7 @@
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Pentapolis. A room in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(King Simonides, Knights, Pericles, Thaisa)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the King Simonides, reading of a letter, at one door; the Knights meet him.</STAGEDIR>
 
 <SPEECH>
@@ -2002,8 +2026,8 @@
 <SPEAKER>3. KNIGHT.</SPEAKER>
 <LINE>Loath to bid farewell, we take our leaves.</LINE>
 </SPEECH>
-<STAGEDIR>Exeunt Knights.</STAGEDIR>
 
+<STAGEDIR>Exeunt Knights.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SIM.</SPEAKER>
@@ -2018,6 +2042,7 @@
 <LINE>And will no longer have it be delayed.</LINE>
 <LINE>Soft, here he comes, I must dissemble it.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Pericles.</STAGEDIR>
 
 <SPEECH>
@@ -2155,6 +2180,7 @@
 <LINE>No?</LINE>
 <LINE>Here comes my daughter, she can witness it.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Thaisa.</STAGEDIR>
 
 <SPEECH>
@@ -2227,14 +2253,13 @@
 </SCENE>
 </ACT>
 
-
-
 <ACT>
 <ACTTITLE>Act 3 </ACTTITLE>
 
 <PROLOGUE>
 <SCENETITLE>Act 3  Prologue</SCENETITLE>
-<SCENEPERSONAE>(Gower, Pericles, Simonides, Attendants, Messenger, Lords, Thaisa, Lychorida)</SCENEPERSONAE>
+<SCENEPERSONAE>(Gower, Pericles, Simonides, Attendants, Second Tyrian Messenger, Lords, Thaisa, Lychorida)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>
@@ -2255,7 +2280,7 @@
 <LINE>What&#8217;s dumb in show I&#8217;ll plain with speech.</LINE>
 
 <STAGEDIR>Dumb Show.</STAGEDIR>
-<STAGEDIR>Enter Pericles and Simonides, at one door, with Attendants. A Messenger meets them, kneels, and gives Pericles a letter. Pericles shows it Simonides; the Lords kneel to him. Then enter Thaisa with child, with Lychorida, a nurse. The King shows her the letter; she rejoices. She and Pericles take leave of her father, and depart with Lychorida and their Attendants. Then exeunt Simonides and the rest.</STAGEDIR>
+<STAGEDIR>Enter Pericles and Simonides, at one door, with Attendants. The Second Tyrian Messenger meets them, kneels, and gives Pericles a letter. Pericles shows it Simonides; the Lords kneel to him. Then enter Thaisa with child, with Lychorida, a nurse. The King shows her the letter; she rejoices. She and Pericles take leave of her father, and depart with Lychorida and their Attendants. Then exeunt Simonides and the rest.</STAGEDIR>
 <LINE>By many a dern and painful perch,</LINE>
 <LINE>Of Pericles the careful search,</LINE>
 <LINE>By the four opposing coigns</LINE>
@@ -2303,16 +2328,16 @@
 <LINE>This stage the ship, upon whose deck</LINE>
 <LINE>The seas-toss&#8217;d Pericles appears to speak.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 </PROLOGUE>
-
-
 
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>On a ship at sea.</SCENELOCATION>
 <SCENEPERSONAE>(Pericles, Lychorida, Two Sailors)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Pericles a-shipboard.</STAGEDIR>
 
 <SPEECH>
@@ -2332,6 +2357,7 @@
 <LINE>Aboard our dancing boat, make swift the pangs</LINE>
 <LINE>Of my queen&#8217;s travails!&#8212;Now, Lychorida!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Lychorida with an infant.</STAGEDIR>
 
 <SPEECH>
@@ -2384,6 +2410,7 @@
 <LINE>With all thou canst find here. Now the good gods</LINE>
 <LINE>Throw their best eyes upon&#8217;t!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter two Sailors.</STAGEDIR>
 
 <SPEECH>
@@ -2451,6 +2478,7 @@
 <LINE>Upon the pillow. Hie thee, whiles I say</LINE>
 <LINE>A priestly farewell to her. Suddenly, woman.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit Lychorida.</STAGEDIR>
 
 <SPEECH>
@@ -2487,22 +2515,23 @@
 <LINE>At careful nursing. Go thy ways, good mariner,</LINE>
 <LINE>I&#8217;ll bring the body presently.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Ephesus. A room in Cerimon&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Lord Cerimon, Servant, Man, Philemon, Two Gentlemen, Servants)</SCENEPERSONAE>
-<STAGEDIR>Enter Lord Cerimon with a Servant and another Man, both storm-beaten.</STAGEDIR>
 
+<STAGEDIR>Enter Lord Cerimon with a Servant and another Man, both storm-beaten.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CER.</SPEAKER>
 <LINE>Philemon, ho!</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Philemon.</STAGEDIR>
 
 <SPEECH>
@@ -2762,6 +2791,7 @@
 <LINE>Us weep to hear your fate, fair creature,</LINE>
 <LINE>Rare as you seem to be.</LINE>
 </SPEECH>
+
 <STAGEDIR>She moves.</STAGEDIR>
 
 <SPEECH>
@@ -2797,6 +2827,7 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Tarsus. A room in Cleon&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Pericles, Cleon, Dionyza, Lychorida)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Pericles at Tharsus with Cleon and Dionyza and Lychorida with Marina in her arms.</STAGEDIR>
 
 <SPEECH>
@@ -2886,8 +2917,8 @@
 <LINE>Look to your little mistress, on whose grace</LINE>
 <LINE>You may depend hereafter. Come, my lord.</LINE>
 </SPEECH>
-<STAGEDIR>Exeunt.</STAGEDIR> 
 
+<STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
 
@@ -2895,6 +2926,7 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Ephesus. A room in Cerimon&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Cerimon, Thaisa)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Cerimon and Thaisa.</STAGEDIR>
 
 <SPEECH>
@@ -2930,6 +2962,7 @@
 <LINE>My recompense is thanks, that&#8217;s all,</LINE>
 <LINE>Yet my good will is great, though the gift small.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -2941,6 +2974,7 @@
 <PROLOGUE>
 <SCENETITLE>Act 4 Prologue</SCENETITLE>
 <SCENEPERSONAE>(Gower)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>
@@ -2998,6 +3032,7 @@
 <LINE>Dionyza does appear,</LINE>
 <LINE>With Leonine, a murderer.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 </PROLOGUE>
 
@@ -3006,8 +3041,8 @@
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Tarsus. An open place near the sea-shore.</SCENELOCATION>
 <SCENEPERSONAE>(Dionyza, Leonine, Marina, Pirates)</SCENEPERSONAE>
-<STAGEDIR>Enter Dionyza with Leonine.</STAGEDIR>
 
+<STAGEDIR>Enter Dionyza with Leonine.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DION.</SPEAKER>
@@ -3224,14 +3259,15 @@
 <LINE offset="6">I am sworn,</LINE>
 <LINE>And will dispatch.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Pirates.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. PIRATE.</SPEAKER>
 <LINE>Hold, villain!</LINE>
 </SPEECH>
-<STAGEDIR>Leonine runs away.</STAGEDIR>
 
+<STAGEDIR>Leonine runs away.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>2. PIRATE.</SPEAKER>
@@ -3266,6 +3302,7 @@
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Mytilene. A room in a brothel.</SCENELOCATION>
 <SCENEPERSONAE>(Pander, Bawd, Boult, Pirates, Marina)</SCENEPERSONAE>
+
 <STAGEDIR>Enter the three bawds: Pander, Bawd, and Boult.</STAGEDIR>
 
 <SPEECH>
@@ -3317,6 +3354,7 @@
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>Ay, she quickly poop&#8217;d him, she made him roast-meat for worms. But I&#8217;ll go search the market.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -3343,6 +3381,7 @@
 <SPEAKER>PAND.</SPEAKER>
 <LINE>As well as we! Ay, and better too; we offend worse. Neither is our profession any trade, it&#8217;s no calling. But here comes Boult.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Boult with the Pirates and Marina.</STAGEDIR>
 
 <SPEECH>
@@ -3384,8 +3423,8 @@
 <SPEAKER>PAND.</SPEAKER>
 <LINE>Well, follow me, my masters, you shall have your money presently. Wife, take her in, instruct her what she has to do, that she may not be raw in her entertainment.</LINE>
 </SPEECH>
-<STAGEDIR>Exeunt Pander and Pirates.</STAGEDIR>
 
+<STAGEDIR>Exeunt Pander and Pirates.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>BAWD.</SPEAKER>
@@ -3396,6 +3435,7 @@
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>Performance shall follow.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -3602,6 +3642,7 @@
 <SPEAKER>BAWD.</SPEAKER>
 <LINE>What have we to do with Diana? Pray you, will you go with us?</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -3610,8 +3651,8 @@
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Tarsus. A room in Cleon&#8217;s house.</SCENELOCATION>
 <SCENEPERSONAE>(Cleon, Dionyza)</SCENEPERSONAE>
-<STAGEDIR>Enter Cleon and Dionyza.</STAGEDIR>
 
+<STAGEDIR>Enter Cleon and Dionyza.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DION.</SPEAKER>
@@ -3721,6 +3762,7 @@
 <LINE>Do swear to th&#8217; gods that winter kills the flies,</LINE>
 <LINE>But yet I know You&#8217;ll do as I advise.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -3729,6 +3771,7 @@
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Tharsus. Before the monument of Marina.</SCENELOCATION>
 <SCENEPERSONAE>(Gower, Pericles, Cleon, Dionyza)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower before the monument of Marina at Tharsus.</STAGEDIR>
 
 <SPEECH>
@@ -3799,8 +3842,8 @@
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Mytilene. A street before the brothel.</SCENELOCATION>
 <SCENEPERSONAE>(Two Gentlemen)</SCENEPERSONAE>
-<STAGEDIR>Enter two Gentlemen.</STAGEDIR>
 
+<STAGEDIR>Enter two Gentlemen.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. GENT.</SPEAKER>
@@ -3829,16 +3872,14 @@
 
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
-
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>The same. A room in the brothel.</SCENELOCATION>
 <SCENEPERSONAE>(Pander, Bawd, Boult, Lysimachus, Marina)</SCENEPERSONAE>
-<STAGEDIR>Enter three bawds: Pander, Bawd, and Boult.</STAGEDIR>
 
+<STAGEDIR>Enter three bawds: Pander, Bawd, and Boult.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAND.</SPEAKER>
@@ -3926,6 +3967,7 @@
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>O, sir, I can be modest.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
@@ -3996,6 +4038,7 @@
 <SPEAKER>BAWD.</SPEAKER>
 <LINE>My lord, she&#8217;s not pac&#8217;d yet, you must take some pains to work her to your manage. Come, we will leave his honor and her together. Go thy ways.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Bawd, Pander, and Boult.</STAGEDIR>
 
 <SPEECH>
@@ -4114,6 +4157,7 @@
 <LINE>That robs thee of thy goodness! If thou dost</LINE>
 <LINE>Hear from me, it shall be for thy good.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Boult.</STAGEDIR>
 
 <SPEECH>
@@ -4130,7 +4174,6 @@
 
 <STAGEDIR>Exit.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>How&#8217;s this? We must take another course with you! If your peevish chastity, which is not worth a breakfast in the cheapest country under the cope, shall undo a whole household, let me be gelded like a spaniel. Come your ways.</LINE>
@@ -4145,6 +4188,7 @@
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>I must have your maidenhead taken off, or the common hangman shall execute it. Come your ways. We&#8217;ll have no more gentlemen driven away. Come your ways, I say.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter bawds: Bawd and Pander.</STAGEDIR>
 
 <SPEECH>
@@ -4196,6 +4240,7 @@
 <SPEAKER>BAWD.</SPEAKER>
 <LINE>She conjures, away with her! Would she had never come within my doors. Marry, hang you! She&#8217;s born to undo us. Will you not go the way of womenkind? Marry, come up, my dish of chastity with rosemary and bays!</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt Bawd and Pander.</STAGEDIR>
 
 <SPEECH>
@@ -4295,6 +4340,7 @@
 <SPEAKER>BOULT.</SPEAKER>
 <LINE>Faith, my acquaintance lies little amongst them. But since my master and mistress hath bought you, there&#8217;s no going but by their consent. Therefore I will make them acquainted with your purpose, and I doubt not but I shall find them tractable enough. Come, I&#8217;ll do for thee what I can; come your ways.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -4308,6 +4354,7 @@
 <PROLOGUE>
 <SCENETITLE>Act 5 Prologue</SCENETITLE>
 <SCENEPERSONAE>(Gower)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>
@@ -4337,13 +4384,15 @@
 <LINE>Where what is done in action, more, if might,</LINE>
 <LINE>Shall be discover&#8217;d, please you sit and hark.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR> 
 </PROLOGUE>
 
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch. A barge lying beside the Tyrian vessel.</SCENELOCATION>
-<SCENEPERSONAE>(Pericles, Helicanus, Two Sailors, Gentlemen, Lysimachus, Lords, Marina, Lady, Diana)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pericles, Helicanus, Two Sailors, Gentlemen,  First Gentleman of Tyre, Lysimachus, Lords, Marina, Lady, Diana)</SCENEPERSONAE>
+
 <STAGEDIR>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch. Enter Helicanus; to him two Sailors, one of Tyre, the other of Mytilene.</STAGEDIR>
 
 <SPEECH>
@@ -4365,10 +4414,11 @@
 <SPEAKER>TYR. SAIL.</SPEAKER>
 <LINE>Ho, gentlemen! My lord calls.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter two or three Gentlemen.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. TYRE.</SPEAKER>
 <LINE>Doth your lordship call?</LINE>
 </SPEECH>
 
@@ -4476,7 +4526,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>LORD. MYT.</SPEAKER>
 <LINE>Sir,</LINE>
 <LINE>We have a maid in Mytilene, I durst wager,</LINE>
 <LINE>Would win some words of him.</LINE>
@@ -4494,6 +4544,7 @@
 <LINE>The leavy shelter that abuts against</LINE>
 <LINE>The island&#8217;s side.</LINE>
 </SPEECH>
+
 <STAGEDIR>Gives an order to a Lord, who goes out.</STAGEDIR>
 
 <SPEECH>
@@ -4521,6 +4572,7 @@
 <LINE offset="5">Sit, sir, I will recount it to you,</LINE>
 <LINE>But see, I am prevented.</LINE>
 </SPEECH>
+
 <STAGEDIR>Enter Lord with Marina and a young Lady.</STAGEDIR>
 
 <SPEECH>
@@ -4561,6 +4613,7 @@
 <LINE offset="6">Come, let us leave her,</LINE>
 <LINE>And the gods make her prosperous!</LINE>
 </SPEECH>
+
 <STAGEDIR>They withdraw. Marina sings the Song.</STAGEDIR>
 
 <SPEECH>
@@ -4588,6 +4641,7 @@
 <SPEAKER>PER.</SPEAKER>
 <LINE>Hum, ha!</LINE>
 </SPEECH>
+
 <STAGEDIR>Pushing her roughly back.</STAGEDIR>
 
 <SPEECH>
@@ -4954,6 +5008,7 @@
 <LINE>It nips me unto list&#8217;ning, and thick slumber</LINE>
 <LINE>Hangs upon mine eyes. Let me rest.</LINE>
 </SPEECH>
+
 <STAGEDIR>Sleeps.</STAGEDIR>
 
 <SPEECH>
@@ -4967,7 +5022,6 @@
 <STAGEDIR>Exeunt all but Pericles.</STAGEDIR>
 
 <STAGEDIR>Diana appears to Pericles as in a vision.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>DIA.</SPEAKER>
@@ -4985,7 +5039,6 @@
 
 <STAGEDIR>Disappears.</STAGEDIR>
 
-
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
 <LINE>Celestial Dian, goddess argentine,</LINE>
@@ -4993,7 +5046,6 @@
 </SPEECH>
 
 <STAGEDIR>Enter Helicanus, Lysimachus, and Marina.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>HEL.</SPEAKER>
@@ -5036,17 +5088,16 @@
 <SPEAKER>PER.</SPEAKER>
 <LINE>Come, my Marina.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Ephesus. Before the temple of Diana.</SCENELOCATION>
 <SCENEPERSONAE>(Thaisa, Virgins, Cerimon, Gower)</SCENEPERSONAE> 
 <STAGEDIR>The Temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending. Enter Gower.</STAGEDIR>
-
 
 <SPEECH>
 <SPEAKER>GOW.</SPEAKER>
@@ -5071,17 +5122,17 @@
 <LINE>That he can hither come so soon</LINE>
 <LINE>Is by your fancies&#8217; thankful doom.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exit.</STAGEDIR> 
 
 </SCENE>
-
 
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.</SCENELOCATION>
 <SCENEPERSONAE>(Pericles, Lysimachus, Helicanus, Marina, Lady)</SCENEPERSONAE>
-<STAGEDIR>Enter Pericles with his Train: Lysimachus, Helicanus, Marina, and a Lady.</STAGEDIR>
 
+<STAGEDIR>Enter Pericles with his Train: Lysimachus, Helicanus, Marina, and a Lady.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -5105,6 +5156,7 @@
 <LINE offset="7">Voice and favor!</LINE>
 <LINE>You are, you are&#8212;O royal Pericles!</LINE>
 </SPEECH>
+
 <STAGEDIR>Faints.</STAGEDIR>
 
 <SPEECH>
@@ -5189,6 +5241,7 @@
 <LINE>When we with tears parted Pentapolis,</LINE>
 <LINE>The King my father gave you such a ring.</LINE>
 </SPEECH>
+
 <STAGEDIR>Points to his ring.</STAGEDIR>
 
 <SPEECH>
@@ -5205,8 +5258,8 @@
 <LINE offset="7">My heart</LINE>
 <LINE>Leaps to be gone into my mother&#8217;s bosom.</LINE>
 </SPEECH>
-<STAGEDIR>Kneels to Thaisa.</STAGEDIR>
 
+<STAGEDIR>Kneels to Thaisa.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PER.</SPEAKER>
@@ -5304,6 +5357,7 @@
 <LINE>Lord Cerimon, we do our longing stay</LINE>
 <LINE>To hear the rest untold. Sir, lead &#8217;s the way.</LINE>
 </SPEECH>
+
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 		
@@ -5313,6 +5367,7 @@
 <EPILOGUE>
 <SCENETITLE>Epilogue</SCENETITLE>
 <SCENEPERSONAE>(Gower)</SCENEPERSONAE>
+
 <STAGEDIR>Enter Gower.</STAGEDIR>
 
 <SPEECH>		
