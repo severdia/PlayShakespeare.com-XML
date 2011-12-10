@@ -17,9 +17,9 @@ A number of conventions were used in the creation of the Complete Works XML:
 
 7. When a character is singing or incanting, the line is identified with <LINE type="lyric">.
 
-8. When a character is reading or reciting, the line is identified with <LINE type="recite">
+8. When a character is reading or reciting, the passage is identified with <RECITE>
 
-9, Foreign language words are wrapped in their respective language tags: <LATIN>, <FRENCH>, <WELSH>.
+9, Foreign language words are wrapped in their respective language tags: <LATIN lang="la">, <FRENCH lang="fr">, <ITALIAN lang="it">.
 
 10. Where formal titles of works (play names, song titles) are mentioned, they are wrapped in <TITLEREF>.
 
