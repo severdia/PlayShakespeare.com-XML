@@ -56,6 +56,16 @@ ANT. MESS.  Antiochan Messenger
 LORD. TAR.  Lord of Tarsus
 1. GENT. TYRE.  First Gentleman of Tyre
 LORD. MYT.   Lord of Myteline
+1. LORD. TYRE.    First Lord of Tyre
+2. LORD. TYRE.   Second Lord of Tyre
+1. LORD. PENT.  First Lord of Pentapolis
+2. LORD. PENT.  Second Lord of Pentapolis
+3. LORD. PENT.  Third Lord of Pentapolis
+EPH. SERV.   Ephesan Servant
+1. CER. SERV.  Cerimon's First Servant
+1. GENT. EPH.  First Gentleman of Ephesus 
+2. GENT. EPH.  Second Gentleman of Ephesus
+
 
 
 
@@ -123,8 +133,6 @@ LORD. MYT.   Lord of Myteline
 
 </PROLOGUE>
 
-
-
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Antioch. A room in the palace.</SCENELOCATION>
@@ -179,7 +187,6 @@ LORD. MYT.   Lord of Myteline
 <SPEECH>
 <SPEAKER>ANT.</SPEAKER>
 <LINE>Prince Pericles&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -248,14 +255,14 @@ LORD. MYT.   Lord of Myteline
 <STAGEDIR>Reads.</STAGEDIR>
 
 <STAGEDIR>The Riddle</STAGEDIR>
-<LINE offset="2">I am no viper, yet I feed</LINE>
-<LINE offset="2">On mother&#8217;s flesh which did me breed.</LINE>
-<LINE offset="2">I sought a husband, in which labor</LINE>
-<LINE offset="2">I found that kindness in a father.</LINE>
-<LINE offset="2">He&#8217;s father, son, and husband mild;</LINE>
-<LINE offset="2">I mother, wife&#8212;and yet his child.</LINE>
-<LINE offset="2">How they may be, and yet in two,</LINE>
-<LINE offset="2">As you will live, resolve it you.</LINE>
+<LINE type="recite"> I am no viper, yet I feed</LINE>
+<LINE type="recite"> On mother&#8217;s flesh which did me breed.</LINE>
+<LINE type="recite"> I sought a husband, in which labor</LINE>
+<LINE type="recite"> I found that kindness in a father.</LINE>
+<LINE type="recite"> He&#8217;s father, son, and husband mild;</LINE>
+<LINE type="recite"> I mother, wife&#8212;and yet his child.</LINE>
+<LINE type="recite"> How they may be, and yet in two,</LINE>
+<LINE type="recite"> As you will live, resolve it you.</LINE>
 
 <STAGEDIR>Aside.</STAGEDIR>
 <LINE>Sharp physic is the last. But O you powers!</LINE>
@@ -423,7 +430,7 @@ LORD. MYT.   Lord of Myteline
 
 <SPEECH>
 <SPEAKER>ANT.</SPEAKER>
-<LINE>Thaliard, adieu!</LINE>
+<LINE>Thaliard, <FRENCH>adieu</FRENCH>!</LINE>
 
 <STAGEDIR>Exit Thaliard.</STAGEDIR>
 <LINE offset="4">Till Pericles be dead,</LINE>
@@ -437,7 +444,7 @@ LORD. MYT.   Lord of Myteline
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Tyre. A room in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Pericles, Lords, Helicanus)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pericles, Lords of Tyre, Helicanus)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Pericles with his Lords.</STAGEDIR>
 
@@ -484,12 +491,12 @@ LORD. MYT.   Lord of Myteline
 <STAGEDIR>Enter Helicanus and all the Lords to Pericles.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. TYRE.</SPEAKER>
 <LINE>Joy and all comfort in your sacred breast!</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. LORD.</SPEAKER>
+<SPEAKER>2. LORD. TYRE.</SPEAKER>
 <LINE>And keep your mind, till you return to us,</LINE>
 <LINE>Peaceful and comfortable!</LINE>
 </SPEECH>
@@ -598,7 +605,6 @@ LORD. MYT.   Lord of Myteline
 <LINE>Must feel war&#8217;s blow, who spares not innocence:</LINE>
 <LINE>Which love to all, of which thyself art one,</LINE>
 <LINE>Who now reprov&#8217;dst me for&#8217;t&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -662,7 +668,7 @@ LORD. MYT.   Lord of Myteline
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Tyre. An ante-chamber in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Thaliard, Helicanus, Escanes, Lords)</SCENEPERSONAE>
+<SCENEPERSONAE>(Thaliard, Helicanus, Escanes, Lords of Tyre)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Thaliard solus.</STAGEDIR>
 
@@ -1367,7 +1373,7 @@ LORD. MYT.   Lord of Myteline
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</SCENELOCATION>
-<SCENEPERSONAE>(Simonides, Three Lords, Princess Thaisa, First Knight, Pages, Second Knight, Third Knight, Fourth Knight, Fifth Knight)</SCENEPERSONAE>
+<SCENEPERSONAE>(Simonides, Three Lords of Pentapolis, Princess Thaisa, First Knight, Pages, Second Knight, Third Knight, Fourth Knight, Fifth Knight)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Simonides, with attendance, Lords, and Thaisa.</STAGEDIR>
 
@@ -1377,7 +1383,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. PENT.</SPEAKER>
 <LINE>They are, my liege,</LINE>
 <LINE>And stay your coming to present themselves.</LINE>
 </SPEECH>
@@ -1510,7 +1516,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LORD.</SPEAKER>
+<SPEAKER>1. LORD. PENT.</SPEAKER>
 <LINE>He had need mean better than his outward show</LINE>
 <LINE>Can any way speak in his just commend;</LINE>
 <LINE>For by his rusty outside he appears</LINE>
@@ -1518,13 +1524,13 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. LORD.</SPEAKER>
+<SPEAKER>2. LORD. PENT.</SPEAKER>
 <LINE>He well may be a stranger, for he comes</LINE>
 <LINE>To an honor&#8217;d triumph strangely furnished.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. LORD.</SPEAKER>
+<SPEAKER>3. LORD. PENT.</SPEAKER>
 <LINE>And on set purpose let his armor rust</LINE>
 <LINE>Until this day, to scour it in the dust.</LINE>
 </SPEECH>
@@ -1746,7 +1752,6 @@ LORD. MYT.   Lord of Myteline
 <SPEECH>
 <SPEAKER>THAI.</SPEAKER>
 <LINE>The King my father, sir, has drunk to you&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -2523,9 +2528,9 @@ LORD. MYT.   Lord of Myteline
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Ephesus. A room in Cerimon&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Lord Cerimon, Servant, Man, Philemon, Two Gentlemen, Servants)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lord Cerimon, Ephesan Servant, Man, Philemon, First Gentleman of Ephesus, Second Gentleman of Ephesus, Cerimon&#8217;s First Servant, Cerimon&#8217;s Second Servant)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Lord Cerimon with a Servant and another Man, both storm-beaten.</STAGEDIR>
+<STAGEDIR>Enter Lord Cerimon with an Ephesan Servant and another Man, both storm-beaten.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CER.</SPEAKER>
@@ -2548,7 +2553,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>EPH. SERV.</SPEAKER>
 <LINE>I have been in many; but such a night as this</LINE>
 <LINE>Till now I ne&#8217;er endured.</LINE>
 </SPEECH>
@@ -2564,17 +2569,17 @@ LORD. MYT.   Lord of Myteline
 <LINE>And tell me how it works.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Servant and other Man.</STAGEDIR>
+<STAGEDIR>Exeunt Ephesan Servant and other Man.</STAGEDIR>
 
 <STAGEDIR>Enter two Gentlemen.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. EPH.</SPEAKER>
 <LINE offset="5">Good morrow.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>Good morrow to your lordship.</LINE>
 </SPEECH>
 
@@ -2585,7 +2590,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. EPH.</SPEAKER>
 <LINE>Sir,</LINE>
 <LINE>Our lodgings, standing bleak upon the sea,</LINE>
 <LINE>Shook as the earth did quake;</LINE>
@@ -2595,7 +2600,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>That is the cause we trouble you so early,</LINE>
 <LINE>&#8217;Tis not our husbandry.</LINE>
 </SPEECH>
@@ -2606,7 +2611,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. EPH.</SPEAKER>
 <LINE>But I much marvel that your lordship, having</LINE>
 <LINE>Rich tire about you, should at these early hours</LINE>
 <LINE>Shake off the golden slumber of repose.</LINE>
@@ -2637,7 +2642,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>Your honor has through Ephesus pour&#8217;d forth</LINE>
 <LINE>Your charity, and hundreds call themselves</LINE>
 <LINE>Your creatures, who by you have been restored;</LINE>
@@ -2646,11 +2651,10 @@ LORD. MYT.   Lord of Myteline
 <LINE>Such strong renown as time shall never&#8212;</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Enter two or three Servants with a chest.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. CER. SERV.</SPEAKER>
 <LINE>So, lift there.</LINE>
 </SPEECH>
 
@@ -2660,7 +2664,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. CER. SERV.</SPEAKER>
 <LINE offset="5">Sir, even now</LINE>
 <LINE>Did the sea toss up upon our shore this chest.</LINE>
 <LINE>&#8217;Tis of some wrack.</LINE>
@@ -2672,7 +2676,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>&#8217;Tis like a coffin, sir.</LINE>
 </SPEECH>
 
@@ -2685,7 +2689,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>&#8217;Tis so, my lord.</LINE>
 </SPEECH>
 
@@ -2696,7 +2700,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. CER. SERV.</SPEAKER>
 <LINE>I never saw so huge a billow, sir,</LINE>
 <LINE>As toss&#8217;d it upon shore.</LINE>
 </SPEECH>
@@ -2708,7 +2712,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>A delicate odor.</LINE>
 </SPEECH>
 
@@ -2719,7 +2723,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>Most strange.</LINE>
 </SPEECH>
 
@@ -2730,20 +2734,20 @@ LORD. MYT.   Lord of Myteline
 <LINE>Apollo, perfect me in the characters!</LINE>
 
 <STAGEDIR>Reads from a scroll.</STAGEDIR>
-<LINE offset="2">&#8220;Here I give to understand,</LINE>
-<LINE offset="2">If e&#8217;er this coffin drives a-land,</LINE>
-<LINE offset="2">I, King Pericles, have lost</LINE>
-<LINE offset="2">This queen, worth all our mundane cost.</LINE>
-<LINE offset="2">Who finds her, give her burying,</LINE>
-<LINE offset="2">She was the daughter of a king.</LINE>
-<LINE offset="2">Besides this treasure for a fee,</LINE>
-<LINE offset="2">The gods requite his charity!&#8221;</LINE>
+<LINE type="recite">&#8220;Here I give to understand,</LINE>
+<LINE type="recite">If e&#8217;er this coffin drives a-land,</LINE>
+<LINE type="recite">I, King Pericles, have lost</LINE>
+<LINE type="recite">This queen, worth all our mundane cost.</LINE>
+<LINE type="recite">Who finds her, give her burying,</LINE>
+<LINE type="recite">She was the daughter of a king.</LINE>
+<LINE type="recite">Besides this treasure for a fee,</LINE>
+<LINE type="recite">The gods requite his charity!&#8221;</LINE>
 <LINE>If thou livest, Pericles, thou hast a heart</LINE>
 <LINE>That ever cracks for woe! This chanc&#8217;d tonight.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>Most likely, sir.</LINE>
 </SPEECH>
 
@@ -2774,7 +2778,7 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. EPH.</SPEAKER>
 <LINE offset="7">The heavens,</LINE>
 <LINE>Through you, increase our wonder, and sets up</LINE>
 <LINE>Your fame forever.</LINE>
@@ -2801,12 +2805,12 @@ LORD. MYT.   Lord of Myteline
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GENT.</SPEAKER>
+<SPEAKER>2. GENT. EPH.</SPEAKER>
 <LINE>Is not this strange?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GENT.</SPEAKER>
+<SPEAKER>1. GENT. EPH.</SPEAKER>
 <LINE offset="4">Most rare.</LINE>
 </SPEECH>
 
@@ -3814,16 +3818,16 @@ LORD. MYT.   Lord of Myteline
 <LINE>By wicked Dionyza.</LINE>
 
 <STAGEDIR>Reads the inscription on Marina&#8217;s monument.</STAGEDIR>
-<LINE>&#8220;The fairest, sweetest, and best lies here,</LINE>
-<LINE>Who withered in her spring of year.</LINE>
-<LINE>She was of Tyrus the King&#8217;s daughter,</LINE>
-<LINE>On whom foul death hath made this slaughter.</LINE>
-<LINE>Marina was she call&#8217;d, and at her birth,</LINE>
-<LINE>Thetis, being proud, swallowed some part a&#8217; th&#8217; earth.</LINE>
-<LINE>Therefore the earth, fearing to be o&#8217;erflowed,</LINE>
-<LINE>Hath Thetis&#8217; birth-child on the heavens bestowed;</LINE>
-<LINE>Wherefore she does, and swears she&#8217;ll never stint,</LINE>
-<LINE>Make raging battery upon shores of flint.&#8221;</LINE>
+<LINE type="recite">&#8220;The fairest, sweetest, and best lies here,</LINE>
+<LINE type="recite">Who withered in her spring of year.</LINE>
+<LINE type="recite">She was of Tyrus the King&#8217;s daughter,</LINE>
+<LINE type="recite">On whom foul death hath made this slaughter.</LINE>
+<LINE type="recite">Marina was she call&#8217;d, and at her birth,</LINE>
+<LINE type="recite">Thetis, being proud, swallowed some part a&#8217; th&#8217; earth.</LINE>
+<LINE type="recite">Therefore the earth, fearing to be o&#8217;erflowed,</LINE>
+<LINE type="recite">Hath Thetis&#8217; birth-child on the heavens bestowed;</LINE>
+<LINE type="recite">Wherefore she does, and swears she&#8217;ll never stint,</LINE>
+<LINE type="recite">Make raging battery upon shores of flint.&#8221;</LINE>
 <LINE>No visor does become black villainy</LINE>
 <LINE>So well as soft and tender flattery.</LINE>
 <LINE>Let Pericles believe his daughter&#8217;s dead,</LINE>
@@ -4346,8 +4350,6 @@ LORD. MYT.   Lord of Myteline
 </SCENE>
 </ACT>
 
-
-
 <ACT>
 <ACTTITLE>Act 5</ACTTITLE>
 
@@ -4391,7 +4393,7 @@ LORD. MYT.   Lord of Myteline
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch. A barge lying beside the Tyrian vessel.</SCENELOCATION>
-<SCENEPERSONAE>(Pericles, Helicanus, Two Sailors, Gentlemen,  First Gentleman of Tyre, Lysimachus, Lords, Marina, Lady, Diana)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pericles, Helicanus, Two Sailors, Gentlemen, First Gentleman of Tyre, Lysimachus, Lords, Marina, Lady, Diana)</SCENEPERSONAE>
 
 <STAGEDIR>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch. Enter Helicanus; to him two Sailors, one of Tyre, the other of Mytilene.</STAGEDIR>
 

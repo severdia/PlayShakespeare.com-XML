@@ -47,7 +47,7 @@
 <PERSONA short="FATH.">Father that has killed his son</PERSONA>
 <PERSONA short="Q. MAR.">Queen Margaret</PERSONA>
 <PERSONA short="L. GREY., Q. ELIZ.">Lady Grey, afterwards Queen to Edward IV</PERSONA>
-<PERSONA short="BONA.">Bona, sister to the French Queen</PERSONA>
+<PERSONA short="BONA.">Lady Bona, sister to the French Queen</PERSONA>
 <PERSONA>Aldermen</PERSONA>
 <PERSONA short="MESS.">Messenger</PERSONA>
 <PERSONA short="POST.">The Post</PERSONA>
@@ -58,6 +58,25 @@
 <PERSONA short="2. WATCH.">Second Watchman</PERSONA>
 <PERSONA short="3. WATCH.">Third Watchman</PERSONA>
 <PERSONA>Attendants</PERSONA>
+
+YORK. MESS.  Yorkist Messenger
+NOR. MESS.  Norfolk Messenger
+1. LAN. MESS.   First Lancastrian Messenger
+2. LAN. MESS.   Second Lancastrian Messenger
+
+SON.  A Father That Has Killed His Son
+FATH.  A Father That Has Killed His Son
+1. KEEP.  First Gamekeeper 
+2. KEEP. Second Gamekeeper
+WAR. MESS.  Warwick's Messenger
+YORK. SOLD.  Yorkist Soldier
+OXF. MESS.  Oxford Messenger
+MONT. MESS. Montague Messenger,
+
+
+
+
+
 </PERSONAE>
 
 
@@ -872,7 +891,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Sandal Castle.</SCENELOCATION>
-<SCENEPERSONAE>(Richard, Edward, Montague, Duke of York, Messenger, Sir John Mortimer, Sir Hugh Mortimer)</SCENEPERSONAE>
+<SCENEPERSONAE>(Richard, Edward, Montague, Duke of York, Yorkist Messenger, Sir John Mortimer, Sir Hugh Mortimer)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Richard, Edward, and Montague.</STAGEDIR>
 
@@ -996,12 +1015,12 @@
 <LINE>And yet the King not privy to my drift,</LINE>
 <LINE>Nor any of the house of Lancaster?</LINE>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter a Yorkist Messenger.</STAGEDIR>
 <LINE>But stay, what news? Why com&#8217;st thou in such post?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>YORK. MESS.</SPEAKER>
 <LINE>The Queen with all the northern earls and lords</LINE>
 <LINE>Intend here to besiege you in your castle.</LINE>
 <LINE>She is hard by with twenty thousand men;</LINE>
@@ -1528,7 +1547,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>A plain near Mortimer&#8217;s Cross in Herefordshire.</SCENELOCATION>
-<SCENEPERSONAE>(Edward, Richard, Messengers, Warwick, Marquess Montague)</SCENEPERSONAE>
+<SCENEPERSONAE>(Edward, Richard, Norfolk Messenger, Warwick, Marquess Montague)</SCENEPERSONAE>
 
 <STAGEDIR>A march. Enter Edward, Richard, and their power.</STAGEDIR>
 
@@ -1858,7 +1877,7 @@
 <LINE>Then strike up drums. God and Saint George for us!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter a Norlfolk Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>WAR.</SPEAKER>
@@ -1866,7 +1885,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>NOR. MESS.</SPEAKER>
 <LINE>The Duke of Norfolk sends you word by me</LINE>
 <LINE>The Queen is coming with a puissant host,</LINE>
 <LINE>And craves your company for speedy counsel.</LINE>
@@ -1884,7 +1903,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before York.</SCENELOCATION>
-<SCENEPERSONAE>(King Henry, Queen Margaret, Clifford, Northumberland, Prince Edward, Messenger, Edward, Warwick, Richard, George of Clarence, Norfolk, Montague, Soldiers)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Henry, Queen Margaret, Clifford, Northumberland, Prince Edward, Lancastrian Messenger, Edward, Warwick, Richard, George of Clarence, Norfolk, Montague, Soldiers)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. Enter the King Henry, the Queen Margaret, Clifford, Northumberland, and young Prince Edward, with Drum and Trumpets.</STAGEDIR>
 
@@ -1986,10 +2005,10 @@
 <LINE>Why, that is spoken like a toward prince.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter First Lancastrian Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. LAN. MESS.</SPEAKER>
 <LINE>Royal commanders, be in readiness,</LINE>
 <LINE>For with a band of thirty thousand men</LINE>
 <LINE>Comes Warwick, backing of the Duke of York,</LINE>
@@ -2423,7 +2442,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Another part of the field.</SCENELOCATION>
-<SCENEPERSONAE>(King Henry, Son, Father, Queen Margaret, Prince Edward, Exeter)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Henry, A Son That Has Killed His Father, A Father That Has Killed His Son, Queen Margaret, Prince Edward, Exeter)</SCENEPERSONAE>
 
 <STAGEDIR>Alarum. Enter King Henry alone.</STAGEDIR>
 
@@ -2485,7 +2504,7 @@
 <LINE>When care, mistrust, and treason waits on him.</LINE>
 </SPEECH>
 
-<STAGEDIR>Alarum. Enter a Son that hath kill&#8217;d his father, at one door, dragging in the dead body.</STAGEDIR>
+<STAGEDIR>Alarum. Enter A Son That Has Killed His Father, at one door, dragging in the dead body.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SON.</SPEAKER>
@@ -2519,7 +2538,7 @@
 <LINE>Be blind with tears, and break o&#8217;ercharg&#8217;d with grief.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Father that hath kill&#8217;d his son, at another door, bearing of his son.</STAGEDIR>
+<STAGEDIR>Enter A Father That Has Killed His Son, at another door, bearing of his son.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FATH.</SPEAKER>
@@ -2882,9 +2901,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>A forest in the north of England.</SCENELOCATION>
-<SCENEPERSONAE>(Keepers, King Henry)</SCENEPERSONAE>
+<SCENEPERSONAE>(First Gamekeeper, Second Gamekeeper, King Henry)</SCENEPERSONAE>
 
-<STAGEDIR>Enter two Keepers with cross-bows in their hands.</STAGEDIR>
+<STAGEDIR>Enter two Gamekeepers with cross-bows in their hands.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. KEEP.</SPEAKER>
@@ -3663,9 +3682,9 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>France. King Lewis XI&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Lewis the French King, Bona, Admiral Bourbon, Prince Edward, Queen Margaret, Earl of Oxford, Warwick, Post)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lewis the French King, Lady Bona, Admiral Bourbon, Prince Edward, Queen Margaret, Earl of Oxford, Warwick, Post)</SCENEPERSONAE>
 
-<STAGEDIR>Flourish. Enter Lewis the French King, his sister Bona, his Admiral, call&#8217;d Bourbon, Prince Edward, Queen Margaret, and the Earl of Oxford. Lewis sits, and riseth up again.</STAGEDIR>
+<STAGEDIR>Flourish. Enter Lewis the French King, his sister Lady Bona, his Admiral, call&#8217;d Bourbon, Prince Edward, Queen Margaret, and the Earl of Oxford. Lewis sits, and riseth up again.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>K. LEW.</SPEAKER>
@@ -3801,7 +3820,7 @@
 <SPEAKER>WAR.</SPEAKER>
 <LINE>And, gracious madam</LINE>
 
-<STAGEDIR>Speaking to Bona.</STAGEDIR>
+<STAGEDIR>Speaking to Lady Bona.</STAGEDIR>
 <LINE offset="5">in our king&#8217;s behalf</LINE>
 <LINE>I am commanded, with your leave and favor,</LINE>
 <LINE>Humbly to kiss your hand, and with my tongue</LINE>
@@ -4439,7 +4458,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>My lords, before it pleas&#8217;d his Majesty</LINE>
 <LINE>To raise my state to title of a queen,</LINE>
 <LINE>Do me but right, and you must all confess</LINE>
@@ -4874,7 +4893,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>Why, brother Rivers, are you yet to learn</LINE>
 <LINE>What late misfortune is befall&#8217;n King Edward?</LINE>
 </SPEECH>
@@ -4885,7 +4904,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>No, but the loss of his own royal person.</LINE>
 </SPEECH>
 
@@ -4895,7 +4914,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>Ay, almost slain, for he is taken prisoner,</LINE>
 <LINE>Either betray&#8217;d by falsehood of his guard</LINE>
 <LINE>Or by his foe surpris&#8217;d at unawares;</LINE>
@@ -4912,7 +4931,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>Till then fair hope must hinder live&#8217;s decay;</LINE>
 <LINE>And I the rather wain me from despair</LINE>
 <LINE>For love of Edward&#8217;s offspring in my womb.</LINE>
@@ -4930,7 +4949,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>I am inform&#8217;d that he comes towards London</LINE>
 <LINE>To set the crown once more on Henry&#8217;s head.</LINE>
 <LINE>Guess thou the rest; King Edward&#8217;s friends must down.</LINE>
@@ -5047,7 +5066,7 @@
 <SCENE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>London. The Tower.</SCENELOCATION>
-<SCENEPERSONAE>(King Henry the Sixth, Clarence, Warwick, Somerset, Henry Richmond, Oxford, Montague, Lieutenant of the Tower)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Henry the Sixth, Clarence, Warwick, Somerset, Henry Richmond, Oxford, Montague, Lieutenant of the Tower, Warwick&#8217;s Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. Enter King Henry the Sixth, Clarence, Warwick, Somerset, young Henry Richmond, Oxford, Montague, and Lieutenant of the Tower.</STAGEDIR>
 
@@ -5198,7 +5217,7 @@
 <LINE>Must help you more than you are hurt by me.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Post.</STAGEDIR>
+<STAGEDIR>Enter Warwick&#8217;s Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>WAR.</SPEAKER>
@@ -5206,7 +5225,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>POST.</SPEAKER>
+<SPEAKER>WAR. MESS.</SPEAKER>
 <LINE>That Edward is escaped from your brother,</LINE>
 <LINE>And fled (as he hears since) to Burgundy.</LINE>
 </SPEECH>
@@ -5217,7 +5236,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>POST.</SPEAKER>
+<SPEAKER>WAR. MESS.</SPEAKER>
 <LINE>He was convey&#8217;d by Richard, Duke of Gloucester,</LINE>
 <LINE>And the Lord Hastings, who attended him</LINE>
 <LINE>In secret ambush on the forest side,</LINE>
@@ -5267,7 +5286,7 @@
 <SCENE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>Before York.</SCENELOCATION>
-<SCENEPERSONAE>(King Edward, Richard of Gloucester, Hastings, Soldiers, Hollanders)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Edward, Richard of Gloucester, Hastings, Yorkist Soldier,  Soldiers, Hollanders)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. Enter King Edward, Richard of Gloucester, Hastings, and Soldiers, a troop of Hollanders.</STAGEDIR>
 
@@ -5469,9 +5488,9 @@
 <STAGEDIR>Gives him a paper. Flourish. Sound.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>YORK. SOLD.</SPEAKER>
 <STAGEDIR>Reads.</STAGEDIR>
-<LINE>&#8220;Edward the Fourth, by the grace of God, King of England and France, and Lord of Ireland, etc.&#8221;</LINE>
+<LINE type="recite">&#8220;Edward the Fourth, by the grace of God, King of England and France, and Lord of Ireland, etc.&#8221;</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -5578,7 +5597,7 @@
 <SPEAKER>OXF.</SPEAKER>
 <LINE>And thus</LINE>
 <STAGEDIR>Kissing Henry&#8217;s hand.</STAGEDIR>
-<LINE offset="3">I seal my truth, and bid adieu.</LINE>
+<LINE offset="3">I seal my truth, and bid <FRENCH>adieu</FRENCH>.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -5666,7 +5685,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Coventry.</SCENELOCATION>
-<SCENEPERSONAE>(Warwick, Mayor of Coventry, Messengers, Sir John Somervile, King Edward, Richard of Gloucester, Soldiers, Oxford, Montague, Somerset, Clarence)</SCENEPERSONAE>
+<SCENEPERSONAE>(Warwick, Mayor of Coventry, Oxford Messenger, Montague Messenger, Sir John Somervile, King Edward, Richard of Gloucester, Soldiers, Oxford, Montague, Somerset, Clarence)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Warwick, the Mayor of Coventry, two Messengers, and others, upon the walls.</STAGEDIR>
 
@@ -5677,7 +5696,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. MESS.</SPEAKER>
+<SPEAKER>OXF. MESS.</SPEAKER>
 <LINE>By this at Dunsmore, marching hitherward.</LINE>
 </SPEECH>
 
@@ -5688,7 +5707,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. MESS.</SPEAKER>
+<SPEAKER>MONT. MESS.</SPEAKER>
 <LINE>By this at Daintry, with a puissant troop.</LINE>
 </SPEECH>
 
@@ -6140,7 +6159,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Plains near Tewksbury.</SCENELOCATION>
-<SCENEPERSONAE>(Queen Margaret, Prince Edward, Somerset, Oxford, Soldiers, Messenger, King Edward, Richard of Gloucester, Clarence)</SCENEPERSONAE>
+<SCENEPERSONAE>(Queen Margaret, Prince Edward, Somerset, Oxford, Soldiers, Second Lancastrian Messenger, King Edward, Richard of Gloucester, Clarence)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. March. Enter the Queen Margaret, young Prince Edward, Somerset, Oxford, and Soldiers.</STAGEDIR>
 
@@ -6227,10 +6246,10 @@
 <LINE>And take his thanks that yet hath nothing else.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Lancastrian Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. LAN. MESS.</SPEAKER>
 <LINE>Prepare you, lords, for Edward is at hand,</LINE>
 <LINE>Ready to fight; therefore be resolute.</LINE>
 </SPEECH>
@@ -6793,7 +6812,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>Q. ELIZ.</SPEAKER>
+<SPEAKER alias="L. GREY.">Q. ELIZ.</SPEAKER>
 <LINE>Thanks, noble Clarence, worthy brother, thanks.</LINE>
 </SPEECH>
 

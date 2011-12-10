@@ -82,6 +82,8 @@
 
 
 1. ROYAL MESS.
+2. ROYAL MESS.
+3. ROYAL MESS.
 REBEL MESS.
 GLOU. SERV.  Gloucester's Servingman
 SHER. LOND. Sheriff of London
@@ -176,7 +178,7 @@ SHER. LOND. Sheriff of London
 <SPEECH>
 <SPEAKER>GLOU.</SPEAKER>
 <STAGEDIR>Reads.</STAGEDIR>
-<LINE>&#8220;Inprimis, It is agreed between the French King Charles, and William de la Pole, Marquess of Suffolk, ambassador for Henry King of England, that the said Henry shall espouse the Lady Margaret, daughter unto Reignier King of Naples, Sicilia, and Jerusalem, and crown her Queen of England ere the thirtieth of May next ensuing. Item, It is further agreed between them, that the duchy of Anjou and the county of Maine shall be releas&#8217;d and deliver&#8217;d over to the King her father&#8221;&#8212;</LINE>
+<LINE type="recite">&#8220;Inprimis, It is agreed between the French King Charles, and William de la Pole, Marquess of Suffolk, ambassador for Henry King of England, that the said Henry shall espouse the Lady Margaret, daughter unto Reignier King of Naples, Sicilia, and Jerusalem, and crown her Queen of England ere the thirtieth of May next ensuing. Item, It is further agreed between them, that the duchy of Anjou and the county of Maine shall be releas&#8217;d and deliver&#8217;d over to the King her father&#8221;&#8212;</LINE>
 </SPEECH>
 
 <STAGEDIR>Duke Humphrey lets it fall.</STAGEDIR>
@@ -201,7 +203,7 @@ SHER. LOND. Sheriff of London
 <SPEECH>
 <SPEAKER>CAR.</SPEAKER>
 <STAGEDIR>Reads.</STAGEDIR>
-<LINE>&#8220;Item, It is further agreed between them, that the duchy of Anjou and the county of Maine shall be releas&#8217;d and deliver&#8217;d over to the King her father, and she sent over of the King of England&#8217;s own proper cost and charges, without having any dowry.&#8221;</LINE>
+<LINE type="recite">&#8220;Item, It is further agreed between them, that the duchy of Anjou and the county of Maine shall be releas&#8217;d and deliver&#8217;d over to the King her father, and she sent over of the King of England&#8217;s own proper cost and charges, without having any dowry.&#8221;</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -741,7 +743,7 @@ SHER. LOND. Sheriff of London
 <SPEECH>
 <SPEAKER>QUEEN.</SPEAKER>
 <STAGEDIR>Reading.</STAGEDIR>
-<LINE>&#8220;To my Lord Protector&#8221;? Are your supplications to his lordship? Let me see them. What is thine?</LINE>
+<LINE type="recite">&#8220;To my Lord Protector&#8221;? Are your supplications to his lordship? Let me see them. What is thine?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -753,7 +755,7 @@ SHER. LOND. Sheriff of London
 <SPEAKER>SUF.</SPEAKER>
 <LINE>Thy wife too? That&#8217;s some wrong indeed. What&#8217;s yours? What&#8217;s here?</LINE>
 <STAGEDIR>Reads.</STAGEDIR>
-<LINE>&#8220;Against the Duke of Suffolk, for enclosing the commons of Melford.&#8221; How now, sir knave?</LINE>
+<LINE type="recite">&#8220;Against the Duke of Suffolk, for enclosing the commons of Melford.&#8221; How now, sir knave?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1340,17 +1342,17 @@ SHER. LOND. Sheriff of London
 <LINE>What have we here?</LINE>
 
 <STAGEDIR>Reads.</STAGEDIR>
-<LINE>&#8220;The duke yet lives that Henry shall depose;</LINE>
-<LINE>But him out-live, and die a violent death.&#8221;</LINE>
+<LINE type="recite">&#8220;The duke yet lives that Henry shall depose;</LINE>
+<LINE type="recite">But him out-live, and die a violent death.&#8221;</LINE>
 <LINE>Why, this is just</LINE>
-<LINE>&#8220;Aio te, Aeacida, Romanos vincere posse.&#8221;</LINE>
+<LINE type="recite">&#8220;Aio te, Aeacida, Romanos vincere posse.&#8221;</LINE>
 <LINE>Well, to the rest:</LINE>
-<LINE>&#8220;Tell me what fate awaits the Duke of Suffolk?&#8221;</LINE>
-<LINE>&#8220;By water shall he die, and take his end.&#8221;</LINE>
-<LINE>&#8220;What shall betide the Duke of Somerset?&#8221;</LINE>
-<LINE>&#8220;Let him shun castles;</LINE>
-<LINE>Safer shall he be upon the sandy plains</LINE>
-<LINE>Than where castles mounted stand.&#8221;</LINE>
+<LINE type="recite">&#8220;Tell me what fate awaits the Duke of Suffolk?&#8221;</LINE>
+<LINE type="recite">&#8220;By water shall he die, and take his end.&#8221;</LINE>
+<LINE type="recite">&#8220;What shall betide the Duke of Somerset?&#8221;</LINE>
+<LINE type="recite">&#8220;Let him shun castles;</LINE>
+<LINE type="recite">Safer shall he be upon the sandy plains</LINE>
+<LINE type="recite">Than where castles mounted stand.&#8221;</LINE>
 <LINE>Come, come, my lords, these oracles</LINE>
 <LINE>Are hardly attain&#8217;d, and hardly understood.</LINE>
 <LINE>The King is now in progress towards Saint Albans,</LINE>
@@ -1561,7 +1563,6 @@ SHER. LOND. Sheriff of London
 <LINE>Now by God&#8217;s Mother, priest,</LINE>
 <LINE>I&#8217;ll shave your crown for this,</LINE>
 <LINE>Or all my fence shall fail.</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -5090,7 +5091,7 @@ SHER. LOND. Sheriff of London
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>London. The palace.</SCENELOCATION>
-<SCENEPERSONAE>(King, Queen, Duke of Buckingham, Lord Say, Messengers)</SCENEPERSONAE>
+<SCENEPERSONAE>(King, Queen, Duke of Buckingham, Lord Say, Second Royal Messenge, Third Royal Messenge)</SCENEPERSONAE>
 
 <STAGEDIR>Enter the King with a supplication and the Queen with Suffolk&#8217;s head, the Duke of Buckingham and the Lord Say.</STAGEDIR>
 
@@ -5150,7 +5151,7 @@ SHER. LOND. Sheriff of London
 <LINE>No, my love, I should not mourn, but die for thee.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Royal Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING.</SPEAKER>
@@ -5158,7 +5159,7 @@ SHER. LOND. Sheriff of London
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. ROYAL MESS.</SPEAKER>
 <LINE>The rebels are in Southwark; fly, my lord!</LINE>
 <LINE>Jack Cade proclaims himself Lord Mortimer,</LINE>
 <LINE>Descended from the Duke of Clarence&#8217; house,</LINE>
@@ -5203,10 +5204,10 @@ SHER. LOND. Sheriff of London
 <LINE>And live alone as secret as I may.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter another Messenger.</STAGEDIR>
+<STAGEDIR>Enter Third Royal Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. MESS.</SPEAKER>
+<SPEAKER>3. ROYAL MESS.</SPEAKER>
 <LINE>Jack Cade hath gotten London Bridge:</LINE>
 <LINE>The citizens fly and forsake their houses;</LINE>
 <LINE>The rascal people, thirsting after prey,</LINE>

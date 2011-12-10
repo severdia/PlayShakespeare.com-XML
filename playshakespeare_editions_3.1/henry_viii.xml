@@ -39,7 +39,6 @@
 <PERSONA short="SERG.">Sergeant-at-Arms</PERSONA>
 <PERSONA short="KEEP.">Doorkeeper of the Council-chamber</PERSONA>
 <PERSONA short="PORT.">Porter</PERSONA>
-<PERSONA short="MAN.">Porter&#8217;s Man</PERSONA>
 <PERSONA>Page to Gardiner</PERSONA>
 <PERSONA short="CRIER.">Crier</PERSONA>
 <PERSONA short="Q. KATH., KATH.">Queen Katherine, wife to King Henry, afterwards divorced</PERSONA>
@@ -56,6 +55,16 @@
 <PERSONA short="MESS.">Messenger</PERSONA>
 <PERSONA short="SERV.">Servant</PERSONA>
 <PERSONA short="GENT.">Gentleman</PERSONA>
+
+1. WOL. SECR.  Wolsey&#8217;s First Secretary
+BUCK. SURV.  Buckingham&#8217s Surveyor
+1. SCRIBE.   First Scribe
+2. SCRIBE.   Second Scribe
+GENTLEW.   Gentlewoman
+GARD. PAGE.   Gardiner&#8217;s Page
+DOORKEEP.  Doorkeeper of the Council Chamber
+PORT. MAN.   Porter&#8217;s Man
+
 </PERSONAE>
 
 <ACT>
@@ -64,7 +73,7 @@
 <PROLOGUE>
 <SCENETITLE>Act 1 Prologue</SCENETITLE>
 <SCENEPERSONAE>(Prologue)</SCENEPERSONAE>
-<SCENELOCATION>Scene: London; Westminster; Kimbolton</SCENELOCATION>
+<SCENELOCATION>London; Westminster; Kimbolton</SCENELOCATION>
 
 <SPEECH>
 <SPEAKER>PROLOGUE.</SPEAKER>
@@ -107,7 +116,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. An ante-chamber in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Duke of Norfolk, Duke of Buckingham, Lord Abergavenny, Cardinal Wolsey, Guards, Secretaries, Brandon, Sergeant-at-Arms)</SCENEPERSONAE>
+<SCENEPERSONAE>(Duke of Norfolk, Duke of Buckingham, Lord Abergavenny, Cardinal Wolsey, Guards, Secretaries, Brandon, Sergeant-at-Arms, Wolsey&#8217;s First Secretary)</SCENEPERSONAE>
 
 <STAGEDIR>Enter the Duke of Norfolk at one door; at the other, the Duke of Buckingham and the Lord Abergavenny.</STAGEDIR>
 
@@ -368,7 +377,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SECR.</SPEAKER>
+<SPEAKER>1. WOL. SECR.</SPEAKER>
 <LINE offset="4">Ay, please your Grace.</LINE>
 </SPEECH>
 
@@ -582,7 +591,6 @@
 <LINE>The King t&#8217; attach Lord Montacute, and the bodies</LINE>
 <LINE>Of the Duke&#8217;s confessor, John de la Car,</LINE>
 <LINE>One Gilbert Perk, his chancellor&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -622,7 +630,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. The council-chamber.</SCENELOCATION>
-<SCENEPERSONAE>(King Henry, Cardinal, Nobles, Sir Thomas Lovell, Secretary, Duke of Norfolk. Queen Katherine, Suffolk, Surveyor)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Henry, Cardinal, Nobles, Sir Thomas Lovell, Secretary, Duke of Norfolk. Queen Katherine, Suffolk, Buckingham&#8217s Surveyor)</SCENEPERSONAE>
 
 <STAGEDIR>Cornets. Enter King Henry, leaning on the Cardinal&#8217;s shoulder, the Nobles, and Sir Thomas Lovell; the Cardinal places himself under the King&#8217;s feet on his right side, his Secretary in attendance.</STAGEDIR>
 
@@ -814,7 +822,7 @@
 
 <STAGEDIR>Exit Secretary.</STAGEDIR>
 
-<STAGEDIR>Enter Surveyor.</STAGEDIR>
+<STAGEDIR>Enter Buckingham&#8217s Surveyor.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Q. KATH.</SPEAKER>
@@ -858,7 +866,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE>First, it was usual with him&#8212;every day</LINE>
 <LINE>It would infect his speech&#8212;that if the King</LINE>
 <LINE>Should without issue die, he&#8217;ll carry it so</LINE>
@@ -891,8 +899,7 @@
 <LINE>At any time speak aught?</LINE>
 </SPEECH>
 
-<SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEECH>BUCK. SURV.SURV.</SPEAKER>
 <LINE offset="5">He was brought to this</LINE>
 <LINE>By a vain prophecy of Nicholas Henton.</LINE>
 </SPEECH>
@@ -903,7 +910,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE offset="5">Sir, a Chartreux friar,</LINE>
 <LINE>His confessor, who fed him every minute</LINE>
 <LINE>With words of sovereignty.</LINE>
@@ -915,7 +922,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE>Not long before your Highness sped to France,</LINE>
 <LINE>The Duke being at the Rose, within the parish</LINE>
 <LINE>Saint Lawrence Poultney, did of me demand</LINE>
@@ -956,7 +963,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE offset="3">On my soul, I&#8217;ll speak but truth.</LINE>
 <LINE>I told my lord the Duke, by th&#8217; devil&#8217;s illusions</LINE>
 <LINE>The monk might be deceiv&#8217;d, and that &#8217;twas dangerous for him</LINE>
@@ -976,7 +983,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE>I can, my liege.</LINE>
 </SPEECH>
 
@@ -986,7 +993,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE offset="5">Being at Greenwich,</LINE>
 <LINE>After your Highness had reprov&#8217;d the Duke</LINE>
 <LINE>About Sir William Bulmer&#8212;</LINE>
@@ -1000,7 +1007,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE>&#8220;If,&#8221; quoth he, &#8220;I for this had been committed&#8212;</LINE>
 <LINE>As to the Tower, I thought&#8212;I would have play&#8217;d</LINE>
 <LINE>The part my father meant to act upon</LINE>
@@ -1032,7 +1039,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SURV.</SPEAKER>
+<SPEAKER>BUCK. SURV.</SPEAKER>
 <LINE>After &#8220;the Duke his father,&#8221; with the &#8220;knife,&#8221;</LINE>
 <LINE>He stretch&#8217;d him, and with one hand on his dagger,</LINE>
 <LINE>Another spread on &#8217;s breast, mounting his eyes,</LINE>
@@ -2677,7 +2684,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SCRIBE.</SPEAKER>
+<SPEAKER>1. SCRIBE.</SPEAKER>
 <LINE>Say, Henry King of England, come into the court.</LINE>
 </SPEECH>
 
@@ -2692,7 +2699,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SCRIBE.</SPEAKER>
+<SPEAKER>2. SCRIBE.</SPEAKER>
 <LINE>Say, Katherine Queen of England, come into the court.</LINE>
 </SPEECH>
 
@@ -3059,7 +3066,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. Queen Katharine&#8217;s apartments.</SCENELOCATION>
-<SCENEPERSONAE>(Queen, Women, Gentleman, Wolsey, Campeius)</SCENEPERSONAE>
+<SCENEPERSONAE>(Queen, Women, Gentlewoman, Griffith, Wolsey, Campeius)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Queen and her Women as at work.</STAGEDIR>
 
@@ -3067,6 +3074,10 @@
 <SPEAKER>Q. KATH.</SPEAKER>
 <LINE>Take thy lute, wench, my soul grows sad with troubles.</LINE>
 <LINE>Sing, and disperse &#8217;em if thou canst. Leave working.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>GENTLEW.</SPEAKER>
 <STAGEDIR>Song</STAGEDIR>
 <LINE type="lyric">Orpheus with his lute made trees,</LINE>
 <LINE type="lyric">And the mountain tops that freeze,</LINE>
@@ -3082,7 +3093,7 @@
 <LINE type="lyric">Fall asleep, or hearing, die.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Gentleman.</STAGEDIR>
+<STAGEDIR>Enter Griffith.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>Q. KATH.</SPEAKER>
@@ -3090,7 +3101,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>GENT.</SPEAKER>
+<SPEAKER>GRIF.</SPEAKER>
 <LINE>And&#8217;t please your Grace, the two great Cardinals</LINE>
 <LINE>Wait in the presence.</LINE>
 </SPEECH>
@@ -3101,7 +3112,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>GENT.</SPEAKER>
+<SPEAKER>GRIF.</SPEAKER>
 <LINE>They will&#8217;d me say so, madam.</LINE>
 </SPEECH>
 
@@ -3110,7 +3121,7 @@
 <LINE offset="6">Pray their Graces</LINE>
 <LINE>To come near.</LINE>
 
-<STAGEDIR>Exit Gentleman.</STAGEDIR>
+<STAGEDIR>Exit Griffith.</STAGEDIR>
 <LINE offset="3">What can be their business</LINE>
 <LINE>With me, a poor weak woman, fall&#8217;n from favor?</LINE>
 <LINE>I do not like their coming. Now I think on&#8217;t,</LINE>
@@ -5005,7 +5016,6 @@
 <SPEECH>
 <SPEAKER>MESS.</SPEAKER>
 <LINE>And&#8217;t like your Grace&#8212;</LINE>
-
 </SPEECH>
 
 <SPEECH>
@@ -5171,9 +5181,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. A gallery in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Gardiner, Bishop of Winchester, Page, Sir Thomas Lovell, King, Suffolk, Sir Anthony Denny, Cranmer, Old Lady)</SCENEPERSONAE>
+<SCENEPERSONAE>(Gardiner, Bishop of Winchester, Gardiner&#8217;s Page, Sir Thomas Lovell, King, Suffolk, Sir Anthony Denny, Cranmer, Old Lady)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Gardiner, Bishop of Winchester, a Page with a torch before him, met by Sir Thomas Lovell.</STAGEDIR>
+<STAGEDIR>Enter Gardiner, Bishop of Winchester, Gardiner&#8217;s Page with a torch before him, met by Sir Thomas Lovell.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>GARD.</SPEAKER>
@@ -5181,7 +5191,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>PAGE.</SPEAKER>
+<SPEAKER>GARD. PAGE.</SPEAKER>
 <LINE offset="6">It hath strook.</LINE>
 </SPEECH>
 
@@ -5295,7 +5305,7 @@
 <LINE>Many good-nights, my lord! I rest your servant.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Gardiner and Page.</STAGEDIR>
+<STAGEDIR>Exeunt Gardiner and Gardiner&#8217;s Page.</STAGEDIR>
 
 <STAGEDIR>Enter King and Suffolk.</STAGEDIR>
 
@@ -5617,7 +5627,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before the council-chamber.</SCENELOCATION>
-<SCENEPERSONAE>(Pursuivants, Pages, Cranmer, Archbishop of Canterbury, Keeper, Doctor Butts, King, Lord Chancellor, Duke of Suffolk, Duke of Norfolk, Surrey, Lord Chamberlain, Gardiner, Cromwell, Council Guards)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pursuivants, Pages, Cranmer, Archbishop of Canterbury, Doorkeeper of the Council Chamber, Doctor Butts, King, Lord Chancellor, Duke of Suffolk, Duke of Norfolk, Surrey, Lord Chamberlain, Gardiner, Cromwell, Council Guards)</SCENEPERSONAE>
 
 <STAGEDIR>Pursuivants, Pages, etc., attending. Enter Cranmer, Archbishop of Canterbury.</STAGEDIR>
 
@@ -5629,10 +5639,10 @@
 <LINE>Who waits there? Sure you know me?</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Keeper.</STAGEDIR>
+<STAGEDIR>Enter Doorkeeper of the Council Chamber.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>KEEP.</SPEAKER>
+<SPEAKER>DOORKEEP.</SPEAKER>
 <LINE offset="8">Yes, my lord;</LINE>
 <LINE>But yet I cannot help you.</LINE>
 </SPEECH>
@@ -5643,7 +5653,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>KEEP.</SPEAKER>
+<SPEAKER>DOORKEEP.</SPEAKER>
 <LINE>Your Grace must wait till you be call&#8217;d for.</LINE>
 </SPEECH>
 
@@ -5754,7 +5764,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>KEEP.</SPEAKER>
+<SPEAKER>DOORKEEP.</SPEAKER>
 <LINE>Without, my noble lords?</LINE>
 </SPEECH>
 
@@ -5764,7 +5774,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>KEEP.</SPEAKER>
+<SPEAKER>DOORKEEP.</SPEAKER>
 <LINE offset="7">My Lord Archbishop;</LINE>
 <LINE>And has done half an hour, to know your pleasures.</LINE>
 </SPEECH>
@@ -5775,7 +5785,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>KEEP.</SPEAKER>
+<SPEAKER>DOORKEEP.</SPEAKER>
 <LINE offset="4">Your Grace may enter now.</LINE>
 </SPEECH>
 
@@ -6162,7 +6172,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The Council-Chamber.</SCENELOCATION>
-<SCENEPERSONAE>(Porter, Man, Servant, Lord Chamberlain)</SCENEPERSONAE>
+<SCENEPERSONAE>(Porter, Porter&#8217;s Man, Servant, Lord Chamberlain)</SCENEPERSONAE>
 
 <STAGEDIR>Noise and tumult within. Enter Porter and his Man.</STAGEDIR>
 
@@ -6183,7 +6193,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE>Pray, sir, be patient; &#8217;tis as much impossible,</LINE>
 <LINE>Unless we sweep &#8217;em from the door with cannons,</LINE>
 <LINE>To scatter &#8217;em, as &#8217;tis to make &#8217;em sleep</LINE>
@@ -6197,7 +6207,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE>Alas, I know not, how gets the tide in?</LINE>
 <LINE>As much as one sound cudgel of four foot</LINE>
 <LINE>(You see the poor remainder) could distribute,</LINE>
@@ -6210,7 +6220,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE>I am not Sampson, nor Sir Guy, nor Colbrand,</LINE>
 <LINE>To mow &#8217;em down before me; but if I spar&#8217;d any</LINE>
 <LINE>That had a head to hit, either young or old,</LINE>
@@ -6231,7 +6241,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE>What would you have me do?</LINE>
 </SPEECH>
 
@@ -6241,7 +6251,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE>The spoons will be the bigger, sir. There is a fellow somewhat near the door, he should be a brazier by his face, for, o&#8217; my conscience, twenty of the dog-days now reign in &#8217;s nose; all that stand about him are under the line, they need no other penance: that fire-drake did I hit three times on the head, and three times was his nose discharg&#8217;d against me; he stands there like a mortar-piece to blow us. There was a haberdasher&#8217;s wife of small wit near him, that rail&#8217;d upon me till her pink&#8217;d porringer fell off her head, for kindling such a combustion in the state. I miss&#8217;d the meteor once, and hit that woman, who cried out &#8220;Clubs!&#8221; , when I might see from far some forty truncheoners draw to her succor, which were the hope o&#8217; th&#8217; Strond, where she was quarter&#8217;d. They fell on, I made good my place; at length they came to th&#8217; broom-staff to me, I defied &#8217;em still, when suddenly a file of boys behind &#8217;em, loose shot, deliver&#8217;d such a show&#8217;r of pibbles, that I was fain to draw mine honor in, and let &#8217;em win the work. The devil was amongst &#8217;em, I think, surely.</LINE>
 </SPEECH>
 
@@ -6292,7 +6302,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>PORT. MAN.</SPEAKER>
 <LINE offset="7">You great fellow,</LINE>
 <LINE>Stand close up, or I&#8217;ll make your head ache.</LINE>
 </SPEECH>
