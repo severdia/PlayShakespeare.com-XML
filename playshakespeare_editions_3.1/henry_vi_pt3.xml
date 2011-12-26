@@ -15,7 +15,7 @@
 <PERSONA short="EXE.">Duke of Exeter</PERSONA>
 <PERSONA short="OXF.">Earl of Oxford</PERSONA>
 <PERSONA short="NORTH.">Earl of Northumberland</PERSONA>
-<PERSONA short="WEST.">Earl of Westmerland</PERSONA>
+<PERSONA short="WEST.">Earl of Westmorland</PERSONA>
 <PERSONA short="CLIF.">Lord Clifford</PERSONA>
 <PERSONA short="YORK.">Richard Plantagenet, Duke of York</PERSONA>
 <PERSONA short="EDW., K. EDW.">Edward, Earl of March, afterwards King Edward IV, son to Richard Plantagenet</PERSONA>
@@ -60,10 +60,10 @@
 <PERSONA>Attendants</PERSONA>
 
 YORK. MESS.  Yorkist Messenger
-NOR. MESS.  Norfolk Messenger
+1. NOR. MESS. First Norfolk Messenger 
+2. NOR. MESS. Second Norfolk Messenger
 1. LAN. MESS.   First Lancastrian Messenger
 2. LAN. MESS.   Second Lancastrian Messenger
-
 SON.  A Father That Has Killed His Son
 FATH.  A Father That Has Killed His Son
 1. KEEP.  First Gamekeeper 
@@ -85,7 +85,7 @@ MONT. MESS. Montague Messenger,
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. The Parliament-house.</SCENELOCATION>
-<SCENEPERSONAE>(Richard Plantagenet, Duke of York, Edward, Richard, Norfolk, Montague, Warwick, Soldiers, King Henry, Clifford, Northumberland, Westmerland, Exeter, Queen Margaret, Prince Edward)</SCENEPERSONAE>
+<SCENEPERSONAE>(Richard Plantagenet, Duke of York, Edward, Richard, Norfolk, Montague, Warwick, Soldiers, King Henry, Clifford, Northumberland, Westmorland, Exeter, Queen Margaret, Prince Edward)</SCENEPERSONAE>
 
 <STAGEDIR>Alarum. Enter Richard Plantagenet, The Duke of York, Edward, Richard, Norfolk, Montague, Warwick, with Drum and Soldiers, with white roses in their hats.</STAGEDIR>
 
@@ -216,7 +216,7 @@ MONT. MESS. Montague Messenger,
 
 <STAGEDIR>York takes the throne.</STAGEDIR>
 
-<STAGEDIR>Flourish. Enter King Henry, Clifford, Northumberland, Westmerland, Exeter, and the rest, with red roses in their hats.</STAGEDIR>
+<STAGEDIR>Flourish. Enter King Henry, Clifford, Northumberland, Westmorland, Exeter, and the rest, with red roses in their hats.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>K. HEN.</SPEAKER>
@@ -247,7 +247,7 @@ MONT. MESS. Montague Messenger,
 
 <SPEECH>
 <SPEAKER>K. HEN.</SPEAKER>
-<LINE>Be patient, gentle Earl of Westmerland.</LINE>
+<LINE>Be patient, gentle Earl of Westmorland.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -339,7 +339,7 @@ MONT. MESS. Montague Messenger,
 <SPEECH>
 <SPEAKER>WEST.</SPEAKER>
 <LINE>He is both King and Duke of Lancaster,</LINE>
-<LINE>And that the Lord of Westmerland shall maintain.</LINE>
+<LINE>And that the Lord of Westmorland shall maintain.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1547,7 +1547,7 @@ MONT. MESS. Montague Messenger,
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>A plain near Mortimer&#8217;s Cross in Herefordshire.</SCENELOCATION>
-<SCENEPERSONAE>(Edward, Richard, Norfolk Messenger, Warwick, Marquess Montague)</SCENEPERSONAE>
+<SCENEPERSONAE>(Edward, Richard, First Norfolk Messenger, Second Norfolk Messenger, Warwick, Marquess Montague)</SCENEPERSONAE>
 
 <STAGEDIR>A march. Enter Edward, Richard, and their power.</STAGEDIR>
 
@@ -1617,14 +1617,13 @@ MONT. MESS. Montague Messenger,
 <SPEAKER>RICH.</SPEAKER>
 <LINE>Nay, bear three daughters; by your leave I speak it,</LINE>
 <LINE>You love the breeder better than the male.</LINE>
-
-<STAGEDIR>Enter one a Messenger blowing.</STAGEDIR>
+<STAGEDIR>Enter First Norfolk Messenger blowing.</STAGEDIR>
 <LINE>But what art thou, whose heavy looks foretell</LINE>
 <LINE>Some dreadful story hanging on thy tongue?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. NOR. MESS.</SPEAKER>
 <LINE>Ah, one that was a woeful looker-on</LINE>
 <LINE>When as the noble Duke of York was slain,</LINE>
 <LINE>Your princely father and my loving lord!</LINE>
@@ -1641,7 +1640,7 @@ MONT. MESS. Montague Messenger,
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. NOR. MESS.</SPEAKER>
 <LINE>Environed he was with many foes,</LINE>
 <LINE>And stood against them, as the hope of Troy</LINE>
 <LINE>Against the Greeks that would have ent&#8217;red Troy.</LINE>
@@ -1877,7 +1876,7 @@ MONT. MESS. Montague Messenger,
 <LINE>Then strike up drums. God and Saint George for us!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Norlfolk Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Norfolk Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>WAR.</SPEAKER>
@@ -1885,7 +1884,7 @@ MONT. MESS. Montague Messenger,
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>NOR. MESS.</SPEAKER>
+<SPEAKER>2. NOR. MESS.</SPEAKER>
 <LINE>The Duke of Norfolk sends you word by me</LINE>
 <LINE>The Queen is coming with a puissant host,</LINE>
 <LINE>And craves your company for speedy counsel.</LINE>
