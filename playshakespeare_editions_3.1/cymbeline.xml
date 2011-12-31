@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="../plays.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <PLAY>
 <TITLE>Cymbeline</TITLE>
@@ -18,10 +18,10 @@
 <PERSONA short="LUC.">Caius Lucius, general of the Roman forces</PERSONA>
 <PERSONA short="PIS.">Pisanio, servant to Posthumus</PERSONA>
 <PERSONA short="COR.">Cornelius, a physician</PERSONA>
-<PERSONA short="SOOTH.">Philarmonus, a soothsayer</PERSONA>
+<PERSONA short="PHIL.">Philarmonus, a soothsayer</PERSONA>
 <PERSONA>Roman Captain</PERSONA>
-<PERSONA short="1. CAP.">First British Captain</PERSONA>
-<PERSONA short="2. CAP.">Second British Captain</PERSONA>
+<PERSONA short="1. BRIT. CAP.">First British Captain</PERSONA>
+<PERSONA short="2. BRIT. CAP.">Second British Captain</PERSONA>
 <PERSONA short="FRENCH.">Frenchman, friend to Philario</PERSONA>
 <PERSONA short="1. LORD.">First Lord of Cymbeline&#8217;s court</PERSONA>
 <PERSONA short="2. LORD.">Second Lord of Cymbeline&#8217;s court</PERSONA>
@@ -31,17 +31,17 @@
 <PERSONA short="2. JAIL.">Second Jailer</PERSONA>
 <PERSONA short="SICI.">Apparition of Sicilius Leonatus</PERSONA>
 <PERSONA short="MOTH.">Apparition of the Matron, wife to Sicilius Leonatus and mother to Posthumus</PERSONA>
-<PERSONA short="1. BRO., BROTHERS.">First Apparition of Brother of Sicilius Leonatus</PERSONA>
-<PERSONA short="2. BRO., BROTHERS.">Second Apparition of Brother of Sicilius Leonatus</PERSONA>
+<PERSONA short="APP. 1. BRO., BROTHERS.">Apparition of First Brother of Posthumus</PERSONA>
+<PERSONA short="APP. 2. BRO., BROTHERS.">Apparition of Second Brother of Posthumus</PERSONA>
 <PERSONA short="JUP.">Jupiter</PERSONA>
 <PERSONA short="QUEEN.">Queen, wife to Cymbeline</PERSONA>
 <PERSONA short="IMO.">Imogen, daughter to Cymbeline by a former Queen</PERSONA>
-<PERSONA short="LADY.">Helen, a lady attending on Imogen</PERSONA>
-<PERSONA short="LORD.">Britain Lord</PERSONA>
-<PERSONA short="1. LADY.">Lady</PERSONA>
+<PERSONA short="HEL.">Helen, a lady attending on Imogen</PERSONA>
+<PERSONA short="BRIT. LORD.">British Lord</PERSONA>
+<PERSONA short="LADY.">Lady Attendant</PERSONA>
 <PERSONA short="1. SEN.">First Roman Senator</PERSONA>
 <PERSONA short="2. SEN.">Second Roman Senator</PERSONA>
-<PERSONA short="1. TRI.">Tribunes</PERSONA>
+<PERSONA short="TRI.">Tribune</PERSONA>
 <PERSONA>Dutchman</PERSONA>
 <PERSONA>Spaniard</PERSONA>
 <PERSONA>Musicians</PERSONA>
@@ -674,7 +674,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A room in Cymbeline&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Imogen, Pisanio, Lady Helen)</SCENEPERSONAE>
+<SCENEPERSONAE>(Imogen, Pisanio, Helen)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Imogen and Pisanio.</STAGEDIR>
 
@@ -765,10 +765,10 @@
 <LINE>Shakes all our buds from growing.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Lady.</STAGEDIR>
+<STAGEDIR>Enter Helen.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="7">The Queen, madam,</LINE>
 <LINE>Desires your Highness&#8217; company.</LINE>
 </SPEECH>
@@ -1078,7 +1078,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LADY.</SPEAKER>
+<SPEAKER>LADY.</SPEAKER>
 <LINE offset="8">I, madam.</LINE>
 </SPEECH>
 
@@ -1896,7 +1896,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Imogen&#8217;s bedchamber in Cymbeline&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Imogen, Lady Helen, Jachimo)</SCENEPERSONAE>
+<SCENEPERSONAE>(Imogen, Helen, Jachimo)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Imogen in her bed, and a Lady. A trunk in one corner.</STAGEDIR>
 
@@ -1906,7 +1906,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="7">Please you, madam.</LINE>
 </SPEECH>
 
@@ -1916,7 +1916,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="3">Almost midnight, madam.</LINE>
 </SPEECH>
 
@@ -1928,7 +1928,7 @@
 <LINE>And if thou canst awake by four o&#8217; th&#8217; clock,</LINE>
 <LINE>I prithee call me. Sleep hath seiz&#8217;d me wholly.</LINE>
 
-<STAGEDIR>Exit Lady.</STAGEDIR>
+<STAGEDIR>Exit Helen.</STAGEDIR>
 <LINE>To your protection I commend me, gods,</LINE>
 <LINE>From fairies and the tempters of the night</LINE>
 <LINE>Guard me, beseech ye.</LINE>
@@ -1992,7 +1992,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>An ante-chamber adjoining Imogen&#8217;s apartments.</SCENELOCATION>
-<SCENEPERSONAE>(Cloten, Lords, Musicians, Cymbeline, Queen, Messenger, Lady, Imogen, Pisanio)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cloten, Lords, Singer, Musicians, Cymbeline, Queen, Messenger, Helen, Imogen, Pisanio)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cloten and Lords.</STAGEDIR>
 
@@ -2026,6 +2026,10 @@
 <LINE>I would this music would come. I am advis&#8217;d to give her music a&#8217; mornings; they say it will penetrate.</LINE>
 <STAGEDIR>Enter Musicians.</STAGEDIR>
 <LINE>Come on, tune. If you can penetrate her with your fingering, so; we&#8217;ll try with tongue too. If none will do, let her remain; but I&#8217;ll never give o&#8217;er. First, a very excellent good conceited thing; after, a wonderful sweet air, with admirable rich words to it&#8212;and then let her consider.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>SING.</SPEAKER>
 <STAGEDIR>Song</STAGEDIR>
 <LINE type="lyric">Hark, hark, the lark at heaven&#8217;s gate sings,</LINE>
 <LINE type="lyric">And Phoebus gins arise,</LINE>
@@ -2139,10 +2143,10 @@
 
 <STAGEDIR>Knocks.</STAGEDIR>
 
-<STAGEDIR>Enter a Lady.</STAGEDIR>
+<STAGEDIR>Enter Helen.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE>Who&#8217;s there that knocks?</LINE>
 </SPEECH>
 
@@ -2152,7 +2156,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="8">No more?</LINE>
 </SPEECH>
 
@@ -2162,7 +2166,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="6">That&#8217;s more</LINE>
 <LINE>Than some, whose tailors are as dear as yours,</LINE>
 <LINE>Can justly boast of. What&#8217;s your lordship&#8217;s pleasure?</LINE>
@@ -2174,7 +2178,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE offset="7">Ay,</LINE>
 <LINE>To keep her chamber.</LINE>
 </SPEECH>
@@ -2186,7 +2190,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LADY.</SPEAKER>
+<SPEAKER>HEL.</SPEAKER>
 <LINE>How, my good name? Or to report of you</LINE>
 <LINE>What I shall think is good?&#8212;The Princess.</LINE>
 </SPEECH>
@@ -2198,7 +2202,7 @@
 <LINE>Good morrow, fairest: sister, your sweet hand.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Lady.</STAGEDIR>
+<STAGEDIR>Exit Helen.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>IMO.</SPEAKER>
@@ -4338,7 +4342,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. TRI.</SPEAKER>
+<SPEAKER>TRI.</SPEAKER>
 <LINE>Is Lucius general of the forces?</LINE>
 </SPEECH>
 
@@ -4348,7 +4352,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. TRI.</SPEAKER>
+<SPEAKER>TRI.</SPEAKER>
 <LINE>Remaining now in Gallia?</LINE>
 </SPEECH>
 
@@ -4362,7 +4366,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. TRI.</SPEAKER>
+<SPEAKER>TRI.</SPEAKER>
 <LINE offset="4">We will discharge our duty.</LINE>
 </SPEECH>
 
@@ -4392,7 +4396,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Before the cave of Belarius.</SCENELOCATION>
-<SCENEPERSONAE>(Belarius, Guiderius, Arviragus, Imogen, Cloten, Lucius, Captains, Soothsayer)</SCENEPERSONAE>
+<SCENEPERSONAE>(Belarius, Guiderius, Arviragus, Imogen, Cloten, Lucius, Captains, Philarmonus)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Belarius, Guiderius, Arviragus, and Imogen from the cave.</STAGEDIR>
 
@@ -5261,7 +5265,7 @@
 
 <STAGEDIR>Falls on the body.</STAGEDIR>
 
-<STAGEDIR>Enter Lucius, Captains, and a Soothsayer.</STAGEDIR>
+<STAGEDIR>Enter Lucius, Captains, and Philarmonus, a soothsayer.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAP.</SPEAKER>
@@ -5304,7 +5308,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOOTH.</SPEAKER>
+<SPEAKER>PHIL.</SPEAKER>
 <LINE>Last night the very gods show&#8217;d me a vision</LINE>
 <LINE>(I fast and pray&#8217;d for their intelligence) thus:</LINE>
 <LINE>I saw Jove&#8217;s bird, the Roman eagle, wing&#8217;d</LINE>
@@ -5772,12 +5776,12 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Another part of the field.</SCENELOCATION>
-<SCENEPERSONAE>(Posthumus, Britain Lord, Britain Captains, Soldiers, Cymbeline, Belarius, Guiderius, Arviragus, Pisanio, Roman captives)</SCENEPERSONAE>
+<SCENEPERSONAE>(Posthumus, British Lord, Britain Captains, Soldiers, Cymbeline, Belarius, Guiderius, Arviragus, Pisanio, Roman captives)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Posthumus and a Britain Lord.</STAGEDIR>
+<STAGEDIR>Enter Posthumus and a British Lord.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE>Cam&#8217;st thou from where they made the stand?</LINE>
 </SPEECH>
 
@@ -5788,7 +5792,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE offset="9">I did.</LINE>
 </SPEECH>
 
@@ -5808,7 +5812,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE offset="6">Where was this lane?</LINE>
 </SPEECH>
 
@@ -5855,7 +5859,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE offset="5">This was strange chance.</LINE>
 <LINE>A narrow lane, an old man, and two boys!</LINE>
 </SPEECH>
@@ -5871,7 +5875,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE>Nay, be not angry, sir.</LINE>
 </SPEECH>
 
@@ -5885,7 +5889,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>LORD.</SPEAKER>
+<SPEAKER>BRIT. LORD.</SPEAKER>
 <LINE offset="6">Farewell, you&#8217;re angry.</LINE>
 </SPEECH>
 
@@ -5915,22 +5919,22 @@
 <LINE>But end it by some means for Imogen.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter two Britain Captains and Soldiers.</STAGEDIR>
+<STAGEDIR>Enter two British Captains and Soldiers.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. CAP.</SPEAKER>
+<SPEAKER>1. BRIT. CAP.</SPEAKER>
 <LINE>Great Jupiter be prais&#8217;d! Lucius is taken.</LINE>
 <LINE>&#8217;Tis thought the old man and his sons were angels.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. CAP.</SPEAKER>
+<SPEAKER>2. BRIT. CAP.</SPEAKER>
 <LINE>There was a fourth man, in a silly habit,</LINE>
 <LINE>That gave th&#8217; affront with them.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. CAP.</SPEAKER>
+<SPEAKER>1. BRIT. CAP.</SPEAKER>
 <LINE offset="7">So &#8217;tis reported;</LINE>
 <LINE>But none of &#8217;em can be found. Stand! Who&#8217;s there?</LINE>
 </SPEECH>
@@ -5943,7 +5947,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. CAP.</SPEAKER>
+<SPEAKER>2. BRIT. CAP.</SPEAKER>
 <LINE offset="4">Lay hands on him; a dog!</LINE>
 <LINE>A leg of Rome shall not return to tell</LINE>
 <LINE>What crows have peck&#8217;d them here. He brags his service</LINE>
@@ -5957,7 +5961,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>A British prison.</SCENELOCATION>
-<SCENEPERSONAE>(Posthumus, Jailers, Sicilius Leonatus, Matron, Leonati, Jupiter, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Posthumus, Jailers, Sicilius Leonatus, Matron, Leonati (Apparition of First Brother of Posthumus, Apparition of Second Brother of Posthumus), Jupiter, Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Posthumus and two Jailers.</STAGEDIR>
 
@@ -5971,7 +5975,6 @@
 <SPEAKER>2. JAIL.</SPEAKER>
 <LINE offset="6">Ay, or a stomach.</LINE>
 </SPEECH>
-
 
 <STAGEDIR>Exeunt Jailers.</STAGEDIR>
 
@@ -6012,113 +6015,113 @@
 
 <SPEECH>
 <SPEAKER>SICI.</SPEAKER>
-<LINE offset="2">No more, thou Thunder-master, show</LINE>
-<LINE offset="2">Thy spite on mortal flies:</LINE>
-<LINE offset="2">With Mars fall out, with Juno chide,</LINE>
-<LINE offset="2">That thy adulteries</LINE>
-<LINE offset="2">Rates and revenges.</LINE>
-<LINE offset="2">Hath my poor boy done aught but well,</LINE>
-<LINE offset="2">Whose face I never saw?</LINE>
-<LINE offset="2">I died whilst in the womb he stay&#8217;d</LINE>
-<LINE offset="2">Attending nature&#8217;s law;</LINE>
-<LINE offset="2">Whose father then (as men report</LINE>
-<LINE offset="2">Thou orphans&#8217; father art)</LINE>
-<LINE offset="2">Thou shouldst have been, and shielded him</LINE>
-<LINE offset="2">From this earth-vexing smart.</LINE>
+<LINE><RECITE>No more, thou Thunder-master, show</RECITE></LINE>
+<LINE><RECITE>Thy spite on mortal flies:</RECITE></LINE>
+<LINE><RECITE>With Mars fall out, with Juno chide,</RECITE></LINE>
+<LINE><RECITE>That thy adulteries</RECITE></LINE>
+<LINE><RECITE>Rates and revenges.</RECITE></LINE>
+<LINE><RECITE>Hath my poor boy done aught but well,</RECITE></LINE>
+<LINE><RECITE>Whose face I never saw?</RECITE></LINE>
+<LINE><RECITE>I died whilst in the womb he stay&#8217;d</RECITE></LINE>
+<LINE><RECITE>Attending nature&#8217;s law;</RECITE></LINE>
+<LINE><RECITE>Whose father then (as men report</RECITE></LINE>
+<LINE><RECITE>Thou orphans&#8217; father art)</RECITE></LINE>
+<LINE><RECITE>Thou shouldst have been, and shielded him</RECITE></LINE>
+<LINE><RECITE>From this earth-vexing smart.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
-<LINE offset="2">Lucina lent not me her aid,</LINE>
-<LINE offset="2">But took me in my throes,</LINE>
-<LINE offset="2">That from me was Posthumus ripp&#8217;d,</LINE>
-<LINE offset="2">Came crying &#8217;mongst his foes,</LINE>
-<LINE offset="2">A thing of pity!</LINE>
+<LINE><RECITE>Lucina lent not me her aid,</RECITE></LINE>
+<LINE><RECITE>But took me in my throes,</RECITE></LINE>
+<LINE><RECITE>That from me was Posthumus ripp&#8217;d,</RECITE></LINE>
+<LINE><RECITE>Came crying &#8217;mongst his foes,</RECITE></LINE>
+<LINE><RECITE>A thing of pity!</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>SICI.</SPEAKER>
-<LINE offset="2">Great nature, like his ancestry,</LINE>
-<LINE offset="2">Moulded the stuff so fair,</LINE>
-<LINE offset="2">That he deserv&#8217;d the praise o&#8217; th&#8217; world,</LINE>
-<LINE offset="2">As great Sicilius&#8217; heir.</LINE>
+<LINE><RECITE>Great nature, like his ancestry,</RECITE></LINE>
+<LINE><RECITE>Moulded the stuff so fair,</RECITE></LINE>
+<LINE><RECITE>That he deserv&#8217;d the praise o&#8217; th&#8217; world,</RECITE></LINE>
+<LINE><RECITE>As great Sicilius&#8217; heir.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. BRO.</SPEAKER>
-<LINE offset="2">When once he was mature for man,</LINE>
-<LINE offset="2">In Britain where was he</LINE>
-<LINE offset="2">That could stand up his parallel,</LINE>
-<LINE offset="2">Or fruitful object be</LINE>
-<LINE offset="2">In eye of Imogen, that best</LINE>
-<LINE offset="2">Could deem his dignity?</LINE>
+<SPEAKER>APP. 1. BRO.</SPEAKER>
+<LINE><RECITE>When once he was mature for man,</RECITE></LINE>
+<LINE><RECITE>In Britain where was he</RECITE></LINE>
+<LINE><RECITE>That could stand up his parallel,</RECITE></LINE>
+<LINE><RECITE>Or fruitful object be</RECITE></LINE>
+<LINE><RECITE>In eye of Imogen, that best</RECITE></LINE>
+<LINE><RECITE>Could deem his dignity?</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
-<LINE offset="2">With marriage wherefore was he mock&#8217;d,</LINE>
-<LINE offset="2">To be exil&#8217;d, and thrown</LINE>
-<LINE offset="2">From Leonati seat, and cast</LINE>
-<LINE offset="2">From her his dearest one,</LINE>
-<LINE offset="2">Sweet Imogen?</LINE>
+<LINE><RECITE>With marriage wherefore was he mock&#8217;d,</RECITE></LINE>
+<LINE><RECITE>To be exil&#8217;d, and thrown</RECITE></LINE>
+<LINE><RECITE>From Leonati seat, and cast</RECITE></LINE>
+<LINE><RECITE>From her his dearest one,</RECITE></LINE>
+<LINE><RECITE>Sweet Imogen?</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>SICI.</SPEAKER>
-<LINE offset="2">Why did you suffer Jachimo,</LINE>
-<LINE offset="2">Slight thing of Italy,</LINE>
-<LINE offset="2">To taint his nobler heart and brain</LINE>
-<LINE offset="2">With needless jealousy,</LINE>
-<LINE offset="2">And to become the geck and scorn</LINE>
-<LINE offset="2">O&#8217; th&#8217; other&#8217;s villainy?</LINE>
+<LINE><RECITE>Why did you suffer Jachimo,</RECITE></LINE>
+<LINE><RECITE>Slight thing of Italy,</RECITE></LINE>
+<LINE><RECITE>To taint his nobler heart and brain</RECITE></LINE>
+<LINE><RECITE>With needless jealousy,</RECITE></LINE>
+<LINE><RECITE>And to become the geck and scorn</RECITE></LINE>
+<LINE><RECITE>O&#8217; th&#8217; other&#8217;s villainy?</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. BRO.</SPEAKER>
-<LINE offset="2">For this from stiller seats we came,</LINE>
-<LINE offset="2">Our parents and us twain,</LINE>
-<LINE offset="2">That striking in our country&#8217;s cause</LINE>
-<LINE offset="2">Fell bravely and were slain,</LINE>
-<LINE offset="2">Our fealty and Tenantius&#8217; right</LINE>
-<LINE offset="2">With honor to maintain.</LINE>
+<SPEAKER>APP. 2. BRO.</SPEAKER>
+<LINE><RECITE>For this from stiller seats we came,</RECITE></LINE>
+<LINE><RECITE>Our parents and us twain,</RECITE></LINE>
+<LINE><RECITE>That striking in our country&#8217;s cause</RECITE></LINE>
+<LINE><RECITE>Fell bravely and were slain,</RECITE></LINE>
+<LINE><RECITE>Our fealty and Tenantius&#8217; right</RECITE></LINE>
+<LINE><RECITE>With honor to maintain.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. BRO.</SPEAKER>
-<LINE offset="2">Like hardiment Posthumus hath</LINE>
-<LINE offset="2">To Cymbeline perform&#8217;d.</LINE>
-<LINE offset="2">Then, Jupiter, thou king of gods,</LINE>
-<LINE offset="2">Why hast thou thus adjourn&#8217;d</LINE>
-<LINE offset="2">The graces for his merits due,</LINE>
-<LINE offset="2">Being all to dolors turn&#8217;d?</LINE>
+<SPEAKER>APP. 1. BRO.</SPEAKER>
+<LINE><RECITE>Like hardiment Posthumus hath</RECITE></LINE>
+<LINE><RECITE>To Cymbeline perform&#8217;d.</RECITE></LINE>
+<LINE><RECITE>Then, Jupiter, thou king of gods,</RECITE></LINE>
+<LINE><RECITE>Why hast thou thus adjourn&#8217;d</RECITE></LINE>
+<LINE><RECITE>The graces for his merits due,</RECITE></LINE>
+<LINE><RECITE>Being all to dolors turn&#8217;d?</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>SICI.</SPEAKER>
-<LINE offset="2">Thy crystal window ope; look out;</LINE>
-<LINE offset="2">No longer exercise</LINE>
-<LINE offset="2">Upon a valiant race thy harsh</LINE>
-<LINE offset="2">And potent injuries.</LINE>
+<LINE><RECITE>Thy crystal window ope; look out;</RECITE></LINE>
+<LINE><RECITE>No longer exercise</RECITE></LINE>
+<LINE><RECITE>Upon a valiant race thy harsh</RECITE></LINE>
+<LINE><RECITE>And potent injuries.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>MOTH.</SPEAKER>
-<LINE offset="2">Since, Jupiter, our son is good,</LINE>
-<LINE offset="2">Take off his miseries.</LINE>
+<LINE><RECITE>Since, Jupiter, our son is good,</RECITE></LINE>
+<LINE><RECITE>Take off his miseries.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>SICI.</SPEAKER>
-<LINE offset="2">Peep through thy marble mansion, help,</LINE>
-<LINE offset="2">Or we poor ghosts will cry</LINE>
-<LINE offset="2">To th&#8217; shining synod of the rest</LINE>
-<LINE offset="2">Against thy deity.</LINE>
+<LINE><RECITE>Peep through thy marble mansion, help,</RECITE></LINE>
+<LINE><RECITE>Or we poor ghosts will cry</RECITE></LINE>
+<LINE><RECITE>To th&#8217; shining synod of the rest</RECITE></LINE>
+<LINE><RECITE>Against thy deity.</RECITE></LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>BROTHERS.</SPEAKER>
-<LINE offset="2">Help, Jupiter, or we appeal,</LINE>
-<LINE offset="2">And from thy justice fly.</LINE>
+<LINE><RECITE>Help, Jupiter, or we appeal,</RECITE></LINE>
+<LINE><RECITE>And from thy justice fly.</RECITE></LINE>
 </SPEECH>
 
 <STAGEDIR>Jupiter descends in thunder and lightning, sitting upon an eagle: he throws a thunderbolt. The Ghosts fall on their knees.</STAGEDIR>
@@ -6297,7 +6300,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Cymbeline&#8217;s tent.</SCENELOCATION>
-<SCENEPERSONAE>(Cymbeline, Belarius, Guiderius, Arviragus, Pisanio, Lords, Officers, Attendants, Cornelius, Ladies, Lucius, Jachimo, Soothsayer, Roman prisoners, Leonatus Posthumus, Imogen)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cymbeline, Belarius, Guiderius, Arviragus, Pisanio, Lords, Officers, Attendants, Cornelius, Ladies, Lucius, Jachimo, Philarmonus, Roman prisoners, Leonatus Posthumus, Imogen)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cymbeline, Belarius, Guiderius, Arviragus, Pisanio, and Lords, Officers, and Attendants.</STAGEDIR>
 
@@ -6461,7 +6464,7 @@
 <LINE>That it was folly in me, thou mayst say,</LINE>
 <LINE>And prove it in thy feeling. Heaven mend all!</LINE>
 
-<STAGEDIR>Enter Lucius, Jachimo, the Soothsayer, and other Roman prisoners guarded; Leonatus Posthumus behind, and Imogen.</STAGEDIR>
+<STAGEDIR>Enter Lucius, Jachimo, Philarmonus, and other Roman prisoners guarded; Leonatus Posthumus behind, and Imogen.</STAGEDIR>
 <LINE>Thou com&#8217;st not, Caius, now for tribute; that</LINE>
 <LINE>The Britains have ras&#8217;d out, though with the loss</LINE>
 <LINE>Of many a bold one, whose kinsmen have made suit</LINE>
@@ -7369,7 +7372,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOOTH.</SPEAKER>
+<SPEAKER>PHIL.</SPEAKER>
 <LINE>Here, my good lord.</LINE>
 </SPEECH>
 
@@ -7379,7 +7382,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOOTH.</SPEAKER>
+<SPEAKER>PHIL.</SPEAKER>
 <STAGEDIR>Reads.</STAGEDIR>
 <LINE><RECITE>&#8220;When as a lion&#8217;s whelp shall, to himself unknown, without seeking find, and be embrac&#8217;d by a piece of tender air; and when from a stately cedar shall be lopp&#8217;d branches, which, being dead many years, shall after revive, be jointed to the old stock, and freshly grow; then shall Posthumus end his miseries, Britain be fortunate and flourish in peace and plenty.&#8221;</RECITE></LINE>
 <LINE>Thou, Leonatus, art the lion&#8217;s whelp;</LINE>
@@ -7405,7 +7408,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOOTH.</SPEAKER>
+<SPEAKER>PHIL.</SPEAKER>
 <LINE>The lofty cedar, royal Cymbeline,</LINE>
 <LINE>Personates thee; and thy lopp&#8217;d branches point</LINE>
 <LINE>Thy two sons forth; who, by Belarius stol&#8217;n,</LINE>
@@ -7427,7 +7430,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOOTH.</SPEAKER>
+<SPEAKER>PHIL.</SPEAKER>
 <LINE>The fingers of the pow&#8217;rs above do tune</LINE>
 <LINE>The harmony of this peace. The vision</LINE>
 <LINE>Which I made known to Lucius, ere the stroke</LINE>

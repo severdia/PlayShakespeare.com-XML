@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="../plays.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <PLAY>
 <TITLE>The Tragedy of Coriolanus</TITLE>
@@ -66,7 +66,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Rome. A street.</SCENELOCATION>
-<SCENEPERSONAE>(Citizens, Menenius Agrippa, Caius Martius, Messenger, Sicinius Velutus, Junius Brutus, Cominius, Titus Lartius, Senators)</SCENEPERSONAE>
+<SCENEPERSONAE>(Citizens, Menenius Agrippa, Martius, Messenger, Sicinius Velutus, Junius Brutus, Cominius, Titus Lartius, Senators)</SCENEPERSONAE>
 
 <STAGEDIR>Enter a company of mutinous Citizens with staves, clubs, and other weapons.</STAGEDIR>
 
@@ -1663,7 +1663,7 @@
 <SCENE>
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>The Roman camp.</SCENELOCATION>
-<SCENEPERSONAE>(Cominius, Romans, Martius, Titus Lartius)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cominius, Romans, Martius (Coriolanus), Titus Lartius)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. Alarum. A retreat is sounded. Enter, at one door, Cominius, with the Romans; at another door, Martius with his arm in a scarf.</STAGEDIR>
 
@@ -1741,7 +1741,7 @@
 <LINE>And stand upon my common part with those</LINE>
 <LINE>That have beheld the doing.</LINE>
 
-<STAGEDIR>A long flourish. They all cry, &#8220;Martius! Martius!&#8221; , cast up their caps and lances. Cominius and Lartius stand bare.</STAGEDIR>
+<STAGEDIR>A long flourish. They all cry, &#8220;Martius! Martius!&#8221;, cast up their caps and lances. Cominius and Lartius stand bare.</STAGEDIR>
 <LINE>May these same instruments, which you profane,</LINE>
 <LINE>Never sound more! When drums and trumpets shall</LINE>
 <LINE>I&#8217; th&#8217; field prove flatterers, let courts and cities be</LINE>
@@ -1783,7 +1783,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I will go wash;</LINE>
 <LINE>And when my face is fair, you shall perceive</LINE>
 <LINE>Whether I blush or no; howbeit, I thank you.</LINE>
@@ -1808,7 +1808,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>The gods begin to mock me. I, that now</LINE>
 <LINE>Refus&#8217;d most princely gifts, am bound to beg</LINE>
 <LINE>Of my lord general.</LINE>
@@ -1820,7 +1820,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I sometime lay here in Corioles</LINE>
 <LINE>At a poor man&#8217;s house; he us&#8217;d me kindly.</LINE>
 <LINE>He cried to me; I saw him prisoner;</LINE>
@@ -1842,7 +1842,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">By Jupiter, forgot!</LINE>
 <LINE>I am weary, yea, my memory is tir&#8217;d.</LINE>
 <LINE>Have we no wine here?</LINE>
@@ -2256,7 +2256,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>No more of this, it does offend my heart;</LINE>
 <LINE>Pray now, no more.</LINE>
 </SPEECH>
@@ -2267,7 +2267,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="9">O!</LINE>
 <LINE>You have, I know, petition&#8217;d all the gods</LINE>
 <LINE>For my prosperity!</LINE>
@@ -2285,7 +2285,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">My gracious silence, hail!</LINE>
 <LINE>Wouldst thou have laugh&#8217;d had I come coffin&#8217;d home,</LINE>
 <LINE>That weep&#8217;st to see me triumph? Ah, my dear,</LINE>
@@ -2299,7 +2299,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>And live you yet?</LINE>
 
 <STAGEDIR>To Valeria.</STAGEDIR>
@@ -2331,7 +2331,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Menenius, ever, ever.</LINE>
 </SPEECH>
 
@@ -2341,7 +2341,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER> <STAGEDIR>To Volumnia and Virgilia.</STAGEDIR>
+<SPEAKER alias="MAR.">COR.</SPEAKER> <STAGEDIR>To Volumnia and Virgilia.</STAGEDIR>
 <LINE>Your hand, and yours!</LINE>
 <LINE>Ere in our own house I do shade my head,</LINE>
 <LINE>The good patricians must be visited,</LINE>
@@ -2359,7 +2359,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">Know, good mother,</LINE>
 <LINE>I had rather be their servant in my way</LINE>
 <LINE>Than sway with them in theirs.</LINE>
@@ -2651,7 +2651,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">Your honors&#8217; pardon;</LINE>
 <LINE>I had rather have my wounds to heal again</LINE>
 <LINE>Than hear say how I got them.</LINE>
@@ -2664,7 +2664,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">No, sir; yet oft,</LINE>
 <LINE>When blows have made me stay, I fled from words.</LINE>
 <LINE>You sooth&#8217;d not, therefore hurt not; but your people,</LINE>
@@ -2677,7 +2677,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I had rather have one scratch my head i&#8217; th&#8217; sun</LINE>
 <LINE>When the alarum were struck than idly sit</LINE>
 <LINE>To hear my nothings monster&#8217;d.</LINE>
@@ -2785,7 +2785,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">I do owe them still</LINE>
 <LINE>My life and services.</LINE>
 </SPEECH>
@@ -2797,7 +2797,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">I do beseech you,</LINE>
 <LINE>Let me o&#8217;erleap that custom; for I cannot</LINE>
 <LINE>Put on the gown, stand naked, and entreat them</LINE>
@@ -2821,7 +2821,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">It is a part</LINE>
 <LINE>That I shall blush in acting, and might well</LINE>
 <LINE>Be taken from the people.</LINE>
@@ -2833,7 +2833,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>To brag unto them, &#8220;Thus I did, and thus!&#8221;</LINE>
 <LINE>Show them th&#8217; unaching scars which I should hide,</LINE>
 <LINE>As if I had receiv&#8217;d them for the hire</LINE>
@@ -2957,7 +2957,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">What must I say?</LINE>
 <LINE>&#8220;I pray, sir&#8221;&#8212;Plague upon&#8217;t! I cannot bring</LINE>
 <LINE>My tongue to such a pace. &#8220;Look, sir, my wounds!</LINE>
@@ -2974,7 +2974,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">Think upon me? Hang &#8217;em,</LINE>
 <LINE>I would they would forget me, like the virtues</LINE>
 <LINE>Which our divines lose by &#8217;em.</LINE>
@@ -2992,7 +2992,7 @@
 <STAGEDIR>Enter three of the Citizens.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Bid them wash their faces,</LINE>
 <LINE>And keep their teeth clean. So, here comes a brace.&#8212;</LINE>
 <LINE>You know the cause, sir, of my standing here.</LINE>
@@ -3004,7 +3004,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Mine own desert.</LINE>
 </SPEECH>
 
@@ -3014,7 +3014,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Ay, not mine own desire.</LINE>
 </SPEECH>
 
@@ -3024,7 +3024,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>No, sir, &#8217;twas never my desire yet to trouble the poor with begging.</LINE>
 </SPEECH>
 
@@ -3034,7 +3034,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Well then, I pray, your price a&#8217; th&#8217; consulship?</LINE>
 </SPEECH>
 
@@ -3044,7 +3044,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Kindly, sir, I pray let me ha&#8217;t. I have wounds to show you, which shall be yours in private. Your good voice, sir, what say you?</LINE>
 </SPEECH>
 
@@ -3054,7 +3054,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>A match, sir. There&#8217;s in all two worthy voices begg&#8217;d. I have your alms, <FRENCH lang="fr">adieu</FRENCH>.</LINE>
 </SPEECH>
 
@@ -3072,7 +3072,7 @@
 <STAGEDIR>Enter two other Citizens.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Pray you now, if it may stand with the tune of your voices that I may be consul, I have here the customary gown.</LINE>
 </SPEECH>
 
@@ -3082,7 +3082,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Your enigma?</LINE>
 </SPEECH>
 
@@ -3092,7 +3092,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>You should account me the more virtuous that I have not been common in my love. I will, sir, flatter my sworn brother, the people, to earn a dearer estimation of them; &#8217;tis a condition they account gentle. And since the wisdom of their choice is rather to have my hat than my heart, I will practice the insinuating nod and be off to them most counterfeitly; that is, sir, I will counterfeit the bewitchment of some popular man, and give it bountiful to the desirers. Therefore beseech you I may be consul.</LINE>
 </SPEECH>
 
@@ -3107,7 +3107,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I will not seal your knowledge with showing them. I will make much of your voices, and so trouble you no farther.</LINE>
 </SPEECH>
 
@@ -3119,7 +3119,7 @@
 <STAGEDIR>Exeunt Citizens.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Most sweet voices!</LINE>
 <LINE>Better it is to die, better to starve,</LINE>
 <LINE>Than crave the hire which first we do deserve.</LINE>
@@ -3162,7 +3162,7 @@
 <STAGEDIR>Exeunt Citizens.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Worthy voices!</LINE>
 </SPEECH>
 
@@ -3177,7 +3177,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Is this done?</LINE>
 </SPEECH>
 
@@ -3189,7 +3189,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Where? At the Senate-house?</LINE>
 </SPEECH>
 
@@ -3199,7 +3199,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>May I change these garments?</LINE>
 </SPEECH>
 
@@ -3209,7 +3209,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>That I&#8217;ll straight do; and, knowing myself again,</LINE>
 <LINE>Repair to th&#8217; Senate-house.</LINE>
 </SPEECH>
@@ -3492,7 +3492,7 @@
 <STAGEDIR>Cornets. Enter Coriolanus, Menenius, all the Gentry, Cominius, Titus Lartius, and other Senators.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Tullus Aufidius then had made new head?</LINE>
 </SPEECH>
 
@@ -3503,7 +3503,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>So then the Volsces stand but as at first,</LINE>
 <LINE>Ready, when time shall prompt them, to make road</LINE>
 <LINE>Upon &#8217;s again.</LINE>
@@ -3517,7 +3517,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Saw you Aufidius?</LINE>
 </SPEECH>
 
@@ -3529,7 +3529,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Spoke he of me?</LINE>
 </SPEECH>
 
@@ -3539,7 +3539,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">How? What?</LINE>
 </SPEECH>
 
@@ -3553,7 +3553,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">At Antium lives he?</LINE>
 </SPEECH>
 
@@ -3563,7 +3563,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I wish I had a cause to seek him there,</LINE>
 <LINE>To oppose his hatred fully. Welcome home.</LINE>
 
@@ -3580,7 +3580,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Hah? What is that?</LINE>
 </SPEECH>
 
@@ -3590,7 +3590,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>What makes this change?</LINE>
 </SPEECH>
 
@@ -3610,7 +3610,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="3">Have I had children&#8217;s voices?</LINE>
 </SPEECH>
 
@@ -3631,7 +3631,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Are these your herd?</LINE>
 <LINE>Must these have voices, that can yield them now,</LINE>
 <LINE>And straight disclaim their tongues? What are your offices?</LINE>
@@ -3645,7 +3645,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>It is a purpos&#8217;d thing, and grows by plot,</LINE>
 <LINE>To curb the will of the nobility.</LINE>
 <LINE>Suffer&#8217;t, and live with such as cannot rule,</LINE>
@@ -3662,7 +3662,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Why, this was known before.</LINE>
 </SPEECH>
 
@@ -3672,7 +3672,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Have you inform&#8217;d them sithence?</LINE>
 </SPEECH>
 
@@ -3693,7 +3693,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Why then should I be consul? By yond clouds,</LINE>
 <LINE>Let me deserve so ill as you, and make me</LINE>
 <LINE>Your fellow tribune.</LINE>
@@ -3723,7 +3723,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Tell me of corn!</LINE>
 <LINE>This was my speech, and I will speak&#8217;t again&#8212;</LINE>
 </SPEECH>
@@ -3739,7 +3739,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Now, as I live, I will.</LINE>
 <LINE>My nobler friends, I crave their pardons.</LINE>
 <LINE>For the mutable, rank-scented meiny, let them</LINE>
@@ -3764,7 +3764,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">How? No more?</LINE>
 <LINE>As for my country I have shed my blood,</LINE>
 <LINE>Not fearing outward force, so shall my lungs</LINE>
@@ -3792,7 +3792,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Choler?</LINE>
 <LINE>Were I as patient as the midnight sleep,</LINE>
 <LINE>By Jove, &#8217;twould be my mind!</LINE>
@@ -3806,7 +3806,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Shall remain?</LINE>
 <LINE>Hear you this Triton of the minnows? Mark you</LINE>
 <LINE>His absolute &#8220;shall&#8221;?</LINE>
@@ -3818,7 +3818,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="9">&#8220;Shall&#8221;?</LINE>
 <LINE>O good but most unwise patricians! Why,</LINE>
 <LINE>You grave but reakless senators, have you thus</LINE>
@@ -3850,7 +3850,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Whoever gave that counsel, to give forth</LINE>
 <LINE>The corn a&#8217; th&#8217; store-house gratis, as &#8217;twas us&#8217;d</LINE>
 <LINE>Sometime in Greece&#8212;</LINE>
@@ -3862,7 +3862,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Though there the people had more absolute pow&#8217;r,</LINE>
 <LINE>I say they nourish&#8217;d disobedience, fed</LINE>
 <LINE>The ruin of the state.</LINE>
@@ -3875,7 +3875,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">I&#8217;ll give my reasons,</LINE>
 <LINE>More worthier than their voices. They know the corn</LINE>
 <LINE>Was not our recompense, resting well assur&#8217;d</LINE>
@@ -3910,7 +3910,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">No, take more!</LINE>
 <LINE>What may be sworn by, both divine and human,</LINE>
 <LINE>Seal what I end withal! This double worship,</LINE>
@@ -3947,7 +3947,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="3">Thou wretch, despite o&#8217;erwhelm thee!</LINE>
 <LINE>What should the people do with these bald tribunes?</LINE>
 <LINE>On whom depending, their obedience fails</LINE>
@@ -3988,7 +3988,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Hence, old goat!</LINE>
 </SPEECH>
 
@@ -4003,7 +4003,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Hence, rotten thing! Or I shall shake thy bones</LINE>
 <LINE>Out of thy garments.</LINE>
 </SPEECH>
@@ -4181,7 +4181,7 @@
 <STAGEDIR>Coriolanus draws his sword.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">No, I&#8217;ll die here.</LINE>
 <LINE>There&#8217;s some among you have beheld me fighting;</LINE>
 <LINE>Come, try upon yourselves what you have seen me.</LINE>
@@ -4223,7 +4223,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="8">Stand fast,</LINE>
 <LINE>We have as many friends as enemies.</LINE>
 </SPEECH>
@@ -4252,7 +4252,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I would they were barbarians, as they are,</LINE>
 <LINE>Though in Rome litter&#8217;d; not Romans, as they are not,</LINE>
 <LINE>Though calved i&#8217; th&#8217; porch o&#8217; th&#8217; Capitol!</LINE>
@@ -4266,7 +4266,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">On fair ground</LINE>
 <LINE>I could beat forty of them.</LINE>
 </SPEECH>
@@ -4571,7 +4571,7 @@
 <STAGEDIR>Enter Coriolanus with Nobles.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Let them pull all about mine ears, present me</LINE>
 <LINE>Death on the wheel, or at wild horses&#8217; heels,</LINE>
 <LINE>Or pile ten hills on the Tarpeian rock,</LINE>
@@ -4586,7 +4586,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I muse my mother</LINE>
 <LINE>Does not approve me further, who was wont</LINE>
 <LINE>To call them woollen vassals, things created</LINE>
@@ -4610,7 +4610,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">Let go.</LINE>
 </SPEECH>
 
@@ -4624,7 +4624,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">Let them hang!</LINE>
 </SPEECH>
 
@@ -4666,7 +4666,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">What must I do?</LINE>
 </SPEECH>
 
@@ -4676,7 +4676,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">Well, what then? What then?</LINE>
 </SPEECH>
 
@@ -4686,7 +4686,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>For them? I cannot do it to the gods,</LINE>
 <LINE>Must I then do&#8217;t to them?</LINE>
 </SPEECH>
@@ -4703,7 +4703,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">Tush, tush!</LINE>
 </SPEECH>
 
@@ -4723,7 +4723,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Why force you this?</LINE>
 </SPEECH>
 
@@ -4820,7 +4820,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Must I go show them my unbarb&#8217;d sconce? Must I</LINE>
 <LINE>With my base tongue give to my noble heart</LINE>
 <LINE>A lie that it must bear? Well, I will do&#8217;t;</LINE>
@@ -4845,7 +4845,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Well, I must do&#8217;t.</LINE>
 <LINE>Away, my disposition, and possess me</LINE>
 <LINE>Some harlot&#8217;s spirit! My throat of war be turn&#8217;d,</LINE>
@@ -4875,7 +4875,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Pray be content.</LINE>
 <LINE>Mother, I am going to the market-place;</LINE>
 <LINE>Chide me no more. I&#8217;ll mountebank their loves,</LINE>
@@ -4902,7 +4902,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>The word is &#8220;mildly.&#8221; Pray you let us go.</LINE>
 <LINE>Let them accuse me by invention; I</LINE>
 <LINE>Will answer in mine honor.</LINE>
@@ -4914,7 +4914,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Well, mildly be it then. Mildly!</LINE>
 </SPEECH>
 
@@ -5039,7 +5039,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Ay, as an hostler, that for th&#8217; poorest piece</LINE>
 <LINE>Will bear the knave by th&#8217; volume. Th&#8217; honor&#8217;d gods</LINE>
 <LINE>Keep Rome in safety, and the chairs of justice</LINE>
@@ -5071,7 +5071,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>First hear me speak.</LINE>
 </SPEECH>
 
@@ -5081,7 +5081,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Shall I be charg&#8217;d no further than this present?</LINE>
 <LINE>Must all determine here?</LINE>
 </SPEECH>
@@ -5096,7 +5096,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">I am content.</LINE>
 </SPEECH>
 
@@ -5109,7 +5109,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">Scratches with briers,</LINE>
 <LINE>Scars to move laughter only.</LINE>
 </SPEECH>
@@ -5130,7 +5130,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>What is the matter</LINE>
 <LINE>That being pass&#8217;d for consul with full voice,</LINE>
 <LINE>I am so dishonor&#8217;d that the very hour</LINE>
@@ -5143,7 +5143,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Say then; &#8217;tis true, I ought so.</LINE>
 </SPEECH>
 
@@ -5156,7 +5156,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>How? Traitor?</LINE>
 </SPEECH>
 
@@ -5166,7 +5166,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>The fires i&#8217; th&#8217; lowest hell fold in the people!</LINE>
 <LINE>Call me their traitor, thou injurious tribune!</LINE>
 <LINE>Within thine eyes sate twenty thousand deaths,</LINE>
@@ -5205,7 +5205,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">What do you prate of service?</LINE>
 </SPEECH>
 
@@ -5215,7 +5215,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>You?</LINE>
 </SPEECH>
 
@@ -5230,7 +5230,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">I&#8217;ll know no further.</LINE>
 <LINE>Let them pronounce the steep Tarpeian death,</LINE>
 <LINE>Vagabond exile, fleaing, pent to linger</LINE>
@@ -5303,7 +5303,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>You common cry of curs, whose breath I hate</LINE>
 <LINE>As reek a&#8217; th&#8217; rotten fens, whose loves I prize</LINE>
 <LINE>As the dead carcasses of unburied men</LINE>
@@ -5365,7 +5365,7 @@
 <STAGEDIR>Enter Coriolanus, Volumnia, Virgilia, Menenius, Cominius, with the young Nobility of Rome.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Come leave your tears: a brief farewell. The beast</LINE>
 <LINE>With many heads butts me away. Nay, mother,</LINE>
 <LINE>Where is your ancient courage? You were us&#8217;d</LINE>
@@ -5385,7 +5385,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Nay, I prithee, woman&#8212;</LINE>
 </SPEECH>
 
@@ -5396,7 +5396,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">What, what, what!</LINE>
 <LINE>I shall be lov&#8217;d when I am lack&#8217;d. Nay, mother,</LINE>
 <LINE>Resume that spirit when you were wont to say,</LINE>
@@ -5429,7 +5429,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">O the gods!</LINE>
 </SPEECH>
 
@@ -5445,7 +5445,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">Fare ye well!</LINE>
 <LINE>Thou hast years upon thee, and thou art too full</LINE>
 <LINE>Of the wars&#8217; surfeits to go rove with one</LINE>
@@ -5468,7 +5468,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Give me thy hand.</LINE>
 <LINE>Come.</LINE>
 </SPEECH>
@@ -5808,7 +5808,7 @@
 <STAGEDIR>Enter Coriolanus in mean apparel, disguis&#8217;d and muffled.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>A goodly city is this Antium. City,</LINE>
 <LINE>&#8217;Tis I that made thy widows; many an heir</LINE>
 <LINE>Of these fair edifices &#8217;fore my wars</LINE>
@@ -5826,7 +5826,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="2">Direct me, if it be your will,</LINE>
 <LINE>Where great Aufidius lies. Is he in Antium?</LINE>
 </SPEECH>
@@ -5838,7 +5838,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">Which is his house, beseech you?</LINE>
 </SPEECH>
 
@@ -5848,7 +5848,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">Thank you, sir, farewell.</LINE>
 
 <STAGEDIR>Exit Citizen.</STAGEDIR>
@@ -5899,7 +5899,7 @@
 <STAGEDIR>Enter Coriolanus.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>A goodly house! The feast smells well, but I</LINE>
 <LINE>Appear not like a guest.</LINE>
 </SPEECH>
@@ -5914,7 +5914,7 @@
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I have deserv&#8217;d no better entertainment</LINE>
 <LINE>In being Coriolanus.</LINE>
 </SPEECH>
@@ -5927,7 +5927,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Away!</LINE>
 </SPEECH>
 
@@ -5937,7 +5937,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Now th&#8217; art troublesome.</LINE>
 </SPEECH>
 
@@ -5964,7 +5964,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Let me but stand, I will not hurt your hearth.</LINE>
 </SPEECH>
 
@@ -5974,7 +5974,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>A gentleman.</LINE>
 </SPEECH>
 
@@ -5984,7 +5984,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>True, so I am.</LINE>
 </SPEECH>
 
@@ -5994,7 +5994,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Follow your function, go, and batten on cold bits.</LINE>
 </SPEECH>
 
@@ -6018,7 +6018,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Under the canopy.</LINE>
 </SPEECH>
 
@@ -6028,7 +6028,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Ay.</LINE>
 </SPEECH>
 
@@ -6038,7 +6038,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>I&#8217; th&#8217; city of kites and crows.</LINE>
 </SPEECH>
 
@@ -6048,7 +6048,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>No, I serve not thy master.</LINE>
 </SPEECH>
 
@@ -6058,7 +6058,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Ay, &#8217;tis an honester service than to meddle with thy mistress. Thou prat&#8217;st, and prat&#8217;st; serve with thy trencher. Hence!</LINE>
 </SPEECH>
 
@@ -6084,7 +6084,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <STAGEDIR>Unmuffling.</STAGEDIR>
 <LINE offset="9">If, Tullus,</LINE>
 <LINE>Not yet thou know&#8217;st me, and, seeing me, dost not</LINE>
@@ -6098,7 +6098,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>A name unmusical to the Volscians&#8217; ears,</LINE>
 <LINE>And harsh in sound to thine.</LINE>
 </SPEECH>
@@ -6112,7 +6112,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Prepare thy brow to frown. Know&#8217;st thou me yet?</LINE>
 </SPEECH>
 
@@ -6122,7 +6122,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>My name is Caius Martius, who hath done</LINE>
 <LINE>To thee particularly, and to all the Volsces,</LINE>
 <LINE>Great hurt and mischief; thereto witness may</LINE>
@@ -6202,7 +6202,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">You bless me, gods!</LINE>
 </SPEECH>
 
@@ -7356,7 +7356,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 <STAGEDIR>Enter Coriolanus with Aufidius.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>What&#8217;s the matter?</LINE>
 </SPEECH>
 
@@ -7368,7 +7368,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Away!</LINE>
 </SPEECH>
 
@@ -7378,7 +7378,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Wife, mother, child I know not. My affairs</LINE>
 <LINE>Are servanted to others; though I owe</LINE>
 <LINE>My revenge properly, my remission lies</LINE>
@@ -7451,7 +7451,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 <STAGEDIR>Enter Coriolanus and Aufidius with others.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>We will before the walls of Rome tomorrow</LINE>
 <LINE>Set down our host. My partner in this action,</LINE>
 <LINE>You must report to th&#8217; Volscian lords, how plainly</LINE>
@@ -7468,7 +7468,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">This last old man,</LINE>
 <LINE>Whom with a crack&#8217;d heart I have sent to Rome,</LINE>
 <LINE>Lov&#8217;d me above the measure of a father,</LINE>
@@ -7512,7 +7512,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>These eyes are not the same I wore in Rome.</LINE>
 </SPEECH>
 
@@ -7523,7 +7523,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">Like a dull actor now</LINE>
 <LINE>I have forgot my part, and I am out,</LINE>
 <LINE>Even to a full disgrace. Best of my flesh,</LINE>
@@ -7552,7 +7552,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 <STAGEDIR>Kneels.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">What&#8217;s this?</LINE>
 <LINE>Your knees to me? To your corrected son?</LINE>
 
@@ -7571,7 +7571,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>The noble sister of Publicola,</LINE>
 <LINE>The moon of Rome, chaste as the icicle</LINE>
 <LINE>That&#8217;s curdied by the frost from purest snow</LINE>
@@ -7586,7 +7586,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">The god of soldiers,</LINE>
 <LINE>With the consent of supreme Jove, inform</LINE>
 <LINE>Thy thoughts with nobleness, that thou mayst prove</LINE>
@@ -7601,7 +7601,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>That&#8217;s my brave boy!</LINE>
 </SPEECH>
 
@@ -7612,7 +7612,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">I beseech you peace;</LINE>
 <LINE>Or, if you&#8217;ld ask, remember this before:</LINE>
 <LINE>The thing I have forsworn to grant may never</LINE>
@@ -7635,7 +7635,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Aufidius, and you Volsces, mark, for we&#8217;ll</LINE>
 <LINE>Hear nought from Rome in private.</LINE>
 
@@ -7693,7 +7693,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Not of a woman&#8217;s tenderness to be,</LINE>
 <LINE>Requires nor child nor woman&#8217;s face to see.</LINE>
 <LINE>I have sate too long.</LINE>
@@ -7760,7 +7760,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 <STAGEDIR>Coriolanus holds her by the hand, silent.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="6">O mother, mother!</LINE>
 <LINE>What have you done? Behold, the heavens do ope,</LINE>
 <LINE>The gods look down, and this unnatural scene</LINE>
@@ -7781,7 +7781,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="4">I dare be sworn you were;</LINE>
 <LINE>And, sir, it is no little thing to make</LINE>
 <LINE>Mine eyes to sweat compassion. But, good sir,</LINE>
@@ -7799,7 +7799,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER> <STAGEDIR>To Volumnia, Virgilia, etc.</STAGEDIR>
+<SPEAKER alias="MAR.">COR.</SPEAKER> <STAGEDIR>To Volumnia, Virgilia, etc.</STAGEDIR>
 <LINE offset="5">Ay, by and by;</LINE>
 <LINE>But we will drink together; and you shall bear</LINE>
 <LINE>A better witness back than words, which we,</LINE>
@@ -8176,7 +8176,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 <STAGEDIR>Enter Coriolanus marching with Drum and Colors, the Commoners being with him.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Hail, lords! I am return&#8217;d your soldier;</LINE>
 <LINE>No more infected with my country&#8217;s love</LINE>
 <LINE>Than when I parted hence, but still subsisting</LINE>
@@ -8201,7 +8201,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>&#8220;Traitor&#8221;? How now?</LINE>
 </SPEECH>
 
@@ -8211,7 +8211,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="9">&#8220;Martius&#8221;?</LINE>
 </SPEECH>
 
@@ -8233,7 +8233,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="7">Hear&#8217;st thou, Mars?</LINE>
 </SPEECH>
 
@@ -8243,7 +8243,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="8">Ha?</LINE>
 </SPEECH>
 
@@ -8253,7 +8253,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Measureless liar, thou hast made my heart</LINE>
 <LINE>Too great for what contains it. &#8220;Boy&#8221;? O slave!</LINE>
 <LINE>Pardon me, lords, &#8217;tis the first time that ever</LINE>
@@ -8270,7 +8270,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE>Cut me to pieces, Volsces, men and lads,</LINE>
 <LINE>Stain all your edges on me. &#8220;Boy,&#8221; false hound!</LINE>
 <LINE>If you have writ your annals true, &#8217;tis there</LINE>
@@ -8307,7 +8307,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbinado.</
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>COR.</SPEAKER>
+<SPEAKER alias="MAR.">COR.</SPEAKER>
 <LINE offset="5">O that I had him,</LINE>
 <LINE>With six Aufidiuses, or more, his tribe,</LINE>
 <LINE>To use my lawful sword!</LINE>
