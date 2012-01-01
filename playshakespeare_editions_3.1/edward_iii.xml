@@ -26,21 +26,21 @@
 <PERSONA short="KING JOHN.">John, King of France</PERSONA>
 <PERSONA short="CHARLES.">Charles, son of of King John</PERSONA>
 <PERSONA short="PHILLIP.">Philip, son of of King John</PERSONA>
-<PERSONA short="LORRAIN.">Duke of Lorrain</PERSONA>
+<PERSONA short="LORRAIN.">Duke of Lorraine</PERSONA>
 <PERSONA short="VILLIERS.">Villiers, a French lord</PERSONA>
 <PERSONA short="KING OF BOHEMIA.">King of Bohemia, aid to King John</PERSONA>
 <PERSONA>A Polish Captain, aid to King John</PERSONA>
 <PERSONA short="FIRST CITIZEN.">First Citizen of Calais</PERSONA>
 <PERSONA short="SECOND CITIZEN.">Second Citizen of Calais</PERSONA>
-<PERSONA short="POLONIAN CAPTAIN.">A Captain</PERSONA>
-<PERSONA short="POOR.">A Poor Inhabitant</PERSONA>
+<PERSONA short="POL. CAPTAIN.">Polish Captain</PERSONA>
+<PERSONA short="POOR.">Poor Inhabitant of Calais</PERSONA>
 <PERSONA short="CAPTAIN.">A French Captain</PERSONA>
-<PERSONA short="MARINER.">A Mariner</PERSONA>
+<PERSONA short="FR. MARINER.">French Mariner</PERSONA>
 <PERSONA short="HERALD.">Three Heralds</PERSONA>
-<PERSONA short="1. FR.">First Frenchmen</PERSONA>
-<PERSONA short="2. FR.">Second Frenchmen</PERSONA>
-<PERSONA short="3. FR.">Third Frenchmen</PERSONA>
-<PERSONA short="4. FR.">Fourth Frenchmen</PERSONA>
+<PERSONA short="1. FRENCH.">First Frenchmen</PERSONA>
+<PERSONA short="2. FRENCH.">Second Frenchmen</PERSONA>
+<PERSONA short="3. FRENCH.">Third Frenchmen</PERSONA>
+<PERSONA short="4. FRENCH.">Fourth Frenchmen</PERSONA>
 <PERSONA short="KING DAVID.">David, King of Scotland</PERSONA>
 <PERSONA short="DOUGLAS.">Earl Douglas</PERSONA>
 <PERSONA short="MESSENGER.">Two Messsengers, Scotch</PERSONA>
@@ -51,15 +51,33 @@
 <PERSONA>Attendants</PERSONA>
 <PERSONA>Officers</PERSONA>
 <PERSONA>Soldiers</PERSONA>
-</PERSONAE>
 
+First Scottish Messenger  1. SCOT. MESS.
+Second Scottish Messenger   2. SCOT. MESS.
+First Frenchman  1. FRENCH. 
+Second Frenchman  2. FRENCH. 
+Third Frenchman  3. FRENCH. 
+Fourth Frenchman  4. FRENCH.
+Frenchwoman   FRENCHWOMAN.
+First French Captain  1. FR. CAPTAIN.
+First French Herald  1. FR. HERALD.
+Second French Herald  2. FR. HERALD.
+Third French Herald  3. FR. HERALD.
+Second French Captain    2. FR. CAPTAIN.
+First English Esquire   1. ESQUIRE.
+Second English Esquire  2. ESQUIRE.
+First Citizen of Calais   1. CIT. CAL., ALL. CIT. CAL.
+Second Citizen of Calais   2. CIT. CAL., ALL. CIT. CAL.
+Rename HERALD in 5.1 to English Herald  ENG. HERALD.
+
+</PERSONAE>
 
 <ACT>
 <ACTTITLE>Act 1</ACTTITLE>
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>London. A Room of State in the Palace. Flourish.</SCENELOCATION>
-<SCENEPERSONAE>(King Edward, Derby, Prince Edward, Audley, Artois, lords, Lorrain, Mountague)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Edward, Derby, Prince Edward, Audley, Artois, Lords, Lorraine, Mountague)</SCENEPERSONAE>
 
 <STAGEDIR>Enter King Edward, Derby, Prince Edward, Audley, and Artois.</STAGEDIR>
 
@@ -140,15 +158,15 @@
 
 <SPEECH>
 <SPEAKER>AUDLEY.</SPEAKER>
-<LINE>The Duke of Lorrain, having crossed the seas,</LINE>
+<LINE>The Duke of Lorraine, having crossed the seas,</LINE>
 <LINE>Entreats he may have conference with your highness.</LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>KING EDWARD.</SPEAKER>
 <LINE>Admit him, lords, that we may hear the news.</LINE>
-<STAGEDIR>Exeunt lords. King takes his State. Re-enter lords; with Lorrain, attended.</STAGEDIR>
-<LINE>Say, Duke of Lorrain, wherefore art thou come?</LINE>
+<STAGEDIR>Exeunt lords. King takes his State. Re-enter lords; with Lorraine, attended.</STAGEDIR>
+<LINE>Say, Duke of Lorraine, wherefore art thou come?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -173,7 +191,7 @@
 <LINE>But straight I am invited,&#8212;nay, with threats,</LINE>
 <LINE>Upon a penalty, enjoined to come:</LINE>
 <LINE>&#8217;Twere but a childish part to say him nay.&#8212;</LINE>
-<LINE>Lorrain, return this answer to thy lord:</LINE>
+<LINE>Lorraine, return this answer to thy lord:</LINE>
 <LINE>I mean to visit him as he requests;</LINE>
 <LINE>But how? Not servilely disposed to bend,</LINE>
 <LINE>But like a conqueror to make him bow.</LINE>
@@ -235,7 +253,7 @@
 
 <SPEECH>
 <SPEAKER>KING EDWARD.</SPEAKER>
-<LINE>Lorrain, behold the sharpness of this steel:</LINE>
+<LINE>Lorraine, behold the sharpness of this steel:</LINE>
 <STAGEDIR>Drawing his.</STAGEDIR>
 <LINE>Fervent desire that sits against my heart,</LINE>
 <LINE>Is far more thorny pricking than this blade;</LINE>
@@ -252,7 +270,7 @@
 <LINE>That is most false, should most of all be true.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Lorrain, and Train.</STAGEDIR>
+<STAGEDIR>Exeunt Lorraine, and Train.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING EDWARD.</SPEAKER>
@@ -281,7 +299,7 @@
 <SPEAKER>KING EDWARD.</SPEAKER>
 <LINE>That is thy daughter, Warwick, is it not?</LINE>
 <LINE>Whose husband hath in Britain served so long</LINE>
-<LINE>About the planting of lord Mountford there?</LINE>
+<LINE>About the planting of Lord Mountford there?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -338,7 +356,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Roxborough. Before the Castle.</SCENELOCATION>
-<SCENEPERSONAE>(Countess, David, Douglas, Lorrain, Scot, Messenger, King Edward, Warwick, Artois)</SCENEPERSONAE>
+<SCENEPERSONAE>(Countess of Salisbury, David, Douglas, Lorraine, First Scottish Messenger, Second Scottish Messenger, King Edward, Warwick, Artois)</SCENEPERSONAE>
 
 <STAGEDIR>Enter the Countess.</STAGEDIR>
 
@@ -358,7 +376,7 @@
 <LINE>And, in their wild, uncivil, skipping gigs,</LINE>
 <LINE>Bray forth their conquest and our overthrow</LINE>
 <LINE>Even in the barren, bleak, and fruitless air.</LINE>
-<STAGEDIR>Enter David and Douglas, Lorrain.</STAGEDIR>
+<STAGEDIR>Enter David and Douglas, Lorraine.</STAGEDIR>
 <LINE>I must withdraw, the everlasting foe</LINE>
 <LINE>Comes to the wall; I&#8217;ll closely step aside,</LINE>
 <LINE>And list their babble, blunt and full of pride.</LINE>
@@ -366,7 +384,7 @@
 
 <SPEECH>
 <SPEAKER>KING DAVID.</SPEAKER>
-<LINE>My lord of Lorrain, to our brother of France</LINE>
+<LINE>My lord of Lorraine, to our brother of France</LINE>
 <LINE>Commend us, as the man in Christendom</LINE>
 <LINE>That we most reverence and entirely love.</LINE>
 <LINE>Touching your embassage, return and say,</LINE>
@@ -392,7 +410,7 @@
 <SPEAKER>LORRAIN.</SPEAKER>
 <LINE>I take my leave, and fairly will return</LINE>
 <LINE>Your acceptable greeting to my king.</LINE>
-<STAGEDIR>Exit Lorrain.</STAGEDIR>
+<STAGEDIR>Exit Lorraine.</STAGEDIR>
 </SPEECH>
 
 <SPEECH>
@@ -423,10 +441,10 @@
 <LINE>And who inherits her, hath those with all.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Scot in haste.</STAGEDIR>
+<STAGEDIR>Enter First Scottish Messenger in haste.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESSENGER.</SPEAKER>
+<SPEAKER>1. SCOT. MESS.</SPEAKER>
 <LINE>My liege, as we were pricking on the hills,</LINE>
 <LINE>To fetch in booty, marching hitherward,</LINE>
 <LINE>We might descry a might host of men;</LINE>
@@ -479,11 +497,12 @@
 <SPEAKER>KING DAVID.</SPEAKER>
 <LINE>She heard the messenger, and heard our talk;</LINE>
 <LINE>And now that comfort makes her scorn at us.</LINE>
-<STAGEDIR>Another messenger.</STAGEDIR>
 </SPEECH>
 
+<STAGEDIR>Enter Second Scottish Messenger.</STAGEDIR>
+
 <SPEECH>
-<SPEAKER>MESSENGER.</SPEAKER>
+<SPEAKER>2. SCOT. MESS.</SPEAKER>
 <LINE>Arm, my good lord! O, we are all surprised!</LINE>
 </SPEECH>
 
@@ -706,7 +725,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The Same. Gardens of the Castle.</SCENELOCATION>
-<SCENEPERSONAE>(Lodowick, King Edward, Countess, Warwick)</SCENEPERSONAE>
+<SCENEPERSONAE>(Lodowick, King Edward, Countess of Salisbury, Warwick)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Lodowick.</STAGEDIR>
  
@@ -1500,7 +1519,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION></SCENELOCATION>
-<SCENEPERSONAE>(Derby, Audley, King, Lodowick, Prince Edward, Countess)</SCENEPERSONAE>
+<SCENEPERSONAE>(Derby, Audley, King, Lodowick, Prince Edward, Countess of Salisbury)</SCENEPERSONAE>
 
 <STAGEDIR>Enter at one door Derby from France, At an other door Audley with a Drum.</STAGEDIR>
 
@@ -1679,7 +1698,7 @@
 <LINE>For now we think it an uncivil thing,</LINE>
 <LINE>To trouble heaven with such harsh resounds:</LINE>
 <LINE>Away!</LINE>
-<STAGEDIR>Exit.</STAGEDIR>
+<STAGEDIR>Exit Lodowick.</STAGEDIR>
 <LINE>The quarrel that I have requires no arms</LINE>
 <LINE>But these of mine: and these shall meet my foe</LINE>
 <LINE>In a deep march of penetrable groans;</LINE>
@@ -1949,9 +1968,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Flanders. The French Camp.</SCENELOCATION>
-<SCENEPERSONAE>(King John of France, Charles of Normandy, Phillip, Duke of Lorrain, King of Bohemia, Danes, Polonian Captain, Soldiers, Mariner)</SCENEPERSONAE>
+<SCENEPERSONAE>(King John of France, Charles of Normandy, Phillip, Duke of Lorraine, King of Bohemia, Danes, Polish Captain, Soldiers, Mariner)</SCENEPERSONAE>
 
-<STAGEDIR>Enter King John of France, his two sons, Charles of Normandy, and Phillip, and the Duke of Lorrain.</STAGEDIR>
+<STAGEDIR>Enter King John of France, his two sons, Charles of Normandy, and Phillip, and the Duke of Lorraine.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING JOHN.</SPEAKER>
@@ -2013,7 +2032,7 @@
 <LINE>By which I guess that their approach is near.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter the King of Bohemia, with Danes, and a Polonian Captain, with other soldiers, another way.</STAGEDIR>
+<STAGEDIR>Enter the King of Bohemia, with Danes, and a Polish Captain, with other soldiers, another way.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING OF BOHEMIA.</SPEAKER>
@@ -2023,7 +2042,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>POLONIAN CAPTAIN.</SPEAKER>
+<SPEAKER>POL. CAPTAIN.</SPEAKER>
 <LINE>And from great Moscow, fearful to the Turk,</LINE>
 <LINE>And lofty Poland, nurse of hardy men,</LINE>
 <LINE>I bring these servitors to fight for thee,</LINE>
@@ -2049,10 +2068,10 @@
 <LINE>Or hacked a pieces when thou comest ashore.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Mariner.</STAGEDIR>
+<STAGEDIR>Enter French Mariner.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MARINER.</SPEAKER>
+<SPEAKER>FR. MARINER.</SPEAKER>
 <LINE>Near to the coast I have descried, my lord,</LINE>
 <LINE>As I was buy in my watchful charge,</LINE>
 <LINE>The proud armado of King Edward&#8217;s ships:</LINE>
@@ -2083,7 +2102,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MARINER.</SPEAKER>
+<SPEAKER>FR. MARINER.</SPEAKER>
 <LINE>They, having knowledge, brought them by the scouts,</LINE>
 <LINE>Did break from Anchor straight, and, puffed with rage,</LINE>
 <LINE>No otherwise then were their sails with wind,</LINE>
@@ -2097,7 +2116,7 @@
 <LINE>And if thou scape the bloody stroke of war</LINE>
 <LINE>And do survive the conflict, come again,</LINE>
 <LINE>And let us hear the manner of the fight.</LINE>
-<STAGEDIR>Exit Mariner.</STAGEDIR>
+<STAGEDIR>Exit French Mariner.</STAGEDIR>
 <LINE>Mean space, my lords, &#8217;tis best we be dispersed</LINE>
 <LINE>To several places, least they chance to land:</LINE>
 <LINE>First you, my lord, with your Bohemian troops,</LINE>
@@ -2162,7 +2181,7 @@
 <LINE>And, in thy turning, change the forward winds,</LINE>
 <LINE>That, with advantage of a favoring sky,</LINE>
 <LINE>Our men may vanquish, and the other fly!</LINE>
-<STAGEDIR>Enter Mariner.</STAGEDIR>
+<STAGEDIR>Enter French Mariner.</STAGEDIR>
 <LINE>My heart misgives:&#8212;say, mirror of pale death,</LINE>
 <LINE>To whom belongs the honor of this day?</LINE>
 <LINE>Relate, I pray thee, if thy breath will serve,</LINE>
@@ -2170,7 +2189,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MARINER.</SPEAKER>
+<SPEAKER>FR. MARINER.</SPEAKER>
 <LINE>I will, my lord.</LINE>
 <LINE>My gracious sovereign, Franch hath ta&#8217;en the foil,</LINE>
 <LINE>And boasting Edward triumphs with success.</LINE>
@@ -2233,12 +2252,12 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Picardy. Fields near Cressy.</SCENELOCATION>
-<SCENEPERSONAE>(French men, Woman, Children, Citizens)</SCENEPERSONAE>
+<SCENEPERSONAE>(Frenchmen, Frenchwoman, Children, Citizens)</SCENEPERSONAE>
 
-<STAGEDIR>Enter two French men; a woman and two little Children meet them, and other Citizens.</STAGEDIR>
+<STAGEDIR>Enter three Frenchmen; a Frenchwoman and two little children meet them, and other Citizens.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>Well met, my masters: how now? What&#8217;s the news?</LINE>
 <LINE>And wherefore are ye laden thus with stuff?</LINE>
 <LINE>What, is it quarter-day that you remove,</LINE>
@@ -2246,42 +2265,42 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. FR.</SPEAKER>
+<SPEAKER>1. FRENCH.</SPEAKER>
 <LINE>Quarter-day? Aye, and quartering day, I fear:</LINE>
 <LINE>Have ye not heard the news that flies abroad?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>What news?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. FR.</SPEAKER>
+<SPEAKER>2. FRENCH.</SPEAKER>
 <LINE>How the French navy is destroy&#8217;d at sea,</LINE>
 <LINE>And that the English army is arrived.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>What then?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. FR.</SPEAKER>
+<SPEAKER>1. FRENCH.</SPEAKER>
 <LINE>What then, quoth you? Why, ist not time to fly,</LINE>
 <LINE>When envy and destruction is so nigh?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>Content thee, man: they are far enough from hence,</LINE>
 <LINE>And will be met, I warrant ye, to their cost,</LINE>
 <LINE>Before they break so far into the realm.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. FR.</SPEAKER>
+<SPEAKER>1. FRENCH.</SPEAKER>
 <LINE>Aye, so the grasshopper doth spend the time</LINE>
 <LINE>In mirthful jollity, till winter come;</LINE>
 <LINE>And then too late he would redeem his time,</LINE>
@@ -2296,24 +2315,24 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>Belike, you then despair of all success,</LINE>
 <LINE>And think your country will be subjugate.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. FR.</SPEAKER>
+<SPEAKER>2. FRENCH.</SPEAKER>
 <LINE>We cannot tell; &#8217;tis good to fear the worst.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. FR.</SPEAKER>
+<SPEAKER>3. FRENCH.</SPEAKER>
 <LINE>Yet rather fight, then, like unnatural sons,</LINE>
 <LINE>Forsake your loving parents in distress.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. FR.</SPEAKER>
+<SPEAKER>1. FRENCH.</SPEAKER>
 <LINE>Tush, they that have already taken arms</LINE>
 <LINE>Are many fearful millions in respect</LINE>
 <LINE>Of that small handful of our enemies;</LINE>
@@ -2323,7 +2342,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>WOMAN.</SPEAKER>
+<SPEAKER>FRENCHWOMAN.</SPEAKER>
 <LINE>Besides, there goes a prophecy abroad,</LINE>
 <LINE>Published by one that was a friar once,</LINE>
 <LINE>Whose oracles have many times proved true;</LINE>
@@ -2334,10 +2353,10 @@
 <LINE>Strike many French men cold unto the heart.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Frenchman.</STAGEDIR>
+<STAGEDIR>Enter a Fourth Frenchman.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>4. FR.</SPEAKER>
+<SPEAKER>4. FRENCH.</SPEAKER>
 <LINE>Fly, country men and citizens of France!</LINE>
 <LINE>Sweet flowering peace, the root of happy life,</LINE>
 <LINE>Is quite abandoned and expulst the land;</LINE>
@@ -2378,7 +2397,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The same. Drums.</SCENELOCATION>
-<SCENEPERSONAE>(King Edward, Earl of Darby, Soldiers, Gobin de Grey, Artois, Prince Edward, lord Awdley, King John, Dukes of Normandy, Lorrain, King of Boheme, Phillip, Heralds)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Edward, Earl of Darby, Soldiers, Gobin de Grey, Artois, Prince Edward, Lord Awdley, King John, Dukes of Normandy, Lorraine, King of Bohemia, Phillip, Four Heralds)</SCENEPERSONAE>
 
 <STAGEDIR>Enter King Edward, and the Earl of Darby, with Soldiers, and Gobin de Grey.</STAGEDIR>
 
@@ -2475,7 +2494,7 @@
 <LINE>He shall be welcome; that&#8217;s the thing we crave.</LINE>
 </SPEECH>
 
-<STAGEDIR>Drums. Enter King John, the Dukes of Normandy and Lorraine, King of Boheme, young Prince Phillip, and Soldiers.</STAGEDIR>
+<STAGEDIR>Drums. Enter King John, the Dukes of Normandy and Lorraine, King of Bohemia, young Prince Phillip, and Soldiers.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING JOHN.</SPEAKER>
@@ -2646,7 +2665,7 @@
 
 <SPEECH>
 <SPEAKER>ALL FRENCHMEN.</SPEAKER>
-<LINE>Vive le Roy! God save King John of France!</LINE>
+<LINE><FRENCH lang="fr">Vive le Roy!</FRENCH> God save King John of France!</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -2655,7 +2674,7 @@
 <LINE>And, Edward, when thou darest, begin the fight.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt King John, Charles, Philip, Lorrain, Boheme, and forces.</STAGEDIR>
+<STAGEDIR>Exeunt King John, Charles, Philip, Lorraine, Boheme, and forces.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING EDWARD.</SPEAKER>
@@ -2759,9 +2778,9 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>The Same.</SCENELOCATION>
-<SCENEPERSONAE>(French men, Prince Edward, King John, Duke of Lorrain)</SCENEPERSONAE>
+<SCENEPERSONAE>(Frenchmen, Prince Edward, King John, Duke of Lorraine)</SCENEPERSONAE>
 
-<STAGEDIR>Alarum. Enter a many French men flying. After them Prince Edward, running. Then enter King John and Duke of Lorraine.</STAGEDIR>
+<STAGEDIR>Alarum. Enter a many Frenchmen flying. After them Prince Edward, running. Then enter King John and Duke of Lorraine.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>KING JOHN.</SPEAKER>
@@ -2939,7 +2958,7 @@
 <LINE>Some will return with tidings, good or bad.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Prince Edward in triumph, bearing in his hands his chivered lance, and the King of Boheme, borne before, wrapped in the colours. They run and embrace him.</STAGEDIR>
+<STAGEDIR>Enter Prince Edward in triumph, bearing in his hands his chivered lance, and the King of Bohemia, borne before, wrapped in the colours. They run and embrace him.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>AUDLEY.</SPEAKER>
@@ -3050,7 +3069,7 @@
 <SCENELOCATION>Bretagne. Camp of the English.</SCENELOCATION>
 <SCENEPERSONAE>(Lord Mountford, Earl of Salisbury, Villiers)</SCENEPERSONAE>
 
-<STAGEDIR>Enter lord Mountford with a Coronet in his hand; with him the Earl of Salisbury.</STAGEDIR>
+<STAGEDIR>Enter Lord Mountford with a Coronet in his hand; with him the Earl of Salisbury.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>MOUNTFORD.</SPEAKER>
@@ -3130,7 +3149,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Picardy. The English Camp before Calais.</SCENELOCATION>
-<SCENEPERSONAE>(King Edward, Derby, Soldiers, Frenchmen, Lord Percy, French Captain)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Edward, Derby, Soldiers, Frenchmen, Lord Percy, French Captain, Poor Inhabitant of Calais)</SCENEPERSONAE>
 
 <STAGEDIR>Enter King Edward and Derby, with Soldiers.</STAGEDIR>
 
@@ -3144,7 +3163,7 @@
 <LINE>Famine shall combat where our swords are stopped.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter six poor Frenchmen.</STAGEDIR>
+<STAGEDIR>Enter six poor Frenchmen, including a Poor Inhabitant of Calais.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DERBY.</SPEAKER>
@@ -3260,10 +3279,10 @@
 <LINE>I&#8217;ll pitch my tent near to the sandy shore.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a French Captain.</STAGEDIR>
+<STAGEDIR>Enter First French Captain.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>CAPTAIN.</SPEAKER>
+<SPEAKER>1. FR. CAPTAIN.</SPEAKER>
 <LINE>The Burgesses of Callice, mighty king,</LINE>
 <LINE>Have by a counsel willingly decreed</LINE>
 <LINE>To yield the town and castle to your hands,</LINE>
@@ -3481,7 +3500,6 @@
 <LINE>Catch we the father after how we can.</LINE>
 </SPEECH>
 
-
 <STAGEDIR>Exeunt.</STAGEDIR> 
 
 </SCENE>
@@ -3489,7 +3507,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>The same. The English Camp.</SCENELOCATION>
-<SCENEPERSONAE>(Prince Edward, Audley, Heralds)</SCENEPERSONAE>
+<SCENEPERSONAE>(Prince Edward, Audley, French Heralds)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Prince Edward, Audley, and others.</STAGEDIR>
 
@@ -3570,7 +3588,7 @@
 <LINE>For one to one is fair equality.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter an Herald from King John.</STAGEDIR>
+<STAGEDIR>Enter First French Herald from King John.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PRINCE EDWARD.</SPEAKER>
@@ -3606,13 +3624,13 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>HERALD.</SPEAKER>
+<SPEAKER>1. FR. HERALD.</SPEAKER>
 <LINE>I go.</LINE>
 </SPEECH>
 
 <STAGEDIR>Exit.</STAGEDIR>
 
-<STAGEDIR>Enter another Herald.</STAGEDIR>
+<STAGEDIR>Enter a Second French Herald.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PRINCE EDWARD.</SPEAKER>
@@ -3620,7 +3638,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>HERALD.</SPEAKER>
+<SPEAKER>2. FR. HERALD.</SPEAKER>
 <LINE>The Duke of Normandy, my lord and master,</LINE>
 <LINE>Pitying thy youth is so ingirt with peril,</LINE>
 <LINE>By me hath sent a nimble-jointed jennet,</LINE>
@@ -3639,12 +3657,12 @@
 <LINE>So tell the cap&#8217;ring boy, and get thee gone.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Herald.</STAGEDIR>
+<STAGEDIR>Exit French Herald.</STAGEDIR>
 
-<STAGEDIR>Enter another Herald.</STAGEDIR>
+<STAGEDIR>Enter a Third French Herald.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>HERALD.</SPEAKER>
+<SPEAKER>3. FR. HERALD.</SPEAKER>
 <LINE>Edward of Wales, Phillip, the second son</LINE>
 <LINE>To the most mighty christian king of France,</LINE>
 <LINE>Seeing thy body&#8217;s living date expired,</LINE>
@@ -3674,7 +3692,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>HERALD.</SPEAKER>
+<SPEAKER>3. FR. HERALD.</SPEAKER>
 <LINE>I go.</LINE>
 </SPEECH>
 
@@ -3738,7 +3756,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>The same. The French Camp.</SCENELOCATION>
-<SCENEPERSONAE>(King John, Charles, Phillip, Salisbury, French Captain)</SCENEPERSONAE>
+<SCENEPERSONAE>(King John, Charles, Phillip, Salisbury, Second French Captain)</SCENEPERSONAE>
 
 <STAGEDIR>Enter King John and Charles.</STAGEDIR>
 
@@ -3848,10 +3866,10 @@
 
 <STAGEDIR>Exit Phillip.</STAGEDIR>
 
-<STAGEDIR>Another noise. Salisbury brought in by a French Captain.</STAGEDIR>
+<STAGEDIR>Another noise. Salisbury brought in by the Second French Captain.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>CAPTAIN.</SPEAKER>
+<SPEAKER>2. FR. CAPTAIN.</SPEAKER>
 <LINE>Behold, my liege, this knight and forty mo,</LINE>
 <LINE>Of whom the better part are slain and fled,</LINE>
 <LINE>With all endeavor sought to break our ranks,</LINE>
@@ -4124,12 +4142,12 @@
 <SCENE>
 <SCENETITLE>Scene 8</SCENETITLE>
 <SCENELOCATION>The same. Another part of the field of battle.</SCENELOCATION>
-<SCENEPERSONAE>(Audley, Squires)</SCENEPERSONAE>
+<SCENEPERSONAE>(Audley, Two English Equires)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Audley, wounded, and rescued by two squires.</STAGEDIR>
+<STAGEDIR>Enter Audley, wounded, and rescued by two English Esquires.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>ESQUIRE.</SPEAKER>
+<SPEAKER>1. ESQUIRE.</SPEAKER>
 <LINE>How fares my lord?</LINE>
 </SPEECH>
 
@@ -4140,7 +4158,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ESQUIRE.</SPEAKER>
+<SPEAKER>2. ESQUIRE.</SPEAKER>
 <LINE>I hope, my lord, that is no mortal scar.</LINE>
 </SPEECH>
 
@@ -4162,9 +4180,9 @@
 <SCENE>
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>The same. The English camp.</SCENELOCATION>
-<SCENEPERSONAE>(Edward, King John, Charles, Ensigns, Artois, Phillip, Audley)</SCENEPERSONAE>
+<SCENEPERSONAE>(Edward, King John, Charles, Artois, Phillip, Audley)</SCENEPERSONAE>
 
-<STAGEDIR>Enter {rince Edward, King John, Charles, and all, with ensigns spread.</STAGEDIR>
+<STAGEDIR>Enter Prince Edward, King John, Charles, and all, with ensigns spread.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PRINCE EDWARD.</SPEAKER>
@@ -4278,7 +4296,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Picardy. The English Camp before Calais.</SCENELOCATION>
-<SCENEPERSONAE>(King Edward, Queen Phillip, Derby, Soldiers, Citizens, Copland, King David, Salisbury, Herald, Prince Edward, King John, Phillip, Audley, Artois)</SCENEPERSONAE>
+<SCENEPERSONAE>(King Edward, Queen Phillip, Derby, Soldiers, Six Citizens of Calais, Copland, King David, Salisbury, English Herald, Prince Edward, King John, Phillip, Audley, Artois)</SCENEPERSONAE>
 
 <STAGEDIR>Enter King Edward, Queen Phillip, Derby, soldiers.</STAGEDIR>
 
@@ -4293,10 +4311,10 @@
 <LINE>Put all to sword, and make the spoil your own.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter six Citizens in their shirts, bare foot, with halters about their necks.</STAGEDIR>
+<STAGEDIR>Enter six Citizens of Calais in their shirts, barefoot, with halters about their necks.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>ALL.</SPEAKER>
+<SPEAKER>ALL. CIT. CAL.</SPEAKER>
 <LINE>Mercy, king Edward, mercy, gracious lord!</LINE>
 </SPEECH>
 
@@ -4308,7 +4326,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>FIRST CITIZEN.</SPEAKER>
+<SPEAKER>1. CIT. CAL.</SPEAKER>
 <LINE>Ah, noble Prince, take pity on this town,</LINE>
 <LINE>And hear us, mighty king:</LINE>
 <LINE>We claim the promise that your highness made;</LINE>
@@ -4331,7 +4349,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SECOND CITIZEN.</SPEAKER>
+<SPEAKER>2. CIT. CAL.</SPEAKER>
 <LINE>The sun, dread lord, that in the western fall</LINE>
 <LINE>Beholds us now low brought through misery,</LINE>
 <LINE>Did in the Orient purple of the morn</LINE>
@@ -4376,7 +4394,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SECOND CITIZEN.</SPEAKER>
+<SPEAKER>2. CIT. CAL.</SPEAKER>
 <LINE>Long live your highness! Happy be your reign!</LINE>
 </SPEECH>
 
@@ -4385,7 +4403,7 @@
 <LINE>Go, get you hence, return unto the town,</LINE>
 <LINE>And if this kindness hath deserved your love,</LINE>
 <LINE>Learn then to reverence Edward as your king.&#8212;</LINE>
-<STAGEDIR>Exeunt Citizens.</STAGEDIR>
+<STAGEDIR>Exeunt Citizens of Calais.</STAGEDIR>
 <LINE>Now, might we hear of our affairs abroad,</LINE>
 <LINE>We would, till gloomy winter were o&#8217;er spent,</LINE>
 <LINE>Dispose our men in garrison a while.</LINE>
@@ -4567,10 +4585,10 @@
 <LINE>While we bewail our valiant son&#8217;s decease.</LINE>
 </SPEECH>
 
-<STAGEDIR>After a flourish, sounded within, enter a herald.</STAGEDIR>
+<STAGEDIR>After a flourish, sounded within, enter an English Herald.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>HERALD.</SPEAKER>
+<SPEAKER>ENG. HERALD.</SPEAKER>
 <LINE>Rejoice, my lord; ascend the imperial throne!</LINE>
 <LINE>The mighty and redoubted prince of Wales,</LINE>
 <LINE>Great servitor to bloody Mars in arms,</LINE>
