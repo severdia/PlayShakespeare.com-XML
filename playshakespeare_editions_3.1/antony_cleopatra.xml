@@ -56,14 +56,58 @@
 <PERSONA short="2. SOLD.">Second Soldier</PERSONA>
 <PERSONA short="3. SOLD.">Third Soldier</PERSONA>
 <PERSONA short="4. SOLD.">Fourth Soldier</PERSONA>
-<PERSONA short="MESS.">Messengers</PERSONA>
-<PERSONA short="1. ATT.">First Attendant</PERSONA>
-<PERSONA short="2. ATT.">Second Attendant</PERSONA>
+
 <PERSONA short="SERV.">Servant</PERSONA>
 <PERSONA short="1. SERV.">First Servant</PERSONA>
 <PERSONA short="2. SERV.">Second Servant</PERSONA>
 <PERSONA short="EGYP.">Egyptian Servant</PERSONA>
+
+
+<PERSONA short="1. ROM. MESS.">First Roman Messenger</PERSONA>
+<PERSONA short="ANT. 1. ATT.">Antony's First Attendant</PERSONA>
+<PERSONA short="ANT. 2. ATT.">Antony's Second Attendant</PERSONA>
+<PERSONA short="1. MESS.">First Messenger</PERSONA>
+<PERSONA short="2. MESS.">Second Messenger</PERSONA>
+
+
+1. CAES. MESS. Caesar's First Messenger
+2. CAES. MESS. Caesar's Second Messenger
+
+POM. 1. SERV.  Pompey's First Servant
+POM. 2. SERV.  Pompey's Second Servant
+
+EGYPT. MESS.   Egyptian Messenger
+
+Second Roman Messenger  2. ROM. MESS.
+
+Antony's First Attendant  ANT. 1. ATT., BOTH. ATT.   ALL. ANT. ATT.
+Antony's Second Attendant  ANT. 2. ATT., BOTH. ATT.
+
+First Egyptian Servant    1. EGYPT. SERV.
+   
+Antony's First Soldier   ANT. 1. SOLD., ALL. ANT. SOLD.
+Antony's Second Soldier   ANT. 2. SOLD., ALL. ANT. SOLD.
+Antony's Third Soldier    ANT. 3. SOLD., ALL. ANT. SOLD.
+Antony's Fourth Soldier   ANT. 4. SOLD., ALL. ANT. SOLD.
+
+Captain of Antony's Army  CAPT. ANT. ARMY.
+
+Caesar's Third Messenger   CAES. 3. MESS.
+Caesar's First Soldier  CAES. 1. SOLD.
+
+Caesar's Sentry   CAES. SENT.
+Caesar's First Watchman   CAES. 1. WATCH.
+Caesar's Second Watchman   CAES. 2. WATCH.
+
+First Roman Guard- Brings in the Clown and returns with a message from Caesar   1. ROM. GUARD.
+Second Roman Guard- Enters with Roman Guard 1 with news from Caesar  2. ROM. GUARD.
+
+
+
 </PERSONAE>
+
+
+
 
 
 
@@ -72,7 +116,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Alexandria. A room in Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Demetrius, Philo, Antony, Cleopatra, Ladies, Eunuchs, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Demetrius, Philo, Antony, Cleopatra, Ladies, Eunuchs, First Roman Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Demetrius and Philo.</STAGEDIR>
 
@@ -116,10 +160,10 @@
 <LINE>Then must thou needs find out new heaven, new earth.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter First Roman Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. ROM. MESS.</SPEAKER>
 <LINE>News, my good lord, from Rome.</LINE>
 </SPEECH>
 
@@ -236,7 +280,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. Another room.</SCENELOCATION>
-<SCENEPERSONAE>(Enobarbus, Lamprius the Soothsayer, Rannius, Lucillius, Charmian, Iras, Mardian the Eunuch, Alexas, Cleopatra, Antony, Messenger, Attendants, Second Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Enobarbus, Lamprius the Soothsayer, Rannius, Lucillius, Charmian, Iras, Mardian the Eunuch, Alexas, Cleopatra, Antony, First Messenger, Attendants, Second Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Enobarbus, Lamprius the Soothsayer, Rannius, Lucillius, Charmian, Iras, Mardian the Eunuch, and Alexas.</STAGEDIR>
 
@@ -518,7 +562,7 @@
 <LINE>Here, at your service. My lord approaches.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Antony with a Messenger and Attendants.</STAGEDIR>
+<STAGEDIR>Enter Antony with First Messenger and Attendants.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CLEO.</SPEAKER>
@@ -528,7 +572,7 @@
 <STAGEDIR>Exeunt Cleopatra, Enobarbus, and Train.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>Fulvia thy wife first came into the field.</LINE>
 </SPEECH>
 
@@ -538,7 +582,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>Ay;</LINE>
 <LINE>But soon that war had end, and the time&#8217;s state</LINE>
 <LINE>Made friends of them, jointing their force &#8217;gainst Caesar,</LINE>
@@ -552,7 +596,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>The nature of bad news infects the teller.</LINE>
 </SPEECH>
 
@@ -565,7 +609,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="5">Labienus</LINE>
 <LINE>(This is stiff news) hath with his Parthian force</LINE>
 <LINE>Extended Asia; from Euphrates</LINE>
@@ -580,7 +624,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE offset="7">O, my lord!</LINE>
 </SPEECH>
 
@@ -596,11 +640,11 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. MESS.</SPEAKER>
 <LINE>At your noble pleasure.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Messenger.</STAGEDIR>
+<STAGEDIR>Exit First Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ANT.</SPEAKER>
@@ -608,12 +652,12 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. ATT.</SPEAKER>
+<SPEAKER>ANT. 1. ATT.</SPEAKER>
 <LINE>The man from Sicyon&#8212;is there such an one?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. ATT.</SPEAKER>
+<SPEAKER>ANT. 2. ATT.</SPEAKER>
 <LINE>He stays upon your will.</LINE>
 </SPEECH>
 
@@ -623,7 +667,7 @@
 <LINE>These strong Egyptian fetters I must break,</LINE>
 <LINE>Or lose myself in dotage.</LINE>
 
-<STAGEDIR>Enter another Messenger with a letter.</STAGEDIR>
+<STAGEDIR>Enter Second Messenger with a letter.</STAGEDIR>
 <LINE offset="5">What are you?</LINE>
 </SPEECH>
 
@@ -1085,7 +1129,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Rome. Octavius Caesar&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Octavius Caesar, Lepidus, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Octavius Caesar, Lepidus, Caesar&#8217;s First Messenger, Caesar&#8217;s Second Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Octavius Caesar reading a letter, Lepidus, and their Train.</STAGEDIR>
 
@@ -1135,7 +1179,7 @@
 <LINE>And so rebel to judgment.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Caesar&#8217;s First Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>LEP.</SPEAKER>
@@ -1143,7 +1187,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>1. CAES. MESS.</SPEAKER>
 <LINE>Thy biddings have been done, and every hour,</LINE>
 <LINE>Most noble Caesar, shalt thou have report</LINE>
 <LINE>How &#8217;tis abroad. Pompey is strong at sea,</LINE>
@@ -1165,8 +1209,10 @@
 <LINE>To rot itself with motion.</LINE>
 </SPEECH>
 
+<STAGEDIR>Enter Caesar&#8217;s Second Messenger.</STAGEDIR>
+
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. CAES. MESS.</SPEAKER>
 <LINE offset="5">Caesar, I bring thee word</LINE>
 <LINE>Menecrates and Menas, famous pirates,</LINE>
 <LINE>Makes the sea serve them, which they ear and wound</LINE>
@@ -2428,7 +2474,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Alexandria. Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Alexas, Mardian the Eunuch, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Alexas, Mardian the Eunuch, Egyptian Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra, Charmian, Iras, and Alexas.</STAGEDIR>
 
@@ -2495,14 +2541,14 @@
 <LINE>Then put my tires and mantles on him, whilst</LINE>
 <LINE>I wore his sword Philippan.</LINE>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter an Egyptian Messenger.</STAGEDIR>
 <LINE offset="6">O, from Italy!</LINE>
 <LINE>Ram thou thy fruitful tidings in mine ears,</LINE>
 <LINE>That long time have been barren.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="7">Madam, madam&#8212;</LINE>
 </SPEECH>
 
@@ -2516,7 +2562,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>First, madam, he is well.</LINE>
 </SPEECH>
 
@@ -2530,7 +2576,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Good madam, hear me.</LINE>
 </SPEECH>
 
@@ -2545,7 +2591,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="5">Will&#8217;t please you hear me?</LINE>
 </SPEECH>
 
@@ -2559,7 +2605,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="4">Madam, he&#8217;s well.</LINE>
 </SPEECH>
 
@@ -2569,7 +2615,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>And friends with Caesar.</LINE>
 </SPEECH>
 
@@ -2579,7 +2625,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Caesar and he are greater friends than ever.</LINE>
 </SPEECH>
 
@@ -2589,7 +2635,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="6">But yet, madam&#8212;</LINE>
 </SPEECH>
 
@@ -2605,7 +2651,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Free, madam, no; I made no such report.</LINE>
 <LINE>He&#8217;s bound unto Octavia.</LINE>
 </SPEECH>
@@ -2616,7 +2662,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>For the best turn i&#8217; th&#8217; bed.</LINE>
 </SPEECH>
 
@@ -2626,7 +2672,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Madam, he&#8217;s married to Octavia.</LINE>
 </SPEECH>
 
@@ -2638,7 +2684,7 @@
 <STAGEDIR>Strikes him down.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Good madam, patience.</LINE>
 </SPEECH>
 
@@ -2656,7 +2702,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="6">Gracious madam,</LINE>
 <LINE>I that do bring the news made not the match.</LINE>
 </SPEECH>
@@ -2671,7 +2717,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="4">He&#8217;s married, madam.</LINE>
 </SPEECH>
 
@@ -2683,7 +2729,7 @@
 <STAGEDIR>Draw a knife.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="7">Nay then I&#8217;ll run.</LINE>
 <LINE>What mean you, madam? I have made no fault.</LINE>
 </SPEECH>
@@ -2716,7 +2762,7 @@
 <LINE>A meaner than myself, since I myself</LINE>
 <LINE>Have given myself the cause. Come hither, sir.</LINE>
 
-<STAGEDIR>Enter the Messenger again.</STAGEDIR>
+<STAGEDIR>Enter the Egyptian Messenger again.</STAGEDIR>
 <LINE>Though it be honest, it is never good</LINE>
 <LINE>To bring bad news. Give to a gracious message</LINE>
 <LINE>An host of tongues, but let ill tidings tell</LINE>
@@ -2724,7 +2770,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="6">I have done my duty.</LINE>
 </SPEECH>
 
@@ -2736,7 +2782,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="4">He&#8217;s married, madam.</LINE>
 </SPEECH>
 
@@ -2746,7 +2792,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Should I lie, madam?</LINE>
 </SPEECH>
 
@@ -2760,7 +2806,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>I crave your Highness&#8217; pardon.</LINE>
 </SPEECH>
 
@@ -2770,7 +2816,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Take no offense that I would not offend you;</LINE>
 <LINE>To punish me for what you make me do</LINE>
 <LINE>Seems much unequal. He&#8217;s married to Octavia.</LINE>
@@ -2785,7 +2831,7 @@
 <LINE>And be undone by &#8217;em!</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Messenger.</STAGEDIR>
+<STAGEDIR>Exit Egyptian Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CHAR.</SPEAKER>
@@ -3253,48 +3299,47 @@
 
 <STAGEDIR>Exeunt.</STAGEDIR>
 
-
 </SCENE>
 
 <SCENE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>On board Pompey&#8217;s galley, off Misenum.</SCENELOCATION>
-<SCENEPERSONAE>(Servants, Caesar, Antony, Pompey, Lepidus, Agrippa, Maecenas, Enobarbus, Menas, Captains)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pompey&#8217;s First Servant, Pompey&#8217;s Second Servant, Caesar, Antony, Pompey, Lepidus, Agrippa, Maecenas, Enobarbus, Menas, Captains)</SCENEPERSONAE>
 
 <STAGEDIR>Music plays. Enter two or three Servants with a banquet.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>POM. 1. SERV.</SPEAKER>
 <LINE>Here they&#8217;ll be, man. Some o&#8217; their plants are ill rooted already, the least wind i&#8217; th&#8217; world will blow them down.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>POM. 2. SERV.</SPEAKER>
 <LINE>Lepidus is high-color&#8217;d.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>POM. 1. SERV.</SPEAKER>
 <LINE>They have made him drink alms-drink.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>POM. 2. SERV.</SPEAKER>
 <LINE>As they pinch one another by the disposition, he cries out, &#8220;No more&#8221;; reconciles them to his entreaty, and himself to th&#8217; drink.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>POM. 1. SERV.</SPEAKER>
 <LINE>But it raises the greater war between him and his discretion.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>POM. 2. SERV.</SPEAKER>
 <LINE>Why, this it is to have a name in great men&#8217;s fellowship. I had as live have a reed that will do me no service as a partisan I could not heave.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>POM. 1. SERV.</SPEAKER>
 <LINE>To be call&#8217;d into a huge sphere, and not to be seen to move in&#8217;t, are the holes where eyes should be, which pitifully disaster the cheeks.</LINE>
 </SPEECH>
 
@@ -4059,7 +4104,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Alexandria. Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Alexas, Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Alexas, Egyptian Messenger)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra, Charmian, Iras, and Alexas.</STAGEDIR>
 
@@ -4078,7 +4123,7 @@
 <LINE>Go to, go to. Come hither, sir.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter the Messenger as before.</STAGEDIR>
+<STAGEDIR>Enter the Egyptian Messenger as before.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ALEX.</SPEAKER>
@@ -4095,7 +4140,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Most gracious Majesty!</LINE>
 </SPEECH>
 
@@ -4105,7 +4150,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Ay, dread Queen.</LINE>
 </SPEECH>
 
@@ -4115,7 +4160,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="6">Madam, in Rome;</LINE>
 <LINE>I look&#8217;d her in the face, and saw her led</LINE>
 <LINE>Between her brother and Mark Antony.</LINE>
@@ -4127,7 +4172,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="4">She is not, madam.</LINE>
 </SPEECH>
 
@@ -4137,7 +4182,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Madam, I heard her speak; she is low-voic&#8217;d.</LINE>
 </SPEECH>
 
@@ -4159,7 +4204,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="7">She creeps;</LINE>
 <LINE>Her motion and her station are as one;</LINE>
 <LINE>She shows a body rather than a life,</LINE>
@@ -4172,7 +4217,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Or I have no observance.</LINE>
 </SPEECH>
 
@@ -4200,7 +4245,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE offset="6">Madam,</LINE>
 <LINE>She was a widow&#8212;</LINE>
 </SPEECH>
@@ -4211,7 +4256,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>And I do think she&#8217;s thirty.</LINE>
 </SPEECH>
 
@@ -4221,7 +4266,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Round, even to faultiness.</LINE>
 </SPEECH>
 
@@ -4232,7 +4277,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>EGYPT. MESS.</SPEAKER>
 <LINE>Brown, madam; and her forehead</LINE>
 <LINE>As low as she would wish it.</LINE>
 </SPEECH>
@@ -4246,7 +4291,7 @@
 <LINE>Our letters are prepar&#8217;d.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Messenger.</STAGEDIR>
+<STAGEDIR>Exit Egyptian Messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CHAR.</SPEAKER>
@@ -4683,7 +4728,7 @@
 <SCENE>
 <SCENETITLE>Scene 7</SCENETITLE>
 <SCENELOCATION>Near Actium. Mark Antony&#8217;s camp.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Enobarbus, Antony, Canidius, Messenger, Soldier)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Enobarbus, Antony, Canidius, Second Roman Messenger, Scarus)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra and Enobarbus.</STAGEDIR>
 
@@ -4850,12 +4895,12 @@
 <LINE>Beat th&#8217; approaching Caesar. But if we fail,</LINE>
 <LINE>We then can do&#8217;t at land.</LINE>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Roman Messenger.</STAGEDIR>
 <LINE offset="5">Thy business?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. ROM. MESS.</SPEAKER>
 <LINE>The news is true, my lord: he is descried;</LINE>
 <LINE>Caesar has taken Toryne.</LINE>
 </SPEECH>
@@ -4868,12 +4913,12 @@
 <LINE>And our twelve thousand horse. We&#8217;ll to our ship,</LINE>
 <LINE>Away, my Thetis!</LINE>
 
-<STAGEDIR>Enter a Soldier.</STAGEDIR>
+<STAGEDIR>Enter Scarus.</STAGEDIR>
 <LINE offset="4">How now, worthy soldier?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE>O noble Emperor, do not fight by sea,</LINE>
 <LINE>Trust not to rotten planks. Do you misdoubt</LINE>
 <LINE>This sword, and these my wounds? Let th&#8217; Egyptians</LINE>
@@ -4890,7 +4935,7 @@
 <STAGEDIR>Exeunt Antony, Cleopatra, and Enobarbus.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE>By Hercules, I think I am i&#8217; th&#8217; right.</LINE>
 </SPEECH>
 
@@ -4902,7 +4947,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="5">You keep by land</LINE>
 <LINE>The legions and the horse whole, do you not?</LINE>
 </SPEECH>
@@ -4916,7 +4961,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="5">While he was yet in Rome,</LINE>
 <LINE>His power went out in such distractions as</LINE>
 <LINE>Beguil&#8217;d all spies.</LINE>
@@ -4928,7 +4973,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE>They say, one Taurus.</LINE>
 </SPEECH>
 
@@ -4937,10 +4982,10 @@
 <LINE offset="5">Well I know the man.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Second Roman Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>2. ROM. MESS.</SPEAKER>
 <LINE>The Emperor calls Canidius.</LINE>
 </SPEECH>
 
@@ -5127,7 +5172,7 @@
 <SCENE>
 <SCENETITLE>Scene 11</SCENETITLE>
 <SCENELOCATION>Alexandria. Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Antony, Attendants, Cleopatra, Charmian, Eros, Iras)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antony, Antony&#8217;s First Attendant, Antony&#8217;s Second Attendant, Cleopatra, Charmian, Eros, Iras)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Antony with Attendants.</STAGEDIR>
 
@@ -5142,7 +5187,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>OMNES.</SPEAKER>
+<SPEAKER alias="ANT. 1. ATT., ANT. 2. ATT.">ALL. ANT. ATT.</SPEAKER>
 <LINE offset="7">Fly? Not we.</LINE>
 </SPEECH>
 
@@ -5443,7 +5488,7 @@
 <SCENE>
 <SCENETITLE>Scene 13</SCENETITLE>
 <SCENELOCATION>Alexandria. Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Enobarbus, Charmian, Iras, Schoolmaster as Ambassador, Antony, Servant, Thidias)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Enobarbus, Charmian, Iras, Schoolmaster as Ambassador, Antony, First Egyptian Servant, Second Egyptian Servant, Thidias)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra, Enobarbus, Charmian, and Iras.</STAGEDIR>
 
@@ -5545,10 +5590,10 @@
 <LINE>His judgment too.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Servant.</STAGEDIR>
+<STAGEDIR>Enter First Egyptian Servant.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. EGYPT. SERV.</SPEAKER>
 <LINE offset="4">A messenger from Caesar.</LINE>
 </SPEECH>
 
@@ -5559,7 +5604,7 @@
 <LINE>That kneel&#8217;d unto the buds. Admit him, sir.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit First Egyptian Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ENO.</SPEAKER>
@@ -5730,7 +5775,7 @@
 <LINE>And cry, &#8220;Your will?&#8221;&#8212;Have you no ears?&#8212;I am</LINE>
 <LINE>Antony yet.</LINE>
 
-<STAGEDIR>Enter a Servant, others following.</STAGEDIR>
+<STAGEDIR>Enter First Egyptian Servant, others following.</STAGEDIR>
 <LINE offset="3">Take hence this Jack and whip him.</LINE>
 </SPEECH>
 
@@ -5763,7 +5808,7 @@
 <LINE>Bring him again; the Jack of Caesar&#8217;s shall</LINE>
 <LINE>Bear us an arrant to him.</LINE>
 
-<STAGEDIR>Exeunt Servants with Thidias.</STAGEDIR>
+<STAGEDIR>Exeunt Egyptian Servants with Thidias.</STAGEDIR>
 <LINE>You were half blasted ere I knew you; ha?</LINE>
 <LINE>Have I my pillow left unpress&#8217;d in Rome,</LINE>
 <LINE>Forborne the getting of a lawful race,</LINE>
@@ -5819,12 +5864,12 @@
 <LINE>A halter&#8217;d neck which does the hangman thank</LINE>
 <LINE>For being yare about him.</LINE>
 
-<STAGEDIR>Enter a Servant with Thidias.</STAGEDIR>
+<STAGEDIR>Enter First Egyptian Servant with Thidias.</STAGEDIR>
 <LINE offset="6">Is he whipt?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. EGYPT. SERV.</SPEAKER>
 <LINE>Soundly, my lord.</LINE>
 </SPEECH>
 
@@ -5834,7 +5879,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. EGYPT. SERV.</SPEAKER>
 <LINE>He did ask favor.</LINE>
 </SPEECH>
 
@@ -6031,7 +6076,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Alexandria. Cleopatra&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Antony, Cleopatra, Enobarbus, Charmian, Iras, Alexas, Servitors)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antony, Cleopatra, Enobarbus, Charmian, Iras, Alexas, Antony&#8217;s First Attendant, Antony&#8217;s Second Attendant)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Antony, Cleopatra, Enobarbus, Charmian, Iras, Alexas, with others.</STAGEDIR>
 
@@ -6075,7 +6120,7 @@
 <LINE>Call forth my household servants, let&#8217;s tonight</LINE>
 <LINE>Be bounteous at our meal.</LINE>
 
-<STAGEDIR>Enter three or four Servitors.</STAGEDIR>
+<STAGEDIR>Enter three or four Attendants.</STAGEDIR>
 <LINE offset="5">Give me thy hand,</LINE>
 <LINE>Thou hast been rightly honest&#8212;so hast thou&#8212;</LINE>
 <LINE>Thou&#8212;and thou&#8212;and thou. You have serv&#8217;d me well,</LINE>
@@ -6105,7 +6150,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>OMNES.</SPEAKER>
+<SPEAKER>ALL. ANT. ATT.</SPEAKER>
 <LINE offset="5">The gods forbid!</LINE>
 </SPEECH>
 
@@ -6172,59 +6217,59 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The same. Before the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Soldiers)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antony&#8217;s First Soldier, Antony&#8217;s Second Soldier, Antony&#8217;s Third Soldier, Antony&#8217;s Fourth Soldier)</SCENEPERSONAE>
 
-<STAGEDIR>Enter a company of Soldiers.</STAGEDIR>
+<STAGEDIR>Enter a company of Antony&#8217;s Soldiers.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE>Brother, good night; tomorrow is the day.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>It will determine one way; fare you well.</LINE>
 <LINE>Heard you of nothing strange about the streets?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE>Nothing. What news?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>Belike &#8217;tis but a rumor. Good night to you.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE>Well, sir, good night.</LINE>
 </SPEECH>
 
 <STAGEDIR>They meet other Soldiers.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>Soldiers, have careful watch.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SOLD.</SPEAKER>
+<SPEAKER>ANT. 3. SOLD.</SPEAKER>
 <LINE>And you. Good night, good night.</LINE>
 </SPEECH>
 
 <STAGEDIR>They place themselves in every corner of the stage.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>Here we. And if tomorrow</LINE>
 <LINE>Our navy thrive, I have an absolute hope</LINE>
 <LINE>Our landmen will stand up.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="5">&#8217;Tis a brave army,</LINE>
 <LINE>And full of purpose.</LINE>
 </SPEECH>
@@ -6232,88 +6277,88 @@
 <STAGEDIR>Music of the hoboys is under the stage.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE offset="4">Peace, what noise?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="8">List, list!</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>Hark!</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="2">Music i&#8217; th&#8217; air.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SOLD.</SPEAKER>
+<SPEAKER>ANT. 3. SOLD.</SPEAKER>
 <LINE offset="5">Under the earth.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>4. SOLD.</SPEAKER>
+<SPEAKER>ANT. 4. SOLD.</SPEAKER>
 <LINE>It signs well, does it not?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SOLD.</SPEAKER>
+<SPEAKER>ANT. 3. SOLD.</SPEAKER>
 <LINE offset="6">No.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="7">Peace, I say.</LINE>
 <LINE>What should this mean?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE>&#8217;Tis the god Hercules, whom Antony lov&#8217;d,</LINE>
 <LINE>Now leaves him.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="4">Walk; let&#8217;s see if other watchmen</LINE>
 <LINE>Do hear what we do.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SOLD.</SPEAKER>
+<SPEAKER>ANT. 2. SOLD.</SPEAKER>
 <LINE offset="4">How now, masters?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>OMNES</SPEAKER>
+<SPEAKER>ALL. ANT. SOLD.</SPEAKER>
 <STAGEDIR>Speak together.</STAGEDIR>
 <LINE offset="9">How now?</LINE>
 <LINE>How now? Do you hear this?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE offset="6">Ay, is&#8217;t not strange?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SOLD.</SPEAKER>
+<SPEAKER>ANT. 3. SOLD.</SPEAKER>
 <LINE>Do you hear, masters? Do you hear?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SOLD.</SPEAKER>
+<SPEAKER>ANT. 1. SOLD.</SPEAKER>
 <LINE>Follow the noise so far as we have quarter;</LINE>
 <LINE>Let&#8217;s see how it will give off.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>OMNES.</SPEAKER>
+<SPEAKER>ALL. ANT. SOLD.</SPEAKER>
 <LINE offset="6">Content. &#8217;Tis strange.</LINE>
 </SPEECH>
 
@@ -6324,7 +6369,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>The same. A room in the palace.</SCENELOCATION>
-<SCENEPERSONAE>(Antony, Cleopatra, Charmian, Soldiers, Captains)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antony, Cleopatra, Charmian, Scarus, Soldiers, Captain of Antony&#8217;s Army)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Antony and Cleopatra, Charmian, with others.</STAGEDIR>
 
@@ -6393,7 +6438,7 @@
 <LINE>The royal occupation, thou shouldst see</LINE>
 <LINE>A workman in&#8217;t.</LINE>
 
-<STAGEDIR>Enter an armed Soldier.</STAGEDIR>
+<STAGEDIR>Enter an armed Scarus.</STAGEDIR>
 <LINE offset="4">Good morrow to thee, welcome.</LINE>
 <LINE>Thou look&#8217;st like him that knows a warlike charge.</LINE>
 <LINE>To business that we love we rise betime,</LINE>
@@ -6401,7 +6446,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="5">A thousand, sir,</LINE>
 <LINE>Early though&#8217;t be, have on their riveted trim,</LINE>
 <LINE>And at the port expect you.</LINE>
@@ -6409,15 +6454,15 @@
 
 <STAGEDIR>Shout. Trumpets flourish.</STAGEDIR>
 
-<STAGEDIR>Enter Captains and Soldiers.</STAGEDIR>
+<STAGEDIR>Enter Captain of Antony&#8217;s Army, Captains and Soldiers.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>CAPT.</SPEAKER>
+<SPEAKER>CAPT. ANT. ARMY.</SPEAKER>
 <LINE>The morn is fair. Good morrow, general.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL.</SPEAKER>
+<SPEAKER>ALL. ANT. SOLD.</SPEAKER>
 <LINE>Good morrow, general.</LINE>
 </SPEECH>
 
@@ -6435,7 +6480,7 @@
 <LINE>Follow me close, I&#8217;ll bring you to&#8217;t. <FRENCH lang="fr">Adieu</FRENCH>.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Antony, Eros, Captains, and Soldiers.</STAGEDIR>
+<STAGEDIR>Exeunt Antony, Eros, Scarus, Captains, and Soldiers.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CHAR.</SPEAKER>
@@ -6457,12 +6502,12 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Alexandria. Mark Antony&#8217;s camp.</SCENELOCATION>
-<SCENEPERSONAE>(Antony, Eros, Soldier)</SCENEPERSONAE>
+<SCENEPERSONAE>(Antony, Eros, Scarus)</SCENEPERSONAE>
 
-<STAGEDIR>Trumpets sound. Enter Antony and Eros, a Soldier meeting them.</STAGEDIR>
+<STAGEDIR>Trumpets sound. Enter Antony and Eros, Scarus meeting them.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE>The gods make this a happy day to Antony!</LINE>
 </SPEECH>
 
@@ -6473,7 +6518,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="5">Hadst thou done so,</LINE>
 <LINE>The kings that have revolted, and the soldier</LINE>
 <LINE>That has this morning left thee, would have still</LINE>
@@ -6486,7 +6531,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="9">Who?</LINE>
 <LINE>One ever near thee. Call for Enobarbus,</LINE>
 <LINE>He shall not hear thee, or from Caesar&#8217;s camp</LINE>
@@ -6499,7 +6544,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="10">Sir,</LINE>
 <LINE>He is with Caesar.</LINE>
 </SPEECH>
@@ -6516,7 +6561,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>SCAR.</SPEAKER>
 <LINE offset="7">Most certain.</LINE>
 </SPEECH>
 
@@ -6537,7 +6582,7 @@
 <SCENE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>Alexandria. Octavius Caesar&#8217;s camp.</SCENELOCATION>
-<SCENEPERSONAE>(Agrippa, Caesar, Enobarbus, Dolabella, Messenger, Soldier)</SCENEPERSONAE>
+<SCENEPERSONAE>(Agrippa, Caesar, Enobarbus, Dolabella, Caesar&#8217;s Third Messenger, Caesar&#8217;s First Soldier)</SCENEPERSONAE>
 
 <STAGEDIR>Flourish. Enter Agrippa, Caesar, with Enobarbus and Dolabella.</STAGEDIR>
 
@@ -6562,10 +6607,10 @@
 <LINE>Shall bear the olive freely.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Caesar&#8217;s Third Messenger.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>CAES. 3. MESS.</SPEAKER>
 <LINE offset="5">Antony</LINE>
 <LINE>Is come into the field.</LINE>
 </SPEECH>
@@ -6593,10 +6638,10 @@
 <LINE>That I will joy no more.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Soldier of Caesar&#8217;s.</STAGEDIR>
+<STAGEDIR>Enter Caesar&#8217;s First Soldier.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>CAES. 1. SOLD.</SPEAKER>
 <LINE offset="5">Enobarbus, Antony</LINE>
 <LINE>Hath after thee sent all thy treasure, with</LINE>
 <LINE>His bounty overplus. The messenger</LINE>
@@ -6610,7 +6655,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLD.</SPEAKER>
+<SPEAKER>CAES. 1. SOLD.</SPEAKER>
 <LINE>Mock not, Enobarbus,</LINE>
 <LINE>I tell you true. Best you saf&#8217;d the bringer</LINE>
 <LINE>Out of the host; I must attend mine office,</LINE>
@@ -6802,12 +6847,12 @@
 <SCENE>
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>Octavius Caesar&#8217;s camp.</SCENELOCATION>
-<SCENEPERSONAE>(Sentry, First Officer of the Watch, Second Officer of the Watch, Enobarbus)</SCENEPERSONAE>
+<SCENEPERSONAE>(Caesar&#8217;s Sentry, Caesar&#8217;s First Watchman, Caesar&#8217;s Second Watchman, Enobarbus)</SCENEPERSONAE>
 
-<STAGEDIR>Enter a Sentry and his Company. Enobarbus follows.</STAGEDIR>
+<STAGEDIR>Enter Caesar&#8217;s Sentry and his Company. Enobarbus follows.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SENT.</SPEAKER>
+<SPEAKER>CAES. SENT.</SPEAKER>
 <LINE>If we be not reliev&#8217;d within this hour,</LINE>
 <LINE>We must return to th&#8217; court of guard. The night</LINE>
 <LINE>Is shiny, and they say we shall embattle</LINE>
@@ -6815,7 +6860,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. WATCH.</SPEAKER>
+<SPEAKER>CAES. 1. WATCH.</SPEAKER>
 <LINE offset="6">This last day was</LINE>
 <LINE>A shrewd one to &#8217;s.</LINE>
 </SPEECH>
@@ -6826,12 +6871,12 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. WATCH.</SPEAKER>
+<SPEAKER>CAES. 2. WATCH.</SPEAKER>
 <LINE>What man is this?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. WATCH.</SPEAKER>
+<SPEAKER>CAES. 1. WATCH.</SPEAKER>
 <LINE offset="4">Stand close, and list him.</LINE>
 </SPEECH>
 
@@ -6849,7 +6894,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. WATCH.</SPEAKER>
+<SPEAKER>CAES. 2. WATCH.</SPEAKER>
 <LINE offset="8">Peace!</LINE>
 <LINE>Hark further.</LINE>
 </SPEECH>
@@ -6873,18 +6918,18 @@
 <STAGEDIR>Dies.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. WATCH.</SPEAKER>
+<SPEAKER>CAES. 1. WATCH.</SPEAKER>
 <LINE offset="5">Let&#8217;s speak to him.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SENT.</SPEAKER>
+<SPEAKER>CAES. SENT.</SPEAKER>
 <LINE>Let&#8217;s hear him, for the things he speaks</LINE>
 <LINE>May concern Caesar.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. WATCH.</SPEAKER>
+<SPEAKER>CAES. 2. WATCH.</SPEAKER>
 <LINE offset="4">Let&#8217;s do so. But he sleeps.</LINE>
 </SPEECH>
 
@@ -6895,22 +6940,22 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. WATCH.</SPEAKER>
+<SPEAKER>CAES. 1. WATCH.</SPEAKER>
 <LINE offset="5">Go we to him.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. WATCH.</SPEAKER>
+<SPEAKER>CAES. 2. WATCH.</SPEAKER>
 <LINE>Awake, sir, awake, speak to us.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. WATCH.</SPEAKER>
+<SPEAKER>CAES. 1. WATCH.</SPEAKER>
 <LINE offset="7">Hear you, sir?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SENT.</SPEAKER>
+<SPEAKER>CAES. SENT.</SPEAKER>
 <LINE>The hand of death hath raught him.</LINE>
 
 <STAGEDIR>Drums afar off.</STAGEDIR>
@@ -6921,7 +6966,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. WATCH.</SPEAKER>
+<SPEAKER>CAES. 2. WATCH.</SPEAKER>
 <LINE>Come on then, he may recover yet.</LINE>
 </SPEECH>
 
@@ -7545,7 +7590,7 @@
 <SCENE>
 <SCENETITLE>Scene 15</SCENETITLE>
 <SCENELOCATION>The same. A monument.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Maids, Charmian, Iras, Diomed, Antony, Guards)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Maids, Charmian, Iras, Diomed, Antony, Antony&#8217;s First Guardsman, Antony&#8217;s Second Guardsman)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra and her maids aloft, with Charmian and Iras.</STAGEDIR>
 
@@ -7987,7 +8032,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Alexandria. A room in the monument.</SCENELOCATION>
-<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Mardian, Proculeius, Roman Soldiers, Dolabella, Caesar, Gallus, Maecenas, Seleucus, Guards, Clown)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cleopatra, Charmian, Iras, Mardian, Proculeius, Dolabella, Caesar, Gallus, Maecenas, Seleucus, First Roman Guard, Second Roman Guard, Clown, First Roman Soldier, Second Roman Soldier)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Cleopatra, Charmian, Iras, and Mardian.</STAGEDIR>
 
@@ -8171,7 +8216,7 @@
 <LINE offset="6">Say, I would die.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Proculeius with Soldiers.</STAGEDIR>
+<STAGEDIR>Exit Proculeius with Roman Soldiers.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DOL.</SPEAKER>
@@ -8645,10 +8690,10 @@
 <LINE>Wherefore&#8217;s this noise?</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Guardsman.</STAGEDIR>
+<STAGEDIR>Enter First Roman Guard.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE offset="5">Here is a rural fellow</LINE>
 <LINE>That will not be denied your Highness&#8217; presence.</LINE>
 <LINE>He brings you figs.</LINE>
@@ -8658,7 +8703,7 @@
 <SPEAKER>CLEO.</SPEAKER>
 <LINE>Let him come in.</LINE>
 
-<STAGEDIR>Exit Guardsman.</STAGEDIR>
+<STAGEDIR>Exit First Roman Guard.</STAGEDIR>
 <LINE offset="4">What poor an instrument</LINE>
 <LINE>May do a noble deed! He brings me liberty.</LINE>
 <LINE>My resolution&#8217;s plac&#8217;d, and I have nothing</LINE>
@@ -8667,17 +8712,17 @@
 <LINE>No planet is of mine.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Guardsman and Clown with a basket.</STAGEDIR>
+<STAGEDIR>Enter First Roman Guard and Clown with a basket.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE offset="5">This is the man.</LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>CLEO.</SPEAKER>
 <LINE>Avoid, and leave him.</LINE>
-<STAGEDIR>Exit Guardsman.</STAGEDIR>
+<STAGEDIR>Exit First Roman Guard.</STAGEDIR>
 
 <LINE>Hast thou the pretty worm of Nilus there,</LINE>
 <LINE>That kills and pains not?</LINE>
@@ -8848,10 +8893,10 @@
 <LINE>I&#8217;ll mend it, and then play&#8212;</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter the Guard rustling in.</STAGEDIR>
+<STAGEDIR>Enter the Roman Guards rustling in.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>Where&#8217;s the Queen?</LINE>
 </SPEECH>
 
@@ -8861,7 +8906,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>Caesar hath sent&#8212;</LINE>
 </SPEECH>
 
@@ -8873,17 +8918,17 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>Approach ho, all&#8217;s not well; Caesar&#8217;s beguil&#8217;d.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GUARD.</SPEAKER>
+<SPEAKER>2. ROM. GUARD.</SPEAKER>
 <LINE>There&#8217;s Dolabella sent from Caesar; call him.</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>What work is here, Charmian? Is this well done?</LINE>
 </SPEECH>
 
@@ -8904,7 +8949,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. GUARD.</SPEAKER>
+<SPEAKER>2. ROM. GUARD.</SPEAKER>
 <LINE offset="4">All dead.</LINE>
 </SPEECH>
 
@@ -8943,7 +8988,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>A simple countryman, that brought her figs.</LINE>
 <LINE>This was his basket.</LINE>
 </SPEECH>
@@ -8954,7 +8999,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE offset="8">O Caesar,</LINE>
 <LINE>This Charmian liv&#8217;d but now, she stood and spake.</LINE>
 <LINE>I found her trimming up the diadem</LINE>
@@ -8979,7 +9024,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. GUARD.</SPEAKER>
+<SPEAKER>1. ROM. GUARD.</SPEAKER>
 <LINE>This is an aspic&#8217;s trail, and these fig leaves</LINE>
 <LINE>Have slime upon them, such as th&#8217; aspic leaves</LINE>
 <LINE>Upon the caves of Nile.</LINE>
