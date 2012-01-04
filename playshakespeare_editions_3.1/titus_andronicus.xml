@@ -16,7 +16,7 @@
 <PERSONA short="QUIN.">Quintus, son to Titus Andronicus</PERSONA>
 <PERSONA short="MART.">Martius, son to Titus Andronicus</PERSONA>
 <PERSONA short="MUT.">Mutius, son to Titus Andronicus</PERSONA>
-<PERSONA short="BOY.">Young Lucius, a boy, son to Lucius</PERSONA>
+<PERSONA short="Y. LUC.">Young Lucius</PERSONA>
 <PERSONA short="AEMIL.">Aemilius, a noble Roman</PERSONA>
 <PERSONA short="PUB.">Publius, son to Marcus Andronicus</PERSONA>
 <PERSONA>Sempronius, kinsman to Titus</PERSONA>
@@ -26,7 +26,7 @@
 <PERSONA short="DEM.">Demetrius, son to Tamora</PERSONA>
 <PERSONA short="CHI.">Chiron, son to Tamora</PERSONA>
 <PERSONA short="AAR.">Aaron, a Moor, beloved by Tamora</PERSONA>
-<PERSONA short="CAP.">Captain</PERSONA>
+<PERSONA short="ROM. CAP.">Roman Captain</PERSONA>
 <PERSONA short="MESS.">Messenger</PERSONA>
 <PERSONA>Tribune</PERSONA>
 <PERSONA short="CLO.">Clown</PERSONA>
@@ -36,15 +36,14 @@
 <PERSONA>A black Child</PERSONA>
 <PERSONA short="1. GOTH.">First Goth</PERSONA>
 <PERSONA short="2. GOTH.">Second Goth</PERSONA>
-<PERSONA short="OTHER GOTHS.">Other Goths</PERSONA>
+<PERSONA short="3. GOTH.">Third Goth</PERSONA>
 <PERSONA>Senators</PERSONA>
 <PERSONA short="TRIBUNES.">Tribunes</PERSONA>
 <PERSONA>Officers</PERSONA>
 <PERSONA>Soldiers</PERSONA>
 <PERSONA>Attendants</PERSONA>
+
 </PERSONAE>
-
-
 
 
 <ACT>
@@ -52,7 +51,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Rome. Before the Capitol.</SCENELOCATION>
-<SCENEPERSONAE>(Marcus Andronicus, Senators, Saturninus, Followers, Bassianus, Captain, Martius, Mutius, Men, Lucius, Quintus, Titus Andronicus, Tamora, Alarbus, Chiron, Demetrius, Aaron the Moor, Lavinia)</SCENEPERSONAE>
+<SCENEPERSONAE>(Marcus Andronicus, Senators, Saturninus, Followers, Bassianus, Roman Captain, Martius, Mutius, Men, Lucius, Quintus, Titus Andronicus, Tamora, Alarbus, Chiron, Demetrius, Aaron the Moor, Lavinia, Tribune)</SCENEPERSONAE>
 
 <STAGEDIR>Enter the Tribunes, among them Marcus Andronicus, and Senators aloft, and then enter, below, Saturninus and his followers at one door, and Bassianus and his followers at the other, with Drums and Trumpets.</STAGEDIR>
 
@@ -154,10 +153,10 @@
 
 <STAGEDIR>Flourish. They go up into the Senate-house.</STAGEDIR>
 
-<STAGEDIR>Enter a Captain.</STAGEDIR>
+<STAGEDIR>Enter a Roman Captain.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>CAP.</SPEAKER>
+<SPEAKER>ROM. CAP.</SPEAKER>
 <LINE>Romans, make way! The good Andronicus,</LINE>
 <LINE>Patron of virtue, Rome&#8217;s best champion,</LINE>
 <LINE>Successful in the battles that he fights,</LINE>
@@ -432,7 +431,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>TRIBUNES.</SPEAKER>
+<SPEAKER>TRIB.</SPEAKER>
 <LINE>To gratify the good Andronicus,</LINE>
 <LINE>And gratulate his safe return to Rome,</LINE>
 <LINE>The people will accept whom he admits.</LINE>
@@ -3195,7 +3194,7 @@
 <SCENELOCATION>The same. A room in the palace.</SCENELOCATION>
 <SCENEPERSONAE>(Aaron, Chiron, Demetrius, Young Lucius, Attendant, Nurse, Black Child)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Aaron, Chiron, and Demetrius at one door; and at the other door young Lucius and another with a bundle of weapons, and verses writ upon them.</STAGEDIR>
+<STAGEDIR>Enter Aaron, Chiron, and Demetrius at one door; and at the other door Young Lucius and another with a bundle of weapons, and verses writ upon them.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CHI.</SPEAKER>
@@ -3209,7 +3208,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>Y. LUC.</SPEAKER>
 <LINE>My lords, with all the humbleness I may,</LINE>
 <LINE>I greet your honors from Andronicus&#8212;</LINE>
 
@@ -3223,7 +3222,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>Y. LUC.</SPEAKER>
 <STAGEDIR>Aside.</STAGEDIR>
 <LINE>That you are both decipher&#8217;d, that&#8217;s the news,</LINE>
 <LINE>For villains mark&#8217;d with rape.&#8212;May it please you,</LINE>
@@ -4152,7 +4151,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>OTHER GOTHS.</SPEAKER>
+<SPEAKER>3. GOTH.</SPEAKER>
 <LINE>And as he saith, so say we all with him.</LINE>
 </SPEECH>
 
@@ -4406,7 +4405,7 @@
 <STAGEDIR>Enter Aemilius.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. GOTH.</SPEAKER>
+<SPEAKER>3. GOTH.</SPEAKER>
 <LINE>My lord, there is a messenger from Rome</LINE>
 <LINE>Desires to be admitted to your presence.</LINE>
 </SPEECH>

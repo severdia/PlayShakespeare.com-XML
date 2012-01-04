@@ -21,7 +21,7 @@
 <PERSONA short="CAL.">Calchas, a Trojan priest, taking part with the Greeks</PERSONA>
 <PERSONA short="PAN.">Pandarus, uncle to Cressida</PERSONA>
 <PERSONA short="ALEX.">Alexander, servant to Cressida</PERSONA>
-<PERSONA short="BOY.">Servant and Boy to Troilus</PERSONA>
+<PERSONA short="TRO. BOY.">Troilus&#8217;s Boy</PERSONA>
 <PERSONA short="SERV.">Servant to Paris</PERSONA>
 <PERSONA short="AGAM.">Agamemnon, the Greek general</PERSONA>
 <PERSONA short="MEN.">Menelaus, brother to Agamemnon</PERSONA>
@@ -32,14 +32,20 @@
 <PERSONA short="DIO.">Diomedes, a Greek commander</PERSONA>
 <PERSONA short="PATR.">Patroclus, a Greek commander</PERSONA>
 <PERSONA short="THER.">Thersites, a deformed and scurrilous Greek</PERSONA>
-<PERSONA short="DIO. SERV.">Servant to Diomedes</PERSONA>
+<PERSONA short="DIO. SERV.">Diomedes’s Servant</PERSONA>
 <PERSONA short="HELEN.">Helen, wife to Menelaus</PERSONA>
 <PERSONA short="AND.">Andromache, wife to Hector</PERSONA>
 <PERSONA short="CAS.">Cassandra, daughter to Priam, a prophetess</PERSONA>
 <PERSONA short="CRES.">Cressida, daughter to Calchas</PERSONA>
 <PERSONA short="MYR.">Myrmidon Soldier</PERSONA>
-<PERSONA short="SOLDIERS.">Soldiers</PERSONA>
+<PERSONA short="MYRMIDONS.">Myrmidons</PERSONA>
 <PERSONA short="MAN.">Attendants</PERSONA>
+
+Paris’s Servant  PAR. SERV.
+
+
+
+
 </PERSONAE>
 
 <ACT>
@@ -354,9 +360,9 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. A street.</SCENELOCATION>
-<SCENEPERSONAE>(Cressida, Alexander, Pandarus, Aeneas, Antenor, Hector, Paris, Helenus, Troilus, Soldiers, Troilus&#8217; Boy)</SCENEPERSONAE>
+<SCENEPERSONAE>(Cressida, Alexander, Pandarus, Aeneas, Antenor, Hector, Paris, Helenus, Troilus, Trojan Soldiers, Troilus&#8217; Boy)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Cressid and her man Alexander.</STAGEDIR>
+<STAGEDIR>Enter Cressida and her man Alexander.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CRES.</SPEAKER>
@@ -981,7 +987,7 @@
 <LINE>Mark him, note him. O brave Troilus! Look well upon him, niece. Look you how his sword is bloodied, and his helm more hack&#8217;d than Hector&#8217;s, and how he looks, and how he goes! O admirable youth! He never saw three and twenty. Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a goddess, he should take his choice. O admirable man! Paris? Paris is dirt to him, and I warrant Helen, to change, would give an eye to boot.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Common Soldiers and pass over the stage.</STAGEDIR>
+<STAGEDIR>Enter Trojan Soldiers and pass over the stage.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CRES.</SPEAKER>
@@ -1046,7 +1052,7 @@
 <STAGEDIR>Enter Troilus&#8217; Boy.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>TRO. BOY.</SPEAKER>
 <LINE>Sir, my lord would instantly speak with you.</LINE>
 </SPEECH>
 
@@ -1056,14 +1062,14 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>BOY.</SPEAKER>
+<SPEAKER>TRO. BOY.</SPEAKER>
 <LINE>At your own house, there he unarms him.</LINE>
 </SPEECH>
 
 <SPEECH>
 <SPEAKER>PAN.</SPEAKER>
 <LINE>Good boy, tell him I come.</LINE>
-<STAGEDIR>Exit Boy.</STAGEDIR>
+<STAGEDIR>Exit Troilus&#8217;s Boy.</STAGEDIR>
 <LINE>I doubt he be hurt. Fare ye well, good niece.</LINE>
 </SPEECH>
 
@@ -1115,9 +1121,9 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The Grecian camp. Before Agamemnon&#8217;s tent.</SCENELOCATION>
-<SCENEPERSONAE>(Agamemnon, Nestor, Ulysses, Dio-Medes, Menelaus, Aeneas)</SCENEPERSONAE>
+<SCENEPERSONAE>(Agamemnon, Nestor, Ulysses, Diomedes, Menelaus, Aeneas)</SCENEPERSONAE>
 
-<STAGEDIR>Sennet. Enter Agamemnon, Nestor, Ulysses, Dio-Medes, Menelaus, with others.</STAGEDIR>
+<STAGEDIR>Sennet. Enter Agamemnon, Nestor, Ulysses, Diomedes, Menelaus, with others.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>AGAM.</SPEAKER>
@@ -2472,7 +2478,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The Grecian camp. Before Achilles&#8217; tent.</SCENELOCATION>
-<SCENEPERSONAE>(Thersites, Patroclus, Achilles, Agamemnon, Ulysses, Nestor, Diomed, Ajax, Calchas)</SCENEPERSONAE>
+<SCENEPERSONAE>(Thersites, Patroclus, Achilles, Agamemnon, Ulysses, Nestor, Diomedes, Ajax, Calchas)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Thersites solus.</STAGEDIR>
 
@@ -2597,7 +2603,7 @@
 <LINE>Make that demand of the prover, it suffices me thou art. Look you, who comes here?</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Agamemnon, Ulysses, Nestor, Diomed, Ajax, and Calchas.</STAGEDIR>
+<STAGEDIR>Enter Agamemnon, Ulysses, Nestor, Diomedes, Ajax, and Calchas.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>ACHIL.</SPEAKER>
@@ -3112,9 +3118,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Troy. Priam&#8217;s palace.</SCENELOCATION>
-<SCENEPERSONAE>(Pandarus, Servant, Paris, Helen)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pandarus, Paris&#8217;s Servant, Paris, Helen, Musicians)</SCENEPERSONAE>
 
-<STAGEDIR>Music sounds within. Enter Pandarus and a Servant.</STAGEDIR>
+<STAGEDIR>Music sounds within. Enter Pandarus and Paris&#8217;s Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAN.</SPEAKER>
@@ -3122,7 +3128,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Ay, sir, when he goes before me.</LINE>
 </SPEECH>
 
@@ -3132,7 +3138,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Sir, I do depend upon the Lord.</LINE>
 </SPEECH>
 
@@ -3142,7 +3148,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>The Lord be prais&#8217;d!</LINE>
 </SPEECH>
 
@@ -3152,7 +3158,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Faith, sir, superficially.</LINE>
 </SPEECH>
 
@@ -3162,7 +3168,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>I hope I shall know your honor better!</LINE>
 </SPEECH>
 
@@ -3172,7 +3178,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>You are in the state of grace.</LINE>
 </SPEECH>
 
@@ -3182,7 +3188,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>I do but partly know, sir, it is music in parts.</LINE>
 </SPEECH>
 
@@ -3192,7 +3198,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Wholly, sir.</LINE>
 </SPEECH>
 
@@ -3202,7 +3208,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>To the hearers, sir.</LINE>
 </SPEECH>
 
@@ -3212,7 +3218,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>At mine, sir, and theirs that love music.</LINE>
 </SPEECH>
 
@@ -3222,7 +3228,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Who shall I command, sir?</LINE>
 </SPEECH>
 
@@ -3232,7 +3238,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>That&#8217;s to&#8217;t indeed, sir. Marry, sir, at the request of Paris my lord, who is there in person; with him, the mortal Venus, the heart-blood of beauty, love&#8217;s invisible soul.</LINE>
 </SPEECH>
 
@@ -3242,7 +3248,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>No, sir, Helen. Could not you find out that by her attributes?</LINE>
 </SPEECH>
 
@@ -3252,7 +3258,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>PAR. SERV.</SPEAKER>
 <LINE>Sodden business! There&#8217;s a stew&#8217;d phrase indeed!</LINE>
 </SPEECH>
 
@@ -3560,9 +3566,9 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. Pandarus&#8217; orchard.</SCENELOCATION>
-<SCENEPERSONAE>(Pandarus, Troilus&#8217; Attendant, Troilus, Cressida)</SCENEPERSONAE>
+<SCENEPERSONAE>(Pandarus, Troilus&#8217; Boy, Troilus, Cressida)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Pandarus, Troilus&#8217; Attendant, meeting.</STAGEDIR>
+<STAGEDIR>Enter Pandarus, Troilus&#8217; Boy, meeting.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAN.</SPEAKER>
@@ -3570,7 +3576,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MAN.</SPEAKER>
+<SPEAKER>TRO. BOY.</SPEAKER>
 <LINE>No, sir, he stays for you to conduct him thither.</LINE>
 </SPEECH>
 
@@ -3586,7 +3592,7 @@
 <LINE>Sirrah, walk off.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Man.</STAGEDIR>
+<STAGEDIR>Exit Troilus&#8217; Boy.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAN.</SPEAKER>
@@ -3646,7 +3652,7 @@
 <LINE>The eye of majesty.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Pandar and Cressid.</STAGEDIR>
+<STAGEDIR>Enter Pandar and Cressida.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAN.</SPEAKER>
@@ -3953,9 +3959,9 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>The Grecian camp. Before Achilles&#8217; tent.</SCENELOCATION>
-<SCENEPERSONAE>(Ulysses, Diomed, Nestor, Agamemnon, Ajax, Menelaus, Calchas, Achilles, Patroclus, Thersites)</SCENEPERSONAE>
+<SCENEPERSONAE>(Ulysses, Diomedes, Nestor, Agamemnon, Ajax, Menelaus, Calchas, Achilles, Patroclus, Thersites)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Ulysses, Diomed, Nestor, Agamemnon, Ajax, Menelaus, and Calchas. Flourish.</STAGEDIR>
+<STAGEDIR>Enter Ulysses, Diomedes, Nestor, Agamemnon, Ajax, Menelaus, and Calchas. Flourish.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CAL.</SPEAKER>
@@ -4560,9 +4566,9 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Troy. A street.</SCENELOCATION>
-<SCENEPERSONAE>(Aeneas, Paris, Deiphobus, Antenor, Diomed)</SCENEPERSONAE>
+<SCENEPERSONAE>(Aeneas, Paris, Deiphobus, Antenor, Diomedes)</SCENEPERSONAE>
 
-<STAGEDIR>Enter at one door Aeneas with a torch; at another, Paris, Deiphobus, Antenor, Diomed the Grecian, and others with torches.</STAGEDIR>
+<STAGEDIR>Enter at one door Aeneas with a torch; at another, Paris, Deiphobus, Antenor, Diomedes the Grecian, and others with torches.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>PAR.</SPEAKER>
@@ -4979,7 +4985,7 @@
 <LINE>Is&#8217;t possible? No sooner got but lost? The devil take Antenor! The young prince will go mad. A plague upon Antenor! I would they had broke &#8217;s neck!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Cressid.</STAGEDIR>
+<STAGEDIR>Enter Cressida.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>CRES.</SPEAKER>
@@ -5471,7 +5477,7 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>The Grecian camp. Lists set out.</SCENELOCATION>
-<SCENEPERSONAE>(Ajax, Achilles, Patroclus, Agamemnon, Menelaus, Ulysses, Nestor, Diomed, Cressida, Hector, Paris, Aeneas, Helenus, Troilus, Attendants, Diomedes)</SCENEPERSONAE>
+<SCENEPERSONAE>(Ajax, Achilles, Patroclus, Agamemnon, Menelaus, Ulysses, Nestor,  Cressida, Hector, Paris, Aeneas, Helenus, Troilus, Attendants, Diomedes)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Ajax armed, Achilles, Patroclus, Agamemnon, Menelaus, Ulysses, Nestor, etc.</STAGEDIR>
 
@@ -5507,7 +5513,7 @@
 <LINE offset="4">&#8217;Tis but early days.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Diomed and Cressid.</STAGEDIR>
+<STAGEDIR>Enter Diomedes and Cressida.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>AGAM.</SPEAKER>
@@ -6296,7 +6302,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>The Grecian camp. Before Achilles&#8217; tent.</SCENELOCATION>
-<SCENEPERSONAE>(Achilles, Patroclus, Thersites, Agamemnon, Hector, Troilus, Ajax, Ulysses, Nestor, Menelaus, Diomed)</SCENEPERSONAE>
+<SCENEPERSONAE>(Achilles, Patroclus, Thersites, Agamemnon, Hector, Troilus, Ajax, Ulysses, Nestor, Menelaus, Diomedes)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Achilles and Patroclus.</STAGEDIR>
 
@@ -6417,7 +6423,7 @@
 <LINE>With too much blood and too little brain, these two may run mad, but, if with too much brain and too little blood they do, I&#8217;ll be a curer of madmen. Here&#8217;s Agamemnon, an honest fellow enough, and one that loves quails, but he has not so much brain as ear-wax; and the goodly transformation of Jupiter there, his brother, the bull, the primitive statue and oblique memorial of cuckolds, a thrifty shoeing-horn in a chain, hanging at his brother&#8217;s leg&#8212;to what form but that he is, should wit larded with malice, and malice fac&#8217;d with wit, turn him to? To an ass, were nothing, he is both ass and ox; to an ox, were nothing, he is both ox and ass. To be a dog, a moile, a cat, a fitchook, a toad, a lezard, an owl, a puttock, or a herring without a roe, I would not care; but to be Menelaus, I would conspire against destiny. Ask me not what I would be if I were not Thersites, for I care not to be the louse of a lazar, so I were not Menelaus. Hey-day! Sprites and fires!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Agamemnon, Hector, Troilus, Ajax, Ulysses, Nestor, Menelaus, and Diomed, with lights.</STAGEDIR>
+<STAGEDIR>Enter Agamemnon, Hector, Troilus, Ajax, Ulysses, Nestor, Menelaus, and Diomedes, with lights.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>AGAM.</SPEAKER>
@@ -6546,9 +6552,9 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. Before Calchas&#8217; tent.</SCENELOCATION>
-<SCENEPERSONAE>(Diomed, Troilus, Ulysses, Thersites, Cressida, Aeneas)</SCENEPERSONAE>
+<SCENEPERSONAE>(Diomedes, Troilus, Ulysses, Thersites, Cressida, Aeneas)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Diomed.</STAGEDIR>
+<STAGEDIR>Enter Diomedes.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DIO.</SPEAKER>
@@ -6864,7 +6870,7 @@
 <LINE>Of what I feel; I am all patience.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Cressid.</STAGEDIR>
+<STAGEDIR>Enter Cressida.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THER.</SPEAKER>
@@ -7352,6 +7358,8 @@
 <LINE>Cassandra, call my father to persuade.</LINE>
 </SPEECH>
 
+<STAGEDIR>Exit Cassandra.</STAGEDIR>
+
 <SPEECH>
 <SPEAKER>HECT.</SPEAKER>
 <LINE>No, faith, young Troilus, doff thy harness, youth,</LINE>
@@ -7587,14 +7595,14 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Plains between Troy and the Grecian camp.</SCENELOCATION>
-<SCENEPERSONAE>(Thersites, Diomed, Troilus, Hector)</SCENEPERSONAE>
+<SCENEPERSONAE>(Thersites, Diomedes, Troilus, Hector)</SCENEPERSONAE>
 
 <STAGEDIR>Alarum. Enter Thersites. Excursions.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THER.</SPEAKER>
 <LINE>Now they are clapper-clawing one another; I&#8217;ll go look on. That dissembling abominable varlet, Diomed, has got that same scurvy doting foolish young knave&#8217;s sleeve of Troy there in his helm. I would fain see them meet, that that same young Troyan ass, that loves the whore there, might send that Greekish whoremasterly villain with the sleeve back to the dissembling luxurious drab, of a sleeveless arrant. A&#8217; th&#8217; t&#8217; other side, the policy of those crafty swearing rascals, that stale old mouse-eaten dry cheese, Nestor, and that same dog-fox, Ulysses, is not prov&#8217;d worth a blackberry. They set me up, in policy, that mongril cur, Ajax, against that dog of as bad a kind, Achilles; and now is the cur Ajax prouder than the cur Achilles, and will not arm today; whereupon the Grecians began to proclaim barbarism, and policy grows into an ill opinion.</LINE>
-<STAGEDIR>Enter Diomed, and Troilus following.</STAGEDIR>
+<STAGEDIR>Enter Diomedes, and Troilus following.</STAGEDIR>
 <LINE>Soft, here comes sleeve and t&#8217; other.</LINE>
 </SPEECH>
 
@@ -7651,9 +7659,9 @@
 <SCENE>
 <SCENETITLE>Scene 5</SCENETITLE>
 <SCENELOCATION>Another part of the plains.</SCENELOCATION>
-<SCENEPERSONAE>(Diomed, Servant, Agamemnon, Nestor, Ulysses, Ajax, Achilles)</SCENEPERSONAE>
+<SCENEPERSONAE>(Diomedes, Diomedes&#8217;s Servant, Agamemnon, Nestor, Ulysses, Ajax, Achilles)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Diomed and Servant.</STAGEDIR>
+<STAGEDIR>Enter Diomedes and his Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DIO.</SPEAKER>
@@ -7764,7 +7772,7 @@
 <SCENE>
 <SCENETITLE>Scene 6</SCENETITLE>
 <SCENELOCATION>Another part of the plains.</SCENELOCATION>
-<SCENEPERSONAE>(Ajax, Diomed, Troilus, Hector, Achilles, Greek knight)</SCENEPERSONAE>
+<SCENEPERSONAE>(Ajax, Diomedes, Troilus, Hector, Achilles, Greek Knight)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Ajax.</STAGEDIR>
 
@@ -7773,7 +7781,7 @@
 <LINE>Troilus, thou coward Troilus, show thy head!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Diomed.</STAGEDIR>
+<STAGEDIR>Enter Diomedes.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>DIO.</SPEAKER>
@@ -7878,7 +7886,7 @@
 
 <STAGEDIR>Exit.</STAGEDIR>
 
-<STAGEDIR>Enter one in armor.</STAGEDIR>
+<STAGEDIR>Enter a Greek Knight in armor.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>HECT.</SPEAKER>
@@ -7887,7 +7895,7 @@
 <LINE>I&#8217;ll frush it and unlock the rivets all,</LINE>
 <LINE>But I&#8217;ll be master of it.</LINE>
 
-<STAGEDIR>Exit one in armor.</STAGEDIR>
+<STAGEDIR>Exit Greek Knight.</STAGEDIR>
 <LINE offset="5">Wilt thou not, beast, abide?</LINE>
 <LINE>Why then fly on, I&#8217;ll hunt thee for thy hide.</LINE>
 </SPEECH>
@@ -8029,9 +8037,9 @@
 <SCENE>
 <SCENETITLE>Scene 9</SCENETITLE>
 <SCENELOCATION>Another part of the plains.</SCENELOCATION>
-<SCENEPERSONAE>(Agamemnon, Ajax, Menelaus, Nestor, Diomed, Soldiers)</SCENEPERSONAE>
+<SCENEPERSONAE>(Agamemnon, Ajax, Menelaus, Nestor, Diomedes, Myrmidons)</SCENEPERSONAE>
 
-<STAGEDIR>Sound retreat. Shout. Enter Agamemnon, Ajax, Menelaus, Nestor, Diomed, and the rest, marching.</STAGEDIR>
+<STAGEDIR>Sound retreat. Shout. Enter Agamemnon, Ajax, Menelaus, Nestor, Diomedes, and the rest, marching.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>AGAM.</SPEAKER>
@@ -8044,7 +8052,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SOLDIERS.</SPEAKER>
+<SPEAKER>MYRMIDONS.</SPEAKER>
 <STAGEDIR>Within.</STAGEDIR>
 <LINE>Achilles! Achilles! Hector&#8217;s slain! Achilles!</LINE>
 </SPEECH>

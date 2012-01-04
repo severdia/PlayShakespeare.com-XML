@@ -55,13 +55,39 @@
 <PERSONA>Officers</PERSONA>
 <PERSONA>Soldiers</PERSONA>
 <PERSONA short="ALL OTHER BANDITTI., ALL BANDITTI.">Other Bandits</PERSONA>
-<PERSONA short="1. BAN., ALL BANDITTI.">First Bandit</PERSONA>
-<PERSONA short="2. BAN., ALL BANDITTI.">Second Bandit</PERSONA>
-<PERSONA short="3. BAN., ALL BANDITTI.">Third Bandit</PERSONA>
+<PERSONA short="1. BAN., ALL BAN.">First Bandit</PERSONA>
+<PERSONA short="2. BAN., ALL BAN.">Second Bandit</PERSONA>
+<PERSONA short="3. BAN., ALL BAN.">Third Bandit</PERSONA>
 <PERSONA short="SERV., THREE SERVANTS.">Servant</PERSONA>
 <PERSONA short="2. SERV.">Second Servant</PERSONA>
 <PERSONA short="3. SERV.">Third Servant</PERSONA>
 <PERSONA>Attendants</PERSONA>
+
+
+SOLD.
+
+Change VAR. SERV in 2.2 to  1. VAR. SERV.
+
+Timon's First Servant   1. TIM. SERV.
+
+Timon's Second Servant   2. TIM. SERV.
+
+Timon's Third Servant  3. TIM. SERV.
+
+Messenger from Ventidius   MESS. VENT.
+
+First Lady Amazon Masker     1. LADY. MASK., ALL LADY. MASK.
+
+Flaminius, Servilius, and Timon's First Servant.      THREE SERVANTS.
+
+Lucullus’s Servant    LUCUL. SERV.
+
+Timon's Page  TIM. PAGE.
+
+Bandits   1. BAN., 2. BAN., 3. BAN., ALL OTHER BAN., ALL BAN.
+
+
+
 </PERSONAE>
 
 <ACT>
@@ -69,7 +95,7 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>Athens. A hall in Timon&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Poet, Painter, Jeweller, Merchant, Senators, Lord Timon, Messenger, Lucilius, Servants, Old Athenian, Apemantus, Messenger, Alcibiades, Lords)</SCENEPERSONAE>
+<SCENEPERSONAE>(Poet, Painter, Jeweller, Merchant, Senators, Lord Timon, Messenger, Lucilius, Servants, Old Athenian, Apemantus, Messenger from Ventidius, Alcibiades, Lords)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Poet, Painter, Jeweller, Merchant, at several doors.</STAGEDIR>
 
@@ -345,7 +371,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. VENT.</SPEAKER>
 <LINE>Ay, my good lord, five talents is his debt,</LINE>
 <LINE>His means most short, his creditors most strait.</LINE>
 <LINE>Your honorable letter he desires</LINE>
@@ -363,7 +389,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. VENT.</SPEAKER>
 <LINE>Your lordship ever binds him.</LINE>
 </SPEECH>
 
@@ -376,7 +402,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>MESS.</SPEAKER>
+<SPEAKER>MESS. VENT.</SPEAKER>
 <LINE>All happiness to your honor!</LINE>
 </SPEECH>
 
@@ -1149,16 +1175,16 @@
 <LINE>Feasts are too proud to give thanks to the gods.</LINE>
 
 <STAGEDIR>Apemantus&#8217; grace.</STAGEDIR>
-<LINE offset="2">Immortal gods, I crave no pelf,</LINE>
-<LINE offset="2">I pray for no man but myself.</LINE>
-<LINE offset="2">Grant I may never prove so fond,</LINE>
-<LINE offset="2">To trust man on his oath or bond;</LINE>
-<LINE offset="2">Or a harlot for her weeping,</LINE>
-<LINE offset="2">Or a dog that seems a-sleeping,</LINE>
-<LINE offset="2">Or a keeper with my freedom,</LINE>
-<LINE offset="2">Or my friends, if I should need &#8217;em.</LINE>
-<LINE offset="2">Amen. So fall to&#8217;t:</LINE>
-<LINE offset="2">Rich men sin, and I eat root.</LINE>
+<LINE><RECITE>Immortal gods, I crave no pelf,</RECITE></LINE>
+<LINE><RECITE>I pray for no man but myself.</RECITE></LINE>
+<LINE><RECITE>Grant I may never prove so fond,</RECITE></LINE>
+<LINE><RECITE>To trust man on his oath or bond;</RECITE></LINE>
+<LINE><RECITE>Or a harlot for her weeping,</RECITE></LINE>
+<LINE><RECITE>Or a dog that seems a-sleeping,</RECITE></LINE>
+<LINE><RECITE>Or a keeper with my freedom,</RECITE></LINE>
+<LINE><RECITE>Or my friends, if I should need &#8217;em.</RECITE></LINE>
+<LINE><RECITE>Amen. So fall to&#8217;t:</RECITE></LINE>
+<LINE><RECITE>Rich men sin, and I eat root.</RECITE></LINE>
 
 <STAGEDIR>Eats and drinks.</STAGEDIR>
 <LINE>Much good dich thy good heart, Apemantus!</LINE>
@@ -1231,12 +1257,12 @@
 <SPEAKER>TIM.</SPEAKER>
 <LINE>What means that trump?</LINE>
 
-<STAGEDIR>Enter Servant.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s First Servant.</STAGEDIR>
 <LINE offset="5">How now?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE>Please you, my lord, there are certain ladies most desirous of admittance.</LINE>
 </SPEECH>
 
@@ -1246,7 +1272,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE>There comes with them a forerunner, my lord, which bears that office to signify their pleasures.</LINE>
 </SPEECH>
 
@@ -1255,7 +1281,7 @@
 <LINE>I pray let them be admitted.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Timon&#8217;s First Servant.</STAGEDIR>
 
 <STAGEDIR>Enter Cupid.</STAGEDIR>
 
@@ -1316,7 +1342,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. LADY.</SPEAKER>
+<SPEAKER>1. LADY. MASK.</SPEAKER>
 <LINE>My lord, you take us even at the best.</LINE>
 </SPEECH>
 
@@ -1332,7 +1358,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL LADIES.</SPEAKER>
+<SPEAKER>ALL LADY. MASK.</SPEAKER>
 <LINE>Most thankfully, my lord.</LINE>
 </SPEECH>
 
@@ -1366,7 +1392,7 @@
 <LINE>That man might ne&#8217;er be wretched for his mind.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit.</STAGEDIR>
+<STAGEDIR>Exit. Enter Timon&#8217;s First Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. LORD.</SPEAKER>
@@ -1374,7 +1400,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE>Here, my lord, in readiness.</LINE>
 </SPEECH>
 
@@ -1383,7 +1409,7 @@
 <LINE>Our horses!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Flavius with the casket.</STAGEDIR>
+<STAGEDIR>Enter Flavius with the casket. Exit Timon&#8217;s First Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>TIM.</SPEAKER>
@@ -1404,10 +1430,10 @@
 <LINE>So are we all.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter a Servant.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s Second Servant.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>2. TIM. SERV.</SPEAKER>
 <LINE>My lord, there are certain nobles of the Senate</LINE>
 <LINE>Newly alighted, and come to visit you.</LINE>
 </SPEECH>
@@ -1417,7 +1443,7 @@
 <LINE>They are fairly welcome.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Timon&#8217;s Second Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FLAV.</SPEAKER>
@@ -1437,10 +1463,10 @@
 <LINE>I scarce know how.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter another Servant.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s Second Servant.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>2. TIM. SERV.</SPEAKER>
 <LINE>May it please your honor, Lord Lucius</LINE>
 <LINE>(Out of his free love) hath presented to you</LINE>
 <LINE>Four milk-white horses, trapp&#8217;d in silver.</LINE>
@@ -1451,14 +1477,14 @@
 <LINE>I shall accept them fairly; let the presents</LINE>
 <LINE>Be worthily entertain&#8217;d.</LINE>
 
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Timon&#8217;s Second Servant.</STAGEDIR>
 
-<STAGEDIR>Enter a third Servant.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s Third Servant.</STAGEDIR>
 <LINE offset="5">How now? What news?</LINE>
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SERV.</SPEAKER>
+<SPEAKER>3. TIM. SERV.</SPEAKER>
 <LINE>Please you, my lord, that honorable gentleman, Lord Lucullus, entreats your company tomorrow to hunt with him, and has sent your honor two brace of greyhounds.</LINE>
 </SPEECH>
 
@@ -1468,7 +1494,7 @@
 <LINE>Not without fair reward.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Timon&#8217;s Third Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FLAV.</SPEAKER>
@@ -1708,7 +1734,7 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>The same. A hall in Timon&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Steward Flavius, Caphis, Servants of Isidore and Varro, Timon, Alcibiades, Apemantus, Fool, Page, Flaminius, Servilius, Servant)</SCENEPERSONAE>
+<SCENEPERSONAE>(Steward Flavius, Caphis, Servants of Isidore and Varro, Timon, Alcibiades, Apemantus, Fool, Page, Flaminius, Servilius, Timon&#8217;s First Servant)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Steward Flavius with many bills in his hand.</STAGEDIR>
 
@@ -1735,7 +1761,7 @@
 
 <SPEECH>
 <SPEAKER>VAR. SERV.</SPEAKER>
-<LINE offset="5">is&#8217;t not your business too?</LINE>
+<LINE offset="5">Is&#8217;t not your business too?</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1918,7 +1944,9 @@
 
 <SPEECH>
 <SPEAKER>APEM.</SPEAKER>
-<LINE>No, &#8217;tis to thyself.<STAGEDIR>To the Fool.</STAGEDIR>Come away.</LINE>
+<LINE>No, &#8217;tis to thyself.</LINE>
+<STAGEDIR>To the Fool.</STAGEDIR>
+<LINE>Come away.</LINE>
 </SPEECH>
 
 <SPEECH>
@@ -1982,7 +2010,7 @@
 <LINE>Good, gramercy.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Page.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s Page.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FOOL.</SPEAKER>
@@ -1990,7 +2018,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>PAGE.</SPEAKER>
+<SPEAKER>TIM. PAGE.</SPEAKER>
 <STAGEDIR>To the Fool.</STAGEDIR>
 <LINE>Why, how now, captain? What do you in this wise company? How dost thou, Apemantus?</LINE>
 </SPEECH>
@@ -2001,7 +2029,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>PAGE.</SPEAKER>
+<SPEAKER>TIM. PAGE.</SPEAKER>
 <LINE>Prithee, Apemantus, read me the superscription of these letters, I know not which is which.</LINE>
 </SPEECH>
 
@@ -2011,7 +2039,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>PAGE.</SPEAKER>
+<SPEAKER>TIM. PAGE.</SPEAKER>
 <LINE>No.</LINE>
 </SPEECH>
 
@@ -2021,7 +2049,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>PAGE.</SPEAKER>
+<SPEAKER>TIM. PAGE.</SPEAKER>
 <LINE>Thou wast whelp&#8217;d a dog, and thou shalt famish a dog&#8217;s death. Answer not, I am gone.</LINE>
 </SPEECH>
 
@@ -2258,7 +2286,7 @@
 <LINE>Within there! Flaminius! Servilius!</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter three Servants: Flaminius, Servilius, and another.</STAGEDIR>
+<STAGEDIR>Enter three servants: Flaminius, Servilius, and Timon&#8217;s First Servant.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>THREE SERVANTS.</SPEAKER>
@@ -2275,7 +2303,7 @@
 <LINE>As you have said, my lord.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt the three Servants.</STAGEDIR>
+<STAGEDIR>Exeunt the three servants.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>FLAV.</SPEAKER>
@@ -2358,12 +2386,12 @@
 <SCENE>
 <SCENETITLE>Scene 1</SCENETITLE>
 <SCENELOCATION>A room in Lucullus&#8217; house.</SCENELOCATION>
-<SCENEPERSONAE>(Flaminius, Lucullus, Servant)</SCENEPERSONAE>
+<SCENEPERSONAE>(Flaminius, Lucullus, Lucullus&#8217;s Servant)</SCENEPERSONAE>
 
-<STAGEDIR>Flaminius waiting to speak with a lord Lucullus from his master, enters a Servant to him.</STAGEDIR>
+<STAGEDIR>Flaminius waiting to speak with a lord Lucullus from his master, enters Lucullus&#8217;s Servant to him.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>LUCUL. SERV.</SPEAKER>
 <LINE>I have told my lord of you, he is coming down to you.</LINE>
 </SPEECH>
 
@@ -2375,7 +2403,7 @@
 <STAGEDIR>Enter Lucullus.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>LUCUL. SERV.</SPEAKER>
 <LINE>Here&#8217;s my lord.</LINE>
 </SPEECH>
 
@@ -2383,7 +2411,7 @@
 <SPEAKER>LUCUL.</SPEAKER>
 <STAGEDIR>Aside.</STAGEDIR>
 <LINE>One of Lord Timon&#8217;s men? A gift, I warrant. Why, this hits right; I dreamt of a silver basin and ew&#8217;r tonight.&#8212;Flaminius, honest Flaminius, you are very respectively welcome, sir. Fill me some wine.</LINE>
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Lucullus&#8217;s Servant.</STAGEDIR>
 <LINE>And how does that honorable, complete, free-hearted gentleman of Athens, thy very bountiful good lord and master?</LINE>
 </SPEECH>
 
@@ -2407,10 +2435,10 @@
 <LINE>La, la, la, la! &#8220;nothing doubting,&#8221; says he? Alas, good lord! A noble gentleman &#8217;tis, if he would not keep so good a house. Many a time and often I ha&#8217; din&#8217;d with him, and told him on&#8217;t, and come again to supper to him of purpose to have him spend less, and yet he would embrace no counsel, take no warning by my coming. Every man has his fault, and honesty is his. I ha&#8217; told him on&#8217;t, but I could ne&#8217;er get him from&#8217;t.</LINE>
 </SPEECH>
 
-<STAGEDIR>Enter Servant with wine.</STAGEDIR>
+<STAGEDIR>Enter Lucullus&#8217;s Servant with wine.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>LUCUL. SERV.</SPEAKER>
 <LINE>Please your lordship, here is the wine.</LINE>
 </SPEECH>
 
@@ -2429,7 +2457,7 @@
 <LINE>I have observ&#8217;d thee always for a towardly prompt spirit&#8212;give thee thy due&#8212;and one that knows what belongs to reason; and canst use the time well, if the time use thee well. Good parts in thee!</LINE>
 <STAGEDIR>To Servant.</STAGEDIR>
 <LINE>Get you gone, sirrah.</LINE>
-<STAGEDIR>Exit Servant.</STAGEDIR>
+<STAGEDIR>Exit Lucullus&#8217;s Servant.</STAGEDIR>
 <LINE>Draw nearer, honest Flaminius. Thy lord&#8217;s a bountiful gentleman, but thou art wise, and thou know&#8217;st well enough (although thou com&#8217;st to me) that this is no time to lend money, especially upon bare friendship without security. Here&#8217;s three solidares for thee; good boy, wink at me, and say thou saw&#8217;st me not. Fare thee well.</LINE>
 </SPEECH>
 
@@ -2638,9 +2666,9 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>A room in Sempronius&#8217; house.</SCENELOCATION>
-<SCENEPERSONAE>(Servant, Sempronius)</SCENEPERSONAE>
+<SCENEPERSONAE>(Timon&#8217;s First Servant, Sempronius)</SCENEPERSONAE>
 
-<STAGEDIR>Enter a third Servant with Sempronius, another of Timon&#8217;s friends.</STAGEDIR>
+<STAGEDIR>Enter Timon&#8217;s First Servant with Sempronius, another of Timon&#8217;s friends.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SEM.</SPEAKER>
@@ -2652,7 +2680,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE offset="6">My lord,</LINE>
 <LINE>They have all been touch&#8217;d and found base metal,</LINE>
 <LINE>For they have all denied him.</LINE>
@@ -2685,7 +2713,7 @@
 <STAGEDIR>Exit.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE>Excellent! Your lordship&#8217;s a goodly villain. The devil knew not what he did when he made man politic; he cross&#8217;d himself by&#8217;t; and I cannot think but, in the end, the villainies of man will set him clear. How fairly this lord strives to appear foul! Takes virtuous copies to be wicked; like those that under hot ardent zeal would set whole realms on fire; of such a nature is his politic love.</LINE>
 <LINE>This was my lord&#8217;s best hope, now all are fled,</LINE>
 <LINE>Save only the gods. Now his friends are dead,</LINE>
@@ -3760,12 +3788,12 @@
 <SCENE>
 <SCENETITLE>Scene 2</SCENETITLE>
 <SCENELOCATION>Athens. A room in Timon&#8217;s house.</SCENELOCATION>
-<SCENEPERSONAE>(Steward Flavius, Servants)</SCENEPERSONAE>
+<SCENEPERSONAE>(Steward Flavius, Timon&#8217;s Servants)</SCENEPERSONAE>
 
-<STAGEDIR>Enter Steward Flavius with two or three Servants.</STAGEDIR>
+<STAGEDIR>Enter Steward Flavius with two of Timon&#8217;s Servants.</STAGEDIR>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE>Hear you, Master Steward, where&#8217;s our master?</LINE>
 <LINE>Are we undone, cast off, nothing remaining?</LINE>
 </SPEECH>
@@ -3778,7 +3806,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>1. SERV.</SPEAKER>
+<SPEAKER>1. TIM. SERV.</SPEAKER>
 <LINE offset="4">Such a house broke?</LINE>
 <LINE>So noble a master fall&#8217;n, all gone, and not</LINE>
 <LINE>One friend to take his fortune by the arm,</LINE>
@@ -3786,7 +3814,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>2. SERV.</SPEAKER>
+<SPEAKER>2. TIM. SERV.</SPEAKER>
 <LINE offset="5">As we do turn our backs</LINE>
 <LINE>From our companion thrown into his grave,</LINE>
 <LINE>So his familiars to his buried fortunes</LINE>
@@ -3805,7 +3833,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>3. SERV.</SPEAKER>
+<SPEAKER>3. TIM. SERV.</SPEAKER>
 <LINE>Yet do our hearts wear Timon&#8217;s livery,</LINE>
 <LINE>That see I by our faces; we are fellows still,</LINE>
 <LINE>Serving alike in sorrow. Leak&#8217;d is our bark,</LINE>
@@ -3858,7 +3886,7 @@
 <SCENE>
 <SCENETITLE>Scene 3</SCENETITLE>
 <SCENELOCATION>Woods and cave, near the seashore.</SCENELOCATION>
-<SCENEPERSONAE>(Timon, Alcibiades, Phrynia and Timandra, Apemantus, Banditti, Steward Flavius)</SCENEPERSONAE>
+<SCENEPERSONAE>(Timon, Alcibiades, Phrynia and Timandra, Apemantus, Bandits, Steward Flavius)</SCENEPERSONAE>
 
 <STAGEDIR>Enter Timon in the woods.</STAGEDIR>
 
@@ -4778,7 +4806,7 @@
 
 <STAGEDIR>Exit Apemantus.</STAGEDIR>
 
-<STAGEDIR>Enter the Banditti.</STAGEDIR>
+<STAGEDIR>Enter the Bandits.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>1. BAN.</SPEAKER>
@@ -4806,7 +4834,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL OTHER BANDITTI.</SPEAKER>
+<SPEAKER>ALL OTHER BAN.</SPEAKER>
 <LINE>Where?</LINE>
 </SPEECH>
 
@@ -4821,7 +4849,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL OTHER BANDITTI.</SPEAKER>
+<SPEAKER>ALL OTHER BAN.</SPEAKER>
 <LINE>&#8217;Save thee, Timon.</LINE>
 </SPEECH>
 
@@ -4831,7 +4859,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL OTHER BANDITTI.</SPEAKER>
+<SPEAKER>ALL OTHER BAN.</SPEAKER>
 <LINE>Soldiers, not thieves.</LINE>
 </SPEECH>
 
@@ -4841,7 +4869,7 @@
 </SPEECH>
 
 <SPEECH>
-<SPEAKER>ALL BANDITTI.</SPEAKER>
+<SPEAKER>ALL BAN.</SPEAKER>
 <LINE>We are not thieves, but men that much do want.</LINE>
 </SPEECH>
 
@@ -4911,7 +4939,7 @@
 <LINE>Let us first see peace in Athens. There is no time so miserable but a man may be true.</LINE>
 </SPEECH>
 
-<STAGEDIR>Exeunt Thieves, the Banditti.</STAGEDIR>
+<STAGEDIR>Exeunt Thieves, the Bandits.</STAGEDIR>
 
 <STAGEDIR>Enter the Steward Flavius to Timon.</STAGEDIR>
 
@@ -5739,7 +5767,7 @@
 <SCENE>
 <SCENETITLE>Scene 4</SCENETITLE>
 <SCENELOCATION>Before the walls of Athens.</SCENELOCATION>
-<SCENEPERSONAE>(Alcibiades, Senators, Soldier/Messenger)</SCENEPERSONAE>
+<SCENEPERSONAE>(Alcibiades, Senators, Soldier)</SCENEPERSONAE>
 
 <STAGEDIR>Trumpets sound. Enter Alcibiades with his powers before Athens.</STAGEDIR>
 
@@ -5869,7 +5897,7 @@
 
 <STAGEDIR>The Senators descend and open the gates.</STAGEDIR>
 
-<STAGEDIR>Enter Soldier as a Messenger.</STAGEDIR>
+<STAGEDIR>Enter Soldier as a messenger.</STAGEDIR>
 
 <SPEECH>
 <SPEAKER>SOLD.</SPEAKER>
