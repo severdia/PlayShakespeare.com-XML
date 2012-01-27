@@ -19,7 +19,7 @@ A number of conventions were used in the creation of the Complete Works XML:
 
 8. When a character is reading or reciting, the passage is identified with <RECITE>
 
-9, Foreign language words are wrapped in their respective language tags: <LATIN lang="la">, <FRENCH lang="fr">, <ITALIAN lang="it">, <DUTCH lang="nl">
+9, Foreign language words are wrapped in their respective language tags: <LATIN xml:lang="la">, <FRENCH xml:lang="fr">, <ITALIAN xml:lang="it">, <DUTCH xml:lang="nl">
 
 10. Where formal titles of works (play names, song titles) are mentioned, they are wrapped in <TITLEREF> or <NAMEREF>.
 
@@ -28,7 +28,7 @@ A number of conventions were used in the creation of the Complete Works XML:
 12. Where multiple characters are speaking at once, the same speaker alias is used or the characters are identified in the <SPEAKER> tag.
 
 
-The license and author information is at the bottom of each play and wrapped in <AUTHORDETAILS>. This information my be hidden using XSL/CSS, but may not be removed.
+The license and author information is at the bottom of each play and wrapped in <AUTHORDETAILS>. This information may be hidden using XSL/CSS, but may not be removed.
 
 
 Copyright ©2005-2012 PlayShakespeare.com  All rights reserved.
