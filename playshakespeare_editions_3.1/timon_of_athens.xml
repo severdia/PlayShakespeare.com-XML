@@ -1090,16 +1090,16 @@
 <line>Feasts are too proud to give thanks to the gods.</line>
 
 <stagedir>Apemantus&#8217; grace.</stagedir>
-<line><RECITE>Immortal gods, I crave no pelf,</RECITE></line>
-<line><RECITE>I pray for no man but myself.</RECITE></line>
-<line><RECITE>Grant I may never prove so fond,</RECITE></line>
-<line><RECITE>To trust man on his oath or bond;</RECITE></line>
-<line><RECITE>Or a harlot for her weeping,</RECITE></line>
-<line><RECITE>Or a dog that seems a-sleeping,</RECITE></line>
-<line><RECITE>Or a keeper with my freedom,</RECITE></line>
-<line><RECITE>Or my friends, if I should need &#8217;em.</RECITE></line>
-<line><RECITE>Amen. So fall to&#8217;t:</RECITE></line>
-<line><RECITE>Rich men sin, and I eat root.</RECITE></line>
+<line><recite>Immortal gods, I crave no pelf,</recite></line>
+<line><recite>I pray for no man but myself.</recite></line>
+<line><recite>Grant I may never prove so fond,</recite></line>
+<line><recite>To trust man on his oath or bond;</recite></line>
+<line><recite>Or a harlot for her weeping,</recite></line>
+<line><recite>Or a dog that seems a-sleeping,</recite></line>
+<line><recite>Or a keeper with my freedom,</recite></line>
+<line><recite>Or my friends, if I should need &#8217;em.</recite></line>
+<line><recite>Amen. So fall to&#8217;t:</recite></line>
+<line><recite>Rich men sin, and I eat root.</recite></line>
 
 <stagedir>Eats and drinks.</stagedir>
 <line>Much good dich thy good heart, Apemantus!</line>
@@ -1172,12 +1172,12 @@
 <speaker>TIM.</speaker>
 <line>What means that trump?</line>
 
-<stagedir>Enter Timon&#8217;s First Servant.</stagedir>
+<stagedir>Enter Flaminius.</stagedir>
 <line offset="5">How now?</line>
 </speech>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line>Please you, my lord, there are certain ladies most desirous of admittance.</line>
 </speech>
 
@@ -1187,7 +1187,7 @@
 </speech>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line>There comes with them a forerunner, my lord, which bears that office to signify their pleasures.</line>
 </speech>
 
@@ -1196,7 +1196,7 @@
 <line>I pray let them be admitted.</line>
 </speech>
 
-<stagedir>Exit Timon&#8217;s First Servant.</stagedir>
+<stagedir>Exit Flaminius.</stagedir>
 
 <stagedir>Enter Cupid.</stagedir>
 
@@ -1307,7 +1307,7 @@
 <line>That man might ne&#8217;er be wretched for his mind.</line>
 </speech>
 
-<stagedir>Exit. Enter Timon&#8217;s First Servant.</stagedir>
+<stagedir>Exit. Enter Flaminius.</stagedir>
 
 <speech>
 <speaker>1. LORD.</speaker>
@@ -1315,7 +1315,7 @@
 </speech>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line>Here, my lord, in readiness.</line>
 </speech>
 
@@ -1324,7 +1324,7 @@
 <line>Our horses!</line>
 </speech>
 
-<stagedir>Enter Flavius with the casket. Exit Timon&#8217;s First Servant.</stagedir>
+<stagedir>Enter Flavius with the casket. Exit Flaminius.</stagedir>
 
 <speech>
 <speaker>TIM.</speaker>
@@ -1345,10 +1345,10 @@
 <line>So are we all.</line>
 </speech>
 
-<stagedir>Enter Timon&#8217;s Second Servant.</stagedir>
+<stagedir>Enter Servilius.</stagedir>
 
 <speech>
-<speaker>2. TIM. SERV.</speaker>
+<speaker>SER.</speaker>
 <line>My lord, there are certain nobles of the Senate</line>
 <line>Newly alighted, and come to visit you.</line>
 </speech>
@@ -1358,7 +1358,7 @@
 <line>They are fairly welcome.</line>
 </speech>
 
-<stagedir>Exit Timon&#8217;s Second Servant.</stagedir>
+<stagedir>Exit Servilius.</stagedir>
 
 <speech>
 <speaker>FLAV.</speaker>
@@ -1378,10 +1378,10 @@
 <line>I scarce know how.</line>
 </speech>
 
-<stagedir>Enter Timon&#8217;s Second Servant.</stagedir>
+<stagedir>Enter Servilius.</stagedir>
 
 <speech>
-<speaker>2. TIM. SERV.</speaker>
+<speaker>SER.</speaker>
 <line>May it please your honor, Lord Lucius</line>
 <line>(Out of his free love) hath presented to you</line>
 <line>Four milk-white horses, trapp&#8217;d in silver.</line>
@@ -1392,14 +1392,14 @@
 <line>I shall accept them fairly; let the presents</line>
 <line>Be worthily entertain&#8217;d.</line>
 
-<stagedir>Exit Timon&#8217;s Second Servant.</stagedir>
+<stagedir>Exit Servilius.</stagedir>
 
-<stagedir>Enter Timon&#8217;s Third Servant.</stagedir>
+<stagedir>Enter Flaminius.</stagedir>
 <line offset="5">How now? What news?</line>
 </speech>
 
 <speech>
-<speaker>3. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line>Please you, my lord, that honorable gentleman, Lord Lucullus, entreats your company tomorrow to hunt with him, and has sent your honor two brace of greyhounds.</line>
 </speech>
 
@@ -1409,7 +1409,7 @@
 <line>Not without fair reward.</line>
 </speech>
 
-<stagedir>Exit Timon&#8217;s Third Servant.</stagedir>
+<stagedir>Exit Flaminius.</stagedir>
 
 <speech>
 <speaker>FLAV.</speaker>
@@ -1649,7 +1649,7 @@
 <scene>
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A hall in Timon&#8217;s house.</scenelocation>
-<scenepersonae>(Steward Flavius, Caphis, Servants of Isidore and Varro, Timon, Alcibiades, Apemantus, Fool, Page, Flaminius, Servilius, Timon&#8217;s First Servant)</scenepersonae>
+<scenepersonae>(Steward Flavius, Caphis, Servants of Isidore and Varro, Timon, Alcibiades, Apemantus, Fool, Page, Flaminius, Servilius, Timon&#8217;s Servant)</scenepersonae>
 
 <stagedir>Enter Steward Flavius with many bills in his hand.</stagedir>
 
@@ -2201,7 +2201,7 @@
 <line>Within there! Flaminius! Servilius!</line>
 </speech>
 
-<stagedir>Enter three servants: Flaminius, Servilius, and Timon&#8217;s First Servant.</stagedir>
+<stagedir>Enter three servants: Flaminius, Servilius, and Timon&#8217;s Servant.</stagedir>
 
 <speech>
 <speaker>THREE SERVANTS.</speaker>
@@ -2581,9 +2581,9 @@
 <scene>
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Sempronius&#8217; house.</scenelocation>
-<scenepersonae>(Timon&#8217;s First Servant, Sempronius)</scenepersonae>
+<scenepersonae>(Timon&#8217;s Servant, Sempronius)</scenepersonae>
 
-<stagedir>Enter Timon&#8217;s First Servant with Sempronius, another of Timon&#8217;s friends.</stagedir>
+<stagedir>Enter Timon&#8217;s Servant with Sempronius, another of Timon&#8217;s friends.</stagedir>
 
 <speech>
 <speaker>SEM.</speaker>
@@ -2595,7 +2595,7 @@
 </speech>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>TIM. SERV.</speaker>
 <line offset="6">My lord,</line>
 <line>They have all been touch&#8217;d and found base metal,</line>
 <line>For they have all denied him.</line>
@@ -2628,7 +2628,7 @@
 <stagedir>Exit.</stagedir>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>TIM. SERV.</speaker>
 <line>Excellent! Your lordship&#8217;s a goodly villain. The devil knew not what he did when he made man politic; he cross&#8217;d himself by&#8217;t; and I cannot think but, in the end, the villainies of man will set him clear. How fairly this lord strives to appear foul! Takes virtuous copies to be wicked; like those that under hot ardent zeal would set whole realms on fire; of such a nature is his politic love.</line>
 <line>This was my lord&#8217;s best hope, now all are fled,</line>
 <line>Save only the gods. Now his friends are dead,</line>
@@ -3705,10 +3705,10 @@
 <scenelocation>Athens. A room in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Steward Flavius, Timon&#8217;s Servants)</scenepersonae>
 
-<stagedir>Enter Steward Flavius with two of Timon&#8217;s Servants.</stagedir>
+<stagedir>Enter Steward Flavius with two of Timon&#8217;s Servants, Flaminius and Servilius.</stagedir>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line>Hear you, Master Steward, where&#8217;s our master?</line>
 <line>Are we undone, cast off, nothing remaining?</line>
 </speech>
@@ -3721,7 +3721,7 @@
 </speech>
 
 <speech>
-<speaker>1. TIM. SERV.</speaker>
+<speaker>FLAM.</speaker>
 <line offset="4">Such a house broke?</line>
 <line>So noble a master fall&#8217;n, all gone, and not</line>
 <line>One friend to take his fortune by the arm,</line>
@@ -3729,7 +3729,7 @@
 </speech>
 
 <speech>
-<speaker>2. TIM. SERV.</speaker>
+<speaker>SER.</speaker>
 <line offset="5">As we do turn our backs</line>
 <line>From our companion thrown into his grave,</line>
 <line>So his familiars to his buried fortunes</line>
@@ -3748,7 +3748,7 @@
 </speech>
 
 <speech>
-<speaker>3. TIM. SERV.</speaker>
+<speaker>TIM. SERV.</speaker>
 <line>Yet do our hearts wear Timon&#8217;s livery,</line>
 <line>That see I by our faces; we are fellows still,</line>
 <line>Serving alike in sorrow. Leak&#8217;d is our bark,</line>
@@ -5665,8 +5665,8 @@
 <line>Who&#8217;s here? Speak ho! No answer? What is this?</line>
 
 <stagedir>Reads.</stagedir>
-<line><RECITE>&#8220;Timon is dead, who hath outstretch&#8217;d his span:</RECITE></line>
-<line><RECITE>Some beast read this; there does not live a man.&#8221;</RECITE></line>
+<line><recite>&#8220;Timon is dead, who hath outstretch&#8217;d his span:</recite></line>
+<line><recite>Some beast read this; there does not live a man.&#8221;</recite></line>
 <line>Dead, sure, and this his grave. What&#8217;s on this tomb</line>
 <line>I cannot read; the character I&#8217;ll take with wax;</line>
 <line>Our captain hath in every figure skill,</line>
@@ -5826,10 +5826,10 @@
 <speech>
 <speaker>ALCIB.</speaker>
 <stagedir>Reads the epitaph.</stagedir>
-<line><RECITE>&#8220;Here lies a wretched corse, of wretched soul bereft;</RECITE></line>
-<line><RECITE>Seek not my name: a plague consume you, wicked caitiffs left!</RECITE></line>
-<line><RECITE>Here lie I, Timon, who, alive, all living men did hate;</RECITE></line>
-<line><RECITE>Pass by and curse thy fill, but pass and stay not here thy gait.&#8221;</RECITE></line>
+<line><recite>&#8220;Here lies a wretched corse, of wretched soul bereft;</recite></line>
+<line><recite>Seek not my name: a plague consume you, wicked caitiffs left!</recite></line>
+<line><recite>Here lie I, Timon, who, alive, all living men did hate;</recite></line>
+<line><recite>Pass by and curse thy fill, but pass and stay not here thy gait.&#8221;</recite></line>
 <line>These well express in thee thy latter spirits:</line>
 <line>Though thou abhorr&#8217;dst in us our human griefs,</line>
 <line>Scorn&#8217;dst our brains&#8217; flow, and those our droplets which</line>

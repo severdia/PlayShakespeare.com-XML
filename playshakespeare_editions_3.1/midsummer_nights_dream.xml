@@ -546,14 +546,14 @@
 <speech>
 <speaker>BOT.</speaker>
 <line>That will ask some tears in the true performing of it. If I do it, let the audience look to their eyes. I will move storms; I will condole in some measure. To the rest&#8212;yet my chief humor is for a tyrant. I could play Ercles rarely, or a part to tear a cat in, to make all split.</line>
-<line><RECITE>&#8220;The raging rocks</RECITE></line>
-<line><RECITE>And shivering shocks</RECITE></line>
-<line><RECITE>Shall break the locks</RECITE></line>
-<line><RECITE>Of prison gates;</RECITE></line>
-<line><RECITE>And Phibbus&#8217; car</RECITE></line>
-<line><RECITE>Shall shine from far,</RECITE></line>
-<line><RECITE>And make and mar</RECITE></line>
-<line><RECITE>The foolish Fates.&#8221;</RECITE></line>
+<line><recite>&#8220;The raging rocks</recite></line>
+<line><recite>And shivering shocks</recite></line>
+<line><recite>Shall break the locks</recite></line>
+<line><recite>Of prison gates;</recite></line>
+<line><recite>And Phibbus&#8217; car</recite></line>
+<line><recite>Shall shine from far,</recite></line>
+<line><recite>And make and mar</recite></line>
+<line><recite>The foolish Fates.&#8221;</recite></line>
 <line>This was lofty! Now name the rest of the players. This is Ercles&#8217; vein, a tyrant&#8217;s vein; a lover is more condoling.</line>
 </speech>
 
@@ -3501,20 +3501,20 @@
 <speech>
 <speaker>THE.</speaker>
 <stagedir>Reads.</stagedir>
-<line><RECITE>&#8220;The battle with the Centaurs, to be sung</RECITE></line>
-<line><RECITE>By an Athenian eunuch to the harp.&#8221;</RECITE></line>
+<line><recite>&#8220;The battle with the Centaurs, to be sung</recite></line>
+<line><recite>By an Athenian eunuch to the harp.&#8221;</recite></line>
 <line>We&#8217;ll none of that: that have I told my love,</line>
 <line>In glory of my kinsman Hercules.</line>
-<line><RECITE>&#8220;The riot of the tipsy Bacchanals,</RECITE></line>
-<line><RECITE>Tearing the Thracian singer in their rage.&#8221;</RECITE></line>
+<line><recite>&#8220;The riot of the tipsy Bacchanals,</recite></line>
+<line><recite>Tearing the Thracian singer in their rage.&#8221;</recite></line>
 <line>That is an old device; and it was play&#8217;d</line>
 <line>When I from Thebes came last a conqueror.</line>
-<line><RECITE>&#8220;The thrice three Muses mourning for the death</RECITE></line>
-<line><RECITE>Of Learning, late deceas&#8217;d in beggary.&#8221;</RECITE></line>
+<line><recite>&#8220;The thrice three Muses mourning for the death</recite></line>
+<line><recite>Of Learning, late deceas&#8217;d in beggary.&#8221;</recite></line>
 <line>That is some satire, keen and critical,</line>
 <line>Not sorting with a nuptial ceremony.</line>
-<line><RECITE>&#8220;A tedious brief scene of young Pyramus</RECITE></line>
-<line><RECITE>And his love Thisby; very tragical mirth.&#8221;</RECITE></line>
+<line><recite>&#8220;A tedious brief scene of young Pyramus</recite></line>
+<line><recite>And his love Thisby; very tragical mirth.&#8221;</recite></line>
 <line>Merry and tragical? Tedious and brief?</line>
 <line>That is hot ice and wondrous strange snow.</line>
 <line>How shall we find the concord of this discord?</line>
@@ -3626,7 +3626,7 @@
 <stagedir>Enter Quince for the Prologue.</stagedir>
 
 <speech>
-<speaker>PRO.</speaker>
+<speaker alias="QUIN.">PRO.</speaker>
 <line>If we offend, it is with our good will.</line>
 <line>That you should think, we come not to offend,</line>
 <line>But with good will. To show our simple skill,</line>
@@ -3662,7 +3662,7 @@
 <stagedir>Enter with a Trumpet before them Pyramus and Thisby and Wall and Moonshine and Lion.</stagedir>
 
 <speech>
-<speaker>PRO.</speaker>
+<speaker alias="QUIN.">PRO.</speaker>
 <line>Gentles, perchance you wonder at this show;</line>
 <line>But wonder on till truth make all things plain.</line>
 <line>This man is Pyramus, if you would know;</line>
@@ -3703,7 +3703,7 @@
 </speech>
 
 <speech>
-<speaker>WALL.</speaker>
+<speaker alias="SNOUT.">WALL.</speaker>
 <line>In this same enterlude it doth befall</line>
 <line>That I, one Snout by name, present a wall;</line>
 <line>And such a wall, as I would have you think,</line>
@@ -3734,7 +3734,7 @@
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>O grim-look&#8217;d night! O night with hue so black!</line>
 <line>O night, which ever art when day is not!</line>
 <line>O night, O night! Alack, alack, alack,</line>
@@ -3757,14 +3757,14 @@
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>No, in truth, sir, he should not. &#8220;Deceiving me&#8221; is Thisby&#8217;s cue. She is to enter now, and I am to spy her through the wall. You shall see it will fall pat as I told you. Yonder she comes.</line>
 </speech>
 
 <stagedir>Enter Thisby.</stagedir>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>O wall, full often hast thou heard my moans,</line>
 <line>For parting my fair Pyramus and me!</line>
 <line>My cherry lips have often kiss&#8217;d thy stones,</line>
@@ -3772,62 +3772,62 @@
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>I see a voice! Now will I to the chink,</line>
 <line>To spy and I can hear my Thisby&#8217;s face.</line>
 <line>Thisby!</line>
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>My love thou art, my love I think.</line>
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>Think what thou wilt, I am thy lover&#8217;s grace;</line>
 <line>And, like Limander, am I trusty still.</line>
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>And I, like Helen, till the Fates me kill.</line>
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>Not Shafalus to Procrus was so true.</line>
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>As Shafalus to Procrus, I to you.</line>
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>O, kiss me through the hole of this vild wall!</line>
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>I kiss the wall&#8217;s hole, not your lips at all.</line>
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>Wilt thou at Ninny&#8217;s tomb meet me straightway?</line>
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>&#8217;Tide life, &#8217;tide death, I come without delay.</line>
 </speech>
 
 <stagedir>Exeunt Pyramus and Thisby.</stagedir>
 
 <speech>
-<speaker>WALL.</speaker>
+<speaker alias="SNOUT.">WALL.</speaker>
 <line>Thus have I, Wall, my part discharged so;</line>
 <line>And being done, thus Wall away doth go.</line>
 </speech>
@@ -3867,7 +3867,7 @@
 <stagedir>Enter Lion and Moonshine.</stagedir>
 
 <speech>
-<speaker>LION.</speaker>
+<speaker alias="SNUG.">LION.</speaker>
 <line>You, ladies, you, whose gentle hearts do fear</line>
 <line>The smallest monstrous mouse that creeps on floor,</line>
 <line>May now, perchance, both quake and tremble here,</line>
@@ -3909,7 +3909,7 @@
 </speech>
 
 <speech>
-<speaker>MOON.</speaker>
+<speaker alias="STAR.">MOON.</speaker>
 <line>This lanthorn doth the horned moon present&#8212;</line>
 </speech>
 
@@ -3924,7 +3924,7 @@
 </speech>
 
 <speech>
-<speaker>MOON.</speaker>
+<speaker alias="STAR.">MOON.</speaker>
 <line>This lanthorn doth the horned moon present;</line>
 <line>Myself the man i&#8217; th&#8217; moon do seem to be.</line>
 </speech>
@@ -3955,7 +3955,7 @@
 </speech>
 
 <speech>
-<speaker>MOON.</speaker>
+<speaker alias="STAR.">MOON.</speaker>
 <line>All that I have to say is to tell you that the lanthorn is the moon, I the man i&#8217; th&#8217; moon, this thorn-bush my thorn-bush, and this dog my dog.</line>
 </speech>
 
@@ -3967,12 +3967,12 @@
 <stagedir>Enter Thisby.</stagedir>
 
 <speech>
-<speaker>THIS.</speaker>
+<speaker alias="FLU.">THIS.</speaker>
 <line>This is old Ninny&#8217;s tomb. Where is my love?</line>
 </speech>
 
 <speech>
-<speaker>LION.</speaker>
+<speaker alias="SNUG.">LION.</speaker>
 <line>O!</line>
 </speech>
 
@@ -4015,23 +4015,23 @@
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>Sweet Moon, I thank thee for thy sunny beams;</line>
 <line>I thank thee, Moon, for shining now so bright;</line>
 <line>For by thy gracious, golden, glittering gleams,</line>
 <line>I trust to take of truest Thisby sight.</line>
-<line><RECITE>But stay! O spite!</RECITE></line>
-<line><RECITE>But mark, poor knight,</RECITE></line>
-<line><RECITE>What dreadful dole is here!</RECITE></line>
-<line><RECITE>Eyes, do you see?</RECITE></line>
-<line><RECITE>How can it be?</RECITE></line>
-<line><RECITE>O dainty duck! O dear!</RECITE></line>
-<line><RECITE>Thy mantle good,</RECITE></line>
-<line><RECITE>What, stain&#8217;d with blood?</RECITE></line>
-<line><RECITE>Approach, ye Furies fell!</RECITE></line>
-<line><RECITE>O Fates, come, come,</RECITE></line>
-<line><RECITE>Cut thread and thrum,</RECITE></line>
-<line><RECITE>Quail, crush, conclude, and quell!</RECITE></line>
+<line><recite>But stay! O spite!</recite></line>
+<line><recite>But mark, poor knight,</recite></line>
+<line><recite>What dreadful dole is here!</recite></line>
+<line><recite>Eyes, do you see?</recite></line>
+<line><recite>How can it be?</recite></line>
+<line><recite>O dainty duck! O dear!</recite></line>
+<line><recite>Thy mantle good,</recite></line>
+<line><recite>What, stain&#8217;d with blood?</recite></line>
+<line><recite>Approach, ye Furies fell!</recite></line>
+<line><recite>O Fates, come, come,</recite></line>
+<line><recite>Cut thread and thrum,</recite></line>
+<line><recite>Quail, crush, conclude, and quell!</recite></line>
 </speech>
 
 <speech>
@@ -4045,27 +4045,27 @@
 </speech>
 
 <speech>
-<speaker>PYR.</speaker>
+<speaker alias="BOT.">PYR.</speaker>
 <line>O, wherefore, Nature, didst thou lions frame?</line>
 <line>Since lion vild hath here deflow&#8217;r&#8217;d my dear;</line>
 <line>Which is&#8212;no, no&#8212;which was the fairest dame</line>
 <line>That liv&#8217;d, that lov&#8217;d, that lik&#8217;d, that look&#8217;d with cheer.</line>
-<line><RECITE>Come, tears, confound,</RECITE></line>
-<line><RECITE>Out, sword, and wound</RECITE></line>
-<line><RECITE>The pap of Pyramus;</RECITE></line>
-<line><RECITE>Ay, that left pap,</RECITE></line>
-<line><RECITE>Where heart doth hop.</RECITE></line>
+<line><recite>Come, tears, confound,</recite></line>
+<line><recite>Out, sword, and wound</recite></line>
+<line><recite>The pap of Pyramus;</recite></line>
+<line><recite>Ay, that left pap,</recite></line>
+<line><recite>Where heart doth hop.</recite></line>
 
 <stagedir>Stabs himself.</stagedir>
-<line><RECITE>Thus die I, thus, thus, thus.</RECITE></line>
-<line><RECITE>Now am I dead,</RECITE></line>
-<line><RECITE>Now am I fled;</RECITE></line>
-<line><RECITE>My soul is in the sky.</RECITE></line>
-<line><RECITE>Tongue, lose thy light,</RECITE></line>
-<line><RECITE>Moon, take thy flight,</RECITE></line>
+<line><recite>Thus die I, thus, thus, thus.</recite></line>
+<line><recite>Now am I dead,</recite></line>
+<line><recite>Now am I fled;</recite></line>
+<line><recite>My soul is in the sky.</recite></line>
+<line><recite>Tongue, lose thy light,</recite></line>
+<line><recite>Moon, take thy flight,</recite></line>
 
 <stagedir>Exit Moonshine.</stagedir>
-<line><RECITE>Now die, die, die, die, die.</RECITE></line>
+<line><recite>Now die, die, die, die, die.</recite></line>
 </speech>
 
 <stagedir>Dies.</stagedir>
@@ -4118,33 +4118,33 @@
 </speech>
 
 <speech>
-<speaker>THIS.</speaker>
-<line><RECITE>Asleep, my love?</RECITE></line>
-<line><RECITE>What, dead, my dove?</RECITE></line>
-<line><RECITE>O Pyramus, arise!</RECITE></line>
-<line><RECITE>Speak, speak! Quite dumb?</RECITE></line>
-<line><RECITE>Dead, dead? A tomb</RECITE></line>
-<line><RECITE>Must cover thy sweet eyes.</RECITE></line>
-<line><RECITE>These lily lips,</RECITE></line>
-<line><RECITE>This cherry nose,</RECITE></line>
-<line><RECITE>These yellow cowslip cheeks,</RECITE></line>
-<line><RECITE>Are gone, are gone!</RECITE></line>
-<line><RECITE>Lovers, make moan;</RECITE></line>
-<line><RECITE>His eyes were green as leeks.</RECITE></line>
-<line><RECITE>O Sisters Three,</RECITE></line>
-<line><RECITE>Come, come to me,</RECITE></line>
-<line><RECITE>With hands as pale as milk;</RECITE></line>
-<line><RECITE>Lay them in gore,</RECITE></line>
-<line><RECITE>Since you have shore</RECITE></line>
-<line><RECITE>With shears his thread of silk.</RECITE></line>
-<line><RECITE>Tongue, not a word!</RECITE></line>
-<line><RECITE>Come, trusty sword,</RECITE></line>
-<line><RECITE>Come, blade, my breast imbrue!</RECITE></line>
+<speaker alias="FLU.">THIS.</speaker>
+<line><recite>Asleep, my love?</recite></line>
+<line><recite>What, dead, my dove?</recite></line>
+<line><recite>O Pyramus, arise!</recite></line>
+<line><recite>Speak, speak! Quite dumb?</recite></line>
+<line><recite>Dead, dead? A tomb</recite></line>
+<line><recite>Must cover thy sweet eyes.</recite></line>
+<line><recite>These lily lips,</recite></line>
+<line><recite>This cherry nose,</recite></line>
+<line><recite>These yellow cowslip cheeks,</recite></line>
+<line><recite>Are gone, are gone!</recite></line>
+<line><recite>Lovers, make moan;</recite></line>
+<line><recite>His eyes were green as leeks.</recite></line>
+<line><recite>O Sisters Three,</recite></line>
+<line><recite>Come, come to me,</recite></line>
+<line><recite>With hands as pale as milk;</recite></line>
+<line><recite>Lay them in gore,</recite></line>
+<line><recite>Since you have shore</recite></line>
+<line><recite>With shears his thread of silk.</recite></line>
+<line><recite>Tongue, not a word!</recite></line>
+<line><recite>Come, trusty sword,</recite></line>
+<line><recite>Come, blade, my breast imbrue!</recite></line>
 
 <stagedir>Stabs herself.</stagedir>
-<line><RECITE>And farewell, friends;</RECITE></line>
-<line><RECITE>Thus Thisby ends;</RECITE></line>
-<line><RECITE><french xml:lang="fr">Adieu</french>, <french xml:lang="fr">adieu</french>, <french xml:lang="fr">adieu</french>.</RECITE></line>
+<line><recite>And farewell, friends;</recite></line>
+<line><recite>Thus Thisby ends;</recite></line>
+<line><recite><french xml:lang="fr">Adieu</french>, <french xml:lang="fr">adieu</french>, <french xml:lang="fr">adieu</french>.</recite></line>
 </speech>
 
 <stagedir>Dies.</stagedir>
