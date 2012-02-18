@@ -9,11 +9,6 @@
 </persona>
 
 <persona>
-<persname short="VILLIERS.">Villiers</persname>
-<persdescription>Villiers is a French Lord, a prisoner of the Earl of Salisbury. He is freed in return for a safe-conduct for the Earl. He is a deeply honorable man who is horrified at the idea of being prevented from keeping his word.</persdescription>
-</persona>
-
-<persona>
 <persname short="LORRAIN.">Duke of Lorraine</persname>
 <persdescription>The Duke of Lorraine is a high-ranking French aristocrat, King John&#8217;s ambassador both to England and Scotland. He is quick to anger and foolhardy enough to draw his sword in the presence of King Edward, but shows more diplomacy with the Scottish King.</persdescription>
 </persona>
@@ -49,8 +44,13 @@
 </persona>
 
 <persona>
+<persname short="VILLIERS.">Villiers</persname>
+<persdescription>Villiers is a French Lord, a prisoner of the Earl of Salisbury. He is freed in return for a safe-conduct for the Earl. He is a deeply honorable man who is horrified at the idea of being prevented from keeping his word.</persdescription>
+</persona>
+
+<persona>
 <persname short="COPLAND.">Sir John Copland</persname>
-<persdescription>Sir John Copland is an English esquire who captures King David of Scots in battle but refuses to hand him over to Queen Philippa, as he insists that he will only give the prisoner to the King in person. </persdescription>
+<persdescription>Sir John Copland is an English esquire who captures King David of Scots in battle but refuses to hand him over to Queen Philippa, as he insists that he will only give the prisoner to the King in person.</persdescription>
 </persona>
 
 <persona>
@@ -100,7 +100,7 @@
 
 <persona>
 <persname short="QUEEN PHILLIP.">Philippa</persname>
-<persdescription>Queen Philippa is King Edward&#8217;s wife, a brave woman who is not afraid, even while heavily pregnant, to take charge of the war against the Scots. She is proud and does not like having her authority put into question. However, she is merciful, and often pleads with her husband to pardon others, as she is at times the only one who can calm him down. In particular she saves the lives of the six rich Citizens of Calais. </persdescription>
+<persdescription>Queen Philippa is King Edward&#8217;s wife, a brave woman who is not afraid, even while heavily pregnant, to take charge of the war against the Scots. She is proud and does not like having her authority put into question. However, she is merciful, and often pleads with her husband to pardon others, as she is at times the only one who can calm him down. In particular she saves the lives of the six rich Citizens of Calais.</persdescription>
 </persona>
 
 <persona>
@@ -194,11 +194,6 @@
 </persona>
 
 <persona>
-<persname short="1. FR. CAPTAIN.">First French Captain</persname>
-<persdescription>The First French Captain comes to inform King Edward that the burgesses of Calais have decided to surrender, and has his own opinion about trusting in monarchs.</persdescription>
-</persona>
-
-<persona>
 <persname short="1. FR. HERALD.">First French Herald</persname>
 <persdescription>The First French Herald is sent by King John to offer terms to Prince Edward to avoid a battle.</persdescription>
 </persona>
@@ -214,6 +209,11 @@
 </persona>
 
 <persona>
+<persname short="1. FR. CAPTAIN.">First French Captain</persname>
+<persdescription>The First French Captain comes to inform King Edward that the burgesses of Calais have decided to surrender, and has his own opinion about trusting in monarchs.</persdescription>
+</persona>
+
+<persona>
 <persname short="2. FR. CAPTAIN.">Second French Captain</persname>
 <persdescription>The Second French Captain captures the Earl of Salisbury as he tries to make his way to Prince Edward, and brings him to King John.</persdescription>
 </persona>
@@ -225,7 +225,7 @@
 
 <persona>
 <persname short="2. ESQUIRE.">Second English Esquire</persname>
-<persdescription>The Second English Esquire helps rescue Audley from the French. He does not like the idea of Audley dying. </persdescription>
+<persdescription>The Second English Esquire helps rescue Audley from the French. He does not like the idea of Audley dying.</persdescription>
 </persona>
 
 <persona>
@@ -234,32 +234,50 @@
 </persona>
 
 <persona>
-<persname short="1. CIT. CAL., ALL. CIT. CAL.">First Citizen of Calais</persname>
+<persname short="1. CIT. CAL.">First Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
 <persdescription>The First Citizen of Calais is one of the richest men of Calais, who along with five others accepts to sacrifice himself for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man. He begs Edward to keep his word to spare the city, pointing out that the two-days&#8217; truce is not yet over.</persdescription>
 </persona>
 
 <persona>
-<persname short="2. CIT. CAL., ALL. CIT. CAL.">Second Citizen of Calais</persname>
-<persdescription>The Second Citizen of Calais is one of the richest men of Calais, who along with five others accepts to sacrifice himself for the sake of the rest of the city&#8217;s inhabitants.  He has suffered so much during the siege that it is hard to believe he was a prosperous man, and swears to the truth of this on the peril of his immortal soul.</persdescription>
+<persname short="2. CIT. CAL.">Second Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
+<persdescription>The Second Citizen of Calais is one of the richest men of Calais, who along with five others accepts to sacrifice himself for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man, and swears to the truth of this on the peril of his immortal soul.</persdescription>
 </persona>
 
 <persona>
-<persname short="3. CIT. CAL., ALL. CIT. CAL.">Third Citizen of Calais</persname>
+<persname short="3. CIT. CAL.">Third Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
 <persdescription>The Third Citizen of Calais is one of the richest men of Calais, who accepts with five others to sacrifice himself for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man.</persdescription>
 </persona>
 
 <persona>
-<persname short="4. CIT. CAL., ALL. CIT. CAL.">Fourth Citizen of Calais</persname>
-<persdescription>The Fourth Citizen of Calais is one of the six richest men of Calais who accept to sacrifice themselves for the sake of the rest of the city&#8217;s inhabitants.  He has suffered so much during the siege that it is hard to believe he was a prosperous man.</persdescription>
+<persname short="4. CIT. CAL.">Fourth Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
+<persdescription>The Fourth Citizen of Calais is one of the six richest men of Calais who accept to sacrifice themselves for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man.</persdescription>
 </persona>
 
 <persona>
-<persname short="5. CIT. CAL., ALL. CIT. CAL.">Fifth Citizen of Calais</persname>
+<persname short="5. CIT. CAL.">Fifth Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
 <persdescription>The Fifth Citizen of Calais is one of the six rich men of Calais who accept to sacrifice themselves for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man.</persdescription>
 </persona>
 
 <persona>
-<persname short="6. CIT. CAL., ALL. CIT. CAL.">Sixth Citizen of Calais</persname>
+<persname short="6. CIT. CAL.">Sixth Citizen of Calais</persname>
+<persaliases>
+	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+</persaliases>
 <persdescription>The Sixth Citizen of Calais is one of the richest men of Calais, who accepts to sacrifice himself along with five others for the sake of the rest of the city&#8217;s inhabitants. He has suffered so much during the siege that it is hard to believe he was a prosperous man.</persdescription>
 </persona>
 

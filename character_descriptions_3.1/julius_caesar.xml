@@ -4,7 +4,7 @@
 <personae playtitle="Julis Caesar">
 
 <persona>
-<persname short="CAES. SERV.">Caesar's Servant</persname>
+<persname short="CAES. SERV.">Caesar&#8217;s Servant</persname>
 <persdescription>Caesar&#8217;s Servant brings his master the disturbing news that the augurers sacrificed a beast in which they could not find a heart.</persdescription>
 </persona>
 
@@ -39,7 +39,10 @@
 </persona>
 
 <persona>
-<persname short="CLAU., BOTH VAR. AND CLAU.">Claudio</persname>
+<persname short="CLAU.">Claudio</persname>
+<persaliases>
+	<persname short="BOTH VAR. AND CLAU.">Both Claudio and Varrus</persname>
+</persaliases>
 <persdescription>Claudio is a sentry in Brutus&#8217;s army, charged with guarding Brutus&#8217;s tent at night.</persdescription>
 </persona>
 
@@ -49,7 +52,10 @@
 </persona>
 
 <persona>
-<persname short="VAR., BOTH VAR. AND CLAU.">Varrus</persname>
+<persname short="VAR.">Varrus</persname>
+<persaliases>
+	<persname short="BOTH VAR. AND CLAU.">Both Claudio and Varrus</persname>
+</persaliases>
 <persdescription>Varrus is a sentry in Brutus&#8217;s army, charged with guarding Brutus&#8217;s tent at night.</persdescription>
 </persona>
 
@@ -79,16 +85,6 @@
 </persona>
 
 <persona>
-<persname short="POET.">A Poet</persname>
-<persdescription>A Poet is a companion of Cassius. He has little sense of rhythm or rhyme, and attempts (poorly) to moralize to Brutus and Cassius.</persdescription>
-</persona>
-
-<persona>
-<persname short="CIN. POET.">Cinna, a Poet</persname>
-<persdescription>Cinna the Poet has the misfortune of having the same name as one of Caesar&#8217;s murderers, and of not being known for good writing. He is torn to pieces by a mob.</persdescription>
-</persona>
-
-<persona>
 <persname short="SOOTH.">Soothsayer</persname>
 <persdescription>Soothsayer warns Caesar of the Ides of March, without giving any further details, being thereby accounted a dreamer. As he goes to the Capitol on the day, he is accosted by Portia, who worriedly questions him. When Caesar complacently suggests that he was wrong, the Soothsayer warns him that he is not considering everything.</persdescription>
 </persona>
@@ -114,6 +110,16 @@
 </persona>
 
 <persona>
+<persname short="CIN. POET.">Cinna, a Poet</persname>
+<persdescription>Cinna the Poet has the misfortune of having the same name as one of Caesar&#8217;s murderers, and of not being known for good writing. He is torn to pieces by a mob.</persdescription>
+</persona>
+
+<persona>
+<persname short="POET.">A Poet</persname>
+<persdescription>A Poet is a companion of Cassius. He has little sense of rhythm or rhyme, and attempts (poorly) to moralize to Brutus and Cassius.</persdescription>
+</persona>
+
+<persona>
 <persname short="MET.">Metellus Cimber</persname>
 <persdescription>Metellus Cimber is one of the conspirators against Caesar. He suggests Ligarius as another possible member of their cause. He is charged with begging Caesar for his brother&#8217;s repeal, thereby giving the conspirators the opportunity to surround Caesar before killing him.</persdescription>
 </persona>
@@ -130,7 +136,7 @@
 
 <persona>
 <persname short="TREB.">Trebonius</persname>
-<persdescription>Trebonius is one of the conspirators against Caesar. He attends the meeting at Brutus&#8217;s house when they bind themselves to the murder. He is charged with getting Antony out of the way prior to the deed, and witnesses his flight from the Capitol. He also presses a suit on Caesar that distracts the dictator from reading Artemidorus&#8217;s petition. </persdescription>
+<persdescription>Trebonius is one of the conspirators against Caesar. He attends the meeting at Brutus&#8217;s house when they bind themselves to the murder. He is charged with getting Antony out of the way prior to the deed, and witnesses his flight from the Capitol. He also presses a suit on Caesar that distracts the dictator from reading Artemidorus&#8217;s petition.</persdescription>
 </persona>
 
 <persona>
@@ -165,17 +171,17 @@
 
 <persona>
 <persname short="LEP.">M. Aemilius Lepidus</persname>
-<persdescription>Lepidus is a Senator of Rome. He is present at Caesar&#8217;s death, and flees from it. An excellent soldier if not the most intelligent of men, he becomes the third ruler of Rome along with Octavius and Antony after Caesar&#8217;s death. He acquiesces in his brother&#8217;s execution during the triumvirate&#8217;s takeover. His further adventures can be found in Antony &amp; Cleopatra.</persdescription>
+<persdescription>Lepidus is a Senator of Rome. He is present at Caesar&#8217;s death, and flees from it. An excellent soldier if not the most intelligent of men, he becomes the third ruler of Rome along with Octavius and Antony after Caesar&#8217;s death. He acquiesces in his brother&#8217;s execution during the triumvirate&#8217;s takeover. His further adventures can be found in <persnameref>Antony &amp; Cleopatra</persnameref>.</persdescription>
 </persona>
 
 <persona>
 <persname short="ANT.">Mark Antony</persname>
-<persdescription>Mark Antony is Caesar&#8217;s closest companion. A young man much given to reveling, enjoying music and plays, he runs in the sacred race of the Feast of Lupercal, touching Calpurnia on the way in the hopes of curing her barrenness. A great upholder of obedience to Caesar, he is not as good a judge of men as his mentor, discounting Caesar&#8217;s opinion of Cassius. Brutus underestimates him severely, considering little more than an extension of Caesar. Antony manages to con the conspirators, particularly Brutus, into letting him speak to the crowd after the murder. He accepts to say nothing negative about the conspirators in his funeral oration, and circumvents this by his constant references to them as &#8216;honorable men&#8217;. In contrast to Brutus&#8217;s prose logic-chopping, he gives a shrewdly emotional speech to the crowd, showing them Caesar&#8217;s body and reading them his will, whipping them to a fury. He is ruthless enough to add his own nephew to the list of Romans to be purged once he, Octavius and Lepidus join forces to resist the conspirators. He has little use for Lepidus and does not appreciate Octavius&#8217;s lack of respect for his greater age and experience. Once Brutus is dead, he is willing to praise him for his idealism. His further adventures can be found in Antony &amp; Cleopatra.</persdescription>
+<persdescription>Mark Antony is Caesar&#8217;s closest companion. A young man much given to reveling, enjoying music and plays, he runs in the sacred race of the Feast of Lupercal, touching Calpurnia on the way in the hopes of curing her barrenness. A great upholder of obedience to Caesar, he is not as good a judge of men as his mentor, discounting Caesar&#8217;s opinion of Cassius. Brutus underestimates him severely, considering little more than an extension of Caesar. Antony manages to con the conspirators, particularly Brutus, into letting him speak to the crowd after the murder. He accepts to say nothing negative about the conspirators in his funeral oration, and circumvents this by his constant references to them as &#8216;honorable men&#8217;. In contrast to Brutus&#8217;s prose logic-chopping, he gives a shrewdly emotional speech to the crowd, showing them Caesar&#8217;s body and reading them his will, whipping them to a fury. He is ruthless enough to add his own nephew to the list of Romans to be purged once he, Octavius and Lepidus join forces to resist the conspirators. He has little use for Lepidus and does not appreciate Octavius&#8217;s lack of respect for his greater age and experience. Once Brutus is dead, he is willing to praise him for his idealism. His further adventures can be found in <persnameref>Antony &amp; Cleopatra</persnameref>.</persdescription>
 </persona>
 
 <persona>
 <persname short="OCT.">Octavius Caesar</persname>
-<persdescription>Octavius is Caesar&#8217;s nephew. Called to Rome by his uncle, he is greeted on its outskirts by the news of Caesar&#8217;s death. Despite Antony&#8217;s warnings, he enters Rome before it is safe, and goes to Caesar&#8217;s house, where he meets Lepidus and Antony. He is not easily impressed, and refuses to let Antony take the main leadership role in the war against the conspirators, simply announcing what he intends to do and letting the other deal with the fact. This does not necessarily serve him well: he is not as great a general as Antony, and his force is defeated by Brutus&#8217;s at the battle of Philippi. He is defiant towards the conspirators, though willing to honor them once they are dead. He is proud of his family name. His further adventures can be found in Antony &amp; Cleopatra.</persdescription>
+<persdescription>Octavius is Caesar&#8217;s nephew. Called to Rome by his uncle, he is greeted on its outskirts by the news of Caesar&#8217;s death. Despite Antony&#8217;s warnings, he enters Rome before it is safe, and goes to Caesar&#8217;s house, where he meets Lepidus and Antony. He is not easily impressed, and refuses to let Antony take the main leadership role in the war against the conspirators, simply announcing what he intends to do and letting the other deal with the fact. This does not necessarily serve him well: he is not as great a general as Antony, and his force is defeated by Brutus&#8217;s at the battle of Philippi. He is defiant towards the conspirators, though willing to honor them once they are dead. He is proud of his family name. His further adventures can be found in <persnameref>Antony &amp; Cleopatra</persnameref>.</persdescription>
 </persona>
 
 <persona>
@@ -199,8 +205,8 @@
 </persona>
 
 <persona>
-<persname short="2. SOL.">Second Soldier</persname>
-<persdescription>Second Soldier in the conspirators&#8217; army gives the order to cease marching to his fellow men. He may be either Brutus&#8217;s or Cassius&#8217;s follower.</persdescription>
+<persname short="CAR.">Carpenter</persname>
+<persdescription>A Carpenter leaves his shop to go see Caesar&#8217;s triumph, dressed in his best clothes.</persdescription>
 </persona>
 
 <persona>
@@ -209,32 +215,48 @@
 </persona>
 
 <persona>
-<persname short="5. PLEB., ALL PLEBEIANS.">Fifth Plebeian</persname>
-<persdescription>The Fifth Plebeian is convinced by Brutus&#8217;s speech explaining the murder of Caesar and believes that the murderer will have all of Caesar&#8217;s qualities and none of his vices. He is then quickly convinced by Antony&#8217;s speech that this opinion is wrong. He remembers that Caesar refused to take a crown the day before, and is insistent on hearing the will. He helps to foment the mob&#8217;s rampage.</persdescription>
+<persname short="2. SOL.">Second Soldier</persname>
+<persdescription>Second Soldier in the conspirators&#8217; army gives the order to cease marching to his fellow men. He may be either Brutus&#8217;s or Cassius&#8217;s follower.</persdescription>
 </persona>
 
 <persona>
-<persname short="4. PLEB., ALL PLEBEIANS.">Fourth Plebeian</persname>
-<persdescription>The Fourth Plebeian is at first convinced by Brutus&#8217;s explanation for the murder of Caesar, calling for a statue to be raised to the murderer, but he is willing to listen to Antony. The latter&#8217;s speech causes him some doubts, and he is soon fully convinced that the conspirators were unworthy murderers. He is emotional, moved by the sight of Antony&#8217;s tears and pledging to die for him. He joins the rampaging mob. He is not a fan of poetry.</persdescription>
-</persona>
-
-<persona>
-<persname short="3. PLEB., ALL PLEBEIANS.">Third Plebeian</persname>
-<persdescription>The Third Plebeian knows Brutus to be noble, and soon wishes to have him in charge of Rome. By calling for Brutus to be the new Caesar, he both offers evidence that the conspirators&#8217; fears of Caesar&#8217;s dictatorship were founded and that he has completely mistaken Brutus&#8217;s point. Knowing Antony to be noble, he is convinced by his speech as well. Joining the revengeful mob, he helps tear Cinna the poet to pieces before telling the others exactly which houses to burn down.</persdescription>
-</persona>
-
-<persona>
-<persname short="2. PLEB., ALL PLEBEIANS.">Second Plebeian</persname>
-<persdescription>The Second Plebeian follows Cassius to hear his explanation for Caesar&#8217;s murder. He joins the mob murdering Cinna the poet.</persdescription>
-</persona>
-
-<persona>
-<persname short="1. PLEB., ALL PLEBEIANS.">First Plebeian</persname>
+<persname short="1. PLEB.">First Plebeian</persname>
+<persaliases>
+	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
+</persaliases>
 <persdescription>The First Plebeian chooses to listen to Brutus when the latter comes forward to explain his murdering Caesar. He is easily convinced that Caesar was a tyrant, but Antony&#8217;s speech causes him some doubts. He is soon converted to Antony&#8217;s cause by the sight of Caesar&#8217;s body, and is the first to suggest arson, calling on his fellows to burn the conspirators&#8217; houses with torches lit at Caesar&#8217;s pyre once they have honorably immolated the corpse. He knows that Cinna is the name of one of the conspirators, and helps to tear to pieces the first man of that name he and his companions come across.</persdescription>
 </persona>
 
 <persona>
-<persname short="CAR.">Carpenter</persname>
-<persdescription>A Carpenter leaves his shop to go see Caesar&#8217;s triumph, dressed in his best clothes.</persdescription>
+<persname short="2. PLEB.">Second Plebeian</persname>
+<persaliases>
+	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
+</persaliases>
+<persdescription>The Second Plebeian follows Cassius to hear his explanation for Caesar&#8217;s murder. He joins the mob murdering Cinna the poet.</persdescription>
 </persona>
+
+<persona>
+<persname short="3. PLEB.">Third Plebeian</persname>
+<persaliases>
+	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
+</persaliases>
+<persdescription>The Third Plebeian knows Brutus to be noble, and soon wishes to have him in charge of Rome. By calling for Brutus to be the new Caesar, he both offers evidence that the conspirators&#8217; fears of Caesar&#8217;s dictatorship were founded and that he has completely mistaken Brutus&#8217;s point. Knowing Antony to be noble, he is convinced by his speech as well. Joining the revengeful mob, he helps tear Cinna the poet to pieces before telling the others exactly which houses to burn down.</persdescription>
+</persona>
+
+<persona>
+<persname short="4. PLEB.">Fourth Plebeian</persname>
+<persaliases>
+	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
+</persaliases>
+<persdescription>The Fourth Plebeian is at first convinced by Brutus&#8217;s explanation for the murder of Caesar, calling for a statue to be raised to the murderer, but he is willing to listen to Antony. The latter&#8217;s speech causes him some doubts, and he is soon fully convinced that the conspirators were unworthy murderers. He is emotional, moved by the sight of Antony&#8217;s tears and pledging to die for him. He joins the rampaging mob. He is not a fan of poetry.</persdescription>
+</persona>
+
+<persona>
+<persname short="5. PLEB.">Fifth Plebeian</persname>
+<persaliases>
+	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
+</persaliases>
+<persdescription>The Fifth Plebeian is convinced by Brutus&#8217;s speech explaining the murder of Caesar and believes that the murderer will have all of Caesar&#8217;s qualities and none of his vices. He is then quickly convinced by Antony&#8217;s speech that this opinion is wrong. He remembers that Caesar refused to take a crown the day before, and is insistent on hearing the will. He helps to foment the mob&#8217;s rampage.</persdescription>
+</persona>
+
 </personae>

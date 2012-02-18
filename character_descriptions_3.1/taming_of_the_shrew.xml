@@ -10,7 +10,7 @@
 
 <persona>
 <persname short="SLY.">Christopher Sly</persname>
-<persdescription>Christopher Sly is a drunken beggar and tinker who insists that his family is of honorable lineage. Collapsing in a drunken stupor outside a pub he has been ejected from, he awakens to find himself transformed into a lord and told that he has been madly supposing himself to be a beggar for the past fifteen years. He is lusty and wishes to go straight to bed with his newly-discovered wife, but is instead shown a play called <persnameref>The Taming of the Shrew</persnameref>, though he has no great taste for drama. He is greatly in debt, and likes only the cheapest goods, even when turned into a lord. He has a shrewish wife of his own, but thinks having seen the play has taught him how to deal with her. </persdescription>
+<persdescription>Christopher Sly is a drunken beggar and tinker who insists that his family is of honorable lineage. Collapsing in a drunken stupor outside a pub he has been ejected from, he awakens to find himself transformed into a lord and told that he has been madly supposing himself to be a beggar for the past fifteen years. He is lusty and wishes to go straight to bed with his newly-discovered wife, but is instead shown a play called <persnameref>The Taming of the Shrew</persnameref>, though he has no great taste for drama. He is greatly in debt, and likes only the cheapest goods, even when turned into a lord. He has a shrewish wife of his own, but thinks having seen the play has taught him how to deal with her.</persdescription>
 </persona>
 
 <persona>
@@ -24,23 +24,13 @@
 </persona>
 
 <persona>
-<persname short="1. PLAY., ALL. PLAYERS.">First Player</persname>
-<persdescription>First Player remembers the Lord from previous occasions, and promises that the players can keep their seriousness, no matter how oddly the lord hearing their play may act. He will play one of the roles in the main play.</persdescription>
-</persona>
-
-<persona>
-<persname short="2. HUN.">Second Huntsman</persname>
-<persdescription>Second Huntsman checks to see whether Sly is alive, and recognizes that he is dead-drunk. </persdescription>
-</persona>
-
-<persona>
 <persname short="BAP.">Baptista</persname>
 <persdescription>Baptista is a wealthy gentleman of Padua, the father of two daughters. Desperate to have the eldest, Katherina, a rebellious, ranting, sort, out of his house and out of his hair, he refuses to let the younger daughter, a beautiful, docile, and therefore desirable young thing, marry before her sister. He dotes on the younger girl, hiring teachers of every sort to improve her. He has strong doubts about Katherina&#8217;s marketability, and discourages suitors from attempting to woo her for their own sake, though he is willing to settle half of his wealth on her at his death. For Bianca, he searches for the richest suitor he can find. He is taken aback at Petruchio&#8217;s manner at his wedding and quick departure, but makes no great protest. Though he finally agrees to let Lucentio marry Bianca, he is appalled to discover that the Lucentio he made the bargain with is actually Lucentio&#8217;s servant, and the man he thought Lucentio&#8217;s father is actually a random pedant. He is so amazed at the change Petruchio has wrought in Katherina&#8217;s character that he adds an extra twenty thousand crowns to her dower.</persdescription>
 </persona>
 
 <persona>
 <persname short="VIN.">Vincentio</persname>
-<persdescription>Vincentio is Lucentio&#8217;s father, a respectable, well-respected, and very rich old man from Pisa. On his way to Padua to visit his son at the university and bring him little extra money, he meets a mad couple who insist that the sun is the moon and he is a beautiful young woman. They then tell him that his son has just become their brother-in-law. He is uncertain whether this is still a jest or not. Arriving in Padua, he finds that someone else is impersonating him and that his son&#8217;s servants refuse to acknowledge him; seeing Tranio is rich garments, he is first convinced that Lucentio is spending all his money and then that Tranio has murdered his son. About to be carted off to jail as a madman, he is saved when his son arrives and reveals all the deception. He promises to satisfy Baptista in the matter of his daughter&#8217;s secret marriage, but also to have vengeance on Tranio. </persdescription>
+<persdescription>Vincentio is Lucentio&#8217;s father, a respectable, well-respected, and very rich old man from Pisa. On his way to Padua to visit his son at the university and bring him little extra money, he meets a mad couple who insist that the sun is the moon and he is a beautiful young woman. They then tell him that his son has just become their brother-in-law. He is uncertain whether this is still a jest or not. Arriving in Padua, he finds that someone else is impersonating him and that his son&#8217;s servants refuse to acknowledge him; seeing Tranio is rich garments, he is first convinced that Lucentio is spending all his money and then that Tranio has murdered his son. About to be carted off to jail as a madman, he is saved when his son arrives and reveals all the deception. He promises to satisfy Baptista in the matter of his daughter&#8217;s secret marriage, but also to have vengeance on Tranio.</persdescription>
 </persona>
 
 <persona>
@@ -134,7 +124,18 @@
 </persona>
 
 <persona>
-<persname short="2. PLAY., ALL. PLAYERS.">Second Player</persname>
+<persname short="1. PLAY.">First Player</persname>
+<persaliases>
+	<persname short="ALL. PLAYERS.">All Players</persname>
+</persaliases>
+<persdescription>First Player remembers the Lord from previous occasions, and promises that the players can keep their seriousness, no matter how oddly the lord hearing their play may act. He will play one of the roles in the main play.</persdescription>
+</persona>
+
+<persona>
+<persname short="2. PLAY.">Second Player</persname>
+<persaliases>
+	<persname short="ALL. PLAYERS.">All Players</persname>
+</persaliases>
 <persdescription>Second Player asks the Lord to let the company stay a night at his house and hear a play. He will play one of the roles in the main play.</persdescription>
 </persona>
 
@@ -144,22 +145,39 @@
 </persona>
 
 <persona>
-<persname short="NICH., ALL. SERV.">Nicholas</persname>
+<persname short="2. HUN.">Second Huntsman</persname>
+<persdescription>Second Huntsman checks to see whether Sly is alive, and recognizes that he is dead-drunk.</persdescription>
+</persona>
+
+<persona>
+<persname short="NICH.">Nicholas</persname>
+<persaliases>
+	<persname short="ALL. SERV.">All Servants</persname>
+</persaliases>
 <persdescription>Nicholas is a servant at Petruchio&#8217;s house. He is delighted to see Grumio again.</persdescription>
 </persona>
 
 <persona>
-<persname short="JOS., ALL. SERV.">Joseph</persname>
+<persname short="JOS.">Joseph</persname>
+<persaliases>
+	<persname short="ALL. SERV.">All Servants</persname>
+</persaliases>
 <persdescription>Joseph is a servant at Petruchio&#8217;s house and he is delighted to see Grumio again. He helps serve at table, confirming the meat is mutton.</persdescription>
 </persona>
 
 <persona>
-<persname short="PHIL., ALL. SERV.">Philip</persname>
+<persname short="PHIL.">Philip</persname>
+<persaliases>
+	<persname short="ALL. SERV.">All Servants</persname>
+</persaliases>
 <persdescription>Philip is a servant at Petruchio&#8217;s house. He is delighted to see Grumio again.</persdescription>
 </persona>
 
 <persona>
-<persname short="NATH., ALL. SERV.">Nathaniel</persname>
+<persname short="NATH.">Nathaniel</persname>
+<persaliases>
+	<persname short="ALL. SERV.">All Servants</persname>
+</persaliases>
 <persdescription>Nathaniel is a servant at Petruchio&#8217;s house. He is delighted to see Grumio again.</persdescription>
 </persona>
 

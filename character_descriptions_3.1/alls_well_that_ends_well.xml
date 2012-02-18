@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<personae playtitle="All's Well That Ends Well">
+<personae playtitle="All&#8217;s Well That Ends Well">
 <persona>
 <persname short="KING.">King of France</persname>
 <persdescription>The King of France is ill of a fistula, and feels his age keenly when he is ill. While refusing for diplomatic reasons to fully support the Florentines in their war with Sienna, he does not stop any of his lords who wish to go to the wars of their own accord from doing so, saving the overly-young such as Bertram. He warns them about Italian women before they go. He was a great friend of Bertram&#8217;s father, and is glad to have the young man among his wards. He is half in love with his illness, convinced that he cannot be cured and refusing help once the properly-trained doctors have thrown up their arms. Still, he agrees to see Helena, and to try her cure when she offers her own life should she fail. Being cured, his spirits are more than revived, and he dances around with her. Having absolute power as both sovereign and warder over a number of young lords, he agrees to bestow any one of them that Helena chooses as her husband. He is enraged when Bertram refuses his command to accept her. He is grieved at reports of the lady&#8217;s death, but agrees to put the whole incident in the past and pretend that Bertram has never offended him. Seeing Bertram with the ring he gave to Helena, however, revives his anger, and he soon comes to believe that Bertram had her murdered. He is not best pleased by Diana&#8217;s riddles, but when all is revealed he takes quite a shine to her, and offers to let her choose any husband she wishes among his lords, thus risking starting the whole thing over again. Oddly for a king, he does not believe there is an inherent difference between people&#8217;s birth, rather that their worth is determined by their actions and moral character. He speaks the epilogue.</persdescription>
@@ -9,7 +9,7 @@
 
 <persona>
 <persname short="DUKE.">Duke of Florence</persname>
-<persdescription>The Duke of Florence is at war with Sienna. His explanations for this convince the two French Lords, and he is himself at a loss as to why his manifest right is not being fully supported by the King of France, rather than merely permitting lords to fight if they so choose. He names Bertram his master of horse. </persdescription>
+<persdescription>The Duke of Florence is at war with Sienna. His explanations for this convince the two French Lords, and he is himself at a loss as to why his manifest right is not being fully supported by the King of France, rather than merely permitting lords to fight if they so choose. He names Bertram his master of horse.</persdescription>
 </persona>
 
 <persona>
@@ -28,11 +28,6 @@
 </persona>
 
 <persona>
-<persname short="1. LORD., ALL LORDS.">First French Lord</persname>
-<persdescription>The First French Lord is in the lineup of possible husbands for Helena, and is quite willing to marry her.</persdescription>
-</persona>
-
-<persona>
 <persname short="STEW.">Rinaldo</persname>
 <persdescription>Rinaldo is the Countess of Roussillon&#8217;s steward. Overhearing Helena speaking to herself about her love for Bertram, he feels it his duty to inform the Countess of the fact. He fails to give the Countess Helena&#8217;s letter announcing her departure to Compostella in a timely manner, leaving it impossible to overtake her. He writes to Bertram on the Countess&#8217;s behalf to reproach him for his abandonment of his wife.</persdescription>
 </persona>
@@ -43,7 +38,7 @@
 </persona>
 
 <persona>
-<persname short="PAGE.">Countess's Page</persname>
+<persname short="PAGE.">Countess&#8217;s Page</persname>
 <persdescription>A Page, servant to the Countess of Roussillion, is sent to find Parolles and call him to join Lafew and Bertram as they leave for court.</persdescription>
 </persona>
 
@@ -63,7 +58,10 @@
 </persona>
 
 <persona>
-<persname short="WID.,BOTH. MAR. AND WID.">An Old Widow of Florence</persname>
+<persname short="WID.">An Old Widow of Florence</persname>
+<persaliases>
+	<persname short="BOTH. MAR. AND WID.">Both Mariana and Widow</persname>
+</persaliases>
 <persdescription>An Old Widow runs a resting point for pilgrims on their road to Compostella. Convinced by Helena&#8217;s story that she is Bertram&#8217;s wife, though the gold helps her to this conviction, she agrees to help her with her bed-trick which will have the dual effect of allowing Helena to fulfill her husband&#8217;s requirements and saving Diana from Bertram&#8217;s importuning (and the endless nighttime serenading he engages in). She plays her part of outraged mother to the hilt, following the King of France until she finds him, and protecting her daughter. She knows very well how men go about getting into the beds of the girls they affection, and trains her daughter Diana exactly how to treat him to make the trick work.</persdescription>
 </persona>
 
@@ -73,18 +71,48 @@
 </persona>
 
 <persona>
-<persname short="1. LORD. DUM.">First French Lord Dumaine</persname>
-<persdescription>First French Lord (Captain Dumaine) in the Florentine service is a war-happy young man who thinks it a great pity that Bertram will not be able to follow himself and other lords to battle. He offers to help the younger man steal away from court. He lets Helena and the Countess know where Bertram has gone while delivering his letter to Helena, and learning of its contents is remorseful at having done so. While at first impressed by Parolles&#8217;s bragging, he soon sees through it, and helps conceive and execute the plot against him, convincing the others that they should set Parolles to fetch his drum as part of the joke. He is not altogether impressed with Bertram&#8217;s behavior concerning Helena, especially once he hears of the lady&#8217;s death. During Parolles&#8217;s interrogation he makes sure to ask what Parolles thinks of him, and is enraged at the answers, though Parolles ends up going so far that the Lord begins to admire him for sheer gall and inventiveness. </persdescription>
+<persname short="MAR.">Mariana</persname>
+<persaliases>
+	<persname short="BOTH. MAR. AND WID.">Both Mariana and Widow</persname>
+</persaliases>
+<persdescription>Mariana is a friend of the Widow and her daughter Diana, and is full of warnings against the wiles of young men. She has no taste for Parolles.</persdescription>
 </persona>
 
 <persona>
-<persname short="MAR.,BOTH. MAR. AND WID.">Mariana</persname>
-<persdescription>Mariana is a friend of the Widow and her daughter Diana, and is full of warnings against the wiles of young men. She has no taste for Parolles. </persdescription>
+<persname short="1. LORD.">First French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All Lords</persname>
+</persaliases>
+<persdescription>The First French Lord is in the lineup of possible husbands for Helena, and is quite willing to marry her.</persdescription>
 </persona>
 
 <persona>
-<persname short="2. LORD., ALL LORDS.">Second French Lord</persname>
+<persname short="2. LORD.">Second French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
 <persdescription>The Second French Lord is in the lineup of possible husbands for Helena. He is intimidating, though courteous.</persdescription>
+</persona>
+
+<persona>
+<persname short="3. LORD.">Third French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
+<persdescription>The Third French Lord (mute) is in the lineup of possible husbands for Helena.</persdescription>
+</persona>
+
+<persona>
+<persname short="4. LORD.">Fourth French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
+<persdescription>The Fourth French Lord is in the lineup of possible husbands for Helena. He scoffs at the thought that he is too young to marry.</persdescription>
+</persona>
+
+<persona>
+<persname short="1. LORD. DUM.">First French Lord Dumaine</persname>
+<persdescription>First French Lord (Captain Dumaine) in the Florentine service is a war-happy young man who thinks it a great pity that Bertram will not be able to follow himself and other lords to battle. He offers to help the younger man steal away from court. He lets Helena and the Countess know where Bertram has gone while delivering his letter to Helena, and learning of its contents is remorseful at having done so. While at first impressed by Parolles&#8217;s bragging, he soon sees through it, and helps conceive and execute the plot against him, convincing the others that they should set Parolles to fetch his drum as part of the joke. He is not altogether impressed with Bertram&#8217;s behavior concerning Helena, especially once he hears of the lady&#8217;s death. During Parolles&#8217;s interrogation he makes sure to ask what Parolles thinks of him, and is enraged at the answers, though Parolles ends up going so far that the Lord begins to admire him for sheer gall and inventiveness.</persdescription>
 </persona>
 
 <persona>
@@ -98,16 +126,6 @@
 </persona>
 
 <persona>
-<persname short="4. LORD., ALL LORDS.">Fourth French Lord</persname>
-<persdescription>The Fourth French Lord is in the lineup of possible husbands for Helena. He scoffs at the thought that he is too young to marry.</persdescription>
-</persona>
-
-<persona>
-<persname short="ALL LORDS.">Third French Lord</persname>
-<persdescription>The Third French Lord (mute) is in the lineup of possible husbands for Helena.</persdescription>
-</persona>
-
-<persona>
 <persname short="2. SOLD.">Second Soldier</persname>
 <persdescription>The Second Soldier is part of the ambush that abducts Parolles, and is sent to let Bertram and the First French Lord Dumaine know that he has been caught and is ready to speak.</persdescription>
 </persona>
@@ -117,4 +135,4 @@
 <persdescription>The Messenger works for Bertram, and reports on how the latter has parted from the Duke of Florence.</persdescription>
 </persona>
 </personae>
-  
+ 

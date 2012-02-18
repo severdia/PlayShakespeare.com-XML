@@ -4,21 +4,6 @@
 <personae playtitle="Henry IV, Part 1">
 
 <persona>
-<persname short="1. CAR.">First Carrier</persname>
-<persdescription>The First Carrier (Mugs) is transporting goods on the road between Canterbury and London, and resting at the inn near Gads Hill. He is among the group robbed by Falstaff and his gang. He is not impressed by the quality of the inn. He is cautious and knows very well what sort of tricks thieves get up to in such places. He recognizes Falstaff and denounces him to the Sheriff.</persdescription>
-</persona>
-
-<persona>
-<persname short="OST.">Ostler</persname>
-<persdescription>Ostler takes care of travelers&#8217; horses at the inn.</persdescription>
-</persona>
-
-<persona>
-<persname short="SHER.">Sheriff</persname>
-<persdescription>The Sheriff is told of the robbery and goes searching for Falstaff. He does not expect to find the Prince of Wales at the Boar&#8217;s Head tavern instead.</persdescription>
-</persona>
-
-<persona>
 <persname short="LADY. MORT.">Lady Mortimer</persname>
 <persdescription>Lady Mortimer is Glendower&#8217;s daughter, a pretty Welsh lady who enjoys singing and does not speak a single word of English. She loves her husband Mortimer dearly.</persdescription>
 </persona>
@@ -44,7 +29,10 @@
 </persona>
 
 <persona>
-<persname short="POINS.,THIEVES.">Edward Poins</persname>
+<persname short="POINS.">Edward Poins</persname>
+<persaliases>
+	<persname short="THIEVES.">Thieves</persname>
+</persaliases>
 <persdescription>Ned Poins is one of Prince Harry&#8217;s tavern companions, with a taste for practical jokes &#8212; particularly those played on Falstaff. He serves as link between Gadshill and Falstaff, and is a great favorite of the latter&#8217;s, who has known him for 22 years. He is close to Prince Harry, and assists him in mocking the fat knight. His further adventures can be found in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
 </persona>
 
@@ -70,7 +58,7 @@
 
 <persona>
 <persname short="DOUG.">Archibald, Earl of Douglas</persname>
-<persdescription>The Earl of Douglas is a Scottish lord warring on Henry IV, who was badly beaten by Hotspur. When the latter decides to rebel against the King, he approaches Douglas through his captured son and convinces Douglas to join with him to fight the English monarch. Extremely brave, he is nevertheless discomfited by the news that Glendower will be unable to join the other rebels in time. He spends the battle attempting to kill Henry IV, who has disguised a great number of people as him; when Douglas kills Blunt as one of them, he swears that he would not have bothered if he had not thought the man to be the King. Finally meeting the real monarch, he is on the verge of beating him when Prince Harry comes to his father&#8217;s rescue. Refusing to acknowledge even the existence of the concept of fear, he nevertheless flees after a brief fight with the prince. He also does not seem to notice that Falstaff is merely playing dead. After the battle, Prince Harry lets him go out of respect for his valor. </persdescription>
+<persdescription>The Earl of Douglas is a Scottish lord warring on Henry IV, who was badly beaten by Hotspur. When the latter decides to rebel against the King, he approaches Douglas through his captured son and convinces Douglas to join with him to fight the English monarch. Extremely brave, he is nevertheless discomfited by the news that Glendower will be unable to join the other rebels in time. He spends the battle attempting to kill Henry IV, who has disguised a great number of people as him; when Douglas kills Blunt as one of them, he swears that he would not have bothered if he had not thought the man to be the King. Finally meeting the real monarch, he is on the verge of beating him when Prince Harry comes to his father&#8217;s rescue. Refusing to acknowledge even the existence of the concept of fear, he nevertheless flees after a brief fight with the prince. He also does not seem to notice that Falstaff is merely playing dead. After the battle, Prince Harry lets him go out of respect for his valor.</persdescription>
 </persona>
 
 <persona>
@@ -114,13 +102,31 @@
 </persona>
 
 <persona>
-<persname short="PRINCE.,THIEVES.">Henry, Prince of Wales</persname>
+<persname short="PRINCE.">Henry, Prince of Wales</persname>
+<persaliases>
+	<persname short="THIEVES.">Thieves</persname>
+</persaliases>
 <persdescription>Prince Harry is King Henry&#8217;s eldest son and the heir to the throne. He is his father&#8217;s despair due to the fact that he spends all of his time in bars, running around with a bad crowd. He is close to Falstaff, though how fond he is of the old fat knight is uncertain. Quick-witted, he has the common touch, and is able to get the scum of the earth to cheer him and be his friends. His antics have got so out of hands that he has been banned from the King&#8217;s council, where his brother John has replaced him. He is a huge disappointment to the whole of the nobility, and Hotspur in particular disregards him entirely. He enjoys wordplay and mockery, particularly of Falstaff, and enjoys the latter&#8217;s stories and tall tales. What is not realized, either by his father, the court, or his companions, is that no matter how much he may enjoy his dissipated ways, Harry&#8217;s wastrel ways are in fact a coldly calculated act, a part he&#8217;s playing so that when he becomes King he can immediately gain the allegiance of respectable people by instantly turning over a new leaf. He is an excellent soldier, able to best both Douglas and Hotspur in single combat, and loves his father a lot more than he tends to let on. He loses his sense of humor in battle, and does not keep up the mask he wears most of the time as well as he does in the tavern. Asking for the right to determine Douglas&#8217;s sentence, he lets him go out of respect for his valor. His further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref> and <persnameref>Henry V</persnameref>.</persdescription>
 </persona>
 
 <persona>
 <persname short="KING.">King Henry IV</persname>
-<persdescription>King Henry IV is the Bullingbrook of <persnameref>Richard II.</persnameref> Never forgetting his own usurpation of the throne from Richard II, he cannot help but notice similarities between the state of affairs at the time and the one he finds himself in now. He intends to keep his authority intact, though by overdoing this he provokes Hotspur to rebellion. He is afraid of the existence of Edmund Mortimer, Richard&#8217;s chosen heir, and sees parallels between the former king&#8217;s behavior and that of his son Harry. The latter&#8217;s way of life leaves the King in despair, as the King still despises the memory of Richard&#8217;s effeminate and populist ways. He wishes that his son were more warlike than he has appeared to be to date. Though he is himself an excellent politician (or a vile one, if you ask Hotspur), whose actions are calculated for effect, he fails to see that the Prince is doing much the same. The King smiles a great deal without necessarily meaning it. He is nevertheless a merciful King, executing far fewer people than might be expected. He still hopes to go on a crusade to Jerusalem to expiate his part in the murder of Richard II, but is prevented by the rebellion. He puts no great store in Harry&#8217;s promises to change, but grudgingly gives him a chance to prove himself. The King feels old and weary, though he is able to mount a spirited defense of his rights against the rebels. He is no longer as good a fighter as he was, almost being defeated by Douglas before Harry comes to his aid. The rest of his life is chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+<persdescription>King Henry IV is the Bullingbrook of <persnameref>Richard II</persnameref>. Never forgetting his own usurpation of the throne from Richard II, he cannot help but notice similarities between the state of affairs at the time and the one he finds himself in now. He intends to keep his authority intact, though by overdoing this he provokes Hotspur to rebellion. He is afraid of the existence of Edmund Mortimer, Richard&#8217;s chosen heir, and sees parallels between the former king&#8217;s behavior and that of his son Harry. The latter&#8217;s way of life leaves the King in despair, as the King still despises the memory of Richard&#8217;s effeminate and populist ways. He wishes that his son were more warlike than he has appeared to be to date. Though he is himself an excellent politician (or a vile one, if you ask Hotspur), whose actions are calculated for effect, he fails to see that the Prince is doing much the same. The King smiles a great deal without necessarily meaning it. He is nevertheless a merciful King, executing far fewer people than might be expected. He still hopes to go on a crusade to Jerusalem to expiate his part in the murder of Richard II, but is prevented by the rebellion. He puts no great store in Harry&#8217;s promises to change, but grudgingly gives him a chance to prove himself. The King feels old and weary, though he is able to mount a spirited defense of his rights against the rebels. He is no longer as good a fighter as he was, almost being defeated by Douglas before Harry comes to his aid. The rest of his life is chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona>
+<persname short="OST.">Ostler</persname>
+<persdescription>Ostler takes care of travelers&#8217; horses at the inn.</persdescription>
+</persona>
+
+<persona>
+<persname short="SHER.">Sheriff</persname>
+<persdescription>The Sheriff is told of the robbery and goes searching for Falstaff. He does not expect to find the Prince of Wales at the Boar&#8217;s Head tavern instead.</persdescription>
+</persona>
+
+<persona>
+<persname short="1. CAR.">First Carrier</persname>
+<persdescription>The First Carrier (Mugs) is transporting goods on the road between Canterbury and London, and resting at the inn near Gads Hill. He is among the group robbed by Falstaff and his gang. He is not impressed by the quality of the inn. He is cautious and knows very well what sort of tricks thieves get up to in such places. He recognizes Falstaff and denounces him to the Sheriff.</persdescription>
 </persona>
 
 <persona>
@@ -129,12 +135,18 @@
 </persona>
 
 <persona>
-<persname short="1. TRAV., TRAVELLERS.">First Traveler</persname>
-<persdescription>The First Traveler is carrying a large sum of money, which he has been foolish enough to mention aloud at the Inn. Due to the amount he has on him, he chooses to travel with others. He is kind to horses. </persdescription>
+<persname short="1. TRAV.">First Traveller</persname>
+<persaliases>
+	<persname short="TRAVELLERS.">Travellers</persname>
+</persaliases>
+<persdescription>The First Traveler is carrying a large sum of money, which he has been foolish enough to mention aloud at the Inn. Due to the amount he has on him, he chooses to travel with others. He is kind to horses.</persdescription>
 </persona>
 
 <persona>
-<persname short="2. TRAV., TRAVELLERS.">Second Traveler</persname>
+<persname short="2. TRAV.">Second Traveller</persname>
+<persaliases>
+	<persname short="TRAVELLERS.">Travellers</persname>
+</persaliases>
 <persdescription>The Second Traveler is part of the company of travelers who are going along together in the hopes of discouraging thieves. They are unsuccessful.</persdescription>
 </persona>
 
@@ -145,7 +157,7 @@
 
 <persona>
 <persname short="FRAN.">Francis</persname>
-<persdescription>Francis is an indentured servant at the Boar&#8217;s Head tavern, essentially a waiter. He has already worked there for two years and has another five to go before he can be a free man. The Prince uses him as the butt of jokes which he does not understand. </persdescription>
+<persdescription>Francis is an indentured servant at the Boar&#8217;s Head tavern, essentially a waiter. He has already worked there for two years and has another five to go before he can be a free man. The Prince uses him as the butt of jokes which he does not understand.</persdescription>
 </persona>
 
 <persona>
