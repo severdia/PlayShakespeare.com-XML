@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="merry-wives-of-windsor">
 <title short="Merry Wives of Windsor">The Merry Wives of Windsor</title>
 <playwright>William Shakespeare</playwright>
 
@@ -135,9 +135,9 @@
 </personae>
 
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Windsor. Before Page&#8217;s house.</scenelocation>
 <scenepersonae>(Justice Shallow, Slender, Sir Hugh Evans, Page, Falstaff, Bardolph, Nym, Pistol, Anne Page, Mistress Ford, Mistress Page, Simple)</scenepersonae>
@@ -858,7 +858,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Evans, Simple)</scenepersonae>
@@ -884,7 +884,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Falstaff, Host, Bardolph, Nym, Pistol, Robin)</scenepersonae>
@@ -1142,7 +1142,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Doctor Caius&#8217; house.</scenelocation>
 <scenepersonae>(Mistress Quickly, Simple, John Rugby, Doctor Caius, Fenton)</scenepersonae>
@@ -1496,9 +1496,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Page&#8217;s house.</scenelocation>
 <scenepersonae>(Mistress Page, Mistress Ford, Ford, Pistol, Page, Nym, Mistress Quickly, Host, Shallow)</scenepersonae>
@@ -1928,7 +1928,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Falstaff, Pistol, Robin, Mistress Quickly, Bardolph, Ford)</scenepersonae>
@@ -2384,7 +2384,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A field near Windsor.</scenelocation>
 <scenepersonae>(Caius, Rugby, Page, Shallow, Slender, Host)</scenepersonae>
@@ -2632,9 +2632,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A field near Frogmore.</scenelocation>
 <scenepersonae>(Evans, Simple, Page, Shallow, Slender, Host, Caius, Rugby)</scenepersonae>
@@ -2916,7 +2916,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Mistress Page, Robin, Ford, Page, Shallow, Slender, Host, Evans, Caius, Rugby)</scenepersonae>
@@ -3007,7 +3007,7 @@
 <stagedir>Enter Page, Shallow, Slender, Host, Evans, Caius, Rugby.</stagedir>
 
 <speech>
-<speaker>SHAL., PAGE, ETC.</speaker>
+<speaker>SHAL. AND PAGE. ETC.</speaker>
 <line>Well met, Master Ford.</line>
 </speech>
 
@@ -3089,7 +3089,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>PAGE., EVANS. AND CAIUS</speaker>
 <line>Have with you to see this monster.</line>
 </speech>
 
@@ -3097,7 +3097,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
 <scenepersonae>(Mistress Ford, Mistress Page, Servants, Robin, Falstaff, Ford, Page, Caius, Evans)</scenepersonae>
@@ -3618,7 +3618,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Page&#8217;s house.</scenelocation>
 <scenepersonae>(Fenton, Anne Page, Shallow, Slender, Mistress Quickly, Page)</scenepersonae>
@@ -3904,7 +3904,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Falstaff, Bardolph, Mistress Quickly, Ford)</scenepersonae>
@@ -4147,9 +4147,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Mistress Page, Mistress Quickly, William, Evans)</scenepersonae>
@@ -4400,7 +4400,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
 <scenepersonae>(Falstaff, Mistress Ford, Mistress Page, Servants, Ford, Page, Caius, Evans, Shallow)</scenepersonae>
@@ -4887,7 +4887,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Host, Bardolph)</scenepersonae>
@@ -4918,7 +4918,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
 <scenepersonae>(Page, Ford, Mistress Page, Mistress Ford, Evans)</scenepersonae>
@@ -5124,7 +5124,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Host, Simple, Falstaff, Bardolph, Evans, Caius, Mistress Quickly)</scenepersonae>
@@ -5385,7 +5385,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another room in the Garter Inn.</scenelocation>
 <scenepersonae>(Fenton, Host)</scenepersonae>
@@ -5482,9 +5482,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
 <scenepersonae>(Falstaff, Mistress Quickly, Ford)</scenepersonae>
@@ -5523,7 +5523,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Windsor Park.</scenelocation>
 <scenepersonae>(Page, Shallow, Slender)</scenepersonae>
@@ -5554,7 +5554,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A street leading to the Park.</scenelocation>
 <scenepersonae>(Mistress Page, Mistress Ford, Caius)</scenepersonae>
@@ -5618,7 +5618,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Windsor Park.</scenelocation>
 <scenepersonae>(Evans, Children of Windsor, Boy, Postmaster’s Boy)</scenepersonae>
@@ -5634,10 +5634,10 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the Park.</scenelocation>
-<scenepersonae>(Falstaff, Mistress Page, Mistress Ford, Evans, Pistol, Mistress Quickly, Doctor Caius, Slender, Fenton, Page, Ford, Children of Windsor, Boy, Postmaster’s Boy)</scenepersonae>
+<scenepersonae>(Falstaff, Mistress Page, Mistress Ford, Evans, Pistol, Mistress Quickly, Doctor Caius, Slender, Fenton, Page, Ford, Children of Windsor, Boy, Postmaster&#8217;s Boy, Anne Page)</scenepersonae>
 
 <stagedir>Enter Falstaff with a buck&#8217;s head upon him.</stagedir>
 
@@ -6130,6 +6130,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

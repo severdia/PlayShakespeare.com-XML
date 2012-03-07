@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="midsummer-nights-dream">
 <title short="Midsummer Night&#8217;s Dream">A Midsummer Night&#8217;s Dream</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. The palace of Theseus.</scenelocation>
 <scenepersonae>(Theseus, Hippolyta, Philostrate, Egeus, Hermia, Lysander, Demetrius, Helena)</scenepersonae>
@@ -481,7 +481,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. Quince&#8217;s house.</scenelocation>
 <scenepersonae>(Quince, Snug, Bottom, Flute, Snout, Starveling)</scenepersonae>
@@ -707,9 +707,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A wood near Athens.</scenelocation>
 <scenepersonae>(Fairy, Puck, King Oberon, Queen Titania, Demetrius, Helena)</scenepersonae>
@@ -1163,7 +1163,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the wood.</scenelocation>
 <scenepersonae>(Titania, Fairies, Oberon, Lysander, Hermia, Puck, Demetrius, Helena)</scenepersonae>
@@ -1465,9 +1465,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The wood. Titania lying asleep.</scenelocation>
 <scenepersonae>(Quince, Snug, Bottom, Flute, Snout, Starveling, Puck, Peaseblossom, Cobweb, Moth, Mustardseed)</scenepersonae>
@@ -1806,7 +1806,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. FAIRIES.</speaker>
 <line offset="7">Where shall we go?</line>
 </speech>
 
@@ -1893,7 +1893,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the wood.</scenelocation>
 <scenepersonae>(Oberon, Puck, Demetrius, Hermia, Lysander, Helena)</scenepersonae>
@@ -2888,9 +2888,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Titania, Bottom, Peaseblossom, Cobweb, Moth, Mustardseed, Oberon, Puck, Theseus, Hippolyta, Egeus, Attendants)</scenepersonae>
@@ -3318,7 +3318,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. Quince&#8217;s house.</scenelocation>
 <scenepersonae>(Quince, Thisby Flute, Snout, Starveling, Snug, Bottom)</scenepersonae>
@@ -3404,9 +3404,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. The palace of Theseus.</scenelocation>
 <scenepersonae>(Theseus, Hippolyta, Philostrate, Lords, Attendants, Lysander, Demetrius, Hermia, Helena, Quince, Pyramus, Thisby, Lion, Moonshine, Puck, Oberon, Titania)</scenepersonae>
@@ -4291,6 +4291,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

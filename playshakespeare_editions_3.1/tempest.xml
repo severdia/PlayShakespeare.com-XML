@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="tempest">
 <title short="The Tempest">The Tempest</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On a ship at sea.</scenelocation>
 <scenepersonae>(Ship-Master, Boatswain, Mariners, Alonso, Sebastian, Antonio, Ferdinando, Gonzalo)</scenepersonae>
@@ -191,7 +191,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The island. Before Prospero&#8217;s cell.</scenelocation>
 <scenepersonae>(Prospero, Miranda, Ariel, Caliban, Ferdinand)</scenepersonae>
@@ -1385,9 +1385,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
 <scenepersonae>(Alonso, Sebastian, Antonio, Gonzalo, Adrian, Francisco, Ariel)</scenepersonae>
@@ -2397,7 +2397,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
 <scenepersonae>(Caliban, Trinculo, Stephano)</scenepersonae>
@@ -2713,9 +2713,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
 <scenepersonae>(Ferdinand, Miranda, Prospero)</scenepersonae>
@@ -2946,7 +2946,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
 <scenepersonae>(Caliban, Stephano, Trinculo, Ariel)</scenepersonae>
@@ -3339,7 +3339,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
 <scenepersonae>(Alonso, Sebastian, Antonio, Gonzalo, Adrian, Francisco, Prospero, Shapes, Ariel)</scenepersonae>
@@ -3611,9 +3611,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
 <scenepersonae>(Prospero, Ferdinand, Miranda, Ariel, Iris, Juno, Ceres, Nymphs, Reapers, Caliban, Stephano, Trinculo, Spirits)</scenepersonae>
@@ -4230,9 +4230,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
 <scenepersonae>(Prospero, Ariel, Alonso, Gonzalo, Sebastian, Antonio, Adrian, Francisco, Ferdinand, Miranda, Master, Boatswain, Caliban, Stephano, Trinculo)</scenepersonae>
@@ -4993,6 +4993,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

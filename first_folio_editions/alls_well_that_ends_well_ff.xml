@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play variant="first-folio">
+<play variant="first-folio" unique="alls-well-that-ends-well">
 <title short="All&#8217;s Well That Ends Well">All&#8217;s Well That Ends Well</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
@@ -490,7 +490,7 @@
 <line>What hath beene, cannot be. Who euer &#383;troue</line>
 <line>To &#383;hew her merit, that did mi&#383;&#383;e her loue?</line>
 <line>(The Kings di&#383;ea&#383;e) my proie&#392;t may deceiue me,</line>
-<line>But my intents are fixt, and will not leaue me. <stagedir>Exit</stagedir> </line>
+<line>But my intents are fixt, and will not leaue me. <stagedir>Exit</stagedir></line>
 </speech>
 
 <stagedir>Flouri&#383;h Cornets. Enter the King of France with Letters, and diuers Attendants</stagedir>
@@ -6326,13 +6326,13 @@
 <line>In a &#383;weet verball breefe, it did concerne</line>
 <line>Your Highne&#383;&#383;e with her &#383;elfe.</line>    
 <stagedir>A Letter.</stagedir>
-<line><italic>Vpon his many prote&#383;tations to marrie mee when his wife was</italic></line>
-<line><italic>dead, I blu&#383;h to &#383;ay it, he wonne me. Now is the Count Ro&#383;</italic>-</line>
-<line><italic>&#383;illion a Widdower, his vowes are forfeited to mee, and my</italic></line>
-<line><italic>honors payed to him. Hee &#383;tole from Florence, taking no</italic></line>
-<line><italic>leaue, and I follow him to his Countrey for Iu&#383;tice: Grant</italic></line>
-<line><italic>it me, O King, in you it be&#383;t lies, otherwi&#383;e a &#383;educer &#64258;ou-</italic></line>
-<line><italic>ri&#383;hes, and a poore Maid is vndone.</italic></line> 
+<line><recite>Vpon his many prote&#383;tations to marrie mee when his wife was</recite></line>
+<line><recite>dead, I blu&#383;h to &#383;ay it, he wonne me. Now is the Count Ro&#383;</recite>-</line>
+<line><recite>&#383;illion a Widdower, his vowes are forfeited to mee, and my</recite></line>
+<line><recite>honors payed to him. Hee &#383;tole from Florence, taking no</recite></line>
+<line><recite>leaue, and I follow him to his Countrey for Iu&#383;tice: Grant</recite></line>
+<line><recite>it me, O King, in you it be&#383;t lies, otherwi&#383;e a &#383;educer &#64258;ou-</recite></line>
+<line><recite>ri&#383;hes, and a poore Maid is vndone.</recite></line> 
 <line>Diana Capilet.</line>
 </speech>
 
@@ -6874,13 +6874,17 @@
 <line>All yet &#383;eemes well, and if it end &#383;o meete,</line>
 <line>The bitter pa&#383;t, more welcome is the &#383;weet.</line>
 <stagedir>Flouri&#383;h.</stagedir>
-<line><italic>The Kings a Begger, now the Play is done,</italic></line>
-<line><italic>All is well ended, if this &#383;uite be wonne,</italic></line>
-<line><italic>That you expre&#383;&#383;e Content: which we will pay,</italic></line>
-<line><italic>With &#383;trife to plea&#383;e you, day exceeding day:</italic></line>
-<line><italic>Ours be your patience then, and yours our parts,</italic></line>
-<line><italic>Your gentle hands lend vs, and take our hearts.</italic></line>
 </speech>
+
+
+<epilogue>
+<line type="first"><dropcap>T</dropcap>He Kings a Begger, now the Play is done,</line>
+<line type="second">All is well ended, if this &#383;uite be wonne,</line>
+<line>That you expre&#383;&#383;e Content: which we will pay,</line>
+<line>With &#383;trife to plea&#383;e you, day exceeding day:</line>
+<line>Ours be your patience then, and yours our parts,</line>
+<line>Your gentle hands lend vs, and take our hearts.</line>
+</epilogue>
 
 <stagedir>Exeunt omn.</stagedir>
 

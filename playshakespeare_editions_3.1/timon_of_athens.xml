@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="timon-of-athens">
 <title short="Timon of Athens">The Life of Timon of Athens</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A hall in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Poet, Painter, Jeweller, Merchant, Senators, Lord Timon, Messenger, Lucilius, Servants, Old Athenian, Apemantus, Messenger from Ventidius, Alcibiades, Lords)</scenepersonae>
@@ -969,7 +969,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A banqueting-room in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Flavius, Lord Timon, States, Athenian Lords, Alcibiades, Ventidius, Apemantus, Servants, Cupid, Ladies)</scenepersonae>
@@ -1566,9 +1566,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A Senator&#8217;s house.</scenelocation>
 <scenepersonae>(Senator, Caphis)</scenepersonae>
@@ -1646,7 +1646,7 @@
 <stagedir>Exeunt.</stagedir> 
 
 </scene>
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A hall in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Steward Flavius, Caphis, Servants of Isidore and Varro, Timon, Alcibiades, Apemantus, Fool, Page, Flaminius, Servilius, Timon&#8217;s Servant)</scenepersonae>
@@ -2296,9 +2296,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in Lucullus&#8217; house.</scenelocation>
 <scenepersonae>(Flaminius, Lucullus, Lucullus&#8217;s Servant)</scenepersonae>
@@ -2413,7 +2413,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Lucius, Three Strangers, Servilius)</scenepersonae>
@@ -2578,7 +2578,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Sempronius&#8217; house.</scenelocation>
 <scenepersonae>(Timon&#8217;s Servant, Sempronius)</scenepersonae>
@@ -2643,7 +2643,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. A hall in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Varro&#8217;s two Servants, Titus, Servants of Timon&#8217;s creditors, Lucius&#8217; Servant, Hortensius, Philotus, Flaminius, Steward Flavius, Servilius, Timon)</scenepersonae>
@@ -3080,7 +3080,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. The senate-house. The Senate sitting.</scenelocation>
 <scenepersonae>(Senators, Alcibiades, Attendants)</scenepersonae>
@@ -3320,7 +3320,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The same. A banqueting-room in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Servants, Senators, Lords, Timon, Attendants)</scenepersonae>
@@ -3642,9 +3642,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Without the walls of Athens.</scenelocation>
 <scenepersonae>(Timon)</scenepersonae>
@@ -3700,7 +3700,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A room in Timon&#8217;s house.</scenelocation>
 <scenepersonae>(Steward Flavius, Timon&#8217;s Servants)</scenepersonae>
@@ -3798,7 +3798,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Woods and cave, near the seashore.</scenelocation>
 <scenepersonae>(Timon, Alcibiades, Phrynia and Timandra, Apemantus, Bandits, Steward Flavius)</scenepersonae>
@@ -5001,9 +5001,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The woods. Before Timon&#8217;s cave.</scenelocation>
 <scenepersonae>(Poet, Painter, Timon, Steward Flavius, Senators)</scenepersonae>
@@ -5596,7 +5596,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before the walls of Athens.</scenelocation>
 <scenepersonae>(Senators, Messenger)</scenepersonae>
@@ -5652,7 +5652,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The woods. Timon&#8217;s cave, and a rude tomb seen.</scenelocation>
 <scenepersonae>(Soldier)</scenepersonae>
@@ -5679,7 +5679,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before the walls of Athens.</scenelocation>
 <scenepersonae>(Alcibiades, Senators, Soldier)</scenepersonae>
@@ -5857,6 +5857,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

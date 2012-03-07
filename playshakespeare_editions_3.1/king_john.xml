@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play> 
+<play unique="king-john"> 
 <title short="King John">The Life and Death of King John</title> 
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King John&#8217;s palace.</scenelocation>
 <scenepersonae>(King John, Queen Elinor, Pembroke, Essex, Salisbury, Chatillion of France, Sheriff, Robert Faulconbridge, Philip the Bastard, Lady Faulconbridge, James Gurney)</scenepersonae>
@@ -549,9 +549,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. Before Angiers.</scenelocation>
 <scenepersonae>(Philip, King of France, Lewis the Dauphin, Constance, Arthur, Austria, Chatillion, John, King of England, Bastard, Queen Elinor, Blanch, Pembroke, Hubert, Citizens, Herald of France, English Herald)</scenepersonae>
@@ -1645,9 +1645,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The French King&#8217;s pavilion.</scenelocation>
 <scenepersonae>(Constance, Arthur, Salisbury, King John, King Philip of France, Lewis the Dauphin, Blanch, Elinor, Philip the Bastard, Austria, Attendants, Pandulph)</scenepersonae>
@@ -2317,7 +2317,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. Plains near Angiers.</scenelocation>
 <scenepersonae>(Bastard, King John, Arthur, Hubert)</scenepersonae>
@@ -2353,7 +2353,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(King John, Elinor, Arthur, Bastard, Hubert, Lords)</scenepersonae>
@@ -2531,7 +2531,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. King Philip&#8217;s tent.</scenelocation>
 <scenepersonae>(King Philip of France, Lewis the Dauphin, Pandulpho, Attendants, Constance)</scenepersonae>
@@ -2871,9 +2871,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in a castle.</scenelocation>
 <scenepersonae>(Hubert, Executioners, Arthur)</scenepersonae>
@@ -3202,7 +3202,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in a castle.</scenelocation>
 <scenepersonae>(King John, Pembroke, Salisbury, Lords, Hubert, Messenger, Bastard, Peter of Pomfret)</scenepersonae>
@@ -3714,7 +3714,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before the castle.</scenelocation>
 <scenepersonae>(Arthur, Pembroke, Salisbury, Bigot, Bastard)</scenepersonae>
@@ -4113,9 +4113,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King John&#8217;s palace.</scenelocation>
 <scenepersonae>(King John, Pandulph, Attendants, Bastard)</scenepersonae>
@@ -4269,7 +4269,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Lewis&#8217;s camp at St. Edmundsbury.</scenelocation>
 <scenepersonae>(Lewis the Dauphin, Salisbury, Melune, Pembroke, Bigot, Soldiers, Pandulpho, Bastard)</scenepersonae>
@@ -4537,7 +4537,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The field of battle.</scenelocation>
 <scenepersonae>(King John, Hubert, Messenger)</scenepersonae>
@@ -4595,7 +4595,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Salisbury, Pembroke, Bigot, Melune)</scenepersonae>
@@ -4718,7 +4718,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The French camp.</scenelocation>
 <scenepersonae>(Lewis the Dauphin, French Messenger)</scenepersonae>
@@ -4782,7 +4782,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>An open place in the neighbourhood of Swinstead Abbey.</scenelocation>
 <scenepersonae>(Bastard, Hubert)</scenepersonae>
@@ -4921,7 +4921,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The orchard in Swinstead Abbey.</scenelocation>
 <scenepersonae>(Prince Henry, Salisbury, Bigot, Pembroke, King John, Bastard)</scenepersonae>
@@ -5178,6 +5178,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

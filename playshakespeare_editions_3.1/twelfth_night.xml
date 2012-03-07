@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="twelfth-night">
 <title short="Twelfth Night">Twelfth Night, or What You Will</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Duke Orsino&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke of Illyria, Curio, Lords, Musicians, Valentine)</scenepersonae>
@@ -92,7 +92,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The sea-coast.</scenelocation>
 <scenepersonae>(Viola, Captain, Sailors)</scenepersonae>
@@ -252,7 +252,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Sir Toby Belch, Maria, Sir Andrew Aguecheek)</scenepersonae>
@@ -598,7 +598,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Duke Orsino&#8217;s palace.</scenelocation>
 <scenepersonae>(Valentine, Viola, Duke, Curio, Attendants)</scenepersonae>
@@ -710,7 +710,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Maria, Clown Feste, Lady Olivia, Malvolio, Attendants, Sir Toby, Viola)</scenepersonae>
@@ -1401,9 +1401,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The sea-coast.</scenelocation>
 <scenepersonae>(Antonio, Sebastian)</scenepersonae>
@@ -1475,7 +1475,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Viola, Malvolio)</scenepersonae>
@@ -1542,7 +1542,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Sir Toby, Sir Andrew, Clown, Maria, Malvolio)</scenepersonae>
@@ -2011,7 +2011,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Duke Orsino&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke, Viola, Curio, Clown, Attendants)</scenepersonae>
@@ -2312,7 +2312,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
 <scenepersonae>(Sir Toby, Sir Andrew, Fabian, Maria, Malvolio)</scenepersonae>
@@ -2778,9 +2778,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
 <scenepersonae>(Viola, Clown, Sir Toby, Andrew, Olivia, Gentlewoman)</scenepersonae>
@@ -3193,7 +3193,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Sir Toby, Sir Andrew, Fabian, Maria)</scenepersonae>
@@ -3348,7 +3348,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Sebastian, Antonio)</scenepersonae>
@@ -3472,7 +3472,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
 <scenepersonae>(Olivia, Maria, Malvolio, Servant, Toby, Fabian, Sir Andrew, Viola, Antonio, Officers)</scenepersonae>
@@ -4387,9 +4387,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Sebastian, Clown, Andrew, Toby, Fabian, Olivia)</scenepersonae>
@@ -4559,10 +4559,10 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Olivia&#8217;s house.</scenelocation>
-<scenepersonae>(Maria, Clown, Toby)</scenepersonae>
+<scenepersonae>(Maria, Clown, Toby, Malvolio)</scenepersonae>
 
 <stagedir>Enter Maria and Clown.</stagedir>
 
@@ -4872,7 +4872,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
 <scenepersonae>(Sebastian, Olivia, Priest)</scenepersonae>
@@ -4937,9 +4937,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Olivia&#8217;s house.</scenelocation>
 <scenepersonae>(Clown, Fabian, Duke, Viola, Curio, Lords, Antonio, Officers, Olivia, Attendants, Priest, Sir Andrew, Sir Toby, Malvolio)</scenepersonae>
@@ -5864,6 +5864,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

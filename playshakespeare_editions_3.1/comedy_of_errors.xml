@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="comedy-of-errors">
 <title short="Comedy of Errors">The Comedy of Errors</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Duke Solinus&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke of Ephesus, Egeon, Jailer, Officers, Attendants)</scenepersonae>
@@ -224,7 +224,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Mart.</scenelocation>
 <scenepersonae>(Antipholus Erotes of Syracuse, First Merchant, Dromio of Syracuse, Dromio of Ephesus)</scenepersonae>
@@ -448,9 +448,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The house of Antipholus of Ephesus.</scenelocation>
 <scenepersonae>(Adriana, Luciana, Dromio of Ephesus)</scenepersonae>
@@ -733,7 +733,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Antipholus Erotes of Syracuse, Dromio of Syracuse, Adriana, Luciana)</scenepersonae>
@@ -1268,12 +1268,12 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before the house of Antipholus of Ephesus.</scenelocation>
-<scenepersonae>(Antipholus of Ephesus, Dromio of Ephesus, Angelo, Balthazar, Luce, Adriana)</scenepersonae>
+<scenepersonae>(Antipholus of Ephesus, Dromio of Ephesus, Angelo, Balthazar, Luce, Adriana, Dromio of Syracuse)</scenepersonae>
 
 <stagedir>Enter Antipholus of Ephesus, his man Dromio of Ephesus, Angelo the goldsmith, and Balthazar the merchant.</stagedir>
 
@@ -1663,7 +1663,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Luciana, Antipholus of Syracuse, Dromio of Syracuse, Angelo)</scenepersonae>
@@ -2082,9 +2082,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Second Merchant, Angelo, Officer, Antipholus of Ephesus, Dromio of Ephesus, Dromio of Syracuse)</scenepersonae>
@@ -2380,7 +2380,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The house of Antipholus of Ephesus.</scenelocation>
 <scenepersonae>(Adriana, Luciana, Dromio of Syracuse)</scenepersonae>
@@ -2600,7 +2600,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Antipholus of Syracuse, Dromio of Syracuse, Courtezan)</scenepersonae>
@@ -2792,7 +2792,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Antipholus of Ephesus, Officer, Dromio of Ephesus, Adriana, Luciana, Courtezan, Pinch, Antipholus of Syracuse, Dromio of Syracuse)</scenepersonae>
@@ -3314,9 +3314,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A street before a Priory.</scenelocation>
 <scenepersonae>(Second Merchant, Angelo, Antipholus of Syracuse. Dromio of Syracuse, Adriana, Luciana, Courtezan, Lady Abbess, Duke of Ephesus, Egeon, Headsman, Officers, Messenger, Antipholus of Ephesus, Dromio of Ephesus)</scenepersonae>
@@ -4363,6 +4363,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

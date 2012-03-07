@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play variant="first-folio">
+<play variant="first-folio" unique="henry-iv-part-ii">
 <title short="Henry IV, Pt. 2">The Second Part of Henry the Fourth, Containing his Death: and the Coronation of King Henry the Fift. The Second Part of Henry the Fourth</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
@@ -7097,8 +7097,8 @@
 
 <epilogue>
 <epiloguetitle>EPILOGVE.</epiloguetitle>
-<line>Fir&#383;t, my Feare: then, my Curt&#383;ie: last, my Speech.</line>
-<line>My Feare, is your Displea&#383;ure: My Curt&#383;ie, my Dutie:</line>
+<line type="first"><dropcap>F</dropcap>IRST, my Feare: then, my Curt&#383;ie: last, my Speech.</line>
+<line type="second">My Feare, is your Displea&#383;ure: My Curt&#383;ie, my Dutie:</line>
 <line>And my speech, to Begge your Pardons. If you looke for a</line>
 <line>good speech now, you vndoe me: For what I haue to &#383;ay, is</line>
 <line>of mine owne making: and what (indeed) I &#383;hould &#383;ay, will</line>
@@ -7126,7 +7126,7 @@
 </epilogue>
 
 <personae>
-<pernames>THE ACTORS NAMES.</pernames>
+<pernamestitle>THE ACTORS NAMES.</pernamestitle>
 <persona>Rvmovr the Pre&#383;entor.</persona>
 <persona>King <italic>Henry</italic> the Fourth.</persona>
 <persona>Prince <italic>Henry</italic>, afterwards Crowned King <italic>Henrie</italic> the Fift.</persona>

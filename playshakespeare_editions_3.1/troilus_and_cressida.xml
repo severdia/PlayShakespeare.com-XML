@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="troilus-and-cressida">
 <title short="Troilus and Cressida">The History of Troilus and Cressida</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
 <prologue>
@@ -48,7 +48,7 @@
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. Before Priam&#8217;s palace.</scenelocation>
 <scenepersonae>(Pandarus, Troilus, Aeneas)</scenepersonae>
@@ -314,7 +314,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A street.</scenelocation>
 <scenepersonae>(Cressida, Alexander, Pandarus, Aeneas, Antenor, Hector, Paris, Helenus, Troilus, Trojan Soldiers, Troilus&#8217; Boy)</scenepersonae>
@@ -1075,7 +1075,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Agamemnon&#8217;s tent.</scenelocation>
 <scenepersonae>(Agamemnon, Nestor, Ulysses, Diomedes, Menelaus, Aeneas)</scenepersonae>
@@ -1696,9 +1696,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A part of the Grecian camp.</scenelocation>
 <scenepersonae>(Ajax, Thersites, Achilles, Patroclus)</scenepersonae>
@@ -2096,7 +2096,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Troy. A room in Priam&#8217;s palace.</scenelocation>
 <scenepersonae>(Priam, Hector, Troilus, Paris, Helenus, Cassandra)</scenepersonae>
@@ -2432,7 +2432,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
 <scenepersonae>(Thersites, Patroclus, Achilles, Agamemnon, Ulysses, Nestor, Diomedes, Ajax, Calchas)</scenepersonae>
@@ -3070,9 +3070,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. Priam&#8217;s palace.</scenelocation>
 <scenepersonae>(Pandarus, Paris&#8217;s Servant, Paris, Helen, Musicians)</scenepersonae>
@@ -3520,7 +3520,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. Pandarus&#8217; orchard.</scenelocation>
 <scenepersonae>(Pandarus, Troilus&#8217; Boy, Troilus, Cressida)</scenepersonae>
@@ -3913,7 +3913,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
 <scenepersonae>(Ulysses, Diomedes, Nestor, Agamemnon, Ajax, Menelaus, Calchas, Achilles, Patroclus, Thersites)</scenepersonae>
@@ -4518,9 +4518,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. A street.</scenelocation>
 <scenepersonae>(Aeneas, Paris, Deiphobus, Antenor, Diomedes)</scenepersonae>
@@ -4705,7 +4705,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. Court of Pandarus&#8217; house.</scenelocation>
 <scenepersonae>(Troilus, Cressida, Pandarus, Aeneas)</scenepersonae>
@@ -5024,7 +5024,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. Street before Pandarus&#8217; house.</scenelocation>
 <scenepersonae>(Paris, Troilus, Aeneas, Deiphobus, Antenor, Diomedes)</scenepersonae>
@@ -5062,7 +5062,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. Pandarus&#8217; house.</scenelocation>
 <scenepersonae>(Pandarus, Cressida, Troilus, Aeneas, Paris, Antenor, Deiphobus, Diomedes)</scenepersonae>
@@ -5431,7 +5431,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The Grecian camp. Lists set out.</scenelocation>
 <scenepersonae>(Ajax, Achilles, Patroclus, Agamemnon, Menelaus, Ulysses, Nestor,  Cressida, Hector, Paris, Aeneas, Helenus, Troilus, Attendants, Diomedes)</scenepersonae>
@@ -6254,9 +6254,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
 <scenepersonae>(Achilles, Patroclus, Thersites, Agamemnon, Hector, Troilus, Ajax, Ulysses, Nestor, Menelaus, Diomedes)</scenepersonae>
@@ -6506,7 +6506,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. Before Calchas&#8217; tent.</scenelocation>
 <scenepersonae>(Diomedes, Troilus, Ulysses, Thersites, Cressida, Aeneas)</scenepersonae>
@@ -7211,7 +7211,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Troy. Before Priam&#8217;s palace.</scenelocation>
 <scenepersonae>(Hector, Andromache, Cassandra, Troilus, Priam, Pandar)</scenepersonae>
@@ -7549,7 +7549,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Plains between Troy and the Grecian camp.</scenelocation>
 <scenepersonae>(Thersites, Diomedes, Troilus, Hector)</scenepersonae>
@@ -7613,7 +7613,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Diomedes, Diomedes&#8217;s Servant, Agamemnon, Nestor, Ulysses, Ajax, Achilles)</scenepersonae>
@@ -7726,7 +7726,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Ajax, Diomedes, Troilus, Hector, Achilles, Greek Knight)</scenepersonae>
@@ -7861,7 +7861,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Achilles, Myrmidons, Thersites, Menelaus, Paris, Margarelon)</scenepersonae>
@@ -7924,7 +7924,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Hector, Achilles, Myrmidons)</scenepersonae>
@@ -7991,7 +7991,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Agamemnon, Ajax, Menelaus, Nestor, Diomedes, Myrmidons)</scenepersonae>
@@ -8037,7 +8037,7 @@
 
 </scene>
 
-<scene>
+<scene num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
 <scenepersonae>(Aeneas, Paris, Antenor, Deiphobus, Troilus, Pandarus)</scenepersonae>
@@ -8154,6 +8154,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

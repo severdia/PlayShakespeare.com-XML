@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="antony-and-cleopatra">
 <title short="Antony and Cleopatra">The Tragedy of Antony and Cleopatra</title>
 <playwright>William Shakespeare</playwright>
 
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Alexandria. A room in Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Demetrius, Philo, Antony, Cleopatra, Ladies, Eunuchs, First Roman Messenger)</scenepersonae>
@@ -172,7 +172,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. Another room.</scenelocation>
 <scenepersonae>(Enobarbus, Lamprius the Soothsayer, Rannius, Lucillius, Charmian, Iras, Mardian the Eunuch, Alexas, Cleopatra, Antony, First Messenger, Attendants, Second Messenger)</scenepersonae>
@@ -722,7 +722,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. Another room.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Alexas, Iras)</scenepersonae>
@@ -1021,7 +1021,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. Octavius Caesar&#8217;s house.</scenelocation>
 <scenepersonae>(Octavius Caesar, Lepidus, Caesar&#8217;s First Messenger, Caesar&#8217;s Second Messenger)</scenepersonae>
@@ -1185,7 +1185,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Iras, Mardian, Alexas)</scenepersonae>
@@ -1414,9 +1414,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Messina. Pompey&#8217;s house.</scenelocation>
 <scenepersonae>(Pompey, Menecrates, Menas, Varrius)</scenepersonae>
@@ -1541,7 +1541,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. The house of Lepidus.</scenelocation>
 <scenepersonae>(Enobarbus, Lepidus, Caesar, Maecenas, Agrippa, Antony)</scenepersonae>
@@ -2194,7 +2194,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. Octavius Caesar&#8217;s house.</scenelocation>
 <scenepersonae>(Antony, Caesar, Octavia, Soothsayer, Ventidius)</scenepersonae>
@@ -2313,7 +2313,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. A street.</scenelocation>
 <scenepersonae>(Lepidus, Maecenas, and Agrippa)</scenepersonae>
@@ -2366,7 +2366,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Iras, Alexas, Mardian the Eunuch, Egyptian Messenger)</scenepersonae>
@@ -2380,7 +2380,7 @@
 </speech>
 
 <speech>
-<speaker>OMNES.</speaker>
+<speaker>ALL.</speaker>
 <line offset="5">The music, ho!</line>
 </speech>
 
@@ -2768,7 +2768,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Near Misenum.</scenelocation>
 <scenepersonae>(Pompey, Menas, Caesar, Lepidus, Antony, Enobarbus, Maecenas, Agrippa, Soldiers)</scenepersonae>
@@ -3196,7 +3196,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>On board Pompey&#8217;s galley, off Misenum.</scenelocation>
 <scenepersonae>(Pompey&#8217;s First Servant, Pompey&#8217;s Second Servant, Caesar, Antony, Pompey, Lepidus, Agrippa, Maecenas, Enobarbus, Menas, Captains)</scenepersonae>
@@ -3661,9 +3661,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A plain in Syria.</scenelocation>
 <scenepersonae>(Ventidius, Silius, Romans, Officers, Soldiers, the dead body of Pacorus)</scenepersonae>
@@ -3743,7 +3743,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. An ante-chamber in Octavius Caesar&#8217;s house.</scenelocation>
 <scenepersonae>(Agrippa, Enobarbus, Caesar, Antony, Lepidus, Octavia)</scenepersonae>
@@ -3997,7 +3997,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Iras, Alexas, Egyptian Messenger)</scenepersonae>
@@ -4233,7 +4233,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Athens. A room in Mark Antony&#8217;s house.</scenelocation>
 <scenepersonae>(Antony, Octavia)</scenepersonae>
@@ -4305,7 +4305,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. Another room.</scenelocation>
 <scenepersonae>(Enobarbus, Eros)</scenepersonae>
@@ -4384,7 +4384,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Rome. Octavius Caesar&#8217;s house.</scenelocation>
 <scenepersonae>(Agrippa, Maecenas, Caesar, Octavia)</scenepersonae>
@@ -4621,7 +4621,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Near Actium. Mark Antony&#8217;s camp.</scenelocation>
 <scenepersonae>(Cleopatra, Enobarbus, Antony, Canidius, Second Roman Messenger, Scarus)</scenepersonae>
@@ -4895,7 +4895,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>A plain near Actium.</scenelocation>
 <scenepersonae>(Caesar, Taurus)</scenepersonae>
@@ -4924,7 +4924,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Another part of the plain.</scenelocation>
 <scenepersonae>(Antony, Enobarbus)</scenepersonae>
@@ -4943,7 +4943,7 @@
 
 </scene>
 
-<scene>
+<scene num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Another part of the plain.</scenelocation>
 <scenepersonae>(Canidius, Taurus, Enobarbus, Scarus)</scenepersonae>
@@ -5065,7 +5065,7 @@
 
 </scene>
 
-<scene>
+<scene num="11">
 <scenetitle>Scene 11</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Antony, Antony&#8217;s First Attendant, Antony&#8217;s Second Attendant, Cleopatra, Charmian, Eros, Iras)</scenepersonae>
@@ -5273,7 +5273,7 @@
 
 </scene>
 
-<scene>
+<scene num="12">
 <scenetitle>Scene 12</scenetitle>
 <scenelocation>Egypt. Octavius Caesar&#8217;s camp.</scenelocation>
 <scenepersonae>(Caesar, Agrippa, Thidias, Dolabella, Schoolmaster)</scenepersonae>
@@ -5381,7 +5381,7 @@
 
 </scene>
 
-<scene>
+<scene num="13">
 <scenetitle>Scene 13</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Cleopatra, Enobarbus, Charmian, Iras, Schoolmaster as Ambassador, Antony, First Egyptian Servant, Second Egyptian Servant, Thidias)</scenepersonae>
@@ -5927,9 +5927,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Alexandria. Octavius Caesar&#8217;s camp.</scenelocation>
 <scenepersonae>(Caesar, Agrippa, Maecenas)</scenepersonae>
@@ -5970,7 +5970,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Antony, Cleopatra, Enobarbus, Charmian, Iras, Alexas, Antony&#8217;s First Attendant, Antony&#8217;s Second Attendant)</scenepersonae>
@@ -6111,7 +6111,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. Before the palace.</scenelocation>
 <scenepersonae>(Antony&#8217;s First Soldier, Antony&#8217;s Second Soldier, Antony&#8217;s Third Soldier, Antony&#8217;s Fourth Soldier)</scenepersonae>
@@ -6263,7 +6263,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. A room in the palace.</scenelocation>
 <scenepersonae>(Antony, Cleopatra, Charmian, Scarus, Soldiers, Captain of Antony&#8217;s Army)</scenepersonae>
@@ -6396,7 +6396,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Alexandria. Mark Antony&#8217;s camp.</scenelocation>
 <scenepersonae>(Antony, Eros, Scarus)</scenepersonae>
@@ -6476,7 +6476,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Alexandria. Octavius Caesar&#8217;s camp.</scenelocation>
 <scenepersonae>(Agrippa, Caesar, Enobarbus, Dolabella, Caesar&#8217;s Third Messenger, Caesar&#8217;s First Soldier)</scenepersonae>
@@ -6580,7 +6580,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Field of battle between the camps.</scenelocation>
 <scenepersonae>(Agrippa, Antony, Scarus, Eros)</scenepersonae>
@@ -6660,7 +6660,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Under the walls of Alexandria.</scenelocation>
 <scenepersonae>(Antony, Scarus, Cleopatra)</scenepersonae>
@@ -6741,7 +6741,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Octavius Caesar&#8217;s camp.</scenelocation>
 <scenepersonae>(Caesar&#8217;s Sentry, Caesar&#8217;s First Watchman, Caesar&#8217;s Second Watchman, Enobarbus)</scenepersonae>
@@ -6871,7 +6871,7 @@
 
 </scene>
 
-<scene>
+<scene num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Between the two camps.</scenelocation>
 <scenepersonae>(Antony, Scarus)</scenepersonae>
@@ -6904,7 +6904,7 @@
 
 </scene>
 
-<scene>
+<scene num="11">
 <scenetitle>Scene 11</scenetitle>
 <scenelocation>Another part of the same.</scenelocation>
 <scenepersonae>(Caesar)</scenepersonae>
@@ -6923,7 +6923,7 @@
 
 </scene>
 
-<scene>
+<scene num="12">
 <scenetitle>Scene 12</scenetitle>
 <scenelocation>Another part of the same.</scenelocation>
 <scenepersonae>(Antony, Scarus, Cleopatra)</scenepersonae>
@@ -7018,7 +7018,7 @@
 
 </scene>
 
-<scene>
+<scene num="13">
 <scenetitle>Scene 13</scenetitle>
 <scenelocation>Alexandria. Cleopatra&#8217;s palace.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Iras, Mardian)</scenepersonae>
@@ -7053,10 +7053,10 @@
 
 </scene>
 
-<scene>
+<scene num="14">
 <scenetitle>Scene 14</scenetitle>
 <scenelocation>The same. Another room.</scenelocation>
-<scenepersonae>(Antony, Eros, Mardian, Decretas, Guards, Diomedes)</scenepersonae>
+<scenepersonae>(Antony, Eros, Mardian, Decretas, Antony&#8217;s First Guardsman, Antony&#8217;s Second Guardsman, Antony&#8217;s Third Guardsman, Diomedes)</scenepersonae>
 
 <stagedir>Enter Antony and Eros.</stagedir>
 
@@ -7324,10 +7324,10 @@
 <line>The guard, ho! O, dispatch me!</line>
 </speech>
 
-<stagedir>Enter Decretas and a Guard.</stagedir>
+<stagedir>Enter Decretas and Antony&#8217;s First Guardsman.</stagedir>
 
 <speech>
-<speaker>1. GUARD.</speaker>
+<speaker>ANT. 1. GUARD.</speaker>
 <line offset="7">What&#8217;s the noise?</line>
 </speech>
 
@@ -7338,17 +7338,17 @@
 </speech>
 
 <speech>
-<speaker>2. GUARD.</speaker>
+<speaker>ANT. 2. GUARD.</speaker>
 <line offset="5">The star is fall&#8217;n.</line>
 </speech>
 
 <speech>
-<speaker>1. GUARD.</speaker>
+<speaker>ANT. 1. GUARD.</speaker>
 <line>And time is at his period.</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. GUARDS.</speaker>
 <line offset="5">Alas, and woe!</line>
 </speech>
 
@@ -7358,21 +7358,21 @@
 </speech>
 
 <speech>
-<speaker>1. GUARD.</speaker>
+<speaker>ANT. 1. GUARD.</speaker>
 <line offset="8">Not I.</line>
 </speech>
 
 <speech>
-<speaker>2. GUARD.</speaker>
+<speaker>ANT. 2. GUARD.</speaker>
 <line>Nor I.</line>
 </speech>
 
 <speech>
-<speaker>3. GUARD.</speaker>
+<speaker>ANT. 3. GUARD.</speaker>
 <line>Nor any one.</line>
 </speech>
 
-<stagedir>Exeunt Guard.</stagedir>
+<stagedir>Exeunt Antony&#8217;s Third Guardsman.</stagedir>
 
 <speech>
 <speaker>DEC.</speaker>
@@ -7460,13 +7460,13 @@
 </speech>
 
 <speech>
-<speaker>1. GUARD.</speaker>
+<speaker>ANT. 1. GUARD.</speaker>
 <line>Woe, woe are we, sir, you may not live to wear</line>
 <line>All your true followers out.</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. GUARDS.</speaker>
 <line offset="6">Most heavy day!</line>
 </speech>
 
@@ -7484,10 +7484,10 @@
 
 </scene>
 
-<scene>
+<scene num="15">
 <scenetitle>Scene 15</scenetitle>
 <scenelocation>The same. A monument.</scenelocation>
-<scenepersonae>(Cleopatra, Maids, Charmian, Iras, Diomed, Antony, Antony&#8217;s First Guardsman, Antony&#8217;s Second Guardsman)</scenepersonae>
+<scenepersonae>(Cleopatra, Maids, Charmian, Iras, Diomed, Antony, Antony&#8217;s First Guardsman, Antony&#8217;s Second Guardsman, Antony&#8217;s Third Guardsman)</scenepersonae>
 
 <stagedir>Enter Cleopatra and her maids aloft, with Charmian and Iras.</stagedir>
 
@@ -7588,7 +7588,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. GUARDS.</speaker>
 <line offset="6">A heavy sight!</line>
 </speech>
 
@@ -7723,12 +7723,12 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Alexandria. Octavius Caesar&#8217;s camp.</scenelocation>
-<scenepersonae>(Caesar, Agrippa, Dolabella, Maecenas, Gallus, Proculeius, Decretas, Egyptian Servant)</scenepersonae>
+<scenepersonae>(Caesar, Agrippa, Dolabella, Maecenas, Gallus, Proculeius, Decretas, Second Egyptian Servant)</scenepersonae>
 
 <stagedir>Enter Caesar with his council of war: Agrippa, Dolabella, Maecenas, Gallus, Proculeius.</stagedir>
 
@@ -7848,14 +7848,14 @@
 <line>Unreconciliable, should divide</line>
 <line>Our equalness to this. Hear me, good friends&#8212;</line>
 
-<stagedir>Enter an Egyptian.</stagedir>
+<stagedir>Enter Second Egyptian.</stagedir>
 <line>But I will tell you at some meeter season,</line>
 <line>The business of this man looks out of him;</line>
 <line>We&#8217;ll hear him what he says.&#8212;Whence are you?</line>
 </speech>
 
 <speech>
-<speaker>EGYP.</speaker>
+<speaker>2. EGYPT. SERV.</speaker>
 <line>A poor Egyptian yet; the Queen my mistress,</line>
 <line>Confin&#8217;d in all she has, her monument,</line>
 <line>Of thy intents desires instruction,</line>
@@ -7873,7 +7873,7 @@
 </speech>
 
 <speech>
-<speaker>EGYP.</speaker>
+<speaker>2. EGYPT. SERV.</speaker>
 <line offset="3">So the gods preserve thee!</line>
 </speech>
 
@@ -7926,7 +7926,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Alexandria. A room in the monument.</scenelocation>
 <scenepersonae>(Cleopatra, Charmian, Iras, Mardian, Proculeius, Dolabella, Caesar, Gallus, Maecenas, Seleucus, First Roman Guard, Second Roman Guard, Clown, First Roman Soldier, Second Roman Soldier)</scenepersonae>
@@ -8253,7 +8253,7 @@
 <stagedir>Enter Proculeius, Caesar, Gallus, Maecenas, and others of his Train, Seleucus following.</stagedir>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. CAES. TRAIN.</speaker>
 <line>Make way there! Caesar!</line>
 </speech>
 
@@ -8862,7 +8862,7 @@
 <stagedir>Enter Caesar and all his Train, marching.</stagedir>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. CAES. TRAIN.</speaker>
 <line>A way there, a way for Caesar!</line>
 </speech>
 
@@ -8960,6 +8960,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

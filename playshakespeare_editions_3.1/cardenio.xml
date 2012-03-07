@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="cardenio">
 <title short="Cardenio">Cardenio or the Second Maiden&#8217;s Tragedy</title>
 <playwright>William Shakespeare, John Fletcher</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The royal palace.</scenelocation>
 <scenepersonae>(Tyrant, Memphonius, Sophonirus, Helvetius, Govianus, Lady Luscinda)</scenepersonae>
@@ -394,7 +394,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The home of Anselmus.</scenelocation>
 <scenepersonae>(Lord Anselmus, Votarius, Wife Camilla, Leonella, Bellarius)</scenepersonae>
@@ -1087,10 +1087,10 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The house of Govianus&#8217;s imprisonment.</scenelocation>
 <scenepersonae>(Lady of Govianus, Servant, Helvetius)</scenepersonae>
@@ -1321,7 +1321,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The home of Anselmus.</scenelocation>
 <scenepersonae>(Votarius, Camilla, Leonella, Anselmus, Bellarius)</scenepersonae>
@@ -1718,7 +1718,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The royal court.</scenelocation>
 <scenepersonae>(Tyrant, Sophonirus, Memphonius, Helvetius, Guard, Nobles)</scenepersonae>
@@ -2002,9 +2002,9 @@
 </act>
 
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The house of Govianus&#8217;s imprisonment.</scenelocation>
 <scenepersonae>(Govianus, Lady Luscinda, Servant, Sophonirus, First Fellow, Second Fellow)</scenepersonae>
@@ -2570,9 +2570,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The home of Anselmus.</scenelocation>
 <scenepersonae>(Votarius, Anselmus’s Wife, Leonella, Bellairius)</scenepersonae>
@@ -3003,7 +3003,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The royal court.</scenelocation>
 <scenepersonae>(Tyrant, First Nobleman, Memphonius, First Soldier, Second Soldier, Third Soldier, Fourth Soldier)</scenepersonae>
@@ -3196,7 +3196,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Within the cathedral.</scenelocation>
 <scenepersonae>(Tyrant, First Soldier, Second Soldier, Third Soldier, Fourth Soldier)</scenepersonae>
@@ -3461,7 +3461,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Within the cathedral, before the Lady&#8217;s tomb.</scenelocation>
 <scenepersonae>(Govianus, Page, Lady ???)</scenepersonae>
@@ -3612,9 +3612,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The home of Anselmus.</scenelocation>
 <scenepersonae>(Votarius, Anselmus, Leonella, Bellarius, Anselmus&#8217;s Wife, Govianus)</scenepersonae>
@@ -4130,7 +4130,7 @@
 </speech>
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The royal court.</scenelocation>
 <scenepersonae>(Tyrant, Lady Luscinda, First Soldier, Second Soldier, Third Soldier, Fourth Soldier, Govianus)</scenepersonae>
@@ -4606,6 +4606,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

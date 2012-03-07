@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="othello">
 <title short="Othello">The Tragedy of Othello, the Moor of Venice</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 
 <scenelocation>Venice. A street.</scenelocation>
@@ -395,7 +395,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another street.</scenelocation>
 <scenepersonae>(Othello, Iago, Attendants, Cassio, Officers, Brabantio, Roderigo)</scenepersonae>
@@ -660,10 +660,10 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A council-chamber.</scenelocation>
-<scenepersonae>(Duke, Senators, Officers, Sailor, Messenger, Brabantio, Othello, Cassio, Iago, Roderigo, Desdemona, Iago, Attendants)</scenepersonae>
+<scenepersonae>(Duke, Senators, Officers, Sailor, First Messenger, Brabantio, Othello, Cassio, Iago, Roderigo, Desdemona, Iago, Attendants)</scenepersonae>
 
 <stagedir>Enter Duke and Senators set at a table, with lights and Officers.</stagedir>
 
@@ -760,10 +760,10 @@
 <line>Here is more news.</line>
 </speech>
 
-<stagedir>Enter a Messenger.</stagedir>
+<stagedir>Enter the First Messenger.</stagedir>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>1. MESS.</speaker>
 <line>The Ottomites, reverend and gracious,</line>
 <line>Steering with due course toward the isle of Rhodes,</line>
 <line>Have there injointed them with an after fleet.</line>
@@ -775,7 +775,7 @@
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>1. MESS.</speaker>
 <line>Of thirty sail; and now they do restem</line>
 <line>Their backward course, bearing with frank appearance</line>
 <line>Their purposes toward Cyprus. Signior Montano,</line>
@@ -784,7 +784,7 @@
 <line>And prays you to believe him.</line>
 </speech>
 
-<stagedir>Exit Messenger.</stagedir>
+<stagedir>Exit First Messenger.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -1425,12 +1425,12 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A sea-port in Cyprus. An open place near the quay.</scenelocation>
-<scenepersonae>(Montano, Gentlemen, Cassio, Messenger, Desdemona, Iago, Roderigo, Emilia, Attendants, Othello)</scenepersonae>
+<scenepersonae>(Montano, Gentlemen, Cassio, Second Messenger, Desdemona, Iago, Roderigo, Emilia, Attendants, Othello)</scenepersonae>
 
 <stagedir>Enter Montano and two Gentlemen.</stagedir>
 
@@ -1557,7 +1557,7 @@
 <line offset="4">&#8220;A sail, a sail, a sail!&#8221;</line>
 </speech>
 
-<stagedir>Enter a Messenger.</stagedir>
+<stagedir>Enter the Second Messenger.</stagedir>
 
 <speech>
 <speaker>CAS.</speaker>
@@ -1565,7 +1565,7 @@
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>2. MESS.</speaker>
 <line>The town is empty; on the brow o&#8217; th&#8217; sea</line>
 <line>Stand ranks of people, and they cry, &#8220;A sail!&#8221;</line>
 </speech>
@@ -2072,7 +2072,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Herald)</scenepersonae>
@@ -2088,7 +2088,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A hall in the castle.</scenelocation>
 <scenepersonae>(Othello, Desdemona, Cassio, Attendants, Iago, Cassio, Montano, Gentlemen, Servants, Roderigo)</scenepersonae>
@@ -2859,9 +2859,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before the castle.</scenelocation>
 <scenepersonae>(Cassio, Musicians, Clown, Iago, Emilia)</scenepersonae>
@@ -3034,7 +3034,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the castle.</scenelocation>
 <scenepersonae>(Othello, Iago, Gentlemen)</scenepersonae>
@@ -3068,7 +3068,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The garden of the castle.</scenelocation>
 <scenepersonae>(Desdemona, Cassio, Emilia, Othello, Iago)</scenepersonae>
@@ -4296,7 +4296,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before the castle.</scenelocation>
 <scenepersonae>(Desdemona, Emilia, Clown, Othello, Iago, Cassio, Bianca)</scenepersonae>
@@ -4917,9 +4917,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cyprus. Before the castle.</scenelocation>
 <scenepersonae>(Othello, Iago, Cassio, Bianca, Lodovico, Desdemona, and Attendants)</scenepersonae>
@@ -5825,10 +5825,10 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the castle.</scenelocation>
-<scenepersonae>(Othello, Emilia, Desdemona, Roderigo)</scenepersonae>
+<scenepersonae>(Othello, Emilia, Desdemona, Roderigo, Iago)</scenepersonae>
 
 <stagedir>Enter Othello and Emilia.</stagedir>
 
@@ -6494,7 +6494,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another room in the castle.</scenelocation>
 <scenepersonae>(Othello, Lodovico, Desdemona, Emilia, Attendants)</scenepersonae>
@@ -6783,9 +6783,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cyprus. A street.</scenelocation>
 <scenepersonae>(Iago, Roderigo, Cassio, Othello, Lodovico, Gratiano, Bianca, Emilia)</scenepersonae>
@@ -7292,10 +7292,10 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A bedchamber in the castle.</scenelocation>
-<scenepersonae>(Othello, Desdemona, Emilia, Montano, Gratiano, Iago, Lodovico)</scenepersonae>
+<scenepersonae>(Othello, Desdemona, Emilia, Montano, Gratiano, Iago, Lodovico, Cassio)</scenepersonae>
 
 <stagedir>Enter Othello with a light and Desdemona in her bed asleep.</stagedir>
 
@@ -8495,6 +8495,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

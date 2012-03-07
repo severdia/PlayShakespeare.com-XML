@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="julius-caesar">
 <title short="Julius Caesar">The Tragedy of Julius Caesar</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
 <scenepersonae>(Flavius, Murellus, Commoners)</scenepersonae>
@@ -156,7 +156,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Caesar, Antony, Calphurnia, Portia, Decius, Cicero, Brutus, Cassius, Casca, Citizens, Soothsayer, Murellus, Flavius)</scenepersonae>
@@ -816,7 +816,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. A street.</scenelocation>
 <scenepersonae>(Casca, Cicero, Cassius, Cinna)</scenepersonae>
@@ -1157,9 +1157,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Brutus&#8217;s orchard.</scenelocation>
 <scenepersonae>(Brutus, Lucius, Cassius, Casca, Decius, Cinna, Metellus, Trebonius, Portia, Caius Ligarius)</scenepersonae>
@@ -1900,7 +1900,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Caesar&#8217;s house.</scenelocation>
 <scenepersonae>(Julius Caesar, Servants, Calphurnia, Decius, Brutus, Ligarius, Metellus, Casca, Trebonius, Cinna, Publius)</scenepersonae>
@@ -2201,7 +2201,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A street near the Capitol.</scenelocation>
 <scenepersonae>(Artemidorus)</scenepersonae>
@@ -2223,7 +2223,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the same street, before the house of Brutus.</scenelocation>
 <scenepersonae>(Portia, Lucius, Soothsayer)</scenepersonae>
@@ -2365,9 +2365,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the Capitol; the Senate sitting above.</scenelocation>
 <scenepersonae>(Caesar, Brutus, Cassius, Casca, Decius, Metellus, Trebonius, Cinna, Antony, Lepidus, Artemidorus, Publius, Popilius, Soothsayer, Servants)</scenepersonae>
@@ -3079,7 +3079,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Forum.</scenelocation>
 <scenepersonae>(Brutus, Cassius, Plebeians, Mark Antony, Caesar, Octavius&#8217;s Servant)</scenepersonae>
@@ -3725,7 +3725,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
 <scenepersonae>(Cinna, Plebeians)</scenepersonae>
@@ -3865,9 +3865,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A house in Rome.</scenelocation>
 <scenepersonae>(Antony, Octavius, Lepidus)</scenepersonae>
@@ -3990,7 +3990,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Camp near Sardis. Before Brutus&#8217;s tent.</scenelocation>
 <scenepersonae>(Brutus, Lucilius, Lucius, Titinius, Pindarus, Cassius)</scenepersonae>
@@ -4151,7 +4151,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Brutus&#8217;s tent.</scenelocation>
 <scenepersonae>(Brutus, Cassius, Poet, Lucilius, Titinius, Lucius, Messala, Varrus, Claudio, Ghost of Caesar)</scenepersonae>
@@ -4933,8 +4933,6 @@
 <line>On business to my brother Cassius.</line>
 </speech>
 
-
-
 <speech>
 <speaker>VAR.</speaker>
 <line>So please you, we will stand and watch your pleasure.</line>
@@ -5152,9 +5150,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The plains of Philippi.</scenelocation>
 <scenepersonae>(Octavius, Antony, Messenger, Brutus, Cassius, Lucilius, Titinius, Messala)</scenepersonae>
@@ -5485,7 +5483,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. The field of battle.</scenelocation>
 <scenepersonae>(Brutus, Messala)</scenepersonae>
@@ -5509,7 +5507,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Cassius, Titinius, Pindarus, Messala, Brutus, Cato, Strato, Volumnius, Lucilius)</scenepersonae>
@@ -5797,10 +5795,10 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
-<scenepersonae>(Brutus, Messala, Cato, Lucilius, Flavius, Soldiers, Antony)</scenepersonae>
+<scenepersonae>(Brutus, Messala, Cato, Lucilius, Flavius, Antony&#8217;s Soldiers, Antony)</scenepersonae>
 
 <stagedir>Alarum. Enter Brutus, Messala, young Cato, Lucilius, and Flavius.</stagedir>
 
@@ -5820,7 +5818,7 @@
 <line>I am the son of Marcus Cato, ho!</line>
 </speech>
 
-<stagedir>Enter Soldiers and fight.</stagedir>
+<stagedir>Enter Antony&#8217;s Soldiers and fight.</stagedir>
 
 <speech>
 <speaker>LUCIL.</speaker>
@@ -5835,7 +5833,7 @@
 </speech>
 
 <speech>
-<speaker>1. SOLD.</speaker>
+<speaker>1. ANT. SOLD.</speaker>
 <line>Yield, or thou diest.</line>
 </speech>
 
@@ -5847,19 +5845,19 @@
 </speech>
 
 <speech>
-<speaker>1. SOLD.</speaker>
+<speaker>1. ANT. SOLD.</speaker>
 <line>We must not. A noble prisoner!</line>
 </speech>
 
 <stagedir>Enter Antony.</stagedir>
 
 <speech>
-<speaker>2. SOLD.</speaker>
+<speaker>2. ANT. SOLD.</speaker>
 <line>Room ho! Tell Antony, Brutus is ta&#8217;en.</line>
 </speech>
 
 <speech>
-<speaker>1. SOLD.</speaker>
+<speaker>1. ANT. SOLD.</speaker>
 <line>I&#8217;ll tell the news. Here comes the general.</line>
 <line>Brutus is ta&#8217;en, Brutus is ta&#8217;en, my lord!</line>
 </speech>
@@ -5894,7 +5892,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Brutus, Dardanius, Clitus, Strato, Volumnius, Antony, Octavius, Messala, Lucilius)</scenepersonae>
@@ -6170,6 +6168,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

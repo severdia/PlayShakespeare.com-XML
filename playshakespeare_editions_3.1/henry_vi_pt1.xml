@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="henry-vi-part-i">
 <title short="Henry VI, Pt. 1">The First Part of Henry the Sixth</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster Abbey.</scenelocation>
 <scenepersonae>(King Henry the Fifth, Duke of Bedford, Regent of France, Duke of Gloucester, Protector, Duke of Exeter, Earl of Warwick, Bishop of Winchester, Duke of Somerset, Heralds, Messengers)</scenepersonae>
@@ -337,7 +337,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Orleans.</scenelocation>
 <scenepersonae>(Charles the Dauphin, Alanson, Reignier, Soldiers, Charles, Alanson, Reignier, Bastard of Orleance, Joan de Pucelle)</scenepersonae>
@@ -666,7 +666,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. Before the Tower.</scenelocation>
 <scenepersonae>(Gloucester, Gloucester&#8217;s First Serving Attendant, First Warder, Second Warder, Woodvile the Lieutenant, Winchester, Mayor of London, Officers)</scenepersonae>
@@ -812,7 +812,7 @@
 </speech>
 
 <speech>
-<speaker>KING.</speaker>
+<speaker>WIN.</speaker>
 <line>Gloucester, thou wilt answer this before the Pope.</line>
 </speech>
 
@@ -912,7 +912,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Orleans.</scenelocation>
 <scenepersonae>(Master Gunner of Orleance, Master Gunner&#8217;s Boy, Salisbury, Talbot, Sir William Glans-Dale, Sir Thomas Gargrave, Messenger)</scenepersonae>
@@ -1118,7 +1118,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Talbot, Dauphin, Joan De Pucelle, Englishmen, Pucelle)</scenepersonae>
@@ -1200,7 +1200,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Pucelle, Charles the Dauphin, Reignier, Alanson, Soldiers)</scenepersonae>
@@ -1263,9 +1263,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Orleans.</scenelocation>
 <scenepersonae>(French Sergeant, Sentinels, Talbot, Bedford, Burgundy, Bastard, Alanson, Reignier, Charles, Joan de Pucelle, English Soldier)</scenepersonae>
@@ -1503,7 +1503,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Orleans. Within the town.</scenelocation>
 <scenepersonae>(Talbot, Bedford, Burgundy, Captain, Messenger of the Countess)</scenepersonae>
@@ -1629,7 +1629,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Auvergne. The Countess&#8217;s castle.</scenelocation>
 <scenepersonae>(Countess of Auvergne, Porter, Messenger of the Countess, Talbot, Porter, Soldiers)</scenepersonae>
@@ -1841,7 +1841,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. The Temple-garden.</scenelocation>
 <scenepersonae>(Richard Plantagenet, Warwick, Somerset, Pole the Earl of Suffolk, Vernon, Lawyer)</scenepersonae>
@@ -2181,7 +2181,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The Tower of London.</scenelocation>
 <scenepersonae>(Mortimer, Richard Plantagenet, Keepers)</scenepersonae>
@@ -2400,9 +2400,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The Parliament-house.</scenelocation>
 <scenepersonae>(King, Exeter, Gloucester, Winchester, Warwick, Somerset, Suffolk, Richard Plantagenet, Mayor of London, Serving Attendants)</scenepersonae>
@@ -2562,7 +2562,7 @@
 <line>Civil dissension is a viperous worm</line>
 <line>That gnaws the bowels of the commonwealth.</line>
 
-<stagedir>A noise within,</stagedir>
+<stagedir>A noise within.</stagedir>
 <line>&#8220;Down with the tawny-coats!&#8221;</line>
 <line>What tumult&#8217;s this?</line>
 </speech>
@@ -2873,7 +2873,7 @@
  
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Rouen.</scenelocation>
 <scenepersonae>(Pucelle, Four Soldiers, Soldier of the Watch, Charles, Bastard, Alanson, Reignier, Talbot, Bedford, Talbot, Burgundy, Sir John Falstaff, Captain)</scenepersonae>
@@ -3237,7 +3237,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The plains near Rouen.</scenelocation>
 <scenepersonae>(Charles, Bastard, Alanson, Pucelle, Duke of Burgundy)</scenepersonae>
@@ -3447,7 +3447,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Paris. The palace.</scenelocation>
 <scenepersonae>(King, Gloucester, Winchester, Richard Plantagenet/Duke of York, Suffolk, Somerset, Warwick, Exeter, Vernon, Basset, Soldiers, Talbot)</scenepersonae>
@@ -3554,9 +3554,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Paris. A hall of state.</scenelocation>
 <scenepersonae>(King, Gloucester, Winchester, York, Suffolk, Somerset, Warwick, Talbot, Governor of Paris, Exeter, Falstaff, Vernon, Basset)</scenepersonae>
@@ -3958,7 +3958,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Bourdeaux.</scenelocation>
 <scenepersonae>(Talbot, Talbot&#8217;s Trumpter, General)</scenepersonae>
@@ -4043,7 +4043,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Plains in Gascony.</scenelocation>
 <scenepersonae>(Messenger, York, Soldiers, Sir William Lucy)</scenepersonae>
@@ -4151,7 +4151,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Other plains in Gascony.</scenelocation>
 <scenepersonae>(Somerset, Captain, Sir William Lucy)</scenepersonae>
@@ -4256,7 +4256,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The English camp near Bourdeaux.</scenelocation>
 <scenepersonae>(Talbot, John)</scenepersonae>
@@ -4398,7 +4398,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>A field of battle.</scenelocation>
 <scenepersonae>(Talbot, John)</scenepersonae>
@@ -4486,12 +4486,12 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
-<scenepersonae>(Talbot, Servant, Soldiers, John Talbot, Charles, Alanson, Burgundy, Bastard, Pucelle, Lucy, Herald of the French)</scenepersonae>
+<scenepersonae>(Talbot, Talbot&#8217;s Servant, Soldiers, John Talbot, Charles, Alanson, Burgundy, Bastard, Pucelle, Lucy, Herald of the French)</scenepersonae>
 
-<stagedir>Alarum. Excursions. Enter old Talbot led by a Servant.</stagedir>
+<stagedir>Alarum. Excursions. Enter old Talbot led by his Servant.</stagedir>
 
 <speech>
 <speaker>TAL.</speaker>
@@ -4515,10 +4515,8 @@
 
 <stagedir>Enter Soldiers with John Talbot borne.</stagedir>
 
-
-
 <speech>
-<speaker>SERV.</speaker>
+<speaker>Tal. SERV.</speaker>
 <line>O my dear lord, lo where your son is borne!</line>
 </speech>
 
@@ -4684,9 +4682,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
 <scenepersonae>(King, Gloucester, Exeter, Winchester, Ambassadors, Papal Legate)</scenepersonae>
@@ -4822,7 +4820,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Plains in Anjou.</scenelocation>
 <scenepersonae>(Charles, Burgundy, Alanson, Bastard, Reignier, Joan de Pucelle, Scout)</scenepersonae>
@@ -4895,7 +4893,7 @@
 <stagedir>Exeunt.</stagedir> 
 
 </scene>
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before Angiers.</scenelocation>
 <scenepersonae>(Joan de Pucelle, Fiends, Burgundy, York, Suffolk, Margaret, Reignier)</scenepersonae>
@@ -5430,7 +5428,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Camp of the York in Anjou.</scenelocation>
 <scenepersonae>(York, Warwick, Shepherd, Pucelle, Cardinal Beauford, Charles, Alanson, Bastard, Reignier)</scenepersonae>
@@ -5792,7 +5790,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
 <scenepersonae>(Suffolk, King, Gloucester, Exeter)</scenepersonae>
@@ -5976,6 +5974,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

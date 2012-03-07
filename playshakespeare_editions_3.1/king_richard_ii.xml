@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="king-richard-ii">
 <title short="King Richard II">The Tragedy of King Richard the Second</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. King Richard II&#8217;s palace.</scenelocation>
 <scenepersonae>(King Richard, John of Gaunt, Nobles, Attendants, Bullingbrook, Mowbray)</scenepersonae>
@@ -345,7 +345,7 @@
 </scene>
 
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke of Lancaster&#8217;s palace.</scenelocation>
 <scenepersonae>(John of Gaunt, Duchess of Gloucester)</scenepersonae>
@@ -459,7 +459,7 @@
 <stagedir>Exeunt.</stagedir> 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The lists at Coventry.</scenelocation>
 <scenepersonae>(Lord Marshal, Duke Aumerle, King, Gaunt, Bushy, Bagot, Green, Mowbray, Duke of Norfolk, Heralds, Bullingbrook, Duke of Herford)</scenepersonae>
@@ -1035,7 +1035,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The court.</scenelocation>
 <scenepersonae>(King, Green, Bagot, Lord Aumerle, Bushy)</scenepersonae>
@@ -1169,9 +1169,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Ely House.</scenelocation>
 <scenepersonae>(John of Gaunt, Duke of York, King, Queen, Aumerle, Bushy, Green, Bagot, Ross, Willoughby, Attendants, Northumberland)</scenepersonae>
@@ -1720,7 +1720,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The palace.</scenelocation>
 <scenepersonae>(Queen, Bushy, Bagot, Green, York, Servingman)</scenepersonae>
@@ -2041,7 +2041,7 @@
 </scene>
 
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Wilds in Gloucestershire.</scenelocation>
 <scenepersonae>(Bullingbrook, Duke of Herford, Northumberland, Harry Percy, Ross, Willoughby, Berkeley, York)</scenepersonae>
@@ -2391,7 +2391,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A camp in Wales.</scenelocation>
 <scenepersonae>(Earl of Salisbury, Welsh Captain)</scenepersonae>
@@ -2443,9 +2443,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Bristol. Before the castle.</scenelocation>
 <scenepersonae>(Bullingbrook, Duke of Herford, York, Northumberland, Ross, Percy, Willoughby, Bushy, Green)</scenepersonae>
@@ -2525,7 +2525,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The coast of Wales. A castle in view.</scenelocation>
 <scenepersonae>(King, Aumerle, Bishop of Carlisle, Soldiers, Salisbury, Scroop)</scenepersonae>
@@ -2875,7 +2875,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Wales. Before Flint castle.</scenelocation>
 <scenepersonae>(Bullingbrook, York, Northumberland, Attendants, Harry Percy, King Richard, Carlisle, Aumerle, Scroop, Salisbury)</scenepersonae>
@@ -3252,7 +3252,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Langley. The Duke of York&#8217;s garden.</scenelocation>
 <scenepersonae>(Queen, Ladies, Gardener, Gardener&#8217;s Men)</scenepersonae>
@@ -3479,9 +3479,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster Hall.</scenelocation>
 <scenepersonae>(Bullingbrook, Aumerle, Northumberland, Percy, Fitzwater, Surrey, Bishop of Carlisle, Abbot of Westminster, Lord, Herald, Officers, York, Richard, Attendants)</scenepersonae>
@@ -4141,9 +4141,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street leading to the Tower.</scenelocation>
 <scenepersonae>(Queen, Attendants, Richard, Guard, Northumberland)</scenepersonae>
@@ -4332,7 +4332,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke of York&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke of York, Duchess of York, Aumerle, Servant, Man)</scenepersonae>
@@ -4650,7 +4650,7 @@
 </scene>
 
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A royal palace.</scenelocation>
 <scenepersonae>(King Henry, Percy, Lords, Aumerle, Duke of York, Duchess of York)</scenepersonae>
@@ -5031,7 +5031,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Sir Pierce Exton, Exton&#8217;s Servants)</scenepersonae>
@@ -5075,7 +5075,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Pomfret castle.</scenelocation>
 <scenepersonae>(Richard, Groom of the Stable, Keeper, Exton, Servants)</scenepersonae>
@@ -5290,7 +5290,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Windsor castle.</scenelocation>
 <scenepersonae>(King Henry, Duke of York, Lords, Attendants, Northumberland, Lord Fitzwater, Harry Percy, Bishop of Carlisle, Exton)</scenepersonae>
@@ -5411,6 +5411,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

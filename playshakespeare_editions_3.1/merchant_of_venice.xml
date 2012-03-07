@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="merchant-of-venice">
 <title short="Merchant of Venice">The Merchant of Venice</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
 <scenepersonae>(Antonio, Salerio, Solanio, Bassanio, Lorenzo, Gratiano)</scenepersonae>
@@ -332,7 +332,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Portia, Nerissa, Servingman)</scenepersonae>
@@ -494,7 +494,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A public place.</scenelocation>
 <scenepersonae>(Bassanio, Shylock, Antonio)</scenepersonae>
@@ -866,9 +866,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Prince of Morocco, Followers, Portia, Nerissa)</scenepersonae>
@@ -956,7 +956,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
 <scenepersonae>(Launcelot Gobbo, Old Gobbo, Bassanio, Followers, Leonardo, Gratiano)</scenepersonae>
@@ -1322,7 +1322,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. A room in Shylock&#8217;s house.</scenelocation>
 <scenepersonae>(Jessica, Launcelot)</scenepersonae>
@@ -1364,7 +1364,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. A street.</scenelocation>
 <scenepersonae>(Gratiano, Lorenzo, Salerio, Solanio, Launcelot)</scenepersonae>
@@ -1493,7 +1493,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. Before Shylock&#8217;s house.</scenelocation>
 <scenepersonae>(Shylock, Launcelot, Jessica)</scenepersonae>
@@ -1620,7 +1620,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Gratiano, Salerio, Lorenzo, Jessica, Antonio)</scenepersonae>
@@ -1801,7 +1801,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Portia, Prince of Morocco)</scenepersonae>
@@ -1926,7 +1926,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
 <scenepersonae>(Salerio, Solanio)</scenepersonae>
@@ -2036,7 +2036,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Nerissa, Servitor, Prince of Arragon, Portia, Stephano)</scenepersonae>
@@ -2083,10 +2083,10 @@
 <speaker>AR.</speaker>
 <line>And so have I address&#8217;d me. Fortune now</line>
 <line>To my heart&#8217;s hope! Gold, silver, and base lead.</line>
-<line>&#8220;Who chooseth me must give and hazard all he hath.&#8221;</line>
+<line><recite>&#8220;Who chooseth me must give and hazard all he hath.&#8221;</recite></line>
 <line>You shall look fairer ere I give or hazard.</line>
 <line>What says the golden chest? Ha, let me see:</line>
-<line>&#8220;Who chooseth me shall gain what many men desire.&#8221;</line>
+<line><recite>&#8220;Who chooseth me shall gain what many men desire.&#8221;</recite></line>
 <line>What many men desire! That many may be meant</line>
 <line>By the fool multitude that choose by show,</line>
 <line>Not learning more than the fond eye doth teach,</line>
@@ -2098,7 +2098,7 @@
 <line>And rank me with the barbarous multitudes.</line>
 <line>Why then to thee, thou silver treasure house,</line>
 <line>Tell me once more what title thou dost bear:</line>
-<line>&#8220;Who chooseth me shall get as much as he deserves.&#8221;</line>
+<line><recite>&#8220;Who chooseth me shall get as much as he deserves.&#8221;</recite></line>
 <line>And well said too; for who shall go about</line>
 <line>To cozen fortune, and be honorable</line>
 <line>Without the stamp of merit? Let none presume</line>
@@ -2112,7 +2112,7 @@
 <line>From the true seed of honor? And how much honor</line>
 <line>Pick&#8217;d from the chaff and ruin of the times</line>
 <line>To be new varnish&#8217;d? Well, but to my choice:</line>
-<line>&#8220;Who chooseth me shall get as much as he deserves.&#8221;</line>
+<line><recite>&#8220;Who chooseth me shall get as much as he deserves.&#8221;</recite></line>
 <line>I will assume desert. Give me a key for this,</line>
 <line>And instantly unlock my fortunes here.</line>
 </speech>
@@ -2229,9 +2229,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
 <scenepersonae>(Solanio, Salerio, Shylock, Antonio&#8217;s Servant, Tubal)</scenepersonae>
@@ -2446,7 +2446,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Bassanio, Portia, Gratiano, Nerissa, Lorenzo, Jessica, Salerio)</scenepersonae>
@@ -3000,7 +3000,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
 <scenepersonae>(Shylock, Solanio, Antonio, Jailer)</scenepersonae>
@@ -3087,7 +3087,7 @@
 <stagedir>Exeunt.</stagedir> 
 
 </scene>
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Portia, Nerissa, Lorenzo, Jessica, Balthazar)</scenepersonae>
@@ -3241,7 +3241,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. A garden.</scenelocation>
 <scenepersonae>(Launcelot, Jessica, Lorenzo)</scenepersonae>
@@ -3417,9 +3417,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A court of justice.</scenelocation>
 <scenepersonae>(Duke, Magnificoes, Antonio, Bassanio, Salerio, Gratiano, Shylock, Nerissa, Portia)</scenepersonae>
@@ -4446,7 +4446,7 @@
 
 
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A street.</scenelocation>
 <scenepersonae>(Portia, Nerissa, Gratiano)</scenepersonae>
@@ -4512,9 +4512,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Belmont. Avenue to Portia&#8217;s house.</scenelocation>
 <scenepersonae>(Lorenzo, Jessica, Stephano, Launcelot, Musicians, Portia, Nerissa, Bassanio, Antonio, Gratiano, Followers)</scenepersonae>
@@ -5239,6 +5239,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

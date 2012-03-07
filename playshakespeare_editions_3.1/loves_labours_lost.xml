@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="loves-labours-lost">
 <title short="Love&#8217;s Labor&#8217;s Lost">Love&#8217;s Labor&#8217;s Lost</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
 <scenepersonae>(King of Navarre, Berowne, Longaville, Dumaine, Constable Dull, Costard)</scenepersonae>
@@ -677,7 +677,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Armado, Moth, Clown Costard, Constable Dull, Wench Jaquenetta)</scenepersonae>
@@ -1166,9 +1166,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Princess of France, Rosaline, Maria, Katherine, First French Lord, Lords, Boyet, King of Navarre, Longaville, Dumaine, Berowne, Attendants)</scenepersonae>
@@ -1913,9 +1913,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Armado, Moth, Costard, Berowne)</scenepersonae>
@@ -2393,9 +2393,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Princess, Forester, Rosaline, Maria, Katherine, Lords, Boyet, Costard)</scenepersonae>
@@ -2787,7 +2787,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Dull, Holofernes, Nathaniel, Jaquenetta, Costard)</scenepersonae>
@@ -3068,7 +3068,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Berowne, King, Longaville, Dumaine, Jaquenetta, Costard)</scenepersonae>
@@ -3902,9 +3902,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Holofernes, Sir Nathaniel, Dull. Armado, Moth, Costard)</scenepersonae>
@@ -4203,7 +4203,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Princess, Maria, Katherine, Rosaline, Boyet, Blackamoors, Moth, King Navarre, Lords, Costard, Armado, Sir Nathaniel, Holofernes, Berowne, Monsieur Marcade)</scenepersonae>
@@ -6818,6 +6818,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

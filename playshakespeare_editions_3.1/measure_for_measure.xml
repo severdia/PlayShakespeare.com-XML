@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="measure-for-measure">
 <title short="Measure for Measure">Measure for Measure</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>An apartment in the Duke&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke, Escalus, Lords, Attendants, Angelo)</scenepersonae>
@@ -181,7 +181,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Lucio, Gentlemen, Mistress Overdone, Pompey, Provost, Claudio, Juliet, Officers)</scenepersonae>
@@ -662,7 +662,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A monastery.</scenelocation>
 <scenepersonae>(Duke, Friar Peter)</scenepersonae>
@@ -758,7 +758,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A nunnery.</scenelocation>
 <scenepersonae>(Isabel, Francisca, Lucio)</scenepersonae>
@@ -1006,9 +1006,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Escalus, Servants, Justice, Provost, Elbow, Froth, Pompey, Officers)</scenepersonae>
@@ -1660,7 +1660,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another room in the same.</scenelocation>
 <scenepersonae>(Provost, Servant, Angelo, Lucio, Isabella)</scenepersonae>
@@ -2204,7 +2204,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in a prison.</scenelocation>
 <scenepersonae>(Duke, Provost, Juliet)</scenepersonae>
@@ -2352,7 +2352,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Servant, Isabella)</scenepersonae>
@@ -2763,9 +2763,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
 <scenepersonae>(Duke, Claudio, Provost, Isabella)</scenepersonae>
@@ -3280,7 +3280,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The street before the prison.</scenelocation>
 <scenepersonae>(Duke, Elbow, Pompey, Officers, Lucio, Escalus, Provost, Mistress Overdone)</scenepersonae>
@@ -3780,9 +3780,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The moated grange at St. Luke&#8217;s.</scenelocation>
 <scenepersonae>(Mariana, Boy, Duke, Isabella)</scenepersonae>
@@ -3980,7 +3980,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
 <scenepersonae>(Provost, Pompey, Abhorson, Claudio, Duke, Messenger)</scenepersonae>
@@ -4407,7 +4407,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another room in the same.</scenelocation>
 <scenepersonae>(Pompey, Abhorson, Barnardine, Duke, Provost, Isabella, Lucio)</scenepersonae>
@@ -4826,7 +4826,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Escalus)</scenepersonae>
@@ -4894,7 +4894,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Fields without the town.</scenelocation>
 <scenepersonae>(Duke, Friar Peter, Varrius)</scenepersonae>
@@ -4938,7 +4938,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Street near the city gate.</scenelocation>
 <scenepersonae>(Isabella, Mariana, Friar Peter)</scenepersonae>
@@ -4993,9 +4993,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The city gate.</scenelocation>
 <scenepersonae>(Duke, Varrius, Lords, Angelo, Escalus, Lucio, Provost, Officers, Citizens, Friar Peter, Isabella, Mariana, Barnardine, Claudio, Julietta)</scenepersonae>
@@ -6284,5 +6284,6 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 </play>

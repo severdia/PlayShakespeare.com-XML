@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="titus-andronicus">
 <title short="Titus Andronicus">The Tragedy of Titus Andronicus</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the Capitol.</scenelocation>
 <scenepersonae>(Marcus Andronicus, Senators, Saturninus, Followers, Bassianus, Roman Captain, Martius, Mutius, Men, Lucius, Quintus, Titus Andronicus, Tamora, Alarbus, Chiron, Demetrius, Aaron the Moor, Lavinia, Tribune)</scenepersonae>
@@ -1023,9 +1023,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the Palace.</scenelocation>
 <scenepersonae>(Aaron the Moor, Chiron, Demetrius)</scenepersonae>
@@ -1295,7 +1295,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A forest near Rome. Horns and cry of hounds heard.</scenelocation>
 <scenepersonae>(Titus Andronicus, Lucius, Quintus, Martius, Marcus, Saturninus, Tamora, Bassianus, Lavinia, Chiron, Demetrius, Attendants)</scenepersonae>
@@ -1371,7 +1371,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A lonely part of the forest.</scenelocation>
 <scenepersonae>(Aaron the Moor, Tamora, Bassianus, Lavinia, Chiron, Demetrius, Quintus, Martius, Emperor Saturnine, Lucius)</scenepersonae>
@@ -2033,7 +2033,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the forest.</scenelocation>
 <scenepersonae>(Demetrius, Chiron, Lavinia, Marcus)</scenepersonae>
@@ -2138,9 +2138,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
 <scenepersonae>(Judges, Senators, Tribunes, Martius, Quintus, Titus, Lucius, Marcus, Lavinia, Aaron the Moor, Messenger)</scenepersonae>
@@ -2712,7 +2712,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Titus&#8217;s house. A banquet set out.</scenelocation>
 <scenepersonae>(Titus Andronicus, Marcus, Lavinia, Lucius)</scenepersonae>
@@ -2869,9 +2869,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Titus&#8217;s garden.</scenelocation>
 <scenepersonae>(Young Lucius, Lavinia, Titus, Marcus)</scenepersonae>
@@ -3148,7 +3148,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A room in the palace.</scenelocation>
 <scenepersonae>(Aaron, Chiron, Demetrius, Young Lucius, Attendant, Nurse, Black Child)</scenepersonae>
@@ -3610,7 +3610,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. A public place.</scenelocation>
 <scenepersonae>(Titus, Marcus, Young Lucius, Publius, Sempronius, Caius, Titus, Clown)</scenepersonae>
@@ -3855,7 +3855,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. Before the palace.</scenelocation>
 <scenepersonae>(Emperor Saturninus, Empress, Demetrius, Chiron, Lords, Clown, Nuntius Aemilius)</scenepersonae>
@@ -4076,9 +4076,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Plains near Rome.</scenelocation>
 <scenepersonae>(Lucius, Goths, Aaron the Moor, Aemilius)</scenepersonae>
@@ -4401,7 +4401,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. Before Titus&#8217;s house.</scenelocation>
 <scenepersonae>(Tamora, Demetrius, Chiron, Titus, Marcus, Publius, Caius, Valentine, Lavinia)</scenepersonae>
@@ -4799,7 +4799,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Court of Titus&#8217;s house. A banquet set out.</scenelocation>
 <scenepersonae>(Lucius, Marcus, Goths, Aaron, Attendants, Emperor Saturninus, Empress, Aemilius, Tribunes, Senators, Titus, Lavinia)</scenepersonae>
@@ -5225,6 +5225,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

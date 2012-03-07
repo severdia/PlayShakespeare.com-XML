@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="sir-thomas-more">
 <title short="Sir Thomas More">Sir Thomas More</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
 <scenepersonae>(John Lincoln, Bettses, Francis de Barde, Doll, Caveler, Williamson, Sherwin)</scenepersonae>
@@ -250,7 +250,7 @@
  
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The Sessions House.</scenelocation>
 <scenepersonae>(Lord Mayor, Justice Suresby, Justices, Sheriff More, Sheriff, Smart, Lifter, Recorder, Officers)</scenepersonae>
@@ -751,7 +751,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. A state apartment.</scenelocation>
 <scenepersonae>(Earl of Shrewsbury, Earl of Surrey, Sir Thomas Palmer, Sir Roger Cholmley, Messenger)</scenepersonae>
@@ -939,9 +939,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
 <scenepersonae>(Apprentice Harry, Apprentice Robin, Apprentice Kit)</scenepersonae>
@@ -1003,7 +1003,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Saint Martins-le-Grand.</scenelocation>
 <scenepersonae>(Lincoln, Bettses, Williamson, Sherwin, Doll, Clown)</scenepersonae>
@@ -1180,7 +1180,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Guildhall.</scenelocation>
 <scenepersonae>(Sir Thomas More, Lord Mayor, Sir John Munday, Messenger, Shrewsbury, Surrey, Palmer, Cholmley)</scenepersonae>
@@ -1289,7 +1289,7 @@
  
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>St. Martin&#8217;s Gate.</scenelocation>
 <scenepersonae>(Lincoln, Doll, Clown, George Betts, Williamson, Sergeant at Arms, Lord Mayor, Surrey, Shrewsbury, More, Crofts)</scenepersonae>
@@ -1830,7 +1830,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
 <scenepersonae>(Master Sheriff, Messenger, Officers, Lincoln, Doll, Clown, Williamson, Earl of Surrey)</scenepersonae>
@@ -2210,9 +2210,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Chelsea. A Room in More&#8217;s House.</scenelocation>
 <scenepersonae>(Sir Thomas More, Randall, Sheriff, Faulkner, Officers, Surrey, Erasmus, Attendants, Master Morris)</scenepersonae>
@@ -2841,7 +2841,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea. Ante-chamber in More&#8217;s House.</scenelocation>
 <scenepersonae>(Sir Thomas More, Messenger)</scenepersonae>
@@ -2882,7 +2882,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Chelsea. A Room in More&#8217;s House.</scenelocation>
 <scenepersonae>(Sir Thomas More, Master Roper, Servingmen, Lady More, Players, Lord Mayor, Aldermen, Lady Mayoress, Ladies, Sir Thomas More&#8217;s Daughters, Servants, Inclination, Prologue, Wit, Lady Vanity, Luggins)</scenepersonae>
@@ -3621,9 +3621,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Whitehall. The Council chamber.</scenelocation>
 <scenepersonae>(Earl of Shrewsbury, Earl of Surrey, Bishop of Rochester, Lords, Clerk of the Council, Sir Thomas More, Sir Thomas Palmer)</scenepersonae>
@@ -3896,7 +3896,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea.</scenelocation>
 <scenepersonae>(Lady More, Two Daughters (one is Roper&#8217;s Wife), Master Roper, Sir Thomas More, Servants)</scenepersonae>
@@ -4131,7 +4131,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
 <scenepersonae>(Bishop of Rochester, Surrey, Shrewsbury, Lieutenant of the Tower, Warders)</scenepersonae>
@@ -4201,7 +4201,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Chelsea. A Room in More&#8217;s House.</scenelocation>
 <scenepersonae>(Sir Thomas More, Lady More, Daughters, Master Roper, Gentlemen, Servants, Earl of Shrewsbury, Earl of Surrey, Attendants, Catesby, Downes)</scenepersonae>
@@ -4602,9 +4602,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Tower Gate.</scenelocation>
 <scenepersonae>(Warders of the Tower, Poor Woman, Lords, Sir Thomas More, Attendants, Lieutenant, Gentleman Porter, Shrewsbury, Surrey)</scenepersonae>
@@ -4813,7 +4813,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>More&#8217;s House.</scenelocation>
 <scenepersonae>(Butler, Porter, Horsekeeper, Brewer, Gough, Catesby)</scenepersonae>
@@ -4930,7 +4930,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
 <scenepersonae>(Sir Thomas More, Lieutenant, Servant, Lady More, Daughters, Master Roper)</scenepersonae>
@@ -5242,7 +5242,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tower Hill.</scenelocation>
 <scenepersonae>(Sheriffs of London, Officers, Warders, Lieutenant, Guard, Sir Thomas More, Earl of Surrey, Earl of Shrewsbury, Hangman)</scenepersonae>
@@ -5498,6 +5498,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

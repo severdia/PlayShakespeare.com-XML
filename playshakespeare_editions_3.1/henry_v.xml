@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="henry-v">
 <title short="Henry V">The Life of Henry the Fifth</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
 <prologue>
@@ -56,7 +56,7 @@
 
 </prologue>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. An ante-chamber in the King&#8217;s palace.</scenelocation>
 <scenepersonae>(Archbishop of Canterbury, Bishop of Ely)</scenepersonae>
@@ -257,7 +257,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. The Presence chamber.</scenelocation>
 <scenepersonae>(King, Humphrey Duke of Gloucester, Bedford, Clarence, Warwick, Westmorland, Exeter, Attendants, Archbishop of Canterbury, Bishop of Ely, Ambassadors of France)</scenepersonae>
@@ -711,7 +711,7 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
 <prologue>
 <scenetitle>Prologue</scenetitle>
@@ -768,7 +768,7 @@
 <stagedir>Exit.</stagedir> 
 
 </prologue>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
 <scenepersonae>(Corporal Nym, Lieutenant Bardolph, Pistol, Hostess Quickly, Boy, Hostess)</scenepersonae>
@@ -1052,7 +1052,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Southampton. A council-chamber.</scenelocation>
 <scenepersonae>(Exeter, Bedford, Westmorland, King, Scroop, Cambridge, Grey, Attendants)</scenepersonae>
@@ -1378,7 +1378,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. Before a tavern.</scenelocation>
 <scenepersonae>(Pistol, Nym, Bardolph, Boy, Hostess)</scenepersonae>
@@ -1513,7 +1513,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>France. The King&#8217;s palace.</scenelocation>
 <scenepersonae>(French King, Dauphin, Duke of Berri, Duke of Britain, Constable, French Court Attendant, Lords, Exeter)</scenepersonae>
@@ -1766,7 +1766,7 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
 <prologue>
 <scenetitle>Prologue</scenetitle>
@@ -1819,7 +1819,7 @@
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. Before Harfleur.</scenelocation>
 <scenepersonae>(King, Exeter, Bedford, Gloucester, Soldiers)</scenepersonae>
@@ -1868,7 +1868,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Nym, Bardolph, Pistol, Boy, Fluellen, Gower, Macmorris, Captain Jamy)</scenepersonae>
@@ -2071,7 +2071,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. Before the gates.</scenelocation>
 <scenepersonae>(Citizens, King, Governor, Exeter)</scenepersonae>
@@ -2154,7 +2154,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The French King&#8217;s palace.</scenelocation>
 <scenepersonae>(Katherine, Alice)</scenepersonae>
@@ -2340,7 +2340,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(King of France, Dauphin, Duke of Britain, Constable of France)</scenepersonae>
@@ -2468,7 +2468,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The English camp in Picardy.</scenelocation>
 <scenepersonae>(English Captain, Welsh Captain, Gower, Fluellen, Pistol, King, Soldiers, Gloucester, Montjoy)</scenepersonae>
@@ -2737,7 +2737,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The French camp, near Agincourt.</scenelocation>
 <scenepersonae>(Constable of France, Lord Rambures, Orleance, Dauphin, French Court Attendant)</scenepersonae>
@@ -2861,7 +2861,7 @@
 
 <speech>
 <speaker>CON.</speaker>
-<line>I had as live have my mistress a jade.</line>
+<line>I had as lief have my mistress a jade.</line>
 </speech>
 
 <speech>
@@ -3125,7 +3125,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
 <prologue>
 <scenetitle>Prologue</scenetitle>
@@ -3195,7 +3195,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The English camp at Agincourt.</scenelocation>
 <scenepersonae>(King, Bedford, Gloucester, Erpingham, Pistol, Fluellen, Gower, Soldiers, John Bates, Alexander Court, Michael Williams)</scenepersonae>
@@ -3745,7 +3745,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The French camp.</scenelocation>
 <scenepersonae>(Dauphin, Orleance, Rambures, Constable, French Messenger, Grandpr&#233;)</scenepersonae>
@@ -3885,7 +3885,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The English camp.</scenelocation>
 <scenepersonae>(Gloucester, Bedford, Exeter, Erpingham, Salisbury, Westmorland, King, Montjoy, York)</scenepersonae>
@@ -4139,7 +4139,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The field of battle.</scenelocation>
 <scenepersonae>(Pistol, French Soldier, Boy)</scenepersonae>
@@ -4320,7 +4320,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Constable, Orleance, Bourbon, Dauphin, Rambures)</scenepersonae>
@@ -4398,7 +4398,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(King, Exeter)</scenepersonae>
@@ -4470,7 +4470,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Fluellen, Gower, King Harry, Bourbon, Warwick, Gloucester, Exeter, Heralds, Montjoy, Williams)</scenepersonae>
@@ -4809,7 +4809,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Before King Henry&#8217;s pavilion.</scenelocation>
 <scenepersonae>(Gower, Williams, Fluellen, Warwick, Gloucester, King, Exeter, English Herald)</scenepersonae>
@@ -5074,7 +5074,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
 <prologue>
 <scenetitle>Prologue</scenetitle>
@@ -5135,7 +5135,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. The English camp.</scenelocation>
 <scenepersonae>(Fluellen, Gower, Pistol)</scenepersonae>
@@ -5300,7 +5300,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. A royal palace.</scenelocation>
 <scenepersonae>(King Henry, Exeter, Bedford, Gloucester, Warwick, Westmorland, Lords, Queen Isabel, King of France, Duke of Burgundy, Katherine, Alice, French Power, English Lords, Chorus)</scenepersonae>
@@ -5827,7 +5827,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>LORDS.</speaker>
 <line>Amen!</line>
 </speech>
 
@@ -5880,6 +5880,7 @@ none to fight. Now is it time to arm. Come, shall we about it?</line>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

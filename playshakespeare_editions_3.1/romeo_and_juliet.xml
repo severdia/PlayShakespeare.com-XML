@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="romeo-and-juliet">
 <title short="Romeo and Juliet">The Tragedy of Romeo and Juliet</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
 <prologue>
@@ -35,7 +35,7 @@
 <stagedir>Exit.</stagedir>
 </prologue>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Verona. A public place.</scenelocation>
 <scenepersonae>(Sampson, Gregory, Abram, Balthasar, Benvolio, Tybalt, Citizens, Montague, Lady Montague, Prince Escalus, Romeo)</scenepersonae>
@@ -676,7 +676,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Capulet, County Paris, Second Servingman, Benvolio, Romeo)</scenepersonae>
@@ -900,7 +900,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Capulet&#8217;s house.</scenelocation>
 <scenepersonae>(Lady Capulet, Nurse, Juliet, First Servingman)</scenepersonae>
@@ -1139,7 +1139,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Romeo, Mercutio, Benvolio, Maskers, Torch-Bearers)</scenepersonae>
@@ -1384,7 +1384,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A hall in Capulet&#8217;s house.</scenelocation>
 <scenepersonae>(Anthony, Potpan, Capulet, Lady Capulet, Old Capulet, Juliet, Tybalt, Nurse, Servingmen, Guests, Gentlewomen, Maskers)</scenepersonae>
@@ -1783,7 +1783,7 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
 <prologue>
 <scenetitle>Prologue</scenetitle>
@@ -1814,7 +1814,7 @@
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A lane by the wall of Capulet&#8217;s orchard.</scenelocation>
 <scenepersonae>(Romeo, Benvolio, Mercutio)</scenepersonae>
@@ -1912,7 +1912,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
 <scenepersonae>(Romeo, Juliet, Nurse)</scenepersonae>
@@ -2364,7 +2364,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
 <scenepersonae>(Friar Lawrence, Romeo)</scenepersonae>
@@ -2550,7 +2550,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A street.</scenelocation>
 <scenepersonae>(Benvolio, Mercutio, Romeo, Nurse, Peter)</scenepersonae>
@@ -3052,7 +3052,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
 <scenepersonae>(Juliet, Nurse, Peter)</scenepersonae>
@@ -3215,7 +3215,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
 <scenepersonae>(Friar Lawrence, Romeo, Juliet)</scenepersonae>
@@ -3302,9 +3302,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A public place.</scenelocation>
 <scenepersonae>(Mercutio, Benvolio, Page, Men, Tybalt, Petruchio, Romeo, Citizens, Prince Escalus, Montague, Capulet, Lady Capulet, Lady Montague)</scenepersonae>
@@ -3744,7 +3744,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
 <scenepersonae>(Juliet, Nurse)</scenepersonae>
@@ -3998,7 +3998,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
 <scenepersonae>(Friar Lawrence, Romeo, Nurse)</scenepersonae>
@@ -4363,7 +4363,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Capulet&#8217;s house.</scenelocation>
 <scenepersonae>(Capulet, Lady Capulet, Paris)</scenepersonae>
@@ -4444,7 +4444,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
 <scenepersonae>(Romeo, Juliet, Nurse, Lady Capulet, Capulet)</scenepersonae>
@@ -5006,9 +5006,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
 <scenepersonae>(Friar Lawrence, County Paris, Juliet)</scenepersonae>
@@ -5283,7 +5283,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Hall in Capulet&#8217;s house.</scenelocation>
 <scenepersonae>(Capulet, Lady Capulet, Nurse, Servingmen, Juliet)</scenepersonae>
@@ -5422,7 +5422,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Juliet&#8217;s chamber.</scenelocation>
 <scenepersonae>(Juliet, Nurse, Lady Capulet)</scenepersonae>
@@ -5518,7 +5518,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Hall in Capulet&#8217;s house.</scenelocation>
 <scenepersonae>(Lady Capulet, Nurse, Capulet, Servingmen)</scenepersonae>
@@ -5619,7 +5619,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Juliet&#8217;s chamber.</scenelocation>
 <scenepersonae>(Nurse, Juliet, Lady Capulet, Capulet, Friar Lawrence, County Paris, Musicians, Peter)</scenepersonae>
@@ -5967,9 +5967,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Mantua. A street.</scenelocation>
 <scenepersonae>(Romeo, Balthasar, Apothecary)</scenepersonae>
@@ -6137,7 +6137,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
 <scenepersonae>(Friar John, Friar Lawrence)</scenepersonae>
@@ -6214,7 +6214,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A churchyard; in it a tomb belonging to the Capulets.</scenelocation>
 <scenepersonae>(Paris, Page, Romeo, Balthasar, Friar Lawrence, Juliet, Boy, Watchmen, Prince Escalus, Attendants, Montague)</scenepersonae>
@@ -6881,6 +6881,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

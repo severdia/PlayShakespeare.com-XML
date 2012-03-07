@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="coriolanus">
 <title short="Coriolanus">The Tragedy of Coriolanus</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
 <scenepersonae>(Roman Citizens, Menenius Agrippa, Martius, First Messenger, Sicinius Velutus, Junius Brutus, Cominius, Titus Lartius, Roman Senators)</scenepersonae>
@@ -656,7 +656,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Corioli. The Senate-house.</scenelocation>
 <scenepersonae>(Tullus Aufidius, Volscian Senators)</scenepersonae>
@@ -758,7 +758,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A room in Coriolanus&#8217; house.</scenelocation>
 <scenepersonae>(Volumnia, Virgilia, Gentlewoman, Valeria, Usher)</scenepersonae>
@@ -996,7 +996,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before Corioli.</scenelocation>
 <scenepersonae>(Martius, Titus Lartius, Captains, Roman Soldiers, Second Messenger, Volscian Senators, Army of the Volsces)</scenepersonae>
@@ -1213,7 +1213,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Corioli. A street.</scenelocation>
 <scenepersonae>(Romans, Martius, Titus Lartius)</scenepersonae>
@@ -1297,7 +1297,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Near the camp of Cominius.</scenelocation>
 <scenepersonae>(Cominius, Soldiers, Second Messenger, Martius)</scenepersonae>
@@ -1518,7 +1518,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The gates of Corioli.</scenelocation>
 <scenepersonae>(Titus Lartius, Cominius, Caius Martius, Lieutenant to Lartius, Soldiers, Scout)</scenepersonae>
@@ -1549,7 +1549,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>A field of battle.</scenelocation>
 <scenepersonae>(Martius, Aufidius, Volscian Soldiers)</scenepersonae>
@@ -1605,7 +1605,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>The Roman camp.</scenelocation>
 <scenepersonae>(Cominius, Roman Soldiers, Martius (Coriolanus), Titus Lartius)</scenepersonae>
@@ -1723,7 +1723,7 @@
 <stagedir>Flourish. Trumpets sound, and drums.</stagedir>
 
 <speech>
-<speaker>OMNES.</speaker>
+<speaker>ALL.</speaker>
 <line>Martius Caius Coriolanus!</line>
 </speech>
 
@@ -1804,7 +1804,7 @@
 
 </scene>
 
-<scene>
+<scene num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>The camp of the Volsces.</scenelocation>
 <scenepersonae>(Tullus Aufidius, Volscian Soldiers)</scenepersonae>
@@ -1884,9 +1884,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
 <scenepersonae>(Menenius, Sicinius, Brutus, Volumnia, Virgilia, Valeria, Cominius, Titus Lartius, Coriolanus, Captains, Soldiers, Roman Herald, Messenger)</scenepersonae>
@@ -2478,7 +2478,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. The Capitol.</scenelocation>
 <scenepersonae>(Officers, Senators, Sicinius, Brutus, Lictors, Coriolanus, Menenius, Cominius, Tribunes)</scenepersonae>
@@ -2827,7 +2827,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. The Forum.</scenelocation>
 <scenepersonae>(Roman Citizens, Coriolanus, Menenius, Brutus, Sicinius, Plebeians)</scenepersonae>
@@ -3104,7 +3104,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL CITIZENS.</speaker>
 <line>Amen, amen. God save thee, noble consul!</line>
 </speech>
 
@@ -3401,7 +3401,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL PLEBEIANS.</speaker>
 <line offset="4">We will so. Almost all</line>
 <line>Repent in their election.</line>
 </speech>
@@ -3431,9 +3431,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
 <scenepersonae>(Coriolanus, Menenius, Gentry, Cominius, Titus Lartius, Roman Senators, Sicinius, Brutus, Aediles, Plebeians, Tribunes, People)</scenepersonae>
@@ -3992,7 +3992,7 @@
 <stagedir>They all bustle about Coriolanus.</stagedir>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL PLEBEIANS.</speaker>
 <line>Tribunes!&#8212;Patricians!&#8212;Citizens!&#8212;What ho!&#8212;</line>
 <line>Sicinius!&#8212;Brutus!&#8212;Coriolanus!&#8212;Citizens!&#8212;</line>
 <line>Peace, peace, peace!&#8212;Stay, hold, peace!</line>
@@ -4512,7 +4512,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Coriolanus&#8217; house.</scenelocation>
 <scenepersonae>(Coriolanus, Patricians, Volumnia, Menenius, Senators, Cominius)</scenepersonae>
@@ -4871,7 +4871,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. The Forum.</scenelocation>
 <scenepersonae>(Sicinius, Brutus, First Aedile, Coriolanus, Menenius, Cominius, Senators, Patricians, Plebeians)</scenepersonae>
@@ -5304,9 +5304,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before a gate of the city.</scenelocation>
 <scenepersonae>(Coriolanus, Volumnia, Virgilia, Menenius, Cominius)</scenepersonae>
@@ -5426,7 +5426,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A street near the gate.</scenelocation>
 <scenepersonae>(Sicinius, Brutus, First Aedile, Volumnia, Virgilia, Menenius)</scenepersonae>
@@ -5643,7 +5643,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A highway between Rome and Antium.</scenelocation>
 <scenepersonae>(Nicanor, Adrian)</scenepersonae>
@@ -5749,7 +5749,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Antium. Before Aufidius&#8217;s house.</scenelocation>
 <scenepersonae>(Coriolanus, Citizen of Antium)</scenepersonae>
@@ -5822,7 +5822,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. A hall in Aufidius&#8217;s house.</scenelocation>
 <scenepersonae>(Three Servingmen, Coriolanus, Aufidius)</scenepersonae>
@@ -6365,7 +6365,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
 <scenepersonae>(Sicinius, Brutus, Menenius, Roman Citizens, First Aedile, Messengers, Cominius)</scenepersonae>
@@ -6879,7 +6879,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>A camp, at a small distance from Rome.</scenelocation>
 <scenepersonae>(Aufidius, Lieutenant to Aufidius)</scenepersonae>
@@ -6978,9 +6978,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
 <scenepersonae>(Menenius, Cominius, Sicinius, Brutus)</scenepersonae>
@@ -7167,7 +7167,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Entrance of the Volscian camp before Rome.</scenelocation>
 <scenepersonae>(Menenius, Watch, Guards, Coriolanus, Aufidius)</scenepersonae>
@@ -7392,7 +7392,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The tent of Coriolanus.</scenelocation>
 <scenepersonae>(Coriolanus, Aufidius, Virgilia, Volumnia, Valeria, Martius, Attendants)</scenepersonae>
@@ -7763,7 +7763,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
 <scenepersonae>(Menenius, Sicinius, Messengers)</scenepersonae>
@@ -7917,7 +7917,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The same. A street near the gate.</scenelocation>
 <scenepersonae>(Senators, Volumnia, Virgilia, Valeria, Lords)</scenepersonae>
@@ -7935,7 +7935,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>LORDS AND SEN.</speaker>
 <line offset="7">Welcome, ladies,</line>
 <line>Welcome!</line>
 </speech>
@@ -7944,7 +7944,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Antium. A public place.</scenelocation>
 <scenepersonae>(Tullus Aufidius, Attendants, Conspirators, Volscian Lords, Coriolanus, Commoners, Martius)</scenepersonae>
@@ -8352,6 +8352,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

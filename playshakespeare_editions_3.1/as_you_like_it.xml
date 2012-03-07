@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play> 
+<play unique="as-you-like-it"> 
 <title short="As You Like It">As You Like It</title> 
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Orchard of Oliver&#8217;s house.</scenelocation>
 <scenepersonae>(Orlando, Adam, Oliver, Dennis, Charles)</scenepersonae>
@@ -240,7 +240,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A lawn before the Duke&#8217;s palace.</scenelocation>
 <scenepersonae>(Rosalind, Celia, Clown Touchstone, Le Beau, Duke Frederick, Lords, Orlando, Charles, Attendants)</scenepersonae>
@@ -874,7 +874,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Duke&#8217;s palace.</scenelocation>
 <scenepersonae>(Celia, Rosalind, Duke Frederick, Lords)</scenepersonae>
@@ -1207,9 +1207,9 @@
 
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
 <scenepersonae>(Duke Senior, Amiens, Lords in Arden)</scenepersonae>
@@ -1332,7 +1332,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke Frederick, Lords at Court)</scenepersonae>
@@ -1380,7 +1380,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before Oliver&#8217;s house.</scenelocation>
 <scenepersonae>(Orlando, Adam)</scenepersonae>
@@ -1508,7 +1508,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
 <scenepersonae>(Rosalind, Celia, Touchstone, Corin, Silvius)</scenepersonae>
@@ -1742,7 +1742,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the forest.</scenelocation>
 <scenepersonae>(Amiens, Jaques)</scenepersonae>
@@ -1874,7 +1874,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Orlando, Adam)</scenepersonae>
@@ -1895,7 +1895,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Duke Senior, Amiens, Lords in Arden, Jaques, Orlando, Adam)</scenepersonae>
@@ -2271,9 +2271,9 @@
 
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The palace.</scenelocation>
 <scenepersonae>(Duke Frederick, Lords at Court, Oliver)</scenepersonae>
@@ -2314,7 +2314,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Orlando, Corin, Touchstone, Rosalind, Celia, Orlando, Jaques)</scenepersonae>
@@ -3120,7 +3120,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Touchstone, Audrey, Jaques, Sir Oliver Martext)</scenepersonae>
@@ -3305,7 +3305,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Rosalind, Celia, Corin)</scenepersonae>
@@ -3449,7 +3449,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the forest.</scenelocation>
 <scenepersonae>(Silvius, Phebe, Rosalind, Celia, Corin)</scenepersonae>
@@ -3702,9 +3702,9 @@
 
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Rosalind, Celia, Jaques, Orlando)</scenepersonae>
@@ -4131,7 +4131,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Jaques, Lords in Arden)</scenepersonae>
@@ -4184,7 +4184,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Rosalind, Celia, Silvius, Oliver)</scenepersonae>
@@ -4571,9 +4571,9 @@
 
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Touchstone, Audrey, William, Corin)</scenepersonae>
@@ -4735,7 +4735,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Orlando, Oliver, Rosalind, Silvius and Phebe)</scenepersonae>
@@ -4981,7 +4981,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Touchstone, Audrey, Pages)</scenepersonae>
@@ -5065,7 +5065,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The forest.</scenelocation>
 <scenepersonae>(Duke Senior, Amiens, Jaques, Orlando, Oliver, Celia, Rosalind, Silvius, and Phebe, Touchstone, Audrey, Hymen, Second Brother (Jaques De Boys))</scenepersonae>
@@ -5483,6 +5483,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

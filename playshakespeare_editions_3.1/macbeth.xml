@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="macbeth">
 <title short="Macbeth">The Tragedy of Macbeth</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A desert place.</scenelocation>
 <scenepersonae>(Three Witches)</scenepersonae>
@@ -71,7 +71,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A camp near Forres.</scenelocation>
 <scenepersonae>(King Duncan, Malcolm, Donalbain, Lennox, Attendants, Sergeant, Rosse, Angus)</scenepersonae>
@@ -232,7 +232,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A heath near Forres.</scenelocation>
 <scenepersonae>(Three Witches, Macbeth, Banquo, Rosse, Angus)</scenepersonae>
@@ -635,7 +635,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Forres. The palace.</scenelocation>
 <scenepersonae>(King Duncan, Lennox, Malcolm, Donalbain, Attendants, Macbeth, Banquo, Rosse, and Angus)</scenepersonae>
@@ -760,10 +760,10 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Inverness. Macbeth&#8217;s castle.</scenelocation>
-<scenepersonae>(Lady Macbeth, Messenger, Macbeth)</scenepersonae>
+<scenepersonae>(Lady Macbeth, Macbeth&#8217;s Messenger, Macbeth)</scenepersonae>
 
 <stagedir>Enter Macbeth&#8217;s Wife alone, with a letter.</stagedir>
 
@@ -788,12 +788,12 @@
 <line>Which fate and metaphysical aid doth seem</line>
 <line>To have thee crown&#8217;d withal.</line>
 
-<stagedir>Enter Messenger.</stagedir>
+<stagedir>Enter Macbeth&#8217;s Messenger.</stagedir>
 <line offset="6">What is your tidings?</line>
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>MACB. MESS.</speaker>
 <line>The King comes here tonight.</line>
 </speech>
 
@@ -805,7 +805,7 @@
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>MACB. MESS.</speaker>
 <line>So please you, it is true; our thane is coming.</line>
 <line>One of my fellows had the speed of him,</line>
 <line>Who, almost dead for breath, had scarcely more</line>
@@ -817,7 +817,7 @@
 <line offset="7">Give him tending,</line>
 <line>He brings great news.</line>
 
-<stagedir>Exit Messenger.</stagedir>
+<stagedir>Exit Macbeth&#8217;s Messenger.</stagedir>
 
 <line offset="5">The raven himself is hoarse</line>
 <line>That croaks the fatal entrance of Duncan</line>
@@ -893,7 +893,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Before Macbeth&#8217;s castle.</scenelocation>
 <scenepersonae>(King Duncan, Malcolm, Donalbain, Banquo, Lennox, Macduff, Rosse, Angus, Attendants, Lady Macbeth)</scenepersonae>
@@ -971,7 +971,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Macbeth&#8217;s castle.</scenelocation>
 <scenepersonae>(Sewer, Servants, Macbeth, Lady Macbeth)</scenepersonae>
@@ -1130,9 +1130,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Court of Macbeth&#8217;s castle.</scenelocation>
 <scenepersonae>(Banquo, Fleance, Macbeth, Servant)</scenepersonae>
@@ -1291,7 +1291,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Lady Macbeth, Macbeth)</scenepersonae>
@@ -1518,7 +1518,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same.</scenelocation>
 <scenepersonae>(Porter, Macduff, Lennox, Macbeth, Lady Macbeth, Banquo, Rosse, Malcolm, Donalbain)</scenepersonae>
@@ -1925,7 +1925,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Outside Macbeth&#8217;s castle.</scenelocation>
 <scenepersonae>(Rosse, Old Man, Macduff)</scenepersonae>
@@ -2075,9 +2075,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Forres. The palace.</scenelocation>
 <scenepersonae>(Banquo, Macbeth, Lady Macbeth, Lennox, Rosse, Lords, Attendants, Servant, Two Murderers)</scenepersonae>
@@ -2382,7 +2382,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The palace.</scenelocation>
 <scenepersonae>(Lady Macbeth, Waiting Gentlewoman, Macbeth)</scenepersonae>
@@ -2514,7 +2514,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A park near the palace.</scenelocation>
 <scenepersonae>(Three Murderers, Banquo, Fleance)</scenepersonae>
@@ -2644,7 +2644,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. Hall in the palace.</scenelocation>
 <scenepersonae>(Macbeth, Lady Macbeth, Rosse, Lennox, Lord, Attendants, First Murderer, Ghost of Banquo)</scenepersonae>
@@ -3050,7 +3050,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A Heath.</scenelocation>
 <scenepersonae>(Three Witches, Hecat)</scenepersonae>
@@ -3114,7 +3114,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Forres. The palace.</scenelocation>
 <scenepersonae>(Lennox, Lord)</scenepersonae>
@@ -3203,9 +3203,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A cavern. In the middle, a boiling cauldron.</scenelocation>
 <scenepersonae>(Three Witches, Hecat, Macbeth, First Apparition, Second Apparition, Third Apparition, Kings, Banquo, Lennox)</scenepersonae>
@@ -3631,7 +3631,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Fife. Macduff&#8217;s castle.</scenelocation>
 <scenepersonae>(Lady Macduff, Son, Rosse, Messenger, Murderers)</scenepersonae>
@@ -3907,7 +3907,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>England. Before the King&#8217;s palace.</scenelocation>
 <scenepersonae>(Malcolm, Macduff, English Doctor, Rosse)</scenepersonae>
@@ -4463,9 +4463,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Dunsinane. Ante-room in the castle.</scenelocation>
 <scenepersonae>(Doctor of Physic, Waiting Gentlewoman, Lady Macbeth)</scenepersonae>
@@ -4649,7 +4649,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The country near Dunsinane.</scenelocation>
 <scenepersonae>(Menteth, Cathness, Angus, Lennox, Soldiers)</scenepersonae>
@@ -4737,7 +4737,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Dunsinane. A room in the castle.</scenelocation>
 <scenepersonae>(Macbeth, English Doctor, Attendants, Servant, Seyton)</scenepersonae>
@@ -4907,7 +4907,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Country near Birnam wood.</scenelocation>
 <scenepersonae>(Malcolm, Siward, Macduff, Siward&#8217;s Son, Menteth, Cathness, Angus, Lennox, Rosse, Soldiers)</scenepersonae>
@@ -4985,10 +4985,10 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Dunsinane. Within the castle.</scenelocation>
-<scenepersonae>(Macbeth, Seyton, Soldiers, Messenger)</scenepersonae>
+<scenepersonae>(Macbeth, Seyton, Soldiers, Macbeth&#8217;s Messenger)</scenepersonae>
 
 <stagedir>Enter Macbeth, Seyton, and Soldiers, with Drum and Colors.</stagedir>
 
@@ -5046,13 +5046,13 @@
 <line>Told by an idiot, full of sound and fury,</line>
 <line>Signifying nothing.</line>
 
-<stagedir>Enter a Messenger.</stagedir>
+<stagedir>Enter Macbeth&#8217;s  Messenger.</stagedir>
 <line offset="4">Thou com&#8217;st to use thy tongue;</line>
 <line>Thy story quickly.</line>
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>MACB. MESS.</speaker>
 <line offset="4">Gracious my lord,</line>
 <line>I should report that which I say I saw,</line>
 <line>But know not how to do&#8217;t.</line>
@@ -5064,7 +5064,7 @@
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>MACB. MESS.</speaker>
 <line>As I did stand my watch upon the hill,</line>
 <line>I look&#8217;d toward Birnan, and anon methought</line>
 <line>The wood began to move.</line>
@@ -5076,7 +5076,7 @@
 </speech>
 
 <speech>
-<speaker>MESS.</speaker>
+<speaker>MACB. MESS.</speaker>
 <line>Let me endure your wrath, if&#8217;t be not so.</line>
 <line>Within this three mile may you see it coming;</line>
 <line>I say, a moving grove.</line>
@@ -5105,7 +5105,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Dunsinane. Before the castle.</scenelocation>
 <scenepersonae>(Malcolm, Siward, Macduff)</scenepersonae>
@@ -5139,7 +5139,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Macbeth, Young Siward, Macduff, Malcolm, Siward)</scenepersonae>
@@ -5247,7 +5247,7 @@
 
 </scene>
 
-<scene>
+<scene num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Macbeth, Macduff)</scenepersonae>
@@ -5339,7 +5339,7 @@
 
 </scene>
 
-<scene>
+<scene num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Dunsinane. Macbeth&#8217;s castle.</scenelocation>
 <scenepersonae>(Malcolm, Siward, Rosse, Thanes, Soldiers, Macduff)</scenepersonae>
@@ -5466,6 +5466,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

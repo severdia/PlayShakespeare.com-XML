@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="hamlet">
 <title short="Hamlet">The Tragedy of Hamlet, Prince of Denmark</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A platform before the Castle.</scenelocation>
 <scenepersonae>(Barnardo, Francisco, Horatio, Marcellus, Ghost)</scenepersonae>
@@ -469,7 +469,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A room of state in the Castle.</scenelocation>
 <scenepersonae>(Claudius, Gertrude, Polonius, Laertes, Hamlet, Voltemand, Cornelius, Horatio, Marcellus, Barnardo)</scenepersonae>
@@ -922,7 +922,7 @@
 </speech>
 
 <speech>
-<speaker>MAR., BAR.</speaker>
+<speaker>BOTH MAR. AND BAR.</speaker>
 <line offset="6">We do, my lord.</line>
 </speech>
 
@@ -932,7 +932,7 @@
 </speech>
 
 <speech>
-<speaker>MAR., BAR.</speaker>
+<speaker>BOTH MAR. AND BAR.</speaker>
 <line>Arm&#8217;d, my lord.</line>
 </speech>
 
@@ -942,7 +942,7 @@
 </speech>
 
 <speech>
-<speaker>MAR., BAR.</speaker>
+<speaker>BOTH MAR. AND BAR.</speaker>
 <line offset="4">My lord, from head to foot.</line>
 </speech>
 
@@ -1054,7 +1054,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>HOR., MAR. AND BAR.</speaker>
 <line offset="3">Our duty to your honor.</line>
 </speech>
 
@@ -1074,7 +1074,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Elsinore. A room in the house of Polonius.</scenelocation>
 <scenepersonae>(Laertes, Ophelia, Polonius)</scenepersonae>
@@ -1335,7 +1335,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Elsinore. The platform before the Castle.</scenelocation>
 <scenepersonae>(Hamlet, Horatio, Marcellus, Ghost)</scenepersonae>
@@ -1572,7 +1572,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Elsinore. The Castle. Another part of the fortifications.</scenelocation>
 <scenepersonae>(Ghost, Hamlet, Horatio, Marcellus)</scenepersonae>
@@ -2058,10 +2058,10 @@
 </act>
 
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in the house of Polonius.</scenelocation>
 <scenepersonae>(Polonius, Reynaldo, Ophelia)</scenepersonae>
@@ -2356,7 +2356,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A room in the Castle.</scenelocation>
 <scenepersonae>(King, Queen, Hamlet, Rosencrantz, Guildenstern, Polonius, Voltemand, Cornelius, Attendants, Players)</scenepersonae>
@@ -3497,9 +3497,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in the Castle.</scenelocation>
 <scenepersonae>(King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern, Lords, Hamlet)</scenepersonae>
@@ -3880,7 +3880,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A hall in the Castle.</scenelocation>
 <scenepersonae>(Hamlet, Players, Polonius, Guildenstern, Rosencrantz, Horatio, King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern, Lords, Guard, Prologue, Lucianus)</scenepersonae>
@@ -4809,7 +4809,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Castle.</scenelocation>
 <scenepersonae>(King, Rosencrantz, Guildenstern, Polonius, Hamlet)</scenepersonae>
@@ -4970,7 +4970,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Queen&#8217;s closet.</scenelocation>
 <scenepersonae>(Queen Gertrude, Polonius, Hamlet, Ghost)</scenepersonae>
@@ -5451,9 +5451,9 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in the Castle.</scenelocation>
 <scenepersonae>(King, Queen, Rosencrantz, Guildenstern)</scenepersonae>
@@ -5547,7 +5547,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A passage in the Castle.</scenelocation>
 <scenepersonae>(Hamlet, Rosencrantz, Guildenstern)</scenepersonae>
@@ -5647,7 +5647,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Elsinore. A room in the Castle.</scenelocation>
 <scenepersonae>(King, Attendants, Rosencrantz, Hamlet, Guildenstern)</scenepersonae>
@@ -5836,7 +5836,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Near Elsinore.</scenelocation>
 <scenepersonae>(Fortinbras, Captain, Hamlet, Rosencrantz, Guildenstern)</scenepersonae>
@@ -5992,7 +5992,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Elsinore. A room in the Castle.</scenelocation>
 <scenepersonae>(Horatio, Queen Gertrude, Gentleman, Ophelia, King, Messenger, Laertes, Followers)</scenepersonae>
@@ -6267,7 +6267,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>LAER. FOL.</speaker>
 <line>No, let &#8217;s come in.</line>
 </speech>
 
@@ -6277,7 +6277,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>LAER. FOL.</speaker>
 <line>We will, we will.</line>
 </speech>
 
@@ -6530,7 +6530,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Elsinore. Another room in the Castle.</scenelocation>
 <scenepersonae>(Horatio, Gentleman, Sailors)</scenepersonae>
@@ -6588,7 +6588,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Elsinore. Another room in the Castle.</scenelocation>
 <scenepersonae>(King, Laertes, Messenger, Queen)</scenepersonae>
@@ -6980,9 +6980,9 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A churchyard.</scenelocation>
 <scenepersonae>(First Clown, Second Clown, Hamlet, Horatio, King, Queen, Laertes, Doctor of Divinity, Lords, Attendants)</scenepersonae>
@@ -7449,7 +7449,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 <line>Should patch a wall t&#8217; expel the winter&#8217;s flaw!</line>
 <line>But soft, but soft awhile, here comes the king.</line>
 
-<stagedir>Enter King, Queen, Laertes, and a Doctor of Divinity, following the corse, with Lords attendant.</stagedir>
+<stagedir>Enter King, Queen, Laertes, and a Doctor of Divinity, following the corpse, with Lords attendant.</stagedir>
 
 <line>The Queen, the courtiers. Who is this they follow?</line>
 <line>And with such maimed rites? This doth betoken</line>
@@ -7577,7 +7577,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>PALL.</speaker>
 <line offset="8">Gentlemen!</line>
 </speech>
 
@@ -7671,7 +7671,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A hall in the Castle.</scenelocation>
 <scenepersonae>(Hamlet, Horatio, Osric, Lord, King, Queen, Laertes, Fortinbras, English Ambassadors, Attendants)</scenepersonae>
@@ -8136,12 +8136,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 
 <speech>
 <speaker>HAM.</speaker>
-<line>Not a whit, we defy augury. There is special providence in the fall of a sparrow. If it be now, &#8217;tis not to come; if it be not to come, it will be now; if it be not now, yet it will come&#8212;the readiness is</line>
-</speech>
-
-<speech>
-<speaker>ALL.</speaker>
-<line>Since no man, of aught he leaves, knows what is&#8217;t to leave betimes, let be.</line>
+<line>Not a whit, we defy augury. There is special providence in the fall of a sparrow. If it be now, &#8217;tis not to come; if it be not to come, it will be now; if it be not now, yet it will come&#8212;the readiness is all. Since no man, of aught he leaves, knows what is&#8217;t to leave betimes, let be.</line>
 </speech>
 
 <stagedir>A table prepar&#8217;d, and flagons of wine on it. Enter Trumpets, Drums, and Officers with cushions, foils, daggers; King, Queen, Laertes, Osric, and all the State.</stagedir>
@@ -8685,6 +8680,7 @@ the door upon your own liberty if you deny your griefs to your friend.</line>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

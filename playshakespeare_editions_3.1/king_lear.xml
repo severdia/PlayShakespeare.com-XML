@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="king-lear">
 <title short="King Lear">The Tragedy of King Lear</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King Lear&#8217;s palace.</scenelocation>
 <scenepersonae>(Kent, Gloucester, Edmund, King Lear, Cornwall, Albany, Goneril, Regan, Cordelia, Attendants, Gloucester, France, Burgundy)</scenepersonae>
@@ -675,7 +675,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Earl of Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Edmund the Bastard, Gloucester, Edgar)</scenepersonae>
@@ -971,7 +971,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Duke of Albany&#8217;s palace.</scenelocation>
 <scenepersonae>(Goneril, Oswald)</scenepersonae>
@@ -1037,7 +1037,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A hall in the same.</scenelocation>
 <scenepersonae>(Kent, Lear, Knights, Attendants, Oswald, Fool, Goneril, Albany)</scenepersonae>
@@ -1806,7 +1806,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Court before the same.</scenelocation>
 <scenepersonae>(Lear, Kent, Fool, First Gentleman)</scenepersonae>
@@ -1969,9 +1969,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Edmund, Curan, Edgar, Gloucester, Servants, Cornwall, Regan, Attendants)</scenepersonae>
@@ -2298,7 +2298,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Kent, Oswald, Edmund, Cornwall, Regan, Gloucester, Servants)</scenepersonae>
@@ -2721,7 +2721,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A wood.</scenelocation>
 <scenepersonae>(Edgar)</scenepersonae>
@@ -2755,7 +2755,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before Gloucester&#8217;s castle. Kent in the stocks.</scenelocation>
 <scenepersonae>(Lear, Fool, First Gentleman, Kent, Gloucester, Cornwall, Regan, Gloucester, Servants, Oswald, Goneril)</scenepersonae>
@@ -3511,9 +3511,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A heath.</scenelocation>
 <scenepersonae>(Kent, First Gentleman)</scenepersonae>
@@ -3626,7 +3626,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the heath. Storm still.</scenelocation>
 <scenepersonae>(Lear, Fool, Kent)</scenepersonae>
@@ -3784,7 +3784,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Gloucester, Edmund)</scenepersonae>
@@ -3819,7 +3819,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The heath. Before a hovel.</scenelocation>
 <scenepersonae>(Lear, Kent, Fool, Edgar, Gloucester)</scenepersonae>
@@ -4203,7 +4203,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Cornwall, Edmund)</scenepersonae>
@@ -4259,7 +4259,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>A chamber in a farmhouse adjoining the castle.</scenelocation>
 <scenepersonae>(Kent, Gloucester, Lear, Edgar, Fool)</scenepersonae>
@@ -4534,7 +4534,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Cornwall, Regan, Goneril, Edmund, Servants, Oswald, Gloucester)</scenepersonae>
@@ -4890,9 +4890,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The heath.</scenelocation>
 <scenepersonae>(Edgar, Gloucester, Old Man)</scenepersonae>
@@ -5115,7 +5115,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Albany&#8217;s palace.</scenelocation>
 <scenepersonae>(Goneril, Edmund, Oswald, Albany, Messenger)</scenepersonae>
@@ -5364,7 +5364,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The French camp near Dover.</scenelocation>
 <scenepersonae>(Kent, First Gentleman)</scenepersonae>
@@ -5513,7 +5513,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The same. A tent.</scenelocation>
 <scenepersonae>(Cordelia, Doctor, Soldiers, Officer, French Messenger)</scenepersonae>
@@ -5578,7 +5578,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
 <scenepersonae>(Regan, Oswald)</scenepersonae>
@@ -5709,7 +5709,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Fields near Dover.</scenelocation>
 <scenepersonae>(Gloucester, Edgar, Lear, First Gentleman, Attendants, Oswald)</scenepersonae>
@@ -6382,7 +6382,7 @@
 
 </scene>
 
-<scene>
+<scene num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>A tent in the French camp.</scenelocation>
 <scenepersonae>(Cordelia, Kent, Doctor, Lear, Servants, First Gentleman)</scenepersonae>
@@ -6677,9 +6677,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The British camp, near Dover.</scenelocation>
 <scenepersonae>(Edmund, Regan, Gentlemen, Albany, Goneril, Soldiers, Edgar, Edmund)</scenepersonae>
@@ -6905,7 +6905,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A field between the two camps.</scenelocation>
 <scenepersonae>(Powers of France, Cordelia, Lear, Edgar, Gloucester)</scenepersonae>
@@ -6958,7 +6958,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The British camp near Dover.</scenelocation>
 <scenepersonae>(Edmund, Lear, Cordelia, Soldiers, Captains, Albany, Goneril, Regan, Herald, Edgar, Second Gentleman, Kent, Second Messenger)</scenepersonae>
@@ -7907,6 +7907,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

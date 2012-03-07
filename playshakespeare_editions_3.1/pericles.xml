@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="pericles">
 <title short="Pericles">Pericles, Prince of Tyre</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
 <prologue>
@@ -65,7 +65,7 @@
 
 </prologue>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Antioch. A room in the palace.</scenelocation>
 <scenepersonae>(Antiochus, Prince Pericles, Followers, Daughter of Antiochus, Thaliard, Antiochan Messenger)</scenepersonae>
@@ -373,7 +373,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Tyre. A room in the palace.</scenelocation>
 <scenepersonae>(Pericles, Lords of Tyre, Helicanus)</scenepersonae>
@@ -597,7 +597,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tyre. An ante-chamber in the palace.</scenelocation>
 <scenepersonae>(Thaliard, Helicanus, Escanes, Lords of Tyre)</scenepersonae>
@@ -682,7 +682,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tarsus. A room in the Governor&#8217;s house.</scenelocation>
 <scenepersonae>(Cleon, Dionyza, Lords, Lord of Tarsus, Pericles, Attendants)</scenepersonae>
@@ -864,7 +864,7 @@
 </speech>
 
 <speech>
-<speaker>OMNES.</speaker>
+<speaker>ALL.</speaker>
 <line>The gods of Greece protect you!</line>
 <line>And we&#8217;ll pray for you.</line>
 </speech>
@@ -899,7 +899,7 @@
 
 
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
 
 <prologue>
@@ -959,7 +959,7 @@
 
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Pentapolis. An open place by the sea-side.</scenelocation>
 <scenepersonae>(Pericles, Three Fishermen)</scenepersonae>
@@ -1302,7 +1302,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The same. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</scenelocation>
 <scenepersonae>(Simonides, Three Lords of Pentapolis, Princess Thaisa, First Knight, Pages, Second Knight, Third Knight, Fourth Knight, Fifth Knight)</scenepersonae>
@@ -1481,7 +1481,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The same. A hall of state.</scenelocation>
 <scenepersonae>(King Simonides, Thaisa, Marshal, Lords, Ladies, Attendants, Knights)</scenepersonae>
@@ -1784,7 +1784,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tyre. A room in the Governor&#8217;s house.</scenelocation>
 <scenepersonae>(Helicanus, Escanes, Three Lords)</scenepersonae>
@@ -1886,7 +1886,7 @@
 </speech>
 
 <speech>
-<speaker>OMNES.</speaker>
+<speaker>ALL.</speaker>
 <line>Live, noble Helicane!</line>
 </speech>
 
@@ -1924,7 +1924,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Pentapolis. A room in the palace.</scenelocation>
 <scenepersonae>(King Simonides, Knights, Pericles, Thaisa)</scenepersonae>
@@ -2190,7 +2190,7 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
 
 <prologue>
@@ -2270,7 +2270,7 @@
 
 </prologue>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On a ship at sea.</scenelocation>
 <scenepersonae>(Pericles, Lychorida, Two Sailors)</scenepersonae>
@@ -2457,10 +2457,10 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Ephesus. A room in Cerimon&#8217;s house.</scenelocation>
-<scenepersonae>(Lord Cerimon, Ephesan Servant, Man, Philemon, First Gentleman of Ephesus, Second Gentleman of Ephesus, Cerimon&#8217;s First Servant, Cerimon&#8217;s Second Servant)</scenepersonae>
+<scenepersonae>(Lord Cerimon, Ephesan Servant, Man, Philemon, First Gentleman of Ephesus, Second Gentleman of Ephesus, Cerimon&#8217;s First Servant, Cerimon&#8217;s Second Servant, Thaisa)</scenepersonae>
 
 <stagedir>Enter Lord Cerimon with an Ephesan Servant and another Man, both storm-beaten.</stagedir>
 
@@ -2759,7 +2759,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tarsus. A room in Cleon&#8217;s house.</scenelocation>
 <scenepersonae>(Pericles, Cleon, Dionyza, Lychorida)</scenepersonae>
@@ -2858,7 +2858,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Ephesus. A room in Cerimon&#8217;s house.</scenelocation>
 <scenepersonae>(Cerimon, Thaisa)</scenepersonae>
@@ -2904,7 +2904,7 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
 
 <prologue>
@@ -2973,7 +2973,7 @@
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Tarsus. An open place near the sea-shore.</scenelocation>
 <scenepersonae>(Dionyza, Leonine, Marina, Pirates)</scenepersonae>
@@ -3234,7 +3234,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Mytilene. A room in a brothel.</scenelocation>
 <scenepersonae>(Pander, Bawd, Boult, Pirates, Marina)</scenepersonae>
@@ -3583,7 +3583,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tarsus. A room in Cleon&#8217;s house.</scenelocation>
 <scenepersonae>(Cleon, Dionyza)</scenepersonae>
@@ -3703,7 +3703,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tharsus. Before the monument of Marina.</scenelocation>
 <scenepersonae>(Gower, Pericles, Cleon, Dionyza)</scenepersonae>
@@ -3774,7 +3774,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Mytilene. A street before the brothel.</scenelocation>
 <scenepersonae>(First Gentleman of Mytilene, Second Gentleman of Mytilene)</scenepersonae>
@@ -3810,7 +3810,7 @@
 
 </scene>
 
-<scene>
+<scene num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The same. A room in the brothel.</scenelocation>
 <scenepersonae>(Pander, Bawd, Boult, Lysimachus, Marina)</scenepersonae>
@@ -4282,7 +4282,7 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
 
 <prologue>
@@ -4322,7 +4322,7 @@
 <stagedir>Exit.</stagedir> 
 </prologue>
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch. A barge lying beside the Tyrian vessel.</scenelocation>
 <scenepersonae>(Pericles, Helicanus, Sailor of Tyre, Sailor of Mytilene, Gentlemen, First Gentleman of Tyre, Lysimachus, Lords, Marina, Lady, Diana)</scenepersonae>
@@ -5027,7 +5027,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Ephesus. Before the temple of Diana.</scenelocation>
 <scenepersonae>(Thaisa, Virgins, Cerimon, Gower)</scenepersonae> 
@@ -5061,7 +5061,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.</scenelocation>
 <scenepersonae>(Pericles, Lysimachus, Helicanus, Marina, Lady)</scenepersonae>
@@ -5337,6 +5337,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

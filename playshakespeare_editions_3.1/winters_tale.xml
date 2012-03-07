@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="winters-tale">
 <title short="Winter&#8217;s Tale">The Winter&#8217;s Tale</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Antechamber in Leontes&#8217; palace.</scenelocation>
 <scenepersonae>(Camillo, Archidamus)</scenepersonae>
@@ -83,7 +83,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room of state in the same.</scenelocation>
 <scenepersonae>(Leontes, Hermione, Mamillius, Polixenes, Camillo, Attendants)</scenepersonae>
@@ -1090,9 +1090,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in Leontes&#8217; palace.</scenelocation>
 <scenepersonae>(Queen Hermione, Mamillius, Ladies, Leontes, Antigonus, Lords)</scenepersonae>
@@ -1570,10 +1570,10 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A prison.</scenelocation>
-<scenepersonae>(Paulina, Gentleman, Attendants, Jailer, Emilia)</scenepersonae>
+<scenepersonae>(Paulina, Gentleman Attendant, Attendants, Jailer, Emilia)</scenepersonae>
 
 <stagedir>Enter Paulina, a Gentleman, and Attendants.</stagedir>
 
@@ -1751,7 +1751,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Leontes&#8217; palace.</scenelocation>
 <scenepersonae>(Leontes, Servants, Paulina, Child, Antigonus, Lords)</scenepersonae>
@@ -2251,9 +2251,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A sea-port in Sicilia.</scenelocation>
 <scenepersonae>(Cleomines, Dion)</scenepersonae>
@@ -2315,7 +2315,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A court of Justice.</scenelocation>
 <scenepersonae>(Leontes, Lords, Officers, Hermione, Paulina, Ladies, Officers, Cleomines, Dion, Servant)</scenepersonae>
@@ -2759,10 +2759,10 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Bohemia. A desert country near the sea.</scenelocation>
-<scenepersonae>(Antigonus, Mariner, Child, Shepherd, Clown)</scenepersonae>
+<scenepersonae>(Antigonus, Mariner, Child, Shepherd, Clown, Bear)</scenepersonae>
 
 <stagedir>Enter Antigonus and a Mariner with the babe.</stagedir>
 
@@ -2964,9 +2964,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenepersonae>(Time)</scenepersonae>
 
@@ -3012,7 +3012,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Bohemia. The palace of Polixenes.</scenelocation>
 <scenepersonae>(Polixenes, Camillo)</scenepersonae>
@@ -3068,7 +3068,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A road near the Shepherd&#8217;s cottage.</scenelocation>
 <scenepersonae>(Autolycus, Clown)</scenepersonae>
@@ -3288,10 +3288,10 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Shepherd&#8217;s cottage.</scenelocation>
-<scenepersonae>(Florizel, Perdita, Clown, Polixenes, Camillo, Mopsa, Dorcas, Servant of the Old Shepherd, Shepherds, Shepherdesses, Autolycus)</scenepersonae>
+<scenepersonae>(Florizel, Perdita, Clown, Polixenes, Camillo, Mopsa, Dorcas, Servant of the Old Shepherd, Shepherds, Shepherdesses, Autolycus, Satyrs)</scenepersonae>
 
 <stagedir>Enter Florizel, Perdita.</stagedir>
 
@@ -5033,9 +5033,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in Leontes&#8217; palace.</scenelocation>
 <scenepersonae>(Leontes, Cleomines, Dion, Paulina, Servants, Florizel, Perdita, Lord)</scenepersonae>
@@ -5577,7 +5577,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Leontes&#8217; palace.</scenelocation>
 <scenepersonae>(Autolycus, Gentlemen, Shepherd, Clown)</scenepersonae>
@@ -5789,7 +5789,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A chapel in Paulina&#8217;s house.</scenelocation>
 <scenepersonae>(Leontes, Polixenes, Florizel, Perdita, Camillo, Paulina, Lords, Hermione)</scenepersonae>
@@ -6151,6 +6151,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>

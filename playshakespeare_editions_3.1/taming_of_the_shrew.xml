@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play>
+<play unique="taming-of-the-shrew">
 <title short="Taming of the Shrew">The Taming of the Shrew</title>
 <playwright>William Shakespeare</playwright>
 
-<act>
+<act num="1">
 <acttitle>Act 1</acttitle>
 
 <prologue>
@@ -468,7 +468,7 @@
 </speech>
 
 <speech>
-<speaker>ALL.</speaker>
+<speaker>ALL. SERV. AND LORD.</speaker>
 <line>Amen.</line>
 </speech>
 
@@ -605,7 +605,7 @@
 </prologue>
 
 
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. A public place.</scenelocation>
 <scenepersonae>(Lucentio, Tranio, Baptista, Katherina, Bianca, Gremio, Hortensio, Biondello, Servant, Sly, Page)</scenepersonae>
@@ -1111,7 +1111,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Hortensio&#8217;s house.</scenelocation>
 <scenepersonae>(Petruchio, Grumio, Hortensio, Gremio, Lucentio, Tranio, Lucentio, Biondello)</scenepersonae>
@@ -1734,12 +1734,12 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle>Act 2</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. A room in Baptista&#8217;s house.</scenelocation>
-<scenepersonae>(Katherina, Bianca, Baptista, Gremio, Lucentio, Petruchio, Hortensio, Tranio, Biondello, Servant)</scenepersonae>
+<scenepersonae>(Katherina, Bianca, Baptista, Gremio, Lucentio, Petruchio, Hortensio, Tranio, Biondello, Baptista&#8217;s Servant)</scenepersonae>
 
 <stagedir>Enter Katherina and Bianca.</stagedir>
 
@@ -1985,12 +1985,12 @@
 <line>You shall go see your pupils presently.</line>
 <line>Holla, within!</line>
 
-<stagedir>Enter a Servant.</stagedir>
+<stagedir>Enter Baptista&#8217;s  Servant.</stagedir>
 <line offset="3">Sirrah, lead these gentlemen</line>
 <line>To my daughters, and tell them both,</line>
 <line>These are their tutors. Bid them use them well.</line>
 
-<stagedir>Exit Servant with Lucentio and Hortensio, Biondello following.</stagedir>
+<stagedir>Exit Baptista&#8217;s Servant with Lucentio and Hortensio, Biondello following.</stagedir>
 <line>We will go walk a little in the orchard,</line>
 <line>And then to dinner. You are passing welcome,</line>
 <line>And so I pray you all to think yourselves.</line>
@@ -2742,9 +2742,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle>Act 3</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. Baptista&#8217;s house.</scenelocation>
 <scenepersonae>(Lucentio, Hortensio, Bianca, Messenger)</scenepersonae>
@@ -2974,7 +2974,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
 <scenepersonae>(Baptista, Gremio, Tranio, Katherine, Bianca, Lucentio, Attendants, Biondello, Petruchio, Grumio, Hortensio)</scenepersonae>
@@ -3566,9 +3566,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle>Act 4</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Petruchio&#8217;s country house.</scenelocation>
 <scenepersonae>(Grumio, Curtis, Joseph, Petruchio, Kate)</scenepersonae>
@@ -4023,7 +4023,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
 <scenepersonae>(Tranio, Hortensio, Bianca, Lucentio, Biondello, Pedant)</scenepersonae>
@@ -4366,7 +4366,7 @@
 
 </scene>
 
-<scene>
+<scene num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Petruchio&#8217;s house.</scenelocation>
 <scenepersonae>(Katherina, Grumio, Petruchio, Hortensio, Tailor, Haberdasher)</scenepersonae>
@@ -4882,7 +4882,7 @@
 
 </scene>
 
-<scene>
+<scene num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
 <scenepersonae>(Tranio, Pedant, Biondello, Baptista, Lucentio, Peter)</scenepersonae>
@@ -5140,7 +5140,7 @@
 
 </scene>
 
-<scene>
+<scene num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A public road.</scenelocation>
 <scenepersonae>(Petruchio, Kate, Hortensio, Servants, Vincentio)</scenepersonae>
@@ -5342,9 +5342,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle>Act 5</acttitle>
-<scene>
+<scene num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. Before Lucentio&#8217;s house.</scenelocation>
 <scenepersonae>(Biondello, Lucentio, Bianca, Gremio, Petruchio, Kate, Vincentio, Grumio, Attendants, Pedant, Servants, Baptista, Tranio, Officer)</scenepersonae>
@@ -5383,7 +5383,7 @@
 </speech>
 
 <speech>
-<speaker>LORD.</speaker>
+<speaker>VIN.</speaker>
 <line>You shall not choose but drink before you go.</line>
 <line>I think I shall command your welcome here;</line>
 <line>And by all likelihood some cheer is toward.</line>
@@ -5786,7 +5786,7 @@
 
 </scene>
 
-<scene>
+<scene num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Lucentio&#8217;s house.</scenelocation>
 <scenepersonae>(Baptista, Vincentio, Gremio, Pedant, Lucentio, Bianca, Petruchio, Katherina, Hortensio, Tranio, Biondello, Grumio, Widow, Servingmen)</scenepersonae>
@@ -5951,7 +5951,7 @@
 </speech>
 
 <speech>
-<speaker>LORD.</speaker>
+<speaker>VIN.</speaker>
 <line>Ay, mistress bride, hath that awakened you?</line>
 </speech>
 
@@ -6361,7 +6361,7 @@
 </speech>
 
 <speech>
-<speaker>LORD.</speaker>
+<speaker>VIN.</speaker>
 <line>&#8217;Tis a good hearing when children are toward.</line>
 </speech>
 
@@ -6405,6 +6405,7 @@
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
+<notice>This copyright notice may not be removed under any circumstance.</notice>
 </sourcedetails>
 
 </play>
