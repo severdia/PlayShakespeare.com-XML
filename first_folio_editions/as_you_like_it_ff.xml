@@ -2,21 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="as-you-like-it">
-<title short="As You Like It">As You Like It.</title>
+<title short="As You Like It">As you Like it.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Orlando and Adam.</stagedir>
 
 <speech>
 <speaker>Orlando.</speaker>
-<line>As I remember <nameref>Adam</nameref>, it was vpon this fa&#383;hion</line>
-<line>bequeathed me by will, but poore a thou&#383;and</line>
-<line>Crownes, and as thou &#383;ai&#383;t, charged my bro-</line>
+<line order="first"><dropcap type="floral">A</dropcap>s I remember <nameref>Adam</nameref>, it was vpon this fa&#383;hion</line>
+<line order="second">bequeathed me by will, but poore a thou&#383;and</line>
+<line order="third">Crownes, and as thou &#383;ai&#383;t, charged my bro-</line>
 <line>ther on his ble&#383;&#383;ing to breed mee well: and</line>
 <line>there begins my &#383;adne&#383;&#383;e: My brother <nameref>Iaques</nameref> he keepes</line>
 <line>at &#383;choole, and report &#383;peakes goldenly of his profit:</line>
@@ -1439,6 +1441,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Duke Senior: Amyens, and two or three Lords like Forre&#383;ters.</stagedir>
 
@@ -2526,6 +2530,8 @@
 <act>
 <acttitle>A&#392;tus Tertius. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Duke, Lords, &amp; Oliuer.</stagedir>
 
@@ -4217,6 +4223,8 @@
 <act>
 <acttitle>A&#392;tus Quartus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Ro&#383;alind, and Celia, and Iaques.</stagedir>
 
@@ -5215,6 +5223,8 @@
 <act>
 <acttitle>A&#392;tus Quintus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Clowne and Awdrie.</stagedir>
 
@@ -6220,34 +6230,38 @@
 
 <stagedir>Exit</stagedir>
 
+</scene>
+
+<epilogue>
 <speech>
 <speaker>Ro&#383;.</speaker>
-<line>It is not the fa&#383;hion to &#383;ee the Ladie the Epi-</line>
-<line>logue: but it is no more vnhand&#383;ome, then to &#383;ee the</line>
-<line>Lord the Prologue. If it be true, that good wine needs</line>
-<line>no bu&#383;h, &#8217;tis true, that a good play needes no Epilogue.</line>
-<line>Yet to good wine they do v&#383;e good bu&#383;hes: and good</line>
-<line>playes proue the better by the helpe of good Epilogues:</line>
-<line>What a ca&#383;e am I in then, that am neither a good Epi-</line>
-<line>logue, nor cannot in&#383;inuate with you in the behalfe of a</line>
-<line>good play? I am not furni&#383;h&#8217;d like a Begger, therefore</line>
-<line>to begge will not become mee. My way is to coniure</line>
-<line>you, and Ile begin with the Women. I charge you (O</line>
-<line>women) for the loue you beare to men, to like as much</line>
-<line>of this Play, as plea&#383;e you: And I charge you (O men)</line>
-<line>for the loue you beare to women (as I perceiue by your</line>
-<line>&#383;impring, none of you hates them) that betweene you,</line>
-<line>and the women, the play may plea&#383;e. If I were a Wo-</line>
-<line>man, I would ki&#383;&#383;e as many of you as had beards that</line>
-<line>pleas&#8217;d me, complexions that lik&#8217;d me, and breaths that</line>
-<line>I defi&#8217;de not: And I am &#383;ure, as many as haue good</line>
-<line>beards, or good faces, or &#383;weet breaths, will for my kind</line>
-<line>offer, when I make curt&#8217;&#383;ie, bid me farewell. </line>
+<line><noitalic>It is not the fa&#383;hion to &#383;ee the Ladie the Epi-</noitalic></line>
+<line><noitalic>logue: but it is no more vnhand&#383;ome, then to &#383;ee the</noitalic></line>
+<line><noitalic>Lord the Prologue. If it be true, that good wine needs</noitalic></line>
+<line><noitalic>no bu&#383;h, &#8217;tis true, that a good play needes no Epilogue.</noitalic></line>
+<line><noitalic>Yet to good wine they do v&#383;e good bu&#383;hes: and good</noitalic></line>
+<line><noitalic>playes proue the better by the helpe of good Epilogues:</noitalic></line>
+<line><noitalic>What a ca&#383;e am I in then, that am neither a good Epi-</noitalic></line>
+<line><noitalic>logue, nor cannot in&#383;inuate with you in the behalfe of a</noitalic></line>
+<line><noitalic>good play? I am not furni&#383;h&#8217;d like a Begger, therefore</noitalic></line>
+<line><noitalic>to begge will not become mee. My way is to coniure</noitalic></line>
+<line><noitalic>you, and Ile begin with the Women. I charge you (O</noitalic></line>
+<line><noitalic>women) for the loue you beare to men, to like as much</noitalic></line>
+<line><noitalic>of this Play, as plea&#383;e you: And I charge you (O men)</noitalic></line>
+<line><noitalic>for the loue you beare to women (as I perceiue by your</noitalic></line>
+<line><noitalic>&#383;impring, none of you hates them) that betweene you,</noitalic></line>
+<line><noitalic>and the women, the play may plea&#383;e. If I were a Wo-</noitalic></line>
+<line><noitalic>man, I would ki&#383;&#383;e as many of you as had beards that</noitalic></line>
+<line><noitalic>pleas&#8217;d me, complexions that lik&#8217;d me, and breaths that</noitalic></line>
+<line><noitalic>I defi&#8217;de not: And I am &#383;ure, as many as haue good</noitalic></line>
+<line><noitalic>beards, or good faces, or &#383;weet breaths, will for my kind</noitalic></line>
+<line><noitalic>offer, when I make curt&#8217;&#383;ie, bid me farewell. </noitalic></line>
 </speech>
 
 <stagedir>Exit.</stagedir>
 
-</scene>
+</epilogue>
+
 </act>
 
 <finis>

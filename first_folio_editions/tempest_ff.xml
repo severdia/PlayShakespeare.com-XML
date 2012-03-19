@@ -3,18 +3,20 @@
 
 
 <play variant="first-folio" unique="tempest">
-<title short="The Tempest">The Tempest</title>
+<title short="The Tempest">THE<lb/>TEMPEST.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus, Scena prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus, Scena prima.</scenetitle>
+
 <stagedir>A tempe&#383;tuous noi&#383;e of Thunder and Lightning heard: Enter a Ship-ma&#383;ter, and a Bote&#383;waine.</stagedir>
 
 <speech>
 <speaker>Ma&#383;ter.</speaker>
-<line>Bote-&#383;waine.</line>
+<line order="first"><dropcap type="floral">B</dropcap>Ote-&#383;waine.</line>
 </speech>
 
 <speech>
@@ -1373,6 +1375,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Alonso, Seba&#383;tian, Anthonio, Gonzalo, Adrian, Franci&#383;co, and others.</stagedir>
 
@@ -2791,6 +2795,8 @@
 <act>
 <acttitle>A&#392;tus Tertius. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Ferdinand (bearing a Log.)</stagedir>
 
@@ -3712,6 +3718,8 @@
 <act>
 <acttitle>A&#392;tus Quartus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Pro&#383;pero, Ferdinand, and Miranda.</stagedir>
 
@@ -4316,6 +4324,8 @@
 <act>
 <acttitle>A&#392;tus quintus: Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus quintus: Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Pro&#383;pero (in his Magicke robes) and Ariel.</stagedir>
 
@@ -5054,12 +5064,14 @@
 <persona>Marriners.</persona>
 <persona>Miranda, daughter to Pro&#383;pero.</persona>
 <persona>Ariell, an ayrie &#383;pirit.</persona>
-<persona>Iris&#125;</persona>
-<persona>Ceres&#125;</persona>
-<persona>Iuno&#125;</persona>
-<persona>Nymphes&#125;</persona>
-<persona>Reapers&#125;</persona>
-<personagroup>Spirits.</personagroup>
+<personagroup title="Spirits" items="5">
+	<persona>Iris</persona>
+	<persona>Ceres</persona>
+	<persona>Iuno</persona>
+	<persona>Nymphes</persona>
+	<persona>Reapers</persona>
+</personagroup>
+
 </personae>
 
 <finis>

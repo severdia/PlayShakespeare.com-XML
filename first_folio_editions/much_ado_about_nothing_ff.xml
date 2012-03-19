@@ -9,12 +9,14 @@
 <act>
 <acttitle>A&#392;tus primus, Scena prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus, Scena prima.</scenetitle>
+
 <stagedir>Enter Leonato Gouernour of Me&#383;&#383;ina, Innogen his wife, Hero his daughter, and Beatrice his Neece, with a me&#383;&#383;enger.</stagedir>
 
 <speech>
 <speaker>Leonato.</speaker>
-<line>I learne in this Letter, that <nameref>Don Peter</nameref> of <nameref>Arra-</nameref></line>
-<line><nameref>gon</nameref>, comes this night to <nameref>Me&#383;&#383;ina</nameref>.</line>
+<line order="first"><dropcap type="floral">I</dropcap> learne in this Letter, that <nameref>Don Peter</nameref> of <nameref>Arra-</nameref></line>
+<line order="second"><nameref>gon</nameref>, comes this night to <nameref>Me&#383;&#383;ina</nameref>.</line>
 </speech>
 
 <speech>
@@ -1018,6 +1020,8 @@
 <act>
 <acttitle>A&#392;tus Secundus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus.</scenetitle>
+
 <stagedir>Enter Leonato, his brother, his wife, Hero his daughter, and Beatrice his neece, and a kin&#383;man.</stagedir>
 
 <speech>
@@ -2218,8 +2222,8 @@
 
 <stagedir>The Song.</stagedir>
 
-<speech>
-<STANZA>
+<song>
+<stanza>
 <line type="lyric">Sigh no more Ladies, &#383;igh no more,</line> 
 <line type="lyric">Men were deceiuers euer,</line> 
 <line type="lyric">One foote in Sea, and one on &#383;hore,</line> 
@@ -2228,18 +2232,17 @@
 <line type="lyric">And be you blithe and bonnie,</line> 
 <line type="lyric">Conuerting all your &#383;ounds of woe,</line> 
 <line type="lyric">Into hey nony nony.</line> 
-</STANZA>
-</speech>
+</stanza>
 
-<speech>
-<STANZA>
+<stanza>
 <line type="lyric">Sing no more ditties, &#383;ing no moe,</line> 
 <line type="lyric">Of dumps &#383;o dull and heauy,</line> 
 <line type="lyric">The fraud of men were euer &#383;o,</line> 
 <line type="lyric">Since &#383;ummer fir&#383;t was leauy,</line> 
 <line type="lyric">Then &#383;igh not &#383;o, &#38;c.</line>
-</STANZA>
-</speech>
+</stanza>
+
+</song>
 
 <speech>
 <speaker>Prince.</speaker>
@@ -2682,6 +2685,8 @@
 <act>
 <acttitle>A&#392;tus Tertius.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius.</scenetitle>
+
 
 <stagedir>Enter Hero and two Gentlemen, Margaret, and Vr&#383;ula.</stagedir>
 
@@ -4177,6 +4182,8 @@
 <act>
 <acttitle>A&#392;tus Quartus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus.</scenetitle>
+
 
 <stagedir>Enter Prince, Ba&#383;tard, Leonato, Frier, Claudio, Benedicke, Hero, and Beatrice.</stagedir>
 
@@ -5220,6 +5227,8 @@
 <act>
 <acttitle>A&#392;tus Quintus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus.</scenetitle>
+
 <stagedir>Enter Leonato and his brother.</stagedir>
 
 <speech>
@@ -6272,14 +6281,16 @@
 <speech>
 <speaker>Lord.</speaker>
 <line>It is my Lord. <stagedir>Epitaph.</stagedir></line>
+<song>
 <line type="lyric">Done to death by &#383;landerous tongues,</line>
 <line type="lyric">Was the <noitalic>Hero</noitalic> that here lies:</line>
 <line type="lyric">Death in guerdon of her wrongs,</line>
 <line type="lyric">Giues her fame which neuer dies:</line>
 <line type="lyric">So the life that dyed with &#383;hame,</line>
 <line type="lyric">Liues in death with glorious fame.</line>
-<line type="lyric">Hang thou there vpon the tombe,</line>
-<line type="lyric">Prai&#383;ing her when I am dombe.</line>
+<line type="lyric-couplet">Hang thou there vpon the tombe,</line>
+<line type="lyric-couplet">Prai&#383;ing her when I am dombe.</line>
+</song>
 </speech>
 
 <speech>
@@ -6287,9 +6298,9 @@
 <line>Now mu&#383;ick &#383;ound &#38; &#383;ing your &#383;olemn hymne</line>
 </speech>
 
-<stagedir>Song.</stagedir>
+<stagedir><noitalic>Song.</noitalic></stagedir>
 
-<speech>
+<song>
 <line type="lyric">Pardon godde&#383;&#383;e of the night,</line>
 <line type="lyric">Tho&#383;e that &#383;lew thy virgin knight,</line>
 <line type="lyric">For the which with &#383;ongs of woe,</line>
@@ -6299,7 +6310,7 @@
 <line type="lyric">Graues yawne and yeelde your dead,</line>
 <line type="lyric">Till death be vttered,</line>
 <line type="lyric">Heauenly, heauenly.</line>
-</speech>
+</song>
 
 <speech>
 <speaker>Lo.</speaker>

@@ -2,20 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="measure-for-measure">
-<title short="Measure for Measure">MEASVRE, For Mea&#383;ure.</title>
+<title short="Measure for Measure">MEASVRE,<lb/>For Mea&#383;ure.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus, Scena prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus primus, Scena prima.</scenetitle>
+
 
 <stagedir>Enter Duke, E&#383;calus, Lords.</stagedir>
 
 <speech>
 <speaker>Duke.</speaker>
-<line><nameref>Escalus</nameref>.</line>
+<line order="first"><dropcap type="floral">E</dropcap><nameref>scalus</nameref>.</line>
 </speech>
 
 <speech>
@@ -1056,6 +1057,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Angelo, E&#383;calus, and &#383;eruants, Iu&#383;tice.</stagedir>
 
@@ -2876,8 +2879,9 @@
 
 <act>
 <acttitle>A&#392;tus Tertius. Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Duke, Claudio, and Prouo&#383;t.</stagedir>
 
@@ -4105,17 +4109,18 @@
 
 <act>
 <acttitle>A&#392;tus Quartus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Mariana, and Boy &#383;inging.</stagedir>
 
 <stagedir><noitalic>Song</noitalic>.</stagedir>
 <speech>
 <line type="lyric">Take, oh take tho&#383;e lips away,</line>
-<line type="lyric">that &#383;o &#383;weetly were for&#383;worne,</line>
+<line type="lyric-couplet">that &#383;o &#383;weetly were for&#383;worne,</line>
 <line type="lyric">And tho&#383;e eyes: the breake of day</line>
-<line type="lyric">lights that doe mi&#383;lead the Morne;</line>
+<line type="lyric-couplet">lights that doe mi&#383;lead the Morne;</line>
 <line type="lyric">But my ki&#383;&#383;es bring againe, bring againe,</line>
 <line type="lyric">Seales of loue, but &#383;eal&#8217;d in vaine, &#383;eal&#8217;d in vaine.</line>
 </speech>
@@ -5455,8 +5460,9 @@
 
 <act>
 <acttitle>A&#392;tus Quintus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Duke, Varrius, Lords, Angelo, E&#383;culus, Lucio, Citizens at &#383;euerall doores.</stagedir>
 
@@ -6744,7 +6750,7 @@
 
 <personae>  
 <persloc>The Scene Vienna.</persloc>
-<pernamestitle>The names of all the A&#392;tors.</pernamestitle>
+<persnames>The names of all the A&#392;tors.</persnames>
 <persona>Vincentio: the Duke.</persona>
 <persona>Angelo, the Deputie.</persona>
 <persona>E&#383;calus, an ancient Lord.</persona>
@@ -6752,9 +6758,11 @@
 <persona>Lucio, a fanta&#383;tique.</persona>
 <persona>2. Other like Gentlemen.</persona>
 <persona>Prouo&#383;t.</persona>
-<persona>Thomas.&#125;</persona>
-<persona>Peter.&#125;</persona>
-<personagroup>2. Friers.</personagroup>
+<personagroup title="2. Friers." items="2">
+<persona>Thomas.</persona>
+<persona>Peter.</persona>
+<lb/>
+</personagroup>
 <persona>Elbow, a &#383;imple Con&#383;table.</persona>
 <persona>Froth, a fooli&#383;h Gentleman.</persona>
 <persona>Clowne.</persona>

@@ -2,14 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="henry-vi-part-ii">
-<title short="Henry VI, Pt. 2">The Second Part of Henry the Sixth</title>
+<title short="Henry VI, Pt. 2">The &#383;econd Part of Henry the Sixt,<lb/>with the death of the Good Duke<lb/>HVMFREY.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Flouri&#383;h of Trumpets: Then Hoboyes.</stagedir>
 
@@ -17,9 +18,9 @@
 
 <speech>
 <speaker>Suffolke.</speaker>
-<line>As by your high Imperiall Maie&#383;ty,</line>
-<line>I had in charge at my depart for France,</line>
-<line>As Procurator to your Excellence,</line>
+<line order="first"><dropcap type="floral">A</dropcap>s by your high Imperiall Maie&#383;ty,</line>
+<line order="second">I had in charge at my depart for France,</line>
+<line order="third">As Procurator to your Excellence,</line>
 <line>To marry Princes <nameref>Margaret</nameref> for your Grace;</line>
 <line>So in the Famous Ancient City, <nameref>Toures</nameref>,</line>
 <line>In pre&#383;ence of the Kings of <nameref>France</nameref>, and <nameref>Sicill</nameref>,</line>
@@ -1304,11 +1305,7 @@
 
 <stagedir>Exeunt.</stagedir>
 
-</scene>
-</act>
 
-<act>
-<scene>
 <stagedir>Enter the King, Queene, Prote&#392;tor, Cardinall, and Suffolke, with Faulkners hallowing.</stagedir>
 
 <speech>
@@ -2598,11 +2595,7 @@
 
 <stagedir>Exeunt.</stagedir>
 
-</scene>
-</act>
 
-<act>
-<scene>
 <stagedir>Sound a Senet. Enter King, Queene, Cardinall, Suffolke, Yorke, Buckingham, Salisbury, and Warwicke, to the Parliament.</stagedir>
 
 <speech>
@@ -4123,11 +4116,7 @@
 
 <stagedir>Exeunt.</stagedir>
 
-</scene>
-</act>
 
-<act>
-<scene>
 
 <stagedir>Alarum. Fight at Sea. Ordnance goes off.</stagedir>
 
@@ -5911,11 +5900,6 @@
 
 <stagedir>Exit.</stagedir>
 
-</scene>
-</act>
-
-<act>
-<scene>
 
 <stagedir>Enter Yorke, and his Army of Iri&#383;h, with Drum and Colours.</stagedir>
 

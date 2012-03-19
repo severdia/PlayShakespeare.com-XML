@@ -2,18 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="troilus-and-cressida">
-<title short="Troilus and Cre&#383;sida">The Tragedie of Troylus and Cre&#383;sida.</title>
+<title short="Troilus and Cre&#383;sida">THE TRAGEDIE OF<lb/>Troylus and Cre&#383;sida.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
+<act>
+
 <prologue>
-<scene>
-    
-<speech>
-<speaker>The Prologue.</speaker>
-<line type="lyric">In Troy there lyes the Scene: From Iles of Greece</line>
-<line type="lyric">The Princes Orgillous, their high blood chaf&#8217;d</line>
-<line type="lyric">Haue to the Port of Athens &#383;ent their &#383;hippes</line>
+<scenetitle type="prologue">The Prologue.</scenetitle>
+<line type="lyric" order="first"><dropcap>I</dropcap>N Troy there lyes the Scene: From Iles of Greece</line>
+<line type="lyric" order="second">The Princes Orgillous, their high blood chaf&#8217;d</line>
+<line type="lyric" order="third">Haue to the Port of Athens &#383;ent their &#383;hippes</line>
 <line type="lyric">Fraught with the mini&#383;ters and in&#383;truments</line>
 <line type="lyric">Of cruell Warre: Sixty and nine that wore</line>
 <line type="lyric">Their Crownets Regall, from th&#8217; Athenian bay</line>
@@ -42,21 +41,20 @@
 <line type="lyric">To what may be dige&#383;ted in a Play:</line>
 <line type="lyric">Like, or finde fault, do as your plea&#383;ures are,</line>
 <line type="lyric">Now good, or bad, &#8216;tis but the chance of Warre.</line>
-</speech>
-</scene>
 </prologue>
     
-<act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Pandarus and Troylus.</stagedir>
 
 <speech>
 <speaker>Troylus.</speaker>
-<line>Call here my Varlet, Ile vnarme againe.</line>
-<line>Why &#383;hould I warre without the wals of Troy</line>
-<line>That finde &#383;uch cruell battell here within?</line>
+<line order="first"><dropcap type="floral">C</dropcap>all here my Varlet, Ile vnarme againe.</line>
+<line order="second">Why &#383;hould I warre without the wals of Troy</line>
+<line order="third">That finde &#383;uch cruell battell here within?</line>
 <line>Each Troian that is ma&#383;ter of his heart,</line>
 <line>Let him to field, <nameref>Troylus</nameref> alas hath none.</line>
 </speech>

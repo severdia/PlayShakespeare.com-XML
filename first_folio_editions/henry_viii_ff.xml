@@ -2,15 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="henry-viii">
-<title short="Henry VIII">The Famous Hi&#383;tory of the Life of King Henry the Eighth</title>
+<title short="Henry VIII">The Famous Hi&#383;tory of the Life of<lb/>King HENRY the Eight.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <prologue>
-<prologuetitle>THE PROLOGVE.</prologuetitle>
-<line>I Come no more to make you laugh, Things now,</line>
-<line>That beare a Weighty, and a Serious Brow,</line>
-<line>Sad, high, and working, full of State and Woe:</line>
+<scenetitle type="prologue">THE PROLOGVE.</scenetitle>
+<line order="first"><dropcap type="floral">I</dropcap> Come no more to make you laugh, Things now,</line>
+<line order="second">That beare a Weighty, and a Serious Brow,</line>
+<line order="third">Sad, high, and working, full of State and Woe:</line>
 <line>Such Noble Sc&#339;nes, as draw the Eye to flow</line>
 <line>We now pre&#383;ent. Tho&#383;e that can Pitty, heere</line>
 <line>May (if they thinke it well) let fall a Teare,</line>
@@ -45,13 +45,15 @@
 <act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter the Duke of Norfolke at one doore. At the other, the Duke of Buckingham, and the Lord Aburgauenny.</stagedir>
 
 <speech>
 <speaker>Buckingham.</speaker>
-<line>Good morrow, and well met. How haue ye done</line>
-<line>Since la&#383;t we &#383;aw in France?</line>
+<line order="first"><dropcap type="floral">G</dropcap>ood morrow, and well met. How haue ye done</line>
+<line order="second">Since la&#383;t we &#383;aw in France?</line>
 </speech>
 
 <speech>
@@ -1540,6 +1542,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter two Gentlemen at &#383;euerall Doores.</stagedir>
 
@@ -2960,6 +2964,8 @@
 <act>
 <acttitle>A&#392;tus Tertius. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Queene and her Women as at worke.</stagedir>
 
@@ -2969,8 +2975,8 @@
 <line>My Soule growes &#383;ad with troubles,</line>
 <line>Sing, and di&#383;per&#383;e &#8217;em if thou can&#383;t: leaue working.</line>
 <line><stagedir>SONG.</stagedir></line>
-<line type="lyric">Orpheus with his Lute made Trees,</line>
-<line type="lyric">And the Mountaine tops that freeze,</line>
+<line type="lyric" order="first"><dropcap>O</dropcap>Rpheus with his Lute made Trees,</line>
+<line type="lyric" order="second">And the Mountaine tops that freeze,</line>
 <line type="lyric">Bow them&#383;elues when he did &#383;ing.</line>
 <line type="lyric">To his Mu&#383;icke, Plants and Flowers</line>
 <line type="lyric">Euer &#383;prung; as Sunne and Showers,</line>
@@ -4331,6 +4337,8 @@
 <act>
 <acttitle>A&#392;tus Quartus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter two Gentlemen, meeting one another.</stagedir>
 
@@ -5063,6 +5071,8 @@
 <act>
 <acttitle>A&#392;tus Quintus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Gardiner Bi&#383;hop of Winche&#383;ter, a Page with a Torch before him, met by Sir Thomas Louell.</stagedir>
 
@@ -6368,9 +6378,9 @@
 </act>
 
 <epilogue>
-<epiloguetitle>The Epilogve.</epiloguetitle>
-<line>Tis ten to one, this Play can neuer plea&#383;e</line>
-<line>All that are heere: Some come to take their ea&#383;e,</line>
+<scenetitle type="epilogue">The Epilogve.</scenetitle>
+<line order="first"><dropcap>T</dropcap>is ten to one, this Play can neuer plea&#383;e</line>
+<line order="second">All that are heere: Some come to take their ea&#383;e,</line>
 <line>And &#383;leepe an A&#392;t or two; but tho&#383;e we feare</line>
 <line>W&#8217;haue frighted with our Trumpets: &#383;o &#8217;tis cleare,</line>
 <line>They&#8217;l &#383;ay tis naught. Others to heare the City</line>
@@ -6381,8 +6391,8 @@
 <line>The mercifull con&#383;tru&#392;tion of good women,</line>
 <line>For &#383;uch a one we &#383;hew&#8217;d &#8217;em: If they &#383;mile,</line>
 <line>And &#383;ay twill doe; I know within a while,</line>
-<line>All the be&#383;t men are ours; for &#8217;tis ill hap,</line>
-<line>If they hold, when their Ladies bid &#8217;em clap.</line>
+<line type="couplet">All the be&#383;t men are ours; for &#8217;tis ill hap,</line>
+<line type="couplet">If they hold, when their Ladies bid &#8217;em clap.</line>
 </epilogue>
 
 <finis>

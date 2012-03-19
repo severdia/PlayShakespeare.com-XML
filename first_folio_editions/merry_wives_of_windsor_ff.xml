@@ -2,21 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="merry-wives-of-windsor">
-<title short="Merry Wives of Windsor">The Merry Wives of Windsor</title>
+<title short="Merry Wives of Windsor">THE<lb/> Merry Wiues of Wind&#383;or.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus, Scena prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus, Scena prima.</scenetitle>
+
 
 <stagedir>Enter Iu&#383;tice <noitalic>Shallow, Slender,</noitalic> Sir <noitalic>Hugh Euans,</noitalic> Ma&#383;ter <noitalic>Page, Falstoffe, Bardolph, Nym, Pi&#383;toll, Anne Page, </noitalic>Mi&#383;tre&#383;&#383;e <noitalic>Ford,</noitalic> Mi&#383;tre&#383;&#383;e <noitalic>Page, Simple</noitalic>.</stagedir>
 
 <speech>
 <speaker>Shallow.</speaker>
-<line>Sir <nameref>Hugh</nameref>, per&#383;wade me not: I will make a Star-</line>
-<line>Chamber matter of it, if hee were twenty Sir</line>
-<line><nameref>Iohn Fal&#383;toffs</nameref>, he &#383;hall not abu&#383;e <nameref>Robert Shallow</nameref></line>
+<line order="first"><dropcap type="floral">S</dropcap>ir <nameref>Hugh</nameref>, per&#383;wade me not: I will make a Star-</line>
+<line order="second">Chamber matter of it, if hee were twenty Sir</line>
+<line order="third"><nameref>Iohn Fal&#383;toffs</nameref>, he &#383;hall not abu&#383;e <nameref>Robert Shallow</nameref></line>
 <line>E&#383;quire.</line>
 </speech>
 
@@ -1568,6 +1570,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Mi&#383;tris <noitalic>Page</noitalic>, Mi&#383;tris <noitalic>Ford</noitalic>, Ma&#383;ter <noitalic>Page</noitalic>, Ma&#383;ter <noitalic>Ford, Pi&#383;toll, Nim, Quickly, Ho&#383;t, Shallow.</noitalic></stagedir>
 
@@ -3005,6 +3009,8 @@
 <act>
 <acttitle>A&#392;tus Tertius. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Euans, Simple, Page, Shallow, Slender, Ho&#383;t, Caius, Rugby.</stagedir>
 
@@ -4727,6 +4733,8 @@
 <act>
 <acttitle>A&#392;tus Quartus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Mi&#383;tris Page, Quickly, William, Euans.</stagedir>
 
@@ -6222,6 +6230,8 @@
 <act>
 <acttitle>A&#392;tus Quintus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Fal&#383;toffe, Quickly, and Ford.</stagedir>
 
@@ -6963,6 +6973,8 @@
 
 </scene>
 </act>
+
+
 
 <finis>
 <finistitle>FINIS.</finistitle>

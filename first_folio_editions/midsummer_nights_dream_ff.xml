@@ -3,20 +3,22 @@
 
 
 <play variant="first-folio" unique="midsummer-nights-dream">
-<title short="Midsommer Nights Dreame">A Midsommer Nights Dreame.</title>
+<title short="Midsommer Nights Dreame">A<lb/>MIDSOMMER<lb/>Nights Dreame.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus.</scenetitle>
+
 <stagedir>Enter The&#383;eus, Hippolita, with others.</stagedir>
 
 <speech>
 <speaker>The&#383;eus.</speaker>
-<line>Now faire Hippolita, our nuptiall houre</line>
-<line>Drawes on apace: foure happy daies bring in</line>
-<line>Another Moon: but oh, me thinkes, how &#383;low</line>
+<line order="first"><dropcap type="floral">N</dropcap>ow faire Hippolita, our nuptiall houre</line>
+<line order="second">Drawes on apace: foure happy daies bring in</line>
+<line order="third">Another Moon: but oh, me thinkes, how &#383;low</line>
 <line>This old Moon wanes; She lingers my de&#383;ires</line>
 <line>Like to a Step-dame, or a Dowager,</line>
 <line>Long withering out a yong mans reuennew.</line>
@@ -749,6 +751,8 @@
 <act>
 <acttitle>A&#392;tus Secundus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus.</scenetitle>
+
 <stagedir>Enter a Fairie at one doore, and Robin goodfellow at another.</stagedir>
 
 <speech>
@@ -1471,6 +1475,8 @@
 <act>
 <acttitle>A&#392;tus Tertius.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius.</scenetitle>
+
 
 <stagedir>Enter the Clownes.</stagedir>
 
@@ -2908,6 +2914,8 @@
 <act>
 <acttitle>A&#392;tus Quartus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus.</scenetitle>
+
 <stagedir>Enter Queene of Fairies, and Clowne, and Fairies, and the King behinde them.</stagedir>
 
 <speech>
@@ -3058,10 +3066,12 @@
 <line>But as the fierce vexation of dreame.</line>
 <line>But fir&#383;t I will relea&#383;e the Fairy Queene.</line>
 
+<song>
 <line type="lyric">Be thou as thou wa&#383;t wont to be;</line>
 <line type="lyric">See as thou wa&#383;t wont to &#383;ee.</line>
 <line type="lyric">Dians bud, or Cupids flower,</line>
 <line type="lyric">Hath &#383;uch force and ble&#383;&#383;ed power.</line>
+</song>
 
 <line>Now my <nameref>Titania</nameref> wake you my &#383;weet Queene.</line>
 </speech>
@@ -3470,6 +3480,8 @@
 <act>
 <acttitle>A&#392;tus Quintus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus.</scenetitle>
+
 <stagedir>Enter The&#383;eus, Hippolita, Egeus and his Lords.</stagedir>
 
 <speech>
@@ -4311,7 +4323,8 @@
 <line>Will we &#383;ing and ble&#383;&#383;e this place.</line>
 </speech>
 
-<stagedir>The Song.</stagedir> 
+<stagedir>The Song.</stagedir>
+<song>
 <line type="lyric">Now vntill the breake of day,</line> 
 <line type="lyric">Through this hou&#383;e each Fairy &#383;tray.</line> 
 <line type="lyric">To the be&#383;t Bride-bed will we,</line> 
@@ -4334,6 +4347,7 @@
 <line type="lyric">And the owner of it ble&#383;t.</line> 
 <line type="lyric">Trip away, make no &#383;tay;</line> 
 <line type="lyric">Meet me all by breake of day.</line>
+</song>
 
 <speech>
 <speaker>Robin.</speaker>

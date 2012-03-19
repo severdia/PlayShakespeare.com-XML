@@ -3,7 +3,7 @@
 
 
 <play variant="first-folio" unique="romeo-and-juliet">
-<title short="Romeo and Juliet">THE TRAGEDIE OF ROMEO and IVLIET</title>
+<title short="Romeo and Juliet">THE TRAGEDIE OF<lb/>ROMEO and IVLIET.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
@@ -11,11 +11,13 @@
 <act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 <stagedir>Enter Samp&#383;on and Gregory, with Swords and Bucklers, of the Hou&#383;e of Capulet.</stagedir>
 
 <speech>
 <speaker>Samp&#383;on.</speaker>
-<line>Gregory: A my word wee&#8217;l not carry coales.</line>
+<line order="first"><dropcap type="floral">G</dropcap>regory: A my word wee&#8217;l not carry coales.</line>
 </speech>
 
 <speech>

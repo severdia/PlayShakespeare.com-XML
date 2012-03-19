@@ -2,22 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="henry-iv-part-ii">
-<title short="Henry IV, Pt. 2">The Second Part of Henry the Fourth, Containing his Death: and the Coronation of King Henry the Fift. The Second Part of Henry the Fourth</title>
+<title short="Henry IV, Pt. 2">The Second Part of Henry the Fourth,<lb/>Containing his Death: and the Coronation<lb/>of King Henry the Fift.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 <scenetitle>INDVCTION.</scenetitle>
 
 <stagedir>Enter Rumour.</stagedir>
 
 <speech>
-<line>Open your Eares: For which of you will &#383;top</line>
-<line>The vent of Hearing, when loud <nameref>Rumor</nameref> &#383;peakes?</line>
-<line>I, from the Orient, to the drooping We&#383;t</line>
+<line order="first"><dropcap type="floral">O</dropcap>pen your Eares: For which of you will &#383;top</line>
+<line order="second">The vent of Hearing, when loud <nameref>Rumor</nameref> &#383;peakes?</line>
+<line order="third">I, from the Orient, to the drooping We&#383;t</line>
 <line>(Making the winde my Po&#383;t-hor&#383;e) &#383;till vnfold</line>
 <line>The A&#392;ts commenced on this Ball of Earth.</line>
 <line>Vpon my Tongue, continuall Slanders ride,</line>
@@ -1157,8 +1158,9 @@
 
 <act>
 <acttitle>A&#392;tus Secundus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Ho&#383;te&#383;&#383;e, with two O&#64256;icers, Fang, and Snare.</stagedir>
 
@@ -3164,8 +3166,9 @@
 
 <act>
 <acttitle>A&#392;tus Tertius. Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter the King, with a Page.</stagedir>
 
@@ -4182,6 +4185,8 @@
 <act>
 <acttitle>A&#392;tus Quartus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter the Arch-bi&#383;hop, Mowbray, Ha&#64262;ings, We&#64262;merland, Coleuile.</stagedir>
 
@@ -5845,8 +5850,9 @@
 
 <act>
 <acttitle>A&#392;tus Quintus. Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Shallow, Silence, Fal&#383;ta&#64256;e, Bardolfe, Page, and Dauie.</stagedir>
 
@@ -7096,9 +7102,9 @@
 </act>
 
 <epilogue>
-<epiloguetitle>EPILOGVE.</epiloguetitle>
-<line type="first"><dropcap>F</dropcap>IRST, my Feare: then, my Curt&#383;ie: last, my Speech.</line>
-<line type="second">My Feare, is your Displea&#383;ure: My Curt&#383;ie, my Dutie:</line>
+<scenetitle type="epilogue">EPILOGVE.</scenetitle>
+<line order="first"><dropcap>F</dropcap>IRST, my Feare: then, my Curt&#383;ie: last, my Speech.</line>
+<line order="second">My Feare, is your Displea&#383;ure: My Curt&#383;ie, my Dutie:</line>
 <line>And my speech, to Begge your Pardons. If you looke for a</line>
 <line>good speech now, you vndoe me: For what I haue to &#383;ay, is</line>
 <line>of mine owne making: and what (indeed) I &#383;hould &#383;ay, will</line>
@@ -7126,48 +7132,62 @@
 </epilogue>
 
 <personae>
-<pernamestitle>THE ACTORS NAMES.</pernamestitle>
-<persona>Rvmovr the Pre&#383;entor.</persona>
+<pernamestitle>THE<lb/>ACTORS<lb/>NAMES.</pernamestitle>
+<persona><noitalic>Rvmovr the Pre&#383;entor.</noitalic></persona>
 <persona>King <italic>Henry</italic> the Fourth.</persona>
-<persona>Prince <italic>Henry</italic>, afterwards Crowned King <italic>Henrie</italic> the Fift.</persona>
-<persona>Prince <italic>Iohn</italic> of Lanca&#383;ter.&#125;</persona>
-<persona><italic>Humphrey</italic> of Glouce&#383;ter.&#125;</persona>
-<persona><italic>Thomas</italic> of Clarence.&#125;</persona>
-<personagroup>Sonnes to <italic>Henry</italic> the Fourth, &amp; brethren to <italic>Henry</italic> 5.</personagroup>
-<persona>Northumberland.&#93;</persona>
-<persona>The Arch By&#383;hop of Yorke.&#93;</persona>
-<persona>Mowbray.&#93;</persona>
-<persona>Ha&#383;tings.&#93;</persona>
-<persona>Lord Bardolfe.&#93;</persona>
-<persona>Trauers.&#93;</persona>
-<persona>Morton.&#93;</persona>
-<persona>Coleuile.&#93;</persona>
-<personagroup>Oppo&#383;ites again&#383;t King <italic>Henrie</italic> the Fourth.</personagroup>
-<persona>Warwicke.&#93;</persona>
-<persona>We&#383;tmerland.&#93;</persona>
-<persona>Surrey.&#93;</persona>
-<persona>Gowre.&#93;</persona>
-<persona>Harecourt.&#93;</persona>
-<persona>Lord Chiefe Iu&#383;tice.&#93;</persona>
-<personagroup>Of the Kings Partie.</personagroup>
-<persona>Pointz.&#93;</persona>
-<persona>Fal&#383;ta&#64256;e.&#93;</persona>
-<persona>Bardolphe.&#93;</persona>
-<persona>Pi&#383;toll.&#93;</persona>
-<persona>Peto.&#93;</persona>
-<persona>Page.&#93;</persona>
-<personagroup>Irregular Humori&#383;ts.</personagroup>
-<persona>Shallow.&#125;</persona>
-<persona>Silence.&#125;</persona>
-<personagroup>Both Country Iu&#383;tices.</personagroup>
+<persona>Prince <noitalic>Henry</noitalic>, afterwards Crowned King <noitalic>Henrie</noitalic> the Fift.</persona>
+
+<personagroup title="Sonnes to Henry the Fourth, &amp; brethren to Henry 5." items="3">
+	<persona>Prince <noitalic>Iohn</noitalic> of Lanca&#383;ter.</persona>
+	<persona><noitalic>Humphrey</noitalic> of Glouce&#383;ter.</persona>
+	<persona><noitalic>Thomas</noitalic> of Clarence.</persona>
+</personagroup>
+
+<personagroup title="Oppo&#383;ites again&#383;t King Henrie the Fourth." items="8">
+	<persona>Northumberland.</persona>
+	<persona>The Arch By&#383;hop of Yorke.</persona>
+	<persona>Mowbray.</persona>
+	<persona>Ha&#383;tings.</persona>
+	<persona>Lord Bardolfe.</persona>
+	<persona>Trauers.</persona>
+	<persona>Morton.</persona>
+	<persona>Coleuile.</persona>
+</personagroup>
+
+<personagroup title="Of the Kings Partie." items="6">
+	<persona>Warwicke.</persona>
+	<persona>We&#383;tmerland.</persona>
+	<persona>Surrey.</persona>
+	<persona>Gowre.</persona>
+	<persona>Harecourt.</persona>
+	<persona>Lord Chiefe Iu&#383;tice.</persona>
+</personagroup>
+
+<personagroup title="Irregular Humori&#383;ts." items="6">
+	<persona>Pointz.</persona>
+	<persona>Fal&#383;ta&#64256;e.</persona>
+	<persona>Bardolphe</persona>
+	<persona>Pi&#383;toll.</persona>
+	<persona>Peto.</persona>
+	<persona>Page.</persona>
+</personagroup>
+
+<personagroup title="Both Country Iu&#383;tices." items="2">
+	<persona>Shallow.</persona>
+	<persona>Silence.</persona>
+</personagroup>
+
 <persona>Dauie, Seruant to Shallow.</persona>
 <persona>Phang, and Snare, 2. Serieants</persona>
-<persona>Mouldie.&#125;</persona>
-<persona>Shadow.&#125;</persona>
-<persona>Wart.&#125;</persona>
-<persona>Feeble.&#125;</persona>
-<persona>Bullcalfe.&#125;</persona>
-<personagroup>Country Soldiers</personagroup>
+
+<personagroup title="Country Soldiers" items="5">
+<persona>Mouldie.</persona>
+<persona>Shadow.</persona>
+<persona>Wart.</persona>
+<persona>Feeble.</persona>
+<persona>Bullcalfe.</persona>
+</personagroup>
+
 <persona>Drawers</persona>
 <persona>Beadles.</persona>
 <persona>Groomes</persona>
@@ -7177,7 +7197,6 @@
 <persona>Doll Teare-&#383;heete.</persona>
 <persona>Epilogue.</persona>
 </personae>
-
 
 <finis>
 <finistitle>FINIS.</finistitle>

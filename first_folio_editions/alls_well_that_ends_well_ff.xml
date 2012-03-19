@@ -2,19 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="alls-well-that-ends-well">
-<title short="All&#8217;s Well That Ends Well">All&#8217;s Well That Ends Well</title>
+<title short="All&#8217;s Well That Ends Well">ALL&#8217;S<lb/>Well, that Ends Well.</title>
 <playwright>William Shakespeare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus primus. Sc&#339;na Prima.</scenetitle>
+
 <stagedir>Enter yong Bertram Count of Ro&#383;&#383;illion, his Mother, and Helena, Lord Lafew, all in blacke.</stagedir>
 
 <speech>
 <speaker>Mother.</speaker>
-<line>In deliuering my &#383;onne from me, I burie a &#383;e-</line>
-<line>cond husband.</line>
+<line order="first"><dropcap type="floral">I</dropcap>N deliuering my &#383;onne from me, I burie a &#383;e-</line>
+<line order="second">cond husband.</line>
 </speech>
 
 <speech>
@@ -1186,6 +1188,8 @@
 <act>
 <acttitle>A&#392;tus Secundus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus.</scenetitle>
+
 <stagedir>Enter the King with diuers yong Lords, taking leaue for the Florentine warre: Count, Ro&#383;&#383;e, and Parrolles. Flori&#383;h Cornets</stagedir>
 
 <speech>
@@ -3054,6 +3058,8 @@
 <act>
 <acttitle>A&#392;tus Tertius.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius.</scenetitle>
+
 <stagedir>Flouri&#383;h. Enter the Duke of Florence, the two Frenchmen,with a troope of Souldiers</stagedir>
 
 <speech>
@@ -4210,6 +4216,8 @@
 <act>
 <acttitle>A&#392;tus Quartus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus.</scenetitle>
+
 
 <stagedir>Enter one of the Frenchmen, with fiue or &#383;ixe other &#383;ouldiers in ambu&#383;h</stagedir>
 
@@ -5818,6 +5826,8 @@
 <act>
 <acttitle>A&#392;tus Quintus.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus.</scenetitle>
+
 
 <stagedir>Enter Hellen, Widdow, and Diana, with two Attendants</stagedir>
 
@@ -6876,10 +6886,9 @@
 <stagedir>Flouri&#383;h.</stagedir>
 </speech>
 
-
 <epilogue>
-<line type="first"><dropcap>T</dropcap>He Kings a Begger, now the Play is done,</line>
-<line type="second">All is well ended, if this &#383;uite be wonne,</line>
+<line order="first"><dropcap>T</dropcap>He Kings a Begger, now the Play is done,</line>
+<line order="second">All is well ended, if this &#383;uite be wonne,</line>
 <line>That you expre&#383;&#383;e Content: which we will pay,</line>
 <line>With &#383;trife to plea&#383;e you, day exceeding day:</line>
 <line>Ours be your patience then, and yours our parts,</line>

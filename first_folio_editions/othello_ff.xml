@@ -2,21 +2,23 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="othello">
-<title short="Othello">The Tragedie of Othello, the Moore of Venice.</title>
+<title short="Othello">THE TRAGEDIE OF<lb/>Othello, the Moore of Venice.</title>
 <playwright>William Shake&#383;peare</playwright>
 <edition>First Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+
 
 <stagedir>Enter Rodorigo, and Iago.</stagedir>
 
 <speech>
 <speaker>Rodorigo.</speaker>
-<line>Neuer tell me, I take it much vnkindly</line>
-<line>That thou (<nameref>Iago</nameref>) who ha&#383;t had my pur&#383;e,</line>
-<line>As if &#253; &#383;trings were thine, &#383;hould&#8217;&#383;t know of this.</line>
+<line order="first"><dropcap type="floral">N</dropcap>euer tell me, I take it much vnkindly</line>
+<line order="second">That thou (<nameref>Iago</nameref>) who ha&#383;t had my pur&#383;e,</line>
+<line order="third">As if &#253; &#383;trings were thine, &#383;hould&#8217;&#383;t know of this.</line>
 </speech>
 
 <speech>
@@ -1436,6 +1438,8 @@
 <act>
 <acttitle>A&#392;tus Secundus. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Montano, and two Gentlemen.</stagedir>
 
@@ -3000,6 +3004,8 @@
 <act>
 <acttitle>Actus Tertius. Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">Actus Tertius. Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Ca&#383;&#383;io, Mu&#383;itians, and Clowne.</stagedir>
 
@@ -5043,8 +5049,9 @@
 
 <act>
 <acttitle>A&#392;tus Quartus. Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus. Scena Prima.</scenetitle>
+
 <stagedir>Enter Othello, and Iago.</stagedir>
 
 <speech>
@@ -6971,8 +6978,9 @@
 
 <act>
 <acttitle>A&#392;tus Quintus. Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus. Scena Prima.</scenetitle>
+
 <stagedir>Enter Iago, and Rodorigo.</stagedir>
 
 <speech>
@@ -8626,7 +8634,8 @@
 </act>
 
 <personae>
-<pernamestitle>Names of the Actors</pernamestitle>
+<persnames>Names of the Actors</persnames>
+<persnames>(: * . * :)</persnames>
 <persona><noitalic>Othello</noitalic>, the Moore.</persona>
 <persona><noitalic>Brabantio</noitalic>, Father to De&#383;demona.</persona>
 <persona><noitalic>Ca&#383;&#383;io</noitalic>, an Honourable Lieutenant.</persona>
@@ -8639,6 +8648,7 @@
 <persona><noitalic>Lodouico</noitalic>, and <noitalic>Gratiano</noitalic>, two Noble Venetians.</persona>
 <persona>Saylors.</persona>
 <persona>Clowne.</persona>
+<lb/>
 <persona><noitalic>De&#383;demona</noitalic>, Wife to Othello.</persona>
 <persona><noitalic>&#198;milia</noitalic>, Wife to Iago.</persona>
 <persona><noitalic>Bianca</noitalic>, a Curtezan.</persona>

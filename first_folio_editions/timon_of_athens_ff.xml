@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="timon-of-athens">
-<title short="Timon of Athens">The Life of Timon of Athens</title>
+<title short="Timon of Athens">THE LIFE OF TYMON<lb/>OF ATHENS.</title>
 <playwright>William Shake&#383;peare</playwright>
 <edition>First Folio of 1623</edition>
 
@@ -13,7 +13,7 @@
 
 <speech>
 <speaker>P&#339;t.</speaker>
-<line>Good day Sir.</line>
+<line order="first"><dropcap type="floral">G</dropcap>ood day Sir.</line>
 </speech>
 
 <speech>
@@ -5866,9 +5866,7 @@
 
 
 <personae>
-<actortitle>THE</actortitle>
-<actortitle>ACTORS</actortitle>
-<actortitle>NAMES.</actortitle>
+<persnames>THE<lb/>ACTORS<lb/>NAMES.</persnames>
 <persona>TYMON of Athens.</persona>
 <persona>Lucius, And</persona>
 <persona>Lucullus, two Flattering Lords.</persona>
@@ -5884,13 +5882,16 @@
 <persona>Certaine Theeues.</persona>
 <persona>Flaminius, one of Tymons Seruants.</persona>
 <persona>Seruilius, another.</persona>
-<persona>Caphis.}</persona>
-<persona>Varro.}</persona>
-<persona>Philo.}</persona>
-<persona>Titus.}</persona>
-<persona>Lucius.}</persona>
-<persona>Horten&#383;is}</persona>
-<persona>} Seuerall Seruants to V&#383;urers.</persona>
+
+<personagroup title="Seuerall Seruants to V&#383;urers." items="6">
+	<persona>Caphis.</persona>
+	<persona>Varro.</persona>
+	<persona>Philo.</persona>
+	<persona>Titus.</persona>
+	<persona>Lucius.</persona>
+	<persona>Horten&#383;is</persona>
+</personagroup>
+
 <persona>Ventigius. one of Tymons fal&#383;e Friends.</persona>
 <persona>Cupid.</persona>
 <persona>Sempronius.</persona>

@@ -2,21 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
 <play variant="first-folio" unique="winters-tale">
-<title short="Winter's Tale">The Winters Tale</title>
+<title short="Winter's Tale">The Winters Tale.</title>
 <playwright>William Shake&#383;peare</playwright>
 <edition>Fir&#383;t Folio of 1623</edition>
 
 <act>
 <acttitle>A&#392;tus Primus.Sc&#339;na Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Primus.Sc&#339;na Prima.</scenetitle>
+
 <stagedir>Enter Camillo and Archidamus.</stagedir>
 
 <speech>
 <speaker>Arch.</speaker>
-<line>If you &#383;hall chance (<nameref>Camillo</nameref>) to vi&#383;it <nameref>Bohemia</nameref>, on</line>
-<line>the like occa&#383;ion whereon my &#383;eruices are now</line>
-<line>on-foot, you &#383;hall &#383;ee (as I haue &#383;aid) great dif-</line>
+<line order="first"><dropcap type="floral">I</dropcap>f you &#383;hall chance (<nameref>Camillo</nameref>) to vi&#383;it <nameref>Bohemia</nameref>, on</line>
+<line order="second">the like occa&#383;ion whereon my &#383;eruices are now</line>
+<line order="third">on-foot, you &#383;hall &#383;ee (as I haue &#383;aid) great dif-</line>
 <line>ference betwixt our <nameref>Bohemia</nameref>, and your <nameref>Sicilia</nameref>.</line>
 </speech>
 
@@ -1100,6 +1101,8 @@
 <act>
 <acttitle>A&#392;tus Secundus.Scena Prima.</acttitle>
 <scene>
+<scenetitle type="act-title">A&#392;tus Secundus.Scena Prima.</scenetitle>
+
 
 <stagedir>Enter Hermione, Mamillius, Ladies: Leontes, Antigonus, Lords.</stagedir>
 
@@ -2209,8 +2212,9 @@
 <act>
 
 <acttitle>A&#392;tus Tertius.Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Tertius.Scena Prima.</scenetitle>
+
 <stagedir>Enter Cleomines and Dion.</stagedir>
 
 <speech>
@@ -2943,8 +2947,9 @@
 
 <act>
 <acttitle>A&#392;tus Quartus.Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quartus.Scena Prima.</scenetitle>
+
 <stagedir>Enter Time, the Chorus.</stagedir>
 
 <speech>
@@ -3804,8 +3809,8 @@
 <line type="lyric">For my Lads, to giue their deers:</line>
 <line type="lyric">Pins, and poaking-&#383;tickes of &#383;teele.</line>
 <line type="lyric">What Maids lacke from head to heele:</line>
-<line type="lyric">Come buy of me, come: come buy, come buy,</line>
-<line type="lyric">Buy Lads, or el&#383;e your La&#383;&#383;es cry: Come buy.</line>
+<line type="lyric-couplet">Come buy of me, come: come buy, come buy,</line>
+<line type="lyric-couplet">Buy Lads, or el&#383;e your La&#383;&#383;es cry: Come buy.</line>
 </speech>
 
 <speech>
@@ -5230,8 +5235,9 @@
 
 <act>
 <acttitle>A&#392;tus Quintus.Scena Prima.</acttitle>
-
 <scene>
+<scenetitle type="act-title">A&#392;tus Quintus.Scena Prima.</scenetitle>
+
 <stagedir>Enter Leontes, Cleomines, Dion, Paulina, Seruants: Florizel, Perdita.</stagedir>
 
 <speech>
@@ -6435,15 +6441,15 @@
 </act>
 
 <personae>  
-<pernamestitle>The Names of the A&#392;tors.</pernamestitle>
+<persnames>The Names of the A&#392;tors.</persnames>
 <persona>Leontes, King of Sicillia.</persona>
 <persona>Mamillus, yong Prince of Sicillia.</persona>
-<persona>Camillo.}</persona>
-<persona>Antigonus.}</persona>
-<persona>Cleomines.}</persona>
-<persona>Dion.}</persona>
-<persona>} Foure</persona>
-<persona>} Lords of Sicillia.</persona>
+<personagroup title="Foure Lords of Sicillia." items="4">
+	<persona>Camillo.</persona>
+	<persona>Antigonus.</persona>
+	<persona>Cleomines.</persona>
+	<persona>Dion.</persona>
+</personagroup>
 <persona>Hermione, Queene to Leontes.</persona>
 <persona>Perdita, Daughter to Leontes and Hermione.</persona>
 <persona>Paulina, wife to Antigonus.</persona>
