@@ -1,10 +1,199 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-
-<play unique="henry-iv-part-i">
+<play>
 <title short="Henry IV, Pt. 1">The First Part of Henry the Fourth</title>
 <playwright>William Shakespeare</playwright>
+
+<personae playtitle="Henry IV, Part 1">
+
+<persona gender="female">
+<persname short="LADY. MORT.">Lady Mortimer</persname>
+<persdescription>Lady Mortimer is Glendower&#8217;s daughter, a pretty Welsh lady who enjoys singing and does not speak a single word of English. She loves her husband Mortimer dearly.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="LADY. P.">Lady Percy</persname>
+<persdescription>Lady Percy is Hotspur&#8217;s wife, and Mortimer&#8217;s sister. Greatly in love with her dashing husband, she has a relationship of mutual scolding and insults with him which can lead one to wonder what exactly they feel for each other, or whether they are still in middle school, but which seems like genuine affection. She insists on knowing everything Hotspur is up to, though this is not the most successful insisting. Her further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="BARD.">Bardolph</persname>
+<persdescription>Bardolph is one of Falstaff&#8217;s cronies, who assists at the robbery of Gadshill. He has been following Falstaff for seven years now, and claims that Falstaff&#8217;s plans for making themselves look as though they had been beaten up is the first time he&#8217;s thought the fat knight was going too far. He is not an overly brave man, but follows Falstaff to the wars all the same. He is most noticeable for his huge and red nose, and for the various red marks on his face that almost disfigure him. His further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="PETO.">Peto</persname>
+<persdescription>Peto is one of Falstaff&#8217;s cronies, who assists at the robbery of Gadshill. He is quite willing to admit to Falstaff&#8217;s lies when the latter is not in hearing, but never disagrees with the fat knight to his face. He rides with Prince Harry to muster soldiers. His further adventures can be found in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="GADS.">Gadshill</persname>
+<persdescription>Gadshill is a highway robber who often teams up with Falstaff and his crew. He has an arrangement with the Chamberlain at the inn near Gads Hill, by which the Chamberlain tells Gadshill who the best guests to rob are, in return for a cut of the takings. He is fairly certain of escaping retribution, if only because of Falstaff&#8217;s friendship with the Prince.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="POINS.">Edward Poins</persname>
+<persaliases>
+	<persname short="THIEVES.">Thieves</persname>
+</persaliases>
+<persdescription>Ned Poins is one of Prince Harry&#8217;s tavern companions, with a taste for practical jokes &#8212; particularly those played on Falstaff. He serves as link between Gadshill and Falstaff, and is a great favorite of the latter&#8217;s, who has known him for 22 years. He is close to Prince Harry, and assists him in mocking the fat knight. His further adventures can be found in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="SIR M.">Sir Michael</persname>
+<persdescription>Sir Michael is a member of the Archbishop of York&#8217;s household, who is sent to carry the Archbishop&#8217;s messages to his fellow rebels. He does not see why his master is quite so worried about the outcome of the battle.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="FAL.">Sir John Falstaff</persname>
+<persdescription>Falstaff is an extremely fat, lying, thieving, cowardly, drunken, and utterly shameless rogue with a talent for telling tales and rationalizing his actions. He is very fond of Prince Harry, who seeks out his company, and who can match him in battles of wit, along with being one of the only people to ever poke through his lies. Harry&#8217;s protection allows Falstaff to get away with a great deal, and he hopes that when the lad becomes King this will continue. His tales get bigger and bigger the more he tells them, but when challenged he generally finds a way to climb out of the hole he has dug himself into. He is addicted to sack, of which he consumes a monstrous amount. He never pays his bills. Some of his rationalizations on the matter of bravery will appear to be merely common sense: he presents a contrasting view of the world to the one that rules Hotspur, Douglas, Blunt and the rest of the warriors in this play. A realist who is always on the lookout for ways to make money, he attempts to draft rich people into the King&#8217;s army, being perfectly aware that they will buy their way out of this, and then recruits the poorest and most useless people as soldiers, being perfectly aware that their only purpose in the battle is to be killed. He does not look forward to fighting, leads his soldiers to the death, and makes sure he has a bottle of booze on him in the middle of the battle. He plays dead to avoid being killed by Douglas, but then revives and attempts to boast that he killed Hotspur, whom he claims wasn&#8217;t quite dead yet. He uses self-mockery as one of his endearing qualities, and to a certain extent plays the role of Harry&#8217;s court jester. His further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="VER.">Sir Richard Vernon</persname>
+<persdescription>Richard Vernon comes to warn Hotspur of the King&#8217;s forces and of Glendower&#8217;s inability to join up with the other rebels in time. He is greatly impressed by Prince Harry, and attempts to get across to Hotspur that the Prince may be a genuine adversary, despite his wild reputation. He is far more cautious than either Hotspur or Douglas, but has little influence on them. He generally ends up giving in to what his superiors decide, even when it goes against his own better judgment. Captured in the battle, he is sent off to be executed by the King.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="GLEND.">Owen Glendower</persname>
+<persdescription>Owen Glendower is a Welsh war leader who has rejected Henry IV&#8217;s lordship over Wales, and fought off his armies three times already. Reputed to be a wizard, he insists that he is one and that his birth was accompanied by startling portents of his greatness. He restrains his temper at Hotspur&#8217;s skepticism and rudeness. His one magical demonstration is having music suddenly play from no visible source, but it is possible that he simply has musicians hidden and waiting for a signal. He is not the most tender of fathers. Brought up in the English court, he is an excellent singer and harp-player; he is also long-winded and mystical, to the annoyance of some. He is unable to bring his army to England in time for the battle between the rebels and the King.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="DOUG.">Archibald, Earl of Douglas</persname>
+<persdescription>The Earl of Douglas is a Scottish lord warring on Henry IV, who was badly beaten by Hotspur. When the latter decides to rebel against the King, he approaches Douglas through his captured son and convinces Douglas to join with him to fight the English monarch. Extremely brave, he is nevertheless discomfited by the news that Glendower will be unable to join the other rebels in time. He spends the battle attempting to kill Henry IV, who has disguised a great number of people as him; when Douglas kills Blunt as one of them, he swears that he would not have bothered if he had not thought the man to be the King. Finally meeting the real monarch, he is on the verge of beating him when Prince Harry comes to his father&#8217;s rescue. Refusing to acknowledge even the existence of the concept of fear, he nevertheless flees after a brief fight with the prince. He also does not seem to notice that Falstaff is merely playing dead. After the battle, Prince Harry lets him go out of respect for his valor.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="ARCH.">Richard Scroop, Archbishop of York</persname>
+<persdescription>The Archbishop of York is brought into the rebellion thanks to his thirst for revenge over the death of his brother Stephen Scroop (see <persnameref>Richard II</persnameref>). Worried that the battle will be lost due to lack of men, he warns the other rebels who will not be present to prepare themselves for attack by the King. Where this leads can be found in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="MORT.">Edmund Mortimer, Earl of March</persname>
+<persdescription>Mortimer is an English nobleman captured in battle by Glendower, whose claim to the throne is better than Henry IV&#8217;s. The King refuses to believe that he did not go over to the Welsh willingly, possibly as an excuse to be rid of a rival. Mortimer is descended from an older branch of the royal family than Henry IV, and was proclaimed heir to the throne by Richard II, whom the King took the throne from. Now married to Glendower&#8217;s daughter, he is persuaded to join the rebellion against Henry IV. His marriage is somewhat marred by the fact that his wife only speaks Welsh and he only speaks English. He is not present at the battle between the rebels and the King, though the latter ends the play promising to go fight against him. How he spends the rest of his life can be discovered in <persnameref>Henry VI, Part One</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="HOT.">Henry Percy</persname>
+<persdescription>Hotspur (Sir Henry Percy) is a nobleman from the North, Northumberland&#8217;s son, and the most dashing man of the age. He is an extraordinary fighter, and the ultimate&#8217;s man&#8217;s man, with no time for music, poetry, mysticism, home life, or anything much other than battle. Hot-tempered and excitable, he despises loafers and non-fighters, and is brought to anger when confronted by an effeminate dandy just after a battle. He despises King Henry IV for what he considers the King&#8217;s lack of proper thankfulness for the Percies&#8217; help in setting him on the throne, and when he finds himself treated disrespectfully in public council, Hotspur aims at rebellion. He has no greater love in his life than danger and honor, and actively seeks it out; his temper often carries him too far, but he is almost impossible to restrain. He refuses to wait for reinforcements before engaging the King in battle because the honor of victory will be greater with fewer numbers. He is rather simple-minded, particularly compare with the other two Henries of the play, the politician Henry IV and the dissimulating Henry Prince of Wales. He takes the latter&#8217;s slumming as an excuse to disregard him, and never considers him a proper threat until they are busy fighting each other to the death. He is not a good guest: he is unable to restrain his opinions, easily bored, and rather rude. He also shows little regard for his wife, though their bantering may be their way of showing each other their love. He is the age&#8217;s ideal of a good nobleman, to the extent that the King rather wishes that Hotspur were his son rather than the apparently dissolute Harry. He is given to using his rallying call &#8216;Esp&#233;rance&#8217; (Hope) as a swear word.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="NORTH.">Henry Percy, Earl of Northumberland</persname>
+<persdescription>Northumberland is Hotspur&#8217;s father and the brother of the Earl of Worcester. He is the same as the Northumberland of <persnameref>Richard II</persnameref>. More cautious than either his brother or (especially) his son, he tries to calm Hotspur down. Failing, he conveniently falls ill just before the battle between the rebels and the King, and thereby avoids execution. His further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="WOR.">Thomas Percy, Earl of Worcester</persname>
+<persdescription>Worcester is an English nobleman, Northumberland&#8217;s brother and Hotspur&#8217;s uncle. Back in the reign of Richard II, it was his refusal to declare the returning Bolingbroke a traitor that sparked the general rebellion that led to the latter taking the throne as Henry IV. Worcester considers that he has never been properly regarded for what he did at the time and the good it did for the King, and fears that the fact that the King is indebted to him makes Henry IV dislike him. Though the King believes that Worcester sets his nephew Hotspur on, even the Earl thinks that the younger man is rather wild, and tries to calm him down, not to mention point out to him that he is often rather rude. Still, it is Worcester who forms the first plans for the rebellion. Wiser than Hotspur, he realizes that the absence of the young man&#8217;s father, Northumberland, will leave the rebels looking weaker than they are and cause doubts among their soldiers. He also knows that Hotspur is likely to take the King&#8217;s word about the possibility of forgiveness, and surrender; Worcester, more cautious, has no trust in either Henry IV or Hotspur&#8217;s good sense. He is captured after the battle, and executed.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="BLUNT.">Sir Walter Blunt</persname>
+<persdescription>Sir Walter Blunt is a knight in King Henry&#8217;s service, high-ranked enough that messengers report to him, though he is not a member of the landed nobility. Known to all as a good soldier, he is sent by the King to parley with the rebels in the hopes of avoiding battle. He considers that the whole history of how Henry IV came to the throne has nothing to do with present matters. In the battle, he is one of those who disguise themselves as the King to distract the enemy, which leads him to be targeted and killed by Douglas.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="WEST.">Earl of Westmorland</persname>
+<persdescription>Earl of Westmorland is one of King Henry&#8217;s noblemen. He reports to the King the events of the Council meeting that the latter has missed, particularly the news of rebellion in Wales. He greatly admires Hotspur and considers Glendower a savage. He is not impressed by Falstaff.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="LAN.">Prince John of Lancaster</persname>
+<persdescription>John of Lancaster is Henry IV&#8217;s younger son, Prince Harry&#8217;s brother. Unlike his brother, he attends his father at court, and has in fact taken Harry&#8217;s place at the council. The battle against the rebels is the first time he takes to the field, and he acquits himself well, revealing himself to be both a good fighter and brave.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="PRINCE.">Henry, Prince of Wales</persname>
+<persaliases>
+	<persname short="THIEVES.">Thieves</persname>
+</persaliases>
+<persdescription>Prince Harry is King Henry&#8217;s eldest son and the heir to the throne. He is his father&#8217;s despair due to the fact that he spends all of his time in bars, running around with a bad crowd. He is close to Falstaff, though how fond he is of the old fat knight is uncertain. Quick-witted, he has the common touch, and is able to get the scum of the earth to cheer him and be his friends. His antics have got so out of hands that he has been banned from the King&#8217;s council, where his brother John has replaced him. He is a huge disappointment to the whole of the nobility, and Hotspur in particular disregards him entirely. He enjoys wordplay and mockery, particularly of Falstaff, and enjoys the latter&#8217;s stories and tall tales. What is not realized, either by his father, the court, or his companions, is that no matter how much he may enjoy his dissipated ways, Harry&#8217;s wastrel ways are in fact a coldly calculated act, a part he&#8217;s playing so that when he becomes King he can immediately gain the allegiance of respectable people by instantly turning over a new leaf. He is an excellent soldier, able to best both Douglas and Hotspur in single combat, and loves his father a lot more than he tends to let on. He loses his sense of humor in battle, and does not keep up the mask he wears most of the time as well as he does in the tavern. Asking for the right to determine Douglas&#8217;s sentence, he lets him go out of respect for his valor. His further adventures are chronicled in <persnameref>Henry IV, Part Two</persnameref> and <persnameref>Henry V</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="KING.">King Henry IV</persname>
+<persdescription>King Henry IV is the Bullingbrook of <persnameref>Richard II</persnameref>. Never forgetting his own usurpation of the throne from Richard II, he cannot help but notice similarities between the state of affairs at the time and the one he finds himself in now. He intends to keep his authority intact, though by overdoing this he provokes Hotspur to rebellion. He is afraid of the existence of Edmund Mortimer, Richard&#8217;s chosen heir, and sees parallels between the former king&#8217;s behavior and that of his son Harry. The latter&#8217;s way of life leaves the King in despair, as the King still despises the memory of Richard&#8217;s effeminate and populist ways. He wishes that his son were more warlike than he has appeared to be to date. Though he is himself an excellent politician (or a vile one, if you ask Hotspur), whose actions are calculated for effect, he fails to see that the Prince is doing much the same. The King smiles a great deal without necessarily meaning it. He is nevertheless a merciful King, executing far fewer people than might be expected. He still hopes to go on a crusade to Jerusalem to expiate his part in the murder of Richard II, but is prevented by the rebellion. He puts no great store in Harry&#8217;s promises to change, but grudgingly gives him a chance to prove himself. The King feels old and weary, though he is able to mount a spirited defense of his rights against the rebels. He is no longer as good a fighter as he was, almost being defeated by Douglas before Harry comes to his aid. The rest of his life is chronicled in <persnameref>Henry IV, Part Two</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="OST.">Ostler</persname>
+<persdescription>Ostler takes care of travelers&#8217; horses at the inn.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="SHER.">Sheriff</persname>
+<persdescription>The Sheriff is told of the robbery and goes searching for Falstaff. He does not expect to find the Prince of Wales at the Boar&#8217;s Head tavern instead.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="1. CAR.">First Carrier</persname>
+<persdescription>The First Carrier (Mugs) is transporting goods on the road between Canterbury and London, and resting at the inn near Gads Hill. He is among the group robbed by Falstaff and his gang. He is not impressed by the quality of the inn. He is cautious and knows very well what sort of tricks thieves get up to in such places. He recognizes Falstaff and denounces him to the Sheriff.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="2. CAR.">Second Carrier</persname>
+<persdescription>The Second Carrier is transporting goods on the road between Canterbury and London, and resting at the inn near Gads Hill. He is among the group robbed by Falstaff and his gang. He is not impressed by the quality of the inn. He is cautious and knows very well what sort of tricks thieves get up to in such places.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="1. TRAV.">First Traveller</persname>
+<persaliases>
+	<persname short="TRAVELLERS.">Travellers</persname>
+</persaliases>
+<persdescription>The First Traveler is carrying a large sum of money, which he has been foolish enough to mention aloud at the Inn. Due to the amount he has on him, he chooses to travel with others. He is kind to horses.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="2. TRAV.">Second Traveller</persname>
+<persaliases>
+	<persname short="TRAVELLERS.">Travellers</persname>
+</persaliases>
+<persdescription>The Second Traveler is part of the company of travelers who are going along together in the hopes of discouraging thieves. They are unsuccessful.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="SERV.">Servant</persname>
+<persdescription>Hotspur&#8217;s Servant has been ordered by him to make all ready for his departure to meet the other rebels.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="FRAN.">Francis</persname>
+<persdescription>Francis is an indentured servant at the Boar&#8217;s Head tavern, essentially a waiter. He has already worked there for two years and has another five to go before he can be a free man. The Prince uses him as the butt of jokes which he does not understand.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="HOST.">Hostess</persname>
+<persdescription>The Hostess is the owner of the Boar&#8217;s Head tavern in Eastcheap. She is greatly impressed at having the Prince of Wales among her patrons, though Falstaff keeps her in despair, as he never pays his tab. She enjoys playacting and swears a lot. We meet her again, under the name of Mistress Quickly, in <persnameref>Henry IV, Part Two</persnameref>, <persnameref>The Merry Wives of Windsor</persnameref>, and <persnameref>Henry V</persnameref>.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="1. MESS.">First Messenger</persname>
+<persdescription>The First Messenger comes from the Earl of Northumberland to warn Hotspur that he is ill and cannot join the other rebels. He confirms that Northumberland&#8217;s has seen doctors, who are worried about him.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="2. MESS.">Second Messenger</persname>
+<persdescription>The Second Messenger brings letters from an unknown sender to Hotspur, which the latter claims he has no time to read.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="3. MESS.">Third Messenger</persname>
+<persdescription>The Third Messenger warns Hotspur that the King and his forces are advancing on the rebels and that it is time to fight back.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="CHAM.">Chamberlain</persname>
+<persdescription>Chamberlain works at the inn, and tells Gadshill who the best guests to waylay are. He receives a cut of the profits for every robbery he recommends.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="VINT.">Vintner</persname>
+<persdescription>The Vintner is essentially the barman at the Boar&#8217;s Head. He dislikes seeing Francis idle rather than hard at work.</persdescription>
+</persona>
+</personae>
 
 <act num="1">
 <acttitle>Act 1</acttitle>
@@ -12,8 +201,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
 <scenepersonae>(King Henry, Lord John of Lancaster, Earl of Westmorland, Sir Walter Blunt)</scenepersonae>
+<scenedescription>Careworn, King Henry IV is planning a crusade to the Holy Land, but realizes he cannot afford to do so when he hears that the Welsh rebels under Glendower have beaten the royal forces. The good news is that young Hotspur has beaten the Scots. The King envies Lord Northumberland his son Hotspur, as the latter strikes him as much more worthy of being heir to the throne than the real Prince of Wales, Hal. However, Hotspur is refusing to send the King many of the prisoners he made, and the King summons him to the next council meeting to answer for this.</scenedescription>
 
-<stagedir>Enter the King Henry, Lord John of Lancaster, Earl of Westmorland, Sir Walter Blunt, with others.</stagedir>
+<stagedir type="enter">Enter the King Henry, Lord John of Lancaster, Earl of Westmorland, Sir Walter Blunt, with others.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -163,7 +353,7 @@
 <line>I will, my liege.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir>
+<stagedir type="exit">Exeunt.</stagedir>
  
 
 </scene>
@@ -172,8 +362,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. An apartment of the Prince&#8217;s.</scenelocation>
 <scenepersonae>(Prince of Wales, Sir John Falstaff, Poins)</scenepersonae>
+<scenedescription>Merry and careless, Prince Hal jokes around with the fat old rogue Falstaff, who looks forward to the day when his companion shall be King. Poins enters, and tells of a company of pilgrims who will be easy to rob the next night on the highway. Hal is recalcitrant at the idea of becoming a thief, but when they are on their own, Poins suggests that they should wait for Falstaff and others to do the robbing, and then attack them and take all the loot themselves, looking forward to the tall tales Falstaff will tell of the event. Hal agrees. Left alone, he reflects on how he knows all these men well, and sees through them; he may appear to be a carefree rascal, but this is a role he is putting on so that later, when he seems to reform, it will be that much more effective.</scenedescription>
 
-<stagedir>Enter Prince of Wales and Sir John Falstaff.</stagedir>
+<stagedir type="enter">Enter Prince of Wales and Sir John Falstaff.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -339,7 +530,7 @@
 <speaker>FAL.</speaker>
 <line>Why, Hal, &#8217;tis my vocation, Hal, &#8217;tis no sin for a man to labor in his vocation.</line>
 
-<stagedir>Enter Poins.</stagedir>
+<stagedir type="enter">Enter Poins.</stagedir>
 <line>Poins! Now shall we know if Gadshill have set a match. O, if men were to be sav&#8217;d by merit, what hole in hell were hot enough for him? This is the most omnipotent villain that ever cried &#8220;Stand!&#8221; to a true man.</line>
 </speech>
 
@@ -438,7 +629,7 @@
 <line>Farewell, the latter spring! Farewell, All-hallown summer!</line>
 </speech>
 
-<stagedir>Exit Falstaff.</stagedir>
+<stagedir type="exit">Exit Falstaff.</stagedir>
 
 <speech>
 <speaker>POINS.</speaker>
@@ -485,7 +676,7 @@
 <line>Farewell, my lord.</line>
 </speech>
 
-<stagedir>Exit Poins.</stagedir>
+<stagedir type="exit">Exit Poins.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -514,7 +705,7 @@
 <line>Redeeming time when men think least I will.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 </scene>
 
@@ -522,8 +713,9 @@
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
 <scenepersonae>(King, Northumberland, Worcester, Hotspur, Sir Walter Blunt)</scenepersonae>
+<scenedescription>The angry King dismisses Worcester from his presence. Hotspur too quarrels with the King, explaining that he refused to send his prisoners because of the insolence of the King&#8217;s messenger. He further refuses to hand them over unless the King ransoms Mortimer, captured by the Welsh. The King refuses and leaves, ordering the prisoners to be sent along. Infuriated, Hotspur swears he will rebel against the King, who after all is a usurper who took the crown by force from Richard II. Mortimer was Richard&#8217;s official heir, and Hotspur is sure this is why Henry does not wish to ransom him. Hotspur&#8217;s father Northumberland and Worcester agree with him, urging that they gain support from the Archbishop of York, and raise troops in Scotland along with making common cause with the Welsh. With all these forces they plan to dethrone Henry and place Mortimer in his place.</scenedescription>
 
-<stagedir>Enter the King, Northumberland, Worcester, Hotspur, Sir Walter Blunt, with others.</stagedir>
+<stagedir type="enter">Enter the King, Northumberland, Worcester, Hotspur, Sir Walter Blunt, with others.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -561,7 +753,7 @@
 <line>You have good leave to leave us. When we need</line>
 <line>Your use and counsel, we shall send for you.</line>
 
-<stagedir>Exit Worcester.</stagedir>
+<stagedir type="exit">Exit Worcester.</stagedir>
 <line>You were about to speak.</line>
 </speech>
 
@@ -692,7 +884,7 @@
 <line>Send us your prisoners, or you will hear of it.</line>
 </speech>
 
-<stagedir>Exit King with Blunt and Train.</stagedir>
+<stagedir type="exit">Exit King with Blunt and Train.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -708,7 +900,7 @@
 <line>Here comes your uncle.</line>
 </speech>
 
-<stagedir>Enter Worcester.</stagedir>
+<stagedir type="enter">Enter Worcester.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -971,7 +1163,7 @@
 <line>Which I shall send you written, be assur&#8217;d</line>
 <line>Will easily be granted.</line>
 
-<stagedir>To Northumberland.</stagedir>
+<stagedir type="speak">To Northumberland.</stagedir>
 <line offset="5">You, my lord,</line>
 <line>Your son in Scotland being thus employed,</line>
 <line>Shall secretly into the bosom creep</line>
@@ -1062,7 +1254,7 @@
 <line>Till fields, and blows, and groans applaud our sport!</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -1073,8 +1265,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rochester. An inn yard.</scenelocation>
 <scenepersonae>(Carriers, Gadshill, Chamberlain, Ostler)</scenepersonae>
+<scenedescription>Servants at the inn get horses ready for their masters&#8217; departure. Gadshill and his informer the Chamberlain discuss the coming robbery. The thief is certain he&#8217;ll get away with it.</scenedescription>
 
-<stagedir>Enter a Carrier with a lantern in his hand.</stagedir>
+<stagedir type="enter">Enter a Carrier with a lantern in his hand.</stagedir>
 
 <speech>
 <speaker>1. CAR.</speaker>
@@ -1083,7 +1276,7 @@
 
 <speech>
 <speaker>OST.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Anon, anon.</line>
 </speech>
 
@@ -1092,7 +1285,7 @@
 <line>I prithee, Tom, beat Cut&#8217;s saddle, put a few flocks in the point. Poor jade is wrung in the withers, out of all cess.</line>
 </speech>
 
-<stagedir>Enter another Carrier.</stagedir>
+<stagedir type="enter">Enter another Carrier.</stagedir>
 
 <speech>
 <speaker>2. CAR.</speaker>
@@ -1134,7 +1327,7 @@
 <line>God&#8217;s body, the turkeys in my pannier are quite starv&#8217;d. What, ostler! A plague on thee! Hast thou never an eye in thy head? Canst not hear? And &#8217;twere not as good deed as drink to break the pate on thee, I am a very villain. Come, and be hang&#8217;d! Hast no faith in thee?</line>
 </speech>
 
-<stagedir>Enter Gadshill.</stagedir>
+<stagedir type="enter">Enter Gadshill.</stagedir>
 
 <speech>
 <speaker>GADS.</speaker>
@@ -1176,14 +1369,14 @@
 <line>Time enough to go to bed with a candle, I warrant thee. Come, neighbor Mugs, we&#8217;ll call up the gentlemen. They will along with company, for they have great charge.</line>
 </speech>
 
-<stagedir>Exeunt Carriers.</stagedir>
+<stagedir type="exit">Exeunt Carriers.</stagedir>
 
 <speech>
 <speaker>GADS.</speaker>
 <line>What ho! Chamberlain!</line>
 </speech>
 
-<stagedir>Enter Chamberlain.</stagedir>
+<stagedir type="enter">Enter Chamberlain.</stagedir>
 
 <speech>
 <speaker>CHAM.</speaker>
@@ -1245,16 +1438,17 @@
 <line>Go to, homo is a common name to all men. Bid the ostler bring my gelding out of the stable. Farewell, you muddy knave.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="2">
 <scenetitle>Scene 2</scenetitle>
-<scenelocation>The highway, near Gadshill.</scenelocation>
+<scenelocation>A highway near Gadshill.</scenelocation>
 <scenepersonae>(Prince, Peto, Bardolph, Poins, Falstaff, Gadshill, Travellers, Thieves)</scenepersonae>
+<scenedescription>The rogues prepare for the robbery. Falstaff is not overly happy at how things are going. The theft goes off, but the Prince and Poins&#8217;s plan does as well: they disguise themselves and attack Falstaff and the others when they return with the loot. After a blow or two, Falstaff runs off in terror.</scenedescription>
 
-<stagedir>Enter Prince, Peto, and Bardolph, with Poins following just behind.</stagedir>
+<stagedir type="enter">Enter Prince, Peto, and Bardolph, with Poins following just behind.</stagedir>
 
 <speech>
 <speaker>POINS.</speaker>
@@ -1266,9 +1460,9 @@
 <line>Stand close.</line>
 </speech>
 
-<stagedir>They retire.</stagedir>
+<stagedir type="exit">They retire.</stagedir>
 
-<stagedir>Enter Falstaff.</stagedir>
+<stagedir type="enter">Enter Falstaff.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -1277,7 +1471,7 @@
 
 <speech>
 <speaker>PRINCE.</speaker>
-<stagedir>Coming forward.</stagedir>
+<stagedir type="action">Coming forward.</stagedir>
 <line>Peace, ye fat-kidney&#8217;d rascal! What a brawling dost thou keep!</line>
 </speech>
 
@@ -1291,18 +1485,18 @@
 <line>He is walk&#8217;d up to the top of the hill, I&#8217;ll go seek him.</line>
 </speech>
 
-<stagedir>Retires.</stagedir>
+<stagedir type="exit" actor="PRINCE.">Retires.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>I am accurs&#8217;d to rob in that thieve&#8217;s company. The rascal hath remov&#8217;d my horse, and tied him I know not where. If I travel but four foot by the squier further afoot, I shall break my wind. Well, I doubt not but to die a fair death for all this, if I scape hanging for killing that rogue. I have forsworn his company hourly any time this two and twenty years, and yet I am bewitch&#8217;d with the rogue&#8217;s company. If the rascal have not given me medicines to make me love him, I&#8217;ll be hang&#8217;d. It could not be else, I have drunk medicines. Poins! Hal! A plague upon you both! Bardolph! Peto! I&#8217;ll starve ere I&#8217;ll rob a foot further. And &#8217;twere not as good a deed as drink to turn true man and to leave these rogues, I am the veriest varlet that ever chew&#8217;d with a tooth. Eight yards of uneven ground is threescore and ten miles afoot with me, and the stony-hearted villains know it well enough. A plague upon it when thieves cannot be true one to another!</line>
-<stagedir>They whistle.</stagedir>
+<stagedir type="action">They whistle.</stagedir>
 <line>Whew! A plague upon you all! Give me my horse, you rogues, give me my horse, and be hang&#8217;d!</line>
 </speech>
 
 <speech>
 <speaker>PRINCE.</speaker>
-<stagedir>Coming forward.</stagedir>
+<stagedir type="action">Coming forward.</stagedir>
 <line>Peace, ye fat-guts, lie down. Lay thine ear close to the ground, and list if thou canst hear the tread of travellers.</line>
 </speech>
 
@@ -1331,7 +1525,7 @@
 <line>Hang thyself in thine own heir-apparent garters! If I be ta&#8217;en, I&#8217;ll peach for this. And I have not ballads made on you all and sung to filthy tunes, let a cup of sack be my poison. When a jest is so forward, and afoot too! I hate it.</line>
 </speech>
 
-<stagedir>Enter Gadshill.</stagedir>
+<stagedir type="enter">Enter Gadshill.</stagedir>
 
 <speech>
 <speaker>GADS.</speaker>
@@ -1345,7 +1539,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Coming forward with Bardolph and Peto.</stagedir>
+<stagedir type="action">Coming forward with Bardolph and Peto.</stagedir>
 <line>O, &#8217;tis our setter, I know his voice.</line>
 </speech>
 
@@ -1421,24 +1615,24 @@
 
 <speech>
 <speaker>PRINCE.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line>Ned, where are our disguises?</line>
 </speech>
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line>Here, hard by. Stand close.</line>
 </speech>
 
-<stagedir>Exeunt Prince and Poins.</stagedir>
+<stagedir type="exit">Exeunt Prince and Poins.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>Now, my masters, happy man be his dole, say I, every man to his business.</line>
 </speech>
 
-<stagedir>Enter the Travellers.</stagedir>
+<stagedir type="enter">Enter the Travellers.</stagedir>
 
 <speech>
 <speaker>1. TRAV.</speaker>
@@ -1470,9 +1664,10 @@
 <line>Hang ye, gorbellied knaves, are ye undone? No, ye fat chuffs, I would your store were here! On, bacons, on! What, ye knaves, young men must live! You are grandjurors, are ye? We&#8217;ll jure ye, faith.</line>
 </speech>
 
-<stagedir>Here they rob them and bind them. Exeunt.</stagedir>
+<stagedir type="action">Here they rob them and bind them.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir>
 
-<stagedir>Enter the Prince and Poins in buckram.</stagedir>
+<stagedir type="enter">Enter the Prince and Poins in buckram.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -1500,7 +1695,7 @@
 <line>Villains!</line>
 </speech>
 
-<stagedir>As they are sharing, the Prince and Poins set upon them; they all run away, and Falstaff, after a blow or two, runs away too, leaving the booty behind them.</stagedir>
+<stagedir type="action">As they are sharing, the Prince and Poins set upon them; they all run away, and Falstaff, after a blow or two, runs away too, leaving the booty behind them.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -1518,7 +1713,7 @@
 <line>How the fat rogue roar&#8217;d!</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -1526,8 +1721,9 @@
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Warkworth castle.</scenelocation>
 <scenepersonae>(Hotspur, Lady Hotspur, Servant)</scenepersonae>
+<scenedescription>Hotspur has received a letter from a lord who does not think the rebels&#8217; plot is well-planned or well-timed, and is therefore hesitant to join in. Disdaining this cowardice, he prepares to leave, refusing to listen to his wife&#8217;s pleas to tell her what is going on.</scenedescription>
 
-<stagedir>Enter Hotspur solus, reading a letter.</stagedir>
+<stagedir type="enter">Enter Hotspur solus, reading a letter.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -1537,7 +1733,7 @@
 <line>&#8212;why, that&#8217;s certain. &#8217;Tis dangerous to take a cold, to sleep, to drink, but I tell you, my lord fool, out of this nettle, danger, we pluck this flower, safety.</line>
 <line><recite>&#8220;The purpose you undertake is dangerous, the friends you have nam&#8217;d uncertain, the time itself unsorted, and your whole plot too light for the counterpoise of so great an opposition.&#8221;</recite></line>
 <line>Say you so, say you so? I say unto you again, you are a shallow, cowardly hind, and you lie. What a lack-brain is this! By the Lord, our plot is a good plot as ever was laid, our friends true and constant: a good plot, good friends, and full of expectation; an excellent plot, very good friends. What a frosty-spirited rogue is this! Why, my Lord of York commends the plot and the general course of the action. &#8217;Zounds, and I were now by this rascal, I could brain him with his lady&#8217;s fan. Is there not my father, my uncle, and myself? Lord Edmund Mortimer, my Lord of York, and Owen Glendower? Is there not besides the Douglas? Have I not all their letters to meet me in arms by the ninth of the next month? And are they not some of them set forward already? What a pagan rascal is this! An infidel! Ha, you shall see now in very sincerity of fear and cold heart will he to the King, and lay open all our proceedings. O, I could divide myself and go to buffets, for moving such a dish of skim-milk with so honorable an action! Hang him! Let him tell the King: we are prepar&#8217;d. I will set forward tonight.</line>
-<stagedir>Enter his Lady.</stagedir>
+<stagedir type="enter">Enter his Lady.</stagedir>
 <line>How now, Kate? I must leave you within these two hours.</line>
 </speech>
 
@@ -1577,7 +1773,7 @@
 <speaker>HOT.</speaker>
 <line>What ho!</line>
 
-<stagedir>Enter Servant.</stagedir>
+<stagedir type="enter">Enter Servant.</stagedir>
 <line>Is Gilliams with the packet gone?</line>
 </speech>
 
@@ -1613,7 +1809,7 @@
 <line>Bid Butler lead him forth into the park.</line>
 </speech>
 
-<stagedir>Exit Servant.</stagedir>
+<stagedir type="exit">Exit Servant.</stagedir>
 
 <speech>
 <speaker>LADY. P.</speaker>
@@ -1713,16 +1909,17 @@
 <line>It must of force.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="4">
 <scenetitle>Scene 4</scenetitle>
-<scenelocation>The Boar&#8217;s-Head Tavern, Eastcheap.</scenelocation>
+<scenelocation>Eastcheap. The Boar&#8217;s Head Tavern.</scenelocation>
 <scenepersonae>(Prince, Poins, Francis, Vintner, Falstaff, Gadshill, Bardolph, Peto, Hostess, Sheriff, Carrier)</scenepersonae>
+<scenedescription>Bored, the Prince and Poins play a practical joke on the bartender while waiting for Falstaff to arrive. The fat knight arrives ranting against cowards, and begins to explain why they have returned without the loot. His tale grows larger as he tells it, as the number of ruffians who set upon him grows larger each time he mentions them. When he get soverly tangled up in his lies, Hal challenges him, letting him know he was one of the two who attacked him. Falstaff claims to have recognized the Prince, and that he therefore ran away as it was not his place to beat the Prince of Wales. A nobleman at the door asks to speak to the Prince; Falstaff goes instead, and returns with news of the coming rebellion, due to which Hal has been summoned to court. They decide that Hal must practice an answer for when the King berates him for his wild life; Falstaff plays the King, Hal plays himself. Falstaff lectures the prince, while praising the fat gentleman he has chosen for his companion. They then exchange roles, and Hal uses the opportunity to mercilessly insult the fat knight, who pleads that he should not be banished. Hal swears that he will be. The sheriff comes searching for Falstaff, who hides; the Prince swears he is not there. Finding Falstaff asleep behind the curtain, Hal rifles through his pockets and discovers how much the fat knight owes to the inn, including a massive amount of liquor.</scenedescription>
 
-<stagedir>Enter Prince and Poins.</stagedir>
+<stagedir type="enter">Enter Prince and Poins.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -1739,11 +1936,11 @@
 <line>With three or four loggerheads amongst three or four score hogsheads. I have sounded the very base-string of humility. Sirrah, I am sworn brother to a leash of drawers, and can call them all by their christen names, as Tom, Dick, and Francis. They take it already upon their salvation, that though I be but Prince of Wales, yet I am the king of courtesy, and tell me flatly I am no proud Jack like Falstaff, but a Corinthian, a lad of mettle, a good boy (by the Lord, so they call me!), and when I am King of England I shall command all the good lads in Eastcheap. They call drinking deep, dyeing scarlet, and when you breathe in your watering, they cry &#8220;hem!&#8221; and bid you play it off. To conclude, I am so good a proficient in one quarter of an hour, that I can drink with any tinker in his own language during my life. I tell thee, Ned, thou hast lost much honor that thou wert not with me in this action. But, sweet Ned&#8212;to sweeten which name of Ned, I give thee this pennyworth of sugar, clapp&#8217;d even now into my hand by an under-skinker, one that never spake other English in his life than &#8220;Eight shillings and sixpence,&#8221; and &#8220;You are welcome,&#8221; with this shrill addition, &#8220;Anon, anon, sir! Score a pint of bastard in the Half-moon,&#8221; or so. But, Ned, to drive away the time till Falstaff come, I prithee do thou stand in some by-room, while I question my puny drawer to what end he gave me the sugar, and do thou never leave calling &#8220;Francis,&#8221; that his tale to me may be nothing but &#8220;Anon.&#8221; Step aside, and I&#8217;ll show thee a president.</line>
 </speech>
 
-<stagedir>Exit Poins.</stagedir>
+<stagedir type="exit">Exit Poins.</stagedir>
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1754,11 +1951,11 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
-<stagedir>Enter Drawer Francis.</stagedir>
+<stagedir type="enter">Enter Drawer Francis.</stagedir>
 
 <speech>
 <speaker>FRAN.</speaker>
@@ -1787,7 +1984,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1808,7 +2005,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1829,7 +2026,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1855,7 +2052,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1896,7 +2093,7 @@
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Francis!</line>
 </speech>
 
@@ -1905,31 +2102,31 @@
 <line>Away, you rogue, dost thou not hear them call?</line>
 </speech>
 
-<stagedir>Here they both call him; the drawer stands amazed, not knowing which way to go.</stagedir>
+<stagedir type="action">Here they both call him; the drawer stands amazed, not knowing which way to go.</stagedir>
 
-<stagedir>Enter Vintner.</stagedir>
+<stagedir type="enter">Enter Vintner.</stagedir>
 
 <speech>
 <speaker>VINT.</speaker>
 <line>What, stand&#8217;st thou still, and hear&#8217;st such a calling? Look to the guests within.</line>
-<stagedir>Exit Francis.</stagedir>
+<stagedir type="exit">Exit Francis.</stagedir>
 <line>My lord, old Sir John with half a dozen more are at the door, shall I let them in?</line>
 </speech>
 
 <speech>
 <speaker>PRINCE.</speaker>
 <line>Let them alone awhile, and then open the door.</line>
-<stagedir>Exit Vintner.</stagedir>
+<stagedir type="exit">Exit Vintner.</stagedir>
 <line>Poins!</line>
 </speech>
 
 <speech>
 <speaker>POINS.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Non, anon, sir.</line>
 </speech>
 
-<stagedir>Enter Poins.</stagedir>
+<stagedir type="enter">Enter Poins.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -1945,7 +2142,7 @@
 <speaker>PRINCE.</speaker>
 <line>I am now of all humors that have show&#8217;d themselves humors since the old days of goodman Adam to the pupil age of this present twelve a&#8217; clock at midnight.</line>
 
-<stagedir>Enter Francis hurrying across the stage with wine.</stagedir>
+<stagedir type="enter">Enter Francis hurrying across the stage with wine.</stagedir>
 <line>What&#8217;s a&#8217; clock, Francis?</line>
 </speech>
 
@@ -1954,14 +2151,14 @@
 <line>Anon, anon, sir.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
 <line>That ever this fellow should have fewer words than a parrot, and yet the son of a woman! His industry is up stairs and down stairs, his eloquence the parcel of a reckoning. I am not yet of Percy&#8217;s mind, the Hotspur of the north, he that kills me some six or seven dozen of Scots at a breakfast, washes his hands, and says to his wife, &#8220;Fie upon this quiet life! I want work.&#8221; &#8220;O my sweet Harry,&#8221; says she, &#8220;how many hast thou kill&#8217;d today?&#8221; &#8220;Give my roan horse a drench,&#8221; says he, and answers, &#8220;Some fourteen,&#8221; an hour after; &#8220;a trifle, a trifle.&#8221; I prithee call in Falstaff. I&#8217;ll play Percy, and that damn&#8217;d brawn shall play Dame Mortimer his wife. &#8220;Rivo!&#8221; says the drunkard. Call in ribs, call in tallow.</line>
 </speech>
 
-<stagedir>Enter Falstaff, Gadshill, Bardolph, and Peto, Francis following with wine.</stagedir>
+<stagedir type="enter">Enter Falstaff, Gadshill, Bardolph, and Peto, Francis following with wine.</stagedir>
 
 <speech>
 <speaker>POINS.</speaker>
@@ -1973,7 +2170,7 @@
 <line>A plague of all cowards, I say, and a vengeance too! Marry and amen! Give me a cup of sack, boy. Ere I lead this life long, I&#8217;ll sew nether-stocks, and mend them and foot them too. A plague of all cowards! Give me a cup of sack, rogue. Is there no virtue extant?</line>
 </speech>
 
-<stagedir>He drinketh.</stagedir>
+<stagedir type="action">He drinketh.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -2022,7 +2219,7 @@
 
 <speech>
 <speaker>FAL.</speaker>
-<line>All is one for that.<stagedir>He drinketh.</stagedir>A plague of all cowards, still say I.</line>
+<line>All is one for that.<stagedir type="action" actor="FAL.">He drinketh.</stagedir>A plague of all cowards, still say I.</line>
 </speech>
 
 <speech>
@@ -2275,7 +2472,7 @@
 <line>Ah, no more of that, Hal, and thou lovest me!</line>
 </speech>
 
-<stagedir>Enter Hostess.</stagedir>
+<stagedir type="enter">Enter Hostess.</stagedir>
 
 <speech>
 <speaker>HOST.</speaker>
@@ -2322,7 +2519,7 @@
 <line>Faith, and I&#8217;ll send him packing.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -2359,7 +2556,7 @@
 <line>My lord, do you see these meteors? Do you behold these exhalations?</line>
 </speech>
 
-<stagedir>Pointing to his own face.</stagedir>
+<stagedir type="action">Pointing to his own face.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -2381,7 +2578,7 @@
 <line>Choler, my lord, if rightly taken.</line>
 </speech>
 
-<stagedir>Enter Falstaff.</stagedir>
+<stagedir type="enter">Enter Falstaff.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -2609,9 +2806,10 @@
 <line>I do, I will.</line>
 </speech>
 
-<stagedir>A knocking heard. Exeunt Hostess, Francis, and Bardolph.</stagedir>
+<stagedir type="action">A knocking heard.</stagedir> 
+<stagedir type="exit">Exeunt Hostess, Francis, and Bardolph.</stagedir>
 
-<stagedir>Enter Bardolph running.</stagedir>
+<stagedir type="enter">Enter Bardolph running.</stagedir>
 
 <speech>
 <speaker>BARD.</speaker>
@@ -2623,7 +2821,7 @@
 <line>Out, ye rogue, play out the play, I have much to say in the behalf of that Falstaff.</line>
 </speech>
 
-<stagedir>Enter the Hostess.</stagedir>
+<stagedir type="enter">Enter the Hostess.</stagedir>
 
 <speech>
 <speaker>HOST.</speaker>
@@ -2665,15 +2863,15 @@
 <line>Both which I have had, but their date is out, and therefore I&#8217;ll hide me.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
 <line>Call in the sheriff.</line>
 
-<stagedir>Exeunt all except the Prince and Peto.</stagedir>
+<stagedir type="exit">Exeunt all except the Prince and Peto.</stagedir>
 
-<stagedir>Enter Sheriff and the First Carrier.</stagedir>
+<stagedir type="enter">Enter Sheriff and the First Carrier.</stagedir>
 <line>Now, Master Sheriff, what is your will with me?</line>
 </speech>
 
@@ -2737,7 +2935,7 @@
 <line>Indeed, my lord, I think it be two a&#8217; clock.</line>
 </speech>
 
-<stagedir>Exit with Carrier.</stagedir>
+<stagedir type="exit">Exit with Carrier.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -2752,7 +2950,7 @@
 <speech>
 <speaker>PRINCE.</speaker>
 <line>Hark how hard he fetches breath. Search his pockets.</line>
-<stagedir>He searcheth his pocket, and findeth certain papers.</stagedir>
+<stagedir type="action">He searcheth his pocket, and findeth certain papers.</stagedir>
 <line>What hast thou found?</line>
 </speech>
 
@@ -2768,7 +2966,7 @@
 
 <speech>
 <speaker>PETO.</speaker>
-<stagedir>Reads.</stagedir>
+<stagedir type="read">Reads.</stagedir>
 <line><recite>Item, a capon 2s. 2d.</recite></line>
 <line><recite>Item, sauce 4d.</recite></line>
 <line><recite>Item, sack, two gallons 5s. 8d.</recite></line>
@@ -2786,7 +2984,7 @@
 <line>Good morrow, good my lord.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -2797,8 +2995,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Bangor. The Archdeacon&#8217;s house.</scenelocation>
 <scenepersonae>(Hotspur, Worcester, Lord Mortimer, Owen Glendower, Ladies)</scenepersonae>
+<scenedescription>The rebellious nobles have gathered to make their plans. The skeptical Hotspur mocks Glendower&#8217;s pretentious at having had extraordinary omens present at his birth. Between them, they divide the English kingdom, though Hotspur is not fully satisfied with his portion. Mortimer berates Hotspur for mocking his father-in-law Glendower, but Hotspur is unapologetic. Glendower brings in the young men&#8217;s wives so that they can say farewell; as his daughter can speak no English, he translates her Welsh for Mortimer. Hotspur mocks the Welsh lady to his wife.</scenedescription>
 
-<stagedir>Enter Hotspur, Worcester, Lord Mortimer, Owen Glendower.</stagedir>
+<stagedir type="enter">Enter Hotspur, Worcester, Lord Mortimer, Owen Glendower.</stagedir>
 
 <speech>
 <speaker>MORT.</speaker>
@@ -3106,7 +3305,7 @@
 <line>So much she doteth on her Mortimer.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>MORT.</speaker>
@@ -3173,7 +3372,7 @@
 <line>Here come our wives, and let us take our leave.</line>
 </speech>
 
-<stagedir>Enter Glendower with the Ladies.</stagedir>
+<stagedir type="enter">Enter Glendower with the Ladies.</stagedir>
 
 <speech>
 <speaker>MORT.</speaker>
@@ -3193,7 +3392,7 @@
 <line>Shall follow in your conduct speedily.</line>
 </speech>
 
-<stagedir>Glendower speaks to her in Welsh, and she answers him in the same.</stagedir>
+<stagedir type="action">Glendower speaks to her in Welsh, and she answers him in the same.</stagedir>
 
 <speech>
 <speaker>GLEND.</speaker>
@@ -3201,7 +3400,7 @@
 <line>One that no persuasion can do good upon.</line>
 </speech>
 
-<stagedir>The lady speaks in Welsh.</stagedir>
+<stagedir type="action">The lady speaks in Welsh.</stagedir>
 
 <speech>
 <speaker>MORT.</speaker>
@@ -3210,7 +3409,7 @@
 <line>I am too perfect in, and but for shame,</line>
 <line>In such a parley should I answer thee.</line>
 
-<stagedir>The lady again in Welsh.</stagedir>
+<stagedir type="action">The lady again in Welsh.</stagedir>
 <line>I understand thy kisses, and thou mine,</line>
 <line>And that&#8217;s a feeling disputation,</line>
 <line>But I will never be a truant, love,</line>
@@ -3225,7 +3424,7 @@
 <line>Nay, if you melt, then will she run mad.</line>
 </speech>
 
-<stagedir>The lady speaks again in Welsh.</stagedir>
+<stagedir type="action">The lady speaks again in Welsh.</stagedir>
 
 <speech>
 <speaker>MORT.</speaker>
@@ -3270,7 +3469,7 @@
 <line>Go, ye giddy goose.</line>
 </speech>
 
-<stagedir>The music plays.</stagedir>
+<stagedir type="song">The music plays.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -3329,7 +3528,7 @@
 <line>Peace, she sings.</line>
 </speech>
 
-<stagedir>Here the lady sings a Welsh song.</stagedir>
+<stagedir type="song">Here the lady sings a Welsh song.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -3363,7 +3562,7 @@
 <line>&#8217;Tis the next way to turn tailor, or be redbreast teacher. And the indentures be drawn, I&#8217;ll away within these two hours, and so come in when ye will.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>GLEND.</speaker>
@@ -3378,7 +3577,7 @@
 <line offset="7">With all my heart.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -3386,8 +3585,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
 <scenepersonae>(King, Prince of Wales, Lords, Blunt)</scenepersonae>
+<scenedescription>The King berates his son, accusing him of being as flighty and unworthy to rule as was King Richard when Henry deposed him. He contrasts his own aloofness to Richard and Hal&#8217;s taste for popularity, and extols Hotspur&#8217;s valiance, which is so sorely lacking in his son. Hal swears to redeem himself and prove himself against Hotspur. The King gives him charge of part of the army.</scenedescription>
 
-<stagedir>Enter the King, Prince of Wales, and others.</stagedir>
+<stagedir type="enter">Enter the King, Prince of Wales, and others.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -3395,7 +3595,7 @@
 <line>Must have some private conference, but be near at hand,</line>
 <line>For we shall presently have need of you.</line>
 
-<stagedir>Exeunt Lords.</stagedir>
+<stagedir type="exit">Exeunt Lords.</stagedir>
 <line>I know not whether God will have it so</line>
 <line>For some displeasing service I have done,</line>
 <line>That in his secret doom, out of my blood</line>
@@ -3580,7 +3780,7 @@
 <line>A hundred thousand rebels die in this.</line>
 <line>Thou shalt have charge and sovereign trust herein.</line>
 
-<stagedir>Enter Blunt.</stagedir>
+<stagedir type="enter">Enter Blunt.</stagedir>
 <line>How now, good Blunt? Thy looks are full of speed.</line>
 </speech>
 
@@ -3610,7 +3810,7 @@
 <line>Advantage feeds him fat while men delay.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -3618,8 +3818,9 @@
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Eastcheap. The Boar&#8217;s Head Tavern.</scenelocation>
 <scenepersonae>(Falstaff, Bardolph, Hostess, Prince, Peto)</scenepersonae>
+<scenedescription>Falstaff and Bardolph insult one another. The Hostess insists he owes her a great deal of money, which he denies, claiming that he has had his pocket picked in her tavern. Both complain to the newly-arrived Hal, who reprimands Falstaff. The Prince has found the knight a command in the army, and orders him to meet up with him the next day.</scenedescription>
 
-<stagedir>Enter Falstaff and Bardolph.</stagedir>
+<stagedir type="enter">Enter Falstaff and Bardolph.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -3665,7 +3866,7 @@
 <speaker>FAL.</speaker>
 <line>God-a-mercy, so should I be sure to be heart-burnt.</line>
 
-<stagedir>Enter Hostess.</stagedir>
+<stagedir type="enter">Enter Hostess.</stagedir>
 <line>How now, Dame Partlet the hen? Have you inquir&#8217;d yet who pick&#8217;d my pocket?</line>
 </speech>
 
@@ -3728,7 +3929,7 @@
 <speaker>FAL.</speaker>
 <line>How? The Prince is a Jack, a sneak-up. &#8217;Sblood, and he were here, I would cudgel him like a dog if he would say so.</line>
 
-<stagedir>Enter the Prince marching, with Peto, and Falstaff meets him playing upon his truncheon like a fife.</stagedir>
+<stagedir type="enter">Enter the Prince marching, with Peto, and Falstaff meets him playing upon his truncheon like a fife.</stagedir>
 <line>How now, lad? Is the wind in that door, i&#8217; faith? Must we all march?</line>
 </speech>
 
@@ -3925,7 +4126,7 @@
 <speech>
 <speaker>FAL.</speaker>
 <line>Hostess, I forgive thee. Go make ready breakfast; love thy husband, look to thy servants, cherish thy guesse. Thou shalt find me tractable to any honest reason; thou seest I am pacified still. Nay, prithee be gone.</line>
-<stagedir>Exit Hostess.</stagedir>
+<stagedir type="exit">Exit Hostess.</stagedir>
 <line>Now, Hal, to the news at court for the robbery, lad, how is that answer&#8217;d?</line>
 </speech>
 
@@ -3979,11 +4180,11 @@
 <line>Go bear this letter to Lord John of Lancaster,</line>
 <line>To my brother John; this to my Lord of Westmorland.</line>
 
-<stagedir>Exit Bardolph.</stagedir>
+<stagedir type="exit">Exit Bardolph.</stagedir>
 <line>Go, Peto, to horse, to horse, for thou and I</line>
 <line>Have thirty miles to ride yet ere dinner-time.</line>
 
-<stagedir>Exit Peto.</stagedir>
+<stagedir type="exit">Exit Peto.</stagedir>
 <line>Jack, meet me tomorrow in the Temple Hall</line>
 <line>At two a&#8217; clock in the afternoon;</line>
 <line>There shalt thou know thy charge, and there receive</line>
@@ -3992,7 +4193,7 @@
 <line>And either we or they must lower lie.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -4000,7 +4201,7 @@
 <line>O, I could wish this tavern were my drum!</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 </act>
@@ -4011,8 +4212,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The rebel camp near Shrewsbury.</scenelocation>
 <scenepersonae>(Hotspur, Worcester, Douglas, First Messenger, Sir Richard Vernon)</scenepersonae>
+<scenedescription>Hotspur receives news that his father, Northumberland, is sick, and therefore cannot join them. He is incensed, and Worcester grows worried that people will think it is merely a convenient excuse and cease their support. Still, Hotspur sees it as an opportunity: the fewer they are, the greater the honor. News of the royalist forces&#8217; approach arrives: Prince John, Prince Hal, and the King himself are all moving towards the rebels, and Glendower will not be able to join them for another two weeks. Despite this, Hotspur urges everyone on.</scenedescription>
 
-<stagedir>Enter Hotspur, Worcester, and Douglas.</stagedir>
+<stagedir type="enter">Enter Hotspur, Worcester, and Douglas.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -4034,7 +4236,7 @@
 <line>But I will beard him.</line>
 </speech>
 
-<stagedir>Enter a Messenger with letters.</stagedir>
+<stagedir type="enter">Enter a Messenger with letters.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -4180,7 +4382,7 @@
 <line>Spoke of in Scotland as this term of fear.</line>
 </speech>
 
-<stagedir>Enter Sir Richard Vernon.</stagedir>
+<stagedir type="enter">Enter Sir Richard Vernon.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -4293,7 +4495,7 @@
 <line>Of death or death&#8217;s hand for this one half year.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -4301,8 +4503,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public road near Coventry.</scenelocation>
 <scenepersonae>(Falstaff, Bardolph, Prince, Lord of Westmorland)</scenepersonae>
+<scenedescription>Falstaff, who is recruiting soldiers, admits that he is not doing the King the best possible service, as he is doing all he can to keep the money he has been given to pay soldiers for himself. Easily bribed, he has allowed anyone who can pay to escape service, so that his company is made up of pitiful, useless men, whom he realistically describes to Prince Hal as being &#8220;food for powder&#8221;.</scenedescription>
 
-<stagedir>Enter Falstaff, Bardolph.</stagedir>
+<stagedir type="enter">Enter Falstaff, Bardolph.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -4334,14 +4537,14 @@
 <line>I will, captain, farewell.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>If I be not asham&#8217;d of my soldiers, I am a sous&#8217;d gurnet. I have misus&#8217;d the King&#8217;s press damnably. I have got, in exchange of a hundred and fifty soldiers, three hundred and odd pounds. I press me none but good householders, yeomen&#8217;s sons, inquire me out contracted bachelors, such as had been ask&#8217;d twice on the banes, such a commodity of warm slaves, as had as lieve hear the devil as a drum, such as fear the report of a caliver worse than a struck fowl or a hurt wild duck. I press&#8217;d me none but such toasts-and-butter, with hearts in their bellies no bigger than pins&#8217; heads, and they have bought out their services; and now my whole charge consists of ancients, corporals, lieutenants, gentlemen of companies&#8212;slaves as ragged as Lazarus in the painted cloth, where the glutton&#8217;s dogs lick&#8217;d his sores, and such as indeed were never soldiers, but discarded unjust servingmen, younger sons to younger brothers, revolted tapsters, and ostlers trade-fall&#8217;n, the cankers of a calm world and a long peace, ten times more dishonorable ragged than an old feaz&#8217;d ancient: and such have I, to fill up the rooms of them as have bought out their services, that you would think that I had a hundred and fifty totter&#8217;d prodigals lately come from swine-keeping, from eating draff and husks. A mad fellow met me on the way and told me I had unloaded all the gibbets and press&#8217;d the dead bodies. No eye hath seen such scarecrows. I&#8217;ll not march through Coventry with them, that&#8217;s flat. Nay, and the villains march wide betwixt the legs, as if they had gyves on, for indeed I had the most of them out of prison. There&#8217;s not a shirt and a half in all my company, and the half shirt is two napkins tack&#8217;d together and thrown over the shoulders like a herald&#8217;s coat without sleeves; and the shirt, to say the truth, stol&#8217;n from my host at Saint Albons, or the red-nose innkeeper of Daventry. But that&#8217;s all one, they&#8217;ll find linen-enough on every hedge.</line>
 </speech>
 
-<stagedir>Enter the Prince, Lord of Westmorland.</stagedir>
+<stagedir type="enter">Enter the Prince, Lord of Westmorland.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -4398,7 +4601,7 @@
 <line>No, I&#8217;ll be sworn, unless you call three fingers in the ribs bare. But, sirrah, make haste, Percy is already in the field.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -4417,7 +4620,7 @@
 <line>Fits a dull fighter and a keen guest.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -4425,8 +4628,9 @@
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The rebel camp near Shrewsbury.</scenelocation>
 <scenepersonae>(Hotspur, Worcester, Douglas, Vernon, Sir Walter Blunt)</scenepersonae>
+<scenedescription>The rebels are divided as to when to give battle. Hotspur and Douglas want to fight immediately, the others urge that they wait until more of their supporters have arrived. Sir Walter Blunt arrives from the King, asking to know what the causes of the rebellion are, in case things can be settled without fighting. Hotspur launches into a tirade against the King&#8217;s ingratitude and poor title to the throne. This is not the rebels&#8217; official answer, however, which Hotspur proposes shall be delivered to the King by Worcester the next day.</scenedescription>
 
-<stagedir>Enter Hotspur, Worcester, Douglas, Vernon.</stagedir>
+<stagedir type="enter">Enter Hotspur, Worcester, Douglas, Vernon.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -4531,9 +4735,9 @@
 <line>For God&#8217;s sake, cousin, stay till all come in.</line>
 </speech>
 
-<stagedir>The trumpet sounds a parley.</stagedir>
+<stagedir type="action">The trumpet sounds a parley.</stagedir>
 
-<stagedir>Enter Sir Walter Blunt.</stagedir>
+<stagedir type="enter">Enter Sir Walter Blunt.</stagedir>
 
 <speech>
 <speaker>BLUNT.</speaker>
@@ -4665,7 +4869,7 @@
 <line offset="5">Pray God you do.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -4673,8 +4877,9 @@
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>York. The Archbishop&#8217;s palace.</scenelocation>
 <scenepersonae>(Archbishop of York, Sir Michael)</scenepersonae>
+<scenedescription>The Archbishop is fearful of the outcome of the approaching battle. He tries to strengthen his position against the King.</scenedescription>
 
-<stagedir>Enter Archbishop of York, Sir Michael.</stagedir>
+<stagedir type="enter">Enter Archbishop of York, Sir Michael.</stagedir>
 
 <speech>
 <speaker>ARCH.</speaker>
@@ -4754,7 +4959,7 @@
 <line>To other friends, and so farewell, Sir Michael.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -4765,8 +4970,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King Henry IV&#8217;s camp near Shrewsbury.</scenelocation>
 <scenepersonae>(King, Prince of Wales, Lord John of Lancaster, Sir Walter Blunt, Falstaff, Worcester, Sir Richard Vernon)</scenepersonae>
+<scenedescription>The King and Worcester clash over the rebellion&#8217;s validity, with the latter complaining that the King broke his word to the other nobles when he took the crown. Hal challenges Hotspur to single combat. The King offers the rebels pardon if they will surrender. Falstaff wishes that the battle were over and done with, but Hal is unsympathetic. Left alone, Falstaff questions why on earth anyone should die for an abstract concept like honor.</scenedescription>
 
-<stagedir>Enter the King, Prince of Wales, Lord John of Lancaster, Sir Walter Blunt, Falstaff.</stagedir>
+<stagedir type="enter">Enter the King, Prince of Wales, Lord John of Lancaster, Sir Walter Blunt, Falstaff.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -4788,9 +4994,9 @@
 <line>Then with the losers let it sympathize,</line>
 <line>For nothing can seem foul to those that win.</line>
 
-<stagedir>The trumpet sounds.</stagedir>
+<stagedir type="action">The trumpet sounds.</stagedir>
 
-<stagedir>Enter Worcester and Sir Richard Vernon.</stagedir>
+<stagedir type="enter">Enter Worcester and Sir Richard Vernon.</stagedir>
 <line>How now, my Lord of Worcester? &#8217;Tis not well</line>
 <line>That you and I should meet upon such terms</line>
 <line>As now we meet. You have deceiv&#8217;d our trust,</line>
@@ -4931,7 +5137,7 @@
 <line>We offer fair, take it advisedly.</line>
 </speech>
 
-<stagedir>Exit Worcester with Vernon.</stagedir>
+<stagedir type="exit">Exit Worcester with Vernon.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -4947,7 +5153,7 @@
 <line>And God befriend us as our cause is just!</line>
 </speech>
 
-<stagedir>Exeunt. Manent Prince, Falstaff.</stagedir>
+<stagedir type="exit">Exeunt. Manent Prince, Falstaff.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
@@ -4969,14 +5175,14 @@
 <line>Why, thou owest God a death.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>&#8217;Tis not due yet, I would be loath to pay him before his day. What need I be so forward with him that calls not on me? Well, &#8217;tis no matter, honor pricks me on. Yea, but how if honor prick me off when I come on? How then? Can honor set to a leg? No. Or an arm? No. Or take away the grief of a wound? No. Honor hath no skill in surgery then? No. What is honor? A word. What is in that word honor? What is that honor? Air. A trim reckoning! Who hath it? He that died a&#8217; Wednesday. Doth he feel it? No. Doth he hear it? No. &#8217;Tis insensible then? Yea, to the dead. But will&#8217;t not live with the living? No. Why? Detraction will not suffer it. Therefore I&#8217;ll none of it, honor is a mere scutcheon. And so ends my catechism.</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 
@@ -4984,8 +5190,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The rebel camp.</scenelocation>
 <scenepersonae>(Worcester, Sir Richard Vernon, Percy Hotspur, Douglas, Second Messenger, Third Messenger)</scenepersonae>
+<scenedescription>Worcester is certain that the King&#8217;s offer of pardon is dangerous, for the King will always suspect them and find some other occasion to be done with them. He therefore claims that the King is in a rage and eager for battle. Told of Hal&#8217;s offer of single combat, Hotspur refuses to believe the prince has reformed from his wild ways, though he is certain they will meet on the field of battle.</scenedescription>
 
-<stagedir>Enter Worcester, Sir Richard Vernon.</stagedir>
+<stagedir type="enter">Enter Worcester, Sir Richard Vernon.</stagedir>
 
 <speech>
 <speaker>WOR.</speaker>
@@ -5031,7 +5238,7 @@
 <line>Here comes your cousin.</line>
 </speech>
 
-<stagedir>Enter Percy Hotspur and Douglas.</stagedir>
+<stagedir type="enter">Enter Percy Hotspur and Douglas.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -5060,7 +5267,7 @@
 <line>Marry, and shall, and very willingly.</line>
 </speech>
 
-<stagedir>Exit Douglas.</stagedir>
+<stagedir type="exit">Exit Douglas.</stagedir>
 
 <speech>
 <speaker>WOR.</speaker>
@@ -5081,7 +5288,7 @@
 <line>With haughty arms this hateful name in us.</line>
 </speech>
 
-<stagedir>Enter Douglas.</stagedir>
+<stagedir type="enter">Enter Douglas.</stagedir>
 
 <speech>
 <speaker>DOUG.</speaker>
@@ -5141,7 +5348,7 @@
 <line>Can lift your blood up with persuasion.</line>
 </speech>
 
-<stagedir>Enter Second Messenger.</stagedir>
+<stagedir type="enter">Enter Second Messenger.</stagedir>
 
 <speech>
 <speaker>2. MESS.</speaker>
@@ -5161,7 +5368,7 @@
 <line>When the intent of bearing them is just.</line>
 </speech>
 
-<stagedir>Enter Third Messenger.</stagedir>
+<stagedir type="enter">Enter Third Messenger.</stagedir>
 
 <speech>
 <speaker>3. MESS.</speaker>
@@ -5183,16 +5390,17 @@
 <line>A second time do such a courtesy.</line>
 </speech>
 
-<stagedir>Here they embrace and exeunt.</stagedir> 
+<stagedir type="action">Here they embrace and exeunt.</stagedir> 
 
 </scene>
 
 <scene num="3">
 <scenetitle>Scene 3</scenetitle>
-<scenelocation>Plain between the camps.</scenelocation>
+<scenelocation>The plain between the camps.</scenelocation>
 <scenepersonae>(King, Douglas, Sir Walter Blunt, Hotspur, Falstaff, Prince)</scenepersonae>
+<scenedescription>The rebel Douglas fights and kills Blunt, who claimed to be the King. Henry has many men dressed like him in the battle, to confuse the rebels. Douglas swears to kill them all. Falstaff runs in; his entire company has been destroyed. To Hal&#8217;s disgust, he has brought a bottle of sack instead of a pistol to the fight.</scenedescription>
 
-<stagedir>The trumpets sound. The King enters with his power and passes over. Alarm to the battle. Then enter Douglas and Sir Walter Blunt.</stagedir>
+<stagedir type="action">The trumpets sound. The King enters with his power and passes over. Alarm to the battle. Then enter Douglas and Sir Walter Blunt.</stagedir>
 
 <speech>
 <speaker>BLUNT.</speaker>
@@ -5228,8 +5436,8 @@
 <line>Lord Stafford&#8217;s death.</line>
 </speech>
 
-<stagedir>They fight. Douglas kills Blunt.</stagedir>
-<stagedir>Then enter Hotspur.</stagedir>
+<stagedir type="fight">>They fight. Douglas kills Blunt.</stagedir>
+<stagedir type="enter" actor="HOT.">Then enter Hotspur.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -5284,16 +5492,16 @@
 <line>Our soldiers stand full fairly for the day.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir>
+<stagedir type="exit">Exeunt.</stagedir>
 
-<stagedir>Alarm. Enter Falstaff solus.</stagedir>
+<stagedir type="enter" actor="FAL.">Alarm. Enter Falstaff solus.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>Though I could scape shot-free at London, I fear the shot here, here&#8217;s no scoring but upon the pate. Soft, who are you? Sir Walter Blunt. There&#8217;s honor for you! Here&#8217;s no vanity! I am as hot as molten lead, and as heavy too. God keep lead out of me! I need no more weight than mine own bowels. I have led my ragamuffins where they are pepper&#8217;d; there&#8217;s not three of my hundred and fifty left alive, and they are for the town&#8217;s end, to beg during life. But who comes here?</line>
 </speech>
 
-<stagedir>Enter the Prince.</stagedir>
+<stagedir type="enter">Enter the Prince.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -5328,21 +5536,21 @@
 <line>Ay, Hal, &#8217;tis hot, &#8217;tis hot. There&#8217;s that will sack a city.</line>
 </speech>
 
-<stagedir>The Prince draws it out, and finds it to be a bottle of sack.</stagedir>
+<stagedir type="action">The Prince draws it out, and finds it to be a bottle of sack.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
 <line>What, is it a time to jest and dally now?</line>
 </speech>
 
-<stagedir>He throws the bottle at him. Exit.</stagedir>
+<stagedir type="action">He throws the bottle at him. Exit.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>Well, if Percy be alive, I&#8217;ll pierce him. If he do come in my way, so; if he do not, if I come in his willingly, let him make a carbonado of me. I like not such grinning honor as Sir Walter hath. Give me life, which if I can save, so; if not, honor comes unlook&#8217;d for, and there&#8217;s an end.</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 
@@ -5350,8 +5558,9 @@
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(King, Prince, Lord John of Lancaster, Earl of Westmorland, Douglas, Prince of Wales, Hotspur, Falstaff)</scenepersonae>
+<scenedescription>The wounded prince refuses to retire to his tent. Both Hal and the King are impressed by John of Lancaster&#8217;s valor. The Prince saves his father from an attack by Douglas. Hotspur comes upon the Prince, and they fight, Hal finally overcoming the rebel and killing him. During this time, Douglas attacks Falstaff, who falls down and plays dead. Getting up as soon as the Prince is gone, he decides to claim Hotspur as his own kill. When challenged by Hal on this, he swears that Hotspur got up again just after he did himself. The royalists realize that they have won.</scenedescription>
 
-<stagedir>Alarm. Excursions. Enter the King, the Prince wounded, Lord John of Lancaster, Earl of Westmorland.</stagedir>
+<stagedir type="enter">Alarm. Excursions. Enter the King, the Prince wounded, Lord John of Lancaster, Earl of Westmorland.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -5397,7 +5606,7 @@
 <line>Our duty this way lies; for God&#8217;s sake come.</line>
 </speech>
 
-<stagedir>Exeunt Prince John and Westmorland.</stagedir>
+<stagedir type="exit">Exeunt Prince John and Westmorland.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -5420,8 +5629,8 @@
 <line>Lends mettle to us all!</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
-<stagedir>Enter Douglas.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
+<stagedir type="enter">Enter Douglas.</stagedir>
 
 <speech>
 <speaker>DOUG.</speaker>
@@ -5449,7 +5658,9 @@
 <line>And thus I win thee.</line>
 </speech>
 
-<stagedir>They fight; the King being in danger, enter Prince of Wales.</stagedir>
+<stagedir type="fight">They fight; the King being in danger.</stagedir>
+
+<stagedir type="enter">Enter Prince of Wales.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -5458,8 +5669,7 @@
 <line>Of valiant Shirley, Stafford, Blunt are in my arms.</line>
 <line>It is the Prince of Wales that threatens thee,</line>
 <line>Who never promiseth but he means to pay.</line>
-
-<stagedir>They fight: Douglas flieth.</stagedir>
+<stagedir type="fight">They fight: Douglas flieth.</stagedir>
 <line>Cheerly, my lord, how fares your Grace?</line>
 <line>Sir Nicholas Gawsey hath for succor sent,</line>
 <line>And so hath Clifton. I&#8217;ll to Clifton straight.</line>
@@ -5489,9 +5699,9 @@
 <line>Make up to Clifton, I&#8217;ll to Sir Nicholas Gawsey.</line>
 </speech>
 
-<stagedir>Exit King.</stagedir>
+<stagedir type="exit">Exit King.</stagedir>
 
-<stagedir>Enter Hotspur.</stagedir>
+<stagedir type="enter">Enter Hotspur.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -5538,16 +5748,16 @@
 <line>I can no longer brook thy vanities.</line>
 </speech>
 
-<stagedir>They fight.</stagedir>
+<stagedir type="fight">They fight.</stagedir>
 
-<stagedir>Enter Falstaff.</stagedir>
+<stagedir type="enter">Enter Falstaff.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>Well said, Hal! To it, Hal! Nay, you shall find no boy&#8217;s play here, I can tell you.</line>
 </speech>
 
-<stagedir>Enter Douglas; he fighteth with Falstaff. He, Falstaff, falls down as if he were dead and exit Douglas. The Prince killeth Percy.</stagedir>
+<stagedir type="enter">Enter Douglas; he fighteth with Falstaff. He, Falstaff, falls down as if he were dead and exit Douglas. The Prince killeth Percy.</stagedir>
 
 <speech>
 <speaker>HOT.</speaker>
@@ -5562,7 +5772,7 @@
 <line>Lies on my tongue. No, Percy, thou art dust,</line>
 <line>And food for&#8212;</line>
 
-<stagedir>Dies.</stagedir>
+<stagedir type="death" actor="HOT.">Dies.</stagedir>
 </speech>
 
 <speech>
@@ -5583,7 +5793,7 @@
 <line>Thy ignominy sleep with thee in the grave,</line>
 <line>But not rememb&#8217;red in thy epitaph!</line>
 
-<stagedir>He spieth Falstaff on the ground.</stagedir>
+<stagedir type="action">He spieth Falstaff on the ground.</stagedir>
 <line>What, old acquaintance! Could not all this flesh</line>
 <line>Keep in a little life? Poor Jack, farewell!</line>
 <line>I could have better spar&#8217;d a better man.</line>
@@ -5595,18 +5805,19 @@
 <line>Till then in blood by noble Percy lie.</line>
 </speech>
 
-<stagedir>Exit. Falstaff riseth up.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
+<stagedir type="action">Falstaff riseth up.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>Embowell&#8217;d! If thou embowel me today, I&#8217;ll give you leave to powder me and eat me too tomorrow. &#8217;Sblood, &#8217;twas time to counterfeit, or that hot termagant Scot had paid me scot and lot too. Counterfeit? I lie, I am no counterfeit. To die is to be a counterfeit, for he is but the counterfeit of a man who hath not the life of a man; but to counterfeit dying, when a man thereby liveth, is to be no counterfeit, but the true and perfect image of life indeed. The better part of valor is discretion, in the which better part I have sav&#8217;d my life. &#8217;Zounds, I am afraid of this gunpowder Percy though he be dead. How if he should counterfeit too and rise? By my faith, I am afraid he would prove the better counterfeit. Therefore I&#8217;ll make him sure, yea, and I&#8217;ll swear I kill&#8217;d him. Why may not he rise as well as I? Nothing confutes me but eyes, and nobody sees me. Therefore, sirrah,</line>
-<stagedir>stabbing him</stagedir>
+<stagedir type="fight">Stabbing him</stagedir>
 <line>with a new wound in your thigh, come you along with me.</line>
 </speech>
 
-<stagedir>He takes up Hotspur on his back.</stagedir>
+<stagedir type="action">He takes up Hotspur on his back.</stagedir>
 
-<stagedir>Enter Prince and John of Lancaster.</stagedir>
+<stagedir type="enter">Enter Prince and John of Lancaster.</stagedir>
 
 <speech>
 <speaker>PRINCE.</speaker>
@@ -5632,7 +5843,7 @@
 <speech>
 <speaker>FAL.</speaker>
 <line>No, that&#8217;s certain, I am not a double man; but if I be not Jack Falstaff, then am I a Jack. There is Percy.</line>
-<stagedir>Throwing the body down.</stagedir>
+<stagedir type="fight">Throwing the body down.</stagedir>
 <line>If your father will do me any honor, so; if not, let him kill the next Percy himself. I look to be either earl or duke, I can assure you.</line>
 </speech>
 
@@ -5658,20 +5869,20 @@
 <line>For my part, if a lie may do thee grace,</line>
 <line>I&#8217;ll gild it with the happiest terms I have.</line>
 
-<stagedir>A retrait is sounded.</stagedir>
+<stagedir type="action">A retrait is sounded.</stagedir>
 <line>The trumpet sounds retrait, the day is our.</line>
 <line>Come, brother, let us to the highest of the field,</line>
 <line>To see what friends are living, who are dead.</line>
 </speech>
 
-<stagedir>Exeunt Prince and Lancaster.</stagedir>
+<stagedir type="exit">Exeunt Prince and Lancaster.</stagedir>
 
 <speech>
 <speaker>FAL.</speaker>
 <line>I&#8217;ll follow, as they say, for reward. He that rewards me, God reward him! If I do grow great, I&#8217;ll grow less, for I&#8217;ll purge and leave sack, and live cleanly as a nobleman should do.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 </scene>
 
@@ -5679,8 +5890,9 @@
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
 <scenepersonae>(Prince of Wales, Lord John of Lancaster, Earl of Westmorland, Worcester, Vernon prisoners)</scenepersonae>
+<scenedescription>The King sends Worcester and Vernon to their deaths. Hal, however, pleads for Douglas&#8217;s life, which is granted him. The King divides his armies to fight the remaining rebels at York and in Wales.</scenedescription>
 
-<stagedir>The trumpets sound. Enter the King, Prince of Wales, Lord John of Lancaster, Earl of Westmorland, with Worcester and Vernon prisoners.</stagedir>
+<stagedir type="enter">The trumpets sound. Enter the King, Prince of Wales, Lord John of Lancaster, Earl of Westmorland, with Worcester and Vernon prisoners.</stagedir>
 
 <speech>
 <speaker>KING.</speaker>
@@ -5708,7 +5920,7 @@
 <line>Bear Worcester to the death and Vernon too.</line>
 <line>Other offenders we will pause upon.</line>
 
-<stagedir>Exeunt Worcester and Vernon, guarded.</stagedir>
+<stagedir type="exit">Exeunt Worcester and Vernon, guarded.</stagedir>
 <line>How goes the field?</line>
 </speech>
 
@@ -5761,7 +5973,7 @@
 <line>Let us not leave till all our own be won.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -5770,11 +5982,8 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2012 by PlayShakespeare.com</copyright>
-<version>3.1</version>
-<license>GFDL License 1.3</license>
-<licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
-<termsurl>http://www.playshakespeare.com/license</termsurl>
-<notice>This copyright notice may not be removed under any circumstance.</notice>
+<version>3.1a</version>
+<license>This document is strictly copyrighted and may not be copied, altered, or distributed.</license>
 </sourcedetails>
 
 </play>

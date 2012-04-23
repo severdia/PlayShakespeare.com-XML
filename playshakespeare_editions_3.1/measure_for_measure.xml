@@ -1,18 +1,149 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
 
-<play unique="measure-for-measure">
+<play>
 <title short="Measure for Measure">Measure for Measure</title>
 <playwright>William Shakespeare</playwright>
+
+<personae playtitle="Measure for Measure">
+<persona gender="male">
+<persname short="DUKE.">Vincentio, the Duke</persname>
+<persdescription>Duke Vincentio is the ruler of Vienna. He does not much enjoy pomp and circumstance, and has spent a great deal of time off in his study, during which time many laws in his city have gone disregarded. Not wishing to be seen as a tyrant by suddenly changing his mind on the subject, he goes on a trip, leaving his powers in the hands of a man he knows will reestablish the rigors of the laws. At the same time, he decides to find out whether Angelo is in fact as pure as he seems to be, and disguises himself as a monk to keep an eye on matters. He is manipulative, though always with reasonably good motives. He prepares Claudio to die even though fully intending to save his life. He has known for a long time about Mariana&#8217;s betrayal by Angelo, and decides to take this opportunity to fix the situation for her. He also takes the opportunity of his disguise to try and find out what people think of him, and is shocked at Lucio&#8217;s slanders, as he thinks rather well of himself. Having a flair for the theatrical, he arranges matters to have the most dramatic reveal possible. Once he has let everyone know that he has been there all along and could have stepped in at any moment to stop things from going too far, that he could have demoted Angelo earlier and easily have saved Claudio&#8217;s life, but preferred to remain disguised, watch how things went and make them more interesting, he asks Isabella to marry him. She gives no answer, and he has to ask twice. He is very concerned that his own reputation be upheld, and is a firm defender of monarchs&#8217; rights to be considered the best of men.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="ANG.">Angelo</persname>
+<persaliases>
+	<persname short="BOTH. ANG. AND ESCAL.">Both Angelo and Escalus</persname>
+</persaliases>
+<persdescription>Angelo is a nobleman of Vienna chosen by the Duke to replace him during his absence. He is a morally rigorous puritan, inflexible, incorruptible, and well-known to be so; he is aware of all these facts, particularly the last. He either does not feel emotions or has disciplined himself to the extent that they have no effect on him. He abandoned Mariana, to whom he was betrothed, when her brother died and she found herself without money, and refused to offer her any consolation. Given the Duke&#8217;s full power during the latter&#8217;s absence, he immediately begins to impose his own moral rectitude on everyone, closing the brothels and condemning Claudio to death for knocking up his girlfriend. He rejects all of Escalus&#8217;s pleas for moderation. Isabella&#8217;s virtue, however, is just what it takes to seduce him. He is aware that what he is doing is wrong, and does all he can to hide it. Fully aware of his reputation for probity, he is willing to use it against Isabella and to protect himself. He brazens it out in front of the Duke, but when everything is revealed he is left hoping for nothing other than death, which he admits he deserves.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="ESCAL.">Escalus</persname>
+<persaliases>
+	<persname short="BOTH. ANG. AND ESCAL.">Both Angelo and Escalus</persname>
+</persaliases>
+<persdescription>Escalus is an old lord at the Viennese court, a kind-hearted man who does not approve of over-severity. When the Duke leaves Vienna and has Angelo replace him, Escalus is named Angelo&#8217;s second-in-command. He insists to Angelo that he must at all times be allowed to speak his mind, though he will obey him. He attempts to convince Angelo to be less severe, believing death to be too great a punishment for doing something all men are tempted by. He is moved by Claudio&#8217;s plight and tries all he can to convince Angelo not to have him executed, especially as Claudio is a nobleman. He also lets Pompey and Mistress Overdone off with warnings until they&#8217;re caught once too often. He is deeply loyal and is outraged when Angelo&#8217;s virtue is called into question, and even more so when he hears of the Duke being slandered. His tender-heartedness does not include slanderers.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="CLAUD.">Claudio</persname>
+<persdescription>Claudio is a young gentleman of Vienna. Being betrothed to Juliet and fully intending to marry her, though waiting for financial reasons, he sleeps with her and gets her pregnant. As a rule this would not be an issue, but with Angelo enforcing the laws he finds himself arrested and scheduled to have his head chopped off. He does not enjoy being made a public show, and finds himself talking too much when he has a chance to speak with someone. No matter how much he prepares himself for the idea of death and convinces himself that he is ready to die, he still finds himself deeply fearful at the concept and grasps at any straw that will allow him to live. He respects his sister Isabella&#8217;s abilities, and loves her though in the fear of death he is willing to trade her chastity for his life. He is an immature young man, though old enough that he is bearded.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="LUCIO.">Lucio</persname>
+<persdescription>Lucio is a fop well-acquainted with brothels, who turns everything to dirty jokes. He has a bastard son by one of the prostitutes at Mistress Overdone&#8217;s, a fact he has denied in court for fear of being made to marry the mother. An egotist, he cannot resist thrusting himself into the spotlight. He is friendly to everyone he meets and speaks a great deal of his close links to the powerful, but cannot stop himself from slandering everyone the moment they are out of sight, up to and including the Duke, with the exception of Claudio, whose friend he is. He refuses to bail out Pompey, and informs on Mistress Overdone, with the result that both are carted off to jail. He is not the most pleasing of people; but it must be remembered that he does go, at Claudio&#8217;s request, to tell Isabella of her brother&#8217;s condemnation and to ask her to plead for his life to Angelo, and gives her good advice on how to do so &#8212; even if the result of this is not exactly what he and Claudio had in mind.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="PROV.">Provost</persname>
+<persdescription>The Provost is in charge of the jail and its prisoners, and of showing Claudio off in the streets as an example before his execution. He is not very happy about Claudio&#8217;s sentence, as he likes the lad and thinks that the fault was small enough. Since in the past he has had prisoners executed only to see them reprieved a bit too late, he double-checks in this case, as he is hopeful Angelo will relent. He is as kind to Claudio as his job allows, and lets himself be convinced by the disguised Duke to cheat Angelo and send someone else&#8217;s head in the place of Claudio&#8217;s.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="FRI. PET.">Friar Peter Thomas</persname>
+<persdescription>Friar Peter Thomas is a monk who helps the Duke in his deception, giving him his monk&#8217;s robe and teaching him how to play the part convincingly. He suspects at first that the Duke is disguising himself for the sake of seducing some woman or other. The Duke later lets him know the whole story of Isabella and Mariana, and has him help with the staging of their denunciation of Angelo.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="JUST.">Justice</persname>
+<persdescription>A Justice attends on Angelo and Escalus as they discuss how they will bring back the laws in full force.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="VARR.">Varrius</persname>
+<persdescription>Varrius [mute role] is a lord, a friend of the Duke&#8217;s. He accompanies the Duke on his supposed return from abroad.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="ELB.">Elbow</persname>
+<persdescription>Elbow is a constable, a man from the lower classes who constantly mangles his words. One of the officers charged by Angelo with cleaning up Vienna, he arrests Elbow and Froth, suspecting that the latter is having an affair with his wife. He is very concerned that it not be thought he had premarital sex with said wife.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="FROTH.">Froth</persname>
+<persdescription>Froth is a foolish gentleman who spends a great deal of his time in taverns. His father has recently died, leaving him a rich man. He will not look Escalus in the face when he is brought before the lord for being found in a brothel, and does not speak much. He is a good-looking man, or at least an inoffensive-looking one.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="POM.">Pompey</persname>
+<persdescription>Pompey Bum is Mistress Overdone&#8217;s bartender, and helps her in her pimping. He speaks a great deal and can almost talk his way out of risky situations simply by gabbling on so much that he wears out his listener. Though sent off with only a warning from Escalus the first time he is arrested for being a pimp, he returns immediately to his trade. He believes Lucio to be a genuine friend of his. He accepts to become an executioner&#8217;s assistant to gain his freedom, and is amused to recognize almost everyone imprisoned as former clients of Mistress Overdone&#8217;s. He is a fellow with a large rear end.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="ABHOR.">Abhorson</persname>
+<persdescription>Abhorson is an executioner, who takes great pride in his job. He looks down on Pompey for being a pimp, considering him to be even lower on the social scale than he is himself, and is concerned that employing a pimp will bring executioners into disrepute.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="BAR.">Barnardine</persname>
+<persdescription>Barnardine is a murderer who has been in jail for nine years without being executed. Slothful and drunken, he has rich and powerful friends who have helped him stay alive. The ultimate individualist, he simply refuses to be executed while he&#8217;s hung over; since this is his permanent state, he remains alive to this day. He is completely unafraid of death or any form of punishment.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="ISAB.">Isabella</persname>
+<persdescription>Isabella is Claudio&#8217;s sister, a devout, unbending novice to the order of Saint Clare, though she does not find them rigorous enough and wishes she could be even more strongly restricted by them. She is convinced by Lucio to plead for her brother&#8217;s life to Angelo, though needs the fop&#8217;s instructions on how to do so; she finds it a difficult task given that she quite agrees with Claudio&#8217;s death sentence and the reasoning behind it. She is fixated on her chastity and convinced that everyone holds it as highly as she does herself; she rejects all arguments distinguishing between chastity and virginity. Betrayed first by discovering that Angelo, an admirable man from her point of view, has become a lustful hypocrite, then by finding out that Claudio would prefer she let herself be raped rather than he be executed, she is consoled by the disguised Duke. She accepts his plan despite its questionable morality. She likes Mariana, and is persuaded by her to plead for Angelo&#8217;s life. She does not easily manage emotions other than judgmental anger, and is possibly a repressed masochist. Her reaction to the Duke&#8217;s proposal of marriage is unknown, though it is noticeable that he has to ask her twice.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="MARI.">Mariana</persname>
+<persdescription>Mariana is a young lady of Vienna who was once betrothed to Angelo. Her family&#8217;s wealth was lost when her brother drowned at sea, and as a result Angelo broke his promise to marry her. With her reputation damaged by his slandering her as an excuse, she retreated to an isolated priory. Though deeply depressed, she is still in love with Angelo five years after this happened. Willing to do anything to recapture his attention, she accepts to replace Isabella, thereby consummating her marriage without Angelo being aware of it. She plays her part before the Duke and is rewarded by being officially wed to Angelo, but must immediately plead for his life. She feels life to be rather cruel to her. Mariana is unaware that the consoling friar she often speaks to is in fact the disguised Duke.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="JUL.">Juliet</persname>
+<persdescription>Juliet is Claudio&#8217;s betrothed. A simple girl and a childhood friend of Isabella&#8217;s, she slept with him since they were going to be married, and ended up pregnant. She is confused as to why her fianc&#233; is going to be executed for something barely even immoral, since they has perfectly consensual sex and had not married yet only for monetary reasons. Very close to giving birth, she is remorseful when questioned by a priest, and does not object to his dreadful puns about her pregnancy.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="FRAN.">Francisca</persname>
+<persdescription>Francisca is a nun of the order of Saint Clare, who is in charge of instructing the novice Isabella as the latter prepares to take her vows.</persdescription>
+</persona>
+
+<persona gender="female">
+<persname short="MRS. OV.">Mistress Overdone</persname>
+<persdescription>Mistress Overdone is a madam. When her brothel is closed down by Angelo&#8217;s order, she quickly opens another one elsewhere. She feels very hard-done by, as a great number of men are ill, in the army, or too poor to be able to afford to use her services even before it becomes dangerous to do so. She continues to ply her trade even after three warnings, and is arrested for it.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="SERV.">Servant</persname>
+<persdescription>A Servant is Angelo&#8217;s doorman, in charge of letting him know when people wish to speak with him.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="1. GENT.">First Gentleman</persname>
+<persdescription>The First Gentleman is a fop, who spends a fair deal of time in brothels but is certain he has not caught any diseases there. He knows his clothes and his types of fabric very well, and has no desire for the King of Hungary to impose his policy on Vienna.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="2. GENT.">Second Gentleman</persname>
+<persdescription>The Second Gentleman is a fop, but one outclassed in wit by Lucio and the First Gentleman. He is not much of a churchgoer.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="BOY.">Boy</persname>
+<persdescription>A Boy attends on Mariana, singing sad songs to her to ease her boredom.</persdescription>
+</persona>
+
+<persona gender="male">
+<persname short="MESS.">Messenger</persname>
+<persdescription>A Messenger brings Claudio&#8217;s final death warrant to the Provost with warnings from Angelo to have it executed quickly.</persdescription>
+</persona>
+
+</personae>
+
 
 <act num="1">
 <acttitle>Act 1</acttitle>
 <scene num="1">
 <scenetitle>Scene 1</scenetitle>
-<scenelocation>An apartment in the Duke&#8217;s palace.</scenelocation>
+<scenelocation>Vienna. An apartment in the Duke&#8217;s palace.</scenelocation>
 <scenepersonae>(Duke, Escalus, Lords, Attendants, Angelo)</scenepersonae>
+<scenedescription>The Duke is leaving, entrusting the government in his absence to Angelo and Escalus. He slips away from the city, not wishing to be seen by the people. Angelo and Escalus confer, the latter requesting permission to speak freely as they go to find out exactly what powers they have.</scenedescription>
 
-<stagedir>Enter Duke, Escalus, Lords, and Attendants.</stagedir>
+<stagedir type="enter">Enter Duke, Escalus, Lords, and Attendants.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -40,7 +171,7 @@
 <line>From which we would not have you warp. Call hither,</line>
 <line>I say, bid come before us Angelo.</line>
 
-<stagedir>Exit an Attendant.</stagedir>
+<stagedir type="exit">Exit an Attendant.</stagedir>
 <line>What figure of us think you he will bear?</line>
 <line>For you must know, we have with special soul</line>
 <line>Elected him our absence to supply,</line>
@@ -56,7 +187,7 @@
 <line>It is Lord Angelo.</line>
 </speech>
 
-<stagedir>Enter Angelo.</stagedir>
+<stagedir type="enter">Enter Angelo.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -154,7 +285,7 @@
 <line>I thank you. Fare you well.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -177,16 +308,17 @@
 <line offset="4">I&#8217;ll wait upon your honor.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="2">
 <scenetitle>Scene 2</scenetitle>
-<scenelocation>A street.</scenelocation>
+<scenelocation>Vienna. A street.</scenelocation>
 <scenepersonae>(Lucio, Gentlemen, Mistress Overdone, Pompey, Provost, Claudio, Juliet, Officers)</scenepersonae>
+<scenedescription>Lucio is talking to two gentlemen, discussing polotics and joking. Mistress Overdone, their favorite bawd, approaches. She tells them that Claudio has been arrested and is to be executed for having got Juliet pregnant. The men leave to find out more while mistress Overdone complains about how poor business is getting. Her servant Pompey arrives to inform her that a new proclamation orders that all houses of prostitution in the suburbs of Vienna will be pulled down. The bawd wonders what will become of her, but Pompey consoles her by pointing out that changing houses does not mean she has to change her job. Claudio, on his way to prison, is met by Lucio and the two gentlemen. He explains that he and Juliet were contracted to be married, and simply hadn&#8217;t announced it yet for financial reasons, so their sleeping together wasn&#8217;t even adultery; but Angelo has revived a forgotten law that sentences him to death. Lucio advises appealing to the Duke, but the latter is nowhere to be found. Claudio&#8217;s one hope is that his sister Isabella, who is training to become a nun, will plead for him with Angelo; he asks Lucio to visit Isabella and convince her to do so.</scenedescription>
 
-<stagedir>Enter Lucio and two other Gentlemen.</stagedir>
+<stagedir type="enter">Enter Lucio and two other Gentlemen.</stagedir>
 
 <speech>
 <speaker>LUCIO.</speaker>
@@ -288,7 +420,7 @@
 <line>Yes, that thou hast; whether thou art tainted or free.</line>
 </speech>
 
-<stagedir>Enter Bawd Mistress Overdone.</stagedir>
+<stagedir type="enter">Enter Bawd Mistress Overdone.</stagedir>
 
 <speech>
 <speaker>LUCIO.</speaker>
@@ -396,13 +528,13 @@
 <line>Away! Let&#8217;s go learn the truth of it.</line>
 </speech>
 
-<stagedir>Exit with Gentlemen.</stagedir>
+<stagedir type="exit">Exit with Gentlemen.</stagedir>
 
 <speech>
 <speaker>MRS. OV.</speaker>
 <line>Thus, what with the war, what with the sweat, what with the gallows, and what with poverty, I am custom-shrunk.</line>
 
-<stagedir>Enter Clown Pompey.</stagedir>
+<stagedir type="enter">Enter Clown Pompey.</stagedir>
 <line>How now? What&#8217;s the news with you?</line>
 </speech>
 
@@ -491,8 +623,8 @@
 <line>Here comes Signior Claudio, led by the Provost to prison; and there&#8217;s Madam Juliet.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir>
-<stagedir>Enter Provost, Claudio, Juliet, Officers.</stagedir>
+<stagedir type="exit">Exeunt.</stagedir>
+<stagedir type="enter">Enter Provost, Claudio, Juliet, Officers.</stagedir>
 
 <speech>
 <speaker>CLAUD.</speaker>
@@ -514,7 +646,7 @@
 <line>On whom it will not, so; yet still &#8217;tis just.</line>
 </speech>
 
-<stagedir>Enter Lucio and two Gentlemen.</stagedir>
+<stagedir type="enter">Enter Lucio and two Gentlemen.</stagedir>
 
 <speech>
 <speaker>LUCIO.</speaker>
@@ -658,16 +790,17 @@
 <line offset="4">Come, officer, away!</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="3">
 <scenetitle>Scene 3</scenetitle>
-<scenelocation>A monastery.</scenelocation>
+<scenelocation>Vienna. A monastery.</scenelocation>
 <scenepersonae>(Duke, Friar Peter)</scenepersonae>
+<scenedescription>The Friar is suspicious that the Duke has hidden himself away to pursue a love affair, but the duke insists that the real reason is that he is aware that he has been too lenient a ruler, and that therefore Vienna has sunk into depravity. Since he does not think he would be able to suddenly begin enforcing the laws, he has handed over government to Angelo, who is a stickler for the rules. At the same time, the Duke is curious to see how Angelo rules, and whether holding power will corrupt him.</scenedescription>
 
-<stagedir>Enter Duke and Friar Peter.</stagedir>
+<stagedir type="enter">Enter Duke and Friar Peter.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -754,16 +887,17 @@
 <line>If power change purpose: what our seemers be.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="4">
 <scenetitle>Scene 4</scenetitle>
-<scenelocation>A nunnery.</scenelocation>
+<scenelocation>Vienna. A nunnery.</scenelocation>
 <scenepersonae>(Isabel, Francisca, Lucio)</scenepersonae>
+<scenedescription>Isabella discusses the restrictions that the nuns of her order face with Sister Francisca, and wishes they were more stringent. Lucio arrives; as Isabella is still only a novice, she is allowed to speak to the man, while Francisca is not. Lucio explains to Isabella that her brother is in jail and likely to die, and explains the cause; Isabella is not overly sympathetic, though at first thinks that the easiest solution is simply that Claudio and Juliet marry. Lucio agrees that would be the best idea, but explains that the Duke is gone and the punctilious Angelo is ruling instead. Though she doubts she will have any effect, Isabella agrees to plead with angelo for her brother&#8217;s life.</scenedescription>
 
-<stagedir>Enter Isabel and Francisca, a nun.</stagedir>
+<stagedir type="enter">Enter Isabel and Francisca, a nun.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -784,7 +918,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Ho! Peace be in this place!</line>
 </speech>
 
@@ -805,14 +939,14 @@
 <line>He calls again; I pray you answer him.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
 <line>Peace and prosperity! Who is&#8217;t that calls?</line>
 </speech>
 
-<stagedir>Enter Lucio.</stagedir>
+<stagedir type="enter">Enter Lucio.</stagedir>
 
 <speech>
 <speaker>LUCIO.</speaker>
@@ -1001,7 +1135,7 @@
 <line offset="5">Good sir, <french xml:lang="fr">adieu</french>.</line>
 </speech>
 
-<stagedir>Exeunt severally.</stagedir> 
+<stagedir type="exit">Exeunt severally.</stagedir> 
 
 </scene>
 </act>
@@ -1012,8 +1146,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Escalus, Servants, Justice, Provost, Elbow, Froth, Pompey, Officers)</scenepersonae>
+<scenedescription>Angelo argues that the laws must be enforced for them to be anything but a mockery, while Escalus pleads that they should not go too far, arguing that Claudio&#8217;s fault is fairly common. Angelo is adamant, however, pointing out that being tempted and actually going through with the temptation are two different things. Elbow, a constable who has been charged with helping to clean up Vienna, brings in Froth and Pompey, whom he has found in a brothel. In mangled language they argue over the circumstances of the arrest, until Angelo is so bored that he walks out. Escalus, left in charge, resolves the matter kindly, dismissing Froth and threatening Pompey with a whipping if he continues to act as a pimp. Having rid himself of the fools, Escalus continues to meditate on the pity of Claudio&#8217;s death.</scenedescription>
 
-<stagedir>Enter Angelo, Escalus, and Servants, Justice.</stagedir>
+<stagedir type="enter">Enter Angelo, Escalus, and Servants, Justice.</stagedir>
 
 <speech>
 <speaker>ANG.</speaker>
@@ -1059,7 +1194,7 @@
 <line>And nothing come in partial. Sir, he must die.</line>
 </speech>
 
-<stagedir>Enter Provost.</stagedir>
+<stagedir type="enter">Enter Provost.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -1084,7 +1219,7 @@
 <line>For that&#8217;s the utmost of his pilgrimage.</line>
 </speech>
 
-<stagedir>Exit Provost.</stagedir>
+<stagedir type="exit">Exit Provost.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -1094,7 +1229,7 @@
 <line>And some condemned for a fault alone.</line>
 </speech>
 
-<stagedir>Enter Elbow, Froth, Clown Pompey, Officers.</stagedir>
+<stagedir type="enter">Enter Elbow, Froth, Clown Pompey, Officers.</stagedir>
 
 <speech>
 <speaker>ELB.</speaker>
@@ -1129,7 +1264,7 @@
 <speech>
 <speaker>ANG.</speaker>
 <line>Go to; what quality are they of? Elbow is your name?</line>
-<stagedir>A pause.</stagedir>
+<stagedir type="action">A pause.</stagedir>
 <line>Why dost thou not speak, Elbow?</line>
 </speech>
 
@@ -1310,7 +1445,7 @@
 <speaker>ESCAL.</speaker>
 <line>I think no less. Good morrow to your lordship.</line>
 
-<stagedir>Exit Angelo.</stagedir>
+<stagedir type="exit">Exit Angelo.</stagedir>
 <line>Now, sir, come on. What was done to Elbow&#8217;s wife, once more?</line>
 </speech>
 
@@ -1447,7 +1582,7 @@
 <speech>
 <speaker>ESCAL.</speaker>
 <line>So.</line>
-<stagedir>To Pompey.</stagedir>
+<stagedir type="speak">To Pompey.</stagedir>
 <line>What trade are you of, sir?</line>
 </speech>
 
@@ -1489,7 +1624,7 @@
 <speech>
 <speaker>ESCAL.</speaker>
 <line>Well; no more of it, Master Froth. Farewell.</line>
-<stagedir>Exit Froth.</stagedir>
+<stagedir type="exit">Exit Froth.</stagedir>
 <line>Come you hither to me, Master Tapster. What&#8217;s your name, Master Tapster?</line>
 </speech>
 
@@ -1566,13 +1701,13 @@
 <speech>
 <speaker>POM.</speaker>
 <line>I thank your worship for your good counsel;</line>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line>but I shall follow it as the flesh and fortune shall better determine.</line>
 <line>Whip me? No, no, let carman whip his jade,</line>
 <line>The valiant heart&#8217;s not whipt out of his trade.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -1617,7 +1752,7 @@
 <speech>
 <speaker>ESCAL.</speaker>
 <line>To my house. Fare you well.</line>
-<stagedir>Exit Elbow.</stagedir>
+<stagedir type="exit">Exit Elbow.</stagedir>
 <line>What&#8217;s a&#8217; clock, think you?</line>
 </speech>
 
@@ -1656,16 +1791,17 @@
 <line>Come, sir.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="2">
 <scenetitle>Scene 2</scenetitle>
-<scenelocation>Another room in the same.</scenelocation>
+<scenelocation>Another room in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Provost, Servant, Angelo, Lucio, Isabella)</scenepersonae>
+<scenedescription>The Provost, who feels it is a shame that Claudio should die when so many others have committed the same crime, comes to double-check with Angelo that the execution is to go on. He also asks for instructions regarding Juliet, who is close to giving birth. Angelo gives orders that she be treated reasonably well, as he agrees to see Isabella. The novice makes a half-hearted plea for her brother, but Angelo&#8217;s logical answer defeats her, since she actually agrees with him, and she turns to go. Lucio tells her to plead better, pushing her to be more emotional, and she slowly begins to do so. Angelo is adamant, but Isabella&#8217;s arguments begin to make some headway, and he agrees to see her again the next morning. Left alone, Angelo realizes that he has been captivated by Isabella&#8217;s modesty, and that he lusts after her.</scenedescription>
 
-<stagedir>Enter Provost, Servant.</stagedir>
+<stagedir type="enter">Enter Provost, Servant.</stagedir>
 
 <speech>
 <speaker>SERV.</speaker>
@@ -1677,7 +1813,7 @@
 <speaker>PROV.</speaker>
 <line offset="4">Pray you do.</line>
 
-<stagedir>Exit Servant.</stagedir>
+<stagedir type="exit">Exit Servant.</stagedir>
 <line offset="7">I&#8217;ll know</line>
 <line>His pleasure, may be he will relent. Alas,</line>
 <line>He hath but as offended in a dream!</line>
@@ -1685,7 +1821,7 @@
 <line>To die for&#8217;t!</line>
 </speech>
 
-<stagedir>Enter Angelo.</stagedir>
+<stagedir type="enter">Enter Angelo.</stagedir>
 
 <speech>
 <speaker>ANG.</speaker>
@@ -1731,7 +1867,7 @@
 <line>To some more fitter place; and that with speed.</line>
 </speech>
 
-<stagedir>Enter Servant.</stagedir>
+<stagedir type="enter">Enter Servant.</stagedir>
 
 <speech>
 <speaker>SERV.</speaker>
@@ -1755,13 +1891,13 @@
 <speaker>ANG.</speaker>
 <line>Well; let her be admitted.</line>
 
-<stagedir>Exit Servant.</stagedir>
+<stagedir type="exit">Exit Servant.</stagedir>
 <line>See you the fornicatress be remov&#8217;d.</line>
 <line>Let her have needful but not lavish means;</line>
 <line>There shall be order for&#8217;t.</line>
 </speech>
 
-<stagedir>Enter Lucio and Isabella.</stagedir>
+<stagedir type="enter">Enter Lucio and Isabella.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -1772,7 +1908,7 @@
 <speaker>ANG.</speaker>
 <line>Stay a little while.</line>
 
-<stagedir>To Isabella.</stagedir>
+<stagedir type="speak">To Isabella.</stagedir>
 <line offset="4">Y&#8217; are welcome; what&#8217;s your will?</line>
 </speech>
 
@@ -1810,7 +1946,7 @@
 
 <speech>
 <speaker>PROV.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line>Heaven give thee moving graces!</line>
 </speech>
 
@@ -1831,7 +1967,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>Give&#8217;t not o&#8217;er so. To him again, entreat him,</line>
 <line>Kneel down before him, hang upon his gown;</line>
 <line>You are too cold. If you should need a pin,</line>
@@ -1884,7 +2020,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>You are too cold.</line>
 </speech>
 
@@ -1916,7 +2052,7 @@
 </speech>
 
 <speech>
-<speaker>LUCIO.</speaker> <stagedir>Aside to Isabella.</stagedir>
+<speaker>LUCIO.</speaker> <stagedir type="aside">Aside to Isabella.</stagedir>
 <line offset="4">Ay, touch him; there&#8217;s the vein.</line>
 </speech>
 
@@ -1959,7 +2095,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line offset="7">Ay, well said.</line>
 </speech>
 
@@ -2002,7 +2138,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line offset="4">That&#8217;s well said.</line>
 </speech>
 
@@ -2026,14 +2162,14 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>O, to him, to him, wench! He will relent.</line>
 <line>He&#8217;s coming; I perceive&#8217;t.</line>
 </speech>
 
 <speech>
 <speaker>PROV.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line offset="5">Pray heaven she win him!</line>
 </speech>
 
@@ -2046,7 +2182,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>Thou&#8217;rt i&#8217; th&#8217; right, girl, more o&#8217; that.</line>
 </speech>
 
@@ -2058,7 +2194,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>Art avis&#8217;d o&#8217; that? More on&#8217;t.</line>
 </speech>
 
@@ -2081,7 +2217,7 @@
 
 <speech>
 <speaker>ANG.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line offset="5">She speaks, and &#8217;tis</line>
 <line>Such sense that my sense breeds with it.&#8212;Fare you well.</line>
 </speech>
@@ -2113,7 +2249,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>You had marr&#8217;d all else.</line>
 </speech>
 
@@ -2135,7 +2271,7 @@
 
 <speech>
 <speaker>LUCIO.</speaker>
-<stagedir>Aside to Isabella.</stagedir>
+<stagedir type="aside">Aside to Isabella.</stagedir>
 <line>Go to; &#8217;tis well. Away!</line>
 </speech>
 
@@ -2146,7 +2282,7 @@
 
 <speech>
 <speaker>ANG.</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line offset="6">Amen!</line>
 <line>For I am that way going to temptation,</line>
 <line>Where prayers cross.</line>
@@ -2168,7 +2304,7 @@
 <line>&#8217;Save your honor!</line>
 </speech>
 
-<stagedir>Exeunt Isabella, Lucio, and Provost.</stagedir>
+<stagedir type="exit">Exeunt Isabella, Lucio, and Provost.</stagedir>
 
 <speech>
 <speaker>ANG.</speaker>
@@ -2200,7 +2336,7 @@
 <line>When men were fond, I smil&#8217;d and wond&#8217;red how.</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 
@@ -2208,8 +2344,9 @@
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in a prison.</scenelocation>
 <scenepersonae>(Duke, Provost, Juliet)</scenepersonae>
+<scenedescription>Disguised as a friar, the Duke arrives at the prison and asks the Provost permission to console the prisoners. The Provost tells him about Claudio and Juliet, and the fact that Claudio must die. The Duke speaks with Juliet to find out if she is repentant and whether the crime was mutually committed, then goes to speak with Claudio. Juliet is distraught to hear how soon Claudio will die.</scenedescription>
 
-<stagedir>Enter Duke disguised as a friar and Provost, meeting.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar and Provost, meeting.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -2235,7 +2372,7 @@
 <speaker>PROV.</speaker>
 <line>I would do more than that, if more were needful.</line>
 
-<stagedir>Enter Juliet.</stagedir>
+<stagedir type="enter">Enter Juliet.</stagedir>
 <line>Look, here comes one; a gentlewoman of mine,</line>
 <line>Who, falling in the flaws of her own youth,</line>
 <line>Hath blister&#8217;d her report. She is with child,</line>
@@ -2253,7 +2390,7 @@
 <speaker>PROV.</speaker>
 <line offset="4">As I do think, tomorrow.</line>
 
-<stagedir>To Juliet.</stagedir>
+<stagedir type="speak">To Juliet.</stagedir>
 <line>I have provided for you. Stay a while,</line>
 <line>And you shall be conducted.</line>
 </speech>
@@ -2334,7 +2471,7 @@
 <line>Grace go with you, Benedicite!</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>JUL.</speaker>
@@ -2348,7 +2485,7 @@
 <line offset="5">&#8217;Tis pity of him.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -2356,8 +2493,9 @@
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Servant, Isabella)</scenepersonae>
+<scenedescription>Angelo ruminates on how he is fixated on Isabella. When she arrives, he makes her a proposal: if she sleeps with him, he will spare Claudio. Isabella indignantly refuses, and threatens to tell the world, but Angelo points out that no-one will believe one little nun against the virtuous ruler. Left alone, Isabella considers the matter and decides that she holds her chastity dearer than her brother&#8217;s life.</scenedescription>
 
-<stagedir>Enter Angelo.</stagedir>
+<stagedir type="enter">Enter Angelo.</stagedir>
 
 <speech>
 <speaker>ANG.</speaker>
@@ -2379,7 +2517,7 @@
 <line>Let&#8217;s write &#8220;good angel&#8221; on the devil&#8217;s horn,</line>
 <line>&#8217;Tis not the devil&#8217;s crest.</line>
 
-<stagedir>Enter Servant.</stagedir>
+<stagedir type="enter">Enter Servant.</stagedir>
 <line offset="5">How now? Who&#8217;s there?</line>
 </speech>
 
@@ -2392,7 +2530,7 @@
 <speaker>ANG.</speaker>
 <line>Teach her the way.</line>
 
-<stagedir>Exit Servant.</stagedir>
+<stagedir type="exit">Exit Servant.</stagedir>
 <line offset="4">O heavens!</line>
 <line>Why does my blood thus muster to my heart,</line>
 <line>Making both it unable for itself,</line>
@@ -2406,7 +2544,7 @@
 <line>Crowd to his presence, where their untaught love</line>
 <line>Must needs appear offense.</line>
 
-<stagedir>Enter Isabella.</stagedir>
+<stagedir type="enter">Enter Isabella.</stagedir>
 <line offset="6">How now, fair maid?</line>
 </speech>
 
@@ -2735,7 +2873,7 @@
 <line>Say what you can: my false o&#8217;erweighs your true.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -2758,7 +2896,7 @@
 <line>And fit his mind to death, for his soul&#8217;s rest.</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 </act>
@@ -2769,8 +2907,9 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
 <scenepersonae>(Duke, Claudio, Provost, Isabella)</scenepersonae>
+<scenedescription>Still disguised as a friar, the Duke talks with Claudio, encouraging him to not hope for a reprieve and therefore be absolutely ready for death, since in that case whichever way it goes, a reprieve will be all the sweeter, and death less hard. Isabella arrives, and the Duke hides himself to eavesdrop on the conversation between brother and sister. Isabella tells Claudio of Angelo&#8217;s offer, and Claudio is horrified and disgusted; but as he reflects further, and thinks more on his fear of death, he comes to ask Isabella to give in. Isabella rages at him as a coward, and decides that it might be better in the end if he did die quickly. The Duke intervenes. He tells Claudio that Angelo was only testing Isabella, and then speaks to her alone. He informs her that despite his virtuous reputation, Angelo once abandoned his fiancée because she lost her dowry, excusing himself by slandering her. Mariana is still in love with him, however. The Duke suggests that Isabella arrange a rendezvous with Angelo, but that they convince Mariana to take Isabella&#8217;s place in the dark, thus theoretically solving everyone&#8217;s problem. Isabella agrees.</scenedescription>
 
-<stagedir>Enter Duke disguised as a friar, Claudio, and Provost.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar, Claudio, and Provost.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -2834,7 +2973,7 @@
 
 <speech>
 <speaker>ISAB.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>What ho! Peace here; grace and good company!</line>
 </speech>
 
@@ -2853,7 +2992,7 @@
 <line>Most holy sir, I thank you.</line>
 </speech>
 
-<stagedir>Enter Isabella.</stagedir>
+<stagedir type="enter">Enter Isabella.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -2880,7 +3019,7 @@
 <line>Bring me to hear them speak, where I may be conceal&#8217;d.</line>
 </speech>
 
-<stagedir>Exeunt Duke and Provost.</stagedir>
+<stagedir type="exit">Exeunt Duke and Provost.</stagedir>
 
 <speech>
 <speaker>CLAUD.</speaker>
@@ -3135,7 +3274,7 @@
 <line offset="7">O, hear me, Isabella!</line>
 </speech>
 
-<stagedir>Enter Duke disguised as a friar.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3157,7 +3296,7 @@
 <line>I have no superfluous leisure; my stay must be stolen out of other affairs; but I will attend you a while.</line>
 </speech>
 
-<stagedir>Walks apart.</stagedir>
+<stagedir type="action">Walks apart.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3172,11 +3311,11 @@
 <speech>
 <speaker>DUKE.</speaker>
 <line>Hold you there! Farewell.</line>
-<stagedir>Exit Claudio.</stagedir>
+<stagedir type="exit">Exit Claudio.</stagedir>
 <line>Provost, a word with you.</line>
 </speech>
 
-<stagedir>Enter Provost.</stagedir>
+<stagedir type="enter">Enter Provost.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -3193,11 +3332,11 @@
 <line>In good time.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
-<stagedir>Turning to Isabella.</stagedir> 
+<stagedir type="action">Turning to Isabella.</stagedir> 
 <line>The hand that hath made you fair hath made you good; the goodness that is cheap in beauty makes beauty brief in goodness; but grace, being the soul of your complexion, shall keep the body of it ever fair. The assault that Angelo hath made to you, fortune hath convey&#8217;d to my understanding; and but that frailty hath examples for his falling, I should wonder at Angelo. How will you do to content this substitute, and to save your brother?</line>
 </speech>
 
@@ -3276,7 +3415,7 @@
 <line>I thank you for this comfort. Fare you well, good father.</line>
 </speech>
 
-<stagedir>Exit. Manet Duke.</stagedir> 
+<stagedir type="exit">Exit. Manet Duke.</stagedir> 
 
 </scene>
 
@@ -3284,8 +3423,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The street before the prison.</scenelocation>
 <scenepersonae>(Duke, Elbow, Pompey, Officers, Lucio, Escalus, Provost, Mistress Overdone)</scenepersonae>
+<scenedescription>Elbow has arrested Pompey again, and is taking him to Escalus for the promised whipping. Seeing Lucio, Pompey is certain that his best client will bail him out, but Lucio merely taunts him instead. The disguised Duke witnesses all this, and is not impressed. He talks with Lucio, who points out that nobody knows where the Duke is, slanders Angelo, and implies that the Duke is well-known for having a taste for the ladies himself. The Duke reflects that even the virtuous cannot escape slander. Escalus brings Mistress Overdone off to prison, the bawd protesting all the while that she is being accused by Lucio, who has impregnated one of her ladies and promised to marry her, but is now denying it all. Escalus orders that Lucio be brought before him, and tells the Provost that Claudio is to be executed the next day without fail. The Duke talks with Escalus a little, asking him his opinion of his absent ruler, and Escalus offers an honest assessment. They discuss Claudio&#8217;s case, and the Duke mentions that if Angelo is going to be so severe, it were best he was absolutely spotless himself.</scenedescription>
 
-<stagedir>Enter Elbow, Clown Pompey, Officers.</stagedir>
+<stagedir type="enter">Enter Elbow, Clown Pompey, Officers.</stagedir>
 
 <speech>
 <speaker>ELB.</speaker>
@@ -3354,7 +3494,7 @@
 <line>From our faults, as faults from seeming, free!</line>
 </speech>
 
-<stagedir>Enter Lucio.</stagedir>
+<stagedir type="enter">Enter Lucio.</stagedir>
 
 <speech>
 <speaker>ELB.</speaker>
@@ -3454,7 +3594,7 @@
 <speech>
 <speaker>LUCIO.</speaker>
 <line>Go to kennel, Pompey, go.</line>
-<stagedir>Exeunt Elbow, Pompey, and Officers.</stagedir>
+<stagedir type="exit">Exeunt Elbow, Pompey, and Officers.</stagedir>
 <line>What news, friar, of the Duke?</line>
 </speech>
 
@@ -3628,7 +3768,7 @@
 <line>Why? For filling a bottle with a tun-dish. I would the Duke we talk of were return&#8217;d again. This ungenitur&#8217;d agent will unpeople the province with continency. Sparrows must not build in his house-eaves, because they are lecherous. The Duke yet would have dark deeds darkly answer&#8217;d, he would never bring them to light. Would he were return&#8217;d! Marry, this Claudio is condemn&#8217;d for untrussing. Farewell, good friar, I prithee pray for me. The Duke (I say to thee again) would eat mutton on Fridays. He&#8217;s now past it, yet (and I say to thee) he would mouth with a beggar, though she smelt brown bread and garlic. Say that I said so. Farewell.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3639,7 +3779,7 @@
 <line>But who comes here?</line>
 </speech>
 
-<stagedir>Enter Escalus, Provost, and Officers with Bawd Mistress Overdone.</stagedir>
+<stagedir type="enter">Enter Escalus, Provost, and Officers with Bawd Mistress Overdone.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -3669,7 +3809,7 @@
 <speech>
 <speaker>ESCAL.</speaker>
 <line>That fellow is a fellow of much license; let him be call&#8217;d before us. Away with her to prison! Go to, no more words.</line>
-<stagedir>Exeunt Officers with Mistress Overdone.</stagedir>
+<stagedir type="exit">Exeunt Officers with Mistress Overdone.</stagedir>
 <line>Provost, my brother Angelo will not be alter&#8217;d, Claudio must die tomorrow. Let him be furnish&#8217;d with divines, and have all charitable preparation. If my brother wrought by my pity, it should not be so with him.</line>
 </speech>
 
@@ -3750,7 +3890,7 @@
 <speaker>DUKE.</speaker>
 <line>Peace be with you!</line>
 
-<stagedir>Exeunt Escalus and Provost.</stagedir>
+<stagedir type="exit">Exeunt Escalus and Provost.</stagedir>
 <line><recite>He who the sword of heaven will bear</recite></line>
 <line><recite>Should be as holy as severe;</recite></line>
 <line><recite>Pattern in himself to know,</recite></line>
@@ -3775,7 +3915,7 @@
 <line><recite>And perform an old contracting.</recite></line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 </act>
@@ -3786,10 +3926,11 @@
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The moated grange at St. Luke&#8217;s.</scenelocation>
 <scenepersonae>(Mariana, Boy, Duke, Isabella)</scenepersonae>
+<scenedescription>The Duke comes to visit Mariana, and Isabella joins them. She has made the arrangement for a meeting with Angelo, which is to be brief and conducted entirely in the dark. Mariana agrees to the plan to go in Isabella&#8217;s place and to remind Angelo to spare Claudio; the Duke reassures her that since she and Angelo were affianced, there is no sin in all this.</scenedescription>
 
-<stagedir>Enter Mariana, and Boy singing.</stagedir>
+<stagedir type="enter">Enter Mariana, and Boy singing.</stagedir>
 
-<stagedir>Song</stagedir>
+<stagedir type="song">Song.</stagedir>
 
 <speech>
 <speaker>BOY.</speaker>
@@ -3801,14 +3942,14 @@
 <line type="lyric">Seals of love, but seal&#8217;d in vain, seal&#8217;d in vain.</line>
 </speech>
 
-<stagedir>Enter Duke disguised as a friar.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar.</stagedir>
 
 <speech>
 <speaker>MARI.</speaker>
 <line>Break off thy song, and haste thee quick away.</line>
 <line>Here comes a man of comfort, whose advice</line>
 <line>Hath often still&#8217;d my brawling discontent.</line>
-<stagedir>Exit Boy.</stagedir>
+<stagedir type="exit">Exit Boy.</stagedir>
 <line>I cry you mercy, sir, and well could wish</line>
 <line>You had not found me here so musical.</line>
 <line>Let me excuse me, and believe me so,</line>
@@ -3827,7 +3968,7 @@
 <line>You have not been inquir&#8217;d after. I have sat here all day.</line>
 </speech>
 
-<stagedir>Enter Isabel.</stagedir>
+<stagedir type="enter">Enter Isabel.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3839,7 +3980,7 @@
 <line>I am always bound to you.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3894,7 +4035,7 @@
 <line>I have not yet made known to Mariana</line>
 <line>A word of this. What ho, within! Come forth!</line>
 
-<stagedir>Enter Mariana.</stagedir>
+<stagedir type="enter">Enter Mariana.</stagedir>
 <line>I pray you be acquainted with this maid,</line>
 <line>She comes to do you good.</line>
 </speech>
@@ -3927,7 +4068,7 @@
 <line>Will&#8217;t please you walk aside?</line>
 </speech>
 
-<stagedir>Exit with Isabella.</stagedir>
+<stagedir type="exit">Exit with Isabella.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -3938,7 +4079,7 @@
 <line>Make thee the father of their idle dream,</line>
 <line>And rack thee in their fancies.</line>
 
-<stagedir>Enter Mariana and Isabella.</stagedir>
+<stagedir type="enter">Enter Mariana and Isabella.</stagedir>
 <line>Welcome, how agreed?</line>
 </speech>
 
@@ -3976,7 +4117,7 @@
 <line>Our corn&#8217;s to reap, for yet our tithe&#8217;s to sow.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -3984,8 +4125,9 @@
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
 <scenepersonae>(Provost, Pompey, Abhorson, Claudio, Duke, Messenger)</scenepersonae>
+<scenedescription>Pompey agrees to act as aid to the hangman, Abhorson, in return for his freedom. Abhorson is not best pleased at having to use a pimp as assistant, afraid this will dishonor the trade of executioner. The Duke arrives, waiting with the Provost for Claudio&#8217;s reprieve to arrive; instead, a message from Angelo commands that Claudio be beheaded forthwith. The Duke pleads that Barnardine, another prisoner condemned to die that afternoon, should be executed instead and his head sent to Angelo. The Provost does not wish to disobey the direct order he received from Angelo until the Duke shows him a letter, signed and sealed by himself, announcing his return within two days. The Provost then consents.</scenedescription>
 
-<stagedir>Enter Provost and Clown Pompey.</stagedir>
+<stagedir type="enter">Enter Provost and Clown Pompey.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -4012,7 +4154,7 @@
 <line>What ho, Abhorson! Where&#8217;s Abhorson there?</line>
 </speech>
 
-<stagedir>Enter Abhorson.</stagedir>
+<stagedir type="enter">Enter Abhorson.</stagedir>
 
 <speech>
 <speaker>ABHOR.</speaker>
@@ -4034,7 +4176,7 @@
 <line>Go to, sir, you weigh equally; a feather will turn the scale.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>POM.</speaker>
@@ -4066,7 +4208,7 @@
 <line>Every true man&#8217;s apparel fits your thief. If it be too little for your thief, your true man thinks it big enough; if it be too big for your thief, your thief thinks it little enough; so every true man&#8217;s apparel fits your thief.</line>
 </speech>
 
-<stagedir>Enter Provost.</stagedir>
+<stagedir type="enter">Enter Provost.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -4097,11 +4239,11 @@
 <speaker>PROV.</speaker>
 <line>Call hither Barnardine and Claudio.</line>
 
-<stagedir>Exeunt Abhorson and Pompey.</stagedir>
+<stagedir type="exit">Exeunt Abhorson and Pompey.</stagedir>
 <line>Th&#8217; one has my pity; not a jot the other,</line>
 <line>Being a murderer, though he were my brother.</line>
 
-<stagedir>Enter Claudio.</stagedir>
+<stagedir type="enter">Enter Claudio.</stagedir>
 <line>Look, here&#8217;s the warrant, Claudio, for thy death.</line>
 <line>&#8217;Tis now dead midnight, and by eight tomorrow</line>
 <line>Thou must be made immortal. Where&#8217;s Barnardine?</line>
@@ -4119,16 +4261,16 @@
 <line offset="4">Who can do good on him?</line>
 <line>Well, go, prepare yourself.</line>
 
-<stagedir>Knocking within.</stagedir>
+<stagedir type="action">Knocking within.</stagedir>
 <line offset="5">But hark, what noise?</line>
 <line>Heaven give your spirits comfort!</line>
 
-<stagedir>Exit Claudio.</stagedir>
+<stagedir type="exit">Exit Claudio.</stagedir>
 <line offset="7">By and by.&#8212;</line>
 <line>I hope it is some pardon or reprieve</line>
 <line>For the most gentle Claudio.</line>
 
-<stagedir>Enter Duke disguised as a friar.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar.</stagedir>
 <line offset="6">Welcome, father.</line>
 </speech>
 
@@ -4183,19 +4325,19 @@
 <line>Which he corrects, then were he tyrannous,</line>
 <line>But this being so, he&#8217;s just.</line>
 
-<stagedir>Knocking within.</stagedir>
+<stagedir type="action">Knocking within.</stagedir>
 <line offset="5">Now are they come.</line>
 
-<stagedir>Exit Provost.</stagedir>
+<stagedir type="exit">Exit Provost.</stagedir>
 <line>This is a gentle Provost: seldom when</line>
 <line>The steeled jailer is the friend of men.</line>
 
-<stagedir>Knocking within.</stagedir>
+<stagedir type="action">Knocking within.</stagedir>
 <line>How now? What noise? That spirit&#8217;s possess&#8217;d with haste</line>
 <line>That wounds th&#8217; unsisting postern with these strokes.</line>
 </speech>
 
-<stagedir>Enter Provost.</stagedir>
+<stagedir type="enter">Enter Provost.</stagedir>
  
 <speech>
 <speaker>PROV.</speaker>
@@ -4229,7 +4371,7 @@
 <line>Lord Angelo hath to the public ear</line>
 <line>Profess&#8217;d the contrary.</line>
 
-<stagedir>Enter a Messenger.</stagedir>
+<stagedir type="enter">Enter a Messenger.</stagedir>
 <line offset="5">This is his Lordship&#8217;s man.</line>
 </speech>
 
@@ -4248,11 +4390,11 @@
 <line>I shall obey him.</line>
 </speech>
 
-<stagedir>Exit Messenger.</stagedir>
+<stagedir type="exit">Exit Messenger.</stagedir>
 
 <speech>
 <speaker>DUKE</speaker>
-<stagedir>Aside.</stagedir>
+<stagedir type="aside">Aside.</stagedir>
 <line>This is his pardon, purchas&#8217;d by such sin</line>
 <line>For which the pardoner himself is in.</line>
 <line>Hence hath offense his quick celerity,</line>
@@ -4274,7 +4416,7 @@
 
 <speech>
 <speaker>PROV.</speaker>
-<stagedir>Reads the letter.</stagedir>
+<stagedir type="read">Reads the letter.</stagedir>
 <line><recite>&#8220;Whatsoever you may hear to the contrary, let Claudio be executed by four of the clock, and in the afternoon Barnardine. For my better satisfaction, let me have Claudio&#8217;s head sent me by five. Let this be duly perform&#8217;d, with a thought that more depends on it than we must yet deliver. Thus fail not to do your office, as you will answer it at your peril.&#8221; What say you to this, sir?</recite></line>
 </speech>
 
@@ -4403,23 +4545,24 @@
 <line>The contents of this is the return of the Duke. You shall anon over-read it at your pleasure; where you shall find, within these two days he will be here. This is a thing that Angelo knows not, for he this very day receives letters of strange tenor, perchance of the Duke&#8217;s death, perchance entering into some monastery, but by chance nothing of what is writ. Look, th&#8217; unfolding star calls up the shepherd. Put not yourself into amazement how these things should be; all difficulties are but easy when they are known. Call your executioner, and off with Barnardine&#8217;s head. I will give him a present shrift, and advise him for a better place. Yet you are amaz&#8217;d, but this shall absolutely resolve you. Come away, it is almost clear dawn.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="3">
 <scenetitle>Scene 3</scenetitle>
-<scenelocation>Another room in the same.</scenelocation>
+<scenelocation>Another room in the prison.</scenelocation>
 <scenepersonae>(Pompey, Abhorson, Barnardine, Duke, Provost, Isabella, Lucio)</scenepersonae>
+<scenedescription>Pompey comments on how he already knows most of the prisoners, as they used to be clients at Mistress Overdone&#8217;s. Abhorson orders Pompey to bring out Barnardine for execution, but the prisoner absolutely refuses to be beheaded today. The Provost points out to the Duke that the pirate Ragozine died in prison earlier, and that he looks a lot like Claudio; the Duke quickly agrees that the corpse&#8217;s head should be chopped off and sent to Angelo instead. The duke plans to order Angelo to meet him at his public return, so that he can deal with him. Isabella arrives to find out whether her brother has been spared, but the Duke tells her he has been executed. She raves, but he consoles her, promising that the Duke will be returning soon, and telling her to accuse Angelo when he does so. Lucio passé by and tells Isabella he is sorry for Claudio&#8217;s death. Talking with the disguised Duke, he admits that he did indeed get a wench with child, but denied it to avoid having to marry her.</scenedescription>
 
-<stagedir>Enter Clown Pompey.</stagedir>
+<stagedir type="enter">Enter Clown Pompey.</stagedir>
 
 <speech>
 <speaker>POM.</speaker>
 <line>I am as well acquainted here as I was in our house of profession. One would think it were Mistress Overdone&#8217;s own house, for here be many of her old customers. First, here&#8217;s young Master Rash, he&#8217;s in for a commodity of brown paper and old ginger, ninescore and seventeen pounds, of which he made five marks ready money. Marry, then ginger was not much in request, for the old women were all dead. Then is there here one Master Caper, at the suit of Master Three-pile the mercer, for some four suits of peach-color&#8217;d satin, which now peaches him a beggar. Then have we here young Dizzy, and young Master Deep-vow, and Master Copper-spur, and Master Starve-lackey the rapier and dagger man, and young Drop-heir that kill&#8217;d lusty Pudding, and Master Forthlight the tilter, and brave Master Shoe-tie the great traveller, and wild Half-can that stabb&#8217;d Pots, and I think forty more, all great doers in our trade, and are now &#8220;for the Lord&#8217;s sake.&#8221;</line>
 </speech>
 
-<stagedir>Enter Abhorson.</stagedir>
+<stagedir type="enter">Enter Abhorson.</stagedir>
 
 <speech>
 <speaker>ABHOR.</speaker>
@@ -4438,7 +4581,7 @@
 
 <speech>
 <speaker>BAR.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>A pox o&#8217; your throats! Who makes that noise there? What are you?</line>
 </speech>
 
@@ -4449,7 +4592,7 @@
 
 <speech>
 <speaker>BAR.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Away, you rogue, away! I am sleepy.</line>
 </speech>
 
@@ -4473,7 +4616,7 @@
 <line>He is coming, sir, he is coming. I hear his straw rustle.</line>
 </speech>
 
-<stagedir>Enter Barnardine.</stagedir>
+<stagedir type="enter">Enter Barnardine.</stagedir>
 
 <speech>
 <speaker>ABHOR.</speaker>
@@ -4505,7 +4648,7 @@
 <line>O, the better, sir; for he that drinks all night, and is hang&#8217;d betimes in the morning, may sleep the sounder all the next day.</line>
 </speech>
 
-<stagedir>Enter Duke disguised as a friar.</stagedir>
+<stagedir type="enter">Enter Duke disguised as a friar.</stagedir>
 
 <speech>
 <speaker>ABHOR.</speaker>
@@ -4543,9 +4686,9 @@
 <line>Not a word. If you have any thing to say to me, come to my ward; for thence will not I today.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
-<stagedir>Enter Provost.</stagedir>
+<stagedir type="enter">Enter Provost.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -4553,7 +4696,7 @@
 <line>After him, fellows, bring him to the block.</line>
 </speech>
 
-<stagedir>Exeunt Abhorson and Pompey.</stagedir>
+<stagedir type="exit">Exeunt Abhorson and Pompey.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -4615,7 +4758,7 @@
 <speaker>DUKE.</speaker>
 <line>Quick, dispatch, and send the head to Angelo.</line>
 
-<stagedir>Exit Provost.</stagedir>
+<stagedir type="exit">Exit Provost.</stagedir>
 <line>Now will I write letters to Angelo</line>
 <line>(The Provost, he shall bear them), whose contents</line>
 <line>Shall witness to him I am near at home;</line>
@@ -4627,7 +4770,7 @@
 <line>We shall proceed with Angelo.</line>
 </speech>
 
-<stagedir>Enter Provost with Ragozine&#8217;s head.</stagedir>
+<stagedir type="enter">Enter Provost with Ragozine&#8217;s head.</stagedir>
 
 <speech>
 <speaker>PROV.</speaker>
@@ -4646,11 +4789,11 @@
 <line offset="5">I&#8217;ll make all speed.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
-<stagedir>Within.</stagedir>
+<stagedir type="action">Within.</stagedir>
 <line>Peace, ho, be here!</line>
 </speech>
 
@@ -4663,7 +4806,7 @@
 <line>When it is least expected.</line>
 </speech>
 
-<stagedir>Enter Isabella.</stagedir>
+<stagedir type="enter">Enter Isabella.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -4753,7 +4896,7 @@
 <line>If I pervert your course. Who&#8217;s here?</line>
 </speech>
 
-<stagedir>Enter Lucio.</stagedir>
+<stagedir type="enter">Enter Lucio.</stagedir>
 
 <speech>
 <speaker>LUCIO.</speaker>
@@ -4770,7 +4913,7 @@
 <line>O pretty Isabella, I am pale at mine heart to see thine eyes so red; thou must be patient. I am fain to dine and sup with water and bran; I dare not for my head fill my belly; one fruitful meal would set me to&#8217;t. But they say the Duke will be here tomorrow. By my troth, Isabel, I lov&#8217;d thy brother. If the old fantastical Duke of dark corners had been at home, he had liv&#8217;d.</line>
 </speech>
 
-<stagedir>Exit Isabella.</stagedir>
+<stagedir type="exit">Exit Isabella.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -4822,7 +4965,7 @@
 <line>By my troth, I&#8217;ll go with thee to the lane&#8217;s end. If bawdy talk offend you, we&#8217;ll have very little of it. Nay, friar, I am a kind of bur, I shall stick.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
@@ -4830,8 +4973,9 @@
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
 <scenepersonae>(Angelo, Escalus)</scenepersonae>
+<scenedescription>Angelo and Escalus discuss the Duke&#8217;s imminent homecoming, somewhat confused about his instructions. Angelo secretly repents of his misdeeds, admitting to himself that he had Claudio executed only out of fear that he would try to revenge his sister&#8217;s dishonor. </scenedescription>
 
-<stagedir>Enter Angelo and Escalus.</stagedir>
+<stagedir type="enter">Enter Angelo and Escalus.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -4872,7 +5016,7 @@
 <speaker>ANG.</speaker>
 <line>Good night.</line>
 
-<stagedir>Exit Escalus.</stagedir>
+<stagedir type="exit">Exit Escalus.</stagedir>
 <line>This deed unshapes me quite, makes me unpregnant</line>
 <line>And dull to all proceedings. A deflow&#8217;red maid!</line>
 <line>And by an eminent body that enforc&#8217;d</line>
@@ -4890,7 +5034,7 @@
 <line>Nothing goes right&#8212;we would, and we would not.</line>
 </speech>
 
-<stagedir>Exit.</stagedir> 
+<stagedir type="exit">Exit.</stagedir> 
 
 </scene>
 
@@ -4898,14 +5042,15 @@
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Fields without the town.</scenelocation>
 <scenepersonae>(Duke, Friar Peter, Varrius)</scenepersonae>
+<scenedescription>The Duke, now dressed as himself again, arranges his entrance to Vienna, giving Friar Peter letters that are to be publically delivered to him at the right moment, and sending him to summon some of his lords.</scenedescription>
 
-<stagedir>Enter Duke in his own habit and Friar Peter.</stagedir>
+<stagedir type="enter">Enter Duke in his own habit and Friar Peter.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
 <line>These letters at fit time deliver me.</line>
 
-<stagedir>Giving letters.</stagedir>
+<stagedir type="action">Giving letters.</stagedir>
 
 <line>The Provost knows our purpose and our plot.</line>
 <line>The matter being afoot, keep your instruction,</line>
@@ -4923,9 +5068,9 @@
 <line offset="5">It shall be speeded well.</line>
 </speech>
 
-<stagedir>Exit.</stagedir>
+<stagedir type="exit">Exit.</stagedir>
 
-<stagedir>Enter Varrius.</stagedir>
+<stagedir type="enter">Enter Varrius.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -4934,16 +5079,17 @@
 <line>Will greet us here anon. My gentle Varrius!</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 
 <scene num="6">
 <scenetitle>Scene 6</scenetitle>
-<scenelocation>Street near the city gate.</scenelocation>
+<scenelocation>A street near the city gate.</scenelocation>
 <scenepersonae>(Isabella, Mariana, Friar Peter)</scenepersonae>
+<scenedescription>Mariana and Isabella discuss how they will accuse Angelo. Friar Peter enters to tell them he has found them a good place to stand along the Duke&#8217;s route, where they cannot miss him.</scenedescription>
 
-<stagedir>Enter Isabella and Mariana.</stagedir>
+<stagedir type="enter">Enter Isabella and Mariana.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -4966,7 +5112,7 @@
 <line>That&#8217;s bitter to sweet end.</line>
 </speech>
 
-<stagedir>Enter Friar Peter.</stagedir>
+<stagedir type="enter">Enter Friar Peter.</stagedir>
 
 <speech>
 <speaker>MARI.</speaker>
@@ -4988,7 +5134,7 @@
 <line>The Duke is ent&#8217;ring; therefore hence away!</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -4997,10 +5143,11 @@
 <acttitle>Act 5</acttitle>
 <scene num="1">
 <scenetitle>Scene 1</scenetitle>
-<scenelocation>The city gate.</scenelocation>
+<scenelocation>At the city gate.</scenelocation>
 <scenepersonae>(Duke, Varrius, Lords, Angelo, Escalus, Lucio, Provost, Officers, Citizens, Friar Peter, Isabella, Mariana, Barnardine, Claudio, Julietta)</scenepersonae>
+<scenedescription>The duke returns, meeting Angelo and Escalus and praising them. As he does so, Isabella steps forward and calls for justice against Angelo. Angelo suggests that she has been driven mad by her brother&#8217;s death. As Isabella tells her tale, Lucio ceaselessly interrupts, despite being told to keep his mouth shut. The Duke pretends that he does not believe Isabella, and threatens to have her sent to prison; she names the Friar who advised her to make this protest, and the duke orders that he be found. Lucio says that he knows the Friar, and that the latter slandered the Duke, though Friar Peter denies this. Mariana is brought in veiled, promising to free Angelo from the charge of adultery by revealing that in fact, he slept with her, his promised bride. Angelo denies this as well. The Duke leaves Angelo and Escalus in charge of the trial as he slips off on some important business. Disguised as the Friar, he returns. Escalus takes over his interrogation and soon sentences him to jail for slandering the state. The Provost attempts to take the Friar away, but he struggles enough that Lucio must help, in the course of which Lucio pulls off the Friar&#8217;s hood, revealing that he is in fact the Duke. He immediately takes over the court, warns Lucio that they shall have a chat, forgives Escalus for what he has said, and asks Angelo if he has anything to say for himself. All Angelo can do is beg that he be executed. He is sent off to marry Mariana on admitting that he was contracted to her. In his absence, the Duke apologizes to Isabella for Claudio&#8217;s death, saying that things went faster than he&#8217;d anticipated. When the now-married Angelo and Mariana are brought back, the Duke orders that Angelo be taken away and beheaded at once. Mariana begs for his life, but the Duke is merciless until Mariana manages to convince Isabella to plead for Angelo. The Duke then has the Provost bring in Barnardine, Claudio with a cover around his head, and Juliet. The Duke pardons Barnardine, then has Claudio unmasked; restoring her brother to her, he asks Isabella to marry him. He then turns his attention to Lucio, and while sparing his life orders that he marry the prostitute he got pregnant. After thanking everybody, the Duke again asks Isabella to marry him. What answer she makes is unknown.</scenedescription>
 
-<stagedir>Flourish. Enter Duke, Varrius, Lords, Angelo, Escalus, Lucio, Provost, Officers, Citizens at several doors.</stagedir>
+<stagedir type="enter">Flourish. Enter Duke, Varrius, Lords, Angelo, Escalus, Lucio, Provost, Officers, Citizens at several doors.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -5041,7 +5188,7 @@
 <line>And good supporters are you.</line>
 </speech>
 
-<stagedir>Enter Friar Peter and Isabella.</stagedir>
+<stagedir type="enter">Enter Friar Peter and Isabella.</stagedir>
 
 <speech>
 <speaker>FRI. PET.</speaker>
@@ -5184,7 +5331,7 @@
 </speech>
 
 <speech>
-<speaker>DUKE.</speaker> <stagedir>To Lucio.</stagedir>
+<speaker>DUKE.</speaker> <stagedir type="speak">To Lucio.</stagedir>
 <line>You were not bid to speak.</line>
 </speech>
 
@@ -5392,14 +5539,14 @@
 <speaker>DUKE.</speaker>
 <line offset="5">Good friar, let&#8217;s hear it.</line>
 
-<stagedir>Isabella is carried off guarded.</stagedir>
+<stagedir type="action">Isabella is carried off guarded.</stagedir>
 <line>Do you not smile at this, Lord Angelo?</line>
 <line>O heaven, the vanity of wretched fools!</line>
 <line>Give us some seats. Come, cousin Angelo,</line>
 <line>In this I&#8217;ll be impartial. Be you judge</line>
 <line>Of your own cause.</line>
 
-<stagedir>Enter Mariana veiled.</stagedir>
+<stagedir type="enter">Enter Mariana veiled.</stagedir>
 <line offset="4">Is this the witness, friar?</line>
 <line>First, let her show her face, and after speak.</line>
 </speech>
@@ -5530,7 +5677,7 @@
 <speaker>MARI.</speaker>
 <line>My husband bids me, now I will unmask.</line>
 
-<stagedir>Unveiling.</stagedir>
+<stagedir type="action">Unveiling.</stagedir>
 <line>This is that face, thou cruel Angelo,</line>
 <line>Which once thou swor&#8217;st was worth the looking on;</line>
 <line>This is the hand which, with a vow&#8217;d contract,</line>
@@ -5625,7 +5772,7 @@
 <speaker>DUKE.</speaker>
 <line offset="5">Go, do it instantly.</line>
 
-<stagedir>Exit Provost.</stagedir>
+<stagedir type="exit">Exit Provost.</stagedir>
 <line>And you, my noble and well-warranted cousin,</line>
 <line>Whom it concerns to hear this matter forth,</line>
 <line>Do with your injuries as seems you best,</line>
@@ -5638,7 +5785,7 @@
 <speaker>ESCAL.</speaker>
 <line offset="5">My lord, we&#8217;ll do it throughly.</line>
 
-<stagedir>Exit Duke.</stagedir>
+<stagedir type="exit">Exit Duke.</stagedir>
 <line>Signior Lucio, did not you say you knew that Friar Lodowick to be a dishonest person?</line>
 </speech>
 
@@ -5660,7 +5807,7 @@
 <speech>
 <speaker>ESCAL.</speaker>
 <line>Call that same Isabel here once again, I would speak with her.</line>
-<stagedir>Exit an Attendant.</stagedir>
+<stagedir type="exit">Exit an Attendant.</stagedir>
 <line>Pray you, my lord, give me leave to question, you shall see how I&#8217;ll handle her.</line>
 </speech>
 
@@ -5679,7 +5826,7 @@
 <line>Marry, sir, I think if you handled her privately she would sooner confess; perchance publicly she&#8217;ll be asham&#8217;d.</line>
 </speech>
 
-<stagedir>Enter Duke in his friar&#8217;s habit, Provost, Officers with Isabella.</stagedir>
+<stagedir type="enter">Enter Duke in his friar&#8217;s habit, Provost, Officers with Isabella.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -5846,7 +5993,7 @@
 <line>Such a fellow is not to be talk&#8217;d withal. Away with him to prison! Where is the Provost? Away with him to prison! Lay bolts enough upon him. Let him speak no more. Away with those giglets too, and with the other confederate companion!</line>
 </speech>
 
-<stagedir>The Provost lays hands on the Duke.</stagedir>
+<stagedir type="action">The Provost lays hands on the Duke.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -5861,7 +6008,7 @@
 <speech>
 <speaker>LUCIO.</speaker>
 <line>Come, sir, come, sir, come, sir; foh, sir, why, you bald-pated, lying rascal, you must be hooded, must you? Show your knave&#8217;s visage, with a pox to you! Show your sheep-biting face, and be hang&#8217;d an hour! Will&#8217;t not off?</line>
-<stagedir>Pulls off the friar&#8217;s hood.</stagedir>
+<stagedir type="action">Pulls off the friar&#8217;s hood.</stagedir>
 </speech>
 
 <speech>
@@ -5869,7 +6016,7 @@
 <line>Thou art the first knave that e&#8217;er mad&#8217;st a duke.</line>
 <line>First, Provost, let me bail these gentle three.</line>
 
-<stagedir>To Lucio.</stagedir>
+<stagedir type="speak">To Lucio.</stagedir>
 <line>Sneak not away, sir, for the friar and you</line>
 <line>Must have a word anon.&#8212;Lay hold on him.</line>
 </speech>
@@ -5880,11 +6027,11 @@
 </speech>
 
 <speech>
-<speaker>DUKE</speaker> <stagedir>To Escalus.</stagedir>
+<speaker>DUKE</speaker> <stagedir type="speak">To Escalus.</stagedir>
 <line>What you have spoke I pardon. Sit you down,</line>
 <line>We&#8217;ll borrow place of him.&#8212;Sir, by your leave.</line>
 
-<stagedir>Takes Angelo&#8217;s seat.</stagedir>
+<stagedir type="action">Takes Angelo&#8217;s seat.</stagedir>
 <line>Hast thou or word, or wit, or impudence,</line>
 <line>That yet can do thee office? If thou hast,</line>
 <line>Rely upon it till my tale be heard,</line>
@@ -5922,7 +6069,7 @@
 <line>Return him here again. Go with him, Provost.</line>
 </speech>
 
-<stagedir>Exeunt Angelo, Mariana, Friar Peter, Provost.</stagedir>
+<stagedir type="exit">Exeunt Angelo, Mariana, Friar Peter, Provost.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -5963,7 +6110,7 @@
 <line>So happy is your brother.</line>
 </speech>
 
-<stagedir>Enter Angelo, Mariana, Friar Peter, Provost.</stagedir>
+<stagedir type="enter">Enter Angelo, Mariana, Friar Peter, Provost.</stagedir>
 
 <speech>
 <speaker>ISAB.</speaker>
@@ -6022,7 +6169,7 @@
 
 <speech>
 <speaker>MARI.</speaker>
-<stagedir>Kneeling.</stagedir>
+<stagedir type="action">Kneeling.</stagedir>
 <line>Gentle my liege&#8212;</line>
 </speech>
 
@@ -6031,7 +6178,7 @@
 <line offset="3">You do but lose your labor.</line>
 <line>Away with him to death!</line>
 
-<stagedir>To Lucio.</stagedir>
+<stagedir type="speak">To Lucio.</stagedir>
 <line>Now, sir, to you.</line>
 </speech>
 
@@ -6068,7 +6215,7 @@
 
 <speech>
 <speaker>ISAB.</speaker>
-<stagedir>Kneeling</stagedir>
+<stagedir type="action">Kneeling</stagedir>
 <line offset="6">Most bounteous sir:</line>
 <line>Look, if it please you, on this man condemn&#8217;d</line>
 <line>As if my brother liv&#8217;d. I partly think</line>
@@ -6143,7 +6290,7 @@
 <line>Go fetch him hither, let me look upon him.</line>
 </speech>
 
-<stagedir>Exit Provost.</stagedir>
+<stagedir type="exit">Exit Provost.</stagedir>
 
 <speech>
 <speaker>ESCAL.</speaker>
@@ -6161,7 +6308,7 @@
 <line>&#8217;Tis my deserving, and I do entreat it.</line>
 </speech>
 
-<stagedir>Enter Barnardine and Provost, Claudio muffled, Julietta.</stagedir>
+<stagedir type="enter">Enter Barnardine and Provost, Claudio muffled, Julietta.</stagedir>
 
 <speech>
 <speaker>DUKE.</speaker>
@@ -6192,10 +6339,10 @@
 <line>As like almost to Claudio as himself.</line>
 </speech>
 
-<stagedir>Unmuffles Claudio.</stagedir>
+<stagedir type="action">Unmuffles Claudio.</stagedir>
 
 <speech>
-<speaker>DUKE.</speaker> <stagedir>To Isabella.</stagedir>
+<speaker>DUKE.</speaker> <stagedir type="speak">To Isabella.</stagedir>
 <line>If he be like your brother, for his sake</line>
 <line>Is he pardon&#8217;d, and for your lovely sake,</line>
 <line>Give me your hand, and say you will be mine,</line>
@@ -6207,7 +6354,7 @@
 <line>I find an apt remission in myself;</line>
 <line>And yet here&#8217;s one in place I cannot pardon.</line>
 
-<stagedir>To Lucio.</stagedir>
+<stagedir type="speak">To Lucio.</stagedir>
 <line>You, sirrah, that knew me for a fool, a coward,</line>
 <line>One all of luxury, an ass, a madman,</line>
 <line>Wherein have I so deserv&#8217;d of you,</line>
@@ -6252,7 +6399,7 @@
 <speaker>DUKE.</speaker>
 <line>Slandering a prince deserves it.</line>
 
-<stagedir>Exeunt Officers with Lucio.</stagedir>
+<stagedir type="exit">Exeunt Officers with Lucio.</stagedir>
 <line>She, Claudio, that you wrong&#8217;d, look you restore.</line>
 <line>Joy to you, Mariana! Love her, Angelo!</line>
 <line>I have confess&#8217;d her, and I know her virtue.</line>
@@ -6270,7 +6417,7 @@
 <line>What&#8217;s yet behind, that&#8217;s meet you all should know.</line>
 </speech>
 
-<stagedir>Exeunt.</stagedir> 
+<stagedir type="exit">Exeunt.</stagedir> 
 
 </scene>
 </act>
@@ -6280,10 +6427,7 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2012 by PlayShakespeare.com</copyright>
-<version>3.1</version>
-<license>GFDL License 1.3</license>
-<licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
-<termsurl>http://www.playshakespeare.com/license</termsurl>
-<notice>This copyright notice may not be removed under any circumstance.</notice>
+<version>3.1a</version>
+<license>This document is strictly copyrighted and may not be copied, altered, or distributed.</license>
 </sourcedetails>
 </play>
