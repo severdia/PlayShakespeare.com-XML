@@ -27,7 +27,7 @@ A number of conventions were used in the creation of the Complete Works XML:
 
 12. Where multiple characters are speaking at once, the same speaker alias is used or the characters are identified in the <speaker> tag.
 
-13. Stage directions are identified by type: exit, entrance, aside, song, action, death, fight. They are also identified by the person(s) performing them or the recipient of the action using the short version of their name ( <dir type="speak">To Helena.</dir><actor>BER.</actor><recipient>HEL.</recipient> ). 
+13. Stage directions are identified by type: exit, entrance, aside, song, action, death, fight. They are also identified by the person(s) performing them or the recipient of the action using the short version of their name ( <dir type="speak">To Helena.</dir><actor>BER.</actor><recipient>HEL.</recipient> ). All "exit" attributes indicate the character exiting. All "exeunt" tags indicate all characters exit unless a character name is within the <actor> tags. Any <actor> tag with "ALL." in it indicate all characters currently present in a scene perform that action.
 
 14. Lines are identified as prose, verse or rhyming verse (verse, rhyme, prose) in the form of <line form="verse">. 
 
