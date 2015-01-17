@@ -1,40 +1,10 @@
 
 High-quality XML versions of the complete works of Shakespeare
 
-A number of conventions were used in the creation of the Complete Works XML:
-
-1. Acts are wrapped in <act> which includes the act title <acttitle>. All acts are wrapped in <PLAY>.
-
-2. Scenes are wrapped in <scene>, which includes the scene title <scenetitle>, scene location <scenelocation>, and the scene personae <scenepersonae>. Scenes are always wrapped within <act>.
-
-3. Character speeches are wrapped in <speech>, which includes the speaker's name <speaker> (the short version) and the lines <line> spoken.
-
-4. Stage directions are identified with <stagedir>. Sometimes they stand on their own within a scene and sometimes they are within a character's <speech> depending on when the action occurs.
-
-5. The entire play is wrapped in <play> which include the full title <title>, the short version of the title <titleshort>, and the playwright <playwright>.
-
-6. Offsets were used to identify where short lines are shared lines: <line offset="X">, where X is the number of syllables spoken before that line begins.
-
-7. When a character is singing or incanting, the line is identified with <line type="lyric">.
-
-8. When a character is reading or reciting, the passage is identified with <recite>
-
-9, Foreign language words are wrapped in their respective language tags: <latin xml:lang="la">, <french xml:lang="fr">, <italian xml:lang="it">, <dutch xml:lang="nl">
-
-10. Where formal titles of works (play names, song titles) are mentioned, they are wrapped in <titleref> or <nameref>.
-
-11. Sometimes characters change names over the course of a play. When that happens, there's an alias in that character's lines indicating their former character: <speaker alias="L. GREY.">Q. ELIZ.</speaker>.
-
-12. Where multiple characters are speaking at once, the same speaker alias is used or the characters are identified in the <speaker> tag.
-
-13. Stage directions are identified by type: exit, entrance, aside, song, action, death, fight. They are also identified by the person(s) performing them or the recipient of the action using the short version of their name ( <dir type="speak">To Helena.</dir><actor>BER.</actor><recipient>HEL.</recipient> ). All "exit" attributes indicate the character exiting. All "exeunt" tags indicate all characters exit unless a character name is within the <actor> tags. Any <actor> tag with "ALL." in it indicate all characters currently present in a scene perform that action.
-
-14. Lines are identified as prose, verse or rhyming verse (verse, rhyme, prose) in the form of <line form="verse">. 
-
-15. The license and author information is at the bottom of each play and wrapped in <sourcedetails>. This information may be hidden using XSL/CSS, but may not be removed.
+See the specification PDF in the repo for details on the structure and usage of the XML schema.
 
 
-Copyright ©2005-2013 PlayShakespeare.com  All rights reserved.
+Copyright ©2005-2015 PlayShakespeare.com  All rights reserved.
 GFDL License 1.3
 http://www.gnu.org/copyleft/fdl.html
 Terms: http://www.playshakespeare.com/about-us
