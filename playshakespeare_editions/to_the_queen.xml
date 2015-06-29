@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="../../plays.xsl"?>
+<?xml-stylesheet type="text/xsl" href="working.xsl"?>
 
-<poem unique="to-the-queen">
+<poem unique="to-the-queen" numberOfLines="17">
 <title short="To the Queen">To the Queen</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1599</pubdate>
+
+<poemdescription>
+<line>Discovered in 1972 and accepted as Shakespeare&#8217;s work by several leading Shakespeare scholars (though the attribution is disputed by others), <titleref>To the Queen</titleref> is most likely an epilogue specially written for the performance of a play at court, rather like that provided for <titleref>Henry IV, Part Two</titleref>. Addressing Queen Elizabeth directly, Shakespeare eschews the flowery metaphors used by the courtiers who had to flatter her to her face in favour of a simplicity much more suited to a mere subject as he prays for the Queen&#8217;s continued life and health. It is essentially an eighteen-line drawing-out of the sentiment &#8220;Long Live the Queen&#8221;.</line>
+</poemdescription>
 
 <poembody>
 <stanza num="1">
@@ -28,14 +32,26 @@
 </stanza>
 </poembody>
 
+<sources>
+
+<playsource>
+<playsourcetitle>None known.</playsourcetitle>
+</playsource>
+
+<textsources>
+<textsource title="Manuscript" edition="1" date="1599">Manuscript</textsource>
+</textsources>
+
+</sources>
+
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2014 by PlayShakespeare.com</copyright>
-<version>3.6</version>
+<copyright>2005-2015 by PlayShakespeare.com</copyright>
+
+<version>3.4</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 </poem>
