@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Merchant of Venice">The Merchant of Venice</title>
@@ -12,11 +12,11 @@
 <persname short="DUKE." numberOfLines="58" numberOfVerseLines="56" numberOfProseLines="2" numberOfLyricsLines="0">The Duke of Venice</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="ANT." numberOfLines="189" numberOfVerseLines="187" numberOfProseLines="2" numberOfLyricsLines="0">Antonio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="BASS." numberOfLines="322" numberOfVerseLines="308" numberOfProseLines="14" numberOfLyricsLines="0">Bassanio</persname>
 </persona>
 
@@ -24,7 +24,7 @@
 <persname short="SOL." numberOfLines="58" numberOfVerseLines="50" numberOfProseLines="8" numberOfLyricsLines="0">Solanio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="GRA." numberOfLines="175" numberOfVerseLines="172" numberOfProseLines="3" numberOfLyricsLines="0">Gratiano</persname>
 </persona>
 
@@ -36,7 +36,7 @@
 <persname short="LOR." numberOfLines="168" numberOfVerseLines="159" numberOfProseLines="9" numberOfLyricsLines="0">Lorenzo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="SHY." numberOfLines="287" numberOfVerseLines="263" numberOfProseLines="24" numberOfLyricsLines="0">Shylock</persname>
 </persona>
 
@@ -44,8 +44,8 @@
 <persname short="TUB." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Tubal</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LAUN." numberOfLines="48" numberOfVerseLines="3" numberOfProseLines="43" numberOfLyricsLines="0">Launcelot Gobbo</persname>
+<persona gender="male" archetype="clown">
+<persname short="LAUN." numberOfLines="48" numberOfVerseLines="5" numberOfProseLines="43" numberOfLyricsLines="0">Launcelot Gobbo</persname>
 </persona>
 
 <persona gender="male">
@@ -64,8 +64,8 @@
 <persname short="STEPH." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Stephano</persname>
 </persona>
 
-<persona gender="female">
-<persname short="POR." numberOfLines="509" numberOfVerseLines="491" numberOfProseLines="16" numberOfLyricsLines="0">Portia</persname>
+<persona gender="female" archetype="hero">
+<persname short="POR." numberOfLines="509" numberOfVerseLines="493" numberOfProseLines="16" numberOfLyricsLines="0">Portia</persname>
 </persona>
 
 <persona gender="female">
@@ -114,7 +114,10 @@
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -476,7 +479,10 @@
 	<scenepersona short="NER.">Nerissa</scenepersona>
 	<scenepersona short="SERV.">Portia&#8217;s Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="184.02" sdnumber="0.01">
@@ -666,7 +672,11 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 	<scenepersona short="SHY.">Shylock</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="216.02" sdnumber="0.01">
@@ -927,7 +937,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 <line globalnumber="304" number="82" form="verse">Well, Shylock, shall we be beholding to you?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Shylock">SHY.</speaker>
 <line globalnumber="305" number="83" form="verse"><foreign xml:lang="it">Signior</foreign> Antonio, many a time and oft</line>
 <line globalnumber="306" number="84" form="verse">In the Rialto you have rated me</line>
@@ -1091,7 +1101,9 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="NER.">Nerissa</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="383.02" sdnumber="0.01">
@@ -1206,7 +1218,11 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 	<scenepersona short="LEON.">Leonardo</scenepersona>
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="432.02" sdnumber="0.01">
@@ -1216,7 +1232,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
 <line globalnumber="433" number="1" form="prose">Certainly my conscience will serve me to run from this Jew my master. 
 The fiend is at mine elbow and tempts me, saying to me, &#8220;Gobbo, Launcelot Gobbo, good Launcelot,&#8221; or &#8220;good Gobbo,&#8221; 
@@ -1650,7 +1666,10 @@ I am famish&#8217;d in his service; you may tell every finger I have with my rib
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="528.02" sdnumber="0.01">
@@ -1716,7 +1735,9 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="SOL.">Solanio</scenepersona>
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="545.02" sdnumber="0.01">
@@ -1879,7 +1900,9 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
 	<scenepersona short="JES.">Jessica</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="585.02" sdnumber="0.01">
@@ -2016,7 +2039,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jessica">JES.</speaker>
 <line globalnumber="634" number="46" form="verse">Farewell, and if my fortune be not cross&#8217;d,</line>
 <line globalnumber="635" number="47" form="verse">I have a father, you a daughter, lost.</line>
@@ -2041,7 +2064,10 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="635.02" sdnumber="0.01">
@@ -2270,7 +2296,10 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="MOR.">Prince of Morocco</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="705.02" sdnumber="0.01">
@@ -2425,7 +2454,9 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="SAL.">Salerio</scenepersona>
 	<scenepersona short="SOL.">Solanio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="785.02" sdnumber="0.01">
@@ -2555,7 +2586,10 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="STEPH.">Stephano</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="840.02" sdnumber="0.01">
@@ -2799,7 +2833,9 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 	<scenepersona short="ANT. SERV.">Antonio&#8217;s Servant</scenepersona>
 	<scenepersona short="TUB.">Tubal</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="943.02" sdnumber="0.01">
@@ -2909,7 +2945,7 @@ bloods than there is between red wine and Rhenish. But tell us, do you hear whet
 <line globalnumber="962" number="19" form="prose">Why, I am sure if he forfeit thou wilt not take his flesh. What&#8217;s that good for?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Shylock">SHY.</speaker>
 <line globalnumber="963" number="20" form="prose">To bait fish withal&#8212;if it will feed nothing else, it will feed my revenge. He hath disgrac&#8217;d me, and hind&#8217;red me half a million, laugh&#8217;d at my losses, mock&#8217;d at my gains, scorn&#8217;d my nation, thwarted my bargains, cool&#8217;d my friends, heated mine enemies; and what&#8217;s his reason? I am a Jew. Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions; fed with the same food, hurt with the same weapons, subject to the same diseases, heal&#8217;d by the same means, warm&#8217;d and cool&#8217;d by the same winter and summer, as a Christian is? If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge? If we are like you in the rest, we will resemble you in that. If a Jew wrong a Christian, what is his humility? Revenge. If a Christian wrong a Jew, what should his sufferance be by Christian example? Why, revenge. The villainy you teach me, I will execute, and it shall go hard but I will better the instruction.</line>
 </speech>
@@ -3063,7 +3099,10 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="SAL.">Salerio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="983.02" sdnumber="0.01">
@@ -3688,7 +3727,9 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<scenepersona short="ANT.">Antonio</scenepersona>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1311.02" sdnumber="0.01">
@@ -3804,7 +3845,9 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="BALTH.">Balthazar</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1350.02" sdnumber="0.01">
@@ -3989,7 +4032,9 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1437.02" sdnumber="0.01">
@@ -4206,7 +4251,9 @@ and he says you are no good member of the commonwealth, for in converting Jews t
 	<scenepersona short="NER.">Nerissa</scenepersona>
 	<scenepersona short="POR.">Portia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1485.02" sdnumber="0.01">
@@ -4617,7 +4664,7 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 <line globalnumber="1659" number="167" form="verse">On what compulsion must I? Tell me that.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Portia">POR.</speaker>
 <line globalnumber="1660" number="168" form="verse">The quality of mercy is not strain&#8217;d,</line>
 <line globalnumber="1661" number="169" form="verse">It droppeth as the gentle rain from heaven</line>
@@ -4813,7 +4860,7 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 <line globalnumber="1744" number="247" form="verse">You, merchant, have you any thing to say?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Antonio">ANT.</speaker>
 <line globalnumber="1745" number="248" form="verse">But little; I am arm&#8217;d and well prepar&#8217;d.</line>
 <line globalnumber="1746" number="249" form="verse">Give me your hand, Bassanio, fare you well.</line>
@@ -5320,7 +5367,9 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 	<scenepersona short="NER.">Nerissa</scenepersona>
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1943.02" sdnumber="0.01">
@@ -5431,7 +5480,9 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 	<scenepersona>Followers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1964.02" sdnumber="0.01">
@@ -5603,7 +5654,7 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="2017" number="46" form="verse">Sweet soul, let&#8217;s in, and there expect their coming.</line>
 <line globalnumber="2018" number="47" form="verse">And yet no matter; why should we go in?</line>
@@ -6277,17 +6328,26 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 
 </sources>
 
-
+<locations numberOfLocations="8">
+<placename>Belmont. A garden at Portia&#8217;s house.</placename>
+<placename>Belmont. A room in Portia&#8217;s house.</placename>
+<placename>Belmont. Outside Portia&#8217;s house.</placename>
+<placename>Venice. A court of justice.</placename>
+<placename>Venice. A public place.</placename>
+<placename>Venice. A room in Shylock&#8217;s house.</placename>
+<placename>Venice. A street.</placename>
+<placename>Venice. Before Shylock&#8217;s house.</placename>
+</locations>
 
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>145</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

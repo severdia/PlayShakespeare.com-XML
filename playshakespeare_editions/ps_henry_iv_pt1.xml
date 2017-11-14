@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry IV, Pt. 1">The First Part of Henry the Fourth</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Henry IV, Part 1">
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="FAL." numberOfLines="164" numberOfVerseLines="6" numberOfProseLines="158" numberOfLyricsLines="0">Sir John Falstaff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="VER." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">Sir Richard Vernon</persname>
 </persona>
 
@@ -32,7 +32,7 @@
 <persname short="MORT." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="HOT." numberOfLines="527" numberOfVerseLines="508" numberOfProseLines="19" numberOfLyricsLines="0">Henry Percy</persname>
 </persona>
 
@@ -40,11 +40,11 @@
 <persname short="NORTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy, Earl of Northumberland</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="WOR." numberOfLines="190" numberOfVerseLines="190" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Percy, Earl of Worcester</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BLUNT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Sir Walter Blunt</persname>
 </persona>
 
@@ -56,14 +56,14 @@
 <persname short="LAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Prince John of Lancaster</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PRINCE." numberOfLines="362" numberOfVerseLines="207" numberOfProseLines="155" numberOfLyricsLines="0">Henry, Prince of Wales</persname>
 <persaliases>
 	<persname short="THIEVES.">Thieves</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="KING." numberOfLines="341" numberOfVerseLines="341" numberOfProseLines="0" numberOfLyricsLines="0">King Henry IV</persname>
 </persona>
 
@@ -178,7 +178,9 @@
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 	<scenepersona short="BLUNT.">Sir Walter Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -360,7 +362,10 @@
 	<scenepersona short="FAL.">Sir John Falstaff</scenepersona>
 	<scenepersona short="POINS.">Poins</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="108.02" sdnumber="0.01">
@@ -697,7 +702,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henry, Prince of Wales">PRINCE.</speaker>
 <line globalnumber="171" number="63" form="verse">I know you all, and will a while uphold</line>
 <line globalnumber="172" number="64" form="verse">The unyok&#8217;d humor of your idleness,</line>
@@ -743,7 +748,10 @@
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="BLUNT.">Sir Walter Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="193.02" sdnumber="0.01">
@@ -1338,7 +1346,10 @@
 	<scenepersona short="CHAM.">Chamberlain</scenepersona>
 	<scenepersona short="OST.">Ostler</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="506.02" sdnumber="0.01">
@@ -1566,7 +1577,9 @@
 	<scenepersona short="TRAVELERS.">Travelers</scenepersona>
 	<scenepersona short="THIEVES.">Thieves</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="538.02" sdnumber="0.01">
@@ -1963,7 +1976,9 @@
 	<scenepersona short="LADY P.">Lady Hotspur</scenepersona>
 	<scenepersona short="SERV.">Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="592.02" sdnumber="0.01">
@@ -1973,7 +1988,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henry Percy">HOT.</speaker>
 <line globalnumber="593" number="1" form="prose"><recite>&#8220;But, for mine own part, my lord, I could be well contented to be there, in respect of the love I bear your house.&#8221;</recite></line><lb />
 <line globalnumber="594" number="2" form="prose">He could be contented: why is he not then? In the respect of the love he bears our house: he shows in this, he loves his own barn better than he loves our house. Let me see some more.</line><lb />
@@ -2197,7 +2212,10 @@
 	<scenepersona short="SHER.">Sheriff</scenepersona>
 	<scenepersona short="1. CAR.">First Carrier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="683.02" sdnumber="0.01">
@@ -3476,9 +3494,12 @@
 	<scenepersona short="WOR.">Worcester</scenepersona>
 	<scenepersona short="MORT.">Lord Mortimer</scenepersona>
 	<scenepersona short="GLEND.">Owen Glendower</scenepersona>
+	<scenepersona short="LADY MORT.">Lady Mortimer</scenepersona>
 	<scenepersona short="WEL. LAD.">Welsh Ladies</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="902.02" sdnumber="0.01">
@@ -3875,6 +3896,7 @@
 		<actor>GLEND.</actor>
 		<actor>WEL. LAD.</actor>
 		<actor>LADY P.</actor>
+		<actor>LADY MORT.</actor>
 	</action>
 </stagedir>
 
@@ -3900,7 +3922,7 @@
 	<dir>Glendower speaks to her in Welsh, and she answers him in the same.</dir>
 	<action type="action">
 		<actor>GLEND.</actor>
-		<recipient>WEL. LAD.</recipient>
+		<recipient>LADY MORT.</recipient>
 	</action>
 </stagedir>
 
@@ -3913,7 +3935,7 @@
 <stagedir sdglobalnumber="1105.01" sdnumber="197.01">
 	<dir>The lady speaks in Welsh.</dir>
 	<action type="action">
-		<actor>WEL. LAD.</actor>
+		<actor>LADY MORT.</actor>
 	</action>
 </stagedir>
 
@@ -3926,7 +3948,7 @@
 <stagedir sdglobalnumber="1109.01" sdnumber="201.01">
 	<dir>The lady again in Welsh.</dir>
 	<action type="action">
-		<actor>WEL. LAD.</actor>
+		<actor>LADY MORT.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1110" number="202" form="verse">I understand thy kisses, and thou mine,</line>
@@ -3946,7 +3968,7 @@
 <stagedir sdglobalnumber="1117.01" sdnumber="209.01">
 	<dir>The lady speaks again in Welsh.</dir>
 	<action type="action">
-		<actor>WEL. LAD.</actor>
+		<actor>LADY MORT.</actor>
 	</action>
 </stagedir>
 
@@ -4059,7 +4081,7 @@
 <stagedir sdglobalnumber="1149.01" sdnumber="241.01">
 	<dir>Here the lady sings a Welsh song.</dir>
 	<action type="song">
-		<actor>WEL. LAD.</actor>
+		<actor>LADY MORT.</actor>
 	</action>
 </stagedir>
 
@@ -4122,6 +4144,7 @@
 		<actor>MORT.</actor>
 		<actor>GLEND.</actor>
 		<actor>WEL. LAD.</actor>
+		<actor>LADY MORT.</actor>
 		<actor>LADY P.</actor>
 	</action>
 </stagedir>
@@ -4137,7 +4160,9 @@
 	<scenepersona>Lords</scenepersona>
 	<scenepersona short="BLUNT.">Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1166.02" sdnumber="0.01">
@@ -4399,7 +4424,10 @@
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="PETO.">Peto</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1347.02" sdnumber="0.01">
@@ -4811,7 +4839,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1430" number="83" form="verse">Rare words! Brave world! Hostess, my breakfast, come!</line>
 <line globalnumber="1431" number="84" form="verse">O, I could wish this tavern were my drum!</line>
@@ -4839,7 +4867,9 @@
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 	<scenepersona short="VER.">Sir Richard Vernon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1431.02" sdnumber="0.01">
@@ -5162,7 +5192,9 @@
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1574.02" sdnumber="0.01">
@@ -5322,7 +5354,9 @@
 	<scenepersona short="VER.">Sir Richard Vernon</scenepersona>
 	<scenepersona short="BLUNT.">Sir Walter Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1597.02" sdnumber="0.01">
@@ -5601,7 +5635,9 @@
 	<scenepersona short="ARCH.">Archbishop of York</scenepersona>
 	<scenepersona short="SIR M.">Sir Michael</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1718.02" sdnumber="0.01">
@@ -5715,7 +5751,9 @@
 	<scenepersona short="WOR.">Worcester</scenepersona>
 	<scenepersona short="VER.">Sir Richard Vernon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1760.02" sdnumber="0.01">
@@ -5959,7 +5997,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1886" number="125" form="prose">&#8217;Tis not due yet, I would be loath to pay him before his day. What need I be so forward with him that calls not on me? Well, &#8217;tis no matter, honor pricks me on. Yea, but how if honor prick me off when I come on? How then? Can honor set to a leg? No. Or an arm? No. Or take away the grief of a wound? No. Honor hath no skill in surgery then? No. What is honor? A word. What is in that word honor? What is that honor? Air. A trim reckoning! Who hath it? He that died a&#8217; Wednesday. Doth he feel it? No. Doth he hear it? No. &#8217;Tis insensible then? Yea, to the dead. But will&#8217;t not live with the living? No. Why? Detraction will not suffer it. Therefore I&#8217;ll none of it, honor is a mere scutcheon. And so ends my catechism.</line>
 </speech>
@@ -5984,7 +6022,9 @@
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1886.02" sdnumber="0.01">
@@ -6242,7 +6282,9 @@
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1988.02" sdnumber="0.01">
@@ -6386,7 +6428,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="2020" number="30" form="prose">Though I could scape shot-free at London, I fear the shot here, here&#8217;s no scoring but upon the pate. Soft, who are you? Sir Walter Blunt. There&#8217;s honor for you! Here&#8217;s no vanity! I am as hot as molten lead, and as heavy too. God keep lead out of me! I need no more weight than mine own bowels. I have led my ragamuffins where they are pepper&#8217;d; there&#8217;s not three of my hundred and fifty left alive, and they are for the town&#8217;s end, to beg during life. But who comes here?</line>
 </speech>
@@ -6458,7 +6500,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="2031" number="41" form="prose">Well, if Percy be alive, I&#8217;ll pierce him. If he do come in my way, so; if he do not, if I come in his willingly, let him make a carbonado of me. I like not such grinning honor as Sir Walter hath. Give me life, which if I can save, so; if not, honor comes unlook&#8217;d for, and there&#8217;s an end.</line>
 </speech>
@@ -6485,7 +6527,10 @@
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2031.02" sdnumber="0.01">
@@ -6649,7 +6694,6 @@
 		<actor>DOUG.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2076" number="44" form="verse">Cheerly, my lord, how fares your Grace?</line>
 <line globalnumber="2077" number="45" form="verse">Sir Nicholas Gawsey hath for succor sent,</line>
 <line globalnumber="2078" number="46" form="verse">And so hath Clifton. I&#8217;ll to Clifton straight.</line>
@@ -6808,7 +6852,7 @@
 </stagedir>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henry, Prince of Wales">PRINCE.</speaker>
 <line globalnumber="2119" number="86" form="verse">For worms, brave Percy. Fare thee well, great heart!</line>
 <line globalnumber="2120" number="87" form="verse">Ill-weav&#8217;d ambition, how much art thou shrunk!</line>
@@ -6856,7 +6900,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="2143" number="110" form="prose">Embowell&#8217;d! If thou embowel me today, I&#8217;ll give you leave to powder me and eat me too tomorrow. &#8217;Sblood, &#8217;twas time to counterfeit, or that hot termagant Scot had paid me scot and lot too. Counterfeit? I lie, I am no counterfeit. To die is to be a counterfeit, for he is but the counterfeit of a man who hath not the life of a man; but to counterfeit dying, when a man thereby liveth, is to be no counterfeit, but the true and perfect image of life indeed. The better part of valor is discretion, in the which better part I have sav&#8217;d my life. &#8217;Zounds, I am afraid of this gunpowder Percy though he be dead. How if he should counterfeit too and rise? By my faith, I am afraid he would prove the better counterfeit. Therefore I&#8217;ll make him sure, yea, and I&#8217;ll swear I kill&#8217;d him. Why may not he rise as well as I? Nothing confutes me but eyes, and nobody sees me. Therefore, sirrah,</line>
 <stagedir sdglobalnumber="2143.01" sdnumber="110.01">
@@ -6982,7 +7026,9 @@
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 	<scenepersona short="WOR.">Worcester</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2166.02" sdnumber="0.01">
@@ -7096,7 +7142,22 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="14">
+<placename>A highway near Gadshill.</placename>
+<placename>A public road near Coventry.</placename>
+<placename>Another part of the field.</placename>
+<placename>Eastcheap. The Boar&#8217;s Head Tavern.</placename>
+<placename>King Henry IV&#8217;s camp near Shrewsbury.</placename>
+<placename>London. An apartment of the Prince&#8217;s.</placename>
+<placename>London. The palace.</placename>
+<placename>Rochester. An inn yard.</placename>
+<placename>The plain between the camps.</placename>
+<placename>The rebel camp near Shrewsbury.</placename>
+<placename>The rebel camp.</placename>
+<placename>Wales. Glendower&#8217;s castle.</placename>
+<placename>Warkworth castle.</placename>
+<placename>York. The Archbishop&#8217;s palace.</placename>
+</locations>
 
 
 
@@ -7159,13 +7220,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>132</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

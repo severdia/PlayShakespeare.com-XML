@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Merry Wives of Windsor">The Merry Wives of Windsor</title>
@@ -8,7 +8,7 @@
 
 <personae playtitle="The Merry Wives of Windsor">
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="FAL." numberOfLines="148" numberOfVerseLines="13" numberOfProseLines="135" numberOfLyricsLines="0">Sir John Falstaff</persname>
 </persona>
 
@@ -16,7 +16,7 @@
 <persname short="FENT." numberOfLines="93" numberOfVerseLines="85" numberOfProseLines="8" numberOfLyricsLines="0">Fenton</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SHAL." numberOfLines="60" numberOfVerseLines="0" numberOfProseLines="60" numberOfLyricsLines="0">Robert Shallow</persname>
 <persaliases>
 	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
@@ -24,7 +24,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="FORD." numberOfLines="114" numberOfVerseLines="17" numberOfProseLines="97" numberOfLyricsLines="0">Francis Ford</persname>
 </persona>
 
@@ -49,14 +49,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="MRS. FORD." numberOfLines="95" numberOfVerseLines="9" numberOfProseLines="86" numberOfLyricsLines="0">Mistress Alice Ford</persname>
 <persaliases>
 	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="MRS. PAGE." numberOfLines="168" numberOfVerseLines="60" numberOfProseLines="108" numberOfLyricsLines="0">Mistress Margaret Page</persname>
 <persaliases>
 	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
@@ -67,11 +67,11 @@
 <persname short="ANNE." numberOfLines="27" numberOfVerseLines="12" numberOfProseLines="15" numberOfLyricsLines="0">Mistress Anne Page</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="clown">
 <persname short="QUICK." numberOfLines="122" numberOfVerseLines="47" numberOfProseLines="75" numberOfLyricsLines="11">Mistress Quickly</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CAIUS." numberOfLines="52" numberOfVerseLines="0" numberOfProseLines="52" numberOfLyricsLines="0">Doctor Caius</persname>
 <persaliases>
 	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
@@ -86,15 +86,15 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="BARD." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Bardolph</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="PIST." numberOfLines="55" numberOfVerseLines="38" numberOfProseLines="17" numberOfLyricsLines="4">Pistol</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="NYM." numberOfLines="14" numberOfVerseLines="4" numberOfProseLines="10" numberOfLyricsLines="0">Nym</persname>
 </persona>
 
@@ -102,18 +102,18 @@
 <persname short="ROB." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Robin</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SIM." numberOfLines="25" numberOfVerseLines="0" numberOfProseLines="25" numberOfLyricsLines="0">Peter Simple</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="RUG." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">John Rugby</persname>
 <persaliases>
 	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SLEN." numberOfLines="62" numberOfVerseLines="0" numberOfProseLines="62" numberOfLyricsLines="0">Abraham Slender</persname>
 <persaliases>
 	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
@@ -161,7 +161,10 @@
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -979,7 +982,9 @@
 	<scenepersona short="EVANS.">Evans</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -1028,7 +1033,11 @@
 	<scenepersona short="PIST.">Pistol</scenepersona>
 	<scenepersona short="ROB.">Robin</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="146.02" sdnumber="0.01">
@@ -1337,7 +1346,10 @@
 	<scenepersona short="CAIUS.">Doctor Caius</scenepersona>
 	<scenepersona short="FENT.">Fenton</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="205.02" sdnumber="0.01">
@@ -1804,7 +1816,10 @@
 	<scenepersona short="HOST.">Host</scenepersona>
 	<scenepersona short="SHAL.">Shallow</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="274.02" sdnumber="0.01">
@@ -1814,7 +1829,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mistress Margaret Page">MRS. PAGE.</speaker>
 <line globalnumber="275" number="1" form="prose">What, have I scap&#8217;d love-letters in the holiday-time of my beauty, and am I now a subject for them? Let me see.</line>
 <stagedir sdglobalnumber="275.01" sdnumber="1.01">
@@ -2338,7 +2353,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Francis Ford">FORD.</speaker>
 <line globalnumber="365" number="91" form="prose">Though Page be a secure fool, and stands so firmly on his wife&#8217;s frailty, yet I cannot put off my opinion so easily. She was in his company at Page&#8217;s house; and what they made there, I know not. Well, I will look further into&#8217;t, and I have a disguise to sound Falstaff. If I find her honest, I lose not my labor; if she be otherwise, &#8217;tis labor well bestow&#8217;d.</line>
 </speech>
@@ -2362,7 +2377,10 @@
 	<scenepersona short="BARD.">Bardolph</scenepersona>
 	<scenepersona short="FORD.">Ford</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="365.02" sdnumber="0.01">
@@ -2865,7 +2883,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Francis Ford">FORD.</speaker>
 <line globalnumber="457" number="92" form="prose">What a damn&#8217;d Epicurean rascal is this! My heart is ready to crack with impatience. Who says this is improvident jealousy? My wife hath sent to him, the hour is fix&#8217;d, the match is made. Would any man have thought this? See the hell of having a false woman! My bed shall be abus&#8217;d, my coffers ransack&#8217;d, my reputation gnawn at, and I shall not only receive this villainous wrong, but stand under the adoption of abominable terms, and by him that does me this wrong. Terms! Names! Amaimon sounds well; Lucifer, well; Barbason, well; yet they are devils&#8217; additions, the names of fiends; but Cuckold! Wittol!&#8212;Cuckold! The devil himself hath not such a name. Page is an ass, a secure ass; he will trust his wife, he will not be jealous. I will rather trust a Fleming with my butter, Parson Hugh the Welshman with my cheese, an Irishman with my aqua-vitae bottle, or a thief to walk my ambling gelding, than my wife with herself. Then she plots, then she ruminates, then she devises; and what they think in their hearts they may effect, they will break their hearts but they will effect. God be prais&#8217;d for my jealousy! Eleven o&#8217; clock the hour. I will prevent this, detect my wife, be reveng&#8217;d on Falstaff, and laugh at Page. I will about it; better three hours too soon than a minute too late. Fie, fie, fie! Cuckold, cuckold, cuckold!</line>
 </speech>
@@ -2889,7 +2907,10 @@
 	<scenepersona short="SLEN.">Slender</scenepersona>
 	<scenepersona short="HOST.">Host</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="457.02" sdnumber="0.01">
@@ -3182,7 +3203,10 @@
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 	<scenepersona short="RUG.">Rugby</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -3584,7 +3608,9 @@
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 	<scenepersona short="RUG.">Rugby</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -3841,7 +3867,9 @@
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -4218,7 +4246,6 @@
 		<actor>2. SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="650" number="56" form="prose">Go take up these clothes here quickly. Where&#8217;s the cowl-staff? Look how you drumble! Carry them to the laundress in Datchet-mead; quickly, come.</line>
 </speech>
 
@@ -4517,7 +4544,9 @@
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="693.02" sdnumber="0.01">
@@ -4832,7 +4861,7 @@
 <line globalnumber="773" number="76" form="verse">Give my sweet Nan this ring. There&#8217;s for thy pains.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mistress Quickly">QUICK.</speaker>
 <line globalnumber="774" number="77" form="prose">Now heaven send thee good fortune!</line>
 <stagedir sdglobalnumber="774.01" sdnumber="77.01">
@@ -4861,7 +4890,10 @@
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
 	<scenepersona short="FORD.">Ford</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="775.02" sdnumber="0.01">
@@ -4888,7 +4920,7 @@
 <line globalnumber="777" number="2" form="prose">Here, sir.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="778" number="3" form="prose">Go fetch me a quart of sack, put a toast in&#8217;t.</line>
 <stagedir sdglobalnumber="778.01" sdnumber="3.01">
@@ -5137,7 +5169,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Francis Ford">FORD.</speaker>
 <line globalnumber="820" number="45" form="prose">Hum! Ha? Is this a vision? Is this a dream? Do I sleep? Master Ford, awake! Awake, Master Ford! There&#8217;s a hole made in your best coat, Master Ford. This &#8217;tis to be married! This &#8217;tis to have linen and buck-baskets! Well, I will proclaim myself what I am. I will now take the lecher; he is at my house. He cannot scape me; &#8217;tis impossible he should; he cannot creep into a halfpenny purse, nor into a pepper-box. But lest the devil that guides him should aid him, I will search impossible places. Though what I am I cannot avoid, yet to be what I would not shall not make me tame. If I have horns to make one mad, let the proverb go with me: I&#8217;ll be horn-mad.</line>
 </speech>
@@ -5162,7 +5194,11 @@
 	<scenepersona short="WILL.">William</scenepersona>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -5451,7 +5487,9 @@
 	<scenepersona short="EVANS.">Evans</scenepersona>
 	<scenepersona short="SHAL.">Shallow</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -5714,7 +5752,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mistress Margaret Page">MRS. PAGE.</speaker>
 <line globalnumber="911" number="42" form="prose">Hang him, dishonest varlet! We cannot misuse him enough.</line>
 <line globalnumber="912" number="43" form="prose">We&#8217;ll leave a proof, by that which we will do,</line>
@@ -6054,7 +6092,9 @@
 	<scenepersona short="HOST.">Host</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="963.02" sdnumber="0.01">
@@ -6104,7 +6144,9 @@
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -6351,7 +6393,10 @@
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -6623,7 +6668,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1092" number="40" form="prose">I would all the world might be cozen&#8217;d, for I have been cozen&#8217;d and beaten too. If it should come to the ear of the court, how I have been transform&#8217;d, and how my transformation hath been wash&#8217;d and cudgell&#8217;d, they would melt me out of my fat drop by drop, and liquor fishermen&#8217;s boots with me. I warrant they would whip me with their fine wits till I were as crestfall&#8217;n as a dried pear. I never prosper&#8217;d since I forswore myself at primero. Well, if my wind were but long enough to say my prayers, I would repent.</line>
 <stagedir sdglobalnumber="1092.01" sdnumber="40.01">
@@ -6681,7 +6726,9 @@
 	<scenepersona short="FENT.">Fenton</scenepersona>
 	<scenepersona short="HOST.">Host</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1099.02" sdnumber="0.01">
@@ -6797,7 +6844,9 @@
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
 	<scenepersona short="FORD.">Ford</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1152.02" sdnumber="0.01">
@@ -6867,7 +6916,9 @@ Follow. Strange things in hand, Master Brook! Follow.</line>
 	<scenepersona short="SHAL.">Shallow</scenepersona>
 	<scenepersona short="SLEN.">Slender</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1158.02" sdnumber="0.01">
@@ -6918,7 +6969,10 @@ The white will decipher her well enough. It hath struck ten a&#8217; clock.</lin
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1162.02" sdnumber="0.01">
@@ -7006,7 +7060,9 @@ The white will decipher her well enough. It hath struck ten a&#8217; clock.</lin
 	<scenepersona short="BOY">Boy</scenepersona>
 	<scenepersona short="POST. BOY">Postmaster’s Boy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -7059,7 +7115,10 @@ Come, come, trib, trib.</line>
 	<scenepersona short="POST. BOY">Postmaster&#8217;s Boy</scenepersona>
 	<scenepersona short="ANNE.">Anne Page</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 <scenedialect>
 	<dialect short="cy">Welsh</dialect>
 </scenedialect>
@@ -7072,14 +7131,9 @@ Come, come, trib, trib.</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
-<line globalnumber="1176" number="1" form="prose">The Windsor bell hath struck twelve; the minute draws on. Now the hot-bloodied gods assist me! Remember, Jove, thou wast a bull for thy Europa, love set on thy horns. O powerful love, that in some respects makes a beast a man; in some other, a man a beast. You were also, Jupiter, a swan for the love of Leda. O omnipotent love, how near the god drew to the complexion of a goose! A fault done first in the form of a beast (O Jove, a beastly fault!) 
-and then another fault in the semblance of a fowl&#8212;think on&#8217;t, Jove, a foul fault! 
-When gods have hot backs, what shall poor men do? For me, I am here a Windsor stag, and the fattest, I think, i&#8217; th&#8217; forest. 
-Send me a cool rut-time,
-
- Jove, or who can blame me to piss my tallow? Who comes here? My doe?</line>
+<line globalnumber="1176" number="1" form="prose">The Windsor bell hath struck twelve; the minute draws on. Now the hot-bloodied gods assist me! Remember, Jove, thou wast a bull for thy Europa, love set on thy horns. O powerful love, that in some respects makes a beast a man; in some other, a man a beast. You were also, Jupiter, a swan for the love of Leda. O omnipotent love, how near the god drew to the complexion of a goose! A fault done first in the form of a beast (O Jove, a beastly fault!) and then another fault in the semblance of a fowl&#8212;think on&#8217;t, Jove, a foul fault! When gods have hot backs, what shall poor men do? For me, I am here a Windsor stag, and the fattest, I think, i&#8217; th&#8217; forest. Send me a cool rut-time, Jove, or who can blame me to piss my tallow? Who comes here? My doe?</line>
 </speech>
 
 <stagedir sdglobalnumber="1176.01" sdnumber="1.01">
@@ -7153,7 +7207,7 @@ I bequeath your husbands. Am I a woodman, ha? Speak I like Herne the hunter? Why
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1185" number="10" form="prose">I think the devil will not have me damn&#8217;d, lest the oil that&#8217;s in me should set hell on fire; he would never else cross me thus.</line>
 </speech>
@@ -7685,7 +7739,20 @@ Use me as you will.</line>
 </scene>
 </act>
 
-
+<locations numberOfLocations="12">
+<placename>A field near Frogmore.</placename>
+<placename>A field near Windsor.</placename>
+<placename>A room in Dr. Caius&#8217;s house.</placename>
+<placename>A room in Ford&#8217;s house.</placename>
+<placename>A room in Page&#8217;s house.</placename>
+<placename>A room in the Garter Inn.</placename>
+<placename>A street leading to the Windsor Park.</placename>
+<placename>Another part of Windsor Park.</placename>
+<placename>Another room in the Garter Inn.</placename>
+<placename>Windsor Park.</placename>
+<placename>Windsor. A street in front of Page&#8217;s house.</placename>
+<placename>Windsor. A street.</placename>
+</locations>
 
 
 <sources>
@@ -7741,13 +7808,13 @@ Use me as you will.</line>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>146</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

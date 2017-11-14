@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Love&#8217;s Labor&#8217;s Lost">Love&#8217;s Labor&#8217;s Lost</title>
@@ -12,7 +12,7 @@
 <persname short="KING." numberOfLines="275" numberOfVerseLines="249" numberOfProseLines="26" numberOfLyricsLines="0">Ferdinand, King of Navarre</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="BER." numberOfLines="580" numberOfVerseLines="531" numberOfProseLines="49" numberOfLyricsLines="0">Berowne</persname>
 </persona>
 
@@ -28,7 +28,7 @@
 <persname short="BOYET." numberOfLines="202" numberOfVerseLines="174" numberOfProseLines="28" numberOfLyricsLines="2">Boyet</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="ARM." numberOfLines="125" numberOfVerseLines="32" numberOfProseLines="93" numberOfLyricsLines="0">Don Adriano de Armado</persname>
 </persona>
 
@@ -36,19 +36,19 @@
 <persname short="NATH." numberOfLines="41" numberOfVerseLines="17" numberOfProseLines="24" numberOfLyricsLines="0">Sir Nathaniel</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="HOL." numberOfLines="77" numberOfVerseLines="18" numberOfProseLines="59" numberOfLyricsLines="0">Holofernes</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="DULL." numberOfLines="17" numberOfVerseLines="2" numberOfProseLines="15" numberOfLyricsLines="0">Dull</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="COST." numberOfLines="114" numberOfVerseLines="53" numberOfProseLines="61" numberOfLyricsLines="0">Costard</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="MOTH." numberOfLines="99" numberOfVerseLines="34" numberOfProseLines="65" numberOfLyricsLines="1">Moth</persname>
 </persona>
 
@@ -56,11 +56,11 @@
 <persname short="FOR." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Forester</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="PRIN." numberOfLines="285" numberOfVerseLines="274" numberOfProseLines="11" numberOfLyricsLines="0">The Princess of France</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="ROS." numberOfLines="174" numberOfVerseLines="168" numberOfProseLines="6" numberOfLyricsLines="2">Rosaline</persname>
 </persona>
 
@@ -114,7 +114,11 @@
 	<scenepersona short="DULL.">Constable Dull</scenepersona>
 	<scenepersona short="COST.">Costard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -885,7 +889,11 @@
 	<scenepersona short="DULL.">Constable Dull</scenepersona>
 	<scenepersona short="JAQ.">Wench Jaquenetta</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="242.02" sdnumber="0.01">
@@ -1402,7 +1410,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Don Adriano de Armado">ARM.</speaker>
 <line globalnumber="342" number="100" form="prose">I do affect the very ground (which is base) where her shoe (which is baser) guided by her foot (which is basest) doth tread. I shall be forsworn (which is a great argument of falsehood) if I love. And how can that be true love, which is falsely attempted? Love is a familiar; Love is a devil; there is no evil angel but Love. Yet was Sampson so tempted, and he had an excellent strength; yet was Salomon so seduced, and he had a very good wit. Cupid&#8217;s butt-shaft is too hard for Hercules&#8217; club, and therefore too much odds for a Spaniard&#8217;s rapier. The first and second cause will not serve my turn; the <foreign xml:lang="it">passado</foreign> he respects not, the <foreign xml:lang="it">duello</foreign> he regards not: his disgrace is to be called boy, but his glory is to subdue men. <foreign xml:lang="fr">Adieu</foreign>, valor, rust, rapier, be still, drum, for your manager is in love; yea, he loveth. Assist me, some extemporal god of rhyme, for I am sure I shall turn sonnet. Devise, wit, write, pen, for I am for whole volumes in folio.</line>
 </speech>
@@ -1437,7 +1445,10 @@
 	<scenepersona short="BER.">Berowne</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="342.02" sdnumber="0.01">
@@ -2292,7 +2303,12 @@
 	<scenepersona short="COST.">Costard</scenepersona>
 	<scenepersona short="BER.">Berowne</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="608.02" sdnumber="0.01">
@@ -2675,7 +2691,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Costard">COST.</speaker>
 <line globalnumber="698" number="88" form="prose">My sweet ounce of man&#8217;s flesh, my incony Jew!</line>
 <line globalnumber="699" number="89" form="prose">Now will I look to his remuneration. Remuneration! O, that&#8217;s the Latin word for three farthings: three farthings&#8212;remuneration. &#8220;What&#8217;s the price of this inkle?&#8221;&#8212;&#8220;One penny.&#8221;&#8212;&#8220;No, I&#8217;ll give you a remuneration&#8221;: why, it carries it. Remuneration: why, it is a fairer name than French crown! I will never buy and sell out of this word.</line>
@@ -2783,7 +2799,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Berowne">BER.</speaker>
 <line globalnumber="724" number="114" form="verse">O, and I, forsooth, in love! I, that have been love&#8217;s whip,</line>
 <line globalnumber="725" number="115" form="verse">A very beadle to a humorous sigh,</line>
@@ -2844,7 +2860,11 @@
 	<scenepersona short="BOYET.">Boyet</scenepersona>
 	<scenepersona short="COST.">Costard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="755.02" sdnumber="0.01">
@@ -3318,7 +3338,12 @@
 	<scenepersona short="JAQ.">Jaquenetta</scenepersona>
 	<scenepersona short="COST.">Costard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="881.02" sdnumber="0.01">
@@ -3660,7 +3685,11 @@
 	<scenepersona short="JAQ.">Jaquenetta</scenepersona>
 	<scenepersona short="COST.">Costard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="962.02" sdnumber="0.01">
@@ -3670,7 +3699,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Berowne">BER.</speaker>
 <line globalnumber="963" number="1" form="prose">The King he is hunting the deer: I am coursing myself. They have pitch&#8217;d a toil: I am toiling in a pitch&#8212;pitch that defiles&#8212;defile! A foul word. Well, &#8220;set thee down, sorrow!&#8221; for so they say the fool said, and so say I, and I the fool: well prov&#8217;d, wit! By the Lord, this love is as mad as Ajax. It kills sheep; it kills me, I a sheep: well prov&#8217;d again a&#8217; my side! I will not love; if I do, hang me; i&#8217; faith, I will not. O but her eye&#8212;by this light, but for her eye, I would not love her; yes, for her two eyes. Well, I do nothing in the world but lie, and lie in my throat. By heaven, I do love, and it hath taught me to rhyme and to be melancholy; and here is part of my rhyme, and here my melancholy. Well, she hath one a&#8217; my sonnets already: the clown bore it, the fool sent it, and the lady hath it: sweet clown, sweeter fool, sweetest lady! By the world, I would not care a pin, if the other three were in. Here comes one with a paper, God give him grace to groan!</line>
 </speech>
@@ -3693,7 +3722,7 @@
 <line globalnumber="964" number="2" form="prose">Ay me!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Berowne">BER.</speaker>
 <stagedir sdglobalnumber="964.01" sdnumber="2.01">
 	<dir>Aside.</dir>
@@ -3704,7 +3733,7 @@
 <line globalnumber="965" number="3" form="prose">Shot, by heaven! Proceed, sweet Cupid, thou hast thump&#8217;d him with thy bird-bolt under the left pap. In faith, secrets!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Ferdinand, King of Navarre">KING.</speaker>
 <stagedir sdglobalnumber="965.01" sdnumber="3.01">
 	<dir>Reads.</dir>
@@ -3738,7 +3767,6 @@
 	<action type="action">
 		<actor>KING.</actor>
 	</action>
-	
 </stagedir>
 <line globalnumber="984" number="22" form="verse">What, Longaville, and reading! Listen, ear.</line>
 </speech>
@@ -3829,7 +3857,7 @@
 <line globalnumber="998" number="36" form="verse" offset="0">Disfigure not his shop.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Longaville">LONG.</speaker>
 <line globalnumber="999" number="36" form="verse" offset="4">This same shall go.</line>
 <stagedir sdglobalnumber="999.01" sdnumber="36.01">
@@ -3886,7 +3914,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Berowne">BER.</speaker>
 <stagedir sdglobalnumber="1017.02" sdnumber="54.02">
 	<dir>Aside.</dir>
@@ -4054,7 +4082,7 @@
 <line globalnumber="1043" number="77" form="verse">Once more I&#8217;ll mark how love can vary wit.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Dumaine">DUM.</speaker>
 <stagedir sdglobalnumber="1043.01" sdnumber="77.01">
 	<dir>Reads his sonnet.</dir>
@@ -4723,7 +4751,12 @@
 	<scenepersona short="MOTH.">Moth</scenepersona>
 	<scenepersona short="COST.">Costard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1340.02" sdnumber="0.01">
@@ -5092,7 +5125,13 @@
 	<scenepersona short="WINTER.">Hiems, the Winter</scenepersona>
 	<scenepersona short="SPRING.">Ver, the Spring</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="es">Spanish</language>
+    <language short="nl">Dutch</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1397.02" sdnumber="0.01">
@@ -7963,7 +8002,9 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="1">
+<placename>The King of Navarre&#8217;s park.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -8006,12 +8047,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>143</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

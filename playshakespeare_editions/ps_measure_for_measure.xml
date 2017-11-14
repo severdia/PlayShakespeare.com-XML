@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Measure for Measure">Measure for Measure</title>
@@ -11,7 +11,7 @@
 <persname short="DUKE." numberOfLines="687" numberOfVerseLines="612" numberOfProseLines="75" numberOfLyricsLines="0">Vincentio, the Duke</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="ANG." numberOfLines="312" numberOfVerseLines="301" numberOfProseLines="11" numberOfLyricsLines="0">Angelo</persname>
 <persaliases>
 	<persname short="BOTH. ANG. AND ESCAL.">Both Angelo and Escalus</persname>
@@ -25,11 +25,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover">
 <persname short="CLAUD." numberOfLines="112" numberOfVerseLines="108" numberOfProseLines="4" numberOfLyricsLines="0">Claudio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="LUCIO." numberOfLines="178" numberOfVerseLines="105" numberOfProseLines="73" numberOfLyricsLines="0">Lucio</persname>
 </persona>
 
@@ -49,15 +49,15 @@
 <persname short="VARR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Varrius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="ELB." numberOfLines="28" numberOfVerseLines="1" numberOfProseLines="27" numberOfLyricsLines="0">Elbow</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="FROTH." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Froth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="POM." numberOfLines="63" numberOfVerseLines="4" numberOfProseLines="59" numberOfLyricsLines="0">Pompey</persname>
 </persona>
 
@@ -69,7 +69,7 @@
 <persname short="BAR." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Barnardine</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="ISAB." numberOfLines="409" numberOfVerseLines="399" numberOfProseLines="10" numberOfLyricsLines="0">Isabella</persname>
 </persona>
 
@@ -126,7 +126,9 @@
 	<scenepersona short="ATT.">Attendants</scenepersona>
 	<scenepersona short="ANG.">Angelo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -341,7 +343,10 @@
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona>Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="89.02" sdnumber="0.01">
@@ -882,7 +887,9 @@
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="220.02" sdnumber="0.01">
@@ -996,7 +1003,10 @@
 	<scenepersona short="FRAN.">Francisca</scenepersona>
 	<scenepersona short="LUCIO.">Lucio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="277.02" sdnumber="0.01">
@@ -1285,7 +1295,9 @@
 	<scenepersona short="POM.">Pompey</scenepersona>
 	<scenepersona>Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="376.02" sdnumber="0.01">
@@ -2013,7 +2025,9 @@
 	<scenepersona short="LUCIO.">Lucio</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="542.02" sdnumber="0.01">
@@ -2030,7 +2044,7 @@
 <line globalnumber="544" number="2" form="verse" offset="0">I&#8217;ll tell him of you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Provost">PROV.</speaker>
 <line globalnumber="545" number="2" form="verse" offset="4">Pray you do.</line>
 <stagedir sdglobalnumber="545.01" sdnumber="2.01">
@@ -2644,7 +2658,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Angelo">ANG.</speaker>
 <line globalnumber="735" number="163" form="verse" offset="4">From thee: even from thy virtue.</line>
 <line globalnumber="736" number="164" form="verse">What&#8217;s this? What&#8217;s this? Is this her fault, or mine?</line>
@@ -2691,7 +2705,10 @@
 	<scenepersona short="PROV.">Provost</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="760.02" sdnumber="0.01">
@@ -2871,7 +2888,9 @@
 	<scenepersona short="SERV.">Servant</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="807.02" sdnumber="0.01">
@@ -2881,7 +2900,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Angelo">ANG.</speaker>
 <line globalnumber="808" number="1" form="verse">When I would pray and think, I think and pray</line>
 <line globalnumber="809" number="2" form="verse">To several subjects. Heaven hath my empty words,</line>
@@ -3276,7 +3295,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Isabella">ISAB.</speaker>
 <line globalnumber="990" number="171" form="verse">To whom should I complain? Did I tell this,</line>
 <line globalnumber="991" number="172" form="verse">Who would believe me? O perilous mouths,</line>
@@ -3318,7 +3337,10 @@
 	<scenepersona short="PROV.">Provost</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1006.02" sdnumber="0.01">
@@ -3902,7 +3924,10 @@
 	<scenepersona short="PROV.">Provost</scenepersona>
 	<scenepersona short="MRS. OV.">Mistress Overdone</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1199.02" sdnumber="0.01">
@@ -4462,7 +4487,9 @@
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1329.02" sdnumber="0.01">
@@ -4722,7 +4749,9 @@
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1405.02" sdnumber="0.01">
@@ -5241,7 +5270,9 @@
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 	<scenepersona short="LUCIO.">Lucio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1515.02" sdnumber="0.01">
@@ -5251,7 +5282,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pompey">POM.</speaker>
 <line globalnumber="1516" number="1" form="prose">I am as well acquainted here as I was in our house of profession. One would think it were Mistress Overdone&#8217;s own house, for here be many of her old customers. First, here&#8217;s young Master Rash, he&#8217;s in for a commodity of brown paper and old ginger, ninescore and seventeen pounds, of which he made five marks ready money. Marry, then ginger was not much in request, for the old women were all dead. Then is there here one Master Caper, at the suit of Master Three-pile the mercer, for some four suits of peach-color&#8217;d satin, which now peaches him a beggar. Then have we here young Dizzy, and young Master Deep-vow, and Master Copper-spur, and Master Starve-lackey the rapier and dagger man, and young Drop-heir that kill&#8217;d lusty Pudding, and Master Forthlight the tilter, and brave Master Shoe-tie the great traveler, and wild Half-can that stabb&#8217;d Pots, and I think forty more, all great doers in our trade, and are now &#8220;for the Lord&#8217;s sake.&#8221;</line>
 </speech>
@@ -5751,7 +5782,9 @@
 	<scenepersona short="ANG.">Angelo</scenepersona>
 	<scenepersona short="ESCAL.">Escalus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1644.02" sdnumber="0.01">
@@ -5840,7 +5873,9 @@
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
 	<scenepersona short="VARR.">Varrius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1667.02" sdnumber="0.01">
@@ -5861,7 +5896,6 @@
 		<recipient>FRI. PET.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1669" number="2" form="verse">The Provost knows our purpose and our plot.</line>
 <line globalnumber="1670" number="3" form="verse">The matter being afoot, keep your instruction,</line>
 <line globalnumber="1671" number="4" form="verse">And hold you ever to our special drift,</line>
@@ -5917,7 +5951,9 @@
 	<scenepersona short="MARI.">Mariana</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1681.02" sdnumber="0.01">
@@ -6011,7 +6047,11 @@
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
 	<scenepersona short="JUL.">Julietta</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1698.02" sdnumber="0.01">
@@ -7463,7 +7503,22 @@
 </act>
 
 
-
+<locations numberOfLocations="14">
+<placename>A hall in Angelo&#8217;s house.</placename>
+<placename>A room in Angelo&#8217;s house.</placename>
+<placename>A room in a prison.</placename>
+<placename>A street near the city gate.</placename>
+<placename>Another room in Angelo&#8217;s house.</placename>
+<placename>Another room in the prison.</placename>
+<placename>At the city gate.</placename>
+<placename>Fields without the town.</placename>
+<placename>The moated grange at St. Luke&#8217;s.</placename>
+<placename>The street before the prison.</placename>
+<placename>Vienna. A monastery.</placename>
+<placename>Vienna. A nunnery.</placename>
+<placename>Vienna. A street.</placename>
+<placename>Vienna. An apartment in the Duke&#8217;s palace.</placename>
+</locations>
 
 
 <sources>
@@ -7512,11 +7567,11 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>144</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 </play>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Sir Thomas More">Sir Thomas More</title>
@@ -308,7 +308,9 @@
 	<scenepersona short="WILLIAMSON.">Williamson</scenepersona>
 	<scenepersona short="SHERWIN.">Sherwin</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -606,7 +608,9 @@
 	<scenepersona short="RECORDER.">Recorder</scenepersona>
 	<scenepersona short="OFFICERS.">Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="46.02" sdnumber="0.01">
@@ -1206,7 +1210,9 @@
 	<scenepersona short="CHOLMLEY.">Sir Roger Cholmley</scenepersona>
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="256.02" sdnumber="0.01">
@@ -1424,7 +1430,9 @@
 	<scenepersona short="ROBIN.">Apprentice Robin</scenepersona>
 	<scenepersona short="KIT.">Apprentice Kit</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="350.02" sdnumber="0.01">
@@ -1508,7 +1516,9 @@
 	<scenepersona short="SHERWIN.">Sherwin</scenepersona>
 	<scenepersona short="DOLL.">Doll</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="360.02" sdnumber="0.01">
@@ -1704,7 +1714,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Clown Betts">CLOWN.</speaker>
 <line globalnumber="423" number="44" form="verse">Fire, fire! I&#8217;ll be the first.</line>
 <line globalnumber="424" number="45" form="verse">If hanging come, &#8217;tis welcome; that&#8217;s the worst.</line>
@@ -1732,7 +1742,9 @@
 	<scenepersona short="PALMER.">Palmer</scenepersona>
 	<scenepersona short="CHOLMLEY.">Cholmley</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="424.02" sdnumber="0.01">
@@ -1887,7 +1899,10 @@
 	<scenepersona short="MORE.">More</scenepersona>
 	<scenepersona short="CROFTS.">Crofts</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="474.02" sdnumber="0.01">
@@ -2499,7 +2514,9 @@
 	<scenepersona short="WILLIAMSON.">Williamson</scenepersona>
 	<scenepersona short="SURREY.">Earl of Surrey</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="697.02" sdnumber="0.01">
@@ -2540,7 +2557,6 @@
 		<actor>OFFICERS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="707" number="9" form="verse">To suffer death, and that immediately.</line>
 </speech>
 
@@ -2975,7 +2991,10 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="MORRIS.">Master Morris</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="871.02" sdnumber="0.01">
@@ -2990,7 +3009,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="872" number="1" form="verse">It is in heaven that I am thus and thus;</line>
 <line globalnumber="873" number="2" form="verse">And that which we profanely term our fortunes</line>
@@ -3686,7 +3705,9 @@
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1098.02" sdnumber="0.01">
@@ -3759,7 +3780,9 @@
 	<scenepersona short="LUGGINS.">Luggins</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1120.02" sdnumber="0.01">
@@ -4662,7 +4685,9 @@
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="PALMER.">Sir Thomas Palmer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1414.02" sdnumber="0.01">
@@ -5012,7 +5037,10 @@
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="SERVANT.">Servants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1533.02" sdnumber="0.01">
@@ -5289,7 +5317,10 @@
 	<scenepersona short="2. WARDER.">Second Warder of the Tower</scenepersona>
 	<scenepersona short="3. WARDER.">Third Warder of the Tower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1629.02" sdnumber="0.01">
@@ -5399,7 +5430,11 @@
 	<scenepersona short="CATESBY.">Catesby</scenepersona>
 	<scenepersona short="DOWNES.">Downes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1658.02" sdnumber="0.01">
@@ -5881,7 +5916,10 @@
 	<scenepersona short="SHREWSBURY.">Shrewsbury</scenepersona>
 	<scenepersona short="SURREY.">Surrey</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1847.02" sdnumber="0.01">
@@ -6148,7 +6186,9 @@
 	<scenepersona short="GOUGH.">Gough</scenepersona>
 	<scenepersona short="CATESBY.">Catesby</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1916.02" sdnumber="0.01">
@@ -6298,7 +6338,9 @@
 	<scenepersona short="BOTH DAUGHTERS.">Daughters</scenepersona>
 	<scenepersona short="ROPER.">Master Roper</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1956.02" sdnumber="0.01">
@@ -6661,7 +6703,9 @@
 	<scenepersona short="SHREWSBURY.">Earl of Shrewsbury</scenepersona>
 	<scenepersona short="HANGMAN.">Hangman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2089.02" sdnumber="0.01">
@@ -7007,7 +7051,23 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="15">
+<placename>Cheapside.</placename>
+<placename>Chelsea. A room in More&#8217;s house.</placename>
+<placename>Chelsea. Antechamber in More&#8217;s house.</placename>
+<placename>Chelsea.</placename>
+<placename>London. A state apartment.</placename>
+<placename>London. A street.</placename>
+<placename>London. The Sessions House.</placename>
+<placename>More&#8217;s house.</placename>
+<placename>Saint Martin&#8217;s-le-Grand.</placename>
+<placename>St. Martin&#8217;s Gate.</placename>
+<placename>The Guildhall.</placename>
+<placename>The Tower Gate.</placename>
+<placename>The Tower.</placename>
+<placename>Tower Hill.</placename>
+<placename>Whitehall. The council chamber.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7049,13 +7109,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>150</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

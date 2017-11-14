@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Two Gentlemen of Verona">The Two Gentlemen of Verona</title>
@@ -16,7 +16,7 @@
 <persname short="VAL." numberOfLines="372" numberOfVerseLines="315" numberOfProseLines="57" numberOfLyricsLines="0">Valentine</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PRO." numberOfLines="438" numberOfVerseLines="403" numberOfProseLines="35" numberOfLyricsLines="0">Proteus</persname>
 </persona>
 
@@ -36,11 +36,11 @@
 <persname short="HOST." numberOfLines="31" numberOfVerseLines="19" numberOfProseLines="12" numberOfLyricsLines="15">Host</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SPEED." numberOfLines="131" numberOfVerseLines="21" numberOfProseLines="110" numberOfLyricsLines="0">Speed</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="LAUNCE." numberOfLines="69" numberOfVerseLines="0" numberOfProseLines="69" numberOfLyricsLines="0">Launce</persname>
 </persona>
 
@@ -48,11 +48,11 @@
 <persname short="PAN." numberOfLines="36" numberOfVerseLines="29" numberOfProseLines="7" numberOfLyricsLines="0">Panthino</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="JUL." numberOfLines="320" numberOfVerseLines="307" numberOfProseLines="13" numberOfLyricsLines="0">Julia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="SIL." numberOfLines="155" numberOfVerseLines="149" numberOfProseLines="6" numberOfLyricsLines="0">Silvia</persname>
 </persona>
 
@@ -101,7 +101,10 @@
 	<scenepersona short="PRO.">Proteus</scenepersona>
 	<scenepersona short="SPEED.">Speed</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -542,7 +545,9 @@
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="LUC.">Lucetta</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="122.02" sdnumber="0.01">
@@ -1050,7 +1055,9 @@
 	<scenepersona short="PAN.">Panthino</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="269.02" sdnumber="0.01">
@@ -1156,7 +1163,7 @@
 <line globalnumber="314" number="44" form="verse">And in good time! Now will we break with him.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Proteus">PRO.</speaker>
 <line globalnumber="315" number="45" form="verse">Sweet love, sweet lines, sweet life!</line>
 <line globalnumber="316" number="46" form="verse">Here is her hand, the agent of her heart;</line>
@@ -1291,7 +1298,9 @@
 	<scenepersona short="SPEED.">Speed</scenepersona>
 	<scenepersona short="SIL.">Silvia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="361.02" sdnumber="0.01">
@@ -1857,7 +1866,9 @@
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="PAN.">Panthino</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="483.02" sdnumber="0.01">
@@ -1965,7 +1976,9 @@
 	<scenepersona short="CRAB">Crab</scenepersona>
 	<scenepersona short="PAN.">Panthino</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="505.02" sdnumber="0.01">
@@ -1976,7 +1989,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Launce">LAUNCE.</speaker>
 <line globalnumber="506" number="1" form="prose">Nay, &#8217;twill be this hour ere I have done weeping; all the kind of the Launces have this very fault. I have receiv&#8217;d my proportion, like the prodigious son, and am going with Sir Proteus to the Imperial&#8217;s court. I think Crab my dog be the sourest-natur&#8217;d dog that lives: my mother weeping, my father wailing, my sister crying, our maid howling, our cat wringing her hands, and all our house in a great perplexity, yet did not this cruel-hearted cur shed one tear. He is a stone, a very pebble stone, and has no more pity in him than a dog. A Jew would have wept to have seen our parting; why, my grandam, having no eyes, look you, wept herself blind at my parting. Nay, I&#8217;ll show you the manner of it. This shoe is my father; no, this left shoe is my father; no, no, this left shoe is my mother; nay, that cannot be so neither; yes, it is so, it is so&#8212;it hath the worser sole. This shoe, with the hole in it, is my mother, and this my father&#8212;a vengeance on&#8217;t! There &#8217;tis. Now, sir, this staff is my sister, for, look you, she is as white as a lily and as small as a wand. This hat is Nan, our maid. I am the dog&#8212;no, the dog is himself, and I am the dog&#8212;O! The dog is me, and I am myself; ay, so, so. Now come I to my father: &#8220;Father, your blessing.&#8221; Now should not the shoe speak a word for weeping; now should I kiss my father; well, he weeps on. Now come I to my mother. O that she could speak now like a wood woman! Well, I kiss her; why, there &#8217;tis; here&#8217;s my mother&#8217;s breath up and down. Now come I to my sister; mark the moan she makes. Now the dog all this while sheds not a tear, nor speaks a word; but see how I lay the dust with my tears.</line>
 </speech>
@@ -2080,7 +2093,9 @@
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="520.02" sdnumber="0.01">
@@ -2756,7 +2771,9 @@
 	<scenepersona short="SPEED.">Speed</scenepersona>
 	<scenepersona short="LAUNCE.">Launce</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="727.02" sdnumber="0.01">
@@ -2948,7 +2965,9 @@
 <scenepersonae>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="760.02" sdnumber="0.01">
@@ -2958,7 +2977,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Proteus">PRO.</speaker>
 <line globalnumber="761" number="1" form="verse">To leave my Julia&#8212;shall I be forsworn?</line>
 <line globalnumber="762" number="2" form="verse">To love fair Silvia&#8212;shall I be forsworn?</line>
@@ -3021,7 +3040,9 @@
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="LUC.">Lucetta</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="803.02" sdnumber="0.01">
@@ -3246,7 +3267,11 @@
 	<scenepersona short="LAUNCE.">Launce</scenepersona>
 	<scenepersona short="SPEED.">Speed</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="893.02" sdnumber="0.01">
@@ -3838,7 +3863,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Launce">LAUNCE.</speaker>
 <line globalnumber="1153" number="259" form="prose">I am but a fool, look you, and yet I have the wit to think my master is a kind of a knave; but that&#8217;s all one, if he be but one knave. He lives not now that knows me to be in love, yet I am in love, but a team of horse shall not pluck that from me; nor who &#8217;tis I love; and yet &#8217;tis a woman; but what woman, I will not tell myself; and yet &#8217;tis a milkmaid; yet &#8217;tis not a maid, for she hath had gossips; yet &#8217;tis a maid, for she is her master&#8217;s maid, and serves for wages. She hath more qualities than a water-spaniel, which is much in a bare Christian.</line>
 <stagedir sdglobalnumber="1153.01" sdnumber="259.01">
@@ -4213,7 +4238,9 @@
 	<scenepersona short="THU.">Thurio</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1218.02" sdnumber="0.01">
@@ -4469,7 +4496,9 @@
 	<scenepersona short="SPEED.">Speed</scenepersona>
 	<scenepersona short="ALL OUTLAWS">Outlaws</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1315.02" sdnumber="0.01">
@@ -4731,7 +4760,9 @@
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="SIL.">Silvia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1391.02" sdnumber="0.01">
@@ -5216,7 +5247,9 @@
 	<scenepersona short="EGL.">Eglamour</scenepersona>
 	<scenepersona short="SIL.">Silvia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1524.02" sdnumber="0.01">
@@ -5226,7 +5259,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Eglamour">EGL.</speaker>
 <line globalnumber="1525" number="1" form="verse">This is the hour that Madam Silvia</line>
 <line globalnumber="1526" number="2" form="verse">Entreated me to call and know her mind.</line>
@@ -5353,7 +5386,9 @@
 	<scenepersona short="SIL.">Silvia</scenepersona>
 	<scenepersona >Attendants</scenepersona >
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1575.02" sdnumber="0.01">
@@ -5364,7 +5399,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Launce">LAUNCE.</speaker>
 <line globalnumber="1576" number="1" form="prose">When a man&#8217;s servant shall play the cur with him, look you, it goes hard: one that I brought up of a puppy; one that I sav&#8217;d from drowning, when three or four of his blind brothers and sisters went to it. I have taught him, even as one would say precisely, &#8220;Thus I would teach a dog.&#8221; I was sent to deliver him as a present to Mistress Silvia from my master; and I came no sooner into the dining-chamber but he steps me to her trencher and steals her capon&#8217;s leg. O, &#8217;tis a foul thing when a cur cannot keep himself in all companies! I would have (as one should say) one that takes upon him to be a dog indeed, to be, as it were, a dog at all things. If I had not had more wit than he, to take a fault upon me that he did, I think verily he had been hang&#8217;d for&#8217;t; sure as I live he had suffer&#8217;d for&#8217;t. You shall judge: he thrusts me himself into the company of three or four gentleman-like dogs, under the Duke&#8217;s table. He had not been there (bless the mark!) a pissing-while, but all the chamber smelt him. &#8220;Out with the dog,&#8221; says one. &#8220;What cur is that?&#8221; says another. &#8220;Whip him out,&#8221; says the third. &#8220;Hang him up,&#8221; says the Duke. I, having been acquainted with the smell before, knew it was Crab, and goes me to the fellow that whips the dogs: &#8220;Friend,&#8221; quoth I, &#8220;you mean to whip the dog?&#8221; &#8220;Ay, marry, do I,&#8221; quoth he. &#8220;You do him the more wrong,&#8221; quoth I, &#8220;&#8217;twas I did the thing you wot of.&#8221; He makes me no more ado, but whips me out of the chamber. How many masters would do this for his servant? Nay, I&#8217;ll be sworn, I have sat in the stocks for puddings he hath stol&#8217;n, otherwise he had been executed; I have stood on the pillory for geese he hath kill&#8217;d, otherwise he had suffer&#8217;d for&#8217;t. Thou think&#8217;st not of this now. Nay, I remember the trick you serv&#8217;d me, when I took my leave of Madam Silvia. Did not I bid thee still mark me, and do as I do? When didst thou see me heave up my leg and make water against a gentlewoman&#8217;s farthingale? Didst thou ever see me do such a trick?</line>
 </speech>
@@ -5778,7 +5813,9 @@
 	<scenepersona short="EGL.">Eglamour</scenepersona>
 	<scenepersona short="SIL.">Silvia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1739.02" sdnumber="0.01">
@@ -5838,7 +5875,9 @@
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1752.02" sdnumber="0.01">
@@ -6133,7 +6172,9 @@
 	<scenepersona short="SIL.">Silvia</scenepersona>
 	<scenepersona short="ALL OUTLAWS">Outlaws</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1811.02" sdnumber="0.01">
@@ -6209,7 +6250,9 @@
 	<scenepersona short="THU.">Thurio</scenepersona>
 	<scenepersona short="ALL OUTLAWS">Outlaws</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1826.02" sdnumber="0.01">
@@ -6694,7 +6737,20 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="12">
+<placename>Milan. A room in the Duke&#8217;s palace.</placename>
+<placename>Milan. A street.</placename>
+<placename>Milan. An abbey.</placename>
+<placename>Milan. An anteroom in the Duke&#8217;s palace.</placename>
+<placename>Milan. Outside the Duke&#8217;s palace.</placename>
+<placename>The frontiers of Mantua. A forest between Milan and Verona.</placename>
+<placename>The frontiers of Mantua. Another part of the forest between Milan and Verona.</placename>
+<placename>Verona. A room in Antonio&#8217;s house.</placename>
+<placename>Verona. A room in Julia&#8217;s house.</placename>
+<placename>Verona. A street.</placename>
+<placename>Verona. An open place.</placename>
+<placename>Verona. The garden of Julia&#8217;s house.</placename>
+</locations>
 
 
 <sources>
@@ -6743,13 +6799,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>157</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Othello">The Tragedy of Othello, the Moor of Venice</title>
@@ -12,7 +12,7 @@
 <persname short="DUKE." numberOfLines="65" numberOfVerseLines="64" numberOfProseLines="1" numberOfLyricsLines="0">Duke of Venice</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BRA." numberOfLines="139" numberOfVerseLines="138" numberOfProseLines="1" numberOfLyricsLines="0">Brabantio</persname>
 </persona>
 
@@ -24,19 +24,19 @@
 <persname short="LOD." numberOfLines="76" numberOfVerseLines="73" numberOfProseLines="3" numberOfLyricsLines="0">Lodovico</persname>
 </persona>
 
-<persona gender="male">
-<persname short="OTH." numberOfLines="848" numberOfVerseLines="818" numberOfProseLines="30" numberOfLyricsLines="0">Othello</persname>
+<persona gender="male" archetype="hero" death="yes">
+<persname short="OTH." numberOfLines="858" numberOfVerseLines="828" numberOfProseLines="30" numberOfLyricsLines="0">Othello</persname>
 </persona>
 
 <persona gender="male">
 <persname short="CAS." numberOfLines="224" numberOfVerseLines="172" numberOfProseLines="52" numberOfLyricsLines="0">Cassio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="IAGO." numberOfLines="896" numberOfVerseLines="810" numberOfProseLines="86" numberOfLyricsLines="13">Iago</persname>
+<persona gender="male" archetype="villain">
+<persname short="IAGO." numberOfLines="894" numberOfVerseLines="808" numberOfProseLines="86" numberOfLyricsLines="13">Iago</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ROD." numberOfLines="87" numberOfVerseLines="52" numberOfProseLines="35" numberOfLyricsLines="0">Roderigo</persname>
 </persona>
 
@@ -44,11 +44,11 @@
 <persname short="MON." numberOfLines="58" numberOfVerseLines="52" numberOfProseLines="6" numberOfLyricsLines="0">Montano</persname>
 </persona>
 
-<persona gender="female">
-<persname short="DES." numberOfLines="365" numberOfVerseLines="350" numberOfProseLines="15" numberOfLyricsLines="3">Desdemona</persname>
+<persona gender="female" death="yes">
+<persname short="DES." numberOfLines="379" numberOfVerseLines="365" numberOfProseLines="14" numberOfLyricsLines="14">Desdemona</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="EMIL." numberOfLines="236" numberOfVerseLines="226" numberOfProseLines="10" numberOfLyricsLines="1">Emilia</persname>
 </persona>
 
@@ -64,7 +64,7 @@
 <persname short="OFF." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Officer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CLO." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Clown</persname>
 </persona>
 
@@ -125,7 +125,10 @@
 	<scenepersona short="BRA.">Brabantio</scenepersona>
 	<scenepersona>Servants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -555,7 +558,10 @@
 	<scenepersona short="BRA.">Brabantio</scenepersona>
 	<scenepersona short="ROD.">Roderigo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="189.02" sdnumber="0.01">
@@ -883,7 +889,11 @@
 	<scenepersona short="DES.">Desdemona</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="305.02" sdnumber="0.01">
@@ -1085,7 +1095,6 @@
 		<recipient>BRA.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="360" number="50" form="verse">I did not see you; welcome, gentle <foreign xml:lang="it">signior</foreign>,</line>
 <line globalnumber="361" number="51" form="verse">We lack&#8217;d your counsel and your help tonight.</line>
 </speech>
@@ -1254,7 +1263,6 @@
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="441" number="122" form="verse">And, till she come, as truly as to heaven</line>
 <line globalnumber="442" number="123" form="verse">I do confess the vices of my blood,</line>
 <line globalnumber="443" number="124" form="verse">So justly to your grave ears I&#8217;ll present</line>
@@ -1267,7 +1275,7 @@
 <line globalnumber="446" number="127" form="verse">Say it, Othello.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="447" number="128" form="verse">Her father lov&#8217;d me, oft invited me;</line>
 <line globalnumber="448" number="129" form="verse">Still question&#8217;d me the story of my life</line>
@@ -1451,7 +1459,7 @@
 <line globalnumber="565" number="240" form="verse">What would you, Desdemona?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Desdemona">DES.</speaker>
 <line globalnumber="566" number="241" form="verse">That I did love the Moor to live with him,</line>
 <line globalnumber="567" number="242" form="verse">My downright violence, and storm of fortunes,</line>
@@ -1542,7 +1550,6 @@
 		<recipient>BRA.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="612" number="282" form="verse">And, noble <foreign xml:lang="it">signior</foreign>,</line>
 <line globalnumber="613" number="283" form="verse">If virtue no delighted beauty lack,</line>
 <line globalnumber="614" number="284" form="verse">Your son-in-law is far more fair than black.</line>
@@ -1713,7 +1720,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="648" number="318" form="verse">Thus do I ever make my fool my purse;</line>
 <line globalnumber="649" number="319" form="verse">For I mine own gain&#8217;d knowledge should profane</line>
@@ -1768,7 +1775,10 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="OTH.">Othello</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="669.02" sdnumber="0.01">
@@ -1913,7 +1923,6 @@
 		<actor>2. MESS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="725" number="51" form="verse" offset="4">&#8220;A sail, a sail, a sail!&#8221;</line>
 </speech>
 
@@ -1988,7 +1997,6 @@
 		<actor>2. GENT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="741" number="65" form="verse" offset="5">How now? Who has put in?</line>
 </speech>
 
@@ -2034,7 +2042,6 @@
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="760" number="82" form="verse" offset="7">O, behold,</line>
 <line globalnumber="761" number="83" form="verse">The riches of the ship is come on shore!</line>
 <line globalnumber="762" number="84" form="verse">You men of Cyprus, let her have your knees.</line>
@@ -2070,14 +2077,12 @@
 		<actor>CAS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="773" number="93" form="verse" offset="5">&#8220;A sail, a sail!&#8221;</line>
 <stagedir sdglobalnumber="773.01" sdnumber="93.01">
 	<dir>A shot.</dir>
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="774" number="93" form="verse" offset="9">But hark! A sail.</line>
 </speech>
 
@@ -2096,7 +2101,6 @@
 		<actor>2. GENT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="778" number="96" form="verse" offset="0">Good ancient, you are welcome.</line>
 <stagedir sdglobalnumber="778.01" sdnumber="96.01">
 	<dir>To Emilia.</dir>
@@ -2105,7 +2109,6 @@
 		<recipient>EMIL.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="779" number="96" form="verse" offset="7">Welcome, mistress.</line>
 <line globalnumber="780" number="97" form="verse">Let it not gall your patience, good Iago,</line>
 <line globalnumber="781" number="98" form="verse">That I extend my manners; &#8217;tis my breeding</line>
@@ -2291,7 +2294,7 @@
 <line globalnumber="841" number="156" form="verse">He speaks home, madam. You may relish him more in the soldier than in the scholar.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <stagedir sdglobalnumber="841.01" sdnumber="156.01">
 	<dir>Aside.</dir>
@@ -2376,11 +2379,10 @@
 		<actor>DES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="867" number="179" form="verse" offset="0">That e&#8217;er our hearts shall make!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <stagedir sdglobalnumber="867.01" sdnumber="179.01">
 	<dir>Aside.</dir>
@@ -2497,7 +2499,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="895" number="205" form="verse">That Cassio loves her, I do well believe&#8217;t;</line>
 <line globalnumber="896" number="206" form="verse">That she loves him, &#8217;tis apt and of great credit.</line>
@@ -2543,7 +2545,9 @@
 <scenepersonae>
 	<scenepersona short="HER.">Herald</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="921.02" sdnumber="0.01">
@@ -2581,7 +2585,10 @@
 	<scenepersona>Servants</scenepersona>
 	<scenepersona short="ROD.">Roderigo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="922.02" sdnumber="0.01">
@@ -2620,7 +2627,6 @@
 		<recipient>DES.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="932" number="8" form="verse" offset="7">Come, my dear love,</line>
 <line globalnumber="933" number="9" form="verse">The purchase made, the fruits are to ensue;</line>
 <line globalnumber="934" number="10" form="verse">That profit&#8217;s yet to come &#8217;tween me and you.&#8212;</line>
@@ -2735,7 +2741,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="953" number="29" form="verse">If I can fasten but one cup upon him,</line>
 <line globalnumber="954" number="30" form="verse">With that which he hath drunk tonight already,</line>
@@ -2760,7 +2766,6 @@
 		<actor>Servants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="967" number="43" form="verse">If consequence do but approve my dream,</line>
 <line globalnumber="968" number="44" form="verse">My boat sails freely, both with wind and stream.</line>
 </speech>
@@ -3264,7 +3269,6 @@
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1140" number="207" form="verse">Look if my gentle love be not rais&#8217;d up!</line>
 <line globalnumber="1141" number="208" form="verse">I&#8217;ll make thee an example.</line>
 </speech>
@@ -3285,7 +3289,6 @@
 		<recipient>MON.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1145" number="210" form="verse" offset="4">Sir, for your hurts,</line>
 <line globalnumber="1146" number="211" form="verse">Myself will be your surgeon.&#8212;Lead him off.</line>
 <stagedir sdglobalnumber="1146.01" sdnumber="211.01">
@@ -3295,7 +3298,6 @@
 		<actor>Servants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1147" number="212" form="verse">Iago, look with care about the town,</line>
 <line globalnumber="1148" number="213" form="verse">And silence those whom this vild brawl distracted.</line>
 <line globalnumber="1149" number="214" form="verse">Come, Desdemona, &#8217;tis the soldiers&#8217; life</line>
@@ -3429,7 +3431,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="1173" number="238" form="verse">And what&#8217;s he then that says I play the villain,</line>
 <line globalnumber="1174" number="239" form="verse">When this advice is free I give, and honest,</line>
@@ -3464,7 +3466,6 @@
 		<actor>ROD.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1200" number="265" form="prose">How now, Roderigo?</line>
 </speech>
 
@@ -3494,7 +3495,6 @@
 		<actor>ROD.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1215" number="279" form="verse" offset="4">Two things are to be done:</line>
 <line globalnumber="1216" number="280" form="verse">My wife must move for Cassio to her mistress&#8212;</line>
 <line globalnumber="1217" number="281" form="verse">I&#8217;ll set her on&#8212;</line>
@@ -3527,7 +3527,9 @@
 	<scenepersona short="IAGO.">Iago</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1221.02" sdnumber="0.01">
@@ -3654,7 +3656,6 @@
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1239" number="17" form="verse" offset="5">In happy time, Iago.</line>
 </speech>
 
@@ -3689,7 +3690,6 @@
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1251" number="28" form="verse">I never knew a Florentine more kind and honest.</line>
 </speech>
 
@@ -3752,7 +3752,9 @@
 	<scenepersona short="IAGO.">Iago</scenepersona>
 	<scenepersona short="GENTLEMEN.">Gentlemen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1269.02" sdnumber="0.01">
@@ -3808,7 +3810,9 @@
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1276.02" sdnumber="0.01">
@@ -4485,11 +4489,13 @@ rank,</line>
 <line globalnumber="1547" number="242" form="verse">My lord, I take my leave.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="1548" number="243" form="verse">Why did I marry? This honest creature, doubtless,</line>
 <line globalnumber="1549" number="244" form="verse">Sees and knows more, much more, than he unfolds.</line>
+</speech>
 
+<speech>
 <speaker long="Iago">IAGO.</speaker>
 <stagedir sdglobalnumber="1549.01" sdnumber="244.01">
 	<dir>Returning.</dir>
@@ -4528,7 +4534,7 @@ rank,</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="1564" number="259" form="verse">This fellow&#8217;s of exceeding honesty,</line>
 <line globalnumber="1565" number="260" form="verse">And knows all qualities, with a learned spirit,</line>
@@ -4557,7 +4563,6 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1584" number="279" form="verse">If she be false, O then heaven mocks itself!</line>
 <line globalnumber="1585" number="280" form="verse" offset="0">I&#8217;ll not believe&#8217;t.</line>
 </speech>
@@ -4601,7 +4606,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1597" number="289" form="verse">Let it alone. Come, I&#8217;ll go in with you.</line>
 </speech>
 
@@ -4618,7 +4622,7 @@ rank,</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Emilia">EMIL.</speaker>
 <line globalnumber="1599" number="291" form="verse">I am glad I have found this napkin;</line>
 <line globalnumber="1600" number="292" form="verse">This was her first remembrance from the Moor.</line>
@@ -4723,7 +4727,7 @@ rank,</line>
 <line globalnumber="1630" number="319" form="verse">When she shall lack it.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="1631" number="320" form="verse">Be not acknown on&#8217;t; I have use for it.</line>
 <line globalnumber="1632" number="321" form="verse">Go, leave me.</line>
@@ -4733,7 +4737,6 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1633" number="322" form="verse">I will in Cassio&#8217;s lodging lose this napkin,</line>
 <line globalnumber="1634" number="323" form="verse">And let him find it. Trifles light as air</line>
 <line globalnumber="1635" number="324" form="verse">Are to the jealous confirmations strong</line>
@@ -4749,7 +4752,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1642" number="330" form="verse" offset="7">I did say so.</line>
 <line globalnumber="1643" number="331" form="verse">Look where he comes! Not poppy, nor mandragora,</line>
 <line globalnumber="1644" number="332" form="verse">Nor all the drowsy syrups of the world</line>
@@ -4826,7 +4828,6 @@ rank,</line>
 		<recipient>IAGO.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1675" number="361" form="verse">Be sure of it. Give me the ocular proof,</line>
 <line globalnumber="1676" number="362" form="verse">Or by the worth of mine eternal soul,</line>
 <line globalnumber="1677" number="363" form="verse">Thou hadst been better have been born a dog</line>
@@ -5047,7 +5048,7 @@ rank,</line>
 <line globalnumber="1776" number="453" form="verse">Patience, I say; your mind perhaps may change.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="1777" number="454" form="verse">Never, Iago. Like to the Pontic Sea,</line>
 <line globalnumber="1778" number="455" form="verse">Whose icy current and compulsive course</line>
@@ -5063,7 +5064,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1785" number="462" form="verse">Now by yond marble heaven,</line>
 <line globalnumber="1786" number="463" form="verse">In the due reverence of a sacred vow</line>
 <line globalnumber="1787" number="464" form="verse" offset="0">I here engage my words.</line>
@@ -5078,7 +5078,6 @@ rank,</line>
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1789" number="465" form="verse">Witness, you ever-burning lights above,</line>
 <line globalnumber="1790" number="466" form="verse">You elements that clip us round about,</line>
 <line globalnumber="1791" number="467" form="verse">Witness that here Iago doth give up</line>
@@ -5146,7 +5145,9 @@ rank,</line>
 	<scenepersona short="CAS.">Cassio</scenepersona>
 	<scenepersona short="BIAN.">Bianca</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1807.02" sdnumber="0.01">
@@ -5282,7 +5283,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1834" number="24" form="verse" offset="4">O, hardness to dissemble!&#8212;</line>
 <line globalnumber="1835" number="25" form="verse" offset="0">How do you, Desdemona?</line>
 </speech>
@@ -5552,7 +5552,6 @@ rank,</line>
 		<actor>CAS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1917" number="96" form="verse" offset="3">Look you, Cassio and my husband!</line>
 </speech>
 
@@ -5628,7 +5627,6 @@ rank,</line>
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1954" number="130" form="verse" offset="3">Something sure of state,</line>
 <line globalnumber="1955" number="131" form="verse">Either from Venice, or some unhatch&#8217;d practice</line>
 <line globalnumber="1956" number="132" form="verse">Made demonstrable here in Cyprus to him,</line>
@@ -5737,7 +5735,6 @@ rank,</line>
 		<recipient>BIAN.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1996" number="170" form="verse" offset="0">Take me this work out.</line>
 </speech>
 
@@ -5836,7 +5833,10 @@ rank,</line>
 	<scenepersona short="DES.">Desdemona</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2022.02" sdnumber="0.01">
@@ -5994,7 +5994,7 @@ rank,</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Iago">IAGO.</speaker>
 <line globalnumber="2067" number="36" form="verse">Work on,</line>
 <line globalnumber="2068" number="37" form="verse">My medicine, work! Thus credulous fools are caught,</line>
@@ -6007,7 +6007,6 @@ rank,</line>
 		<actor>CAS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2072" number="40" form="verse" offset="5">How now, Cassio?</line>
 </speech>
 
@@ -6042,7 +6041,6 @@ rank,</line>
 		<actor>CAS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2084" number="51" form="verse">How is it, general? Have you not hurt your head?</line>
 </speech>
 
@@ -6128,7 +6126,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2123" number="85" form="verse">Now will I question Cassio of Bianca,</line>
 <line globalnumber="2124" number="86" form="verse">A huswife that by selling her desires</line>
 <line globalnumber="2125" number="87" form="verse">Buys herself bread and clothes. It is a creature</line>
@@ -6142,7 +6139,6 @@ rank,</line>
 		<actor>CAS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2130" number="92" form="verse">As he shall smile, Othello shall go mad;</line>
 <line globalnumber="2131" number="93" form="verse">And his unbookish jealousy must construe</line>
 <line globalnumber="2132" number="94" form="verse">Poor Cassio&#8217;s smiles, gestures, and light behaviors</line>
@@ -6164,7 +6160,6 @@ rank,</line>
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2137" number="99" form="verse">Now, if this suit lay in Bianca&#8217;s pow&#8217;r,</line>
 <line globalnumber="2138" number="100" form="verse" offset="0">How quickly should you speed!</line>
 </speech>
@@ -6507,7 +6502,6 @@ rank,</line>
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2203" number="163" form="prose">What trumpet is that same?</line>
 </speech>
 
@@ -6522,7 +6516,6 @@ rank,</line>
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2205" number="164" form="verse" offset="7">&#8217;Tis Lodovico&#8212;</line>
 <line globalnumber="2206" number="165" form="verse">This comes from the Duke. See, your wife&#8217;s with him.</line>
 </speech>
@@ -6761,7 +6754,6 @@ rank,</line>
 		<actor>DES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2262" number="210" form="verse">Cassio shall have my place. And, sir, tonight</line>
 <line globalnumber="2263" number="211" form="verse">I do entreat that we may sup together.</line>
 <line globalnumber="2264" number="212" form="verse">You are welcome, sir, to Cyprus.&#8212;Goats and monkeys!</line>
@@ -6854,7 +6846,9 @@ rank,</line>
 	<scenepersona short="ROD.">Roderigo</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2287.02" sdnumber="0.01">
@@ -6933,7 +6927,7 @@ rank,</line>
 <line globalnumber="2307" number="19" form="verse" offset="0">Is foul as slander.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="2308" number="19" form="verse" offset="4">Bid her come hither; go.</line>
 <stagedir sdglobalnumber="2308.01" sdnumber="19.01">
@@ -6942,11 +6936,12 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2309" number="20" form="verse">She says enough; yet she&#8217;s a simple bawd</line>
 <line globalnumber="2310" number="21" form="verse">That cannot say as much. This is a subtile whore,</line>
 <line globalnumber="2311" number="22" form="verse">A closet lock and key of villainous secrets;</line>
 <line globalnumber="2312" number="23" form="verse">And yet she&#8217;ll kneel and pray; I have seen her do&#8217;t.</line>
+</speech>
+
 <stagedir sdglobalnumber="2312.01" sdnumber="23.01">
 	<dir>Enter Desdemona and Emilia.</dir>
 	<action type="enter">
@@ -6981,6 +6976,7 @@ rank,</line>
 <line globalnumber="2318" number="26" form="verse" offset="4">What horrible fancy&#8217;s this?</line>
 </speech>
 
+<speech>
 <speaker long="Othello">OTH.</speaker>
 <stagedir sdglobalnumber="2318.01" sdnumber="26.01">
 	<dir>To Emilia.</dir>
@@ -7162,7 +7158,6 @@ rank,</line>
 		<actor>OTH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2391" number="90" form="verse" offset="6">You, mistress,</line>
 <stagedir sdglobalnumber="2391.01" sdnumber="90.01">
 	<dir>Enter Emilia.</dir>
@@ -7170,7 +7165,6 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2392" number="91" form="verse">That have the office opposite to Saint Peter,</line>
 <line globalnumber="2393" number="92" form="verse">And keeps the gate of hell! You, you! Ay, you!</line>
 <line globalnumber="2394" number="93" form="verse">We have done our course; there&#8217;s money for your pains.</line>
@@ -7241,7 +7235,7 @@ rank,</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Desdemona">DES.</speaker>
 <line globalnumber="2410" number="107" form="verse">&#8217;Tis meet I should be us&#8217;d so, very meet.</line>
 <line globalnumber="2411" number="108" form="verse">How have I been behav&#8217;d, that he might stick</line>
@@ -7429,7 +7423,6 @@ rank,</line>
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2479" number="169" form="verse">Hark how these instruments summon to supper!</line>
 <line globalnumber="2480" number="170" form="verse">The messengers of Venice stays the meat.</line>
 <line globalnumber="2481" number="171" form="verse">Go in, and weep not; all things shall be well.</line>
@@ -7440,14 +7433,12 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <stagedir sdglobalnumber="2481.02" sdnumber="171.02">
 	<dir>Enter Roderigo.</dir>
 	<action type="enter">
 		<actor>ROD.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2482" number="172" form="prose">How now, Roderigo?</line>
 </speech>
 
@@ -7601,7 +7592,10 @@ rank,</line>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2508.02" sdnumber="0.01">
@@ -7662,6 +7656,7 @@ rank,</line>
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
+</speech>
 
 <speech>
 <speaker long="Emilia">EMIL.</speaker>
@@ -7754,6 +7749,7 @@ rank,</line>
 <line globalnumber="2548" number="36" form="prose">I know a lady in Venice would have walk&#8217;d barefoot to Palestine for a touch of his nether lip.</line>
 </speech>
 
+<speech>
 <speaker long="Desdemona">DES.</speaker>
 <stagedir sdglobalnumber="2548.01" sdnumber="36.01">
 	<dir>Singing.</dir>
@@ -7784,7 +7780,6 @@ rank,</line>
 		<actor>DES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2560" number="48" form="verse" type="lyric">&#8220;Sing all a green willow must be my garland.</line>
 <line globalnumber="2561" number="49" form="verse" type="lyric">Let nobody blame him, his scorn I approve&#8221;&#8212;</line>
 <line globalnumber="2562" number="50" form="verse">Nay, that&#8217;s not next. Hark, who is&#8217;t that knocks?</line>
@@ -7941,7 +7936,10 @@ rank,</line>
 	<scenepersona short="BIAN.">Bianca</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2609.02" sdnumber="0.01">
@@ -8235,7 +8233,6 @@ rank,</line>
 		<recipient>GRA.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2673" number="59" form="verse">What are you there?</line>
 <line globalnumber="2674" number="60" form="verse">Come in, and give some help.</line>
 </speech>
@@ -8421,7 +8418,6 @@ rank,</line>
 	<action type="action">
 	</action>
 </stagedir>
-
 <line globalnumber="2718" number="99" form="verse" offset="6">O, that&#8217;s well said: the chair.</line>
 <line globalnumber="2719" number="100" form="verse">Some good man bear him carefully from hence,</line>
 <line globalnumber="2720" number="101" form="verse">I&#8217;ll fetch the general&#8217;s surgeon.</line>
@@ -8432,7 +8428,6 @@ rank,</line>
 		<recipient>BIAN.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2721" number="102" form="verse">For you, mistress,</line>
 <line globalnumber="2722" number="103" form="verse">Save you your labor.&#8212;He that lies slain here, Cassio,</line>
 <line globalnumber="2723" number="104" form="verse">Was my dear friend. What malice was between you?</line>
@@ -8460,7 +8455,6 @@ rank,</line>
 		<actor>ROD.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2726" number="107" form="verse">Stay you, good gentlemen.&#8212;Look you pale, mistress?&#8212;</line>
 <line globalnumber="2727" number="108" form="verse">Do you perceive the gastness of her eye?&#8212;</line>
 <line globalnumber="2728" number="109" form="verse">Nay, an&#8217; you stare, we shall hear more anon.&#8212;</line>
@@ -8504,7 +8498,6 @@ rank,</line>
 		<recipient>BIAN.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2739" number="120" form="verse">What, do you shake at that?</line>
 </speech>
 
@@ -8547,7 +8540,6 @@ rank,</line>
 		<actor>IAGO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2751" number="130" form="verse" offset="6">This is the night</line>
 <line globalnumber="2752" number="131" form="verse">That either makes me, or foredoes me quite.</line>
 </speech>
@@ -8579,7 +8571,9 @@ rank,</line>
 	<scenepersona short="CAS.">Cassio</scenepersona>
 	<scenepersona>Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2752.02" sdnumber="0.01">
@@ -8590,7 +8584,7 @@ rank,</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="2753" number="1" form="verse">It is the cause, it is the cause, my soul;</line>
 <line globalnumber="2754" number="2" form="verse">Let me not name it to you, you chaste stars,</line>
@@ -8614,7 +8608,6 @@ rank,</line>
 		<recipient>DES.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2768" number="16" form="verse">O balmy breath, that dost almost persuade</line>
 <line globalnumber="2769" number="17" form="verse">Justice to break her sword! One more, one more.</line>
 <line globalnumber="2770" number="18" form="verse">Be thus when thou art dead, and I will kill thee</line>
@@ -8963,7 +8956,7 @@ rank,</line>
 <line globalnumber="2863" number="91" form="verse">O, good my lord, I would speak a word with you!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Othello">OTH.</speaker>
 <line globalnumber="2864" number="92" form="verse">Yes.&#8212;&#8217;Tis Emilia.&#8212;By and by.&#8212;She&#8217;s dead.</line>
 <line globalnumber="2865" number="93" form="verse">&#8217;Tis like she comes to speak of Cassio&#8217;s death;</line>
@@ -9008,7 +9001,6 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2880" number="106" form="verse" offset="3">What&#8217;s the matter with thee now?</line>
 </speech>
 
@@ -9581,7 +9573,6 @@ rank,</line>
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="3045" number="250" form="verse" type="lyric">Willow, willow, willow.</line>
 <line globalnumber="3046" number="251" form="verse">Moor, she was chaste; she lov&#8217;d thee, cruel Moor;</line>
 <line globalnumber="3047" number="252" form="verse">So come my soul to bliss, as I speak true;</line>
@@ -9941,7 +9932,19 @@ rank,</line>
 </act>
 
 
-
+<locations numberOfLocations="11">
+<placename>A bedchamber in the castle.</placename>
+<placename>A sea port in Cyprus.</placename>
+<placename>Cyprus. A castle hall.</placename>
+<placename>Cyprus. A room in the castle.</placename>
+<placename>Cyprus. A street.</placename>
+<placename>Cyprus. Another room in the castle.</placename>
+<placename>Cyprus. Before the castle.</placename>
+<placename>Cyprus. The garden of the castle.</placename>
+<placename>Venice. A council chamber.</placename>
+<placename>Venice. A street.</placename>
+<placename>Venice. Another street.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -9973,12 +9976,12 @@ rank,</line>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>86</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

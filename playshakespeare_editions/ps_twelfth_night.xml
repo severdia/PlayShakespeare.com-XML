@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Twelfth Night">Twelfth Night, or What You Will</title>
@@ -8,7 +8,7 @@
 
 <personae playtitle="Twelfth Night">
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="DUKE." numberOfLines="215" numberOfVerseLines="197" numberOfProseLines="18" numberOfLyricsLines="0">Orsino</persname>
 </persona>
 
@@ -32,27 +32,27 @@
 <persname short="CUR." numberOfLines="4" numberOfVerseLines="2" numberOfProseLines="2" numberOfLyricsLines="0">Curio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SIR TO." numberOfLines="163" numberOfVerseLines="10" numberOfProseLines="153" numberOfLyricsLines="7">Sir Toby Belch</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SIR AND." numberOfLines="88" numberOfVerseLines="1" numberOfProseLines="87" numberOfLyricsLines="0">Sir Andrew Aguecheek</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="MAL." numberOfLines="115" numberOfVerseLines="31" numberOfProseLines="84" numberOfLyricsLines="0">Malvolio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="FAB." numberOfLines="65" numberOfVerseLines="14" numberOfProseLines="51" numberOfLyricsLines="0">Fabian</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CLO." numberOfLines="163" numberOfVerseLines="69" numberOfProseLines="94" numberOfLyricsLines="68">Feste</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="OLI." numberOfLines="272" numberOfVerseLines="202" numberOfProseLines="70" numberOfLyricsLines="0">Olivia</persname>
 </persona>
 
@@ -93,7 +93,9 @@
 	<scenepersona>Musicians</scenepersona>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -154,7 +156,6 @@
 		<actor>VAL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="25" number="22" form="verse" offset="4">How now, what news from her?</line>
 </speech>
 
@@ -205,7 +206,9 @@
 	<scenepersona short="CAP.">Captain</scenepersona>
 	<scenepersona>Sailors</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="43.02" sdnumber="0.01">
@@ -385,7 +388,11 @@
 	<scenepersona short="MAR.">Maria</scenepersona>
 	<scenepersona short="SIR AND.">Sir Andrew Aguecheek</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="108.02" sdnumber="0.01">
@@ -761,7 +768,9 @@
 	<scenepersona short="CUR.">Curio</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="175.02" sdnumber="0.01">
@@ -909,7 +918,10 @@
 	<scenepersona short="SIR TO.">Sir Toby</scenepersona>
 	<scenepersona short="VIO.">Viola</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="216.02" sdnumber="0.01">
@@ -1630,7 +1642,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Olivia">OLI.</speaker>
 <line globalnumber="372" number="152" form="verse">&#8220;What is your parentage?&#8221;</line>
 <line globalnumber="373" number="153" form="verse">&#8220;Above my fortunes, yet my state is well:</line>
@@ -1680,7 +1692,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Olivia">OLI.</speaker>
 <line globalnumber="392" number="171" form="verse">I do I know not what, and fear to find</line>
 <line globalnumber="393" number="172" form="verse">Mine eye too great a flatterer for my mind.</line>
@@ -1707,7 +1719,9 @@
 	<scenepersona short="ANT.">Antonio</scenepersona>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="395.02" sdnumber="0.01">
@@ -1800,7 +1814,9 @@
 	<scenepersona short="VIO.">Viola</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="410.02" sdnumber="0.01">
@@ -1891,7 +1907,11 @@
 	<scenepersona short="MAR.">Maria</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="440.02" sdnumber="0.01">
@@ -2484,7 +2504,9 @@
 	<scenepersona short="CLO.">Clown</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="538.02" sdnumber="0.01">
@@ -2839,7 +2861,10 @@
 	<scenepersona short="MAR.">Maria</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="662.02" sdnumber="0.01">
@@ -3256,7 +3281,7 @@
 <line globalnumber="739" number="77" form="prose">Ay, and you had any eye behind you, you might see more detraction at your heels than fortunes before you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Malvolio">MAL.</speaker>
 <line globalnumber="740" number="78" form="prose">M.O.A.I. This simulation is not as the former; and yet, to crush this a little, it would bow to me, for every one of these letters are in my name. Soft, here follows prose.</line>
 <stagedir sdglobalnumber="740.01" sdnumber="78.01">
@@ -3398,7 +3423,10 @@
 	<scenepersona short="OLI.">Olivia</scenepersona>
 	<scenepersona short="MAR.">Gentlewoman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="761.02" sdnumber="0.01">
@@ -3553,7 +3581,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Viola">VIO.</speaker>
 <line globalnumber="789" number="28" form="verse">This fellow is wise enough to play the fool,</line>
 <line globalnumber="790" number="29" form="verse">And to do that well craves a kind of wit.</line>
@@ -3866,7 +3894,9 @@
 	<scenepersona short="FAB.">Fabian</scenepersona>
 	<scenepersona short="MAR.">Maria</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="888.02" sdnumber="0.01">
@@ -4050,7 +4080,9 @@
 	<scenepersona short="SEB.">Sebastian</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="916.02" sdnumber="0.01">
@@ -4200,7 +4232,10 @@
 	<scenepersona short="1. OFF.">First Officer</scenepersona>
 	<scenepersona short="2. OFF.">Second Officer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="969.02" sdnumber="0.01">
@@ -4424,7 +4459,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Malvolio">MAL.</speaker>
 <line globalnumber="1014" number="45" form="prose">O ho, do you come near me now? No worse man than Sir Toby to look to me! This concurs directly with the letter: she sends him on purpose, that I may appear stubborn to him; for she incites me to that in the letter. &#8220;Cast thy humble slough,&#8221; says she; &#8220;be opposite with a kinsman, surly with servants; let thy tongue tang with arguments of state; put thyself into the trick of singularity&#8221;; and consequently sets down the manner how: as a sad face, a reverend carriage, a slow tongue, in the habit of some sir of note, and so forth. I have lim&#8217;d her, but it is Jove&#8217;s doing, and Jove make me thankful! And when she went away now, &#8220;Let this fellow be look&#8217;d to&#8221;; &#8220;fellow&#8221;! Not &#8220;Malvolio,&#8221; nor after my degree, but &#8220;fellow.&#8221; Why, every thing adheres together, that no dram of a scruple, no scruple of a scruple, no obstacle, no incredulous or unsafe circumstance&#8212;What can be said? Nothing that can be can come between me and the full prospect of my hopes. Well, Jove, not I, is the doer of this, and he is to be thank&#8217;d.</line>
 </speech>
@@ -5343,7 +5378,9 @@
 	<scenepersona short="FAB.">Fabian</scenepersona>
 	<scenepersona short="OLI.">Olivia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1195.02" sdnumber="0.01">
@@ -5590,7 +5627,11 @@
 	<scenepersona short="SIR TO.">Toby</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1242.02" sdnumber="0.01">
@@ -5952,7 +5993,9 @@
 	<scenepersona short="OLI.">Olivia</scenepersona>
 	<scenepersona short="PRIEST.">Priest</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1311.02" sdnumber="0.01">
@@ -5962,7 +6005,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sebastian">SEB.</speaker>
 <line globalnumber="1312" number="1" form="verse">This is the air, that is the glorious sun,</line>
 <line globalnumber="1313" number="2" form="verse">This pearl she gave me, I do feel&#8217;t and see&#8217;t,</line>
@@ -6055,7 +6098,10 @@
 	<scenepersona short="SIR TO.">Sir Toby</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1346.02" sdnumber="0.01">
@@ -7110,7 +7156,15 @@
 </act>
 
 
-
+<locations numberOfLocations="7">
+<placename>A room in Olivia&#8217;s house.</placename>
+<placename>A street before Olivia&#8217;s house.</placename>
+<placename>Illyria, A street adjoining Olivia&#8217;s house.</placename>
+<placename>Illyria. A room in Duke Orsino&#8217;s palace.</placename>
+<placename>Illyria. A street.</placename>
+<placename>Olivia&#8217;s garden.</placename>
+<placename>The sea coast.</placename>
+</locations>
 
 
 <sources>
@@ -7159,12 +7213,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>156</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Julius Caesar">The Tragedy of Julius Caesar</title>
@@ -9,10 +9,10 @@
 <personae playtitle="Julius Caesar">
 
 <persona gender="male">
-<persname short="CAES. SERV." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Servant</persname>
+<persname short="CAES. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Servant</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="POR." numberOfLines="92" numberOfVerseLines="92" numberOfProseLines="0" numberOfLyricsLines="0">Portia</persname>
 </persona>
 
@@ -58,7 +58,7 @@
 <persname short="VOL." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Volumnius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CATO." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Young Cato</persname>
 </persona>
 
@@ -69,7 +69,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="TIT." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Titinius</persname>
 <persaliases>
 	<persname short="TIT. AND MES.">Both Titinius and Messala</persname>
@@ -100,7 +100,7 @@
 <persname short="CIN." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Cinna</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CIN. POET." numberOfLines="11" numberOfVerseLines="4" numberOfProseLines="7" numberOfLyricsLines="0">Cinna, a Poet</persname>
 </persona>
 
@@ -128,11 +128,11 @@
 <persname short="CASCA." numberOfLines="90" numberOfVerseLines="75" numberOfProseLines="15" numberOfLyricsLines="0">Casca</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="CAS." numberOfLines="506" numberOfVerseLines="498" numberOfProseLines="8" numberOfLyricsLines="0">Cassius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="BRU." numberOfLines="694" numberOfVerseLines="688" numberOfProseLines="6" numberOfLyricsLines="0">Marcus Brutus</persname>
 </persona>
 
@@ -144,7 +144,7 @@
 <persname short="PUB." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Publius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CIC." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Cicero</persname>
 </persona>
 
@@ -152,7 +152,7 @@
 <persname short="LEP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">M. Aemilius Lepidus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="ANT." numberOfLines="329" numberOfVerseLines="329" numberOfProseLines="0" numberOfLyricsLines="0">Mark Antony</persname>
 </persona>
 
@@ -160,7 +160,7 @@
 <persname short="OCT." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">Octavius Caesar</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="CAES." numberOfLines="154" numberOfVerseLines="154" numberOfProseLines="0" numberOfLyricsLines="0">Julius Caesar</persname>
 <persaliases>
 	<persname short="GHOST.">Ghost of Julius Caesar</persname>
@@ -176,7 +176,7 @@
 </persona>
 
 <persona gender="male">
-<persname short="ANT. MESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Messenger</persname>
+<persname short="ANT. MESS." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Messenger</persname>
 </persona>
 
 <persona gender="male">
@@ -255,7 +255,9 @@
 	<scenepersona short="MUR.">Murellus</scenepersona>
 	<scenepersona>Commoners</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -439,7 +441,9 @@
 	<scenepersona short="MUR.">Murellus</scenepersona>
 	<scenepersona short="FLAV.">Flavius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="65.02" sdnumber="0.01">
@@ -1156,7 +1160,7 @@
 <line globalnumber="333" number="262" form="verse">Come home to me, and I will wait for you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cassius">CAS.</speaker>
 <line globalnumber="334" number="263" form="verse">I will do so; till then, think of the world.</line>
 <stagedir sdglobalnumber="334.01" sdnumber="263.01">
@@ -1165,7 +1169,6 @@
 		<actor>BRU.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="335" number="264" form="verse">Well, Brutus, thou art noble; yet I see</line>
 <line globalnumber="336" number="265" form="verse">Thy honorable mettle may be wrought</line>
 <line globalnumber="337" number="266" form="verse">From that it is dispos&#8217;d; therefore it is meet</line>
@@ -1201,7 +1204,9 @@
 	<scenepersona short="CAS.">Cassius</scenepersona>
 	<scenepersona short="CIN.">Cinna</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="349.02" sdnumber="0.01">
@@ -1546,7 +1551,6 @@
 		<actor>CIN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="508" number="153" form="verse">Come, Casca, you and I will yet, ere day,</line>
 <line globalnumber="509" number="154" form="verse">See Brutus at his house. Three parts of him</line>
 <line globalnumber="510" number="155" form="verse">Is ours already, and the man entire</line>
@@ -1597,7 +1601,9 @@
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="LIG.">Caius Ligarius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="519.02" sdnumber="0.01">
@@ -1646,7 +1652,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Marcus Brutus">BRU.</speaker>
 <line globalnumber="529" number="10" form="verse">It must be by his death; and for my part,</line>
 <line globalnumber="530" number="11" form="verse">I know no personal cause to spurn at him,</line>
@@ -1726,7 +1732,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Marcus Brutus">BRU.</speaker>
 <line globalnumber="563" number="44" form="verse">The exhalations whizzing in the air</line>
 <line globalnumber="564" number="45" form="verse">Give so much light that I may read by them.</line>
@@ -1770,7 +1776,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Marcus Brutus">BRU.</speaker>
 <line globalnumber="579" number="60" form="verse">&#8217;Tis good. Go to the gate, somebody knocks.</line>
 <stagedir sdglobalnumber="579.01" sdnumber="60.01">
@@ -1779,7 +1785,6 @@
 		<actor>LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="580" number="61" form="verse">Since Cassius first did whet me against Caesar,</line>
 <line globalnumber="581" number="62" form="verse">I have not slept.</line>
 <line globalnumber="582" number="63" form="verse">Between the acting of a dreadful thing</line>
@@ -2178,14 +2183,13 @@
 <line globalnumber="752" number="223" form="verse">What you have said, and show yourselves true Romans.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Marcus Brutus">BRU.</speaker>
 <line globalnumber="753" number="224" form="verse">Good gentlemen, look fresh and merrily;</line>
 <line globalnumber="754" number="225" form="verse">Let not our looks put on our purposes,</line>
 <line globalnumber="755" number="226" form="verse">But bear it as our Roman actors do,</line>
 <line globalnumber="756" number="227" form="verse">With untir&#8217;d spirits and formal constancy.</line>
 <line globalnumber="757" number="228" form="verse">And so good morrow to you every one.</line>
-
 <stagedir sdglobalnumber="757.01" sdnumber="228.01">
 	<dir>Exeunt. Manet Brutus.</dir>
 	<action type="exit">
@@ -2197,7 +2201,6 @@
 		<actor>TREB.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="758" number="229" form="verse">Boy! Lucius! Fast asleep? It is no matter,</line>
 <line globalnumber="759" number="230" form="verse">Enjoy the honey-heavy dew of slumber.</line>
 <line globalnumber="760" number="231" form="verse">Thou hast no figures nor no fantasies,</line>
@@ -2338,7 +2341,6 @@
 		<actor>LIG.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="836" number="304" form="verse">Hark, hark, one knocks! Portia, go in a while,</line>
 <line globalnumber="837" number="305" form="verse">And by and by thy bosom shall partake</line>
 <line globalnumber="838" number="306" form="verse">The secrets of my heart.</line>
@@ -2351,7 +2353,6 @@
 		<actor>POR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="842" number="309" form="verse" offset="4">Lucius, who&#8217;s that knocks?</line>
 </speech>
 
@@ -2478,7 +2479,9 @@
 	<scenepersona short="PUB.">Publius</scenepersona>
 	<scenepersona short="ANT.">Mark Antony</scenepersona>	
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="870.02" sdnumber="0.01">
@@ -2597,7 +2600,6 @@
 		<actor>CAES. SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="909" number="37" form="verse" offset="6">What say the augurers?</line>
 </speech>
 
@@ -2641,7 +2643,6 @@
 		<actor>DEC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="930" number="57" form="verse">Here&#8217;s Decius Brutus, he shall tell them so.</line>
 </speech>
 
@@ -2746,7 +2747,6 @@
 		<actor>PUB.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="982" number="108" form="verse">And look where Publius is come to fetch me.</line>
 </speech>
 
@@ -2779,7 +2779,6 @@
 		<actor>ANT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="992" number="116" form="verse">See, Antony, that revels long a-nights,</line>
 <line globalnumber="993" number="117" form="verse">Is notwithstanding up. Good morrow, Antony.</line>
 </speech>
@@ -2808,7 +2807,6 @@
 		<actor>TREB.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1002" number="126" form="verse">And so near will I be,</line>
 <line globalnumber="1003" number="127" form="verse">That your best friends shall wish I had been further.</line>
 </speech>
@@ -2857,7 +2855,9 @@
 <scenepersonae>
 	<scenepersona short="ART.">Artemidorus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1007.02" sdnumber="0.01">
@@ -2895,7 +2895,9 @@
 	<scenepersona short="LUC.">Lucius</scenepersona>
 	<scenepersona short="SOOTH.">Soothsayer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1014.02" sdnumber="0.01">
@@ -3077,10 +3079,13 @@
 	<scenepersona short="PUB.">Publius</scenepersona>
 	<scenepersona short="POP.">Popilius</scenepersona>
 	<scenepersona short="SOOTH.">Soothsayer</scenepersona>
-	<scenepersona short="CAES. SERV.">Caesar&#8217;s Servant</scenepersona>
+	<scenepersona short="ANT. MESS.">Antony&#8217;s Messenger</scenepersona>
 	<scenepersona short="OCT. ATT."> Octavius&#8217;s Attendant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1064.02" sdnumber="0.01">
@@ -3544,7 +3549,7 @@
 <stagedir sdglobalnumber="1197.01" sdnumber="121.01">
 	<dir>Enter a Servant.</dir>
 	<action type="enter">
-		<actor>CAES. SERV.</actor>
+		<actor>ANT. MESS.</actor>
 	</action>
 </stagedir>
 
@@ -3589,7 +3594,7 @@
 <stagedir sdglobalnumber="1219.01" sdnumber="142.01">
 	<dir>Exit Servant.</dir>
 	<action type="exit">
-		<actor>CAES. SERV.</actor>
+		<actor>ANT. MESS.</actor>
 	</action>
 </stagedir>
 
@@ -3821,7 +3826,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mark Antony">ANT.</speaker>
 <line globalnumber="1337" number="254" form="verse">O, pardon me, thou bleeding piece of earth,</line>
 <line globalnumber="1338" number="255" form="verse">That I am meek and gentle with these butchers!</line>
@@ -3933,7 +3938,9 @@
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="OCT. ATT.">Octavius&#8217;s Attendant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1380.02" sdnumber="0.01">
@@ -4019,7 +4026,6 @@
 		<actor>CAES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1397" number="16" form="prose">Here comes his body, mourn&#8217;d by Mark Antony, who, though he had no hand in his death, shall receive the benefit of his dying, a place in the commonwealth, as which of you shall not? With this I depart, that, as I slew my best lover for the good of Rome, I have the same dagger for myself, when it shall please my country to need my death.</line>
 </speech>
 
@@ -4401,7 +4407,6 @@
 		<recipient>CAES.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1554" number="165" form="verse">Here is himself, marr&#8217;d as you see with traitors.</line>
 </speech>
 
@@ -4596,7 +4601,6 @@
 		<actor>OCT. ATT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1618" number="228" form="verse">How now, fellow?</line>
 </speech>
 
@@ -4651,7 +4655,9 @@
 	<scenepersona short="CIN. POET.">Cinna, a Poet</scenepersona>
 	<scenepersona short="ALL PLEBEIANS.">Plebeians</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1628.02" sdnumber="0.01">
@@ -4811,7 +4817,9 @@
 	<scenepersona short="OCT.">Octavius</scenepersona>
 	<scenepersona short="LEP.">Lepidus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1656.02" sdnumber="0.01">
@@ -4964,7 +4972,9 @@
 	<scenepersona short="2. SOL.">Second Soldier</scenepersona>
 	<scenepersona short="3. SOL.">Third Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1710.02" sdnumber="0.01">
@@ -5168,7 +5178,9 @@
 	<scenepersona short="CLAU.">Claudio</scenepersona>
 	<scenepersona short="GHOST.">Ghost of Caesar</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1767.02" sdnumber="0.01">
@@ -5943,7 +5955,6 @@
 		<actor>LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2026" number="231" form="verse" offset="2">My gown.</line>
 <stagedir sdglobalnumber="2026.01" sdnumber="231.01">
 	<dir>Exit Lucius.</dir>
@@ -5951,7 +5962,6 @@
 		<actor>LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2027" number="231" form="verse" offset="5">Farewell, good Messala.</line>
 <line globalnumber="2028" number="232" form="verse">Good night, Titinius. Noble, noble Cassius,</line>
 <line globalnumber="2029" number="233" form="verse" offset="0">Good night, and good repose.</line>
@@ -6003,7 +6013,6 @@
 		<actor>MES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2039" number="239" form="verse">Give me the gown. Where is thy instrument?</line>
 </speech>
 
@@ -6061,7 +6070,6 @@
 		<actor>CLAU.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2053" number="252" form="verse">Look, Lucius, here&#8217;s the book I sought for so;</line>
 <line globalnumber="2054" number="253" form="verse">I put it in the pocket of my gown.</line>
 </speech>
@@ -6105,7 +6113,7 @@
 <line globalnumber="2065" number="263" form="verse">I have slept, my lord, already.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Marcus Brutus">BRU.</speaker>
 <line globalnumber="2066" number="264" form="verse">It was well done, and thou shalt sleep again;</line>
 <line globalnumber="2067" number="265" form="verse">I will not hold thee long. If I do live,</line>
@@ -6115,7 +6123,6 @@
 	<action type="song">
 	</action>
 </stagedir>
-
 <line globalnumber="2069" number="267" form="verse">This is a sleepy tune. O murd&#8217;rous slumber!</line>
 <line globalnumber="2070" number="268" form="verse">Layest thou thy leaden mace upon my boy,</line>
 <line globalnumber="2071" number="269" form="verse">That plays thee music? Gentle knave, good night;</line>
@@ -6130,7 +6137,6 @@
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2077" number="275" form="verse">How ill this taper burns! Ha! Who comes here?</line>
 <line globalnumber="2078" number="276" form="verse">I think it is the weakness of mine eyes</line>
 <line globalnumber="2079" number="277" form="verse">That shapes this monstrous apparition.</line>
@@ -6174,7 +6180,6 @@
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2090" number="287" form="verse">Now I have taken heart thou vanishest.</line>
 <line globalnumber="2091" number="288" form="verse">Ill spirit, I would hold more talk with thee.</line>
 <line globalnumber="2092" number="289" form="verse">Boy, Lucius! Varrus! Claudio! Sirs, awake!</line>
@@ -6227,7 +6232,6 @@
 		<recipient>VAR.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2103" number="300" form="verse">Fellow thou, awake!</line>
 </speech>
 
@@ -6306,7 +6310,9 @@
 	<scenepersona short="TIT.">Titinius</scenepersona>
 	<scenepersona short="MES.">Messala</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2114.02" sdnumber="0.01">
@@ -6694,7 +6700,9 @@
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="MES.">Messala</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2250.02" sdnumber="0.01">
@@ -6714,7 +6722,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2253" number="3" form="verse">Let them set on at once; for I perceive</line>
 <line globalnumber="2254" number="4" form="verse">But cold demeanor in Octavio&#8217;s wing,</line>
 <line globalnumber="2255" number="5" form="verse">And sudden push gives them the overthrow.</line>
@@ -6745,7 +6752,9 @@
 	<scenepersona short="VOL.">Volumnius</scenepersona>
 	<scenepersona short="LUCIL.">Lucilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2256.02" sdnumber="0.01">
@@ -6831,7 +6840,6 @@
 		<actor>PIN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2280" number="23" form="verse">This day I breathed first: time is come round,</line>
 <line globalnumber="2281" number="24" form="verse">And where I did begin, there shall I end;</line>
 <line globalnumber="2282" number="25" form="verse">My life is run his compass. Sirrah, what news?</line>
@@ -6864,7 +6872,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2290" number="33" form="verse">And hark, they shout for joy.</line>
 </speech>
 
@@ -6879,7 +6886,6 @@
 		<actor>PIN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2294" number="37" form="verse">Come hither, sirrah.</line>
 <line globalnumber="2295" number="38" form="verse">In Parthia did I take thee prisoner,</line>
 <line globalnumber="2296" number="39" form="verse">And then I swore thee, saving of thy life,</line>
@@ -6897,7 +6903,6 @@
 		<recipient>CAS.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2304" number="47" form="verse">Caesar, thou art reveng&#8217;d,</line>
 <line globalnumber="2305" number="48" form="verse">Even with the sword that kill&#8217;d thee.</line>
 </speech>
@@ -7006,7 +7011,7 @@
 <line globalnumber="2339" number="80" form="verse" offset="0">As tidings of this sight.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Titinius">TIT.</speaker>
 <line globalnumber="2340" number="80" form="verse" offset="5">Hie you, Messala,</line>
 <line globalnumber="2341" number="81" form="verse">And I will seek for Pindarus the while.</line>
@@ -7016,7 +7021,6 @@
 		<actor>MES.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2342" number="82" form="verse">Why didst thou send me forth, brave Cassius?</line>
 <line globalnumber="2343" number="83" form="verse">Did I not meet thy friends? And did not they</line>
 <line globalnumber="2344" number="84" form="verse">Put on my brows this wreath of victory,</line>
@@ -7134,7 +7138,9 @@
 	<scenepersona short="2. ANT. SOL.">Second Soldier of Antony&#8217;s</scenepersona>
 	<scenepersona short="ANT.">Antony</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2374.02" sdnumber="0.01">
@@ -7187,7 +7193,6 @@
 		<actor>CATO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2383" number="9" form="verse">O young and noble Cato, art thou down?</line>
 <line globalnumber="2384" number="10" form="verse">Why, now thou diest as bravely as Titinius,</line>
 <line globalnumber="2385" number="11" form="verse">And mayst be honor&#8217;d, being Cato&#8217;s son.</line>
@@ -7282,7 +7287,9 @@
 	<scenepersona short="MES.">Messala</scenepersona>
 	<scenepersona short="LUCIL.">Lucilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2407.02" sdnumber="0.01">
@@ -7412,7 +7419,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2435" number="24" form="verse">It is more worthy to leap in ourselves</line>
 <line globalnumber="2436" number="25" form="verse">Than tarry till they push us. Good Volumnius,</line>
 <line globalnumber="2437" number="26" form="verse">Thou know&#8217;st that we two went to school together;</line>
@@ -7474,7 +7480,6 @@
 		<actor>VOL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2456" number="44" form="verse">I prithee, Strato, stay thou by thy lord.</line>
 <line globalnumber="2457" number="45" form="verse">Thou art a fellow of a good respect;</line>
 <line globalnumber="2458" number="46" form="verse">Thy life hath had some smatch of honor in it.</line>
@@ -7496,7 +7501,6 @@
 		<actor>BRU.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2463" number="51" form="verse">Caesar, now be still,</line>
 <line globalnumber="2464" number="52" form="verse">I kill&#8217;d not thee with half so good a will.</line>
 </speech>
@@ -7612,7 +7616,23 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="14">
+<placename>A camp near Sardis. Before Brutus&#8217;s tent.</placename>
+<placename>A house in Rome.</placename>
+<placename>Before Brutus&#8217;s tent.</placename>
+<placename>Inside Brutus&#8217;s tent.</placename>
+<placename>Rome. A public place.</placename>
+<placename>Rome. A street before the house of Brutus.</placename>
+<placename>Rome. A street near the capitol.</placename>
+<placename>Rome. A street.</placename>
+<placename>Rome. Before the capitol; the Senate sitting above.</placename>
+<placename>Rome. Brutus&#8217;s orchard.</placename>
+<placename>Rome. Caesar&#8217;s house.</placename>
+<placename>The Forum.</placename>
+<placename>The plains of Philippi. Another part of the battlefield.</placename>
+<placename>The plains of Philippi. The battlefield.</placename>
+<placename>The plains of Philippi.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7696,13 +7716,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>138</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

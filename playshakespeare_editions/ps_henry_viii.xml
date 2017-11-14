@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry VIII">The Famous History of the Life of King Henry the Eighth</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Henry VIII">
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="KING." numberOfLines="461" numberOfVerseLines="461" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Eighth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="WOL." numberOfLines="436" numberOfVerseLines="436" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Wolsey</persname>
 </persona>
 
@@ -42,7 +42,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BUCK." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
 </persona>
 
@@ -151,7 +151,7 @@
 <persname short="CRIER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Crier</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes">
 <persname short="Q. KATH." numberOfLines="376" numberOfVerseLines="376" numberOfProseLines="0" numberOfLyricsLines="0">Queen Katherine</persname>
 <persaliases>
 	<persname short="KATH.">Katherine</persname>
@@ -343,12 +343,14 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="2" numberOfWords="266" numberOfLines="32">
 <scenetitle type="prologue">Act 1 Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PROLOGUE.">Prologue</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -396,13 +398,16 @@
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 	<scenepersona short="ABER.">Lord Abergavenny</scenepersona>
 	<scenepersona short="WOL.">Cardinal Wolsey</scenepersona>
+	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
 	<scenepersona>Guards</scenepersona>
 	<scenepersona short="BRAN.">Brandon</scenepersona>
 	<scenepersona short="SERG.">Sergeant-at-Arms</scenepersona>
 	<scenepersona short="1. WOL. SECR.">Wolsey&#8217;s First Secretary</scenepersona>
 	<scenepersona short="2. WOL. SECR.">Wolsey&#8217;s Second Secretary</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -656,6 +661,7 @@
 	<dir>Enter Cardinal Wolsey, the purse borne before him, certain of the Guard, and two Secretaries with papers.</dir>
 	<action type="enter">
 		<actor>WOL.</actor>
+		<actor>PURSE.</actor>
 		<actor>1. WOL. SECR.</actor>
 		<actor>2. WOL. SECR.</actor>
 	</action>
@@ -980,7 +986,9 @@
 	<scenepersona short="SUF.">Suffolk</scenepersona>
 	<scenepersona short="BUCK. SURV.">Buckingham&#8217;s Surveyor</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="300.02" sdnumber="0.01">
@@ -1485,7 +1493,11 @@
 	<scenepersona short="SAN.">Lord Sands</scenepersona>
 	<scenepersona short="LOV.">Sir Thomas Lovell</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="544.02" sdnumber="0.01">
@@ -1708,7 +1720,9 @@
 	<scenepersona short="KING.">King Henry</scenepersona>
 	<scenepersona short="MASKERS.">Maskers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="627.02" sdnumber="0.01">
@@ -2196,7 +2210,10 @@
 	<scenepersona short="SAN.">Sir Walter Sands</scenepersona>
 	<scenepersona short="HALB.">Halberdiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="765.02" sdnumber="0.01">
@@ -2617,7 +2634,9 @@
 	<scenepersona short="CAM.">Campeius</scenepersona>
 	<scenepersona short="GARD.">Gardiner</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="960.02" sdnumber="0.01">
@@ -3131,7 +3150,9 @@
 	<scenepersona short="OLD L.">Old Lady</scenepersona>
 	<scenepersona short="CHAM.">Lord Chamberlain</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1118.02" sdnumber="0.01">
@@ -3436,7 +3457,7 @@
 	<scenepersona short="BISH. ELY.">Bishop of Ely</scenepersona>
 	<scenepersona short="BISH. ROCH.">Bishop of Rochester</scenepersona>
 	<scenepersona short="BISH. ASAPH.">Bishop of Saint Asaph</scenepersona>
-	<scenepersona short="GENT.">Gentleman</scenepersona>
+	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
 	<scenepersona short="PRIESTS">Priests</scenepersona>
 	<scenepersona>Gentleman Usher</scenepersona>
 	<scenepersona short="SERG.">Sergeant-at-Arms</scenepersona>
@@ -3445,9 +3466,12 @@
 	<scenepersona short="NOBLEMEN.">Noble-Men</scenepersona>
 	<scenepersona short="KING.">King Henry</scenepersona>
 	<scenepersona short="Q. KATH.">Queen</scenepersona>
+	<scenepersona short="BEARERS.">Two Gentlemen Bearers</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1246.02" sdnumber="0.01">
@@ -3471,7 +3495,7 @@
 		<actor>BISH. ASAPH.</actor>
 	</action>	
 	<action type="enter">
-		<actor>GENT.</actor>
+		<actor>PURSE.</actor>
 	</action>
 	<action type="enter">
 		<actor>PRIESTS</actor>
@@ -3479,6 +3503,9 @@
 	<action type="enter">
 		<actor>Gentleman Usher</actor>
 		<actor>SERG.</actor>
+	</action>	
+	<action type="enter">
+		<actor>BEARERS.</actor>
 	</action>	
 	<action type="enter">
 		<actor>CAM.</actor>
@@ -3493,7 +3520,7 @@
 	<action type="enter">
 		<actor>Q. KATH.</actor>
 	</action>	
-	<action type="enter">
+		<action type="enter">
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
@@ -3923,10 +3950,11 @@
 		<actor>BISH. ELY.</actor>
 		<actor>BISH. ROCH.</actor>
 		<actor>BISH. ASAPH.</actor>
-		<actor>GENT.</actor>
+		<actor>PURSE.</actor>
 		<actor>PRIESTS</actor>
 		<actor>Gentleman Usher</actor>
 		<actor>SERG.</actor>
+		<actor>BEARERS.</actor>
 		<actor>CAM.</actor>
 		<actor>WOL.</actor>
 		<actor>NOBLEMEN.</actor>
@@ -3950,7 +3978,10 @@
 	<scenepersona short="WOL.">Wolsey</scenepersona>
 	<scenepersona short="CAM.">Campeius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1504.02" sdnumber="0.01">
@@ -4362,7 +4393,10 @@
 	<scenepersona short="KING.">King Henry</scenepersona>
 	<scenepersona short="LOV.">Lovell</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1703.02" sdnumber="0.01">
@@ -4953,7 +4987,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cardinal Wolsey">WOL.</speaker>
 <line globalnumber="1954" number="203" form="verse" offset="5">What should this mean?</line>
 <line globalnumber="1955" number="204" form="verse">What sudden anger&#8217;s this? How have I reap&#8217;d it?</line>
@@ -5251,7 +5285,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cardinal Wolsey">WOL.</speaker>
 <line globalnumber="2116" number="350" form="verse">So farewell&#8212;to the little good you bear me.</line>
 <line globalnumber="2117" number="351" form="verse">Farewell? A long farewell to all my greatness!</line>
@@ -5474,6 +5508,7 @@
 	<scenepersona short="BOTH. 1. GENT. AND 2. GENT.">Gentlemen</scenepersona>
 	<scenepersona short="TWO JUDG.">Two Judges</scenepersona>
 	<scenepersona short="CHAN.">Lord Chancellor</scenepersona>
+	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
 	<scenepersona short="CHOR.">Choristers</scenepersona>
 	<scenepersona short="MAY. LOND.">Mayor of London</scenepersona>
 	<scenepersona short="GART.">Garter</scenepersona>
@@ -5488,7 +5523,10 @@
 	<scenepersona>Ladies</scenepersona>
 	<scenepersona short="COUNTESSES">Countessess</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2236.02" sdnumber="0.01">
@@ -5614,6 +5652,7 @@
 <stagedir sdglobalnumber="2277.05" sdnumber="36.05">
 	<dir>3. LORD CHANCELLOR, with purse and mace before him.</dir>
 	<action type="enter">
+		<actor>PURSE.</actor>
 		<actor>CHAN.</actor>
 	</action>
 </stagedir><lb />
@@ -5970,7 +6009,9 @@
 	<scenepersona short="MESS.">Messenger</scenepersona>
 	<scenepersona short="CAP.">Lord Capuchius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2377.02" sdnumber="0.01">
@@ -6266,7 +6307,6 @@
 		<actor>CAP.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2500" number="108" form="verse" offset="5">If my sight fail not,</line>
 <line globalnumber="2501" number="109" form="verse">You should be lord ambassador from the Emperor,</line>
 <line globalnumber="2502" number="110" form="verse">My royal nephew, and your name Capuchius.</line>
@@ -6425,8 +6465,11 @@
 	<scenepersona short="DEN.">Sir Anthony Denny</scenepersona>
 	<scenepersona short="CRAN.">Cranmer</scenepersona>
 	<scenepersona short="OLD L.">Old Lady</scenepersona>
+	<scenepersona short="GENT.">Gentleman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2571.02" sdnumber="0.01">
@@ -6996,7 +7039,9 @@
 	<scenepersona short="CROM.">Cromwell</scenepersona>
 	<scenepersona short="COUN. GUARDS">Council Guards</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2780.02" sdnumber="0.01">
@@ -7660,7 +7705,10 @@
 	<scenepersona short="SERV.">Servant</scenepersona>
 	<scenepersona short="CHAM.">Lord Chamberlain</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3030.02" sdnumber="0.01">
@@ -7849,19 +7897,23 @@
 	<scenepersona short="CRAN.">Cranmer</scenepersona>
 	<scenepersona short="NOR.">Duke of Norfolk</scenepersona>
 	<scenepersona short="SUF.">Duke of Suffolk</scenepersona>
+	<scenepersona short="BEARERS.">Two Gentlemen Bearers</scenepersona>
 	<scenepersona short="FOUR NOBLE.">Four Noblemen</scenepersona>
 	<scenepersona short="DUCH. NORF.">Duchess of Norfolk</scenepersona>
+	<scenepersona short="PRIN. ELIZ.">Princess Elizabeth</scenepersona>
 	<scenepersona short="MARCH.">Marchioness Dorset</scenepersona>
 	<scenepersona short="LADY">Lady</scenepersona>
 	<scenepersona>Ladies</scenepersona>
 	<scenepersona short="KING.">King Henry</scenepersona>
 	<scenepersona>Guard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3083.02" sdnumber="0.01">
-	<dir>Enter trumpets, sounding; then two Aldermen, Lord Mayor, Garter, Cranmer, Duke of Norfolk with his marshal&#8217;s staff, Duke of Suffolk, two Noblemen bearing great standing-bowls for the christening gifts; then four Noblemen bearing a canopy, under which the Duchess of Norfolk, godmother, bearing the child richly habited in a mantle, etc., train borne by a Lady; then follows the Marchioness Dorset, the other godmother, and Ladies.</dir>
+	<dir>Enter trumpets, sounding; then two Aldermen, Lord Mayor, Garter, Cranmer, Duke of Norfolk with his marshal&#8217;s staff, Duke of Suffolk, two Gentlemen bearing great standing-bowls for the christening gifts; then four Noblemen bearing a canopy, under which the Duchess of Norfolk, godmother, bearing the child richly habited in a mantle, etc., train borne by a Lady; then follows the Marchioness Dorset, the other godmother, and Ladies.</dir>
 	<action type="enter">
 		<actor>ALDERMEN</actor>
 		<actor>MAY. LOND.</actor>
@@ -7869,8 +7921,10 @@
 		<actor>CRAN.</actor>
 		<actor>NOR.</actor>
 		<actor>SUF.</actor>
+		<actor>BEARERS.</actor>
 		<actor>FOUR NOBLE.</actor>
 		<actor>DUCH. NORF.</actor>
+		<actor>PRIN. ELIZ.</actor>
 		<actor>MARCH.</actor>
 		<actor>LADY</actor>
 		<actor>Ladies</actor>
@@ -7929,6 +7983,7 @@
 	<dir>The King kisses the child.</dir>
 	<action type="action">
 		<actor>KING.</actor>
+		<recipient>PRIN. ELIZ.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3094" number="8" form="verse">With this kiss take my blessing: God protect thee!</line>
@@ -8036,8 +8091,10 @@
 		<actor>CRAN.</actor>
 		<actor>NOR.</actor>
 		<actor>SUF.</actor>
+		<actor>BEARERS.</actor>
 		<actor>FOUR NOBLE.</actor>
 		<actor>DUCH. NORF.</actor>
+		<actor>PRIN. ELIZ.</actor>
 		<actor>MARCH.</actor>
 		<actor>LADY</actor>
 		<actor>Ladies</actor>
@@ -8050,12 +8107,14 @@
 
 </act>
 
-<epilogue>
+<epilogue minutesRunning="1" numberOfWords="128" numberOfLines="14">
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="EPILOGUE">Epilogue</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -8077,7 +8136,20 @@
 
 </epilogue>
 
-
+<locations numberOfLocations="12">
+<placename>A hall in Black-Friars.</placename>
+<placename>A hall in York Place.</placename>
+<placename>Kimbolton.</placename>
+<placename>London. A gallery in the palace.</placename>
+<placename>London. An ante-chamber in the Queen&#8217;s apartment.</placename>
+<placename>London. An ante-chamber in the palace.</placename>
+<placename>London. Antechamber to King Henry VIII&#8217;s apartment.</placename>
+<placename>London. Queen Katherine&#8217;s apartment.</placename>
+<placename>London. The council chamber.</placename>
+<placename>The lobby before the council chamber.</placename>
+<placename>The palace-yard.</placename>
+<placename>Westminster. A street.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -8107,13 +8179,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>201</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

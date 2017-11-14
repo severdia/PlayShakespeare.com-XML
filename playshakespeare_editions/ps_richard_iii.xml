@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Richard III">The Tragedy of Richard the Third</title>
@@ -8,19 +8,19 @@
 
 <personae playtitle="Richard III">
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="K. EDW." numberOfLines="65" numberOfVerseLines="65" numberOfProseLines="0" numberOfLyricsLines="0">King Edward the Fourth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="PRINCE." numberOfLines="43" numberOfVerseLines="43" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="YORK." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Duke of York</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CLAR." numberOfLines="165" numberOfVerseLines="162" numberOfProseLines="3" numberOfLyricsLines="0">George, Duke of Clarence</persname>
 <persaliases>
 	<persname short="GHOST OF C.">Ghost of Clarence</persname>
@@ -37,7 +37,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="GLOU." numberOfLines="1152" numberOfVerseLines="1152" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Duke of Gloucester</persname>
 <persaliases>
 	<persname short="K. RICH.">King Richard III</persname>
@@ -60,7 +60,7 @@
 <persname short="ELY." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">John Morton, Bishop of Ely</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="BUCK." numberOfLines="387" numberOfVerseLines="387" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
 <persaliases>
 	<persname short="GHOST OF BUCK.">Ghost of Duke of Buckingham</persname>
@@ -75,7 +75,7 @@
 <persname short="SUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Surrey</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="RIV." numberOfLines="51" numberOfVerseLines="51" numberOfProseLines="0" numberOfLyricsLines="0">Earl Rivers</persname>
 <persaliases>
 	<persname short="GHOST OF R.">Ghost of Earl Rivers</persname>
@@ -87,7 +87,7 @@
 <persname short="DOR." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Marquess of Dorset</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="GREY." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Lord Grey</persname>
 <persaliases>
 	<persname short="GHOST OF G.">Ghost of Lord Grey</persname>
@@ -99,7 +99,7 @@
 <persname short="OXF." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Oxford</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="HAST." numberOfLines="146" numberOfVerseLines="146" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
 <persaliases>
 	<persname short="GHOST OF H.">Ghost of Lord Hastings</persname>
@@ -114,7 +114,7 @@
 <persname short="LOV." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lord Lovel</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="VAUG." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Vaughan</persname>
 <persaliases>
 	<persname short="GHOST OF V.">Ghost of Sir Thomas Vaughan</persname>
@@ -172,7 +172,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes">
 <persname short="ANNE." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Lady Anne</persname>
 <persaliases>
 	<persname short="GHOST OF LADY">Ghost of Lady Anne</persname>
@@ -326,7 +326,9 @@
 	<scenepersona short="BRAK.">Brakenbury</scenepersona>
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -336,7 +338,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Richard, Duke of Gloucester">GLOU.</speaker>
 <line globalnumber="1" number="1" form="verse">Now is the winter of our discontent</line>
 <line globalnumber="2" number="2" form="verse">Made glorious summer by this son of York;</line>
@@ -680,7 +682,9 @@
 	<scenepersona short="GLOU.">Richard Duke of Gloucester</scenepersona>
 	<scenepersona short="GENT.">Gentleman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="165.02" sdnumber="0.01">
@@ -1330,7 +1334,7 @@
 <line globalnumber="402" number="227" form="verse" offset="5">Towards Chertsey, noble lord?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Richard, Duke of Gloucester">GLOU.</speaker>
 <line globalnumber="403" number="228" form="verse">No; to White-Friars, there attend my coming.</line>
 <stagedir sdglobalnumber="403.01" sdnumber="228.01">
@@ -1405,7 +1409,9 @@
 	<scenepersona short="CATE.">Catesby</scenepersona>
 	<scenepersona short="BOTH. 1. MUR. AND 2. MUR.">Murderers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="440.02" sdnumber="0.01">
@@ -2347,7 +2353,9 @@
 	<scenepersona short="BRAK.">Brakenbury</scenepersona>
 	<scenepersona short="BOTH. 1. MUR. AND 2. MUR.">Murderers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="799.02" sdnumber="0.01">
@@ -3036,7 +3044,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Second Murderer">2. MUR.</speaker>
 <line globalnumber="1040" number="237" form="verse">A bloody deed, and desperately dispatch&#8217;d!</line>
 <line globalnumber="1041" number="238" form="verse">How fain, like Pilate, would I wash my hands</line>
@@ -3107,7 +3115,9 @@
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="STAN.">Stanley</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1052.02" sdnumber="0.01">
@@ -3499,7 +3509,9 @@
 	<scenepersona short="HAST.">Hastings</scenepersona>
 	<scenepersona short="RAT.">Ratcliffe</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1194.02" sdnumber="0.01">
@@ -3897,7 +3909,9 @@
 	<scenepersona short="2. CIT.">Second Citizen</scenepersona>
 	<scenepersona short="3. CIT.">Third Citizen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1349.02" sdnumber="0.01">
@@ -4073,7 +4087,9 @@
 	<scenepersona short="DUCH.">Duchess of York</scenepersona>
 	<scenepersona short="MESS. QUEEN.">Messenger to the Queen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1398.02" sdnumber="0.01">
@@ -4347,7 +4363,9 @@
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
 	<scenepersona short="YORK.">York</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1476.02" sdnumber="0.01">
@@ -5001,7 +5019,9 @@
 	<scenepersona short="PRIEST.">Sir John</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1677.02" sdnumber="0.01">
@@ -5438,7 +5458,9 @@
 	<scenepersona short="GREY.">Grey</scenepersona>
 	<scenepersona short="VAUG.">Vaughan</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1801.02" sdnumber="0.01">
@@ -5545,7 +5567,9 @@
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="ELY.">Bishop of Ely</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1827.02" sdnumber="0.01">
@@ -5869,7 +5893,10 @@
 	<scenepersona short="LOV.">Lovel</scenepersona>
 	<scenepersona short="RAT.">Ratcliffe</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1934.02" sdnumber="0.01">
@@ -6160,7 +6187,9 @@
 <scenepersonae>
 	<scenepersona short="SCRIV.">Scrivener</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2043.02" sdnumber="0.01">
@@ -6204,14 +6233,16 @@
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
 	<scenepersona short="MAY.">Mayor</scenepersona>
-	<scenepersona>Aldermen</scenepersona>
+	<scenepersona short="ALD.">Aldermen</scenepersona>
 	<scenepersona short="1. CIT.">First Citizen</scenepersona>
 	<scenepersona short="2. CIT.">Second Citizen</scenepersona>
 	<scenepersona short="3. CIT.">Third Citizen</scenepersona>
 	<scenepersona short="CATE.">Catesby</scenepersona>
 	<scenepersona short="TWO BISH.">Two Bishops</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2057.02" sdnumber="0.01">
@@ -6333,7 +6364,7 @@
 	<dir>Enter the Mayor, Aldermen, and Citizens.</dir>
 	<action type="enter">
 		<actor>MAY.</actor>
-		<actor>Aldermen</actor>
+		<actor>ALD.</actor>
 		<actor>1. CIT.</actor>
 		<actor>2. CIT.</actor>
 		<actor>3. CIT.</actor>
@@ -6642,7 +6673,7 @@
 	<action type="exit">
 		<actor>BUCK.</actor>
 		<actor>MAY.</actor>
-		<actor>Aldermen</actor>
+		<actor>ALD.</actor>
 		<actor>1. CIT.</actor>
 		<actor>2. CIT.</actor>
 		<actor>3. CIT.</actor>
@@ -6766,7 +6797,10 @@
 	<scenepersona short="BRAK.">Lieutenant Brakenbury</scenepersona>
 	<scenepersona short="STAN.">Stanley</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2305.02" sdnumber="0.01">
@@ -7077,7 +7111,9 @@
 	<scenepersona short="STAN.">Stanley</scenepersona>
 	<scenepersona short="TYR.">Sir James Tyrrel</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2410.02" sdnumber="0.01">
@@ -7522,7 +7558,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Duke of Buckingham">BUCK.</speaker>
 <line globalnumber="2535" number="119" form="verse">And is it thus? Repays he my deep service</line>
 <line globalnumber="2536" number="120" form="verse">With such contempt? Made I him king for this?</line>
@@ -7547,7 +7583,9 @@
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="RAT.">Ratcliffe</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2538.02" sdnumber="0.01">
@@ -7557,7 +7595,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir James Tyrrel">TYR.</speaker>
 <line globalnumber="2539" number="1" form="verse">The tyrannous and bloody act is done,</line>
 <line globalnumber="2540" number="2" form="verse">The most arch deed of piteous massacre</line>
@@ -7719,7 +7757,9 @@
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 	<scenepersona short="4. MESS.">Fourth Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2598.02" sdnumber="0.01">
@@ -9194,7 +9234,9 @@
 	<scenepersona short="STAN.">Stanley</scenepersona>
 	<scenepersona short="CHRIS.">Sir Christopher Urswick</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3155.02" sdnumber="0.01">
@@ -9267,7 +9309,9 @@
 	<scenepersona short="HALB.">Halberds/Officers</scenepersona>
 	<scenepersona short="SHER.">Sheriff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3176.02" sdnumber="0.01">
@@ -9348,7 +9392,9 @@
 	<scenepersona short="BLUNT.">Sir James Blunt</scenepersona>
 	<scenepersona short="HERB.">Sir Walter Herbert</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3205.02" sdnumber="0.01">
@@ -9449,7 +9495,10 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="5. MESS.">Fifth Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3229.02" sdnumber="0.01">
@@ -9800,7 +9849,7 @@
 <line globalnumber="3337" number="103" form="verse">Once more, <foreign xml:lang="fr">adieu</foreign>! Be valiant, and speed well!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henry, Earl of Richmond">RICHM.</speaker>
 <line globalnumber="3338" number="104" form="verse">Good lords, conduct him to his regiment.</line>
 <line globalnumber="3339" number="105" form="verse">I&#8217;ll strive with troubled thoughts to take a nap,</line>
@@ -10143,7 +10192,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Richard III" alias="GLOU.">K. RICH.</speaker>
 <line globalnumber="3412" number="178" form="verse">Give me another horse! Bind up my wounds!</line>
 <line globalnumber="3413" number="179" form="verse">Have mercy, Jesu! Soft, I did but dream.</line>
@@ -10562,7 +10611,9 @@
 	<scenepersona short="CATE.">Catesby</scenepersona>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3590.02" sdnumber="0.01">
@@ -10630,7 +10681,9 @@
 	<scenepersona short="1. LORD. RICH.">First Lord to Richmond</scenepersona>
 	<scenepersona short="2. LORD. RICH.">Second Lord to Richmond</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3603.02" sdnumber="0.01">
@@ -10747,7 +10800,23 @@
 </act>
 
 
-
+<locations numberOfLocations="15">
+<placename>Another part of Bosworth Field.</placename>
+<placename>Baynard&#8217;s castle.</placename>
+<placename>Before Lord Hastings&#8217; house.</placename>
+<placename>Bosworth Field.</placename>
+<placename>London. A street.</placename>
+<placename>London. Another street.</placename>
+<placename>London. Before the palace.</placename>
+<placename>London. The palace.</placename>
+<placename>Lord Stanley&#8217;s house.</placename>
+<placename>Outside the Tower.</placename>
+<placename>Pomfret Castle.</placename>
+<placename>Salisbury. An open place.</placename>
+<placename>The Tower of London.</placename>
+<placename>The Tower-walls.</placename>
+<placename>The camp near Tamworth.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -10796,13 +10865,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>142</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Comedy of Errors">The Comedy of Errors</title>
@@ -24,7 +24,7 @@
 <persname short="ABB." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Aemilia</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="PINCH." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Doctor Pinch</persname>
 </persona>
 
@@ -36,11 +36,11 @@
 <persname short="BALTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Balthazar</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="S. DRO." numberOfLines="153" numberOfVerseLines="102" numberOfProseLines="51" numberOfLyricsLines="0">Dromio of Syracuse</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="E. DRO." numberOfLines="135" numberOfVerseLines="126" numberOfProseLines="9" numberOfLyricsLines="0">Dromio of Ephesus</persname>
 </persona>
 
@@ -102,7 +102,9 @@
 	<scenepersona>Officers</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -342,7 +344,9 @@
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 	<scenepersona short="E. DRO.">Dromio of Ephesus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="158.02" sdnumber="0.01">
@@ -444,7 +448,6 @@
 		<actor>E. DRO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="199" number="41" form="verse">Here comes the almanac of my true date.</line>
 <line globalnumber="200" number="42" form="verse">What now? How chance thou art return&#8217;d so soon?</line>
 </speech>
@@ -611,7 +614,9 @@
 	<scenepersona short="LUC.">Luciana</scenepersona>
 	<scenepersona short="E. DRO.">Dromio of Ephesus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="263.02" sdnumber="0.01">
@@ -923,7 +928,9 @@
 	<scenepersona short="ADR.">Adriana</scenepersona>
 	<scenepersona short="LUC.">Luciana</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="375.02" sdnumber="0.01">
@@ -947,7 +954,6 @@
 		<actor>S. ANT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="382" number="7" form="verse">How now, sir, is your merry humor alter&#8217;d?</line>
 <line globalnumber="383" number="8" form="verse">As you love strokes, so jest with me again.</line>
 <line globalnumber="384" number="9" form="verse">You know no Centaur? You receiv&#8217;d no gold?</line>
@@ -1499,7 +1505,10 @@
 	<scenepersona short="ADR.">Adriana</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="567.02" sdnumber="0.01">
@@ -2008,7 +2017,6 @@
 		<recipient>ANG.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="689" number="116" form="verse">Get you home</line>
 <line globalnumber="690" number="117" form="verse">And fetch the chain; by this I know &#8217;tis made.</line>
 <line globalnumber="691" number="118" form="verse">Bring it, I pray you, to the Porpentine,</line>
@@ -2050,7 +2058,9 @@
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 	<scenepersona short="ANG.">Angelo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="698.02" sdnumber="0.01">
@@ -2516,7 +2526,10 @@
 	<scenepersona short="E. DRO.">Dromio of Ephesus</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="847.02" sdnumber="0.01">
@@ -2854,7 +2867,9 @@
 	<scenepersona short="LUC.">Luciana</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="960.02" sdnumber="0.01">
@@ -3026,7 +3041,6 @@
 		<actor>LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1011" number="47" form="verse" offset="4">This I wonder at,</line>
 <line globalnumber="1012" number="48" form="verse">That he unknown to me should be in debt.</line>
 <line globalnumber="1013" number="49" form="verse">Tell me, was he arrested on a band?</line>
@@ -3107,7 +3121,10 @@
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 	<scenepersona short="COUR.">Courtezan</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1030.02" sdnumber="0.01">
@@ -3294,7 +3311,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Courtezan">COUR.</speaker>
 <line globalnumber="1082" number="52" form="verse">Now out of doubt Antipholus is mad,</line>
 <line globalnumber="1083" number="53" form="verse">Else would he never so demean himself.</line>
@@ -3337,7 +3354,10 @@
 	<scenepersona short="S. ANT.">Antipholus of Syracuse</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1097.02" sdnumber="0.01">
@@ -3363,7 +3383,6 @@
 		<actor>E. DRO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1105" number="8" form="verse">Here comes my man: I think he brings the money.</line>
 <line globalnumber="1106" number="9" form="verse">How now, sir? Have you that I sent you for?</line>
 </speech>
@@ -3808,7 +3827,6 @@
 		<actor>PINCH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1213" number="115" form="verse">Say now, whose suit is he arrested at?</line>
 </speech>
 
@@ -3951,7 +3969,10 @@
 	<scenepersona short="E. ANT.">Antipholus of Ephesus</scenepersona>
 	<scenepersona short="E. DRO.">Dromio of Ephesus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1237.02" sdnumber="0.01">
@@ -4915,7 +4936,6 @@
 		<recipient>LUC.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1615" number="373" form="verse" offset="4">What I told you then</line>
 <line globalnumber="1616" number="374" form="verse">I hope I shall have leisure to make good,</line>
 <line globalnumber="1617" number="375" form="verse">If this be not a dream I see and hear.</line>
@@ -5096,7 +5116,16 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="8">
+<placename>A hall in Duke Solinus&#8217;s Palace.</placename>
+<placename>A public place.</placename>
+<placename>A room in the house of Antipholus of Ephesus.</placename>
+<placename>A street before an abbey.</placename>
+<placename>A street.</placename>
+<placename>Before the house of Antipholus of Ephesus.</placename>
+<placename>The house of Antipholus of Ephesus.</placename>
+<placename>The mart.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -5120,12 +5149,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>127</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

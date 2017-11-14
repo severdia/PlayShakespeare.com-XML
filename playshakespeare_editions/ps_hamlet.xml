@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Hamlet">The Tragedy of Hamlet, Prince of Denmark</title>
@@ -8,19 +8,19 @@
 
 <personae playtitle="Hamlet">
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="KING." numberOfLines="545" numberOfVerseLines="528" numberOfProseLines="17" numberOfLyricsLines="0">Claudius, King of Denmark</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="GHOST." numberOfLines="95" numberOfVerseLines="95" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of Hamlet&#8217;s Father</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="OPH." numberOfLines="154" numberOfVerseLines="125" numberOfProseLines="29" numberOfLyricsLines="44">Ophelia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="QUEEN." numberOfLines="157" numberOfVerseLines="153" numberOfProseLines="4" numberOfLyricsLines="0">Gertrude, Queen of Denmark</persname>
 </persona>
 
@@ -55,11 +55,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="POL." numberOfLines="333" numberOfVerseLines="290" numberOfProseLines="43" numberOfLyricsLines="0">Polonius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="HAM." numberOfLines="1099" numberOfVerseLines="885" numberOfProseLines="214" numberOfLyricsLines="0">Hamlet</persname>
 </persona>
 
@@ -67,14 +67,14 @@
 <persname short="OSR." numberOfLines="27" numberOfVerseLines="8" numberOfProseLines="19" numberOfLyricsLines="0">Osric</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="GUIL." numberOfLines="39" numberOfVerseLines="15" numberOfProseLines="24" numberOfLyricsLines="0">Guildenstern</persname>
 <persaliases>
 	<persname short="BOTH ROS. AND GUIL.">Both Rosencrantz and Guildenstern</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ROS." numberOfLines="73" numberOfVerseLines="35" numberOfProseLines="38" numberOfLyricsLines="0">Rosencrantz</persname>
 <persaliases>
 	<persname short="BOTH ROS. AND GUIL.">Both Rosencrantz and Guildenstern</persname>
@@ -95,7 +95,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="LAER." numberOfLines="208" numberOfVerseLines="205" numberOfProseLines="3" numberOfLyricsLines="0">Laertes</persname>
 </persona>
 
@@ -180,7 +180,9 @@
 	<scenepersona short="MAR.">Marcellus</scenepersona>
 	<scenepersona short="GHOST.">Ghost</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -563,7 +565,6 @@
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="139" number="127" form="verse">But soft, behold! Lo where it comes again!</line>
 <stagedir sdglobalnumber="139.01" sdnumber="127.01">
 	<dir>It spreads his arms.</dir>
@@ -571,7 +572,6 @@
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="140" number="128" form="verse">I&#8217;ll cross it though it blast me. Stay, illusion!</line>
 <line globalnumber="141" number="129" form="verse">If thou hast any sound or use of voice,</line>
 <line globalnumber="142" number="130" form="verse">Speak to me.</line>
@@ -591,7 +591,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="153" number="141" form="verse">Stop it, Marcellus.</line>
 </speech>
 
@@ -625,7 +624,6 @@
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="159" number="145" form="verse">We do it wrong, being so majestical,</line>
 <line globalnumber="160" number="146" form="verse">To offer it the show of violence,</line>
 <line globalnumber="161" number="147" form="verse">For it is as the air, invulnerable,</line>
@@ -707,7 +705,10 @@
 	<scenepersona short="MAR.">Marcellus</scenepersona>
 	<scenepersona short="BAR.">Barnardo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="191.02" sdnumber="0.01">
@@ -769,7 +770,6 @@
 		<actor>KING.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="230" number="39" form="verse">Farewell, and let your haste commend your duty.</line>
 </speech>
 
@@ -788,7 +788,6 @@
 		<actor>COR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="233" number="42" form="verse">And now, Laertes, what&#8217;s the news with you?</line>
 <line globalnumber="234" number="43" form="verse">You told us of some suit, what is&#8217;t, Laertes?</line>
 <line globalnumber="235" number="44" form="verse">You cannot speak of reason to the Dane</line>
@@ -956,7 +955,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="322" number="129" form="verse">O that this too too solid flesh would melt,</line>
 <line globalnumber="323" number="130" form="verse">Thaw, and resolve itself into a dew!</line>
@@ -1038,7 +1037,6 @@
 		<recipient>BAR.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="362" number="168" form="verse">Good even, sir.&#8212;</line>
 <line globalnumber="363" number="169" form="verse">But what, in faith, make you from Wittenberg?</line>
 </speech>
@@ -1350,7 +1348,6 @@
 		<actor>BAR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="465" number="255" form="verse">My father&#8217;s spirit&#8212;in arms! All is not well,</line>
 <line globalnumber="466" number="256" form="verse">I doubt some foul play. Would the night were come!</line>
 <line globalnumber="467" number="257" form="verse">Till then sit still, my soul. Foul deeds will rise,</line>
@@ -1374,7 +1371,9 @@
 	<scenepersona short="OPH.">Ophelia</scenepersona>
 	<scenepersona short="POL.">Polonius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="468.02" sdnumber="0.01">
@@ -1472,7 +1471,6 @@
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="524" number="53" form="verse">I stay too long&#8212;but here my father comes.</line>
 <line globalnumber="525" number="54" form="verse">A double blessing is a double grace,</line>
 <line globalnumber="526" number="55" form="verse">Occasion smiles upon a second leave.</line>
@@ -1490,7 +1488,6 @@
 		<recipient>LAER.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="530" number="59" form="verse">My blessing with thee!</line>
 <line globalnumber="531" number="60" form="verse">And these few precepts in thy memory</line>
 <line globalnumber="532" number="61" form="verse">Look thou character. Give thy thoughts no tongue,</line>
@@ -1668,7 +1665,9 @@
 	<scenepersona short="MAR.">Marcellus</scenepersona>
 	<scenepersona short="GHOST.">Ghost</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="610.02" sdnumber="0.01">
@@ -1714,7 +1713,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="618" number="7" form="verse">What does this mean, my lord?</line>
 </speech>
 
@@ -1943,7 +1941,11 @@
 	<scenepersona short="HOR.">Horatio</scenepersona>
 	<scenepersona short="MAR.">Marcellus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="711.02" sdnumber="0.01">
@@ -2130,7 +2132,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="809" number="92" form="verse">O all you host of heaven! O earth! What else?</line>
 <line globalnumber="810" number="93" form="verse">And shall I couple hell? O fie, hold, hold, my heart,</line>
@@ -2156,7 +2158,6 @@
 		<actor>HAM.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="827" number="110" form="verse">So, uncle, there you are. Now to my word:</line>
 <line globalnumber="828" number="111" form="verse">It is &#8220;<foreign xml:lang="fr">Adieu, adieu</foreign>! Remember me.&#8221;</line>
 <line globalnumber="829" number="112" form="verse" offset="0">I have sworn&#8217;t.</line>
@@ -2501,7 +2502,10 @@
 	<scenepersona short="REY.">Reynaldo</scenepersona>
 	<scenepersona short="OPH.">Ophelia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="920.02" sdnumber="0.01">
@@ -2712,7 +2716,6 @@
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1002" number="73" form="verse">How now, Ophelia, what&#8217;s the matter?</line>
 </speech>
 
@@ -2833,7 +2836,11 @@
 	<scenepersona short="P. PRO.">Player Prologue</scenepersona>
 	<scenepersona short="P. LUC.">Player Lucianus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1051.02" sdnumber="0.01">
@@ -2977,7 +2984,6 @@
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1108" number="54" form="verse">He tells me, my dear Gertrude, he hath found</line>
 <line globalnumber="1109" number="55" form="verse">The head and source of all your son&#8217;s distemper.</line>
 </speech>
@@ -3029,7 +3035,6 @@
 		<recipient>KING.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1131" number="77" form="verse">That it might please you to give quiet pass</line>
 <line globalnumber="1132" number="78" form="verse">Through your dominions for this enterprise,</line>
 <line globalnumber="1133" number="79" form="verse">On such regards of safety and allowance</line>
@@ -3095,7 +3100,6 @@
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1166" number="110" form="prose"><recite>&#8220;To the celestial and my soul&#8217;s idol, the most beautified Ophelia&#8221;&#8212;</recite></line><lb />
 <line globalnumber="1167" number="111" form="prose">That&#8217;s an ill phrase, a vile phrase, &#8220;beautified&#8221; is a vile phrase. But you shall hear. Thus:</line><lb />
 <line globalnumber="1168" number="112" form="prose"><recite>&#8220;In her excellent white bosom, these, etc.&#8221;</recite></line>
@@ -3115,7 +3119,6 @@
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1171" number="115" form="verse"><recite>&#8220;Doubt thou the stars are fire,</recite></line>
 <line globalnumber="1172" number="116" form="verse"><recite>Doubt that the sun doth move,</recite></line>
 <line globalnumber="1173" number="117" form="verse"><recite>Doubt truth to be a liar,</recite></line>
@@ -3259,7 +3262,6 @@
 		<actor>QUEEN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1231" number="167" form="verse" offset="5">O, give me leave,</line>
 <line globalnumber="1232" number="168" form="verse">How does my good Lord Hamlet?</line>
 </speech>
@@ -3878,7 +3880,6 @@
 		<actor>P. LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1344" number="279" form="prose">You are welcome, masters, welcome all. I am glad to see thee well. Welcome, good friends. O, old friend! Why, thy face is valanc&#8217;d since I saw thee last; com&#8217;st thou to beard me in Denmark? What, my young lady and mistress! By&#8217; lady, your ladyship is nearer to heaven than when I saw you last, by the altitude of a chopine. Pray God your voice, like a piece of uncurrent gold, be not crack&#8217;d within the ring. Masters, you are all welcome. We&#8217;ll e&#8217;en to&#8217;t like French falc&#8217;ners&#8212;fly at any thing we see; we&#8217;ll have a speech straight. Come give us a taste of your quality, come, a passionate speech.</line>
 </speech>
 
@@ -4068,7 +4069,7 @@
 <line globalnumber="1425" number="360" form="prose">Good my lord!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="1426" number="361" form="verse" offset="0">Ay so, God buy to you.</line>
 <stagedir sdglobalnumber="1426.01" sdnumber="361.01">
@@ -4078,7 +4079,6 @@
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1427" number="361" form="verse" offset="5">Now I am alone.</line>
 <line globalnumber="1428" number="362" form="verse">O, what a rogue and peasant slave am I!</line>
 <line globalnumber="1429" number="363" form="verse">Is it not monstrous that this player here,</line>
@@ -4163,7 +4163,9 @@
 	<scenepersona>Lords</scenepersona>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1483.02" sdnumber="0.01">
@@ -4311,7 +4313,6 @@
 		<recipient>OPH.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1533" number="44" form="verse">Read on this book,</line>
 <line globalnumber="1534" number="45" form="verse">That show of such an exercise may color</line>
 <line globalnumber="1535" number="46" form="verse">Your loneliness. We are oft to blame in this&#8212;</line>
@@ -4356,7 +4357,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="1546" number="56" form="verse">To be, or not to be, that is the question:</line>
 <line globalnumber="1547" number="57" form="verse">Whether &#8217;tis nobler in the mind to suffer</line>
@@ -4581,7 +4582,6 @@
 		<actor>OPH.</actor>	
 	</action>
 </stagedir>
-
 <line globalnumber="1641" number="148" form="verse" offset="6">How now, Ophelia?</line>
 <line globalnumber="1642" number="149" form="verse">You need not tell us what Lord Hamlet said,</line>
 <line globalnumber="1643" number="150" form="verse">We heard it all. My lord, do as you please,</line>
@@ -4633,7 +4633,9 @@
 	<scenepersona short="P. PRO.">Prologue</scenepersona>
 	<scenepersona short="P. LUC.">Lucianus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1652.02" sdnumber="0.01">
@@ -4689,7 +4691,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1658" number="6" form="prose">How now, my lord? Will the King hear this piece of work?</line>
 </speech>
 
@@ -5252,7 +5253,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>P. LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1828" number="172" form="prose">This is one Lucianus, nephew to the king.</line>
 </speech>
 
@@ -5553,7 +5553,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>P. LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1894" number="234" form="prose">O, the recorders! Let me see one.&#8212;To withdraw with you&#8212;why do you go about to recover the wind of me, as if you would drive me into a toil?</line>
 </speech>
 
@@ -5611,7 +5610,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1905" number="245" form="prose">God bless you, sir.</line>
 </speech>
 
@@ -5674,7 +5672,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="1916" number="256" form="verse">&#8220;By and by&#8221; is easily said. Leave me, friends.</line>
 <stagedir sdglobalnumber="1916.01" sdnumber="256.01">
@@ -5689,7 +5687,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>P. LUC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1917" number="257" form="verse">&#8217;Tis now the very witching time of night,</line>
 <line globalnumber="1918" number="258" form="verse">When churchyards yawn and hell itself breathes out</line>
 <line globalnumber="1919" number="259" form="verse">Contagion to this world. Now could I drink hot blood,</line>
@@ -5723,7 +5720,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="POL.">Polonius</scenepersona>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1928.02" sdnumber="0.01">
@@ -5811,7 +5810,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <line globalnumber="1965" number="35" form="verse" offset="0">And tell you what I know.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Claudius, King of Denmark">KING.</speaker>
 <line globalnumber="1966" number="35" form="verse" offset="5">Thanks, dear my lord.</line>
 <stagedir sdglobalnumber="1966.01" sdnumber="35.01">
@@ -5820,7 +5819,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>POL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1967" number="36" form="verse">O, my offense is rank, it smells to heaven,</line>
 <line globalnumber="1968" number="37" form="verse">It hath the primal eldest curse upon&#8217;t,</line>
 <line globalnumber="1969" number="38" form="verse">A brother&#8217;s murder. Pray can I not,</line>
@@ -5874,7 +5872,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="2004" number="73" form="verse">Now might I do it pat, now &#8217;a is a-praying;</line>
 <line globalnumber="2005" number="74" form="verse">And now I&#8217;ll do&#8217;t&#8212;and so &#8217;a goes to heaven,</line>
@@ -5939,7 +5937,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="GHOST.">Ghost</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2029.02" sdnumber="0.01">
@@ -6120,7 +6120,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>HAM.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2064" number="31" form="verse">Thou wretched, rash, intruding fool, farewell!</line>
 <line globalnumber="2065" number="32" form="verse">I took thee for thy better. Take thy fortune;</line>
 <line globalnumber="2066" number="33" form="verse">Thou find&#8217;st to be too busy is some danger.&#8212;</line>
@@ -6398,7 +6397,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<recipient>POL.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2217" number="173" form="verse">I do repent; but heaven hath pleas&#8217;d it so</line>
 <line globalnumber="2218" number="174" form="verse">To punish me with this, and this with me,</line>
 <line globalnumber="2219" number="175" form="verse">That I must be their scourge and minister.</line>
@@ -6495,7 +6493,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="ROS.">Rosencrantz</scenepersona>
 	<scenepersona short="GUIL.">Guildenstern</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2263.02" sdnumber="0.01">
@@ -6525,7 +6525,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2268" number="5" form="verse">Ah, mine own lord, what have I seen tonight!</line>
 </speech>
 
@@ -6582,7 +6581,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2297" number="33" form="verse">Friends both, go join you with some further aid:</line>
 <line globalnumber="2298" number="34" form="verse">Hamlet in madness hath Polonius slain,</line>
 <line globalnumber="2299" number="35" form="verse">And from his mother&#8217;s closet hath he dragg&#8217;d him.</line>
@@ -6595,7 +6593,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2302" number="38" form="verse">Come, Gertrude, we&#8217;ll call up our wisest friends</line>
 <line globalnumber="2303" number="39" form="verse">And let them know both what we mean to do</line>
 <line globalnumber="2304" number="40" form="verse">And what&#8217;s untimely done. So envious slander,</line>
@@ -6624,7 +6621,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="ROS.">Rosencrantz</scenepersona>
 	<scenepersona short="GUIL.">Guildenstern</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2309.02" sdnumber="0.01">
@@ -6755,7 +6754,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="GUIL.">Guildenstern</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2327.02" sdnumber="0.01">
@@ -6785,7 +6786,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>ROS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2339" number="12" form="verse">How now, what hath befall&#8217;n?</line>
 </speech>
 
@@ -6963,7 +6963,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2376" number="44" form="verse">And, England, if my love thou hold&#8217;st at aught&#8212;</line>
 <line globalnumber="2377" number="45" form="verse">As my great power thereof may give thee sense,</line>
 <line globalnumber="2378" number="46" form="verse">Since yet thy cicatrice looks raw and red</line>
@@ -6996,7 +6995,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="ROS.">Rosencrantz</scenepersona>
 	<scenepersona short="GUIL.">Guildenstern</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2386.02" sdnumber="0.01">
@@ -7126,7 +7127,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <line globalnumber="2418" number="30" form="verse" offset="4">Will&#8217;t please you go, my lord?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hamlet">HAM.</speaker>
 <line globalnumber="2419" number="31" form="verse">I&#8217;ll be with you straight&#8212;go a little before.</line>
 <stagedir sdglobalnumber="2419.01" sdnumber="31.01">
@@ -7136,7 +7137,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GUIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2420" number="32" form="verse">How all occasions do inform against me,</line>
 <line globalnumber="2421" number="33" form="verse">And spur my dull revenge! What is a man,</line>
 <line globalnumber="2422" number="34" form="verse">If his chief good and market of his time</line>
@@ -7196,7 +7196,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="LAER.">Laertes</scenepersona>
 	<scenepersona short="LAER. FOL.">Laertes&#8217;s Followers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2454.02" sdnumber="0.01">
@@ -7244,7 +7246,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <line globalnumber="2470" number="15" form="verse">Dangerous conjectures in ill-breeding minds.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2471" number="16" form="verse">Let her come in.</line>
 <stagedir sdglobalnumber="2471.01" sdnumber="16.01">
@@ -7260,7 +7262,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>QUEEN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2472" number="17" form="verse">To my sick soul, as sin&#8217;s true nature is,</line>
 <line globalnumber="2473" number="18" form="verse">Each toy seems prologue to some great amiss,</line>
 <line globalnumber="2474" number="19" form="verse">So full of artless jealousy is guilt,</line>
@@ -7356,7 +7357,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2493" number="38" form="verse" type="lyric">&#8220;Larded all with sweet flowers,</line>
 <line globalnumber="2494" number="39" form="verse" type="lyric">Which bewept to the ground did not go</line>
 <line globalnumber="2495" number="40" form="verse" type="lyric">With true-love showers.&#8221;</line>
@@ -7386,7 +7386,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2500" number="45" form="verse" type="lyric">&#8220;Tomorrow is Saint Valentine&#8217;s day,</line>
 <line globalnumber="2501" number="46" form="verse" type="lyric">All in the morning betime,</line>
 <line globalnumber="2502" number="47" form="verse" type="lyric">And I a maid at your window,</line>
@@ -7411,7 +7410,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2510" number="55" form="verse" type="lyric">&#8220;By Gis, and by Saint Charity,</line>
 <line globalnumber="2511" number="56" form="verse" type="lyric">Alack, and fie for shame!</line>
 <line globalnumber="2512" number="57" form="verse" type="lyric">Young men will do&#8217;t if they come to&#8217;t,</line>
@@ -7424,7 +7422,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>KING.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2516" number="61" form="verse" type="lyric">&#8220;&#8216;So would I &#8217;a&#8217; done, by yonder sun,</line>
 <line globalnumber="2517" number="62" form="verse" type="lyric">And thou hadst not come to my bed.&#8217;&#8221;</line>
 </speech>
@@ -7446,7 +7443,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Claudius, King of Denmark">KING.</speaker>
 <line globalnumber="2520" number="65" form="prose">Follow her close, give her good watch, I pray you.</line>
 <stagedir sdglobalnumber="2520.01" sdnumber="65.01">
@@ -7455,7 +7452,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>HOR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2521" number="66" form="verse">O, this is the poison of deep grief, it springs</line>
 <line globalnumber="2522" number="67" form="verse">All from her father&#8217;s death&#8212;and now behold!</line>
 <line globalnumber="2523" number="68" form="verse">O Gertrude, Gertrude,</line>
@@ -7501,7 +7497,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>MESS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2546" number="90" form="verse" offset="0">What is the matter?</line>
 </speech>
 
@@ -7574,7 +7569,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>LAER. FOL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2566" number="108" form="verse">O thou vile king,</line>
 <line globalnumber="2567" number="109" form="verse" offset="0">Give me my father!</line>
 </speech>
@@ -7686,7 +7680,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<action type="action">
 	</action>
 </stagedir>
-
 <line globalnumber="2612" number="146" form="verse">&#8220;Let her come in!&#8221;</line>
 </speech>
 
@@ -7699,7 +7692,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2614" number="148" form="verse">O heat, dry up my brains! Tears seven times salt</line>
 <line globalnumber="2615" number="149" form="verse">Burn out the sense and virtue of mine eye!</line>
 <line globalnumber="2616" number="150" form="verse">By heaven, thy madness shall be paid with weight</line>
@@ -7778,7 +7770,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>OPH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2638" number="172" form="verse" type="lyric">&#8220;For bonny sweet Robin is all my joy.&#8221;</line>
 </speech>
 
@@ -7872,7 +7863,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="GENT.">Gentleman</scenepersona>
 	<scenepersona short="1. SAIL.">Sailors</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2672.02" sdnumber="0.01">
@@ -7902,7 +7895,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>GENT.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2676" number="4" form="verse">I do not know from what part of the world</line>
 <line globalnumber="2677" number="5" form="verse">I should be greeted, if not from Lord Hamlet.</line>
 </speech>
@@ -7963,7 +7955,10 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="MESS.">Messenger</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2685.02" sdnumber="0.01">
@@ -8035,7 +8030,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>MESS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2723" number="36" form="verse" offset="0">How now? What news?</line>
 </speech>
 
@@ -8074,7 +8068,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>KING.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2732" number="43" form="prose"><recite>&#8220;High and mighty, You shall know I am set naked on your kingdom. Tomorrow shall I beg leave to see your kingly eyes, when I shall, first asking you pardon thereunto, recount the occasion of my sudden and more strange return. Hamlet.&#8221;</recite></line><lb />
 <line globalnumber="2733" number="44" form="verse">What should this mean? Are all the rest come back?</line>
 <line globalnumber="2734" number="45" form="verse">Or is it some abuse, and no such thing?</line>
@@ -8404,7 +8397,10 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona>Lords</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2893.02" sdnumber="0.01">
@@ -8566,7 +8562,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>1. CLO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2919" number="26" form="verse" type="lyric">&#8220;In youth when I did love, did love,</line>
 <line globalnumber="2920" number="27" form="verse" type="lyric">Methought it was very sweet,</line>
 <line globalnumber="2921" number="28" form="verse" type="lyric">To contract&#8212;O&#8212;the time for-a-my behove,</line>
@@ -8597,7 +8592,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>1. CLO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2926" number="33" form="verse" type="lyric">&#8220;But age with his stealing steps</line>
 <line globalnumber="2927" number="34" form="verse" type="lyric">Hath clawed me in his clutch,</line>
 <line globalnumber="2928" number="35" form="verse" type="lyric">And hath shipped me into the land,</line>
@@ -8645,7 +8639,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>1. CLO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2935" number="42" form="verse" type="lyric">&#8220;A pickaxe and a spade, a spade,</line>
 <line globalnumber="2936" number="43" form="verse" type="lyric">For and a shrouding sheet:</line>
 <line globalnumber="2937" number="44" form="verse" type="lyric">O, a pit of clay for to be made</line>
@@ -8693,7 +8686,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>1. CLO.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2945" number="52" form="verse" type="lyric">&#8220;O, a pit of clay for to be made</line>
 <line globalnumber="2946" number="53" form="verse" type="lyric">For such a guest is meet.&#8221;</line>
 </speech>
@@ -8939,7 +8931,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>DOCTOR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2995" number="102" form="verse">The Queen, the courtiers. Who is this they follow?</line>
 <line globalnumber="2996" number="103" form="verse">And with such maimed rites? This doth betoken</line>
 <line globalnumber="2997" number="104" form="verse">The corse they follow did with desp&#8217;rate hand</line>
@@ -9037,7 +9028,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>LAER.</actor>	
 	</action>
 </stagedir>
-
 <line globalnumber="3032" number="135" form="verse">Now pile your dust upon the quick and dead,</line>
 <line globalnumber="3033" number="136" form="verse">Till of this flat a mountain you have made</line>
 <line globalnumber="3034" number="137" form="verse">T&#8217; o&#8217;ertop old Pelion, or the skyish head</line>
@@ -9200,7 +9190,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<recipient>LAER.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="3081" number="179" form="verse">Strengthen your patience in our last night&#8217;s speech,</line>
 <line globalnumber="3082" number="180" form="verse">We&#8217;ll put the matter to the present push.&#8212;</line>
 <line globalnumber="3083" number="181" form="verse">Good Gertrude, set some watch over your son.</line>
@@ -9237,7 +9226,10 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<scenepersona short="1. AMB.">English Ambassadors</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3086.02" sdnumber="0.01">
@@ -9887,7 +9879,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="3290" number="193" form="verse">And you, the judges, bear a wary eye.</line>
 </speech>
 
@@ -9956,7 +9947,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>LAER.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="3302" number="200" form="verse">Another hit; what say you?</line>
 </speech>
 
@@ -10245,7 +10235,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="3376" number="266" form="verse">What warlike noise is this?</line>
 </speech>
 
@@ -10290,7 +10279,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="3389" number="278" form="verse">Why does the drum come hither?</line>
 </speech>
 
@@ -10397,7 +10385,18 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </scene>
 </act>
 
-
+<locations numberOfLocations="10">
+<placename>Elsinore. A churchyard.</placename>
+<placename>Elsinore. A hall in Elsinore castle.</placename>
+<placename>Elsinore. A platform before Elsinore castle.</placename>
+<placename>Elsinore. A room in Elsinore castle.</placename>
+<placename>Elsinore. A room in Polonius&#8217; house.</placename>
+<placename>Elsinore. A room of state in the castle.</placename>
+<placename>Elsinore. Another part of the platform before Elsinore castle.</placename>
+<placename>Elsinore. Another room in Elsinore castle.</placename>
+<placename>Elsinore. The Queen&#8217;s room in Elsinore castle.</placename>
+<placename>Near Elsinore. A plain in Denmark.</placename>
+</locations>
 
 
 <sources>
@@ -10496,13 +10495,13 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>13</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

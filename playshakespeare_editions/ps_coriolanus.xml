@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Coriolanus">The Tragedy of Coriolanus</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Coriolanus">
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="VOL." numberOfLines="275" numberOfVerseLines="256" numberOfProseLines="19" numberOfLyricsLines="0">Volumnia</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="AUF." numberOfLines="274" numberOfVerseLines="272" numberOfProseLines="2" numberOfLyricsLines="0">Tullus Aufidius</persname>
 </persona>
 
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="MEN." numberOfLines="462" numberOfVerseLines="413" numberOfProseLines="49" numberOfLyricsLines="0">Menenius Agrippa</persname>
 <persaliases>
 	<persname short="BOTH. MEN. AND BRU.">Both Menenius and Brutus</persname>
@@ -66,7 +66,7 @@
 <persname short="LIEU. LART." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant to Lartius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="MAR." numberOfLines="870" numberOfVerseLines="846" numberOfProseLines="24" numberOfLyricsLines="0">Caius Martius</persname>
 <persaliases>
 	<persname short="COR.">Coriolanus</persname>
@@ -252,21 +252,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="1. SERV." numberOfLines="21" numberOfVerseLines="0" numberOfProseLines="21" numberOfLyricsLines="0">First Servingman</persname>
 <persaliases>
 	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="2. SERV." numberOfLines="21" numberOfVerseLines="2" numberOfProseLines="19" numberOfLyricsLines="0">Second Servingman</persname>
 <persaliases>
 	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="3. SERV." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Third Servingman</persname>
 </persona>
 
@@ -321,10 +321,6 @@
 </persona>
 
 <persona gender="male">
-<persname short="ALL VOL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Volscians</persname>
-</persona>
-
-<persona gender="male">
 <persname short="VOL. SOLDS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Volscian Soldiers</persname>
 </persona>
 
@@ -364,7 +360,9 @@
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 	<scenepersona short="SENATORS.">Roman Senators</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -703,7 +701,6 @@
 		<actor>MAR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="126" number="119" form="verse" offset="6">Hail, noble Martius!</line>
 </speech>
 
@@ -1086,7 +1083,9 @@
 	<scenepersona short="AUF.">Tullus Aufidius</scenepersona>
 	<scenepersona short="ALL. VOL. SEN.">Volscian Senators</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="264.02" sdnumber="0.01">
@@ -1213,7 +1212,9 @@
 	<scenepersona short="VAL.">Valeria</scenepersona>
 	<scenepersona short="USH.">Usher</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="310.02" sdnumber="0.01">
@@ -1492,7 +1493,9 @@
 	<scenepersona short="ALL. VOL. SEN.">Volscian Senators</scenepersona>
 	<scenepersona short="VOL. SOLDS.">Army of the Volsces</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="367.02" sdnumber="0.01">
@@ -1795,7 +1798,9 @@
 	<scenepersona short="MAR.">Martius</scenepersona>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="442.02" sdnumber="0.01">
@@ -1920,7 +1925,9 @@
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="MAR.">Martius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="474.02" sdnumber="0.01">
@@ -2178,7 +2185,9 @@
 	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="SCOUT.">Scout</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="578.02" sdnumber="0.01">
@@ -2235,7 +2244,9 @@
 	<scenepersona short="AUF.">Aufidius</scenepersona>
 	<scenepersona short="VOL. SOLDS.">Volscian Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="586.02" sdnumber="0.01">
@@ -2319,7 +2330,9 @@
 	<scenepersona short="MAR.">Martius (Coriolanus)</scenepersona>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="605.02" sdnumber="0.01">
@@ -2554,7 +2567,9 @@
 	<scenepersona short="AUF.">Tullus Aufidius</scenepersona>
 	<scenepersona short="VOL. SOLDS.">Volscian Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="711.02" sdnumber="0.01">
@@ -2666,7 +2681,9 @@
 	<scenepersona short="ROM. HER.">Roman Herald</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="747.02" sdnumber="0.01">
@@ -3370,7 +3387,9 @@
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="941.02" sdnumber="0.01">
@@ -3801,7 +3820,10 @@
 	<scenepersona short="SIC.">Sicinius</scenepersona>
 	<scenepersona short="ALL PLEBEIANS.">Plebeians</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1098.02" sdnumber="0.01">
@@ -4084,7 +4106,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Coriolanus" alias="MAR.">COR.</speaker>
 <line globalnumber="1155" number="52" form="verse">Most sweet voices!</line>
 <line globalnumber="1156" number="53" form="verse">Better it is to die, better to starve,</line>
@@ -4505,7 +4527,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="BRU.">Junius Brutus</scenepersona>
 	<scenepersona short="SIC.">Sicinius Velutus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1322.02" sdnumber="0.01">
@@ -5694,7 +5718,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="SENATORS.">Senators</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1739.02" sdnumber="0.01">
@@ -6099,7 +6125,10 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="PATRICIANS">Patricians</scenepersona>
 	<scenepersona short="ALL PLEBEIANS.">Plebeians</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1911.02" sdnumber="0.01">
@@ -6593,7 +6622,10 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2081.02" sdnumber="0.01">
@@ -6740,7 +6772,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="VIR.">Virgilia</scenepersona>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2146.02" sdnumber="0.01">
@@ -7014,7 +7048,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="NIC.">Nicanor</scenepersona>
 	<scenepersona short="ADR.">Adrian</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2216.02" sdnumber="0.01">
@@ -7137,7 +7173,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="CIT. ANT.">Citizen of Antium</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2235.02" sdnumber="0.01">
@@ -7147,7 +7185,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Coriolanus" alias="MAR.">COR.</speaker>
 <line globalnumber="2236" number="1" form="verse">A goodly city is this Antium. City,</line>
 <line globalnumber="2237" number="2" form="verse">&#8217;Tis I that made thy widows; many an heir</line>
@@ -7191,7 +7229,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <line globalnumber="2249" number="11" form="verse" offset="0">This here before you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Coriolanus" alias="MAR.">COR.</speaker>
 <line globalnumber="2250" number="11" form="verse" offset="4">Thank you, sir, farewell.</line>
 <stagedir sdglobalnumber="2250.01" sdnumber="11.01">
@@ -7236,7 +7274,9 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="AUF.">Aufidius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2265.02" sdnumber="0.01">
@@ -7899,7 +7939,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2440.02" sdnumber="0.01">
@@ -8484,7 +8526,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="AUF.">Aufidius</scenepersona>
 	<scenepersona short="LIEU. AUF.">Lieutenant to Aufidius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2631.02" sdnumber="0.01">
@@ -8604,7 +8648,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="SIC.">Sicinius</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2690.02" sdnumber="0.01">
@@ -8820,7 +8866,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="AUF.">Aufidius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2776.02" sdnumber="0.01">
@@ -9096,7 +9144,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="BOY.">Young Martius</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2841.02" sdnumber="0.01">
@@ -9548,7 +9598,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3069.02" sdnumber="0.01">
@@ -9745,7 +9797,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona short="VAL.">Valeria</scenepersona>
 	<scenepersona>Lords</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3114.02" sdnumber="0.01">
@@ -9802,7 +9856,9 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 	<scenepersona>Commoners</scenepersona>
 	<scenepersona short="MAR.">Martius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3122.02" sdnumber="0.01">
@@ -9837,7 +9893,6 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 		<actor>3. CONSP.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="3131" number="8" form="verse" offset="8">Most welcome!</line>
 </speech>
 
@@ -10249,7 +10304,30 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </scene>
 </act>
 
-
+<locations numberOfLocations="22">
+<placename>A camp near Rome.</placename>
+<placename>A field of battle.</placename>
+<placename>A highway between Rome and Antium.</placename>
+<placename>Antium. A hall in Aufidius&#8217; house.</placename>
+<placename>Antium. A public place.</placename>
+<placename>Antium. Before Aufidius&#8217; house.</placename>
+<placename>Before Corioli.</placename>
+<placename>Corioli. A street.</placename>
+<placename>Corioli. The Senate-house.</placename>
+<placename>Entrance of the Volscian camp before Rome.</placename>
+<placename>Near Cominius&#8217; camp.</placename>
+<placename>Rome. A public place.</placename>
+<placename>Rome. A room in Martius Coriolanus&#8217; house.</placename>
+<placename>Rome. A street near the city gate.</placename>
+<placename>Rome. A street.</placename>
+<placename>Rome. Before a gate of the city.</placename>
+<placename>Rome. The capitol.</placename>
+<placename>Rome. The forum.</placename>
+<placename>The Roman camp.</placename>
+<placename>The Volscian camp.</placename>
+<placename>The gates of Corioli.</placename>
+<placename>The tent of Coriolanus.</placename>
+</locations>
 
 
 <sources>
@@ -10304,12 +10382,12 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>129</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

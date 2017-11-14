@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Antony and Cleopatra">The Tragedy of Antony and Cleopatra</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Antony and Cleopatra">
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes">
 <persname short="CLEO." numberOfLines="679" numberOfVerseLines="675" numberOfProseLines="4" numberOfLyricsLines="0">Cleopatra, Queen of Egypt</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CLOWN." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Clown</persname>
 </persona>
 
@@ -129,7 +129,7 @@
 <persname short="SCAR." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Scarus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="EROS." numberOfLines="43" numberOfVerseLines="42" numberOfProseLines="1" numberOfLyricsLines="0">Eros</persname>
 </persona>
 
@@ -137,11 +137,11 @@
 <persname short="VEN." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Ventidius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ENO." numberOfLines="298" numberOfVerseLines="266" numberOfProseLines="32" numberOfLyricsLines="6">Domitius Enobarbus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="POM." numberOfLines="136" numberOfVerseLines="135" numberOfProseLines="1" numberOfLyricsLines="0">Sextus Pompeius</persname>
 </persona>
 
@@ -152,28 +152,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="CAES." numberOfLines="421" numberOfVerseLines="420" numberOfProseLines="1" numberOfLyricsLines="0">Octavius Caesar</persname>
 <persaliases>
 	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="ANT." numberOfLines="839" numberOfVerseLines="826" numberOfProseLines="13" numberOfLyricsLines="0">Mark Antony</persname>
 <persaliases>
 	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="IRAS." numberOfLines="23" numberOfVerseLines="16" numberOfProseLines="7" numberOfLyricsLines="0">Iras</persname>
 <persaliases>
 	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="CHAR." numberOfLines="87" numberOfVerseLines="69" numberOfProseLines="18" numberOfLyricsLines="0">Charmian</persname>
 <persaliases>
 	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
@@ -352,7 +352,9 @@
 	<scenepersona>Eunuchs</scenepersona>
 	<scenepersona short="1. ROM. MESS.">First Roman Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -575,7 +577,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="71.02" sdnumber="0.01">
@@ -1209,7 +1213,10 @@
 	<scenepersona short="ALEX.">Alexas</scenepersona>
 	<scenepersona short="IRAS.">Iras</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="222.02" sdnumber="0.01">
@@ -1541,7 +1548,9 @@
 	<scenepersona short="1. CAES. MESS.">Caesar&#8217;s First Messenger</scenepersona>
 	<scenepersona short="2. CAES. MESS.">Caesar&#8217;s Second Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="347.02" sdnumber="0.01">
@@ -1737,7 +1746,9 @@
 	<scenepersona short="MAR.">Mardian</scenepersona>
 	<scenepersona short="ALEX.">Alexas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="440.02" sdnumber="0.01">
@@ -1999,7 +2010,9 @@
 	<scenepersona short="MENAS.">Menas</scenepersona>
 	<scenepersona short="VAR.">Varrius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="531.02" sdnumber="0.01">
@@ -2153,7 +2166,9 @@
 	<scenepersona short="AGR.">Agrippa</scenepersona>
 	<scenepersona short="ANT.">Antony</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="592.02" sdnumber="0.01">
@@ -2853,7 +2868,9 @@
 	<scenepersona short="SOOTH.">Lamprius the Soothsayer</scenepersona>
 	<scenepersona short="VEN.">Ventidius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="870.02" sdnumber="0.01">
@@ -3013,7 +3030,9 @@
 	<scenepersona short="MAEC.">Maecenas</scenepersona>
 	<scenepersona short="AGR.">Agrippa</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="917.02" sdnumber="0.01">
@@ -3089,7 +3108,9 @@
 	<scenepersona short="MAR.">Mardian the Eunuch</scenepersona>
 	<scenepersona short="EGYPT. MESS.">Egyptian Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="931.02" sdnumber="0.01">
@@ -3573,7 +3594,9 @@
 	<scenepersona short="AGR.">Agrippa</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1077.02" sdnumber="0.01">
@@ -4048,7 +4071,9 @@
 	<scenepersona short="MENAS.">Menas</scenepersona>
 	<scenepersona>Captains</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1215.02" sdnumber="0.01">
@@ -4669,9 +4694,11 @@
 	<scenepersona>Romans</scenepersona>
 	<scenepersona>Officers</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
-	<scenepersona>the dead body of Pacorus</scenepersona>
+	<scenepersona>The dead body of Pacorus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1351.02" sdnumber="0.01">
@@ -4780,7 +4807,10 @@
 	<scenepersona short="LEP.">Lepidus</scenepersona>
 	<scenepersona short="OCT.">Octavia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1392.02" sdnumber="0.01">
@@ -5106,7 +5136,9 @@
 	<scenepersona short="ALEX.">Alexas</scenepersona>
 	<scenepersona short="EGYPT. MESS.">Egyptian Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1472.02" sdnumber="0.01">
@@ -5373,7 +5405,9 @@
 	<scenepersona short="ANT.">Antony</scenepersona>
 	<scenepersona short="OCT.">Octavia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1537.02" sdnumber="0.01">
@@ -5462,7 +5496,9 @@
 	<scenepersona short="ENO.">Enobarbus</scenepersona>
 	<scenepersona short="EROS.">Eros</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1578.02" sdnumber="0.01">
@@ -5560,7 +5596,9 @@
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="OCT.">Octavia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1598.02" sdnumber="0.01">
@@ -5826,7 +5864,9 @@
 	<scenepersona short="2. ROM. MESS.">Second Roman Messenger</scenepersona>
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1710.02" sdnumber="0.01">
@@ -6149,7 +6189,9 @@
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="TAUR.">Taurus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1810.02" sdnumber="0.01">
@@ -6195,7 +6237,9 @@
 	<scenepersona short="ANT.">Antony</scenepersona>
 	<scenepersona short="ENO.">Enobarbus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1816.02" sdnumber="0.01">
@@ -6233,7 +6277,9 @@
 	<scenepersona short="ENO.">Enobarbus</scenepersona>
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1820.02" sdnumber="0.01">
@@ -6397,7 +6443,9 @@
 	<scenepersona short="EROS.">Eros</scenepersona>
 	<scenepersona short="IRAS.">Iras</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1865.02" sdnumber="0.01">
@@ -6644,7 +6692,9 @@
 	<scenepersona short="DOL.">Dolabella</scenepersona>
 	<scenepersona short="AMB.">Schoolmaster</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1946.02" sdnumber="0.01">
@@ -6795,7 +6845,9 @@
 	<scenepersona short="2. EGYPT. SERV.">Second Egyptian Servant</scenepersona>
 	<scenepersona short="THID.">Thidias</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1989.02" sdnumber="0.01">
@@ -7463,7 +7515,9 @@
 	<scenepersona short="AGR.">Agrippa</scenepersona>
 	<scenepersona short="MAEC.">Maecenas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2225.02" sdnumber="0.01">
@@ -7529,7 +7583,9 @@
 	<scenepersona short="ANT. 1. ATT.">Antony&#8217;s First Attendant</scenepersona>
 	<scenepersona short="ANT. 2. ATT.">Antony&#8217;s Second Attendant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2243.02" sdnumber="0.01">
@@ -7728,7 +7784,9 @@
 	<scenepersona short="ANT. 3. SOLD.">Antony&#8217;s Third Soldier</scenepersona>
 	<scenepersona short="ANT. 4. SOLD.">Antony&#8217;s Fourth Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2299.02" sdnumber="0.01">
@@ -7932,7 +7990,10 @@
 	<scenepersona>Soldiers</scenepersona>
 	<scenepersona short="CAPT. ANT. ARMY.">Captain of Antony&#8217;s Army</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2333.02" sdnumber="0.01">
@@ -8111,7 +8172,10 @@
 	<scenepersona short="EROS.">Eros</scenepersona>
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2381.02" sdnumber="0.01">
@@ -8214,7 +8278,9 @@
 	<scenepersona short="3. CAES. MESS.">Caesar&#8217;s Third Messenger</scenepersona>
 	<scenepersona short="CAES. 1. SOLD.">Caesar&#8217;s First Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2406.02" sdnumber="0.01">
@@ -8365,7 +8431,9 @@
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 	<scenepersona short="EROS.">Eros</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2449.02" sdnumber="0.01">
@@ -8485,7 +8553,9 @@
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 	<scenepersona short="CLEO.">Cleopatra</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2470.02" sdnumber="0.01">
@@ -8604,7 +8674,9 @@
 	<scenepersona short="CAES. 2. WATCH.">Caesar&#8217;s Second Watchman</scenepersona>
 	<scenepersona short="ENO.">Enobarbus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2514.02" sdnumber="0.01">
@@ -8763,7 +8835,9 @@
 	<scenepersona short="ANT.">Antony</scenepersona>
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2557.02" sdnumber="0.01">
@@ -8812,7 +8886,9 @@
 <scenepersonae>
 	<scenepersona short="CAES.">Caesar</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2567.02" sdnumber="0.01">
@@ -8847,7 +8923,9 @@
 	<scenepersona short="SCAR.">Scarus</scenepersona>
 	<scenepersona short="CLEO.">Cleopatra</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2571.02" sdnumber="0.01">
@@ -8878,7 +8956,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Scarus">SCAR.</speaker>
 <line globalnumber="2575" number="3" form="verse" offset="6">Swallows have built</line>
 <line globalnumber="2576" number="4" form="verse">In Cleopatra&#8217;s sails their nests. The auguries</line>
@@ -8896,7 +8974,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mark Antony">ANT.</speaker>
 <line globalnumber="2582" number="9" form="verse" offset="7">All is lost!</line>
 <line globalnumber="2583" number="10" form="verse">This foul Egyptian hath betrayed me.</line>
@@ -8987,7 +9065,9 @@
 	<scenepersona short="IRAS.">Iras</scenepersona>
 	<scenepersona short="MAR.">Mardian</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2624.02" sdnumber="0.01">
@@ -9049,7 +9129,9 @@
 	<scenepersona short="ANT. 3. GUARD.">Antony&#8217;s Third Guardsman</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2636.02" sdnumber="0.01">
@@ -9156,7 +9238,7 @@
 <line globalnumber="2678" number="34" form="verse" offset="8">Dead.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Mark Antony">ANT.</speaker>
 <line globalnumber="2679" number="35" form="verse">Unarm, Eros, the long day&#8217;s task is done,</line>
 <line globalnumber="2680" number="36" form="verse" offset="0">And we must sleep.</line>
@@ -9568,7 +9650,9 @@
 	<scenepersona short="ANT. 2. GUARD.">Antony&#8217;s Second Guardsman</scenepersona>
 	<scenepersona short="ANT. 3. GUARD.">Antony&#8217;s Third Guardsman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2806.02" sdnumber="0.01">
@@ -9872,7 +9956,9 @@
 	<scenepersona short="DEC.">Decretas</scenepersona>
 	<scenepersona short="2. EGYPT. SERV.">Second Egyptian Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2911.02" sdnumber="0.01">
@@ -10138,7 +10224,10 @@
 	<scenepersona short="1. ROM. SOLD.">First Roman Soldier</scenepersona>
 	<scenepersona short="2. ROM. SOLD.">Second Roman Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="3002.02" sdnumber="0.01">
@@ -11170,7 +11259,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Charmian">CHAR.</speaker>
 <line globalnumber="3349" number="295" form="verse">In this vild world? So fare thee well!</line>
 <line globalnumber="3350" number="296" form="verse">Now boast thee, death, in thy possession lies</line>
@@ -11384,7 +11473,34 @@
 
 </act>
 
-
+<locations numberOfLocations="26">
+<placename>A plain in Syria.</placename>
+<placename>A plain near Actium.</placename>
+<placename>Alexandria. A room in Cleopatra&#8217;s palace.</placename>
+<placename>Alexandria. Another room in Cleopatra&#8217;s palace.</placename>
+<placename>Alexandria. Another room in a monument in Cleopatra&#8217;s palace.</placename>
+<placename>Alexandria. Before Cleopatra&#8217;s palace.</placename>
+<placename>Alexandria. Cleopatra&#8217;s palace.</placename>
+<placename>Alexandria. Mark Antony&#8217;s camp.</placename>
+<placename>Alexandria. Octavius Caesar&#8217;s camp.</placename>
+<placename>Another part of the field of battle between the camps.</placename>
+<placename>Another part of the plain near Actium.</placename>
+<placename>Athens. A room in Antony&#8217;s house.</placename>
+<placename>Athens. Another room in Antony&#8217;s house.</placename>
+<placename>Before Alexandria. Octavius Caesar&#8217;s camp.</placename>
+<placename>Egypt. Octavius Caesar&#8217;s camp.</placename>
+<placename>Field of battle between the camps.</placename>
+<placename>Messina. Pompey&#8217;s house.</placename>
+<placename>Near Actium. Mark Antony&#8217;s camp.</placename>
+<placename>Near Misenum.</placename>
+<placename>On board Pompey&#8217;s galley, off Misenum.</placename>
+<placename>Rome. A street.</placename>
+<placename>Rome. An ante-chamber in Octavius Caesar&#8217;s house.</placename>
+<placename>Rome. Octavius Caesar&#8217;s house.</placename>
+<placename>Rome. The house of Lepidus.</placename>
+<placename>The field of battle between the camps.</placename>
+<placename>Under the walls of Alexandria.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -11456,12 +11572,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>126</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

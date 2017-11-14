@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="King Richard II">The Tragedy of King Richard the Second</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="King Richard II">
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="K. RICH." numberOfLines="758" numberOfVerseLines="758" numberOfProseLines="0" numberOfLyricsLines="0">King Richard the Second</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="GAUNT." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">John of Gaunt, Duke of Lancaster</persname>
 </persona>
 
@@ -20,7 +20,7 @@
 <persname short="YORK." numberOfLines="289" numberOfVerseLines="289" numberOfProseLines="0" numberOfLyricsLines="0">Edmund of Langley, Duke of York</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="BULL." numberOfLines="413" numberOfVerseLines="413" numberOfProseLines="0" numberOfLyricsLines="0">Henry Bullingbrook</persname>
 <persaliases>
 	<persname short="K. HEN.">King Henry IV</persname>
@@ -34,7 +34,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="MOW." numberOfLines="135" numberOfVerseLines="135" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Mowbray</persname>
 </persona>
 
@@ -95,7 +95,7 @@
 <persname short="CAR." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Carlisle</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ABBOT." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Abbot of Westminster</persname>
 </persona>
 
@@ -123,7 +123,7 @@
 <persname short="DUCH. YORK." numberOfLines="93" numberOfVerseLines="93" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of York</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="DUCH." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of Gloucester</persname>
 </persona>
 
@@ -193,7 +193,9 @@
 	<scenepersona short="BULL.">Bullingbrook</scenepersona>
 	<scenepersona short="MOW.">Mowbray</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -565,7 +567,9 @@
 	<scenepersona short="GAUNT.">John of Gaunt</scenepersona>
 	<scenepersona short="DUCH.">Duchess of Gloucester</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="207.02" sdnumber="0.01">
@@ -709,7 +713,10 @@
 	<scenepersona short="BULL.">Duke Henry of Herford</scenepersona>
 	<scenepersona>Officer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="281.02" sdnumber="0.01">
@@ -1361,7 +1368,9 @@
 	<scenepersona short="AUM.">Lord Aumerle</scenepersona>
 	<scenepersona short="BUSHY.">Bushy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="591.02" sdnumber="0.01">
@@ -1534,7 +1543,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="NORTH.">Northumberland</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="656.02" sdnumber="0.01">
@@ -2147,7 +2158,9 @@
 	<scenepersona short="YORK.">York</scenepersona>
 	<scenepersona short="SERV.">Servingman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="959.02" sdnumber="0.01">
@@ -2518,7 +2531,9 @@
 	<scenepersona short="YORK.">York</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1111.02" sdnumber="0.01">
@@ -2921,7 +2936,9 @@
 	<scenepersona short="SAL.">Earl of Salisbury</scenepersona>
 	<scenepersona short="CAP.">Welsh Captain</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1283.02" sdnumber="0.01">
@@ -2981,7 +2998,7 @@
 
 <stagedir sdglobalnumber="1307.01" sdnumber="24.01">
 	<dir>Exit.</dir>
-	<action type="exeuntt">
+	<action type="exit">
 		<actor>SAL.</actor>
 	</action>
 </stagedir>
@@ -3004,7 +3021,9 @@
 	<scenepersona short="BUSHY.">Bushy</scenepersona>
 	<scenepersona short="GREEN.">Green</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1307.02" sdnumber="0.01">
@@ -3121,7 +3140,9 @@
 	<scenepersona short="SAL.">Salisbury</scenepersona>
 	<scenepersona short="SCROOP.">Scroop</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1351.02" sdnumber="0.01">
@@ -3519,7 +3540,9 @@
 	<scenepersona short="SCROOP.">Scroop</scenepersona>
 	<scenepersona short="SAL.">Salisbury</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1571.02" sdnumber="0.01">
@@ -3679,7 +3702,6 @@
 		<actor>SAL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1635" number="62" form="verse">See, see, King Richard doth himself appear,</line>
 <line globalnumber="1636" number="63" form="verse">As doth the blushing discontented sun</line>
 <line globalnumber="1637" number="64" form="verse">From out the fiery portal of the east,</line>
@@ -3998,7 +4020,9 @@
 	<scenepersona short="1. GARD. MAN.">First Gardener&#8217;s Man</scenepersona>
 	<scenepersona short="2. GARD. MAN.">Second Gardener&#8217;s Man</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1785.02" sdnumber="0.01">
@@ -4283,7 +4307,9 @@
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1896.02" sdnumber="0.01">
@@ -5036,7 +5062,10 @@
 	<scenepersona>Guard</scenepersona>
 	<scenepersona short="NORTH.">Northumberland</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2236.02" sdnumber="0.01">
@@ -5258,7 +5287,9 @@
 	<scenepersona>Servant</scenepersona>
 	<scenepersona>Man</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2338.02" sdnumber="0.01">
@@ -5632,7 +5663,10 @@
 	<scenepersona short="YORK.">Duke of York</scenepersona>
 	<scenepersona short="DUCH. YORK.">Duchess of York</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2465.02" sdnumber="0.01">
@@ -6107,7 +6141,9 @@
 	<scenepersona short="1. EXT. SERV.">Exton&#8217;s First Servant</scenepersona>
 	<scenepersona short="2. EXT. SERV.">Exton&#8217;s Second Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2616.02" sdnumber="0.01">
@@ -6172,7 +6208,9 @@
 	<scenepersona short="EXTON.">Exton</scenepersona>
 	<scenepersona>Servants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2628.02" sdnumber="0.01">
@@ -6182,7 +6220,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Richard the Second">K. RICH.</speaker>
 <line globalnumber="2629" number="1" form="verse">I have been studying how I may compare</line>
 <line globalnumber="2630" number="2" form="verse">This prison where I live unto the world;</line>
@@ -6458,7 +6496,9 @@
 	<scenepersona short="CAR.">Bishop of Carlisle</scenepersona>
 	<scenepersona short="EXTON.">Exton</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2748.02" sdnumber="0.01">
@@ -6616,7 +6656,25 @@
 </act>
 
 
-
+<locations numberOfLocations="17">
+<placename>A camp in Wales.</placename>
+<placename>A royal palace.</placename>
+<placename>Bristol. Before the castle.</placename>
+<placename>Ely House.</placename>
+<placename>Langley. The Duke of York&#8217;s garden.</placename>
+<placename>London. A street leading to the Tower.</placename>
+<placename>London. King Richard&#8217;s palace.</placename>
+<placename>The Duke of Lancaster&#8217;s palace.</placename>
+<placename>The Duke of York&#8217;s palace.</placename>
+<placename>The coast of Wales. A castle in view.</placename>
+<placename>The court.</placename>
+<placename>The dungeon of Pomfret Castle.</placename>
+<placename>The lists at Coventry.</placename>
+<placename>Wales. Before Flint Castle.</placename>
+<placename>Westminster Hall.</placename>
+<placename>Wilds in Gloucestershire.</placename>
+<placename>Windsor Castle.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -6673,13 +6731,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>141</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

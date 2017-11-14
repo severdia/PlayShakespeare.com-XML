@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Winter&#8217;s Tale">The Winter&#8217;s Tale</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="The Winter&#8217;s Tale">
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="LEON." numberOfLines="692" numberOfVerseLines="692" numberOfProseLines="0" numberOfLyricsLines="0">Leontes, King of Sicilia</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="MAM." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Mamillius</persname>
 </persona>
 
@@ -20,7 +20,7 @@
 <persname short="CAM." numberOfLines="263" numberOfVerseLines="250" numberOfProseLines="13" numberOfLyricsLines="0">Camillo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ANT." numberOfLines="111" numberOfVerseLines="111" numberOfProseLines="0" numberOfLyricsLines="0">Antigonus</persname>
 </persona>
 
@@ -50,15 +50,15 @@
 <persname short="ARCH." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Archidamus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SHEP." numberOfLines="88" numberOfVerseLines="54" numberOfProseLines="34" numberOfLyricsLines="0">Old Shepherd</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CLO." numberOfLines="65" numberOfVerseLines="3" numberOfProseLines="62" numberOfLyricsLines="0">Clown</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="AUT." numberOfLines="122" numberOfVerseLines="53" numberOfProseLines="69" numberOfLyricsLines="50">Autolycus</persname>
 </persona>
 
@@ -70,7 +70,7 @@
 <persname short="JAIL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="HER." numberOfLines="211" numberOfVerseLines="211" numberOfProseLines="0" numberOfLyricsLines="0">Hermione</persname>
 </persona>
 
@@ -78,7 +78,7 @@
 <persname short="PER." numberOfLines="128" numberOfVerseLines="127" numberOfProseLines="1" numberOfLyricsLines="0">Perdita</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="PAUL." numberOfLines="333" numberOfVerseLines="333" numberOfProseLines="0" numberOfLyricsLines="0">Paulina</persname>
 </persona>
 
@@ -172,7 +172,9 @@
 	<scenepersona short="CAM.">Camillo</scenepersona>
 	<scenepersona short="ARCH.">Archidamus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -269,7 +271,10 @@
 	<scenepersona short="CAM.">Camillo</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="13.02" sdnumber="0.01">
@@ -1343,7 +1348,10 @@
 	<scenepersona short="ANT.">Antigonus</scenepersona>
 	<scenepersona short="LORDS.">Lords</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="549.02" sdnumber="0.01">
@@ -1508,7 +1516,7 @@
 <line globalnumber="596" number="36" form="verse" offset="0">Even to their ships.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Leontes, King of Sicilia">LEON.</speaker>
 <line globalnumber="597" number="36" form="verse" offset="4">How blest am I</line>
 <line globalnumber="598" number="37" form="verse">In my just censure! In my true opinion!</line>
@@ -1874,7 +1882,9 @@
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="783.02" sdnumber="0.01">
@@ -2102,7 +2112,9 @@
 	<scenepersona short="ANT.">Antigonus</scenepersona>
 	<scenepersona short="LORDS.">Lords</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="863.02" sdnumber="0.01">
@@ -2676,7 +2688,9 @@
 	<scenepersona short="CLEO.">Cleomines</scenepersona>
 	<scenepersona short="DION.">Dion</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1108.02" sdnumber="0.01">
@@ -2762,7 +2776,9 @@
 	<scenepersona short="DION.">Dion</scenepersona>
 	<scenepersona short="1. SERV.">Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1135.02" sdnumber="0.01">
@@ -3281,7 +3297,9 @@
 	<scenepersona short="SHEP.">Old Shepherd</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1388.02" sdnumber="0.01">
@@ -3342,7 +3360,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Antigonus">ANT.</speaker>
 <line globalnumber="1407" number="15" form="verse" offset="6">Come, poor babe.</line>
 <line globalnumber="1408" number="16" form="verse">I have heard (but not believ&#8217;d) the spirits o&#8217; th&#8217; dead</line>
@@ -3427,7 +3445,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Old Shepherd">SHEP.</speaker>
 <line globalnumber="1452" number="59" form="prose">I would there were no age between ten and three-and-twenty, or that youth would sleep out the rest; for there is nothing in the between but getting wenches with child, wronging the ancientry, stealing, fighting&#8212;</line>
 <stagedir sdglobalnumber="1452.01" sdnumber="59.01">
@@ -3544,7 +3562,9 @@
 <scenepersonae>
 	<scenepersona short="TIME.">Time</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1469.02" sdnumber="0.01">
@@ -3606,7 +3626,9 @@
 	<scenepersona short="POL.">Polixenes</scenepersona>
 	<scenepersona short="CAM.">Camillo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1501.02" sdnumber="0.01">
@@ -3679,7 +3701,9 @@
 	<scenepersona short="AUT.">Autolycus</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1510.02" sdnumber="0.01">
@@ -3689,7 +3713,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Autolycus">AUT.</speaker>
 <line globalnumber="1511" number="1" form="verse" type="lyric">When daffodils begin to peer,</line>
 <line globalnumber="1512" number="2" form="verse" type="lyric">With heigh, the doxy over the dale!</line>
@@ -3957,7 +3981,10 @@
 	<scenepersona short="AUT.">Autolycus</scenepersona>
 	<scenepersona short="12. SAT.">Satyrs</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1571.02" sdnumber="0.01">
@@ -5422,7 +5449,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Autolycus">AUT.</speaker>
 <line globalnumber="2173" number="519" form="prose">Ha, ha, what a fool Honesty is! And Trust, his sworn brother, a very simple gentleman! I have sold all my trompery; not a counterfeit stone, not a ribbon, glass, pomander, brooch, table-book, ballad, knife, tape, glove, shoe-tie, bracelet, horn-ring, to keep my pack from fasting. They throng who should buy first, as if my trinkets had been hallow&#8217;d and brought a benediction to the buyer; by which means I saw whose purse was best in picture, and what I saw, to my good use I rememb&#8217;red. My clown (who wants but something to be a reasonable man) grew so in love with the wenches&#8217; song, that he would not stir his pettitoes till he had both tune and words, which so drew the rest of the herd to me that all their other senses stuck in ears. You might have pinch&#8217;d a placket, it was senseless; &#8217;twas nothing to geld a codpiece of a purse; I would have fil&#8217;d keys off that hung in chains. No hearing, no feeling, but my sir&#8217;s song, and admiring the nothing of it. So that in this time of lethargy I pick&#8217;d and cut most of their festival purses; and had not the old man come in with a whoobub against his daughter and the King&#8217;s son, and scar&#8217;d my choughs from the chaff, I had not left a purse alive in the whole army.</line>
 </speech>
@@ -5608,7 +5635,7 @@
 <line globalnumber="2214" number="553" form="verse">Pray you a word.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Camillo">CAM.</speaker>
 <stagedir sdglobalnumber="2214.01" sdnumber="553.01">
 	<dir>Aside.</dir>
@@ -5645,7 +5672,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Autolycus">AUT.</speaker>
 <line globalnumber="2224" number="562" form="prose">I understand the business, I hear it. To have an open ear, a quick eye, and a nimble hand, is necessary for a cutpurse; a good nose is requisite also, to smell out work for th&#8217; other senses. I see this is the time that the unjust man doth thrive. What an exchange had this been, without boot! What a boot is here, with this exchange! Sure the gods do this year connive at us, and we may do any thing extempore. The Prince himself is about a piece of iniquity: stealing away from his father with his clog at his heels. If I thought it were a piece of honesty to acquaint the King withal, I would not do&#8217;t. I hold it the more knavery to conceal it; and therein am I constant to my profession.</line>
 <stagedir sdglobalnumber="2224.01" sdnumber="562.01">
@@ -5943,7 +5970,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Autolycus">AUT.</speaker>
 <line globalnumber="2279" number="617" form="prose">If I had a mind to be honest, I see Fortune would not suffer me: she drops booties in my mouth. I am courted now with a double occasion: gold and a means to do the Prince my master good; which who knows how that may turn back to my advancement? I will bring these two moles, these blind ones, aboard him. If he think it fit to shore them again, and that the complaint they have to the King concerns him nothing, let him call me rogue for being so far officious, for I am proof against that title, and what shame else belongs to&#8217;t. To him will I present them, there may be matter in it.</line>
 </speech>
@@ -5973,7 +6000,9 @@
 	<scenepersona short="PER.">Perdita</scenepersona>
 	<scenepersona short="1. LORD.">Lord</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2279.02" sdnumber="0.01">
@@ -6575,7 +6604,9 @@
 	<scenepersona>Shepherd</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2560.02" sdnumber="0.01">
@@ -6831,7 +6862,9 @@
 	<scenepersona>Lords</scenepersona>
 	<scenepersona short="HER.">Hermione</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2601.02" sdnumber="0.01">
@@ -7222,7 +7255,20 @@
 </act>
 
 
-
+<locations numberOfLocations="12">
+<placename>A chapel in Paulina&#8217;s house.</placename>
+<placename>Bohemia. A desert country near the sea.</placename>
+<placename>Bohemia. A road near the shepherd&#8217;s cottage.</placename>
+<placename>Bohemia. A room in the palace of Polixenes.</placename>
+<placename>Bohemia. A shepherd&#8217;s cottage.</placename>
+<placename>Sicilia. A court of justice.</placename>
+<placename>Sicilia. A room in Leontes&#8217; palace.</placename>
+<placename>Sicilia. A room of state in Leontes&#8217; palace.</placename>
+<placename>Sicilia. A sea port.</placename>
+<placename>Sicilia. An antechamber in Leontes&#8217; palace.</placename>
+<placename>Sicilia. The outer room of a prison.</placename>
+<placename>Sicilia. Before Leontes&#8217; palace.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7306,12 +7352,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5</version>
 <pscatid>159</pscatid>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

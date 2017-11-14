@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry IV, Pt. 2">The Second Part of Henry the Fourth</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Henry IV, Part 2">
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="KING." numberOfLines="296" numberOfVerseLines="296" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Fourth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PRINCE." numberOfLines="233" numberOfVerseLines="185" numberOfProseLines="48" numberOfLyricsLines="0">Prince Henry</persname>
 <persaliases>
 	<persname short="BOTH PRINCE. AND POINS.">Both Prince and Poins</persname>
@@ -47,15 +47,15 @@
 <persname short="NORTH." numberOfLines="106" numberOfVerseLines="106" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy, Earl of Northumberland</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ARCH." numberOfLines="148" numberOfVerseLines="148" numberOfProseLines="0" numberOfLyricsLines="0">Richard Scroop, Archbishop of York</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="MOWB." numberOfLines="56" numberOfVerseLines="56" numberOfProseLines="0" numberOfLyricsLines="0">Lord Mowbray</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="HAST." numberOfLines="57" numberOfVerseLines="57" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
 </persona>
 
@@ -106,7 +106,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="FAL." numberOfLines="198" numberOfVerseLines="7" numberOfProseLines="191" numberOfLyricsLines="2">Sir John Falstaff</persname>
 </persona>
 
@@ -254,19 +254,18 @@
 <persona gender="male">
 <persname short="K. HEN. PAGE" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">King Henry&#8217;s Page</persname>
 </persona>
-
 </personae>
-
-
 
 <act num="1">
 <acttitle>Act 1</acttitle>
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="3" numberOfWords="302" numberOfLines="40">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="RUM.">Rumor</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -282,7 +281,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Rumor, the Presenter">RUM.</speaker>
 <line globalnumber="1" number="1" form="verse">Open your ears; for which of you will stop</line>
 <line globalnumber="2" number="2" form="verse">The vent of hearing when loud Rumor speaks?</line>
@@ -345,7 +344,9 @@
 	<scenepersona short="TRA.">Travers</scenepersona>
 	<scenepersona short="MOR.">Morton</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="40.02" sdnumber="0.01">
@@ -772,7 +773,9 @@
 	<scenepersona short="CH. JUST.">Lord Chief Justice</scenepersona>
 	<scenepersona short="SERV.">Servant to the Lord Chief Justice</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="266.02" sdnumber="0.01">
@@ -1156,7 +1159,7 @@
 <line globalnumber="337" number="71" form="prose">Seven groats and two pence.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="338" number="72" form="prose">I can get no remedy against this consumption of the purse; borrowing only lingers and lingers it out, but the disease is incurable. Go bear this letter to my Lord of Lancaster, this to the Prince, this to the Earl of Westmorland, and this to old Mistress Ursula, whom I have weekly sworn to marry since I perceiv&#8217;d the first white hair of my chin. About it, you know where to find me.</line>
 <stagedir sdglobalnumber="338.01" sdnumber="72.01">
@@ -1186,7 +1189,9 @@
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
 	<scenepersona short="L. BARD.">Lord Bardolph</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="339.02" sdnumber="0.01">
@@ -1423,7 +1428,9 @@
 	<scenepersona short="GOW.">Master Gower</scenepersona>
 	<scenepersona short="OFFICER.">Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="452.02" sdnumber="0.01">
@@ -1861,7 +1868,9 @@
 	<scenepersona short="BARD.">Bardolph</scenepersona>
 	<scenepersona short="PAGE.">Page</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="532.02" sdnumber="0.01">
@@ -2263,7 +2272,9 @@
 	<scenepersona short="LADY N.">Lady Northumberland</scenepersona>
 	<scenepersona short="LADY P.">Lady Percy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="604.02" sdnumber="0.01">
@@ -2407,7 +2418,10 @@
 	<scenepersona short="SNEAK.">Sneak</scenepersona>
 	<scenepersona>Musicians</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="674.02" sdnumber="0.01">
@@ -3416,7 +3430,9 @@
 	<scenepersona short="SURR.">Earl of Surrey</scenepersona>
 	<scenepersona short="BLUNT.">Sir John Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="851.02" sdnumber="0.01">
@@ -3427,7 +3443,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Henry the Fourth">KING.</speaker>
 <line globalnumber="852" number="1" form="verse">Go call the Earls of Surrey and of Warwick;</line>
 <line globalnumber="853" number="2" form="verse">But, ere they come, bid them o&#8217;er-read these letters</line>
@@ -3548,7 +3564,6 @@
 		<recipient>WAR.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="917" number="66" form="verse">You, cousin Nevil, as I may remember&#8212;</line>
 <line globalnumber="918" number="67" form="verse">When Richard, with his eye brimful of tears,</line>
 <line globalnumber="919" number="68" form="verse">Then check&#8217;d and rated by Northumberland,</line>
@@ -3640,7 +3655,11 @@
 	<scenepersona short="BARD.">Bardolph</scenepersona>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="962.02" sdnumber="0.01">
@@ -4328,7 +4347,7 @@
 <line globalnumber="1088" number="126" form="prose">Go to, I have spoke at a word. God keep you!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1089" number="127" form="prose">Fare you well, gentle gentlemen.</line>
 <stagedir sdglobalnumber="1089.01" sdnumber="127.01">
@@ -4378,7 +4397,9 @@
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 	<scenepersona short="P. JOHN.">Prince John</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1091.02" sdnumber="0.01">
@@ -4841,7 +4862,9 @@
 	<scenepersona short="OFFICER.">Officer</scenepersona>
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1324.02" sdnumber="0.01">
@@ -5181,7 +5204,9 @@
 	<scenepersona short="BLUNT.">Blunt</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1453.02" sdnumber="0.01">
@@ -5420,7 +5445,9 @@
 	<scenepersona short="WEST.">Earl of Westmorland</scenepersona>
 	<scenepersona short="HAR.">Harcourt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1498.02" sdnumber="0.01">
@@ -5730,7 +5757,9 @@
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="P. JOHN.">Prince John of Lancaster</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -5820,7 +5849,7 @@
 <line globalnumber="1655" number="18" form="verse">Will&#8217;t please your Grace to go along with us?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Prince Henry">PRINCE.</speaker>
 <line globalnumber="1656" number="19" form="verse">No, I will sit and watch here by the King.</line>
 <stagedir sdglobalnumber="1656.01" sdnumber="19.01">
@@ -6250,7 +6279,9 @@
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="DAVY.">Davy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1879.02" sdnumber="0.01">
@@ -6390,7 +6421,7 @@
 <line globalnumber="1902" number="23" form="prose">Come, Sir John.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Sir John Falstaff">FAL.</speaker>
 <line globalnumber="1903" number="24" form="prose">I&#8217;ll follow you, good Master Robert Shallow.</line>
 <stagedir sdglobalnumber="1903.01" sdnumber="24.01">
@@ -6447,7 +6478,9 @@
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="BLUNT.">Blunt</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1907.02" sdnumber="0.01">
@@ -6766,7 +6799,9 @@
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="PIST.">Pistol</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2053.02" sdnumber="0.01">
@@ -7241,7 +7276,9 @@
 	<scenepersona short="HOST.">Hostess Quickly</scenepersona>
 	<scenepersona short="DOLL.">Doll Tearsheet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2148.02" sdnumber="0.01">
@@ -7350,7 +7387,11 @@
 	<scenepersona short="CH. JUST.">Lord Chief Justice</scenepersona>
 	<scenepersona short="P. JOHN.">Prince John</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2162.02" sdnumber="0.01">
@@ -7680,15 +7721,17 @@
 
 </act>
 
-<epilogue>
+<epilogue minutesRunning="3" numberOfWords="331" numberOfLines="3">
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="EPILOGUE.">Epilogue</scenepersona>
 </scenepersonae>
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
-
-<speech>		
+<speech type="soliloquy">
 <speaker long="Epilogue">EPILOGUE.</speaker>
 <line globalnumber="2246" number="1" form="prose">First my fear, then my cur&#8217;sy, last my speech. My fear, is your displeasure, my cur&#8217;sy, my duty, and my speech, to beg your pardons. If you look for a good speech now, you undo me, for what I have to say is of mine own making, and what indeed (I should say) will (I doubt) prove mine own marring. But to the purpose, and so to the venture. Be it known to you, as it is very well, I was lately here in the end of a displeasing play, to pray your patience for it and to promise you a better. I meant indeed to pay you with this, which if like an ill venture it come unluckily home, I break, and you, my gentle creditors, lose. Here I promis&#8217;d you I would be, and here I commit my body to your mercies. Bate me some, and I will pay you some, and (as most debtors do) promise you infinitely; and so I kneel down before you&#8212;but, indeed, to pray for the Queen.</line>
 <line globalnumber="2247" number="2" form="verse">If my tongue cannot entreat you to acquit me, will you command me to use my legs? And yet that were but light payment, to dance out of your debt. But a good conscience will make any possible satisfaction, and so would I. All the gentlewomen here have forgiven me; if the gentlemen will not, then the gentlemen do not agree with the gentlewomen, which was never seen in such an assembly.</line>
@@ -7696,7 +7739,22 @@
 </speech>
 </epilogue>
 
-
+<locations numberOfLocations="14">
+<placename>Gloucestershire. Court before Shallow&#8217;s house.</placename>
+<placename>Gloucestershire. Shallow&#8217;s house.</placename>
+<placename>Gloucestershire. Shallow&#8217;s orchard.</placename>
+<placename>Jerusalem Chamber in Westminster.</placename>
+<placename>London. A street.</placename>
+<placename>London. Another street.</placename>
+<placename>London. The Boar&#8217;s Head Tavern in Eastcheap.</placename>
+<placename>Warkworth. Before Northumberland&#8217;s castle.</placename>
+<placename>Westminster. A palace room.</placename>
+<placename>Westminster. Near the Abbey.</placename>
+<placename>Westminster. The Jerusalem Chamber.</placename>
+<placename>York. A room in the Archbishop&#8217;s palace.</placename>
+<placename>Yorkshire. Another part of the Forest of Gaultree.</placename>
+<placename>Yorkshire. Within the Forest of Gaultree.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7757,12 +7815,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>133</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

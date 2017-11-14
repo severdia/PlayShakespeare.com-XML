@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Two Noble Kinsmen">The Two Noble Kinsmen</title>
@@ -16,14 +16,14 @@
 <persname short="PIR." numberOfLines="125" numberOfVerseLines="125" numberOfProseLines="0" numberOfLyricsLines="0">Pirithous</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PAL." numberOfLines="595" numberOfVerseLines="595" numberOfProseLines="0" numberOfLyricsLines="0">Palamon</persname>
 <persaliases>
 	<persname short="BOTH. ARC. AND PAL.">Both Arcite and Palamon</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="ARC." numberOfLines="490" numberOfVerseLines="490" numberOfProseLines="0" numberOfLyricsLines="0">Arcite</persname>
 <persaliases>
 	<persname short="BOTH. ARC. AND PAL.">Both Arcite and Palamon</persname>
@@ -226,12 +226,14 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="3" numberOfWords="271" numberOfLines="32">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PRO.">Prologue</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -240,7 +242,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Prologue">PRO.</speaker>
 <line globalnumber="1" number="1" form="verse">New plays and maidenheads are near akin&#8212;</line>
 <line globalnumber="2" number="2" form="verse">Much follow&#8217;d both, for both much money gi&#8217;n,</line>
@@ -299,7 +301,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="ALL QUEENS.">Three Queens</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="32.02" sdnumber="0.01">
@@ -722,7 +726,6 @@
 		<actor>HIP.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="248" number="193" form="verse">As I shall here make trial of my pray&#8217;rs,</line>
 <line globalnumber="249" number="194" form="verse">Either presuming them to have some force,</line>
 <line globalnumber="250" number="195" form="verse">Or sentencing for aye their vigor dumb,</line>
@@ -882,7 +885,9 @@
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="VAL.">Valerius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="299.02" sdnumber="0.01">
@@ -1029,7 +1034,6 @@
 		<actor>VAL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="392" number="83" form="verse" offset="5">Valerius!</line>
 </speech>
 
@@ -1127,7 +1131,9 @@
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="432.02" sdnumber="0.01">
@@ -1337,7 +1343,10 @@
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="542.02" sdnumber="0.01">
@@ -1406,7 +1415,6 @@
 		<actor>ARC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="558" number="13" form="verse" offset="8">What are those?</line>
 </speech>
 
@@ -1493,7 +1501,9 @@
 	<scenepersona short="ALL QUEENS.">Three Queens</scenepersona>
 	<scenepersona>Knights</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="597.02" sdnumber="0.01">
@@ -1570,7 +1580,9 @@
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="614.02" sdnumber="0.01">
@@ -1701,7 +1713,9 @@
 	<scenepersona short="WOMAN.">Woman</scenepersona>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="632.02" sdnumber="0.01">
@@ -1916,7 +1930,6 @@
 		<actor>WOMAN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="760" number="116" form="verse">And after death our spirits shall be led</line>
 <line globalnumber="761" number="117" form="verse">To those that love eternally. Speak on, sir.</line>
 </speech>
@@ -2405,7 +2418,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Palamon">PAL.</speaker>
 <line globalnumber="911" number="224" form="verse" offset="7">And me too,</line>
 <line globalnumber="912" number="225" form="verse">Even when you please, of life. Why is he sent for?</line>
@@ -2433,7 +2446,6 @@
 		<actor>JAIL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="931" number="243" form="verse" offset="8">How now, keeper,</line>
 <line globalnumber="932" number="244" form="verse" offset="0">Where&#8217;s Arcite?</line>
 </speech>
@@ -2446,7 +2458,7 @@
 <line globalnumber="936" number="247" form="verse" offset="0">Upon this kingdom.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Palamon">PAL.</speaker>
 <stagedir sdglobalnumber="936.01" sdnumber="247.01">
 	<dir>Aside.</dir>
@@ -2586,7 +2598,9 @@
 	<scenepersona short="3. COUN.">Third Country Folk</scenepersona>
 	<scenepersona short="4. COUN.">Fourth Country Folk</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="977.02" sdnumber="0.01">
@@ -2596,7 +2610,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Arcite">ARC.</speaker>
 <line globalnumber="978" number="1" form="verse">Banish&#8217;d the kingdom? &#8217;Tis a benefit,</line>
 <line globalnumber="979" number="2" form="verse">A mercy I must thank &#8217;em for; but banish&#8217;d</line>
@@ -2851,7 +2865,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Arcite">ARC.</speaker>
 <line globalnumber="1068" number="74" form="verse">This is an offer&#8217;d opportunity</line>
 <line globalnumber="1069" number="75" form="verse">I durst not wish for. Well I could have wrestled,</line>
@@ -2878,7 +2892,9 @@
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1076.02" sdnumber="0.01">
@@ -2888,7 +2904,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jailer&#8217;s Daughter">DAUGH.</speaker>
 <line globalnumber="1077" number="1" form="verse">Why should I love this gentleman? &#8217;Tis odds</line>
 <line globalnumber="1078" number="2" form="verse">He never will affect me. I am base,</line>
@@ -2943,7 +2959,9 @@
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1109.02" sdnumber="0.01">
@@ -3201,7 +3219,9 @@
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1194.02" sdnumber="0.01">
@@ -3211,7 +3231,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jailer&#8217;s Daughter">DAUGH.</speaker>
 <line globalnumber="1195" number="1" form="verse">Let all the dukes and all the devils roar,</line>
 <line globalnumber="1196" number="2" form="verse">He is at liberty! I have ventur&#8217;d for him,</line>
@@ -3272,7 +3292,9 @@
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1233.02" sdnumber="0.01">
@@ -3288,7 +3310,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Arcite">ARC.</speaker>
 <line globalnumber="1234" number="1" form="verse">The Duke has lost Hippolyta; each took</line>
 <line globalnumber="1235" number="2" form="verse">A several land. This is a solemn rite</line>
@@ -3551,7 +3573,9 @@
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1375.02" sdnumber="0.01">
@@ -3561,7 +3585,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jailer&#8217;s Daughter">DAUGH.</speaker>
 <line globalnumber="1376" number="1" form="verse">He has mistook the brake I meant, is gone</line>
 <line globalnumber="1377" number="2" form="verse">After his fancy. &#8217;Tis now well-nigh morning;</line>
@@ -3618,7 +3642,9 @@
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1413.02" sdnumber="0.01">
@@ -3936,7 +3962,9 @@
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1496.02" sdnumber="0.01">
@@ -3946,7 +3974,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jailer&#8217;s Daughter">DAUGH.</speaker>
 <line globalnumber="1497" number="1" form="verse">I am very cold, and all the stars are out too,</line>
 <line globalnumber="1498" number="2" form="verse">The little stars and all, that look like aglets.</line>
@@ -3972,7 +4000,6 @@
 		<actor>DAUGH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1515" number="19" form="verse" type="lyric">&#8220;For I&#8217;ll cut my green coat a foot above my knee,</line>
 <line globalnumber="1516" number="20" form="verse" type="lyric">And I&#8217;ll clip my yellow locks an inch below mine e&#8217;e.</line>
 <line globalnumber="1517" number="21" form="verse" type="lyric">Hey, nonny, nonny, nonny.</line>
@@ -4015,7 +4042,11 @@
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona>Dancers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1522.02" sdnumber="0.01">
@@ -4330,7 +4361,6 @@
 		<actor>DAUGH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1632" number="94" form="verse" offset="4">Pallas inspire me!</line>
 </speech>
 
@@ -4445,7 +4475,6 @@
 		<actor>Dancers</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1677" number="138" form="verse">Ladies, if we have been merry,</line>
 <line globalnumber="1678" number="139" form="verse">And have pleas&#8217;d ye with a derry,</line>
 <line globalnumber="1679" number="140" form="verse">And a derry, and a down,</line>
@@ -4513,7 +4542,6 @@
 		<actor>ARC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1700" number="158" form="verse">Come, we are all made. <foreign xml:lang="la">Dii deaeque omnes</foreign>!</line>
 <line globalnumber="1701" number="159" form="verse">Ye have danc&#8217;d rarely, wenches.</line>
 </speech>
@@ -4538,7 +4566,9 @@
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 	<scenepersona short="PIR.">Pirithous</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1701.02" sdnumber="0.01">
@@ -4548,7 +4578,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Palamon">PAL.</speaker>
 <line globalnumber="1702" number="1" form="verse">About this hour my cousin gave his faith</line>
 <line globalnumber="1703" number="2" form="verse">To visit me again, and with him bring</line>
@@ -4572,7 +4602,6 @@
 		<actor>ARC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1718" number="16" form="verse" offset="6">O, good morrow.</line>
 </speech>
 
@@ -5000,7 +5029,7 @@
 		<actor>PAL.</actor>
 		<actor>ARC.</actor>
 	</action>
-	<action type="soundt">
+	<action type="sound">
 	</action>
 </stagedir>
 
@@ -5489,7 +5518,9 @@
 	<scenepersona short="JAIL. BROTH.">Jailer&#8217;s Brother</scenepersona>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2077.02" sdnumber="0.01">
@@ -5866,7 +5897,6 @@
 		<actor>DAUGH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2221" number="115" form="verse" type="lyric">&#8220;O fair, O sweet,&#8221; etc.</line>
 </speech>
 
@@ -6078,7 +6108,6 @@
 		<actor>DAUGH.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2279" number="154" form="verse" type="lyric">&#8220;When Cynthia with her borrowed light,&#8221; etc.</line>
 </speech>
 
@@ -6107,7 +6136,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2279.02" sdnumber="0.01">
@@ -6117,7 +6148,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Emilia">EMIL.</speaker>
 <line globalnumber="2280" number="1" form="verse">Yet I may bind those wounds up, that must open</line>
 <line globalnumber="2281" number="2" form="verse">And bleed to death for my sake else. I&#8217;ll choose,</line>
@@ -6476,7 +6507,9 @@
 	<scenepersona short="DOCT.">Doctor</scenepersona>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2456.02" sdnumber="0.01">
@@ -6641,10 +6674,17 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
-	<scenepersona>Knights</scenepersona>
+	<scenepersona short="1. KNIGHT. ARC.">First Knight Attending Arcite</scenepersona>
+	<scenepersona short="2. KNIGHT. ARC.">Second Knight Attending Arcite</scenepersona>
+	<scenepersona short="3. KNIGHT. ARC.">Third Knight Attending Arcite</scenepersona>
+	<scenepersona short="1. KNIGHT.">First Knight</scenepersona>
+	<scenepersona short="2. KNIGHT.">Second Knight</scenepersona>
+	<scenepersona short="3. KNIGHT.">Third Knight</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2477.02" sdnumber="0.01">
@@ -6675,7 +6715,12 @@
 	<action type="enter">
 		<actor>PAL.</actor>
 		<actor>ARC.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT. ARC.</actor>
+		<actor>2. KNIGHT. ARC.</actor>
+		<actor>3. KNIGHT. ARC.</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
 
@@ -6759,17 +6804,18 @@
 <line globalnumber="2515" number="33" form="verse" offset="0">Why, let it be so; farewell, coz.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Arcite">ARC.</speaker>
 <line globalnumber="2516" number="33" form="verse" offset="7">Farewell, sir.</line>
 <stagedir sdglobalnumber="2516.01" sdnumber="33.01">
 	<dir>Exeunt Palamon and his Knights.</dir>
 	<action type="exit">
 		<actor>PAL.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2517" number="34" form="verse">Knights, kinsmen, lovers, yea, my sacrifices,</line>
 <line globalnumber="2518" number="35" form="verse">True worshippers of Mars, whose spirit in you</line>
 <line globalnumber="2519" number="36" form="verse">Expels the seeds of fear, and th&#8217; apprehension</line>
@@ -6789,10 +6835,11 @@
 	<dir>They advance to the altar of Mars and fall on their faces; then kneel.</dir>
 	<action type="action">
 		<actor>ARC.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT. ARC.</actor>
+		<actor>2. KNIGHT. ARC.</actor>
+		<actor>3. KNIGHT. ARC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2532" number="49" form="verse">Thou mighty one, that with thy power hast turn&#8217;d</line>
 <line globalnumber="2533" number="50" form="verse">Green Neptune into purple; whose approach</line>
 <line globalnumber="2534" number="51" form="verse">Comets prewarn, whose havoc in vast field</line>
@@ -6810,10 +6857,11 @@
 	<dir>Here they fall on their faces as formerly, and there is heard clanging of armor, with a short thunder, as the burst of a battle, whereupon they all rise and bow to the altar.</dir>
 	<action type="action">
 		<actor>ARC.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT. ARC.</actor>
+		<actor>2. KNIGHT. ARC.</actor>
+		<actor>3. KNIGHT. ARC.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2545" number="62" form="verse">O great corrector of enormous times,</line>
 <line globalnumber="2546" number="63" form="verse">Shaker of o&#8217;er-rank states, thou grand decider</line>
 <line globalnumber="2547" number="64" form="verse">Of dusty and old titles, that heal&#8217;st with blood</line>
@@ -6827,7 +6875,9 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>ARC.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT. ARC.</actor>
+		<actor>2. KNIGHT. ARC.</actor>
+		<actor>3. KNIGHT. ARC.</actor>
 	</action>
 </stagedir>
 
@@ -6835,7 +6885,9 @@
 	<dir>Enter Palamon and his Knights, with the former observance.</dir>
 	<action type="enter">
 		<actor>PAL.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
 
@@ -6856,7 +6908,6 @@
 		<actor>Knights</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2560" number="77" form="verse">Hail, sovereign queen of secrets, who hast power</line>
 <line globalnumber="2561" number="78" form="verse">To call the fiercest tyrant from his rage,</line>
 <line globalnumber="2562" number="79" form="verse">And weep unto a girl; that hast the might,</line>
@@ -6914,10 +6965,11 @@
 	<dir>Here music is heard; doves are seen to flutter. They fall again upon their faces, then on their knees.</dir>
 	<action type="action">
 		<actor>PAL.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2613" number="130" form="verse">O thou that from eleven to ninety reign&#8217;st</line>
 <line globalnumber="2614" number="131" form="verse">In mortal bosoms, whose chase is this world,</line>
 <line globalnumber="2615" number="132" form="verse">And we in herds thy game, I give thee thanks</line>
@@ -6931,7 +6983,9 @@
 	<dir>They bow. Exeunt.</dir>
 	<action type="exit">
 		<actor>PAL.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
 
@@ -6943,7 +6997,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Emilia">EMIL.</speaker>
 <line globalnumber="2620" number="137" form="verse">O sacred, shadowy, cold, and constant queen,</line>
 <line globalnumber="2621" number="138" form="verse">Abandoner of revels, mute, contemplative,</line>
@@ -6976,7 +7030,6 @@
 	<action type="action">
 	</action>
 </stagedir>
-
 <line globalnumber="2646" number="163" form="verse">See what our general of ebbs and flows</line>
 <line globalnumber="2647" number="164" form="verse">Out from the bowels of her holy altar</line>
 <line globalnumber="2648" number="165" form="verse">With sacred act advances: but one rose!</line>
@@ -6988,7 +7041,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2652" number="169" form="verse">The flow&#8217;r is fall&#8217;n, the tree descends. O mistress,</line>
 <line globalnumber="2653" number="170" form="verse">Thou here dischargest me. I shall be gather&#8217;d,</line>
 <line globalnumber="2654" number="171" form="verse">I think so, but I know not thine own will:</line>
@@ -7016,7 +7068,10 @@
 	<scenepersona>Maid</scenepersona>
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2656.02" sdnumber="0.01">
@@ -7537,7 +7592,6 @@
 		<recipient>WOOER.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2804" number="105" form="verse" offset="5">You must not from her,</line>
 <line globalnumber="2805" number="106" form="verse" offset="0">But still preserve her in this way.</line>
 </speech>
@@ -7633,7 +7687,9 @@
 	<scenepersona>Servants</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2819.02" sdnumber="0.01">
@@ -7764,7 +7820,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Emilia">EMIL.</speaker>
 <line globalnumber="2871" number="41" form="verse">Arcite is gently visag&#8217;d; yet his eye</line>
 <line globalnumber="2872" number="42" form="verse">Is like an engine bent, or a sharp weapon</line>
@@ -7786,7 +7842,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2886" number="56" form="verse">Hark how yon spurs to spirit do incite</line>
 <line globalnumber="2887" number="57" form="verse">The princes to their proof! Arcite may win me,</line>
 <line globalnumber="2888" number="58" form="verse">And yet may Palamon wound Arcite to</line>
@@ -7810,7 +7865,6 @@
 		<actor>SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2897" number="66" form="verse" offset="6">What is the chance?</line>
 </speech>
 
@@ -7838,7 +7892,7 @@
 <line globalnumber="2903" number="72" form="verse">Still &#8220;Palamon!&#8221;</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Emilia">EMIL.</speaker>
 <line globalnumber="2904" number="73" form="verse" offset="0">Run and inquire.</line>
 <stagedir sdglobalnumber="2904.01" sdnumber="73.01">
@@ -7847,7 +7901,6 @@
 		<actor>SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2905" number="73" form="verse" offset="4">Poor servant, thou hast lost.</line>
 <line globalnumber="2906" number="74" form="verse">Upon my right side still I wore thy picture,</line>
 <line globalnumber="2907" number="75" form="verse">Palamon&#8217;s on the left. Why so, I know not;</line>
@@ -7859,7 +7912,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="2911" number="78" form="verse" offset="6">This burst of clamor</line>
 <line globalnumber="2912" number="79" form="verse">Is sure th&#8217; end o&#8217; th&#8217; combat.</line>
 </speech>
@@ -8055,7 +8107,10 @@
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2990.02" sdnumber="0.01">
@@ -8438,15 +8493,17 @@
 
 </act>
 
-<epilogue>
+<epilogue minutesRunning="2" numberOfWords="166" numberOfLines="18">
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="EPI.">Epilogue</scenepersona>
 </scenepersonae>
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
-
-<speech>
+<speech type="soliloquy">
 <speaker long="Epilogue">EPI.</speaker>
 <line globalnumber="3146" number="1" form="verse">I would now ask ye how ye like the play,</line>
 <line globalnumber="3147" number="2" form="verse">But as it is with schoolboys, cannot say;</line>
@@ -8477,7 +8534,26 @@
 </epilogue>
 
 
-
+<locations numberOfLocations="18">
+<placename>A darkened room in the prison.</placename>
+<placename>A field before Thebes.</placename>
+<placename>A forest near Athens.</placename>
+<placename>A place near the Lists.</placename>
+<placename>A room in the palace.</placename>
+<placename>A room in the prison.</placename>
+<placename>Another part of a field before Thebes.</placename>
+<placename>Another part of the forest near Athens.</placename>
+<placename>Athens. A garden, with a prison in the background.</placename>
+<placename>Athens. A room in the prison.</placename>
+<placename>Athens. An open place.</placename>
+<placename>Athens. Before a temple.</placename>
+<placename>Athens. Before the prison.</placename>
+<placename>Before the Temples of Mars, Venus, and Diana.</placename>
+<placename>Before the gates of Athens.</placename>
+<placename>The country near Athens.</placename>
+<placename>The prison.</placename>
+<placename>Thebes. The palace.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -8501,12 +8577,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>158</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

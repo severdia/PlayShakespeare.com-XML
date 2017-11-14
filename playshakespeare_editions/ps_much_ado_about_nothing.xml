@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play> 
 <title short="Much Ado About Nothing">Much Ado About Nothing</title> 
@@ -12,15 +12,15 @@
 <persname short="D. PEDRO." numberOfLines="183" numberOfVerseLines="77" numberOfProseLines="106" numberOfLyricsLines="0">Don Pedro</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="D. JOHN." numberOfLines="47" numberOfVerseLines="8" numberOfProseLines="39" numberOfLyricsLines="0">Don John</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover">
 <persname short="CLAUD." numberOfLines="221" numberOfVerseLines="128" numberOfProseLines="93" numberOfLyricsLines="0">Claudio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="BENE." numberOfLines="161" numberOfVerseLines="43" numberOfProseLines="118" numberOfLyricsLines="4">Benedick</persname>
 </persona>
 
@@ -43,7 +43,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="BORA." numberOfLines="47" numberOfVerseLines="7" numberOfProseLines="40" numberOfLyricsLines="0">Borachio</persname>
 <persaliases>
 	<persname short="BOTH CON. AND BORA.">Both Conrade and Borachio</persname>
@@ -54,11 +54,11 @@
 <persname short="FRIAR." numberOfLines="80" numberOfVerseLines="76" numberOfProseLines="4" numberOfLyricsLines="0">Friar Francis</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover">
 <persname short="HERO." numberOfLines="124" numberOfVerseLines="103" numberOfProseLines="21" numberOfLyricsLines="0">Hero</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="BEAT." numberOfLines="119" numberOfVerseLines="24" numberOfProseLines="95" numberOfLyricsLines="0">Beatrice</persname>
 </persona>
 
@@ -70,7 +70,7 @@
 <persname short="URS." numberOfLines="37" numberOfVerseLines="29" numberOfProseLines="8" numberOfLyricsLines="0">Ursula</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="DOG." numberOfLines="52" numberOfVerseLines="0" numberOfProseLines="52" numberOfLyricsLines="0">Dogberry</persname>
 </persona>
 
@@ -105,10 +105,6 @@
 </persona>
 
 <persona gender="male">
-<persname short="WATCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Watchmen</persname>
-</persona>
-
-<persona gender="male">
 <persname short="A LORD." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Lord</persname>
 </persona>
 
@@ -130,7 +126,10 @@
 	<scenepersona short="BALTH.">Balthasar</scenepersona>
 	<scenepersona short="D. JOHN.">Don John the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -814,7 +813,9 @@
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="149.02" sdnumber="0.01">
@@ -869,7 +870,7 @@
 <stagedir sdglobalnumber="157.01" sdnumber="8.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-			<actor>LEON.</actor>
+		<actor>LEON.</actor>
 		<actor>ANT.</actor>
 	</action>
 </stagedir>
@@ -884,7 +885,9 @@
 	<scenepersona short="CON.">Conrade</scenepersona>
 	<scenepersona short="BORA.">Borachio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="157.02" sdnumber="0.01">
@@ -1048,7 +1051,10 @@
 	<scenepersona short="D. JOHN.">Don John</scenepersona>
 	<scenepersona short="BORA.">Borachio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="181.02" sdnumber="0.01">
@@ -1523,7 +1529,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Claudio">CLAUD.</speaker>
 <line globalnumber="257" number="76" form="verse">Thus answer I in name of Benedick,</line>
 <line globalnumber="258" number="77" form="verse">But hear these ill news with the ears of Claudio.</line>
@@ -1602,7 +1608,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Benedick">BENE.</speaker>
 <line globalnumber="278" number="97" form="prose">Alas, poor hurt fowl, now will he creep into sedges. But that my Lady Beatrice should know me, and not know me! The Prince&#8217;s fool! Hah, it may be I go under that title because I am merry. Yea, but so I am apt to do myself wrong. I am not so reputed. It is the base (though bitter) disposition of Beatrice that puts the world into her person, and so gives me out. Well, I&#8217;ll be reveng&#8217;d as I may.</line>
 </speech>
@@ -1932,7 +1938,9 @@
 	<scenepersona short="D. JOHN.">Don John</scenepersona>
 	<scenepersona short="BORA.">Borachio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="333.02" sdnumber="0.01">
@@ -2031,7 +2039,7 @@
 <stagedir sdglobalnumber="350.01" sdnumber="17.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-			<actor>D. JOHN.</actor>
+		<actor>D. JOHN.</actor>
 		<actor>BORA.</actor>
 	</action>
 </stagedir>
@@ -2051,7 +2059,11 @@
 	<scenepersona>Musicians</scenepersona>
 	<scenepersona short="BEAT.">Beatrice</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="350.02" sdnumber="0.01">
@@ -2095,7 +2107,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Benedick">BENE.</speaker>
 <line globalnumber="355" number="5" form="prose">I know that, but I would have thee hence, and here again. I do much wonder that one man, seeing how much another man is a fool when he dedicates his behaviors to love, will, after he hath laugh&#8217;d at such shallow follies in others, become the argument of his own scorn by falling in love&#8212;and such a man is Claudio. I have known when there was no music with him but the drum and the fife, and now had he rather hear the tabor and the pipe; I have known when he would have walk&#8217;d ten mile afoot to see a good armor, and now will he lie ten nights awake carving the fashion of a new doublet; he was wont to speak plain and to the purpose (like an honest man and a soldier), and now is he turn&#8217;d orthography&#8212;his words are a very fantastical banquet, just so many strange dishes. May I be so converted and see with these eyes? I cannot tell; I think not. I will not be sworn but love may transform me to an oyster, but I&#8217;ll take my oath on it, till he have made an oyster of me, he shall never make me such a fool. One woman is fair, yet I am well; another is wise, yet I am well; another virtuous, yet I am well; but till all graces be in one woman, one woman shall not come in my grace. Rich she shall be, that&#8217;s certain; wise, or I&#8217;ll none; virtuous, or I&#8217;ll never cheapen her; fair, or I&#8217;ll never look on her; mild, or come not near me; noble, or not I for an angel; of good discourse, an excellent musician, and her hair shall be of what color it please God. Hah! The Prince and <foreign xml:lang="fr">Monsieur</foreign> Love. I will hide me in the arbor.</line>
 </speech>
@@ -2552,7 +2564,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Benedick">BENE.</speaker>
 <stagedir sdglobalnumber="448.02" sdnumber="96.02">
 	<dir>Coming forward.</dir>
@@ -2602,7 +2614,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Benedick">BENE.</speaker>
 <line globalnumber="455" number="103" form="prose">Ha! &#8220;Against my will I am sent to bid you come in to dinner&#8221;&#8212;there&#8217;s a double meaning in that. &#8220;I took no more pains for those thanks than you took pains to thank me&#8221;&#8212;that&#8217;s as much as to say, &#8220;Any pains that I take for you is as easy as thanks.&#8221; If I do not take pity of her, I am a villain; if I do not love her, I am a Jew. I will go get her picture.</line>
 </speech>
@@ -2628,7 +2640,11 @@
 	<scenepersona short="URS.">Ursula</scenepersona>
 	<scenepersona short="BEAT.">Beatrice</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="455.02" sdnumber="0.01">
@@ -2889,7 +2905,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Beatrice">BEAT.</speaker>
 <stagedir sdglobalnumber="564.02" sdnumber="106.02">
 	<dir>Coming forward.</dir>
@@ -2928,7 +2944,10 @@
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="D. JOHN.">Don John the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="574.02" sdnumber="0.01">
@@ -3285,7 +3304,11 @@
 	<scenepersona short="BORA.">Borachio</scenepersona>
 	<scenepersona short="CON.">Conrade</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="634.02" sdnumber="0.01">
@@ -3693,7 +3716,11 @@
 	<scenepersona short="URS.">Ursula</scenepersona>
 	<scenepersona short="BEAT.">Beatrice</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="702.02" sdnumber="0.01">
@@ -3957,7 +3984,10 @@
 	<scenepersona short="VERG.">Headborough Verges</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="744.02" sdnumber="0.01">
@@ -4156,7 +4186,10 @@
 	<scenepersona short="BEAT.">Beatrice</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="773.02" sdnumber="0.01">
@@ -4972,7 +5005,7 @@
 <stagedir sdglobalnumber="1074.01" sdnumber="290.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-			<actor>BENE.</actor>
+		<actor>BENE.</actor>
 		<actor>BEAT.</actor>
 	</action>
 </stagedir>
@@ -4991,7 +5024,9 @@
 	<scenepersona short="CON.">Conrade</scenepersona>
 	<scenepersona short="BORA.">Borachio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1074.02" sdnumber="0.01">
@@ -5246,7 +5281,10 @@ I am a wise fellow, and which is more, an officer, and which is more, a househol
 	<scenepersona short="BORA.">Borachio</scenepersona>
 	<scenepersona short="SEX.">Sexton</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1113.02" sdnumber="0.01">
@@ -5807,9 +5845,7 @@ thirdly, they have verified unjust things; and to conclude, they are lying knave
 
 <speech>
 <speaker long="Borachio">BORA.</speaker>
-<line globalnumber="1278" number="157" form="prose">Sweet Prince, let me go no farther to mine answer: do you hear me, and let this count kill me. I have deceiv&#8217;d even your very eyes. 
-What your wisdoms could not discover, these shallow fools have brought to light, who in the night overheard me confessing to this man how Don John your brother incens&#8217;d me to slander the Lady Hero, how you were brought into the orchard, and saw me court Margaret in Hero&#8217;s garments, how you disgrac&#8217;d her when you should marry her. 
-My villainy they have upon record, which I had rather seal with my death than repeat over to my shame. The lady is dead upon mine and my master&#8217;s false accusation; and briefly, I desire nothing but the reward of a villain.</line>
+<line globalnumber="1278" number="157" form="prose">Sweet Prince, let me go no farther to mine answer: do you hear me, and let this count kill me. I have deceiv&#8217;d even your very eyes. What your wisdoms could not discover, these shallow fools have brought to light, who in the night overheard me confessing to this man how Don John your brother incens&#8217;d me to slander the Lady Hero, how you were brought into the orchard, and saw me court Margaret in Hero&#8217;s garments, how you disgrac&#8217;d her when you should marry her. My villainy they have upon record, which I had rather seal with my death than repeat over to my shame. The lady is dead upon mine and my master&#8217;s false accusation; and briefly, I desire nothing but the reward of a villain.</line>
 </speech>
 
 <speech>
@@ -5958,8 +5994,7 @@ My villainy they have upon record, which I had rather seal with my death than re
 
 <speech>
 <speaker long="Dogberry">DOG.</speaker>
-<line globalnumber="1338" number="213" form="prose">Moreover, sir, which indeed is not under white and black, this plaintiff here, the offender, did call me ass. I beseech you let it be rememb&#8217;red in his punishment. And also, the watch heard them talk of one Deformed. They say he wears a key in his ear and a lock hanging by it, and borrows money in God&#8217;s name, the which he hath us&#8217;d so long and never paid that now men grow hard-hearted and will lend nothing for God&#8217;s sake. 
-Pray you examine him upon that point.</line>
+<line globalnumber="1338" number="213" form="prose">Moreover, sir, which indeed is not under white and black, this plaintiff here, the offender, did call me ass. I beseech you let it be rememb&#8217;red in his punishment. And also, the watch heard them talk of one Deformed. They say he wears a key in his ear and a lock hanging by it, and borrows money in God&#8217;s name, the which he hath us&#8217;d so long and never paid that now men grow hard-hearted and will lend nothing for God&#8217;s sake. Pray you examine him upon that point.</line>
 </speech>
 
 <speech>
@@ -6060,7 +6095,10 @@ Pray you examine him upon that point.</line>
 	<scenepersona short="BEAT.">Beatrice</scenepersona>
 	<scenepersona short="URS.">Ursula</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1350.02" sdnumber="0.01">
@@ -6128,7 +6166,7 @@ Pray you examine him upon that point.</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Benedick">BENE.</speaker>
 <line globalnumber="1361" number="11" form="prose">And therefore will come.</line>
 <stagedir sdglobalnumber="1361.01" sdnumber="11.01">
@@ -6286,7 +6324,9 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 	<scenepersona short="A LORD.">Lord</scenepersona>
 	<scenepersona short="BALTH.">Balthasar</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1388.02" sdnumber="0.01">
@@ -6419,7 +6459,10 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1421.02" sdnumber="0.01">
@@ -6870,7 +6913,18 @@ For thy part, Claudio, I did think to have beaten thee, but in that thou art lik
 </act>
 
 
-
+<locations numberOfLocations="10">
+<placename>A hall in Leonato&#8217;s house.</placename>
+<placename>A room in Leonato&#8217;s house.</placename>
+<placename>Another room in Leonato&#8217;s house.</placename>
+<placename>Hero&#8217;s apartment.</placename>
+<placename>Leonato&#8217;s garden.</placename>
+<placename>Leonato&#8217;s orchard.</placename>
+<placename>Messina. A prison.</placename>
+<placename>Messina. A street.</placename>
+<placename>Messina. Before Leonato&#8217;s house.</placename>
+<placename>Messina. Inside a church.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -6907,13 +6961,13 @@ For thy part, Claudio, I did think to have beaten thee, but in that thou art lik
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>148</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

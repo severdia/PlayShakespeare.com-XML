@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <poem unique="passionate-pilgrim" numberOfLines="410">
 <title short="The Passionate Pilgrim">The Passionate Pilgrim</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1599</pubdate>
-
-<poemdescription>
-<line><name type="title">The Passionate Pilgrim</name> was a pirated book of poetry published under Shakespeare&#8217;s name in 1599, though not all of the texts are his. There is strong evidence relating to a reprint in 1612 that Shakespeare was less than pleased with poems by others being ascribed to him, and his name vanished from further reprints. That Shakespeare should have been displeased at the existence of this collection is not surprising: among the poems are three deliberately bad extracts from <name type="title">Love&#8217;s Labour&#8217;s Lost</name>, which in the play show up the French lords&#8217; lack of literary ability but here are presented as straight-up poetry. There are also alternate versions of two of Shakespeare&#8217;s sonnets, eleven poems whose authorship is unknown that might be by Shakespeare, and several poems by other authors, most notably a garbled version of Christopher Marlowe&#8217;s <name type="title">&#8220;The Passionate Shepherd to his Love&#8221;</name> and a truncated version of <name type="title">&#8220;The Nymph&#8217;s Reply&#8221;</name> generally ascribed to Sir Walter Raleigh.</line>
-</poemdescription>
 
 <poembody>
 <stanza num="1">
@@ -32,8 +28,8 @@
 <line globalnumber="12" number="12" rhyme="b">And age in love, loves not to have years told.</line>
 </quatrain>
 <couplet>
-<line globalnumber="13" number="13" rhyme="c">Therefore I&#8217;ll lie with love, and love with me,</line>
-<line globalnumber="14" number="14" rhyme="c">Since that our faults in love thus smother&#8217;d be.</line>
+<line globalnumber="13" number="13" rhyme="c" offset="1">Therefore I&#8217;ll lie with love, and love with me,</line>
+<line globalnumber="14" number="14" rhyme="c" offset="1">Since that our faults in love thus smother&#8217;d be.</line>
 </couplet>
 </stanza>
 
@@ -58,8 +54,8 @@
 <line globalnumber="26" number="26" rhyme="b">I guess one angel in another&#8217;s hell:</line>
 </quatrain>
 <couplet>
-<line globalnumber="27" number="27" rhyme="c">The truth I shall not know, but live in doubt,</line>
-<line globalnumber="28" number="28" rhyme="c">Till my bad angel fire my good one out.</line>
+<line globalnumber="27" number="27" rhyme="c" offset="1">The truth I shall not know, but live in doubt,</line>
+<line globalnumber="28" number="28" rhyme="c" offset="1">Till my bad angel fire my good one out.</line>
 </couplet>
 </stanza>
 
@@ -84,8 +80,8 @@
 <line globalnumber="40" number="40" rhyme="b">If broken, then it is no fault of mine.</line>
 </quatrain>
 <couplet>
-<line globalnumber="41" number="41" rhyme="c">If by me broke, what fool is not so wise</line>
-<line globalnumber="42" number="42" rhyme="c">To break an oath, to win a paradise?</line>
+<line globalnumber="41" number="41" rhyme="c" offset="1">If by me broke, what fool is not so wise</line>
+<line globalnumber="42" number="42" rhyme="c" offset="1">To break an oath, to win a paradise?</line>
 </couplet>
 </stanza>
 
@@ -110,8 +106,8 @@
 <line globalnumber="54" number="54" rhyme="b">But smile and jest at every gentle offer.</line>
 </quatrain>
 <couplet>
-<line globalnumber="55" number="55" rhyme="c">Then fell she on her back, fair queen, and toward:</line>
-<line globalnumber="56" number="56" rhyme="c">He rose and ran away, ah, fool too froward!</line>
+<line globalnumber="55" number="55" rhyme="c" offset="1">Then fell she on her back, fair queen, and toward:</line>
+<line globalnumber="56" number="56" rhyme="c" offset="1">He rose and ran away, ah, fool too froward!</line>
 </couplet>
 </stanza>
 
@@ -136,8 +132,8 @@
 <line globalnumber="68" number="68" rhyme="b">Which, not to anger bent, is music and sweet fire.</line>
 </quatrain>
 <couplet>
-<line globalnumber="69" number="69" rhyme="c">Celestial as thou art, O, do not love that wrong:</line>
-<line globalnumber="70" number="70" rhyme="c">To sing heaven&#8217;s praise with such an earthly tongue.</line>
+<line globalnumber="69" number="69" rhyme="c" offset="1">Celestial as thou art, O, do not love that wrong:</line>
+<line globalnumber="70" number="70" rhyme="c" offset="1">To sing heaven&#8217;s praise with such an earthly tongue.</line>
 </couplet>
 </stanza>
 
@@ -162,8 +158,8 @@
 <line globalnumber="82" number="82" rhyme="b">Yet not so wistly as this queen on him.</line>
 </quatrain>
 <couplet>
-<line globalnumber="83" number="83" rhyme="c">He spying her, bounc&#8217;d in, whereas he stood;</line>
-<line globalnumber="84" number="84" rhyme="c">&#8220;O Jove,&#8221; quoth she, &#8220;why was not I a flood?&#8221;</line>
+<line globalnumber="83" number="83" rhyme="c" offset="1">He spying her, bounc&#8217;d in, whereas he stood;</line>
+<line globalnumber="84" number="84" rhyme="c" offset="1">&#8220;O Jove,&#8221; quoth she, &#8220;why was not I a flood?&#8221;</line>
 </couplet>
 </stanza>
 
@@ -176,8 +172,8 @@
 <line globalnumber="88" number="88" rhyme="b">Softer than wax, and yet as iron rusty:</line>
 </quatrain>
 <couplet>
-<line globalnumber="89" number="89" rhyme="c">A lily pale, with damask dye to grace her,</line>
-<line globalnumber="90" number="90" rhyme="c">None fairer, nor none falser to deface her.</line>
+<line globalnumber="89" number="89" rhyme="c" offset="1">A lily pale, with damask dye to grace her,</line>
+<line globalnumber="90" number="90" rhyme="c" offset="1">None fairer, nor none falser to deface her.</line>
 </couplet>
 
 <stanzasmall>
@@ -188,8 +184,8 @@
 <line globalnumber="94" number="94" rhyme="b">Dreading my love, the loss whereof still fearing!</line>
 </quatrain>
 <couplet>
-<line globalnumber="95" number="95" rhyme="c">Yet in the midst of all her pure protestings,</line>
-<line globalnumber="96" number="96" rhyme="c">Her faith, her oaths, her tears, and all were jestings.</line>
+<line globalnumber="95" number="95" rhyme="c" offset="1">Yet in the midst of all her pure protestings,</line>
+<line globalnumber="96" number="96" rhyme="c" offset="1">Her faith, her oaths, her tears, and all were jestings.</line>
 </couplet>
 </stanzasmall>
 
@@ -201,8 +197,8 @@
 <line globalnumber="100" number="100" rhyme="b">She bade love last, and yet she fell a-turning.</line>
 </quatrain>
 <couplet>
-<line globalnumber="101" number="101" rhyme="c">Was this a lover, or a lecher whether?</line>
-<line globalnumber="102" number="102" rhyme="c">Bad in the best, though excellent in neither.</line>
+<line globalnumber="101" number="101" rhyme="c" offset="1">Was this a lover, or a lecher whether?</line>
+<line globalnumber="102" number="102" rhyme="c" offset="1">Bad in the best, though excellent in neither.</line>
 </couplet>
 </stanzasmall>
 </stanza>
@@ -228,8 +224,8 @@
 <line globalnumber="114" number="114" rhyme="b">When as himself to singing he betakes.</line>
 </quatrain>
 <couplet>
-<line globalnumber="115" number="115" rhyme="c">One god is god of both (as poets feign),</line>
-<line globalnumber="116" number="116" rhyme="c">One knight loves both, and both in thee remain.</line>
+<line globalnumber="115" number="115" rhyme="c" offset="1">One god is god of both (as poets feign),</line>
+<line globalnumber="116" number="116" rhyme="c" offset="1">One knight loves both, and both in thee remain.</line>
 </couplet>
 </stanza>
 
@@ -254,8 +250,8 @@
 <line globalnumber="128" number="128" rhyme="b">See, in my thigh,&#8221; quoth she, &#8220;here was the sore.&#8221;</line>
 </quatrain>
 <couplet>
-<line globalnumber="129" number="129" rhyme="c">She showed hers, he saw more wounds than one,</line>
-<line globalnumber="130" number="130" rhyme="c">And blushing fled, and left her all alone.</line>
+<line globalnumber="129" number="129" rhyme="c" offset="1">She showed hers, he saw more wounds than one,</line>
+<line globalnumber="130" number="130" rhyme="c" offset="1">And blushing fled, and left her all alone.</line>
 </couplet>
 </stanza>
 
@@ -268,8 +264,8 @@
 <line globalnumber="134" number="134" rhyme="b">Fair creature, kill&#8217;d too soon by death&#8217;s sharp sting!</line>
 </quatrain>
 <couplet>
-<line globalnumber="135" number="135" rhyme="c">Like a green plum that hangs upon a tree,</line>
-<line globalnumber="136" number="136" rhyme="c">And falls (through wind) before the fall should be.</line>
+<line globalnumber="135" number="135" rhyme="c" offset="1">Like a green plum that hangs upon a tree,</line>
+<line globalnumber="136" number="136" rhyme="c" offset="1">And falls (through wind) before the fall should be.</line>
 </couplet>
 
 <stanzasmall>
@@ -280,8 +276,8 @@
 <line globalnumber="140" number="140" rhyme="b">For why: I craved nothing of thee still.</line>
 </quatrain>
 <couplet>
-<line globalnumber="141" number="141" rhyme="c">O yes, dear friend, I pardon crave of thee,</line>
-<line globalnumber="142" number="142" rhyme="c">Thy discontent thou didst bequeath to me.</line>
+<line globalnumber="141" number="141" rhyme="c" offset="1">O yes, dear friend, I pardon crave of thee,</line>
+<line globalnumber="142" number="142" rhyme="c" offset="1">Thy discontent thou didst bequeath to me.</line>
 </couplet>
 </stanzasmall>
 </stanza>
@@ -307,8 +303,8 @@
 <line globalnumber="154" number="154" rhyme="b">And would not take her meaning nor her pleasure.</line>
 </quatrain>
 <couplet>
-<line globalnumber="155" number="155" rhyme="c">Ah, that I had my lady at this bay:</line>
-<line globalnumber="156" number="156" rhyme="c">To kiss and clip me till I run away!</line>
+<line globalnumber="155" number="155" rhyme="c" offset="1">Ah, that I had my lady at this bay:</line>
+<line globalnumber="156" number="156" rhyme="c" offset="1">To kiss and clip me till I run away!</line>
 </couplet>
 </stanza>
 
@@ -347,12 +343,12 @@
 <line globalnumber="172" number="172" rhyme="b">A brittle glass that&#8217;s broken presently:</line>
 </quatrain>
 <couplet>
-<line globalnumber="173" number="173" rhyme="c">A doubtful good, a gloss, a glass, a flower,</line>
-<line globalnumber="174" number="174" rhyme="c">Lost, vaded, broken, dead within an hour.</line>
+<line globalnumber="173" number="173" rhyme="c" offset="1">A doubtful good, a gloss, a glass, a flower,</line>
+<line globalnumber="174" number="174" rhyme="c" offset="1">Lost, vaded, broken, dead within an hour.</line>
 </couplet>
 </stanza>
 
-<stanza num="17">
+<stanzasmall>
 <quatrain>
 <line globalnumber="175" number="175" rhyme="a">And as goods lost are seld or never found,</line>
 <line globalnumber="176" number="176" rhyme="b">As vaded gloss no rubbing will refresh,</line>
@@ -360,10 +356,10 @@
 <line globalnumber="178" number="178" rhyme="b">As broken glass no cement can redress:</line>
 </quatrain>
 <couplet>
-<line globalnumber="179" number="179" rhyme="c">So beauty blemish&#8217;d once, forever lost,</line>
-<line globalnumber="180" number="180" rhyme="c">In spite of physic, painting, pain, and cost.</line>
+<line globalnumber="179" number="179" rhyme="c" offset="1">So beauty blemish&#8217;d once, forever lost,</line>
+<line globalnumber="180" number="180" rhyme="c" offset="1">In spite of physic, painting, pain, and cost.</line>
 </couplet>
-</stanza>
+</stanzasmall>
 
 <stanza num="14">
 <stanzanum num="14">XIV</stanzanum>
@@ -374,8 +370,8 @@
 <line globalnumber="184" number="184" rhyme="b">To descant on the doubts of my decay.</line>
 </quatrain>
 <couplet>
-<line globalnumber="185" number="185" rhyme="c">&#8220;Farewell,&#8221; quoth she, &#8220;and come again tomorrow.&#8221;</line>
-<line globalnumber="186" number="186" rhyme="c">Fare well I could not, for I supp&#8217;d with sorrow.</line>
+<line globalnumber="185" number="185" rhyme="c" offset="1">&#8220;Farewell,&#8221; quoth she, &#8220;and come again tomorrow.&#8221;</line>
+<line globalnumber="186" number="186" rhyme="c" offset="1">Fare well I could not, for I supp&#8217;d with sorrow.</line>
 </couplet>
 
 <stanzasmall>
@@ -386,8 +382,8 @@
 <line globalnumber="190" number="190" rhyme="b">&#8217;T may be again, to make me wander thither:</line>
 </quatrain>
 <couplet>
-<line globalnumber="191" number="191" rhyme="c">&#8220;Wander,&#8221; a word for shadows like myself,</line>
-<line globalnumber="192" number="192" rhyme="c">As take the pain but cannot pluck the pelf.</line>
+<line globalnumber="191" number="191" rhyme="c" offset="1">&#8220;Wander,&#8221; a word for shadows like myself,</line>
+<line globalnumber="192" number="192" rhyme="c" offset="1">As take the pain but cannot pluck the pelf.</line>
 </couplet>
 </stanzasmall>
 
@@ -399,8 +395,8 @@
 <line globalnumber="196" number="196" rhyme="b">Not daring trust the office of mine eyes.</line>
 </quatrain>
 <couplet>
-<line globalnumber="197" number="197" rhyme="c">While Philomela sits and sings, I sit and mark,</line>
-<line globalnumber="198" number="198" rhyme="c">And wish her lays were tuned like the lark.</line>
+<line globalnumber="197" number="197" rhyme="c" offset="1">While Philomela sits and sings, I sit and mark,</line>
+<line globalnumber="198" number="198" rhyme="c" offset="1">And wish her lays were tuned like the lark.</line>
 </couplet>
 </stanzasmall>
 
@@ -412,8 +408,8 @@
 <line globalnumber="202" number="202" rhyme="b">Heart hath his hope, and eyes their wished sight:</line>
 </quatrain>
 <couplet>
-<line globalnumber="203" number="203" rhyme="c">Sorrow chang&#8217;d to solace, and solace mix&#8217;d with sorrow;</line>
-<line globalnumber="204" number="204" rhyme="c">For why, she sight, and bade me come tomorrow.</line>
+<line globalnumber="203" number="203" rhyme="c" offset="1">Sorrow chang&#8217;d to solace, and solace mix&#8217;d with sorrow;</line>
+<line globalnumber="204" number="204" rhyme="c" offset="1">For why, she sight, and bade me come tomorrow.</line>
 </couplet>
 </stanzasmall>
 
@@ -425,8 +421,8 @@
 <line globalnumber="208" number="208" rhyme="b">Yet not for me, shine sun to succor flowers!</line>
 </quatrain>
 <couplet>
-<line globalnumber="209" number="209" rhyme="c">Pack night, peep day; good day, of night now borrow:</line>
-<line globalnumber="210" number="210" rhyme="c">Short night tonight, and length thyself tomorrow.</line>
+<line globalnumber="209" number="209" rhyme="c" offset="1">Pack night, peep day; good day, of night now borrow:</line>
+<line globalnumber="210" number="210" rhyme="c" offset="1">Short night tonight, and length thyself tomorrow.</line>
 </couplet>
 </stanzasmall>
 
@@ -455,9 +451,9 @@
 </tercet>
 <line globalnumber="222" number="222" offset="2">Alas, she could not help it!</line>
 <tercet>
-<line globalnumber="223" number="223" rhyme="c">Thus art with arms contending was victor of the day,</line>
-<line globalnumber="224" number="224" rhyme="c">Which by a gift of learning did bear the maid away:</line>
-<line globalnumber="225" number="225" rhyme="c">Then lullaby, the learned man hath got the lady gay,</line>
+<line globalnumber="223" number="223" rhyme="c" offset="1">Thus art with arms contending was victor of the day,</line>
+<line globalnumber="224" number="224" rhyme="c" offset="1">Which by a gift of learning did bear the maid away:</line>
+<line globalnumber="225" number="225" rhyme="c" offset="1">Then lullaby, the learned man hath got the lady gay,</line>
 </tercet>
 <line globalnumber="226" number="226" offset="2">For now my song is ended.</line>
 </stanzasmall>
@@ -547,8 +543,8 @@
 <line globalnumber="284" number="284" rhyme="b">As well as fancy, partial might.</line>
 </quatrain>
 <couplet>
-<line globalnumber="285" number="285" rhyme="c">Take counsel of some wiser head,</line>
-<line globalnumber="286" number="286" rhyme="c">Neither too young nor yet unwed.</line>
+<line globalnumber="285" number="285" rhyme="c" offset="1">Take counsel of some wiser head,</line>
+<line globalnumber="286" number="286" rhyme="c" offset="1">Neither too young nor yet unwed.</line>
 </couplet>
 
 <stanzasmall>
@@ -559,8 +555,8 @@
 <line globalnumber="290" number="290" rhyme="b">A cripple soon can find a halt—</line>
 </quatrain>
 <couplet>
-<line globalnumber="291" number="291" rhyme="c">But plainly say thou lov&#8217;st her well,</line>
-<line globalnumber="292" number="292" rhyme="c">And set her person forth to sale.</line>
+<line globalnumber="291" number="291" rhyme="c" offset="1">But plainly say thou lov&#8217;st her well,</line>
+<line globalnumber="292" number="292" rhyme="c" offset="1">And set her person forth to sale.</line>
 </couplet>
 </stanzasmall>
 
@@ -572,8 +568,8 @@
 <line globalnumber="296" number="296" rhyme="b">By ringing in thy lady&#8217;s ear.</line>
 </quatrain>
 <couplet>
-<line globalnumber="297" number="297" rhyme="c">The strongest castle, tower, and town,</line>
-<line globalnumber="298" number="298" rhyme="c">The golden bullet beats it down.</line>
+<line globalnumber="297" number="297" rhyme="c" offset="1">The strongest castle, tower, and town,</line>
+<line globalnumber="298" number="298" rhyme="c" offset="1">The golden bullet beats it down.</line>
 </couplet>
 </stanzasmall>
 
@@ -585,8 +581,8 @@
 <line globalnumber="302" number="302" rhyme="b">Press never thou to choose anew.</line>
 </quatrain>
 <couplet>
-<line globalnumber="303" number="303" rhyme="c">When time shall serve, be thou not slack</line>
-<line globalnumber="304" number="304" rhyme="c">To proffer, though she put thee back.</line>
+<line globalnumber="303" number="303" rhyme="c" offset="1">When time shall serve, be thou not slack</line>
+<line globalnumber="304" number="304" rhyme="c" offset="1">To proffer, though she put thee back.</line>
 </couplet>
 </stanzasmall>
 
@@ -598,8 +594,8 @@
 <line globalnumber="308" number="308" rhyme="b">That thus dissembled her delight;</line>
 </quatrain>
 <couplet>
-<line globalnumber="309" number="309" rhyme="c">And twice desire, yer it be day,</line>
-<line globalnumber="310" number="310" rhyme="c">That which with scorn she put away.</line>
+<line globalnumber="309" number="309" rhyme="c" offset="1">And twice desire, yer it be day,</line>
+<line globalnumber="310" number="310" rhyme="c" offset="1">That which with scorn she put away.</line>
 </couplet>
 </stanzasmall>
 
@@ -611,8 +607,8 @@
 <line globalnumber="314" number="314" rhyme="b">When craft hath taught her thus to say:</line>
 </quatrain>
 <couplet>
-<line globalnumber="315" number="315" rhyme="c">&#8220;Had women been so strong as men,</line>
-<line globalnumber="316" number="316" rhyme="c">In faith, you had not had it then.&#8221;</line>
+<line globalnumber="315" number="315" rhyme="c" offset="1">&#8220;Had women been so strong as men,</line>
+<line globalnumber="316" number="316" rhyme="c" offset="1">In faith, you had not had it then.&#8221;</line>
 </couplet>
 </stanzasmall>
 
@@ -624,8 +620,8 @@
 <line globalnumber="320" number="320" rhyme="b">The cock that treads them shall not know.</line>
 </quatrain>
 <couplet>
-<line globalnumber="321" number="321" rhyme="c">Have you not heard it said full oft,</line>
-<line globalnumber="322" number="322" rhyme="c">A woman&#8217;s nay doth stand for nought?</line>
+<line globalnumber="321" number="321" rhyme="c" offset="1">Have you not heard it said full oft,</line>
+<line globalnumber="322" number="322" rhyme="c" offset="1">A woman&#8217;s nay doth stand for nought?</line>
 </couplet>
 </stanzasmall>
 
@@ -637,8 +633,8 @@
 <line globalnumber="326" number="326" rhyme="b">When time with age shall them attaint.</line>
 </quatrain>
 <couplet>
-<line globalnumber="327" number="327" rhyme="c">Were kisses all the joys in bed,</line>
-<line globalnumber="328" number="328" rhyme="c">One woman would another wed.</line>
+<line globalnumber="327" number="327" rhyme="c" offset="1">Were kisses all the joys in bed,</line>
+<line globalnumber="328" number="328" rhyme="c" offset="1">One woman would another wed.</line>
 </couplet>
 </stanzasmall>
 
@@ -650,8 +646,8 @@
 <line globalnumber="332" number="332" rhyme="b">To teach my tongue to be so long.</line>
 </quatrain>
 <couplet>
-<line globalnumber="333" number="333" rhyme="c">Yet will she blush, here be it said,</line>
-<line globalnumber="334" number="334" rhyme="c">To hear her secrets so bewray&#8217;d.</line>
+<line globalnumber="333" number="333" rhyme="c" offset="1">Yet will she blush, here be it said,</line>
+<line globalnumber="334" number="334" rhyme="c" offset="1">To hear her secrets so bewray&#8217;d.</line>
 </couplet>
 </stanzasmall>
 
@@ -787,11 +783,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </poem>

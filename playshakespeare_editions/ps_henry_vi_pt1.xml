@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry VI, Pt. 1">The First Part of Henry the Sixth</title>
@@ -8,7 +8,7 @@
 
 <personae playtitle="Henry VI, Part 1">
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes">
 <persname short="PUC." numberOfLines="254" numberOfVerseLines="254" numberOfProseLines="0" numberOfLyricsLines="0">Joan de Pucelle</persname>
 </persona>
 
@@ -84,7 +84,7 @@
 <persname short="MAY." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of London</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="GAR." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Gargrave</persname>
 </persona>
 
@@ -100,15 +100,15 @@
 <persname short="FAL." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Falstaff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="MOR." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="JOHN." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">John Talbot</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="TAL." numberOfLines="407" numberOfVerseLines="407" numberOfProseLines="0" numberOfLyricsLines="0">Lord Talbot</persname>
 </persona>
 
@@ -116,7 +116,7 @@
 <persname short="SUF." numberOfLines="175" numberOfVerseLines="175" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Suffolk</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="SAL." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
 </persona>
 
@@ -124,7 +124,7 @@
 <persname short="WAR." numberOfLines="72" numberOfVerseLines="72" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PLAN." numberOfLines="184" numberOfVerseLines="184" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet</persname>
 <persaliases>
 	<persname short="YORK.">Richard, Duke of York</persname>
@@ -135,7 +135,7 @@
 <persname short="SOM." numberOfLines="64" numberOfVerseLines="64" numberOfProseLines="0" numberOfLyricsLines="0">John Beauford, Duke of Somerset</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="WIN." numberOfLines="96" numberOfVerseLines="96" numberOfProseLines="0" numberOfLyricsLines="0">Henry Beauford, Bishop of Winchester</persname>
 <persaliases>
 	<persname short="CAR.">Cardinal Beauford of Winchester</persname>
@@ -146,7 +146,7 @@
 <persname short="EXE." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Beauford, Duke of Exeter</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BED." numberOfLines="76" numberOfVerseLines="76" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Bedford</persname>
 </persona>
 
@@ -294,7 +294,9 @@
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -699,7 +701,9 @@
 	<scenepersona short="BAST.">Bastard of Orl&#233;ans</scenepersona>
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -1087,7 +1091,9 @@
 	<scenepersona short="MAY.">Mayor of London</scenepersona>
 	<scenepersona short="OFF.">Officers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="328.02" sdnumber="0.01">
@@ -1401,7 +1407,9 @@
 	<scenepersona short="GAR.">Sir Thomas Gargrave</scenepersona>
 	<scenepersona short="4. MESS.">Fourth Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="414.02" sdnumber="0.01">
@@ -1674,7 +1682,9 @@
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona>Englishmen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="525.02" sdnumber="0.01">
@@ -1820,7 +1830,9 @@
 	<scenepersona short="ALAN.">Duke of Alanson</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="564.02" sdnumber="0.01">
@@ -1918,7 +1930,9 @@
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="ENG. SOLD.">English Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="595.02" sdnumber="0.01">
@@ -2225,7 +2239,9 @@
 	<scenepersona short="CAPT.">Captain</scenepersona>
 	<scenepersona short="MESS. COUNT.">Messenger of the Countess</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="680.02" sdnumber="0.01">
@@ -2390,7 +2406,9 @@
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona>Talbot&#8217;s Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="741.02" sdnumber="0.01">
@@ -2656,7 +2674,9 @@
 	<scenepersona short="VER.">Vernon</scenepersona>
 	<scenepersona short="LAW.">Lawyer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="826.02" sdnumber="0.01">
@@ -3036,7 +3056,9 @@
 	<scenepersona short="1. KEEPER.">First Keeper</scenepersona>
 	<scenepersona short="2. KEEPER.">Second Keeper</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="961.02" sdnumber="0.01">
@@ -3300,7 +3322,9 @@
 	<scenepersona short="1. GLOU. SERV. ATT.">Gloucester&#8217;s First Serving Attendant</scenepersona>
 	<scenepersona short="2. GLOU. SERV. ATT.">Gloucester&#8217;s Second Serving Attendant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1090.02" sdnumber="0.01">
@@ -3851,7 +3875,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thomas Beauford, Duke of Exeter">EXE.</speaker>
 <line globalnumber="1283" number="186" form="verse">Ay, we may march in England, or in France,</line>
 <line globalnumber="1284" number="187" form="verse">Not seeing what is likely to ensue.</line>
@@ -3898,7 +3922,11 @@
 	<scenepersona short="FAL.">Sir John Falstaff</scenepersona>
 	<scenepersona short="CAPT.">Captain</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1297.02" sdnumber="0.01">
@@ -4399,7 +4427,9 @@
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="BUR.">Duke of Burgundy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1435.02" sdnumber="0.01">
@@ -4668,7 +4698,9 @@
 	<scenepersona>Talbot&#8217;s Soldiers</scenepersona>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1526.02" sdnumber="0.01">
@@ -4837,7 +4869,9 @@
 	<scenepersona short="VER.">Vernon</scenepersona>
 	<scenepersona short="BAS.">Basset</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1571.02" sdnumber="0.01">
@@ -5293,7 +5327,7 @@
 	</action>
 </stagedir>
 	
-<speech>
+<speech type="soliloquy">
 <speaker long="Thomas Beauford, Duke of Exeter">EXE.</speaker>
 <line globalnumber="1754" number="183" form="verse">Well didst thou, Richard, to suppress thy voice,</line>
 <line globalnumber="1755" number="184" form="verse">For had the passions of thy heart burst out,</line>
@@ -5327,7 +5361,9 @@
 	<scenepersona short="TAL. TRUMP.">Talbot&#8217;s Trumpeter</scenepersona>
 	<scenepersona short="GEN.">General of the French Force at Bordeaux</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1766.02" sdnumber="0.01">
@@ -5443,7 +5479,9 @@
 	<scenepersona>York&#8217;s Soldiers</scenepersona>
 	<scenepersona short="LUCY.">Sir William Lucy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1822.02" sdnumber="0.01">
@@ -5579,7 +5617,10 @@
 	<scenepersona short="CAPT.">Captain</scenepersona>
 	<scenepersona short="LUCY.">Sir William Lucy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1868.02" sdnumber="0.01">
@@ -5703,7 +5744,9 @@
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="JOHN.">John Talbot</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1921.02" sdnumber="0.01">
@@ -5862,7 +5905,9 @@
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="JOHN.">John Talbot</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1976.02" sdnumber="0.01">
@@ -5976,7 +6021,10 @@
 	<scenepersona short="LUCY.">Sir William Lucy</scenepersona>
 	<scenepersona short="FR. HER.">French Herald</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2033.02" sdnumber="0.01">
@@ -6232,7 +6280,9 @@
 	<scenepersona short="AMB. ARM.">Ambassador from the Earl of Armagnac</scenepersona>
 	<scenepersona short="PAP.">Papal Legate</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2129.02" sdnumber="0.01">
@@ -6420,7 +6470,9 @@
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="SCOUT.">Scout</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2191.02" sdnumber="0.01">
@@ -6530,7 +6582,10 @@
 	<scenepersona short="MAR.">Margaret</scenepersona>
 	<scenepersona short="REIG.">Reignier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2212.02" sdnumber="0.01">
@@ -7249,7 +7304,9 @@
 	<scenepersona short="BAST.">Bastard of Orl&#233;ans</scenepersona>
 	<scenepersona short="REIG.">Reignier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2413.02" sdnumber="0.01">
@@ -7679,7 +7736,9 @@
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
 	<scenepersona short="EXE.">Duke of Exeter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2588.02" sdnumber="0.01">
@@ -7877,7 +7936,30 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="22">
+<placename>A field of battle.</placename>
+<placename>Anjou. Camp of the Duke of York.</placename>
+<placename>Another part of the battlefield.</placename>
+<placename>Auvergne. Court of the Countess&#8217;s castle.</placename>
+<placename>English camp near Bourdeaux.</placename>
+<placename>France. Before Angiers.</placename>
+<placename>France. Before Bourdeaux.</placename>
+<placename>France. Before Orl&#233;ans.</placename>
+<placename>France. Before Rouen.</placename>
+<placename>France. Other plains in Gascony.</placename>
+<placename>France. Plains in Anjou.</placename>
+<placename>France. Plains in Gascony.</placename>
+<placename>France. The plains near Rouen.</placename>
+<placename>London. A room in the Tower of London.</placename>
+<placename>London. A room in the palace.</placename>
+<placename>London. Before the Tower.</placename>
+<placename>London. The Parliament House.</placename>
+<placename>London. The temple garden.</placename>
+<placename>Orl&#233;ans. Within the town.</placename>
+<placename>Paris. A hall of state.</placename>
+<placename>Paris. A room in the palace.</placename>
+<placename>Westminster Abbey.</placename>
+</locations>
 
 
 <sources>
@@ -7914,13 +7996,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>135</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Midsummer Night&#8217;s Dream">A Midsummer Night&#8217;s Dream</title>
@@ -16,11 +16,11 @@
 <persname short="EGE." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Egeus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover">
 <persname short="LYS." numberOfLines="176" numberOfVerseLines="170" numberOfProseLines="6" numberOfLyricsLines="0">Lysander</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover">
 <persname short="DEM." numberOfLines="128" numberOfVerseLines="115" numberOfProseLines="13" numberOfLyricsLines="0">Demetrius</persname>
 </persona>
 
@@ -28,42 +28,42 @@
 <persname short="PHIL." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Philostrate</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="QUIN." numberOfLines="74" numberOfVerseLines="38" numberOfProseLines="36" numberOfLyricsLines="0">Quince</persname>
 <persaliases>
 	<persname short="PRO.">Prologue</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="BOT." numberOfLines="123" numberOfVerseLines="76" numberOfProseLines="47" numberOfLyricsLines="8">Bottom</persname>
 <persaliases>
 	<persname short="PYR.">Pyramus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FLU." numberOfLines="48" numberOfVerseLines="34" numberOfProseLines="9" numberOfLyricsLines="0">Flute</persname>
+<persona gender="male" archetype="clown">
+<persname short="FLU." numberOfLines="48" numberOfVerseLines="39" numberOfProseLines="9" numberOfLyricsLines="0">Flute</persname>
 <persaliases>
 	<persname short="THIS.">Thisbe</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SNOUT." numberOfLines="19" numberOfVerseLines="12" numberOfProseLines="7" numberOfLyricsLines="0">Snout</persname>
 <persaliases>
 	<persname short="WALL.">Wall</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SNUG." numberOfLines="11" numberOfVerseLines="8" numberOfProseLines="3" numberOfLyricsLines="0">Snug</persname>
 <persaliases>
 	<persname short="LION.">Lion</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="STAR." numberOfLines="8" numberOfVerseLines="3" numberOfProseLines="5" numberOfLyricsLines="0">Starveling</persname>
 <persaliases>
 	<persname short="MOON.">Moonshine</persname>
@@ -74,24 +74,24 @@
 <persname short="HIP." numberOfLines="29" numberOfVerseLines="22" numberOfProseLines="7" numberOfLyricsLines="0">Hippolyta</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover">
 <persname short="HER." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Hermia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover">
 <persname short="HEL." numberOfLines="229" numberOfVerseLines="229" numberOfProseLines="0" numberOfLyricsLines="0">Helena</persname>
 </persona>
 
-<persona gender="male">
-<persname short="OBE." numberOfLines="225" numberOfVerseLines="215" numberOfProseLines="0" numberOfLyricsLines="44">Oberon</persname>
+<persona gender="male" archetype="hero">
+<persname short="OBE." numberOfLines="225" numberOfVerseLines="225" numberOfProseLines="0" numberOfLyricsLines="44">Oberon</persname>
 </persona>
 
-<persona gender="female">
-<persname short="TITA." numberOfLines="141" numberOfVerseLines="130" numberOfProseLines="0" numberOfLyricsLines="4">Titania</persname>
+<persona gender="female" archetype="hero">
+<persname short="TITA." numberOfLines="141" numberOfVerseLines="141" numberOfProseLines="0" numberOfLyricsLines="4">Titania</persname>
 </persona>
 
 <persona gender="male">
-<persname short="PUCK." numberOfLines="206" numberOfVerseLines="158" numberOfProseLines="0" numberOfLyricsLines="43">Puck</persname>
+<persname short="PUCK." numberOfLines="206" numberOfVerseLines="206" numberOfProseLines="0" numberOfLyricsLines="43">Puck</persname>
 </persona>
 
 <persona gender="female">
@@ -159,7 +159,10 @@
 	<scenepersona short="DEM.">Demetrius</scenepersona>
 	<scenepersona short="HEL.">Helena</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -229,7 +232,7 @@
 <line globalnumber="22" number="21" form="verse">Thanks, good Egeus. What&#8217;s the news with thee?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Egeus">EGE.</speaker>
 <line globalnumber="23" number="22" form="verse">Full of vexation come I, with complaint</line>
 <line globalnumber="24" number="23" form="verse">Against my child, my daughter Hermia.</line>
@@ -639,7 +642,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Helena">HEL.</speaker>
 <line globalnumber="230" number="226" form="verse">How happy some o&#8217;er other some can be!</line>
 <line globalnumber="231" number="227" form="verse">Through Athens I am thought as fair as she.</line>
@@ -689,7 +692,10 @@
 	<scenepersona short="SNOUT.">Snout</scenepersona>
 	<scenepersona short="STAR.">Starveling</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="255.02" sdnumber="0.01">
@@ -946,7 +952,9 @@
 	<scenepersona short="DEM.">Demetrius</scenepersona>
 	<scenepersona short="HEL.">Helena</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="305.02" sdnumber="0.01">
@@ -1015,7 +1023,7 @@
 <line globalnumber="347" number="42" form="verse" offset="0">Are not you he?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Puck">PUCK.</speaker>
 <line globalnumber="348" number="42" form="verse" offset="3">Thou speakest aright;</line>
 <line globalnumber="349" number="43" form="verse">I am that merry wanderer of the night.</line>
@@ -1406,7 +1414,7 @@
 <line globalnumber="557" number="248" form="verse" offset="0">Ay, there it is.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Oberon">OBE.</speaker>
 <line globalnumber="558" number="248" form="verse" offset="3">I pray thee give it me.</line>
 <line globalnumber="559" number="249" form="verse">I know a bank where the wild thyme blows,</line>
@@ -1461,7 +1469,9 @@
 	<scenepersona short="HEL.">Helena</scenepersona>
 	<scenepersona short="CHORUS.">Fairy Chorus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="578.02" sdnumber="0.01">
@@ -1546,7 +1556,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Oberon">OBE.</speaker>
 <line globalnumber="605" number="27" form="verse" type="lyric">What thou seest when thou dost wake,</line>
 <line globalnumber="606" number="28" form="verse" type="lyric">Do it for thy true-love take;</line>
@@ -1651,7 +1661,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Puck">PUCK.</speaker>
 <line globalnumber="644" number="66" form="rhyme" type="lyric">Through the forest have I gone,</line>
 <line globalnumber="645" number="67" form="rhyme" type="lyric">But Athenian found I none,</line>
@@ -1715,7 +1725,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Helena">HEL.</speaker>
 <line globalnumber="666" number="88" form="verse">O, I am out of breath in this fond chase!</line>
 <line globalnumber="667" number="89" form="verse">The more my prayer, the lesser is my grace.</line>
@@ -1816,7 +1826,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hermia">HER.</speaker>
 <stagedir sdglobalnumber="722.02" sdnumber="144.02">
 	<dir>Starting up.</dir>
@@ -1867,7 +1877,9 @@
 	<scenepersona short="MUS.">Mustardseed</scenepersona>
 	<scenepersona short="TITA.">Titania</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="734.02" sdnumber="0.01">
@@ -2405,7 +2417,9 @@
 	<scenepersona short="LYS.">Lysander</scenepersona>
 	<scenepersona short="HEL.">Helena</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="854.02" sdnumber="0.01">
@@ -2415,7 +2429,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Oberon">OBE.</speaker>
 <line globalnumber="855" number="1" form="verse">I wonder if Titania be awak&#8217;d;</line>
 <line globalnumber="856" number="2" form="verse">Then what it was that next came in her eye,</line>
@@ -2430,7 +2444,7 @@
 <line globalnumber="859" number="5" form="verse">What night-rule now about this haunted grove?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Puck">PUCK.</speaker>
 <line globalnumber="860" number="6" form="verse">My mistress with a monster is in love.</line>
 <line globalnumber="861" number="7" form="verse">Near to her close and consecrated bower,</line>
@@ -2581,7 +2595,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Demetrius">DEM.</speaker>
 <line globalnumber="936" number="82" form="verse">There is no following her in this fierce vein.</line>
 <line globalnumber="937" number="83" form="verse">Here therefore for a while I will remain.</line>
@@ -3292,7 +3306,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Puck">PUCK.</speaker>
 <line globalnumber="1264" number="396" form="rhyme" type="lyric">Up and down, up and down,</line>
 <line globalnumber="1265" number="397" form="rhyme" type="lyric">I will lead them up and down;</line>
@@ -3384,7 +3398,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lysander">LYS.</speaker>
 <line globalnumber="1284" number="413" form="verse">He goes before me, and still dares me on.</line>
 <line globalnumber="1285" number="414" form="verse">When I come where he calls, then he is gone.</line>
@@ -3459,7 +3473,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Helena">HEL.</speaker>
 <line globalnumber="1304" number="431" form="verse">O weary night, O long and tedious night,</line>
 <line globalnumber="1305" number="432" form="verse">Abate thy hours! Shine, comforts, from the east,</line>
@@ -3491,7 +3505,7 @@
 <line globalnumber="1314" number="441" form="verse" type="lyric">Thus to make poor females mad.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hermia">HER.</speaker>
 <line globalnumber="1315" number="442" form="verse">Never so weary, never so in woe,</line>
 <line globalnumber="1316" number="443" form="verse">Bedabbled with the dew and torn with briers,</line>
@@ -3568,7 +3582,11 @@
 	<scenepersona short="HEL.">Helena</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1336.02" sdnumber="0.01">
@@ -4089,7 +4107,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Bottom">BOT.</speaker>
 <stagedir sdglobalnumber="1522.02" sdnumber="180.02">
 	<dir>Awaking.</dir>
@@ -4120,7 +4138,9 @@
 	<scenepersona short="SNUG.">Snug</scenepersona>
 	<scenepersona short="BOT.">Bottom</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1523.02" sdnumber="0.01">
@@ -4257,7 +4277,11 @@
 	<scenepersona short="OBE.">Oberon</scenepersona>
 	<scenepersona short="TITA.">Titania</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1537.02" sdnumber="0.01">
@@ -4693,7 +4717,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thisbe" alias="FLU.">THIS.</speaker>
 <line globalnumber="1717" number="176" form="verse">O wall, full often hast thou heard my moans,</line>
 <line globalnumber="1718" number="177" form="verse">For parting my fair Pyramus and me!</line>
@@ -4989,7 +5013,7 @@
 <line globalnumber="1775" number="234" form="prose">And so the lion vanish&#8217;d.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pyramus" alias="BOT.">PYR.</speaker>
 <line globalnumber="1776" number="235" form="verse">Sweet Moon, I thank thee for thy sunny beams;</line>
 <line globalnumber="1777" number="236" form="verse">I thank thee, Moon, for shining now so bright;</line>
@@ -5019,7 +5043,7 @@
 <line globalnumber="1793" number="252" form="verse">Beshrew my heart, but I pity the man.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pyramus" alias="BOT.">PYR.</speaker>
 <line globalnumber="1794" number="253" form="verse">O, wherefore, Nature, didst thou lions frame?</line>
 <line globalnumber="1795" number="254" form="verse">Since lion vild hath here deflow&#8217;r&#8217;d my dear;</line>
@@ -5110,7 +5134,7 @@
 <line globalnumber="1818" number="277" form="prose">And thus she means, <foreign xml:lang="la">videlicet</foreign>&#8212;</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thisbe" alias="FLU.">THIS.</speaker>
 <line globalnumber="1819" number="278" form="verse"><recite>Asleep, my love?</recite></line>
 <line globalnumber="1820" number="279" form="verse"><recite>What, dead, my dove?</recite></line>
@@ -5146,7 +5170,7 @@
 
 <stagedir sdglobalnumber="1842.01" sdnumber="301.01">
 	<dir>Dies.</dir>
-	<action type="death">
+	<action type="action">
 		<actor>THIS.</actor>
 	</action>
 </stagedir>
@@ -5336,7 +5360,14 @@
 </act>
 
 
-
+<locations numberOfLocations="6">
+<placename>Another part of the woods near Athens.</placename>
+<placename>Another part of the woods.</placename>
+<placename>Athens. A room in Quince&#8217;s house.</placename>
+<placename>Athens. A room in the palace of Theseus.</placename>
+<placename>In the woods near Athens.</placename>
+<placename>In the woods.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -5403,9 +5434,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2013 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>202</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

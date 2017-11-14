@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry VI, Pt. 2">The Second Part of Henry the Sixth</title>
@@ -12,15 +12,15 @@
 <persname short="KING." numberOfLines="312" numberOfVerseLines="311" numberOfProseLines="1" numberOfLyricsLines="0">King Henry the Sixth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain">
 <persname short="GLOU." numberOfLines="293" numberOfVerseLines="285" numberOfProseLines="8" numberOfLyricsLines="0">Duke of Gloucester</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="CAR." numberOfLines="100" numberOfVerseLines="99" numberOfProseLines="1" numberOfLyricsLines="0">Cardinal Beauford</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="YORK." numberOfLines="379" numberOfVerseLines="376" numberOfProseLines="3" numberOfLyricsLines="0">Richard Plantagenet, Duke of York</persname>
 </persona>
 
@@ -32,11 +32,11 @@
 <persname short="RICH." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="SOM." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Somerset</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="SUF." numberOfLines="293" numberOfVerseLines="288" numberOfProseLines="5" numberOfLyricsLines="0">Duke of Suffolk</persname>
 </persona>
 
@@ -44,7 +44,7 @@
 <persname short="BUCK." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CLIF." numberOfLines="56" numberOfVerseLines="56" numberOfProseLines="0" numberOfLyricsLines="0">Lord Clifford</persname>
 </persona>
 
@@ -70,11 +70,11 @@
 <persname short="SCALES." numberOfLines="8" numberOfVerseLines="7" numberOfProseLines="1" numberOfLyricsLines="0">Lord Scales</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="SAY." numberOfLines="48" numberOfVerseLines="45" numberOfProseLines="3" numberOfLyricsLines="0">Lord Say</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="STAF." numberOfLines="16" numberOfVerseLines="14" numberOfProseLines="2" numberOfLyricsLines="0">Sir Humphrey Stafford</persname>
 </persona>
 
@@ -114,19 +114,19 @@
 <persname short="WHIT." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Walter Whitmore</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="HUME." numberOfLines="30" numberOfVerseLines="28" numberOfProseLines="2" numberOfLyricsLines="0">John Hume</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="SOUTH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">John Southwell</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BOLING." numberOfLines="17" numberOfVerseLines="13" numberOfProseLines="4" numberOfLyricsLines="0">Roger Bolingbrook</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="HOR." numberOfLines="6" numberOfVerseLines="1" numberOfProseLines="5" numberOfLyricsLines="0">Thomas Horner</persname>
 </persona>
 
@@ -146,7 +146,7 @@
 <persname short="SIMP." numberOfLines="23" numberOfVerseLines="16" numberOfProseLines="7" numberOfLyricsLines="0">Saunder Simpcox</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CADE." numberOfLines="81" numberOfVerseLines="23" numberOfProseLines="58" numberOfLyricsLines="0">Jack Cade</persname>
 </persona>
 
@@ -170,7 +170,7 @@
 <persname short="SIMP. WIFE." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Simpcox&#8217;s Wife</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="M. JORD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Margery Jourdain</persname>
 </persona>
 
@@ -178,7 +178,7 @@
 <persname short="DUCH." numberOfLines="119" numberOfVerseLines="119" numberOfProseLines="0" numberOfLyricsLines="0">Duchess Eleanor of Gloucester</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="QUEEN." numberOfLines="315" numberOfVerseLines="312" numberOfProseLines="3" numberOfLyricsLines="0">Queen Margaret</persname>
 </persona>
 
@@ -372,7 +372,10 @@
 	<scenepersona short="SOM.">Duke Somerset</scenepersona>
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -866,7 +869,9 @@
 	<scenepersona short="1. ROYAL MESS.">First Royal Messenger</scenepersona>
 	<scenepersona short="HUME.">John Hume</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="247.02" sdnumber="0.01">
@@ -1114,7 +1119,9 @@
 	<scenepersona short="DUCH.">Duchess Eleanor of Gloucester</scenepersona>
 	<scenepersona short="HOR.">Thomas Horner</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="354.02" sdnumber="0.01">
@@ -1728,12 +1735,16 @@
 	<scenepersona short="HUME.">John Hume</scenepersona>
 	<scenepersona short="SPIR.">Spirit</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
+	<scenepersona short="YORK. GUARDS.">York&#8217;s Guards</scenepersona>
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 	<scenepersona>Buckingham and York&#8217;s Guard</scenepersona>
 	<scenepersona short="STAF.">Sir Humphrey Stafford</scenepersona>
 	<scenepersona short="GLOU. SERV.">Gloucester&#8217;s Servingman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="542.02" sdnumber="0.01">
@@ -1899,6 +1910,7 @@
 	<dir>Enter the Duke of York and the Duke of Buckingham with their Guard, Sir Humphrey Stafford as Captain, and break in.</dir>
 	<action type="enter">
 		<actor>YORK.</actor>
+		<actor>YORK. GUARDS.</actor>
 		<actor>BUCK.</actor>
 		<actor>STAF.</actor>
 	</action>
@@ -1932,6 +1944,7 @@
 		<actor>STAF.</actor>
 		<actor>DUCH.</actor>
 		<actor>HUME.</actor>
+		<actor>YORK. GUARDS.</actor>
 	</action>
 </stagedir>
 <line globalnumber="589" number="47" form="verse">We&#8217;ll see your trinkets here all forthcoming.</line>
@@ -2027,8 +2040,12 @@
 	<scenepersona short="BEAD.">Beadle</scenepersona>
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 	<scenepersona short="ONE. CIT.">One Citizen</scenepersona>
+	<scenepersona short="CIT. ALB.">Citizens of Saint Albans</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="616.02" sdnumber="0.01">
@@ -2327,6 +2344,7 @@
 		<actor>MAY.</actor>
 		<actor>SIMP.</actor>
 		<actor>SIMP. WIFE.</actor>
+		<actor>CIT. ALB.</actor>
 	</action>
 </stagedir>
 
@@ -2695,6 +2713,7 @@
 		<actor>SIMP. WIFE.</actor>
 		<actor>BEAD.</actor>
 		<actor>MAY.</actor>
+		<actor>CIT. ALB.</actor>
 	</action>
 </stagedir>
 
@@ -2824,7 +2843,9 @@
 	<scenepersona short="SAL.">Earl of Salisbury</scenepersona>
 	<scenepersona short="WAR.">Earl of Warwick</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="821.02" sdnumber="0.01">
@@ -3019,7 +3040,9 @@
 	<scenepersona short="2. PREN.">Second Prentice</scenepersona>
 	<scenepersona short="3. PREN.">Third Prentice</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="904.02" sdnumber="0.01">
@@ -3335,7 +3358,9 @@
 	<scenepersona>Officers</scenepersona>
 	<scenepersona short="HER.">Herald</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="986.02" sdnumber="0.01">
@@ -3627,7 +3652,9 @@
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
 	<scenepersona short="POST.">Post</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1097.02" sdnumber="0.01">
@@ -4294,7 +4321,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
 <line globalnumber="1428" number="331" form="verse">Now, York, or never, steel thy fearful thoughts,</line>
 <line globalnumber="1429" number="332" form="verse">And change misdoubt to resolution;</line>
@@ -4377,8 +4404,11 @@
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
 	<scenepersona short="VAUX.">Vaux</scenepersona>
 	<scenepersona short="1. COMMON.">First Commoner</scenepersona>
+	<scenepersona short="COMMONS.">Commoners</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1480.02" sdnumber="0.01">
@@ -4673,6 +4703,8 @@
 	<action type="enter">
 		<actor>WAR.</actor>
 		<actor>SAL.</actor>
+		<actor>1. COMMON.</actor>
+		<actor>COMMONS.</actor>
 	</action>
 </stagedir>
 
@@ -4707,6 +4739,8 @@
 	<action type="exit">
 		<actor>WAR.</actor>
 		<actor>SAL.</actor>
+		<actor>1. COMMON.</actor>
+		<actor>COMMONS.</actor>
 	</action>
 </stagedir>
 
@@ -4974,6 +5008,7 @@
 	<action type="speak">
 		<actor>SAL.</actor>
 		<recipient>1. COMMON.</recipient>
+		<recipient>COMMONS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1724" number="242" form="verse">Sirs, stand apart, the King shall know your mind.&#8212;</line>
@@ -5310,7 +5345,9 @@
 	<scenepersona short="WAR.">Earl of Warwick</scenepersona>
 	<scenepersona short="CAR.">Cardinal Beauford</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1896.02" sdnumber="0.01">
@@ -5432,7 +5469,10 @@
 	<scenepersona short="1. GENT.">First Gentlemen</scenepersona>
 	<scenepersona short="2. GENT.">Second Gentlemen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1929.02" sdnumber="0.01">
@@ -5816,13 +5856,16 @@
 	<scenepersona short="DICK.">Dick the Butcher</scenepersona>
 	<scenepersona short="SMITH.">Smith the Weaver</scenepersona>
 	<scenepersona short="SAW.">Sawyer</scenepersona>
+	<scenepersona short="BEST. SON.">Best&#8217;s Son</scenepersona>
 	<scenepersona short="CLERK. CHAT.">Clerk of Chatham</scenepersona>
 	<scenepersona short="MICH.">Michael</scenepersona>
 	<scenepersona short="STAF.">Sir Humphrey Stafford</scenepersona>
 	<scenepersona short="BRO.">William Stafford</scenepersona>
 	<scenepersona>Stafford&#8217;s Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2079.02" sdnumber="0.01">
@@ -5922,6 +5965,7 @@
 		<actor>DICK.</actor>
 		<actor>SMITH.</actor>
 		<actor>SAW.</actor>
+		<actor>BEST. SON.</actor>
 	</action>
 </stagedir>
 
@@ -6435,6 +6479,7 @@
 		<actor>HOLL.</actor>
 		<actor>CADE.</actor>
 		<actor>DICK.</actor>
+		<actor>BEST. SON.</actor>
 		<actor>SMITH.</actor>
 		<actor>SAW.</actor>
 		<actor>MICH.</actor>
@@ -6450,7 +6495,9 @@
 	<scenepersona short="CADE.">Jack Cade</scenepersona>
 	<scenepersona short="DICK.">Dick the Butcher</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2195.02" sdnumber="0.01">
@@ -6529,7 +6576,9 @@
 	<scenepersona short="2. ROYAL MESS.">Second Royal Messenger</scenepersona>
 	<scenepersona short="3. ROYAL MESS.">Third Royal Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2203.02" sdnumber="0.01">
@@ -6723,9 +6772,11 @@
 <scenepersonae>
 	<scenepersona short="SCALES.">Lord Scales</scenepersona>
 	<scenepersona short="1. LOND. CIT.">First London Citizen</scenepersona>
-	<scenepersona>London Citizens</scenepersona>
+	<scenepersona short="LOND. CIT.">London Citizens</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2262.02" sdnumber="0.01">
@@ -6733,7 +6784,7 @@
 	<action type="enter">
 		<actor>SCALES.</actor>
 		<actor>1. LOND. CIT.</actor>
-		<actor>London Citizens</actor>
+		<actor>LOND. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -6763,7 +6814,7 @@
 	<action type="exit">
 		<actor>SCALES.</actor>
 		<actor>1. LOND. CIT.</actor>
-		<actor>London Citizens</actor>
+		<actor>LOND. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -6779,7 +6830,9 @@
 	<scenepersona short="DICK.">Dick the Butcher</scenepersona>
 	<scenepersona short="SMITH.">Smith the Weaver</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2271.02" sdnumber="0.01">
@@ -6860,7 +6913,11 @@
 	<scenepersona short="SAY.">Lord Say</scenepersona>
 	<scenepersona short="REB. POLE.">Rebel Poleman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2277.02" sdnumber="0.01">
@@ -7180,7 +7237,10 @@
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 	<scenepersona short="CLIF.">Lord Clifford</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2347.02" sdnumber="0.01">
@@ -7337,7 +7397,9 @@
 	<scenepersona short="CADE. FOLL.">Cade&#8217;s Followers</scenepersona>
 	<scenepersona short="4. ROYAL MESS.">Fourth Royal Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2391.02" sdnumber="0.01">
@@ -7491,9 +7553,11 @@
 <scenepersonae>
 	<scenepersona short="CADE.">Jack Cade</scenepersona>
 	<scenepersona short="IDEN.">Alexander Iden</scenepersona>
-	<scenepersona>Servants</scenepersona>
+	<scenepersona short="IDEN. MEN.">Iden&#8217;s Men</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2440.02" sdnumber="0.01">
@@ -7503,7 +7567,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jack Cade">CADE.</speaker>
 <line globalnumber="2441" number="1" form="prose">Fie on ambitions! Fie on myself, that have a sword, and yet am ready to famish! These five days have I hid me in these woods and durst not peep out, for all the country is laid for me; but now am I so hungry that, if I might have a lease of my life for a thousand years, I could stay no longer. Wherefore, on a brick wall have I climb&#8217;d into this garden, to see if I can eat grass, or pick a sallet another while, which is not amiss to cool a man&#8217;s stomach this hot weather. And I think this word &#8217;sallet&#8217; was born to do me good; for many a time, but for a sallet, my brain-pan had been cleft with a brown bill; and many a time, when I have been dry and bravely marching, it hath serv&#8217;d me instead of a quart pot to drink in; and now the word &#8216;sallet&#8217; must serve me to feed on.</line>
 </speech>
@@ -7519,11 +7583,11 @@
 	<dir>Enter Iden followed at a distance by his Servants.</dir>
 	<action type="enter">
 		<actor>IDEN.</actor>
-		<actor>Servants</actor>
+		<actor>IDEN. MEN.</actor>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Alexander Iden">IDEN.</speaker>
 <line globalnumber="2442" number="2" form="verse">Lord, who would live turmoiled in the court</line>
 <line globalnumber="2443" number="3" form="verse">And may enjoy such quiet walks as these?</line>
@@ -7630,7 +7694,8 @@
 	<dir>Exit dragging out the body, with his Servants.</dir>
 	<action type="exit">
 		<actor>IDEN.</actor>
-		<actor>Servants</actor>
+		<actor>IDEN. MEN.</actor>
+		<recipient>CADE.</recipient>
 	</action>
 </stagedir>
 
@@ -7644,6 +7709,7 @@
 <scenelocation>Fields Between Dartford and Blackheath.</scenelocation>
 <scenepersonae>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
+	<scenepersona short="YORK. ATT.">York&#8217;s Attendant</scenepersona>
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
@@ -7658,13 +7724,17 @@
 	<scenepersona short="WAR.">Earl of Warwick</scenepersona>
 	<scenepersona short="SAL.">Earl of Salisbury</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2488.02" sdnumber="0.01">
 	<dir>Enter York and his army of Irish with Drum and Colors.</dir>
 	<action type="enter">
 		<actor>YORK.</actor>
+		<actor>YORK. ATT.</actor>
 		<actor>Soldiers</actor>
 	</action>
 </stagedir>
@@ -7943,7 +8013,7 @@
 <stagedir sdglobalnumber="2600.01" sdnumber="111.01">
 	<dir>Exit Attendant.</dir>
 	<action type="exit">
-		<actor>Attendant</actor>
+		<actor>YORK. ATT.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2601" number="112" form="verse">I know, ere they will have me go to ward,</line>
@@ -8270,7 +8340,10 @@
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
 	<scenepersona short="QUEEN.">Queen Margaret</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2705.02" sdnumber="0.01">
@@ -8585,7 +8658,9 @@
 	<scenepersona>Soldiers</scenepersona>
 	<scenepersona short="SAL.">Earl of Salisbury</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2796.02" sdnumber="0.01">
@@ -8676,7 +8751,31 @@
 </act>
 
 
-
+<locations numberOfLocations="23">
+<placename>A hall of justice.</placename>
+<placename>Another part of Blackheath.</placename>
+<placename>Battlefield at Saint Albans.</placename>
+<placename>Blackheath.</placename>
+<placename>Bury St. Edmund&#8217;s. A palace room of state.</placename>
+<placename>Coast of Kent. Seashore near Dover.</placename>
+<placename>Field nearby Saint Albans.</placename>
+<placename>Fields Between Dartford and Blackheath.</placename>
+<placename>Kenilworth Castle.</placename>
+<placename>Kent. Iden&#8217;s Garden.</placename>
+<placename>London. A room in Gloucester&#8217;s house.</placename>
+<placename>London. A room in the palace.</placename>
+<placename>London. A room of state in the palace.</placename>
+<placename>London. A street.</placename>
+<placename>London. Cannon Street.</placename>
+<placename>London. Gloucester&#8217;s Garden.</placename>
+<placename>London. Smithfield.</placename>
+<placename>London. The Cardinal&#8217;s bedchamber.</placename>
+<placename>London. The Tower.</placename>
+<placename>London. York&#8217;s garden.</placename>
+<placename>Southwark.</placename>
+<placename>St. Albans.</placename>
+<placename>The Abbey at Bury St. Edmund&#8217;s.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -8718,9 +8817,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>3.5</version>
-<pscatid>136</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Double Falsehood">Double Falsehood, or The Distressed Lovers</title>
@@ -107,7 +107,9 @@
 	<scenepersona short="DUKE.">Duke Angelo</scenepersona>
 	<scenepersona short="RODER.">Roderick</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -219,7 +221,10 @@
 	<scenepersona short="LEON.">Leonora</scenepersona>
 	<scenepersona short="D. BERN.">Don Bernard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="50.02" sdnumber="0.01">
@@ -229,7 +234,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Camillo">CAM.</speaker>
 <line globalnumber="51" number="1" form="prose">How comes the Duke to take such notice of my son, that he must needs have him in court, and I must send him upon the view of his letter?&#8212;Horsemanship! What horsemanship has Julio? I think, he can no more but gallop a hackney, unless he practiced riding in France. It may be, he did so; for he was there a good continuance. But I have not heard him speak much of his horsemanship. That&#8217;s no matter: if he be not a good horseman, all&#8217;s one in such a case, he must bear. Princes are absolute; they may do what they will in any thing, save what they cannot do.</line>
 <stagedir sdglobalnumber="51.01" sdnumber="1.01">
@@ -238,7 +243,6 @@
 		<actor>JUL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="52" number="2" form="prose">O, come on, sir; read this paper: no more ado, but read it: it must not be answer&#8217;d by my hand, nor yours, but, in gross, by your person; your sole person. Read aloud.</line>
 </speech>
 
@@ -384,7 +388,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Julio">JUL.</speaker>
 <line globalnumber="76" number="26" form="verse">I do not see that fervor in the maid,</line>
 <line globalnumber="77" number="27" form="verse">Which youth and love should kindle. She consents,</line>
@@ -403,7 +407,6 @@
 		<actor>LEON.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="87" number="37" form="verse">See, how her beauty doth enrich the place!</line>
 <line globalnumber="88" number="38" form="verse">O, add the music of thy charming tongue,</line>
 <line globalnumber="89" number="39" form="verse">Sweet as the lark that wakens up the morn,</line>
@@ -686,7 +689,9 @@
 	<scenepersona short="GER.">Gerald</scenepersona>
 	<scenepersona short="VIOL.">Violante</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="214.02" sdnumber="0.01">
@@ -727,7 +732,6 @@
 		<actor>HENR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="229" number="15" form="verse">She drives me into wonder, when I sometimes</line>
 <line globalnumber="230" number="16" form="verse">Hear her discourse; the court, whereof report,</line>
 <line globalnumber="231" number="17" form="verse">And guess alone inform her, she will rave at,</line>
@@ -833,7 +837,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henriquez">HENR.</speaker>
 <line globalnumber="282" number="61" form="verse" offset="6">Stay, bright maid!</line>
 <line globalnumber="283" number="62" form="verse">Come back, and leave me with a fairer hope.</line>
@@ -875,7 +879,9 @@
 	<scenepersona short="LOP.">Lopez</scenepersona>
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="298.02" sdnumber="0.01">
@@ -995,7 +1001,10 @@
 	<scenepersona short="MAID.">Maid</scenepersona>
 	<scenepersona short="GER.">Gerald</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="339.02" sdnumber="0.01">
@@ -1005,7 +1014,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Violante">VIOL.</speaker>
 <line globalnumber="340" number="1" form="verse">Whom shall I look upon without a blush?</line>
 <line globalnumber="341" number="2" form="verse">There&#8217;s not a maid, whose eye with virgin gaze</line>
@@ -1082,7 +1091,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Violante">VIOL.</speaker>
 <line globalnumber="362" number="22" form="verse">To hearts like mine suspense is misery.</line>
 <line globalnumber="363" number="23" form="verse">Wax, render up thy trust: be the contents</line>
@@ -1134,7 +1143,9 @@
 	<scenepersona short="LEON.">Leonora</scenepersona>
 	<scenepersona short="CAM.">Camillo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="385.02" sdnumber="0.01">
@@ -1144,7 +1155,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Henriquez">HENR.</speaker>
 <line globalnumber="386" number="1" form="verse">Where were the eyes, the voice, the various charms,</line>
 <line globalnumber="387" number="2" form="verse">Each beauteous particle, each nameless grace,</line>
@@ -1512,7 +1523,9 @@
 	<scenepersona short="CITIZ.">Citizen</scenepersona>
 	<scenepersona short="D. BERN.">Don Bernard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="532.02" sdnumber="0.01">
@@ -1522,7 +1535,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Leonora">LEON.</speaker>
 <line globalnumber="533" number="1" form="verse">How tediously I&#8217;ve waited at the window,</line>
 <line globalnumber="534" number="2" form="verse">Yet know not one that passes. Should I trust</line>
@@ -1664,11 +1677,13 @@
 	<scenepersona short="CITIZ.">Citizen</scenepersona>
 	<scenepersona short="JUL.">Julio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
    
 <stagedir sdglobalnumber="572.02" sdnumber="0.01">
-	<dir>Enter Julio with a letter, and citizen.</dir>
+	<dir>Enter Julio with a letter, and Citizen.</dir>
 	<action type="enter">
 		<actor>JUL.</actor>
 		<actor>CITIZ.</actor>
@@ -1785,7 +1800,9 @@
 	<scenepersona short="LADIES.">Ladies Attending on Leonora</scenepersona>
 	<scenepersona>Servants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="620.02" sdnumber="0.01">
@@ -1941,7 +1958,6 @@
 		<actor>LEON.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="692" number="64" form="verse" offset="7">Hark! Again;</line>
 <line globalnumber="693" number="65" form="verse">These are the bells knoll for us. See, the lights</line>
 <line globalnumber="694" number="66" form="verse">Move this way, Julio. Quick, behind yon arras,</line>
@@ -1958,7 +1974,6 @@
 		<actor>LEON.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="702" number="74" form="verse">To fall a bleeding sacrifice before thee.</line>
 <stagedir sdglobalnumber="702.01" sdnumber="74.01">
 	<dir>Thrusts him out, to the arras.</dir>
@@ -1966,7 +1981,6 @@
 		<actor>LEON.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="703" number="75" form="verse">I dare not tell thee of my purpose, Julio,</line>
 <line globalnumber="704" number="76" form="verse">Lest it should wrap thee in such agonies,</line>
 <line globalnumber="705" number="77" form="verse">Which my love could not look on.</line>
@@ -2234,7 +2248,6 @@
 		<recipient>LEON.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="806" number="164" form="verse">Don Bernard, this wild tumult soon will cease,</line>
 <line globalnumber="807" number="165" form="verse">The cause remov&#8217;d; and all return to calmness.</line>
 <line globalnumber="808" number="166" form="verse">Passions in women are as short in working,</line>
@@ -2268,7 +2281,9 @@
 	<scenepersona short="D. BERN.">Don Bernard</scenepersona>
 	<scenepersona short="SERV.">Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="811.02" sdnumber="0.01">
@@ -2278,7 +2293,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Roderick">RODER.</speaker>
 <line globalnumber="812" number="1" form="verse">Julio&#8217;s departure thus in secret from me,</line>
 <line globalnumber="813" number="2" form="verse">With the long doubtful absence of my brother,</line>
@@ -2296,7 +2311,6 @@
 		<actor>CAM.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="822" number="10" form="verse" offset="6">Old sir, I&#8217;m glad</line>
 <line globalnumber="823" number="11" form="verse">To &#8217;ve met you thus. What ails the man? Camillo,&#8212;</line>
 </speech>
@@ -2678,7 +2692,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Violante">VIOL.</speaker>
 <line globalnumber="949" number="119" form="verse">I would, your brother had but half your virtue!</line>
 <line globalnumber="950" number="120" form="verse">Yet there remains a little spark of hope</line>
@@ -2697,7 +2711,6 @@
 		<actor>SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="960" number="130" form="verse">O, are you come? What news?</line>
 </speech>
 
@@ -2821,7 +2834,9 @@
 	<scenepersona short="RODER.">Roderick</scenepersona>
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="991.02" sdnumber="0.01">
@@ -3241,7 +3256,6 @@
 		<actor>VIOL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1123" number="120" form="prose">Come hither, boy; where did you leave the flock, child?</line>
 </speech>
 
@@ -3453,7 +3467,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Roderick">RODER.</speaker>
 <line globalnumber="1177" number="170" form="verse">What a brute fellow&#8217;s this! Are they all thus?</line>
 <line globalnumber="1178" number="171" form="verse">My brother Henriquez tells me by his letters,</line>
@@ -3596,7 +3610,9 @@
 	<scenepersona short="2. GENT.">Second Gentleman</scenepersona>
 	<scenepersona short="VIOL.">Violante</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1234.02" sdnumber="0.01">
@@ -3668,7 +3684,6 @@
 		<actor>VIOL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1253" number="16" form="verse" type="lyric">Fond echo! Forego thy light strain,</line>
 <line globalnumber="1254" number="17" form="verse" type="lyric">And heedfully hear a lost maid;</line>
 <line globalnumber="1255" number="18" form="verse" type="lyric">Go, tell the false ear of the swain</line>
@@ -3705,7 +3720,6 @@
 		<actor>VIOL.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1267" number="28" form="verse" type="lyric">Go, tell him, what sorrows I bear;</line>
 <line globalnumber="1268" number="29" form="verse" type="lyric">See, yet if his heart feel my woe:</line>
 <line globalnumber="1269" number="30" form="verse" type="lyric">&#8217;Tis now he must heal my despair,</line>
@@ -3923,7 +3937,9 @@
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 	<scenepersona short="VIOL.">Violante</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1363.02" sdnumber="0.01">
@@ -4160,7 +4176,10 @@
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 	<scenepersona short="JUL.">Julio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1453.02" sdnumber="0.01">
@@ -5178,7 +5197,20 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="12">
+<placename>A wide plain, with a prospect of mountains in the distance.</placename>
+<placename>An apartment in the lodge.</placename>
+<placename>An apartment.</placename>
+<placename>Another part of the prospect of the mountains.</placename>
+<placename>Another prospect of Don Bernard&#8217;s house.</placename>
+<placename>Don Bernard&#8217;s house.</placename>
+<placename>Outside an apartment.</placename>
+<placename>Prospect of a village at a distance.</placename>
+<placename>Prospect of a village. Before Don Bernard&#8217;s house.</placename>
+<placename>The prospect of a village.</placename>
+<placename>The prospect of the mountains.</placename>
+<placename>The province of Andalusia in Spain. A royal palace.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -5202,12 +5234,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>725</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

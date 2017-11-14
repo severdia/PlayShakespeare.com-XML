@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Macbeth">The Tragedy of Macbeth</title>
@@ -8,7 +8,7 @@
 
 <personae playtitle="Macbeth">
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="DUN." numberOfLines="70" numberOfVerseLines="70" numberOfProseLines="0" numberOfLyricsLines="0">Duncan, King of Scotland</persname>
 </persona>
 
@@ -23,29 +23,29 @@
 <persname short="DON." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Donalbain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MACB." numberOfLines="716" numberOfVerseLines="708" numberOfProseLines="0" numberOfLyricsLines="0">Macbeth</persname>
+<persona gender="male" archetype="villain" death="yes">
+<persname short="MACB." numberOfLines="716" numberOfVerseLines="716" numberOfProseLines="0" numberOfLyricsLines="0">Macbeth</persname>
 <persaliases>
 	<persname short="MACB. AND LEN.">Macbeth and Lennox</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes">
 <persname short="LADY MACB." numberOfLines="236" numberOfVerseLines="230" numberOfProseLines="6" numberOfLyricsLines="0">Lady Macbeth</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="L. MACD." numberOfLines="40" numberOfVerseLines="33" numberOfProseLines="7" numberOfLyricsLines="0">Lady Macduff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="BAN." numberOfLines="113" numberOfVerseLines="113" numberOfProseLines="0" numberOfLyricsLines="0">Banquo</persname>
 <persaliases>
 	<persname short="GHOST. BAN.">Ghost of Banquo</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="MACD." numberOfLines="179" numberOfVerseLines="179" numberOfProseLines="0" numberOfLyricsLines="0">Macduff</persname>
 </persona>
 
@@ -88,7 +88,7 @@
 <persname short="SEY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Seyton</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="SON." numberOfLines="16" numberOfVerseLines="9" numberOfProseLines="7" numberOfLyricsLines="0">Son to Macduff</persname>
 </persona>
 
@@ -147,11 +147,11 @@
 </persona>
 
 <persona gender="female">
-<persname short="HEC." numberOfLines="40" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="3">Hecat</persname>
+<persname short="HEC." numberOfLines="40" numberOfVerseLines="40" numberOfProseLines="0" numberOfLyricsLines="3">Hecat</persname>
 </persona>
 
 <persona gender="female">
-<persname short="1. WITCH." numberOfLines="82" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">First Witch</persname>
+<persname short="1. WITCH." numberOfLines="82" numberOfVerseLines="82" numberOfProseLines="0" numberOfLyricsLines="0">First Witch</persname>
 <persaliases>
 	<persname short="THREE WITCHES">Three Witches</persname>
 	<persname short="ALL. WITCHES">All Witches</persname>
@@ -160,7 +160,7 @@
 </persona>
 
 <persona gender="female">
-<persname short="2. WITCH." numberOfLines="48" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Second Witch</persname>
+<persname short="2. WITCH." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">Second Witch</persname>
 <persaliases>
 	<persname short="THREE WITCHES">Three Witches</persname>
 	<persname short="ALL. WITCHES">All Witches</persname>
@@ -169,7 +169,7 @@
 </persona>
 
 <persona gender="female">
-<persname short="3. WITCH." numberOfLines="48" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Third Witch</persname>
+<persname short="3. WITCH." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">Third Witch</persname>
 <persaliases>
 	<persname short="THREE WITCHES">Three Witches</persname>
 	<persname short="ALL. WITCHES">All Witches</persname>
@@ -186,7 +186,7 @@
 </persona>
 
 <persona gender="female">
-<persname short="5. WITCH." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Witch</persname>
+<persname short="5. WITCH." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Witch</persname>
 <persaliases>
 	<persname short="ALL. WITCHES">All Witches</persname>
 	<persname short="ALL. WITCHES, APP.">All Witches and Apparitions</persname>
@@ -202,21 +202,21 @@
 </persona>
 
 <persona gender="male">
-<persname short="1. APP." numberOfLines="4" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First Apparition</persname>
+<persname short="1. APP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Apparition</persname>
 <persaliases>
 	<persname short="ALL. WITCHES, APP.">All Witches and Apparitions</persname>
 </persaliases>
 </persona>
 
 <persona gender="male">
-<persname short="2. APP." numberOfLines="6" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Apparition</persname>
+<persname short="2. APP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second Apparition</persname>
 <persaliases>
 	<persname short="ALL. WITCHES, APP.">All Witches and Apparitions</persname>
 </persaliases>
 </persona>
 
 <persona gender="male">
-<persname short="3. APP." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Apparition</persname>
+<persname short="3. APP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Third Apparition</persname>
 <persaliases>
 	<persname short="ALL. WITCHES, APP.">All Witches and Apparitions</persname>
 </persaliases>
@@ -246,7 +246,9 @@
 	<scenepersona short="2. WITCH.">Second Witch</scenepersona>
 	<scenepersona short="3. WITCH.">Third Witch</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -316,7 +318,9 @@
 <stagedir sdglobalnumber="13.01" sdnumber="12.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>ALL. WITCHES</actor>
+		<actor>1. WITCH.</actor>
+		<actor>2. WITCH.</actor>
+		<actor>3. WITCH.</actor>
 	</action>
 </stagedir>
 
@@ -335,7 +339,9 @@
 	<scenepersona short="ROSSE.">Rosse</scenepersona>
 	<scenepersona short="ANG.">Angus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="13.02" sdnumber="0.01">
@@ -538,7 +544,9 @@
 	<scenepersona short="ROSSE.">Rosse</scenepersona>
 	<scenepersona short="ANG.">Angus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="89.02" sdnumber="0.01">
@@ -912,7 +920,7 @@
 <line globalnumber="224" number="127" form="verse" offset="0">Cousins, a word, I pray you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <stagedir sdglobalnumber="224.01" sdnumber="127.01">
 	<dir>Aside.</dir>
@@ -1039,7 +1047,9 @@
 	<scenepersona short="ROSSE.">Rosse</scenepersona>
 	<scenepersona short="ANG.">Angus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="258.02" sdnumber="0.01">
@@ -1208,7 +1218,9 @@
 	<scenepersona short="MACB. MESS.">Macbeth&#8217;s Messenger</scenepersona>
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="323.02" sdnumber="0.01">
@@ -1218,7 +1230,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <stagedir sdglobalnumber="323.03" sdnumber="0.02">
 	<dir>Reads.</dir>
@@ -1272,7 +1284,7 @@
 <line globalnumber="349" number="24" form="verse" offset="0">Than would make up his message.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="350" number="24" form="verse" offset="7">Give him tending,</line>
 <line globalnumber="351" number="25" form="verse" offset="0">He brings great news.</line>
@@ -1282,7 +1294,6 @@
 		<actor>MACB. MESS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="352" number="25" form="verse" offset="5">The raven himself is hoarse</line>
 <line globalnumber="353" number="26" form="verse">That croaks the fatal entrance of Duncan</line>
 <line globalnumber="354" number="27" form="verse">Under my battlements. Come, you spirits</line>
@@ -1306,7 +1317,6 @@
 		<actor>MACB.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="369" number="41" form="verse" offset="5">Great Glamis! Worthy Cawdor!</line>
 <line globalnumber="370" number="42" form="verse">Greater than both, by the all-hail hereafter!</line>
 <line globalnumber="371" number="43" form="verse">Thy letters have transported me beyond</line>
@@ -1382,7 +1392,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="LADY MACB.">Lady Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="392.02" sdnumber="0.01">
@@ -1499,7 +1511,9 @@
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 	<scenepersona short="LADY MACB.">Lady Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="429.02" sdnumber="0.01">
@@ -1511,7 +1525,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <line globalnumber="430" number="1" form="verse">If it were done, when &#8217;tis done, then &#8217;twere well</line>
 <line globalnumber="431" number="2" form="verse">It were done quickly. If th&#8217; assassination</line>
@@ -1547,7 +1561,6 @@
 		<actor>LADY MACB.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="458" number="28" form="verse" offset="5">How now? What news?</line>
 </speech>
 
@@ -1686,7 +1699,9 @@
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 	<scenepersona short="SERV.">Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="521.02" sdnumber="0.01">
@@ -1728,7 +1743,6 @@
 		<recipient>FLE.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="528" number="6" form="verse">A heavy summons lies like lead upon me,</line>
 <line globalnumber="529" number="7" form="verse">And yet I would not sleep. Merciful powers,</line>
 <line globalnumber="530" number="8" form="verse">Restrain in me the cursed thoughts that nature</line>
@@ -1740,7 +1754,6 @@
 		<actor>SERV.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="532" number="9" form="verse" offset="5">Give me my sword.</line>
 <line globalnumber="533" number="10" form="verse">Who&#8217;s there?</line>
 </speech>
@@ -1819,7 +1832,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <line globalnumber="560" number="31" form="verse">Go bid thy mistress, when my drink is ready,</line>
 <line globalnumber="561" number="32" form="verse">She strike upon the bell. Get thee to bed.</line>
@@ -1863,7 +1876,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="591" number="62" form="verse">I go, and it is done; the bell invites me.</line>
 <line globalnumber="592" number="63" form="verse">Hear it not, Duncan, for it is a knell,</line>
 <line globalnumber="593" number="64" form="verse">That summons thee to heaven or to hell.</line>
@@ -1885,7 +1897,9 @@
 	<scenepersona short="LADY MACB.">Lady Macbeth</scenepersona>
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="593.02" sdnumber="0.01">
@@ -2120,7 +2134,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="670" number="63" form="verse" offset="5">I hear a knocking</line>
 <line globalnumber="671" number="64" form="verse">At the south entry. Retire we to our chamber.</line>
 <line globalnumber="672" number="65" form="verse">A little water clears us of this deed;</line>
@@ -2131,7 +2144,6 @@
 	<action type="sound">
 	</action>
 </stagedir>
-
 <line globalnumber="675" number="67" form="verse" offset="5">Hark, more knocking.</line>
 <line globalnumber="676" number="68" form="verse">Get on your night-gown, lest occasion call us</line>
 <line globalnumber="677" number="69" form="verse">And show us to be watchers. Be not lost</line>
@@ -2173,7 +2185,9 @@
 	<scenepersona short="MAL.">Malcolm</scenepersona>
 	<scenepersona short="DON.">Donalbain</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="680.02" sdnumber="0.01">
@@ -2183,7 +2197,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Porter">PORT.</speaker>
 <line globalnumber="681" number="1" form="prose">Here&#8217;s a knocking indeed! If a man were porter of Hell Gate, he should have old turning the key.</line>
 <stagedir sdglobalnumber="681.01" sdnumber="1.01">
@@ -2413,7 +2427,6 @@
 		<actor>LEN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="735" number="46" form="verse" offset="7">Awake, awake!</line>
 <line globalnumber="736" number="47" form="verse">Ring the alarum-bell! Murder and treason!</line>
 <line globalnumber="737" number="48" form="verse">Banquo and Donalbain! Malcolm, awake!</line>
@@ -2456,7 +2469,6 @@
 		<actor>BAN.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="750" number="59" form="verse" offset="5">O Banquo, Banquo,</line>
 <line globalnumber="751" number="60" form="verse" offset="0">Our royal master&#8217;s murder&#8217;d!</line>
 </speech>
@@ -2618,7 +2630,6 @@
 		<recipient>LADY MACB.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="799" number="99" form="verse">And when we have our naked frailties hid,</line>
 <line globalnumber="800" number="100" form="verse">That suffer in exposure, let us meet</line>
 <line globalnumber="801" number="101" form="verse">And question this most bloody piece of work,</line>
@@ -2704,7 +2715,10 @@
 	<scenepersona short="OLD MAN.">Old Man</scenepersona>
 	<scenepersona short="MACD.">Macduff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="823.02" sdnumber="0.01">
@@ -2885,7 +2899,10 @@
 	<scenepersona short="SERV.">Servant</scenepersona>
 	<scenepersona short="BOTH 1. MUR. AND 2. MUR.">Two Murderers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="875.02" sdnumber="0.01">
@@ -2895,7 +2912,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Banquo">BAN.</speaker>
 <line globalnumber="876" number="1" form="verse">Thou hast it now: King, Cawdor, Glamis, all,</line>
 <line globalnumber="877" number="2" form="verse">As the weird women promis&#8217;d, and I fear</line>
@@ -3037,7 +3054,7 @@
 <line globalnumber="925" number="46" form="verse">They are, my lord, without the palace gate.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <line globalnumber="926" number="47" form="verse" offset="0">Bring them before us.</line>
 <stagedir sdglobalnumber="926.01" sdnumber="47.01">
@@ -3253,7 +3270,9 @@
 	<scenepersona short="GENT.">Waiting Gentlewoman</scenepersona>
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1031.02" sdnumber="0.01">
@@ -3292,7 +3311,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1037" number="4" form="verse" offset="7">Nought&#8217;s had, all&#8217;s spent,</line>
 <line globalnumber="1038" number="5" form="verse">Where our desire is got without content;</line>
@@ -3414,7 +3433,9 @@
 	<scenepersona short="BAN.">Banquo</scenepersona>
 	<scenepersona short="FLE.">Fleance</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1092.02" sdnumber="0.01">
@@ -3600,7 +3621,9 @@
 	<scenepersona short="1. MUR.">First Murderer</scenepersona>
 	<scenepersona short="GHOST. BAN.">Ghost of Banquo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1124.02" sdnumber="0.01">
@@ -4075,7 +4098,9 @@
 	<scenepersona short="3. WITCH.">Third Witch</scenepersona>
 	<scenepersona short="HEC.">Hecat</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1292.02" sdnumber="0.01">
@@ -4167,7 +4192,9 @@
 	<scenepersona short="LEN.">Lennox</scenepersona>
 	<scenepersona short="LORD.">Lord</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1329.02" sdnumber="0.01">
@@ -4287,7 +4314,9 @@
 	<scenepersona short="GHOST. BAN.">Ghost of Banquo</scenepersona>
 	<scenepersona short="LEN.">Lennox</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1382.02" sdnumber="0.01">
@@ -4584,7 +4613,7 @@
 <line globalnumber="1475" number="84" form="verse" offset="0">And sleep in spite of thunder.</line>
 <stagedir sdglobalnumber="1475.01" sdnumber="84.01">
 	<dir>Thunder. Third Apparition, a Child crowned, with a tree in his hand.</dir>
-	<action type="soundr">
+	<action type="sound">
 	</action>
 	<action type="enter">
 		<actor>3. APP.</actor>
@@ -4839,7 +4868,9 @@
 	<scenepersona short="MESS.">Messenger</scenepersona>
 	<scenepersona short="BOTH 1. MUR. AND 2. MUR.">First and Second Murderers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1554.02" sdnumber="0.01">
@@ -5094,7 +5125,6 @@
 		<actor>BOTH 1. MUR. AND 2. MUR.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1633" number="72" form="verse" offset="6">What are these faces?</line>
 </speech>
 
@@ -5164,7 +5194,9 @@
 	<scenepersona short="DOCT.">English Doctor</scenepersona>
 	<scenepersona short="ROSSE.">Rosse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1642.03" sdnumber="0.01">
@@ -5756,7 +5788,9 @@
 	<scenepersona short="GENT.">Waiting Gentlewoman</scenepersona>
 	<scenepersona short="LADY MACB.">Lady Macbeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1920.02" sdnumber="0.01">
@@ -5834,7 +5868,7 @@
 <line globalnumber="1933" number="13" form="prose">It is an accustom&#8217;d action with her, to seem thus washing her hands. I have known her continue in this a quarter of an hour.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1934" number="14" form="prose">Yet here&#8217;s a spot.</line>
 </speech>
@@ -5844,7 +5878,7 @@
 <line globalnumber="1935" number="15" form="prose">Hark, she speaks. I will set down what comes from her, to satisfy my remembrance the more strongly.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1936" number="16" form="prose">Out, damn&#8217;d spot! Out, I say! One&#8212;two&#8212;why then &#8217;tis time to do&#8217;t. Hell is murky. Fie, my lord, fie, a soldier, and afeard? What need we fear who knows it, when none can call our pow&#8217;r to accompt? Yet who would have thought the old man to have had so much blood in him?</line>
 </speech>
@@ -5854,7 +5888,7 @@
 <line globalnumber="1937" number="17" form="prose">Do you mark that?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1938" number="18" form="prose">The Thane of Fife had a wife; where is she now? What, will these hands ne&#8217;er be clean? No more o&#8217; that, my lord, no more o&#8217; that; you mar all with this starting.</line>
 </speech>
@@ -5869,7 +5903,7 @@
 <line globalnumber="1940" number="20" form="prose">She has spoke what she should not, I am sure of that; heaven knows what she has known.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1941" number="21" form="verse">Here&#8217;s the smell of the blood still. All the perfumes of Arabia will not sweeten this little hand. O, O, O!</line>
 </speech>
@@ -5899,7 +5933,7 @@
 <line globalnumber="1946" number="26" form="prose">This disease is beyond my practice; yet I have known those which have walk&#8217;d in their sleep who have died holily in their beds.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1947" number="27" form="prose">Wash your hands, put on your night-gown, look not so pale. I tell you yet again, Banquo&#8217;s buried; he cannot come out on &#8217;s grave.</line>
 </speech>
@@ -5909,7 +5943,7 @@
 <line globalnumber="1948" number="28" form="prose">Even so?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lady Macbeth">LADY MACB.</speaker>
 <line globalnumber="1949" number="29" form="prose">To bed, to bed; there&#8217;s knocking at the gate. Come, come, come, come, give me your hand. What&#8217;s done cannot be undone. To bed, to bed, to bed.</line>
 </speech>
@@ -5969,7 +6003,9 @@
 	<scenepersona short="LEN.">Lennox</scenepersona>
 	<scenepersona short="SOLDIERS.">Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1961.02" sdnumber="0.01">
@@ -6085,7 +6121,9 @@
 	<scenepersona short="SERV.">Servant</scenepersona>
 	<scenepersona short="SEY.">Seyton</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1998.02" sdnumber="0.01">
@@ -6147,7 +6185,7 @@
 <line globalnumber="2018" number="18" form="verse">The English force, so please you.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <line globalnumber="2019" number="19" form="verse" offset="0">Take thy face hence.</line>
 <stagedir sdglobalnumber="2019.01" sdnumber="19.01">
@@ -6300,7 +6338,9 @@
 	<scenepersona short="ROSSE.">Rosse</scenepersona>
 	<scenepersona short="SOLDIERS.">Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2069.02" sdnumber="0.01">
@@ -6413,7 +6453,9 @@
 	<scenepersona short="SOLDIERS.">Soldiers</scenepersona>
 	<scenepersona short="MACB. MESS.">Macbeth&#8217;s Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2096.02" sdnumber="0.01">
@@ -6477,7 +6519,7 @@
 <line globalnumber="2114" number="16" form="verse">The Queen, my lord, is dead.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Macbeth">MACB.</speaker>
 <line globalnumber="2115" number="17" form="verse">She should have died hereafter;</line>
 <line globalnumber="2116" number="18" form="verse">There would have been a time for such a word.</line>
@@ -6571,7 +6613,9 @@
 	<scenepersona short="SIW.">Siward</scenepersona>
 	<scenepersona short="MACD.">Macduff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2154.02" sdnumber="0.01">
@@ -6627,7 +6671,9 @@
 	<scenepersona short="MAL.">Malcolm</scenepersona>
 	<scenepersona short="SIW.">Siward</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2165.02" sdnumber="0.01">
@@ -6793,7 +6839,9 @@
 	<scenepersona short="MACB.">Macbeth</scenepersona>
 	<scenepersona short="MACD.">Macduff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2200.02" sdnumber="0.01">
@@ -6937,7 +6985,9 @@
 	<scenepersona short="SOLDIERS.">Soldiers</scenepersona>
 	<scenepersona short="MACD.">Macduff</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2239.03" sdnumber="0.01">
@@ -7082,7 +7132,32 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="24">
+<placename>A camp near Forres.</placename>
+<placename>A cavern.</placename>
+<placename>A desert place.</placename>
+<placename>A heath near Forres.</placename>
+<placename>A heath.</placename>
+<placename>A part of the field.</placename>
+<placename>A room in Macbeth&#8217;s castle.</placename>
+<placename>A room of state in the palace.</placename>
+<placename>Another part of the field.</placename>
+<placename>Before Macbeth&#8217;s castle.</placename>
+<placename>Country near Birnam wood.</placename>
+<placename>Dunsinane. A room in the castle.</placename>
+<placename>Dunsinane. An anteroom in the castle.</placename>
+<placename>Dunsinane. Before the castle.</placename>
+<placename>Dunsinane. Within Macbeth&#8217;s castle.</placename>
+<placename>England. Before the King&#8217;s palace.</placename>
+<placename>Fife. Macduff&#8217;s castle.</placename>
+<placename>Forres. A park near the palace.</placename>
+<placename>Forres. A room in the palace.</placename>
+<placename>Forres. The palace.</placename>
+<placename>Inverness. Macbeth&#8217;s castle.</placename>
+<placename>Outside Macbeth&#8217;s castle.</placename>
+<placename>The country near Dunsinane.</placename>
+<placename>The court of Macbeth&#8217;s castle.</placename>
+</locations>
 
 
 <sources>
@@ -7167,13 +7242,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>120</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

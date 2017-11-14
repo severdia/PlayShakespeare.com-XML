@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Titus Andronicus">The Tragedy of Titus Andronicus</title>
@@ -8,15 +8,15 @@
 
 <personae playtitle="Titus Andronicus">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="SAT." numberOfLines="211" numberOfVerseLines="211" numberOfProseLines="0" numberOfLyricsLines="0">Saturninus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BAS." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">Bassianus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="TIT." numberOfLines="707" numberOfVerseLines="701" numberOfProseLines="6" numberOfLyricsLines="0">Titus Andronicus</persname>
 </persona>
 
@@ -24,15 +24,15 @@
 <persname short="MARC." numberOfLines="297" numberOfVerseLines="296" numberOfProseLines="1" numberOfLyricsLines="0">Marcus Andronicus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="LUC." numberOfLines="181" numberOfVerseLines="181" numberOfProseLines="0" numberOfLyricsLines="0">Lucius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="QUIN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Quintus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="MART." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Martius</persname>
 </persona>
 
@@ -64,31 +64,31 @@
 <persname short="VAL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Valentine</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ALAR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Alarbus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="DEM." numberOfLines="94" numberOfVerseLines="94" numberOfProseLines="0" numberOfLyricsLines="0">Demetrius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="CHI." numberOfLines="52" numberOfVerseLines="52" numberOfProseLines="0" numberOfLyricsLines="0">Chiron</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="AAR." numberOfLines="354" numberOfVerseLines="354" numberOfProseLines="0" numberOfLyricsLines="0">Aaron</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes">
 <persname short="TAM." numberOfLines="258" numberOfVerseLines="256" numberOfProseLines="2" numberOfLyricsLines="0">Tamora</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="LAV." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Lavinia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="NUR." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Nurse</persname>
 </persona>
 
@@ -164,7 +164,11 @@
 	<scenepersona short="AAR.">Aaron the Moor</scenepersona>
 	<scenepersona short="LAV.">Lavinia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -1013,7 +1017,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Titus Andronicus">TIT.</speaker>
 <line globalnumber="342" number="338" form="verse">I am not bid to wait upon this bride.</line>
 <line globalnumber="343" number="339" form="verse">Titus, when wert thou wont to walk alone,</line>
@@ -1322,7 +1326,6 @@
 		<recipient>SAT.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="447" number="442" form="verse">My lord, be rul&#8217;d by me, be won at last,</line>
 <line globalnumber="448" number="443" form="verse">Dissemble all your griefs and discontents.</line>
 <line globalnumber="449" number="444" form="verse">You are but newly planted in your throne;</line>
@@ -1472,7 +1475,10 @@
 	<scenepersona short="CHI.">Chiron</scenepersona>
 	<scenepersona short="DEM.">Demetrius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="500.02" sdnumber="0.01">
@@ -1482,7 +1488,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Aaron">AAR.</speaker>
 <line globalnumber="501" number="1" form="verse">Now climbeth Tamora Olympus&#8217; top,</line>
 <line globalnumber="502" number="2" form="verse">Safe out of fortune&#8217;s shot, and sits aloft,</line>
@@ -1798,7 +1804,9 @@
 	<scenepersona short="DEM.">Demetrius</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="642.02" sdnumber="0.01">
@@ -1842,7 +1850,6 @@
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="653" number="11" form="verse">Many good morrows to your Majesty;</line>
 <line globalnumber="654" number="12" form="verse">Madam, to you as many and as good.</line>
 <line globalnumber="655" number="13" form="verse">I promised your Grace a hunter&#8217;s peal.</line>
@@ -1934,7 +1941,9 @@
 	<scenepersona short="SAT.">Emperor Saturnine</scenepersona>
 	<scenepersona short="LUC.">Lucius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="671.02" sdnumber="0.01">
@@ -2369,7 +2378,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Tamora">TAM.</speaker>
 <line globalnumber="858" number="187" form="verse">Farewell, my sons, see that you make her sure.</line>
 <line globalnumber="859" number="188" form="verse">Ne&#8217;er let my heart know merry cheer indeed</line>
@@ -2742,7 +2751,9 @@
 	<scenepersona short="LAV.">Lavinia</scenepersona>
 	<scenepersona short="MARC.">Marcus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="977.02" sdnumber="0.01">
@@ -2889,7 +2900,9 @@
 	<scenepersona short="AAR.">Aaron the Moor</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1034.02" sdnumber="0.01">
@@ -2904,7 +2917,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Titus Andronicus">TIT.</speaker>
 <line globalnumber="1035" number="1" form="verse">Hear me, grave fathers! Noble tribunes, stay!</line>
 <line globalnumber="1036" number="2" form="verse">For pity of mine age, whose youth was spent</line>
@@ -3542,7 +3555,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lucius">LUC.</speaker>
 <line globalnumber="1325" number="288" form="verse">Farewell, Andronicus, my noble father,</line>
 <line globalnumber="1326" number="289" form="verse">The woefull&#8217;st man that ever liv&#8217;d in Rome.</line>
@@ -3577,7 +3590,9 @@
 	<scenepersona short="LAV.">Lavinia</scenepersona>
 	<scenepersona short="Y. LUC.">Young Lucius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1337.02" sdnumber="0.01">
@@ -3773,7 +3788,10 @@
 	<scenepersona short="TIT.">Titus</scenepersona>
 	<scenepersona short="MARC.">Marcus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1422.02" sdnumber="0.01">
@@ -4093,7 +4111,10 @@
 	<scenepersona short="NUR.">Nurse</scenepersona>
 	<scenepersona short="BL. CHILD.">Black Child</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1552.02" sdnumber="0.01">
@@ -4655,7 +4676,10 @@
 	<scenepersona short="CAI.">Caius</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1736.02" sdnumber="0.01">
@@ -4956,7 +4980,9 @@
 	<scenepersona short="CLO.">Clown</scenepersona>
 	<scenepersona short="AEMIL.">Nuntius Aemilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1842.02" sdnumber="0.01">
@@ -5239,7 +5265,9 @@
 	<scenepersona short="BL. CHILD.">Black Child</scenepersona>
 	<scenepersona short="AEMIL.">Aemilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1953.02" sdnumber="0.01">
@@ -5609,7 +5637,9 @@
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="LAV.">Lavinia</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2119.02" sdnumber="0.01">
@@ -6128,7 +6158,9 @@
 	<scenepersona short="LAV.">Lavinia</scenepersona>
 	<scenepersona short="Y. LUC.">Young Lucius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2324.02" sdnumber="0.01">
@@ -6681,7 +6713,21 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="13">
+<placename>A forest near Rome.</placename>
+<placename>A lonely part of the forest.</placename>
+<placename>A room in Titus&#8217; house.</placename>
+<placename>Another part of the forest.</placename>
+<placename>Court of Titus’s house.</placename>
+<placename>Plains near Rome.</placename>
+<placename>Rome. A public place.</placename>
+<placename>Rome. A room in the palace.</placename>
+<placename>Rome. A street.</placename>
+<placename>Rome. Before Titus&#8217; house.</placename>
+<placename>Rome. Before the Capitol.</placename>
+<placename>Rome. Before the Palace.</placename>
+<placename>Rome. Titus&#8217; garden.</placename>
+</locations>
 
 
 <sources>
@@ -6726,13 +6772,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>154</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

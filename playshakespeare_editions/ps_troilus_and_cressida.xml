@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Troilus and Cressida">The History of Troilus and Cressida</title>
@@ -12,11 +12,11 @@
 <persname short="PRI." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Priam, King of Troy</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="HECT." numberOfLines="213" numberOfVerseLines="212" numberOfProseLines="1" numberOfLyricsLines="0">Hector</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="TRO." numberOfLines="519" numberOfVerseLines="497" numberOfProseLines="22" numberOfLyricsLines="0">Troilus</persname>
 </persona>
 
@@ -42,7 +42,7 @@
 <persname short="MAR." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Margarelon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="AENE." numberOfLines="139" numberOfVerseLines="135" numberOfProseLines="4" numberOfLyricsLines="0">Aeneas</persname>
 <persaliases>
 	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
@@ -53,11 +53,11 @@
 <persname short="CAL." numberOfLines="31" numberOfVerseLines="29" numberOfProseLines="2" numberOfLyricsLines="0">Calchas</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="PAN." numberOfLines="195" numberOfVerseLines="48" numberOfProseLines="147" numberOfLyricsLines="26">Pandarus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="AGAM." numberOfLines="188" numberOfVerseLines="181" numberOfProseLines="7" numberOfLyricsLines="0">Agamemnon</persname>
 </persona>
 
@@ -69,15 +69,15 @@
 <persname short="NEST." numberOfLines="152" numberOfVerseLines="143" numberOfProseLines="9" numberOfLyricsLines="0">Nestor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="ULYSS." numberOfLines="484" numberOfVerseLines="473" numberOfProseLines="11" numberOfLyricsLines="0">Ulysses</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="ACHIL." numberOfLines="179" numberOfVerseLines="146" numberOfProseLines="33" numberOfLyricsLines="0">Achilles</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="AJAX." numberOfLines="74" numberOfVerseLines="41" numberOfProseLines="33" numberOfLyricsLines="0">Ajax</persname>
 </persona>
 
@@ -85,7 +85,7 @@
 <persname short="DIO." numberOfLines="103" numberOfVerseLines="98" numberOfProseLines="5" numberOfLyricsLines="0">Diomedes</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" death="yes">
 <persname short="PATR." numberOfLines="63" numberOfVerseLines="38" numberOfProseLines="25" numberOfLyricsLines="0">Patroclus</persname>
 </persona>
 
@@ -105,7 +105,7 @@
 <persname short="CAS." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Cassandra</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="CRES." numberOfLines="264" numberOfVerseLines="180" numberOfProseLines="84" numberOfLyricsLines="0">Cressida</persname>
 </persona>
 
@@ -171,12 +171,14 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="2" numberOfWords="227" numberOfLines="31">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PROLOGUE.">Prologue</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -223,7 +225,9 @@
 	<scenepersona short="TRO.">Troilus</scenepersona>
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -538,7 +542,11 @@ For my part, I&#8217;ll meddle nor make no more i&#8217; th&#8217; matter.</line
 	<scenepersona short="TROJ. SOLD.">Trojan Soldiers</scenepersona>
 	<scenepersona short="TRO. BOY.">Troilus&#8217; Boy</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="124.02" sdnumber="0.01">
@@ -1407,7 +1415,9 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 	<scenepersona short="TROJ. TRUM.">Trojan Trumpeter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="291.02" sdnumber="0.01">
@@ -2088,7 +2098,9 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 	<scenepersona short="PATR.">Patroclus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="688.02" sdnumber="0.01">
@@ -2546,7 +2558,9 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 	<scenepersona short="HEL.">Helenus</scenepersona>
 	<scenepersona short="CAS.">Cassandra</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="769.02" sdnumber="0.01">
@@ -2932,7 +2946,9 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 	<scenepersona short="AJAX.">Ajax</scenepersona>
 	<scenepersona short="CAL.">Calchas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="988.02" sdnumber="0.01">
@@ -2942,7 +2958,7 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
 <line globalnumber="989" number="1" form="prose">How now, Thersites? What, lost in the labyrinth of thy fury? Shall the elephant Ajax carry it thus? He beats me, and I rail at him. O worthy satisfaction! 
 Would it were otherwise: that I could beat him, whilst he rail&#8217;d at me. &#8217;Sfoot, I&#8217;ll learn to conjure and raise devils, but I&#8217;ll see some issue of my spiteful execrations. Then there&#8217;s Achilles, a rare enginer! If Troy be not taken till these two undermine it, the walls will stand till they fall of themselves. 
@@ -3725,7 +3741,9 @@ Come, what&#8217;s Agamemnon?</line>
 	<scenepersona short="HELEN.">Helen</scenepersona>
 	<scenepersona short="MUSIC.">Musicians</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1188.02" sdnumber="0.01">
@@ -4215,7 +4233,9 @@ And, my lord, he desires you, that if the King call for him at supper, you will 
 	<scenepersona short="TRO.">Troilus</scenepersona>
 	<scenepersona short="CRES.">Cressida</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1291.02" sdnumber="0.01">
@@ -4692,7 +4712,10 @@ If ever you prove false one to another, since I have taken such pain to bring yo
 	<scenepersona short="PATR.">Patroclus</scenepersona>
 	<scenepersona short="THER.">Thersites</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1436.02" sdnumber="0.01">
@@ -5342,7 +5365,7 @@ illustrious six-or-seven-times-honor&#8217;d captain-general of the army, Agamem
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
 <line globalnumber="1721" number="275" form="prose">Would the fountain of your mind were clear again, that I might water an ass at it! 
 I had rather be a tick in a sheep than such a valiant ignorance.</line>
@@ -5370,7 +5393,9 @@ I had rather be a tick in a sheep than such a valiant ignorance.</line>
 	<scenepersona short="ANT.">Antenor</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1721.02" sdnumber="0.01">
@@ -5584,7 +5609,10 @@ I had rather be a tick in a sheep than such a valiant ignorance.</line>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1805.02" sdnumber="0.01">
@@ -5970,7 +5998,9 @@ I would they had broke &#8217;s neck!</line>
 	<scenepersona short="ANT.">Antenor</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1900.02" sdnumber="0.01">
@@ -6044,7 +6074,10 @@ I would they had broke &#8217;s neck!</line>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 	<scenepersona short="GREEK TRUM.">Greek Trumpeter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1913.02" sdnumber="0.01">
@@ -6492,7 +6525,9 @@ I would they had broke &#8217;s neck!</line>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 	<scenepersona short="GREEK TRUM.">Greek Trumpeter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2066.02" sdnumber="0.01">
@@ -7461,7 +7496,9 @@ I would they had broke &#8217;s neck!</line>
 	<scenepersona short="MEN.">Menelaus</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2388.02" sdnumber="0.01">
@@ -7596,7 +7633,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
 <line globalnumber="2421" number="32" form="prose">With too much blood and too little brain, these two may run mad, but, if with too much brain and too little blood they do, I&#8217;ll be a curer of madmen. Here&#8217;s Agamemnon, an honest fellow enough, and one that loves quails, but he has not so much brain as ear-wax; and the goodly transformation of Jupiter there, his brother, the bull, the primitive statue and oblique memorial of cuckolds, a thrifty shoeing-horn in a chain, hanging at his brother&#8217;s leg&#8212;to what form but that he is, should wit larded with malice, and malice fac&#8217;d with wit, turn him to? To an ass, were nothing, he is both ass and ox; to an ox, were nothing, he is both ox and ass. To be a dog, a mule, a cat, a fitchook, a toad, a lizard, an owl, a puttock, or a herring without a roe, I would not care; but to be Menelaus, I would conspire against destiny. Ask me not what I would be if I were not Thersites, for I care not to be the louse of a lazar, so I were not Menelaus. Hey-day! Sprites and fires!</line>
 </speech>
@@ -7762,7 +7799,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
 <line globalnumber="2448" number="53" form="prose">That same Diomed&#8217;s a false-hearted rogue, a most unjust knave. I will no more trust him when he leers than I will a serpent when he hisses. He will spend his mouth and promise, like Brabbler the hound, but when he performs, astronomers foretell it: it is prodigious, there will come some change; the sun borrows of the moon when Diomed keeps his word. I will rather leave to see Hector than not to dog him. They say he keeps a Troyan drab, and uses the traitor Calchas&#8217; tent. I&#8217;ll after&#8212;nothing but lechery! All incontinent varlots!</line>
 </speech>
@@ -7787,7 +7824,10 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="CRES.">Cressida</scenepersona>
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2448.02" sdnumber="0.01">
@@ -8569,7 +8609,9 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="PRI.">Priam</scenepersona>
 	<scenepersona short="PAN.">Pandar</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2658.02" sdnumber="0.01">
@@ -8973,7 +9015,9 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="TRO.">Troilus</scenepersona>
 	<scenepersona short="HECT.">Hector</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2775.02" sdnumber="0.01">
@@ -9081,7 +9125,9 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="AJAX.">Ajax</scenepersona>
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2789.02" sdnumber="0.01">
@@ -9257,7 +9303,9 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 	<scenepersona short="GREEK. KNI.">Greek Knight</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2839.02" sdnumber="0.01">
@@ -9468,7 +9516,9 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 	<scenepersona short="PAR.">Paris</scenepersona>
 	<scenepersona short="MAR.">Margarelon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2873.02" sdnumber="0.01">
@@ -9579,7 +9629,9 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 	<scenepersona short="MYRMIDONS.">Myrmidons</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2887.02" sdnumber="0.01">
@@ -9589,7 +9641,7 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Hector">HECT.</speaker>
 <line globalnumber="2888" number="1" form="verse">Most putrefied core, so fair without,</line>
 <line globalnumber="2889" number="2" form="verse">Thy goodly armor thus hath cost thy life.</line>
@@ -9689,7 +9741,9 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 	<scenepersona short="MYRMIDONS.">Myrmidons</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2909.02" sdnumber="0.01">
@@ -9769,7 +9823,9 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 	<scenepersona short="TRO.">Troilus</scenepersona>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2919.02" sdnumber="0.01">
@@ -9913,7 +9969,22 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 </act>
 
 
-
+<locations numberOfLocations="14">
+<placename>Another part of the plains.</placename>
+<placename>The Grecian camp. Before Achilles&#8217; tent.</placename>
+<placename>The Grecian camp. Before Agamemnon&#8217;s tent.</placename>
+<placename>The Grecian camp. Before Calchas&#8217;s tent.</placename>
+<placename>The Grecian camp.</placename>
+<placename>The plains between Troy and the Grecian camp.</placename>
+<placename>Troy. A court before Pandarus&#8217;s house.</placename>
+<placename>Troy. A room in Priam&#8217;s palace.</placename>
+<placename>Troy. A street before Pandarus&#8217;s house.</placename>
+<placename>Troy. A street.</placename>
+<placename>Troy. Before Priam&#8217;s palace.</placename>
+<placename>Troy. Pandarus&#8217; orchard.</placename>
+<placename>Troy. Pandarus&#8217;s House.</placename>
+<placename>Troy. Priam&#8217;s palace.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -9946,6 +10017,12 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <playsourcedate>1598</playsourcedate>
 </playsource>
 
+<playsource>
+<playsourcetitle>Troilus and Criseyde</playsourcetitle>
+<playsourceauthor>Chaucer</playsourceauthor>
+<playsourcedate>c. 1380</playsourcedate>
+</playsource>
+
 <textsources>
 <textsource title="Folio" edition="1" date="1623">First Folio</textsource>
 <textsource title="Quarto" edition="1" date="1609">Quarto 1</textsource>
@@ -9956,13 +10033,13 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>155</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

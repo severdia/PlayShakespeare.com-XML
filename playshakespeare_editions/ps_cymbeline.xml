@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Cymbeline">Cymbeline</title>
@@ -12,11 +12,11 @@
 <persname short="HEL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Helen</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="IMO." numberOfLines="574" numberOfVerseLines="572" numberOfProseLines="2" numberOfLyricsLines="0">Imogen</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes">
 <persname short="QUEEN." numberOfLines="169" numberOfVerseLines="169" numberOfProseLines="0" numberOfLyricsLines="0">Queen</persname>
 </persona>
 
@@ -70,11 +70,11 @@
 <persname short="BEL." numberOfLines="339" numberOfVerseLines="339" numberOfProseLines="0" numberOfLyricsLines="0">Belarius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="POST." numberOfLines="398" numberOfVerseLines="371" numberOfProseLines="27" numberOfLyricsLines="0">Posthumus Leonatus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="CLO." numberOfLines="154" numberOfVerseLines="115" numberOfProseLines="39" numberOfLyricsLines="0">Cloten</persname>
 </persona>
 
@@ -215,7 +215,10 @@
 	<scenepersona>Lords</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -807,7 +810,9 @@
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
 	<scenepersona short="2. LORD.">Second Lord</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="218.02" sdnumber="0.01">
@@ -991,7 +996,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="HEL.">Helen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="239.02" sdnumber="0.01">
@@ -1135,7 +1142,10 @@
 	<scenepersona short="SPANIARD.">Spaniard</scenepersona>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="287.02" sdnumber="0.01">
@@ -1445,7 +1455,9 @@
 	<scenepersona short="COR.">Cornelius</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="340.02" sdnumber="0.01">
@@ -1633,7 +1645,6 @@
 		<recipient>PIS.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="409" number="60" form="verse" offset="6">Thou tak&#8217;st up</line>
 <line globalnumber="410" number="61" form="verse">Thou know&#8217;st not what; but take it for thy labor.</line>
 <line globalnumber="411" number="62" form="verse">It is a thing I made, which hath the King</line>
@@ -1709,7 +1720,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="JACH.">Jachimo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="439.02" sdnumber="0.01">
@@ -1719,7 +1732,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Imogen">IMO.</speaker>
 <line globalnumber="440" number="1" form="verse">A father cruel, and a step-dame false,</line>
 <line globalnumber="441" number="2" form="verse">A foolish suitor to a wedded lady</line>
@@ -1757,6 +1770,7 @@
 	<dir>Presents a letter.</dir>
 	<action type="action">
 		<actor>JACH.</actor>
+		<recipient>IMO.</recipient>
 	</action>
 </stagedir>
 
@@ -1766,7 +1780,7 @@
 <line globalnumber="455" number="14" form="verse">You&#8217;re kindly welcome.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jachimo">JACH.</speaker>
 <stagedir sdglobalnumber="455.01" sdnumber="14.01">
 	<dir>Aside.</dir>
@@ -2241,7 +2255,9 @@
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
 	<scenepersona short="2. LORD.">Second Lord</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="679.02" sdnumber="0.01">
@@ -2415,7 +2431,7 @@
 <line globalnumber="705" number="25" form="prose">Come, I&#8217;ll go see this Italian. What I have lost today at bowls I&#8217;ll win tonight of him. Come; go.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Second Lord">2. LORD.</speaker>
 <line globalnumber="706" number="26" form="verse">I&#8217;ll attend your lordship.</line>
 <stagedir sdglobalnumber="706.01" sdnumber="26.01">
@@ -2458,7 +2474,9 @@
 	<scenepersona short="HEL.">Helen</scenepersona>
 	<scenepersona short="JACH.">Jachimo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="720.02" sdnumber="0.01">
@@ -2521,7 +2539,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Jachimo">JACH.</speaker>
 <line globalnumber="733" number="11" form="verse">The crickets sing, and man&#8217;s o&#8217;erlabor&#8217;d sense</line>
 <line globalnumber="734" number="12" form="verse">Repairs itself by rest. Our Tarquin thus</line>
@@ -2608,7 +2626,9 @@
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="773.02" sdnumber="0.01">
@@ -2781,7 +2801,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cloten">CLO.</speaker>
 <line globalnumber="821" number="45" form="verse">If she be up, I&#8217;ll speak with her; if not,</line>
 <line globalnumber="822" number="46" form="verse" offset="0">Let her lie still and dream.</line>
@@ -3104,7 +3124,9 @@
 	<scenepersona short="PHI.">Philario</scenepersona>
 	<scenepersona short="JACH.">Jachimo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="931.02" sdnumber="0.01">
@@ -3571,7 +3593,9 @@
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1124.02" sdnumber="0.01">
@@ -3581,7 +3605,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Posthumus Leonatus">POST.</speaker>
 <line globalnumber="1125" number="1" form="verse">Is there no way for men to be, but women</line>
 <line globalnumber="1126" number="2" form="verse">Must be half-workers? We are all bastards,</line>
@@ -3644,7 +3668,9 @@
 	<scenepersona short="LUC.">Caius Lucius</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1159.02" sdnumber="0.01">
@@ -3819,7 +3845,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1236.02" sdnumber="0.01">
@@ -3829,7 +3857,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pisanio">PIS.</speaker>
 <line globalnumber="1237" number="1" form="verse">How? Of adultery? Wherefore write you not</line>
 <line globalnumber="1238" number="2" form="verse">What monsters her accuse? Leonatus!</line>
@@ -3977,7 +4005,9 @@
 	<scenepersona short="GUI.">Guiderius</scenepersona>
 	<scenepersona short="ARV.">Arviragus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1316.02" sdnumber="0.01">
@@ -4090,7 +4120,7 @@
 <line globalnumber="1385" number="64" form="verse" offset="6">Uncertain favor!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Belarius">BEL.</speaker>
 <line globalnumber="1386" number="65" form="verse">My fault being nothing (as I have told you oft)</line>
 <line globalnumber="1387" number="66" form="verse">But that two villains, whose false oaths prevail&#8217;d</line>
@@ -4160,7 +4190,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1428.02" sdnumber="0.01">
@@ -4546,7 +4578,9 @@
 	<scenepersona short="MESS.">Messenger</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1635.02" sdnumber="0.01">
@@ -4795,7 +4829,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cloten">CLO.</speaker>
 <line globalnumber="1720" number="71" form="verse">I love and hate her; for she&#8217;s fair and royal,</line>
 <line globalnumber="1721" number="72" form="verse">And that she hath all courtly parts more exquisite</line>
@@ -4969,7 +5003,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cloten">CLO.</speaker>
 <line globalnumber="1774" number="117" form="prose">Meet thee at Milford-Haven! (I forgot to ask him one thing, I&#8217;ll remember&#8217;t anon.) Even there, thou villain Posthumus, will I kill thee. I would these garments were come. She said upon a time (the bitterness of it I now belch from my heart) that she held the very garment of Posthumus in more respect than my noble and natural person, together with the adornment of my qualities. With that suit upon my back will I ravish her; first kill him, and in her eyes; there shall she see my valor, which will then be a torment to her contempt. He on the ground, my speech of insultment ended on his dead body, and when my lust hath din&#8217;d (which, as I say, to vex her I will execute in the clothes that she so prais&#8217;d), to the court I&#8217;ll knock her back, foot her home again. She hath despis&#8217;d me rejoicingly, and I&#8217;ll be merry in my revenge.</line>
 <stagedir sdglobalnumber="1774.01" sdnumber="117.01">
@@ -5036,7 +5070,9 @@
 	<scenepersona short="GUI.">Guiderius</scenepersona>
 	<scenepersona short="ARV.">Arviragus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1785.02" sdnumber="0.01">
@@ -5046,7 +5082,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Imogen">IMO.</speaker>
 <line globalnumber="1786" number="1" form="verse">I see a man&#8217;s life is a tedious one,</line>
 <line globalnumber="1787" number="2" form="verse">I have tir&#8217;d myself; and for two nights together</line>
@@ -5338,7 +5374,9 @@
 	<scenepersona short="2. SEN.">Second Senator</scenepersona>
 	<scenepersona short="TRI.">Tribunes</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1895.02" sdnumber="0.01">
@@ -5413,7 +5451,9 @@
 <scenepersonae>
 	<scenepersona short="CLO.">Cloten</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1914.02" sdnumber="0.01">
@@ -5423,7 +5463,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Cloten">CLO.</speaker>
 <line globalnumber="1915" number="1" form="prose">I am near to th&#8217; place where they should meet, if Pisanio have mapp&#8217;d it truly. How fit his garments serve me! Why should his mistress, who was made by him that made the tailor, not be fit too? The rather (saving reverence of the word) for &#8217;tis said a woman&#8217;s fitness comes by fits. Therein I must play the workman. I dare speak it to myself, for it is not vainglory for a man and his glass to confer in his own chamber&#8212;I mean, the lines of my body are as well drawn as his; no less young, more strong, not beneath him in fortunes, beyond him in the advantage of the time, above him in birth, alike conversant in general services, and more remarkable in single oppositions; yet this imperceiverant thing loves him in my despite. What mortality is! Posthumus, thy head, which now is growing upon thy shoulders, shall within this hour be off, thy mistress enforc&#8217;d, thy garments cut to pieces before her face: and all this done, spurn her home to her father, who may (happily) be a little angry for my so rough usage; but my mother, having power of his testiness, shall turn all into my commendations. My horse is tied up safe; out, sword, and to a sore purpose! Fortune put them into my hand! This is the very description of their meeting-place, and the fellow dares not deceive me.</line>
 </speech>
@@ -5450,7 +5490,9 @@
 	<scenepersona short="CAP.">Roman Captain</scenepersona>
 	<scenepersona short="PHIL.">Philarmonus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1915.02" sdnumber="0.01">
@@ -6392,7 +6434,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Imogen">IMO.</speaker>
 <stagedir sdglobalnumber="2270.02" sdnumber="292.02">
 	<dir>Awakes.</dir>
@@ -6648,7 +6690,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2394.02" sdnumber="0.01">
@@ -6790,7 +6834,9 @@
 	<scenepersona short="GUI.">Guiderius</scenepersona>
 	<scenepersona short="ARV.">Arviragus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2446.02" sdnumber="0.01">
@@ -6945,7 +6991,9 @@
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2511.02" sdnumber="0.01">
@@ -6955,7 +7003,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Posthumus Leonatus">POST.</speaker>
 <line globalnumber="2512" number="1" form="verse">Yea, bloody cloth, I&#8217;ll keep thee, for I wish&#8217;d</line>
 <line globalnumber="2513" number="2" form="verse">Thou shouldst be color&#8217;d thus. You married ones,</line>
@@ -7014,7 +7062,9 @@
 	<scenepersona short="ARV.">Arviragus</scenepersona>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2544.02" sdnumber="0.01">
@@ -7180,7 +7230,9 @@
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona>Roman captives</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2564.02" sdnumber="0.01">
@@ -7433,7 +7485,9 @@
 	<scenepersona short="JUP.">Jupiter</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2666.04" sdnumber="0.01">
@@ -7891,7 +7945,10 @@
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="GUARD.">Guard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2828.02" sdnumber="0.01">
@@ -9202,7 +9259,30 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="22">
+<placename>Another part of the field of battle between the British and Roman camps.</placename>
+<placename>Before Belarius&#8217; cave.</placename>
+<placename>Britain. A hall in Cymbeline&#8217;s palace.</placename>
+<placename>Britain. A prison.</placename>
+<placename>Britain. A public place.</placename>
+<placename>Britain. A room in Cymbeline&#8217;s palace.</placename>
+<placename>Britain. An antechamber adjoining Imogen&#8217;s apartment in Cymbeline&#8217;s palace.</placename>
+<placename>Britain. Another room in Cymbeline&#8217;s palace.</placename>
+<placename>Britain. Before Cymbeline&#8217;s palace.</placename>
+<placename>Britain. Imogen&#8217;s bedchamber in Cymbeline&#8217;s palace.</placename>
+<placename>Britain. The Roman camp.</placename>
+<placename>Britain. The garden of Cymbeline&#8217;s palace.</placename>
+<placename>Cymbeline&#8217;s tent.</placename>
+<placename>Field of battle between the British and Roman camps.</placename>
+<placename>Rome. A public place.</placename>
+<placename>Rome. A room in Pilario&#8217;s house.</placename>
+<placename>Rome. Another room in Philario&#8217;s house.</placename>
+<placename>Rome. Philario&#8217;s house.</placename>
+<placename>The country near Milford-Haven.</placename>
+<placename>Wales. A mountainous country with a cave.</placename>
+<placename>Wales. Before Belarius&#8217; cave.</placename>
+<placename>Wales. The forest near Belarius&#8217; cave.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -9262,11 +9342,11 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>130</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 </play>

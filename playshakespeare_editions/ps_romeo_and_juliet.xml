@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Romeo and Juliet">The Tragedy of Romeo and Juliet</title>
@@ -16,7 +16,7 @@
 <persname short="PRIN." numberOfLines="75" numberOfVerseLines="75" numberOfProseLines="0" numberOfLyricsLines="0">Prince Escalus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="PAR." numberOfLines="70" numberOfVerseLines="70" numberOfProseLines="0" numberOfLyricsLines="0">Paris</persname>
 </persona>
 
@@ -32,19 +32,19 @@
 <persname short="OLD. CAP." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Old Capulet</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" death="yes">
 <persname short="ROM." numberOfLines="593" numberOfVerseLines="564" numberOfProseLines="29" numberOfLyricsLines="0">Romeo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="MER." numberOfLines="175" numberOfVerseLines="130" numberOfProseLines="45" numberOfLyricsLines="7">Mercutio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="BEN." numberOfLines="157" numberOfVerseLines="142" numberOfProseLines="15" numberOfLyricsLines="0">Benvolio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="TYB." numberOfLines="34" numberOfVerseLines="29" numberOfProseLines="5" numberOfLyricsLines="0">Tybalt</persname>
 </persona>
 
@@ -68,15 +68,15 @@
 <persname short="ABR." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Abram</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SAM." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Sampson</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="GRE." numberOfLines="15" numberOfVerseLines="0" numberOfProseLines="15" numberOfLyricsLines="0">Gregory</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="PET." numberOfLines="19" numberOfVerseLines="6" numberOfProseLines="13" numberOfLyricsLines="5">Peter</persname>
 </persona>
 
@@ -88,7 +88,7 @@
 <persname short="AP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Apothecary</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="LA. MON." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lady Montague</persname>
 </persona>
 
@@ -96,7 +96,7 @@
 <persname short="LA. CAP." numberOfLines="114" numberOfVerseLines="114" numberOfProseLines="0" numberOfLyricsLines="0">Lady Capulet</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" death="yes">
 <persname short="JUL." numberOfLines="544" numberOfVerseLines="544" numberOfProseLines="0" numberOfLyricsLines="0">Juliet</persname>
 </persona>
 
@@ -123,15 +123,15 @@
 <persname short="3. WATCH." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Watchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="1. MUS." numberOfLines="10" numberOfVerseLines="2" numberOfProseLines="8" numberOfLyricsLines="0">First Musician</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="2. MUS." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Musician</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="3. MUS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Third Musician</persname>
 </persona>
 
@@ -163,12 +163,14 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="1" numberOfWords="108" numberOfLines="14">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -178,7 +180,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Chorus">CHORUS.</speaker>
 <line globalnumber="1" number="1" form="verse">Two households, both alike in dignity,</line>
 <line globalnumber="2" number="2" form="verse">In fair Verona, where we lay our scene,</line>
@@ -222,7 +224,9 @@
 	<scenepersona short="PRIN.">Prince Escalus</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="14.02" sdnumber="0.01">
@@ -976,7 +980,10 @@
 	<scenepersona short="BEN.">Benvolio</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="236.02" sdnumber="0.01">
@@ -1061,7 +1068,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Second Servingman">2. SERV.</speaker>
 <line globalnumber="275" number="39" form="prose">Find them out whose names are written here! It is written that the shoemaker should meddle with his yard and the tailor with his last, the fisher with his pencil and the painter with his nets; but I am sent to find those persons whose names are here writ, and can never find what names the writing person hath here writ. I must to the learned. In good time!</line>
 </speech>
@@ -1247,7 +1254,9 @@
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="324.02" sdnumber="0.01">
@@ -1522,7 +1531,9 @@
 	<scenepersona>Maskers</scenepersona>
 	<scenepersona>Torch-Bearers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="430.02" sdnumber="0.01">
@@ -1809,7 +1820,9 @@
 	<scenepersona short="MER.">Mercutio</scenepersona>
 	<scenepersona short="BEN.">Benvolio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="550.02" sdnumber="0.01">
@@ -1959,7 +1972,7 @@
 <line globalnumber="587" number="35" form="verse">I know not, sir.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="588" number="36" form="verse">O, she doth teach the torches to burn bright!</line>
 <line globalnumber="589" number="37" form="verse">It seems she hangs upon the cheek of night</line>
@@ -2313,12 +2326,14 @@
 
 <act num="2">
 <acttitle>Act 2</acttitle>
-<prologue actnum="2" num="0">
+<prologue actnum="2" num="0" minutesRunning="1" numberOfWords="115" numberOfLines="14">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="696.02" sdnumber="0.01">
@@ -2328,7 +2343,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Chorus">CHORUS.</speaker>
 <line globalnumber="697" number="1" form="verse">Now old desire doth in his death-bed lie,</line>
 <line globalnumber="698" number="2" form="verse">And young affection gapes to be his heir;</line>
@@ -2363,7 +2378,9 @@
 	<scenepersona short="BEN.">Benvolio</scenepersona>
 	<scenepersona short="MER.">Mercutio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="710.02" sdnumber="0.01">
@@ -2373,7 +2390,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="711" number="1" form="verse">Can I go forward when my heart is here?</line>
 <line globalnumber="712" number="2" form="verse">Turn back, dull earth, and find thy centre out.</line>
@@ -2487,7 +2504,10 @@
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="755.02" sdnumber="0.01">
@@ -2497,7 +2517,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="756" number="1" form="verse">He jests at scars that never felt a wound.</line>
 <stagedir sdglobalnumber="756.01" sdnumber="1.01">
@@ -2537,7 +2557,7 @@
 <line globalnumber="781" number="25" form="verse" offset="6">Ay me!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="782" number="25" form="verse" offset="8">She speaks!</line>
 <line globalnumber="783" number="26" form="verse">O, speak again, bright angel, for thou art</line>
@@ -2549,7 +2569,7 @@
 <line globalnumber="789" number="32" form="verse">And sails upon the bosom of the air.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="790" number="33" form="verse">O Romeo, Romeo, wherefore art thou Romeo?</line>
 <line globalnumber="791" number="34" form="verse">Deny thy father and refuse thy name;</line>
@@ -2568,7 +2588,7 @@
 <line globalnumber="794" number="37" form="verse">Shall I hear more, or shall I speak at this?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="795" number="38" form="verse">&#8217;Tis but thy name that is my enemy;</line>
 <line globalnumber="796" number="39" form="verse">Thou art thyself, though not a Montague.</line>
@@ -2794,7 +2814,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="900" number="139" form="verse">O blessed, blessed night! I am afeard,</line>
 <line globalnumber="901" number="140" form="verse">Being in night, all this is but a dream,</line>
@@ -2871,7 +2891,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="919" number="155" form="verse">A thousand times the worse, to want thy light.</line>
 <line globalnumber="920" number="156" form="verse">Love goes toward love as schoolboys from their books,</line>
@@ -2892,7 +2912,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="922" number="158" form="verse">Hist, Romeo, hist! O, for a falc&#8217;ner&#8217;s voice,</line>
 <line globalnumber="923" number="159" form="verse">To lure this tassel-gentle back again!</line>
@@ -2902,7 +2922,7 @@
 <line globalnumber="927" number="163" form="verse">With repetition of my Romeo&#8217;s name. Romeo!</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="928" number="164" form="verse">It is my soul that calls upon my name.</line>
 <line globalnumber="929" number="165" form="verse">How silver-sweet sound lovers&#8217; tongues by night,</line>
@@ -2985,7 +3005,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="955" number="187" form="verse">Would I were sleep and peace, so sweet to rest!</line>
 <line globalnumber="956" number="188" form="verse">Hence will I to my ghostly sire&#8217;s close cell,</line>
@@ -3008,7 +3028,10 @@
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="957.02" sdnumber="0.01">
@@ -3018,7 +3041,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Friar Lawrence">FRI. L.</speaker>
 <line globalnumber="958" number="1" form="verse">The grey-ey&#8217;d morn smiles on the frowning night,</line>
 <line globalnumber="959" number="2" form="verse">Check&#8217;ring the Eastern clouds with streaks of light,</line>
@@ -3065,7 +3088,7 @@
 
 <speech>
 <speaker long="Friar Lawrence">FRI. L.</speaker>
-<line globalnumber="989" number="31" form="verse" offset="5">Benedicite!</line>
+<line globalnumber="989" number="31" form="verse" offset="5"><foreign xml:lang="la">Benedicite!</foreign></line>
 <line globalnumber="990" number="32" form="verse">What early tongue so sweet saluteth me?</line>
 <line globalnumber="991" number="33" form="verse">Young son, it argues a distempered head</line>
 <line globalnumber="992" number="34" form="verse">So soon to bid good morrow to thy bed.</line>
@@ -3217,7 +3240,11 @@
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="PET.">Peter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1054.02" sdnumber="0.01">
@@ -3786,7 +3813,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="PET.">Peter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1169.02" sdnumber="0.01">
@@ -3796,7 +3825,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="1170" number="1" form="verse">The clock struck nine when I did send the nurse;</line>
 <line globalnumber="1171" number="2" form="verse">In half an hour she promised to return.</line>
@@ -3976,7 +4005,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1241.02" sdnumber="0.01">
@@ -4098,7 +4129,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="LA. MON.">Lady Montague</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1278.02" sdnumber="0.01">
@@ -4652,7 +4686,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1439.02" sdnumber="0.01">
@@ -4662,7 +4698,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="1440" number="1" form="verse">Gallop apace, you fiery-footed steeds,</line>
 <line globalnumber="1441" number="2" form="verse">Towards Phoebus&#8217; lodging; such a wagoner</line>
@@ -4932,7 +4968,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1586.02" sdnumber="0.01">
@@ -5373,7 +5411,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="PAR.">Paris</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1765.02" sdnumber="0.01">
@@ -5482,7 +5522,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1801.02" sdnumber="0.01">
@@ -6140,7 +6183,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="PAR.">County Paris</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2053.02" sdnumber="0.01">
@@ -6451,7 +6497,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="2. SERV.">Second Servingman</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2180.02" sdnumber="0.01">
@@ -6634,7 +6682,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2226.02" sdnumber="0.01">
@@ -6690,7 +6740,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="2241" number="14" form="verse">Farewell! God knows when we shall meet again.</line>
 <line globalnumber="2242" number="15" form="verse">I have a faint cold fear thrills through my veins,</line>
@@ -6764,7 +6814,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 	<scenepersona short="2. SERV.">Second Servingman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2285.02" sdnumber="0.01">
@@ -6920,10 +6972,13 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="3. MUS.">Third Musician</scenepersona>
 	<scenepersona short="PET.">Peter</scenepersona>
 </scenepersonae>
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
-
-<speech>
+<speech type="soliloquy">
 <speaker long="Nurse">NURSE.</speaker>
 <line globalnumber="2318" number="1" form="verse">Mistress! What, mistress! Juliet!&#8212;Fast, I warrant her, she.&#8212;</line>
 <line globalnumber="2319" number="2" form="verse">Why, lamb! Why, lady! Fie, you slug-a-bed!</line>
@@ -7337,7 +7392,9 @@ because musicians have no gold for sounding:</line>
 	<scenepersona short="BAL.">Balthasar</scenepersona>
 	<scenepersona short="AP.">Apothecary</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2447.02" sdnumber="0.01">
@@ -7537,7 +7594,9 @@ because musicians have no gold for sounding:</line>
 	<scenepersona short="FRI. J.">Friar John</scenepersona>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2536.02" sdnumber="0.01">
@@ -7649,7 +7708,9 @@ because musicians have no gold for sounding:</line>
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="MON.">Montague</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2566.02" sdnumber="0.01">
@@ -7878,7 +7939,7 @@ because musicians have no gold for sounding:</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="2641" number="74" form="verse">In faith, I will. Let me peruse this face.</line>
 <line globalnumber="2642" number="75" form="verse">Mercutio&#8217;s kinsman, noble County Paris!</line>
@@ -8037,7 +8098,6 @@ because musicians have no gold for sounding:</line>
 		<actor>FRI. L.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="2713" number="140" form="verse">Alack, alack, what blood is this, which stains</line>
 <line globalnumber="2714" number="141" form="verse">The stony entrance of this sepulchre?</line>
 <line globalnumber="2715" number="142" form="verse">What mean these masterless and gory swords</line>
@@ -8102,7 +8162,7 @@ because musicians have no gold for sounding:</line>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="2734" number="160" form="verse">Go get thee hence, for I will not away.</line>
 <line globalnumber="2735" number="161" form="verse">What&#8217;s here? A cup clos&#8217;d in my true love&#8217;s hand?</line>
@@ -8125,7 +8185,7 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2742" number="167" form="verse" offset="4">Lead, boy, which way?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Juliet">JUL.</speaker>
 <line globalnumber="2743" number="168" form="verse">Yea, noise? Then I&#8217;ll be brief. O happy dagger,</line>
 <stagedir sdglobalnumber="2743.01" sdnumber="168.01">
@@ -8502,7 +8562,18 @@ because musicians have no gold for sounding:</line>
 </act>
 
 
-
+<locations numberOfLocations="10">
+<placename>A churchyard; before a tomb belonging to the Capulets.</placename>
+<placename>A lane by the wall of Capulet&#8217;s orchard.</placename>
+<placename>Capulet&#8217;s orchard.</placename>
+<placename>Friar Lawrence&#8217;s cell.</placename>
+<placename>Juliet&#8217;s chamber.</placename>
+<placename>Mantua. A street.</placename>
+<placename>Verona. A hall in Capulet&#8217;s house.</placename>
+<placename>Verona. A public place.</placename>
+<placename>Verona. A room in Capulet&#8217;s house.</placename>
+<placename>Verona. A street.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -8522,13 +8593,13 @@ because musicians have no gold for sounding:</line>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>123</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Pericles">Pericles, Prince of Tyre</title>
@@ -12,11 +12,11 @@
 <persname short="GOW." numberOfLines="307" numberOfVerseLines="307" numberOfProseLines="0" numberOfLyricsLines="0">Gower</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="ANT." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Antiochus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PER." numberOfLines="598" numberOfVerseLines="588" numberOfProseLines="10" numberOfLyricsLines="0">Pericles</persname>
 <persaliases>
 	<persname short="BOTH THAI., PER.">Both Thaliard and Pericles</persname>
@@ -35,7 +35,7 @@
 <persname short="SIM." numberOfLines="157" numberOfVerseLines="157" numberOfProseLines="0" numberOfLyricsLines="0">Simonides</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="CLE." numberOfLines="110" numberOfVerseLines="110" numberOfProseLines="0" numberOfLyricsLines="0">Cleon</persname>
 </persona>
 
@@ -70,15 +70,15 @@
 <persname short="PAND." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">Pander</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="BOULT." numberOfLines="38" numberOfVerseLines="1" numberOfProseLines="37" numberOfLyricsLines="0">Boult</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="DAUGH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Daughter of Antiochus</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes">
 <persname short="DION." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Dionyza</persname>
 </persona>
 
@@ -86,7 +86,7 @@
 <persname short="THAI." numberOfLines="80" numberOfVerseLines="80" numberOfProseLines="0" numberOfLyricsLines="0">Thaisa</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="MAR." numberOfLines="182" numberOfVerseLines="158" numberOfProseLines="24" numberOfLyricsLines="0">Marina</persname>
 </persona>
 
@@ -274,12 +274,15 @@
 
 <act num="1">
 <acttitle>Act 1</acttitle>
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="3" numberOfWords="281" numberOfLines="42">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -361,7 +364,10 @@
 	<scenepersona short="THAL.">Thaliard</scenepersona>
 	<scenepersona short="ANT. MESS.">Antiochan Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="42.02" sdnumber="0.01">
@@ -535,7 +541,6 @@
 		<recipient>DAUGH.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="118" number="76" form="verse">Fair glass of light, I lov&#8217;d you, and could still,</line>
 <line globalnumber="119" number="77" form="verse">Were not this glorious casket stor&#8217;d with ill.</line>
 <line globalnumber="120" number="78" form="verse">But I must tell you, now my thoughts revolt,</line>
@@ -610,7 +615,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pericles">PER.</speaker>
 <line globalnumber="163" number="121" form="verse">How courtesy would seem to cover sin,</line>
 <line globalnumber="164" number="122" form="verse">When what is done is like an hypocrite,</line>
@@ -761,7 +766,10 @@
 	<scenepersona short="2. LORD. TYRE.">Second Lord of Tyre</scenepersona>
 	<scenepersona short="HEL.">Helicanus</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="216.02" sdnumber="0.01">
@@ -773,7 +781,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Pericles">PER.</speaker>
 <line globalnumber="217" number="1" form="verse" offset="0">Let none disturb us.</line>
 <stagedir sdglobalnumber="217.01" sdnumber="1.01">
@@ -1027,7 +1035,9 @@
 	<scenepersona short="ESCA.">Escanes</scenepersona>
 	<scenepersona>Lords of Tyre</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="345.02" sdnumber="0.01">
@@ -1037,7 +1047,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Thaliard">THAL.</speaker>
 <line globalnumber="346" number="1" form="prose">So this is Tyre, and this the court. Here must I kill King Pericles; and if I do it not, I am sure to be hang&#8217;d at home. &#8217;Tis dangerous. Well, I perceive he was a wise fellow and had good discretion that, being bid to ask what he would of the king, desir&#8217;d he might know none of his secrets. Now do I see he had some reason for&#8217;t; for if a king bid a man be a villain, he&#8217;s bound by the indenture of his oath to be one. Husht! Here comes the lords of Tyre.</line>
 </speech>
@@ -1158,7 +1168,9 @@
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="377.02" sdnumber="0.01">
@@ -1406,7 +1418,7 @@
 <act num="2">
 <acttitle>Act 2</acttitle>
 
-<prologue actnum="2" num="0">
+<prologue actnum="2" num="0" minutesRunning="3" numberOfWords="265" numberOfLines="40">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -1414,7 +1426,9 @@
 	<scenepersona short="CLE.">Cleon</scenepersona>
 	<scenepersona short="1. TYR. MESS.">First Tyrian Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="486.02" sdnumber="0.01">
@@ -1513,7 +1527,9 @@
 	<scenepersona short="2. FISH.">Second Fisherman</scenepersona>
 	<scenepersona short="3. FISH.">Third Fisherman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="526.02" sdnumber="0.01">
@@ -1917,14 +1933,18 @@
 	<scenepersona short="3. LORD. PENT.">Third Lord of Pentapolis</scenepersona>
 	<scenepersona short="THAI.">Princess Thaisa</scenepersona>
 	<scenepersona short="1. KNIGHT.">First Knight</scenepersona>
-	<scenepersona>Pages</scenepersona>
+	<scenepersona short="FIVE PAGES">Pages</scenepersona>
 	<scenepersona short="2. KNIGHT.">Second Knight</scenepersona>
 	<scenepersona short="3. KNIGHT.">Third Knight</scenepersona>
 	<scenepersona short="4. KNIGHT.">Fourth Knight</scenepersona>
 	<scenepersona short="5. KNIGHT.">Fifth Knight</scenepersona>
 	<scenepersona short="PER.">Prince Pericles</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="633.02" sdnumber="0.01">
@@ -1992,7 +2012,7 @@
 	<dir>The First Knight passes by and his Page presents his shield to the Princess.</dir>
 	<action type="action">
 		<actor>1. KNIGHT.</actor>
-		<actor>Page</actor>
+		<actor>FIVE PAGES</actor>
 		<recipient>THAI.</recipient>
 	</action>
 </stagedir>
@@ -2174,7 +2194,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="ALL KNIGHTS.">Knights</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="693.03" sdnumber="0.01">
@@ -2572,7 +2594,9 @@
 	<scenepersona short="2. LORD. TYRE.">Second Lord of Tyre</scenepersona>
 	<scenepersona short="3. LORD. TYRE.">Third Lord of Tyre</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="816.02" sdnumber="0.01">
@@ -2741,7 +2765,9 @@
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="875.02" sdnumber="0.01">
@@ -3054,7 +3080,7 @@
 <act num="3">
 <acttitle>Act 3</acttitle>
 
-<prologue actnum="3" num="0">
+<prologue actnum="3" num="0" minutesRunning="4" numberOfWords="379" numberOfLines="60">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -3066,7 +3092,9 @@
 	<scenepersona short="THAI.">Thaisa</scenepersona>
 	<scenepersona short="LYC.">Lychorida</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="973.02" sdnumber="0.01">
@@ -3132,7 +3160,6 @@
 		<actor>2. TYR. MESS.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="988" number="15" form="verse">By many a dern and painful perch,</line>
 <line globalnumber="989" number="16" form="verse">Of Pericles the careful search,</line>
 <line globalnumber="990" number="17" form="verse">By the four opposing coigns</line>
@@ -3199,7 +3226,9 @@
 	<scenepersona short="1. SAIL.">First Sailor</scenepersona>
 	<scenepersona short="2. SAIL.">Second Sailor</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1033.02" sdnumber="0.01">
@@ -3209,7 +3238,7 @@
 	</action>
 </stagedir>
 	
-<speech>
+<speech type="soliloquy">
 <speaker long="Pericles">PER.</speaker>
 <line globalnumber="1034" number="1" form="verse">The god of this great vast, rebuke these surges,</line>
 <line globalnumber="1035" number="2" form="verse">Which wash both heaven and hell; and thou that hast</line>
@@ -3426,7 +3455,9 @@
 	<scenepersona short="2. CER. SERV.">Cerimon&#8217;s Second Servant</scenepersona>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1111.02" sdnumber="0.01">
@@ -3801,7 +3832,9 @@
 	<scenepersona short="DION.">Dionyza</scenepersona>
 	<scenepersona short="LYC.">Lychorida</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1238.02" sdnumber="0.01">
@@ -3921,7 +3954,9 @@
 	<scenepersona short="CER.">Cerimon</scenepersona>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1286.02" sdnumber="0.01">
@@ -3980,12 +4015,14 @@
 <act num="4">
 <acttitle>Act 4</acttitle>
 
-<prologue actnum="4" num="0">
+<prologue actnum="4" num="0" minutesRunning="3" numberOfWords="320" numberOfLines="52">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1304.02" sdnumber="0.01">
@@ -4070,7 +4107,9 @@
 	<scenepersona short="2. PIRATE.">Second Pirate</scenepersona>
 	<scenepersona short="3. PIRATE.">Third Pirate</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1356.02" sdnumber="0.01">
@@ -4386,7 +4425,10 @@
 	<scenepersona short="3. PIRATE.">Third Pirate</scenepersona>
 	<scenepersona short="MAR.">Marina</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1466.02" sdnumber="0.01">
@@ -4791,7 +4833,9 @@
 	<scenepersona short="CLE.">Cleon</scenepersona>
 	<scenepersona short="DION.">Dionyza</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1537.02" sdnumber="0.01">
@@ -4930,7 +4974,9 @@
 	<scenepersona short="CLE.">Cleon</scenepersona>
 	<scenepersona short="DION.">Dionyza</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1594.02" sdnumber="0.01">
@@ -4989,7 +5035,6 @@
 		<actor>DION.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="1617" number="23" form="verse">See how belief may suffer by foul show!</line>
 <line globalnumber="1618" number="24" form="verse">This borrowed passion stands for true old woe;</line>
 <line globalnumber="1619" number="25" form="verse">And Pericles, in sorrow all devour&#8217;d,</line>
@@ -5043,7 +5088,9 @@
 	<scenepersona short="1. GENT. MYT.">First Gentleman of Mytilene</scenepersona>
 	<scenepersona short="2. GENT. MYT.">Second Gentleman of Mytilene</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1645.02" sdnumber="0.01">
@@ -5099,7 +5146,9 @@
 	<scenepersona short="LYS.">Lysimachus</scenepersona>
 	<scenepersona short="MAR.">Marina</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1650.02" sdnumber="0.01">
@@ -5635,12 +5684,14 @@
 <act num="5">
 <acttitle>Act 5</acttitle>
 
-<prologue actnum="5" num="0">
+<prologue actnum="5" num="0" minutesRunning="2" numberOfWords="194" numberOfLines="24">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1777.02" sdnumber="0.01">
@@ -5702,7 +5753,9 @@
 	<scenepersona short="MAR. LADY">Marina&#8217;s Lady</scenepersona>
 	<scenepersona short="DIA.">Diana</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1801.02" sdnumber="0.01">
@@ -6553,7 +6606,9 @@
 	<scenepersona short="CER.">Cerimon</scenepersona>
 	<scenepersona short="GOW.">Gower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2098.02" sdnumber="0.01">
@@ -6615,7 +6670,9 @@
 	<scenepersona short="MAR.">Marina</scenepersona>
 	<scenepersona short="MAR. LADY">Marina&#8217;s Lady</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2118.02" sdnumber="0.01">
@@ -6891,12 +6948,14 @@
 
 </act>
 
-<epilogue>
+<epilogue minutesRunning="2" numberOfWords="135" numberOfLines="18">
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2216.02" sdnumber="0.01">
@@ -6937,7 +6996,27 @@
 </epilogue>
 
 
-
+<locations numberOfLocations="19">
+<placename>Antioch (Syria). A room in the palace.</placename>
+<placename>Ephesus. A room in Cerimon&#8217;s house.</placename>
+<placename>Ephesus. Before the temple of Diana.</placename>
+<placename>Mytilene. A room in a brothel.</placename>
+<placename>Mytilene. A street before the brothel.</placename>
+<placename>On a ship at sea.</placename>
+<placename>On board Pericles&#8217;s ship, off Mytilene.</placename>
+<placename>Pentapolis. A hall of state and a banquet.</placename>
+<placename>Pentapolis. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</placename>
+<placename>Pentapolis. A room in the palace.</placename>
+<placename>Pentapolis. An open place by the seaside.</placename>
+<placename>Tarsus. A room in Cleon&#8217;s house.</placename>
+<placename>Tarsus. A room in the Governor&#8217;s house.</placename>
+<placename>Tarsus. An open place near the seashore.</placename>
+<placename>Tarsus. Before the tomb of Marina.</placename>
+<placename>The temple of Diana at Ephesus.</placename>
+<placename>Tyre. A room in the Governor&#8217;s house.</placename>
+<placename>Tyre. A room in the palace.</placename>
+<placename>Tyre. An antechamber in the palace.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -6980,13 +7059,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>149</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

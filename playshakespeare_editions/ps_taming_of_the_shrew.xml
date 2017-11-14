@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Taming of the Shrew">The Taming of the Shrew</title>
@@ -15,11 +15,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="SLY." numberOfLines="36" numberOfVerseLines="23" numberOfProseLines="13" numberOfLyricsLines="0">Christopher Sly</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="clown">
 <persname short="HOST." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Hostess</persname>
 </persona>
 
@@ -39,7 +39,7 @@
 <persname short="LUC." numberOfLines="182" numberOfVerseLines="173" numberOfProseLines="9" numberOfLyricsLines="0">Lucentio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PET." numberOfLines="577" numberOfVerseLines="559" numberOfProseLines="18" numberOfLyricsLines="4">Petruchio</persname>
 </persona>
 
@@ -50,32 +50,32 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="HOR." numberOfLines="189" numberOfVerseLines="181" numberOfProseLines="8" numberOfLyricsLines="0">Hortensio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="TRA." numberOfLines="289" numberOfVerseLines="280" numberOfProseLines="9" numberOfLyricsLines="0">Tranio</persname>
 <persaliases>
 	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="BION." numberOfLines="56" numberOfVerseLines="29" numberOfProseLines="27" numberOfLyricsLines="5">Biondello</persname>
 <persaliases>
 	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="GRU." numberOfLines="78" numberOfVerseLines="37" numberOfProseLines="41" numberOfLyricsLines="0">Grumio</persname>
 <persaliases>
 	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="CURT." numberOfLines="24" numberOfVerseLines="5" numberOfProseLines="19" numberOfLyricsLines="0">Curtis</persname>
 </persona>
 
@@ -83,7 +83,7 @@
 <persname short="PED." numberOfLines="45" numberOfVerseLines="36" numberOfProseLines="9" numberOfLyricsLines="0">Pedant</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="KATH." numberOfLines="217" numberOfVerseLines="212" numberOfProseLines="5" numberOfLyricsLines="0">Katherina</persname>
 </persona>
 
@@ -199,20 +199,26 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0">
+<prologue actnum="1" num="0" minutesRunning="9" numberOfWords="1074" numberOfLines="131">
 <scenetitle type="prologue">Prologue Scene 1</scenetitle>
 <scenelocation>Before an alehouse on a heath.</scenelocation>
 <scenepersonae>
 	<scenepersona short="SLY.">Christopher Sly</scenepersona>
+	<scenepersona short="1. SERV.">First Servingman</scenepersona>
+	<scenepersona short="2. SERV.">Second Servingman</scenepersona>
+	<scenepersona short="3. SERV.">Third Servingman</scenepersona>
+	<scenepersona short="PAGE.">Page (Bartholomew)</scenepersona>
 	<scenepersona short="HOST.">Hostess</scenepersona>
 	<scenepersona short="LORD.">Lord</scenepersona>
 	<scenepersona short="1. HUN.">First Huntsman</scenepersona>
 	<scenepersona short="2. HUN.">Second Huntsman</scenepersona>
-	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 	<scenepersona short="1. PLAY.">First Player</scenepersona>
 	<scenepersona short="2. PLAY.">Second Player</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="es">Spanish</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -549,7 +555,7 @@
 
 </prologue>
 
-<prologue actnum="1" num="00">
+<prologue actnum="1" num="00" minutesRunning="10" numberOfWords="1161" numberOfLines="123">
 <scenetitle type="prologue">Prologue Scene 2</scenetitle>
 <scenelocation>A bedchamber in the Lord&#8217;s house.</scenelocation>
 <scenepersonae>
@@ -558,10 +564,12 @@
 	<scenepersona short="2. SERV.">Second Servant</scenepersona>
 	<scenepersona short="3. SERV.">Third Servant</scenepersona>
 	<scenepersona short="LORD.">Lord</scenepersona>
-	<scenepersona short="PAGE.">Page</scenepersona>
+	<scenepersona short="PAGE.">Page (Bartholomew)</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="131.02" sdnumber="0.01">
@@ -932,9 +940,13 @@
 	<scenepersona short="BION.">Biondello</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 	<scenepersona short="SLY.">Sly</scenepersona>
-	<scenepersona short="PAGE.">Page</scenepersona>
+	<scenepersona short="PAGE.">Page (Bartholomew)</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="254.02" sdnumber="0.01">
@@ -1164,7 +1176,7 @@
 
 <speech>
 <speaker long="Katherina">KATH.</speaker>
-<line globalnumber="357" number="102" form="prose">Why, and I trust I may go too, may I not? What, shall I be appointed hours, as though (belike) I knew not what to take and what to leave? Ha!</line>
+<line globalnumber="357" number="102" form="prose">Why, and I trust I may go too, may I not? What, shall I be appointed hours, as though, belike, I knew not what to take and what to leave? Ha!</line>
 </speech>
 
 <stagedir sdglobalnumber="357.01" sdnumber="102.01">
@@ -1524,7 +1536,10 @@
 	<scenepersona short="TRA.">Tranio</scenepersona>
 	<scenepersona short="BION.">Biondello</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="477.02" sdnumber="0.01">
@@ -2218,7 +2233,12 @@
 	<scenepersona short="BION.">Biondello</scenepersona>
 	<scenepersona short="BAP. SERV.">Baptista&#8217;s Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="731.02" sdnumber="0.01">
@@ -2668,7 +2688,7 @@
 <line globalnumber="890" number="158" form="verse">Or shall I send my daughter Kate to you?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Petruchio">PET.</speaker>
 <line globalnumber="891" number="159" form="verse">I pray you do. I&#8217;ll attend her here,</line>
 <stagedir sdglobalnumber="891.01" sdnumber="159.01">
@@ -3357,7 +3377,11 @@
 	<scenepersona short="BIAN.">Bianca</scenepersona>
 	<scenepersona short="BAP. MESS.">Baptista&#8217;s Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1139.02" sdnumber="0.01">
@@ -3648,7 +3672,10 @@
 	<scenepersona short="GRU.">Grumio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1222.02" sdnumber="0.01">
@@ -4341,7 +4368,10 @@
 	<scenepersona short="PET.">Petruchio</scenepersona>
 	<scenepersona short="KATH.">Kate</scenepersona>	
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1449.02" sdnumber="0.01">
@@ -4351,7 +4381,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Grumio">GRU.</speaker>
 <line globalnumber="1450" number="1" form="prose">Fie, fie on all tir&#8217;d jades, on all mad masters, and all foul ways! Was ever man so beaten? Was ever man so ray&#8217;d? Was ever man so weary? I am sent before to make a fire, and they are coming after to warm them. Now were not I a little pot and soon hot, my very lips might freeze to my teeth, my tongue to the roof of my mouth, my heart in my belly, ere I should come by a fire to thaw me. But I with blowing the fire shall warm myself; for considering the weather, a taller man than I will take cold. Holla, ho, Curtis!</line>
 </speech>
@@ -4865,7 +4895,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Petruchio">PET.</speaker>
 <line globalnumber="1567" number="115" form="verse">Thus have I politicly begun my reign,</line>
 <line globalnumber="1568" number="116" form="verse">And &#8217;tis my hope to end successfully.</line>
@@ -4913,7 +4943,10 @@
 	<scenepersona short="BION.">Biondello</scenepersona>
 	<scenepersona short="PED.">Pedant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1590.02" sdnumber="0.01">
@@ -5322,7 +5355,11 @@
 	<scenepersona short="TAI.">Tailor</scenepersona>
 	<scenepersona short="HAB.">Haberdasher</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1715.02" sdnumber="0.01">
@@ -5935,7 +5972,12 @@
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona short="PETER.">Peter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+    <language short="fr">French</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1899.02" sdnumber="0.01">
@@ -6264,7 +6306,9 @@
 	<scenepersona>Servants</scenepersona>
 	<scenepersona short="VIN.">Vincentio</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1992.02" sdnumber="0.01">
@@ -6516,7 +6560,10 @@
 	<scenepersona short="TRA.">Tranio</scenepersona>
 	<scenepersona short="OFF.">Officer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2072.02" sdnumber="0.01">
@@ -7113,7 +7160,10 @@
 	<scenepersona short="WID.">Widow</scenepersona>
 	<scenepersona>Servingmen</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2165.02" sdnumber="0.01">
@@ -7824,7 +7874,20 @@
 </act>
  
  
-
+<locations numberOfLocations="12">
+<placename>A bedchamber in the Lord&#8217;s house.</placename>
+<placename>A public road.</placename>
+<placename>A room in Petruchio&#8217;s house.</placename>
+<placename>Before an alehouse on a heath.</placename>
+<placename>Padua. A public square.</placename>
+<placename>Padua. A room in Baptista Minola&#8217;s house.</placename>
+<placename>Padua. Baptista&#8217;s house.</placename>
+<placename>Padua. Before Baptista&#8217;s house.</placename>
+<placename>Padua. Before Hortensio&#8217;s house.</placename>
+<placename>Padua. Before Lucentio&#8217;s house.</placename>
+<placename>Padua. Lucentio&#8217;s house.</placename>
+<placename>Petruchio&#8217;s country house.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7855,13 +7918,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>203</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

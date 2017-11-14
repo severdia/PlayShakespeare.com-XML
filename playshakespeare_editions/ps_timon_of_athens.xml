@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Timon of Athens">The Life of Timon of Athens</title>
@@ -7,15 +7,16 @@
 <pubdate>1607-1608</pubdate>
 
 <personae playtitle="Timon of Athens">
-<persona gender="male">
+
+<persona gender="male" archetype="hero" death="yes">
 <persname short="TIM." numberOfLines="769" numberOfVerseLines="716" numberOfProseLines="53" numberOfLyricsLines="0">Timon of Athens</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="ALCIB." numberOfLines="157" numberOfVerseLines="155" numberOfProseLines="2" numberOfLyricsLines="0">Alcibiades</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="APEM." numberOfLines="193" numberOfVerseLines="129" numberOfProseLines="64" numberOfLyricsLines="0">Apemantus</persname>
 </persona>
 
@@ -297,7 +298,9 @@
 	<scenepersona short="ALCIB.">Alcibiades</scenepersona>
 	<scenepersona short="BOTH 1. LORD. AND 2. LORD.">Lords</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -1380,7 +1383,10 @@
 	<scenepersona short="FLAM.">Flaminius</scenepersona>
 	<scenepersona short="SER.">Servilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="300.02" sdnumber="0.01">
@@ -2165,7 +2171,9 @@
 	<scenepersona short="3. SEN.">Third Senator</scenepersona>
 	<scenepersona short="CAPH.">Caphis</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="513.02" sdnumber="0.01">
@@ -2175,7 +2183,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Third Senator">3. SEN.</speaker>
 <line globalnumber="514" number="1" form="verse">And late, five thousand; to Varro and to Isidore</line>
 <line globalnumber="515" number="2" form="verse">He owes nine thousand, besides my former sum,</line>
@@ -2276,7 +2284,9 @@
 	<scenepersona short="SER.">Servilius</scenepersona>
 	<scenepersona short="TIM. SERV.">Timon&#8217;s Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="551.02" sdnumber="0.01">
@@ -2286,7 +2296,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Flavius">FLAV.</speaker>
 <line globalnumber="552" number="1" form="verse">No care, no stop, so senseless of expense,</line>
 <line globalnumber="553" number="2" form="verse">That he will neither know how to maintain it,</line>
@@ -3050,7 +3060,9 @@
 	<scenepersona short="LUCUL.">Lucullus</scenepersona>
 	<scenepersona short="LUCUL. SERV.">Lucullus&#8217;s Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="770.02" sdnumber="0.01">
@@ -3189,7 +3201,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Flaminius">FLAM.</speaker>
 <line globalnumber="790" number="20" form="verse">May these add to the number that may scald thee!</line>
 <line globalnumber="791" number="21" form="verse">Let molten coin be thy damnation,</line>
@@ -3225,7 +3237,9 @@
 	<scenepersona short="3. STRAN.">Third Stranger</scenepersona>
 	<scenepersona short="SER.">Servilius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="802.02" sdnumber="0.01">
@@ -3430,7 +3444,9 @@
 	<scenepersona short="TIM. SERV.">Timon&#8217;s Servant</scenepersona>
 	<scenepersona short="SEM.">Sempronius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="853.02" sdnumber="0.01">
@@ -3488,7 +3504,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Timon&#8217;s Servant">TIM. SERV.</speaker>
 <line globalnumber="882" number="27" form="prose">Excellent! Your lordship&#8217;s a goodly villain. The devil knew not what he did when he made man politic; he cross&#8217;d himself by&#8217;t; and I cannot think but, in the end, the villainies of man will set him clear. How fairly this lord strives to appear foul! Takes virtuous copies to be wicked; like those that under hot ardent zeal would set whole realms on fire; of such a nature is his politic love.</line>
 <line globalnumber="883" number="28" form="verse">This was my lord&#8217;s best hope, now all are fled,</line>
@@ -3523,7 +3539,9 @@
 	<scenepersona short="SER.">Servilius</scenepersona>
 	<scenepersona short="TIM.">Timon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="889.02" sdnumber="0.01">
@@ -4048,7 +4066,9 @@
 	<scenepersona short="ALCIB.">Alcibiades</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1006.02" sdnumber="0.01">
@@ -4281,7 +4301,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Alcibiades">ALCIB.</speaker>
 <line globalnumber="1116" number="103" form="verse">Now the gods keep you old enough that you may live</line>
 <line globalnumber="1117" number="104" form="verse">Only in bone, that none may look on you!</line>
@@ -4321,7 +4341,9 @@
 	<scenepersona short="TIM.">Timon</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1129.02" sdnumber="0.01">
@@ -4725,7 +4747,9 @@
 <scenepersonae>
 	<scenepersona short="TIM.">Timon</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1204.02" sdnumber="0.01">
@@ -4735,7 +4759,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Timon of Athens">TIM.</speaker>
 <line globalnumber="1205" number="1" form="verse">Let me look back upon thee. O thou wall</line>
 <line globalnumber="1206" number="2" form="verse">That girdles in those wolves, dive in the earth,</line>
@@ -4798,7 +4822,9 @@
 	<scenepersona short="SER.">Servilius</scenepersona>
 	<scenepersona short="TIM. SERV.">Timon&#8217;s Servant</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1245.02" sdnumber="0.01">
@@ -4865,7 +4891,7 @@
 <line globalnumber="1269" number="22" form="verse" offset="0">Into this sea of air.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Flavius">FLAV.</speaker>
 <line globalnumber="1270" number="22" form="verse" offset="4">Good fellows all,</line>
 <line globalnumber="1271" number="23" form="verse">The latest of my wealth I&#8217;ll share amongst you.</line>
@@ -4942,7 +4968,9 @@
 	<scenepersona short="ALL BAN.">Bandits</scenepersona>
 	<scenepersona short="FLAV.">Steward Flavius</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1298.02" sdnumber="0.01">
@@ -4952,7 +4980,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Timon of Athens">TIM.</speaker>
 <line globalnumber="1299" number="1" form="verse">O blessed breeding sun, draw from the earth</line>
 <line globalnumber="1300" number="2" form="verse">Rotten humidity; below thy sister&#8217;s orb</line>
@@ -6244,7 +6272,9 @@
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
 	<scenepersona short="2. SEN.">First Senator</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1815.02" sdnumber="0.01">
@@ -6927,7 +6957,9 @@
 	<scenepersona short="4. SEN.">Fourth Senator</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2075.02" sdnumber="0.01">
@@ -7009,7 +7041,9 @@
 <scenepersonae>
 	<scenepersona short="SOLD.">Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2094.02" sdnumber="0.01">
@@ -7057,7 +7091,9 @@
 	<scenepersona short="2. SEN.">First Senator</scenepersona>
 	<scenepersona short="SOLD.">Soldier</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2104.02" sdnumber="0.01">
@@ -7267,7 +7303,21 @@
 </act>
 
 
-
+<locations numberOfLocations="13">
+<placename>Athens. A banqueting-room in Timon&#8217;s house.</placename>
+<placename>Athens. A hall in Timon&#8217;s house.</placename>
+<placename>Athens. A public place.</placename>
+<placename>Athens. A room in Lucullus&#8217; house.</placename>
+<placename>Athens. A room in Sempronius&#8217;s house.</placename>
+<placename>Athens. A room in Timon&#8217;s house.</placename>
+<placename>Athens. A room in a Senator&#8217;s house.</placename>
+<placename>Athens. The Senate House.</placename>
+<placename>Before the walls of Athens.</placename>
+<placename>Outside the walls of Athens.</placename>
+<placename>The woods. A rude tomb near Timon&#8217;s cave.</placename>
+<placename>The woods. Before Timon&#8217;s cave.</placename>
+<placename>Woods and cave near the seashore.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -7321,13 +7371,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>153</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

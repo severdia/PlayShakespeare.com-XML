@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="The Tempest">The Tempest</title>
@@ -16,16 +16,16 @@
 <persname short="SEB." numberOfLines="114" numberOfVerseLines="86" numberOfProseLines="28" numberOfLyricsLines="0">Sebastian</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PROS." numberOfLines="676" numberOfVerseLines="675" numberOfProseLines="1" numberOfLyricsLines="33">Prospero</persname>
+<persona gender="male" archetype="hero">
+<persname short="PROS." numberOfLines="663" numberOfVerseLines="662" numberOfProseLines="1" numberOfLyricsLines="20">Prospero</persname>
 </persona>
 
 <persona gender="male">
 <persname short="ANT." numberOfLines="142" numberOfVerseLines="115" numberOfProseLines="27" numberOfLyricsLines="0">Antonio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FER." numberOfLines="149" numberOfVerseLines="149" numberOfProseLines="0" numberOfLyricsLines="9">Ferdinand</persname>
+<persona gender="male" archetype="lover">
+<persname short="FER." numberOfLines="140" numberOfVerseLines="140" numberOfProseLines="0" numberOfLyricsLines="0">Ferdinand</persname>
 <persaliases>
 	<persname short="BOTH FER. AND MIR.">Both Ferdinand and Miranda</persname>
 </persaliases>
@@ -47,23 +47,23 @@
 <persname short="CAL." numberOfLines="170" numberOfVerseLines="156" numberOfProseLines="14" numberOfLyricsLines="7">Caliban</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="TRIN." numberOfLines="40" numberOfVerseLines="0" numberOfProseLines="40" numberOfLyricsLines="0">Trinculo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown">
 <persname short="STE." numberOfLines="79" numberOfVerseLines="22" numberOfProseLines="57" numberOfLyricsLines="14">Stephano</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover">
 <persname short="MIR." numberOfLines="154" numberOfVerseLines="154" numberOfProseLines="0" numberOfLyricsLines="0">Miranda</persname>
 <persaliases>
 	<persname short="BOTH FER. AND MIR.">Both Ferdinand and Miranda</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ARI." numberOfLines="174" numberOfVerseLines="170" numberOfProseLines="4" numberOfLyricsLines="18">Ariel</persname>
+<persona gender="male" archetype="hero">
+<persname short="ARI." numberOfLines="196" numberOfVerseLines="192" numberOfProseLines="4" numberOfLyricsLines="40">Ariel</persname>
 </persona>
 
 <persona gender="female">
@@ -107,7 +107,9 @@
 	<scenepersona short="FER.">Ferdinand</scenepersona>
 	<scenepersona short="GON.">Gonzalo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -252,7 +254,6 @@
 		<actor>GON.</actor>
 	</action>
 </stagedir>
-
 <line globalnumber="15" number="15" form="prose">A plague upon this howling! They are louder than the weather, or our office.</line>
 <stagedir sdglobalnumber="15.01" sdnumber="15.01">
 	<dir>Enter Sebastian, Antonio, and Gonzalo.</dir>
@@ -396,7 +397,9 @@
 	<scenepersona short="CAL.">Caliban</scenepersona>
 	<scenepersona short="FER.">Ferdinand</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="38.02" sdnumber="0.01">
@@ -833,7 +836,7 @@
 <line globalnumber="263" number="194" form="verse">Perform&#8217;d to point the tempest that I bade thee?</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Ariel">ARI.</speaker>
 <line globalnumber="264" number="195" form="verse">To every article.</line>
 <line globalnumber="265" number="196" form="verse">I boarded the King&#8217;s ship; now on the beak,</line>
@@ -1213,7 +1216,7 @@
 <line globalnumber="427" number="331" form="verse" offset="0">Than bees that made &#8217;em.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Caliban">CAL.</speaker>
 <line globalnumber="428" number="331" form="verse" offset="5">I must eat my dinner.</line>
 <line globalnumber="429" number="332" form="verse">This island&#8217;s mine by Sycorax my mother,</line>
@@ -1299,6 +1302,7 @@
 <speech>
 <speaker long="Prospero">PROS.</speaker>
 <line globalnumber="477" number="375" form="verse" offset="5">So, slave, hence!</line>
+</speech>
 
 <stagedir sdglobalnumber="477.01" sdnumber="375.01">
 	<dir>Exit Caliban.</dir>
@@ -1321,6 +1325,9 @@
 		<actor>ARI.</actor>
 	</action>
 </stagedir>
+
+<speech>
+<speaker long="Ariel">ARI.</speaker>
 <line globalnumber="478" number="376" form="verse" type="lyric">Come unto these yellow sands,</line>
 <line globalnumber="479" number="377" form="verse" type="lyric">And then take hands:</line>
 <line globalnumber="480" number="378" form="verse" type="lyric">Curtsied when you have, and kiss&#8217;d,</line>
@@ -1362,12 +1369,17 @@
 <line globalnumber="497" number="395" form="verse">With its sweet air; thence I have follow&#8217;d it,</line>
 <line globalnumber="498" number="396" form="verse">Or it hath drawn me rather. But &#8217;tis gone.</line>
 <line globalnumber="499" number="397" form="verse">No, it begins again.</line>
+</speech>
+
 <stagedir sdglobalnumber="499.01" sdnumber="397.01">
 	<dir>Ariel&#8217;s Song</dir>
 	<action type="song">
 		<actor>ARI.</actor>
 	</action>
 </stagedir>
+
+<speech>
+<speaker long="Ariel">ARI.</speaker>
 <line globalnumber="500" number="398" form="verse" type="lyric">Full fathom five thy father lies,</line>
 <line globalnumber="501" number="399" form="verse" type="lyric">Of his bones are coral made:</line>
 <line globalnumber="502" number="400" form="verse" type="lyric">Those are pearls that were his eyes:</line>
@@ -1750,7 +1762,9 @@
 	<scenepersona short="FRAN.">Francisco</scenepersona>
 	<scenepersona short="ARI.">Ariel</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="634.02" sdnumber="0.01">
@@ -2426,6 +2440,7 @@
 		<actor>ALON.</actor>
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="811.02" sdnumber="162.02">
 	<dir>Exit Ariel.</dir>
 	<action type="exit">
@@ -2840,7 +2855,9 @@
 	<scenepersona short="TRIN.">Trinculo</scenepersona>
 	<scenepersona short="STE.">Stephano</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="970.02" sdnumber="0.01">
@@ -2855,7 +2872,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Caliban">CAL.</speaker>
 <line globalnumber="971" number="1" form="verse">All the infections that the sun sucks up</line>
 <line globalnumber="972" number="2" form="verse">From bogs, fens, flats, on Prosper fall, and make him</line>
@@ -2883,7 +2900,7 @@
 <line globalnumber="988" number="18" form="verse">Perchance he will not mind me.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Trinculo">TRIN.</speaker>
 <line globalnumber="989" number="19" form="prose">Here&#8217;s neither bush nor shrub to bear off any weather at all. And another storm brewing, I hear it sing i&#8217; th&#8217; wind. Yond same black cloud, yond huge one, looks like a foul bumbard that would shed his liquor. If it should thunder as it did before, I know not where to hide my head. Yond same cloud cannot choose but fall by pailfuls. What have we here? A man or a fish? Dead or alive? A fish, he smells like a fish; a very ancient and fish-like smell; a kind of, not-of-the-newest poor-John. A strange fish! Were I in England now (as once I was) and had but this fish painted, not a holiday fool there but would give a piece of silver. There would this monster make a man; any strange beast there makes a man. When they will not give a doit to relieve a lame beggar, they will lay out ten to see a dead Indian. Legg&#8217;d like a man; and his fins like arms! Warm, o&#8217; my troth! I do now let loose my opinion, hold it no longer: this is no fish, but an islander, that hath lately suffer&#8217;d by a thunderbolt.</line>
 <stagedir sdglobalnumber="989.01" sdnumber="19.01">
@@ -3240,7 +3257,9 @@
 	<scenepersona short="MIR.">Miranda</scenepersona>
 	<scenepersona short="PROS.">Prospero</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1069.02" sdnumber="0.01">
@@ -3510,7 +3529,10 @@
 	<scenepersona short="TRIN.">Trinculo</scenepersona>
 	<scenepersona short="ARI.">Ariel</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1183.02" sdnumber="0.01">
@@ -3950,7 +3972,9 @@
 	<scenepersona>Shapes</scenepersona>
 	<scenepersona short="ARI.">Ariel</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1294.02" sdnumber="0.01">
@@ -4187,7 +4211,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Ariel">ARI.</speaker>
 <line globalnumber="1359" number="53" form="verse">You are three men of sin, whom Destiny,</line>
 <line globalnumber="1360" number="54" form="verse">That hath to instrument this lower world</line>
@@ -4358,7 +4382,9 @@
 	<scenepersona short="STE.">Stephano</scenepersona>
 	<scenepersona short="TRIN.">Trinculo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1420.02" sdnumber="0.01">
@@ -5157,7 +5183,10 @@
 	<scenepersona short="STE.">Stephano</scenepersona>
 	<scenepersona short="TRIN.">Trinculo</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1688.02" sdnumber="0.01">
@@ -5250,7 +5279,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Prospero">PROS.</speaker>
 <line globalnumber="1726" number="33" form="verse">Ye elves of hills, brooks, standing lakes, and groves,</line>
 <line globalnumber="1727" number="34" form="verse">And ye that on the sands with printless foot</line>
@@ -5454,7 +5483,6 @@
 		<recipient>ANT.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1824" number="126" form="verse">But you, my brace of lords, were I so minded,</line>
 <line globalnumber="1825" number="127" form="verse">I here could pluck his Highness&#8217; frown upon you</line>
 <line globalnumber="1826" number="128" form="verse">And justify you traitors. At this time</line>
@@ -5831,7 +5859,6 @@
 		<recipient>ARI.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="1974" number="251" form="verse" offset="6">Come hither, spirit.</line>
 <line globalnumber="1975" number="252" form="verse">Set Caliban and his companions free;</line>
 <line globalnumber="1976" number="253" form="verse" offset="0">Untie the spell.</line>
@@ -6036,7 +6063,6 @@
 		<recipient>ARI.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="2042" number="311" form="verse" offset="5">My Ariel, chick,</line>
 <line globalnumber="2043" number="312" form="verse">That is thy charge. Then to the elements</line>
 <line globalnumber="2044" number="313" form="verse">Be free, and fare thou well!&#8212;Please you draw near.</line>
@@ -6064,12 +6090,14 @@
 
 </act>
 
-<epilogue>
+<epilogue minutesRunning="1" numberOfWords="128" numberOfLines="20">
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PROS.">Prospero</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <speech>
@@ -6105,7 +6133,12 @@
 </epilogue>
 
 
-
+<locations numberOfLocations="4">
+<placename>Another part of the island.</placename>
+<placename>Before Prospero&#8217;s cell.</placename>
+<placename>On a ship at sea.</placename>
+<placename>The island. Before Prospero&#8217;s cell.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -6189,12 +6222,12 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>152</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>

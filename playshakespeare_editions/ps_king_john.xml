@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play> 
 <title short="King John">The Life and Death of King John</title> 
@@ -16,11 +16,11 @@
 <persname short="BLANCH." numberOfLines="42" numberOfVerseLines="42" numberOfProseLines="0" numberOfLyricsLines="0">Blanch of Spain</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes">
 <persname short="CONST." numberOfLines="265" numberOfVerseLines="265" numberOfProseLines="0" numberOfLyricsLines="0">Constance</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes">
 <persname short="EL." numberOfLines="55" numberOfVerseLines="55" numberOfProseLines="0" numberOfLyricsLines="0">Queen Elinor</persname>
 </persona>
 
@@ -32,7 +32,7 @@
 <persname short="MEL." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Melune</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="PAND." numberOfLines="164" numberOfVerseLines="164" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Pandulph</persname>
 </persona>
 
@@ -48,7 +48,7 @@
 <persname short="K. PHI." numberOfLines="209" numberOfVerseLines="209" numberOfProseLines="0" numberOfLyricsLines="0">Philip, King of France</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="PETER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Peter of Pomfret</persname>
 </persona>
 
@@ -56,7 +56,7 @@
 <persname short="GUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">James Gurney</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes">
 <persname short="BAST." numberOfLines="523" numberOfVerseLines="523" numberOfProseLines="0" numberOfLyricsLines="0">Philip, the Bastard</persname>
 </persona>
 
@@ -90,7 +90,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="ARTH." numberOfLines="120" numberOfVerseLines="120" numberOfProseLines="0" numberOfLyricsLines="0">Arthur</persname>
 </persona>
 
@@ -98,7 +98,7 @@
 <persname short="P. HEN." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Prince Henry</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="K. JOHN." numberOfLines="438" numberOfVerseLines="438" numberOfProseLines="0" numberOfLyricsLines="0">King John</persname>
 </persona>
 
@@ -146,7 +146,10 @@
 	<scenepersona short="LADY F.">Lady Faulconbridge</scenepersona>
 	<scenepersona short="GUR.">James Gurney</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -557,7 +560,7 @@
 <line globalnumber="180" number="179" form="verse">For France, for France, for it is more than need.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Philip, the Bastard">BAST.</speaker>
 <line globalnumber="181" number="180" form="verse">Brother, <foreign xml:lang="fr">adieu</foreign>, good fortune come to thee!</line>
 <line globalnumber="182" number="181" form="verse">For thou wast got i&#8217; th&#8217; way of honesty.</line>
@@ -763,7 +766,9 @@
 	<scenepersona short="F. HER.">Herald of France</scenepersona>
 	<scenepersona short="E. HER.">English Herald</scenepersona>		
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="278.02" sdnumber="0.01">
@@ -1921,7 +1926,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Philip, the Bastard">BAST.</speaker>
 <line globalnumber="850" number="561" form="verse">Mad world, mad kings, mad composition!</line>
 <line globalnumber="851" number="562" form="verse">John, to stop Arthur&#8217;s title in the whole,</line>
@@ -1992,7 +1997,10 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="PAND.">Pandulph</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="887.02" sdnumber="0.01">
@@ -2720,7 +2728,9 @@
 	<scenepersona short="ARTH.">Arthur</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1244.02" sdnumber="0.01">
@@ -2787,7 +2797,9 @@
 	<scenepersona short="HUB.">Hubert</scenepersona>
 	<scenepersona>Lords</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1255.02" sdnumber="0.01">
@@ -3025,7 +3037,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="CONST.">Constance</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1337.02" sdnumber="0.01">
@@ -3407,7 +3421,10 @@
 	<scenepersona short="EXEC.">Executioners</scenepersona>
 	<scenepersona short="ARTH.">Arthur</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1522.02" sdnumber="0.01">
@@ -3805,7 +3822,9 @@
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="PETER.">Peter of Pomfret</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1667.02" sdnumber="0.01">
@@ -4217,7 +4236,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King John">K. JOHN.</speaker>
 <line globalnumber="1854" number="181" form="verse">My mother dead!</line>
 </speech>
@@ -4388,7 +4407,9 @@
 	<scenepersona short="BIG.">Bigot</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1943.02" sdnumber="0.01">
@@ -4398,7 +4419,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Arthur">ARTH.</speaker>
 <line globalnumber="1944" number="1" form="verse">The wall is high, and yet will I leap down.</line>
 <line globalnumber="1945" number="2" form="verse">Good ground, be pitiful and hurt me not!</line>
@@ -4850,7 +4871,9 @@
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2110.02" sdnumber="0.01">
@@ -4918,7 +4941,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King John">K. JOHN.</speaker>
 <line globalnumber="2136" number="25" form="verse">Is this Ascension-day? Did not the prophet</line>
 <line globalnumber="2137" number="26" form="verse">Say that before Ascension-day at noon</line>
@@ -5045,7 +5068,10 @@
 	<scenepersona short="PAND.">Pandulph</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2191.02" sdnumber="0.01">
@@ -5353,7 +5379,9 @@
 	<scenepersona short="HUB.">Hubert</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2374.02" sdnumber="0.01">
@@ -5438,7 +5466,9 @@
 	<scenepersona short="BIG.">Bigot</scenepersona>
 	<scenepersona short="MEL.">Melune</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2391.02" sdnumber="0.01">
@@ -5586,7 +5616,9 @@
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
 	<scenepersona short="FR. MESS.">French Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2453.02" sdnumber="0.01">
@@ -5671,7 +5703,9 @@
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2476.02" sdnumber="0.01">
@@ -5831,7 +5865,9 @@
 	<scenepersona short="K. JOHN.">King John</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2524.02" sdnumber="0.01">
@@ -6118,7 +6154,24 @@
 </act>
 
 
-
+<locations numberOfLocations="16">
+<placename>A room in King John&#8217;s palace.</placename>
+<placename>France. Before the town of Angiers.</placename>
+<placename>The French King&#8217;s tent.</placename>
+<placename>The plains near Angiers.</placename>
+<placename>The plains near Angiers.</placename>
+<placename>The plains near Angiers. King Philip&#8217;s tent.</placename>
+<placename>Northampton. A room in the castle.</placename>
+<placename>A room in King John&#8217;s castle.</placename>
+<placename>Before King John&#8217;s castle.</placename>
+<placename>King John&#8217;s Palace.</placename>
+<placename>The French camp at St. Edmundsbury.</placename>
+<placename>The battlefield.</placename>
+<placename>Another part of the battlefield.</placename>
+<placename>The French camp.</placename>
+<placename>An open place in the neighborhood of Swinstead Abbey.</placename>
+<placename>The orchard at Swinstead Abbey.</placename>
+</locations>
 
 <sources>
 <playsource>
@@ -6166,13 +6219,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>139</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="working.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
 <play>
 <title short="Henry VI, Pt. 3">The Third Part of Henry the Sixth</title>
@@ -8,11 +8,11 @@
 
 <personae playtitle="Henry VI, Part 3">
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="K. HEN." numberOfLines="364" numberOfVerseLines="364" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Sixth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="PRINCE." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
 </persona>
 
@@ -40,26 +40,26 @@
 <persname short="WEST." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Westmorland</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="YORK." numberOfLines="173" numberOfVerseLines="173" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet, Duke of York</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="CLIF." numberOfLines="140" numberOfVerseLines="140" numberOfProseLines="0" numberOfLyricsLines="0">Lord Clifford</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero">
 <persname short="EDW." numberOfLines="428" numberOfVerseLines="428" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Earl of March</persname>
 <persaliases>
 	<persname short="K. EDW.">King Edward</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes">
 <persname short="RUT." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Edmund, Earl of Rutland</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes">
 <persname short="WAR." numberOfLines="436" numberOfVerseLines="436" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
 </persona>
 
@@ -153,7 +153,7 @@
 <persname short="FATH." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">A Father That Has Killed His Son</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero">
 <persname short="Q. MAR." numberOfLines="279" numberOfVerseLines="279" numberOfProseLines="0" numberOfLyricsLines="0">Queen Margaret</persname>
 </persona>
 
@@ -271,7 +271,9 @@
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
@@ -1209,7 +1211,9 @@
 	<scenepersona short="SIR JOHN.">Sir John Mortimer</scenepersona>
 	<scenepersona short="SIR. HUGH.">Sir Hugh Mortimer</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="277.02" sdnumber="0.01">
@@ -1463,7 +1467,10 @@
 	<scenepersona short="CLIF.">Clifford</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="la">Latin</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="352.02" sdnumber="0.01">
@@ -1651,7 +1658,9 @@
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="405.02" sdnumber="0.01">
@@ -1663,7 +1672,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
 <line globalnumber="406" number="1" form="verse">The army of the Queen hath got the field:</line>
 <line globalnumber="407" number="2" form="verse">My uncles both are slain in rescuing me;</line>
@@ -1844,7 +1853,6 @@
 		<recipient>YORK.</recipient>
 	</action>
 </stagedir>
-
 <line globalnumber="501" number="96" form="verse">Ay, marry, sir, now looks he like a king!</line>
 <line globalnumber="502" number="97" form="verse">Ay, this is he that took King Henry&#8217;s chair,</line>
 <line globalnumber="503" number="98" form="verse">And this is he was his adopted heir.</line>
@@ -2026,7 +2034,10 @@
 	<scenepersona short="MONT.">Marquess Montague</scenepersona>
 	<scenepersona short="NOR. MESS.">Norfolk Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="it">Italian</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="585.02" sdnumber="0.01">
@@ -2432,7 +2443,9 @@
 	<scenepersona short="MONT.">Montague</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="794.02" sdnumber="0.01">
@@ -2859,7 +2872,9 @@
 	<scenepersona short="GEO.">George of Clarence</scenepersona>
 	<scenepersona short="RICH.">Richard</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="971.02" sdnumber="0.01">
@@ -2869,7 +2884,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Earl of Warwick">WAR.</speaker>
 <line globalnumber="972" number="1" form="verse">Forespent with toil, as runners with a race,</line>
 <line globalnumber="973" number="2" form="verse">I lay me down a little while to breathe;</line>
@@ -2885,7 +2900,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Edward, Earl of March">EDW.</speaker>
 <line globalnumber="977" number="6" form="verse">Smile, gentle heaven! Or strike, ungentle death!</line>
 <line globalnumber="978" number="7" form="verse">For this world frowns, and Edward&#8217;s sun is clouded.</line>
@@ -3010,7 +3025,9 @@
 	<scenepersona short="CLIF.">Clifford</scenepersona>
 	<scenepersona short="WAR.">Warwick</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1027.02" sdnumber="0.01">
@@ -3089,7 +3106,9 @@
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
 	<scenepersona short="EXE.">Exeter</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1040.02" sdnumber="0.01">
@@ -3099,7 +3118,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Henry the Sixth">K. HEN.</speaker>
 <line globalnumber="1041" number="1" form="verse">This battle fares like to the morning&#8217;s war,</line>
 <line globalnumber="1042" number="2" form="verse">When dying clouds contend with growing light,</line>
@@ -3164,7 +3183,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="A Son That Has Killed His Father">SON.</speaker>
 <line globalnumber="1095" number="55" form="verse">Ill blows the wind that profits nobody.</line>
 <line globalnumber="1096" number="56" form="verse">This man whom hand to hand I slew in fight</line>
@@ -3203,7 +3222,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="A Father That Has Killed His Son">FATH.</speaker>
 <line globalnumber="1119" number="79" form="verse">Thou that so stoutly hath resisted me,</line>
 <line globalnumber="1120" number="80" form="verse">Give me thy gold&#8212;if thou hast any gold&#8212;</line>
@@ -3222,7 +3241,7 @@
 <line globalnumber="1133" number="93" form="verse">And hath bereft thee of thy life too late.</line>
 </speech>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Henry the Sixth">K. HEN.</speaker>
 <line globalnumber="1134" number="94" form="verse">Woe above woe! Grief more than common grief!</line>
 <line globalnumber="1135" number="95" form="verse">O that my death would stay these ruthful deeds!</line>
@@ -3303,7 +3322,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Henry the Sixth">K. HEN.</speaker>
 <line globalnumber="1163" number="123" form="verse">Sad-hearted men, much overgone with care,</line>
 <line globalnumber="1164" number="124" form="verse">Here sits a king more woeful than you are.</line>
@@ -3373,7 +3392,9 @@
 	<scenepersona short="MONT.">Montague</scenepersona>
 	<scenepersona short="GEO.">George of Clarence</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1179.02" sdnumber="0.01">
@@ -3383,7 +3404,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Lord Clifford">CLIF.</speaker>
 <line globalnumber="1180" number="1" form="verse">Here burns my candle out; ay, here it dies,</line>
 <line globalnumber="1181" number="2" form="verse">Which whiles it lasted, gave King Henry light.</line>
@@ -3641,7 +3662,9 @@
 	<scenepersona short="2. KEEP.">Second Gamekeeper</scenepersona>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1290.02" sdnumber="0.01">
@@ -3687,7 +3710,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="King Henry the Sixth">K. HEN.</speaker>
 <line globalnumber="1303" number="13" form="verse">From Scotland am I stol&#8217;n, even of pure love,</line>
 <line globalnumber="1304" number="14" form="verse">To greet mine own land with my wishful sight.</line>
@@ -3893,7 +3916,9 @@
 	<scenepersona short="L. GREY.">Lady Grey</scenepersona>
 	<scenepersona short="NOB.">Nobleman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1391.02" sdnumber="0.01">
@@ -4500,7 +4525,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Duke of Gloucester" alias="RICH.">GLOU.</speaker>
 <line globalnumber="1516" number="124" form="verse">Ay, Edward will use women honorably.</line>
 <line globalnumber="1517" number="125" form="verse">Would he were wasted, marrow, bones, and all,</line>
@@ -4598,7 +4623,9 @@
 	<scenepersona short="WAR.">Warwick</scenepersona>
 	<scenepersona short="POST.">Post</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1587.02" sdnumber="0.01">
@@ -5282,7 +5309,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Earl of Warwick">WAR.</speaker>
 <line globalnumber="1848" number="256" form="verse">I came from Edward as ambassador,</line>
 <line globalnumber="1849" number="257" form="verse">But I return his sworn and mortal foe.</line>
@@ -5323,7 +5350,9 @@
 	<scenepersona short="HAST.">Hastings</scenepersona>
 	<scenepersona short="POST.">Post</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="1857.02" sdnumber="0.01">
@@ -5754,7 +5783,9 @@
 	<scenepersona short="CLAR.">Clarence</scenepersona>
 	<scenepersona short="D. SOM.">Somerset</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2006.02" sdnumber="0.01">
@@ -5848,7 +5879,9 @@
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="HAST.">Hastings</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2035.02" sdnumber="0.01">
@@ -6105,7 +6138,9 @@
 	<scenepersona short="RIV.">Rivers</scenepersona>
 	<scenepersona short="Q. ELIZ.">Queen Elizabeth</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2100.02" sdnumber="0.01">
@@ -6211,7 +6246,9 @@
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="HUNT.">Huntsman</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2135.02" sdnumber="0.01">
@@ -6347,7 +6384,9 @@
 	<scenepersona short="LIEU.">Lieutenant of the Tower</scenepersona>
 	<scenepersona short="WAR. MESS.">Warwick&#8217;s Messenger</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2165.02" sdnumber="0.01">
@@ -6617,7 +6656,9 @@
 	<scenepersona short="ALD. YORK.">Aldermen of York</scenepersona>
 	<scenepersona short="MONTG.">Sir John Montgomery</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2268.02" sdnumber="0.01">
@@ -6949,7 +6990,10 @@
 	<scenepersona>Soldiers</scenepersona>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+    <language short="fr">French</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2354.02" sdnumber="0.01">
@@ -7167,7 +7211,9 @@
 	<scenepersona short="D. SOM.">Somerset</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2419.02" sdnumber="0.01">
@@ -7583,7 +7629,9 @@
 	<scenepersona short="OXF.">Oxford</scenepersona>
 	<scenepersona short="D. SOM.">Somerset</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2532.02" sdnumber="0.01">
@@ -7611,7 +7659,7 @@
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Earl of Warwick">WAR.</speaker>
 <line globalnumber="2537" number="5" form="verse">Ah, who is nigh? Come to me, friend or foe,</line>
 <line globalnumber="2538" number="6" form="verse">And tell me who is victor, York or Warwick?</line>
@@ -7715,7 +7763,9 @@
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2582.02" sdnumber="0.01">
@@ -7792,7 +7842,9 @@
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2606.02" sdnumber="0.01">
@@ -8013,7 +8065,9 @@
 	<scenepersona short="D. SOM.">Somerset</scenepersona>
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2688.05" sdnumber="0.01">
@@ -8366,7 +8420,9 @@
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="LIEU.">Lieutenant of the Tower</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2778.02" sdnumber="0.01">
@@ -8582,7 +8638,9 @@
 	<scenepersona short="EDWARD (NED)">Prince</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
-
+<scenelanguage>
+    <language short="en">English</language>
+</scenelanguage>
 
 
 <stagedir sdglobalnumber="2871.02" sdnumber="0.01">
@@ -8710,7 +8768,27 @@
 </scene>
 </act>
 
-
+<locations numberOfLocations="19">
+<placename>A battlefield near Barnet.</placename>
+<placename>A forest in the North of England.</placename>
+<placename>A plain in Warwickshire.</placename>
+<placename>Another part of the battlefield near Barnet.</placename>
+<placename>Another part of the field of battle between Sandal Castle and Wakefield.</placename>
+<placename>Before York.</placename>
+<placename>Coventry.</placename>
+<placename>Edward&#8217;s camp near Warwick.</placename>
+<placename>Field of battle between Sandal Castle and Wakefield.</placename>
+<placename>France. A room in King Lewis XI&#8217;s palace.</placename>
+<placename>Herfordshire. A plain near Mortimer&#8217;s Cross.</placename>
+<placename>London. A room in the palace.</placename>
+<placename>London. The Parliament House.</placename>
+<placename>London. The Tower.</placename>
+<placename>Plains near Tewksbury.</placename>
+<placename>Yorkshire. A battlefield between Towton and Saxton.</placename>
+<placename>Yorkshire. A park near Middleham Castle.</placename>
+<placename>Yorkshire. A room in Sandal Castle.</placename>
+<placename>Yorkshire. Another part of the battlefield between Towton and Saxton.</placename>
+</locations>
 
 
 <sources>
@@ -8742,13 +8820,13 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>4.0</version>
-<pscatid>137</pscatid>
+<copyright>2005-2018 by PlayShakespeare.com</copyright>
+<version>5.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
+
 
 </play>
 
