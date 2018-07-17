@@ -1,183 +1,189 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="king-richard-ii">
 <title short="King Richard II">The Tragedy of King Richard the Second</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1595</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="King Richard II">
 
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="66639adf-e440-47d6-a1ba-df095954e48a">
 <persname short="K. RICH." numberOfLines="758" numberOfVerseLines="758" numberOfProseLines="0" numberOfLyricsLines="0">King Richard the Second</persname>
 </persona>
 
-<persona gender="male" archetype="hero" death="yes">
-<persname short="GAUNT." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">John of Gaunt, Duke of Lancaster</persname>
+<persona gender="male" archetype="hero" id="a7359fe3-322f-46a3-a5b4-36d22e304d2b">
+<persname short="BULL." numberOfLines="413" numberOfVerseLines="413" numberOfProseLines="0" numberOfLyricsLines="0">Henry Bullingbrook</persname>
+<persaliases>
+	<persname short="K. HEN." type="namechange">King Henry IV</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e3534e8f-7318-41cb-8297-abed7f80a241">
 <persname short="YORK." numberOfLines="289" numberOfVerseLines="289" numberOfProseLines="0" numberOfLyricsLines="0">Edmund of Langley, Duke of York</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="BULL." numberOfLines="413" numberOfVerseLines="413" numberOfProseLines="0" numberOfLyricsLines="0">Henry Bullingbrook</persname>
-<persaliases>
-	<persname short="K. HEN.">King Henry IV</persname>
-</persaliases>
+<persona gender="male" archetype="hero" death="yes" id="2902c996-bfbd-4a2f-b321-6004e5c8b37d">
+<persname short="GAUNT." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">John of Gaunt, Duke of Lancaster</persname>
 </persona>
 
-<persona gender="male">
-<persname short="AUM." numberOfLines="86" numberOfVerseLines="86" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Aumerle</persname>
-<persaliases>
-	<persname short="ALL. GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="MOW." numberOfLines="135" numberOfVerseLines="135" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Mowbray</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SURREY." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Surrey</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SAL." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BERK." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Lord Berkeley</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BUSHY." numberOfLines="40" numberOfVerseLines="40" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Bushy</persname>
-<persaliases>
-	<persname short="ALL. GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="BAGOT." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Bagot</persname>
-<persaliases>
-	<persname short="ALL. GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="GREEN." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Sir Henry Green</persname>
-<persaliases>
-	<persname short="ALL. GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="5d20eef7-25b8-4478-9e5c-71bd112d0715">
 <persname short="NORTH." numberOfLines="143" numberOfVerseLines="143" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Northumberland</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PERCY." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy</persname>
+<persona gender="male" death="yes" id="7a997941-8cca-4ff4-8971-00bc58ce843f">
+<persname short="MOW." numberOfLines="135" numberOfVerseLines="135" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Mowbray</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ROSS." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Lord Ross</persname>
+<persona gender="male" id="8ea4c87a-d13a-4647-b087-87ea00d6361a">
+<persname short="AUM." numberOfLines="86" numberOfVerseLines="86" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Aumerle</persname>
+<persaliases>
+	<persname short="ALL GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="WILLO." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Lord Willoughby</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FITZ." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Lord Fitzwater</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="3a2f998a-c2e6-4a4b-8a46-f0ac60d35de1">
 <persname short="CAR." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Carlisle</persname>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="ABBOT." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Abbot of Westminster</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAR." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Lord Marshal</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SCROOP." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Sir Stephen Scroop</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EXTON." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Sir Pierce of Exton</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAP." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Welsh Captain</persname>
-</persona>
-
-<persona gender="female">
-<persname short="QUEEN." numberOfLines="115" numberOfVerseLines="115" numberOfProseLines="0" numberOfLyricsLines="0">Queen to King Richard</persname>
-</persona>
-
-<persona gender="female">
-<persname short="DUCH. YORK." numberOfLines="93" numberOfVerseLines="93" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of York</persname>
-</persona>
-
-<persona gender="female" death="yes">
-<persname short="DUCH." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of Gloucester</persname>
-</persona>
-
-<persona gender="male">
-<persname short="KEEP." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Keeper</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="7d3e9082-38f1-4e28-a1d6-42f9abfa197d">
 <persname short="GARD." numberOfLines="52" numberOfVerseLines="52" numberOfProseLines="0" numberOfLyricsLines="0">Gardener</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Servingman</persname>
+<persona gender="male" id="61bf3651-a486-48fe-aa08-d13e035d6a08">
+<persname short="PERCY." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="male" id="92305c80-c1b2-4561-a0a4-5520361a451d">
+<persname short="BUSHY." numberOfLines="40" numberOfVerseLines="40" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Bushy</persname>
+<persaliases>
+	<persname short="ALL GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="8b44135c-fd43-4f8d-8a81-c2e14a5f221a">
+<persname short="SCROOP." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Sir Stephen Scroop</persname>
+</persona>
+
+<persona gender="male" id="bc5a82ac-d9d7-43f0-aa6e-9e3c50ebc9a5">
+<persname short="GREEN." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Sir Henry Green</persname>
+<persaliases>
+	<persname short="ALL GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="18ed73fe-b6da-4b17-a33c-dc5469251736">
+<persname short="BAGOT." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Bagot</persname>
+<persaliases>
+	<persname short="ALL GREEN. AND BAGOT. AND AUM. AND BUSHY.">All Green, Bagot, Aumerle and Bushy</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="aff17a21-6759-428c-86c7-fbda83357cd3">
+<persname short="EXTON." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Sir Pierce of Exton</persname>
+</persona>
+
+<persona gender="male" id="d9d9ed54-ce0e-4855-8638-22fb5c2a0954">
+<persname short="SAL." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1c868821-1c39-4426-aacd-202d700494f9">
+<persname short="ABBOT." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Abbot of Westminster</persname>
+</persona>
+
+<persona gender="male" id="feeb635e-d641-4496-a921-740e164a05ca">
+<persname short="SURREY." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Surrey</persname>
+</persona>
+
+<persona gender="female" id="b186b732-7d77-4401-8eb3-a74fb7ceff18">
+<persname short="QUEEN." numberOfLines="115" numberOfVerseLines="115" numberOfProseLines="0" numberOfLyricsLines="0">Queen to King Richard</persname>
+</persona>
+
+<persona gender="female" id="d97ee1e9-3268-42c2-b4ae-df25be1d7ed3">
+<persname short="DUCH. YORK." numberOfLines="93" numberOfVerseLines="93" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of York</persname>
+</persona>
+
+<persona gender="female" death="yes" id="3fdf3003-2546-4e75-bb7f-c1bc43a751ca">
+<persname short="DUCH." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of Gloucester</persname>
+</persona>
+
+<persona gender="female" id="e400e071-0d10-4162-8b96-87f2ebe7791e">
 <persname short="1. LADY" numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Attending Lady</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ab45b6c8-6c63-4921-9ef4-e2889d0c69a7">
 <persname short="2. LADY" numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Attending Lady</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. HER." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Herald</persname>
+<persona gender="male" id="514a23ae-91ce-49c6-b775-b416e35d92b0">
+<persname short="FITZ." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Lord Fitzwater</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. HER." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Herald</persname>
+<persona gender="male" id="a24cdcd8-837c-440e-bd8c-45bec3b6ae87">
+<persname short="ANOTHER LORD." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Another Lord</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. EXT. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Exton&#8217;s First Servant</persname>
+<persona gender="male" id="0de020c5-8b07-4fe3-9ed6-8249add662c2">
+<persname short="MAR." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Lord Marshal</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. EXT. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Exton&#8217;s Second Servant</persname>
+<persona gender="male" id="3b16e288-39ef-4804-9285-34132bdcb88b">
+<persname short="ROSS." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Lord Ross</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. GARD. MAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Gardener&#8217;s Man</persname>
+<persona gender="male" id="eece23b9-049a-4707-bf32-f8646e4bc118">
+<persname short="CAP." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Welsh Captain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. GARD. MAN." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Gardener&#8217;s Man</persname>
+<persona gender="male" id="79705e02-1ad9-4143-b1f2-4e10c2cf7a26">
+<persname short="WILLO." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Lord Willoughby</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8e79baa7-cf63-43c0-a863-d4bea7077c0a">
+<persname short="BERK." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Lord Berkeley</persname>
+</persona>
+
+<persona gender="male" id="3a92d60f-7a62-4e79-96a7-6ea3ffd071b6">
 <persname short="GROOM." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Groom</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ANOTHER LORD." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Another Lord</persname>
+<persona gender="male" id="4b7bcf19-b1ef-41eb-b97a-16878852ca73">
+<persname short="1. GARD. MAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Gardener&#8217;s Man</persname>
 </persona>
+
+<persona gender="male" id="d6f629d0-2890-44b3-8c02-9500cd5e3b7f">
+<persname short="2. GARD. MAN." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Gardener&#8217;s Man</persname>
+</persona>
+
+<persona gender="male" id="ac84f1c4-aa00-4973-a0d1-2680deef37a1">
+<persname short="1. HER." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Herald</persname>
+</persona>
+
+<persona gender="male" id="569a54f6-8589-416c-9545-7292e1321eb5">
+<persname short="2. HER." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Herald</persname>
+</persona>
+
+<persona gender="male" id="f2ad4449-913f-442a-b1b8-e1e6da255af3">
+<persname short="KEEP." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Keeper</persname>
+</persona>
+
+<persona gender="male" id="9fef694a-ec31-46fd-bc87-42ab15acab7d">
+<persname short="SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Servingman</persname>
+</persona>
+
+<persona gender="male" id="a52a4610-07bb-43b7-aeb2-b3e97a809901">
+<persname short="1. EXT. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Exton&#8217;s First Servant</persname>
+</persona>
+
+<persona gender="male" id="c02707af-733d-44b6-b1b9-436cd465128b">
+<persname short="2. EXT. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Exton&#8217;s Second Servant</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -185,6 +191,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. King Richard&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="GAUNT.">John of Gaunt</scenepersona>
@@ -252,7 +259,6 @@
 	<action type="enter">
 		<actor>BULL.</actor>
 		<actor>MOW.</actor>
-		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -563,6 +569,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke of Lancaster&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GAUNT.">John of Gaunt</scenepersona>
 	<scenepersona short="DUCH.">Duchess of Gloucester</scenepersona>
@@ -699,6 +706,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The lists at Coventry.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAR.">Lord Marshal</scenepersona>
 	<scenepersona short="AUM.">Duke Aumerle</scenepersona>
@@ -760,7 +768,7 @@
 		<actor>BAGOT.</actor>
 		<actor>GREEN.</actor>
 		<actor>MOW.</actor>
-		<actor>1. HER.</actor>
+		<actor>2. HER.</actor>
 	</action>
 </stagedir>
 
@@ -1352,7 +1360,7 @@
 		<actor>GREEN.</actor>
 		<actor>1. HER.</actor>
 		<actor>BULL.</actor>
-		<actor>1. HER.</actor>
+		<actor>2. HER.</actor>
 	</action>
 </stagedir>
 
@@ -1361,6 +1369,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The court.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="GREEN.">Green</scenepersona>
@@ -1506,7 +1515,7 @@
 </speech>
 
 <speech>
-<speaker long="All Green, Bagot, Aumerle and Bushy">ALL. GREEN. AND BAGOT. AND AUM. AND BUSHY.</speaker>
+<speaker long="All Green, Bagot, Aumerle and Bushy">ALL GREEN. AND BAGOT. AND AUM. AND BUSHY.</speaker>
 <line globalnumber="656" number="65" form="verse">Amen.</line>
 </speech>
 
@@ -1529,6 +1538,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Ely House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GAUNT.">John of Gaunt</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
@@ -1589,7 +1599,7 @@
 <speaker long="Edmund of Langley, Duke of York">YORK.</speaker>
 <line globalnumber="673" number="17" form="verse">No, it is stopp&#8217;d with other flattering sounds,</line>
 <line globalnumber="674" number="18" form="verse">As praises, of whose taste the wise are fond,</line>
-<line globalnumber="675" number="19" form="verse">Lascivious metres, to whose venom sound</line>
+<line globalnumber="675" number="19" form="verse">Lascivious meters, to whose venom sound</line>
 <line globalnumber="676" number="20" form="verse">The open ear of youth doth always listen;</line>
 <line globalnumber="677" number="21" form="verse">Report of fashions in proud Italy,</line>
 <line globalnumber="678" number="22" form="verse">Whose manners still our tardy, apish nation</line>
@@ -2150,6 +2160,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Windsor Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
 	<scenepersona short="BUSHY.">Bushy</scenepersona>
@@ -2521,6 +2532,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Wilds in Gloucestershire.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BULL.">Duke Henry of Herford</scenepersona>
 	<scenepersona short="NORTH.">Northumberland</scenepersona>
@@ -2932,6 +2944,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A camp in Wales.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SAL.">Earl of Salisbury</scenepersona>
 	<scenepersona short="CAP.">Welsh Captain</scenepersona>
@@ -3011,6 +3024,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Bristol. Before the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BULL.">Duke Henry of Herford</scenepersona>
 	<scenepersona short="YORK.">York</scenepersona>
@@ -3132,6 +3146,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The coast of Wales. A castle in view.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="AUM.">Aumerle</scenepersona>
@@ -3528,6 +3543,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Wales. Before Flint Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BULL.">Bullingbrook</scenepersona>
 	<scenepersona short="YORK.">York</scenepersona>
@@ -4012,6 +4028,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Langley. The Duke of York&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
 	<scenepersona short="1. LADY">First Attending Lady</scenepersona>
@@ -4290,6 +4307,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster Hall.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BULL.">Bullingbrook</scenepersona>
 	<scenepersona short="AUM.">Aumerle</scenepersona>
@@ -4656,7 +4674,6 @@
 	<action type="enter">
 		<actor>K. RICH.</actor>
 		<actor>YORK.</actor>
-		<actor>Officers</actor>
 		<actor>Attendant</actor>
 	</action>
 </stagedir>
@@ -5055,6 +5072,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street leading to the Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
 	<scenepersona>Attendants</scenepersona>
@@ -5280,6 +5298,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke of York&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
 	<scenepersona short="DUCH. YORK.">Duchess of York</scenepersona>
@@ -5572,6 +5591,9 @@
 		<actor>Man</actor>
 		<recipient>YORK.</recipient>
 	</action>
+	<action type="exit">
+		<actor>Man</actor>
+	</action>
 </stagedir>
 
 <speech>
@@ -5655,6 +5677,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A royal palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 	<scenepersona short="PERCY.">Percy</scenepersona>
@@ -5792,6 +5815,8 @@
 	<dir>Aumerle locks the door. The Duke of York knocks at the door and crieth.</dir>
 	<action type="action">
 		<actor>AUM.</actor>
+	</action>
+	<action type="speak-offstage">
 		<actor>YORK.</actor>
 	</action>
 </stagedir>
@@ -6136,6 +6161,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A royal palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EXTON.">Sir Pierce Exton</scenepersona>
 	<scenepersona short="1. EXT. SERV.">Exton&#8217;s First Servant</scenepersona>
@@ -6201,6 +6227,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The dungeon of Pomfret Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="GROOM.">Groom of the Stable</scenepersona>
@@ -6424,7 +6451,7 @@
 	<dir>The murderers, Exton and Servants, rush in armed.</dir>
 	<action type="enter">
 		<actor>EXTON.</actor>
-		<actor>Servants</actor>
+		<actor>Servant</actor>
 	</action>
 </stagedir>
 
@@ -6436,16 +6463,25 @@
 	<dir>Snatches an axe from a Servant and kills him.</dir>
 	<action type="fight">
 		<actor>K. RICH.</actor>
+		<recipient>Servant</recipient>
+	</action>
+	<action type="death">
 		<actor>Servant</actor>
 	</action>
 </stagedir>
 <line globalnumber="2737" number="107" form="verse">Go thou and fill another room in hell.</line>
 <stagedir sdglobalnumber="2737.01" sdnumber="107.01">
 	<dir>Kills another. Here Exton strikes him down.</dir>
-	<action type="death">
+	<action type="fight">
 		<actor>K. RICH.</actor>
+		<recipient>Servant</recipient>
+	</action>
+	<action type="death">
 		<actor>Servant</actor>
-		<actor>EXTON.</actor>
+	</action>
+	<action type="fight">
+		<actor>K. RICH.</actor>
+		<recipient>Servant</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2738" number="108" form="verse">That hand shall burn in never-quenching fire</line>
@@ -6485,6 +6521,7 @@
 <scene actnum="5" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Windsor Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
@@ -6507,7 +6544,6 @@
 		<actor>K. HEN.</actor>
 		<actor>YORK.</actor>
 		<actor>Lords</actor>
-		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -6648,7 +6684,6 @@
 		<actor>PERCY.</actor>
 		<actor>CAR.</actor>
 		<actor>EXTON.</actor>
-		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -6656,25 +6691,7 @@
 </act>
 
 
-<locations numberOfLocations="17">
-<placename>A camp in Wales.</placename>
-<placename>A royal palace.</placename>
-<placename>Bristol. Before the castle.</placename>
-<placename>Ely House.</placename>
-<placename>Langley. The Duke of York&#8217;s garden.</placename>
-<placename>London. A street leading to the Tower.</placename>
-<placename>London. King Richard&#8217;s palace.</placename>
-<placename>The Duke of Lancaster&#8217;s palace.</placename>
-<placename>The Duke of York&#8217;s palace.</placename>
-<placename>The coast of Wales. A castle in view.</placename>
-<placename>The court.</placename>
-<placename>The dungeon of Pomfret Castle.</placename>
-<placename>The lists at Coventry.</placename>
-<placename>Wales. Before Flint Castle.</placename>
-<placename>Westminster Hall.</placename>
-<placename>Wilds in Gloucestershire.</placename>
-<placename>Windsor Castle.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -6732,12 +6749,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

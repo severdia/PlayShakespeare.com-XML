@@ -1,111 +1,116 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play> 
+<play variant="ps" unique="much-ado-about-nothing"> 
 <title short="Much Ado About Nothing">Much Ado About Nothing</title> 
 <playwright>William Shakespeare</playwright>
 <pubdate>1598-1599</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Much Ado About Nothing">
 
-<persona gender="male">
-<persname short="D. PEDRO." numberOfLines="183" numberOfVerseLines="77" numberOfProseLines="106" numberOfLyricsLines="0">Don Pedro</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
-<persname short="D. JOHN." numberOfLines="47" numberOfVerseLines="8" numberOfProseLines="39" numberOfLyricsLines="0">Don John</persname>
-</persona>
-
-<persona gender="male" archetype="lover">
-<persname short="CLAUD." numberOfLines="221" numberOfVerseLines="128" numberOfProseLines="93" numberOfLyricsLines="0">Claudio</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="fe9e1272-6d82-49dd-993e-6bb5d34c6c45">
 <persname short="BENE." numberOfLines="161" numberOfVerseLines="43" numberOfProseLines="118" numberOfLyricsLines="4">Benedick</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ec4f74e9-0e40-4d87-9d7f-14a7c111cf06">
 <persname short="LEON." numberOfLines="265" numberOfVerseLines="191" numberOfProseLines="74" numberOfLyricsLines="0">Leonato</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ANT." numberOfLines="44" numberOfVerseLines="35" numberOfProseLines="9" numberOfLyricsLines="0">Antonio</persname>
+<persona gender="male" archetype="lover" id="ee3d78c2-5610-4965-b5af-a969322b4396">
+<persname short="CLAUD." numberOfLines="221" numberOfVerseLines="128" numberOfProseLines="93" numberOfLyricsLines="0">Claudio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BALTH." numberOfLines="33" numberOfVerseLines="31" numberOfProseLines="2" numberOfLyricsLines="23">Balthasar</persname>
+<persona gender="male" id="69085ce6-55ac-40dc-b60a-1e6432dd3ce3">
+<persname short="D. PEDRO." numberOfLines="183" numberOfVerseLines="77" numberOfProseLines="106" numberOfLyricsLines="0">Don Pedro</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CON." numberOfLines="23" numberOfVerseLines="0" numberOfProseLines="23" numberOfLyricsLines="0">Conrade</persname>
-<persaliases>
-	<persname short="BOTH CON. AND BORA.">Both Conrade and Borachio</persname>
-</persaliases>
+<persona gender="male" archetype="villain" id="cc529639-290b-4b46-9696-a312afb8aa51">
+<persname short="D. JOHN." numberOfLines="47" numberOfVerseLines="8" numberOfProseLines="39" numberOfLyricsLines="0">Don John</persname>
 </persona>
 
-<persona gender="male" archetype="villain">
+<persona gender="male" archetype="villain" id="2286fc97-42ed-4a8c-8bea-676fda4c687f">
 <persname short="BORA." numberOfLines="47" numberOfVerseLines="7" numberOfProseLines="40" numberOfLyricsLines="0">Borachio</persname>
 <persaliases>
 	<persname short="BOTH CON. AND BORA.">Both Conrade and Borachio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FRIAR." numberOfLines="80" numberOfVerseLines="76" numberOfProseLines="4" numberOfLyricsLines="0">Friar Francis</persname>
+<persona gender="male" id="b645fc87-52e7-47f5-a8c1-d549f5a23934">
+<persname short="CON." numberOfLines="23" numberOfVerseLines="0" numberOfProseLines="23" numberOfLyricsLines="0">Conrade</persname>
+<persaliases>
+	<persname short="BOTH CON. AND BORA.">Both Conrade and Borachio</persname>
+</persaliases>
 </persona>
 
-<persona gender="female" archetype="lover">
-<persname short="HERO." numberOfLines="124" numberOfVerseLines="103" numberOfProseLines="21" numberOfLyricsLines="0">Hero</persname>
+<persona gender="male" id="c16f9928-1388-48f8-b815-c2ab761fbdac">
+<persname short="ANT." numberOfLines="44" numberOfVerseLines="35" numberOfProseLines="9" numberOfLyricsLines="0">Antonio</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="BEAT." numberOfLines="119" numberOfVerseLines="24" numberOfProseLines="95" numberOfLyricsLines="0">Beatrice</persname>
-</persona>
-
-<persona gender="female">
-<persname short="MARG." numberOfLines="26" numberOfVerseLines="1" numberOfProseLines="25" numberOfLyricsLines="0">Margaret</persname>
-</persona>
-
-<persona gender="female">
-<persname short="URS." numberOfLines="37" numberOfVerseLines="29" numberOfProseLines="8" numberOfLyricsLines="0">Ursula</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="a49d459e-1104-45fe-bb23-5495b311bd2e">
 <persname short="DOG." numberOfLines="52" numberOfVerseLines="0" numberOfProseLines="52" numberOfLyricsLines="0">Dogberry</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="31f701be-6f21-4816-bbfe-2e9ab500b407">
 <persname short="VERG." numberOfLines="18" numberOfVerseLines="0" numberOfProseLines="18" numberOfLyricsLines="0">Verges</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SEX." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Sexton</persname>
+<persona gender="female" archetype="hero" id="3c2f9912-1d6c-4870-843c-9ca8356b9a86">
+<persname short="BEAT." numberOfLines="119" numberOfVerseLines="24" numberOfProseLines="95" numberOfLyricsLines="0">Beatrice</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BOY." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Boy</persname>
+<persona gender="female" archetype="lover" id="5e89c6e5-d4b9-4140-b2c5-c809d07ea7e2">
+<persname short="HERO." numberOfLines="124" numberOfVerseLines="103" numberOfProseLines="21" numberOfLyricsLines="0">Hero</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MESS." numberOfLines="18" numberOfVerseLines="2" numberOfProseLines="16" numberOfLyricsLines="0">Messenger</persname>
+<persona gender="female" id="2ede8fe0-3613-42a7-b5a7-0f712643b51c">
+<persname short="URS." numberOfLines="37" numberOfVerseLines="29" numberOfProseLines="8" numberOfLyricsLines="0">Ursula</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="ddcc29aa-2a30-4a6b-894d-0a0203ba8bf1">
+<persname short="MARG." numberOfLines="26" numberOfVerseLines="1" numberOfProseLines="25" numberOfLyricsLines="0">Margaret</persname>
+</persona>
+
+<persona gender="male" id="5afb2f5f-61b8-4c2a-a992-18479559ef30">
+<persname short="FRIAR." numberOfLines="80" numberOfVerseLines="76" numberOfProseLines="4" numberOfLyricsLines="0">Friar Francis</persname>
+</persona>
+
+<persona gender="male" id="aae96994-a140-41db-b679-4f67a9d76230">
+<persname short="BALTH." numberOfLines="33" numberOfVerseLines="31" numberOfProseLines="2" numberOfLyricsLines="23">Balthasar</persname>
+</persona>
+
+<persona gender="male" id="67333f27-9e4c-4c50-b136-b9be15cfc558">
 <persname short="1. WATCH." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">First Watchman</persname>
 <persaliases>
 	<persname short="BOTH 1. WATCH. AND 2. WATCH.">Both First and Second Watchmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="13a19949-c55b-44d4-8034-2fd59cb398df">
 <persname short="2. WATCH." numberOfLines="17" numberOfVerseLines="0" numberOfProseLines="17" numberOfLyricsLines="0">Second Watchman</persname>
 <persaliases>
 	<persname short="BOTH 1. WATCH. AND 2. WATCH.">Both First and Second Watchmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="A LORD." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Lord</persname>
+<persona gender="male" id="e12c2a1e-c7ff-4b86-9cb7-221ad7548d0c">
+<persname short="MESS." numberOfLines="18" numberOfVerseLines="2" numberOfProseLines="16" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="631cd6a7-9a10-4886-8618-2149839abb75">
+<persname short="SEX." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Sexton</persname>
+</persona>
+
+<persona gender="male" id="52cc1c69-af91-4488-86be-1a56b353faf8">
+<persname short="BOY." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Boy</persname>
+</persona>
+
+<persona gender="male" id="9829848d-21aa-4a6c-ade1-3e3bf1d63216">
+<persname short="LORD." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Lord</persname>
 </persona>
 
 </personae>
@@ -115,6 +120,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Messina. Before Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="HERO.">Hero</scenepersona>
@@ -809,6 +815,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
@@ -880,6 +887,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A hall in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="D. JOHN.">Don John the Bastard</scenepersona>
 	<scenepersona short="CON.">Conrade</scenepersona>
@@ -1024,7 +1032,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>D. JOHN.</actor>
-		<actor>CON</actor>
+		<actor>CON.</actor>
 		<actor>BORA.</actor>
 	</action>
 </stagedir>
@@ -1037,6 +1045,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
@@ -1934,6 +1943,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another room in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="D. JOHN.">Don John</scenepersona>
 	<scenepersona short="BORA.">Borachio</scenepersona>
@@ -2049,6 +2059,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Leonato&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BENE.">Benedick</scenepersona>
 	<scenepersona short="BOY.">Boy</scenepersona>
@@ -2634,6 +2645,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Leonato&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HERO.">Hero</scenepersona>
 	<scenepersona short="MARG.">Margaret</scenepersona>
@@ -2937,6 +2949,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="D. PEDRO.">Prince Don Pedro</scenepersona>
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
@@ -3296,6 +3309,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Messina. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DOG.">Dogberry</scenepersona>
 	<scenepersona short="VERG.">Verges</scenepersona>
@@ -3609,7 +3623,7 @@
 <stagedir sdglobalnumber="685.01" sdnumber="51.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. WATCH</actor>
+		<actor>2. WATCH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="686" number="52" form="prose">I know that Deformed; &#8217;a has been a vile thief this seven year; &#8217;a goes up and down like a gentleman. I remember his name.</line>
@@ -3710,6 +3724,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Hero&#8217;s apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HERO.">Hero</scenepersona>
 	<scenepersona short="MARG.">Margaret</scenepersona>
@@ -3978,6 +3993,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another room in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="DOG.">Constable Dogberry</scenepersona>
@@ -4175,6 +4191,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Messina. Inside a church.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="D. PEDRO.">Prince Don Pedro</scenepersona>
 	<scenepersona short="D. JOHN.">Don John the Bastard</scenepersona>
@@ -5015,6 +5032,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Messina. A prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DOG.">Dogberry</scenepersona>
 	<scenepersona short="VERG.">Verges</scenepersona>
@@ -5241,10 +5259,7 @@
 
 <speech>
 <speaker long="Dogberry">DOG.</speaker>
-<line globalnumber="1113" number="39" form="prose">Dost thou not suspect my place? Dost thou not suspect my years? O that he were here to write me down as ass! 
-But, masters, remember that I am an ass; though it be not written down, yet forget not that I am an ass. 
-No, thou villain, thou art full of piety, as shall be prov&#8217;d upon thee by good witness. 
-I am a wise fellow, and which is more, an officer, and which is more, a householder, and which is more, as pretty a piece of flesh as any is in Messina, and one that knows the law, go to, and a rich fellow enough, go to, and a fellow that hath had losses, and one that hath two gowns, and every thing handsome about him. Bring him away. O that I had been writ down an ass!</line>
+<line globalnumber="1113" number="39" form="prose">Dost thou not suspect my place? Dost thou not suspect my years? O that he were here to write me down as ass! But, masters, remember that I am an ass; though it be not written down, yet forget not that I am an ass. No, thou villain, thou art full of piety, as shall be prov&#8217;d upon thee by good witness. I am a wise fellow, and which is more, an officer, and which is more, a householder, and which is more, as pretty a piece of flesh as any is in Messina, and one that knows the law, go to, and a rich fellow enough, go to, and a fellow that hath had losses, and one that hath two gowns, and every thing handsome about him. Bring him away. O that I had been writ down an ass!</line>
 </speech>
 
 <stagedir sdglobalnumber="1113.01" sdnumber="39.01">
@@ -5267,6 +5282,7 @@ I am a wise fellow, and which is more, an officer, and which is more, a househol
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
@@ -5708,14 +5724,7 @@ I am a wise fellow, and which is more, an officer, and which is more, a househol
 
 <speech>
 <speaker long="Don Pedro">D. PEDRO.</speaker>
-<line globalnumber="1256" number="135" form="prose">I&#8217;ll tell thee how Beatrice prais&#8217;d thy wit the other day. 
-I said thou hadst a fine wit.
- &#8220;True,&#8221; said she, &#8220;a fine little one.&#8221; &#8220;No,&#8221; said I, &#8220;a great wit.&#8221; &#8220;Right,&#8221; says she,
- &#8220;a great gross one.&#8221; &#8220;Nay,&#8221; said I, &#8220;a good wit.&#8221; &#8220;Just,&#8221; said she, &#8220;it hurts nobody.&#8221;
- &#8220;Nay,&#8221; said I, &#8220;the gentleman is wise.&#8221; &#8220;Certain,&#8221; said she, &#8220;a wise gentleman.&#8221; &#8220;Nay,&#8221; 
-said I, &#8220;he hath the tongues.&#8221; &#8220;That I believe,&#8221; said she, &#8220;for he swore a thing to me on Monday night, which he forswore on Tuesday morning. 
-There&#8217;s a double tongue, there&#8217;s two tongues.&#8221; 
-Thus did she an hour together trans-shape thy particular virtues, yet at last she concluded with a sigh, thou wast the proper&#8217;st man in Italy.</line>
+<line globalnumber="1256" number="135" form="prose">I&#8217;ll tell thee how Beatrice prais&#8217;d thy wit the other day. I said thou hadst a fine wit. &#8220;True,&#8221; said she, &#8220;a fine little one.&#8221; &#8220;No,&#8221; said I, &#8220;a great wit.&#8221; &#8220;Right,&#8221; says she, &#8220;a great gross one.&#8221; &#8220;Nay,&#8221; said I, &#8220;a good wit.&#8221; &#8220;Just,&#8221; said she, &#8220;it hurts nobody.&#8221; &#8220;Nay,&#8221; said I, &#8220;the gentleman is wise.&#8221; &#8220;Certain,&#8221; said she, &#8220;a wise gentleman.&#8221; &#8220;Nay,&#8221; said I, &#8220;he hath the tongues.&#8221; &#8220;That I believe,&#8221; said she, &#8220;for he swore a thing to me on Monday night, which he forswore on Tuesday morning. There&#8217;s a double tongue, there&#8217;s two tongues.&#8221; Thus did she an hour together trans-shape thy particular virtues, yet at last she concluded with a sigh, thou wast the proper&#8217;st man in Italy.</line>
 </speech>
 
 <speech>
@@ -5824,8 +5833,7 @@ Thus did she an hour together trans-shape thy particular virtues, yet at last sh
 
 <speech>
 <speaker long="Dogberry">DOG.</speaker>
-<line globalnumber="1274" number="153" form="prose">Marry, sir, they have committed false report; moreover they have spoken untruths; secondarily, they are slanders; sixth and lastly, they have belied a lady; 
-thirdly, they have verified unjust things; and to conclude, they are lying knaves.</line>
+<line globalnumber="1274" number="153" form="prose">Marry, sir, they have committed false report; moreover they have spoken untruths; secondarily, they are slanders; sixth and lastly, they have belied a lady; thirdly, they have verified unjust things; and to conclude, they are lying knaves.</line>
 </speech>
 
 <speech>
@@ -6089,6 +6097,7 @@ thirdly, they have verified unjust things; and to conclude, they are lying knave
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Leonato&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BENE.">Benedick</scenepersona>
 	<scenepersona short="MARG.">Margaret</scenepersona>
@@ -6179,8 +6188,7 @@ thirdly, they have verified unjust things; and to conclude, they are lying knave
 <line globalnumber="1363" number="13" form="verse" type="lyric">That sits above,</line>
 <line globalnumber="1364" number="14" form="verse" type="lyric">And knows me, and knows me,</line>
 <line globalnumber="1365" number="15" form="verse" type="lyric">How pitiful I deserve&#8221;&#8212;</line>
-<line globalnumber="1366" number="16" form="prose">I mean in singing; but in loving, Leander the good swimmer, Troilus the first employer of pandars, and a whole bookful of these quondam carpet-mongers, whose names yet run smoothly in the even road of a blank verse, why, they were never so truly turn&#8217;d over and over as my poor self in love. 
-Marry, I cannot show it in rhyme; I have tried. I can find out no rhyme to &#8220;lady&#8221; but &#8220;baby,&#8221; an innocent rhyme; for &#8220;scorn,&#8221; &#8220;horn,&#8221; a hard rhyme; for &#8220;school,&#8221; &#8220;fool,&#8221; a babbling rhyme: very ominous endings. No, I was not born under a rhyming planet, nor I cannot woo in festival terms.</line>
+<line globalnumber="1366" number="16" form="prose">I mean in singing; but in loving, Leander the good swimmer, Troilus the first employer of pandars, and a whole bookful of these quondam carpet-mongers, whose names yet run smoothly in the even road of a blank verse, why, they were never so truly turn&#8217;d over and over as my poor self in love. Marry, I cannot show it in rhyme; I have tried. I can find out no rhyme to &#8220;lady&#8221; but &#8220;baby,&#8221; an innocent rhyme; for &#8220;scorn,&#8221; &#8220;horn,&#8221; a hard rhyme; for &#8220;school,&#8221; &#8220;fool,&#8221; a babbling rhyme: very ominous endings. No, I was not born under a rhyming planet, nor I cannot woo in festival terms.</line>
 <stagedir sdglobalnumber="1366.01" sdnumber="16.01">
 	<dir>Enter Beatrice.</dir>
 	<action type="enter">
@@ -6247,8 +6255,7 @@ Marry, I cannot show it in rhyme; I have tried. I can find out no rhyme to &#822
 
 <speech>
 <speaker long="Benedick">BENE.</speaker>
-<line globalnumber="1379" number="29" form="prose">An old, an old instance, Beatrice, that liv&#8217;d in the time of good neighbors. 
-If a man do not erect in this age his own tomb ere he dies, he shall live no longer in monument than the bell rings and the widowweeps.</line>
+<line globalnumber="1379" number="29" form="prose">An old, an old instance, Beatrice, that liv&#8217;d in the time of good neighbors. If a man do not erect in this age his own tomb ere he dies, he shall live no longer in monument than the bell rings and the widowweeps.</line>
 </speech>
 
 <speech>
@@ -6258,8 +6265,7 @@ If a man do not erect in this age his own tomb ere he dies, he shall live no lon
 
 <speech>
 <speaker long="Benedick">BENE.</speaker>
-<line globalnumber="1381" number="31" form="prose">Question: why, an hour in clamor and a quarter in rheum; therefore is it most expedient for the wise, if Don Worm (his conscience) find no impediment to the contrary, to be the trumpet of his own virtues, as I am to myself. 
-So much for praising myself, who I myself will bear witness is praiseworthy. And now tell me, how doth your cousin?</line>
+<line globalnumber="1381" number="31" form="prose">Question: why, an hour in clamor and a quarter in rheum; therefore is it most expedient for the wise, if Don Worm (his conscience) find no impediment to the contrary, to be the trumpet of his own virtues, as I am to myself. So much for praising myself, who I myself will bear witness is praiseworthy. And now tell me, how doth your cousin?</line>
 </speech>
 
 <speech>
@@ -6318,10 +6324,11 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Messina. Inside a church.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
 	<scenepersona short="D. PEDRO.">Prince Don Pedro</scenepersona>
-	<scenepersona short="A LORD.">Lord</scenepersona>
+	<scenepersona short="LORD.">Lord</scenepersona>
 	<scenepersona short="BALTH.">Balthasar</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -6334,7 +6341,7 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 	<action type="enter">
 		<actor>CLAUD.</actor>
 		<actor>D. PEDRO.</actor>
-		<actor>A LORD.</actor>
+		<actor>LORD.</actor>
 		<actor>BALTH.</actor>
 	</action>
 </stagedir>
@@ -6345,7 +6352,7 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 </speech>
 
 <speech>
-<speaker long="Lord">A LORD.</speaker>
+<speaker long="Lord">LORD.</speaker>
 <line globalnumber="1390" number="2" form="prose">It is, my lord.</line>
 </speech>
 
@@ -6436,7 +6443,7 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 	<action type="exit">
 		<actor>CLAUD.</actor>
 		<actor>D. PEDRO.</actor>
-		<actor>A LORD.</actor>
+		<actor>LORD.</actor>
 		<actor>BALTH.</actor>
 	</action>
 </stagedir>
@@ -6446,6 +6453,7 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Leonato&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonato</scenepersona>
 	<scenepersona short="BENE.">Benedick</scenepersona>
@@ -6844,8 +6852,7 @@ So much for praising myself, who I myself will bear witness is praiseworthy. And
 
 <speech>
 <speaker long="Benedick">BENE.</speaker>
-<line globalnumber="1521" number="95" form="prose">I&#8217;ll tell thee what, Prince: a college of wit-crackers cannot flout me out of my humor. Dost thou think I care for a satire or an epigram? No, if a man will be beaten with brains, &#8217;a shall wear nothing handsome about him. In brief, since I do purpose to marry, I will think nothing to any purpose that the world can say against it, and therefore never flout at me for what I have said against it; for man is a giddy thing, and this is my conclusion. 
-For thy part, Claudio, I did think to have beaten thee, but in that thou art like to be my kinsman, live unbruis&#8217;d, and love my cousin.</line>
+<line globalnumber="1521" number="95" form="prose">I&#8217;ll tell thee what, Prince: a college of wit-crackers cannot flout me out of my humor. Dost thou think I care for a satire or an epigram? No, if a man will be beaten with brains, &#8217;a shall wear nothing handsome about him. In brief, since I do purpose to marry, I will think nothing to any purpose that the world can say against it, and therefore never flout at me for what I have said against it; for man is a giddy thing, and this is my conclusion. For thy part, Claudio, I did think to have beaten thee, but in that thou art like to be my kinsman, live unbruis&#8217;d, and love my cousin.</line>
 </speech>
 
 <speech>
@@ -6913,18 +6920,9 @@ For thy part, Claudio, I did think to have beaten thee, but in that thou art lik
 </act>
 
 
-<locations numberOfLocations="10">
-<placename>A hall in Leonato&#8217;s house.</placename>
-<placename>A room in Leonato&#8217;s house.</placename>
-<placename>Another room in Leonato&#8217;s house.</placename>
-<placename>Hero&#8217;s apartment.</placename>
-<placename>Leonato&#8217;s garden.</placename>
-<placename>Leonato&#8217;s orchard.</placename>
-<placename>Messina. A prison.</placename>
-<placename>Messina. A street.</placename>
-<placename>Messina. Before Leonato&#8217;s house.</placename>
-<placename>Messina. Inside a church.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -6962,12 +6960,11 @@ For thy part, Claudio, I did think to have beaten thee, but in that thou art lik
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

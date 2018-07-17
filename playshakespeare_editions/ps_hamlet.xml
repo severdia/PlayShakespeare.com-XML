@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="hamlet">
 <title short="Hamlet">The Tragedy of Hamlet, Prince of Denmark</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1600-1601</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Hamlet">
 
-<persona gender="male" archetype="villain" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="91d29aa8-e85f-4d04-9a40-bb85c88d1e35">
+<persname short="HAM." numberOfLines="1099" numberOfVerseLines="885" numberOfProseLines="214" numberOfLyricsLines="0">Hamlet</persname>
+</persona>
+
+<persona gender="male" archetype="villain" death="yes" id="d9a25a55-fce7-4f4a-9f19-fac0828fc0f6">
 <persname short="KING." numberOfLines="545" numberOfVerseLines="528" numberOfProseLines="17" numberOfLyricsLines="0">Claudius, King of Denmark</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="GHOST." numberOfLines="95" numberOfVerseLines="95" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of Hamlet&#8217;s Father</persname>
+<persona gender="male" death="yes" id="b603a63e-91df-4280-b363-9e1764a55656">
+<persname short="POL." numberOfLines="333" numberOfVerseLines="290" numberOfProseLines="43" numberOfLyricsLines="0">Polonius</persname>
 </persona>
 
-<persona gender="female" death="yes">
-<persname short="OPH." numberOfLines="154" numberOfVerseLines="125" numberOfProseLines="29" numberOfLyricsLines="44">Ophelia</persname>
-</persona>
-
-<persona gender="female" death="yes">
-<persname short="QUEEN." numberOfLines="157" numberOfVerseLines="153" numberOfProseLines="4" numberOfLyricsLines="0">Gertrude, Queen of Denmark</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FORT." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Fortinbras</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FRAN." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Francisco</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BAR." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Barnardo</persname>
+<persona gender="male" id="2ce701b4-d2f9-4011-ae9a-53c71be0c764">
+<persname short="HOR." numberOfLines="273" numberOfVerseLines="248" numberOfProseLines="25" numberOfLyricsLines="0">Horatio</persname>
 <persaliases>
-	<persname short="BOTH MAR. AND BAR.">Both Barnardo and Marcellus</persname>
 	<persname short="HOR., MAR. AND BAR.">Horatio, Marcellus, and Barnardo</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="4b482331-da3f-4f8c-8f8c-2c53219aab64">
+<persname short="LAER." numberOfLines="208" numberOfVerseLines="205" numberOfProseLines="3" numberOfLyricsLines="0">Laertes</persname>
+</persona>
+
+<persona gender="male" archetype="hero" id="e4b9d9d9-0c3b-4542-9c58-c05f7a114862">
+<persname short="GHOST." numberOfLines="95" numberOfVerseLines="95" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of Hamlet&#8217;s Father</persname>
+</persona>
+
+<persona gender="male" death="yes" id="447ff908-8105-4e3c-bc56-3f6ed9a56e3e">
+<persname short="ROS." numberOfLines="73" numberOfVerseLines="35" numberOfProseLines="38" numberOfLyricsLines="0">Rosencrantz</persname>
+<persaliases>
+	<persname short="BOTH ROS. AND GUIL.">Both Rosencrantz and Guildenstern</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="a721770b-ad7c-4c24-8386-8fe303671a83">
 <persname short="MAR." numberOfLines="68" numberOfVerseLines="67" numberOfProseLines="1" numberOfLyricsLines="0">Marcellus</persname>
 <persaliases>
 	<persname short="BOTH MAR. AND BAR.">Both Barnardo and Marcellus</persname>
@@ -48,121 +55,120 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="HOR." numberOfLines="273" numberOfVerseLines="248" numberOfProseLines="25" numberOfLyricsLines="0">Horatio</persname>
+<persona gender="male" id="146cf2a5-399e-4d1d-9132-8e60a0f1c4bc">
+<persname short="BAR." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Barnardo</persname>
 <persaliases>
+	<persname short="BOTH MAR. AND BAR.">Both Barnardo and Marcellus</persname>
 	<persname short="HOR., MAR. AND BAR.">Horatio, Marcellus, and Barnardo</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="POL." numberOfLines="333" numberOfVerseLines="290" numberOfProseLines="43" numberOfLyricsLines="0">Polonius</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="HAM." numberOfLines="1099" numberOfVerseLines="885" numberOfProseLines="214" numberOfLyricsLines="0">Hamlet</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OSR." numberOfLines="27" numberOfVerseLines="8" numberOfProseLines="19" numberOfLyricsLines="0">Osric</persname>
-</persona>
-
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="bc7a0de3-5554-4b61-a5c1-f6eb5a758641">
 <persname short="GUIL." numberOfLines="39" numberOfVerseLines="15" numberOfProseLines="24" numberOfLyricsLines="0">Guildenstern</persname>
 <persaliases>
 	<persname short="BOTH ROS. AND GUIL.">Both Rosencrantz and Guildenstern</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="ROS." numberOfLines="73" numberOfVerseLines="35" numberOfProseLines="38" numberOfLyricsLines="0">Rosencrantz</persname>
-<persaliases>
-	<persname short="BOTH ROS. AND GUIL.">Both Rosencrantz and Guildenstern</persname>
-</persaliases>
+<persona gender="male" id="d6f52daf-aa13-4946-bbf9-4f18465ab477">
+<persname short="FORT." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Fortinbras</persname>
 </persona>
 
-<persona gender="male">
-<persname short="COR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Cornelius</persname>
-<persaliases>
-	<persname short="BOTH COR. AND VOL.">Both Cornelius and Voltemand</persname>
-</persaliases>
+<persona gender="male" id="84f16ceb-41d7-46d2-8080-7f0c87699a84">
+<persname short="OSR." numberOfLines="27" numberOfVerseLines="8" numberOfProseLines="19" numberOfLyricsLines="0">Osric</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="45525792-79fd-4d89-b643-1ce4e266c1f3">
 <persname short="VOL." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Voltemand</persname>
 <persaliases>
 	<persname short="BOTH COR. AND VOL.">Both Cornelius and Voltemand</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero" death="yes">
-<persname short="LAER." numberOfLines="208" numberOfVerseLines="205" numberOfProseLines="3" numberOfLyricsLines="0">Laertes</persname>
+<persona gender="male" id="d6f35ef3-7be7-41b7-a378-fbf751faddab">
+<persname short="REY." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Reynaldo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d09f8bd-5a3e-49c3-93ad-30ce31316e1e">
+<persname short="DOCTOR." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Doctor of Divinity</persname>
+</persona>
+
+<persona gender="male" id="ce708ce7-18c6-4a31-a14e-60d242f7e76a">
+<persname short="FRAN." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Francisco</persname>
+</persona>
+
+<persona gender="male" id="ebffebf8-0963-4bc0-b636-334d5b2e0992">
+<persname short="COR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Cornelius</persname>
+<persaliases>
+	<persname short="BOTH COR. AND VOL.">Both Cornelius and Voltemand</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" death="yes" id="a9afb381-d026-4c12-ae93-803936acfd51">
+<persname short="QUEEN." numberOfLines="157" numberOfVerseLines="153" numberOfProseLines="4" numberOfLyricsLines="0">Gertrude, Queen of Denmark</persname>
+</persona>
+
+<persona gender="female" death="yes" id="4ae7577f-13ed-4506-8e50-210b6a57f0a4">
+<persname short="OPH." numberOfLines="154" numberOfVerseLines="125" numberOfProseLines="29" numberOfLyricsLines="44">Ophelia</persname>
+</persona>
+
+<persona gender="male" id="9ed9fadb-1edf-4301-91d3-fb985ceb2c81">
 <persname short="P. KING." numberOfLines="94" numberOfVerseLines="88" numberOfProseLines="6" numberOfLyricsLines="0">First Player (Player King)</persname>
 <persaliases>
 	<persname short="1. PLAY.">First Player (Player King)</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="P. QUEEN." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Player Queen</persname>
-</persona>
-
-<persona gender="male">
-<persname short="P. PRO." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Player Prologue</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="cd1a28ab-3039-423c-96b4-229c021d9a87">
 <persname short="P. LUC." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Player Lucianus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ee10f0e0-dcf5-4739-a25c-c4849d8989ed">
+<persname short="P. PRO." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Player Prologue</persname>
+</persona>
+
+<persona gender="female" id="df8a2a2c-898d-43ea-be94-b3145a3d1dd7">
+<persname short="P. QUEEN." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Player Queen</persname>
+</persona>
+
+<persona gender="male" id="e030d0ef-9d5d-4180-8503-fcd26c701136">
 <persname short="1. CLO." numberOfLines="45" numberOfVerseLines="14" numberOfProseLines="31" numberOfLyricsLines="14">First Clown (Gravedigger)</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c01a99cc-0343-4932-904a-646c47d85f03">
 <persname short="2. CLO." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Second Clown (Gravedigger)</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LAER. FOL." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Laertes&#8217;s Followers</persname>
-</persona>
 
-<persona gender="male">
-<persname short="GENT." numberOfLines="14" numberOfVerseLines="12" numberOfProseLines="2" numberOfLyricsLines="0">Gentleman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="REY." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Reynaldo</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LORD." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lord</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="d12dd341-8921-4313-aba5-00cbd284017c">
 <persname short="MESS." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. SAIL." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">First Sailor</persname>
+<persona gender="male" id="1fb2ce59-1442-4f0b-a7b0-2c3051fc18f7">
+<persname short="GENT." numberOfLines="14" numberOfVerseLines="12" numberOfProseLines="2" numberOfLyricsLines="0">Gentleman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. AMB." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Ambassador</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="47c6ead8-180e-4db7-b24d-e922384f9981">
 <persname short="CAP." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Norwegian Captain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DOCTOR." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Doctor of Divinity</persname>
+<persona gender="male" id="631eda98-ac62-4660-8554-6f68f27fcbbb">
+<persname short="1. AMB." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Ambassador</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4fa9ac50-9312-4bda-a0d8-269cdf6a3250">
+<persname short="1. SAIL." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">First Sailor</persname>
+</persona>
+
+<persona gender="male" id="683c35b8-8d8f-407c-83f2-cffd0a98461d">
+<persname short="LORD." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lord</persname>
+</persona>
+
+<persona gender="male" id="54c6fd30-0293-435b-9d31-7fd53acf6366">
+<persname short="LAER. FOL." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Laertes&#8217;s Followers</persname>
+</persona>
+
+<persona gender="male" id="8722b2f3-d010-4d0b-a14a-5b0cc6ab83eb">
 <persname short="PALL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Ophelia&#8217;s Pallbearers</persname>
 </persona>
 
@@ -173,6 +179,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A platform before the castle.</scenelocation>
+<scenetime>Late night</scenetime>
 <scenepersonae>
 	<scenepersona short="BAR.">Barnardo</scenepersona>
 	<scenepersona short="FRAN.">Francisco</scenepersona>
@@ -305,7 +312,7 @@
 
 <speech>
 <speaker long="Barnardo">BAR.</speaker>
-<line globalnumber="24" number="18" form="verse" offset="8">Say&#8212;</line>
+<line globalnumber="24" number="18" form="verse" offset="10">Say&#8212;</line>
 <line globalnumber="25" number="19" form="verse" offset="0">What, is Horatio there?</line>
 </speech>
 
@@ -693,6 +700,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A room of state in the castle.</scenelocation>
+<scenetime>The next day</scenetime>
 <scenepersonae>
 	<scenepersona short="KING.">Claudius</scenepersona>
 	<scenepersona short="QUEEN.">Gertrude</scenepersona>
@@ -852,7 +860,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="260" number="68" form="verse">Good Hamlet, cast thy nighted color off,</line>
 <line globalnumber="261" number="69" form="verse">And let thine eye look like a friend on Denmark.</line>
 <line globalnumber="262" number="70" form="verse">Do not forever with thy vailed lids</line>
@@ -867,7 +875,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="267" number="74" form="verse" offset="6">If it be,</line>
 <line globalnumber="268" number="75" form="verse">Why seems it so particular with thee?</line>
 </speech>
@@ -923,7 +931,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="311" number="118" form="verse">Let not thy mother lose her prayers, Hamlet,</line>
 <line globalnumber="312" number="119" form="verse">I pray thee stay with us, go not to Wittenberg.</line>
 </speech>
@@ -1366,6 +1374,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Elsinore. A room in Polonius&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAER.">Laertes</scenepersona>
 	<scenepersona short="OPH.">Ophelia</scenepersona>
@@ -1659,6 +1668,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Elsinore. A platform before Elsinore castle.</scenelocation>
+<scenetime>Late night</scenetime>
 <scenepersonae>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="HOR.">Horatio</scenepersona>
@@ -1935,6 +1945,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Elsinore. Another part of the platform before Elsinore castle.</scenelocation>
+<scenetime>Later the same night</scenetime>
 <scenepersonae>
 	<scenepersona short="GHOST.">Ghost</scenepersona>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
@@ -2176,7 +2187,7 @@
 
 <speech>
 <speaker long="Marcellus">MAR.</speaker>
-<stagedir sdglobalnumber="830.01" sdnumber="112.01">
+<stagedir sdglobalnumber="830.01" sdnumber="112.02">
 	<dir>Within.</dir>
 	<action type="speak-offstage">
 		<actor>MAR.</actor>
@@ -2185,7 +2196,7 @@
 <line globalnumber="831" number="112" form="verse" offset="7">Lord Hamlet!</line>
 </speech>
 
-<stagedir sdglobalnumber="831.01" sdnumber="112.01">
+<stagedir sdglobalnumber="831.01" sdnumber="112.03">
 	<dir>Enter Horatio and Marcellus.</dir>
 	<action type="enter">
 		<actor>HOR.</actor>
@@ -2357,7 +2368,7 @@
 
 <stagedir sdglobalnumber="877.01" sdnumber="147.01">
 	<dir>Ghost cries under the stage.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
@@ -2389,7 +2400,7 @@
 <speaker long="Ghost of Hamlet&#8217;s Father">GHOST.</speaker>
 <stagedir sdglobalnumber="884.01" sdnumber="153.01">
 	<dir>Beneath.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
@@ -2409,7 +2420,7 @@
 <speaker long="Ghost of Hamlet&#8217;s Father">GHOST.</speaker>
 <stagedir sdglobalnumber="890.01" sdnumber="159.01">
 	<dir>Beneath.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
@@ -2451,7 +2462,7 @@
 <speaker long="Ghost of Hamlet&#8217;s Father">GHOST.</speaker>
 <stagedir sdglobalnumber="910.01" sdnumber="179.01">
 	<dir>Beneath.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>GHOST.</actor>
 	</action>
 </stagedir>
@@ -2497,6 +2508,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in Polonius&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POL.">Polonius</scenepersona>
 	<scenepersona short="REY.">Reynaldo</scenepersona>
@@ -2821,6 +2833,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
@@ -2876,7 +2889,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1070" number="19" form="verse">Good gentlemen, he hath much talk&#8217;d of you,</line>
 <line globalnumber="1071" number="20" form="verse">And sure I am two men there is not living</line>
 <line globalnumber="1072" number="21" form="verse">To whom he more adheres. If it will please you</line>
@@ -2909,7 +2922,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1087" number="34" form="verse">Thanks, Guildenstern and gentle Rosencrantz.</line>
 <line globalnumber="1088" number="35" form="verse">And I beseech you instantly to visit</line>
 <line globalnumber="1089" number="36" form="verse">My too much changed son. Go some of you</line>
@@ -2923,7 +2936,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1093" number="39" form="verse" offset="5">Ay, amen!</line>
 </speech>
 
@@ -2989,7 +3002,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1110" number="56" form="verse">I doubt it is no other but the main,</line>
 <line globalnumber="1111" number="57" form="verse">His father&#8217;s death and our o&#8217;erhasty marriage.</line>
 </speech>
@@ -3075,7 +3088,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1152" number="96" form="verse">More matter with less art.</line>
 </speech>
 
@@ -3106,7 +3119,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1169" number="113" form="prose">Came this from Hamlet to her?</line>
 </speech>
 
@@ -3179,7 +3192,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1208" number="149" form="verse">It may be, very like.</line>
 </speech>
 
@@ -3206,7 +3219,7 @@
 <line globalnumber="1213" number="153" form="verse">Take this from this, if this be otherwise.</line>
 <line globalnumber="1214" number="154" form="verse">If circumstances lead me, I will find</line>
 <line globalnumber="1215" number="155" form="verse">Where truth is hid, though it were hid indeed</line>
-<line globalnumber="1216" number="156" form="verse" offset="0">Within the centre.</line>
+<line globalnumber="1216" number="156" form="verse" offset="0">Within the center.</line>
 </speech>
 
 <speech>
@@ -3221,7 +3234,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1220" number="158" form="verse" offset="4">So he does indeed.</line>
 </speech>
 
@@ -3247,7 +3260,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1228" number="165" form="verse">But look where sadly the poor wretch comes reading.</line>
 </speech>
 
@@ -3893,7 +3906,8 @@
 <line globalnumber="1346" number="281" form="prose">I heard thee speak me a speech once, but it was never acted, or if it was, not above once; for the play, I remember, pleas&#8217;d not the million, &#8217;twas caviary to the general, but it was&#8212;as I receiv&#8217;d it, and others, whose judgments in such matters cried in the top of mine&#8212;an excellent play, well digested in the scenes, set down with as much modesty as cunning. I remember one said there were no sallets in the lines to make the matter savory, nor no matter in the phrase that might indict the author of affection, but call&#8217;d it an honest method, as wholesome as sweet, and by very much more handsome than fine. One speech in&#8217;t I chiefly lov&#8217;d, &#8217;twas Aeneas&#8217; tale to Dido, and thereabout of it especially when he speaks of Priam&#8217;s slaughter. If it live in your memory, begin at this line&#8212;let me see, let me see:</line>
 <line globalnumber="1347" number="282" form="verse">&#8220;The rugged Pyrrhus, like th&#8217; Hyrcanian beast&#8212;&#8221;</line>
 <line globalnumber="1348" number="283" form="verse">&#8217;Tis not so, it begins with Pyrrhus:</line>
-<line globalnumber="1349" number="284" form="verse">&#8220;The rugged Pyrrhus, he whose sable arms,</line>
+<line globalnumber="1349" number="284" form="verse">&#8220;The rugged 
+Pyrrhus, he whose sable arms,</line>
 <line globalnumber="1350" number="285" form="verse">Black as his purpose, did the night resemble</line>
 <line globalnumber="1351" number="286" form="verse">When he lay couched in th&#8217; ominous horse,</line>
 <line globalnumber="1352" number="287" form="verse">Hath now this dread and black complexion smear&#8217;d</line>
@@ -4153,6 +4167,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
@@ -4203,7 +4218,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1494" number="10" form="verse" offset="4">Did he receive you well?</line>
 </speech>
 
@@ -4224,7 +4239,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1499" number="14" form="verse" offset="4">Did you assay him</line>
 <line globalnumber="1500" number="15" form="verse">To any pastime?</line>
 </speech>
@@ -4281,7 +4296,7 @@
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1524" number="36" form="verse" offset="5">I shall obey you.</line>
 <line globalnumber="1525" number="37" form="verse">And for your part, Ophelia, I do wish</line>
 <line globalnumber="1526" number="38" form="verse">That your good beauties be the happy cause</line>
@@ -4614,6 +4629,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A hall in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="POL.">Polonius</scenepersona>
@@ -4651,8 +4667,7 @@
 
 <speech>
 <speaker long="Hamlet">HAM.</speaker>
-<line globalnumber="1653" number="1" form="prose">Speak the speech, I pray you, as I pronounc&#8217;d it to you,
-trippingly on the tongue, but if you mouth it, as many of our players do, I had as lief the town-crier spoke my lines. Nor do not saw the air too much with your hand, thus, but use all gently, for in the very torrent, tempest, and, as I may say, whirlwind of your passion, you must acquire and beget a temperance that may give it smoothness. O, it offends me to the soul to hear a robustious periwig-pated fellow tear apassion to totters, to very rags, to spleet the ears of the groundlings, who for the most part are capable of nothing but inexplicable dumb shows and noise. I would have such a fellow whipt for o&#8217;erdoing Termagant, it out-Herods Herod, pray you avoid it.</line>
+<line globalnumber="1653" number="1" form="prose">Speak the speech, I pray you, as I pronounc&#8217;d it to you,trippingly on the tongue, but if you mouth it, as many of our players do, I had as lief the town-crier spoke my lines. Nor do not saw the air too much with your hand, thus, but use all gently, for in the very torrent, tempest, and, as I may say, whirlwind of your passion, you must acquire and beget a temperance that may give it smoothness. O, it offends me to the soul to hear a robustious periwig-pated fellow tear apassion to totters, to very rags, to spleet the ears of the groundlings, who for the most part are capable of nothing but inexplicable dumb shows and noise. I would have such a fellow whipt for o&#8217;erdoing Termagant, it out-Herods Herod, pray you avoid it.</line>
 </speech>
 
 <speech>
@@ -4797,7 +4812,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 
 <stagedir sdglobalnumber="1702.01" sdnumber="48.01">
 	<dir>Sound a flourish. Danish march. Enter Trumpets and Kettle-drums, King, Queen, Polonius, Ophelia, Rosencrantz, Guildenstern, and other Lords attendant, with his Guard carrying torches.</dir>
-	<action type="action">
+	<action type="sound">
+	</action>
+	<action type="enter">
 		<actor>KING.</actor>	
 		<actor>QUEEN.</actor>
 		<actor>POL.</actor>
@@ -4866,7 +4883,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1714" number="60" form="prose">Come hither, my dear Hamlet, sit by me.</line>
 </speech>
 
@@ -4977,6 +4994,12 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 
 <stagedir sdglobalnumber="1731.02" sdnumber="77.02">
 	<dir>Dumb show follows. Enter a King and a Queen very lovingly, the Queen embracing him and he her. She kneels and makes show of protestation unto him. He takes her up and declines his head upon her neck. He lies him down upon a bank of flowers. She, seeing him asleep, leaves him. Anon come in another man, takes off his crown, kisses it, pours poison in the sleeper&#8217;s ears, and leaves him. The Queen returns, finds the King dead, makes passionate action. The pois&#8217;ner with some three or four mutes come in again, seem to condole with her. The dead body is carried away. The pois&#8217;ner woos the Queen with gifts; she seems harsh and unwilling awhile, but in the end accepts love.</dir>
+	<action type="enter">
+		<actor>1. PLAY.</actor>
+		<actor>P. QUEEN.</actor>
+		<actor>P. PRO.</actor>
+		<actor>P. LUC.</actor>
+	</action>
 	<action type="dumbshow">
 		<actor>1. PLAY.</actor>
 		<actor>P. QUEEN.</actor>
@@ -5220,7 +5243,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1822" number="166" form="prose">The lady doth protest too much, methinks.</line>
 </speech>
 
@@ -5319,7 +5342,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="1844" number="188" form="prose">How fares my lord?</line>
 </speech>
 
@@ -5713,6 +5736,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Elsinore. A room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="ROS.">Rosencrantz</scenepersona>
@@ -5931,6 +5955,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Elsinore. The Queen&#8217;s room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUEEN.">Queen Gertrude</scenepersona>
 	<scenepersona short="POL.">Polonius</scenepersona>
@@ -5960,14 +5985,14 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2035" number="6" form="verse">I&#8217;ll warr&#8217;nt you, fear me not. Withdraw,</line>
 <line globalnumber="2036" number="7" form="verse">I hear him coming.</line>
 </speech>
 
 <stagedir sdglobalnumber="2036.01" sdnumber="7.01">
 	<dir>Polonius hides behind the arras.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>POL.</actor>
 	</action>
 </stagedir>
@@ -5985,7 +6010,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2038" number="9" form="verse">Hamlet, thou hast thy father much offended.</line>
 </speech>
 
@@ -5995,7 +6020,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2040" number="11" form="verse">Come, come, you answer with an idle tongue.</line>
 </speech>
 
@@ -6005,7 +6030,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2042" number="13" form="verse" offset="0">Why, how now, Hamlet?</line>
 </speech>
 
@@ -6015,7 +6040,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2044" number="14" form="verse" offset="0">Have you forgot me?</line>
 </speech>
 
@@ -6027,7 +6052,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2048" number="17" form="verse">Nay, then I&#8217;ll set those to you that can speak.</line>
 </speech>
 
@@ -6039,7 +6064,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2052" number="21" form="verse">What wilt thou do? Thou wilt not murder me?</line>
 <line globalnumber="2053" number="22" form="verse">Help ho!</line>
 </speech>
@@ -6048,7 +6073,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <speaker long="Polonius">POL.</speaker>
 <stagedir sdglobalnumber="2053.01" sdnumber="22.01">
 	<dir>Behind.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>POL.</actor>
 	</action>
 </stagedir>
@@ -6078,7 +6103,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <speaker long="Polonius">POL.</speaker>
 <stagedir sdglobalnumber="2055.02" sdnumber="24.02">
 	<dir>Behind.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>POL.</actor>
 	</action>
 </stagedir>
@@ -6086,7 +6111,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2057" number="25" form="verse" offset="3">O me, what hast thou done?</line>
 </speech>
 
@@ -6096,7 +6121,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2059" number="27" form="verse">O, what a rash and bloody deed is this!</line>
 </speech>
 
@@ -6107,7 +6132,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2062" number="30" form="verse" offset="0">As kill a king!</line>
 </speech>
 
@@ -6118,6 +6143,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<dir>Parts the arras and discovers Polonius.</dir>
 	<action type="action">
 		<actor>HAM.</actor>
+	</action>
+	<action type="enter">
+		<actor>POL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2064" number="31" form="verse">Thou wretched, rash, intruding fool, farewell!</line>
@@ -6131,7 +6159,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2072" number="39" form="verse">What have I done, that thou dar&#8217;st wag thy tongue</line>
 <line globalnumber="2073" number="40" form="verse" offset="0">In noise so rude against me?</line>
 </speech>
@@ -6153,7 +6181,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2086" number="51" form="verse" offset="5">Ay me, what act,</line>
 <line globalnumber="2087" number="52" form="verse">That roars so loud and thunders in the index?</line>
 </speech>
@@ -6199,7 +6227,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2124" number="88" form="verse" offset="5">O Hamlet, speak no more!</line>
 <line globalnumber="2125" number="89" form="verse">Thou turn&#8217;st my eyes into my very soul,</line>
 <line globalnumber="2126" number="90" form="verse">And there I see such black and grained spots</line>
@@ -6215,7 +6243,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2132" number="94" form="verse" offset="4">O, speak to me no more!</line>
 <line globalnumber="2133" number="95" form="verse">These words like daggers enter in my ears.</line>
 <line globalnumber="2134" number="96" form="verse" offset="0">No more, sweet Hamlet!</line>
@@ -6232,7 +6260,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2141" number="101" form="verse" offset="5">No more!</line>
 </speech>
 
@@ -6251,7 +6279,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2145" number="105" form="verse">Alas, he&#8217;s mad!</line>
 </speech>
 
@@ -6278,7 +6306,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2157" number="116" form="verse">Alas, how is&#8217;t with you,</line>
 <line globalnumber="2158" number="117" form="verse">That you do bend your eye on vacancy,</line>
 <line globalnumber="2159" number="118" form="verse">And with th&#8217; incorporal air do hold discourse?</line>
@@ -6301,7 +6329,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2172" number="131" form="verse" offset="0">To whom do you speak this?</line>
 </speech>
 
@@ -6311,7 +6339,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2174" number="132" form="verse">Nothing at all, yet all that is I see.</line>
 </speech>
 
@@ -6321,7 +6349,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2176" number="133" form="verse" offset="5">No, nothing but ourselves.</line>
 </speech>
 
@@ -6340,7 +6368,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </stagedir>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2180" number="137" form="verse">This is the very coinage of your brain,</line>
 <line globalnumber="2181" number="138" form="verse">This bodiless creation ecstasy</line>
 <line globalnumber="2182" number="139" form="verse" offset="0">Is very cunning in.</line>
@@ -6368,7 +6396,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2200" number="156" form="verse">O Hamlet, thou hast cleft my heart in twain.</line>
 </speech>
 
@@ -6408,7 +6436,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2225" number="180" form="verse" offset="5">What shall I do?</line>
 </speech>
 
@@ -6433,7 +6461,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2242" number="197" form="verse">Be thou assur&#8217;d, if words be made of breath,</line>
 <line globalnumber="2243" number="198" form="verse">And breath of life, I have no life to breathe</line>
 <line globalnumber="2244" number="199" form="verse">What thou hast said to me.</line>
@@ -6445,7 +6473,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2246" number="200" form="verse" offset="7">Alack,</line>
 <line globalnumber="2247" number="201" form="verse">I had forgot. &#8217;Tis so concluded on.</line>
 </speech>
@@ -6474,8 +6502,10 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<dir>Exeunt severally, Hamlet tugging in Polonius.</dir>
 	<action type="exit">
 		<actor>QUEEN.</actor>
+	</action>
+	<action type="exit">
 		<actor>HAM.</actor>
-		<actor>POL.</actor>
+		<recipient>POL.</recipient>
 	</action>
 </stagedir>
 
@@ -6487,6 +6517,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
@@ -6516,7 +6547,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2267" number="4" form="verse">Bestow this place on us a little while.</line>
 <stagedir sdglobalnumber="2267.01" sdnumber="4.01">
 	<dir>Exeunt Rosencrantz and Guildenstern.</dir>
@@ -6534,7 +6565,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2270" number="7" form="verse">Mad as the sea and wind when both contend</line>
 <line globalnumber="2271" number="8" form="verse">Which is the mightier. In his lawless fit,</line>
 <line globalnumber="2272" number="9" form="verse">Behind the arras hearing something stir,</line>
@@ -6560,7 +6591,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2288" number="24" form="verse">To draw apart the body he hath kill&#8217;d,</line>
 <line globalnumber="2289" number="25" form="verse">O&#8217;er whom his very madness, like some ore</line>
 <line globalnumber="2290" number="26" form="verse">Among a mineral of metals base,</line>
@@ -6616,6 +6647,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. Another room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="ROS.">Rosencrantz</scenepersona>
@@ -6747,6 +6779,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Elsinore. Another room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona>Attendants</scenepersona>
@@ -6988,6 +7021,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Near Elsinore. A plain in Denmark.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FORT.">Fortinbras</scenepersona>
 	<scenepersona short="CAP.">Captain</scenepersona>
@@ -7186,6 +7220,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Elsinore. A room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOR.">Horatio</scenepersona>
 	<scenepersona short="QUEEN.">Queen Gertrude</scenepersona>
@@ -7211,7 +7246,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </stagedir>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2455" number="1" form="verse">I will not speak with her.</line>
 </speech>
 
@@ -7222,7 +7257,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2458" number="3" form="verse" offset="6">What would she have?</line>
 </speech>
 
@@ -7247,7 +7282,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech type="soliloquy">
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2471" number="16" form="verse">Let her come in.</line>
 <stagedir sdglobalnumber="2471.01" sdnumber="16.01">
 	<dir>Exit Gentleman.</dir>
@@ -7281,7 +7316,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2477" number="22" form="verse">How now, Ophelia?</line>
 </speech>
 
@@ -7300,7 +7335,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2482" number="27" form="verse">Alas, sweet lady, what imports this song?</line>
 </speech>
 
@@ -7321,7 +7356,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2489" number="34" form="verse">Nay, but, Ophelia&#8212;</line>
 </speech>
 
@@ -7345,7 +7380,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </stagedir>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2492" number="37" form="verse">Alas, look here, my lord.</line>
 </speech>
 
@@ -7483,7 +7518,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </stagedir>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2543" number="87" form="verse" offset="6">Alack, what noise is this?</line>
 </speech>
 
@@ -7522,7 +7557,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </stagedir>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2558" number="101" form="verse">How cheerfully on the false trail they cry!</line>
 <line globalnumber="2559" number="102" form="verse">O, this is counter, you false Danish dogs!</line>
 </speech>
@@ -7567,6 +7602,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<dir>Exeunt Laertes&#8217; followers.</dir>
 	<action type="exit">
 		<actor>LAER. FOL.</actor>
+		<actor>MESS.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2566" number="108" form="verse">O thou vile king,</line>
@@ -7574,7 +7610,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2568" number="109" form="verse" offset="4">Calmly, good Laertes.</line>
 </speech>
 
@@ -7609,7 +7645,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2583" number="121" form="verse" offset="6">But not by him.</line>
 </speech>
 
@@ -7858,6 +7894,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Elsinore. Another room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOR.">Horatio</scenepersona>
 	<scenepersona short="GENT.">Gentleman</scenepersona>
@@ -7949,6 +7986,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Elsinore. Another room in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="LAER.">Laertes</scenepersona>
@@ -8301,7 +8339,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2860" number="158" form="verse">One woe doth tread upon another&#8217;s heel,</line>
 <line globalnumber="2861" number="159" form="verse">So fast they follow. Your sister&#8217;s drown&#8217;d, Laertes.</line>
 </speech>
@@ -8312,7 +8350,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2863" number="161" form="verse">There is a willow grows askaunt the brook,</line>
 <line globalnumber="2864" number="162" form="verse">That shows his hoary leaves in the glassy stream,</line>
 <line globalnumber="2865" number="163" form="verse">Therewith fantastic garlands did she make</line>
@@ -8339,7 +8377,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="2882" number="179" form="verse">Drown&#8217;d, drown&#8217;d.</line>
 </speech>
 
@@ -8385,6 +8423,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Elsinore. A churchyard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. CLO.">First Clown</scenepersona>
 	<scenepersona short="2. CLO.">Second Clown</scenepersona>
@@ -8929,6 +8968,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 		<actor>QUEEN.</actor>
 		<actor>LAER.</actor>
 		<actor>DOCTOR.</actor>
+		<actor>Attendants</actor>
 	</action>
 </stagedir>
 <line globalnumber="2995" number="102" form="verse">The Queen, the courtiers. Who is this they follow?</line>
@@ -9002,7 +9042,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <stagedir sdglobalnumber="3022.01" sdnumber="126.01">
 	<dir>Scattering flowers.</dir>
 	<action type="action">
@@ -9084,7 +9124,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3048" number="149" form="verse" offset="4">Hamlet, Hamlet!</line>
 </speech>
 
@@ -9112,7 +9152,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3053" number="153" form="verse">O my son, what theme?</line>
 </speech>
 
@@ -9129,7 +9169,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3058" number="158" form="verse">For love of God, forbear him.</line>
 </speech>
 
@@ -9149,7 +9189,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3070" number="169" form="verse" offset="5">This is mere madness,</line>
 <line globalnumber="3071" number="170" form="verse">And thus a while the fit will work on him;</line>
 <line globalnumber="3072" number="171" form="verse">Anon, as patient as the female dove,</line>
@@ -9214,6 +9254,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Elsinore. A hall in Elsinore castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HAM.">Hamlet</scenepersona>
 	<scenepersona short="HOR.">Horatio</scenepersona>
@@ -9961,7 +10002,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3305" number="202" form="verse" offset="4">He&#8217;s fat, and scant of breath.</line>
 <line globalnumber="3306" number="203" form="verse">Here, Hamlet, take my napkin, rub thy brows.</line>
 <line globalnumber="3307" number="204" form="verse">The Queen carouses to thy fortune, Hamlet.</line>
@@ -9978,7 +10019,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3310" number="206" form="verse">I will, my lord, I pray you pardon me.</line>
 </speech>
 
@@ -9999,7 +10040,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3313" number="209" form="verse">Come, let me wipe thy face.</line>
 </speech>
 
@@ -10119,7 +10160,7 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </speech>
 
 <speech>
-<speaker long="Getrude, Queen of Denmark">QUEEN.</speaker>
+<speaker long="Gertrude, Queen of Denmark">QUEEN.</speaker>
 <line globalnumber="3332" number="225" form="verse">No, no, the drink, the drink&#8212;O my dear Hamlet&#8212;</line>
 <line globalnumber="3333" number="226" form="verse">The drink, the drink! I am pois&#8217;ned.</line>
 <stagedir sdglobalnumber="3333.01" sdnumber="226.01">
@@ -10374,7 +10415,6 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 	<dir>Exeunt marching; after the which a peal of ordinance are shot off.</dir>
 	<action type="exit">
 		<actor>HOR.</actor>
-		<actor>LAER.</actor>
 		<actor>OSR.</actor>
 		<actor>FORT.</actor>
 		<actor>1. AMB.</actor>
@@ -10385,18 +10425,9 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 </scene>
 </act>
 
-<locations numberOfLocations="10">
-<placename>Elsinore. A churchyard.</placename>
-<placename>Elsinore. A hall in Elsinore castle.</placename>
-<placename>Elsinore. A platform before Elsinore castle.</placename>
-<placename>Elsinore. A room in Elsinore castle.</placename>
-<placename>Elsinore. A room in Polonius&#8217; house.</placename>
-<placename>Elsinore. A room of state in the castle.</placename>
-<placename>Elsinore. Another part of the platform before Elsinore castle.</placename>
-<placename>Elsinore. Another room in Elsinore castle.</placename>
-<placename>Elsinore. The Queen&#8217;s room in Elsinore castle.</placename>
-<placename>Near Elsinore. A plain in Denmark.</placename>
-</locations>
+
+
+
 
 
 <sources>
@@ -10496,12 +10527,11 @@ trippingly on the tongue, but if you mouth it, as many of our players do, I had 
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

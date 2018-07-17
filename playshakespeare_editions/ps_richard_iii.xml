@@ -1,209 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="richard-iii">
 <title short="Richard III">The Tragedy of Richard the Third</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1592-1593</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Richard III">
 
-<persona gender="male" death="yes">
-<persname short="K. EDW." numberOfLines="65" numberOfVerseLines="65" numberOfProseLines="0" numberOfLyricsLines="0">King Edward the Fourth</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="PRINCE." numberOfLines="43" numberOfVerseLines="43" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="YORK." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Duke of York</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CLAR." numberOfLines="165" numberOfVerseLines="162" numberOfProseLines="3" numberOfLyricsLines="0">George, Duke of Clarence</persname>
-<persaliases>
-	<persname short="GHOST OF C.">Ghost of Clarence</persname>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="EDW." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Edward Plantagenet</persname>
-<persaliases>
-	<persname short="CHIL.">Children</persname>
-	<persname short="GHOSTS. PRINC.">Ghosts of Princes</persname>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
+<persona gender="male" archetype="villain" death="yes" id="31c9b280-77e9-49f9-bc69-f6cd0566400d">
 <persname short="GLOU." numberOfLines="1152" numberOfVerseLines="1152" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Duke of Gloucester</persname>
 <persaliases>
-	<persname short="K. RICH.">King Richard III</persname>
+	<persname short="K. RICH." type="namechange">King Richard III</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="42c611a5-1180-4d8e-ae69-fff59122e3a3">
+<persname short="BUCK." numberOfLines="387" numberOfVerseLines="387" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
+<persaliases>
+	<persname short="GHOST OF BUCK." type="namechange">Ghost of Duke of Buckingham</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" death="yes" id="b7cc2527-9d90-4075-9fa3-090cf14afdc0">
+<persname short="CLAR." numberOfLines="165" numberOfVerseLines="162" numberOfProseLines="3" numberOfLyricsLines="0">George, Duke of Clarence</persname>
+<persaliases>
+	<persname short="GHOST OF C." type="namechange">Ghost of Clarence</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="2c95f6ce-d4be-4d7f-aa8a-fb136933a711">
 <persname short="RICHM." numberOfLines="137" numberOfVerseLines="137" numberOfProseLines="0" numberOfLyricsLines="0">Henry, Earl of Richmond</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CARD." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Bourchier</persname>
+<persona gender="male" death="yes" id="8b2bfb1e-80cd-4491-a94c-321b293818c8">
+<persname short="K. EDW." numberOfLines="65" numberOfVerseLines="65" numberOfProseLines="0" numberOfLyricsLines="0">King Edward the Fourth</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ARCH." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Rotherham, Archbishop of York</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ELY." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">John Morton, Bishop of Ely</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="BUCK." numberOfLines="387" numberOfVerseLines="387" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
-<persaliases>
-	<persname short="GHOST OF BUCK.">Ghost of Duke of Buckingham</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="NOR." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Norfolk</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Surrey</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="RIV." numberOfLines="51" numberOfVerseLines="51" numberOfProseLines="0" numberOfLyricsLines="0">Earl Rivers</persname>
-<persaliases>
-	<persname short="GHOST OF R.">Ghost of Earl Rivers</persname>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
-</persaliases>
-</persona>
-
-<persona gender="female">
-<persname short="DOR." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Marquess of Dorset</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="GREY." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Lord Grey</persname>
-<persaliases>
-	<persname short="GHOST OF G.">Ghost of Lord Grey</persname>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="OXF." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Oxford</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="HAST." numberOfLines="146" numberOfVerseLines="146" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
-<persaliases>
-	<persname short="GHOST OF H.">Ghost of Lord Hastings</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="STAN." numberOfLines="108" numberOfVerseLines="108" numberOfProseLines="0" numberOfLyricsLines="0">Lord Stanley</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LOV." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lord Lovel</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="VAUG." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Vaughan</persname>
-<persaliases>
-	<persname short="GHOST OF V.">Ghost of Sir Thomas Vaughan</persname>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="RAT." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Sir Richard Ratcliffe</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="a99b840d-22fd-4279-960d-86d7825e2a95">
 <persname short="CATE." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Catesby</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a2817555-c4a8-450b-9405-9285bfa05d54">
+<persname short="RIV." numberOfLines="51" numberOfVerseLines="51" numberOfProseLines="0" numberOfLyricsLines="0">Earl Rivers</persname>
+<persaliases>
+	<persname short="GHOST OF R." type="namechange">Ghost of Earl Rivers</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" death="yes" id="765a949d-1be2-4ef3-8112-4b8d3f210c53">
+<persname short="PRINCE." numberOfLines="43" numberOfVerseLines="43" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
+</persona>
+
+<persona gender="male" death="yes" id="f1921cdc-3c67-4b70-8aba-69fb1eeee75b">
+<persname short="YORK." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Duke of York</persname>
+</persona>
+
+<persona gender="male" id="1b4f2d0c-803f-48ee-a22d-86e9447f0cd0">
 <persname short="TYR." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Sir James Tyrrel</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BLUNT." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir James Blunt</persname>
+<persona gender="male" id="f445d938-ea47-4d5a-abb3-f74432d64f1c">
+<persname short="RAT." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Sir Richard Ratcliffe</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HERB." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir Walter Herbert</persname>
+<persona gender="male" id="6a05d8e5-a638-405f-881d-eea1bcf47ecb">
+<persname short="EDW." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Edward Plantagenet</persname>
+<persaliases>
+	<persname short="CHIL.">Children</persname>
+	<persname short="GHOSTS. PRINC." type="namechange">Ghosts of Princes</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="163b7bbd-bc61-4e4d-915d-58bceda8e7a9">
 <persname short="BRAK." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Sir Robert Brakenbury</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BRAND." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Brandon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHRIS." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Christopher Urswick</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="c9ac8209-6d7c-4574-8d69-63421e509ab5">
 <persname short="Q. ELIZ." numberOfLines="272" numberOfVerseLines="272" numberOfProseLines="0" numberOfLyricsLines="0">Queen Elizabeth</persname>
 <persaliases>
 	<persname short="Q. ELIZ. AND DUCH.">Both Queen Elizabeth and Duchess of York</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="3e375b7a-4c1c-4f8d-91b1-4609ef64b4bc">
 <persname short="Q. MAR." numberOfLines="218" numberOfVerseLines="218" numberOfProseLines="0" numberOfLyricsLines="0">Queen Margaret</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes" id="f0a5a6ec-2776-4dcf-af27-e47cb0b2ad3b">
+<persname short="ANNE." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Lady Anne</persname>
+<persaliases>
+	<persname short="GHOST OF LADY" type="namechange">Ghost of Lady Anne</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="98b8db85-5aed-4ca9-94f9-fff4e715cf4e">
 <persname short="DUCH." numberOfLines="142" numberOfVerseLines="142" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of York</persname>
 <persaliases>
 	<persname short="Q. ELIZ. AND DUCH.">Both Queen Elizabeth and Duchess of York</persname>
 </persaliases>
 </persona>
 
-<persona gender="female" archetype="hero" death="yes">
-<persname short="ANNE." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Lady Anne</persname>
-<persaliases>
-	<persname short="GHOST OF LADY">Ghost of Lady Anne</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="TRESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tressel</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BERK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Berkeley</persname>
-</persona>
-
-<persona gender="male">
-<persname short="KEEP." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Keeper in the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAY." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Lord Mayor of London</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SHER." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sheriff of Wiltshire</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PURS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Pursuivant</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="37190db0-9d9e-45e5-a1b8-9387a15e4ca5">
 <persname short="MARG." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Margaret Plantagenet</persname>
 <persaliases>
 	<persname short="CHIL.">Children</persname>
@@ -211,106 +117,211 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="bfdfa29b-ef3c-4f34-97c9-05fa8c2d2871">
+<persname short="DOR." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Marquess of Dorset</persname>
+</persona>
+
+
+
+
+<persona gender="male" death="yes" id="aa32f49e-307b-42f8-9f9b-cd0c8b42fc9c">
+<persname short="HAST." numberOfLines="146" numberOfVerseLines="146" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
+<persaliases>
+	<persname short="GHOST OF H." type="namechange">Ghost of Lord Hastings</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="368e0e84-fe41-4f14-bf8e-19c6c52fe367">
+<persname short="STAN." numberOfLines="108" numberOfVerseLines="108" numberOfProseLines="0" numberOfLyricsLines="0">Lord Stanley</persname>
+</persona>
+
+<persona gender="male" death="yes" id="4a792bdb-e694-4099-8830-6829d6a6999d">
+<persname short="GREY." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Lord Grey</persname>
+<persaliases>
+	<persname short="GHOST OF G." type="namechange">Ghost of Lord Grey</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="997a7f04-21e3-4554-a78f-0de65496b799">
+<persname short="MAY." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Lord Mayor of London</persname>
+</persona>
+
+<persona gender="male" id="6535cacb-a095-4d91-86dc-3a030fc72f85">
+<persname short="NOR." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Norfolk</persname>
+</persona>
+
+<persona gender="male" id="169a09f7-9490-4655-b337-f55094af4799">
+<persname short="CARD." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Bourchier</persname>
+</persona>
+
+<persona gender="male" id="3867cb7d-716b-4e1a-a9a6-89c7baffe61a">
+<persname short="CHRIS." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Christopher Urswick</persname>
+</persona>
+
+<persona gender="male" id="6eaf555d-9c0d-4315-b310-cd6fdac01ec3">
+<persname short="BLUNT." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir James Blunt</persname>
+</persona>
+
+<persona gender="male" id="8ba0b466-ff01-4e06-a71d-60fedb3668d5">
+<persname short="ELY." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">John Morton, Bishop of Ely</persname>
+</persona>
+
+
+<persona gender="male" death="yes" id="def0f8a1-5d3f-4d42-9636-2b2fb5ce8eb0">
+<persname short="VAUG." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Vaughan</persname>
+<persaliases>
+	<persname short="GHOST OF V." type="namechange">Ghost of Sir Thomas Vaughan</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6d7de65e-9f25-4dff-bab7-9268f1ceecb8">
+<persname short="PURS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Pursuivant</persname>
+</persona>
+
+<persona gender="male" id="eee597d1-634d-4c05-b18a-9e46cc81f4b5">
 <persname short="PRIEST." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sir John</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ae54c018-ea1b-4f65-8c93-71a20dd5e7e1">
+<persname short="OXF." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Oxford</persname>
+</persona>
+
+<persona gender="male" id="838fd39d-0611-4546-87a4-8ec461bed4c4">
+<persname short="SHER." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sheriff of Wiltshire</persname>
+</persona>
+
+<persona gender="male" id="363bb9b9-fbd8-4195-99d6-112d8a7da690">
+<persname short="HERB." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir Walter Herbert</persname>
+</persona>
+
+<persona gender="male" id="06e6e4c0-7ff2-4957-bdaf-afd131f4c09c">
+<persname short="SUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Surrey</persname>
+</persona>
+
+<persona gender="male" id="01d26036-d07e-46c2-a3d5-6ef570fc0a13">
+<persname short="LOV." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lord Lovel</persname>
+</persona>
+
+<persona gender="male" id="1cdbe1a7-3231-4ced-911a-8270b4064972">
 <persname short="1. MUR." numberOfLines="57" numberOfVerseLines="38" numberOfProseLines="19" numberOfLyricsLines="0">First Murderer</persname>
 <persaliases>
-	<persname short="BOTH. 1. MUR. AND 2. MUR.">Both First and Second Murderers</persname>
+	<persname short="BOTH 1. MUR. AND 2. MUR.">Both First and Second Murderers</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6ec10808-17b2-4610-af6b-bcfc4fa31a47">
 <persname short="2. MUR." numberOfLines="37" numberOfVerseLines="19" numberOfProseLines="18" numberOfLyricsLines="0">Second Murderer</persname>
 <persaliases>
-	<persname short="BOTH. 1. MUR. AND 2. MUR.">Both First and Second Murderers</persname>
+	<persname short="BOTH 1. MUR. AND 2. MUR.">Both First and Second Murderers</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="GENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="bf262aa3-e5e6-43a4-baaf-e8c9a3cf6395">
 <persname short="1. CIT." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Citizen</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="751073db-8273-4b7e-92f0-6bccbd661d03">
 <persname short="2. CIT." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Second Citizen</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0a04d171-7262-49c7-86cf-dc83ab382525">
 <persname short="3. CIT." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Third Citizen</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MESS. QUEEN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Messenger to the Queen</persname>
-</persona>
-
-<persona gender="male">
-<persname short="STAN. MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Stanley Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SCRIV." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Scrivener</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Aldermen of London</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HALB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Halberds</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TWO BISH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Bishops</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PAGE." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Page</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="71eb7f65-97cb-48b0-bee9-98e715196551">
 <persname short="1. MESS." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4e0e446d-ddd7-4aba-9ea8-5e49d5a6ce9f">
 <persname short="2. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f8be1d0e-61e7-47b4-8132-a2c627fab2a6">
 <persname short="3. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1813bc1f-186b-4907-b5ef-a1d2c360f189">
 <persname short="4. MESS." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5a04455d-aeab-49c7-8e3c-41473bfc872a">
 <persname short="5. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c800955-874b-41fb-bf01-7f50d2f7ccab">
+<persname short="MESS. QUEEN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Messenger to the Queen</persname>
+</persona>
+
+<persona gender="male" id="80bedf8f-4e11-424c-98a3-f2886ee10bfe">
+<persname short="STAN. MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Stanley Messenger</persname>
+</persona>
+
+<persona gender="male" id="32ff1e98-ddb5-4fe3-9df7-8170368e50d1">
+<persname short="KEEP." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Keeper in the Tower</persname>
+</persona>
+
+<persona gender="male" id="1d2d143b-4cb5-49d7-94fb-e5d3d2a0f091">
+<persname short="SCRIV." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Scrivener</persname>
+</persona>
+
+<persona gender="male" id="3a92beea-a537-4d33-be32-7498de393a27">
+<persname short="ARCH." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Rotherham, Archbishop of York</persname>
+</persona>
+
+<persona gender="male" id="1971e58e-b1c4-4857-a6d4-c64e5c9925e9">
 <persname short="GHOST OF HENRY." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of King Henry VI</persname>
 <persaliases>
-	<persname short="ALL. GHOSTS.">All Ghosts</persname>
+	<persname short="ALL GHOSTS">All Ghosts</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c6dc03f2-d59e-47a2-b386-20ece1aa1fce">
 <persname short="GHOST OF ED." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of Prince Edward of Lancaster</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e0793e1e-5892-4e4d-9501-2b2165623559">
+<persname short="PAGE." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Page</persname>
+</persona>
+
+<persona gender="male" id="15448050-fb6d-422b-b88e-ba329d5b59a9">
 <persname short="1. LORD. RICH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First Lord to Richmond</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3596905b-6b47-4ebf-af22-93f7bfdbeb5c">
 <persname short="2. LORD. RICH." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord to Richmond</persname>
 </persona>
+
+<persona gender="male" id="e3415ffd-550a-4422-815e-84644984b735">
+<persname short="GENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
+</persona>
+
+<persona gender="male" id="82929b32-d528-40cb-a9b9-29339617318f">
+<persname short="BRAND." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Brandon</persname>
+</persona>
+
+<persona gender="male" id="2ad45017-02fc-41f2-ac11-8ffd079046b7">
+<persname short="TRESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tressel</persname>
+</persona>
+
+<persona gender="male" id="4ae3bfd0-448c-4cd8-97f3-dc9366ebc26a">
+<persname short="BERK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Berkeley</persname>
+</persona>
+
+
+<persona gender="male" id="fb794586-b3ed-4144-8052-649c1995a5be">
+<persname short="TWO BISH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Bishops</persname>
+</persona>
+
+<persona gender="male" id="1509f6ce-7891-4158-90c5-b04f132a411b">
+<persname short="HALB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Halberds</persname>
+</persona>
+
+<persona gender="male" id="d33d74f3-4ec9-499b-9467-3482bf86006a">
+<persname short="ALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Aldermen of London</persname>
+</persona>
+
 </personae>
 
 
@@ -319,6 +330,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Richard Duke of Gloucester</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
@@ -673,6 +685,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. Another street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>Henry the Sixth</scenepersona>
 	<scenepersona short="HALB.">Halberds</scenepersona>
@@ -1396,6 +1409,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="Q. ELIZ.">Queen Mother Elizabeth</scenepersona>
 	<scenepersona short="RIV.">Lord Rivers</scenepersona>
@@ -1407,7 +1421,7 @@
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
 	<scenepersona short="CATE.">Catesby</scenepersona>
-	<scenepersona short="BOTH. 1. MUR. AND 2. MUR.">Murderers</scenepersona>
+	<scenepersona short="BOTH 1. MUR. AND 2. MUR.">Murderers</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -2284,7 +2298,7 @@
 <stagedir sdglobalnumber="781.01" sdnumber="337.01">
 	<dir>Enter two Murderers.</dir>
 	<action type="enter">
-		<actor>BOTH. 1. MUR. AND 2. MUR.</actor>
+		<actor>BOTH 1. MUR. AND 2. MUR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="782" number="338" form="verse">But soft, here come my executioners.</line>
@@ -2305,7 +2319,7 @@
 	<dir>Gives the warrant.</dir>
 	<action type="action">
 		<actor>GLOU.</actor>
-		<recipient>BOTH. 1. MUR. AND 2. MUR.</recipient>
+		<recipient>BOTH 1. MUR. AND 2. MUR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="788" number="344" form="verse">When you have done, repair to Crosby Place.</line>
@@ -2338,7 +2352,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>GLOU.</actor>
-		<actor>BOTH. 1. MUR. AND 2. MUR.</actor>
+		<actor>BOTH 1. MUR. AND 2. MUR.</actor>
 	</action>
 </stagedir>
 
@@ -2347,11 +2361,12 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. The Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
 	<scenepersona short="KEEP.">Keeper</scenepersona>
 	<scenepersona short="BRAK.">Brakenbury</scenepersona>
-	<scenepersona short="BOTH. 1. MUR. AND 2. MUR.">Murderers</scenepersona>
+	<scenepersona short="BOTH 1. MUR. AND 2. MUR.">Murderers</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -2514,7 +2529,7 @@
 <stagedir sdglobalnumber="882.01" sdnumber="83.01">
 	<dir>Enter two Murderers.</dir>
 	<action type="enter">
-		<actor>BOTH. 1. MUR. AND 2. MUR.</actor>
+		<actor>BOTH 1. MUR. AND 2. MUR.</actor>
 	</action>
 </stagedir>
 
@@ -2772,7 +2787,7 @@
 </speech>
 
 <speech>
-<speaker long="Both First and Second Murderers">BOTH. 1. MUR. AND 2. MUR.</speaker>
+<speaker long="Both First and Second Murderers">BOTH 1. MUR. AND 2. MUR.</speaker>
 <line globalnumber="937" number="138" form="prose">To, to, to&#8212;</line>
 </speech>
 
@@ -2782,7 +2797,7 @@
 </speech>
 
 <speech>
-<speaker long="Both First and Second Murderers">BOTH. 1. MUR. AND 2. MUR.</speaker>
+<speaker long="Both First and Second Murderers">BOTH 1. MUR. AND 2. MUR.</speaker>
 <line globalnumber="939" number="140" form="prose">Ay, ay.</line>
 </speech>
 
@@ -3031,6 +3046,9 @@
 		<actor>1. MUR.</actor>
 		<recipient>CLAR.</recipient>
 	</action>
+	<action type="death">
+		<actor>CLAR.</actor>
+	</action>
 </stagedir>
 <line globalnumber="1038" number="235" form="verse" offset="4">If all this will not do,</line>
 <line globalnumber="1039" number="236" form="verse">I&#8217;ll drown you in the malmsey-butt within.</line>
@@ -3102,6 +3120,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="Q. ELIZ.">Queen Elizabeth</scenepersona>
@@ -3496,6 +3515,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUCH.">Duchess of York</scenepersona>
 	<scenepersona short="EDW.">Edward Plantagenet</scenepersona>
@@ -3904,6 +3924,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. CIT.">First Citizen</scenepersona>
 	<scenepersona short="2. CIT.">Second Citizen</scenepersona>
@@ -4080,6 +4101,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARCH.">Archbishop of York</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
@@ -4353,6 +4375,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
@@ -5010,6 +5033,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Lord Hastings&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="STAN. MESS.">Stanley Messenger</scenepersona>
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
@@ -5451,6 +5475,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Pomfret Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RAT.">Sir Richard Ratcliffe</scenepersona>
 	<scenepersona short="HALB.">Halberds</scenepersona>
@@ -5556,6 +5581,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Tower of London.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
 	<scenepersona short="STAN.">Stanley</scenepersona>
@@ -5885,6 +5911,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The Tower-walls.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
@@ -6184,6 +6211,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>London. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SCRIV.">Scrivener</scenepersona>
 </scenepersonae>
@@ -6229,6 +6257,7 @@
 <scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Baynard&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
@@ -6788,6 +6817,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Outside the Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="Q. ELIZ.">Queen Elizabeth</scenepersona>
 	<scenepersona short="DUCH.">Duchess of York</scenepersona>
@@ -7091,7 +7121,6 @@
 		<actor>DOR.</actor>
 		<actor>ANNE.</actor>
 		<actor>MARG.</actor>
-		<actor>BRAK.</actor>
 		<actor>STAN.</actor>
 	</action>
 </stagedir>
@@ -7101,6 +7130,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
@@ -7578,6 +7608,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TYR.">Tyrrel</scenepersona>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
@@ -7744,6 +7775,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. Before the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
 	<scenepersona short="DUCH.">Duchess of York</scenepersona>
@@ -9230,6 +9262,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Lord Stanley&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="STAN.">Stanley</scenepersona>
 	<scenepersona short="CHRIS.">Sir Christopher Urswick</scenepersona>
@@ -9304,6 +9337,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Salisbury. An open place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
 	<scenepersona short="HALB.">Halberds/Officers</scenepersona>
@@ -9386,6 +9420,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The camp near Tamworth.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RICHM.">Richmond</scenepersona>
 	<scenepersona short="OXF.">Oxford</scenepersona>
@@ -9466,6 +9501,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Bosworth Field.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="NOR.">Norfolk</scenepersona>
@@ -10030,11 +10066,11 @@
 </speech>
 
 <speech>
-<speaker long="All Ghosts">ALL. GHOSTS.</speaker>
+<speaker long="All Ghosts">ALL GHOSTS.</speaker>
 <stagedir sdglobalnumber="3378.01" sdnumber="144.01">
 	<dir>To Richmond.</dir>
 	<action type="speak">
-		<actor>ALL. GHOSTS.</actor>
+		<actor>ALL GHOSTS.</actor>
 		<recipient>RICHM.</recipient>
 	</action>
 </stagedir>
@@ -10606,6 +10642,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of Bosworth Field.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NOR.">Norfolk</scenepersona>
 	<scenepersona short="CATE.">Catesby</scenepersona>
@@ -10674,6 +10711,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of Bosworth Field.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. RICH.">King Richard</scenepersona>
 	<scenepersona short="RICHM.">Richmond</scenepersona>
@@ -10800,23 +10838,7 @@
 </act>
 
 
-<locations numberOfLocations="15">
-<placename>Another part of Bosworth Field.</placename>
-<placename>Baynard&#8217;s castle.</placename>
-<placename>Before Lord Hastings&#8217; house.</placename>
-<placename>Bosworth Field.</placename>
-<placename>London. A street.</placename>
-<placename>London. Another street.</placename>
-<placename>London. Before the palace.</placename>
-<placename>London. The palace.</placename>
-<placename>Lord Stanley&#8217;s house.</placename>
-<placename>Outside the Tower.</placename>
-<placename>Pomfret Castle.</placename>
-<placename>Salisbury. An open place.</placename>
-<placename>The Tower of London.</placename>
-<placename>The Tower-walls.</placename>
-<placename>The camp near Tamworth.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -10866,12 +10888,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

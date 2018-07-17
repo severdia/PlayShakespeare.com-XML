@@ -1,131 +1,141 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="alls-well-that-ends-well">
 <title short="All&#8217;s Well That Ends Well">All&#8217;s Well That Ends Well</title>
-<playwright>William Shakespeare and Thomas Middleton</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>Thomas Middleton</playwright>
+</playwrights>
 <pubdate>1602-1603</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="All&#8217;s Well That Ends Well">
-<persona gender="male" archetype="hero">
+
+<persona gender="male" archetype="hero" id="f0a503de-1eb6-430e-84e9-0cc157f0f4c3">
 <persname short="KING." numberOfLines="373" numberOfVerseLines="366" numberOfProseLines="7" numberOfLyricsLines="0">King of France</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DUKE." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Florence</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="e4b51df2-2a4c-45d4-a657-4130838ebcfc">
 <persname short="BER." numberOfLines="240" numberOfVerseLines="199" numberOfProseLines="41" numberOfLyricsLines="0">Bertram, Count of Roussillon</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LAF." numberOfLines="146" numberOfVerseLines="64" numberOfProseLines="82" numberOfLyricsLines="0">Lafew</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="0d19dfab-51a6-4e51-9a58-1d899d1dafb5">
 <persname short="PAR." numberOfLines="184" numberOfVerseLines="58" numberOfProseLines="126" numberOfLyricsLines="0">Parolles</persname>
 </persona>
 
-<persona gender="male">
-<persname short="STEW." numberOfLines="23" numberOfVerseLines="19" numberOfProseLines="4" numberOfLyricsLines="0">Rinaldo</persname>
+<persona gender="male" id="df4e2ad0-6dcc-46f1-af74-c3c99d483ce2">
+<persname short="LAF." numberOfLines="146" numberOfVerseLines="64" numberOfProseLines="82" numberOfLyricsLines="0">Lafew</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="9f513b4c-b30a-4efe-b082-2a133a0042ff">
 <persname short="CLO." numberOfLines="74" numberOfVerseLines="15" numberOfProseLines="59" numberOfLyricsLines="14">Lavatch</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PAGE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Countess&#8217;s Page</persname>
+<persona gender="male" id="ede8c958-ccb1-4ccb-9385-39cc3fc6aa18">
+<persname short="STEW." numberOfLines="23" numberOfVerseLines="19" numberOfProseLines="4" numberOfLyricsLines="0">Rinaldo</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GENT." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
+<persona gender="male" id="a6a2517e-b033-4103-a8c5-b27994fc4474">
+<persname short="DUKE." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Florence</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="COUNT." numberOfLines="220" numberOfVerseLines="169" numberOfProseLines="51" numberOfLyricsLines="0">Countess of Roussillon</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
+<persona gender="female" archetype="hero" id="033d23a3-2998-489c-b4a7-c254b994155d">
 <persname short="HEL." numberOfLines="459" numberOfVerseLines="438" numberOfProseLines="21" numberOfLyricsLines="0">Helena</persname>
 </persona>
 
-<persona gender="female">
-<persname short="WID." numberOfLines="56" numberOfVerseLines="52" numberOfProseLines="4" numberOfLyricsLines="0">An Old Widow of Florence</persname>
-<persaliases>
-	<persname short="BOTH. MAR. AND WID.">Both Mariana and Widow</persname>
-</persaliases>
+<persona gender="female" archetype="hero" id="ee491ff4-9d43-4e07-9a75-fabfbf07878c">
+<persname short="COUNT." numberOfLines="220" numberOfVerseLines="169" numberOfProseLines="51" numberOfLyricsLines="0">Countess of Roussillon</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="5a136d39-d258-4078-a54d-ecb5a576667c">
 <persname short="DIA." numberOfLines="137" numberOfVerseLines="134" numberOfProseLines="3" numberOfLyricsLines="0">Diana</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="4a2fbd89-cc9e-41cd-b043-46c0c1c27087">
+<persname short="WID." numberOfLines="56" numberOfVerseLines="52" numberOfProseLines="4" numberOfLyricsLines="0">An Old Widow of Florence</persname>
+<persaliases>
+	<persname short="BOTH MAR. AND WID.">Both Mariana and Widow</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="be61d1d5-da28-42c0-b9f8-1be9f80b6f9c">
 <persname short="MAR." numberOfLines="6" numberOfVerseLines="3" numberOfProseLines="3" numberOfLyricsLines="0">Mariana</persname>
 <persaliases>
-	<persname short="BOTH. MAR. AND WID.">Both Mariana and Widow</persname>
+	<persname short="BOTH MAR. AND WID.">Both Mariana and Widow</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="VIOL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Violenta</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First French Lord</persname>
-<persaliases>
-	<persname short="ALL LORDS.">All Lords</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second French Lord</persname>
-<persaliases>
-	<persname short="ALL LORDS.">All French Lords</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="3. LORD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third French Lord</persname>
-<persaliases>
-	<persname short="ALL LORDS.">All French Lords</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="4. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Fourth French Lord</persname>
-<persaliases>
-	<persname short="ALL LORDS.">All French Lords</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="fb9d9e28-c77b-4111-bac1-fd4716138fee">
 <persname short="1. LORD. DUM." numberOfLines="70" numberOfVerseLines="33" numberOfProseLines="37" numberOfLyricsLines="0">First French Lord Dumaine</persname>
 <persaliases>
 	<persname short="BOTH LORDS.">Both French Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ce15e84-1106-4254-b4bd-fbfd3d3d690a">
 <persname short="2. LORD. DUM." numberOfLines="80" numberOfVerseLines="34" numberOfProseLines="46" numberOfLyricsLines="0">Second French Lord Dumaine</persname>
 <persaliases>
 	<persname short="BOTH LORDS.">Both French Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6aa463e3-5682-4a1f-a710-c35f1fdb0974">
 <persname short="1. SOLD. AS INTERPRETER." numberOfLines="53" numberOfVerseLines="18" numberOfProseLines="35" numberOfLyricsLines="0">First Soldier as Interpreter</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d30834d-a2cc-4bc3-85ff-d439bb98cda6">
 <persname short="2. SOLD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="844267de-ebb5-4638-aea9-75eb0c754bf0">
+<persname short="GENT." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
+</persona>
+
+<persona gender="male" id="9006a178-c3de-44d0-9c7a-87ed0077c2be">
+<persname short="1. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All Lords</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="f1e15c83-43c1-47e0-a607-752b095ff86c">
+<persname short="2. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="cab9fc17-65a1-40ea-a85b-b4c562b60ef4">
+<persname short="3. LORD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="490e7233-09f6-4e87-a673-496f98784320">
+<persname short="4. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Fourth French Lord</persname>
+<persaliases>
+	<persname short="ALL LORDS.">All French Lords</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6407aa16-302e-4a83-ac8c-a58937941a48">
+<persname short="PAGE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Countess&#8217;s Page</persname>
+</persona>
+
+<persona gender="male" id="f016e062-43a6-445f-a95e-581cef21ef2a">
 <persname short="MESS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Messenger</persname>
 </persona>
+
+<persona gender="female" id="72834791-8d5b-4a70-af0d-6d2594612ef1">
+<persname short="VIOL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Violenta</persname>
+</persona>
+
 </personae>
  
 <act num="1">
@@ -133,6 +143,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Roussillon. A room in the Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BER.">Bertram Count of Roussillon</scenepersona>
 	<scenepersona short="COUNT.">Countess of Roussillon</scenepersona>
@@ -608,6 +619,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Paris. The King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King of France</scenepersona>
 	<scenepersona short="BOTH LORDS.">Lords</scenepersona>
@@ -818,6 +830,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Roussillon. A room in the Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNT.">Countess</scenepersona>
 	<scenepersona short="STEW.">Steward Rinaldo</scenepersona>
@@ -1327,6 +1340,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Paris. The King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="BOTH LORDS.">Lords</scenepersona>
@@ -1596,7 +1610,8 @@
 <line globalnumber="479" number="59" form="verse">That&#8217;s able to breathe life into a stone,</line>
 <line globalnumber="480" number="60" form="verse">Quicken a rock, and make you dance canary</line>
 <line globalnumber="481" number="61" form="verse">With spritely fire and motion, whose simple touch</line>
-<line globalnumber="482" number="62" form="verse">Is powerful to araise King Pippen, nay,</line>
+<line globalnumber="482" number="62" form="verse">Is powerful to araise King 
+Pippen, nay,</line>
 <line globalnumber="483" number="63" form="verse">To give great Charlemain a pen in &#8217;s hand</line>
 <line globalnumber="484" number="64" form="verse" offset="0">And write to her a love-line.</line>
 </speech>
@@ -1892,6 +1907,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Roussillon. The Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNT.">Countess</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -2071,6 +2087,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Paris. The King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BER.">Bertram</scenepersona>
 	<scenepersona short="LAF.">Lafew</scenepersona>
@@ -2899,6 +2916,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another room in the King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HEL.">Helena</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -3078,7 +3096,7 @@
 <line globalnumber="931" number="36" form="verse" offset="4">I pray you. Come, sirrah.</line>
 </speech>
 
-<stagedir sdglobalnumber="931.01" sdnumber="36.01">
+<stagedir sdglobalnumber="931.01" sdnumber="36.02">
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>HEL.</actor>
@@ -3091,6 +3109,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another room in the King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAF.">Lafew</scenepersona>
 	<scenepersona short="BER.">Bertram</scenepersona>
@@ -3420,6 +3439,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Florence. The Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke of Florence</scenepersona>
 	<scenepersona short="BOTH LORDS.">two French Lords</scenepersona>
@@ -3509,6 +3529,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rossillon. The Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNT.">Countess</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -3882,6 +3903,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Florence. Before the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke of Florence</scenepersona>
 	<scenepersona short="BER.">Bertram Count of Roussillon</scenepersona>
@@ -3951,6 +3973,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Roussillon. The Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNT.">Countess</scenepersona>
 	<scenepersona short="STEW.">Steward Rinaldo</scenepersona>
@@ -4046,6 +4069,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Without the walls of Florence.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="WID.">Old Widow of Florence</scenepersona>
 	<scenepersona short="DIA.">Diana</scenepersona>
@@ -4379,7 +4403,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Mariana and Widow">BOTH. MAR. AND WID.</speaker>
+<speaker long="Both Mariana and Widow">BOTH MAR. AND WID.</speaker>
 <line globalnumber="1291" number="74" form="verse" offset="4">We&#8217;ll take your offer kindly.</line>
 </speech>
 
@@ -4400,6 +4424,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Camp before Florence.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BER.">Bertram Count Roussillon</scenepersona>
 	<scenepersona short="BOTH LORDS.">two French Lords</scenepersona>
@@ -4656,6 +4681,7 @@
 <scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Florence. The Widow&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HEL.">Helen</scenepersona>
 	<scenepersona short="WID.">Old Widow of Florence</scenepersona>
@@ -4781,6 +4807,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Without the Florentine camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="2. LORD. DUM.">Second French Lord</scenepersona>
 	<scenepersona short="1. SOLD. AS INTERPRETER.">First Soldier as Interpreter</scenepersona>
@@ -5149,6 +5176,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Florence. The Widow&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BER.">Bertram</scenepersona>
 	<scenepersona short="DIA.">Diana</scenepersona>
@@ -5352,6 +5380,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Florentine camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BOTH LORDS.">French Lords</scenepersona>
 	<scenepersona short="1. SOLD. AS INTERPRETER.">First Soldier as Interpreter</scenepersona>
@@ -5528,6 +5557,13 @@
 </speech>
 
 <stagedir sdglobalnumber="1563.01" sdnumber="30.01">
+	<dir>Exit Messenger.</dir>
+	<action type="exit">
+		<actor>MESS.</actor>
+	</action>
+</stagedir>
+
+<stagedir sdglobalnumber="1563.02" sdnumber="30.02">
 	<dir>Enter (Bertram) Count Roussillon.</dir>
 	<action type="enter">
 		<actor>BER.</actor>
@@ -6103,6 +6139,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Florence. The Widow&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HEL.">Helen</scenepersona>
 	<scenepersona short="WID.">Old Widow of Florence</scenepersona>
@@ -6196,6 +6233,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Roussillon. The Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Clown</scenepersona>
 	<scenepersona short="COUNT.">Countess of Roussillon</scenepersona>
@@ -6242,7 +6280,8 @@
 
 <speech>
 <speaker long="Lavatch">CLO.</speaker>
-<line globalnumber="1722" number="6" form="prose">I am no great Nebuchadnezzar, sir, I have not much skill in grass.</line>
+<line globalnumber="1722" number="6" form="prose">I am no great 
+Nebuchadnezzar, sir, I have not much skill in grass.</line>
 </speech>
 
 <speech>
@@ -6438,6 +6477,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Marseilles. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HEL.">Helen</scenepersona>
 	<scenepersona short="WID.">Old Widow of Florence</scenepersona>
@@ -6591,6 +6631,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Roussillon. Before the Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Clown Lavatch</scenepersona>
 	<scenepersona short="PAR.">Parolles</scenepersona>
@@ -6727,6 +6768,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Roussillon. The Count&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
 	<scenepersona short="COUNT.">Countess of Roussillon</scenepersona>
@@ -7672,7 +7714,7 @@
 
 <stagedir sdglobalnumber="2162.01" sdnumber="304.01">
 	<dir>Flourish.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>KING.</actor>
 		<actor>COUNT.</actor>
 		<actor>LAF.</actor>
@@ -7684,6 +7726,7 @@
 		<actor>PAR.</actor>
 		<actor>WID.</actor>
 		<actor>HEL.</actor>
+		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -7691,7 +7734,7 @@
 
 </act>
 
-<epilogue minutesRunning="1" numberOfWords="52" numberOfLines="6">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="KING.">King</scenepersona>
@@ -7706,7 +7749,7 @@
 
 <stagedir sdglobalnumber="2162.02" sdnumber="0.01">
 	<dir>Advancing.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>KING.</actor>
 	</action>
 </stagedir>
@@ -7726,21 +7769,10 @@
 </stagedir>
 </epilogue>
 
-<locations numberOfLocations="13">
-<placename>Another room in the King&#8217;s palace.</placename>
-<placename>Camp before Florence.</placename>
-<placename>Florence. Before the Duke&#8217;s palace.</placename>
-<placename>Florence. The Duke&#8217;s palace.</placename>
-<placename>Florence. The Widow&#8217;s house.</placename>
-<placename>Marseilles. A street.</placename>
-<placename>Paris. The King&#8217;s palace.</placename>
-<placename>Roussillon. A room in the Count&#8217;s palace.</placename>
-<placename>Roussillon. Before the Count&#8217;s palace.</placename>
-<placename>Roussillon. The Count&#8217;s palace.</placename>
-<placename>The Florentine camp.</placename>
-<placename>Without the Florentine camp.</placename>
-<placename>Without the walls of Florence.</placename>
-</locations>
+
+
+
+
 
 <sources>
 
@@ -7760,11 +7792,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

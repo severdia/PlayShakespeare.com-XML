@@ -1,277 +1,285 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="henry-vi-part-i">
 <title short="Henry VI, Pt. 1">The First Part of Henry the Sixth</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1589-1590</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Henry VI, Part 1">
 
-<persona gender="female" archetype="hero" death="yes">
-<persname short="PUC." numberOfLines="254" numberOfVerseLines="254" numberOfProseLines="0" numberOfLyricsLines="0">Joan de Pucelle</persname>
-</persona>
-
-<persona gender="female">
-<persname short="COUNT." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Countess of Auvergne</persname>
-</persona>
-
-<persona gender="female">
-<persname short="MAR." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Margaret</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SHEP." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Shepherd</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PORT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Porter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FR. SERG." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">French Sergeant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GEN." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">General of the French Force at Bordeaux</persname>
-</persona>
-
-<persona gender="male">
-<persname short="M. GUN." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Master Gunner of Orl&#233;ans</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GOV. PARIS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Governor of Paris</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BAST." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Bastard of Orl&#233;ans</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ALAN." numberOfLines="49" numberOfVerseLines="49" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Alanson</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BUR." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Burgundy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="REIG." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Reignier, Duke of Anjou</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHAR." numberOfLines="134" numberOfVerseLines="134" numberOfProseLines="0" numberOfLyricsLines="0">Charles, Dauphin of France</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LAW." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Lawyer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BAS." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Basset</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VER." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Vernon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WOODV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Woodvile</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAY." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of London</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="GAR." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Gargrave</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GLAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Glansdale</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUCY." numberOfLines="77" numberOfVerseLines="77" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Lucy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FAL." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Falstaff</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="MOR." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="JOHN." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">John Talbot</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="TAL." numberOfLines="407" numberOfVerseLines="407" numberOfProseLines="0" numberOfLyricsLines="0">Lord Talbot</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SUF." numberOfLines="175" numberOfVerseLines="175" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Suffolk</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="SAL." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WAR." numberOfLines="72" numberOfVerseLines="72" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="PLAN." numberOfLines="184" numberOfVerseLines="184" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet</persname>
-<persaliases>
-	<persname short="YORK.">Richard, Duke of York</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="SOM." numberOfLines="64" numberOfVerseLines="64" numberOfProseLines="0" numberOfLyricsLines="0">John Beauford, Duke of Somerset</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
-<persname short="WIN." numberOfLines="96" numberOfVerseLines="96" numberOfProseLines="0" numberOfLyricsLines="0">Henry Beauford, Bishop of Winchester</persname>
-<persaliases>
-	<persname short="CAR.">Cardinal Beauford of Winchester</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="EXE." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Beauford, Duke of Exeter</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BED." numberOfLines="76" numberOfVerseLines="76" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Bedford</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GLOU." numberOfLines="185" numberOfVerseLines="185" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Gloucester</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="315b31c1-d203-4f50-b041-ea518c19bcb7">
 <persname short="KING." numberOfLines="180" numberOfVerseLines="180" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Sixth</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PAP." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Papal Legate</persname>
+<persona gender="male" archetype="hero" id="e53959fd-5f06-4aff-aff0-77853add5613">
+<persname short="PLAN." numberOfLines="184" numberOfVerseLines="184" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet</persname>
+<persaliases>
+	<persname short="YORK." type="namechange">Richard, Duke of York</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FIENDS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Fiends</persname>
+<persona gender="male" id="e2a22c53-3657-4d24-a202-c64def5892c1">
+<persname short="GLOU." numberOfLines="185" numberOfVerseLines="185" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Gloucester</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="5d85dd48-5b48-451a-999d-9d3fe7daa4ab">
+<persname short="TAL." numberOfLines="407" numberOfVerseLines="407" numberOfProseLines="0" numberOfLyricsLines="0">Lord Talbot</persname>
+</persona>
+
+<persona gender="male" id="0a76ab2a-f877-4a3b-a198-874c7ff92987">
+<persname short="SUF." numberOfLines="175" numberOfVerseLines="175" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Suffolk</persname>
+</persona>
+
+<persona gender="male" id="0bb275b4-9c3e-4b2c-9533-829a231aba41">
+<persname short="CHAR." numberOfLines="134" numberOfVerseLines="134" numberOfProseLines="0" numberOfLyricsLines="0">Charles, Dauphin of France</persname>
+</persona>
+
+<persona gender="male" archetype="villain" id="8df0f47d-bca9-4dd8-9cb8-b817917373b2">
+<persname short="WIN." numberOfLines="96" numberOfVerseLines="96" numberOfProseLines="0" numberOfLyricsLines="0">Henry Beauford, Bishop of Winchester</persname>
+<persaliases>
+	<persname short="CAR." type="namechange">Cardinal Beauford of Winchester</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" death="yes" id="3fa92b9e-ccc2-4822-a26b-2a94688edbc2">
+<persname short="MORT." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
+</persona>
+
+<persona gender="male" id="bd6f19f3-3d4a-4886-b6da-00acc1d0e7bd">
+<persname short="LUCY." numberOfLines="77" numberOfVerseLines="77" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Lucy</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1b6a3d18-0a37-489e-a4d4-47eb8874286c">
+<persname short="BED." numberOfLines="76" numberOfVerseLines="76" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Bedford</persname>
+</persona>
+
+<persona gender="male" id="e5542e66-b33e-4b3a-9566-ab98d51b5fd7">
+<persname short="WAR." numberOfLines="72" numberOfVerseLines="72" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
+</persona>
+
+<persona gender="male" id="7ec89d7d-3259-405e-9245-ec80ada91d0c">
+<persname short="SOM." numberOfLines="64" numberOfVerseLines="64" numberOfProseLines="0" numberOfLyricsLines="0">John Beauford, Duke of Somerset</persname>
+</persona>
+
+<persona gender="male" id="1b1b08be-919e-4b83-b869-234f27faf2af">
+<persname short="EXE." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Beauford, Duke of Exeter</persname>
+</persona>
+
+<persona gender="male" id="bbc7ffb6-48f7-481e-a21d-06a597873d2f">
+<persname short="REIG." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Reignier, Duke of Anjou</persname>
+</persona>
+
+<persona gender="male" id="376ed160-795d-47a1-8ad4-452e29c0ce9c">
+<persname short="ALAN." numberOfLines="49" numberOfVerseLines="49" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Alanson</persname>
+</persona>
+
+<persona gender="male" death="yes" id="22bc1a89-0053-42d2-9b04-3baf99968703">
+<persname short="JOHN." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">John Talbot</persname>
+</persona>
+
+<persona gender="male" id="4af76ef0-2c58-44dd-a933-c4e74de5b536">
+<persname short="BUR." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Burgundy</persname>
+</persona>
+
+<persona gender="male" id="6a479261-583e-4c3d-a244-aa80fc606f12">
+<persname short="VER." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Vernon</persname>
+</persona>
+
+<persona gender="male" id="721861e7-e25a-4c2e-82b6-2c3cc0c21330">
+<persname short="BAST." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Bastard of Orl&#233;ans</persname>
+</persona>
+
+<persona gender="male" id="697be9ba-831c-45e1-bb95-c0f31091375c">
+<persname short="BAS." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Basset</persname>
+</persona>
+
+<persona gender="male" id="17083385-047c-426c-a27a-013649130335">
+<persname short="SHEP." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Shepherd</persname>
+</persona>
+
+<persona gender="male" id="f1e3c6e4-389d-4875-8453-14990da359b9">
+<persname short="MAY." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of London</persname>
+</persona>
+
+<persona gender="male" id="40307dc2-b6f3-4727-a8e2-d1872d99955c">
+<persname short="M. GUN." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Master Gunner of Orl&#233;ans</persname>
+</persona>
+
+<persona gender="male" death="yes" id="d9d9ed54-ce0e-4855-8638-22fb5c2a0954">
+<persname short="SAL." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
+</persona>
+
+<persona gender="male" id="ea8de20a-b012-4aa3-a5db-2efef557a843">
+<persname short="FAL." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Falstaff</persname>
+</persona>
+
+<persona gender="male" id="b195a596-bbcf-4965-a81f-d96e87e0d509">
+<persname short="WOODV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Woodvile</persname>
+</persona>
+
+<persona gender="male" death="yes" id="305beecf-c4bb-4c02-bab8-771123194e2a">
+<persname short="GAR." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Gargrave</persname>
+</persona>
+
+<persona gender="male" id="1d0a684b-0a84-423a-b93a-ba833029004e">
+<persname short="GLAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Glansdale</persname>
+</persona>
+
+
+<persona gender="female" archetype="hero" death="yes" id="ba5bd98b-34bc-4751-be6f-6aba19842ba7">
+<persname short="PUC." numberOfLines="254" numberOfVerseLines="254" numberOfProseLines="0" numberOfLyricsLines="0">Joan de Pucelle</persname>
+</persona>
+
+<persona gender="female" id="47471aa9-6045-4a5e-96cc-7a0ea68a6dd6">
+<persname short="COUNT." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Countess of Auvergne</persname>
+</persona>
+
+<persona gender="female" id="3e375b7a-4c1c-4f8d-91b1-4609ef64b4bc">
+<persname short="MARG." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Margaret</persname>
+</persona>
+
+<persona gender="male" id="d6085006-7aec-4690-9b6d-b42eda69d0cf">
+<persname short="GEN." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">General of the French Force at Bordeaux</persname>
+</persona>
+
+<persona gender="male" id="37e634ae-d0c8-4015-9c9c-3009b8086519">
+<persname short="FR. SERG." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">French Sergeant</persname>
+</persona>
+
+<persona gender="male" id="dc6f3584-0737-4dda-b4bc-d8df01acb2d7">
 <persname short="OFF." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Officer</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WIN. SERV. ATT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Winchester&#8217;s Serving Attendant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="M. GUN. BOY." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Master Gunner&#8217;s Boy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. MESS." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="4. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="5. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. WARDER" numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Warder of the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. WARDER" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Warder of the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. GLOU. SERV. ATT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Gloucester&#8217;s First Serving Attendant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. GLOU. SERV. ATT." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Gloucester&#8217;s Second Serving Attendant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SENT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">First Sentinel</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. SENT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Sentinel</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ENG. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">English Soldier</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS. COUNT." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Messenger of the Countess</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. KEEPER." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Keeper</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. KEEPER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Keeper</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SOLD." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="dcf17a7f-6945-4f13-b281-29abffe3bbed">
 <persname short="CAPT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Captain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SCOUT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Scout</persname>
+<persona gender="male" id="c23ec317-680f-440f-89ac-6607035c04fd">
+<persname short="M. GUN. BOY." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Master Gunner&#8217;s Boy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="AMB. EMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador from the Emperor</persname>
+<persona gender="male" id="ce586c13-ab64-4e81-83cc-723230d3483e">
+<persname short="ENG. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">English Soldier</persname>
 </persona>
 
-<persona gender="male">
-<persname short="AMB. ARM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador from the Earl of Armagnac</persname>
+<persona gender="male" id="2998c81f-259c-44a5-a043-2b7cb1932a5d">
+<persname short="1. SOLD." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TAL. TRUMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Talbot&#8217;s Trumpeter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FR. HER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">French Herald</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="50618086-adac-4f5b-9db7-ab74422d40d0">
 <persname short="SOLD. WATCH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Soldier of the Watch</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="927420d5-39e6-41e0-9d06-73f47f9a3924">
+<persname short="1. SENT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">First Sentinel</persname>
+</persona>
+
+<persona gender="male" id="947ec1a0-4ef0-4fa6-acc1-041c7a02c4c8">
+<persname short="2. SENT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Sentinel</persname>
+</persona>
+
+<persona gender="male" id="0c5b1723-e0bf-4d92-9317-6d2ff89b5d05">
+<persname short="1. KEEPER." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Keeper</persname>
+</persona>
+
+<persona gender="male" id="9047d450-0305-4766-ab37-1a3665acbe17">
+<persname short="2. KEEPER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Keeper</persname>
+</persona>
+
+<persona gender="male" id="32c6b7f0-6a26-49c9-b13f-1e4ac60fca75">
+<persname short="1. WARDER" numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Warder of the Tower</persname>
+</persona>
+
+<persona gender="male" id="fc1c6b3b-b22e-45f4-a1df-adec8057dbf8">
+<persname short="2. WARDER" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Warder of the Tower</persname>
+</persona>
+
+<persona gender="male" id="cc75b677-2f99-4e9f-ad66-89483b70b642">
+<persname short="1. MESS." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="e485e792-4bb5-4673-bfd7-ea005470b127">
+<persname short="2. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="3f3b13aa-dadb-4bf8-91da-5895619b34f1">
+<persname short="3. MESS." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
+</persona>
+
+<persona gender="male" id="085267f9-4c25-490b-b2d5-d5cc46f4087f">
+<persname short="4. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Messenger</persname>
+</persona>
+
+<persona gender="male" id="676e74d5-3dd9-46ee-a180-d34595a58dd5">
+<persname short="5. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Messenger</persname>
+</persona>
+
+
+<persona gender="male" id="af9ad477-16f9-4212-bf36-fe91808df155">
+<persname short="MESS. COUNT." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Messenger of the Countess</persname>
+</persona>
+
+<persona gender="male" id="0c440499-4a5a-486f-8d88-6512fdf3cfbd">
 <persname short="TAL. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Talbot&#8217;s Servant</persname>
+</persona>
+
+
+<persona gender="male" id="87fabb03-d335-49f5-836d-edbe5e4f6ac6">
+<persname short="1. GLOU. SERV. ATT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Gloucester&#8217;s First Serving Attendant</persname>
+</persona>
+
+<persona gender="male" id="9661ea62-70ce-419c-af3a-4c17201b3645">
+<persname short="2. GLOU. SERV. ATT." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Gloucester&#8217;s Second Serving Attendant</persname>
+</persona>
+
+<persona gender="male" id="bbdfc728-cd63-4c5e-adfc-a3bf2e0c2fd7">
+<persname short="WIN. SERV. ATT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Winchester&#8217;s Serving Attendant</persname>
+</persona>
+
+<persona gender="male" id="b91a8634-f538-445b-ab02-5171ddd7be65">
+<persname short="SCOUT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Scout</persname>
+</persona>
+
+<persona gender="male" id="2c9257f6-e248-42da-adf3-7ab579c07605">
+<persname short="LAW." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Lawyer</persname>
+</persona>
+
+<persona gender="male" id="54e8ef32-18ac-4d82-bfe7-0c4306c5ebcb">
+<persname short="PAP." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Papal Legate</persname>
+</persona>
+
+<persona gender="male" id="cc6cabde-c010-4c19-abf6-7b2fe36d5e55">
+<persname short="PORT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Porter</persname>
+</persona>
+
+<persona gender="male" id="adda0e3d-a166-4916-a4a1-b9d328b0679e">
+<persname short="GOV. PARIS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Governor of Paris</persname>
+</persona>
+
+<persona gender="male" id="ab825238-720f-46ce-a4d9-17e7d35a268c">
+<persname short="AMB. EMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador from the Emperor</persname>
+</persona>
+
+<persona gender="male" id="fc056736-eb4b-4547-baed-81df36f619c3">
+<persname short="AMB. ARM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador from the Earl of Armagnac</persname>
+</persona>
+
+<persona gender="male" id="54963135-c93a-47a1-815c-6d5c6fe12ea8">
+<persname short="TAL. TRUMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Talbot&#8217;s Trumpeter</persname>
+</persona>
+
+<persona gender="male" id="fae23e24-fadb-4e2b-8a84-ed48822529fa">
+<persname short="FR. HER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">French Herald</persname>
+</persona>
+
+<persona gender="male" id="c139a221-786c-42b4-8c73-5c4d356b0573">
+<persname short="FIENDS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Fiends</persname>
 </persona>
 
 </personae>
@@ -281,6 +289,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster Abbey.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>King Henry the Fifth</scenepersona>
 	<scenepersona short="BED.">Duke of Bedford</scenepersona>
@@ -692,6 +701,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Orl&#233;ans.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHAR.">Charles the Dauphin of France</scenepersona>
 	<scenepersona short="ALAN.">Duke of Alanson</scenepersona>
@@ -1080,6 +1090,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. Before the Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
 	<scenepersona short="1. GLOU. SERV. ATT.">Gloucester&#8217;s First Serving Attendant</scenepersona>
@@ -1170,6 +1181,8 @@
 	<action type="action">
 		<actor>1. GLOU. SERV. ATT.</actor>
 		<actor>2. GLOU. SERV. ATT.</actor>
+	</action>
+	<action type="speak-offstage">
 		<actor>WOODV.</actor>
 	</action>
 </stagedir>
@@ -1212,6 +1225,8 @@
 	<dir>Enter to the Protector at the Tower gates Winchester and his Men in tawny coats.</dir>
 	<action type="enter">
 		<actor>WIN.</actor>
+		<actor>1. WARDER</actor>
+		<actor>2. WARDER</actor>
 	</action>
 </stagedir>
 
@@ -1286,6 +1301,12 @@
 <stagedir sdglobalnumber="384.01" sdnumber="56.01">
 	<dir>Here Gloucester&#8217;s men beat out the Cardinal&#8217;s men, and enter in the hurly-burly the Mayor of London and his Officers.</dir>
 	<action type="action">
+		<actor>1. GLOU. SERV. ATT.</actor>
+		<actor>2. GLOU. SERV. ATT.</actor>
+		<actor>1. WARDER</actor>
+		<actor>2. WARDER</actor>
+	</action>
+	<action type="enter">
 		<actor>MAY.</actor>
 		<actor>OFF.</actor>
 	</action>
@@ -1323,6 +1344,12 @@
 <stagedir sdglobalnumber="397.01" sdnumber="69.01">
 	<dir>Here they skirmish again.</dir>
 	<action type="fight">
+		<actor>GLOU.</actor>	
+		<actor>1. GLOU. SERV. ATT.</actor>
+		<actor>2. GLOU. SERV. ATT.</actor>
+		<actor>1. WARDER</actor>
+		<actor>2. WARDER</actor>
+		<actor>WIN.</actor>
 	</action>
 </stagedir>
 
@@ -1374,6 +1401,8 @@
 		<actor>GLOU.</actor>	
 		<actor>1. GLOU. SERV. ATT.</actor>
 		<actor>2. GLOU. SERV. ATT.</actor>
+		<actor>1. WARDER</actor>
+		<actor>2. WARDER</actor>
 		<actor>WIN.</actor>
 	</action>
 </stagedir>
@@ -1398,6 +1427,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>France. Before Orl&#233;ans.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="M. GUN.">Master Gunner of Orl&#233;ans</scenepersona>
 	<scenepersona short="M. GUN. BOY.">Master Gunner&#8217;s Boy</scenepersona>
@@ -1676,6 +1706,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>France. Before Orl&#233;ans.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="CHAR.">Charles the Dauphin of France</scenepersona>
@@ -1689,7 +1720,11 @@
 
 <stagedir sdglobalnumber="525.02" sdnumber="0.01">
 	<dir>Here an alarum again, and Talbot pursueth the Dauphin, and driveth him.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>TAL.</actor>
+		<actor>CHAR.</actor>
+	</action>
+	<action type="exit">
 		<actor>TAL.</actor>
 		<actor>CHAR.</actor>
 	</action>
@@ -1697,7 +1732,11 @@
 
 <stagedir sdglobalnumber="525.03" sdnumber="0.02">
 	<dir>Then enter Joan De Pucelle, driving Englishmen before her, and exit after them.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>PUC.</actor>
+		<actor>Englishmen</actor>
+	</action>
+	<action type="exit">
 		<actor>PUC.</actor>
 		<actor>Englishmen</actor>
 	</action>
@@ -1823,6 +1862,7 @@
 <scene actnum="1" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>France. Before Orl&#233;ans.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="CHAR.">Charles the Dauphin of France</scenepersona>
@@ -1916,6 +1956,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. Before Orl&#233;ans.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FR. SERG.">French Sergeant</scenepersona>
 	<scenepersona short="1. SENT.">First Sentinel</scenepersona>
@@ -2057,13 +2098,16 @@
 
 <stagedir sdglobalnumber="635.01" sdnumber="37.01">
 	<dir>Cry: &#8220;Saint George!&#8221; &#8220;A Talbot!&#8221; </dir>
-	<action type="action">
+	<action type="speak-offstage">
 	</action>
 </stagedir>
 
 <stagedir sdglobalnumber="635.02" sdnumber="37.02">
 	<dir>The English scale the walls.</dir>
-	<action type="action">
+	<action type="exit">
+		<actor>TAL.</actor>		
+		<actor>BED.</actor>
+		<actor>BUR.</actor>
 	</action>
 </stagedir>
 
@@ -2204,6 +2248,8 @@
 <stagedir sdglobalnumber="676.02" sdnumber="77.02">
 	<dir>They fly, leaving their clothes behind.</dir>
 	<action type="exit">
+		<actor>1. SENT.</actor>
+		<actor>2. SENT.</actor>
 		<actor>BAST.</actor>
 		<actor>ALAN.</actor>
 		<actor>REIG.</actor>
@@ -2232,6 +2278,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Orl&#233;ans. Within the town.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="BED.">Duke of Bedford</scenepersona>
@@ -2399,6 +2446,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Auvergne. Court of the Countess&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNT.">Countess of Auvergne</scenepersona>
 	<scenepersona short="PORT.">Porter</scenepersona>
@@ -2666,6 +2714,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. The temple garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PLAN.">Richard Plantagenet</scenepersona>
 	<scenepersona short="WAR.">Earl Warwick</scenepersona>
@@ -3050,8 +3099,9 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>London. A room in the Tower of London.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="MOR.">Edmund Mortimer</scenepersona>
+	<scenepersona short="MORT.">Edmund Mortimer</scenepersona>
 	<scenepersona short="PLAN.">Richard Plantagenet</scenepersona>
 	<scenepersona short="1. KEEPER.">First Keeper</scenepersona>
 	<scenepersona short="2. KEEPER.">Second Keeper</scenepersona>
@@ -3064,14 +3114,14 @@
 <stagedir sdglobalnumber="961.02" sdnumber="0.01">
 	<dir>Enter Mortimer, brought in a chair, and Keepers.</dir>
 	<action type="enter">
-		<actor>MOR.</actor>
+		<actor>MORT.</actor>
 		<actor>1. KEEPER.</actor>
 		<actor>2. KEEPER.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="962" number="1" form="verse">Kind keepers of my weak decaying age,</line>
 <line globalnumber="963" number="2" form="verse">Let dying Mortimer here rest himself.</line>
 <line globalnumber="964" number="3" form="verse">Even like a man new haled from the rack,</line>
@@ -3099,7 +3149,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="982" number="21" form="verse">Enough; my soul shall then be satisfied.</line>
 <line globalnumber="983" number="22" form="verse">Poor gentleman, his wrong doth equal mine.</line>
 <line globalnumber="984" number="23" form="verse">Since Henry Monmouth first began to reign,</line>
@@ -3127,7 +3177,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="995" number="34" form="verse">Richard Plantagenet, my friend, is he come?</line>
 </speech>
 
@@ -3138,7 +3188,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="998" number="37" form="verse">Direct mine arms I may embrace his neck,</line>
 <line globalnumber="999" number="38" form="verse">And in his bosom spend my latter gasp.</line>
 <line globalnumber="1000" number="39" form="verse">O, tell me when my lips do touch his cheeks,</line>
@@ -3164,7 +3214,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="1016" number="55" form="verse">That cause, fair nephew, that imprison&#8217;d me</line>
 <line globalnumber="1017" number="56" form="verse">And hath detain&#8217;d me all my flow&#8217;ring youth</line>
 <line globalnumber="1018" number="57" form="verse">Within a loathsome dungeon, there to pine,</line>
@@ -3178,7 +3228,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="1022" number="61" form="verse">I will, if that my fading breath permit</line>
 <line globalnumber="1023" number="62" form="verse">And death approach not ere my tale be done.</line>
 <line globalnumber="1024" number="63" form="verse">Henry the Fourth, grandfather to this king,</line>
@@ -3219,7 +3269,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="1055" number="94" form="verse">True; and thou seest that I no issue have,</line>
 <line globalnumber="1056" number="95" form="verse">And that my fainting words do warrant death.</line>
 <line globalnumber="1057" number="96" form="verse">Thou art my heir; the rest I wish thee gather;</line>
@@ -3234,7 +3284,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="1062" number="101" form="verse">With silence, nephew, be thou politic.</line>
 <line globalnumber="1063" number="102" form="verse">Strong fixed is the house of Lancaster,</line>
 <line globalnumber="1064" number="103" form="verse">And like a mountain, not to be remov&#8217;d.</line>
@@ -3250,7 +3300,7 @@
 </speech>
 
 <speech>
-<speaker long="Edmund Mortimer, Earl of March">MOR.</speaker>
+<speaker long="Edmund Mortimer, Earl of March">MORT.</speaker>
 <line globalnumber="1070" number="109" form="verse">Thou dost then wrong me, as that slaughterer doth</line>
 <line globalnumber="1071" number="110" form="verse">Which giveth many wounds when one will kill.</line>
 <line globalnumber="1072" number="111" form="verse">Mourn not, except thou sorrow for my good,</line>
@@ -3262,7 +3312,7 @@
 <stagedir sdglobalnumber="1075.01" sdnumber="114.01">
 	<dir>Dies.</dir>
 	<action type="death">
-		<actor>MOR.</actor>
+		<actor>MORT.</actor>
 	</action>
 </stagedir>
 
@@ -3278,9 +3328,9 @@
 <stagedir sdglobalnumber="1082.01" sdnumber="121.01">
 	<dir>Exeunt Keepers, bearing out the body of Mortimer.</dir>
 	<action type="exit">
-		<actor>MOR.</actor>
 		<actor>1. KEEPER.</actor>
 		<actor>2. KEEPER.</actor>
+		<recipient>MORT.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1083" number="122" form="verse">Here dies the dusky torch of Mortimer,</line>
@@ -3308,6 +3358,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The Parliament House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
 	<scenepersona short="EXE.">Duke of Exeter</scenepersona>
@@ -3534,7 +3585,7 @@
 <line globalnumber="1171" number="76" form="verse" offset="9">&#8220;Stones! Stones!&#8221;</line>
 </speech>
 
-<stagedir sdglobalnumber="1171.01" sdnumber="76.01">
+<stagedir sdglobalnumber="1171.01" sdnumber="76.02">
 	<dir>Enter Mayor of London, attended.</dir>
 	<action type="enter">
 		<actor>MAY.</actor>
@@ -3906,6 +3957,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Rouen.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="1. SOLD.">First Soldier</scenepersona>
@@ -3960,7 +4012,7 @@
 
 <stagedir sdglobalnumber="1309.01" sdnumber="12.01">
 	<dir>Knock.</dir>
-	<action type="action">
+	<action type="sound">
 		<actor>1. SOLD.</actor>
 	</action>
 </stagedir>
@@ -4328,7 +4380,12 @@
 
 <stagedir sdglobalnumber="1407.02" sdnumber="109.02">
 	<dir>Retreat. Excursions. Pucelle, Alanson, and Charles enter from the town and fly.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>PUC.</actor>
+		<actor>ALAN.</actor>
+		<actor>CHAR.</actor>
+	</action>
+	<action type="exit">
 		<actor>PUC.</actor>
 		<actor>ALAN.</actor>
 		<actor>CHAR.</actor>
@@ -4348,6 +4405,9 @@
 	<dir>Bedford dies, and is carried in by two in his chair.</dir>
 	<action type="death">
 		<actor>BED.</actor>
+	</action>
+	<action type="exit">
+		<recipient>BED.</recipient>
 	</action>
 </stagedir>
 
@@ -4407,9 +4467,6 @@
 <stagedir sdglobalnumber="1435.01" sdnumber="137.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>PUC.</actor>
-		<actor>ALAN.</actor>
-		<actor>CHAR.</actor>
 		<actor>TAL.</actor>
 		<actor>BUR.</actor>
 	</action>
@@ -4420,6 +4477,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>France. The plains near Rouen.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHAR.">Charles the Dauphin of France</scenepersona>
 	<scenepersona short="BAST.">Bastard of Orl&#233;ans</scenepersona>
@@ -4675,7 +4733,8 @@
 		<actor>CHAR.</actor>
 		<actor>BAST.</actor>
 		<actor>ALAN.</actor>
-		<actor>PUC.</actor>	
+		<actor>PUC.</actor>
+		<actor>BUR.</actor>
 	</action>
 </stagedir>
 
@@ -4684,6 +4743,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Paris. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
@@ -4778,9 +4838,16 @@
 
 <stagedir sdglobalnumber="1553.02" sdnumber="27.02">
 	<dir>Exeunt. Manent Vernon and Basset.</dir>
-	<action type="exit">	
-		<actor>VER.</actor>
-		<actor>BAS.</actor>
+	<action type="exit">
+		<actor>KING.</actor>
+		<actor>GLOU.</actor>
+		<actor>WIN.</actor>
+		<actor>YORK.</actor>
+		<actor>SUF.</actor>
+		<actor>SOM.</actor>
+		<actor>EXE.</actor>	
+		<actor>TAL.</actor>
+		<actor>Talbot&#8217;s Soldiers</actor>
 	</action>
 </stagedir>
 
@@ -4854,6 +4921,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Paris. A hall of state.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
@@ -4942,6 +5010,7 @@
 	<dir>Presents it.</dir>
 	<action type="action">
 		<actor>FAL.</actor>
+		<recipient>TAL.</recipient>
 	</action>
 </stagedir>
 
@@ -5291,6 +5360,12 @@
 <stagedir sdglobalnumber="1745.02" sdnumber="174.02">
 	<dir>Exeunt. Manent York, Warwick, Exeter, Vernon.</dir>
 	<action type="exit">
+		<actor>KING.</actor>
+		<actor>GLOU.</actor>
+		<actor>WIN.</actor>
+		<actor>SUF.</actor>
+		<actor>SOM.</actor>
+		<actor>BAS.</actor>
 	</action>
 </stagedir>
 
@@ -5356,6 +5431,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Bourdeaux.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="TAL. TRUMP.">Talbot&#8217;s Trumpeter</scenepersona>
@@ -5473,6 +5549,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>France. Plains in Gascony.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="5. MESS.">Fifth Messenger</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
@@ -5608,10 +5685,18 @@
 <line globalnumber="1875" number="53" form="verse">Lives, honors, lands, and all, hurry to loss.</line>
 </speech>
 
+<stagedir sdglobalnumber="1875.01" sdnumber="53.01">
+	<action type="exit">
+		<actor>LUCY.</actor>
+	</action>
+</stagedir>
+	
 </scene>
+
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>France. Other plains in Gascony.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SOM.">Duke of Somerset</scenepersona>
 	<scenepersona short="CAPT.">Captain</scenepersona>
@@ -5623,7 +5708,7 @@
 </scenelanguage>
 
 
-<stagedir sdglobalnumber="1868.02" sdnumber="0.01">
+<stagedir sdglobalnumber="1875.02" sdnumber="0.01">
 	<dir>Enter Somerset with his army, a Captain of Talbot&#8217;s with him.</dir>
 	<action type="enter">
 		<actor>SOM.</actor>
@@ -5740,6 +5825,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>English camp near Bourdeaux.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="JOHN.">John Talbot</scenepersona>
@@ -5901,6 +5987,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>A field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="JOHN.">John Talbot</scenepersona>
@@ -5912,7 +5999,9 @@
 
 <stagedir sdglobalnumber="1976.02" sdnumber="0.01">
 	<dir>Alarum. Excursions, wherein Talbot&#8217;s son, John, is hemm&#8217;d about, and Talbot rescues him.</dir>
-	<action type="action">
+	<action type="sound">
+	</action>
+	<action type="enter">
 		<actor>TAL.</actor>
 		<actor>JOHN.</actor>
 	</action>
@@ -6008,6 +6097,7 @@
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAL.">Lord Talbot</scenepersona>
 	<scenepersona short="TAL. SERV.">Talbot&#8217;s Servant</scenepersona>
@@ -6061,7 +6151,7 @@
 	<dir>Enter Soldiers with John Talbot borne.</dir>
 	<action type="enter">
 		<actor>Talbot&#8217;s Soldiers</actor>
-		<actor>JOHN.</actor>
+		<recipient>JOHN.</recipient>
 	</action>
 </stagedir>
 
@@ -6271,6 +6361,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
 	<scenepersona short="GLOU.">Duke of Gloucester</scenepersona>
@@ -6461,6 +6552,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Plains in Anjou.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHAR.">Charles the Dauphin of France</scenepersona>
 	<scenepersona short="BUR.">Duke of Burgundy</scenepersona>
@@ -6573,13 +6665,14 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>France. Before Angiers.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PUC.">Joan de Pucelle</scenepersona>
 	<scenepersona short="FIENDS.">Fiends</scenepersona>
 	<scenepersona short="BUR.">Duke of Burgundy</scenepersona>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
 	<scenepersona short="SUF.">Earl of Suffolk</scenepersona>
-	<scenepersona short="MAR.">Margaret</scenepersona>
+	<scenepersona short="MARG.">Margaret</scenepersona>
 	<scenepersona short="REIG.">Reignier</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -6653,7 +6746,7 @@
 <line globalnumber="2235" number="23" form="verse">Before that England give the French the foil.</line>
 <stagedir sdglobalnumber="2235.01" sdnumber="23.01">
 	<dir>They depart.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>FIENDS.</actor>
 	</action>
 </stagedir>
@@ -6674,14 +6767,19 @@
 
 <stagedir sdglobalnumber="2241.02" sdnumber="29.02">
 	<dir>Excursions. Burgundy and York enter and fight hand to hand.</dir>
+	<action type="enter">
+		<actor>BUR.</actor>
+		<actor>YORK.</actor>
+	</action>
 	<action type="fight">
 		<actor>BUR.</actor>
 		<actor>YORK.</actor>
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="2241.03" sdnumber="29.03">
 	<dir>French fly. Pucelle is brought in captive.</dir>
-	<action type="action">
+	<action type="enter">
 		<recipient>PUC.</recipient>
 	</action>
 </stagedir>
@@ -6742,7 +6840,7 @@
 	<dir>Alarum. Enter Suffolk with Margaret in his hand.</dir>
 	<action type="enter">
 		<actor>SUF.</actor>
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 
@@ -6753,7 +6851,7 @@
 	<dir>Gazes on her.</dir>
 	<action type="action">
 		<actor>SUF.</actor>
-		<recipient>MAR.</recipient>
+		<recipient>MARG.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2258" number="46" form="verse">O fairest beauty, do not fear nor fly,</line>
@@ -6764,7 +6862,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2263" number="51" form="verse">Margaret my name, and daughter to a king,</line>
 <line globalnumber="2264" number="52" form="verse">The King of Naples, whosoe&#8217;er thou art.</line>
 </speech>
@@ -6781,7 +6879,7 @@
 <stagedir sdglobalnumber="2271.01" sdnumber="59.01">
 	<dir>She is going.</dir>
 	<action type="action">
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2272" number="60" form="verse" offset="0">O, stay!</line>
@@ -6806,7 +6904,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2285" number="72" form="verse">Say, Earl of Suffolk&#8212;if thy name be so&#8212;</line>
 <line globalnumber="2286" number="73" form="verse">What ransom must I pay before I pass?</line>
 <line globalnumber="2287" number="74" form="verse">For I perceive I am thy prisoner.</line>
@@ -6825,7 +6923,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2290" number="77" form="verse">Why speak&#8217;st thou not? What ransom must I pay?</line>
 </speech>
 
@@ -6842,7 +6940,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2293" number="80" form="verse">Wilt thou accept of ransom, yea or no?</line>
 </speech>
 
@@ -6859,7 +6957,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2296" number="83" form="verse">I were best to leave him, for he will not hear.</line>
 </speech>
 
@@ -6875,7 +6973,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2298" number="85" form="verse">He talks at random; sure the man is mad.</line>
 </speech>
 
@@ -6891,7 +6989,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2300" number="87" form="verse">And yet I would that you would answer me.</line>
 </speech>
 
@@ -6908,7 +7006,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2303" number="90" form="verse">He talks of wood; it is some carpenter.</line>
 </speech>
 
@@ -6929,7 +7027,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2310" number="97" form="verse">Hear ye, captain? Are you not at leisure?</line>
 </speech>
 
@@ -6947,11 +7045,11 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <stagedir sdglobalnumber="2313.01" sdnumber="100.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2314" number="101" form="verse">What though I be enthrall&#8217;d, he seems a knight,</line>
@@ -6964,11 +7062,11 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <stagedir sdglobalnumber="2316.01" sdnumber="103.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2317" number="104" form="verse">Perhaps I shall be rescu&#8217;d by the French,</line>
@@ -6981,11 +7079,11 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <stagedir sdglobalnumber="2319.01" sdnumber="106.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2320" number="107" form="verse">Tush, women have been captivate ere now.</line>
@@ -6997,7 +7095,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2322" number="109" form="verse">I cry you mercy, &#8217;tis but <foreign xml:lang="la">quid</foreign> for <foreign xml:lang="la">quo</foreign>.</line>
 </speech>
 
@@ -7008,7 +7106,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2325" number="112" form="verse">To be a queen in bondage is more vile</line>
 <line globalnumber="2326" number="113" form="verse">Than is a slave in base servility;</line>
 <line globalnumber="2327" number="114" form="verse" offset="0">For princes should be free.</line>
@@ -7021,7 +7119,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2330" number="116" form="verse">Why, what concerns his freedom unto me?</line>
 </speech>
 
@@ -7034,7 +7132,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2335" number="120" form="verse" offset="7">What?</line>
 </speech>
 
@@ -7044,7 +7142,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2337" number="122" form="verse">I am unworthy to be Henry&#8217;s wife.</line>
 </speech>
 
@@ -7057,7 +7155,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2342" number="127" form="verse">And if my father please, I am content.</line>
 </speech>
 
@@ -7204,7 +7302,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2391" number="173" form="verse">Farewell, my lord! Good wishes, praise, and prayers</line>
 <line globalnumber="2392" number="174" form="verse">Shall Suffolk ever have of Margaret.</line>
 </speech>
@@ -7212,7 +7310,7 @@
 <stagedir sdglobalnumber="2392.01" sdnumber="174.01">
 	<dir>She is going.</dir>
 	<action type="action">
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 
@@ -7223,7 +7321,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2395" number="177" form="verse">Such commendations as becomes a maid,</line>
 <line globalnumber="2396" number="178" form="verse">A virgin, and his servant, say to him.</line>
 </speech>
@@ -7236,7 +7334,7 @@
 </speech>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2400" number="182" form="verse">Yes, my good lord, a pure unspotted heart,</line>
 <line globalnumber="2401" number="183" form="verse">Never yet taint with love, I send the King.</line>
 </speech>
@@ -7250,12 +7348,12 @@
 	<dir>Kiss her.</dir>
 	<action type="action">
 		<actor>SUF.</actor>
-		<recipient>MAR.</recipient>
+		<recipient>MARG.</recipient>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Margaret">MAR.</speaker>
+<speaker long="Margaret">MARG.</speaker>
 <line globalnumber="2403" number="185" form="verse">That for thyself; I will not so presume</line>
 <line globalnumber="2404" number="186" form="verse">To send such peevish tokens to a king.</line>
 </speech>
@@ -7264,7 +7362,7 @@
 	<dir>Exeunt Reignier and Margaret.</dir>
 	<action type="exit">
 		<actor>REIG.</actor>
-		<actor>MAR.</actor>
+		<actor>MARG.</actor>
 	</action>
 </stagedir>
 
@@ -7293,6 +7391,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Anjou. Camp of the Duke of York.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
 	<scenepersona short="WAR.">Earl Warwick</scenepersona>
@@ -7730,6 +7829,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>London. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SUF.">Earl of Suffolk</scenepersona>
 	<scenepersona short="KING.">King Henry the Sixth</scenepersona>
@@ -7936,30 +8036,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="22">
-<placename>A field of battle.</placename>
-<placename>Anjou. Camp of the Duke of York.</placename>
-<placename>Another part of the battlefield.</placename>
-<placename>Auvergne. Court of the Countess&#8217;s castle.</placename>
-<placename>English camp near Bourdeaux.</placename>
-<placename>France. Before Angiers.</placename>
-<placename>France. Before Bourdeaux.</placename>
-<placename>France. Before Orl&#233;ans.</placename>
-<placename>France. Before Rouen.</placename>
-<placename>France. Other plains in Gascony.</placename>
-<placename>France. Plains in Anjou.</placename>
-<placename>France. Plains in Gascony.</placename>
-<placename>France. The plains near Rouen.</placename>
-<placename>London. A room in the Tower of London.</placename>
-<placename>London. A room in the palace.</placename>
-<placename>London. Before the Tower.</placename>
-<placename>London. The Parliament House.</placename>
-<placename>London. The temple garden.</placename>
-<placename>Orl&#233;ans. Within the town.</placename>
-<placename>Paris. A hall of state.</placename>
-<placename>Paris. A room in the palace.</placename>
-<placename>Westminster Abbey.</placename>
-</locations>
+
 
 
 <sources>
@@ -7997,12 +8074,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

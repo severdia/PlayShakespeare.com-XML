@@ -1,339 +1,345 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="antony-and-cleopatra">
 <title short="Antony and Cleopatra">The Tragedy of Antony and Cleopatra</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1607-1608</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Antony and Cleopatra">
 
-<persona gender="female" archetype="hero" death="yes">
-<persname short="CLEO." numberOfLines="679" numberOfVerseLines="675" numberOfProseLines="4" numberOfLyricsLines="0">Cleopatra, Queen of Egypt</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="CLOWN." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Clown</persname>
-</persona>
-
-<persona gender="male">
-<persname short="RANN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Rannius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SOOTH." numberOfLines="30" numberOfVerseLines="26" numberOfProseLines="4" numberOfLyricsLines="0">Lamprius, the Soothsayer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DIO." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Diomedes</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SEL." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Seleucus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAR." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Mardian</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ALEX." numberOfLines="30" numberOfVerseLines="25" numberOfProseLines="5" numberOfLyricsLines="0">Alexas</persname>
-<persaliases>
-	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="AMB." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Schoolmaster (Ambassador)</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SIL." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Silius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VAR." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Varrius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MENE." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Menecrates</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MENAS." numberOfLines="59" numberOfVerseLines="43" numberOfProseLines="16" numberOfLyricsLines="0">Menas</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TAUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Taurus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GALL." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Gallus</persname>
-<persaliases>
-	<persname short="ALL. CAES. TRAIN.">All Caesar&#8217;s Train</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="THID." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Thidias</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PRO." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Proculeius</persname>
-<persaliases>
-	<persname short="ALL. CAES. TRAIN.">All Caesar&#8217;s Train</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="DOL." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">Dolabella</persname>
-</persona>
-
-<persona gender="male">
-<persname short="AGR." numberOfLines="61" numberOfVerseLines="59" numberOfProseLines="2" numberOfLyricsLines="0">Agrippa</persname>
-<persaliases>
-	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
-	<persname short="BOTH. MAEC. AND AGR.">Both Maecenas and Agrippa</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="MAEC." numberOfLines="39" numberOfVerseLines="36" numberOfProseLines="3" numberOfLyricsLines="0">Maecenas</persname>
-<persaliases>
-	<persname short="ALL. CAES. TRAIN.">All Caesar&#8217;s Train</persname>
-	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
-	<persname short="BOTH. MAEC. AND AGR.">Both Maecenas and Agrippa</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="CAN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Canidius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PHI." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Philo</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DEM." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Demetrius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DEC." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Decretas</persname>
-<persaliases>
-	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="SCAR." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Scarus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="EROS." numberOfLines="43" numberOfVerseLines="42" numberOfProseLines="1" numberOfLyricsLines="0">Eros</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VEN." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Ventidius</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="ENO." numberOfLines="298" numberOfVerseLines="266" numberOfProseLines="32" numberOfLyricsLines="6">Domitius Enobarbus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="POM." numberOfLines="136" numberOfVerseLines="135" numberOfProseLines="1" numberOfLyricsLines="0">Sextus Pompeius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LEP." numberOfLines="65" numberOfVerseLines="58" numberOfProseLines="7" numberOfLyricsLines="0">M. Aemilius Lepidus</persname>
-<persaliases>
-	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="CAES." numberOfLines="421" numberOfVerseLines="420" numberOfProseLines="1" numberOfLyricsLines="0">Octavius Caesar</persname>
-<persaliases>
-	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="0ad6bb94-5924-498c-8296-2af6e928eb6d">
 <persname short="ANT." numberOfLines="839" numberOfVerseLines="826" numberOfProseLines="13" numberOfLyricsLines="0">Mark Antony</persname>
 <persaliases>
 	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
 </persaliases>
 </persona>
 
-<persona gender="female" death="yes">
-<persname short="IRAS." numberOfLines="23" numberOfVerseLines="16" numberOfProseLines="7" numberOfLyricsLines="0">Iras</persname>
+<persona gender="male" archetype="hero" id="999727b9-7560-4262-bc6c-0d83e6010871">
+<persname short="CAES." numberOfLines="421" numberOfVerseLines="420" numberOfProseLines="1" numberOfLyricsLines="0">Octavius Caesar</persname>
+<persaliases>
+	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" death="yes" id="c2a55ab1-027e-4a45-a87f-5c8d0de6a5bd">
+<persname short="ENO." numberOfLines="298" numberOfVerseLines="266" numberOfProseLines="32" numberOfLyricsLines="6">Domitius Enobarbus</persname>
+</persona>
+
+<persona gender="male" death="yes" id="fc427f95-a3a5-46d7-8d1e-4c2b8eebe3da">
+<persname short="POM." numberOfLines="136" numberOfVerseLines="135" numberOfProseLines="1" numberOfLyricsLines="0">Sextus Pompeius</persname>
+</persona>
+
+<persona gender="male" id="5568006d-92e1-46ab-aebd-8d1636d1d203">
+<persname short="SCAR." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Scarus</persname>
+</persona>
+
+<persona gender="male" id="555ce7ca-50c2-44ee-ac5f-84763e64fde8">
+<persname short="LEP." numberOfLines="65" numberOfVerseLines="58" numberOfProseLines="7" numberOfLyricsLines="0">M. Aemilius Lepidus</persname>
+<persaliases>
+	<persname short="CAES., ANT., LEP.">Caesar, Antony and Lepidus</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="5f09c386-511a-4360-8dd4-7ee6335635c2">
+<persname short="AGR." numberOfLines="61" numberOfVerseLines="59" numberOfProseLines="2" numberOfLyricsLines="0">Agrippa</persname>
+<persaliases>
+	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
+	<persname short="BOTH MAEC. AND AGR.">Both Maecenas and Agrippa</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="78e47aa1-ffec-44d3-be2a-8c1647a560ad">
+<persname short="MENAS." numberOfLines="59" numberOfVerseLines="43" numberOfProseLines="16" numberOfLyricsLines="0">Menas</persname>
+</persona>
+
+<persona gender="male" id="ac2dfead-35fc-4df1-85a3-d3a1562af170">
+<persname short="DOL." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">Dolabella</persname>
+</persona>
+
+<persona gender="male" death="yes" id="6ec31768-d7bb-4217-8323-40575d62a62c">
+<persname short="EROS." numberOfLines="43" numberOfVerseLines="42" numberOfProseLines="1" numberOfLyricsLines="0">Eros</persname>
+</persona>
+
+<persona gender="male" id="991b178d-b707-4f8e-bcfc-3c347840f244">
+<persname short="MAEC." numberOfLines="39" numberOfVerseLines="36" numberOfProseLines="3" numberOfLyricsLines="0">Maecenas</persname>
+<persaliases>
+	<persname short="ALL CAES. TRAIN.">All Caesar&#8217;s Train</persname>
+	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
+	<persname short="BOTH MAEC. AND AGR.">Both Maecenas and Agrippa</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="9116f202-bb69-4586-872b-115a2a51ad9b">
+<persname short="PROC." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Proculeius</persname>
+<persaliases>
+	<persname short="ALL CAES. TRAIN.">All Caesar&#8217;s Train</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d48b2214-0032-42ca-beda-6453bdac2342">
+<persname short="THID." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Thidias</persname>
+</persona>
+
+<persona gender="male" id="0b9cc837-70b1-4bc9-b121-ec5d9b7d3c81">
+<persname short="SOOTH." numberOfLines="30" numberOfVerseLines="26" numberOfProseLines="4" numberOfLyricsLines="0">Lamprius, the Soothsayer</persname>
+</persona>
+
+<persona gender="male" id="c7b48140-89ee-4003-ba90-f4bf1da5876f">
+<persname short="VEN." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Ventidius</persname>
+</persona>
+
+<persona gender="male" id="29fbf07a-d78e-47a2-bcb2-87adfb1cef44">
+<persname short="ALEX." numberOfLines="30" numberOfVerseLines="25" numberOfProseLines="5" numberOfLyricsLines="0">Alexas</persname>
 <persaliases>
 	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
 </persaliases>
 </persona>
 
-<persona gender="female" death="yes">
+<persona gender="male" id="b1cda1a6-cbcd-4851-8262-8f690635a00f">
+<persname short="CAN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Canidius</persname>
+</persona>
+
+<persona gender="male" id="95513a58-c9dc-4973-990f-b1540df34b3a">
+<persname short="DEC." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Decretas</persname>
+<persaliases>
+	<persname short="AGR., MAEC., DEC.">Agrippa, Maecenas and Decretas</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d5491e78-8d5a-45e0-8140-5203e82e1070">
+<persname short="DIO." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Diomedes</persname>
+</persona>
+
+<persona gender="male" id="17891279-b876-4cde-ace1-8177c37e503e">
+<persname short="MAR." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Mardian</persname>
+</persona>
+
+<persona gender="male" id="cf5e5bb0-df0d-4736-983b-21af07c64517">
+<persname short="PHI." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Philo</persname>
+</persona>
+
+<persona gender="male" id="12e5cda4-9a02-4159-86b4-0d7840027d47">
+<persname short="SIL." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Silius</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="3caf960c-1f4a-4aaf-a518-a7aa80e75393">
+<persname short="CLOWN." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Clown</persname>
+</persona>
+
+<persona gender="male" id="74c2de8d-faa8-4ee2-9c0a-6237dd28e988">
+<persname short="SEL." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Seleucus</persname>
+</persona>
+
+<persona gender="male" id="87e3c670-7cca-4938-8143-ebc8ab5ec977">
+<persname short="DEM." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Demetrius</persname>
+</persona>
+
+<persona gender="male" id="3e74a9a2-d7a8-4d7f-a406-efde1dfb69ff">
+<persname short="MENE." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Menecrates</persname>
+</persona>
+
+<persona gender="male" id="25710cda-80f4-480c-98cc-641cbaea0141">
+<persname short="VAR." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Varrius</persname>
+</persona>
+
+<persona gender="male" id="fa7f4540-7294-49b6-aca2-0a23ecd85b6a">
+<persname short="GALL." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Gallus</persname>
+<persaliases>
+	<persname short="ALL CAES. TRAIN.">All Caesar&#8217;s Train</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d37511fd-6649-43ef-ad69-90e4a783d9da">
+<persname short="TAUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Taurus</persname>
+</persona>
+
+<persona gender="female" archetype="hero" death="yes" id="98a6928c-ca59-4d79-a7c6-7190a7f12823">
+<persname short="CLEO." numberOfLines="679" numberOfVerseLines="675" numberOfProseLines="4" numberOfLyricsLines="0">Cleopatra, Queen of Egypt</persname>
+</persona>
+
+<persona gender="female" death="yes" id="b85b5843-8581-4976-ab2a-dabf91aa7055">
 <persname short="CHAR." numberOfLines="87" numberOfVerseLines="69" numberOfProseLines="18" numberOfLyricsLines="0">Charmian</persname>
 <persaliases>
 	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="b20a6991-51c9-44b9-912a-73f278237546">
 <persname short="OCT." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Octavia</persname>
 </persona>
 
-<persona gender="female">
-<persname short="LUCILL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lucillius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 1. ATT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Attendant</persname>
+<persona gender="female" death="yes" id="2c0b9f42-e860-4fde-96c5-9e288148127f">
+<persname short="IRAS." numberOfLines="23" numberOfVerseLines="16" numberOfProseLines="7" numberOfLyricsLines="0">Iras</persname>
 <persaliases>
-	<persname short="BOTH. ATT.">Both Antony&#8217;s Attendants</persname>
-	<persname short="ALL. ANT. ATT.">All Antony&#8217;s Attendants</persname>
+	<persname short="CHAR., IRAS, ALEX.">Charmian, Iras, and Alexas</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ANT. 2. ATT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Attendant</persname>
-<persaliases>
-	<persname short="BOTH. ATT.">Both Antony&#8217;s Attendants</persname>
-</persaliases>
+<persona gender="male" id="9845b996-b509-4f94-a4b3-41775c94ddcc">
+<persname short="AMB." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Schoolmaster (Ambassador)</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. CAES. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. CAES. MESS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Second Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. CAES. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Third Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. ROM. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. ROM. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EGYPT. MESS." numberOfLines="43" numberOfVerseLines="43" numberOfProseLines="0" numberOfLyricsLines="0">Egyptian Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. EGYPT. SERV." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Egyptian Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. EGYPT. SERV." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second Egyptian Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 1. SOLD." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Soldier</persname>
-<persaliases>
-	<persname short="ALL. ANT. SOLD.">All Antony&#8217;s Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 2. SOLD." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Soldier</persname>
-<persaliases>
-	<persname short="ALL. ANT. SOLD">All Antony&#8217;s Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 3. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Third Soldier</persname>
-<persaliases>
-	<persname short="ALL. ANT. SOLD">All Antony&#8217;s Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 4. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Fourth Soldier</persname>
-<persaliases>
-	<persname short="ALL. ANT. SOLD">All Antony&#8217;s Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="CAPT. ANT. ARMY." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Captain of Antony&#8217;s Army</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAES. 1. SOLD." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Soldier</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="c3743e62-7ff7-4a68-a4f1-81307b90ca20">
 <persname short="CAES. SENT." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Sentry</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAES. 1. WATCH." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Watchman</persname>
-</persona>
 
-<persona gender="male">
-<persname short="CAES. 2. WATCH." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Second Watchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. 1. GUARD." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Guardsman</persname>
+<persona gender="male" id="77b2634f-1cbc-4797-85ba-b5808f11c19c">
+<persname short="ANT. 1. ATT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Attendant</persname>
 <persaliases>
-	<persname short="ALL. GUARDS.">All Guards</persname>
+	<persname short="BOTH ATT.">Both Antony&#8217;s Attendants</persname>
+	<persname short="ALL ANT. ATT.">All Antony&#8217;s Attendants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ANT. 2. GUARD." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Guardsman</persname>
+<persona gender="male" id="8f066a12-d697-4cbe-ad1d-b336c065bcb2">
+<persname short="ANT. 2. ATT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Attendant</persname>
 <persaliases>
-	<persname short="ALL. GUARDS.">All Guards</persname>
+	<persname short="BOTH ATT.">Both Antony&#8217;s Attendants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ANT. 3. GUARD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Third Guardsman</persname>
-<persaliases>
-	<persname short="ALL. GUARDS.">All Guards</persname>
-</persaliases>
+<persona gender="male" id="7d4bf067-ce9f-4319-9438-c87da32ada73">
+<persname short="1. EGYPT. SERV." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Egyptian Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. ROM. GUARD." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Guard</persname>
+<persona gender="male" id="65f08829-6cad-4ad4-9f88-0db3228ac96c">
+<persname short="2. EGYPT. SERV." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second Egyptian Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. ROM. GUARD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Guard</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. ROM. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Soldier</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. ROM. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Soldier</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="ad87e22c-a276-4b27-b11a-c0394555c838">
 <persname short="POM. 1. SERV." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Pompey&#8217;s First Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c64342aa-802c-4a93-8e53-27af3bc4f220">
 <persname short="POM. 2. SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Pompey&#8217;s Second Servant</persname>
+</persona>
+
+<persona gender="male" id="b6e1f2b9-2b6d-482e-8fac-aa11a65469f6">
+<persname short="CAPT. ANT. ARMY." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Captain of Antony&#8217;s Army</persname>
+</persona>
+
+<persona gender="male" id="dd9c04e5-a2fc-42b4-99c8-5ad7a35235f1">
+<persname short="ANT. 1. SOLD." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Soldier</persname>
+<persaliases>
+	<persname short="ALL ANT. SOLD.">All Antony&#8217;s Soldiers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="12e5e663-43af-4894-9186-d8f31c47d64e">
+<persname short="ANT. 2. SOLD." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Soldier</persname>
+<persaliases>
+	<persname short="ALL ANT. SOLD">All Antony&#8217;s Soldiers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6560de69-c61a-4ef6-8cc7-b317e1d51629">
+<persname short="ANT. 3. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Third Soldier</persname>
+<persaliases>
+	<persname short="ALL ANT. SOLD">All Antony&#8217;s Soldiers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="a5c69f54-4064-4780-8933-208a121205e4">
+<persname short="ANT. 4. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Fourth Soldier</persname>
+<persaliases>
+	<persname short="ALL ANT. SOLD">All Antony&#8217;s Soldiers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="34d3be46-5776-4fa1-a53b-7a80f04a86c9">
+<persname short="CAES. 1. SOLD." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Soldier</persname>
+</persona>
+
+<persona gender="male" id="a894a1cb-ec0f-46e4-a7f8-02b01e3fcf85">
+<persname short="1. ROM. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Soldier</persname>
+</persona>
+
+<persona gender="male" id="2062c11c-d4ce-4831-bf05-dd6fa5f7ef24">
+<persname short="2. ROM. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Soldier</persname>
+</persona>
+
+<persona gender="male" id="554f1d59-40e4-478e-a6a2-8b0112db736c">
+<persname short="ANT. 1. GUARD." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s First Guardsman</persname>
+<persaliases>
+	<persname short="ALL GUARDS.">All Guards</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="8f90de6e-3db6-4818-a834-e61f7895c700">
+<persname short="ANT. 2. GUARD." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Second Guardsman</persname>
+<persaliases>
+	<persname short="ALL GUARDS.">All Guards</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="60ff8faa-0e6c-48bf-ae18-3ae906574a40">
+<persname short="ANT. 3. GUARD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Third Guardsman</persname>
+<persaliases>
+	<persname short="ALL GUARDS.">All Guards</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="b504d956-66a8-410c-846c-68ff9e8cf901">
+<persname short="1. ROM. GUARD." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Guard</persname>
+</persona>
+
+<persona gender="male" id="a6c1576d-ee11-4b73-9fd3-669c81654d19">
+<persname short="2. ROM. GUARD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Guard</persname>
+</persona>
+
+<persona gender="male" id="0f1ea821-37e0-46a4-8c4d-c977d0e5cb10">
+<persname short="CAES. 1. WATCH." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Watchman</persname>
+</persona>
+
+<persona gender="male" id="24968b23-e1e7-4f5a-b962-d7c69e59b5a8">
+<persname short="CAES. 2. WATCH." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Second Watchman</persname>
+</persona>
+
+<persona gender="male" id="aeecbd1f-1028-48b0-9f8b-3df1d24001c6">
+<persname short="1. CAES. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s First Messenger</persname>
+</persona>
+
+<persona gender="male" id="7e71e236-f00a-412e-9a2e-c694ad5eda5f">
+<persname short="2. CAES. MESS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="1e4c96ee-22b1-4ade-b9c1-d0b906de50ed">
+<persname short="3. CAES. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Third Messenger</persname>
+</persona>
+
+<persona gender="male" id="05cbb2cf-b083-415b-81b6-2b75a3436cc8">
+<persname short="EGYPT. MESS." numberOfLines="43" numberOfVerseLines="43" numberOfProseLines="0" numberOfLyricsLines="0">Egyptian Messenger</persname>
+</persona>
+
+<persona gender="male" id="861078f4-0126-499b-ba22-82c935e3516b">
+<persname short="1. ROM. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Messenger</persname>
+</persona>
+
+<persona gender="male" id="347ad957-e000-4060-80bc-0aa2ad6cd572">
+<persname short="2. ROM. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Messenger</persname>
+</persona>
+
+<persona gender="male" id="883e6105-d2f5-4fd9-9571-fab628a051d3">
+<persname short="1. MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="998f61f0-12e4-4b36-ae24-4247df3f80fd">
+<persname short="2. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="be12bdc5-516b-4a1b-b470-9295cd52bc40">
+<persname short="RANN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Rannius</persname>
+</persona>
+
+<persona gender="female" id="0cd64ebd-fc5c-4a40-93d8-bc2a407393fb">
+<persname short="LUCILL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lucillius</persname>
 </persona>
 
 </personae>
@@ -518,7 +524,7 @@
 <line globalnumber="63" number="55" form="verse" offset="6">Speak not to us.</line>
 </speech>
 
-<stagedir sdglobalnumber="63.01" sdnumber="55.01">
+<stagedir sdglobalnumber="63.01" sdnumber="55.02">
 	<dir>Exeunt Antony and Cleopatra with the Train, followed by the Messenger.</dir>
 	<action type="exit">
 		<actor>ANT.</actor>
@@ -1052,7 +1058,7 @@
 <speech>
 <speaker long="Mark Antony">ANT.</speaker>
 <line globalnumber="173" number="90" form="verse" offset="7">Forbear me.</line>
-<stagedir sdglobalnumber="173.01" sdnumber="90.01">
+<stagedir sdglobalnumber="173.01" sdnumber="90.02">
 	<dir>Exit Second Messenger.</dir>
 	<action type="exit">
 		<actor>2. MESS.</actor>
@@ -1952,7 +1958,7 @@
 <speech>
 <speaker long="Cleopatra, Queen of Egypt">CLEO.</speaker>
 <line globalnumber="518" number="68" form="verse">Be chok&#8217;d with such another emphasis!</line>
-<line globalnumber="519" number="69" form="verse" offset="0">Say &#8220; the brave Antony.&#8221;</line>
+<line globalnumber="519" number="69" form="verse" offset="0">Say &#8220;the brave Antony.&#8221;</line>
 </speech>
 
 <speech>
@@ -2238,7 +2244,7 @@
 <line globalnumber="611" number="14" form="verse" offset="4">And yonder, Caesar.</line>
 </speech>
 
-<stagedir sdglobalnumber="611.01" sdnumber="14.01">
+<stagedir sdglobalnumber="611.01" sdnumber="14.02">
 	<dir>Enter Caesar, Maecenas, and Agrippa.</dir>
 	<action type="enter">
 		<actor>CAES.</actor>
@@ -3077,7 +3083,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Maecenas and Agrippa">BOTH. MAEC. AND AGR.</speaker>
+<speaker long="Both Maecenas and Agrippa">BOTH MAEC. AND AGR.</speaker>
 <line globalnumber="930" number="9" form="verse" offset="6">Sir, good success!</line>
 </speech>
 
@@ -4138,12 +4144,12 @@
 		<actor>ENO.</actor>
 		<actor>MENAS.</actor>
 		<actor>Captains</actor>
+		<actor>Attendant</actor>
 	</action>
 </stagedir>
 
 <speech>
 <speaker long="Mark Antony">ANT.</speaker>
-
 <stagedir sdglobalnumber="1222.02" sdnumber="7.02">
 	<dir>To Caesar.</dir>
 	<action type="speak">
@@ -4227,7 +4233,7 @@
 <speech>
 <speaker long="Menas">MENAS.</speaker>
 
-<stagedir sdglobalnumber="1239.01" sdnumber="23.01">
+<stagedir sdglobalnumber="1239.01" sdnumber="23.02">
 	<dir>Whispers in &#8217;s ear.</dir>
 	<action type="action">
 		<actor>MENAS.</actor>
@@ -4337,7 +4343,7 @@
 <line globalnumber="1256" number="38" form="verse" offset="4">I think th&#8217; art mad. The matter?</line>
 </speech>
 
-<stagedir sdglobalnumber="1256.01" sdnumber="38.01">
+<stagedir sdglobalnumber="1256.01" sdnumber="38.02">
 	<dir>Rises and walks aside.</dir>
 	<action type="action">
 		<actor>POM.</actor>
@@ -4636,10 +4642,11 @@
 		<actor>CAES.</actor>
 		<actor>ANT.</actor>
 		<actor>POM.</actor>
-		<actor>LEP.</actor>
 		<actor>AGR.</actor>
 		<actor>MAEC.</actor>
 		<actor>Captains</actor>
+		<actor>POM. 1. SERV.</actor>
+		<actor>POM. 2. SERV.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1345" number="111" form="verse" offset="0">Menas, I&#8217;ll not on shore.</line>
@@ -5014,7 +5021,7 @@
 
 <speech>
 <speaker long="Agrippa">AGR.</speaker>
-<stagedir sdglobalnumber="1450.01" sdnumber="50.01">
+<stagedir sdglobalnumber="1450.01" sdnumber="50.02">
 	<dir>Aside to Enobarbus.</dir>
 	<action type="aside">
 		<actor>AGR.</actor>
@@ -5110,7 +5117,7 @@
 <line globalnumber="1472" number="66" form="verse" offset="8">Farewell.</line>
 </speech>
 
-<stagedir sdglobalnumber="1472.01" sdnumber="66.01">
+<stagedir sdglobalnumber="1472.01" sdnumber="66.02">
 	<dir>Trumpets sound. Exeunt.</dir>
 	<action type="sound">
 	</action>
@@ -6073,6 +6080,12 @@
 <line globalnumber="1782" number="59" form="verse">And our twelve thousand horse. We&#8217;ll to our ship,</line>
 <line globalnumber="1783" number="60" form="verse" offset="0">Away, my Thetis!</line>
 <stagedir sdglobalnumber="1783.01" sdnumber="60.01">
+	<dir>Exit Second Roman Messenger.</dir>
+	<action type="exit">
+		<actor>2. ROM. MESS.</actor>
+	</action>
+</stagedir>
+<stagedir sdglobalnumber="1783.02" sdnumber="60.02">
 	<dir>Enter Scarus.</dir>
 	<action type="enter">
 		<actor>SCAR.</actor>
@@ -6284,7 +6297,11 @@
 
 <stagedir sdglobalnumber="1820.02" sdnumber="0.01">
 	<dir>Canidius marcheth with his land army one way over the stage, and Taurus, the lieutenant of Caesar, the other way. After their going in, is heard the noise of a sea-fight.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>CAN.</actor>
+		<actor>TAUR.</actor>
+	</action>
+	<action type="exit">
 		<actor>CAN.</actor>
 		<actor>TAUR.</actor>
 	</action>
@@ -6468,7 +6485,7 @@
 </speech>
 
 <speech>
-<speaker long="All Antony&#8217;s Attendants">ALL. ANT. ATT.</speaker>
+<speaker long="All Antony&#8217;s Attendants">ALL ANT. ATT.</speaker>
 <line globalnumber="1872" number="6" form="verse" offset="7">Fly? Not we.</line>
 </speech>
 
@@ -7196,7 +7213,7 @@
 <speech>
 <speaker long="Mark Antony">ANT.</speaker>
 
-<stagedir sdglobalnumber="2098.01" sdnumber="88.01">
+<stagedir sdglobalnumber="2098.01" sdnumber="88.02">
 	<dir>Calling for Servants.</dir>
 	<action type="action">
 		<actor>ANT.</actor>
@@ -7219,7 +7236,7 @@
 
 <speech>
 <speaker long="Domitius Enobarbus">ENO.</speaker>
-<stagedir sdglobalnumber="2104.01" sdnumber="93.01">
+<stagedir sdglobalnumber="2104.01" sdnumber="93.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>ENO.</actor>
@@ -7666,7 +7683,7 @@
 
 <speech>
 <speaker long="Domitius Enobarbus">ENO.</speaker>
-<stagedir sdglobalnumber="2261.01" sdnumber="13.01">
+<stagedir sdglobalnumber="2261.01" sdnumber="13.02">
 	<dir>Aside to Cleopatra.</dir>
 	<action type="aside">
 		<actor>ENO.</actor>
@@ -7687,7 +7704,7 @@
 </speech>
 
 <speech>
-<speaker long="All Antony&#8217;s Attendants">ALL. ANT. ATT.</speaker>
+<speaker long="All Antony&#8217;s Attendants">ALL ANT. ATT.</speaker>
 <line globalnumber="2269" number="19" form="verse" offset="5">The gods forbid!</line>
 </speech>
 
@@ -7713,7 +7730,7 @@
 
 <speech>
 <speaker long="Domitius Enobarbus">ENO.</speaker>
-<stagedir sdglobalnumber="2274.01" sdnumber="23.01">
+<stagedir sdglobalnumber="2274.01" sdnumber="23.02">
 	<dir>Aside to Cleopatra.</dir>
 	<action type="aside">
 		<actor>ENO.</actor>
@@ -7931,7 +7948,7 @@
 </speech>
 
 <speech>
-<speaker long="All Antony&#8217;s Soldiers">ALL. ANT. SOLD.</speaker>
+<speaker long="All Antony&#8217;s Soldiers">ALL ANT. SOLD.</speaker>
 
 <stagedir sdglobalnumber="2326.01" sdnumber="18.01">
 	<dir>Speak together.</dir>
@@ -7963,7 +7980,7 @@
 </speech>
 
 <speech>
-<speaker long="All Antony&#8217;s Soldiers">ALL. ANT. SOLD.</speaker>
+<speaker long="All Antony&#8217;s Soldiers">ALL ANT. SOLD.</speaker>
 <line globalnumber="2333" number="22" form="verse" offset="6">Content. &#8217;Tis strange.</line>
 </speech>
 
@@ -8112,7 +8129,7 @@
 </speech>
 
 <speech>
-<speaker long="All Antony&#8217;s Soldiers">ALL. ANT. SOLD.</speaker>
+<speaker long="All Antony&#8217;s Soldiers">ALL ANT. SOLD.</speaker>
 <line globalnumber="2366" number="25" form="verse" offset="0">Good morrow, general.</line>
 </speech>
 
@@ -9473,7 +9490,7 @@
 </speech>
 
 <speech>
-<speaker long="All Guards">ALL. GUARDS.</speaker>
+<speaker long="All Guards">ALL GUARDS.</speaker>
 <line globalnumber="2766" number="107" form="verse" offset="5">Alas, and woe!</line>
 </speech>
 
@@ -9611,7 +9628,7 @@
 </speech>
 
 <speech>
-<speaker long="All Guards">ALL. GUARDS.</speaker>
+<speaker long="All Guards">ALL GUARDS.</speaker>
 <line globalnumber="2800" number="134" form="verse" offset="6">Most heavy day!</line>
 </speech>
 
@@ -9628,10 +9645,11 @@
 <stagedir sdglobalnumber="2806.01" sdnumber="140.01">
 	<dir>Exeunt bearing Antony.</dir>
 	<action type="exit">
-		<actor>ANT.</actor>	
+		<actor>DIO.</actor>
 		<actor>ANT. 1. GUARD.</actor>
 		<actor>ANT. 2. GUARD.</actor>
 		<actor>ANT. 3. GUARD.</actor>
+		<recipient>ANT.</recipient>	
 	</action>
 </stagedir>
 
@@ -9782,7 +9800,7 @@
 </speech>
 
 <speech>
-<speaker long="All Guards">ALL. GUARDS.</speaker>
+<speaker long="All Guards">ALL GUARDS.</speaker>
 <line globalnumber="2853" number="40" form="verse" offset="6">A heavy sight!</line>
 </speech>
 
@@ -9929,10 +9947,10 @@
 		<actor>CHAR.</actor>
 		<actor>IRAS.</actor>
 		<actor>DIO.</actor>
-		<actor>ANT.</actor>
 		<actor>ANT. 1. GUARD.</actor>
 		<actor>ANT. 2. GUARD.</actor>
 		<actor>ANT. 3. GUARD.</actor>
+		<recipient>ANT.</recipient>
 	</action>
 </stagedir>
 
@@ -9952,7 +9970,7 @@
 	<scenepersona short="DOL.">Dolabella</scenepersona>
 	<scenepersona short="MAEC.">Maecenas</scenepersona>
 	<scenepersona short="GALL.">Gallus</scenepersona>
-	<scenepersona short="PRO.">Proculeius</scenepersona>
+	<scenepersona short="PROC.">Proculeius</scenepersona>
 	<scenepersona short="DEC.">Decretas</scenepersona>
 	<scenepersona short="2. EGYPT. SERV.">Second Egyptian Servant</scenepersona>
 </scenepersonae>
@@ -9969,7 +9987,7 @@
 		<actor>DOL.</actor>
 		<actor>MAEC.</actor>
 		<actor>GALL.</actor>
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 	</action>
 </stagedir>
 
@@ -10152,14 +10170,14 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="2991" number="68" form="verse" offset="5">Caesar, I shall.</line>
 </speech>
 
 <stagedir sdglobalnumber="2991.01" sdnumber="68.01">
 	<dir>Exit Proculeius.</dir>
 	<action type="exit">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 	</action>
 </stagedir>
 
@@ -10212,7 +10230,7 @@
 	<scenepersona short="CHAR.">Charmian</scenepersona>
 	<scenepersona short="IRAS.">Iras</scenepersona>
 	<scenepersona short="MAR.">Mardian</scenepersona>
-	<scenepersona short="PRO.">Proculeius</scenepersona>
+	<scenepersona short="PROC.">Proculeius</scenepersona>
 	<scenepersona short="DOL.">Dolabella</scenepersona>
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="GALL.">Gallus</scenepersona>
@@ -10255,12 +10273,12 @@
 <stagedir sdglobalnumber="3010.01" sdnumber="8.01">
 	<dir>Enter Proculeius.</dir>
 	<action type="enter">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3011" number="9" form="verse">Caesar sends greeting to the Queen of Egypt,</line>
 <line globalnumber="3012" number="10" form="verse">And bids thee study on what fair demands</line>
 <line globalnumber="3013" number="11" form="verse" offset="0">Thou mean&#8217;st to have him grant thee.</line>
@@ -10272,7 +10290,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3015" number="12" form="verse" offset="0">My name is Proculeius.</line>
 </speech>
 
@@ -10291,7 +10309,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3026" number="21" form="verse" offset="6">Be of good cheer;</line>
 <line globalnumber="3027" number="22" form="verse">Y&#8217; are fall&#8217;n into a princely hand, fear nothing.</line>
 <line globalnumber="3028" number="23" form="verse">Make your full reference freely to my lord,</line>
@@ -10312,7 +10330,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3039" number="32" form="verse" offset="4">This I&#8217;ll report, dear lady.</line>
 <line globalnumber="3040" number="33" form="verse">Have comfort, for I know your plight is pitied</line>
 <line globalnumber="3041" number="34" form="verse">Of him that caus&#8217;d it.</line>
@@ -10350,12 +10368,12 @@
 </stagedir>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3047" number="39" form="verse" offset="5">Hold, worthy lady, hold!</line>
-<stagedir sdglobalnumber="3047.01" sdnumber="39.01">
+<stagedir sdglobalnumber="3047.01" sdnumber="39.02">
 	<dir>Seizes and disarms her.</dir>
 	<action type="fight">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 		<recipient>CLEO.</recipient>
 	</action>
 </stagedir>
@@ -10370,7 +10388,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3052" number="42" form="verse" offset="7">Cleopatra,</line>
 <line globalnumber="3053" number="43" form="verse">Do not abuse my master&#8217;s bounty by</line>
 <line globalnumber="3054" number="44" form="verse">Th&#8217; undoing of yourself. Let the world see</line>
@@ -10386,7 +10404,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3060" number="48" form="verse" offset="7">O, temperance, lady!</line>
 </speech>
 
@@ -10409,7 +10427,7 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3075" number="62" form="verse" offset="5">You do extend</line>
 <line globalnumber="3076" number="63" form="verse">These thoughts of horror further than you shall</line>
 <line globalnumber="3077" number="64" form="verse" offset="0">Find cause in Caesar.</line>
@@ -10431,13 +10449,13 @@
 </speech>
 
 <speech>
-<speaker long="Proculeius">PRO.</speaker>
+<speaker long="Proculeius">PROC.</speaker>
 <line globalnumber="3082" number="67" form="verse" offset="5">So, Dolabella,</line>
 <line globalnumber="3083" number="68" form="verse">It shall content me best. Be gentle to her.</line>
 <stagedir sdglobalnumber="3083.01" sdnumber="68.01">
 	<dir>To Cleopatra.</dir>
 	<action type="speak">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 		<recipient>CLEO.</recipient>
 	</action>
 </stagedir>
@@ -10453,7 +10471,7 @@
 <stagedir sdglobalnumber="3086.01" sdnumber="70.01">
 	<dir>Exit Proculeius with Roman Soldiers.</dir>
 	<action type="exit">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 		<actor>1. ROM. SOLD.</actor>
 		<actor>2. ROM. SOLD.</actor>
 	</action>
@@ -10601,17 +10619,17 @@
 <stagedir sdglobalnumber="3135.02" sdnumber="110.02">
 	<dir>Enter Proculeius, Caesar, Gallus, Maecenas, and others of his Train, Seleucus following.</dir>
 	<action type="enter">
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 		<actor>CAES.</actor>
 		<actor>GALL.</actor>
 		<actor>MAEC.</actor>
 		<actor>SEL.</actor>
-		<actor>ALL. CAES. TRAIN.</actor>
+		<actor>ALL CAES. TRAIN.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="All Caesar&#8217;s Train">ALL. CAES. TRAIN.</speaker>
+<speaker long="All Caesar&#8217;s Train">ALL CAES. TRAIN.</speaker>
 <line globalnumber="3136" number="111" form="verse">Make way there! Caesar!</line>
 </speech>
 
@@ -10834,7 +10852,8 @@
 	<dir>Flourish. Exeunt Caesar and his Train.</dir>
 	<action type="exit">
 		<actor>CAES.</actor>
-		<actor>ALL. CAES. TRAIN.</actor>
+		<actor>ALL CAES. TRAIN.</actor>
+		<actor>DOL.</actor>
 	</action>
 </stagedir>
 
@@ -10998,7 +11017,7 @@
 	</action>
 </stagedir>
 <line globalnumber="3280" number="233" form="verse" offset="5">Bring our crown and all.</line>
-<stagedir sdglobalnumber="3280.01" sdnumber="233.01">
+<stagedir sdglobalnumber="3280.01" sdnumber="233.02">
 	<dir>Exit Iras. A noise within.</dir>
 	<action type="exit">
 		<actor>IRAS.</actor>
@@ -11362,12 +11381,12 @@
 	<dir>Enter Caesar and all his Train, marching.</dir>
 	<action type="enter">
 		<actor>CAES.</actor>
-		<actor>ALL. CAES. TRAIN.</actor>
+		<actor>ALL CAES. TRAIN.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="All Caesar&#8217;s Train">ALL. CAES. TRAIN.</speaker>
+<speaker long="All Caesar&#8217;s Train">ALL CAES. TRAIN.</speaker>
 <line globalnumber="3372" number="314" form="verse">A way there, a way for Caesar!</line>
 </speech>
 
@@ -11454,18 +11473,18 @@
 <stagedir sdglobalnumber="3412.01" sdnumber="347.01">
 	<dir>Exeunt omnes.</dir>
 	<action type="exit">
-		<actor>CLEO.</actor>
-		<actor>CHAR.</actor>
-		<actor>IRAS.</actor>
 		<actor>MAR.</actor>
-		<actor>PRO.</actor>
+		<actor>PROC.</actor>
 		<actor>DOL.</actor>
 		<actor>GALL.</actor>
 		<actor>MAEC.</actor>
 		<actor>1. ROM. GUARD.</actor>
 		<actor>2. ROM. GUARD.</actor>
 		<actor>CAES.</actor>
-		<actor>ALL. CAES. TRAIN.</actor>
+		<actor>ALL CAES. TRAIN.</actor>
+		<recipient>CLEO.</recipient>
+		<recipient>CHAR.</recipient>
+		<recipient>IRAS.</recipient>
 	</action>
 </stagedir>
 
@@ -11473,34 +11492,11 @@
 
 </act>
 
-<locations numberOfLocations="26">
-<placename>A plain in Syria.</placename>
-<placename>A plain near Actium.</placename>
-<placename>Alexandria. A room in Cleopatra&#8217;s palace.</placename>
-<placename>Alexandria. Another room in Cleopatra&#8217;s palace.</placename>
-<placename>Alexandria. Another room in a monument in Cleopatra&#8217;s palace.</placename>
-<placename>Alexandria. Before Cleopatra&#8217;s palace.</placename>
-<placename>Alexandria. Cleopatra&#8217;s palace.</placename>
-<placename>Alexandria. Mark Antony&#8217;s camp.</placename>
-<placename>Alexandria. Octavius Caesar&#8217;s camp.</placename>
-<placename>Another part of the field of battle between the camps.</placename>
-<placename>Another part of the plain near Actium.</placename>
-<placename>Athens. A room in Antony&#8217;s house.</placename>
-<placename>Athens. Another room in Antony&#8217;s house.</placename>
-<placename>Before Alexandria. Octavius Caesar&#8217;s camp.</placename>
-<placename>Egypt. Octavius Caesar&#8217;s camp.</placename>
-<placename>Field of battle between the camps.</placename>
-<placename>Messina. Pompey&#8217;s house.</placename>
-<placename>Near Actium. Mark Antony&#8217;s camp.</placename>
-<placename>Near Misenum.</placename>
-<placename>On board Pompey&#8217;s galley, off Misenum.</placename>
-<placename>Rome. A street.</placename>
-<placename>Rome. An ante-chamber in Octavius Caesar&#8217;s house.</placename>
-<placename>Rome. Octavius Caesar&#8217;s house.</placename>
-<placename>Rome. The house of Lepidus.</placename>
-<placename>The field of battle between the camps.</placename>
-<placename>Under the walls of Alexandria.</placename>
-</locations>
+
+
+
+
+
 
 <sources>
 <playsource>
@@ -11573,11 +11569,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

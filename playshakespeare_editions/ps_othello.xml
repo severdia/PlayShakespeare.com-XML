@@ -1,117 +1,126 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="othello">
 <title short="Othello">The Tragedy of Othello, the Moor of Venice</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1604</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Othello">
 
-<persona gender="male">
-<persname short="DUKE." numberOfLines="65" numberOfVerseLines="64" numberOfProseLines="1" numberOfLyricsLines="0">Duke of Venice</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BRA." numberOfLines="139" numberOfVerseLines="138" numberOfProseLines="1" numberOfLyricsLines="0">Brabantio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GRA." numberOfLines="26" numberOfVerseLines="22" numberOfProseLines="4" numberOfLyricsLines="0">Gratiano</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LOD." numberOfLines="76" numberOfVerseLines="73" numberOfProseLines="3" numberOfLyricsLines="0">Lodovico</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="d99aceb6-b896-4b3b-8d33-fb50435408dd">
 <persname short="OTH." numberOfLines="858" numberOfVerseLines="828" numberOfProseLines="30" numberOfLyricsLines="0">Othello</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAS." numberOfLines="224" numberOfVerseLines="172" numberOfProseLines="52" numberOfLyricsLines="0">Cassio</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
+<persona gender="male" archetype="villain" id="af523d0c-855f-4f53-acd1-c24f11c3ebcd">
 <persname short="IAGO." numberOfLines="894" numberOfVerseLines="808" numberOfProseLines="86" numberOfLyricsLines="13">Iago</persname>
 </persona>
 
-<persona gender="male" death="yes">
+<persona gender="male" id="fb44d3ac-5a00-441c-9e39-13cab844b983">
+<persname short="CAS." numberOfLines="224" numberOfVerseLines="172" numberOfProseLines="52" numberOfLyricsLines="0">Cassio</persname>
+</persona>
+
+<persona gender="male" death="yes" id="6867747f-4c5d-439e-9cb6-43fb9b2f2274">
+<persname short="BRA." numberOfLines="139" numberOfVerseLines="138" numberOfProseLines="1" numberOfLyricsLines="0">Brabantio</persname>
+</persona>
+
+<persona gender="male" death="yes" id="a997f6a4-8243-4241-ab1b-8f9ea6e27c78">
 <persname short="ROD." numberOfLines="87" numberOfVerseLines="52" numberOfProseLines="35" numberOfLyricsLines="0">Roderigo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aef8a3b3-519a-4c98-9d83-d041982602f8">
+<persname short="LOD." numberOfLines="76" numberOfVerseLines="73" numberOfProseLines="3" numberOfLyricsLines="0">Lodovico</persname>
+</persona>
+
+<persona gender="male" id="4426b17d-cbed-45d3-9a2e-405f36a0a7dd">
+<persname short="DUKE." numberOfLines="65" numberOfVerseLines="64" numberOfProseLines="1" numberOfLyricsLines="0">Duke of Venice</persname>
+</persona>
+
+<persona gender="male" id="5579c7f7-fb75-466f-87e1-27a188d78361">
 <persname short="MON." numberOfLines="58" numberOfVerseLines="52" numberOfProseLines="6" numberOfLyricsLines="0">Montano</persname>
 </persona>
 
-<persona gender="female" death="yes">
+<persona gender="male" id="db6508b9-27b7-496a-9f40-db71b7f9b0df">
+<persname short="GRA." numberOfLines="26" numberOfVerseLines="22" numberOfProseLines="4" numberOfLyricsLines="0">Gratiano</persname>
+</persona>
+
+
+<persona gender="female" death="yes" id="1d1f19d0-4eac-4b0d-b3ee-96ce4deb68c7">
 <persname short="DES." numberOfLines="379" numberOfVerseLines="365" numberOfProseLines="14" numberOfLyricsLines="14">Desdemona</persname>
 </persona>
 
-<persona gender="female" death="yes">
+<persona gender="female" death="yes" id="a48539cf-6e5b-47a8-92da-918a96148ce6">
 <persname short="EMIL." numberOfLines="236" numberOfVerseLines="226" numberOfProseLines="10" numberOfLyricsLines="1">Emilia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="01a8e17c-27c0-4429-9388-b4c323b87dd7">
 <persname short="BIAN." numberOfLines="26" numberOfVerseLines="22" numberOfProseLines="4" numberOfLyricsLines="0">Bianca</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SAIL." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sailor</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OFF." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Officer</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="4cf0b9d9-2fb7-49ab-8cc6-c0d60c89f091">
 <persname short="CLO." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Clown</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HER." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SEN." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. SEN." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="ce606d5d-e68e-4bbd-acd7-f9b8a8eb899f">
 <persname short="1. MUS." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">First Musician</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c0529f13-36a3-4d36-a601-95e3f4d15bd3">
+<persname short="OFF." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Officer</persname>
+</persona>
+
+<persona gender="male" id="7f362eb0-0408-413f-ac27-e6da34d65995">
+<persname short="SAIL." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sailor</persname>
+</persona>
+
+<persona gender="male" id="8e30d86d-d810-481e-b5a9-57a8aa1e251c">
+<persname short="1. SEN." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
+</persona>
+
+<persona gender="male" id="89481b05-d4ed-4062-b3fb-1dff6e541a19">
+<persname short="2. SEN." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
+</persona>
+
+<persona gender="male" id="a02be189-bc27-45fb-8cca-2219e4d52f78">
 <persname short="1. GENT." numberOfLines="4" numberOfVerseLines="3" numberOfProseLines="1" numberOfLyricsLines="0">First Gentleman</persname>
 <persaliases>
 	<persname short="GENTLEMEN.">All Gentlemen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="48ea7eae-b67e-46cd-9021-f34326f270f5">
 <persname short="2. GENT." numberOfLines="15" numberOfVerseLines="14" numberOfProseLines="1" numberOfLyricsLines="0">Second Gentleman</persname>
 <persaliases>
 	<persname short="GENTLEMEN.">All Gentlemen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d8970fa-5885-4fe2-a747-af20e88c8522">
 <persname short="3. GENT." numberOfLines="18" numberOfVerseLines="17" numberOfProseLines="1" numberOfLyricsLines="0">Third Gentleman</persname>
 <persaliases>
 	<persname short="GENTLEMEN.">All Gentlemen</persname>
 </persaliases>
 </persona>
+
+
+
+<persona gender="male" id="4751a36d-b3ce-47e6-811d-4c3165bf060b">
+<persname short="1. MESS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="554ea45d-9c60-43c5-a32a-76340ce81f92">
+<persname short="2. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="9b299e83-cf4d-4b52-93e9-08c3217394af">
+<persname short="HER." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Herald</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -119,6 +128,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROD.">Roderigo</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
@@ -549,6 +559,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Venice. Another street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
@@ -744,7 +755,6 @@
 	<action type="enter">
 		<actor>BRA.</actor>
 		<actor>ROD.</actor>
-		<actor>OFF.</actor>
 	</action>
 </stagedir>
 
@@ -874,6 +884,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A council chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
@@ -951,7 +962,7 @@
 <line globalnumber="320" number="12" form="verse" offset="4">What ho, what ho, what ho!</line>
 </speech>
 
-<stagedir sdglobalnumber="320.01" sdnumber="12.01">
+<stagedir sdglobalnumber="320.01" sdnumber="12.02">
 	<dir>Enter Sailor.</dir>
 	<action type="enter">
 		<actor>SAIL.</actor>
@@ -1080,7 +1091,6 @@
 		<actor>CAS.</actor>
 		<actor>IAGO.</actor>
 		<actor>ROD.</actor>
-		<actor>OFF.</actor>
 	</action>
 </stagedir>
 
@@ -1761,11 +1771,12 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A sea port in Cyprus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MON.">Montano</scenepersona>
-	<scenepersona short="1. GENT.">First Gentlemen</scenepersona>
-	<scenepersona short="2. GENT.">SecondGentlemen</scenepersona>
-	<scenepersona short="3. GENT.">Third Gentlemen</scenepersona>
+	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
+	<scenepersona short="2. GENT.">SecondGentleman</scenepersona>
+	<scenepersona short="3. GENT.">Third Gentleman</scenepersona>
 	<scenepersona short="CAS.">Cassio</scenepersona>
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="DES.">Desdemona</scenepersona>
@@ -1926,7 +1937,7 @@
 <line globalnumber="725" number="51" form="verse" offset="4">&#8220;A sail, a sail, a sail!&#8221;</line>
 </speech>
 
-<stagedir sdglobalnumber="725.01" sdnumber="51.01">
+<stagedir sdglobalnumber="725.01" sdnumber="51.02">
 	<dir>Enter the Second Messenger.</dir>
 	<action type="enter">
 		<actor>2. MESS.</actor>
@@ -2078,7 +2089,7 @@
 	</action>
 </stagedir>
 <line globalnumber="773" number="93" form="verse" offset="5">&#8220;A sail, a sail!&#8221;</line>
-<stagedir sdglobalnumber="773.01" sdnumber="93.01">
+<stagedir sdglobalnumber="773.01" sdnumber="93.02">
 	<dir>A shot.</dir>
 	<action type="sound">
 	</action>
@@ -2419,7 +2430,8 @@
 		<actor>CAS.</actor>
 		<actor>EMIL.</actor>
 		<actor>MON.</actor>
-		<actor>GENTLEMEN.</actor>
+		<actor>1. GENT.</actor>
+		<actor>3. GENT.</actor>
 		<actor>2. MESS.</actor>
 		<actor>Attendants</actor>
 	</action>
@@ -2542,6 +2554,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Cyprus. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HER.">Herald</scenepersona>
 </scenepersonae>
@@ -2574,6 +2587,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Cyprus. A castle hall.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="DES.">Desdemona</scenepersona>
@@ -2987,7 +3001,7 @@
 <line globalnumber="1030" number="103" form="verse">To cure him of this evil.</line>
 <stagedir sdglobalnumber="1030.01" sdnumber="103.01">
 	<dir>Cry within:</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>ROD.</actor>
 	</action>
 </stagedir>
@@ -3519,6 +3533,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cyprus. Before the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAS.">Cassio</scenepersona>
 	<scenepersona>1. MUS.</scenepersona>
@@ -3747,6 +3762,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Cyprus. A room in the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
@@ -3803,6 +3819,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Cyprus. The garden of the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DES.">Desdemona</scenepersona>
 	<scenepersona short="CAS.">Cassio</scenepersona>
@@ -4461,8 +4478,7 @@
 <line globalnumber="1534" number="230" form="verse">Not to affect many proposed matches</line>
 <line globalnumber="1535" number="231" form="verse">Of her own clime, complexion, and degree,</line>
 <line globalnumber="1536" number="232" form="verse">Whereto we see in all things nature tends&#8212;</line>
-<line globalnumber="1537" number="233" form="verse">Foh, one may smell in such, a will most 
-rank,</line>
+<line globalnumber="1537" number="233" form="verse">Foh, one may smell in such, a will most rank,</line>
 <line globalnumber="1538" number="234" form="verse">Foul disproportions, thoughts unnatural.</line>
 <line globalnumber="1539" number="235" form="verse">But (pardon me) I do not in position</line>
 <line globalnumber="1540" number="236" form="verse">Distinctly speak of her, though I may fear</line>
@@ -5136,6 +5152,7 @@ rank,</line>
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Cyprus. Before the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DES.">Desdemona</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
@@ -5824,6 +5841,7 @@ rank,</line>
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cyprus. Before the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="IAGO.">Iago</scenepersona>
@@ -6839,6 +6857,7 @@ rank,</line>
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Cyprus. A room in the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
@@ -7159,7 +7178,7 @@ rank,</line>
 	</action>
 </stagedir>
 <line globalnumber="2391" number="90" form="verse" offset="6">You, mistress,</line>
-<stagedir sdglobalnumber="2391.01" sdnumber="90.01">
+<stagedir sdglobalnumber="2391.01" sdnumber="90.02">
 	<dir>Enter Emilia.</dir>
 	<action type="enter">
 		<actor>EMIL.</actor>
@@ -7585,6 +7604,7 @@ rank,</line>
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Cyprus. Another room in the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="LOD.">Lodovico</scenepersona>
@@ -7926,6 +7946,7 @@ rank,</line>
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cyprus. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="IAGO.">Iago</scenepersona>
 	<scenepersona short="ROD.">Roderigo</scenepersona>
@@ -8039,11 +8060,14 @@ rank,</line>
 <line globalnumber="2636" number="26" form="verse" offset="6"> O, I am slain.</line>
 </speech>
  
-<stagedir sdglobalnumber="2636.01" sdnumber="26.01">
+<stagedir sdglobalnumber="2636.01" sdnumber="26.02">
 	<dir>Iago from behind wounds Cassio in the leg, and exit.</dir>
 	<action type="action">
 		<actor>IAGO.</actor>
 		<recipient>CAS.</recipient>
+	</action>
+	<action type="exit">
+		<actor>IAGO.</actor>
 	</action>
 </stagedir>
 
@@ -8560,6 +8584,7 @@ rank,</line>
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A bedchamber in the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OTH.">Othello</scenepersona>
 	<scenepersona short="DES.">Desdemona</scenepersona>
@@ -8898,7 +8923,7 @@ rank,</line>
 
 <stagedir sdglobalnumber="2853.01" sdnumber="83.01">
 	<dir>Smothers her.</dir>
-	<action type="death">
+	<action type="action">
 		<actor>OTH.</actor>
 		<recipient>DES.</recipient>
 	</action>
@@ -8913,7 +8938,7 @@ rank,</line>
 <speaker long="Emilia">EMIL.</speaker>
 <stagedir sdglobalnumber="2854.01" sdnumber="84.01">
 	<dir>At the door, within.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>EMIL.</actor>
 	</action>
 </stagedir>
@@ -8947,7 +8972,7 @@ rank,</line>
 
 <speech>
 <speaker long="Emilia">EMIL.</speaker>
-<stagedir sdglobalnumber="2862.01" sdnumber="90.01">
+<stagedir sdglobalnumber="2862.01" sdnumber="90.02">
 	<dir>Within.</dir>
 	<action type="speak-offstage">
 		<actor>EMIL.</actor>
@@ -9932,19 +9957,10 @@ rank,</line>
 </act>
 
 
-<locations numberOfLocations="11">
-<placename>A bedchamber in the castle.</placename>
-<placename>A sea port in Cyprus.</placename>
-<placename>Cyprus. A castle hall.</placename>
-<placename>Cyprus. A room in the castle.</placename>
-<placename>Cyprus. A street.</placename>
-<placename>Cyprus. Another room in the castle.</placename>
-<placename>Cyprus. Before the castle.</placename>
-<placename>Cyprus. The garden of the castle.</placename>
-<placename>Venice. A council chamber.</placename>
-<placename>Venice. A street.</placename>
-<placename>Venice. Another street.</placename>
-</locations>
+
+
+
+
 
 <sources>
 <playsource>
@@ -9977,11 +9993,10 @@ rank,</line>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

@@ -1,196 +1,201 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="taming-of-the-shrew">
 <title short="Taming of the Shrew">The Taming of the Shrew</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1593-1594</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Taming of the Shrew">
 
-<persona gender="male">
-<persname short="LORD." numberOfLines="147" numberOfVerseLines="147" numberOfProseLines="0" numberOfLyricsLines="0">Lord</persname>
-<persaliases>
-	<persname short="ALL. SERV. AND LORD.">All Servants and Lord</persname>
-</persaliases>
+<persona gender="male" archetype="hero" id="1e692438-f6e7-45c9-a656-771f1222ce73">
+<persname short="PETR." numberOfLines="577" numberOfVerseLines="559" numberOfProseLines="18" numberOfLyricsLines="4">Petruchio</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="SLY." numberOfLines="36" numberOfVerseLines="23" numberOfProseLines="13" numberOfLyricsLines="0">Christopher Sly</persname>
-</persona>
-
-<persona gender="female" archetype="clown">
-<persname short="HOST." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Hostess</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PAGE." numberOfLines="16" numberOfVerseLines="13" numberOfProseLines="3" numberOfLyricsLines="0">Page (Bartholomew)</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BAP." numberOfLines="168" numberOfVerseLines="149" numberOfProseLines="19" numberOfLyricsLines="0">Baptista</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VIN." numberOfLines="22" numberOfVerseLines="7" numberOfProseLines="15" numberOfLyricsLines="0">Vincentio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUC." numberOfLines="182" numberOfVerseLines="173" numberOfProseLines="9" numberOfLyricsLines="0">Lucentio</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="PET." numberOfLines="577" numberOfVerseLines="559" numberOfProseLines="18" numberOfLyricsLines="4">Petruchio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GRE." numberOfLines="146" numberOfVerseLines="133" numberOfProseLines="13" numberOfLyricsLines="0">Gremio</persname>
-<persaliases>
-	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="HOR." numberOfLines="189" numberOfVerseLines="181" numberOfProseLines="8" numberOfLyricsLines="0">Hortensio</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="28737fb2-955d-4004-bff1-90b4c6c2ed71">
 <persname short="TRA." numberOfLines="289" numberOfVerseLines="280" numberOfProseLines="9" numberOfLyricsLines="0">Tranio</persname>
 <persaliases>
 	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="BION." numberOfLines="56" numberOfVerseLines="29" numberOfProseLines="27" numberOfLyricsLines="5">Biondello</persname>
+<persona gender="male" archetype="clown" id="ff9c4e26-e7da-491f-b811-7ef3d52ed8c7">
+<persname short="HOR." numberOfLines="189" numberOfVerseLines="181" numberOfProseLines="8" numberOfLyricsLines="0">Hortensio</persname>
+</persona>
+
+<persona gender="male" id="dc23871d-bc08-4d08-a43a-8911d24cf6a8">
+<persname short="LUC." numberOfLines="182" numberOfVerseLines="173" numberOfProseLines="9" numberOfLyricsLines="0">Lucentio</persname>
+</persona>
+
+<persona gender="male" id="4343ed0a-d2f4-4afb-8a1b-f23cdec4538c">
+<persname short="BAP." numberOfLines="168" numberOfVerseLines="149" numberOfProseLines="19" numberOfLyricsLines="0">Baptista</persname>
+</persona>
+
+<persona gender="male" id="6c1d3751-8ff5-4e43-b89e-1e31cb4fae83">
+<persname short="GRE." numberOfLines="146" numberOfVerseLines="133" numberOfProseLines="13" numberOfLyricsLines="0">Gremio</persname>
 <persaliases>
-	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
+	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="4cc3a432-19c3-4d94-98dc-827deb4a0899">
 <persname short="GRU." numberOfLines="78" numberOfVerseLines="37" numberOfProseLines="41" numberOfLyricsLines="0">Grumio</persname>
 <persaliases>
 	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="CURT." numberOfLines="24" numberOfVerseLines="5" numberOfProseLines="19" numberOfLyricsLines="0">Curtis</persname>
+<persona gender="male" archetype="clown" id="0652871a-5dc5-43b4-9b76-f4807934be51">
+<persname short="BION." numberOfLines="56" numberOfVerseLines="29" numberOfProseLines="27" numberOfLyricsLines="5">Biondello</persname>
+<persaliases>
+	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0fbb40b6-1736-4028-8d8f-ed9517d8acc7">
 <persname short="PED." numberOfLines="45" numberOfVerseLines="36" numberOfProseLines="9" numberOfLyricsLines="0">Pedant</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
+<persona gender="male" archetype="clown" id="561a9185-0cf3-4e3b-ab23-94c0a88af543">
+<persname short="SLY." numberOfLines="36" numberOfVerseLines="23" numberOfProseLines="13" numberOfLyricsLines="0">Christopher Sly</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="f45d8e64-84a0-41ec-8d75-481b9a593431">
+<persname short="CURT." numberOfLines="24" numberOfVerseLines="5" numberOfProseLines="19" numberOfLyricsLines="0">Curtis</persname>
+</persona>
+
+<persona gender="male" id="ea6048ea-a6c0-4e7c-9452-aca406ca444f">
+<persname short="VIN." numberOfLines="22" numberOfVerseLines="7" numberOfProseLines="15" numberOfLyricsLines="0">Vincentio</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="cbca4835-086b-4daf-a2b6-2d8d6b3aa52d">
 <persname short="KATH." numberOfLines="217" numberOfVerseLines="212" numberOfProseLines="5" numberOfLyricsLines="0">Katherina</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="b77fe878-700b-4c45-9012-ca0e27543424">
 <persname short="BIAN." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">Bianca</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" archetype="clown" id="08ed2aee-59c1-4d6f-9d00-073f63be668c">
+<persname short="HOST." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Hostess</persname>
+</persona>
+
+<persona gender="male" id="c1daa6e8-5a1b-44e2-9b12-305ead6f29ca">
+<persname short="LORD." numberOfLines="147" numberOfVerseLines="147" numberOfProseLines="0" numberOfLyricsLines="0">Lord</persname>
+<persaliases>
+	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="2a1b3a0a-597d-4c67-86b9-4910e65fc477">
+<persname short="1. SERV." numberOfLines="18" numberOfVerseLines="17" numberOfProseLines="1" numberOfLyricsLines="0">First Servingman</persname>
+<persaliases>
+	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="e88f12ff-0fc6-4cff-8b3a-e8e3d9e75cab">
+<persname short="2. SERV." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="0">Second Servingman</persname>
+<persaliases>
+	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="81adc09b-2e17-4212-8aa2-e146d8aaaf01">
+<persname short="3. SERV." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="0">Third Servingman</persname>
+<persaliases>
+	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="4f169778-f644-48df-ab57-fe0d02411ad2">
+<persname short="PAGE." numberOfLines="16" numberOfVerseLines="13" numberOfProseLines="3" numberOfLyricsLines="0">Page (Bartholomew)</persname>
+</persona>
+
+<persona gender="male" id="63f5d568-b65d-4a51-877a-bfaa6ca92074">
 <persname short="WID." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Widow</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="355c49f1-5b67-4d7d-b811-abf02fed1706">
 <persname short="TAI." numberOfLines="15" numberOfVerseLines="8" numberOfProseLines="7" numberOfLyricsLines="0">Tailor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e82e0d6c-4fcb-4e66-9460-a7a267e03c67">
+<persname short="NATH." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Nathaniel</persname>
+<persaliases>
+	<persname short="ALL SERV.">All Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="531ccc65-bdf8-4763-91fd-877697e86ae0">
+<persname short="JOS." numberOfLines="3" numberOfVerseLines="2" numberOfProseLines="1" numberOfLyricsLines="0">Joseph</persname>
+<persaliases>
+	<persname short="ALL SERV.">All Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="f8d01add-78be-4842-b2cf-531db947755f">
+<persname short="PHIL." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Philip</persname>
+<persaliases>
+	<persname short="ALL SERV.">All Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="1830c9ea-6a26-4c34-a202-86ddbc0776a8">
+<persname short="PET." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Peter</persname>
+</persona>
+
+<persona gender="male" id="42a8cc08-a8df-4717-94f7-fbbd08641b6b">
+<persname short="NICH." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Nicholas</persname>
+<persaliases>
+	<persname short="ALL SERV.">All Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="099b3ad2-1275-4f6b-bb11-171590fec649">
 <persname short="HAB." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Haberdasher</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PETER." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Peter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SERV." numberOfLines="18" numberOfVerseLines="17" numberOfProseLines="1" numberOfLyricsLines="0">First Servingman</persname>
-<persaliases>
-	<persname short="ALL. SERV. AND LORD.">All Servants and Lord</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. SERV." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="0">Second Servingman</persname>
-<persaliases>
-	<persname short="ALL. SERV. AND LORD.">All Servants and Lord</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="3. SERV." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="0">Third Servingman</persname>
-<persaliases>
-	<persname short="ALL. SERV. AND LORD.">All Servants and Lord</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="1. PLAY." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Player</persname>
-<persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. PLAY." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Player</persname>
-<persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="b81e7bc7-8396-463b-900c-8710831faea4">
 <persname short="1. HUN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Huntsman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="078bc4bf-836a-4920-bcb0-391faf6bde82">
 <persname short="2. HUN." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Second Huntsman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="NICH." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Nicholas</persname>
+<persona gender="male" id="c7607926-656f-4aba-bba5-62276361224f">
+<persname short="1. PLAY." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Player</persname>
 <persaliases>
-	<persname short="ALL. SERV.">All Servants</persname>
+	<persname short="ALL PLAYERS.">All Players</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="JOS." numberOfLines="3" numberOfVerseLines="2" numberOfProseLines="1" numberOfLyricsLines="0">Joseph</persname>
+<persona gender="male" id="320df8a6-9447-4346-afa5-19dc22b0e475">
+<persname short="2. PLAY." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Player</persname>
 <persaliases>
-	<persname short="ALL. SERV.">All Servants</persname>
+	<persname short="ALL PLAYERS.">All Players</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="PHIL." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Philip</persname>
-<persaliases>
-	<persname short="ALL. SERV.">All Servants</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="NATH." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Nathaniel</persname>
-<persaliases>
-	<persname short="ALL. SERV.">All Servants</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="BAP. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Baptista&#8217;s Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="adf74270-7444-4c51-a27f-f187d6d20cfd">
 <persname short="MESS." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="75d92322-ea49-4965-b6d8-a0ae05295acc">
+<persname short="BAP. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Baptista&#8217;s Messenger</persname>
+</persona>
+
+<persona gender="male" id="01a9da5e-d6b3-4a73-89e1-421ffaca77fc">
 <persname short="BAP. SERV." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Baptista’s Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="53326adf-862c-424c-a342-e27de3793dc2">
 <persname short="OFF." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Officer</persname>
 </persona>
 
@@ -199,9 +204,10 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="9" numberOfWords="1074" numberOfLines="131">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue Scene 1</scenetitle>
 <scenelocation>Before an alehouse on a heath.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SLY.">Christopher Sly</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
@@ -442,7 +448,7 @@
 </speech>
 
 <speech>
-<speaker long="All Players">ALL. PLAYERS.</speaker>
+<speaker long="All Players">ALL PLAYERS.</speaker>
 <line globalnumber="73" number="73" form="verse">We thank your honor.</line>
 </speech>
 
@@ -550,14 +556,16 @@
 		<actor>1. HUN.</actor>
 		<actor>2. HUN.</actor>
 		<actor>2. PLAY.</actor>
+		<actor>LORD.</actor>
 	</action>
 </stagedir>
 
 </prologue>
 
-<prologue actnum="1" num="00" minutesRunning="10" numberOfWords="1161" numberOfLines="123">
+<prologue actnum="1" num="00">
 <scenetitle type="prologue">Prologue Scene 2</scenetitle>
 <scenelocation>A bedchamber in the Lord&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SLY.">Sly</scenepersona>
 	<scenepersona short="1. SERV.">First Servant</scenepersona>
@@ -566,6 +574,7 @@
 	<scenepersona short="LORD.">Lord</scenepersona>
 	<scenepersona short="PAGE.">Page (Bartholomew)</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
+	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -763,7 +772,7 @@
 </speech>
 
 <speech>
-<speaker long="All Servants and Lord">ALL. SERV. AND LORD.</speaker>
+<speaker long="All Servants and Lord">ALL SERV. AND LORD.</speaker>
 <line globalnumber="214" number="83" form="verse">Amen.</line>
 </speech>
 
@@ -771,6 +780,7 @@
 	<dir>Enter the Page as a lady, with Attendants.</dir>
 	<action type="enter">
 		<actor>PAGE.</actor>
+		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -921,6 +931,16 @@
 		<actor>2. SERV.</actor>
 		<actor>3. SERV.</actor>
 		<actor>PAGE.</actor>
+		<actor>Attendants</actor>
+	</action>
+	<action type="exit">
+		<actor>SLY.</actor>
+		<actor>LORD.</actor>
+		<actor>1. SERV.</actor>
+		<actor>2. SERV.</actor>
+		<actor>3. SERV.</actor>
+		<actor>PAGE.</actor>
+		<actor>Attendants</actor>
 	</action>
 </stagedir>
 
@@ -929,6 +949,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. A public square.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona short="TRA.">Tranio</scenepersona>
@@ -1223,8 +1244,7 @@
 
 <speech>
 <speaker long="Hortensio">HOR.</speaker>
-<line globalnumber="365" number="110" form="prose">Tush, Gremio; though it pass your patience and mine to endure her loud alarums, why, man, there be good
- fellows in the world, and a man could light on them, would take her with all faults, and money enough.</line>
+<line globalnumber="365" number="110" form="prose">Tush, Gremio; though it pass your patience and mine to endure her loud alarums, why, man, there be good fellows in the world, and a man could light on them, would take her with all faults, and money enough.</line>
 </speech>
 
 <speech>
@@ -1486,7 +1506,13 @@
 
 <stagedir sdglobalnumber="473.02" sdnumber="213.02">
 	<dir>The Presenters above speaks.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>SLY.</actor>
+		<actor>LORD.</actor>
+		<actor>1. SERV.</actor>
+		<actor>2. SERV.</actor>
+		<actor>3. SERV.</actor>
+		<actor>PAGE.</actor>
 	</action>
 </stagedir>
 
@@ -1512,7 +1538,7 @@
 
 <stagedir sdglobalnumber="477.01" sdnumber="217.01">
 	<dir>They sit and mark.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>SLY.</actor>
 		<actor>LORD.</actor>
 		<actor>1. SERV.</actor>
@@ -1527,8 +1553,9 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Hortensio&#8217;s house.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="GRU.">Grumio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 	<scenepersona short="GRE.">Gremio</scenepersona>
@@ -1545,13 +1572,13 @@
 <stagedir sdglobalnumber="477.02" sdnumber="0.01">
 	<dir>Enter Petruchio and his man Grumio.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>GRU.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="478" number="1" form="verse">Verona, for a while I take my leave</line>
 <line globalnumber="479" number="2" form="verse">To see my friends in Padua, but of all</line>
 <line globalnumber="480" number="3" form="verse">My best beloved and approved friend,</line>
@@ -1565,7 +1592,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="484" number="7" form="prose">Villain, I say, knock me here soundly.</line>
 </speech>
 
@@ -1575,7 +1602,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="486" number="9" form="verse">Villain, I say, knock me at this gate,</line>
 <line globalnumber="487" number="10" form="verse">And rap me well, or I&#8217;ll knock your knave&#8217;s pate.</line>
 </speech>
@@ -1587,7 +1614,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="490" number="13" form="verse">Will it not be?</line>
 <line globalnumber="491" number="14" form="verse">Faith, sirrah, and you&#8217;ll not knock, I&#8217;ll ring it.</line>
 <line globalnumber="492" number="15" form="verse">I&#8217;ll try how you can <foreign xml:lang="it">sol, fa</foreign>, and sing it.</line>
@@ -1596,7 +1623,7 @@
 <stagedir sdglobalnumber="492.01" sdnumber="15.01">
 	<dir>He wrings him by the ears.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>GRU.</recipient>
 	</action>
 </stagedir>
@@ -1607,7 +1634,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="494" number="17" form="prose">Now knock when I bid you, sirrah villain!</line>
 </speech>
 
@@ -1624,7 +1651,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="496" number="19" form="prose"><foreign xml:lang="it">Signior</foreign> Hortensio, come you to part the fray? <foreign xml:lang="it">Con tutto il cuore, ben trovato</foreign>, may I say.</line>
 </speech>
 
@@ -1642,7 +1669,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="502" number="25" form="verse">A senseless villain! Good Hortensio,</line>
 <line globalnumber="503" number="26" form="verse">I bade the rascal knock upon your gate,</line>
 <line globalnumber="504" number="27" form="verse">And could not get him for my heart to do it.</line>
@@ -1654,7 +1681,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="506" number="29" form="verse">Sirrah, be gone, or talk not, I advise you.</line>
 </speech>
 
@@ -1668,7 +1695,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="512" number="35" form="verse">Such wind as scatters young men through the world</line>
 <line globalnumber="513" number="36" form="verse">To seek their fortunes farther than at home,</line>
 <line globalnumber="514" number="37" form="verse">Where small experience grows. But in a few,</line>
@@ -1691,7 +1718,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="527" number="50" form="verse"><foreign xml:lang="it">Signior</foreign> Hortensio, &#8217;twixt such friends as we</line>
 <line globalnumber="528" number="51" form="verse">Few words suffice; and therefore, if thou know</line>
 <line globalnumber="529" number="52" form="verse">One rich enough to be Petruchio&#8217;s wife</line>
@@ -1726,7 +1753,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="550" number="73" form="verse">Hortensio, peace! Thou know&#8217;st not gold&#8217;s effect.</line>
 <line globalnumber="551" number="74" form="verse">Tell me her father&#8217;s name, and &#8217;tis enough;</line>
 <line globalnumber="552" number="75" form="verse">For I will board her, though she chide as loud</line>
@@ -1742,7 +1769,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="558" number="81" form="verse">I know her father, though I know not her,</line>
 <line globalnumber="559" number="82" form="verse">And he knew my deceased father well.</line>
 <line globalnumber="560" number="83" form="verse">I will not sleep, Hortensio, till I see her,</line>
@@ -1815,7 +1842,7 @@
 <stagedir sdglobalnumber="588.01" sdnumber="111.01">
 	<dir>They stand aside.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>GRU.</actor>
 		<actor>HOR.</actor>
 	</action>
@@ -1855,7 +1882,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="606" number="129" form="verse">Peace, sirrah!</line>
 </speech>
 
@@ -1920,7 +1947,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="633" number="155" form="verse">I know she is an irksome brawling scold.</line>
 <line globalnumber="634" number="156" form="verse">If that be all, masters, I hear no harm.</line>
 </speech>
@@ -1931,7 +1958,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="636" number="158" form="verse">Born in Verona, old Antonio&#8217;s son.</line>
 <line globalnumber="637" number="159" form="verse">My father dead, my fortune lives for me,</line>
 <line globalnumber="638" number="160" form="verse">And I do hope good days and long to see.</line>
@@ -1946,7 +1973,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="643" number="164" form="verse" offset="7">Will I live?</line>
 </speech>
 
@@ -1956,7 +1983,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="645" number="166" form="verse">Why came I hither but to that intent?</line>
 <line globalnumber="646" number="167" form="verse">Think you a little din can daunt mine ears?</line>
 <line globalnumber="647" number="168" form="verse">Have I not in my time heard lions roar?</line>
@@ -2036,7 +2063,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="673" number="193" form="verse">Not her that chides, sir, at any hand, I pray.</line>
 </speech>
 
@@ -2124,7 +2151,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="699" number="216" form="verse">Hortensio, to what end are all these words?</line>
 </speech>
 
@@ -2142,7 +2169,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="705" number="222" form="verse">Sir, sir, the first&#8217;s for me, let her go by.</line>
 </speech>
 
@@ -2153,7 +2180,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="708" number="225" form="verse">Sir, understand you this of me, in sooth:</line>
 <line globalnumber="709" number="226" form="verse">The youngest daughter, whom you hearken for,</line>
 <line globalnumber="710" number="227" form="verse">Her father keeps from all access of suitors,</line>
@@ -2203,7 +2230,7 @@
 <stagedir sdglobalnumber="731.01" sdnumber="248.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>GRU.</actor>
 		<actor>HOR.</actor>
 		<actor>GRE.</actor>
@@ -2221,13 +2248,14 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. A room in Baptista Minola&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KATH.">Katherina</scenepersona>
 	<scenepersona short="BIAN.">Bianca</scenepersona>
 	<scenepersona short="BAP.">Baptista</scenepersona>
 	<scenepersona short="GRE.">Gremio</scenepersona>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 	<scenepersona short="TRA.">Tranio</scenepersona>
 	<scenepersona short="BION.">Biondello</scenepersona>
@@ -2381,7 +2409,7 @@
 	<action type="enter">
 		<actor>GRE.</actor>
 		<actor>LUC.</actor>
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>HOR.</actor>
 		<actor>TRA.</actor>
 		<actor>BION.</actor>
@@ -2399,7 +2427,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="772" number="41" form="verse">And you, good sir! Pray have you not a daughter</line>
 <line globalnumber="773" number="42" form="verse">Call&#8217;d Katherina, fair and virtuous?</line>
 </speech>
@@ -2415,7 +2443,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="776" number="45" form="verse">You wrong me, <foreign xml:lang="it">Signior</foreign> Gremio, give me leave.</line>
 <line globalnumber="777" number="46" form="verse">I am a gentleman of Verona, sir,</line>
 <line globalnumber="778" number="47" form="verse">That hearing of her beauty and her wit,</line>
@@ -2429,7 +2457,7 @@
 <stagedir sdglobalnumber="785.01" sdnumber="54.01">
 	<dir>Presenting Hortensio.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>HOR.</recipient>
 	</action>
 </stagedir>
@@ -2448,7 +2476,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="794" number="63" form="verse">I see you do not mean to part with her,</line>
 <line globalnumber="795" number="64" form="verse">Or else you like not of my company.</line>
 </speech>
@@ -2460,7 +2488,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="798" number="67" form="verse">Petruchio is my name, Antonio&#8217;s son,</line>
 <line globalnumber="799" number="68" form="verse">A man well known throughout all Italy.</line>
 </speech>
@@ -2478,7 +2506,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="804" number="73" form="verse">O, pardon me, <foreign xml:lang="it">Signior</foreign> Gremio, I would fain be doing.</line>
 </speech>
 
@@ -2568,7 +2596,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="837" number="105" form="verse"><foreign xml:lang="it">Signior</foreign> Baptista, my business asketh haste,</line>
 <line globalnumber="838" number="106" form="verse">And every day I cannot come to woo.</line>
 <line globalnumber="839" number="107" form="verse">You knew my father well, and in him me,</line>
@@ -2585,7 +2613,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="846" number="114" form="verse">And for that dowry, I&#8217;ll assure her of</line>
 <line globalnumber="847" number="115" form="verse">Her widowhood, be it that she survive me,</line>
 <line globalnumber="848" number="116" form="verse">In all my lands and leases whatsoever.</line>
@@ -2600,7 +2628,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="853" number="121" form="verse">Why, that is nothing; for I tell you, father,</line>
 <line globalnumber="854" number="122" form="verse">I am as peremptory as she proud-minded;</line>
 <line globalnumber="855" number="123" form="verse">And where two raging fires meet together,</line>
@@ -2618,7 +2646,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="863" number="131" form="verse">Ay, to the proof, as mountains are for winds,</line>
 <line globalnumber="864" number="132" form="verse">That shake not, though they blow perpetually.</line>
 </speech>
@@ -2673,7 +2701,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="883" number="151" form="verse">Now by the world, it is a lusty wench!</line>
 <line globalnumber="884" number="152" form="verse">I love her ten times more than e&#8217;er I did.</line>
 <line globalnumber="885" number="153" form="verse">O, how I long to have some chat with her!</line>
@@ -2689,7 +2717,7 @@
 </speech>
 
 <speech type="soliloquy">
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="891" number="159" form="verse">I pray you do. I&#8217;ll attend her here,</line>
 <stagedir sdglobalnumber="891.01" sdnumber="159.01">
 	<dir>Exit Baptista with Gremio, Tranio, and Hortensio. Manet Petruchio.</dir>
@@ -2729,7 +2757,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="908" number="176" form="verse">You lie, in faith, for you are call&#8217;d plain Kate,</line>
 <line globalnumber="909" number="177" form="verse">And bonny Kate, and sometimes Kate the curst;</line>
 <line globalnumber="910" number="178" form="verse">But Kate, the prettiest Kate in Christendom,</line>
@@ -2750,7 +2778,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="921" number="188" form="verse" offset="4">Why, what&#8217;s a moveable?</line>
 </speech>
 
@@ -2760,7 +2788,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="923" number="189" form="verse" offset="3">Thou hast hit it; come sit on me.</line>
 </speech>
 
@@ -2770,7 +2798,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="925" number="191" form="verse">Women are made to bear, and so are you.</line>
 </speech>
 
@@ -2780,7 +2808,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="927" number="193" form="verse">Alas, good Kate, I will not burden thee,</line>
 <line globalnumber="928" number="194" form="verse">For knowing thee to be but young and light.</line>
 </speech>
@@ -2792,7 +2820,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="931" number="197" form="verse" offset="0">Should be! Should&#8212;buzz!</line>
 </speech>
 
@@ -2802,7 +2830,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="933" number="198" form="verse">O slow-wing&#8217;d turtle, shall a buzzard take thee?</line>
 </speech>
 
@@ -2812,7 +2840,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="935" number="200" form="verse">Come, come, you wasp, i&#8217; faith you are too angry.</line>
 </speech>
 
@@ -2822,7 +2850,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="937" number="202" form="verse">My remedy is then to pluck it out.</line>
 </speech>
 
@@ -2832,7 +2860,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="939" number="204" form="verse">Who knows not where a wasp does wear his sting?</line>
 <line globalnumber="940" number="205" form="verse">In his tail.</line>
 </speech>
@@ -2843,7 +2871,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="942" number="207" form="verse">Whose tongue?</line>
 </speech>
 
@@ -2853,7 +2881,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="944" number="209" form="verse">What, with my tongue in your tail? Nay, come again,</line>
 <line globalnumber="945" number="210" form="verse" offset="0">Good Kate; I am a gentleman&#8212;</line>
 </speech>
@@ -2867,12 +2895,12 @@
 	<dir>She strikes him.</dir>
 	<action type="fight">
 		<actor>KATH.</actor>
-		<recipient>PET.</recipient>
+		<recipient>PETR.</recipient>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="947" number="211" form="verse">I swear I&#8217;ll cuff you, if you strike again.</line>
 </speech>
 
@@ -2884,7 +2912,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="951" number="215" form="verse">A herald, Kate? O, put me in thy books!</line>
 </speech>
 
@@ -2894,7 +2922,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="953" number="217" form="verse">A combless cock, so Kate will be my hen.</line>
 </speech>
 
@@ -2904,7 +2932,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="955" number="219" form="verse">Nay, come, Kate, come; you must not look so sour.</line>
 </speech>
 
@@ -2914,7 +2942,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="957" number="221" form="verse">Why, here&#8217;s no crab, and therefore look not sour.</line>
 </speech>
 
@@ -2924,7 +2952,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="959" number="223" form="verse">Then show it me.</line>
 </speech>
 
@@ -2934,7 +2962,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="961" number="225" form="verse">What, you mean my face?</line>
 </speech>
 
@@ -2944,7 +2972,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="963" number="227" form="verse">Now, by Saint George, I am too young for you.</line>
 </speech>
 
@@ -2954,7 +2982,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="965" number="229" form="verse">&#8217;Tis with cares.</line>
 </speech>
 
@@ -2964,7 +2992,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="967" number="231" form="verse">Nay, hear you, Kate. In sooth you scape not so.</line>
 </speech>
 
@@ -2974,7 +3002,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="969" number="233" form="verse">No, not a whit, I find you passing gentle:</line>
 <line globalnumber="970" number="234" form="verse">&#8217;Twas told me you were rough and coy and sullen,</line>
 <line globalnumber="971" number="235" form="verse">And now I find report a very liar;</line>
@@ -2998,7 +3026,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="985" number="249" form="verse">Did ever Dian so become a grove</line>
 <line globalnumber="986" number="250" form="verse">As Kate this chamber with her princely gait?</line>
 <line globalnumber="987" number="251" form="verse">O, be thou Dian, and let her be Kate,</line>
@@ -3011,7 +3039,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="990" number="254" form="verse">It is extempore, from my mother-wit.</line>
 </speech>
 
@@ -3021,7 +3049,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="992" number="256" form="verse">Am I not wise?</line>
 </speech>
 
@@ -3031,7 +3059,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="994" number="258" form="verse">Marry, so I mean, sweet Katherine, in thy bed;</line>
 <line globalnumber="995" number="259" form="verse">And therefore setting all this chat aside,</line>
 <line globalnumber="996" number="260" form="verse">Thus in plain terms: your father hath consented</line>
@@ -3062,7 +3090,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1009" number="273" form="verse">How but well, sir? How but well?</line>
 <line globalnumber="1010" number="274" form="verse">It were impossible I should speed amiss.</line>
 </speech>
@@ -3082,7 +3110,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1017" number="281" form="verse">Father, &#8217;tis thus: yourself and all the world,</line>
 <line globalnumber="1018" number="282" form="verse">That talk&#8217;d of her, have talk&#8217;d amiss of her.</line>
 <line globalnumber="1019" number="283" form="verse">If she be curst, it is for policy,</line>
@@ -3110,7 +3138,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1029" number="293" form="verse">Be patient, gentlemen, I choose her for myself.</line>
 <line globalnumber="1030" number="294" form="verse">If she and I be pleas&#8217;d, what&#8217;s that to you?</line>
 <line globalnumber="1031" number="295" form="verse">&#8217;Tis bargain&#8217;d &#8217;twixt us twain, being alone,</line>
@@ -3141,7 +3169,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1048" number="312" form="verse">Father, and wife, and gentlemen, <foreign xml:lang="fr">adieu</foreign>.</line>
 <line globalnumber="1049" number="313" form="verse">I will to Venice, Sunday comes apace.</line>
 <line globalnumber="1050" number="314" form="verse">We will have rings and things, and fine array;</line>
@@ -3151,7 +3179,7 @@
 <stagedir sdglobalnumber="1051.01" sdnumber="315.01">
 	<dir>Exeunt Petruchio and Katherine severally.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 	</action>
 </stagedir>
@@ -3371,6 +3399,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. Baptista&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
@@ -3659,6 +3688,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BAP.">Baptista</scenepersona>
 	<scenepersona short="GRE.">Gremio</scenepersona>
@@ -3668,7 +3698,7 @@
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 	<scenepersona short="BION.">Biondello</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="GRU.">Grumio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 </scenepersonae>
@@ -3880,13 +3910,13 @@
 <stagedir sdglobalnumber="1278.01" sdnumber="56.01">
 	<dir>Enter Petruchio and Grumio.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>GRU.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1279" number="57" form="prose">Come, where be these gallants? Who&#8217;s at home?</line>
 </speech>
 
@@ -3896,7 +3926,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1281" number="59" form="prose">And yet I come not well.</line>
 </speech>
 
@@ -3912,12 +3942,12 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1285" number="63" form="prose">Were it better I should rush in thus:</line>
 <stagedir sdglobalnumber="1285.01" sdnumber="63.01">
 	<dir>Pretends great excitement.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1286" number="64" form="verse">But where is Kate? Where is my lovely bride?</line>
@@ -3944,7 +3974,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1299" number="77" form="verse">Tedious it were to tell, and harsh to hear&#8212;</line>
 <line globalnumber="1300" number="78" form="verse">Sufficeth I am come to keep my word,</line>
 <line globalnumber="1301" number="79" form="verse">Though in some part enforced to digress,</line>
@@ -3961,7 +3991,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1308" number="86" form="verse">Not I, believe me, thus I&#8217;ll visit her.</line>
 </speech>
 
@@ -3971,7 +4001,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1310" number="88" form="verse">Good sooth, even thus; therefore ha&#8217; done with words;</line>
 <line globalnumber="1311" number="89" form="verse">To me she&#8217;s married, not unto my clothes.</line>
 <line globalnumber="1312" number="90" form="verse">Could I repair what she will wear in me,</line>
@@ -3985,7 +4015,7 @@
 <stagedir sdglobalnumber="1317.01" sdnumber="95.01">
 	<dir>Exit with Grumio.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>GRU.</actor>
 	</action>
 </stagedir>
@@ -4130,7 +4160,7 @@
 <stagedir sdglobalnumber="1377.02" sdnumber="155.02">
 	<dir>Enter Petruchio, Kate, Bianca, Hortensio as Litio, Baptista, Grumio, and Train.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>BIAN.</actor>
 		<actor>HOR.</actor>
@@ -4140,7 +4170,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1378" number="156" form="verse">Gentlemen and friends, I thank you for your pains.</line>
 <line globalnumber="1379" number="157" form="verse">I know you think to dine with me today,</line>
 <line globalnumber="1380" number="158" form="verse">And have prepared great store of wedding cheer,</line>
@@ -4154,7 +4184,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1384" number="162" form="verse">I must away today, before night come.</line>
 <line globalnumber="1385" number="163" form="verse">Make it no wonder; if you knew my business,</line>
 <line globalnumber="1386" number="164" form="verse">You would entreat me rather go than stay.</line>
@@ -4171,7 +4201,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1393" number="171" form="verse" offset="0">It may not be.</line>
 </speech>
 
@@ -4181,7 +4211,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1395" number="172" form="verse" offset="0">It cannot be.</line>
 </speech>
 
@@ -4191,7 +4221,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1397" number="173" form="verse">I am content.</line>
 </speech>
 
@@ -4201,7 +4231,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1399" number="175" form="verse">I am content you shall entreat me stay,</line>
 <line globalnumber="1400" number="176" form="verse">But yet not stay, entreat me how you can.</line>
 </speech>
@@ -4212,7 +4242,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1402" number="177" form="verse" offset="5">Grumio, my horse.</line>
 </speech>
 
@@ -4234,7 +4264,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1412" number="187" form="verse">O Kate, content thee, prithee be not angry.</line>
 </speech>
 
@@ -4257,7 +4287,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1419" number="194" form="verse">They shall go forward, Kate, at thy command.</line>
 <line globalnumber="1420" number="195" form="verse">Obey the bride, you that attend on her.</line>
 <line globalnumber="1421" number="196" form="verse">Go to the feast, revel and domineer,</line>
@@ -4281,7 +4311,7 @@
 <stagedir sdglobalnumber="1436.01" sdnumber="211.01">
 	<dir>Exeunt Petruchio, Katherina, and Grumio.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>GRU.</actor>
 	</action>
@@ -4357,15 +4387,16 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Petruchio&#8217;s country house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GRU.">Grumio</scenepersona>
 	<scenepersona short="CURT.">Curtis</scenepersona>
 	<scenepersona short="JOS.">Joseph</scenepersona>
 	<scenepersona short="NATH.">Nathaniel</scenepersona>
-	<scenepersona short="PETER.">Peter</scenepersona>
+	<scenepersona short="PET.">Peter</scenepersona>
 	<scenepersona short="PHIL.">Philip</scenepersona>
 	<scenepersona short="NICH.">Nicholas</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="KATH.">Kate</scenepersona>	
 </scenepersonae>
 <scenelanguage>
@@ -4593,7 +4624,7 @@
 		<actor>PHIL.</actor>
 		<actor>JOS.</actor>
 		<actor>NICH.</actor>
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 	</action>
 </stagedir>
 
@@ -4645,25 +4676,25 @@
 <stagedir sdglobalnumber="1496.01" sdnumber="47.01">
 	<dir>Enter Petruchio and Kate.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1497" number="48" form="verse">Where be these knaves? What, no man at door</line>
 <line globalnumber="1498" number="49" form="verse">To hold my stirrup, nor to take my horse?</line>
 <line globalnumber="1499" number="50" form="verse">Where is Nathaniel, Gregory, Philip?</line>
 </speech>
 
 <speech>
-<speaker long="All Servants">ALL. SERV.</speaker>
+<speaker long="All Servants">ALL SERV.</speaker>
 <line globalnumber="1500" number="51" form="verse">Here, here, sir, here, sir.</line>
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1501" number="52" form="verse">Here, sir! Here, sir! Here, sir! Here, sir!</line>
 <line globalnumber="1502" number="53" form="verse">You loggerheaded and unpolish&#8217;d grooms!</line>
 <line globalnumber="1503" number="54" form="verse">What? No attendance? No regard? No duty?</line>
@@ -4676,7 +4707,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1506" number="57" form="verse">You peasant swain, you whoreson malt-horse drudge!</line>
 <line globalnumber="1507" number="58" form="verse">Did I not bid thee meet me in the park,</line>
 <line globalnumber="1508" number="59" form="verse">And bring along these rascal knaves with thee?</line>
@@ -4694,12 +4725,12 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1516" number="67" form="verse">Go, rascals, go, and fetch my supper in.</line>
 <stagedir sdglobalnumber="1516.01" sdnumber="67.01">
 	<dir>Exeunt Servants.</dir>
 	<action type="exit">
-		<actor>ALL. SERV.</actor>
+		<actor>ALL SERV.</actor>
 		<actor>GRU.</actor>
 		<actor>CURT.</actor>
 	</action>
@@ -4708,7 +4739,7 @@
 <stagedir sdglobalnumber="1516.02" sdnumber="67.02">
 	<dir>Sings.</dir>
 	<action type="song">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1517" number="68" form="verse" type="lyric">&#8220;Where is the life that late I led?</line>
@@ -4717,7 +4748,10 @@
 <stagedir sdglobalnumber="1519.01" sdnumber="70.01">
 	<dir>Enter Servants with supper.</dir>
 	<action type="enter">
-		<actor>ALL. SERV.</actor>
+		<actor>PET.</actor>
+		<actor>JOS.</actor>
+		<actor>NATH.</actor>
+		<actor>NICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1520" number="71" form="verse">Why, when, I say? Nay, good sweet Kate, be merry.</line>
@@ -4725,7 +4759,7 @@
 <stagedir sdglobalnumber="1521.01" sdnumber="72.01">
 	<dir>Sings.</dir>
 	<action type="song">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1522" number="73" form="verse" type="lyric">&#8220;It was the friar of orders grey,</line>
@@ -4735,7 +4769,7 @@
 <stagedir sdglobalnumber="1525.01" sdnumber="76.01">
 	<dir>Strikes him.</dir>
 	<action type="fight">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>NATH.</recipient>
 	</action>
 </stagedir>
@@ -4757,7 +4791,7 @@
 <stagedir sdglobalnumber="1532.01" sdnumber="83.01">
 	<dir>Strikes him.</dir>
 	<action type="fight">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>PHIL.</recipient>
 	</action>
 </stagedir>
@@ -4768,7 +4802,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1534" number="85" form="verse">A whoreson, beetle-headed, flap-ear&#8217;d knave!</line>
 <line globalnumber="1535" number="86" form="verse">Come, Kate, sit down, I know you have a stomach.</line>
 <line globalnumber="1536" number="87" form="verse">Will you give thanks, sweet Kate, or else shall I?</line>
@@ -4781,17 +4815,17 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1539" number="88" form="verse" offset="5">Who brought it?</line>
 </speech>
 
 <speech>
-<speaker long="Peter">PETER.</speaker>
+<speaker long="Peter">PET.</speaker>
 <line globalnumber="1540" number="88" form="verse" offset="9">I.</line>
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1541" number="89" form="verse">&#8217;Tis burnt, and so is all the meat.</line>
 <line globalnumber="1542" number="90" form="verse">What dogs are these? Where is the rascal cook?</line>
 <line globalnumber="1543" number="91" form="verse">How durst you, villains, bring it from the dresser</line>
@@ -4800,8 +4834,8 @@
 <stagedir sdglobalnumber="1545.01" sdnumber="93.01">
 	<dir>He throws down the table and meat and all, and beats them.</dir>
 	<action type="fight">
-		<actor>PET.</actor>
-		<recipient>ALL. SERV.</recipient>
+		<actor>PETR.</actor>
+		<recipient>ALL SERV.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1546" number="94" form="verse">You heedless joltheads and unmanner&#8217;d slaves!</line>
@@ -4811,7 +4845,7 @@
 <stagedir sdglobalnumber="1547.01" sdnumber="95.01">
 	<dir>Exeunt Servants.</dir>
 	<action type="exit">
-		<actor>ALL. SERV.</actor>
+		<actor>ALL SERV.</actor>
 	</action>
 </stagedir>
 
@@ -4822,7 +4856,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1550" number="98" form="verse">I tell thee, Kate, &#8217;twas burnt and dried away,</line>
 <line globalnumber="1551" number="99" form="verse">And I expressly am forbid to touch it;</line>
 <line globalnumber="1552" number="100" form="verse">For it engenders choler, planteth anger,</line>
@@ -4837,7 +4871,7 @@
 <stagedir sdglobalnumber="1558.01" sdnumber="106.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 	</action>
 </stagedir>
@@ -4845,7 +4879,7 @@
 <stagedir sdglobalnumber="1558.02" sdnumber="106.02">
 	<dir>Enter Servants severally.</dir>
 	<action type="enter">
-		<actor>ALL. SERV.</actor>
+		<actor>ALL SERV.</actor>
 	</action>
 </stagedir>
 
@@ -4855,7 +4889,7 @@
 </speech>
 
 <speech>
-<speaker long="Peter">PETER.</speaker>
+<speaker long="Peter">PET.</speaker>
 <line globalnumber="1560" number="108" form="verse">He kills her in her own humor.</line>
 </speech>
 
@@ -4883,7 +4917,7 @@
 <stagedir sdglobalnumber="1566.01" sdnumber="114.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>ALL. SERV.</actor>
+		<actor>ALL SERV.</actor>
 		<actor>CURT.</actor>
 	</action>
 </stagedir>
@@ -4891,12 +4925,12 @@
 <stagedir sdglobalnumber="1566.02" sdnumber="114.02">
 	<dir>Enter Petruchio.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 
 <speech type="soliloquy">
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1567" number="115" form="verse">Thus have I politicly begun my reign,</line>
 <line globalnumber="1568" number="116" form="verse">And &#8217;tis my hope to end successfully.</line>
 <line globalnumber="1569" number="117" form="verse">My falcon now is sharp and passing empty,</line>
@@ -4926,7 +4960,7 @@
 <stagedir sdglobalnumber="1590.01" sdnumber="138.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 
@@ -4935,6 +4969,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TRA.">Tranio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
@@ -5347,10 +5382,11 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Petruchio&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KATH.">Katherina</scenepersona>
 	<scenepersona short="GRU.">Grumio</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 	<scenepersona short="TAI.">Tailor</scenepersona>
 	<scenepersona short="HAB.">Haberdasher</scenepersona>
@@ -5471,13 +5507,13 @@
 <stagedir sdglobalnumber="1750.01" sdnumber="35.01">
 	<dir>Enter Petruchio and Hortensio with meat.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>HOR.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1751" number="36" form="verse">How fares my Kate? What, sweeting, all amort?</line>
 </speech>
 
@@ -5492,7 +5528,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1754" number="38" form="verse">Pluck up thy spirits, look cheerfully upon me.</line>
 <line globalnumber="1755" number="39" form="verse">Here, love, thou seest how diligent I am</line>
 <line globalnumber="1756" number="40" form="verse">To dress thy meat myself, and bring it thee.</line>
@@ -5508,7 +5544,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1762" number="45" form="verse">The poorest service is repaid with thanks,</line>
 <line globalnumber="1763" number="46" form="verse">And so shall mine before you touch the meat.</line>
 </speech>
@@ -5525,11 +5561,11 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <stagedir sdglobalnumber="1766.01" sdnumber="49.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1767" number="50" form="verse">Eat it up all, Hortensio, if thou lovest me.&#8212;</line>
@@ -5566,7 +5602,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1782" number="64" form="verse">Why, this was moulded on a porringer&#8212;</line>
 <line globalnumber="1783" number="65" form="verse">A velvet dish. Fie, fie, &#8217;tis lewd and filthy.</line>
 <line globalnumber="1784" number="66" form="verse">Why, &#8217;tis a cockle or a walnut-shell,</line>
@@ -5581,7 +5617,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1789" number="71" form="verse">When you are gentle, you shall have one too,</line>
 <line globalnumber="1790" number="72" form="verse">And not till then.</line>
 </speech>
@@ -5610,7 +5646,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1800" number="82" form="verse">Why, thou say&#8217;st true, it is a paltry cap,</line>
 <line globalnumber="1801" number="83" form="verse">A custard-coffin, a bauble, a silken pie.</line>
 <line globalnumber="1802" number="84" form="verse">I love thee well in that thou lik&#8217;st it not.</line>
@@ -5630,7 +5666,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1805" number="87" form="verse">Thy gown? Why, ay. Come, tailor, let us see&#8217;t.</line>
 <line globalnumber="1806" number="88" form="verse">O mercy, God, what masquing stuff is here?</line>
 <line globalnumber="1807" number="89" form="verse">What&#8217;s this? A sleeve? &#8217;Tis like a demi-cannon.</line>
@@ -5658,7 +5694,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1815" number="97" form="verse">Marry, and did; but if you be rememb&#8217;red,</line>
 <line globalnumber="1816" number="98" form="verse">I did not bid you mar it to the time.</line>
 <line globalnumber="1817" number="99" form="verse">Go hop me over every kennel home,</line>
@@ -5674,7 +5710,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1823" number="105" form="verse">Why, true, he means to make a puppet of thee.</line>
 </speech>
 
@@ -5684,7 +5720,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1825" number="107" form="verse">O monstrous arrogance! Thou liest, thou thread, thou thimble,</line>
 <line globalnumber="1826" number="108" form="verse">Thou yard, three-quarters, half-yard, quarter, nail!</line>
 <line globalnumber="1827" number="109" form="verse">Thou flea, thou nit, thou winter-cricket thou!</line>
@@ -5743,7 +5779,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1844" number="126" form="prose">Read it.</line>
 </speech>
 
@@ -5769,7 +5805,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1848" number="130" form="prose">Proceed.</line>
 </speech>
 
@@ -5817,7 +5853,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1854" number="136" form="prose">Ay, there&#8217;s the villainy.</line>
 </speech>
 
@@ -5842,7 +5878,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1859" number="141" form="prose">Well, sir, in brief, the gown is not for me.</line>
 </speech>
 
@@ -5852,7 +5888,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1861" number="143" form="prose">Go take it up unto thy master&#8217;s use.</line>
 </speech>
 
@@ -5862,7 +5898,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1863" number="145" form="prose">Why, sir, what&#8217;s your conceit in that?</line>
 </speech>
 
@@ -5874,11 +5910,11 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <stagedir sdglobalnumber="1866.01" sdnumber="148.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1867" number="149" form="verse">Hortensio, say thou wilt see the tailor paid.&#8212;</line>
@@ -5900,7 +5936,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1872" number="154" form="verse">Well, come, my Kate, we will unto your father&#8217;s</line>
 <line globalnumber="1873" number="155" form="verse">Even in these honest mean habiliments;</line>
 <line globalnumber="1874" number="156" form="verse">Our purses shall be proud, our garments poor,</line>
@@ -5930,7 +5966,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1894" number="176" form="verse">It shall be seven ere I go to horse.</line>
 <line globalnumber="1895" number="177" form="verse">Look what I speak, or do, or think to do,</line>
 <line globalnumber="1896" number="178" form="verse">You are still crossing it. Sirs, let&#8217;t alone,</line>
@@ -5954,7 +5990,7 @@
 	<action type="exit">
 		<actor>KATH.</actor>
 		<actor>GRU.</actor>
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>HOR.</actor>
 	</action>
 </stagedir>
@@ -5964,13 +6000,14 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Padua. Before Baptista&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TRA.">Tranio</scenepersona>
 	<scenepersona short="PED.">Pedant</scenepersona>
 	<scenepersona short="BION.">Biondello</scenepersona>
 	<scenepersona short="BAP.">Baptista</scenepersona>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
-	<scenepersona short="PETER.">Peter</scenepersona>
+	<scenepersona short="PET.">Peter</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -6160,10 +6197,10 @@
 <stagedir sdglobalnumber="1967.02" sdnumber="68.02">
 	<dir>Enter Peter, a servant, who whispers to Tranio.</dir>
 	<action type="enter">
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 	</action>
 	<action type="action">
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 		<recipient>TRA.</recipient>
 	</action>
 </stagedir>
@@ -6183,7 +6220,7 @@
 		<actor>TRA.</actor>
 		<actor>PED.</actor>
 		<actor>BAP.</actor>
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 	</action>
 </stagedir>
 
@@ -6299,8 +6336,9 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A public road.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="KATH.">Kate</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 	<scenepersona>Servants</scenepersona>
@@ -6314,7 +6352,7 @@
 <stagedir sdglobalnumber="1992.02" sdnumber="0.01">
 	<dir>Enter Petruchio, Kate, Hortensio, and Servants.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>HOR.</actor>
 		<actor>Servants</actor>
@@ -6322,7 +6360,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1993" number="1" form="verse">Come on a&#8217; God&#8217;s name, once more toward our father&#8217;s.</line>
 <line globalnumber="1994" number="2" form="verse">Good Lord, how bright and goodly shines the moon!</line>
 </speech>
@@ -6333,7 +6371,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1996" number="4" form="verse">I say it is the moon that shines so bright.</line>
 </speech>
 
@@ -6343,7 +6381,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="1998" number="6" form="verse">Now by my mother&#8217;s son, and that&#8217;s myself,</line>
 <line globalnumber="1999" number="7" form="verse">It shall be moon, or star, or what I list,</line>
 <line globalnumber="2000" number="8" form="verse">Or ere I journey to your father&#8217;s house.&#8212;</line>
@@ -6365,7 +6403,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2008" number="16" form="verse" offset="0">I say it is the moon.</line>
 </speech>
 
@@ -6375,7 +6413,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2010" number="17" form="verse">Nay then you lie; it is the blessed sun.</line>
 </speech>
 
@@ -6394,7 +6432,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2017" number="24" form="verse">Well, forward, forward, thus the bowl should run,</line>
 <line globalnumber="2018" number="25" form="verse">And not unluckily against the bias.</line>
 <line globalnumber="2019" number="26" form="verse">But soft, company is coming here.</line>
@@ -6408,7 +6446,7 @@
 <stagedir sdglobalnumber="2019.02" sdnumber="26.02">
 	<dir>To Vincentio.</dir>
 	<action type="speak">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>VIN.</recipient>
 	</action>
 </stagedir>
@@ -6437,7 +6475,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2034" number="41" form="verse">Why, how now, Kate, I hope thou art not mad.</line>
 <line globalnumber="2035" number="42" form="verse">This is a man, old, wrinkled, faded, withered,</line>
 <line globalnumber="2036" number="43" form="verse">And not a maiden, as thou say&#8217;st he is.</line>
@@ -6453,7 +6491,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2042" number="49" form="verse">Do, good old grandsire, and withal make known</line>
 <line globalnumber="2043" number="50" form="verse">Which way thou travelest&#8212;if along with us,</line>
 <line globalnumber="2044" number="51" form="verse">We shall be joyful of thy company.</line>
@@ -6469,7 +6507,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2050" number="57" form="verse" offset="0">What is his name?</line>
 </speech>
 
@@ -6479,7 +6517,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2052" number="58" form="verse">Happily met, the happier for thy son.</line>
 <line globalnumber="2053" number="59" form="verse">And now by law, as well as reverend age,</line>
 <line globalnumber="2054" number="60" form="verse">I may entitle thee my loving father.</line>
@@ -6507,7 +6545,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2068" number="74" form="verse">Come go along and see the truth hereof,</line>
 <line globalnumber="2069" number="75" form="verse">For our first merriment hath made thee jealous.</line>
 </speech>
@@ -6515,7 +6553,7 @@
 <stagedir sdglobalnumber="2069.01" sdnumber="75.01">
 	<dir>Exeunt all but Hortensio.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>Servants</actor>
 		<actor>VIN.</actor>
@@ -6544,12 +6582,13 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Padua. Before Lucentio&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BION.">Biondello</scenepersona>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona short="BIAN.">Bianca</scenepersona>
 	<scenepersona short="GRE.">Gremio</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="KATH.">Kate</scenepersona>
 	<scenepersona short="VIN.">Vincentio</scenepersona>
 	<scenepersona short="GRU.">Grumio</scenepersona>
@@ -6569,12 +6608,12 @@
 <stagedir sdglobalnumber="2072.02" sdnumber="0.01">
 	<dir>Enter Biondello, Lucentio, and Bianca; Gremio is out before.</dir>
 	<action type="enter">
+		<actor>GRE.</actor>
+	</action>
+	<action type="enter">
 		<actor>BION.</actor>
 		<actor>LUC.</actor>	
 		<actor>BIAN.</actor>	
-	</action>
-	<action type="action">
-		<actor>GRE.</actor>
 	</action>
 </stagedir>
 
@@ -6610,7 +6649,7 @@
 <stagedir sdglobalnumber="2076.01" sdnumber="4.01">
 	<dir>Enter Petruchio, Kate, Vincentio, Grumio, with Attendants.</dir>
 	<action type="enter">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>VIN.</actor>
 		<actor>GRU.</actor>
@@ -6619,7 +6658,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2077" number="5" form="verse">Sir, here&#8217;s the door, this is Lucentio&#8217;s house.</line>
 <line globalnumber="2078" number="6" form="verse">My father&#8217;s bears more toward the market-place;</line>
 <line globalnumber="2079" number="7" form="verse">Thither must I, and here I leave you, sir.</line>
@@ -6677,7 +6716,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2089" number="17" form="prose">Nay, I told you your son was well belov&#8217;d in Padua. Do you hear, sir?&#8212;to leave frivolous circumstances, I pray you tell <foreign xml:lang="it">Signior</foreign> Lucentio that his father is come from Pisa, and is here at the door to speak with him.</line>
 </speech>
 
@@ -6697,11 +6736,11 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <stagedir sdglobalnumber="2092.01" sdnumber="20.01">
 	<dir>To Vincentio.</dir>
 	<action type="speak">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>VIN.</recipient>
 	</action>
 </stagedir>
@@ -6800,14 +6839,14 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2105" number="33" form="prose">Prithee, Kate, let&#8217;s stand aside and see the end of this controversy.</line>
 </speech>
 
 <stagedir sdglobalnumber="2105.01" sdnumber="33.01">
 	<dir>They retire.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 	</action>
 </stagedir>
@@ -6878,6 +6917,9 @@
 <stagedir sdglobalnumber="2116.01" sdnumber="44.01">
 	<dir>Exit Servant, who returns with an Officer.</dir>
 	<action type="exit">
+		<actor>Servant</actor>
+	</action>
+	<action type="enter">
 		<actor>OFF.</actor>
 		<actor>Servant</actor>
 	</action>
@@ -7094,7 +7136,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2158" number="83" form="prose">First kiss me, Kate, and we will.</line>
 </speech>
 
@@ -7104,7 +7146,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2160" number="85" form="prose">What, art thou asham&#8217;d of me?</line>
 </speech>
 
@@ -7114,7 +7156,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2162" number="87" form="prose">Why then let&#8217;s home again. Come, sirrah, let&#8217;s away.</line>
 </speech>
 
@@ -7124,7 +7166,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2164" number="89" form="verse">Is not this well? Come, my sweet Kate:</line>
 <line globalnumber="2165" number="90" form="verse">Better once than never, for never too late.</line>
 </speech>
@@ -7132,7 +7174,7 @@
 <stagedir sdglobalnumber="2165.01" sdnumber="90.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>GRU.</actor>
 		<actor>Attendants</actor>
@@ -7144,6 +7186,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Padua. Lucentio&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BAP.">Baptista</scenepersona>
 	<scenepersona short="VIN.">Vincentio</scenepersona>
@@ -7151,7 +7194,7 @@
 	<scenepersona short="PED.">Pedant</scenepersona>
 	<scenepersona short="LUC.">Lucentio</scenepersona>
 	<scenepersona short="BIAN.">Bianca</scenepersona>
-	<scenepersona short="PET.">Petruchio</scenepersona>
+	<scenepersona short="PETR.">Petruchio</scenepersona>
 	<scenepersona short="KATH.">Katherina</scenepersona>
 	<scenepersona short="HOR.">Hortensio</scenepersona>
 	<scenepersona short="TRA.">Tranio</scenepersona>
@@ -7175,7 +7218,7 @@
 		<actor>PED.</actor>
 		<actor>LUC.</actor>	
 		<actor>BIAN.</actor>
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 		<actor>HOR.</actor>
 		<actor>TRA.</actor>
@@ -7202,7 +7245,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2177" number="12" form="verse">Nothing but sit and sit, and eat and eat!</line>
 </speech>
 
@@ -7212,7 +7255,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2179" number="14" form="verse">Padua affords nothing but what is kind.</line>
 </speech>
 
@@ -7222,7 +7265,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2181" number="16" form="verse">Now, for my life, Hortensio fears his widow.</line>
 </speech>
 
@@ -7232,7 +7275,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2183" number="18" form="verse">You are very sensible, and yet you miss my sense:</line>
 <line globalnumber="2184" number="19" form="verse">I mean Hortensio is afeard of you.</line>
 </speech>
@@ -7243,7 +7286,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2186" number="21" form="verse" offset="0">Roundly replied.</line>
 </speech>
 
@@ -7258,7 +7301,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2189" number="23" form="verse">Conceives by me! How likes Hortensio that?</line>
 </speech>
 
@@ -7268,7 +7311,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2191" number="25" form="verse">Very well mended. Kiss him for that, good widow.</line>
 </speech>
 
@@ -7301,7 +7344,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2200" number="33" form="verse">To her, Kate!</line>
 </speech>
 
@@ -7311,7 +7354,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2202" number="35" form="verse">A hundred marks, my Kate does put her down.</line>
 </speech>
 
@@ -7321,14 +7364,14 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2204" number="37" form="verse">Spoke like an officer. Ha&#8217; to thee, lad!</line>
 </speech>
 
 <stagedir sdglobalnumber="2204.01" sdnumber="37.01">
 	<dir>Drinks to Hortensio.</dir>
 	<action type="action">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>HOR.</recipient>
 	</action>
 </stagedir>
@@ -7360,7 +7403,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2211" number="44" form="verse">Nay, that you shall not, since you have begun;</line>
 <line globalnumber="2212" number="45" form="verse">Have at you for a bitter jest or two!</line>
 </speech>
@@ -7382,7 +7425,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2216" number="49" form="verse">She hath prevented me. Here, <foreign xml:lang="it">Signior</foreign> Tranio,</line>
 <line globalnumber="2217" number="50" form="verse">This bird you aim&#8217;d at, though you hit her not;</line>
 <line globalnumber="2218" number="51" form="verse">Therefore a health to all that shot and miss&#8217;d.</line>
@@ -7395,7 +7438,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2221" number="54" form="verse">A good swift simile, but something currish.</line>
 </speech>
 
@@ -7421,7 +7464,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2227" number="60" form="verse">&#8217;A has a little gall&#8217;d me, I confess;</line>
 <line globalnumber="2228" number="61" form="verse">And as the jest did glance away from me,</line>
 <line globalnumber="2229" number="62" form="verse">&#8217;Tis ten to one it maim&#8217;d you two outright.</line>
@@ -7434,7 +7477,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2232" number="65" form="verse">Well, I say no; and therefore for assurance</line>
 <line globalnumber="2233" number="66" form="verse">Let&#8217;s each one send unto his wife,</line>
 <line globalnumber="2234" number="67" form="verse">And he whose wife is most obedient,</line>
@@ -7453,7 +7496,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2239" number="71" form="verse">Twenty crowns!</line>
 <line globalnumber="2240" number="72" form="verse">I&#8217;ll venture so much of my hawk or hound,</line>
 <line globalnumber="2241" number="73" form="verse">But twenty times so much upon my wife.</line>
@@ -7466,12 +7509,12 @@
 
 <speech>
 <speaker long="Hortensio">HOR.</speaker>
-<line globalnumber="2243" number="74" form="verse" offset="3">Content.</line>
+<line globalnumber="2243" number="74" form="verse" offset="4">Content.</line>
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
-<line globalnumber="2244" number="74" form="verse" offset="5">A match! &#8217;Tis done.</line>
+<speaker long="Petruchio">PETR.</speaker>
+<line globalnumber="2244" number="74" form="verse" offset="6">A match! &#8217;Tis done.</line>
 </speech>
 
 <speech>
@@ -7521,7 +7564,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2254" number="82" form="verse">How? She is busy, and she cannot come!</line>
 <line globalnumber="2255" number="83" form="verse" offset="0">Is that an answer?</line>
 </speech>
@@ -7533,7 +7576,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2258" number="85" form="verse">I hope better.</line>
 </speech>
 
@@ -7551,7 +7594,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2261" number="87" form="verse" offset="5">O ho, entreat her!</line>
 <line globalnumber="2262" number="88" form="verse" offset="0">Nay then she must needs come.</line>
 </speech>
@@ -7576,7 +7619,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2268" number="93" form="verse">Worse and worse; she will not come! O vile,</line>
 <line globalnumber="2269" number="94" form="verse">Intolerable, not to be endur&#8217;d!</line>
 <line globalnumber="2270" number="95" form="verse">Sirrah Grumio, go to your mistress,</line>
@@ -7596,17 +7639,17 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
-<line globalnumber="2273" number="97" form="verse" offset="4">What?</line>
+<speaker long="Petruchio">PETR.</speaker>
+<line globalnumber="2273" number="97" form="verse" offset="5">What?</line>
 </speech>
 
 <speech>
 <speaker long="Hortensio">HOR.</speaker>
-<line globalnumber="2274" number="97" form="verse" offset="5">She will not.</line>
+<line globalnumber="2274" number="97" form="verse" offset="8">She will not.</line>
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2275" number="98" form="verse">The fouler fortune mine, and there an end.</line>
 </speech>
 
@@ -7628,7 +7671,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2278" number="101" form="verse">Where is your sister, and Hortensio&#8217;s wife?</line>
 </speech>
 
@@ -7638,7 +7681,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2280" number="103" form="verse">Go fetch them hither. If they deny to come,</line>
 <line globalnumber="2281" number="104" form="verse">Swinge me them soundly forth unto their husbands.</line>
 <line globalnumber="2282" number="105" form="verse">Away, I say, and bring them hither straight.</line>
@@ -7662,7 +7705,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2285" number="108" form="verse">Marry, peace it bodes, and love, and quiet life,</line>
 <line globalnumber="2286" number="109" form="verse">An awe full rule, and right supremacy;</line>
 <line globalnumber="2287" number="110" form="verse">And to be short, what not, that&#8217;s sweet and happy.</line>
@@ -7678,7 +7721,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2293" number="116" form="verse">Nay, I will win my wager better yet,</line>
 <line globalnumber="2294" number="117" form="verse">And show more sign of her obedience,</line>
 <line globalnumber="2295" number="118" form="verse">Her new-built virtue and obedience.</line>
@@ -7727,7 +7770,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2307" number="130" form="verse">Katherine, I charge thee tell these headstrong women</line>
 <line globalnumber="2308" number="131" form="verse">What duty they do owe their lords and husbands.</line>
 </speech>
@@ -7738,7 +7781,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2310" number="133" form="verse">Come on, I say, and first begin with her.</line>
 </speech>
 
@@ -7748,7 +7791,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2312" number="135" form="verse">I say she shall, and first begin with her.</line>
 </speech>
 
@@ -7801,7 +7844,7 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2357" number="180" form="verse">Why, there&#8217;s a wench! Come on, and kiss me, Kate.</line>
 </speech>
 
@@ -7821,13 +7864,13 @@
 </speech>
 
 <speech>
-<speaker long="Petruchio">PET.</speaker>
+<speaker long="Petruchio">PETR.</speaker>
 <line globalnumber="2361" number="184" form="verse">Come, Kate, we&#8217;ll to bed.</line>
 <line globalnumber="2362" number="185" form="verse">We three are married, but you two are sped.</line>
 <stagedir sdglobalnumber="2362.01" sdnumber="185.01">
 	<dir>To Lucentio.</dir>
 	<action type="speak">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<recipient>LUC.</recipient>
 	</action>
 </stagedir>
@@ -7838,7 +7881,7 @@
 <stagedir sdglobalnumber="2364.01" sdnumber="187.01">
 	<dir>Exit Petruchio with Katherina.</dir>
 	<action type="exit">
-		<actor>PET.</actor>
+		<actor>PETR.</actor>
 		<actor>KATH.</actor>
 	</action>
 </stagedir>
@@ -7874,20 +7917,11 @@
 </act>
  
  
-<locations numberOfLocations="12">
-<placename>A bedchamber in the Lord&#8217;s house.</placename>
-<placename>A public road.</placename>
-<placename>A room in Petruchio&#8217;s house.</placename>
-<placename>Before an alehouse on a heath.</placename>
-<placename>Padua. A public square.</placename>
-<placename>Padua. A room in Baptista Minola&#8217;s house.</placename>
-<placename>Padua. Baptista&#8217;s house.</placename>
-<placename>Padua. Before Baptista&#8217;s house.</placename>
-<placename>Padua. Before Hortensio&#8217;s house.</placename>
-<placename>Padua. Before Lucentio&#8217;s house.</placename>
-<placename>Padua. Lucentio&#8217;s house.</placename>
-<placename>Petruchio&#8217;s country house.</placename>
-</locations>
+
+
+
+
+
 
 <sources>
 <playsource>
@@ -7903,7 +7937,7 @@
 </playsource>
 
 <playsource>
-<playsourcetitle>Thrésor d&#8217;histoires admirables et mémorables</playsourcetitle>
+<playsourcetitle>Thr&#233;sor d&#8217;histoires admirables et m&#233;morables</playsourcetitle>
 <playsourceauthor>S. Goulart</playsourceauthor>
 <playsourcedate>1607</playsourcedate>
 </playsource>
@@ -7919,12 +7953,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

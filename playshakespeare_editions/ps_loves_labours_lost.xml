@@ -1,104 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
-<title short="Love&#8217;s Labor&#8217;s Lost">Love&#8217;s Labor&#8217;s Lost</title>
+<play variant="ps" unique="loves-labours-lost">
+<title short="Love&#8217;s Labour&#8217;s Lost">Love&#8217;s Labour&#8217;s Lost</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1595</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Love&#8217;s Labour&#8217;s Lost">
 
-<persona gender="male">
-<persname short="KING." numberOfLines="275" numberOfVerseLines="249" numberOfProseLines="26" numberOfLyricsLines="0">Ferdinand, King of Navarre</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="76039696-674e-4dee-9035-71c507fa9000">
 <persname short="BER." numberOfLines="580" numberOfVerseLines="531" numberOfProseLines="49" numberOfLyricsLines="0">Berowne</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LONG." numberOfLines="69" numberOfVerseLines="55" numberOfProseLines="14" numberOfLyricsLines="0">Longaville</persname>
+<persona gender="male" id="3a7825a2-4101-4b19-bbf4-1f4a6c6ed151">
+<persname short="KING." numberOfLines="275" numberOfVerseLines="249" numberOfProseLines="26" numberOfLyricsLines="0">Ferdinand, King of Navarre</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DUM." numberOfLines="87" numberOfVerseLines="65" numberOfProseLines="22" numberOfLyricsLines="0">Dumaine</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="31a4c0db-b820-4039-92f2-1eb9e7540c85">
 <persname short="BOYET." numberOfLines="202" numberOfVerseLines="174" numberOfProseLines="28" numberOfLyricsLines="2">Boyet</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="62e52808-428c-4bd0-a039-f0ebeaccaa32">
 <persname short="ARM." numberOfLines="125" numberOfVerseLines="32" numberOfProseLines="93" numberOfLyricsLines="0">Don Adriano de Armado</persname>
 </persona>
 
-<persona gender="male">
-<persname short="NATH." numberOfLines="41" numberOfVerseLines="17" numberOfProseLines="24" numberOfLyricsLines="0">Sir Nathaniel</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="HOL." numberOfLines="77" numberOfVerseLines="18" numberOfProseLines="59" numberOfLyricsLines="0">Holofernes</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="DULL." numberOfLines="17" numberOfVerseLines="2" numberOfProseLines="15" numberOfLyricsLines="0">Dull</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="66188773-3cca-400d-954c-960b38385f37">
 <persname short="COST." numberOfLines="114" numberOfVerseLines="53" numberOfProseLines="61" numberOfLyricsLines="0">Costard</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="1836eae7-6452-4e8d-b6dc-525f7a383122">
 <persname short="MOTH." numberOfLines="99" numberOfVerseLines="34" numberOfProseLines="65" numberOfLyricsLines="1">Moth</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FOR." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Forester</persname>
+<persona gender="male" id="d30cdecd-1f00-4ffa-85dd-b0465f7dcac2">
+<persname short="DUM." numberOfLines="87" numberOfVerseLines="65" numberOfProseLines="22" numberOfLyricsLines="0">Dumaine</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
+<persona gender="male" archetype="hero" id="4387f850-531d-4316-855a-49aaab11a8ac">
+<persname short="HOL." numberOfLines="77" numberOfVerseLines="18" numberOfProseLines="59" numberOfLyricsLines="0">Holofernes</persname>
+</persona>
+
+<persona gender="male" id="51affbb4-905c-426f-8c9b-0d41e4979180">
+<persname short="LONG." numberOfLines="69" numberOfVerseLines="55" numberOfProseLines="14" numberOfLyricsLines="0">Longaville</persname>
+</persona>
+
+<persona gender="male" id="33e367e2-40a5-42f1-8211-5df4421ddbb5">
+<persname short="NATH." numberOfLines="41" numberOfVerseLines="17" numberOfProseLines="24" numberOfLyricsLines="0">Sir Nathaniel</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="ad4d4d16-1701-4c8d-a0ba-c0518eac0176">
+<persname short="DULL." numberOfLines="17" numberOfVerseLines="2" numberOfProseLines="15" numberOfLyricsLines="0">Dull</persname>
+</persona>
+
+
+<persona gender="female" archetype="hero" id="4944f457-4686-46b1-a6b7-5aec4cba8505">
 <persname short="PRIN." numberOfLines="285" numberOfVerseLines="274" numberOfProseLines="11" numberOfLyricsLines="0">The Princess of France</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
+<persona gender="female" archetype="hero" id="0ba64d49-fb6d-4643-9ce0-6123aa3e847e">
 <persname short="ROS." numberOfLines="174" numberOfVerseLines="168" numberOfProseLines="6" numberOfLyricsLines="2">Rosaline</persname>
 </persona>
 
-<persona gender="female">
-<persname short="MAR." numberOfLines="38" numberOfVerseLines="38" numberOfProseLines="0" numberOfLyricsLines="0">Maria</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="a56d5b63-7b17-461a-96eb-aac985db89d9">
 <persname short="KATH." numberOfLines="51" numberOfVerseLines="51" numberOfProseLines="0" numberOfLyricsLines="0">Katherine</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="9263c71e-0494-4948-8e1f-b897061d406f">
+<persname short="MAR." numberOfLines="38" numberOfVerseLines="38" numberOfProseLines="0" numberOfLyricsLines="0">Maria</persname>
+</persona>
+
+<persona gender="female" id="c2fce4b6-6ab0-451e-b3e0-cfb1db15468e">
 <persname short="JAQ." numberOfLines="14" numberOfVerseLines="4" numberOfProseLines="10" numberOfLyricsLines="0">Jaquenetta</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MARC." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Marcade</persname>
+<persona gender="male" id="cd03c2e5-3b04-4a43-bd94-49a6e1f00e7c">
+<persname short="WINTER." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="16">Hiems, the Winter</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BLACK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Blackamoors</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. FR. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First French Lord</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. FR. LORD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second French Lord</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="7df7b935-d983-4466-b206-ca4cc20ea52d">
 <persname short="SPRING." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="16">Ver, the Spring</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WINTER." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="16">Hiems, the Winter</persname>
+<persona gender="male" id="20589b97-47c5-4213-84c2-07d4af60e7f9">
+<persname short="FOR." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Forester</persname>
 </persona>
+
+<persona gender="male" id="60ecae08-3470-4465-9886-d430536d1386">
+<persname short="MARC." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Marcade</persname>
+</persona>
+
+<persona gender="male" id="d9db82b6-7149-4039-a374-d46b109bd7ab">
+<persname short="1. FR. LORD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First French Lord</persname>
+</persona>
+
+<persona gender="male" id="59777754-8d50-415d-8b53-18b32d33af21">
+<persname short="2. FR. LORD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second French Lord</persname>
+</persona>
+
+<persona gender="male" id="a564b8e6-965b-499e-bf8f-ae5a00214386">
+<persname short="BLACK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Blackamoors</persname>
+</persona>
+
+
 </personae>
 
 <act num="1">
@@ -106,6 +114,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King of Navarre</scenepersona>
 	<scenepersona short="BER.">Berowne</scenepersona>
@@ -882,6 +891,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARM.">Armado</scenepersona>
 	<scenepersona short="MOTH.">Moth</scenepersona>
@@ -1430,6 +1440,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRIN.">Princess of France</scenepersona>
 	<scenepersona short="ROS.">Rosaline</scenepersona>
@@ -2297,6 +2308,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARM.">Armado</scenepersona>
 	<scenepersona short="MOTH.">Moth</scenepersona>
@@ -2850,6 +2862,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRIN.">Princess of France</scenepersona>
 	<scenepersona short="FOR.">Forester</scenepersona>
@@ -3331,6 +3344,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DULL.">Dull</scenepersona>
 	<scenepersona short="HOL.">Holofernes</scenepersona>
@@ -3677,6 +3691,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BER.">Berowne</scenepersona>
 	<scenepersona short="KING.">King</scenepersona>
@@ -3712,7 +3727,7 @@
 </stagedir>
 <stagedir sdglobalnumber="963.02" sdnumber="1.02">
 	<dir>The King ent&#8217;reth with a paper.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>KING.</actor>
 	</action>
 </stagedir>
@@ -4028,7 +4043,7 @@
 
 <speech>
 <speaker long="Ferdinand, King of Navarre">KING.</speaker>
-<stagedir sdglobalnumber="1035.01" sdnumber="69.01">
+<stagedir sdglobalnumber="1035.01" sdnumber="69.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>KING.</actor>
@@ -4743,6 +4758,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOL.">Holofernes</scenepersona>
 	<scenepersona short="NATH.">Sir Nathaniel</scenepersona>
@@ -5103,6 +5119,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The King of Navarre&#8217;s park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRIN.">Princess of France</scenepersona>
 	<scenepersona short="MAR.">Maria</scenepersona>
@@ -7932,6 +7949,8 @@
 <stagedir sdglobalnumber="2259.01" sdnumber="819.01">
 	<dir>The Song</dir>
 	<action type="song">
+		<actor>SPRING.</actor>
+		<actor>WINTER.</actor>
 	</action>
 </stagedir>
 
@@ -8002,9 +8021,9 @@
 </scene>
 </act>
 
-<locations numberOfLocations="1">
-<placename>The King of Navarre&#8217;s park.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -8048,11 +8067,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

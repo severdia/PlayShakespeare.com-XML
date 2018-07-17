@@ -1,98 +1,106 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="double-falsehood">
 <title short="Double Falsehood">Double Falsehood, or The Distressed Lovers</title>
-<playwright>William Shakespeare, Lewis Theobald</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>Lewis Theobald</playwright>
+</playwrights>
 <pubdate>1727-1728</pubdate>
+
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
 
 <personae playtitle="Double Falsehood">
 
-<persona gender="male">
-<persname short="D. BERN." numberOfLines="84" numberOfVerseLines="64" numberOfProseLines="20" numberOfLyricsLines="0">Don Bernard</persname>
-</persona>
-
-<persona gender="male">
-<persname short="RODER." numberOfLines="210" numberOfVerseLines="205" numberOfProseLines="5" numberOfLyricsLines="0">Roderick</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAST." numberOfLines="42" numberOfVerseLines="33" numberOfProseLines="9" numberOfLyricsLines="0">Master of the Flocks</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GER." numberOfLines="5" numberOfVerseLines="4" numberOfProseLines="1" numberOfLyricsLines="0">Gerald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LOP." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lopez</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HENR." numberOfLines="269" numberOfVerseLines="265" numberOfProseLines="4" numberOfLyricsLines="0">Henriquez</persname>
-</persona>
-
-<persona gender="female">
-<persname short="VIOL." numberOfLines="251" numberOfVerseLines="248" numberOfProseLines="3" numberOfLyricsLines="0">Violante</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAM." numberOfLines="122" numberOfVerseLines="92" numberOfProseLines="30" numberOfLyricsLines="0">Camillo</persname>
-</persona>
-
-<persona gender="female">
-<persname short="LEON." numberOfLines="284" numberOfVerseLines="282" numberOfProseLines="2" numberOfLyricsLines="0">Leonora</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="38e9c836-e4da-46c6-a9f5-c1c4931b5c0e">
 <persname short="JUL." numberOfLines="317" numberOfVerseLines="306" numberOfProseLines="11" numberOfLyricsLines="12">Julio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FAB." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Fabian</persname>
+<persona gender="male" id="1f37f95d-6e95-4f7f-a6bc-695ba11b9abe">
+<persname short="HENR." numberOfLines="269" numberOfVerseLines="265" numberOfProseLines="4" numberOfLyricsLines="0">Henriquez</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CITIZ." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Citizen</persname>
+<persona gender="male" id="64093a36-6b39-45e1-ad2c-86748902924e">
+<persname short="RODER." numberOfLines="210" numberOfVerseLines="205" numberOfProseLines="5" numberOfLyricsLines="0">Roderick</persname>
 </persona>
 
-<persona gender="female">
-<persname short="MAID." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Maid</persname>
+<persona gender="male" id="d6bb02a4-2668-436a-ae33-c59646fd3701">
+<persname short="CAM." numberOfLines="122" numberOfVerseLines="92" numberOfProseLines="30" numberOfLyricsLines="0">Camillo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b6685240-589e-4adb-8a42-9464d097644c">
 <persname short="DUKE." numberOfLines="107" numberOfVerseLines="107" numberOfProseLines="0" numberOfLyricsLines="0">Duke Angelo</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="35ac5519-d6c9-435b-bd30-d3f18fcc08d3">
+<persname short="D. BERN." numberOfLines="84" numberOfVerseLines="64" numberOfProseLines="20" numberOfLyricsLines="0">Don Bernard</persname>
+</persona>
+
+<persona gender="male" id="781fe566-2866-4193-8bd2-74db30e84462">
+<persname short="MAST." numberOfLines="42" numberOfVerseLines="33" numberOfProseLines="9" numberOfLyricsLines="0">Master of the Flocks</persname>
+</persona>
+
+<persona gender="male" id="80d5e7a3-14c8-4b02-a94a-bab2c3e6c389">
+<persname short="CITIZ." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Citizen</persname>
+</persona>
+
+<persona gender="male" id="e9825eda-f24d-4f5d-8de6-3d8c04769e05">
+<persname short="GER." numberOfLines="5" numberOfVerseLines="4" numberOfProseLines="1" numberOfLyricsLines="0">Gerald</persname>
+</persona>
+
+<persona gender="male" id="5647623e-78d8-4838-bcdc-fafa2983e21f">
+<persname short="LOP." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lopez</persname>
+</persona>
+
+<persona gender="male" id="c50019c6-423a-4a8f-81e0-8dfc988589be">
+<persname short="FAB." numberOfLines="2" numberOfVerseLines="1" numberOfProseLines="1" numberOfLyricsLines="0">Fabian</persname>
+</persona>
+
+<persona gender="female" id="635d497d-6cbe-49f0-b432-f6b5d94553a5">
+<persname short="LEON." numberOfLines="284" numberOfVerseLines="282" numberOfProseLines="2" numberOfLyricsLines="0">Leonora</persname>
+</persona>
+
+<persona gender="female" id="40f329f7-1e95-4cd1-b617-94ed7d42ea97">
+<persname short="VIOL." numberOfLines="251" numberOfVerseLines="248" numberOfProseLines="3" numberOfLyricsLines="0">Violante</persname>
+</persona>
+
+<persona gender="female" id="d8ca539e-3c8e-4e00-ab6d-c01cdbed233e">
+<persname short="MAID." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Maid</persname>
+</persona>
+
+<persona gender="male" id="8e9e5ca0-585d-4fef-bf8b-c011da192e7e">
 <persname short="1. SHEP." numberOfLines="13" numberOfVerseLines="2" numberOfProseLines="11" numberOfLyricsLines="0">First Shepherd</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b60a0efa-17bf-4415-9319-a8244a4bbf51">
 <persname short="2. SHEP." numberOfLines="9" numberOfVerseLines="3" numberOfProseLines="6" numberOfLyricsLines="0">Second Shepherd</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2bd57438-1d70-4b26-bfe6-dd62f5603cb7">
 <persname short="1. GENT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman</persname>
 </persona>
- 
-<persona gender="male">
+
+<persona gender="male" id="e8adaaae-e0eb-47c6-9829-431334dd36a9">
 <persname short="2. GENT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="12ca1a2e-23ad-47ed-b01a-663d447dae20">
 <persname short="SERV." numberOfLines="8" numberOfVerseLines="5" numberOfProseLines="3" numberOfLyricsLines="0">Servant to Violante</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="85b90461-25b3-485f-9c7e-26e431228632">
 <persname short="ATT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Attendant</persname>
 </persona>
- 
-<persona gender="male">
+
+<persona gender="male" id="4957d63f-5cc7-4261-bd01-8e13c219889d">
 <persname short="CHURCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">A Churchman</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="edeb9833-dae6-47e3-b07e-47b08fad2d17">
 <persname short="LADIES." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Ladies Attending on Leonora</persname>
 </persona>
 
@@ -103,6 +111,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The province of Andalusia in Spain. A royal palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke Angelo</scenepersona>
 	<scenepersona short="RODER.">Roderick</scenepersona>
@@ -215,6 +224,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Prospect of a village at a distance.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAM.">Camillo</scenepersona>
 	<scenepersona short="JUL.">Julio</scenepersona>
@@ -590,7 +600,7 @@
 <speech>
 <speaker long="Julio">JUL.</speaker>
 <line globalnumber="189" number="132" form="verse">Fear not, but I with swiftest wing of time</line>
-<line globalnumber="190" number="133" form="verse">Will labour my return. And in my absence,</line>
+<line globalnumber="190" number="133" form="verse">Will labor my return. And in my absence,</line>
 <line globalnumber="191" number="134" form="verse">My noble friend, and now our honor&#8217;d guest,</line>
 <line globalnumber="192" number="135" form="verse">The lord Henriquez, will in my behalf</line>
 <line globalnumber="193" number="136" form="verse">Hang at your father&#8217;s ear, and with kind hints,</line>
@@ -684,6 +694,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Outside an apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 	<scenepersona short="GER.">Gerald</scenepersona>
@@ -749,7 +760,7 @@
 
 <stagedir sdglobalnumber="241.01" sdnumber="27.01">
 	<dir>Violante appears above at her window.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>VIOL.</actor>
 	</action>
 </stagedir>
@@ -874,6 +885,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The prospect of a village.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAB.">Fabian</scenepersona>
 	<scenepersona short="LOP.">Lopez</scenepersona>
@@ -996,6 +1008,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>An apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VIOL.">Violante</scenepersona>
 	<scenepersona short="MAID.">Maid</scenepersona>
@@ -1085,9 +1098,10 @@
 </speech>
 
 <stagedir sdglobalnumber="361.01" sdnumber="21.01">
-	<dir>Exit Gerald.</dir>
+	<dir>Exit Gerald and maid.</dir>
 	<action type="exit">
 		<actor>GER.</actor>
+		<actor>MAID.</actor>
 	</action>
 </stagedir>
 
@@ -1137,6 +1151,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Prospect of a village. Before Don Bernard&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HENR.">Henriquez</scenepersona>
 	<scenepersona short="D. BERN.">Don Bernard</scenepersona>
@@ -1518,6 +1533,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another prospect of Don Bernard&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonora</scenepersona>
 	<scenepersona short="CITIZ.">Citizen</scenepersona>
@@ -1673,6 +1689,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The prospect of a village.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CITIZ.">Citizen</scenepersona>
 	<scenepersona short="JUL.">Julio</scenepersona>
@@ -1791,6 +1808,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Don Bernard&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leonora</scenepersona>
 	<scenepersona short="JUL.">Julio</scenepersona>
@@ -2190,6 +2208,10 @@
 		<actor>Servants</actor>
 		<recipient>JUL.</recipient>
 	</action>
+	<action type="exit">
+		<actor>Servants</actor>
+		<recipient>JUL.</recipient>
+	</action>
 </stagedir>
 
 <speech>
@@ -2260,7 +2282,6 @@
 	<dir>Exeunt; and the scene closes.</dir>
 	<action type="exit">
 		<actor>LEON.</actor>
-		<actor>JUL.</actor>
 		<actor>HENR.</actor>
 		<actor>D. BERN.</actor>
 		<actor>CHURCH.</actor>
@@ -2273,6 +2294,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Prospect of a village at a distance.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RODER.">Roderick</scenepersona>
 	<scenepersona short="CAM.">Camillo</scenepersona>
@@ -2825,6 +2847,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A wide plain, with a prospect of mountains in the distance.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SHEP.">First Shepherd</scenepersona>
 	<scenepersona short="2. SHEP.">Second Shepherd</scenepersona>
@@ -3556,7 +3579,13 @@
 <stagedir sdglobalnumber="1218.01" sdnumber="208.01">
 	<dir>Enter Gerald, whom Henriquez whispers; then Gerald goes out.</dir>
 	<action type="enter">
+		<actor>GER.</actor>
+	</action>
+	<action type="speak">
 		<actor>HENR.</actor>
+		<recipient>GER.</recipient>
+	</action>
+	<action type="exit">
 		<actor>GER.</actor>
 	</action>
 </stagedir>
@@ -3604,6 +3633,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The prospect of the mountains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Julio</scenepersona>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
@@ -3931,6 +3961,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Another part of the prospect of the mountains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RODER.">Roderick</scenepersona>
 	<scenepersona short="LEON.">Leonora</scenepersona>
@@ -4057,6 +4088,9 @@
 
 <stagedir sdglobalnumber="1419.01" sdnumber="51.01">
 	<dir>As they are going out, Violante enters and plucks Roderick by the sleeve.</dir>
+	<action type="enter">
+		<actor>VIOL.</actor>
+	</action>
 	<action type="action">
 		<actor>VIOL.</actor>
 		<recipient>RODER.</recipient>
@@ -4166,6 +4200,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>An apartment in the lodge.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke Angelo</scenepersona>
 	<scenepersona short="D. BERN.">Don Bernard</scenepersona>
@@ -4530,8 +4565,11 @@
 </speech>
 
 <stagedir sdglobalnumber="1563.01" sdnumber="95.01">
-	<dir>Violante offers, once or twice, to shew herself, but goes back.</dir>
-	<action type="action">
+	<dir>Violante offers, once or twice, to show herself, but goes back.</dir>
+	<action type="enter">
+		<actor>VIOL.</actor>
+	</action>
+	<action type="exit">
 		<actor>VIOL.</actor>
 	</action>
 </stagedir>
@@ -4892,6 +4930,7 @@
 	<dir>Seeing Violante.</dir>
 	<action type="action">
 		<actor>HENR.</actor>
+		<recipient>VIOL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1673" number="183" form="verse">Ha!</line>
@@ -5015,7 +5054,7 @@
 <speech>
 <speaker long="Leonora">LEON.</speaker>
 <line globalnumber="1718" number="224" form="verse" offset="7">Yes, &#8217;tis he.</line>
-<stagedir sdglobalnumber="1718.01" sdnumber="224.01">
+<stagedir sdglobalnumber="1718.01" sdnumber="224.02">
 	<dir>They embrace.</dir>
 	<action type="action">
 		<actor>LEON.</actor>
@@ -5181,7 +5220,7 @@
 
 <stagedir sdglobalnumber="1771.01" sdnumber="270.01">
 	<dir>Curtain falls.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>DUKE.</actor>
 		<actor>D. BERN.</actor>
 		<actor>CAM.</actor>
@@ -5197,20 +5236,9 @@
 </scene>
 </act>
 
-<locations numberOfLocations="12">
-<placename>A wide plain, with a prospect of mountains in the distance.</placename>
-<placename>An apartment in the lodge.</placename>
-<placename>An apartment.</placename>
-<placename>Another part of the prospect of the mountains.</placename>
-<placename>Another prospect of Don Bernard&#8217;s house.</placename>
-<placename>Don Bernard&#8217;s house.</placename>
-<placename>Outside an apartment.</placename>
-<placename>Prospect of a village at a distance.</placename>
-<placename>Prospect of a village. Before Don Bernard&#8217;s house.</placename>
-<placename>The prospect of a village.</placename>
-<placename>The prospect of the mountains.</placename>
-<placename>The province of Andalusia in Spain. A royal palace.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -5235,11 +5263,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

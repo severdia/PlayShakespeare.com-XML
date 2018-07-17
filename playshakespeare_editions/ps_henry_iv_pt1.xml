@@ -1,166 +1,172 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="henry-iv-part-i">
 <title short="Henry IV, Pt. 1">The First Part of Henry the Fourth</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1596-1597</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Henry IV, Part 1">
 
-<persona gender="male" archetype="hero">
-<persname short="FAL." numberOfLines="164" numberOfVerseLines="6" numberOfProseLines="158" numberOfLyricsLines="0">Sir John Falstaff</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="VER." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">Sir Richard Vernon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GLEND." numberOfLines="79" numberOfVerseLines="79" numberOfProseLines="0" numberOfLyricsLines="0">Owen Glendower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DOUG." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Archibald, Earl of Douglas</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ARCH." numberOfLines="34" numberOfVerseLines="34" numberOfProseLines="0" numberOfLyricsLines="0">Richard Scroop, Archbishop of York</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MORT." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="HOT." numberOfLines="527" numberOfVerseLines="508" numberOfProseLines="19" numberOfLyricsLines="0">Henry Percy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NORTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy, Earl of Northumberland</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="WOR." numberOfLines="190" numberOfVerseLines="190" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Percy, Earl of Worcester</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BLUNT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Sir Walter Blunt</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WEST." numberOfLines="37" numberOfVerseLines="34" numberOfProseLines="3" numberOfLyricsLines="0">Earl of Westmorland</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Prince John of Lancaster</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="e342444d-c6b7-4dc8-af8c-3e9cd448e2ac">
 <persname short="PRINCE." numberOfLines="362" numberOfVerseLines="207" numberOfProseLines="155" numberOfLyricsLines="0">Henry, Prince of Wales</persname>
 <persaliases>
 	<persname short="THIEVES.">Thieves</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="a7359fe3-322f-46a3-a5b4-36d22e304d2b">
 <persname short="KING." numberOfLines="341" numberOfVerseLines="341" numberOfProseLines="0" numberOfLyricsLines="0">King Henry IV</persname>
 </persona>
 
-<persona gender="female">
-<persname short="LADY MORT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lady Mortimer</persname>
+<persona gender="male" archetype="hero" death="yes" id="61bf3651-a486-48fe-aa08-d13e035d6a08">
+<persname short="HOT." numberOfLines="527" numberOfVerseLines="508" numberOfProseLines="19" numberOfLyricsLines="0">Henry Percy</persname>
 </persona>
 
-<persona gender="female">
-<persname short="LADY P." numberOfLines="55" numberOfVerseLines="47" numberOfProseLines="8" numberOfLyricsLines="0">Lady Percy</persname>
+<persona gender="male" death="yes" id="35b84915-a6e5-40eb-9d2c-a2be670fab21">
+<persname short="WOR." numberOfLines="190" numberOfVerseLines="190" numberOfProseLines="0" numberOfLyricsLines="0">Thomas Percy, Earl of Worcester</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BARD." numberOfLines="18" numberOfVerseLines="0" numberOfProseLines="18" numberOfLyricsLines="0">Bardolph</persname>
+<persona gender="male" archetype="hero" id="85ee0bd0-5903-417b-9bb2-cbeda8489a73">
+<persname short="FAL." numberOfLines="164" numberOfVerseLines="6" numberOfProseLines="158" numberOfLyricsLines="0">Sir John Falstaff</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PETO." numberOfLines="11" numberOfVerseLines="0" numberOfProseLines="11" numberOfLyricsLines="0">Peto</persname>
+<persona gender="male" id="d21818bb-f782-4257-9599-dbd37ca04516">
+<persname short="GLEND." numberOfLines="79" numberOfVerseLines="79" numberOfProseLines="0" numberOfLyricsLines="0">Owen Glendower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GADS." numberOfLines="18" numberOfVerseLines="0" numberOfProseLines="18" numberOfLyricsLines="0">Gadshill</persname>
+<persona gender="male" death="yes" id="4a1ab8b8-b1bf-4ce7-a3fd-42d57548aa59">
+<persname short="VER." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">Sir Richard Vernon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3fa92b9e-ccc2-4822-a26b-2a94688edbc2">
+<persname short="MORT." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Edmund Mortimer, Earl of March</persname>
+</persona>
+
+<persona gender="male" id="1d543ce0-f485-4d00-b427-7d79f15a21ae">
+<persname short="DOUG." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Archibald, Earl of Douglas</persname>
+</persona>
+
+<persona gender="male" death="yes" id="d79e32a6-179f-4870-bba6-b4f2e155f681">
+<persname short="BLUNT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Sir Walter Blunt</persname>
+</persona>
+
+<persona gender="male" id="84ce8d0b-be3c-4a2a-86cb-7393c0e14bb9">
+<persname short="WEST." numberOfLines="37" numberOfVerseLines="34" numberOfProseLines="3" numberOfLyricsLines="0">Earl of Westmorland</persname>
+</persona>
+
+<persona gender="male" id="5e0c0280-bc4e-4054-aded-0fa2f3223044">
 <persname short="POINS." numberOfLines="37" numberOfVerseLines="1" numberOfProseLines="36" numberOfLyricsLines="0">Edward Poins</persname>
 <persaliases>
 	<persname short="THIEVES.">Thieves</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="14398505-a03a-4fd7-ae0e-eb7ccabefe3a">
+<persname short="ARCH." numberOfLines="34" numberOfVerseLines="34" numberOfProseLines="0" numberOfLyricsLines="0">Richard Scroop, Archbishop of York</persname>
+</persona>
+
+<persona gender="male" id="5d20eef7-25b8-4478-9e5c-71bd112d0715">
+<persname short="NORTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Henry Percy, Earl of Northumberland</persname>
+</persona>
+
+<persona gender="male" id="f4051520-6a2f-4f16-8e29-d835f3ddf6ee">
+<persname short="GADS." numberOfLines="18" numberOfVerseLines="0" numberOfProseLines="18" numberOfLyricsLines="0">Gadshill</persname>
+</persona>
+
+<persona gender="male" id="02a15a8e-a068-4aeb-9650-ed3347bdd65e">
+<persname short="BARD." numberOfLines="18" numberOfVerseLines="0" numberOfProseLines="18" numberOfLyricsLines="0">Bardolph</persname>
+</persona>
+
+<persona gender="male" id="0e938db6-af9d-4138-81c9-3880bfefc99f">
+<persname short="FRAN." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Francis</persname>
+</persona>
+
+<persona gender="male" id="60f91bdd-6a95-419b-b324-ded52f8556cf">
+<persname short="PETO." numberOfLines="11" numberOfVerseLines="0" numberOfProseLines="11" numberOfLyricsLines="0">Peto</persname>
+</persona>
+
+<persona gender="male" id="76384071-bfd8-493d-a7ce-d18bf8e85f7d">
 <persname short="SIR M." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Sir Michael</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0b466374-b603-458b-beac-47832f0979c4">
+<persname short="LAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Prince John of Lancaster</persname>
+</persona>
+
+<persona gender="female" id="42e069f0-7417-4afe-80bb-0567774240d3">
+<persname short="LADY P." numberOfLines="55" numberOfVerseLines="47" numberOfProseLines="8" numberOfLyricsLines="0">Lady Percy</persname>
+</persona>
+
+<persona gender="female" id="72820202-ece4-4e0c-b9e6-effa7b8e9372">
+<persname short="HOST." numberOfLines="24" numberOfVerseLines="0" numberOfProseLines="24" numberOfLyricsLines="0">Hostess</persname>
+</persona>
+
+
+<persona gender="male" id="816a1ac2-fad3-46cf-bd53-5cf2b0cc299a">
+<persname short="CHAM." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Chamberlain</persname>
+</persona>
+
+<persona gender="male" id="079d121d-ecdd-40e7-8d0b-f8d2ff6f9468">
+<persname short="VINT." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Vintner</persname>
+</persona>
+
+<persona gender="male" id="8beaa9c1-1b43-4c85-bd8c-bab79ecf7525">
 <persname short="OST." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Ostler</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f0681e68-0d0a-40d8-9e31-aa493a014713">
 <persname short="SHER." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Sheriff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c62044ea-ed7e-4628-a58e-dcc30b67338a">
+<persname short="1. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="8982afdc-835c-4bd9-ba61-85af6a958735">
+<persname short="2. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="4eb8a98c-be98-4fa6-946b-81083e111e76">
+<persname short="3. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
+</persona>
+
+<persona gender="male" id="dd592368-4e7d-41f9-a882-eae6964405c8">
+<persname short="SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Servant</persname>
+</persona>
+
+<persona gender="male" id="6505b5fb-f2f3-4a66-bf69-ba8503daa3b7">
 <persname short="1. CAR." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">First Carrier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cbde95d3-4fbe-4043-90af-609d2732e497">
 <persname short="2. CAR." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Second Carrier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a173bfdb-1119-4495-979b-11a6eafb585d">
 <persname short="1. TRAV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">First Traveler</persname>
 <persaliases>
 	<persname short="TRAVELERS.">Travelers</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c3b4fc97-c8a2-4441-8ecc-5a9f05c9fff6">
 <persname short="2. TRAV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Second Traveler</persname>
 <persaliases>
 	<persname short="TRAVELERS.">Travelers</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Servant</persname>
+<persona gender="female" id="35903865-1f53-4d12-80d1-7b96ccaeaa49">
+<persname short="L. MORT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lady Mortimer</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FRAN." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Francis</persname>
-</persona>
-
-<persona gender="female">
-<persname short="HOST." numberOfLines="24" numberOfVerseLines="0" numberOfProseLines="24" numberOfLyricsLines="0">Hostess</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHAM." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Chamberlain</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VINT." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Vintner</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="3b11b662-1299-49a2-81fb-6898e94ea2a6">
 <persname short="WEL. LAD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Welsh Ladies</persname>
 </persona>
 
@@ -172,6 +178,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="LAN.">Prince John of Lancaster</scenepersona>
@@ -357,6 +364,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. An apartment of the Prince&#8217;s.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE.">Prince of Wales</scenepersona>
 	<scenepersona short="FAL.">Sir John Falstaff</scenepersona>
@@ -741,6 +749,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="NORTH.">Northumberland</scenepersona>
@@ -1339,6 +1348,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rochester. An inn yard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. CAR.">First Carrier</scenepersona>
 	<scenepersona short="2. CAR.">Second Carrier</scenepersona>
@@ -1567,6 +1577,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A highway near Gadshill.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="PETO.">Peto</scenepersona>
@@ -1887,7 +1898,7 @@
 </stagedir>
 <stagedir sdglobalnumber="578.02" sdnumber="40.02">
 	<dir>Exeunt.</dir>
-	<action type="exit">
+	<action type="action">
 		<actor>FAL.</actor> 	
 		<actor>GADS.</actor>	
 		<actor>PETO.</actor>	
@@ -1934,12 +1945,18 @@
 	<dir>As they are sharing, the Prince and Poins set upon them; they all run away, and Falstaff, after a blow or two, runs away too, leaving the booty behind them.</dir>
 	<action type="action">
 		<actor>PRINCE.</actor>
-		<actor>POINS.</actor>	
+		<actor>POINS.</actor>
+		<recipient>FAL.</recipient>
+		<recipient>GADS.</recipient>
+		<recipient>PETO.</recipient>
+		<recipient>BARD.</recipient>
+	</action>
+	<action type="exit">
 		<actor>FAL.</actor> 	
 		<actor>GADS.</actor>	
 		<actor>PETO.</actor>	
 		<actor>BARD.</actor>
-	</action>
+	</action>	
 </stagedir>
 
 <speech>
@@ -1971,6 +1988,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Warkworth castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="LADY P.">Lady Hotspur</scenepersona>
@@ -2199,6 +2217,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Eastcheap. The Boar&#8217;s Head Tavern.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
 	<scenepersona short="POINS.">Poins</scenepersona>
@@ -2456,6 +2475,9 @@
 	<dir>Here they both call him; the drawer stands amazed, not knowing which way to go.</dir>
 	<action type="action">
 		<actor>PRINCE.</actor>
+		<recipient>FRAN.</recipient>
+	</action>
+	<action type="speak-offstage">
 		<actor>POINS.</actor>
 		<recipient>FRAN.</recipient>
 	</action>
@@ -3489,12 +3511,13 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Wales. Glendower&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="WOR.">Worcester</scenepersona>
 	<scenepersona short="MORT.">Lord Mortimer</scenepersona>
 	<scenepersona short="GLEND.">Owen Glendower</scenepersona>
-	<scenepersona short="LADY MORT.">Lady Mortimer</scenepersona>
+	<scenepersona short="L. MORT.">Lady Mortimer</scenepersona>
 	<scenepersona short="WEL. LAD.">Welsh Ladies</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -3787,7 +3810,7 @@
 <line globalnumber="1033" number="125" form="verse">Marry,</line>
 <line globalnumber="1034" number="126" form="verse">And I am glad of it with all my heart.</line>
 <line globalnumber="1035" number="127" form="verse">I had rather be a kitten and cry mew</line>
-<line globalnumber="1036" number="128" form="verse">Than one of these same metre ballet-mongers.</line>
+<line globalnumber="1036" number="128" form="verse">Than one of these same meter ballet-mongers.</line>
 <line globalnumber="1037" number="129" form="verse">I had rather hear a brazen canstick turn&#8217;d,</line>
 <line globalnumber="1038" number="130" form="verse">Or a dry wheel grate on the axle-tree,</line>
 <line globalnumber="1039" number="131" form="verse">And that would set my teeth nothing an edge,</line>
@@ -3896,7 +3919,7 @@
 		<actor>GLEND.</actor>
 		<actor>WEL. LAD.</actor>
 		<actor>LADY P.</actor>
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 	</action>
 </stagedir>
 
@@ -3922,7 +3945,7 @@
 	<dir>Glendower speaks to her in Welsh, and she answers him in the same.</dir>
 	<action type="action">
 		<actor>GLEND.</actor>
-		<recipient>LADY MORT.</recipient>
+		<recipient>L. MORT.</recipient>
 	</action>
 </stagedir>
 
@@ -3935,7 +3958,7 @@
 <stagedir sdglobalnumber="1105.01" sdnumber="197.01">
 	<dir>The lady speaks in Welsh.</dir>
 	<action type="action">
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 	</action>
 </stagedir>
 
@@ -3948,7 +3971,7 @@
 <stagedir sdglobalnumber="1109.01" sdnumber="201.01">
 	<dir>The lady again in Welsh.</dir>
 	<action type="action">
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1110" number="202" form="verse">I understand thy kisses, and thou mine,</line>
@@ -3968,7 +3991,7 @@
 <stagedir sdglobalnumber="1117.01" sdnumber="209.01">
 	<dir>The lady speaks again in Welsh.</dir>
 	<action type="action">
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 	</action>
 </stagedir>
 
@@ -4081,7 +4104,7 @@
 <stagedir sdglobalnumber="1149.01" sdnumber="241.01">
 	<dir>Here the lady sings a Welsh song.</dir>
 	<action type="song">
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 	</action>
 </stagedir>
 
@@ -4144,7 +4167,7 @@
 		<actor>MORT.</actor>
 		<actor>GLEND.</actor>
 		<actor>WEL. LAD.</actor>
-		<actor>LADY MORT.</actor>
+		<actor>L. MORT.</actor>
 		<actor>LADY P.</actor>
 	</action>
 </stagedir>
@@ -4154,6 +4177,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="PRINCE.">Prince of Wales</scenepersona>
@@ -4417,6 +4441,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Eastcheap. The Boar&#8217;s Head Tavern.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
@@ -4553,6 +4578,8 @@
 	<action type="enter">
 		<actor>PRINCE.</actor>
 		<actor>PETO.</actor>
+	</action>
+	<action type="action">
 		<actor>FAL.</actor>
 	</action>
 </stagedir>
@@ -4860,6 +4887,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The rebel camp near Shrewsbury.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="WOR.">Worcester</scenepersona>
@@ -5186,6 +5214,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public road near Coventry.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
@@ -5347,6 +5376,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The rebel camp near Shrewsbury.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOT.">Hotspur</scenepersona>
 	<scenepersona short="WOR.">Worcester</scenepersona>
@@ -5631,6 +5661,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>York. The Archbishop&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARCH.">Archbishop of York</scenepersona>
 	<scenepersona short="SIR M.">Sir Michael</scenepersona>
@@ -5742,6 +5773,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King Henry IV&#8217;s camp near Shrewsbury.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="PRINCE.">Prince of Wales</scenepersona>
@@ -6014,6 +6046,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The rebel camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="WOR.">Worcester</scenepersona>
 	<scenepersona short="VER.">Sir Richard Vernon</scenepersona>
@@ -6264,6 +6297,12 @@
 		<actor>VER.</actor>
 		<actor>HOT.</actor>
 		<actor>DOUG.</actor>
+	</action>
+	<action type="exit">
+		<actor>WOR.</actor>
+		<actor>VER.</actor>
+		<actor>HOT.</actor>
+		<actor>DOUG.</actor>
 		<actor>2. MESS.</actor>
 		<actor>3. MESS.</actor>
 	</action>
@@ -6274,6 +6313,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The plain between the camps.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="DOUG.">Douglas</scenepersona>
@@ -6517,6 +6557,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="PRINCE.">Prince Henry</scenepersona>
@@ -6905,7 +6946,7 @@
 <line globalnumber="2143" number="110" form="prose">Embowell&#8217;d! If thou embowel me today, I&#8217;ll give you leave to powder me and eat me too tomorrow. &#8217;Sblood, &#8217;twas time to counterfeit, or that hot termagant Scot had paid me scot and lot too. Counterfeit? I lie, I am no counterfeit. To die is to be a counterfeit, for he is but the counterfeit of a man who hath not the life of a man; but to counterfeit dying, when a man thereby liveth, is to be no counterfeit, but the true and perfect image of life indeed. The better part of valor is discretion, in the which better part I have sav&#8217;d my life. &#8217;Zounds, I am afraid of this gunpowder Percy though he be dead. How if he should counterfeit too and rise? By my faith, I am afraid he would prove the better counterfeit. Therefore I&#8217;ll make him sure, yea, and I&#8217;ll swear I kill&#8217;d him. Why may not he rise as well as I? Nothing confutes me but eyes, and nobody sees me. Therefore, sirrah,</line>
 <stagedir sdglobalnumber="2143.01" sdnumber="110.01">
 	<dir>Stabbing him</dir>
-	<action type="fight">
+	<action type="action">
 		<actor>FAL.</actor>
 		<recipient>HOT.</recipient>
 	</action>
@@ -6955,7 +6996,7 @@
 <line globalnumber="2154" number="120" form="prose">No, that&#8217;s certain, I am not a double man; but if I be not Jack Falstaff, then am I a Jack. There is Percy.</line>
 <stagedir sdglobalnumber="2154.01" sdnumber="120.01">
 	<dir>Throwing the body down.</dir>
-	<action type="fight">
+	<action type="action">
 		<actor>FAL.</actor>
 		<recipient>HOT.</recipient>
 	</action>
@@ -7019,6 +7060,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the field.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry IV</scenepersona>
 	<scenepersona short="PRINCE.">Prince of Wales</scenepersona>
@@ -7142,22 +7184,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="14">
-<placename>A highway near Gadshill.</placename>
-<placename>A public road near Coventry.</placename>
-<placename>Another part of the field.</placename>
-<placename>Eastcheap. The Boar&#8217;s Head Tavern.</placename>
-<placename>King Henry IV&#8217;s camp near Shrewsbury.</placename>
-<placename>London. An apartment of the Prince&#8217;s.</placename>
-<placename>London. The palace.</placename>
-<placename>Rochester. An inn yard.</placename>
-<placename>The plain between the camps.</placename>
-<placename>The rebel camp near Shrewsbury.</placename>
-<placename>The rebel camp.</placename>
-<placename>Wales. Glendower&#8217;s castle.</placename>
-<placename>Warkworth castle.</placename>
-<placename>York. The Archbishop&#8217;s palace.</placename>
-</locations>
+
 
 
 
@@ -7221,12 +7248,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

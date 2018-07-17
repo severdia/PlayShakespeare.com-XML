@@ -1,160 +1,132 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="two-noble-kinsmen">
 <title short="Two Noble Kinsmen">The Two Noble Kinsmen</title>
-<playwright>William Shakespeare and John Fletcher</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>John Fletcher</playwright>
+</playwrights>
 <pubdate>1613-1614</pubdate>
+
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
 
 <personae playtitle="Two Noble Kinsmen">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="d2c4bcf1-b27b-4043-a08c-b5e63247c68c">
+<persname short="PAL." numberOfLines="595" numberOfVerseLines="595" numberOfProseLines="0" numberOfLyricsLines="0">Palamon</persname>
+<persaliases>
+	<persname short="BOTH ARC. AND PAL.">Both Arcite and Palamon</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" archetype="hero" death="yes" id="ada27952-76bd-4b83-963c-5b769cbc9f3f">
+<persname short="ARC." numberOfLines="490" numberOfVerseLines="490" numberOfProseLines="0" numberOfLyricsLines="0">Arcite</persname>
+<persaliases>
+	<persname short="BOTH ARC. AND PAL.">Both Arcite and Palamon</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="696ef731-0910-4678-90f1-da700653ade9">
 <persname short="THE." numberOfLines="329" numberOfVerseLines="329" numberOfProseLines="0" numberOfLyricsLines="0">Theseus, Duke of Athens</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aa97c8b7-ace2-4578-aac4-f4e10dfbc05f">
 <persname short="PIR." numberOfLines="125" numberOfVerseLines="125" numberOfProseLines="0" numberOfLyricsLines="0">Pirithous</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="PAL." numberOfLines="595" numberOfVerseLines="595" numberOfProseLines="0" numberOfLyricsLines="0">Palamon</persname>
-<persaliases>
-	<persname short="BOTH. ARC. AND PAL.">Both Arcite and Palamon</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="ARC." numberOfLines="490" numberOfVerseLines="490" numberOfProseLines="0" numberOfLyricsLines="0">Arcite</persname>
-<persaliases>
-	<persname short="BOTH. ARC. AND PAL.">Both Arcite and Palamon</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="VAL." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Valerius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HER." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="JAIL." numberOfLines="96" numberOfVerseLines="81" numberOfProseLines="15" numberOfLyricsLines="0">Jailer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WOOER." numberOfLines="101" numberOfVerseLines="97" numberOfProseLines="4" numberOfLyricsLines="0">Wooer to the Jailer&#8217;s Daughter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DOCT." numberOfLines="53" numberOfVerseLines="45" numberOfProseLines="8" numberOfLyricsLines="0">Doctor</persname>
-</persona>
-
-<persona gender="female">
-<persname short="HIP." numberOfLines="102" numberOfVerseLines="102" numberOfProseLines="0" numberOfLyricsLines="0">Hippolyta</persname>
-</persona>
-
-<persona gender="female">
-<persname short="EMIL." numberOfLines="372" numberOfVerseLines="372" numberOfProseLines="0" numberOfLyricsLines="0">Emilia</persname>
-</persona>
-
-<persona gender="female">
-<persname short="DAUGH." numberOfLines="273" numberOfVerseLines="262" numberOfProseLines="11" numberOfLyricsLines="23">Jailer&#8217;s Daughter</persname>
-</persona>
-
-<persona gender="female">
-<persname short="WOMAN." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Waiting-Woman to Emilia</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BOY" numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="24">Boy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BAVIAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Bavian</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GENT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1d412531-b4c7-4605-9e69-846f6f34af1e">
 <persname short="SCHOOL." numberOfLines="107" numberOfVerseLines="107" numberOfProseLines="0" numberOfLyricsLines="0">Gerald</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HYM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Hymen</persname>
+<persona gender="male" id="61e49353-da19-48f0-9d7d-5c01240cc992">
+<persname short="JAIL." numberOfLines="96" numberOfVerseLines="81" numberOfProseLines="15" numberOfLyricsLines="0">Jailer</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PRO." numberOfLines="50" numberOfVerseLines="50" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
-<persaliases>
-	<persname short="EPI.">Epilogue</persname>
-</persaliases>
+<persona gender="male" id="67b365d7-254a-47df-905e-5f97dd26dd7f">
+<persname short="WOOER." numberOfLines="101" numberOfVerseLines="97" numberOfProseLines="4" numberOfLyricsLines="0">Wooer to the Jailer&#8217;s Daughter</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="male" id="3362ec3e-ce9f-49cb-b6c1-3e719384cc3a">
+<persname short="DOCT." numberOfLines="53" numberOfVerseLines="45" numberOfProseLines="8" numberOfLyricsLines="0">Doctor</persname>
+</persona>
+
+<persona gender="female" id="491e6976-92bc-441c-b96e-4f3ada7b2d65">
+<persname short="EMIL." numberOfLines="372" numberOfVerseLines="372" numberOfProseLines="0" numberOfLyricsLines="0">Emilia</persname>
+</persona>
+
+<persona gender="female" id="64eaf616-404d-436c-9755-dbf0d7d87af1">
+<persname short="DAUGH." numberOfLines="273" numberOfVerseLines="262" numberOfProseLines="11" numberOfLyricsLines="23">Jailer&#8217;s Daughter</persname>
+</persona>
+
+<persona gender="female" id="8d59cd76-1292-41f6-a723-8a55df3e9d2f">
+<persname short="HIP." numberOfLines="102" numberOfVerseLines="102" numberOfProseLines="0" numberOfLyricsLines="0">Hippolyta</persname>
+</persona>
+
+
+
+
+
+
+
+
+<persona gender="female" id="e90a44b9-f348-4c5a-a3a2-01c747f9dc13">
 <persname short="1. QUEEN." numberOfLines="76" numberOfVerseLines="76" numberOfProseLines="0" numberOfLyricsLines="10">First Queen</persname>
 <persaliases>
 	<persname short="ALL QUEENS.">All Queens</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="95c7b462-d952-439f-99c0-0575c6b361a8">
 <persname short="2. QUEEN." numberOfLines="53" numberOfVerseLines="53" numberOfProseLines="0" numberOfLyricsLines="10">Second Queen</persname>
 <persaliases>
 	<persname short="ALL QUEENS.">All Queens</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="214eb0b4-1c81-403b-815b-b8797f3bf9d5">
 <persname short="3. QUEEN." numberOfLines="50" numberOfVerseLines="50" numberOfProseLines="0" numberOfLyricsLines="10">Third Queen</persname>
 <persaliases>
 	<persname short="ALL QUEENS.">All Queens</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. COUN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Country Folk</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. COUN." numberOfLines="30" numberOfVerseLines="29" numberOfProseLines="1" numberOfLyricsLines="0">Second Country Folk</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. COUN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Third Country Folk</persname>
-</persona>
-
-<persona gender="male">
-<persname short="4. COUN." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Country Folk</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. FRIEND." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s First Friend</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. FRIEND." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s Second Friend</persname>
-</persona>
-
-<persona gender="male">
-<persname short="JAIL. BROTH." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s Brother</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="0cd4a6e3-cb68-4d50-b4c4-800243feddfb">
 <persname short="SERV." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="d7a83e90-75b5-4628-839e-ddc24e9f6d2d">
+<persname short="WOMAN." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Waiting-Woman to Emilia</persname>
+</persona>
+
+<persona gender="female" id="ab3b790b-e7e1-4981-938f-f60f1bb3574b">
+<persname short="NELL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Nell</persname>
+</persona>
+
+<persona gender="male" id="1b170412-29d6-4077-8bdc-28104eb34b62">
+<persname short="BAVIAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Bavian</persname>
+</persona>
+
+<persona gender="male" id="614973dd-8a90-4abb-9ee1-acb6ae337c26">
+<persname short="TABORER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Timothy the Taborer</persname>
+</persona>
+
+<persona gender="male" id="a4e7a393-4119-440d-bc2a-a6bed7d486e4">
+<persname short="1. MESS." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="bc140e20-89e1-4d4c-bc09-5b1ed842894b">
+<persname short="2. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="b03908fe-d669-462b-b806-0ef046ad7e69">
+<persname short="GENT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
+</persona>
+
+<persona gender="male" id="5d98cfd2-35d4-4ff5-8223-2f0cba3c8b8f">
 <persname short="1. KNIGHT." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Knight</persname>
 <persaliases>
 	<persname short="BOTH 1. KNIGHT. AND 2. KNIGHT.">Both First and Second Knights</persname>
@@ -162,7 +134,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c1320993-7a2c-4343-bf6b-a0225b2d225f">
 <persname short="2. KNIGHT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second Knight</persname>
 <persaliases>
 	<persname short="BOTH 1. KNIGHT. AND 2. KNIGHT.">Both First and Second Knights</persname>
@@ -170,55 +142,98 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cf6c44dc-680d-419a-ac67-a360f4200131">
 <persname short="3. KNIGHT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Knight</persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Three Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="TABORER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Timothy the Taborer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ART." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Artesius</persname>
-</persona>
-
-<persona gender="female">
-<persname short="NELL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Nell</persname>
-</persona>
-
-<persona gender="female">
-<persname short="FRIZ." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Friz</persname>
-</persona>
-
-<persona gender="female">
-<persname short="MAUD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Maudline</persname>
-</persona>
-
-<persona gender="female">
-<persname short="LUCE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Luce</persname>
-</persona>
-
-<persona gender="female">
-<persname short="BARB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Barbary</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EXEC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Executioner</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="f52d50dd-c0b3-4177-860a-29096e94cd16">
 <persname short="1. KNIGHT. ARC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Knight Attending Arcite</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e7b7542e-1f7a-4e68-8879-06b095c7260b">
 <persname short="2. KNIGHT. ARC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Knight Attending Arcite</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aa15f663-1ce4-4a65-82d0-883fa6fbed9a">
 <persname short="3. KNIGHT. ARC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Third Knight Attending Arcite</persname>
+</persona>
+
+<persona gender="male" id="0dda8c4f-9834-4dce-b6bf-e6af5efe9941">
+<persname short="PRO." numberOfLines="50" numberOfVerseLines="50" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
+<persaliases>
+	<persname short="EPILOGUE">Epilogue</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="ee45b6f3-58ab-4a90-8658-8037f353c1ce">
+<persname short="BOY." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="24">Boy</persname>
+</persona>
+
+<persona gender="male" id="73927506-da99-4fdd-88da-66fd3a4fe4d8">
+<persname short="1. FRIEND." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s First Friend</persname>
+</persona>
+
+<persona gender="male" id="e1dfe7d9-cb9b-4f16-b33e-a60278ab3c1f">
+<persname short="2. FRIEND." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s Second Friend</persname>
+</persona>
+
+<persona gender="male" id="5b09bda2-58b1-4318-bd63-10d025d2a095">
+<persname short="1. COUN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Country Folk</persname>
+</persona>
+
+<persona gender="male" id="d79cf4e9-3200-4072-bf00-8607f53aca41">
+<persname short="2. COUN." numberOfLines="30" numberOfVerseLines="29" numberOfProseLines="1" numberOfLyricsLines="0">Second Country Folk</persname>
+</persona>
+
+<persona gender="male" id="e19df175-a106-48ed-bd92-6ca4da63100d">
+<persname short="3. COUN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Third Country Folk</persname>
+</persona>
+
+<persona gender="male" id="28349284-a106-4355-b97a-ae496a63d08b">
+<persname short="4. COUN." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Country Folk</persname>
+</persona>
+
+<persona gender="male" id="e921cf7f-0a16-4c60-9da8-a7a9294d3369">
+<persname short="VAL." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Valerius</persname>
+</persona>
+
+<persona gender="male" id="65a785e6-06e9-45d3-9a04-4d6f5c7a782e">
+<persname short="JAIL. BROTH." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Jailer&#8217;s Brother</persname>
+</persona>
+
+<persona gender="male" id="e908ed3c-3869-423f-9f10-c91bff2c037b">
+<persname short="HER." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Herald</persname>
+</persona>
+
+<persona gender="male" id="b78417a8-78fc-419b-b7fc-903d216848aa">
+<persname short="ART." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Artesius</persname>
+</persona>
+
+<persona gender="male" id="8d608fa7-8f01-4c24-8e06-3c8992f123c8">
+<persname short="HYM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Hymen</persname>
+</persona>
+
+<persona gender="male" id="4cfa3cdf-f1a1-47fc-8187-2c06c196911c">
+<persname short="EXEC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Executioner</persname>
+</persona>
+
+<persona gender="female" id="bfa897c6-9521-4175-8a11-c6483b7fc561">
+<persname short="FRIZ." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Friz</persname>
+</persona>
+
+<persona gender="female" id="7fe0c655-2c7e-4fb5-a5ab-72a89070de09">
+<persname short="MAUD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Maudline</persname>
+</persona>
+
+<persona gender="female" id="c0951b76-e260-413e-999d-a3f205c6222b">
+<persname short="LUCE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Luce</persname>
+</persona>
+
+<persona gender="female" id="705b124b-91ef-4256-ba88-657d50f570b1">
+<persname short="BARB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Barbary</persname>
 </persona>
 
 </personae>
@@ -226,7 +241,7 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="3" numberOfWords="271" numberOfLines="32">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PRO.">Prologue</scenepersona>
@@ -289,9 +304,10 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. Before a temple.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HYM.">Hymen</scenepersona>
-	<scenepersona short="BOY">Boy</scenepersona>
+	<scenepersona short="BOY.">Boy</scenepersona>
 	<scenepersona>Nymphs</scenepersona>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -364,7 +380,9 @@
 <stagedir sdglobalnumber="56.01" sdnumber="24.01">
 	<dir>Enter three Queens, in black, with veils stain&#8217;d, with imperial crowns.</dir>
 	<action type="enter">
-		<actor>ALL QUEENS.</actor>
+		<actor>1. QUEEN.</actor>
+		<actor>2. QUEEN.</actor>
+		<actor>3. QUEEN.</actor>
 	</action>
 </stagedir>
 
@@ -561,7 +579,7 @@
 <line globalnumber="154" number="112" form="verse">Like wrinkled pebbles in a glassy stream,</line>
 <line globalnumber="155" number="113" form="verse">You may behold &#8217;em. Lady, lady, alack!</line>
 <line globalnumber="156" number="114" form="verse">He that will all the treasure know o&#8217; th&#8217; earth</line>
-<line globalnumber="157" number="115" form="verse">Must know the centre too; he that will fish</line>
+<line globalnumber="157" number="115" form="verse">Must know the center too; he that will fish</line>
 <line globalnumber="158" number="116" form="verse">For my least minnow, let him lead his line</line>
 <line globalnumber="159" number="117" form="verse">To catch one at my heart. O, pardon me,</line>
 <line globalnumber="160" number="118" form="verse">Extremity, that sharpens sundry wits,</line>
@@ -880,6 +898,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Thebes. The palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
@@ -1126,6 +1145,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before the gates of Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PIR.">Pirithous</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -1334,6 +1354,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A field before Thebes.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona>Lords</scenepersona>
@@ -1365,6 +1386,9 @@
 </stagedir>
 <stagedir sdglobalnumber="542.04" sdnumber="0.03">
 	<dir>The three Queens meet him and fall on their faces before him.</dir>
+	<action type="enter">
+		<actor>ALL QUEENS.</actor>
+	</action>
 	<action type="action">
 		<actor>ALL QUEENS.</actor>
 	</action>
@@ -1497,6 +1521,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of a field before Thebes.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ALL QUEENS.">Three Queens</scenepersona>
 	<scenepersona>Knights</scenepersona>
@@ -1512,6 +1537,7 @@
 	</action>
 	<action type="enter">
 		<actor>ALL QUEENS.</actor>
+		<actor>Knights</actor>
 	</action>
 </stagedir>
 
@@ -1573,6 +1599,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A garden, with a prison in the background.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 	<scenepersona short="WOOER.">Wooer</scenepersona>
@@ -1674,6 +1701,10 @@
 		<actor>PAL.</actor>
 		<actor>ARC.</actor>
 	</action>
+	<action type="exit">
+		<actor>PAL.</actor>
+		<actor>ARC.</actor>
+	</action>
 </stagedir>
 <line globalnumber="629" number="15" form="prose">Look yonder they are! That&#8217;s Arcite looks out.</line>
 </speech>
@@ -1706,6 +1737,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
@@ -2591,6 +2623,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The country near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="1. COUN.">First Country Folk</scenepersona>
@@ -2889,6 +2922,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Athens. A room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
@@ -2952,6 +2986,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Athens. An open place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -3216,6 +3251,7 @@
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Athens. Before the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
@@ -3288,6 +3324,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="PAL.">Palamon</scenepersona>
@@ -3342,6 +3379,8 @@
 <line globalnumber="1261" number="28" form="verse">Thou knew&#8217;st my mistress breath&#8217;d on me, and that</line>
 <line globalnumber="1262" number="29" form="verse">I ear&#8217;d her language, liv&#8217;d in her eye, O coz,</line>
 <line globalnumber="1263" number="30" form="verse" offset="0">What passion would enclose thee!</line>
+</speech>
+
 <stagedir sdglobalnumber="1263.01" sdnumber="30.01">
 	<dir>Enter Palamon, as out of a bush, with his shackles; bends his fist at Arcite.</dir>
 	<action type="enter">
@@ -3508,8 +3547,6 @@
 <line globalnumber="1352" number="106" form="verse">Yet pardon me hard language. When I spur</line>
 <line globalnumber="1353" number="107" form="verse">My horse, I chide him not; content and anger</line>
 <line globalnumber="1354" number="108" form="verse" offset="0">In me have but one face.</line>
-</speech>
-
 <stagedir sdglobalnumber="1354.01" sdnumber="108.01">
 	<dir>Wind horns within.</dir>
 	<action type="sound">
@@ -3570,6 +3607,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
@@ -3638,6 +3676,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARC.">Arcite</scenepersona>
 	<scenepersona short="PAL.">Palamon</scenepersona>
@@ -3948,7 +3987,7 @@
 <line globalnumber="1496" number="53" form="verse" offset="4">If he keep touch, he dies for&#8217;t.</line>
 </speech>
 
-<stagedir sdglobalnumber="1496.01" sdnumber="53.01">
+<stagedir sdglobalnumber="1496.01" sdnumber="53.02">
 	<dir>Exit.</dir>
 	<action type="exit">
 		<actor>PAL.</actor>
@@ -3959,6 +3998,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DAUGH.">Jailer&#8217;s Daughter</scenepersona>
 </scenepersonae>
@@ -4021,6 +4061,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SCHOOL.">Schoolmaster Gerald</scenepersona>
 	<scenepersona short="1. COUN.">First Country Folk</scenepersona>
@@ -4364,7 +4405,7 @@
 <line globalnumber="1632" number="94" form="verse" offset="4">Pallas inspire me!</line>
 </speech>
 
-<stagedir sdglobalnumber="1632.01" sdnumber="94.01">
+<stagedir sdglobalnumber="1632.01" sdnumber="94.02">
 	<dir>Enter Theseus, Pirithous, Hippolyta, Emilia, Arcite, and Train.</dir>
 	<action type="enter">
 		<actor>THE.</actor>
@@ -4558,6 +4599,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the forest near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ARC.">Arcite</scenepersona>
@@ -5390,7 +5432,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Arcite and Palamon">BOTH. ARC. AND PAL.</speaker>
+<speaker long="Both Arcite and Palamon">BOTH ARC. AND PAL.</speaker>
 <line globalnumber="2040" number="280" form="verse" offset="0">With all our souls.</line>
 </speech>
 
@@ -5401,7 +5443,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Arcite and Palamon">BOTH. ARC. AND PAL.</speaker>
+<speaker long="Both Arcite and Palamon">BOTH ARC. AND PAL.</speaker>
 <line globalnumber="2043" number="281" form="verse" offset="3">Any death thou canst invent, Duke.</line>
 </speech>
 
@@ -5510,6 +5552,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 	<scenepersona short="1. FRIEND.">Jailer&#8217;s First Friend</scenepersona>
@@ -5839,7 +5882,7 @@
 
 <speech>
 <speaker long="Jailer&#8217;s Daughter">DAUGH.</speaker>
-<stagedir sdglobalnumber="2206.01" sdnumber="104.01">
+<stagedir sdglobalnumber="2206.01" sdnumber="104.02">
 	<dir>Sings.</dir>
 	<action type="song">
 		<actor>DAUGH.</actor>
@@ -6127,6 +6170,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EMIL.">Emilia</scenepersona>
 	<scenepersona short="GENT.">Gentleman</scenepersona>
@@ -6176,7 +6220,7 @@
 <line globalnumber="2303" number="24" form="verse">To all the under world the loves and fights</line>
 <line globalnumber="2304" number="25" form="verse">Of gods and such men near &#8217;em. Palamon</line>
 <line globalnumber="2305" number="26" form="verse">Is but his foil, to him, a mere dull shadow;</line>
-<line globalnumber="2306" number="27" form="verse">He&#8217;s swarth and meagre, of an eye as heavy</line>
+<line globalnumber="2306" number="27" form="verse">He&#8217;s swarth and meager, of an eye as heavy</line>
 <line globalnumber="2307" number="28" form="verse">As if he had lost his mother; a still temper,</line>
 <line globalnumber="2308" number="29" form="verse">No stirring in him, no alacrity,</line>
 <line globalnumber="2309" number="30" form="verse">Of all this sprightly sharpness, not a smile.</line>
@@ -6501,6 +6545,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
 	<scenepersona short="WOOER.">Wooer</scenepersona>
@@ -6667,6 +6712,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before the Temples of Mars, Venus, and Diana.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="PIR.">Pirithous</scenepersona>
@@ -6689,7 +6735,7 @@
 
 <stagedir sdglobalnumber="2477.02" sdnumber="0.01">
 	<dir>Three altars erected&#8212;to Mars, Venus, and Diana. Flourish. Enter Theseus, Pirithous, Hippolyta, Attendants.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>THE.</actor>
 		<actor>PIR.</actor>
 		<actor>HIP.</actor>
@@ -6905,7 +6951,9 @@
 	<dir>Here they advance to the altar of Venus, and fall on their faces; then kneel, as formerly.</dir>
 	<action type="action">
 		<actor>PAL.</actor>
-		<actor>Knights</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT. </actor>
+		<actor>3. KNIGHT. </actor>
 	</action>
 </stagedir>
 <line globalnumber="2560" number="77" form="verse">Hail, sovereign queen of secrets, who hast power</line>
@@ -6991,6 +7039,10 @@
 
 <stagedir sdglobalnumber="2619.02" sdnumber="136.02">
 	<dir>Still music of records. Enter Emilia in white, her hair about her shoulders, and wearing a wheaten wreath; one in white holding up her train, her hair stuck with flowers; one before her carrying a silver hind, in which is convey&#8217;d incense and sweet odors, which being set upon the altar of Diana, her maids standing aloof, she sets fire to it; then they curtsy and kneel.</dir>
+	<action type="enter">
+		<actor>EMIL.</actor>
+		<actor>Attendants</actor>
+	</action>
 	<action type="action">
 		<actor>EMIL.</actor>
 		<actor>Attendants</actor>
@@ -7060,6 +7112,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A darkened room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DOCT.">Doctor</scenepersona>
 	<scenepersona short="JAIL.">Jailer</scenepersona>
@@ -7678,6 +7731,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A place near the Lists.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -8094,6 +8148,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A place near the Lists. A block prepared.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAL.">Palamon</scenepersona>
 	<scenepersona short="ALL KNIGHTS.">Three Knights</scenepersona>
@@ -8493,10 +8548,10 @@
 
 </act>
 
-<epilogue minutesRunning="2" numberOfWords="166" numberOfLines="18">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
-	<scenepersona short="EPI.">Epilogue</scenepersona>
+	<scenepersona short="EPILOGUE">Epilogue</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -8504,7 +8559,7 @@
 
 
 <speech type="soliloquy">
-<speaker long="Epilogue">EPI.</speaker>
+<speaker long="Epilogue">EPILOGUE</speaker>
 <line globalnumber="3146" number="1" form="verse">I would now ask ye how ye like the play,</line>
 <line globalnumber="3147" number="2" form="verse">But as it is with schoolboys, cannot say;</line>
 <line globalnumber="3148" number="3" form="verse">I am cruel fearful. Pray yet stay a while,</line>
@@ -8534,26 +8589,10 @@
 </epilogue>
 
 
-<locations numberOfLocations="18">
-<placename>A darkened room in the prison.</placename>
-<placename>A field before Thebes.</placename>
-<placename>A forest near Athens.</placename>
-<placename>A place near the Lists.</placename>
-<placename>A room in the palace.</placename>
-<placename>A room in the prison.</placename>
-<placename>Another part of a field before Thebes.</placename>
-<placename>Another part of the forest near Athens.</placename>
-<placename>Athens. A garden, with a prison in the background.</placename>
-<placename>Athens. A room in the prison.</placename>
-<placename>Athens. An open place.</placename>
-<placename>Athens. Before a temple.</placename>
-<placename>Athens. Before the prison.</placename>
-<placename>Before the Temples of Mars, Venus, and Diana.</placename>
-<placename>Before the gates of Athens.</placename>
-<placename>The country near Athens.</placename>
-<placename>The prison.</placename>
-<placename>Thebes. The palace.</placename>
-</locations>
+
+
+
+
 
 <sources>
 <playsource>
@@ -8578,11 +8617,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

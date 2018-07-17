@@ -1,117 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="measure-for-measure">
 <title short="Measure for Measure">Measure for Measure</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1604</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Measure for Measure">
-<persona gender="male">
+
+<persona gender="male" id="eaa4ea7e-c3af-441f-a0b4-e0f49623c231">
 <persname short="DUKE." numberOfLines="687" numberOfVerseLines="612" numberOfProseLines="75" numberOfLyricsLines="0">Vincentio, the Duke</persname>
 </persona>
 
-<persona gender="male" archetype="villain">
+<persona gender="male" archetype="villain" id="0e79f955-61a2-494e-932a-aaec21c11031">
 <persname short="ANG." numberOfLines="312" numberOfVerseLines="301" numberOfProseLines="11" numberOfLyricsLines="0">Angelo</persname>
 <persaliases>
-	<persname short="BOTH. ANG. AND ESCAL.">Both Angelo and Escalus</persname>
+	<persname short="BOTH ANG. AND ESCAL.">Both Angelo and Escalus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ESCAL." numberOfLines="126" numberOfVerseLines="58" numberOfProseLines="68" numberOfLyricsLines="0">Escalus</persname>
-<persaliases>
-	<persname short="BOTH. ANG. AND ESCAL.">Both Angelo and Escalus</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="lover">
-<persname short="CLAUD." numberOfLines="112" numberOfVerseLines="108" numberOfProseLines="4" numberOfLyricsLines="0">Claudio</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="3a4b498e-9d43-4170-86b1-0d2901cff042">
 <persname short="LUCIO." numberOfLines="178" numberOfVerseLines="105" numberOfProseLines="73" numberOfLyricsLines="0">Lucio</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f37c66b7-654c-4ff8-8e44-c8e20bfac97f">
+<persname short="ESCAL." numberOfLines="126" numberOfVerseLines="58" numberOfProseLines="68" numberOfLyricsLines="0">Escalus</persname>
+<persaliases>
+	<persname short="BOTH ANG. AND ESCAL.">Both Angelo and Escalus</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="0d466c84-d955-4311-be69-c3fd3a33ccba">
 <persname short="PROV." numberOfLines="123" numberOfVerseLines="96" numberOfProseLines="27" numberOfLyricsLines="0">Provost</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FRI. PET." numberOfLines="42" numberOfVerseLines="42" numberOfProseLines="0" numberOfLyricsLines="0">Friar Peter Thomas</persname>
+<persona gender="male" archetype="lover" id="71b6635a-f73d-4ff4-af7d-ccdcaaa4f09a">
+<persname short="CLAUD." numberOfLines="112" numberOfVerseLines="108" numberOfProseLines="4" numberOfLyricsLines="0">Claudio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JUST." numberOfLines="3" numberOfVerseLines="1" numberOfProseLines="2" numberOfLyricsLines="0">Justice</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VARR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Varrius</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="ELB." numberOfLines="28" numberOfVerseLines="1" numberOfProseLines="27" numberOfLyricsLines="0">Elbow</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="FROTH." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Froth</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="644251b1-e333-4c80-aaf6-34ebbffa8507">
 <persname short="POM." numberOfLines="63" numberOfVerseLines="4" numberOfProseLines="59" numberOfLyricsLines="0">Pompey</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bc53247a-9257-4b6d-93f5-f38e4fbdd987">
+<persname short="FRI. PET." numberOfLines="42" numberOfVerseLines="42" numberOfProseLines="0" numberOfLyricsLines="0">Friar Peter Thomas</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="f0552ced-5115-4f2e-b9aa-d34c98cd20ec">
+<persname short="ELB." numberOfLines="28" numberOfVerseLines="1" numberOfProseLines="27" numberOfLyricsLines="0">Elbow</persname>
+</persona>
+
+<persona gender="male" id="4730259f-8c2b-4afe-b9e5-383cd595f25d">
 <persname short="ABHOR." numberOfLines="13" numberOfVerseLines="0" numberOfProseLines="13" numberOfLyricsLines="0">Abhorson</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="6e762def-35a1-47b3-b259-57233be42e79">
+<persname short="FROTH." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Froth</persname>
+</persona>
+
+<persona gender="male" id="53215ef5-4f3e-4053-9a08-c79a177cf342">
 <persname short="BAR." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Barnardine</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
+<persona gender="female" archetype="hero" id="efd48f77-8c6a-47e6-9f14-7a3426add331">
 <persname short="ISAB." numberOfLines="409" numberOfVerseLines="399" numberOfProseLines="10" numberOfLyricsLines="0">Isabella</persname>
 </persona>
 
-<persona gender="female">
-<persname short="MARI." numberOfLines="67" numberOfVerseLines="62" numberOfProseLines="5" numberOfLyricsLines="0">Mariana</persname>
+<persona gender="female" id="cc169332-39fb-4657-aa4e-c8904fb540ea">
+<persname short="MAR." numberOfLines="67" numberOfVerseLines="62" numberOfProseLines="5" numberOfLyricsLines="0">Mariana</persname>
 </persona>
 
-<persona gender="female">
-<persname short="JUL." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Juliet</persname>
-</persona>
-
-<persona gender="female">
-<persname short="FRAN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Francisca</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="b573f957-4ba5-410f-ba94-8188623009f8">
 <persname short="MRS. OV." numberOfLines="16" numberOfVerseLines="0" numberOfProseLines="16" numberOfLyricsLines="0">Mistress Overdone</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Servant</persname>
+<persona gender="female" id="2b642b46-0ef7-4465-a0b9-23d1a6c965a0">
+<persname short="JUL." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Juliet</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. GENT." numberOfLines="13" numberOfVerseLines="0" numberOfProseLines="13" numberOfLyricsLines="0">First Gentleman</persname>
+<persona gender="female" id="419b7a17-57e0-470e-9b90-0387be049489">
+<persname short="FRAN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Francisca</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. GENT." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Second Gentleman</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="4500eb06-bfb1-4d0c-9617-d9cdba12cdd2">
 <persname short="BOY." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="6">Boy</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9f61fe1d-5d26-4900-9eb6-3006762b64f8">
+<persname short="JUST." numberOfLines="3" numberOfVerseLines="1" numberOfProseLines="2" numberOfLyricsLines="0">Justice</persname>
+</persona>
+
+<persona gender="male" id="01ac2af2-237e-4e73-8ddc-d02da7e41d94">
+<persname short="1. GENT." numberOfLines="13" numberOfVerseLines="0" numberOfProseLines="13" numberOfLyricsLines="0">First Gentleman</persname>
+</persona>
+
+<persona gender="male" id="b6f7c689-75dd-49fa-ab41-976f1aee79dd">
+<persname short="2. GENT." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Second Gentleman</persname>
+</persona>
+
+<persona gender="male" id="3fc15f11-e6a7-455d-9f58-0f49bf3e95fe">
+<persname short="SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Servant</persname>
+</persona>
+
+<persona gender="male" id="9832a71e-0150-413f-b98e-4839b4310cf0">
 <persname short="MESS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="725b30d5-be4e-4b81-bb68-5ac135360e73">
+<persname short="VARR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Varrius</persname>
+</persona>
+
+<persona gender="male" id="1d2deedc-2327-40fb-a7bc-42bd5809c798">
 <persname short="ATT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Attendant</persname>
 </persona>
+
 </personae>
 
 <act num="1">
@@ -119,6 +126,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Vienna. An apartment in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="ESCAL.">Escalus</scenepersona>
@@ -332,6 +340,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Vienna. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUCIO.">Lucio</scenepersona>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
@@ -410,7 +419,7 @@
 
 <speech>
 <speaker long="First Gentleman">1. GENT.</speaker>
-<line globalnumber="100" number="11" form="prose">What? In metre?</line>
+<line globalnumber="100" number="11" form="prose">What? In meter?</line>
 </speech>
 
 <speech>
@@ -883,6 +892,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Vienna. A monastery.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
@@ -998,6 +1008,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Vienna. A nunnery.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 	<scenepersona short="FRAN.">Francisca</scenepersona>
@@ -1284,6 +1295,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Angelo&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANG.">Angelo</scenepersona>
 	<scenepersona short="ESCAL.">Escalus</scenepersona>
@@ -2018,6 +2030,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another room in Angelo&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PROV.">Provost</scenepersona>
 	<scenepersona short="SERV.">Servant</scenepersona>
@@ -2700,6 +2713,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in a prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="PROV.">Provost</scenepersona>
@@ -2883,6 +2897,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANG.">Angelo</scenepersona>
 	<scenepersona short="SERV.">Servant</scenepersona>
@@ -3331,6 +3346,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
@@ -3914,6 +3930,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The street before the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="ELB.">Elbow</scenepersona>
@@ -3932,7 +3949,7 @@
 
 <stagedir sdglobalnumber="1199.02" sdnumber="0.01">
 	<dir>Enter Elbow, Clown Pompey, and Officers to the Duke.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>DUKE.</actor>
 	</action>
 	<action type="enter">
@@ -4481,8 +4498,9 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The moated grange at St. Luke&#8217;s.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="MARI.">Mariana</scenepersona>
+	<scenepersona short="MAR.">Mariana</scenepersona>
 	<scenepersona short="BOY.">Boy</scenepersona>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
@@ -4495,7 +4513,7 @@
 <stagedir sdglobalnumber="1329.02" sdnumber="0.01">
 	<dir>Enter Mariana, and Boy singing.</dir>
 	<action type="enter">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>BOY.</actor>
 	</action>
 </stagedir>
@@ -4525,7 +4543,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1336" number="7" form="verse">Break off thy song, and haste thee quick away.</line>
 <line globalnumber="1337" number="8" form="verse">Here comes a man of comfort, whose advice</line>
 <line globalnumber="1338" number="9" form="verse">Hath often still&#8217;d my brawling discontent.</line>
@@ -4549,7 +4567,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1346" number="17" form="prose">You have not been inquir&#8217;d after. I have sat here all day.</line>
 </speech>
 
@@ -4566,14 +4584,14 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1348" number="19" form="prose">I am always bound to you.</line>
 </speech>
 
 <stagedir sdglobalnumber="1348.01" sdnumber="19.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 
@@ -4632,7 +4650,7 @@
 <stagedir sdglobalnumber="1374.01" sdnumber="43.01">
 	<dir>Enter Mariana.</dir>
 	<action type="enter">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1375" number="44" form="verse">I pray you be acquainted with this maid,</line>
@@ -4650,7 +4668,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1379" number="47" form="verse">Good friar, I know you do, and have found it.</line>
 </speech>
 
@@ -4663,14 +4681,14 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1384" number="52" form="verse">Will&#8217;t please you walk aside?</line>
 </speech>
 
 <stagedir sdglobalnumber="1384.01" sdnumber="52.01">
 	<dir>Exit with Isabella.</dir>
 	<action type="exit">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>ISAB.</actor>
 	</action>
 </stagedir>
@@ -4686,7 +4704,7 @@
 <stagedir sdglobalnumber="1390.01" sdnumber="58.01">
 	<dir>Enter Mariana and Isabella.</dir>
 	<action type="enter">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>ISAB.</actor>
 	</action>
 </stagedir>
@@ -4713,7 +4731,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1399" number="64" form="verse" offset="6">Fear me not.</line>
 </speech>
 
@@ -4730,7 +4748,7 @@
 <stagedir sdglobalnumber="1405.01" sdnumber="70.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>DUKE.</actor>
 		<actor>ISAB.</actor>
 	</action>
@@ -4741,6 +4759,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PROV.">Provost</scenepersona>
 	<scenepersona short="POM.">Pompey</scenepersona>
@@ -4999,7 +5018,7 @@
 	</action>
 </stagedir>
 <line globalnumber="1459" number="46" form="verse" offset="5">Now are they come.</line>
-<stagedir sdglobalnumber="1459.01" sdnumber="46.01">
+<stagedir sdglobalnumber="1459.01" sdnumber="46.02">
 	<dir>Exit Provost.</dir>
 	<action type="exit">
 		<actor>PROV.</actor>
@@ -5261,6 +5280,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another room in the prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POM.">Pompey</scenepersona>
 	<scenepersona short="ABHOR.">Abhorson</scenepersona>
@@ -5778,6 +5798,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Angelo&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANG.">Angelo</scenepersona>
 	<scenepersona short="ESCAL.">Escalus</scenepersona>
@@ -5868,6 +5889,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Fields without the town.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
@@ -5946,9 +5968,10 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>A street near the city gate.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
-	<scenepersona short="MARI.">Mariana</scenepersona>
+	<scenepersona short="MAR.">Mariana</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -5960,7 +5983,7 @@
 	<dir>Enter Isabella and Mariana.</dir>
 	<action type="enter">
 		<actor>ISAB.</actor>
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 
@@ -5973,7 +5996,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1686" number="4" form="verse" offset="6">Be rul&#8217;d by him.</line>
 </speech>
 
@@ -5993,7 +6016,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1691" number="9" form="verse" offset="0">I would Friar Peter&#8212;</line>
 </speech>
 
@@ -6016,7 +6039,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>ISAB.</actor>
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>FRI. PET.</actor>
 	</action>
 </stagedir>
@@ -6029,6 +6052,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>At the city gate.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="VARR.">Varrius</scenepersona>
@@ -6041,7 +6065,7 @@
 	<scenepersona>Citizens</scenepersona>
 	<scenepersona short="FRI. PET.">Friar Peter</scenepersona>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
-	<scenepersona short="MARI.">Mariana</scenepersona>
+	<scenepersona short="MAR.">Mariana</scenepersona>
 	<scenepersona>Attendant</scenepersona>
 	<scenepersona short="BAR.">Barnardine</scenepersona>
 	<scenepersona short="CLAUD.">Claudio</scenepersona>
@@ -6077,7 +6101,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Angelo and Escalus">BOTH. ANG. AND ESCAL.</speaker>
+<speaker long="Both Angelo and Escalus">BOTH ANG. AND ESCAL.</speaker>
 <line globalnumber="1701" number="3" form="verse">Happy return be to your royal Grace!</line>
 </speech>
 
@@ -6474,7 +6498,7 @@
 <line globalnumber="1879" number="162" form="verse" offset="5">Good friar, let&#8217;s hear it.</line>
 <stagedir sdglobalnumber="1879.01" sdnumber="162.01">
 	<dir>Isabella is carried off guarded.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>Officers</actor>
 		<recipient>ISAB.</recipient>
 	</action>
@@ -6487,7 +6511,7 @@
 <stagedir sdglobalnumber="1884.01" sdnumber="167.01">
 	<dir>Enter Mariana veiled.</dir>
 	<action type="enter">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1885" number="167" form="verse" offset="4">Is this the witness, friar?</line>
@@ -6495,7 +6519,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1887" number="169" form="verse">Pardon, my lord, I will not show my face</line>
 <line globalnumber="1888" number="170" form="verse">Until my husband bid me.</line>
 </speech>
@@ -6506,7 +6530,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1890" number="172" form="prose">No, my lord.</line>
 </speech>
 
@@ -6516,7 +6540,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1892" number="174" form="prose">No, my lord.</line>
 </speech>
 
@@ -6526,7 +6550,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1894" number="176" form="prose">Neither, my lord.</line>
 </speech>
 
@@ -6552,7 +6576,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1900" number="182" form="verse">My lord, I do confess I ne&#8217;er was married,</line>
 <line globalnumber="1901" number="183" form="verse">And I confess besides I am no maid.</line>
 <line globalnumber="1902" number="184" form="verse">I have known my husband, yet my husband</line>
@@ -6580,7 +6604,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1908" number="190" form="verse">Now I come to&#8217;t, my lord.</line>
 <line globalnumber="1909" number="191" form="verse">She that accuses him of fornication,</line>
 <line globalnumber="1910" number="192" form="verse">In self-same manner doth accuse my husband,</line>
@@ -6595,7 +6619,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1915" number="196" form="verse" offset="5">Not that I know.</line>
 </speech>
 
@@ -6605,7 +6629,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1917" number="198" form="verse">Why, just, my lord, and that is Angelo,</line>
 <line globalnumber="1918" number="199" form="verse">Who thinks he knows that he ne&#8217;er knew my body,</line>
 <line globalnumber="1919" number="200" form="verse">But knows he thinks that he knows Isabel&#8217;s.</line>
@@ -6617,12 +6641,12 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1921" number="202" form="verse">My husband bids me, now I will unmask.</line>
 <stagedir sdglobalnumber="1921.01" sdnumber="202.01">
 	<dir>Unveiling.</dir>
 	<action type="action">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1922" number="203" form="verse">This is that face, thou cruel Angelo,</line>
@@ -6668,7 +6692,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="1942" number="220" form="verse" offset="5">Noble Prince,</line>
 <line globalnumber="1943" number="221" form="verse">As there comes light from heaven, and words from breath,</line>
 <line globalnumber="1944" number="222" form="verse">As there is sense in truth, and truth in virtue,</line>
@@ -7069,7 +7093,7 @@
 	<dir>Exeunt Angelo, Mariana, Friar Peter, Provost.</dir>
 	<action type="exit">
 		<actor>ANG.</actor>
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>FRI. PET.</actor>
 		<actor>PROV.</actor>
 	</action>
@@ -7118,7 +7142,7 @@
 	<dir>Enter Angelo, Mariana, Friar Peter, Provost.</dir>
 	<action type="enter">
 		<actor>ANG.</actor>
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>FRI. PET.</actor>
 		<actor>PROV.</actor>
 	</action>
@@ -7151,7 +7175,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="2118" number="381" form="verse" offset="3">O my most gracious lord,</line>
 <line globalnumber="2119" number="382" form="verse">I hope you will not mock me with a husband!</line>
 </speech>
@@ -7169,7 +7193,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="2128" number="390" form="verse" offset="6">O my dear lord,</line>
 <line globalnumber="2129" number="391" form="verse">I crave no other, nor no better man.</line>
 </speech>
@@ -7180,11 +7204,11 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <stagedir sdglobalnumber="2130.01" sdnumber="392.01">
 	<dir>Kneeling.</dir>
 	<action type="action">
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2131" number="393" form="verse" offset="0">Gentle my liege&#8212;</line>
@@ -7205,7 +7229,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="2135" number="396" form="verse">O my good lord! Sweet Isabel, take my part!</line>
 <line globalnumber="2136" number="397" form="verse">Lend me your knees, and all my life to come</line>
 <line globalnumber="2137" number="398" form="verse">I&#8217;ll lend you all my life to do you service.</line>
@@ -7220,7 +7244,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="2142" number="402" form="verse" offset="6">Isabel!</line>
 <line globalnumber="2143" number="403" form="verse">Sweet Isabel, do yet but kneel by me.</line>
 <line globalnumber="2144" number="404" form="verse">Hold up your hands, say nothing; I&#8217;ll speak all.</line>
@@ -7258,7 +7282,7 @@
 </speech>
 
 <speech>
-<speaker long="Mariana">MARI.</speaker>
+<speaker long="Mariana">MAR.</speaker>
 <line globalnumber="2162" number="420" form="verse" offset="6">Merely, my lord.</line>
 </speech>
 
@@ -7490,7 +7514,7 @@
 		<actor>DUKE.</actor>
 		<actor>ISAB.</actor>
 		<actor>ANG.</actor>
-		<actor>MARI.</actor>
+		<actor>MAR.</actor>
 		<actor>FRI. PET.</actor>
 		<actor>BAR.</actor>
 		<actor>PROV.</actor>
@@ -7503,22 +7527,9 @@
 </act>
 
 
-<locations numberOfLocations="14">
-<placename>A hall in Angelo&#8217;s house.</placename>
-<placename>A room in Angelo&#8217;s house.</placename>
-<placename>A room in a prison.</placename>
-<placename>A street near the city gate.</placename>
-<placename>Another room in Angelo&#8217;s house.</placename>
-<placename>Another room in the prison.</placename>
-<placename>At the city gate.</placename>
-<placename>Fields without the town.</placename>
-<placename>The moated grange at St. Luke&#8217;s.</placename>
-<placename>The street before the prison.</placename>
-<placename>Vienna. A monastery.</placename>
-<placename>Vienna. A nunnery.</placename>
-<placename>Vienna. A street.</placename>
-<placename>Vienna. An apartment in the Duke&#8217;s palace.</placename>
-</locations>
+
+
+
 
 
 <sources>
@@ -7568,10 +7579,9 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 </play>

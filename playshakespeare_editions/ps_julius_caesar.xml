@@ -1,245 +1,252 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="julius-caesar">
 <title short="Julius Caesar">The Tragedy of Julius Caesar</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1599</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Julius Caesar">
 
-<persona gender="male">
-<persname short="CAES. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Servant</persname>
+<persona gender="male" archetype="hero" death="yes" id="5aa2fd9c-9ae8-43d9-8aca-3e0c7341bf71">
+<persname short="CAES." numberOfLines="154" numberOfVerseLines="154" numberOfProseLines="0" numberOfLyricsLines="0">Julius Caesar</persname>
+<persaliases>
+	<persname short="GHOST." type="namechange">Ghost of Julius Caesar</persname>
+</persaliases>
 </persona>
 
-<persona gender="female" death="yes">
-<persname short="POR." numberOfLines="92" numberOfVerseLines="92" numberOfProseLines="0" numberOfLyricsLines="0">Portia</persname>
+<persona gender="male" archetype="hero" death="yes" id="de1f8ed0-c006-4c0c-b28a-9e5fbcea05b1">
+<persname short="BRU." numberOfLines="694" numberOfVerseLines="688" numberOfProseLines="6" numberOfLyricsLines="0">Marcus Brutus</persname>
 </persona>
 
-<persona gender="female">
-<persname short="CAL." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Calphurnia</persname>
+<persona gender="male" archetype="hero" death="yes" id="df3becea-b361-47f9-9ba8-e982c9ec450e">
+<persname short="CAS." numberOfLines="506" numberOfVerseLines="498" numberOfProseLines="8" numberOfLyricsLines="0">Cassius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PIN." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Pindarus</persname>
+<persona gender="male" archetype="hero" id="0ad6bb94-5924-498c-8296-2af6e928eb6d">
+<persname short="ANT." numberOfLines="329" numberOfVerseLines="329" numberOfProseLines="0" numberOfLyricsLines="0">Mark Antony</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DAR." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Dardanius</persname>
+<persona gender="male" id="5360b997-82ed-470e-876d-263b1e4b2d1a">
+<persname short="CASCA." numberOfLines="90" numberOfVerseLines="75" numberOfProseLines="15" numberOfLyricsLines="0">Casca</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="999727b9-7560-4262-bc6c-0d83e6010871">
+<persname short="OCT." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">Octavius Caesar</persname>
+</persona>
+
+<persona gender="male" id="852d2bc6-78e5-4f87-924a-3f93356b6736">
+<persname short="DEC." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Decius Brutus</persname>
+</persona>
+
+<persona gender="male" id="e457da42-f75b-49f2-8a4b-885031c8ae19">
+<persname short="MES." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Messala</persname>
+<persaliases>
+	<persname short="BOTH TIT. AND MES.">Both Titinius and Messala</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="4828cc16-64d5-42c1-acbd-b494bae822c0">
 <persname short="LUC." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Lucius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="1f7dd888-a952-4433-b0fa-acdb66df1be2">
+<persname short="TIT." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Titinius</persname>
+<persaliases>
+	<persname short="BOTH TIT. AND MES.">Both Titinius and Messala</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="86bc585f-fda3-4d62-bde4-8bed907908a7">
+<persname short="MUR." numberOfLines="31" numberOfVerseLines="29" numberOfProseLines="2" numberOfLyricsLines="0">Murellus</persname>
+</persona>
+
+<persona gender="male" id="f7022d20-8c73-4972-a78c-94d1ab93f439">
+<persname short="LUCIL." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Lucilius</persname>
+</persona>
+
+<persona gender="male" id="38676f06-b498-4367-9eef-97989ea43ccd">
+<persname short="FLAV." numberOfLines="27" numberOfVerseLines="25" numberOfProseLines="2" numberOfLyricsLines="0">Flavius</persname>
+</persona>
+
+<persona gender="male" id="a4b44846-0bbb-44de-9cd2-4a1390ed6543">
+<persname short="SOOTH." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Soothsayer</persname>
+</persona>
+
+<persona gender="male" id="d0c2e562-201a-467b-a630-32bcceef0d44">
+<persname short="CIN." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Cinna</persname>
+</persona>
+
+<persona gender="male" id="b5ec815e-cff7-47a9-8b65-42e5a1201876">
+<persname short="PIN." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Pindarus</persname>
+</persona>
+
+<persona gender="male" id="fa2db3d1-ec5f-482e-9687-ae2cee8b2536">
+<persname short="MET." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Metellus Cimber</persname>
+</persona>
+
+<persona gender="male" id="9a05e6ed-d510-4c97-8444-4d735338bee3">
+<persname short="LIG." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Caius Ligarius</persname>
+</persona>
+
+<persona gender="male" id="61dfad1a-1029-4412-bac6-c9fc44fb3567">
+<persname short="ART." numberOfLines="11" numberOfVerseLines="10" numberOfProseLines="1" numberOfLyricsLines="0">Artemidorus of Cnidos</persname>
+</persona>
+
+<persona gender="male" death="yes" id="a75a518b-8339-44bc-ada5-8b2c4e9db524">
+<persname short="CIN. POET." numberOfLines="11" numberOfVerseLines="4" numberOfProseLines="7" numberOfLyricsLines="0">Cinna, a Poet</persname>
+</persona>
+
+<persona gender="male" id="59c88222-8732-476e-ace5-cdb5757f4f2e">
+<persname short="CLI." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Clitus</persname>
+</persona>
+
+<persona gender="male" id="6f3ea8f0-f4f0-4a6b-a77a-0473e2e70e85">
+<persname short="TREB." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Trebonius</persname>
+</persona>
+
+<persona gender="male" death="yes" id="4cdb3f8a-83e2-4f02-8320-8eb8c7448880">
+<persname short="CIC." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Cicero</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1059c927-3ccd-4713-9986-c966659060a8">
+<persname short="CATO." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Young Cato</persname>
+</persona>
+
+<persona gender="male" id="f54f8185-c322-472b-822b-8b31c5ff0c7d">
+<persname short="POET." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">A Poet</persname>
+</persona>
+
+<persona gender="male" id="06875c52-620c-4e01-9af2-3b0bc3db29c5">
 <persname short="STRA." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Strato</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6910ca56-e6e9-4e57-bfcf-cc97edaa375c">
 <persname short="CLAU." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Claudio</persname>
 <persaliases>
 	<persname short="BOTH VAR. AND CLAU.">Both Claudio and Varrus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="CLI." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Clitus</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1427885b-f018-487e-8d62-41fb599a0790">
 <persname short="VAR." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Varrus</persname>
 <persaliases>
 	<persname short="BOTH VAR. AND CLAU.">Both Claudio and Varrus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="VOL." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Volumnius</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CATO." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Young Cato</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MES." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Messala</persname>
-<persaliases>
-	<persname short="TIT. AND MES.">Both Titinius and Messala</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="TIT." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Titinius</persname>
-<persaliases>
-	<persname short="TIT. AND MES.">Both Titinius and Messala</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="LUCIL." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Lucilius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SOOTH." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Soothsayer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ART." numberOfLines="11" numberOfVerseLines="10" numberOfProseLines="1" numberOfLyricsLines="0">Artemidorus of Cnidos</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MUR." numberOfLines="31" numberOfVerseLines="29" numberOfProseLines="2" numberOfLyricsLines="0">Murellus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FLAV." numberOfLines="27" numberOfVerseLines="25" numberOfProseLines="2" numberOfLyricsLines="0">Flavius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CIN." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Cinna</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CIN. POET." numberOfLines="11" numberOfVerseLines="4" numberOfProseLines="7" numberOfLyricsLines="0">Cinna, a Poet</persname>
-</persona>
-
-<persona gender="male">
-<persname short="POET." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">A Poet</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MET." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Metellus Cimber</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DEC." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Decius Brutus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LIG." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Caius Ligarius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TREB." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Trebonius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CASCA." numberOfLines="90" numberOfVerseLines="75" numberOfProseLines="15" numberOfLyricsLines="0">Casca</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="CAS." numberOfLines="506" numberOfVerseLines="498" numberOfProseLines="8" numberOfLyricsLines="0">Cassius</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="BRU." numberOfLines="694" numberOfVerseLines="688" numberOfProseLines="6" numberOfLyricsLines="0">Marcus Brutus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="POP." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Popilius Lena</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PUB." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Publius</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CIC." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Cicero</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LEP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">M. Aemilius Lepidus</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="ANT." numberOfLines="329" numberOfVerseLines="329" numberOfProseLines="0" numberOfLyricsLines="0">Mark Antony</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OCT." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">Octavius Caesar</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="CAES." numberOfLines="154" numberOfVerseLines="154" numberOfProseLines="0" numberOfLyricsLines="0">Julius Caesar</persname>
-<persaliases>
-	<persname short="GHOST.">Ghost of Julius Caesar</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OCT. ATT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Octavius&#8217;s Attendant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. MESS." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="ef6c46dc-5af7-4809-abb6-26cf66097ce0">
 <persname short="COB." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Cobbler</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Carpenter</persname>
+<persona gender="male" id="555ce7ca-50c2-44ee-ac5f-84763e64fde8">
+<persname short="LEP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">M. Aemilius Lepidus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. SOL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier</persname>
+
+
+<persona gender="male" id="ebb84d84-7e03-4a9d-9191-d64fb4130240">
+<persname short="VOL." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Volumnius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. SOL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Soldier</persname>
+<persona gender="male" id="977659b3-af3f-4513-855a-34e911e8bd29">
+<persname short="DAR." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Dardanius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="3. SOL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Soldier</persname>
+<persona gender="male" id="d00ad035-adf6-4c89-bdc1-78bfecc6083c">
+<persname short="POP." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Popilius Lena</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. ANT. SOL." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier of Antony&#8217;s</persname>
+<persona gender="male" id="75ac732b-7edb-4f61-b7b4-db14125d7c82">
+<persname short="PUB." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Publius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. ANT. SOL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Soldier of Antony&#8217;s</persname>
+<persona gender="female" death="yes" id="6d3176ba-24fc-44f1-ab92-4d0764ef1fb2">
+<persname short="POR." numberOfLines="92" numberOfVerseLines="92" numberOfProseLines="0" numberOfLyricsLines="0">Portia</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="6931e7fa-e909-4efe-bc1f-826390cc1d35">
+<persname short="CAL." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">Calphurnia</persname>
+</persona>
+
+<persona gender="male" id="d6ba47b0-25af-4f16-b915-513609dfed29">
 <persname short="1. PLEB." numberOfLines="35" numberOfVerseLines="28" numberOfProseLines="7" numberOfLyricsLines="0">First Plebeian</persname>
 <persaliases>
 	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f1bae141-58e3-48e5-8d2c-6060e6e8cc56">
 <persname short="2. PLEB." numberOfLines="19" numberOfVerseLines="12" numberOfProseLines="7" numberOfLyricsLines="0">Second Plebeian</persname>
 <persaliases>
 	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b893e7a1-97e9-419c-8503-5c5235bc370b">
 <persname short="3. PLEB." numberOfLines="32" numberOfVerseLines="25" numberOfProseLines="7" numberOfLyricsLines="0">Third Plebeian</persname>
 <persaliases>
 	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ff3d5184-eb24-4b26-a8e8-ceb62973f25d">
 <persname short="4. PLEB." numberOfLines="33" numberOfVerseLines="25" numberOfProseLines="8" numberOfLyricsLines="0">Fourth Plebeian</persname>
 <persaliases>
 	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="15644336-4eff-4223-939e-057fdf426917">
 <persname short="5. PLEB." numberOfLines="27" numberOfVerseLines="24" numberOfProseLines="3" numberOfLyricsLines="0">Fifth Plebeian</persname>
 <persaliases>
 	<persname short="ALL PLEBEIANS.">All Plebeians</persname>
 </persaliases>
+</persona>
+
+<persona gender="male" id="c1124e47-aa3d-4d1b-8275-ea77a1dc777c">
+<persname short="ANT. MESS." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Antony&#8217;s Messenger</persname>
+</persona>
+
+<persona gender="male" id="119529a2-a977-4efe-b622-1c058f831829">
+<persname short="OCT. ATT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Octavius&#8217;s Attendant</persname>
+</persona>
+
+<persona gender="male" id="2940b3f8-440d-48f7-b778-f2d9488bc754">
+<persname short="CAES. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Caesar&#8217;s Servant</persname>
+</persona>
+
+<persona gender="male" id="b65b1c3c-f91d-4f38-9bfa-3e48905227c2">
+<persname short="1. ANT. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier of Antony&#8217;s</persname>
+</persona>
+
+<persona gender="male" id="8168d759-6abc-430b-8350-8739cceebd4b">
+<persname short="2. ANT. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Soldier of Antony&#8217;s</persname>
+</persona>
+
+<persona gender="male" id="dca5f14c-797c-4927-b21d-e7ab3afc2c81">
+<persname short="1. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Soldier</persname>
+</persona>
+
+<persona gender="male" id="9856b3ca-9351-410d-8388-4c8acf7596ad">
+<persname short="2. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Soldier</persname>
+</persona>
+
+<persona gender="male" id="9b0a5fce-f983-42b8-b596-9ca9401b5dc0">
+<persname short="3. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Soldier</persname>
+</persona>
+
+<persona gender="male" id="7c1eaee2-7758-413e-b696-4180195ffc3f">
+<persname short="MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="a9077ad0-3796-4855-954c-a8e759c41674">
+<persname short="CAR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Carpenter</persname>
 </persona>
 
 </personae>
@@ -250,6 +257,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLAV.">Flavius</scenepersona>
 	<scenepersona short="MUR.">Murellus</scenepersona>
@@ -426,6 +434,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="ANT.">Antony</scenepersona>
@@ -1198,6 +1207,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CASCA.">Casca</scenepersona>
 	<scenepersona short="CIC.">Cicero</scenepersona>
@@ -1589,6 +1599,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Brutus&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="LUC.">Lucius</scenepersona>
@@ -2356,7 +2367,7 @@
 <line globalnumber="842" number="309" form="verse" offset="4">Lucius, who&#8217;s that knocks?</line>
 </speech>
 
-<stagedir sdglobalnumber="842.01" sdnumber="309.01">
+<stagedir sdglobalnumber="842.01" sdnumber="309.02">
 	<dir>Enter Lucius and Caius Ligarius.</dir>
 	<action type="enter">
 		<actor>LUC.</actor>
@@ -2452,7 +2463,7 @@
 <line globalnumber="870" number="336" form="verse" offset="5">Follow me then.</line>
 </speech>
 
-<stagedir sdglobalnumber="870.01" sdnumber="336.01">
+<stagedir sdglobalnumber="870.01" sdnumber="336.02">
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>BRU.</actor>
@@ -2465,6 +2476,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. Caesar&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAES.">Julius Caesar</scenepersona>
 	<scenepersona short="CAES. SERV.">Caesar&#8217;s Servant</scenepersona>
@@ -2852,6 +2864,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A street near the capitol.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ART.">Artemidorus</scenepersona>
 </scenepersonae>
@@ -2890,6 +2903,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. A street before the house of Brutus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="LUC.">Lucius</scenepersona>
@@ -3064,6 +3078,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the capitol; the Senate sitting above.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAES.">Caesar</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
@@ -3466,6 +3481,7 @@
 		<actor>ART.</actor>
 		<actor>PUB.</actor>
 		<actor>POP.</actor>
+		<actor>SOOTH.</actor>	
 	</action>
 </stagedir>
 
@@ -3880,6 +3896,7 @@
 	<dir>Seeing the body.</dir>
 	<action type="action">
 		<actor>OCT. ATT.</actor>
+		<recipient>CAES.</recipient>
 	</action>
 </stagedir>
 
@@ -3916,7 +3933,7 @@
 	<action type="exit">
 		<actor>ANT.</actor>
 		<actor>OCT. ATT.</actor>
-		<actor>CAES.</actor>
+		<recipient>CAES.</recipient>
 	</action>
 </stagedir>
 
@@ -3925,6 +3942,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Forum.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="CAS.">Cassius</scenepersona>
@@ -3948,11 +3966,11 @@
 	<action type="enter">
 		<actor>BRU.</actor>
 		<actor>CAS.</actor>
-		<actor>1. PLEB..</actor>
+		<actor>1. PLEB.</actor>
 		<actor>2. PLEB.</actor>
-		<actor>3. PLEB..</actor>
+		<actor>3. PLEB.</actor>
 		<actor>4. PLEB.</actor>
-		<actor>5. PLEB..</actor>
+		<actor>5. PLEB.</actor>
 		<actor>Plebeians</actor>
 	</action>
 </stagedir>
@@ -4586,8 +4604,11 @@
 <stagedir sdglobalnumber="1615.01" sdnumber="225.01">
 	<dir>Exeunt Plebeians with the body.</dir>
 	<action type="exit">
-		<actor>ALL PLEBEIANS.</actor>
-		<actor>CAES.</actor>
+		<actor>1. PLEB.</actor>
+		<actor>3. PLEB.</actor>
+		<actor>4. PLEB.</actor>
+		<actor>5. PLEB.</actor>
+		<recipient>CAES.</recipient>
 	</action>
 </stagedir>
 
@@ -4651,6 +4672,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CIN. POET.">Cinna, a Poet</scenepersona>
 	<scenepersona short="ALL PLEBEIANS.">Plebeians</scenepersona>
@@ -4812,6 +4834,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A house in Rome.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antony</scenepersona>
 	<scenepersona short="OCT.">Octavius</scenepersona>
@@ -4961,6 +4984,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A camp near Sardis. Before Brutus&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="LUCIL.">Lucilius</scenepersona>
@@ -4968,9 +4992,9 @@
 	<scenepersona short="TIT.">Titinius</scenepersona>
 	<scenepersona short="PIN.">Pindarus</scenepersona>
 	<scenepersona short="CAS.">Cassius</scenepersona>
-	<scenepersona short="1. SOL.">First Soldier</scenepersona>
-	<scenepersona short="2. SOL.">Second Soldier</scenepersona>
-	<scenepersona short="3. SOL.">Third Soldier</scenepersona>
+	<scenepersona short="1. SOLD.">First Soldier</scenepersona>
+	<scenepersona short="2. SOLD.">Second Soldier</scenepersona>
+	<scenepersona short="3. SOLD.">Third Soldier</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5071,9 +5095,9 @@
 	<dir>Enter Cassius and his powers.</dir>
 	<action type="enter">
 		<actor>CAS.</actor>
-		<actor>1. SOL.</actor>
-		<actor>2. SOL.</actor>
-		<actor>3. SOL.</actor>
+		<actor>1. SOLD.</actor>
+		<actor>2. SOLD.</actor>
+		<actor>3. SOLD.</actor>
 	</action>
 </stagedir>
 
@@ -5094,17 +5118,17 @@
 </speech>
 
 <speech>
-<speaker long="First Soldier">1. SOL.</speaker>
+<speaker long="First Soldier">1. SOLD.</speaker>
 <line globalnumber="1747" number="35" form="verse">Stand!</line>
 </speech>
 
 <speech>
-<speaker long="Second Soldier">2. SOL.</speaker>
+<speaker long="Second Soldier">2. SOLD.</speaker>
 <line globalnumber="1748" number="36" form="verse">Stand!</line>
 </speech>
 
 <speech>
-<speaker long="Third Soldier">3. SOL.</speaker>
+<speaker long="Third Soldier">3. SOLD.</speaker>
 <line globalnumber="1749" number="37" form="verse">Stand!</line>
 </speech>
 
@@ -5155,17 +5179,25 @@
 	<action type="exit">
 		<actor>LUC.</actor>
 		<actor>PIN.</actor>
-		<actor>1. SOL.</actor>
-		<actor>2. SOL.</actor>
-		<actor>3. SOL.</actor>
+		<actor>1. SOLD.</actor>
+		<actor>2. SOLD.</actor>
+		<actor>3. SOLD.</actor>
+	</action>
+	<action type="exit">
+		<actor>BRU.</actor>
+		<actor>CAS.</actor>
+	</action>
+	<action type="action">
+		<actor>LUCIL.</actor>
+		<actor>TIT.</actor>
 	</action>
 </stagedir>
-
 </scene>
 
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Inside Brutus&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="CAS.">Cassius</scenepersona>
@@ -5548,7 +5580,7 @@
 
 <stagedir sdglobalnumber="1909.01" sdnumber="128.01">
 	<dir>Brutus and Cassius step out of the tent.</dir>
-	<action type="exit">
+	<action type="action">
 		<actor>BRU.</actor>
 		<actor>CAS.</actor>
 	</action>
@@ -5632,9 +5664,9 @@
 <line globalnumber="1925" number="142" form="verse" offset="4">Lucius, a bowl of wine!</line>
 </speech>
 
-<stagedir sdglobalnumber="1925.01" sdnumber="142.01">
+<stagedir sdglobalnumber="1925.01" sdnumber="142.03">
 	<dir>Brutus and Cassius return into the tent.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>BRU.</actor>
 		<actor>CAS.</actor>
 	</action>
@@ -5929,7 +5961,7 @@
 <speech>
 <speaker long="Cassius">CAS.</speaker>
 <line globalnumber="2017" number="224" form="verse" offset="4">Then with your will go on;</line>
-<line globalnumber="2018" number="225" form="verse">We&#8217;ll along ourselves, and meet them at Philippi.</line>
+<line globalnumber="2018" number="225" form="verse">We&#8217;ll along ourselves, and meet them at Philippi .</line>
 </speech>
 
 <speech>
@@ -5956,7 +5988,7 @@
 	</action>
 </stagedir>
 <line globalnumber="2026" number="231" form="verse" offset="2">My gown.</line>
-<stagedir sdglobalnumber="2026.01" sdnumber="231.01">
+<stagedir sdglobalnumber="2026.01" sdnumber="231.02">
 	<dir>Exit Lucius.</dir>
 	<action type="exit">
 		<actor>LUC.</actor>
@@ -6300,6 +6332,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The plains of Philippi.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OCT.">Octavius</scenepersona>
 	<scenepersona short="ANT.">Antony</scenepersona>
@@ -6696,6 +6729,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The plains of Philippi. The battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="MES.">Messala</scenepersona>
@@ -6741,6 +6775,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The plains of Philippi. Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAS.">Cassius</scenepersona>
 	<scenepersona short="TIT.">Titinius</scenepersona>
@@ -7128,14 +7163,15 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The plains of Philippi. Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="MES.">Messala</scenepersona>
 	<scenepersona short="CATO.">Cato</scenepersona>
 	<scenepersona short="LUCIL.">Lucilius</scenepersona>
 	<scenepersona short="FLAV.">Flavius</scenepersona>
-	<scenepersona short="1. ANT. SOL.">First Soldier of Antony&#8217;s</scenepersona>
-	<scenepersona short="2. ANT. SOL.">Second Soldier of Antony&#8217;s</scenepersona>
+	<scenepersona short="1. ANT. SOLD.">First Soldier of Antony&#8217;s</scenepersona>
+	<scenepersona short="2. ANT. SOLD.">Second Soldier of Antony&#8217;s</scenepersona>
 	<scenepersona short="ANT.">Antony</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -7178,8 +7214,8 @@
 <stagedir sdglobalnumber="2380.01" sdnumber="6.01">
 	<dir>Enter Antony&#8217;s Soldiers and fight.</dir>
 	<action type="enter">
-		<actor>1. ANT. SOL.</actor>
-		<actor>2. ANT. SOL.</actor>
+		<actor>1. ANT. SOLD.</actor>
+		<actor>2. ANT. SOLD.</actor>
 	</action>
 </stagedir>
 
@@ -7199,7 +7235,7 @@
 </speech>
 
 <speech>
-<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOL.</speaker>
+<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOLD.</speaker>
 <line globalnumber="2386" number="12" form="verse" offset="0">Yield, or thou diest.</line>
 </speech>
 
@@ -7211,7 +7247,7 @@
 </speech>
 
 <speech>
-<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOL.</speaker>
+<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOLD.</speaker>
 <line globalnumber="2390" number="15" form="verse">We must not. A noble prisoner!</line>
 </speech>
 
@@ -7223,12 +7259,12 @@
 </stagedir>
 
 <speech>
-<speaker long="Second Soldier of Antony&#8217;s">2. ANT. SOL.</speaker>
+<speaker long="Second Soldier of Antony&#8217;s">2. ANT. SOLD.</speaker>
 <line globalnumber="2391" number="16" form="verse">Room ho! Tell Antony, Brutus is ta&#8217;en.</line>
 </speech>
 
 <speech>
-<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOL.</speaker>
+<speaker long="First Soldier of Antony&#8217;s">1. ANT. SOLD.</speaker>
 <line globalnumber="2392" number="17" form="verse">I&#8217;ll tell the news. Here comes the general.</line>
 <line globalnumber="2393" number="18" form="verse">Brutus is ta&#8217;en, Brutus is ta&#8217;en, my lord!</line>
 </speech>
@@ -7265,8 +7301,8 @@
 		<actor>MES.</actor>
 		<actor>LUCIL.</actor>
 		<actor>FLAV.</actor>
-		<actor>1. ANT. SOL.</actor>
-		<actor>2. ANT. SOL.</actor>
+		<actor>1. ANT. SOLD.</actor>
+		<actor>2. ANT. SOLD.</actor>
 		<actor>ANT.</actor>
 	</action>
 </stagedir>
@@ -7276,6 +7312,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The plains of Philippi. Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="DAR.">Dardanius</scenepersona>
@@ -7616,23 +7653,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="14">
-<placename>A camp near Sardis. Before Brutus&#8217;s tent.</placename>
-<placename>A house in Rome.</placename>
-<placename>Before Brutus&#8217;s tent.</placename>
-<placename>Inside Brutus&#8217;s tent.</placename>
-<placename>Rome. A public place.</placename>
-<placename>Rome. A street before the house of Brutus.</placename>
-<placename>Rome. A street near the capitol.</placename>
-<placename>Rome. A street.</placename>
-<placename>Rome. Before the capitol; the Senate sitting above.</placename>
-<placename>Rome. Brutus&#8217;s orchard.</placename>
-<placename>Rome. Caesar&#8217;s house.</placename>
-<placename>The Forum.</placename>
-<placename>The plains of Philippi. Another part of the battlefield.</placename>
-<placename>The plains of Philippi. The battlefield.</placename>
-<placename>The plains of Philippi.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -7717,12 +7738,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

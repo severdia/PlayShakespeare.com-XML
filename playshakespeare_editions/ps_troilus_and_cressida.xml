@@ -1,180 +1,189 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="troilus-and-cressida">
 <title short="Troilus and Cressida">The History of Troilus and Cressida</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1600-1608</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Troilus and Cressida">
 
-<persona gender="male">
-<persname short="PRI." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Priam, King of Troy</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="HECT." numberOfLines="213" numberOfVerseLines="212" numberOfProseLines="1" numberOfLyricsLines="0">Hector</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="812f972c-9f17-4f6b-8d4a-fe42de629615">
 <persname short="TRO." numberOfLines="519" numberOfVerseLines="497" numberOfProseLines="22" numberOfLyricsLines="0">Troilus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PAR." numberOfLines="91" numberOfVerseLines="81" numberOfProseLines="10" numberOfLyricsLines="0">Paris</persname>
-<persaliases>
-	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
-</persaliases>
+<persona gender="male" archetype="hero" id="98f740dc-5f12-4670-89ac-bdc56c86ca58">
+<persname short="ULYSS." numberOfLines="484" numberOfVerseLines="473" numberOfProseLines="11" numberOfLyricsLines="0">Ulysses</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DEI." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Deiphobus</persname>
-<persaliases>
-	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
-</persaliases>
+<persona gender="male" archetype="hero" death="yes" id="fd227586-15f0-4cfa-b164-7ea527d8c120">
+<persname short="HECT." numberOfLines="213" numberOfVerseLines="212" numberOfProseLines="1" numberOfLyricsLines="0">Hector</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HEL." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Helenus</persname>
+<persona gender="male" archetype="clown" id="d10e0afa-0ae9-4eff-8ce2-8dc986b2f9fd">
+<persname short="PAN." numberOfLines="195" numberOfVerseLines="48" numberOfProseLines="147" numberOfLyricsLines="26">Pandarus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MAR." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Margarelon</persname>
+<persona gender="male" archetype="hero" id="5b3bd281-149e-4241-a187-7227f51431a4">
+<persname short="AGAM." numberOfLines="188" numberOfVerseLines="181" numberOfProseLines="7" numberOfLyricsLines="0">Agamemnon</persname>
 </persona>
 
-<persona gender="male" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="d39eb3ec-3a15-4384-a6a7-b33a4e4a0f17">
+<persname short="ACHIL." numberOfLines="179" numberOfVerseLines="146" numberOfProseLines="33" numberOfLyricsLines="0">Achilles</persname>
+</persona>
+
+<persona gender="male" id="1fd24b42-ed46-4dca-bdd6-2ae343d0bc34">
+<persname short="NEST." numberOfLines="152" numberOfVerseLines="143" numberOfProseLines="9" numberOfLyricsLines="0">Nestor</persname>
+</persona>
+
+<persona gender="male" death="yes" id="4b104685-678b-47a1-b6d1-e9d748576cc8">
 <persname short="AENE." numberOfLines="139" numberOfVerseLines="135" numberOfProseLines="4" numberOfLyricsLines="0">Aeneas</persname>
 <persaliases>
 	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="CAL." numberOfLines="31" numberOfVerseLines="29" numberOfProseLines="2" numberOfLyricsLines="0">Calchas</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="PAN." numberOfLines="195" numberOfVerseLines="48" numberOfProseLines="147" numberOfLyricsLines="26">Pandarus</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="AGAM." numberOfLines="188" numberOfVerseLines="181" numberOfProseLines="7" numberOfLyricsLines="0">Agamemnon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MEN." numberOfLines="12" numberOfVerseLines="11" numberOfProseLines="1" numberOfLyricsLines="0">Menelaus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NEST." numberOfLines="152" numberOfVerseLines="143" numberOfProseLines="9" numberOfLyricsLines="0">Nestor</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="ULYSS." numberOfLines="484" numberOfVerseLines="473" numberOfProseLines="11" numberOfLyricsLines="0">Ulysses</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="ACHIL." numberOfLines="179" numberOfVerseLines="146" numberOfProseLines="33" numberOfLyricsLines="0">Achilles</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="AJAX." numberOfLines="74" numberOfVerseLines="41" numberOfProseLines="33" numberOfLyricsLines="0">Ajax</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="92c97fd7-5374-4738-aad4-8bce8a6d3782">
 <persname short="DIO." numberOfLines="103" numberOfVerseLines="98" numberOfProseLines="5" numberOfLyricsLines="0">Diomedes</persname>
 </persona>
 
-<persona gender="male" archetype="clown" death="yes">
-<persname short="PATR." numberOfLines="63" numberOfVerseLines="38" numberOfProseLines="25" numberOfLyricsLines="0">Patroclus</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1964ae27-c6e3-4e0b-833d-86069d6a8871">
 <persname short="THER." numberOfLines="92" numberOfVerseLines="8" numberOfProseLines="84" numberOfLyricsLines="0">Thersites</persname>
 </persona>
 
-<persona gender="female">
-<persname short="HELEN." numberOfLines="21" numberOfVerseLines="4" numberOfProseLines="17" numberOfLyricsLines="0">Helen</persname>
+<persona gender="male" id="f318fa92-0edd-48d1-8c91-94ceb11a8641">
+<persname short="PAR." numberOfLines="91" numberOfVerseLines="81" numberOfProseLines="10" numberOfLyricsLines="0">Paris</persname>
+<persaliases>
+	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
+</persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="AND." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Andromache</persname>
+<persona gender="male" archetype="hero" id="b9a8ca35-43ae-4965-99a0-bf224d173db6">
+<persname short="AJAX." numberOfLines="74" numberOfVerseLines="41" numberOfProseLines="33" numberOfLyricsLines="0">Ajax</persname>
 </persona>
 
-<persona gender="female">
-<persname short="CAS." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Cassandra</persname>
+<persona gender="male" archetype="clown" death="yes" id="896d5263-84d8-4c81-b753-82abf6c7be1e">
+<persname short="PATR." numberOfLines="63" numberOfVerseLines="38" numberOfProseLines="25" numberOfLyricsLines="0">Patroclus</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="CRES." numberOfLines="264" numberOfVerseLines="180" numberOfProseLines="84" numberOfLyricsLines="0">Cressida</persname>
+<persona gender="male" id="8ef34054-51cd-4f91-87e1-6c8a178071cd">
+<persname short="PRO." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PROLOGUE." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
+<persona gender="male" id="8774676d-dc84-46ab-8626-13acda6df985">
+<persname short="CAL." numberOfLines="31" numberOfVerseLines="29" numberOfProseLines="2" numberOfLyricsLines="0">Calchas</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TRO. BOY." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Troilus&#8217;s Boy</persname>
+<persona gender="male" id="76fc4395-f563-43f1-ad1f-919e67e52f0c">
+<persname short="PRI." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Priam, King of Troy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PAR. SERV." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Paris&#8217;s Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GREEK TRUM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Greek Trumpeter</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="16476198-083f-42c6-a03c-38ebc0e5ca21">
 <persname short="ALEX." numberOfLines="19" numberOfVerseLines="14" numberOfProseLines="5" numberOfLyricsLines="0">Alexander</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e01085f1-e8df-4c73-8533-6edd8fa7bb8e">
+<persname short="MEN." numberOfLines="12" numberOfVerseLines="11" numberOfProseLines="1" numberOfLyricsLines="0">Menelaus</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="dd637230-349b-4a7b-8123-ec7f5cd7245a">
+<persname short="CRES." numberOfLines="264" numberOfVerseLines="180" numberOfProseLines="84" numberOfLyricsLines="0">Cressida</persname>
+</persona>
+
+<persona gender="female" id="a3726b97-21c9-4d8a-91ea-1ef3f0231f54">
+<persname short="CAS." numberOfLines="37" numberOfVerseLines="37" numberOfProseLines="0" numberOfLyricsLines="0">Cassandra</persname>
+</persona>
+
+<persona gender="female" id="2b618b94-eb1f-476f-b781-68a5baf2cd20">
+<persname short="HELEN." numberOfLines="21" numberOfVerseLines="4" numberOfProseLines="17" numberOfLyricsLines="0">Helen</persname>
+</persona>
+
+<persona gender="female" id="47e16d42-7477-4856-b269-52b8a51a1567">
+<persname short="AND." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Andromache</persname>
+</persona>
+
+<persona gender="male" id="0215c141-6c70-4d9c-af9a-00bd2418cf3b">
+<persname short="HEL." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Helenus</persname>
+</persona>
+
+<persona gender="male" id="078eb45f-4f3d-4488-8ad0-b0056efce5ae">
+<persname short="MAR." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Margarelon</persname>
+</persona>
+
+<persona gender="male" id="260ee02e-cd5f-4624-a67e-9149fe4e712a">
+<persname short="DEI." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Deiphobus</persname>
+<persaliases>
+	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="13f9cc8d-b077-41e6-b282-e0f0f8564e45">
 <persname short="ANT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antenor</persname>
 <persaliases>
 	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="TROJ. TRUM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Trojan Trumpeter</persname>
+<persona gender="male" id="b87d6827-bf5b-4d8d-845d-c0a95c763981">
+<persname short="TRO. BOY." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Troilus&#8217;s Boy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DIO. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Diomedes&#8217;s Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GREEK. KNI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Greek Knight</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MYR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Myrmidon</persname>
+<persona gender="male" id="b9e519fc-b7a2-47cb-b379-890ab0227f4d">
+<persname short="MYRMIDONS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Myrmidons</persname>
 <persaliases>
-	<persname short="MYRMIDONS.">Myrmidons</persname>
+	<persname short="ALL MYRMIDONS.">All Myrmidons</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="MYRMIDONS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Myrmidons</persname>
+<persona gender="male" id="f9ef049f-e729-4e9f-8b77-408e6141c344">
+<persname short="MYR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Myrmidon</persname>
+<persaliases>
+	<persname short="ALL MYRMIDONS.">All Myrmidons</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="17254b37-69f2-48e9-88e9-158773feac2a">
+<persname short="PAR. SERV." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Paris&#8217;s Servant</persname>
+</persona>
+
+<persona gender="male" id="28f1b2bd-b3b2-41aa-9a62-5087858ebf71">
+<persname short="DIO. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Diomedes&#8217;s Servant</persname>
+</persona>
+
+<persona gender="male" id="6d1f7801-822f-427e-8d21-68f4aac9393a">
+<persname short="TROJ. TRUM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Trojan Trumpeter</persname>
+</persona>
+
+<persona gender="male" id="25a29afe-8e18-414e-9d10-8f36f61041a9">
+<persname short="GREEK. KNI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Greek Knight</persname>
+</persona>
+
+<persona gender="male" id="9a4d75e8-4420-4a0f-b8d7-2ad6e14fae66">
+<persname short="GREEK TRUM." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Greek Trumpeter</persname>
+</persona>
+
+<persona gender="male" id="8b609a26-2acc-4e9a-bf58-9164e8dd81db">
 <persname short="MUSIC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Musicians</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1cf991ea-5099-4551-9a9b-2b1c5c721a2b">
 <persname short="TROJ. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Trojan Soldiers</persname>
 </persona>
+
 </personae>
 
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="2" numberOfWords="227" numberOfLines="31">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
-	<scenepersona short="PROLOGUE.">Prologue</scenepersona>
+	<scenepersona short="PRO.">Prologue</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -182,7 +191,7 @@
 
 
 <speech>
-<speaker long="Prologue">PROLOGUE.</speaker>
+<speaker long="Prologue">PRO.</speaker>
 <line globalnumber="1" number="1" form="verse">In Troy, there lies the scene. From isles of Greece</line>
 <line globalnumber="2" number="2" form="verse">The princes orgulous, their high blood chaf&#8217;d,</line>
 <line globalnumber="3" number="3" form="verse">Have to the port of Athens sent their ships</line>
@@ -220,6 +229,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. Before Priam&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 	<scenepersona short="TRO.">Troilus</scenepersona>
@@ -264,8 +274,7 @@
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="44" number="13" form="prose">Well, I have told you enough of this. For my part, I&#8217;ll not meddle nor make no farther. 
-He that will have a cake out of the wheat must tarry the grinding.</line>
+<line globalnumber="44" number="13" form="prose">Well, I have told you enough of this. For my part, I&#8217;ll not meddle nor make no farther. He that will have a cake out of the wheat must tarry the grinding.</line>
 </speech>
 
 <speech>
@@ -326,9 +335,7 @@ He that will have a cake out of the wheat must tarry the grinding.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="65" number="34" form="prose">And her hair were not somewhat darker than Helen&#8217;s&#8212;well, go to!&#8212;there were no more comparison between the women! 
-But for my part, she is my kinswoman; I would not, as they term it, praise her, but I would somebody had heard her talk yesterday as I did. 
-I will not dispraise your sister Cassandra&#8217;s wit, but&#8212;</line>
+<line globalnumber="65" number="34" form="prose">And her hair were not somewhat darker than Helen&#8217;s&#8212;well, go to!&#8212;there were no more comparison between the women! But for my part, she is my kinswoman; I would not, as they term it, praise her, but I would somebody had heard her talk yesterday as I did. I will not dispraise your sister Cassandra&#8217;s wit, but&#8212;</line>
 </speech>
 
 <speech>
@@ -383,8 +390,7 @@ I will not dispraise your sister Cassandra&#8217;s wit, but&#8212;</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="88" number="57" form="prose">Because she&#8217;s kin to me, therefore she&#8217;s not so fair as Helen. And she were not kin to me, she would be as fair a&#8217; 
-Friday as Helen is on Sunday. But what care I? I care not and she were a blackamoor, &#8217;tis all one to me.</line>
+<line globalnumber="88" number="57" form="prose">Because she&#8217;s kin to me, therefore she&#8217;s not so fair as Helen. And she were not kin to me, she would be as fair a&#8217; Friday as Helen is on Sunday. But what care I? I care not and she were a blackamoor, &#8217;tis all one to me.</line>
 </speech>
 
 <speech>
@@ -394,8 +400,7 @@ Friday as Helen is on Sunday. But what care I? I care not and she were a blackam
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="90" number="59" form="prose">I do not care whether you do or no. She&#8217;s a fool to stay behind her father, let her to the Greeks; and so I&#8217;ll tell her the next time I see her. 
-For my part, I&#8217;ll meddle nor make no more i&#8217; th&#8217; matter.</line>
+<line globalnumber="90" number="59" form="prose">I do not care whether you do or no. She&#8217;s a fool to stay behind her father, let her to the Greeks; and so I&#8217;ll tell her the next time I see her. For my part, I&#8217;ll meddle nor make no more i&#8217; th&#8217; matter.</line>
 </speech>
 
 <speech>
@@ -529,6 +534,7 @@ For my part, I&#8217;ll meddle nor make no more i&#8217; th&#8217; matter.</line
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Troy. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CRES.">Cressida</scenepersona>
 	<scenepersona short="ALEX.">Alexander</scenepersona>
@@ -615,8 +621,7 @@ For my part, I&#8217;ll meddle nor make no more i&#8217; th&#8217; matter.</line
 
 <speech>
 <speaker long="Alexander">ALEX.</speaker>
-<line globalnumber="145" number="17" form="prose">This man, lady, hath robb&#8217;d many beasts of their particular additions: he is as valiant as the lion, churlish as the bear, slow as the elephant; 
-a man into whom nature hath so crowded humors that his valor is crush&#8217;d into folly, his folly sauc&#8217;d with discretion. There is no man hath a virtue that he hath not a glimpse of, nor any man an attaint but he carries some stain of it. He is melancholy without cause, and merry against the hair; he hath the joints of every thing, but every thing so out of joint that he is a gouty Briareus, many hands and no use, or purblind Argus, all eyes and no sight.</line>
+<line globalnumber="145" number="17" form="prose">This man, lady, hath robb&#8217;d many beasts of their particular additions: he is as valiant as the lion, churlish as the bear, slow as the elephant; a man into whom nature hath so crowded humors that his valor is crush&#8217;d into folly, his folly sauc&#8217;d with discretion. There is no man hath a virtue that he hath not a glimpse of, nor any man an attaint but he carries some stain of it. He is melancholy without cause, and merry against the hair; he hath the joints of every thing, but every thing so out of joint that he is a gouty Briareus, many hands and no use, or purblind Argus, all eyes and no sight.</line>
 </speech>
 
 <speech>
@@ -798,8 +803,7 @@ a man into whom nature hath so crowded humors that his valor is crush&#8217;d in
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="180" number="52" form="prose">Th&#8217; other&#8217;s not come to&#8217;t. You shall tell me another tale when th&#8217; other&#8217;s come to&#8217;t. 
-Hector shall not have his wit this year.</line>
+<line globalnumber="180" number="52" form="prose">Th&#8217; other&#8217;s not come to&#8217;t. You shall tell me another tale when th&#8217; other&#8217;s come to&#8217;t. Hector shall not have his wit this year.</line>
 </speech>
 
 <speech>
@@ -1029,9 +1033,7 @@ Hector shall not have his wit this year.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="226" number="98" form="prose">That&#8217;s true, make no question of that. &#8220;Two and fifty hairs,&#8221; quoth he, &#8220;and one white. 
-That white hair is my father, and all the rest are his sons.&#8221; &#8220;Jupiter,&#8221; quoth she, &#8220;which of these hairs is 
-Paris my husband?&#8221; &#8220;The fork&#8217;d one,&#8221; quoth he, &#8220;pluck&#8217;t out, and give it him.&#8221; But there was such laughing! And Helen so blush&#8217;d, and Paris so chaf&#8217;d, and all the rest so laugh&#8217;d, that it pass&#8217;d.</line>
+<line globalnumber="226" number="98" form="prose">That&#8217;s true, make no question of that. &#8220;Two and fifty hairs,&#8221; quoth he, &#8220;and one white. That white hair is my father, and all the rest are his sons.&#8221; &#8220;Jupiter,&#8221; quoth she, &#8220;which of these hairs is Paris my husband?&#8221; &#8220;The fork&#8217;d one,&#8221; quoth he, &#8220;pluck&#8217;t out, and give it him.&#8221; But there was such laughing! And Helen so blush&#8217;d, and Paris so chaf&#8217;d, and all the rest so laugh&#8217;d, that it pass&#8217;d.</line>
 </speech>
 
 <speech>
@@ -1147,8 +1149,7 @@ Paris my husband?&#8221; &#8220;The fork&#8217;d one,&#8221; quoth he, &#8220;pl
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="242" number="114" form="prose">That&#8217;s Hector, that, that, look you, that; there&#8217;s a fellow! Go thy way. Hector! 
-There&#8217;s a brave man, niece. O brave Hector! Look how he looks! There&#8217;s a countenance! Is&#8217;t not a brave man?</line>
+<line globalnumber="242" number="114" form="prose">That&#8217;s Hector, that, that, look you, that; there&#8217;s a fellow! Go thy way. Hector! There&#8217;s a brave man, niece. O brave Hector! Look how he looks! There&#8217;s a countenance! Is&#8217;t not a brave man?</line>
 </speech>
 
 <speech>
@@ -1158,8 +1159,7 @@ There&#8217;s a brave man, niece. O brave Hector! Look how he looks! There&#8217
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="244" number="116" form="prose">Is &#8217;a not? It does a man&#8217;s heart good. Look you what hacks are on his helmet! Look you yonder, do you see? 
-Look you there, there&#8217;s no jesting; there&#8217;s laying on, take&#8217;t off who will, as they say. There be hacks!</line>
+<line globalnumber="244" number="116" form="prose">Is &#8217;a not? It does a man&#8217;s heart good. Look you what hacks are on his helmet! Look you yonder, do you see? Look you there, there&#8217;s no jesting; there&#8217;s laying on, take&#8217;t off who will, as they say. There be hacks!</line>
 </speech>
 
 <speech>
@@ -1209,8 +1209,7 @@ Look you there, there&#8217;s no jesting; there&#8217;s laying on, take&#8217;t 
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="251" number="123" form="prose">Helenus? No. Yes, he&#8217;ll fight indifferent well. I marvel where Troilus is. Hark, do you not hear the people cry &#8220;Troilus&#8221;? 
-Helenus is a priest.</line>
+<line globalnumber="251" number="123" form="prose">Helenus? No. Yes, he&#8217;ll fight indifferent well. I marvel where Troilus is. Hark, do you not hear the people cry &#8220;Troilus&#8221;? Helenus is a priest.</line>
 </speech>
 
 <speech>
@@ -1240,8 +1239,7 @@ Helenus is a priest.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="255" number="127" form="prose">Mark him, note him. O brave Troilus! Look well upon him, niece. Look you how his sword is bloodied, and his helm more hack&#8217;d than Hector&#8217;s, and how he looks, and how he goes! O admirable youth! He never saw three and twenty. 
-Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a goddess, he should take his choice. O admirable man! Paris? Paris is dirt to him, and I warrant Helen, to change, would give an eye to boot.</line>
+<line globalnumber="255" number="127" form="prose">Mark him, note him. O brave Troilus! Look well upon him, niece. Look you how his sword is bloodied, and his helm more hack&#8217;d than Hector&#8217;s, and how he looks, and how he goes! O admirable youth! He never saw three and twenty. Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a goddess, he should take his choice. O admirable man! Paris? Paris is dirt to him, and I warrant Helen, to change, would give an eye to boot.</line>
 </speech>
 
 <stagedir sdglobalnumber="255.01" sdnumber="127.01">
@@ -1406,6 +1404,7 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Agamemnon&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AGAM.">Agamemnon</scenepersona>
 	<scenepersona short="NEST.">Nestor</scenepersona>
@@ -1512,7 +1511,7 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 	</action>
 </stagedir>
 <line globalnumber="353" number="60" form="verse" offset="3">most mighty for thy place and sway,</line>
-<stagedir sdglobalnumber="353.01" sdnumber="60.01">
+<stagedir sdglobalnumber="353.01" sdnumber="60.02">
 	<dir>To Nestor.</dir>
 	<action type="speak">
 		<actor>ULYSS.</actor>
@@ -1551,7 +1550,7 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 <line globalnumber="375" number="82" form="verse">To whom the foragers shall all repair,</line>
 <line globalnumber="376" number="83" form="verse">What honey is expected? Degree being vizarded,</line>
 <line globalnumber="377" number="84" form="verse">Th&#8217; unworthiest shows as fairly in the mask.</line>
-<line globalnumber="378" number="85" form="verse">The heavens themselves, the planets, and this centre</line>
+<line globalnumber="378" number="85" form="verse">The heavens themselves, the planets, and this center</line>
 <line globalnumber="379" number="86" form="verse">Observe degree, priority, and place,</line>
 <line globalnumber="380" number="87" form="verse">Insisture, course, proportion, season, form,</line>
 <line globalnumber="381" number="88" form="verse">Office, and custom, in all line of order;</line>
@@ -2092,6 +2091,7 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A part of the Grecian camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AJAX.">Ajax</scenepersona>
 	<scenepersona short="THER.">Thersites</scenepersona>
@@ -2166,8 +2166,7 @@ Go thy way, Troilus, go thy way! Had I a sister were a grace, or a daughter a go
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="698" number="10" form="prose">I shall sooner rail thee into wit and holiness, but I think thy horse will sooner con an oration without book than thou learn a prayer without book. 
-Thou canst strike, canst thou? A red murrain a&#8217; thy jade&#8217;s tricks!</line>
+<line globalnumber="698" number="10" form="prose">I shall sooner rail thee into wit and holiness, but I think thy horse will sooner con an oration without book than thou learn a prayer without book. Thou canst strike, canst thou? A red murrain a&#8217; thy jade&#8217;s tricks!</line>
 </speech>
 
 <speech>
@@ -2340,9 +2339,7 @@ Thou canst strike, canst thou? A red murrain a&#8217; thy jade&#8217;s tricks!</
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="729" number="41" form="prose">Lo, lo, lo, lo, what modicums of wit he utters! His evasions have ears thus long. I have bobb&#8217;d his brain more than he has beat my bones. 
-I will buy nine sparrows for a penny, and his pia mater is not worth the ninth part of a sparrow. 
-This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his head, I&#8217;ll tell you what I say of him.</line>
+<line globalnumber="729" number="41" form="prose">Lo, lo, lo, lo, what modicums of wit he utters! His evasions have ears thus long. I have bobb&#8217;d his brain more than he has beat my bones. I will buy nine sparrows for a penny, and his pia mater is not worth the ninth part of a sparrow. This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his head, I&#8217;ll tell you what I say of him.</line>
 </speech>
 
 <speech>
@@ -2550,6 +2547,7 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Troy. A room in Priam&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRI.">Priam</scenepersona>
 	<scenepersona short="HECT.">Hector</scenepersona>
@@ -2935,6 +2933,7 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THER.">Thersites</scenepersona>
 	<scenepersona short="PATR.">Patroclus</scenepersona>
@@ -2960,9 +2959,7 @@ This lord, Achilles, Ajax, who wears his wit in his belly and his guts in his he
 
 <speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="989" number="1" form="prose">How now, Thersites? What, lost in the labyrinth of thy fury? Shall the elephant Ajax carry it thus? He beats me, and I rail at him. O worthy satisfaction! 
-Would it were otherwise: that I could beat him, whilst he rail&#8217;d at me. &#8217;Sfoot, I&#8217;ll learn to conjure and raise devils, but I&#8217;ll see some issue of my spiteful execrations. Then there&#8217;s Achilles, a rare enginer! If Troy be not taken till these two undermine it, the walls will stand till they fall of themselves. 
-O thou great thunder-darter of Olympus, forget that thou art Jove, the king of gods, and, Mercury, lose all the serpentine craft of thy caduceus, if ye take not that little little less than little wit from them that they have, which short-arm&#8217;d ignorance itself knows is so abundant scarce, it will not in circumvention deliver a fly from a spider, without drawing their massy irons and cutting the web! After this, the vengeance on the whole camp! Or rather, the Neapolitan bone-ache! For that methinks is the curse depending on those that war for a placket. I have said my prayers, and devil Envy say amen. 
+<line globalnumber="989" number="1" form="prose">How now, Thersites? What, lost in the labyrinth of thy fury? Shall the elephant Ajax carry it thus? He beats me, and I rail at him. O worthy satisfaction! Would it were otherwise: that I could beat him, whilst he rail&#8217;d at me. &#8217;Sfoot, I&#8217;ll learn to conjure and raise devils, but I&#8217;ll see some issue of my spiteful execrations. Then there&#8217;s Achilles, a rare enginer! If Troy be not taken till these two undermine it, the walls will stand till they fall of themselves. O thou great thunder-darter of Olympus, forget that thou art Jove, the king of gods, and, Mercury, lose all the serpentine craft of thy caduceus, if ye take not that little little less than little wit from them that they have, which short-arm&#8217;d ignorance itself knows is so abundant scarce, it will not in circumvention deliver a fly from a spider, without drawing their massy irons and cutting the web! After this, the vengeance on the whole camp! Or rather, the Neapolitan bone-ache! For that methinks is the curse depending on those that war for a placket. I have said my prayers, and devil Envy say amen. 
 What ho! My Lord Achilles!</line>
 </speech>
 
@@ -2979,10 +2976,7 @@ What ho! My Lord Achilles!</line>
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="991" number="3" form="prose">If I could &#8217;a&#8217; rememb&#8217;red a gilt counterfeit, thou wouldst not have slipp&#8217;d out of my contemplation. 
-But it is no matter, thyself upon thyself! The common curse of mankind, folly and ignorance, be thine in great revenue! 
-Heaven bless thee from a tutor, and discipline come not near thee! 
-Lee thy blood be thy direction till thy death; then if she that lays thee out says thou art a fair corse, I&#8217;ll be sworn and sworn upon&#8217;t she never shrouded any but lazars. Amen.</line>
+<line globalnumber="991" number="3" form="prose">If I could &#8217;a&#8217; rememb&#8217;red a gilt counterfeit, thou wouldst not have slipp&#8217;d out of my contemplation. But it is no matter, thyself upon thyself! The common curse of mankind, folly and ignorance, be thine in great revenue! Heaven bless thee from a tutor, and discipline come not near thee! Lee thy blood be thy direction till thy death; then if she that lays thee out says thou art a fair corse, I&#8217;ll be sworn and sworn upon&#8217;t she never shrouded any but lazars. Amen.</line>
 <stagedir sdglobalnumber="991.01" sdnumber="3.01">
 	<dir>Enter Patroclus.</dir>
 	<action type="enter">
@@ -3026,8 +3020,7 @@ Lee thy blood be thy direction till thy death; then if she that lays thee out sa
 
 <speech>
 <speaker long="Achilles">ACHIL.</speaker>
-<line globalnumber="998" number="10" form="prose">Where? Where? O, where? Art thou come? Why, my cheese, my digestion, why hast thou not serv&#8217;d thyself in to my table so many meals? 
-Come, what&#8217;s Agamemnon?</line>
+<line globalnumber="998" number="10" form="prose">Where? Where? O, where? Art thou come? Why, my cheese, my digestion, why hast thou not serv&#8217;d thyself in to my table so many meals? Come, what&#8217;s Agamemnon?</line>
 </speech>
 
 <speech>
@@ -3716,7 +3709,6 @@ Come, what&#8217;s Agamemnon?</line>
 <stagedir sdglobalnumber="1188.01" sdnumber="193.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>ACHIL.</actor>
 		<actor>AGAM.</actor>
 		<actor>ULYSS.</actor>
 		<actor>NEST.</actor>
@@ -3734,6 +3726,7 @@ Come, what&#8217;s Agamemnon?</line>
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. Priam&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 	<scenepersona short="PAR. SERV.">Paris&#8217;s Servant</scenepersona>
@@ -3888,8 +3881,7 @@ Come, what&#8217;s Agamemnon?</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="1215" number="27" form="prose">It should seem, fellow, thou hast not seen the Lady Cressid. I come to speak with Paris from the Prince Troilus. 
-I will make a complimental assault upon him, for my business seethes.</line>
+<line globalnumber="1215" number="27" form="prose">It should seem, fellow, thou hast not seen the Lady Cressid. I come to speak with Paris from the Prince Troilus. I will make a complimental assault upon him, for my business seethes.</line>
 </speech>
 
 <speech>
@@ -3922,8 +3914,7 @@ I will make a complimental assault upon him, for my business seethes.</line>
 
 <speech>
 <speaker long="Paris">PAR.</speaker>
-<line globalnumber="1220" number="32" form="prose">You have broke it, cousin; and by my life you shall make it whole again&#8212;you shall piece it out with a piece of your performance. 
-Nell, he is full of harmony.</line>
+<line globalnumber="1220" number="32" form="prose">You have broke it, cousin; and by my life you shall make it whole again&#8212;you shall piece it out with a piece of your performance. Nell, he is full of harmony.</line>
 </speech>
 
 <speech>
@@ -3988,8 +3979,7 @@ Nell, he is full of harmony.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="1233" number="45" form="prose">Nay, that shall not serve your turn, that shall it not, in truth la! Nay, I care not for such words, no, no. 
-And, my lord, he desires you, that if the King call for him at supper, you will make his excuse.</line>
+<line globalnumber="1233" number="45" form="prose">Nay, that shall not serve your turn, that shall it not, in truth la! Nay, I care not for such words, no, no. And, my lord, he desires you, that if the King call for him at supper, you will make his excuse.</line>
 </speech>
 
 <speech>
@@ -4227,6 +4217,7 @@ And, my lord, he desires you, that if the King call for him at supper, you will 
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Troy. Pandarus&#8217; orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 	<scenepersona short="TRO. BOY.">Troilus&#8217; Boy</scenepersona>
@@ -4436,9 +4427,7 @@ And, my lord, he desires you, that if the King call for him at supper, you will 
 
 <speech>
 <speaker long="Troilus">TRO.</speaker>
-<line globalnumber="1337" number="46" form="prose">Nothing but our undertakings, when we vow to weep seas, live in fire, eat rocks, tame tigers; 
-thinking it harder for our mistress to devise imposition enough than for us to undergo any difficulty impos&#8217;d. 
-This is the monstruosity in love, lady, that the will is infinite and the execution confin&#8217;d, that the desire is boundless and the act a slave to limit.</line>
+<line globalnumber="1337" number="46" form="prose">Nothing but our undertakings, when we vow to weep seas, live in fire, eat rocks, tame tigers; thinking it harder for our mistress to devise imposition enough than for us to undergo any difficulty impos&#8217;d. This is the monstruosity in love, lady, that the will is infinite and the execution confin&#8217;d, that the desire is boundless and the act a slave to limit.</line>
 </speech>
 
 <speech>
@@ -4485,8 +4474,7 @@ This is the monstruosity in love, lady, that the will is infinite and the execut
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="1345" number="54" form="prose">Nay, I&#8217;ll give my word for her too. Our kindred, though they be long ere they be woo&#8217;d, they are constant being won. 
-They are burs, I can tell you, they&#8217;ll stick where they are thrown.</line>
+<line globalnumber="1345" number="54" form="prose">Nay, I&#8217;ll give my word for her too. Our kindred, though they be long ere they be woo&#8217;d, they are constant being won. They are burs, I can tell you, they&#8217;ll stick where they are thrown.</line>
 </speech>
 
 <speech>
@@ -4633,7 +4621,7 @@ They are burs, I can tell you, they&#8217;ll stick where they are thrown.</line>
 <line globalnumber="1409" number="117" form="verse">Wants similes, truth tir&#8217;d with iteration,</line>
 <line globalnumber="1410" number="118" form="verse">As true as steel, as plantage to the moon,</line>
 <line globalnumber="1411" number="119" form="verse">As sun to day, as turtle to her mate,</line>
-<line globalnumber="1412" number="120" form="verse">As iron to adamant, as earth to th&#8217; centre,</line>
+<line globalnumber="1412" number="120" form="verse">As iron to adamant, as earth to th&#8217; center,</line>
 <line globalnumber="1413" number="121" form="verse">Yet after all comparisons of truth</line>
 <line globalnumber="1414" number="122" form="verse">(As truth&#8217;s authentic author to be cited)</line>
 <line globalnumber="1415" number="123" form="verse">&#8220;As true as Troilus&#8221; shall crown up the verse,</line>
@@ -4660,8 +4648,7 @@ They are burs, I can tell you, they&#8217;ll stick where they are thrown.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="1431" number="138" form="prose">Go to, a bargain made, seal it, seal it, I&#8217;ll be the witness. Here I hold your hand, here my cousin&#8217;s. 
-If ever you prove false one to another, since I have taken such pain to bring you together, let all pitiful goers-between be call&#8217;d to the world&#8217;s end after my name; call them all Pandars. Let all constant men be Troiluses, all false women Cressids, and all brokers-between Pandars! Say, amen.</line>
+<line globalnumber="1431" number="138" form="prose">Go to, a bargain made, seal it, seal it, I&#8217;ll be the witness. Here I hold your hand, here my cousin&#8217;s. If ever you prove false one to another, since I have taken such pain to bring you together, let all pitiful goers-between be call&#8217;d to the world&#8217;s end after my name; call them all Pandars. Let all constant men be Troiluses, all false women Cressids, and all brokers-between Pandars! Say, amen.</line>
 </speech>
 
 <speech>
@@ -4700,6 +4687,7 @@ If ever you prove false one to another, since I have taken such pain to bring yo
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ULYSS.">Ulysses</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
@@ -5230,9 +5218,7 @@ If ever you prove false one to another, since I have taken such pain to bring yo
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="1695" number="249" form="prose">Why, &#8217;a stalks up and down like a peacock&#8212;a stride and a stand; ruminates like an hostess that hath no arithmetic but her brain to set down her reckoning; bites his lip with a politic regard, as who should say there were wit in this head and &#8217;twould out&#8212;and so there is; but it lies as coldly in him as fire in a flint, which will not show without knocking. 
-The man&#8217;s undone forever, for if Hector break not his neck i&#8217; th&#8217; combat, he&#8217;ll break&#8217;t himself in vainglory. He knows not me. I said, &#8220;Good morrow, Ajax&#8221;; and he replies, &#8220;Thanks, Agamemnon.&#8221; 
-What think you of this man that takes me for the general? He&#8217;s grown a very land-fish, languageless, a monster. A plague of opinion! A man may wear it on both sides, like a leather jerkin.</line>
+<line globalnumber="1695" number="249" form="prose">Why, &#8217;a stalks up and down like a peacock&#8212;a stride and a stand; ruminates like an hostess that hath no arithmetic but her brain to set down her reckoning; bites his lip with a politic regard, as who should say there were wit in this head and &#8217;twould out&#8212;and so there is; but it lies as coldly in him as fire in a flint, which will not show without knocking. The man&#8217;s undone forever, for if Hector break not his neck i&#8217; th&#8217; combat, he&#8217;ll break&#8217;t himself in vainglory. He knows not me. I said, &#8220;Good morrow, Ajax&#8221;; and he replies, &#8220;Thanks, Agamemnon.&#8221; What think you of this man that takes me for the general? He&#8217;s grown a very land-fish, languageless, a monster. A plague of opinion! A man may wear it on both sides, like a leather jerkin.</line>
 </speech>
 
 <speech>
@@ -5247,8 +5233,7 @@ What think you of this man that takes me for the general? He&#8217;s grown a ver
 
 <speech>
 <speaker long="Achilles">ACHIL.</speaker>
-<line globalnumber="1698" number="252" form="prose">To him, Patroclus. Tell him I humbly desire the valiant Ajax to invite the most valorous Hector to come unarm&#8217;d to my tent, and to procure safe-conduct for his person of the magnanimous and most 
-illustrious six-or-seven-times-honor&#8217;d captain-general of the army, Agamemnon, <foreign xml:lang="la">et cetera</foreign>. Do this.</line>
+<line globalnumber="1698" number="252" form="prose">To him, Patroclus. Tell him I humbly desire the valiant Ajax to invite the most valorous Hector to come unarm&#8217;d to my tent, and to procure safe-conduct for his person of the magnanimous and most illustrious six-or-seven-times-honor&#8217;d captain-general of the army, Agamemnon, <foreign xml:lang="la">et cetera</foreign>. Do this.</line>
 </speech>
 
 <speech>
@@ -5367,8 +5352,7 @@ illustrious six-or-seven-times-honor&#8217;d captain-general of the army, Agamem
 
 <speech type="soliloquy">
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="1721" number="275" form="prose">Would the fountain of your mind were clear again, that I might water an ass at it! 
-I had rather be a tick in a sheep than such a valiant ignorance.</line>
+<line globalnumber="1721" number="275" form="prose">Would the fountain of your mind were clear again, that I might water an ass at it! I had rather be a tick in a sheep than such a valiant ignorance.</line>
 </speech>
 
 <stagedir sdglobalnumber="1721.01" sdnumber="275.01">
@@ -5386,6 +5370,7 @@ I had rather be a tick in a sheep than such a valiant ignorance.</line>
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Troy. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 	<scenepersona short="PAR.">Paris</scenepersona>
@@ -5603,6 +5588,7 @@ I had rather be a tick in a sheep than such a valiant ignorance.</line>
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Troy. A court before Pandarus&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TRO.">Troilus</scenepersona>
 	<scenepersona short="CRES.">Cressida</scenepersona>
@@ -5890,8 +5876,7 @@ I had rather be a tick in a sheep than such a valiant ignorance.</line>
 
 <speech>
 <speaker long="Pandarus">PAN.</speaker>
-<line globalnumber="1876" number="66" form="prose">Is&#8217;t possible? No sooner got but lost? The devil take Antenor! The young prince will go mad. A plague upon Antenor! 
-I would they had broke &#8217;s neck!</line>
+<line globalnumber="1876" number="66" form="prose">Is&#8217;t possible? No sooner got but lost? The devil take Antenor! The young prince will go mad. A plague upon Antenor! I would they had broke &#8217;s neck!</line>
 </speech>
 
 <stagedir sdglobalnumber="1876.01" sdnumber="66.01">
@@ -5961,7 +5946,7 @@ I would they had broke &#8217;s neck!</line>
 <line globalnumber="1892" number="82" form="verse">If ever she leave Troilus! Time, force, and death,</line>
 <line globalnumber="1893" number="83" form="verse">Do to this body what extremes you can;</line>
 <line globalnumber="1894" number="84" form="verse">But the strong base and building of my love</line>
-<line globalnumber="1895" number="85" form="verse">Is as the very centre of the earth,</line>
+<line globalnumber="1895" number="85" form="verse">Is as the very center of the earth,</line>
 <line globalnumber="1896" number="86" form="verse">Drawing all things to it. I&#8217;ll go in and weep.</line>
 </speech>
 
@@ -5990,6 +5975,7 @@ I would they had broke &#8217;s neck!</line>
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Troy. A street before Pandarus&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAR.">Paris</scenepersona>
 	<scenepersona short="TRO.">Troilus</scenepersona>
@@ -6063,6 +6049,7 @@ I would they had broke &#8217;s neck!</line>
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Troy. Pandarus&#8217;s House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAN.">Pandarus</scenepersona>
 	<scenepersona short="CRES.">Cressida</scenepersona>
@@ -6507,6 +6494,7 @@ I would they had broke &#8217;s neck!</line>
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The Grecian camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AJAX.">Ajax</scenepersona>
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
@@ -7483,6 +7471,7 @@ I would they had broke &#8217;s neck!</line>
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Grecian camp. Before Achilles&#8217; tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 	<scenepersona short="PATR.">Patroclus</scenepersona>
@@ -7576,8 +7565,7 @@ I would they had broke &#8217;s neck!</line>
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="2403" number="14" form="prose">Why, his masculine whore. Now the rotten diseases of the south, the guts-griping, ruptures, catarrhs, loads a&#8217; gravel in the back, lethargies, cold palsies, raw eyes, dirt-rotten livers, whissing lungs, bladders full of imposthume, sciaticas, lime-kills i&#8217; th&#8217; palm, incurable bone-ache, and the rivell&#8217;d 
-fee-simple of the tetter, take and take again such preposterous discoveries!</line>
+<line globalnumber="2403" number="14" form="prose">Why, his masculine whore. Now the rotten diseases of the south, the guts-griping, ruptures, catarrhs, loads a&#8217; gravel in the back, lethargies, cold palsies, raw eyes, dirt-rotten livers, whissing lungs, bladders full of imposthume, sciaticas, lime-kills i&#8217; th&#8217; palm, incurable bone-ache, and the rivell&#8217;d fee-simple of the tetter, take and take again such preposterous discoveries!</line>
 </speech>
 
 <speech>
@@ -7789,7 +7777,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <line globalnumber="2447" number="52" form="verse" offset="4">Come, come, enter my tent.</line>
 </speech>
 
-<stagedir sdglobalnumber="2447.01" sdnumber="52.01">
+<stagedir sdglobalnumber="2447.01" sdnumber="52.02">
 	<dir>Exeunt Achilles, Hector, Ajax, and Nestor.</dir>
 	<action type="exit">
 		<actor>ACHIL.</actor>
@@ -7816,6 +7804,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Grecian camp. Before Calchas&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 	<scenepersona short="TRO.">Troilus</scenepersona>
@@ -8601,6 +8590,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Troy. Before Priam&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HECT.">Hector</scenepersona>
 	<scenepersona short="AND.">Andromache</scenepersona>
@@ -9009,6 +8999,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The plains between Troy and the Grecian camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THER.">Thersites</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
@@ -9116,6 +9107,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
 	<scenepersona short="DIO. SERV.">Diomedes&#8217;s Servant</scenepersona>
@@ -9295,6 +9287,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AJAX.">Ajax</scenepersona>
 	<scenepersona short="DIO.">Diomedes</scenepersona>
@@ -9508,6 +9501,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 <scene actnum="5" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
 	<scenepersona short="MYRMIDONS.">Myrmidons</scenepersona>
@@ -9595,9 +9589,7 @@ fee-simple of the tetter, take and take again such preposterous discoveries!</li
 
 <speech>
 <speaker long="Thersites">THER.</speaker>
-<line globalnumber="2886" number="13" form="prose">I am a bastard too, I love bastards. I am bastard begot, bastard instructed, bastard in mind, bastard in valor, in every thing illegitimate. 
-One bear will not bite another, and wherefore should one bastard? Take heed, the quarrel&#8217;s most ominous to us. 
-If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.</line>
+<line globalnumber="2886" number="13" form="prose">I am a bastard too, I love bastards. I am bastard begot, bastard instructed, bastard in mind, bastard in valor, in every thing illegitimate. One bear will not bite another, and wherefore should one bastard? Take heed, the quarrel&#8217;s most ominous to us. If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.</line>
 </speech>
 
 <stagedir sdglobalnumber="2886.01" sdnumber="13.01">
@@ -9624,6 +9616,7 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <scene actnum="5" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HECT.">Hector</scenepersona>
 	<scenepersona short="ACHIL.">Achilles</scenepersona>
@@ -9733,6 +9726,7 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <scene actnum="5" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AGAM.">Agamemnon</scenepersona>
 	<scenepersona short="AJAX.">Ajax</scenepersona>
@@ -9815,6 +9809,7 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <scene actnum="5" num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Another part of the plains.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AENE.">Aeneas</scenepersona>
 	<scenepersona short="PAR.">Paris</scenepersona>
@@ -9969,22 +9964,8 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 </act>
 
 
-<locations numberOfLocations="14">
-<placename>Another part of the plains.</placename>
-<placename>The Grecian camp. Before Achilles&#8217; tent.</placename>
-<placename>The Grecian camp. Before Agamemnon&#8217;s tent.</placename>
-<placename>The Grecian camp. Before Calchas&#8217;s tent.</placename>
-<placename>The Grecian camp.</placename>
-<placename>The plains between Troy and the Grecian camp.</placename>
-<placename>Troy. A court before Pandarus&#8217;s house.</placename>
-<placename>Troy. A room in Priam&#8217;s palace.</placename>
-<placename>Troy. A street before Pandarus&#8217;s house.</placename>
-<placename>Troy. A street.</placename>
-<placename>Troy. Before Priam&#8217;s palace.</placename>
-<placename>Troy. Pandarus&#8217; orchard.</placename>
-<placename>Troy. Pandarus&#8217;s House.</placename>
-<placename>Troy. Priam&#8217;s palace.</placename>
-</locations>
+
+
 
 <sources>
 <playsource>
@@ -10034,12 +10015,11 @@ If the son of a whore fight for a whore, he tempts judgment. Farewell, bastard.<
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

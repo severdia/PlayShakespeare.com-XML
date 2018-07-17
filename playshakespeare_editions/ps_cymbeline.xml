@@ -1,185 +1,154 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="cymbeline">
 <title short="Cymbeline">Cymbeline</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1609-1610</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Cymbeline">
 
-<persona gender="female">
-<persname short="HEL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Helen</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="IMO." numberOfLines="574" numberOfVerseLines="572" numberOfProseLines="2" numberOfLyricsLines="0">Imogen</persname>
-</persona>
-
-<persona gender="female" archetype="villain" death="yes">
-<persname short="QUEEN." numberOfLines="169" numberOfVerseLines="169" numberOfProseLines="0" numberOfLyricsLines="0">Queen</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FRENCH." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Frenchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAP." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Roman Captain</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PHIL." numberOfLines="37" numberOfVerseLines="36" numberOfProseLines="1" numberOfLyricsLines="0">Philarmonus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="COR." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Cornelius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PIS." numberOfLines="217" numberOfVerseLines="210" numberOfProseLines="7" numberOfLyricsLines="0">Pisanio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUC." numberOfLines="104" numberOfVerseLines="103" numberOfProseLines="1" numberOfLyricsLines="0">Caius Lucius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="JACH." numberOfLines="374" numberOfVerseLines="354" numberOfProseLines="20" numberOfLyricsLines="0">Jachimo</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PHI." numberOfLines="31" numberOfVerseLines="24" numberOfProseLines="7" numberOfLyricsLines="0">Philario</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ARV." numberOfLines="144" numberOfVerseLines="144" numberOfProseLines="0" numberOfLyricsLines="14">Arviragus</persname>
-<persaliases>
-	<persname short="BOTH. ARV. AND GUI.">Both Arviragus and Guiderius</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="GUI." numberOfLines="168" numberOfVerseLines="168" numberOfProseLines="0" numberOfLyricsLines="14">Guiderius</persname>
-<persaliases>
-	<persname short="BOTH. ARV. AND GUI.">Both Arviragus and Guiderius</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="BEL." numberOfLines="339" numberOfVerseLines="339" numberOfProseLines="0" numberOfLyricsLines="0">Belarius</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="POST." numberOfLines="398" numberOfVerseLines="371" numberOfProseLines="27" numberOfLyricsLines="0">Posthumus Leonatus</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
-<persname short="CLO." numberOfLines="154" numberOfVerseLines="115" numberOfProseLines="39" numberOfLyricsLines="0">Cloten</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="ab371c49-38b0-49c4-bc4c-b9b2b6a5c630">
 <persname short="CYM." numberOfLines="292" numberOfVerseLines="291" numberOfProseLines="1" numberOfLyricsLines="0">Cymbeline</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. GENT." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman</persname>
+<persona gender="male" archetype="hero" id="fd02062f-7682-42c1-9ef1-c825034c6dc0">
+<persname short="POST." numberOfLines="398" numberOfVerseLines="371" numberOfProseLines="27" numberOfLyricsLines="0">Posthumus Leonatus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. GENT." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
+<persona gender="male" id="2eb7b79e-8052-4a4c-91b0-bda6c88aef7d">
+<persname short="JACH." numberOfLines="374" numberOfVerseLines="354" numberOfProseLines="20" numberOfLyricsLines="0">Jachimo</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. LORD." numberOfLines="27" numberOfVerseLines="15" numberOfProseLines="12" numberOfLyricsLines="0">First Lord</persname>
+<persona gender="male" id="b7673a49-e700-4592-986b-c53277a94f33">
+<persname short="BEL." numberOfLines="339" numberOfVerseLines="339" numberOfProseLines="0" numberOfLyricsLines="0">Belarius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. LORD." numberOfLines="35" numberOfVerseLines="17" numberOfProseLines="18" numberOfLyricsLines="0">Second Lord</persname>
+<persona gender="male" id="aa668705-20d4-4933-8198-eac247e397cd">
+<persname short="PIS." numberOfLines="217" numberOfVerseLines="210" numberOfProseLines="7" numberOfLyricsLines="0">Pisanio</persname>
 </persona>
 
-<persona gender="female">
-<persname short="LADY" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Lady Attendant</persname>
+<persona gender="male" id="8b0499f4-7733-49a8-a24a-4edec06e24f8">
+<persname short="GUI." numberOfLines="168" numberOfVerseLines="168" numberOfProseLines="0" numberOfLyricsLines="14">Guiderius</persname>
+<persaliases>
+	<persname short="BOTH ARV. AND GUI.">Both Arviragus and Guiderius</persname>
+</persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="male" archetype="villain" death="yes" id="fc670faa-66b1-4ba4-aa58-2470c6cc0830">
+<persname short="CLO." numberOfLines="154" numberOfVerseLines="115" numberOfProseLines="39" numberOfLyricsLines="0">Cloten</persname>
+</persona>
+
+<persona gender="male" id="95b33145-1455-4530-b47e-10f341e7ae1d">
+<persname short="ARV." numberOfLines="144" numberOfVerseLines="144" numberOfProseLines="0" numberOfLyricsLines="14">Arviragus</persname>
+<persaliases>
+	<persname short="BOTH ARV. AND GUI.">Both Arviragus and Guiderius</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="f655db77-3dcd-4b90-9bfb-0cfec24359b7">
+<persname short="LUC." numberOfLines="104" numberOfVerseLines="103" numberOfProseLines="1" numberOfLyricsLines="0">Caius Lucius</persname>
+</persona>
+
+<persona gender="male" id="a92364e8-9a26-4029-84fd-ebbe8252a36b">
+<persname short="COR." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Cornelius</persname>
+</persona>
+
+<persona gender="male" id="0c750ff3-7ec9-4147-a72c-650a299344af">
+<persname short="PHIL." numberOfLines="37" numberOfVerseLines="36" numberOfProseLines="1" numberOfLyricsLines="0">Philarmonus</persname>
+</persona>
+
+<persona gender="male" id="6f447505-58a2-41af-9ffe-03819c5cb38b">
+<persname short="PHI." numberOfLines="31" numberOfVerseLines="24" numberOfProseLines="7" numberOfLyricsLines="0">Philario</persname>
+</persona>
+
+<persona gender="male" id="6e43ee6b-5b83-46e8-a911-c056087ec355">
+<persname short="JUP." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Jupiter</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="cd837fa0-da43-4654-9538-fe74538a9dbf">
+<persname short="IMO." numberOfLines="574" numberOfVerseLines="572" numberOfProseLines="2" numberOfLyricsLines="0">Imogen</persname>
+</persona>
+
+<persona gender="female" archetype="villain" death="yes" id="02f67976-bd64-439f-a80f-a77ab4335475">
+<persname short="QUEEN." numberOfLines="169" numberOfVerseLines="169" numberOfProseLines="0" numberOfLyricsLines="0">Queen</persname>
+</persona>
+
+<persona gender="female" id="7084864c-63d8-4ac7-9e54-3f9134a2259e">
+<persname short="HEL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Helen</persname>
+</persona>
+
+<persona gender="female" id="d05ce656-6033-4a0e-9c94-872cf5c753f0">
 <persname short="OTH. LAD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Other Ladies</persname>
 <persaliases>
 	<persname short="LADIES.">Ladies</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="DUTCHMAN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Dutchman</persname>
+<persona gender="male" id="960fa65f-991c-4393-ac78-1e27af0e30b0">
+<persname short="1. LORD." numberOfLines="27" numberOfVerseLines="15" numberOfProseLines="12" numberOfLyricsLines="0">First Lord</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SPANIARD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Spaniard</persname>
+<persona gender="male" id="b86dc453-5ad7-4532-b9a1-8dc40f3b3979">
+<persname short="2. LORD." numberOfLines="35" numberOfVerseLines="17" numberOfProseLines="18" numberOfLyricsLines="0">Second Lord</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SING." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="8">Singer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SEN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. SEN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TRI." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tribune</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. BRIT. CAP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First British Captain</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. BRIT. CAP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second British Captain</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BRIT. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">British Soldiers</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="56a55566-bde1-484f-ba86-59cfba2e09b2">
 <persname short="BRIT. LORD." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">British Lord</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. JAIL." numberOfLines="10" numberOfVerseLines="2" numberOfProseLines="8" numberOfLyricsLines="0">First Jailer</persname>
+<persona gender="male" id="9724fe2d-a94d-40eb-a6af-c36632072fc1">
+<persname short="1. SEN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. JAIL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Jailer</persname>
+<persona gender="male" id="467f990e-9dd6-461c-8d1f-dd6845b6a3c4">
+<persname short="2. SEN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JUP." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Jupiter</persname>
+<persona gender="male" id="0d904530-7423-4b22-9beb-068e0aacdfd5">
+<persname short="1. BRIT. CAP." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First British Captain</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1c41dac6-440b-4196-992a-1b74b995e739">
+<persname short="2. BRIT. CAP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second British Captain</persname>
+</persona>
+
+<persona gender="male" id="9e6c8ec0-bd89-4d19-bd8f-96e9eab5518f">
+<persname short="BRIT. SOLD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">British Soldiers</persname>
+</persona>
+
+<persona gender="male" id="1225475f-e8ef-4a40-bfe6-ec4408cfaf9c">
+<persname short="CAP." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Roman Captain</persname>
+</persona>
+
+<persona gender="male" id="2b8af707-915e-47c2-ab10-ffd8fcfd900c">
+<persname short="1. GENT." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman</persname>
+</persona>
+
+<persona gender="male" id="d65ba8a3-1291-4133-930c-0c0561efe9e9">
+<persname short="2. GENT." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
+</persona>
+
+<persona gender="male" id="6e060404-6d9f-418c-a210-5d531e17930e">
 <persname short="SICI." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Apparition of Sicilius Leonatus</persname>
 <persaliases>
 	<persname short="ALL GHOSTS">All Ghosts</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a6689356-fa9e-4aca-9256-45be41f64a2f">
 <persname short="MOTH." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Apparition of the Matron</persname>
 <persaliases>
 	<persname short="ALL GHOSTS">All Ghosts</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63356943-8c15-478e-902f-2238615844bd">
 <persname short="APP. 1. BRO." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Apparition of First Brother of Posthumus</persname>
 <persaliases>
 	<persname short="BROTHERS.">Apparition Brothers of Posthumus</persname>
@@ -187,7 +156,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b964b8f2-55f8-4294-aa65-17d0cf84950e">
 <persname short="APP. 2. BRO." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Apparition of Second Brother of Posthumus</persname>
 <persaliases>
 	<persname short="BROTHERS.">Apparition Brothers of Posthumus</persname>
@@ -195,9 +164,46 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="af316283-8dc3-44f3-93d3-c2d9874e9228">
+<persname short="1. JAIL." numberOfLines="10" numberOfVerseLines="2" numberOfProseLines="8" numberOfLyricsLines="0">First Jailer</persname>
+</persona>
+
+<persona gender="male" id="974c0953-a07d-4c3a-9a6b-fb2b053713fb">
+<persname short="2. JAIL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Jailer</persname>
+</persona>
+
+<persona gender="male" id="44e275e5-468e-489e-b46e-cd3510bb803f">
+<persname short="SING." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="8">Singer</persname>
+</persona>
+
+<persona gender="male" id="6133a7f9-574b-4080-9a75-ce98971a5183">
+<persname short="TRIB." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tribune</persname>
+</persona>
+
+<persona gender="male" id="ab8d1fb7-0bec-4fad-9f17-ffc9192494f0">
+<persname short="MESS." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="6cedc66c-da40-4208-881b-4d48402f67fe">
 <persname short="GUARD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Guard</persname>
 </persona>
+
+<persona gender="female" id="bf8bee0e-14dd-4d47-a319-beaf083e890d">
+<persname short="LADY" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Lady Attendant</persname>
+</persona>
+
+<persona gender="male" id="d33fbd89-656e-4db3-8482-673029e737ba">
+<persname short="FRENCH." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Frenchman</persname>
+</persona>
+
+<persona gender="male" id="c02b9684-a2c2-4d46-9696-1a9eeaf42412">
+<persname short="SPANIARD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Spaniard</persname>
+</persona>
+
+<persona gender="male" id="dc115f35-44c3-4a1b-b13f-49a1b56ebc65">
+<persname short="DUTCHMAN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Dutchman</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -205,6 +211,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Britain. The garden of Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
 	<scenepersona short="2. GENT.">Second Gentleman</scenepersona>
@@ -671,7 +678,7 @@
 <speech>
 <speaker long="Cymbeline">CYM.</speaker>
 <line globalnumber="181" number="151" form="verse" offset="7">Thou foolish thing!</line>
-<stagedir sdglobalnumber="181.01" sdnumber="151.01">
+<stagedir sdglobalnumber="181.01" sdnumber="151.02">
 	<dir>To the Queen.</dir>
 	<action type="speak">
 		<actor>CYM.</actor>
@@ -805,6 +812,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Britain. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Cloten</scenepersona>
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
@@ -839,7 +847,7 @@
 <stagedir sdglobalnumber="220.01" sdnumber="2.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="221" number="3" form="prose"> No, faith; not so much as his patience.</line>
@@ -855,7 +863,7 @@
 <stagedir sdglobalnumber="222.01" sdnumber="4.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="223" number="5" form="prose"> His steel was in debt, it went o&#8217; th&#8217; backside the town.</line>
@@ -871,7 +879,7 @@
 <stagedir sdglobalnumber="224.01" sdnumber="6.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="225" number="7" form="prose">No, but he fled forward still, toward your face.</line>
@@ -887,7 +895,7 @@
 <stagedir sdglobalnumber="226.01" sdnumber="8.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="227" number="9" form="prose">As many inches as you have oceans. Puppies!</line>
@@ -903,7 +911,7 @@
 <stagedir sdglobalnumber="228.01" sdnumber="10.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="229" number="11" form="prose">So would I, till you had measur&#8217;d how long a fool you were upon the ground.</line>
@@ -919,7 +927,7 @@
 <stagedir sdglobalnumber="230.01" sdnumber="12.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="231" number="13" form="prose">If it be a sin to make a true election, she is damn&#8217;d.</line>
@@ -935,7 +943,7 @@
 <stagedir sdglobalnumber="232.01" sdnumber="14.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="233" number="15" form="prose">She shines not upon fools, lest the reflection should hurt her.</line>
@@ -951,7 +959,7 @@
 <stagedir sdglobalnumber="234.01" sdnumber="16.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="235" number="17" form="prose">I wish not so, unless it had been the fall of an ass, which is no great hurt.</line>
@@ -991,6 +999,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Britain. A room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
@@ -1134,6 +1143,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. A room in Pilario&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PHI.">Philario</scenepersona>
 	<scenepersona short="JACH.">Jachimo</scenepersona>
@@ -1449,6 +1459,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Britain. A room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
 	<scenepersona short="LADIES.">Ladies</scenepersona>
@@ -1582,7 +1593,7 @@
 
 <speech>
 <speaker long="Cornelius">COR.</speaker>
-<stagedir sdglobalnumber="378.01" sdnumber="32.01">
+<stagedir sdglobalnumber="378.01" sdnumber="32.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>COR.</actor>
@@ -1715,6 +1726,7 @@
 <scene actnum="1" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Britain. Another room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
@@ -2250,6 +2262,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Britain. Before Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Cloten</scenepersona>
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
@@ -2284,7 +2297,7 @@
 <stagedir sdglobalnumber="681.01" sdnumber="2.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="682" number="3" form="prose">If his wit had been like him that broke it, it would have run all out.</line>
@@ -2317,7 +2330,7 @@
 <stagedir sdglobalnumber="686.01" sdnumber="6.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="687" number="7" form="prose">To have smell&#8217;d like a fool.</line>
@@ -2333,7 +2346,7 @@
 <stagedir sdglobalnumber="688.01" sdnumber="8.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="689" number="9" form="prose">You are cock and capon too, and you crow, cock, with your comb on.</line>
@@ -2379,7 +2392,7 @@
 <stagedir sdglobalnumber="696.01" sdnumber="16.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="697" number="17" form="prose">He&#8217;s a strange fellow himself, and knows it not.</line>
@@ -2420,7 +2433,7 @@
 <stagedir sdglobalnumber="703.01" sdnumber="23.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>2. LORD</actor>
+		<actor>2. LORD.</actor>
 	</action>
 </stagedir>
 <line globalnumber="704" number="24" form="prose">You are a fool granted, therefore your issues, being foolish, do not derogate.</line>
@@ -2469,6 +2482,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Britain. Imogen&#8217;s bedchamber in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="HEL.">Helen</scenepersona>
@@ -2534,7 +2548,7 @@
 
 <stagedir sdglobalnumber="732.02" sdnumber="10.02">
 	<dir>Jachimo from the trunk.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>JACH.</actor>
 	</action>
 </stagedir>
@@ -2613,6 +2627,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Britain. An antechamber adjoining Imogen&#8217;s apartment in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Cloten</scenepersona>
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
@@ -2671,6 +2686,7 @@
 <stagedir sdglobalnumber="779.01" sdnumber="6.01">
 	<dir>Enter Musicians.</dir>
 	<action type="enter">
+		<actor>SING.</actor>
 		<actor>Musicians</actor>
 	</action>
 </stagedir>
@@ -2703,6 +2719,7 @@
 <stagedir sdglobalnumber="789.01" sdnumber="16.01">
 	<dir>Exeunt Musicians.</dir>
 	<action type="exit">
+		<actor>SING.</actor>
 		<actor>Musicians</actor>
 	</action>
 </stagedir>
@@ -2794,7 +2811,6 @@
 	<action type="exit">
 		<actor>CYM.</actor>
 		<actor>QUEEN.</actor>
-		<actor>SING.</actor>
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
 		<actor>MESS.</actor>
@@ -3119,6 +3135,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. Philario&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 	<scenepersona short="PHI.">Philario</scenepersona>
@@ -3590,6 +3607,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Rome. Another room in Philario&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 </scenepersonae>
@@ -3659,6 +3677,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Britain. A hall in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CYM.">Cymbeline</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
@@ -3841,6 +3860,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Britain. A room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="IMO.">Imogen</scenepersona>
@@ -4000,6 +4020,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Wales. A mountainous country with a cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BEL.">Belarius</scenepersona>
 	<scenepersona short="GUI.">Guiderius</scenepersona>
@@ -4186,6 +4207,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The country near Milford-Haven.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PIS.">Pisanio</scenepersona>
 	<scenepersona short="IMO.">Imogen</scenepersona>
@@ -4569,6 +4591,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Britain. A room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CYM.">Cymbeline</scenepersona>
 	<scenepersona short="QUEEN.">Queen</scenepersona>
@@ -4761,6 +4784,7 @@
 	<dir>Exit.</dir>
 	<action type="exit">
 		<actor>CYM.</actor>
+		<actor>MESS.</actor>
 	</action>
 </stagedir>
 
@@ -5064,6 +5088,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Wales. Before Belarius&#8217; cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="IMO.">Imogen</scenepersona>
 	<scenepersona short="BEL.">Belarius</scenepersona>
@@ -5369,10 +5394,11 @@
 <scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
 	<scenepersona short="2. SEN.">Second Senator</scenepersona>
-	<scenepersona short="TRI.">Tribunes</scenepersona>
+	<scenepersona short="TRIB.">Tribunes</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5384,7 +5410,7 @@
 	<action type="enter">
 		<actor>1. SEN.</actor>
 		<actor>2. SEN.</actor>
-		<actor>TRI.</actor>
+		<actor>TRIB.</actor>
 	</action>
 </stagedir>
 
@@ -5403,7 +5429,7 @@
 </speech>
 
 <speech>
-<speaker long="Tribune">TRI.</speaker>
+<speaker long="Tribune">TRIB.</speaker>
 <line globalnumber="1906" number="11" form="verse" offset="0">Is Lucius general of the forces?</line>
 </speech>
 
@@ -5413,7 +5439,7 @@
 </speech>
 
 <speech>
-<speaker long="Tribune">TRI.</speaker>
+<speaker long="Tribune">TRIB.</speaker>
 <line globalnumber="1908" number="12" form="verse" offset="0">Remaining now in Gallia?</line>
 </speech>
 
@@ -5427,7 +5453,7 @@
 </speech>
 
 <speech>
-<speaker long="Tribune">TRI.</speaker>
+<speaker long="Tribune">TRIB.</speaker>
 <line globalnumber="1914" number="16" form="verse" offset="4">We will discharge our duty.</line>
 </speech>
 
@@ -5436,7 +5462,7 @@
 	<action type="exit">
 			<actor>1. SEN.</actor>
 			<actor>2. SEN.</actor>
-			<actor>TRI.</actor>
+			<actor>TRIB.</actor>
 	</action>
 </stagedir>
 
@@ -5448,6 +5474,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Wales. The forest near Belarius&#8217; cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Cloten</scenepersona>
 </scenepersonae>
@@ -5480,6 +5507,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Belarius&#8217; cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BEL.">Belarius</scenepersona>
 	<scenepersona short="GUI.">Guiderius</scenepersona>
@@ -5621,7 +5649,7 @@
 
 <speech>
 <speaker long="Imogen">IMO.</speaker>
-<stagedir sdglobalnumber="1954.01" sdnumber="31.01">
+<stagedir sdglobalnumber="1954.01" sdnumber="31.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>IMO.</actor>
@@ -5884,6 +5912,10 @@
 <stagedir sdglobalnumber="2046.01" sdnumber="102.01">
 	<dir>Fight and exeunt.</dir>
 	<action type="fight">
+		<actor>CLO.</actor>
+		<actor>GUI.</actor>
+	</action>
+	<action type="exit">
 		<actor>CLO.</actor>
 		<actor>GUI.</actor>
 	</action>
@@ -6369,7 +6401,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Arviragus and Guiderius">BOTH. ARV. AND GUI.</speaker>
+<speaker long="Both Arviragus and Guiderius">BOTH ARV. AND GUI.</speaker>
 <line globalnumber="2254" number="276" form="verse" type="lyric">All lovers young, all lovers must</line>
 <line globalnumber="2255" number="277" form="verse" type="lyric">Consign to thee and come to dust.</line>
 </speech>
@@ -6395,7 +6427,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Arviragus and Guiderius">BOTH. ARV. AND GUI.</speaker>
+<speaker long="Both Arviragus and Guiderius">BOTH ARV. AND GUI.</speaker>
 <line globalnumber="2260" number="282" form="verse" type="lyric">Quiet consummation have,</line>
 <line globalnumber="2261" number="283" form="verse" type="lyric">And renowned be thy grave.</line>
 </speech>
@@ -6450,6 +6482,7 @@
 	<dir>Sees the body of Cloten.</dir>
 	<action type="action">
 		<actor>IMO.</actor>
+		<recipient>CLO.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2275" number="297" form="verse">But soft! No bedfellow! O gods and goddesses!</line>
@@ -6496,6 +6529,7 @@
 	<dir>Falls on the body.</dir>
 	<action type="action">
 		<actor>IMO.</actor>
+		<recipient>CLO.</recipient>
 	</action>
 </stagedir>
 
@@ -6683,6 +6717,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Britain. A room in Cymbeline&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CYM.">Cymbeline</scenepersona>
 	<scenepersona short="1. LORD.">First Lord</scenepersona>
@@ -6702,7 +6737,7 @@
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
 		<actor>PIS.</actor>
-		<actor>Attendants</actor>
+		<actor>Attendant</actor>
 	</action>
 </stagedir>
 
@@ -6829,6 +6864,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Wales. The forest near Belarius&#8217; cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BEL.">Belarius</scenepersona>
 	<scenepersona short="GUI.">Guiderius</scenepersona>
@@ -6988,6 +7024,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Britain. The Roman camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 </scenepersonae>
@@ -7052,6 +7089,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Field of battle between the British and Roman camps.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucius</scenepersona>
 	<scenepersona short="JACH.">Jachimo</scenepersona>
@@ -7131,6 +7169,9 @@
 
 <stagedir sdglobalnumber="2554.02" sdnumber="10.02">
 	<dir>The battle continues, the Britains fly, Cymbeline is taken.</dir>
+	<action type="enter">
+		<actor>CYM.</actor>
+	</action>
 	<action type="fight">
 	</action>
 	<action type="action">
@@ -7145,6 +7186,12 @@
 		<actor>ARV.</actor>
 		<actor>GUI.</actor>
 	</action>
+	<action type="fight">
+		<actor>BEL.</actor>
+		<actor>ARV.</actor>
+		<actor>GUI.</actor>
+		<recipient>CYM.</recipient>
+	</action>
 </stagedir>
 
 <speech>
@@ -7155,7 +7202,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Arviragus and Guiderius">BOTH. ARV. AND GUI.</speaker>
+<speaker long="Both Arviragus and Guiderius">BOTH ARV. AND GUI.</speaker>
 <line globalnumber="2558" number="13" form="verse" offset="5">Stand, stand, and fight!</line>
 </speech>
 
@@ -7168,11 +7215,19 @@
 
 <stagedir sdglobalnumber="2558.02" sdnumber="13.02">
 	<dir>They rescue Cymbeline and exeunt.</dir>
+	<action type="action">
+		<actor>BEL.</actor>
+		<actor>ARV.</actor>
+		<actor>GUI.</actor>
+		<actor>POST.</actor>
+		<recipient>CYM.</recipient>
+	</action>
 	<action type="exit">
 		<actor>BEL.</actor>
 		<actor>ARV.</actor>
 		<actor>GUI.</actor>
 		<actor>CYM.</actor>
+		<actor>POST.</actor>
 	</action>
 </stagedir>
 
@@ -7217,6 +7272,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the field of battle between the British and Roman camps.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 	<scenepersona short="BRIT. LORD.">British Lord</scenepersona>
@@ -7446,8 +7502,10 @@
 	<action type="action">
 		<actor>1. BRIT. CAP.</actor>
 		<actor>2. BRIT. CAP.</actor>
-		<actor>POST.</actor>
-		<actor>CYM.</actor>
+		<recipient>POST.</recipient>
+		<recipient>CYM.</recipient>
+	</action>
+	<action type="enter">
 		<actor>1. JAIL. </actor>
 	</action>
 </stagedir>
@@ -7474,6 +7532,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Britain. A prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POST.">Posthumus</scenepersona>
 	<scenepersona short="1. JAIL.">First Jailer</scenepersona>
@@ -7574,7 +7633,7 @@
 	<dir>Then, after other music, follows the two young Leonati, brothers to Posthumus, with wounds as they died in the wars. They circle Posthumus round as he lies sleeping.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
+	<action type="enter">
 		<actor>APP. 1. BRO.</actor>
 		<actor>APP. 2. BRO.</actor>
 	</action>
@@ -7737,7 +7796,7 @@
 
 <stagedir sdglobalnumber="2780.01" sdnumber="113.01">
 	<dir>Ascends.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>JUP.</actor>
 	</action>
 </stagedir>
@@ -7767,6 +7826,12 @@
 <stagedir sdglobalnumber="2790.01" sdnumber="122.01">
 	<dir>The Ghosts vanish after placing the tablet on Posthumus&#8217; breast.</dir>
 	<action type="action">
+		<actor>SICI.</actor>
+		<actor>MOTH.</actor>
+		<actor>APP. 1. BRO.</actor>
+		<actor>APP. 2. BRO.</actor>
+	</action>
+	<action type="exit">
 		<actor>SICI.</actor>
 		<actor>MOTH.</actor>
 		<actor>APP. 1. BRO.</actor>
@@ -7926,6 +7991,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Cymbeline&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CYM.">Cymbeline</scenepersona>
 	<scenepersona short="BEL.">Belarius</scenepersona>
@@ -8683,7 +8749,7 @@
 
 <speech>
 <speaker long="Belarius">BEL.</speaker>
-<stagedir sdglobalnumber="3141.01" sdnumber="266.01">
+<stagedir sdglobalnumber="3141.01" sdnumber="266.02">
 	<dir>To Guiderius and Arviragus.</dir>
 	<action type="speak">
 		<actor>BEL.</actor>
@@ -9259,30 +9325,10 @@
 </scene>
 </act>
 
-<locations numberOfLocations="22">
-<placename>Another part of the field of battle between the British and Roman camps.</placename>
-<placename>Before Belarius&#8217; cave.</placename>
-<placename>Britain. A hall in Cymbeline&#8217;s palace.</placename>
-<placename>Britain. A prison.</placename>
-<placename>Britain. A public place.</placename>
-<placename>Britain. A room in Cymbeline&#8217;s palace.</placename>
-<placename>Britain. An antechamber adjoining Imogen&#8217;s apartment in Cymbeline&#8217;s palace.</placename>
-<placename>Britain. Another room in Cymbeline&#8217;s palace.</placename>
-<placename>Britain. Before Cymbeline&#8217;s palace.</placename>
-<placename>Britain. Imogen&#8217;s bedchamber in Cymbeline&#8217;s palace.</placename>
-<placename>Britain. The Roman camp.</placename>
-<placename>Britain. The garden of Cymbeline&#8217;s palace.</placename>
-<placename>Cymbeline&#8217;s tent.</placename>
-<placename>Field of battle between the British and Roman camps.</placename>
-<placename>Rome. A public place.</placename>
-<placename>Rome. A room in Pilario&#8217;s house.</placename>
-<placename>Rome. Another room in Philario&#8217;s house.</placename>
-<placename>Rome. Philario&#8217;s house.</placename>
-<placename>The country near Milford-Haven.</placename>
-<placename>Wales. A mountainous country with a cave.</placename>
-<placename>Wales. Before Belarius&#8217; cave.</placename>
-<placename>Wales. The forest near Belarius&#8217; cave.</placename>
-</locations>
+
+
+
+
 
 <sources>
 <playsource>
@@ -9343,10 +9389,9 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 </play>

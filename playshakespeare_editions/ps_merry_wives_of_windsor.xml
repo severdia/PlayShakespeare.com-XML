@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="merry-wives-of-windsor">
 <title short="Merry Wives of Windsor">The Merry Wives of Windsor</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1597</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="The Merry Wives of Windsor">
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="85ee0bd0-5903-417b-9bb2-cbeda8489a73">
 <persname short="FAL." numberOfLines="148" numberOfVerseLines="13" numberOfProseLines="135" numberOfLyricsLines="0">Sir John Falstaff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="6d4fe6f4-b1d3-442d-9e4f-69c781d1fba3">
+<persname short="FORD." numberOfLines="114" numberOfVerseLines="17" numberOfProseLines="97" numberOfLyricsLines="0">Francis Ford</persname>
+</persona>
+
+<persona gender="male" id="7053b0cd-18d5-4a23-b7ab-375fef0dc2c6">
+<persname short="EVANS." numberOfLines="111" numberOfVerseLines="22" numberOfProseLines="89" numberOfLyricsLines="10">Sir Hugh Evans</persname>
+<persaliases>
+	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
+	<persname short="PAGE., EVANS. AND CAIUS">Page, Evans, and Caius</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="ea273bea-c23e-4ea9-8cdc-9381518ee723">
 <persname short="FENT." numberOfLines="93" numberOfVerseLines="85" numberOfProseLines="8" numberOfLyricsLines="0">Fenton</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="43e3d429-7120-4680-87b6-169aab213464">
+<persname short="SLEN." numberOfLines="62" numberOfVerseLines="0" numberOfProseLines="62" numberOfLyricsLines="0">Abraham Slender</persname>
+<persaliases>
+	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
+	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" archetype="clown" id="f139ffaf-ead5-48af-b7bd-01d827fc8804">
 <persname short="SHAL." numberOfLines="60" numberOfVerseLines="0" numberOfProseLines="60" numberOfLyricsLines="0">Robert Shallow</persname>
 <persaliases>
 	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
@@ -24,11 +49,67 @@
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="FORD." numberOfLines="114" numberOfVerseLines="17" numberOfProseLines="97" numberOfLyricsLines="0">Francis Ford</persname>
+<persona gender="male" archetype="clown" id="051de0bf-12da-472b-99fb-2c96265b08a3">
+<persname short="PIST." numberOfLines="55" numberOfVerseLines="38" numberOfProseLines="17" numberOfLyricsLines="4">Pistol</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="59800b33-3a77-4eb1-9839-7157f3e6d67e">
+<persname short="CAIUS." numberOfLines="52" numberOfVerseLines="0" numberOfProseLines="52" numberOfLyricsLines="0">Doctor Caius</persname>
+<persaliases>
+	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
+	<persname short="PAGE., EVANS. AND CAIUS">Page, Evans, and Caius</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="8b7679f4-de10-4471-9828-8db716990ca1">
+<persname short="HOST." numberOfLines="49" numberOfVerseLines="3" numberOfProseLines="46" numberOfLyricsLines="0">Host of the Garter Inn</persname>
+<persaliases>
+	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" archetype="clown" id="89405627-d133-4652-9b3c-6e6935f836a5">
+<persname short="SIM." numberOfLines="25" numberOfVerseLines="0" numberOfProseLines="25" numberOfLyricsLines="0">Peter Simple</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="02a15a8e-a068-4aeb-9650-ed3347bdd65e">
+<persname short="BARD." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Bardolph</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="14f81d94-f348-4dc6-9757-80f5ad7c6492">
+<persname short="NYM." numberOfLines="14" numberOfVerseLines="4" numberOfProseLines="10" numberOfLyricsLines="0">Nym</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="f743ce16-fb9a-43b2-9652-8b07e2a103de">
+<persname short="RUG." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">John Rugby</persname>
+<persaliases>
+	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="1f128f1c-d2c9-4f6e-bef1-c49f4e194711">
+<persname short="ROB." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Robin</persname>
+</persona>
+
+<persona gender="female" archetype="clown" id="d64a8f34-5b9b-40d2-a4e5-de00c826f4eb">
+<persname short="QUICK." numberOfLines="122" numberOfVerseLines="47" numberOfProseLines="75" numberOfLyricsLines="11">Mistress Quickly</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="3c1d5344-f07d-4a98-8ee7-b9bd50eae36f">
+<persname short="MRS. FORD." numberOfLines="95" numberOfVerseLines="9" numberOfProseLines="86" numberOfLyricsLines="0">Mistress Alice Ford</persname>
+<persaliases>
+	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" archetype="hero" id="e4a80f1d-5984-46b1-8575-cba449ce3cb9">
+<persname short="MRS. PAGE." numberOfLines="168" numberOfVerseLines="60" numberOfProseLines="108" numberOfLyricsLines="0">Mistress Margaret Page</persname>
+<persaliases>
+	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="22cd0c92-0e2f-44a7-8ae5-5b3681e7a90f">
 <persname short="PAGE." numberOfLines="97" numberOfVerseLines="27" numberOfProseLines="70" numberOfLyricsLines="0">George Page</persname>
 <persaliases>
 	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
@@ -37,109 +118,34 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="WILL." numberOfLines="11" numberOfVerseLines="0" numberOfProseLines="11" numberOfLyricsLines="0">William Page</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EVANS." numberOfLines="111" numberOfVerseLines="22" numberOfProseLines="89" numberOfLyricsLines="10">Sir Hugh Evans</persname>
-<persaliases>
-	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
-	<persname short="PAGE., EVANS. AND CAIUS">Page, Evans, and Caius</persname>
-</persaliases>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="MRS. FORD." numberOfLines="95" numberOfVerseLines="9" numberOfProseLines="86" numberOfLyricsLines="0">Mistress Alice Ford</persname>
-<persaliases>
-	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
-</persaliases>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="MRS. PAGE." numberOfLines="168" numberOfVerseLines="60" numberOfProseLines="108" numberOfLyricsLines="0">Mistress Margaret Page</persname>
-<persaliases>
-	<persname short="MRS. FORD. AND MRS. PAGE.">Both Mistress Ford and Mistress Page</persname>
-</persaliases>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="f811b25b-15c1-4dee-b02d-7417029ba686">
 <persname short="ANNE." numberOfLines="27" numberOfVerseLines="12" numberOfProseLines="15" numberOfLyricsLines="0">Mistress Anne Page</persname>
 </persona>
 
-<persona gender="female" archetype="clown">
-<persname short="QUICK." numberOfLines="122" numberOfVerseLines="47" numberOfProseLines="75" numberOfLyricsLines="11">Mistress Quickly</persname>
+<persona gender="male" id="2817b8d4-d0af-41f1-abc8-7f748d5dc5f6">
+<persname short="WILL." numberOfLines="11" numberOfVerseLines="0" numberOfProseLines="11" numberOfLyricsLines="0">William Page</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="CAIUS." numberOfLines="52" numberOfVerseLines="0" numberOfProseLines="52" numberOfLyricsLines="0">Doctor Caius</persname>
-<persaliases>
-	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
-	<persname short="PAGE., EVANS. AND CAIUS">Page, Evans, and Caius</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="HOST." numberOfLines="49" numberOfVerseLines="3" numberOfProseLines="46" numberOfLyricsLines="0">Host of the Garter Inn</persname>
-<persaliases>
-	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="BARD." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Bardolph</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="PIST." numberOfLines="55" numberOfVerseLines="38" numberOfProseLines="17" numberOfLyricsLines="4">Pistol</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="NYM." numberOfLines="14" numberOfVerseLines="4" numberOfProseLines="10" numberOfLyricsLines="0">Nym</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ROB." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Robin</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="SIM." numberOfLines="25" numberOfVerseLines="0" numberOfProseLines="25" numberOfLyricsLines="0">Peter Simple</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="RUG." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">John Rugby</persname>
-<persaliases>
-	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="SLEN." numberOfLines="62" numberOfVerseLines="0" numberOfProseLines="62" numberOfLyricsLines="0">Abraham Slender</persname>
-<persaliases>
-	<persname short="ALL PAGE. AND SHAL. AND SLEN.">All Page, Shallow and Slender</persname>
-	<persname short="SHAL. AND PAGE. ETC.">Page, Shallow, Slender, Host, Evans, Caius, Rugby</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="e7b41033-0967-47da-8767-9ca96353b850">
 <persname short="1. SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">First Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7af48bee-f108-4bfb-88d6-27bc3a6a6989">
 <persname short="2. SERV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Second Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fd2e5ed8-b774-47ca-bf2d-a0be223ae967">
 <persname short="CHILD. WIND." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Children of Windsor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="77b5a77a-626c-4228-9083-663c5423de07">
 <persname short="POST. BOY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Postmaster&#8217;s Boy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BOY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Boy</persname>
+<persona gender="male" id="c106a260-d708-44b6-a133-bf71ca817a45">
+<persname short="BOY." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Boy</persname>
 </persona>
+
 </personae>
 
 <act num="1">
@@ -147,6 +153,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Windsor. A street in front of Page&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SHAL.">Justice Shallow</scenepersona>
 	<scenepersona short="SLEN.">Slender</scenepersona>
@@ -978,6 +985,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Windsor. A street in front of Page&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
@@ -1025,6 +1033,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="HOST.">Host</scenepersona>
@@ -1339,6 +1348,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Dr. Caius&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
@@ -1805,6 +1815,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Windsor. A street in front of Page&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
@@ -2090,7 +2101,7 @@
 
 <stagedir sdglobalnumber="327.01" sdnumber="53.01">
 	<dir>Mrs. Page and Mrs. Ford come forward.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>MRS. PAGE.</actor>
 		<actor>MRS. FORD.</actor>
 	</action>
@@ -2369,6 +2380,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="PIST.">Pistol</scenepersona>
@@ -2899,6 +2911,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A field near Windsor.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAIUS.">Caius</scenepersona>
 	<scenepersona short="RUG.">Rugby</scenepersona>
@@ -3193,6 +3206,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A field near Frogmore.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
@@ -3596,6 +3610,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Windsor. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 	<scenepersona short="ROB.">Robin</scenepersona>
@@ -3855,6 +3870,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
@@ -4535,6 +4551,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Page&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FENT.">Fenton</scenepersona>
 	<scenepersona short="ANNE.">Anne Page</scenepersona>
@@ -4884,6 +4901,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
@@ -5188,6 +5206,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Windsor. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
@@ -5475,6 +5494,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
@@ -6088,6 +6108,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOST.">Host</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
@@ -6137,6 +6158,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Ford&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="FORD.">Ford</scenepersona>
@@ -6384,6 +6406,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HOST.">Host</scenepersona>
 	<scenepersona short="SIM.">Simple</scenepersona>
@@ -6453,7 +6476,7 @@
 
 <stagedir sdglobalnumber="1059.01" sdnumber="7.01">
 	<dir>Enter Falstaff.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>FAL.</actor>
 	</action>
 </stagedir>
@@ -6722,6 +6745,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FENT.">Fenton</scenepersona>
 	<scenepersona short="HOST.">Host</scenepersona>
@@ -6839,6 +6863,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in the Garter Inn.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="QUICK.">Mistress Quickly</scenepersona>
@@ -6892,11 +6917,7 @@
 
 <speech>
 <speaker long="Sir John Falstaff">FAL.</speaker>
-<line globalnumber="1158" number="6" form="prose">I went to her, Master Brook, as you see, like a poor old man, but I came from her, Master Brook, like a poor old woman. 
-That same knave Ford, her husband, hath the finest mad devil of jealousy in him, Master Brook, that ever govern&#8217;d frenzy. 
-I will tell you&#8212;he beat me grievously, in the shape of a woman; for in the shape of man, Master Brook, I fear not Goliath with a weaver&#8217;s beam, because I know also life is a shuttle. I am in haste, go along with me, I&#8217;ll tell you all, Master Brook. Since I pluck&#8217;d geese, play&#8217;d truant, and whipt top, I knew not what &#8217;twas to be beaten till lately. 
-Follow me, I&#8217;ll tell you strange things of this knave Ford, on whom tonight I will be reveng&#8217;d, and I will deliver his wife into your hand. 
-Follow. Strange things in hand, Master Brook! Follow.</line>
+<line globalnumber="1158" number="6" form="prose">I went to her, Master Brook, as you see, like a poor old man, but I came from her, Master Brook, like a poor old woman. That same knave Ford, her husband, hath the finest mad devil of jealousy in him, Master Brook, that ever govern&#8217;d frenzy. I will tell you&#8212;he beat me grievously, in the shape of a woman; for in the shape of man, Master Brook, I fear not Goliath with a weaver&#8217;s beam, because I know also life is a shuttle. I am in haste, go along with me, I&#8217;ll tell you all, Master Brook. Since I pluck&#8217;d geese, play&#8217;d truant, and whipt top, I knew not what &#8217;twas to be beaten till lately. Follow me, I&#8217;ll tell you strange things of this knave Ford, on whom tonight I will be reveng&#8217;d, and I will deliver his wife into your hand. Follow. Strange things in hand, Master Brook! Follow.</line>
 </speech>
 
 <stagedir sdglobalnumber="1158.01" sdnumber="6.01">
@@ -6911,6 +6932,7 @@ Follow. Strange things in hand, Master Brook! Follow.</line>
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Windsor Park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="SHAL.">Shallow</scenepersona>
@@ -6942,8 +6964,7 @@ Follow. Strange things in hand, Master Brook! Follow.</line>
 
 <speech>
 <speaker long="Robert Shallow">SHAL.</speaker>
-<line globalnumber="1161" number="3" form="prose">That&#8217;s good too; but what needs either your &#8220;mum&#8221; or her &#8220;budget&#8221;? 
-The white will decipher her well enough. It hath struck ten a&#8217; clock.</line>
+<line globalnumber="1161" number="3" form="prose">That&#8217;s good too; but what needs either your &#8220;mum&#8221; or her &#8220;budget&#8221;? The white will decipher her well enough. It hath struck ten a&#8217; clock.</line>
 </speech>
 
 <speech>
@@ -6964,6 +6985,7 @@ The white will decipher her well enough. It hath struck ten a&#8217; clock.</lin
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A street leading to the Windsor Park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
 	<scenepersona short="MRS. FORD.">Mistress Ford</scenepersona>
@@ -7054,10 +7076,11 @@ The white will decipher her well enough. It hath struck ten a&#8217; clock.</lin
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Windsor Park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EVANS.">Evans</scenepersona>
 	<scenepersona short="CHILD. WIND.">Children of Windsor</scenepersona>
-	<scenepersona short="BOY">Boy</scenepersona>
+	<scenepersona short="BOY.">Boy</scenepersona>
 	<scenepersona short="POST. BOY">Postmaster’s Boy</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -7080,8 +7103,7 @@ The white will decipher her well enough. It hath struck ten a&#8217; clock.</lin
 
 <speech>
 <speaker long="Sir Hugh Evans">EVANS.</speaker>
-<line globalnumber="1175" number="1" form="prose">Trib, trib, fairies; come, and remember your parts. Be pold, I pray you. Follow me into the pit, and when I give the watch-ords, do as I pid you. 
-Come, come, trib, trib.</line>
+<line globalnumber="1175" number="1" form="prose">Trib, trib, fairies; come, and remember your parts. Be pold, I pray you. Follow me into the pit, and when I give the watch-ords, do as I pid you. Come, come, trib, trib.</line>
 </speech>
 
 <stagedir sdglobalnumber="1175.01" sdnumber="1.01">
@@ -7098,6 +7120,7 @@ Come, come, trib, trib.</line>
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of Windsor Park.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAL.">Falstaff</scenepersona>
 	<scenepersona short="MRS. PAGE.">Mistress Margaret Page</scenepersona>
@@ -7111,7 +7134,7 @@ Come, come, trib, trib.</line>
 	<scenepersona short="PAGE.">Page</scenepersona>
 	<scenepersona short="FORD.">Ford</scenepersona>
 	<scenepersona short="CHILD. WIND.">Children of Windsor</scenepersona>
-	<scenepersona short="BOY">Boy</scenepersona>
+	<scenepersona short="BOY.">Boy</scenepersona>
 	<scenepersona short="POST. BOY">Postmaster&#8217;s Boy</scenepersona>
 	<scenepersona short="ANNE.">Anne Page</scenepersona>
 </scenepersonae>
@@ -7169,8 +7192,7 @@ Come, come, trib, trib.</line>
 
 <speech>
 <speaker long="Sir John Falstaff">FAL.</speaker>
-<line globalnumber="1180" number="5" form="prose">Divide me like a brib&#8217;d-buck, each a haunch. I will keep my sides to myself, my shoulders for the fellow of this walk&#8212;and my horns 
-I bequeath your husbands. Am I a woodman, ha? Speak I like Herne the hunter? Why, now is Cupid a child of conscience, he makes restitution. As I am a true spirit, welcome!</line>
+<line globalnumber="1180" number="5" form="prose">Divide me like a brib&#8217;d-buck, each a haunch. I will keep my sides to myself, my shoulders for the fellow of this walk&#8212;and my horns I bequeath your husbands. Am I a woodman, ha? Speak I like Herne the hunter? Why, now is Cupid a child of conscience, he makes restitution. As I am a true spirit, welcome!</line>
 </speech>
 
 <stagedir sdglobalnumber="1180.01" sdnumber="5.01">
@@ -7378,13 +7400,38 @@ I bequeath your husbands. Am I a woodman, ha? Speak I like Herne the hunter? Why
 
 <stagedir sdglobalnumber="1251.01" sdnumber="76.01">
 	<dir>Here they pinch him and sing about him. And the Doctor Caius comes one way, and steals away a boy in green; and Slender another way; he takes a boy in white; and Fenton steals Mistress Anne Page. And a noise of hunting is made within; and all the fairies run away. Falstaff pulls off his buck&#8217;s head, and rises up.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>CAIUS.</actor>
-		<actor>SLEN.</actor>
-		<actor>FENT.</actor>
-		<actor>CHILD. WIND.</actor>
+	</action>
+	<action type="exit">
+		<actor>CAIUS.</actor>
 		<actor>BOY</actor>
+	</action>
+	
+	<action type="enter">
+		<actor>SLEN.</actor>
+	</action>
+	<action type="exit">
+		<actor>SLEN.</actor>
 		<actor>POST. BOY</actor>
+	</action>
+	
+	<action type="enter">
+		<actor>FENT.</actor>
+	</action>
+	<action type="exit">
+		<actor>FENT.</actor>
+		<actor>ANNE.</actor>
+	</action>
+
+	<action type="sound">
+	</action>
+	
+	<action type="exit">
+		<actor>CHILD. WIND.</actor>
+	</action>
+	
+	<action type="action">		
 		<actor>FAL.</actor>
 	</action>
 </stagedir>
@@ -7415,8 +7462,7 @@ I bequeath your husbands. Am I a woodman, ha? Speak I like Herne the hunter? Why
 
 <speech>
 <speaker long="Francis Ford">FORD.</speaker>
-<line globalnumber="1258" number="83" form="prose">Now, sir, who&#8217;s a cuckold now? Master Brook, Falstaff&#8217;s a knave, a cuckoldly knave; here are his horns, Master Brook; and, Master Brook, he hath enjoy&#8217;d nothing of Ford&#8217;s 
-but his buck-basket his cudgel, and twenty pounds of money, which must be paid to Master Brook. His horses are arrested for it, Master Brook.</line>
+<line globalnumber="1258" number="83" form="prose">Now, sir, who&#8217;s a cuckold now? Master Brook, Falstaff&#8217;s a knave, a cuckoldly knave; here are his horns, Master Brook; and, Master Brook, he hath enjoy&#8217;d nothing of Ford&#8217;s but his buck-basket his cudgel, and twenty pounds of money, which must be paid to Master Brook. His horses are arrested for it, Master Brook.</line>
 </speech>
 
 <speech>
@@ -7471,8 +7517,7 @@ but his buck-basket his cudgel, and twenty pounds of money, which must be paid t
 
 <speech>
 <speaker long="Sir John Falstaff">FAL.</speaker>
-<line globalnumber="1269" number="94" form="prose">&#8220;Seese&#8221; and &#8220;putter&#8221;! Have I liv&#8217;d to stand at the taunt of one that makes fritters of English? 
-This is enough to be the decay of lust and late-walking through the realm.</line>
+<line globalnumber="1269" number="94" form="prose">&#8220;Seese&#8221; and &#8220;putter&#8221;! Have I liv&#8217;d to stand at the taunt of one that makes fritters of English? This is enough to be the decay of lust and late-walking through the realm.</line>
 </speech>
 
 <speech>
@@ -7517,8 +7562,7 @@ This is enough to be the decay of lust and late-walking through the realm.</line
 
 <speech>
 <speaker long="Sir John Falstaff">FAL.</speaker>
-<line globalnumber="1278" number="103" form="prose">Well, I am your theme. You have the start of me, I am dejected. I am not able to answer the Welsh flannel; ignorance itself is a plummet o&#8217;er me. 
-Use me as you will.</line>
+<line globalnumber="1278" number="103" form="prose">Well, I am your theme. You have the start of me, I am dejected. I am not able to answer the Welsh flannel; ignorance itself is a plummet o&#8217;er me. Use me as you will.</line>
 </speech>
 
 <speech>
@@ -7536,7 +7580,7 @@ Use me as you will.</line>
 <stagedir sdglobalnumber="1280.01" sdnumber="105.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MRS. PAGE</actor>
+		<actor>MRS. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1281" number="106" form="prose">Doctors doubt that. If Anne Page be my daughter, she is, by this, Doctor Caius&#8217; wife.</line>
@@ -7720,10 +7764,6 @@ Use me as you will.</line>
 	<action type="exit">
 		<actor>FAL.</actor>
 		<actor>EVANS.</actor>
-		<actor>ANNE.</actor>
-		<actor>CHILD. WIND.</actor>
-		<actor>BOY</actor>
-		<actor>POST. BOY</actor>
 		<actor>PIST.</actor>
 		<actor>QUICK.</actor>
 		<actor>PAGE.</actor>
@@ -7739,20 +7779,9 @@ Use me as you will.</line>
 </scene>
 </act>
 
-<locations numberOfLocations="12">
-<placename>A field near Frogmore.</placename>
-<placename>A field near Windsor.</placename>
-<placename>A room in Dr. Caius&#8217;s house.</placename>
-<placename>A room in Ford&#8217;s house.</placename>
-<placename>A room in Page&#8217;s house.</placename>
-<placename>A room in the Garter Inn.</placename>
-<placename>A street leading to the Windsor Park.</placename>
-<placename>Another part of Windsor Park.</placename>
-<placename>Another room in the Garter Inn.</placename>
-<placename>Windsor Park.</placename>
-<placename>Windsor. A street in front of Page&#8217;s house.</placename>
-<placename>Windsor. A street.</placename>
-</locations>
+
+
+
 
 
 <sources>
@@ -7809,12 +7838,11 @@ Use me as you will.</line>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

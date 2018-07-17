@@ -1,213 +1,219 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="henry-v">
 <title short="Henry V">The Life of Henry the Fifth</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1598-1599</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Henry V">
 
-<persona gender="female">
-<persname short="KATH." numberOfLines="33" numberOfVerseLines="0" numberOfProseLines="33" numberOfLyricsLines="0">Katherine</persname>
+<persona gender="male" archetype="hero" id="e342444d-c6b7-4dc8-af8c-3e9cd448e2ac">
+<persname short="K. HEN." numberOfLines="807" numberOfVerseLines="739" numberOfProseLines="68" numberOfLyricsLines="0">King Henry the Fifth</persname>
 </persona>
 
-<persona gender="female">
-<persname short="Q. ISA." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Queen Isabel</persname>
+<persona gender="male" id="4649c284-d485-4127-b476-3b9e3247113c">
+<persname short="CHORUS." numberOfLines="223" numberOfVerseLines="223" numberOfProseLines="0" numberOfLyricsLines="0">Chorus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. AMB." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador of France</persname>
+<persona gender="male" id="e6245ba0-26cc-4b98-a7d5-6612435e1aac">
+<persname short="CANT." numberOfLines="223" numberOfVerseLines="223" numberOfProseLines="0" numberOfLyricsLines="0">Archbishop of Canterbury</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MONT." numberOfLines="34" numberOfVerseLines="30" numberOfProseLines="4" numberOfLyricsLines="0">Montjoy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GOV." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Governor of Harfleur</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="GRAND." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Grandpr&#233;</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="RAM." numberOfLines="6" numberOfVerseLines="2" numberOfProseLines="4" numberOfLyricsLines="0">Rambures</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CON." numberOfLines="95" numberOfVerseLines="66" numberOfProseLines="29" numberOfLyricsLines="0">Constable of France</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BERRI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Berri</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BRIT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Britain</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BOUR." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Bourbon</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="ORL." numberOfLines="32" numberOfVerseLines="8" numberOfProseLines="24" numberOfLyricsLines="0">Duke of Orl&#233;ans</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BUR." numberOfLines="53" numberOfVerseLines="47" numberOfProseLines="6" numberOfLyricsLines="0">Duke of Burgundy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DAU." numberOfLines="82" numberOfVerseLines="66" numberOfProseLines="16" numberOfLyricsLines="0">The Dauphin</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FR. KING." numberOfLines="92" numberOfVerseLines="90" numberOfProseLines="2" numberOfLyricsLines="0">Charles the Sixth</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BOY." numberOfLines="18" numberOfVerseLines="3" numberOfProseLines="15" numberOfLyricsLines="2">Boy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BARD." numberOfLines="16" numberOfVerseLines="0" numberOfProseLines="16" numberOfLyricsLines="0">Bardolph</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NYM." numberOfLines="21" numberOfVerseLines="2" numberOfProseLines="19" numberOfLyricsLines="0">Nym</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="051de0bf-12da-472b-99fb-2c96265b08a3">
 <persname short="PIST." numberOfLines="158" numberOfVerseLines="123" numberOfProseLines="35" numberOfLyricsLines="7">Pistol</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WILL." numberOfLines="28" numberOfVerseLines="0" numberOfProseLines="28" numberOfLyricsLines="0">Williams</persname>
+<persona gender="male" id="1b1b08be-919e-4b83-b869-234f27faf2af">
+<persname short="EXE." numberOfLines="121" numberOfVerseLines="120" numberOfProseLines="1" numberOfLyricsLines="0">Duke of Exeter</persname>
 </persona>
 
-<persona gender="male">
-<persname short="COURT." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Court</persname>
+<persona gender="male" death="yes" id="2ff8011a-0de1-461b-a734-a707becc6ffb">
+<persname short="CON." numberOfLines="95" numberOfVerseLines="66" numberOfProseLines="29" numberOfLyricsLines="0">Constable of France</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BATES." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Bates</persname>
+<persona gender="male" id="e0eca2cf-24da-4c49-af89-f1519f755d70">
+<persname short="FR. KING." numberOfLines="92" numberOfVerseLines="90" numberOfProseLines="2" numberOfLyricsLines="0">Charles the Sixth</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JAMY." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Jamy</persname>
+<persona gender="male" id="e8b4e903-81d8-4283-8706-6bac3b78fa3f">
+<persname short="DAU." numberOfLines="82" numberOfVerseLines="66" numberOfProseLines="16" numberOfLyricsLines="0">The Dauphin</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MAC." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Macmorris</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="022d07df-056c-4de3-86a4-467d618c0ae0">
 <persname short="FLU." numberOfLines="72" numberOfVerseLines="0" numberOfProseLines="72" numberOfLyricsLines="0">Fluellen</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1f601a7e-f64f-4315-9029-ab36f22cba05">
+<persname short="BUR." numberOfLines="53" numberOfVerseLines="47" numberOfProseLines="6" numberOfLyricsLines="0">Duke of Burgundy</persname>
+</persona>
+
+<persona gender="male" id="735cea77-e9d4-49b8-8e3d-dbb89f30c6aa">
+<persname short="ELY." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Ely</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1154fd27-7951-4a9f-8cea-be1780b1409c">
+<persname short="ORL." numberOfLines="32" numberOfVerseLines="8" numberOfProseLines="24" numberOfLyricsLines="0">Duke of Orl&#233;ans</persname>
+</persona>
+
+<persona gender="male" id="eb54eb6f-6dfc-4161-adb3-9267a440b008">
+<persname short="WILL." numberOfLines="28" numberOfVerseLines="0" numberOfProseLines="28" numberOfLyricsLines="0">Williams</persname>
+</persona>
+
+<persona gender="male" id="dcf18365-21ba-4a0a-8048-d78939c82596">
 <persname short="GOW." numberOfLines="27" numberOfVerseLines="0" numberOfProseLines="27" numberOfLyricsLines="0">Gower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ERP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Erpingham</persname>
+<persona gender="male" id="14f81d94-f348-4dc6-9757-80f5ad7c6492">
+<persname short="NYM." numberOfLines="21" numberOfVerseLines="2" numberOfProseLines="19" numberOfLyricsLines="0">Nym</persname>
 </persona>
 
-<persona gender="male" death="yes">
+<persona gender="male" id="60b7980d-4fb4-47fd-a6f8-b6e1727ffae4">
+<persname short="WEST." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Westmorland</persname>
+</persona>
+
+<persona gender="male" death="yes" id="dba9b680-28be-4541-9fce-fb0edeeefa2f">
+<persname short="GRAND." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Grandpr&#233;</persname>
+</persona>
+
+<persona gender="male" id="d261ea5c-dffd-4efd-8efb-689e19624075">
+<persname short="BARD." numberOfLines="16" numberOfVerseLines="0" numberOfProseLines="16" numberOfLyricsLines="0">Bardolph</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1a97985a-c333-48c5-b270-5049a96730ce">
+<persname short="CAM." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Earl of Cambridge</persname>
+</persona>
+
+<persona gender="male" death="yes" id="b81511a8-a272-4a93-b216-f41327fb86d1">
 <persname short="GREY." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Grey</persname>
 <persaliases>
 	<persname short="GREY. AND SCROOP.">Grey and Scroop</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="7765b019-9974-49dd-b5e8-599cde8ee346">
+<persname short="BOUR." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Bourbon</persname>
+</persona>
+
+<persona gender="male" id="f2425623-9fc0-447d-9832-a0acefab9fc3">
+<persname short="BRIT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Britain</persname>
+</persona>
+
+<persona gender="male" id="d9d9ed54-ce0e-4855-8638-22fb5c2a0954">
+<persname short="SAL." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
+</persona>
+
+<persona gender="male" id="1b6a3d18-0a37-489e-a4d4-47eb8874286c">
+<persname short="BED." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">John, Duke of Bedford</persname>
+</persona>
+
+<persona gender="male" id="f031c52d-165e-464f-9d85-6a462ed14c9e">
+<persname short="BATES." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Bates</persname>
+</persona>
+
+
+<persona gender="male" id="a5c84bb5-a5da-46f6-b785-be8eef1604c2">
+<persname short="ERP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Erpingham</persname>
+</persona>
+
+<persona gender="male" id="33e73b47-8758-4672-9c66-94244425a99c">
+<persname short="GOV." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Governor of Harfleur</persname>
+</persona>
+
+<persona gender="male" death="yes" id="18043ba1-23c6-4ebf-bb60-280c5b54e668">
+<persname short="RAM." numberOfLines="6" numberOfVerseLines="2" numberOfProseLines="4" numberOfLyricsLines="0">Rambures</persname>
+</persona>
+
+<persona gender="male" id="e2a22c53-3657-4d24-a202-c64def5892c1">
+<persname short="GLOU." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Humphrey, Duke of Gloucester</persname>
+</persona>
+
+<persona gender="male" id="a61acd2e-9cdf-4049-b6b1-9bf35b1c2e72">
+<persname short="JAMY." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Jamy</persname>
+</persona>
+
+<persona gender="male" id="3677badd-2a99-4bfa-90a8-07d99efac5d7">
+<persname short="MAC." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Macmorris</persname>
+</persona>
+
+<persona gender="male" death="yes" id="c2c73d77-d88d-4257-8999-2716c0d717c4">
+<persname short="YORK." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Duke of York</persname>
+</persona>
+
+<persona gender="male" id="b4b66a91-7e1c-43e5-bdf2-61d7e6b3349c">
+<persname short="COURT." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Court</persname>
+</persona>
+
+<persona gender="male" id="a847d165-3b25-4374-862c-aa3c79fc748a">
+<persname short="WAR." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Warwick</persname>
+</persona>
+
+<persona gender="female" id="b84afb7e-c5d9-4c89-9e6d-a75608857b9f">
+<persname short="KATH." numberOfLines="33" numberOfVerseLines="0" numberOfProseLines="33" numberOfLyricsLines="0">Katherine</persname>
+</persona>
+
+<persona gender="female" id="52592da2-422a-46e5-bdfd-9aa3d1d66352">
+<persname short="Q. ISA." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Queen Isabel</persname>
+</persona>
+
+<persona gender="female" id="1cb386ee-be7e-4438-ae82-65e37c6ebdca">
+<persname short="ALICE." numberOfLines="22" numberOfVerseLines="0" numberOfProseLines="22" numberOfLyricsLines="0">Alice</persname>
+</persona>
+
+<persona gender="female" id="b02162ea-4203-4145-b743-ed6555cef6e9">
+<persname short="HOST." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Hostess</persname>
+</persona>
+
+<persona gender="male" death="yes" id="94eda50b-764e-4435-b6b0-67de87d352e3">
 <persname short="SCROOP." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Lord Scroop</persname>
 <persaliases>
 	<persname short="GREY. AND SCROOP.">Grey and Scroop</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="CAM." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Richard, Earl of Cambridge</persname>
+<persona gender="male" id="0dd0e7b3-5615-4af5-adde-f2fb86e0daa5">
+<persname short="MONT." numberOfLines="34" numberOfVerseLines="30" numberOfProseLines="4" numberOfLyricsLines="0">Montjoy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ELY." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Ely</persname>
+<persona gender="male" id="afa30876-509d-4e73-ac42-9192d9b37c49">
+<persname short="E. HER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CANT." numberOfLines="223" numberOfVerseLines="223" numberOfProseLines="0" numberOfLyricsLines="0">Archbishop of Canterbury</persname>
+<persona gender="male" id="f40defc7-d00d-4724-beb3-94efa0a67863">
+<persname short="BOY." numberOfLines="18" numberOfVerseLines="3" numberOfProseLines="15" numberOfLyricsLines="2">Boy</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WAR." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Warwick</persname>
+<persona gender="male" id="1bf696d7-f34e-4fbb-80a4-d4c23c4e357a">
+<persname short="1. AMB." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Ambassador of France</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WEST." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Westmorland</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SAL." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="YORK." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Duke of York</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EXE." numberOfLines="121" numberOfVerseLines="120" numberOfProseLines="1" numberOfLyricsLines="0">Duke of Exeter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CLAR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Thomas, Duke of Clarence</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BED." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">John, Duke of Bedford</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GLOU." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Humphrey, Duke of Gloucester</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="K. HEN." numberOfLines="807" numberOfVerseLines="739" numberOfProseLines="68" numberOfLyricsLines="0">King Henry the Fifth</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHORUS." numberOfLines="223" numberOfVerseLines="223" numberOfProseLines="0" numberOfLyricsLines="0">Chorus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FR. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">French Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="6e3e08fb-bc5e-4cc8-a00f-ea0da515a84b">
 <persname short="FR. SOLD." numberOfLines="10" numberOfVerseLines="4" numberOfProseLines="6" numberOfLyricsLines="0">French Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a4010356-4606-41dc-b99c-fec1bbb1d5dc">
 <persname short="FR. ATT." numberOfLines="4" numberOfVerseLines="2" numberOfProseLines="2" numberOfLyricsLines="0">French Court Attendant</persname>
 </persona>
 
-<persona gender="female">
-<persname short="HOST." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Hostess</persname>
+<persona gender="male" id="a031b0f4-78ee-4ca7-890b-836d2cda098e">
+<persname short="FR. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">French Messenger</persname>
 </persona>
 
-<persona gender="female">
-<persname short="ALICE." numberOfLines="22" numberOfVerseLines="0" numberOfProseLines="22" numberOfLyricsLines="0">Alice</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="67b0d9a1-01c7-4e80-96ca-53f5e0619195">
 <persname short="LORDS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">English Lords</persname>
+</persona>
+
+<persona gender="male" id="2fe39c6d-f3de-4403-a5d8-8f8f8f676e4c">
+<persname short="CLAR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Thomas, Duke of Clarence</persname>
+</persona>
+
+<persona gender="male" death="yes" id="b41d9209-887d-481e-8651-f066d0616f77">
+<persname short="BERRI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Berri</persname>
 </persona>
 
 </personae>
@@ -216,7 +222,7 @@
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="2" numberOfWords="247" numberOfLines="34">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Prologue</scenepersona>
@@ -283,6 +289,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. Antechamber in the King&#8217;s Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CANT.">Archbishop of Canterbury</scenepersona>
 	<scenepersona short="ELY.">Bishop of Ely</scenepersona>
@@ -503,6 +510,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. Presence Chamber in the King&#8217;s Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King</scenepersona>
 	<scenepersona short="GLOU.">Humphrey Duke of Gloucester</scenepersona>
@@ -838,7 +846,7 @@
 <line globalnumber="346" number="208" form="verse">As many arrows loosed several ways</line>
 <line globalnumber="347" number="209" form="verse">Come to one mark; as many ways meet in one town;</line>
 <line globalnumber="348" number="210" form="verse">As many fresh streams meet in one salt sea;</line>
-<line globalnumber="349" number="211" form="verse">As many lines close in the dial&#8217;s centre;</line>
+<line globalnumber="349" number="211" form="verse">As many lines close in the dial&#8217;s center;</line>
 <line globalnumber="350" number="212" form="verse">So may a thousand actions, once afoot,</line>
 <line globalnumber="351" number="213" form="verse">End in one purpose, and be all well borne</line>
 <line globalnumber="352" number="214" form="verse">Without defeat. Therefore to France, my liege!</line>
@@ -1018,7 +1026,7 @@
 
 <act num="2">
 <acttitle>Act 2</acttitle>
-<prologue actnum="2" num="0" minutesRunning="3" numberOfWords="320" numberOfLines="42">
+<prologue actnum="2" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -1092,6 +1100,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street in Eastcheap.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NYM.">Corporal Nym</scenepersona>
 	<scenepersona short="BARD.">Lieutenant Bardolph</scenepersona>
@@ -1448,6 +1457,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Southampton. A council-chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EXE.">Exeter</scenepersona>
 	<scenepersona short="BED.">Bedford</scenepersona>
@@ -1820,6 +1830,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. Before a tavern in Eastcheap.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PIST.">Pistol</scenepersona>
 	<scenepersona short="NYM.">Nym</scenepersona>
@@ -1991,6 +2002,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>France. An apartment in the King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FR. KING.">French King</scenepersona>
 	<scenepersona short="DAU.">Dauphin</scenepersona>
@@ -2014,6 +2026,7 @@
 		<actor>BERRI.</actor>
 		<actor>BRIT.</actor>
 		<actor>CON.</actor>
+		<actor>Lords</actor>
 	</action>
 </stagedir>
 
@@ -2301,7 +2314,7 @@
 
 <act num="3">
 <acttitle>Act 3</acttitle>
-<prologue actnum="3" num="0" minutesRunning="3" numberOfWords="264" numberOfLines="35">
+<prologue actnum="3" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -2376,6 +2389,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. Before Harfleur.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
 	<scenepersona short="EXE.">Exeter</scenepersona>
@@ -2453,6 +2467,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. Before Harfleur.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NYM.">Nym</scenepersona>
 	<scenepersona short="BARD.">Bardolph</scenepersona>
@@ -2736,6 +2751,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>France. Before the Harfleur Gates.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>Citizens</scenepersona>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
@@ -2846,6 +2862,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rouen. A room in the French King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KATH.">Katherine</scenepersona>
 	<scenepersona short="ALICE.">Alice</scenepersona>
@@ -3052,6 +3069,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Rouen. Another room in the French King&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FR. KING.">King of France</scenepersona>
 	<scenepersona short="DAU.">Dauphin</scenepersona>
@@ -3206,6 +3224,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Picardy. The English camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>English Captain</scenepersona>
 	<scenepersona>Welsh Captain</scenepersona>
@@ -3540,6 +3559,7 @@
 <scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Agincourt. The French camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CON.">Constable of France</scenepersona>
 	<scenepersona short="RAM.">Lord Rambures</scenepersona>
@@ -3963,7 +3983,7 @@
 
 <act num="4">
 <acttitle>Act 4</acttitle>
-<prologue actnum="4" num="0" minutesRunning="3" numberOfWords="388" numberOfLines="53">
+<prologue actnum="4" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -4049,6 +4069,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Agincourt. The English camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
 	<scenepersona short="BED.">Bedford</scenepersona>
@@ -4699,6 +4720,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The French camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DAU.">Dauphin</scenepersona>
 	<scenepersona short="ORL.">Duke of Orl&#233;ans</scenepersona>
@@ -4882,6 +4904,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Agincourt. The English camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="BED.">Bedford</scenepersona>
@@ -5010,7 +5033,7 @@
 <line globalnumber="1735" number="43" form="verse">And rouse him at the name of Crispian.</line>
 <line globalnumber="1736" number="44" form="verse">He that shall see this day, and live old age,</line>
 <line globalnumber="1737" number="45" form="verse">Will yearly on the vigil feast his neighbors,</line>
-<line globalnumber="1738" number="46" form="verse">And say, &#8220;Tomorrow is Saint Crispian.&#8221;</line>
+<line globalnumber="1738" number="46" form="verse">And say, &#8220;Tomorrow is Saint Crispian .&#8221;</line>
 <line globalnumber="1739" number="47" form="verse">Then will he strip his sleeve and show his scars,</line>
 <line globalnumber="1740" number="48" form="verse">And say, &#8220;These wounds I had on Crispin&#8217;s day.&#8221;</line>
 <line globalnumber="1741" number="49" form="verse">Old men forget; yet all shall be forgot,</line>
@@ -5205,6 +5228,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PIST.">Pistol</scenepersona>
 	<scenepersona short="FR. SOLD.">French Soldier</scenepersona>
@@ -5413,6 +5437,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CON.">Constable</scenepersona>
 	<scenepersona short="ORL.">Duke of Orl&#233;ans</scenepersona>
@@ -5523,6 +5548,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
 	<scenepersona short="EXE.">Exeter</scenepersona>
@@ -5617,6 +5643,7 @@
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLU.">Fluellen</scenepersona>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -5708,7 +5735,6 @@
 <stagedir sdglobalnumber="1946.01" sdnumber="12.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>FLU.</actor>
 		<actor>GOW.</actor>
 	</action>
 </stagedir>
@@ -5721,7 +5747,7 @@
 		<actor>WAR.</actor>
 		<actor>GLOU.</actor>
 		<actor>EXE.</actor>
-		<actor>Heralds</actor>
+		<actor>Herald</actor>
 	</action>
 </stagedir>
 
@@ -5873,7 +5899,7 @@
 	<dir>Exeunt Heralds with Montjoy.</dir>
 	<action type="exit">
 		<actor>MONT.</actor>
-		<actor>Heralds</actor>
+		<actor>Herald</actor>
 	</action>
 </stagedir>
 
@@ -6035,6 +6061,7 @@
 <scene actnum="4" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Before King Henry&#8217;s pavilion.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 	<scenepersona short="WILL.">Williams</scenepersona>
@@ -6043,7 +6070,7 @@
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
 	<scenepersona short="EXE.">Exeter</scenepersona>
-	<scenepersona short="HER.">English Herald</scenepersona>
+	<scenepersona short="E. HER.">English Herald</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -6237,8 +6264,7 @@
 <stagedir sdglobalnumber="2067.01" sdnumber="33.01">
 	<dir>Enter an English Herald.</dir>
 	<action type="enter">
-		<actor>HER.</actor>
-		<recipient>K. HEN.</recipient>
+		<actor>E. HER.</actor>
 	</action>
 </stagedir>
 
@@ -6248,14 +6274,14 @@
 </speech>
 
 <speech>
-<speaker long="English Herald">HER.</speaker>
+<speaker long="English Herald">E. HER.</speaker>
 <line globalnumber="2069" number="35" form="verse">Here is the number of the slaught&#8217;red French.</line>
 </speech>
 
 <stagedir sdglobalnumber="2069.01" sdnumber="35.01">
 	<dir>Gives a paper.</dir>
 	<action type="action">
-		<actor>HER.</actor>
+		<actor>E. HER.</actor>
 		<recipient>K. HEN.</recipient>
 	</action>
 </stagedir>
@@ -6301,7 +6327,7 @@
 <stagedir sdglobalnumber="2097.01" sdnumber="63.01">
 	<dir>Herald shows him another paper.</dir>
 	<action type="action">
-		<actor>HER.</actor>
+		<actor>E. HER.</actor>
 		<recipient>K. HEN.</recipient>
 	</action>
 </stagedir>
@@ -6365,7 +6391,7 @@
 		<actor>GLOU.</actor>
 		<actor>K. HEN.</actor>
 		<actor>EXE.</actor>
-		<actor>HER.</actor>
+		<actor>E. HER.</actor>
 	</action>
 </stagedir>
 
@@ -6374,7 +6400,7 @@
 
 <act num="5">
 <acttitle>Act 5</acttitle>
-<prologue actnum="5" num="0" minutesRunning="3" numberOfWords="356" numberOfLines="45">
+<prologue actnum="5" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -6452,6 +6478,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. The English Court of Guard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLU.">Fluellen</scenepersona>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -6668,6 +6695,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>France. The French King&#8217;s apartment in Troyes.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry the Fifth</scenepersona>
 	<scenepersona short="EXE.">Exeter</scenepersona>
@@ -7288,7 +7316,7 @@
 
 </act>
 
-<epilogue minutesRunning="1" numberOfWords="113" numberOfLines="14">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -7331,27 +7359,9 @@
 </stagedir>
 </epilogue>
 
-<locations numberOfLocations="19">
-<placename>Agincourt. The English camp.</placename>
-<placename>Agincourt. The French camp.</placename>
-<placename>Another part of the battlefield.</placename>
-<placename>Before King Henry&#8217;s pavilion.</placename>
-<placename>France. An apartment in the King&#8217;s palace.</placename>
-<placename>France. Before Harfleur.</placename>
-<placename>France. Before the Harfleur Gates.</placename>
-<placename>France. The English Court of Guard.</placename>
-<placename>France. The French King&#8217;s apartment in Troyes.</placename>
-<placename>London. A street in Eastcheap.</placename>
-<placename>London. Antechamber in the King&#8217;s Palace.</placename>
-<placename>London. Before a tavern in Eastcheap.</placename>
-<placename>London. Presence Chamber in the King&#8217;s Palace.</placename>
-<placename>Picardy. The English camp.</placename>
-<placename>Rouen. A room in the French King&#8217;s palace.</placename>
-<placename>Rouen. Another room in the French King&#8217;s palace.</placename>
-<placename>Southampton. A council-chamber.</placename>
-<placename>The French camp.</placename>
-<placename>The field of battle.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -7402,11 +7412,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

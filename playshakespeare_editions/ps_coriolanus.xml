@@ -1,117 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="coriolanus">
 <title short="Coriolanus">The Tragedy of Coriolanus</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1607-1608</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Coriolanus">
 
-<persona gender="female" archetype="hero">
-<persname short="VOL." numberOfLines="275" numberOfVerseLines="256" numberOfProseLines="19" numberOfLyricsLines="0">Volumnia</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
-<persname short="AUF." numberOfLines="274" numberOfVerseLines="272" numberOfProseLines="2" numberOfLyricsLines="0">Tullus Aufidius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LIEU. AUF." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant to Aufidius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NIC." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">Nicanor</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ROM. HER." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Roman Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BOY." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Young Martius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BRU." numberOfLines="249" numberOfVerseLines="237" numberOfProseLines="12" numberOfLyricsLines="0">Junius Brutus</persname>
+<persona gender="male" archetype="hero" death="yes" id="56c00753-f694-4283-bc41-f1d91c5d654c">
+<persname short="MAR." numberOfLines="870" numberOfVerseLines="846" numberOfProseLines="24" numberOfLyricsLines="0">Caius Martius</persname>
 <persaliases>
-	<persname short="BOTH. MEN. AND BRU.">Both Menenius and Brutus</persname>
-	<persname short="BOTH BRU. AND SIC.">Both Brutus and Sicinius</persname>
+	<persname short="COR." type="namechange">Coriolanus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="c2620194-79bc-4f5e-8e62-a9fa08000bc0">
+<persname short="MEN." numberOfLines="462" numberOfVerseLines="413" numberOfProseLines="49" numberOfLyricsLines="0">Menenius Agrippa</persname>
+<persaliases>
+	<persname short="BOTH MEN. AND BRU.">Both Menenius and Brutus</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d7843742-fc73-4601-ab20-7cf1399f2b51">
 <persname short="SIC." numberOfLines="307" numberOfVerseLines="297" numberOfProseLines="10" numberOfLyricsLines="0">Sicinius Velutus</persname>
 <persaliases>
 	<persname short="BOTH BRU. AND SIC.">Both Brutus and Sicinius</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="MEN." numberOfLines="462" numberOfVerseLines="413" numberOfProseLines="49" numberOfLyricsLines="0">Menenius Agrippa</persname>
-<persaliases>
-	<persname short="BOTH. MEN. AND BRU.">Both Menenius and Brutus</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="4b7e9517-88a9-4cc2-912b-80209f3b4fde">
 <persname short="COM." numberOfLines="276" numberOfVerseLines="276" numberOfProseLines="0" numberOfLyricsLines="0">Cominius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LART." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Titus Lartius</persname>
+<persona gender="male" archetype="villain" id="1a59a878-9525-4337-9726-75574e1c8b64">
+<persname short="AUF." numberOfLines="274" numberOfVerseLines="272" numberOfProseLines="2" numberOfLyricsLines="0">Tullus Aufidius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LIEU. LART." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant to Lartius</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="MAR." numberOfLines="870" numberOfVerseLines="846" numberOfProseLines="24" numberOfLyricsLines="0">Caius Martius</persname>
+<persona gender="male" id="45b9c7cd-9611-40a8-93fa-fe35549bde01">
+<persname short="BRU." numberOfLines="249" numberOfVerseLines="237" numberOfProseLines="12" numberOfLyricsLines="0">Junius Brutus</persname>
 <persaliases>
-	<persname short="COR.">Coriolanus</persname>
+	<persname short="BOTH MEN. AND BRU.">Both Menenius and Brutus</persname>
+	<persname short="BOTH BRU. AND SIC.">Both Brutus and Sicinius</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="male" id="1123588b-c644-4d78-a45a-fdea6df3fc6b">
+<persname short="LART." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Titus Lartius</persname>
+</persona>
+
+
+<persona gender="male" id="a7321cfd-dd2c-4b7f-85b6-ec84fc2bbc62">
+<persname short="LIEU. AUF." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant to Aufidius</persname>
+</persona>
+
+<persona gender="male" id="d00fa161-75a8-4faf-8370-b590bfb1dd49">
+<persname short="NIC." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">Nicanor</persname>
+</persona>
+
+<persona gender="male" id="916f123a-4798-40a6-84da-c556d20926e1">
+<persname short="ADR." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Adrian</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="3f87ac86-0813-47a7-855b-8fb230762b79">
+<persname short="VOL." numberOfLines="275" numberOfVerseLines="256" numberOfProseLines="19" numberOfLyricsLines="0">Volumnia</persname>
+</persona>
+
+<persona gender="female" id="f39393b4-3a53-4cb9-b674-78427863d57a">
 <persname short="VIR." numberOfLines="32" numberOfVerseLines="16" numberOfProseLines="16" numberOfLyricsLines="0">Virgilia</persname>
 <persaliases>
 	<persname short="BOTH VIR. AND VAL.">Both Virgilia and Valeria</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="GENT." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Gentlewoman</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="e51b8c15-2830-476a-ac80-50a3b802350b">
 <persname short="VAL." numberOfLines="15" numberOfVerseLines="0" numberOfProseLines="15" numberOfLyricsLines="0">Valeria</persname>
 <persaliases>
 	<persname short="BOTH VIR. AND VAL.">Both Virgilia and Valeria</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="CIT. ANT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Citizen of Antium</persname>
+<persona gender="male" id="8c124dee-23a4-439d-b6e0-314c0061ac72">
+<persname short="BOY." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Young Martius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ADR." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Adrian</persname>
+<persona gender="female" id="94d1d7fd-6627-46a1-bc08-e7c272cd15e7">
+<persname short="GENTLEW." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Gentlewoman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. MESS." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+<persona gender="male" id="a7ff2e74-aec6-4758-8a7c-9285493bc338">
+<persname short="LIEU. LART." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant to Lartius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. MESS." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+<persona gender="male" archetype="clown" id="1bf2284a-201d-4992-917b-630b058a46a1">
+<persname short="1. SERV." numberOfLines="21" numberOfVerseLines="0" numberOfProseLines="21" numberOfLyricsLines="0">First Servingman</persname>
+<persaliases>
+	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="3. MESS." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
+<persona gender="male" archetype="clown" id="62225f5b-23b3-4760-9c20-dc9fda9d9f6b">
+<persname short="2. SERV." numberOfLines="21" numberOfVerseLines="2" numberOfProseLines="19" numberOfLyricsLines="0">Second Servingman</persname>
+<persaliases>
+	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="e1845f9a-5438-461e-9cd6-bf6ab276b188">
+<persname short="3. SERV." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Third Servingman</persname>
+</persona>
+
+<persona gender="male" id="ee8fdbbe-0232-413d-8e3d-3b9f703b5f7c">
 <persname short="1. ROM. SEN." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Senator</persname>
 <persaliases>
 	<persname short="SENATORS.">Roman Senators</persname>
@@ -119,7 +123,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d744d7e-da0e-492b-b3ee-62e36be59b1d">
 <persname short="2. ROM. SEN." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Senator</persname>
 <persaliases>
 	<persname short="SENATORS.">Roman Senators</persname>
@@ -127,221 +131,230 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="32e01b80-fe4d-45b0-9884-33da85d671f7">
 <persname short="1. VOL. SEN." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">First Volscian Senator</persname>
 <persaliases>
-	<persname short="ALL. VOL. SEN.">All Volscian Senators</persname>
+	<persname short="ALL VOL. SEN.">All Volscian Senators</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="61dbba7a-6cf9-4549-b865-27084e2ea6dc">
 <persname short="2. VOL. SEN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Volscian Senator</persname>
 <persaliases>
-	<persname short="ALL. VOL. SEN.">All Volscian Senators</persname>
+	<persname short="ALL VOL. SEN.">All Volscian Senators</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. ROM. SOLD." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Soldier</persname>
-<persaliases>
-	<persname short="ALL. ROM. SOLD.">All Roman Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. ROM. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Soldier</persname>
-<persaliases>
-	<persname short="ALL. ROM. SOLD.">All Roman Soldiers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="1. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Roman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Roman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="USH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Usher</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SCOUT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Scout</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VOL. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Volscian Soldier</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. OFF." numberOfLines="5" numberOfVerseLines="1" numberOfProseLines="4" numberOfLyricsLines="0">First Officer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. OFF." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Officer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. ROM. CIT." numberOfLines="57" numberOfVerseLines="29" numberOfProseLines="28" numberOfLyricsLines="0">First Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. ROM. CIT." numberOfLines="33" numberOfVerseLines="11" numberOfProseLines="22" numberOfLyricsLines="0">Second Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="3. ROM. CIT." numberOfLines="33" numberOfVerseLines="16" numberOfProseLines="17" numberOfLyricsLines="0">Third Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="4. ROM. CIT." numberOfLines="15" numberOfVerseLines="4" numberOfProseLines="11" numberOfLyricsLines="0">Fourth Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-	<persname short="BOTH 4. CIT. AND 5. CIT.">Both Fourth and Fifth Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="5. ROM. CIT." numberOfLines="13" numberOfVerseLines="4" numberOfProseLines="9" numberOfLyricsLines="0">Fifth Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-	<persname short="BOTH 4. CIT. AND 5. CIT.">Both Fourth and Fifth Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="6. ROM. CIT." numberOfLines="12" numberOfVerseLines="4" numberOfProseLines="8" numberOfLyricsLines="0">Sixth Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="7. ROM. CIT." numberOfLines="12" numberOfVerseLines="4" numberOfProseLines="8" numberOfLyricsLines="0">Seventh Roman Citizen</persname>
-<persaliases>
-	<persname short="ALL. ROM. CIT.">All Roman Citizens</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="1. AED." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">First Aedile</persname>
-<persaliases>
-	<persname short="BOTH. AEDILES.">Both Aediles</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. AED." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Aedile</persname>
-<persaliases>
-	<persname short="BOTH. AEDILES.">Both Aediles</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="1. SERV." numberOfLines="21" numberOfVerseLines="0" numberOfProseLines="21" numberOfLyricsLines="0">First Servingman</persname>
-<persaliases>
-	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="2. SERV." numberOfLines="21" numberOfVerseLines="2" numberOfProseLines="19" numberOfLyricsLines="0">Second Servingman</persname>
-<persaliases>
-	<persname short="BOTH 1. SERV. AND 2. SERV.">Both First and Second Servingmen</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="3. SERV." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Third Servingman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. WATCH." numberOfLines="14" numberOfVerseLines="6" numberOfProseLines="8" numberOfLyricsLines="0">First Watchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. WATCH." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">Second Watchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. CONSP." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">First Conspirator</persname>
-<persaliases>
-	<persname short="ALL CONSP.">All Conspirators</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. CONSP." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Conspirator</persname>
-<persaliases>
-	<persname short="ALL CONSP.">All Conspirators</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="3. CONSP." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Third Conspirator</persname>
-<persaliases>
-	<persname short="ALL CONSP.">All Conspirators</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="727f8f0f-d4f1-4a11-a41f-391ab01a4c31">
 <persname short="1. VOL. LORD." numberOfLines="17" numberOfVerseLines="16" numberOfProseLines="1" numberOfLyricsLines="0">First Volscian Lord</persname>
 <persaliases>
 	<persname short="ALL VOL. LORDS.">All Volscian Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="49fc8bc4-e87c-46b7-ba34-3bb53e20d477">
 <persname short="2. VOL. LORD." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="0">Second Volscian Lord</persname>
 <persaliases>
 	<persname short="ALL VOL. LORDS.">All Volscian Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="67287fe1-3313-4d3c-8548-9f7d8e709140">
 <persname short="3. VOL. LORD." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Third Volscian Lord</persname>
 <persaliases>
 	<persname short="ALL VOL. LORDS.">All Volscian Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="VOL. SOLDS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Volscian Soldiers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ALL. ROM. SOLD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Roman Soldiers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PATRICIAN." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Patrician</persname>
+<persona gender="male" id="68236ba5-d83f-4533-8f3d-173b1eaaec7e">
+<persname short="1. ROM. SOLD." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">First Roman Soldier</persname>
 <persaliases>
-	<persname short="PATRICIANS">Patricians</persname>
+	<persname short="ROM. SOLD.">All Roman Soldiers</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="PATRICIANS" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Patricians</persname>
+<persona gender="male" id="f418f665-77d8-40fa-ba4f-d25ec12dbb90">
+<persname short="2. ROM. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman Soldier</persname>
+<persaliases>
+	<persname short="ROM. SOLD.">All Roman Soldiers</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ff67665-4f22-450f-9e67-da4d2059ac65">
+<persname short="ALL ROM. SOLD." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Roman Soldiers</persname>
+<persaliases>
+	<persname short="ROM. SOLD.">All Roman Soldiers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="c78e3982-e85d-4a18-857f-55cc0fe40e80">
+<persname short="VOL. SOLD." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Volscian Soldier</persname>
+</persona>
+
+<persona gender="male" id="9ec3d981-05a0-47fa-84b1-d2ade3b63229">
+<persname short="VOL. SOLDS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Volscian Soldiers</persname>
+</persona>
+
+<persona gender="male" id="c7f273d3-4fde-4dc1-9336-03e1c564fdfb">
+<persname short="1. OFF." numberOfLines="5" numberOfVerseLines="1" numberOfProseLines="4" numberOfLyricsLines="0">First Officer</persname>
+</persona>
+
+<persona gender="male" id="d996d735-b807-40be-af89-0e22a6df7246">
+<persname short="1. AED." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">First Aedile</persname>
+<persaliases>
+	<persname short="BOTH AEDILES.">Both Aediles</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="abb76c13-a535-4afa-a27a-90d3e21d02b3">
+<persname short="2. AED." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Aedile</persname>
+<persaliases>
+	<persname short="BOTH AEDILES.">Both Aediles</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="cf16a9f2-eed5-4635-8105-3b22d23cf97d">
+<persname short="1. WATCH." numberOfLines="14" numberOfVerseLines="6" numberOfProseLines="8" numberOfLyricsLines="0">First Watchman</persname>
+</persona>
+
+<persona gender="male" id="8d7c491f-68c1-4daa-a42e-819a8e2ea71c">
+<persname short="2. WATCH." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">Second Watchman</persname>
+</persona>
+
+<persona gender="male" id="69d7e990-c7e3-4210-8cb7-8bd74736f2af">
+<persname short="1. MESS." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
+</persona>
+
+<persona gender="male" id="7d5c538f-0949-40f0-8ca1-1f9763bc9e6a">
+<persname short="2. MESS." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
+</persona>
+
+<persona gender="male" id="ed1659c1-b58f-4b48-bb33-e4d5fba830de">
+<persname short="3. MESS." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
+</persona>
+
+<persona gender="male" id="6a61ee12-e99b-4213-8a9f-2cce9121b015">
+<persname short="1. ROM. CIT." numberOfLines="57" numberOfVerseLines="29" numberOfProseLines="28" numberOfLyricsLines="0">First Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="0f5da06a-0534-4cfc-98b6-2d325fe6e78e">
+<persname short="2. ROM. CIT." numberOfLines="33" numberOfVerseLines="11" numberOfProseLines="22" numberOfLyricsLines="0">Second Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="0889f125-a7fa-41ee-8722-72e574166cfa">
+<persname short="3. ROM. CIT." numberOfLines="33" numberOfVerseLines="16" numberOfProseLines="17" numberOfLyricsLines="0">Third Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="a9f9e077-dabe-4c5f-b2da-804c8e207bec">
+<persname short="4. ROM. CIT." numberOfLines="15" numberOfVerseLines="4" numberOfProseLines="11" numberOfLyricsLines="0">Fourth Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+	<persname short="BOTH 4. CIT. AND 5. CIT.">Both Fourth and Fifth Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d6186ef6-77a3-410e-93ca-0cf8f7b79698">
+<persname short="5. ROM. CIT." numberOfLines="13" numberOfVerseLines="4" numberOfProseLines="9" numberOfLyricsLines="0">Fifth Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+	<persname short="BOTH 4. CIT. AND 5. CIT.">Both Fourth and Fifth Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="f5011354-010d-437b-b31e-8db82321c296">
+<persname short="6. ROM. CIT." numberOfLines="12" numberOfVerseLines="4" numberOfProseLines="8" numberOfLyricsLines="0">Sixth Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="d47afa58-ff73-477b-8350-705c5cdc7b87">
+<persname short="7. ROM. CIT." numberOfLines="12" numberOfVerseLines="4" numberOfProseLines="8" numberOfLyricsLines="0">Seventh Roman Citizen</persname>
+<persaliases>
+	<persname short="ALL ROM. CIT.">All Roman Citizens</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6bc977bc-bb36-4200-a20a-d7654dc65768">
 <persname short="ALL PLEBEIANS." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Plebeians</persname>
 </persona>
+
+<persona gender="male" id="35b50116-e3f0-4a2a-9d5e-70f4e05ef6f0">
+<persname short="1. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Roman</persname>
+</persona>
+
+<persona gender="male" id="4d383d9a-9aec-4d85-885c-003243b24d38">
+<persname short="2. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Roman</persname>
+</persona>
+
+<persona gender="male" id="e1c7c0cd-7c48-4675-a223-003e25a79097">
+<persname short="3. ROM." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Roman</persname>
+</persona>
+
+<persona gender="male" id="92fa070a-f18d-4a20-b730-e407fd4fc38c">
+<persname short="CIT. ANT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Citizen of Antium</persname>
+</persona>
+
+<persona gender="male" id="d1e65b22-6735-4cc3-923b-e18c5560d9c8">
+<persname short="1. CONSP." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">First Conspirator</persname>
+<persaliases>
+	<persname short="ALL CONSP.">All Conspirators</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="c80eb95b-c014-488c-9836-dc2ab267cad3">
+<persname short="2. CONSP." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Conspirator</persname>
+<persaliases>
+	<persname short="ALL CONSP.">All Conspirators</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="a0ca4af6-9f29-43c4-98b8-7315cc306d42">
+<persname short="3. CONSP." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Third Conspirator</persname>
+<persaliases>
+	<persname short="ALL CONSP.">All Conspirators</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6877799d-5638-44c7-a346-924d9ac782aa">
+<persname short="ROM. HER." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Roman Herald</persname>
+</persona>
+
+<persona gender="male" id="1c92ab2d-ee62-4659-97c2-aa146ad20f55">
+<persname short="PATRICIAN." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Patrician</persname>
+<persaliases>
+	<persname short="ALL PATRICIANS">Patricians</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="6c0cc140-540e-4139-b793-b8b0b9031431">
+<persname short="2. OFF." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Officer</persname>
+</persona>
+
+<persona gender="male" id="9f343980-84b3-4ada-a150-09ff9132d542">
+<persname short="PATRICIANS" numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Patricians</persname>
+<persaliases>
+	<persname short="ALL PATRICIANS">Patricians</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="3ecade68-3bfc-4d5f-8277-45e1d186eefc">
+<persname short="SCOUT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Scout</persname>
+</persona>
+
+<persona gender="male" id="fd4f18da-d5c3-4b64-955e-52a187638983">
+<persname short="USH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Usher</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -349,8 +362,9 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="ALL. ROM. CIT.">Roman Citizens</scenepersona>
+	<scenepersona short="ALL ROM. CIT.">Roman Citizens</scenepersona>
 	<scenepersona short="MEN.">Menenius Agrippa</scenepersona>
 	<scenepersona short="MAR.">Martius</scenepersona>
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
@@ -368,7 +382,7 @@
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
 	<dir>Enter a company of mutinous Roman Citizens with staves, clubs, and other weapons.</dir>
 	<action type="enter">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -378,7 +392,7 @@
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="2" number="2" form="prose">Speak, speak.</line>
 </speech>
 
@@ -388,7 +402,7 @@
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="4" number="4" form="prose">Resolv&#8217;d, resolv&#8217;d.</line>
 </speech>
 
@@ -398,7 +412,7 @@
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="6" number="6" form="prose">We know&#8217;t, we know&#8217;t.</line>
 </speech>
 
@@ -408,7 +422,7 @@
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="8" number="8" form="prose">No more talking on&#8217;t; let it be done. Away, away!</line>
 </speech>
 
@@ -469,7 +483,7 @@
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="20" number="20" form="prose">Come, come.</line>
 </speech>
 
@@ -926,7 +940,7 @@
 	</action>
 </stagedir>
 <line globalnumber="221" number="202" form="verse" offset="7">Lead you on.</line>
-<stagedir sdglobalnumber="221.01" sdnumber="202.01">
+<stagedir sdglobalnumber="221.01" sdnumber="202.02">
 	<dir>To Martius.</dir>
 	<action type="speak">
 		<actor>LART.</actor>
@@ -948,7 +962,7 @@
 	<dir>To the Citizens.</dir>
 	<action type="speak">
 		<actor>1. ROM. SEN.</actor>
-		<recipient>ALL. ROM. CIT.</recipient>
+		<recipient>ALL ROM. CIT.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="225" number="205" form="verse" offset="0">Hence to your homes, be gone!</line>
@@ -970,7 +984,7 @@
 		<actor>MEN.</actor>
 		<actor>MAR.</actor>
 		<actor>1. ROM. SEN.</actor>
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 		<actor>1. MESS.</actor>
 	</action>
 </stagedir>
@@ -1079,9 +1093,10 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Corioli. The Senate-house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUF.">Tullus Aufidius</scenepersona>
-	<scenepersona short="ALL. VOL. SEN.">Volscian Senators</scenepersona>
+	<scenepersona short="ALL VOL. SEN.">Volscian Senators</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -1092,7 +1107,7 @@
 	<dir>Enter Tullus Aufidius with Senators of Corioli.</dir>
 	<action type="enter">
 		<actor>AUF.</actor>
-		<actor>ALL. VOL. SEN.</actor>
+		<actor>ALL VOL. SEN.</actor>
 	</action>
 </stagedir>
 
@@ -1168,7 +1183,7 @@
 </speech>
 
 <speech>
-<speaker long="All Volscian Senators">ALL. VOL. SEN.</speaker>
+<speaker long="All Volscian Senators">ALL VOL. SEN.</speaker>
 <line globalnumber="306" number="36" form="verse" offset="5">The gods assist you!</line>
 </speech>
 
@@ -1188,7 +1203,7 @@
 </speech>
 
 <speech>
-<speaker long="All Volscian Senators">ALL. VOL. SEN.</speaker>
+<speaker long="All Volscian Senators">ALL VOL. SEN.</speaker>
 <line globalnumber="310" number="38" form="verse">Farewell.</line>
 </speech>
 
@@ -1196,7 +1211,7 @@
 	<dir>Exeunt omnes.</dir>
 	<action type="exit">
 		<actor>AUF.</actor>
-		<actor>ALL. VOL. SEN.</actor>
+		<actor>ALL VOL. SEN.</actor>
 	</action>
 </stagedir>
 
@@ -1205,10 +1220,11 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A room in Martius Coriolanus&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VOL.">Volumnia</scenepersona>
 	<scenepersona short="VIR.">Virgilia</scenepersona>
-	<scenepersona short="GENT.">Gentlewoman</scenepersona>
+	<scenepersona short="GENTLEW.">Gentlewoman</scenepersona>
 	<scenepersona short="VAL.">Valeria</scenepersona>
 	<scenepersona short="USH.">Usher</scenepersona>
 </scenepersonae>
@@ -1243,12 +1259,12 @@
 <stagedir sdglobalnumber="313.01" sdnumber="3.01">
 	<dir>Enter a Gentlewoman.</dir>
 	<action type="enter">
-		<actor>GENT.</actor>
+		<actor>GENTLEW.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Gentlewoman">GENT.</speaker>
+<speaker long="Gentlewoman">GENTLEW.</speaker>
 <line globalnumber="314" number="4" form="prose">Madam, the Lady Valeria is come to visit you.</line>
 </speech>
 
@@ -1289,7 +1305,7 @@
 <stagedir sdglobalnumber="332.01" sdnumber="22.01">
 	<dir>Exit Gentlewoman.</dir>
 	<action type="exit">
-		<actor>GENT.</actor>
+		<actor>GENTLEW.</actor>
 	</action>
 </stagedir>
 
@@ -1308,7 +1324,7 @@
 	<dir>Enter Valeria with an Usher and a Gentlewoman.</dir>
 	<action type="enter">
 		<actor>VAL.</actor>
-		<actor>GENT.</actor>
+		<actor>GENTLEW.</actor>
 		<actor>USH.</actor>
 	</action>
 </stagedir>
@@ -1475,7 +1491,7 @@
 		<actor>VAL.</actor>
 		<actor>VIR.</actor>
 		<actor>USH.</actor>
-		<actor>GENT.</actor>
+		<actor>GENTLEW.</actor>
 	</action>
 </stagedir>
 
@@ -1484,13 +1500,14 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before Corioli.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAR.">Martius</scenepersona>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 	<scenepersona>Captains</scenepersona>
-	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
+	<scenepersona short="ALL ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
-	<scenepersona short="ALL. VOL. SEN.">Volscian Senators</scenepersona>
+	<scenepersona short="ALL VOL. SEN.">Volscian Senators</scenepersona>
 	<scenepersona short="VOL. SOLDS.">Army of the Volsces</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -1643,7 +1660,7 @@
 
 <stagedir sdglobalnumber="403.02" sdnumber="29.02">
 	<dir>Enter Martius cursing.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>MAR.</actor>
 	</action>
 </stagedir>
@@ -1679,7 +1696,7 @@
 <stagedir sdglobalnumber="419.01" sdnumber="45.01">
 	<dir>Enter the gates.</dir>
 	<action type="enter">
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 	</action>
 </stagedir>
 
@@ -1695,7 +1712,7 @@
 
 <stagedir sdglobalnumber="421.01" sdnumber="46.01">
 	<dir>Martius is shut in.</dir>
-	<action type="action">
+	<action type="exit">
 		<recipient>MAR.</recipient>
 	</action>
 </stagedir>
@@ -1712,13 +1729,13 @@
 </stagedir>
 
 <speech>
-<speaker long="Roman Soldiers">ALL. ROM. SOLD.</speaker>
+<speaker long="Roman Soldiers">ALL ROM. SOLD.</speaker>
 <line globalnumber="423" number="47" form="verse" offset="6">To th&#8217; pot, I warrant him.</line>
 </speech>
 
-<stagedir sdglobalnumber="423.01" sdnumber="47.01">
+<stagedir sdglobalnumber="423.01" sdnumber="47.02">
 	<dir>Enter Titus Lartius.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>LART.</actor>
 	</action>
 </stagedir>
@@ -1729,7 +1746,7 @@
 </speech>
 
 <speech>
-<speaker long="Roman Soldiers">ALL. ROM. SOLD.</speaker>
+<speaker long="Roman Soldiers">ALL ROM. SOLD.</speaker>
 <line globalnumber="425" number="48" form="verse" offset="6">Slain, sir, doubtless.</line>
 </speech>
 
@@ -1782,7 +1799,7 @@
 		<actor>1. VOL. SEN.</actor>
 		<actor>2. VOL. SEN.</actor>
 		<actor>VOL. SOLDS.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 	</action>
 </stagedir>
 
@@ -1791,6 +1808,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Corioli. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. ROM.">First Roman</scenepersona>
 	<scenepersona short="2. ROM.">Second Roman</scenepersona>
@@ -1919,9 +1937,10 @@
 <scene actnum="1" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Near Cominius&#8217; camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COM.">Cominius</scenepersona>
-	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
+	<scenepersona short="ALL ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
 	<scenepersona short="MAR.">Martius</scenepersona>
 </scenepersonae>
@@ -1934,7 +1953,7 @@
 	<dir>Enter Cominius, as it were in retire, with Roman Soldiers.</dir>
 	<action type="enter">
 		<actor>COM.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 	</action>
 </stagedir>
 
@@ -2139,7 +2158,7 @@
 <stagedir sdglobalnumber="565.01" sdnumber="75.01">
 	<dir>They all shout and wave their swords, take him up in their arms, and cast up their caps.</dir>
 	<action type="fight">
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>MAR.</actor>
 	</action>
 </stagedir>
@@ -2166,7 +2185,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>COM.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>2. MESS.</actor>
 		<actor>MAR.</actor>
 	</action>
@@ -2177,12 +2196,13 @@
 <scene actnum="1" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The gates of Corioli.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
 	<scenepersona short="MAR.">Caius Martius</scenepersona>
 	<scenepersona short="LIEU. LART.">Lieutenant to Lartius</scenepersona>
-	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
+	<scenepersona short="ALL ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="SCOUT.">Scout</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -2197,7 +2217,7 @@
 		<actor>COM.</actor>
 		<actor>MAR.</actor>
 		<actor>LIEU. LART.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>SCOUT.</actor>
 	</action>
 </stagedir>
@@ -2229,7 +2249,7 @@
 		<actor>COM.</actor>
 		<actor>MAR.</actor>
 		<actor>LIEU. LART.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>SCOUT.</actor>
 	</action>
 </stagedir>
@@ -2239,6 +2259,7 @@
 <scene actnum="1" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>A field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAR.">Martius</scenepersona>
 	<scenepersona short="AUF.">Aufidius</scenepersona>
@@ -2300,6 +2321,9 @@
 <line globalnumber="603" number="14" form="verse">Thou shouldst not scape me here.</line>
 <stagedir sdglobalnumber="603.01" sdnumber="14.01">
 	<dir>Here they fight, and certain Volscian Soldiers come in the aid of Aufidius. Martius fights till they be driven in breathless.</dir>
+	<action type="enter">
+		<actor>VOL. SOLDS.</actor>
+	</action>
 	<action type="fight">
 		<actor>MAR.</actor>
 		<actor>AUF.</actor>
@@ -2313,9 +2337,9 @@
 <stagedir sdglobalnumber="605.01" sdnumber="16.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-			<actor>MAR.</actor>
-			<actor>AUF.</actor>
-			<actor>VOL. SOLDS.</actor>
+		<actor>MAR.</actor>
+		<actor>AUF.</actor>
+		<actor>VOL. SOLDS.</actor>
 	</action>
 </stagedir>
 
@@ -2324,9 +2348,10 @@
 <scene actnum="1" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>The Roman camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COM.">Cominius</scenepersona>
-	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
+	<scenepersona short="ALL ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="MAR.">Martius (Coriolanus)</scenepersona>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 </scenepersonae>
@@ -2341,7 +2366,7 @@
 	</action>
 	<action type="enter">
 		<actor>COM.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>MAR.</actor>
 	</action>
 </stagedir>
@@ -2552,7 +2577,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>COM.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>MAR.</actor> 
 		<actor>LART.</actor>
 	</action>
@@ -2563,6 +2588,7 @@
 <scene actnum="1" num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>The Volscian camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUF.">Tullus Aufidius</scenepersona>
 	<scenepersona short="VOL. SOLDS.">Volscian Soldiers</scenepersona>
@@ -2666,6 +2692,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="SIC.">Sicinius</scenepersona>
@@ -2677,7 +2704,7 @@
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona>Captains</scenepersona>
-	<scenepersona short="ALL. ROM. SOLD.">Roman Soldiers</scenepersona>
+	<scenepersona short="ALL ROM. SOLD.">Roman Soldiers</scenepersona>
 	<scenepersona short="ROM. HER.">Roman Herald</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
@@ -2741,7 +2768,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Menenius and Brutus">BOTH. MEN. AND BRU.</speaker>
+<speaker long="Both Menenius and Brutus">BOTH MEN. AND BRU.</speaker>
 <line globalnumber="757" number="10" form="prose">Well, sir.</line>
 </speech>
 
@@ -2771,7 +2798,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Menenius and Brutus">BOTH. MEN. AND BRU.</speaker>
+<speaker long="Both Menenius and Brutus">BOTH MEN. AND BRU.</speaker>
 <line globalnumber="763" number="16" form="prose">Why? How are we censur&#8217;d?</line>
 </speech>
 
@@ -2781,7 +2808,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Menenius and Brutus">BOTH. MEN. AND BRU.</speaker>
+<speaker long="Both Menenius and Brutus">BOTH MEN. AND BRU.</speaker>
 <line globalnumber="765" number="18" form="prose">Well, well, sir, well.</line>
 </speech>
 
@@ -2801,7 +2828,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Menenius and Brutus">BOTH. MEN. AND BRU.</speaker>
+<speaker long="Both Menenius and Brutus">BOTH MEN. AND BRU.</speaker>
 <line globalnumber="769" number="22" form="prose">What then, sir?</line>
 </speech>
 
@@ -3021,7 +3048,7 @@
 		<actor>LART.</actor>
 		<actor>COR.</actor>
 		<actor>ROM. HER.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>Captains</actor>
 	</action>
 </stagedir>
@@ -3192,7 +3219,7 @@
 		<actor>LART.</actor>
 		<actor>COR.</actor>
 		<actor>ROM. HER.</actor>
-		<actor>ALL. ROM. SOLD.</actor>
+		<actor>ALL ROM. SOLD.</actor>
 		<actor>Captains</actor>
 	</action>
 </stagedir>
@@ -3376,6 +3403,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. The capitol.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. OFF.">First Officer</scenepersona>
 	<scenepersona short="2. OFF.">Second Officer</scenepersona>
@@ -3775,7 +3803,8 @@
 		<actor>COR.</actor>
 		<actor>MEN.</actor>
 		<actor>COM.</actor>
-		<actor>SENATORS.</actor>
+		<actor>1. ROM. SEN.</actor>
+		<actor>2. ROM. SEN.</actor>
 		<actor>Lictors</actor>
 	</action>
 </stagedir>
@@ -3812,8 +3841,9 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. The forum.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="ALL. ROM. CIT.">Roman Citizens</scenepersona>
+	<scenepersona short="ALL ROM. CIT.">Roman Citizens</scenepersona>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
@@ -3829,7 +3859,7 @@
 <stagedir sdglobalnumber="1098.02" sdnumber="0.01">
 	<dir>Enter seven or eight Roman Citizens.</dir>
 	<action type="enter">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -3845,9 +3875,7 @@
 
 <speech>
 <speaker long="Third Roman Citizen">3. ROM. CIT.</speaker>
-<line globalnumber="1101" number="3" form="prose">We have power in ourselves to do it, but it is a power that we have no power to do; for if he show us his wounds and tell us his deeds, we are to put our tongues into those wounds and speak for them; so, if he tell us his noble deeds, we must also tell him our noble acceptance of them. Ingratitude
- is monstrous, and for the multitude to be 
-ingrateful were to make a monster of the multitude; of the which we being members, should bring ourselves to be monstrous members.</line>
+<line globalnumber="1101" number="3" form="prose">We have power in ourselves to do it, but it is a power that we have no power to do; for if he show us his wounds and tell us his deeds, we are to put our tongues into those wounds and speak for them; so, if he tell us his noble deeds, we must also tell him our noble acceptance of them. Ingratitude is monstrous, and for the multitude to be ingrateful were to make a monster of the multitude; of the which we being members, should bring ourselves to be monstrous members.</line>
 </speech>
 
 <speech>
@@ -3899,14 +3927,14 @@ ingrateful were to make a monster of the multitude; of the which we being member
 </speech>
 
 <speech>
-<speaker long="All Roman Citizens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citizens">ALL ROM. CIT.</speaker>
 <line globalnumber="1111" number="13" form="prose">Content, content.</line>
 </speech>
 
 <stagedir sdglobalnumber="1111.01" sdnumber="13.01">
 	<dir>Exeunt Roman Citizens.</dir>
 	<action type="exit">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -4043,9 +4071,10 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <stagedir sdglobalnumber="1145.01" sdnumber="42.01">
 	<dir>Exeunt Citizens.</dir>
 	<action type="exit">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="1145.02" sdnumber="42.02">
 	<dir>Enter Fourth and Fifth Citizens.</dir>
 	<action type="enter">
@@ -4149,14 +4178,14 @@ ingrateful were to make a monster of the multitude; of the which we being member
 </speech>
 
 <speech>
-<speaker long="All Roman Citzens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citzens">ALL ROM. CIT.</speaker>
 <line globalnumber="1177" number="74" form="prose">Amen, amen. God save thee, noble consul!</line>
 </speech>
 
 <stagedir sdglobalnumber="1177.01" sdnumber="74.01">
 	<dir>Exeunt Citizens.</dir>
 	<action type="exit">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -4302,7 +4331,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 </speech>
 
 <speech>
-<speaker long="All Roman Citzens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citzens">ALL ROM. CIT.</speaker>
 <line globalnumber="1212" number="103" form="verse" offset="5">No, no; no man saw &#8217;em.</line>
 </speech>
 
@@ -4515,6 +4544,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="MEN.">Menenius</scenepersona>
@@ -4522,7 +4552,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 	<scenepersona short="COM.">Cominius</scenepersona>
 	<scenepersona short="LART.">Titus Lartius</scenepersona>
 	<scenepersona short="SENATORS.">Roman Senators</scenepersona>
-	<scenepersona short="BOTH. AEDILES.">Aediles</scenepersona>
+	<scenepersona short="BOTH AEDILES.">Aediles</scenepersona>
 	<scenepersona short="ALL PLEBEIANS.">Plebeians</scenepersona>
 	<scenepersona short="BRU.">Junius Brutus</scenepersona>
 	<scenepersona short="SIC.">Sicinius Velutus</scenepersona>
@@ -5241,7 +5271,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 </speech>
 
 <speech>
-<speaker long="Both Aediles">BOTH. AEDILES.</speaker>
+<speaker long="Both Aediles">BOTH AEDILES.</speaker>
 <line globalnumber="1587" number="216" form="verse">Peace, peace!</line>
 </speech>
 
@@ -5710,6 +5740,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. A room in Martius Coriolanus&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="PATRICIANS">Patricians</scenepersona>
@@ -6114,6 +6145,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. The forum.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIC.">Sicinius</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
@@ -6615,6 +6647,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before a gate of the city.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="VOL.">Volumnia</scenepersona>
@@ -6764,6 +6797,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. A street near the gate of the city.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIC.">Sicinius</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
@@ -7044,6 +7078,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A highway between Rome and Antium.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NIC.">Nicanor</scenepersona>
 	<scenepersona short="ADR.">Adrian</scenepersona>
@@ -7169,6 +7204,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Antium. Before Aufidius&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="CIT. ANT.">Citizen of Antium</scenepersona>
@@ -7267,6 +7303,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Antium. A hall in Aufidius&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 	<scenepersona short="2. SERV.">Second Servingman</scenepersona>
@@ -7836,8 +7873,7 @@ ingrateful were to make a monster of the multitude; of the which we being member
 
 <speech>
 <speaker long="First Servingman">1. SERV.</speaker>
-<line globalnumber="2425" number="155" form="prose">He was too hard for him, directly to say the troth on&#8217;t,
-before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</line>
+<line globalnumber="2425" number="155" form="prose">He was too hard for him, directly to say the troth on&#8217;t,before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</line>
 </speech>
 
 <speech>
@@ -7929,11 +7965,12 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIC.">Sicinius</scenepersona>
 	<scenepersona short="BRU.">Brutus</scenepersona>
 	<scenepersona short="MEN.">Menenius</scenepersona>
-	<scenepersona short="ALL. ROM. CIT.">Roman Citizens</scenepersona>
+	<scenepersona short="ALL ROM. CIT.">Roman Citizens</scenepersona>
 	<scenepersona short="1. AED.">First Aedile</scenepersona>
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 	<scenepersona short="2. MESS.">Second Messenger</scenepersona>
@@ -8016,12 +8053,12 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <stagedir sdglobalnumber="2462.01" sdnumber="19.01">
 	<dir>Enter three or four Roman Citizens.</dir>
 	<action type="enter">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="All Roman Citzens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citzens">ALL ROM. CIT.</speaker>
 <line globalnumber="2463" number="20" form="verse" offset="0">The gods preserve you both!</line>
 </speech>
 
@@ -8053,7 +8090,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </speech>
 
 <speech>
-<speaker long="All Roman Citzens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citzens">ALL ROM. CIT.</speaker>
 <line globalnumber="2471" number="25" form="verse" offset="5">Now the gods keep you!</line>
 </speech>
 
@@ -8065,7 +8102,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <stagedir sdglobalnumber="2472.01" sdnumber="26.01">
 	<dir>Exeunt Roman Citizens.</dir>
 	<action type="exit">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -8396,7 +8433,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <stagedir sdglobalnumber="2600.01" sdnumber="128.01">
 	<dir>Enter a troop of Roman Citizens.</dir>
 	<action type="enter">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -8416,7 +8453,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </speech>
 
 <speech>
-<speaker long="All Roman Citzens">ALL. ROM. CIT.</speaker>
+<speaker long="All Roman Citzens">ALL ROM. CIT.</speaker>
 <line globalnumber="2612" number="139" form="verse" offset="0">Faith, we hear fearful news.</line>
 </speech>
 
@@ -8481,7 +8518,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <stagedir sdglobalnumber="2626.01" sdnumber="151.01">
 	<dir>Exeunt Roman Citizens.</dir>
 	<action type="exit">
-		<actor>ALL. ROM. CIT.</actor>
+		<actor>ALL ROM. CIT.</actor>
 	</action>
 </stagedir>
 
@@ -8522,6 +8559,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>A camp near Rome.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUF.">Aufidius</scenepersona>
 	<scenepersona short="LIEU. AUF.">Lieutenant to Aufidius</scenepersona>
@@ -8642,6 +8680,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="COM.">Cominius</scenepersona>
@@ -8858,6 +8897,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Entrance of the Volscian camp before Rome.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="1. WATCH.">First Watchman</scenepersona>
@@ -9135,6 +9175,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The tent of Coriolanus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Coriolanus</scenepersona>
 	<scenepersona short="AUF.">Aufidius</scenepersona>
@@ -9592,6 +9633,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MEN.">Menenius</scenepersona>
 	<scenepersona short="SIC.">Sicinius</scenepersona>
@@ -9790,6 +9832,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Rome. A street near the city gate.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SENATORS.">Senators</scenepersona>
 	<scenepersona short="VOL.">Volumnia</scenepersona>
@@ -9847,6 +9890,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <scene actnum="5" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Antium. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUF.">Tullus Aufidius</scenepersona>
 	<scenepersona>Attendants</scenepersona>
@@ -10217,9 +10261,14 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <stagedir sdglobalnumber="3273.01" sdnumber="128.01">
 	<dir>Draw the Conspirators, and kills Martius, who falls; Aufidius stands on him.</dir>
 	<action type="fight">
-		<actor>ALL CONSP.</actor>
+		<actor>1. CONSP.</actor>
+		<actor>2. CONSP.</actor>
+		<actor>3. CONSP.</actor>
 		<recipient>COR.</recipient>
 		<actor>AUF.</actor>
+	</action>
+	<action type="death">
+		<actor>COR.</actor>
 	</action>
 </stagedir>
 
@@ -10296,7 +10345,6 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 		<actor>2. CONSP.</actor>
 		<actor>3. CONSP.</actor>
 		<actor>ALL VOL. LORDS.</actor>
-		<actor>COR.</actor>
 		<recipient>COR.</recipient>
 	</action>
 </stagedir>
@@ -10304,30 +10352,7 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 </scene>
 </act>
 
-<locations numberOfLocations="22">
-<placename>A camp near Rome.</placename>
-<placename>A field of battle.</placename>
-<placename>A highway between Rome and Antium.</placename>
-<placename>Antium. A hall in Aufidius&#8217; house.</placename>
-<placename>Antium. A public place.</placename>
-<placename>Antium. Before Aufidius&#8217; house.</placename>
-<placename>Before Corioli.</placename>
-<placename>Corioli. A street.</placename>
-<placename>Corioli. The Senate-house.</placename>
-<placename>Entrance of the Volscian camp before Rome.</placename>
-<placename>Near Cominius&#8217; camp.</placename>
-<placename>Rome. A public place.</placename>
-<placename>Rome. A room in Martius Coriolanus&#8217; house.</placename>
-<placename>Rome. A street near the city gate.</placename>
-<placename>Rome. A street.</placename>
-<placename>Rome. Before a gate of the city.</placename>
-<placename>Rome. The capitol.</placename>
-<placename>Rome. The forum.</placename>
-<placename>The Roman camp.</placename>
-<placename>The Volscian camp.</placename>
-<placename>The gates of Corioli.</placename>
-<placename>The tent of Coriolanus.</placename>
-</locations>
+
 
 
 <sources>
@@ -10383,11 +10408,10 @@ before Corioles; he scotch&#8217;d him and notch&#8217;d him like a carbonado.</
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

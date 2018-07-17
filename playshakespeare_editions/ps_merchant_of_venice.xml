@@ -1,104 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="merchant-of-venice">
 <title short="Merchant of Venice">The Merchant of Venice</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1594-1597</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="The Merchant of Venice">
 
-<persona gender="male">
-<persname short="DUKE." numberOfLines="58" numberOfVerseLines="56" numberOfProseLines="2" numberOfLyricsLines="0">The Duke of Venice</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="ANT." numberOfLines="189" numberOfVerseLines="187" numberOfProseLines="2" numberOfLyricsLines="0">Antonio</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="BASS." numberOfLines="322" numberOfVerseLines="308" numberOfProseLines="14" numberOfLyricsLines="0">Bassanio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SOL." numberOfLines="58" numberOfVerseLines="50" numberOfProseLines="8" numberOfLyricsLines="0">Solanio</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="GRA." numberOfLines="175" numberOfVerseLines="172" numberOfProseLines="3" numberOfLyricsLines="0">Gratiano</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SAL." numberOfLines="104" numberOfVerseLines="96" numberOfProseLines="8" numberOfLyricsLines="0">Salerio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LOR." numberOfLines="168" numberOfVerseLines="159" numberOfProseLines="9" numberOfLyricsLines="0">Lorenzo</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
+<persona gender="male" archetype="villain" id="954d952a-9518-459d-96f6-15d00d31ce27">
 <persname short="SHY." numberOfLines="287" numberOfVerseLines="263" numberOfProseLines="24" numberOfLyricsLines="0">Shylock</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TUB." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Tubal</persname>
+<persona gender="male" archetype="hero" id="93a8438d-4457-4e05-bee8-9c9449c1d340">
+<persname short="ANT." numberOfLines="189" numberOfVerseLines="187" numberOfProseLines="2" numberOfLyricsLines="0">Antonio</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="LAUN." numberOfLines="48" numberOfVerseLines="5" numberOfProseLines="43" numberOfLyricsLines="0">Launcelot Gobbo</persname>
+<persona gender="male" archetype="hero" id="6a7a3a01-6817-496b-8bd0-c59dda6e8ae4">
+<persname short="BASS." numberOfLines="322" numberOfVerseLines="308" numberOfProseLines="14" numberOfLyricsLines="0">Bassanio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GOB." numberOfLines="19" numberOfVerseLines="0" numberOfProseLines="19" numberOfLyricsLines="0">Old Gobbo</persname>
+<persona gender="male" archetype="clown" id="8c1f4564-bf9d-4dfc-a3bd-e185412c6ba2">
+<persname short="GRA." numberOfLines="175" numberOfVerseLines="172" numberOfProseLines="3" numberOfLyricsLines="0">Gratiano</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LEON." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Leonardo</persname>
+<persona gender="male" id="393fcb63-7e4a-49fb-b96a-0089d3de5fd9">
+<persname short="LOR." numberOfLines="168" numberOfVerseLines="159" numberOfProseLines="9" numberOfLyricsLines="0">Lorenzo</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BALTH." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Balthazar</persname>
+<persona gender="male" id="22f6eabc-2b2f-4635-bfc9-813cc8c46115">
+<persname short="SAL." numberOfLines="104" numberOfVerseLines="96" numberOfProseLines="8" numberOfLyricsLines="0">Salerio</persname>
 </persona>
 
-<persona gender="male">
-<persname short="STEPH." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Stephano</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="POR." numberOfLines="509" numberOfVerseLines="493" numberOfProseLines="16" numberOfLyricsLines="0">Portia</persname>
-</persona>
-
-<persona gender="female">
-<persname short="NER." numberOfLines="60" numberOfVerseLines="46" numberOfProseLines="14" numberOfLyricsLines="0">Nerissa</persname>
-</persona>
-
-<persona gender="female">
-<persname short="JES." numberOfLines="79" numberOfVerseLines="73" numberOfProseLines="6" numberOfLyricsLines="0">Jessica</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="ac656ee8-1277-4eec-9cba-3e253af74528">
 <persname short="MOR." numberOfLines="103" numberOfVerseLines="103" numberOfProseLines="0" numberOfLyricsLines="0">The Prince of Morocco</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="791b2814-051a-4fcb-b2ea-086d016952a2">
 <persname short="AR." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">The Prince of Arragon</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JAIL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
+<persona gender="male" id="01cf3558-8fdb-471c-a76c-9baa7fd528a7">
+<persname short="DUKE." numberOfLines="58" numberOfVerseLines="56" numberOfProseLines="2" numberOfLyricsLines="0">The Duke of Venice</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c9ae0a1-bea0-4bfc-8c4d-7accf2e6c6ad">
+<persname short="SOL." numberOfLines="58" numberOfVerseLines="50" numberOfProseLines="8" numberOfLyricsLines="0">Solanio</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="c33bc8db-dfb5-431c-bf7b-9ebdaf9306f8">
+<persname short="LAUN." numberOfLines="48" numberOfVerseLines="5" numberOfProseLines="43" numberOfLyricsLines="0">Launcelot Gobbo</persname>
+</persona>
+
+<persona gender="male" id="2b620d36-f7e8-47bb-a2ae-e66e7a23076c">
+<persname short="GOB." numberOfLines="19" numberOfVerseLines="0" numberOfProseLines="19" numberOfLyricsLines="0">Old Gobbo</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="d91570e2-b256-4a89-8ca4-4c096adcea87">
+<persname short="POR." numberOfLines="509" numberOfVerseLines="493" numberOfProseLines="16" numberOfLyricsLines="0">Portia</persname>
+</persona>
+
+<persona gender="female" id="e52d5713-f44e-40e0-b144-cbc44c5758d9">
+<persname short="JES." numberOfLines="79" numberOfVerseLines="73" numberOfProseLines="6" numberOfLyricsLines="0">Jessica</persname>
+</persona>
+
+<persona gender="female" id="c47a1ba7-e01a-4620-8ff3-1650da6d130c">
+<persname short="NER." numberOfLines="60" numberOfVerseLines="46" numberOfProseLines="14" numberOfLyricsLines="0">Nerissa</persname>
+</persona>
+
+<persona gender="male" id="09c99389-13aa-4928-a049-03b2eb3a55dc">
+<persname short="STEPH." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Stephano</persname>
+</persona>
+
+<persona gender="male" id="617e77a5-e82b-4346-80b6-45eb3558250c">
+<persname short="SING." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="8">Singer</persname>
+</persona>
+
+<persona gender="male" id="466ebf23-cc44-453a-9f28-49481e953c70">
+<persname short="TUB." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Tubal</persname>
+</persona>
+
+<persona gender="male" id="5e16cc96-d718-4c90-80e0-4f995fdbe613">
+<persname short="LEON." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Leonardo</persname>
+</persona>
+
+<persona gender="male" id="62d74307-688d-478f-849c-9ee9e598db2d">
+<persname short="BALTH." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Balthazar</persname>
+</persona>
+
+
+<persona gender="male" id="b5410f5c-6b5f-4ce3-b11f-07621d7cfea0">
 <persname short="SERV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Portia&#8217;s Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0d9fae8e-3a99-4c84-babb-8c3c5be4e9d1">
 <persname short="ANT. SERV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Antonio&#8217;s Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SING." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="8">Singer</persname>
+<persona gender="male" id="9a3950fb-23a1-4443-a3d2-79f3034aef2b">
+<persname short="JAIL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
 </persona>
+
 </personae>
 
 <act num="1">
@@ -106,6 +113,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 	<scenepersona short="SAL.">Salerio</scenepersona>
@@ -474,6 +482,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="NER.">Nerissa</scenepersona>
@@ -520,9 +529,7 @@
 
 <speech>
 <speaker long="Nerissa">NER.</speaker>
-<line globalnumber="190" number="6" form="prose">Your father was ever virtuous, and holy men at their death have good inspirations; therefore the lott&#8217;ry that he hath devis&#8217;d 
-in these three chests of gold, silver, and lead, whereof who chooses his meaning chooses you, will no doubt never be chosen by any rightly but one who you shall rightly love. 
-But what warmth is there in your affection towards any of these princely suitors that are already come?</line>
+<line globalnumber="190" number="6" form="prose">Your father was ever virtuous, and holy men at their death have good inspirations; therefore the lott&#8217;ry that he hath devis&#8217;d in these three chests of gold, silver, and lead, whereof who chooses his meaning chooses you, will no doubt never be chosen by any rightly but one who you shall rightly love. But what warmth is there in your affection towards any of these princely suitors that are already come?</line>
 </speech>
 
 <speech>
@@ -537,8 +544,7 @@ But what warmth is there in your affection towards any of these princely suitors
 
 <speech>
 <speaker long="Portia">POR.</speaker>
-<line globalnumber="193" number="9" form="prose">Ay, that&#8217;s a colt indeed, for he doth nothing but talk of his horse, and he makes it a great appropriation to his own good parts 
-that he can shoe him himself. I am much afeard my lady his mother play&#8217;d false with a smith.</line>
+<line globalnumber="193" number="9" form="prose">Ay, that&#8217;s a colt indeed, for he doth nothing but talk of his horse, and he makes it a great appropriation to his own good parts that he can shoe him himself. I am much afeard my lady his mother play&#8217;d false with a smith.</line>
 </speech>
 
 <speech>
@@ -548,9 +554,7 @@ that he can shoe him himself. I am much afeard my lady his mother play&#8217;d f
 
 <speech>
 <speaker long="Portia">POR.</speaker>
-<line globalnumber="195" number="11" form="prose">He doth nothing but frown, as who should say, &#8220;And you will not have me, choose.&#8221; He hears merry tales and smiles not. 
-I fear he will prove the weeping philosopher when he grows old, being so full of unmannerly sadness in his youth. 
-I had rather be married to a death&#8217;s-head with a bone in his mouth than to either of these. God defend me from these two!</line>
+<line globalnumber="195" number="11" form="prose">He doth nothing but frown, as who should say, &#8220;And you will not have me, choose.&#8221; He hears merry tales and smiles not. I fear he will prove the weeping philosopher when he grows old, being so full of unmannerly sadness in his youth. I had rather be married to a death&#8217;s-head with a bone in his mouth than to either of these. God defend me from these two!</line>
 </speech>
 
 <speech>
@@ -610,8 +614,7 @@ I had rather be married to a death&#8217;s-head with a bone in his mouth than to
 
 <speech>
 <speaker long="Portia">POR.</speaker>
-<line globalnumber="207" number="23" form="prose">If I live to be as old as Sibylla, I will die as chaste as Diana, unless I be obtain&#8217;d by the manner of my father&#8217;s will. 
-I am glad this parcel of wooers are so reasonable, for there is not one among them but I dote on his very absence, and I pray God grant them a fair departure.</line>
+<line globalnumber="207" number="23" form="prose">If I live to be as old as Sibylla, I will die as chaste as Diana, unless I be obtain&#8217;d by the manner of my father&#8217;s will. I am glad this parcel of wooers are so reasonable, for there is not one among them but I dote on his very absence, and I pray God grant them a fair departure.</line>
 </speech>
 
 <speech>
@@ -667,6 +670,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BASS.">Bassanio</scenepersona>
 	<scenepersona short="SHY.">Shylock</scenepersona>
@@ -1095,6 +1099,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MOR.">Prince of Morocco</scenepersona>
 	<scenepersona>Followers</scenepersona>
@@ -1210,6 +1215,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAUN.">Launcelot Gobbo</scenepersona>
 	<scenepersona short="GOB.">Old Gobbo</scenepersona>
@@ -1235,10 +1241,7 @@ I am glad this parcel of wooers are so reasonable, for there is not one among th
 <speech type="soliloquy">
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
 <line globalnumber="433" number="1" form="prose">Certainly my conscience will serve me to run from this Jew my master. 
-The fiend is at mine elbow and tempts me, saying to me, &#8220;Gobbo, Launcelot Gobbo, good Launcelot,&#8221; or &#8220;good Gobbo,&#8221; 
-or &#8220;good Launcelot Gobbo, use your legs, take the start, run away.&#8221; My conscience says, &#8220;No; take heed, honest Launcelot, take heed, honest Gobbo,&#8221; 
-or as aforesaid, &#8220;honest Launcelot Gobbo, do not run, scorn running with thy heels.&#8221; 
-Well, the most courageous fiend bids me pack. &#8220;Fia!&#8221; says the fiend; &#8220;away!&#8221; says the fiend; &#8220;for the heavens, rouse up a brave mind,&#8221; says the fiend, &#8220;and run.&#8221; Well, my conscience, hanging about the neck of my heart, says very wisely to me, &#8220;My honest friend Launcelot, being an honest man&#8217;s son&#8221;&#8212;or rather an honest woman&#8217;s son, for indeed my father did something smack, something grow to, he had a kind of taste&#8212;well, my conscience says, &#8220;Launcelot, bouge not.&#8221; &#8220;Bouge,&#8221; says the fiend. &#8220;Bouge not,&#8221; says my conscience. &#8220;Conscience,&#8221; say I, &#8220;you counsel well.&#8221; &#8220;Fiend,&#8221; say I, &#8220;you counsel well.&#8221; To be rul&#8217;d by my conscience, I should stay with the Jew my master, who (God bless the mark) is a kind of devil; and to run away from the Jew, I should be rul&#8217;d by the fiend, who, saving your reverence, is the devil himself. Certainly the Jew is the very devil incarnation, and in my conscience, my conscience is but a kind of hard conscience, to offer to counsel me to stay with the Jew. The fiend gives the more friendly counsel: I will run, fiend; my heels are at your commandment, I will run.</line>
+The fiend is at mine elbow and tempts me, saying to me, &#8220;Gobbo, Launcelot Gobbo, good Launcelot,&#8221; or &#8220;good Gobbo,&#8221; or &#8220;good Launcelot Gobbo, use your legs, take the start, run away.&#8221; My conscience says, &#8220;No; take heed, honest Launcelot, take heed, honest Gobbo,&#8221; or as aforesaid, &#8220;honest Launcelot Gobbo, do not run, scorn running with thy heels.&#8221; Well, the most courageous fiend bids me pack. &#8220;Fia!&#8221; says the fiend; &#8220;away!&#8221; says the fiend; &#8220;for the heavens, rouse up a brave mind,&#8221; says the fiend, &#8220;and run.&#8221; Well, my conscience, hanging about the neck of my heart, says very wisely to me, &#8220;My honest friend Launcelot, being an honest man&#8217;s son&#8221;&#8212;or rather an honest woman&#8217;s son, for indeed my father did something smack, something grow to, he had a kind of taste&#8212;well, my conscience says, &#8220;Launcelot, bouge not.&#8221; &#8220;Bouge,&#8221; says the fiend. &#8220;Bouge not,&#8221; says my conscience. &#8220;Conscience,&#8221; say I, &#8220;you counsel well.&#8221; &#8220;Fiend,&#8221; say I, &#8220;you counsel well.&#8221; To be rul&#8217;d by my conscience, I should stay with the Jew my master, who (God bless the mark) is a kind of devil; and to run away from the Jew, I should be rul&#8217;d by the fiend, who, saving your reverence, is the devil himself. Certainly the Jew is the very devil incarnation, and in my conscience, my conscience is but a kind of hard conscience, to offer to counsel me to stay with the Jew. The fiend gives the more friendly counsel: I will run, fiend; my heels are at your commandment, I will run.</line>
 </speech>
 
 <stagedir sdglobalnumber="433.01" sdnumber="1.01">
@@ -1261,8 +1264,7 @@ Well, the most courageous fiend bids me pack. &#8220;Fia!&#8221; says the fiend;
 		<actor>LAUN.</actor>
 	</action>
 </stagedir>
-<line globalnumber="435" number="3" form="prose"> O heavens, this is my true-begotten father, who being more 
-than sand-blind, high gravel-blind, knows me not. I will try confusions with him.</line>
+<line globalnumber="435" number="3" form="prose">O heavens, this is my true-begotten father, who being more than sand-blind, high gravel-blind, knows me not. I will try confusions with him.</line>
 </speech>
 
 <speech>
@@ -1380,8 +1382,7 @@ than sand-blind, high gravel-blind, knows me not. I will try confusions with him
 
 <speech>
 <speaker long="Old Gobbo">GOB.</speaker>
-<line globalnumber="457" number="25" form="prose">Her name is Margery indeed. I&#8217;ll be sworn, if thou be Launcelot, thou art mine own flesh and blood. 
-Lord worshipp&#8217;d might he be, what a beard hast thou got! Thou hast got more hair on thy chin than Dobbin my fill-horse has on his tail.</line>
+<line globalnumber="457" number="25" form="prose">Her name is Margery indeed. I&#8217;ll be sworn, if thou be Launcelot, thou art mine own flesh and blood. Lord worshipp&#8217;d might he be, what a beard hast thou got! Thou hast got more hair on thy chin than Dobbin my fill-horse has on his tail.</line>
 </speech>
 
 <speech>
@@ -1396,8 +1397,7 @@ Lord worshipp&#8217;d might he be, what a beard hast thou got! Thou hast got mor
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="460" number="28" form="prose">Well, well; but for mine own part, as I have set up my rest to run away, so I will not rest till I have run some ground. My master&#8217;s a very Jew. Give him a present! Give him a halter. 
-I am famish&#8217;d in his service; you may tell every finger I have with my ribs. Father, I am glad you are come; give me your present to one Master Bassanio, who indeed gives rare new liveries. If I serve not him, I will run as far as God has any ground. O rare fortune, here comes the man. To him, father, for I am a Jew if I serve the Jew any longer.</line>
+<line globalnumber="460" number="28" form="prose">Well, well; but for mine own part, as I have set up my rest to run away, so I will not rest till I have run some ground. My master&#8217;s a very Jew. Give him a present! Give him a halter. I am famish&#8217;d in his service; you may tell every finger I have with my ribs. Father, I am glad you are come; give me your present to one Master Bassanio, who indeed gives rare new liveries. If I serve not him, I will run as far as God has any ground. O rare fortune, here comes the man. To him, father, for I am a Jew if I serve the Jew any longer.</line>
 </speech>
 
 <stagedir sdglobalnumber="460.01" sdnumber="28.01">
@@ -1405,7 +1405,7 @@ I am famish&#8217;d in his service; you may tell every finger I have with my rib
 	<action type="enter">
 		<actor>BASS.</actor>
 		<actor>LEON.</actor>
-		<actor>Followers</actor>
+		<actor>Follower</actor>
 	</action>
 </stagedir>
 
@@ -1662,6 +1662,7 @@ I am famish&#8217;d in his service; you may tell every finger I have with my rib
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A room in Shylock&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
@@ -1695,8 +1696,7 @@ I am famish&#8217;d in his service; you may tell every finger I have with my rib
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="538" number="10" form="prose"><foreign xml:lang="fr">Adieu</foreign>, tears exhibit my tongue. Most beautiful pagan, most sweet Jew! If a Christian do not play the knave and get thee, I am much deceiv&#8217;d. 
-But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something drown my manly spirit. <foreign xml:lang="fr">Adieu</foreign>!</line>
+<line globalnumber="538" number="10" form="prose"><foreign xml:lang="fr">Adieu</foreign>, tears exhibit my tongue. Most beautiful pagan, most sweet Jew! If a Christian do not play the knave and get thee, I am much deceiv&#8217;d. But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something drown my manly spirit. <foreign xml:lang="fr">Adieu</foreign>!</line>
 </speech>
 
 <speech>
@@ -1728,6 +1728,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
@@ -1895,6 +1896,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Venice. Before Shylock&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SHY.">Shylock</scenepersona>
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
@@ -1974,8 +1976,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="606" number="20" form="prose">And they have conspir&#8217;d together. I will not say you shall see a masque, but if you do, then it was not for nothing that my nose fell a-bleeding on 
-<date type="holiday" subtype="Christian">Black Monday</date> last at six a&#8217; clock i&#8217; th&#8217; morning, falling out that year on <date type="holiday" subtype="Christian">Ash We&#8217;n&#8217;sday</date> was four year in th&#8217; afternoon.</line>
+<line globalnumber="606" number="20" form="prose">And they have conspir&#8217;d together. I will not say you shall see a masque, but if you do, then it was not for nothing that my nose fell a-bleeding on <date type="holiday" subtype="Christian">Black Monday</date> last at six a&#8217; clock i&#8217; th&#8217; morning, falling out that year on <date type="holiday" subtype="Christian">Ash We&#8217;n&#8217;sday</date> was four year in th&#8217; afternoon.</line>
 </speech>
 
 <speech>
@@ -2057,6 +2058,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Venice. Before Shylock&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GRA.">Gratiano</scenepersona>
 	<scenepersona short="SAL.">Salerio</scenepersona>
@@ -2292,6 +2294,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="MOR.">Prince of Morocco</scenepersona>
@@ -2450,6 +2453,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SAL.">Salerio</scenepersona>
 	<scenepersona short="SOL.">Solanio</scenepersona>
@@ -2579,6 +2583,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="2" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NER.">Nerissa</scenepersona>
 	<scenepersona>Servitor</scenepersona>
@@ -2826,6 +2831,7 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SOL.">Solanio</scenepersona>
 	<scenepersona short="SAL.">Salerio</scenepersona>
@@ -2930,14 +2936,12 @@ But <foreign xml:lang="fr">adieu</foreign>, these foolish drops do something dro
 
 <speech>
 <speaker long="Salerio">SAL.</speaker>
-<line globalnumber="960" number="17" form="prose">There is more difference between thy flesh and hers than between jet and ivory, more between your 
-bloods than there is between red wine and Rhenish. But tell us, do you hear whether Antonio have had any loss at sea or no?</line>
+<line globalnumber="960" number="17" form="prose">There is more difference between thy flesh and hers than between jet and ivory, more between your bloods than there is between red wine and Rhenish. But tell us, do you hear whether Antonio have had any loss at sea or no?</line>
 </speech>
 
 <speech>
 <speaker long="Shylock">SHY.</speaker>
-<line globalnumber="961" number="18" form="prose">There I have another bad match. A bank-rout, a prodigal, who dare scarce show his head on the Rialto; a beggar, that was us&#8217;d to come so smug upon the mart: let him look to his bond. He was wont to call me usurer, let him look to his bond. He was wont to lend money for a Christian
- cur&#8217;sy, let him look to his bond.</line>
+<line globalnumber="961" number="18" form="prose">There I have another bad match. A bank-rout, a prodigal, who dare scarce show his head on the Rialto; a beggar, that was us&#8217;d to come so smug upon the mart: let him look to his bond. He was wont to call me usurer, let him look to his bond. He was wont to lend money for a Christian cur&#8217;sy, let him look to his bond.</line>
 </speech>
 
 <speech>
@@ -3000,9 +3004,7 @@ bloods than there is between red wine and Rhenish. But tell us, do you hear whet
 
 <speech>
 <speaker long="Shylock">SHY.</speaker>
-<line globalnumber="969" number="26" form="prose">Why, there, there, there, there! A diamond gone, cost me two thousand ducats in Frankford! The curse never fell upon our nation till now, I never felt it till now. Two thousand ducats in that, and other precious, precious jewels. I would my daughter were dead at my foot, and the jewels in her ear! 
-Would she were hears&#8217;d at my foot, and the ducats in her coffin! No news of them? Why, so&#8212;and I know not what&#8217;s spent in the search. Why, thou loss upon loss! 
-The thief gone with so much, and so much to find the thief, and no satisfaction, no revenge, nor no ill luck stirring but what lights a&#8217; my shoulders, no sighs but a&#8217; my breathing, no tears but a&#8217; my shedding.</line>
+<line globalnumber="969" number="26" form="prose">Why, there, there, there, there! A diamond gone, cost me two thousand ducats in Frankford! The curse never fell upon our nation till now, I never felt it till now. Two thousand ducats in that, and other precious, precious jewels. I would my daughter were dead at my foot, and the jewels in her ear! Would she were hears&#8217;d at my foot, and the ducats in her coffin! No news of them? Why, so&#8212;and I know not what&#8217;s spent in the search. Why, thou loss upon loss! The thief gone with so much, and so much to find the thief, and no satisfaction, no revenge, nor no ill luck stirring but what lights a&#8217; my shoulders, no sighs but a&#8217; my breathing, no tears but a&#8217; my shedding.</line>
 </speech>
 
 <speech>
@@ -3062,8 +3064,7 @@ The thief gone with so much, and so much to find the thief, and no satisfaction,
 
 <speech>
 <speaker long="Shylock">SHY.</speaker>
-<line globalnumber="981" number="38" form="prose">Out upon her! Thou torturest me, Tubal. It was my turkis, I had it of Leah when I was a bachelor. 
-I would not have given it for a wilderness of monkeys.</line>
+<line globalnumber="981" number="38" form="prose">Out upon her! Thou torturest me, Tubal. It was my turkis, I had it of Leah when I was a bachelor. I would not have given it for a wilderness of monkeys.</line>
 </speech>
 
 <speech>
@@ -3073,8 +3074,7 @@ I would not have given it for a wilderness of monkeys.</line>
 
 <speech>
 <speaker long="Shylock">SHY.</speaker>
-<line globalnumber="983" number="40" form="prose">Nay, that&#8217;s true, that&#8217;s very true. Go, Tubal, fee me an officer; bespeak him a fortnight before. I will have the heart of him if he forfeit, for were he out of Venice I can make what merchandise I will. 
-Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal.</line>
+<line globalnumber="983" number="40" form="prose">Nay, that&#8217;s true, that&#8217;s very true. Go, Tubal, fee me an officer; bespeak him a fortnight before. I will have the heart of him if he forfeit, for were he out of Venice I can make what merchandise I will. Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal.</line>
 </speech>
 
 <stagedir sdglobalnumber="983.01" sdnumber="40.01">
@@ -3090,6 +3090,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BASS.">Bassanio</scenepersona>
 	<scenepersona short="POR.">Portia</scenepersona>
@@ -3098,6 +3099,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 	<scenepersona short="JES.">Jessica</scenepersona>
 	<scenepersona short="SAL.">Salerio</scenepersona>
+	<scenepersona short="SING.">Singer</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -3112,6 +3114,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 		<actor>POR.</actor>
 		<actor>GRA.</actor>
 		<actor>NER.</actor>
+		<actor>SING.</actor>
 	</action>
 </stagedir>
 
@@ -3224,6 +3227,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 	<dir>A song, the whilst Bassanio comments on the caskets to himself.</dir>
 	<action type="song">
 		<actor>BASS.</actor>
+		<actor>SING.</actor>
 	</action>
 </stagedir>
 
@@ -3286,7 +3290,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 <line globalnumber="1086" number="101" form="verse">To entrap the wisest. Therefore then, thou gaudy gold,</line>
 <line globalnumber="1087" number="102" form="verse">Hard food for Midas, I will none of thee;</line>
 <line globalnumber="1088" number="103" form="verse">Nor none of thee, thou pale and common drudge</line>
-<line globalnumber="1089" number="104" form="verse">&#8217;Tween man and man; but thou, thou meagre lead,</line>
+<line globalnumber="1089" number="104" form="verse">&#8217;Tween man and man; but thou, thou meager lead,</line>
 <line globalnumber="1090" number="105" form="verse">Which rather threaten&#8217;st than dost promise aught,</line>
 <line globalnumber="1091" number="106" form="verse">Thy paleness moves me more than eloquence,</line>
 <line globalnumber="1092" number="107" form="verse">And here choose I. Joy be the consequence!</line>
@@ -3713,6 +3717,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 		<actor>LOR.</actor>
 		<actor>JES.</actor>
 		<actor>SAL.</actor>
+		<actor>SING.</actor>
 	</action>
 </stagedir>
 
@@ -3721,6 +3726,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SHY.">Shylock</scenepersona>
 	<scenepersona short="SOL.">Solanio</scenepersona>
@@ -3838,6 +3844,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Belmont. A room in Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="NER.">Nerissa</scenepersona>
@@ -4027,6 +4034,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Belmont. A garden at Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAUN.">Launcelot</scenepersona>
 	<scenepersona short="JES.">Jessica</scenepersona>
@@ -4047,9 +4055,7 @@ Go, Tubal, and meet me at our synagogue; go, good Tubal, at our synagogue, Tubal
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="1438" number="1" form="prose">Yes, truly, for look you, the sins of the father are to be laid upon the children; therefore, I promise you, I fear you. 
-I was always plain with you, and so now I speak my agitation of the matter; therefore be a&#8217; good cheer, for truly I think you are damn&#8217;d. 
-There is but one hope in it that can do you any good, and that is but a kind of bastard hope neither.</line>
+<line globalnumber="1438" number="1" form="prose">Yes, truly, for look you, the sins of the father are to be laid upon the children; therefore, I promise you, I fear you. I was always plain with you, and so now I speak my agitation of the matter; therefore be a&#8217; good cheer, for truly I think you are damn&#8217;d. There is but one hope in it that can do you any good, and that is but a kind of bastard hope neither.</line>
 </speech>
 
 <speech>
@@ -4069,8 +4075,7 @@ There is but one hope in it that can do you any good, and that is but a kind of 
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="1442" number="5" form="prose">Truly then I fear you are damn&#8217;d both by father and mother; thus when I shun Scylla, your father, I fall into Charybdis, your mother. 
-Well, you are gone both ways.</line>
+<line globalnumber="1442" number="5" form="prose">Truly then I fear you are damn&#8217;d both by father and mother; thus when I shun Scylla, your father, I fall into Charybdis, your mother. Well, you are gone both ways.</line>
 </speech>
 
 <speech>
@@ -4080,8 +4085,7 @@ Well, you are gone both ways.</line>
 
 <speech>
 <speaker long="Launcelot Gobbo">LAUN.</speaker>
-<line globalnumber="1444" number="7" form="prose">Truly, the more to blame he; we were Christians enow before, e&#8217;en as many as could well live one by another. 
-This making of Christians will raise the price of hogs. If we grow all to be pork-eaters, we shall not shortly have a rasher on the coals for money.</line>
+<line globalnumber="1444" number="7" form="prose">Truly, the more to blame he; we were Christians enow before, e&#8217;en as many as could well live one by another. This making of Christians will raise the price of hogs. If we grow all to be pork-eaters, we shall not shortly have a rasher on the coals for money.</line>
 </speech>
 
 <stagedir sdglobalnumber="1444.01" sdnumber="7.01">
@@ -4103,8 +4107,7 @@ This making of Christians will raise the price of hogs. If we grow all to be por
 
 <speech>
 <speaker long="Jessica">JES.</speaker>
-<line globalnumber="1447" number="10" form="prose">Nay, you need not fear us, Lorenzo, Launcelot and I are out. He tells me flatly there&#8217;s no mercy for me in heaven because I am a Jew&#8217;s daughter; 
-and he says you are no good member of the commonwealth, for in converting Jews to Christians, you raise the price of pork.</line>
+<line globalnumber="1447" number="10" form="prose">Nay, you need not fear us, Lorenzo, Launcelot and I are out. He tells me flatly there&#8217;s no mercy for me in heaven because I am a Jew&#8217;s daughter; and he says you are no good member of the commonwealth, for in converting Jews to Christians, you raise the price of pork.</line>
 </speech>
 
 <speech>
@@ -4240,6 +4243,7 @@ and he says you are no good member of the commonwealth, for in converting Jews t
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Venice. A court of justice.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona>Magnificoes</scenepersona>
@@ -4582,11 +4586,10 @@ and he says you are no good member of the commonwealth, for in converting Jews t
 <stagedir sdglobalnumber="1637.01" sdnumber="149.01">
 	<dir>Reads.</dir>
 	<action type="read">
-		<actor>DUKE. </actor>
+		<actor>DUKE.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1638" number="150" form="prose"><recite>&#8220;Your Grace shall understand that at the receipt of your letter I am very sick, but in the instant that your messenger came, in loving visitation was with me a young doctor of Rome. His name is Balthazar. I acquainted him with the cause in controversy between the Jew and Antonio the merchant. We turn&#8217;d o&#8217;er many books together. He is furnish&#8217;d with my opinion, which better&#8217;d with his own learning, the greatness whereof I cannot enough commend, comes with him, at my importunity, to fill up your Grace&#8217;s request in my stead. 
-I beseech you let his lack of years be no impediment to let him lack a reverend estimation, for I never knew so young a body with so old a head. I leave him to your gracious acceptance, whose trial shall better publish his commendation.&#8221;</recite></line>
+<line globalnumber="1638" number="150" form="prose"><recite>&#8220;Your Grace shall understand that at the receipt of your letter I am very sick, but in the instant that your messenger came, in loving visitation was with me a young doctor of Rome. His name is Balthazar. I acquainted him with the cause in controversy between the Jew and Antonio the merchant. We turn&#8217;d o&#8217;er many books together. He is furnish&#8217;d with my opinion, which better&#8217;d with his own learning, the greatness whereof I cannot enough commend, comes with him, at my importunity, to fill up your Grace&#8217;s request in my stead. I beseech you let his lack of years be no impediment to let him lack a reverend estimation, for I never knew so young a body with so old a head. I leave him to your gracious acceptance, whose trial shall better publish his commendation.&#8221;</recite></line>
 <stagedir sdglobalnumber="1638.01" sdnumber="150.01">
 	<dir>Enter Portia for Balthazar.</dir>
 	<action type="enter">
@@ -5362,6 +5365,7 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Venice. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POR.">Portia</scenepersona>
 	<scenepersona short="NER.">Nerissa</scenepersona>
@@ -5467,6 +5471,7 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Belmont. Outside Portia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 	<scenepersona short="JES.">Jessica</scenepersona>
@@ -6279,6 +6284,11 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 </act>
 
 
+
+
+
+
+
 <sources>
 <playsource>
 <playsourcetitle>Gesta Romanorum</playsourcetitle>
@@ -6328,26 +6338,15 @@ I beseech you let his lack of years be no impediment to let him lack a reverend 
 
 </sources>
 
-<locations numberOfLocations="8">
-<placename>Belmont. A garden at Portia&#8217;s house.</placename>
-<placename>Belmont. A room in Portia&#8217;s house.</placename>
-<placename>Belmont. Outside Portia&#8217;s house.</placename>
-<placename>Venice. A court of justice.</placename>
-<placename>Venice. A public place.</placename>
-<placename>Venice. A room in Shylock&#8217;s house.</placename>
-<placename>Venice. A street.</placename>
-<placename>Venice. Before Shylock&#8217;s house.</placename>
-</locations>
 
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

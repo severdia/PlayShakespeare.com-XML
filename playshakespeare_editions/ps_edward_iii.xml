@@ -1,253 +1,265 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="edward-iii">
 <title short="Edward III">The Reign of King Edward the Third</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1590-1594</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Edward III">
 
-<persona gender="male" death="yes">
-<persname short="KING OF BOHEMIA." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">King of Bohemia</persname>
+<persona gender="male" archetype="hero" id="e7bf01dc-3faa-4ec6-b9db-692e4731ee09">
+<persname short="KING EDWARD." numberOfLines="743" numberOfVerseLines="743" numberOfProseLines="0" numberOfLyricsLines="0">Edward III</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LORRAINE." numberOfLines="40" numberOfVerseLines="40" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Lorraine</persname>
-<persaliases>
-	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
-</persaliases>
+<persona gender="male" archetype="hero" id="031765fb-db80-46ce-b0b8-5ebf36dca7b1">
+<persname short="PRINCE EDWARD." numberOfLines="281" numberOfVerseLines="281" numberOfProseLines="0" numberOfLyricsLines="0">Prince Edward</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PHILIP." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Philip</persname>
-<persaliases>
-	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
-</persaliases>
+<persona gender="male" id="acc61f5b-dfd3-4ca1-ab86-ac03df821ee3">
+<persname short="KING JOHN." numberOfLines="271" numberOfVerseLines="271" numberOfProseLines="0" numberOfLyricsLines="0">John de Valois, King of France</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ae9e31d7-fe88-49b4-9534-cea971ced3f8">
+<persname short="WARWICK." numberOfLines="121" numberOfVerseLines="121" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
+</persona>
+
+<persona gender="male" archetype="hero" id="38012437-35df-4842-87b8-7e6cb9bf2766">
+<persname short="SALISBURY." numberOfLines="92" numberOfVerseLines="92" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
+</persona>
+
+<persona gender="male" id="93b1c0e5-cd15-4061-b7b0-7c56098edad3">
 <persname short="CHARLES." numberOfLines="86" numberOfVerseLines="86" numberOfProseLines="0" numberOfLyricsLines="0">Charles</persname>
 <persaliases>
 	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="KING JOHN." numberOfLines="271" numberOfVerseLines="271" numberOfProseLines="0" numberOfLyricsLines="0">John de Valois, King of France</persname>
+<persona gender="male" id="19d2c8a4-ec3e-4f6a-938f-3c22d26f4dd1">
+<persname short="FR. MARINER." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">French Mariner</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GOBIN." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Gobin de Grey</persname>
-<persaliases>
-	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="MOUNTFORD." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Mountford</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="be9df665-92ed-4ad4-9a9a-ac04f13c132f">
 <persname short="ARTOIS." numberOfLines="60" numberOfVerseLines="60" numberOfProseLines="0" numberOfLyricsLines="0">Robert of Artois</persname>
 <persaliases>
 	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="VILLIERS." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Villiers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="COPLAND." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Copland</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MOUNTAGUE." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Mountague</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="fed43c76-3087-4553-98ae-6baf616ceeba">
 <persname short="LODOWICK." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Lodowick</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PERCY." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Lord Percy</persname>
-</persona>
-
-<persona gender="male">
-<persname short="AUDLEY." numberOfLines="97" numberOfVerseLines="97" numberOfProseLines="0" numberOfLyricsLines="0">Lord Audley</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="SALISBURY." numberOfLines="92" numberOfVerseLines="92" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="d6dda7da-0efd-47bc-b9a4-551db8482d61">
 <persname short="DERBY." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Derby</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WARWICK." numberOfLines="121" numberOfVerseLines="121" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
+<persona gender="male" id="8af9cd95-44ff-4430-9839-f4fd8c782cff">
+<persname short="LORRAINE." numberOfLines="40" numberOfVerseLines="40" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Lorraine</persname>
+<persaliases>
+	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
+</persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="PRINCE EDWARD." numberOfLines="281" numberOfVerseLines="281" numberOfProseLines="0" numberOfLyricsLines="0">Prince Edward</persname>
+<persona gender="male" id="589d12e8-45fc-4565-96d1-74a5b729f8f3">
+<persname short="PHILIP." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Philip</persname>
+<persaliases>
+	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
+</persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="COUNTESS." numberOfLines="214" numberOfVerseLines="214" numberOfProseLines="0" numberOfLyricsLines="0">Countess of Salisbury</persname>
-</persona>
-
-<persona gender="female">
-<persname short="QUEEN PHILIP." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Queen Philippa</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DOUGLAS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Earl Douglas</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="795eb260-2d40-46cc-9a14-430d89de8641">
 <persname short="KING DAVID." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">David, King of Scotland</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="KING EDWARD." numberOfLines="743" numberOfVerseLines="743" numberOfProseLines="0" numberOfLyricsLines="0">Edward III</persname>
+<persona gender="male" id="8b457d17-f6e5-4997-97c5-47c8ed7593ac">
+<persname short="VILLIERS." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Villiers</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. SCOT. MESS." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Scottish Messenger</persname>
+
+<persona gender="male" id="2e2a8d6c-1b9d-4db2-a040-b74643141e65">
+<persname short="COPLAND." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Copland</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. SCOT. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Scottish Messenger</persname>
+<persona gender="male" id="af7e6f34-107d-436d-a0aa-2632728e55b3">
+<persname short="MOUNTAGUE." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Mountague</persname>
 </persona>
 
-<persona gender="male">
-<persname short="POL. CAPTAIN." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Polish Captain</persname>
+
+<persona gender="male" id="983ae08e-9495-4539-ae90-d90ef499b89f">
+<persname short="MOUNTFORD." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Mountford</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FR. MARINER." numberOfLines="66" numberOfVerseLines="66" numberOfProseLines="0" numberOfLyricsLines="0">French Mariner</persname>
+<persona gender="male" id="b76d2f58-3572-411b-a0d9-bce6987dbca1">
+<persname short="DOUGLAS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Earl Douglas</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c4c16c9d-ff04-47b0-801f-43fd60fd5d64">
+<persname short="GOBIN." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Gobin de Grey</persname>
+<persaliases>
+	<persname short="ALL FRENCHMEN.">All Frenchmen</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" death="yes" id="93f606a6-af85-4db9-baa1-efaad1cc9762">
+<persname short="KING OF BOHEMIA." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">King of Bohemia</persname>
+</persona>
+
+
+<persona gender="female" id="7192d31f-5e61-4c2c-86af-70cf63b571f9">
+<persname short="COUNTESS." numberOfLines="214" numberOfVerseLines="214" numberOfProseLines="0" numberOfLyricsLines="0">Countess of Salisbury</persname>
+</persona>
+
+<persona gender="female" id="8d398968-05c9-4067-bb9b-5ad5937e1b77">
+<persname short="Q. PHILIP." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Queen Philippa</persname>
+</persona>
+
+<persona gender="male" id="8f2fbf25-b4f9-45db-aa2c-68b09b10bec8">
+<persname short="AUDLEY." numberOfLines="97" numberOfVerseLines="97" numberOfProseLines="0" numberOfLyricsLines="0">Lord Audley</persname>
+</persona>
+
+<persona gender="male" id="fbf4bc7c-4f35-463d-afe9-ea1130554524">
+<persname short="PERCY." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Lord Percy</persname>
+</persona>
+
+
+
+<persona gender="male" id="df4bd42c-162b-430d-a992-509c2ccdf944">
 <persname short="1. FRENCH." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">First Frenchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4f20678d-2e65-4ff8-9b29-04302536cb26">
 <persname short="2. FRENCH." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Second Frenchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a22b696e-6229-4123-9cb9-358554e3f867">
 <persname short="3. FRENCH." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Third Frenchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0a966235-d7f6-4662-a848-5dc0af24a53d">
 <persname short="4. FRENCH." numberOfLines="31" numberOfVerseLines="31" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Frenchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bf6605da-7f79-4908-946e-0fce625fddae">
 <persname short="FRENCHWOMAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Frenchwoman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Third Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="4. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="POOR." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Poor Inhabitant of Calais</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FIVE POOR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Five Poor Inhabitants of Calais</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. FR. HERALD." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">First French Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. FR. HERALD." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second French Herald</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. FR. HERALD." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Third French Herald</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1edd0d26-94c7-46f2-875e-9469407a430d">
 <persname short="1. FR. CAPTAIN." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">First French Captain</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="515c234b-aa97-442a-ba24-7661e835b09c">
 <persname short="2. FR. CAPTAIN." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second French Captain</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="24677e9b-7750-4a0b-8c96-4da54455d72a">
+<persname short="POL. CAPTAIN." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Polish Captain</persname>
+</persona>
+
+<persona gender="male" id="b69cbfb5-e3c5-467a-856e-1f0c877bb53c">
+<persname short="1. SCOT. MESS." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Scottish Messenger</persname>
+</persona>
+
+<persona gender="male" id="916e247e-c468-4802-adf2-b54742cec2d1">
+<persname short="2. SCOT. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Scottish Messenger</persname>
+</persona>
+
+<persona gender="male" id="aa55f7bc-971d-487b-bd04-c5f5c445e06d">
+<persname short="1. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Herald</persname>
+</persona>
+
+<persona gender="male" id="5e804593-cf09-482c-b9e8-ffc58e262de9">
+<persname short="2. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Herald</persname>
+</persona>
+
+<persona gender="male" id="12fca738-e379-4da6-b197-2475576e23eb">
+<persname short="3. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Third Herald</persname>
+</persona>
+
+<persona gender="male" id="6cfb8c09-f2f4-4a45-a0b3-20d60755aab5">
+<persname short="4. HERALD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Herald</persname>
+</persona>
+
+<persona gender="male" id="98a31605-e290-454b-b06e-6d47adaa7218">
+<persname short="1. FR. HERALD." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">First French Herald</persname>
+</persona>
+
+<persona gender="male" id="50e9f45e-7c21-464d-aa44-474500d84528">
+<persname short="2. FR. HERALD." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second French Herald</persname>
+</persona>
+
+<persona gender="male" id="7ddc91a3-5658-429e-a97c-d639895ef48e">
+<persname short="3. FR. HERALD." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Third French Herald</persname>
+</persona>
+
+<persona gender="male" id="f0cb1ca0-4113-44c1-a78e-76ca4d8e4617">
+<persname short="E. HER." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
+</persona>
+
+<persona gender="male" id="43d78ea9-9072-4d15-be6b-dfc998efdd7e">
 <persname short="1. ESQUIRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First English Esquire</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4c4bb070-d673-48e8-9109-f0e8ea7ac595">
 <persname short="2. ESQUIRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second English Esquire</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ENG. HERALD." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="f13d06e3-43aa-476f-84b3-08b62608c7fd">
 <persname short="1. CIT. CAL." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="37f98b2d-61a6-4f5d-a70a-279d80716e81">
 <persname short="2. CIT. CAL." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0e32b011-46cf-41bd-a3fd-ff2500c80376">
 <persname short="3. CIT. CAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="247237eb-6ede-4f78-9ccc-ed8abb93b8f0">
 <persname short="4. CIT. CAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f8de89c1-65a5-4327-9e17-e2072e1391c0">
 <persname short="5. CIT. CAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a1f06553-8fad-4934-8057-2f4a681ef87a">
 <persname short="6. CIT. CAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sixth Citizen of Calais</persname>
 <persaliases>
-	<persname short="ALL. CIT. CAL.">All Citizens of Calais</persname>
+	<persname short="ALL CIT. CAL.">All Citizens of Calais</persname>
 </persaliases>
 </persona>
+
+<persona gender="male" id="f5a4da7a-8a91-4b82-9762-5b350204ea04">
+<persname short="POOR." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Poor Inhabitant of Calais</persname>
+</persona>
+
+<persona gender="male" id="7eb48478-4f90-48fc-aea8-936eb556f65f">
+<persname short="FIVE POOR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Five Poor Inhabitants of Calais</persname>
+</persona>
+
+
 
 </personae>
 
@@ -256,6 +268,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A room of state in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
 	<scenepersona short="DERBY.">Derby</scenepersona>
@@ -364,6 +377,9 @@
 <stagedir sdglobalnumber="51.01" sdnumber="51.01">
 	<dir>Exit Audley, and returns.</dir>
 	<action type="exit">
+		<actor>AUDLEY.</actor>
+	</action>
+	<action type="enter">
 		<actor>AUDLEY.</actor>
 	</action>
 </stagedir>
@@ -618,6 +634,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Roxborough. Before the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COUNTESS.">Countess of Salisbury</scenepersona>
 	<scenepersona short="KING DAVID.">King David</scenepersona>
@@ -1072,6 +1089,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Roxborough. The gardens of the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LODOWICK.">Lodowick</scenepersona>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
@@ -1942,6 +1960,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Roxborough. Another part of the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DERBY.">Derby</scenepersona>
 	<scenepersona short="AUDLEY.">Audley</scenepersona>
@@ -2134,6 +2153,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>DERBY.</actor>
+		<actor>AUDLEY.</actor>
 	</action>
 </stagedir>
 
@@ -2219,6 +2239,13 @@
 	<dir>Enter Prince Edward.</dir>
 	<action type="enter">
 		<actor>PRINCE EDWARD.</actor>
+	</action>
+</stagedir>
+
+<stagedir sdglobalnumber="874.02" sdnumber="75.02">
+	<dir>Exit Lodowick.</dir>
+	<action type="exit">
+		<actor>LODOWICK.</actor>
 	</action>
 </stagedir>
 
@@ -2522,6 +2549,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Flanders. The French camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING JOHN.">King John of France</scenepersona>
 	<scenepersona short="CHARLES.">Charles of Normandy</scenepersona>
@@ -2884,6 +2912,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Picardy. The fields near Cressy.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. FRENCH.">First Frenchman</scenepersona>
 	<scenepersona short="2. FRENCH.">Second Frenchman</scenepersona>
@@ -3067,6 +3096,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Picardy. The fields near Cressy.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
 	<scenepersona short="DERBY.">Earl of Derby</scenepersona>
@@ -3242,7 +3272,7 @@
 <line globalnumber="1335" number="61" form="verse">And, last of all, although I scorn to cope</line>
 <line globalnumber="1336" number="62" form="verse">With one so much inferior to myself,</line>
 <line globalnumber="1337" number="63" form="verse">Yet, in respect thy thirst is all for gold,</line>
-<line globalnumber="1338" number="64" form="verse">Thy labour rather to be feared than loved,</line>
+<line globalnumber="1338" number="64" form="verse">Thy labor rather to be feared than loved,</line>
 <line globalnumber="1339" number="65" form="verse">To satisfy thy lust in either part,</line>
 <line globalnumber="1340" number="66" form="verse">Here am I come, and with me have I brought</line>
 <line globalnumber="1341" number="67" form="verse">Exceeding store of treasure, pearl, and coin.</line>
@@ -3547,6 +3577,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Picardy. The fields near Cressy.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>Frenchmen</scenepersona>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
@@ -3608,6 +3639,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Picardy. The fields near Cressy.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
 	<scenepersona short="AUDLEY.">Audley</scenepersona>
@@ -3616,6 +3648,7 @@
 	<scenepersona short="AUDLEY.">Audley</scenepersona>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
 	<scenepersona short="KING OF BOHEMIA.">King of Bohemia</scenepersona>
+	<scenepersona>Soldier</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -3860,7 +3893,7 @@
 <line globalnumber="1605" number="90" form="verse">And, therefore, with thy sword, yet reaking warm</line>
 <stagedir sdglobalnumber="1605.01" sdnumber="90.01">
 	<dir>His sword borne by a soldier.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>Soldier</actor>
 	</action>
 </stagedir>
@@ -3920,6 +3953,7 @@
 		<actor>AUDLEY.</actor>
 		<actor>PRINCE EDWARD.</actor>
 		<actor>KING OF BOHEMIA.</actor>
+		<actor>Soldier</actor>	
 	</action>
 </stagedir>
 
@@ -3931,6 +3965,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Bretagne. The camp of the English.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MOUNTFORD.">Lord Mountford</scenepersona>
 	<scenepersona short="SALISBURY.">Earl of Salisbury</scenepersona>
@@ -4047,11 +4082,11 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Picardy. The English camp before Calais.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
 	<scenepersona short="DERBY.">Derby</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
-	<scenepersona>Frenchmen</scenepersona>
 	<scenepersona short="PERCY.">Lord Percy</scenepersona>
 	<scenepersona short="1. FR. CAPTAIN.">French Captain</scenepersona>
 	<scenepersona short="POOR.">Poor Inhabitant of Calais</scenepersona>
@@ -4145,7 +4180,8 @@
 	<dir>Exeunt Derby and Frenchmen.</dir>
 	<action type="exit">
 		<actor>DERBY.</actor>
-		<actor>Frenchmen</actor>
+		<actor>FIVE POOR.</actor>
+		<actor>POOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1706" number="33" form="verse">The lion scorns to touch the yielding prey,</line>
@@ -4252,10 +4288,11 @@
 	<action type="exit">
 		<actor>KING EDWARD.</actor>
 		<actor>PERCY.</actor>
+		<actor>Soldiers</actor>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="First French Captain">1. FR. CAPTAIN.</speaker>
 <line globalnumber="1753" number="80" form="verse">Why, this it is to trust a broken staff:</line>
 <line globalnumber="1754" number="81" form="verse">Had we not been persuaded, John our King</line>
@@ -4269,8 +4306,6 @@
 	<dir>Exit.</dir>
 	<action type="exit">
 		<actor>1. FR. CAPTAIN.</actor>
-		<actor>Soldiers</actor>
-		<actor>POOR.</actor>
 	</action>
 </stagedir>
 
@@ -4279,6 +4314,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. The French camp; tent of the Duke of Normandy.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHARLES.">Charles of Normandy</scenepersona>
 	<scenepersona short="VILLIERS.">Villiers</scenepersona>
@@ -4495,6 +4531,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. The English camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
 	<scenepersona short="AUDLEY.">Audley</scenepersona>
@@ -4796,6 +4833,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. The French camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING JOHN.">King John</scenepersona>
 	<scenepersona short="CHARLES.">Charles</scenepersona>
@@ -4940,9 +4978,9 @@
 	<dir>Another noise. Salisbury brought in by the Second French Captain.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
-		<actor>SALISBURY.</actor>
+	<action type="enter">
 		<actor>2. FR. CAPTAIN.</actor>
+		<recipient>SALISBURY.</recipient>
 	</action>
 </stagedir>
 
@@ -5092,6 +5130,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. A part of the field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
 	<scenepersona short="ARTOIS.">Artois</scenepersona>
@@ -5155,6 +5194,7 @@
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. Another part of the field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING JOHN.">King John</scenepersona>
 	<scenepersona short="CHARLES.">Charles</scenepersona>
@@ -5276,6 +5316,7 @@
 <scene actnum="4" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. Another part of the field of battle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUDLEY.">Audley</scenepersona>
 	<scenepersona short="1. ESQUIRE.">First English Esquire</scenepersona>
@@ -5336,6 +5377,7 @@
 <scene actnum="4" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>Poitou. Fields near Poitiers. The English camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
 	<scenepersona short="KING JOHN.">King John</scenepersona>
@@ -5393,10 +5435,10 @@
 <line globalnumber="2213" number="16" form="verse">Now is the proverb verified in you:</line>
 <line globalnumber="2214" number="17" form="verse">&#8220;Too bright a morning breeds a low&#8217;ring day.&#8221;</line>
 <stagedir sdglobalnumber="2214.01" sdnumber="17.01">
-	<dir>Sound Trumpets. Enter Audley.</dir>
+	<dir>Sound trumpets. Enter Audley.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
+	<action type="enter">
 		<actor>AUDLEY.</actor>
 	</action>
 </stagedir>
@@ -5493,16 +5535,17 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Picardy. The English camp before Calais.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING EDWARD.">King Edward</scenepersona>
-	<scenepersona short="QUEEN PHILIP.">Queen Philippa</scenepersona>
+	<scenepersona short="Q. PHILIP.">Queen Philippa</scenepersona>
 	<scenepersona short="DERBY.">Derby</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
-	<scenepersona short="ALL. CIT. CAL.">Six Citizens of Calais</scenepersona>
+	<scenepersona short="ALL CIT. CAL.">Six Citizens of Calais</scenepersona>
 	<scenepersona short="COPLAND.">Copland</scenepersona>
 	<scenepersona short="KING DAVID.">King David</scenepersona>
 	<scenepersona short="SALISBURY.">Salisbury</scenepersona>
-	<scenepersona short="ENG. HERALD.">English Herald</scenepersona>
+	<scenepersona short="E. HER.">English Herald</scenepersona>
 	<scenepersona short="PRINCE EDWARD.">Prince Edward</scenepersona>
 	<scenepersona short="KING JOHN.">King John</scenepersona>
 	<scenepersona short="PHILIP.">Philip</scenepersona>
@@ -5518,7 +5561,7 @@
 	<dir>Enter King Edward, Queen Philippa, Derby, soldiers.</dir>
 	<action type="enter">
 		<actor>KING EDWARD.</actor>	
-		<actor>QUEEN PHILIP.</actor>
+		<actor>Q. PHILIP.</actor>
 		<actor>DERBY.</actor>
 		<actor>Soldiers</actor>
 	</action>
@@ -5538,12 +5581,12 @@
 <stagedir sdglobalnumber="2268.01" sdnumber="7.01">
 	<dir>Enter six Citizens of Calais in their shirts, barefoot, with halters about their necks.</dir>
 	<action type="enter">
-		<actor>ALL. CIT. CAL.</actor>
+		<actor>ALL CIT. CAL.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="All Citizens of Calais">ALL. CIT. CAL.</speaker>
+<speaker long="All Citizens of Calais">ALL CIT. CAL.</speaker>
 <line globalnumber="2269" number="8" form="verse">Mercy, king Edward, mercy, gracious lord!</line>
 </speech>
 
@@ -5598,7 +5641,7 @@
 </speech>
 
 <speech>
-<speaker long="Philippa">QUEEN PHILIP.</speaker>
+<speaker long="Philippa">Q. PHILIP.</speaker>
 <line globalnumber="2300" number="39" form="verse">Ah, be more mild unto these yielding men!</line>
 <line globalnumber="2301" number="40" form="verse">It is a glorious thing to stablish peace,</line>
 <line globalnumber="2302" number="41" form="verse">And kings approach the nearest unto God</line>
@@ -5635,7 +5678,7 @@
 <stagedir sdglobalnumber="2320.01" sdnumber="59.01">
 	<dir>Exeunt Citizens of Calais.</dir>
 	<action type="exit">
-		<actor>ALL. CIT. CAL.</actor>
+		<actor>ALL CIT. CAL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2321" number="60" form="verse">Now, might we hear of our affairs abroad,</line>
@@ -5692,7 +5735,7 @@
 </speech>
 
 <speech>
-<speaker long="Philippa">QUEEN PHILIP.</speaker>
+<speaker long="Philippa">Q. PHILIP.</speaker>
 <line globalnumber="2344" number="83" form="verse">But, Copland, thou didst scorn the king&#8217;s command,</line>
 <line globalnumber="2345" number="84" form="verse">Neglecting our commission in his name.</line>
 </speech>
@@ -5804,7 +5847,7 @@
 </speech>
 
 <speech>
-<speaker long="Philippa">QUEEN PHILIP.</speaker>
+<speaker long="Philippa">Q. PHILIP.</speaker>
 <line globalnumber="2418" number="157" form="verse">Ah me, is this my welcome into France?</line>
 <line globalnumber="2419" number="158" form="verse">Is this the comfort that I looked to have,</line>
 <line globalnumber="2420" number="159" form="verse">When I should meet with my beloved son?</line>
@@ -5834,13 +5877,13 @@
 	<dir>After a flourish, sounded within, enter an English Herald.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
-		<actor>ENG. HERALD.</actor>
+	<action type="enter">
+		<actor>E. HER.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="English Herald">ENG. HERALD.</speaker>
+<speaker long="English Herald">E. HER.</speaker>
 <line globalnumber="2437" number="176" form="verse">Rejoice, my lord; ascend the imperial throne!</line>
 <line globalnumber="2438" number="177" form="verse">The mighty and redoubted prince of Wales,</line>
 <line globalnumber="2439" number="178" form="verse">Great servitor to bloody Mars in arms,</line>
@@ -5858,6 +5901,8 @@
 <line globalnumber="2447" number="186" form="verse">Sound, trumpets, welcome in Plantagenet!</line>
 <stagedir sdglobalnumber="2447.01" sdnumber="186.01">
 	<dir>Enter Prince Edward, King John, Philip, Audley, Artois.</dir>
+	<action type="sound">
+	</action>
 	<action type="enter">
 		<actor>PRINCE EDWARD.</actor>
 		<actor>KING JOHN.</actor>	
@@ -5872,12 +5917,12 @@
 </speech>
 
 <speech>
-<speaker long="Philippa">QUEEN PHILIP.</speaker>
+<speaker long="Philippa">Q. PHILIP.</speaker>
 <line globalnumber="2451" number="190" form="verse">Be this a token to express my joy,</line>
 <stagedir sdglobalnumber="2451.01" sdnumber="190.01">
 	<dir>Kisses him.</dir>
 	<action type="action">
-		<actor>QUEEN PHILIP.</actor>
+		<actor>Q. PHILIP.</actor>
 		<recipient>KING EDWARD.</recipient>
 	</action>
 </stagedir>
@@ -5971,29 +6016,31 @@
 <line globalnumber="2504" number="243" form="verse">Arrive, three kings, two princes, and a queen.</line>
 </speech>
 
-<finis>
-<finistitle>FINIS.</finistitle>
-</finis>
+<stagedir sdglobalnumber="2504.01" sdnumber="243.01">
+	<dir>Exeunt.</dir>
+	<action type="exit">
+		<actor>PRINCE EDWARD.</actor>
+		<actor>KING JOHN.</actor>	
+		<actor>PHILIP.</actor>
+		<actor>AUDLEY.</actor>
+		<actor>ARTOIS.</actor>
+		<actor>E. HER.</actor>
+		<actor>Q. PHILIP.</actor>
+		<actor>DERBY.</actor>
+		<actor>KING EDWARD.</actor>
+		<actor>COPLAND.</actor>
+		<actor>KING DAVID.</actor>
+		<actor>SALISBURY.</actor>
+		<actor>Soldiers</actor>
+	</action>
+</stagedir>
+
 
 </scene>
 </act>
 
 
-<locations numberOfLocations="13">
-<placename>Bretagne. The camp of the English.</placename>
-<placename>Flanders. The French camp.</placename>
-<placename>London. A room of state in the palace.</placename>
-<placename>Picardy. The English camp before Calais.</placename>
-<placename>Picardy. The fields near Cressy.</placename>
-<placename>Poitou. Fields near Poitiers. A part of the field of battle.</placename>
-<placename>Poitou. Fields near Poitiers. Another part of the field of battle.</placename>
-<placename>Poitou. Fields near Poitiers. The English camp.</placename>
-<placename>Poitou. Fields near Poitiers. The French camp.</placename>
-<placename>Poitou. Fields near Poitiers. The French camp; tent of the Duke of Normandy.</placename>
-<placename>Roxborough. Another part of the castle.</placename>
-<placename>Roxborough. Before the castle.</placename>
-<placename>Roxborough. The gardens of the castle.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -6030,11 +6077,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

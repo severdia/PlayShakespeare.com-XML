@@ -1,84 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="twelfth-night">
 <title short="Twelfth Night">Twelfth Night, or What You Will</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1601-1602</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Twelfth Night">
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="3205a8dd-cb64-4588-b6fb-0ef0b9ea5dd4">
 <persname short="DUKE." numberOfLines="215" numberOfVerseLines="197" numberOfProseLines="18" numberOfLyricsLines="0">Orsino</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SEB." numberOfLines="98" numberOfVerseLines="87" numberOfProseLines="11" numberOfLyricsLines="0">Sebastian</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT." numberOfLines="105" numberOfVerseLines="99" numberOfProseLines="6" numberOfLyricsLines="0">Antonio</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAP." numberOfLines="32" numberOfVerseLines="29" numberOfProseLines="3" numberOfLyricsLines="0">Sea Captain</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VAL." numberOfLines="11" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Valentine</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CUR." numberOfLines="4" numberOfVerseLines="2" numberOfProseLines="2" numberOfLyricsLines="0">Curio</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="69473b57-cd02-486e-be72-c0890053ed12">
 <persname short="SIR TO." numberOfLines="163" numberOfVerseLines="10" numberOfProseLines="153" numberOfLyricsLines="7">Sir Toby Belch</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="SIR AND." numberOfLines="88" numberOfVerseLines="1" numberOfProseLines="87" numberOfLyricsLines="0">Sir Andrew Aguecheek</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="MAL." numberOfLines="115" numberOfVerseLines="31" numberOfProseLines="84" numberOfLyricsLines="0">Malvolio</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="FAB." numberOfLines="65" numberOfVerseLines="14" numberOfProseLines="51" numberOfLyricsLines="0">Fabian</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="2c260c23-2ad7-4b86-b4ba-4df36b8dc33a">
 <persname short="CLO." numberOfLines="163" numberOfVerseLines="69" numberOfProseLines="94" numberOfLyricsLines="68">Feste</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="OLI." numberOfLines="272" numberOfVerseLines="202" numberOfProseLines="70" numberOfLyricsLines="0">Olivia</persname>
+<persona gender="male" archetype="clown" id="182d34ce-e7c6-4e6e-bceb-fe4ba736dc3c">
+<persname short="MAL." numberOfLines="115" numberOfVerseLines="31" numberOfProseLines="84" numberOfLyricsLines="0">Malvolio</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="male" id="96994055-6355-4a49-a3d2-db222101181f">
+<persname short="ANT." numberOfLines="105" numberOfVerseLines="99" numberOfProseLines="6" numberOfLyricsLines="0">Antonio</persname>
+</persona>
+
+<persona gender="male" id="c45ba24f-119a-43dc-bd34-8ccf743f64c7">
+<persname short="SEB." numberOfLines="98" numberOfVerseLines="87" numberOfProseLines="11" numberOfLyricsLines="0">Sebastian</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="98c86d02-453d-4831-b41d-a3f95e526f88">
+<persname short="SIR AND." numberOfLines="88" numberOfVerseLines="1" numberOfProseLines="87" numberOfLyricsLines="0">Sir Andrew Aguecheek</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="4052db7a-c5ef-496b-90ee-13546723a200">
+<persname short="FAB." numberOfLines="65" numberOfVerseLines="14" numberOfProseLines="51" numberOfLyricsLines="0">Fabian</persname>
+</persona>
+
+<persona gender="female" id="a4e2269f-61a4-42c2-b5ba-8d93c4b5f356">
 <persname short="VIO." numberOfLines="287" numberOfVerseLines="233" numberOfProseLines="54" numberOfLyricsLines="0">Viola</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="a628db03-d3c8-4ba0-8c32-6d4fe9a2e5d8">
+<persname short="OLI." numberOfLines="272" numberOfVerseLines="202" numberOfProseLines="70" numberOfLyricsLines="0">Olivia</persname>
+</persona>
+
+<persona gender="female" id="f67ad34d-c0f4-4228-9806-192b5925222b">
 <persname short="MAR." numberOfLines="61" numberOfVerseLines="0" numberOfProseLines="61" numberOfLyricsLines="0">Maria</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SERV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Olivia&#8217;s Servant</persname>
+<persona gender="male" id="146faf08-a204-4302-8e7c-70ad59c548dc">
+<persname short="CAP." numberOfLines="32" numberOfVerseLines="29" numberOfProseLines="3" numberOfLyricsLines="0">Sea Captain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PRIEST." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Priest</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1c867c3c-b59f-4542-b149-a39a35e78d24">
 <persname short="1. OFF." numberOfLines="12" numberOfVerseLines="11" numberOfProseLines="1" numberOfLyricsLines="0">First Officer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f36d3c50-dee1-49b0-8195-548e2b0ecfe5">
 <persname short="2. OFF." numberOfLines="3" numberOfVerseLines="2" numberOfProseLines="1" numberOfLyricsLines="0">Second Officer</persname>
 </persona>
+
+<persona gender="male" id="014e8e18-5d2b-4dc0-8902-75ed66d353bd">
+<persname short="VAL." numberOfLines="11" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Valentine</persname>
+</persona>
+
+<persona gender="male" id="0e7a32cb-fd87-4dcd-aa87-c325580b954d">
+<persname short="CUR." numberOfLines="4" numberOfVerseLines="2" numberOfProseLines="2" numberOfLyricsLines="0">Curio</persname>
+</persona>
+
+<persona gender="male" id="305079aa-d693-4af5-be45-15db304be803">
+<persname short="PRIEST." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Priest</persname>
+</persona>
+
+<persona gender="male" id="ba4938e6-41b9-4c18-b215-9eeb79a3f936">
+<persname short="SERV." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Olivia&#8217;s Servant</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -86,6 +92,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Illyria. A room in Duke Orsino&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke of Illyria</scenepersona>
 	<scenepersona short="CUR.">Curio</scenepersona>
@@ -201,6 +208,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The sea coast.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VIO.">Viola</scenepersona>
 	<scenepersona short="CAP.">Captain</scenepersona>
@@ -383,6 +391,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIR TO.">Sir Toby Belch</scenepersona>
 	<scenepersona short="MAR.">Maria</scenepersona>
@@ -761,6 +770,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Duke Orsino&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="VIO.">Viola</scenepersona>
@@ -909,6 +919,7 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>A room in Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAR.">Maria</scenepersona>
 	<scenepersona short="CLO.">Clown Feste</scenepersona>
@@ -1715,6 +1726,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The sea coast.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antonio</scenepersona>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
@@ -1810,6 +1822,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Illyria. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VIO.">Viola</scenepersona>
 	<scenepersona short="MAL.">Malvolio</scenepersona>
@@ -1900,6 +1913,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIR TO.">Sir Toby</scenepersona>
 	<scenepersona short="SIR AND.">Sir Andrew</scenepersona>
@@ -2497,6 +2511,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Duke Orsino&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="VIO.">Viola</scenepersona>
@@ -2854,6 +2869,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIR TO.">Sir Toby</scenepersona>
 	<scenepersona short="SIR AND.">Sir Andrew</scenepersona>
@@ -3415,6 +3431,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VIO.">Viola</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -3888,6 +3905,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIR TO.">Sir Toby</scenepersona>
 	<scenepersona short="SIR AND.">Sir Andrew</scenepersona>
@@ -4076,6 +4094,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Illyria. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
 	<scenepersona short="ANT.">Antonio</scenepersona>
@@ -4219,6 +4238,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OLI.">Olivia</scenepersona>
 	<scenepersona short="MAR.">Maria</scenepersona>
@@ -5370,6 +5390,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Illyria, A street adjoining Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -5621,6 +5642,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAR.">Maria</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -5988,6 +6010,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Olivia&#8217;s garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
 	<scenepersona short="OLI.">Olivia</scenepersona>
@@ -6081,6 +6104,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A street before Olivia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLO.">Clown</scenepersona>
 	<scenepersona short="FAB.">Fabian</scenepersona>
@@ -7156,15 +7180,9 @@
 </act>
 
 
-<locations numberOfLocations="7">
-<placename>A room in Olivia&#8217;s house.</placename>
-<placename>A street before Olivia&#8217;s house.</placename>
-<placename>Illyria, A street adjoining Olivia&#8217;s house.</placename>
-<placename>Illyria. A room in Duke Orsino&#8217;s palace.</placename>
-<placename>Illyria. A street.</placename>
-<placename>Olivia&#8217;s garden.</placename>
-<placename>The sea coast.</placename>
-</locations>
+
+
+
 
 
 <sources>
@@ -7214,11 +7232,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

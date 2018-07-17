@@ -1,140 +1,151 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="titus-andronicus">
 <title short="Titus Andronicus">The Tragedy of Titus Andronicus</title>
-<playwright>William Shakespeare and George Peele</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>George Peele</playwright>
+</playwrights>
 <pubdate>1593-1594</pubdate>
+
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
 
 <personae playtitle="Titus Andronicus">
 
-<persona gender="male" archetype="hero" death="yes">
-<persname short="SAT." numberOfLines="211" numberOfVerseLines="211" numberOfProseLines="0" numberOfLyricsLines="0">Saturninus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BAS." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">Bassianus</persname>
-</persona>
-
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="24913566-927f-44e6-8fb3-46aa570f6b8a">
 <persname short="TIT." numberOfLines="707" numberOfVerseLines="701" numberOfProseLines="6" numberOfLyricsLines="0">Titus Andronicus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MARC." numberOfLines="297" numberOfVerseLines="296" numberOfProseLines="1" numberOfLyricsLines="0">Marcus Andronicus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="LUC." numberOfLines="181" numberOfVerseLines="181" numberOfProseLines="0" numberOfLyricsLines="0">Lucius</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="QUIN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Quintus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="MART." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Martius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MUT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Mutius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="Y. LUC." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Young Lucius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="AEMIL." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Aemilius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PUB." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Publius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SEMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sempronius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Caius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VAL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Valentine</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="ALAR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Alarbus</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
-<persname short="DEM." numberOfLines="94" numberOfVerseLines="94" numberOfProseLines="0" numberOfLyricsLines="0">Demetrius</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
-<persname short="CHI." numberOfLines="52" numberOfVerseLines="52" numberOfProseLines="0" numberOfLyricsLines="0">Chiron</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
+<persona gender="male" archetype="villain" death="yes" id="280ab91d-00ed-4da0-9e13-dac161164b01">
 <persname short="AAR." numberOfLines="354" numberOfVerseLines="354" numberOfProseLines="0" numberOfLyricsLines="0">Aaron</persname>
 </persona>
 
-<persona gender="female" archetype="villain" death="yes">
+<persona gender="male" id="bc3a8ea1-2b48-44e8-ab1a-a4f7066ecfc8">
+<persname short="MARC." numberOfLines="297" numberOfVerseLines="296" numberOfProseLines="1" numberOfLyricsLines="0">Marcus Andronicus</persname>
+</persona>
+
+<persona gender="male" archetype="hero" death="yes" id="a9817820-6059-4d16-b464-b5868c746cc2">
+<persname short="SAT." numberOfLines="211" numberOfVerseLines="211" numberOfProseLines="0" numberOfLyricsLines="0">Saturninus</persname>
+</persona>
+
+<persona gender="male" death="yes" id="75271a33-3bfc-4a39-87be-ecf490a58712">
+<persname short="LUC." numberOfLines="181" numberOfVerseLines="181" numberOfProseLines="0" numberOfLyricsLines="0">Lucius</persname>
+</persona>
+
+<persona gender="male" archetype="villain" death="yes" id="cbd8546e-7ed4-4411-b234-ce88c2ce2f67">
+<persname short="DEM." numberOfLines="94" numberOfVerseLines="94" numberOfProseLines="0" numberOfLyricsLines="0">Demetrius</persname>
+</persona>
+
+<persona gender="male" death="yes" id="3d7444c4-133f-4829-8d8d-02d446c32231">
+<persname short="BAS." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">Bassianus</persname>
+</persona>
+
+<persona gender="male" archetype="villain" death="yes" id="25638348-9081-4fd6-9bf2-a9a9713a70ac">
+<persname short="CHI." numberOfLines="52" numberOfVerseLines="52" numberOfProseLines="0" numberOfLyricsLines="0">Chiron</persname>
+</persona>
+
+<persona gender="male" id="f10318f3-e62b-4103-bfe8-a62e1577a27f">
+<persname short="Y. LUC." numberOfLines="45" numberOfVerseLines="45" numberOfProseLines="0" numberOfLyricsLines="0">Young Lucius</persname>
+</persona>
+
+<persona gender="male" id="6fb5e870-2fc7-4421-ac52-dba4d04129d8">
+<persname short="AEMIL." numberOfLines="44" numberOfVerseLines="44" numberOfProseLines="0" numberOfLyricsLines="0">Aemilius</persname>
+</persona>
+
+<persona gender="male" death="yes" id="953142da-f283-4e75-a8f4-3efe12ee7560">
+<persname short="MART." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Martius</persname>
+</persona>
+
+<persona gender="male" death="yes" id="f04473c7-affa-42d0-aaa7-de185072e625">
+<persname short="QUIN." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Quintus</persname>
+</persona>
+
+<persona gender="male" id="02bd480a-c3ff-4f29-8e32-6b30b53c3325">
+<persname short="PUB." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Publius</persname>
+</persona>
+
+
+<persona gender="female" archetype="villain" death="yes" id="5e8f0a82-26fd-4070-b0fe-cfeee21dd095">
 <persname short="TAM." numberOfLines="258" numberOfVerseLines="256" numberOfProseLines="2" numberOfLyricsLines="0">Tamora</persname>
 </persona>
 
-<persona gender="female" death="yes">
+<persona gender="female" death="yes" id="676ccb4d-4cf1-4b44-af24-7b0e8ab09043">
 <persname short="LAV." numberOfLines="59" numberOfVerseLines="59" numberOfProseLines="0" numberOfLyricsLines="0">Lavinia</persname>
 </persona>
 
-<persona gender="female" death="yes">
+<persona gender="female" death="yes" id="9539a27e-80c3-43ea-94e3-882d70e7027d">
 <persname short="NUR." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Nurse</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SENATORS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Senators</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="866368c6-87f6-4556-85a4-e3fd42348bf6">
 <persname short="CLO." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Clown</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TRIB." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tribune</persname>
+<persona gender="male" id="cb5228b9-5590-4835-9773-b56d09cc9c50">
+<persname short="MUT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Mutius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TRIBUNES." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tribunes</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BL. CHILD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">A Black Child</persname>
-</persona>
-
-<persona gender="male">
-<persname short="JUDGES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Judges</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="309c5a69-7625-4c72-a9f8-7e4f9180c29c">
 <persname short="1. GOTH." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">First Goth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="176afdd3-d103-4d23-9fc6-3522971cbe1f">
 <persname short="2. GOTH." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Second Goth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="099edf0f-7020-4eee-ad2c-9cdef351e03f">
 <persname short="3. GOTH." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Goth</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ea1ef790-be74-4519-a76f-e012d5b88ebe">
+<persname short="TRIB." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tribune</persname>
+</persona>
+
+<persona gender="male" id="5020306d-11b2-4821-b904-32664988c76b">
+<persname short="MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="55c3bd2a-bfac-4e74-90ee-032c91e37d7f">
 <persname short="ROM. CAP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Roman Captain</persname>
 </persona>
+
+<persona gender="male" id="687910fe-83c6-48bd-8b96-c45986cbf145">
+<persname short="SENATORS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Senators</persname>
+</persona>
+
+<persona gender="male" death="yes" id="ad9b7bce-95e7-4d9c-9c3f-01c1e64169ff">
+<persname short="ALAR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Alarbus</persname>
+</persona>
+
+<persona gender="male" id="305c54fb-ec1b-4af4-a4c0-a8e34ceb078e">
+<persname short="VAL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Valentine</persname>
+</persona>
+
+<persona gender="male" id="22db6933-8da0-4955-bbc8-88042cf7c87e">
+<persname short="CAI." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Caius</persname>
+</persona>
+
+<persona gender="male" id="e3e4473d-4c8b-4ffc-835f-b6e8beac8c3a">
+<persname short="SEMP." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sempronius</persname>
+</persona>
+
+<persona gender="male" id="cf2b51df-bebf-410d-959b-375a118fa137">
+<persname short="JUDGES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Judges</persname>
+</persona>
+
+<persona gender="male" id="768c5200-d538-464c-9094-e1bd9c3300fb">
+<persname short="TRIBUNES." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tribunes</persname>
+</persona>
+
+<persona gender="male" id="46e9a6a0-26ac-4401-a990-39e57488cf4e">
+<persname short="BL. CHILD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">A Black Child</persname>
+</persona>
+
+
 </personae>
 
 <act num="1">
@@ -142,6 +153,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the Capitol.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MARC.">Marcus Andronicus</scenepersona>
 	<scenepersona short="TRIB.">Tribune</scenepersona>
@@ -875,9 +887,12 @@
 
 <stagedir sdglobalnumber="295.01" sdnumber="291.01">
 	<dir>Titus kills him.</dir>
-	<action type="death">
+	<action type="fight">
 		<actor>TIT.</actor>
 		<recipient>MUT.</recipient>
+	</action>
+	<action type="death">
+		<actor>MUT.</actor>
 	</action>
 </stagedir>
 
@@ -1231,7 +1246,6 @@
 		<actor>TAM.</actor>
 		<actor>CHI.</actor>
 		<actor>DEM.</actor>
-		<actor>AAR.</actor>
 		<actor>BAS.</actor>
 		<actor>LAV.</actor>
 	</action>
@@ -1470,6 +1484,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Before the Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AAR.">Aaron the Moor</scenepersona>
 	<scenepersona short="CHI.">Chiron</scenepersona>
@@ -1790,6 +1805,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A forest near Rome.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIT.">Titus Andronicus</scenepersona>
 	<scenepersona short="LUC.">Lucius</scenepersona>
@@ -1929,6 +1945,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A lonely part of the forest.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AAR.">Aaron the Moor</scenepersona>
 	<scenepersona short="TAM.">Tamora</scenepersona>
@@ -2086,7 +2103,7 @@
 
 <speech>
 <speaker long="Bassianus">BAS.</speaker>
-<line globalnumber="743" number="72" form="verse">Believe me, Queen, your swart Cimmerian</line>
+<line globalnumber="743" number="72" form="verse">Believe me, Queen, your swart Cimmeriant</line>
 <line globalnumber="744" number="73" form="verse">Doth make your honor of his body&#8217;s hue,</line>
 <line globalnumber="745" number="74" form="verse">Spotted, detested, and abominable.</line>
 <line globalnumber="746" number="75" form="verse">Why are you sequest&#8217;red from all your train,</line>
@@ -2737,6 +2754,7 @@
 		<actor>Attendants</actor>
 		<actor>TIT.</actor>
 		<actor>LUC.</actor>
+		<actor>MART.</actor>
 	</action>
 </stagedir>
 
@@ -2745,6 +2763,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the forest.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DEM.">Demetrius</scenepersona>
 	<scenepersona short="CHI.">Chiron</scenepersona>
@@ -2887,6 +2906,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUDGES">Judges</scenepersona>
 	<scenepersona short="SENATORS">Senators</scenepersona>
@@ -3584,6 +3604,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in Titus&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIT.">Titus Andronicus</scenepersona>
 	<scenepersona short="MARC.">Marcus</scenepersona>
@@ -3782,6 +3803,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Rome. Titus&#8217; garden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="Y. LUC.">Young Lucius</scenepersona>
 	<scenepersona short="LAV.">Lavinia</scenepersona>
@@ -4102,6 +4124,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AAR.">Aaron</scenepersona>
 	<scenepersona short="CHI.">Chiron</scenepersona>
@@ -4184,7 +4207,7 @@
 <line globalnumber="1570" number="17" form="verse" offset="5">like bloody villains.</line>
 </speech>
 
-<stagedir sdglobalnumber="1570.01" sdnumber="17.01">
+<stagedir sdglobalnumber="1570.01" sdnumber="17.02">
 	<dir>Exit with Attendant.</dir>
 	<action type="exit">
 		<actor>Y. LUC.</actor>
@@ -4446,6 +4469,7 @@
 	<dir>Takes the child from the Nurse, and draws.</dir>
 	<action type="action">
 		<actor>AAR.</actor>
+		<recipient>BL. CHILD.</recipient>
 		<recipient>NUR.</recipient>
 	</action>
 </stagedir>
@@ -4575,9 +4599,12 @@
 <line globalnumber="1700" number="145" form="verse">Go to the Empress, tell her this I said.</line>
 <stagedir sdglobalnumber="1700.01" sdnumber="145.01">
 	<dir>He kills her.</dir>
-	<action type="death">
+	<action type="action">
 		<actor>AAR.</actor>
 		<recipient>NUR.</recipient>
+	</action>
+	<action type="death">
+		<actor>NUR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1701" number="146" form="verse">Weeke, weeke!&#8212;so cries a pig prepared to the spit.</line>
@@ -4667,6 +4694,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Rome. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIT.">Titus</scenepersona>
 	<scenepersona short="MARC.">Marcus</scenepersona>
@@ -4707,7 +4735,7 @@
 <line globalnumber="1745" number="9" form="verse">Yet there&#8217;s as little justice as at land.</line>
 <line globalnumber="1746" number="10" form="verse">No, Publius and Sempronius, you must do it,</line>
 <line globalnumber="1747" number="11" form="verse">&#8217;Tis you must dig with mattock and with spade,</line>
-<line globalnumber="1748" number="12" form="verse">And pierce the inmost centre of the earth;</line>
+<line globalnumber="1748" number="12" form="verse">And pierce the inmost center of the earth;</line>
 <line globalnumber="1749" number="13" form="verse">Then when you come to Pluto&#8217;s region,</line>
 <line globalnumber="1750" number="14" form="verse">I pray you deliver him this petition.</line>
 <line globalnumber="1751" number="15" form="verse">Tell him it is for justice and for aid,</line>
@@ -4971,6 +4999,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Rome. Before the Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SAT.">Emperor Saturninus</scenepersona>
 	<scenepersona short="TAM.">Empress Tamora</scenepersona>
@@ -5256,6 +5285,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Plains near Rome.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucius</scenepersona>
 	<scenepersona short="1. GOTH.">First Goth</scenepersona>
@@ -5626,6 +5656,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Rome. Before Titus&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TAM.">Tamora</scenepersona>
 	<scenepersona short="DEM.">Demetrius</scenepersona>
@@ -5669,7 +5700,6 @@
 		<actor>TAM.</actor>	
 		<actor>DEM.</actor>
 		<actor>CHI.</actor>
-		<actor>TIT.</actor>
 	</action>
 	<action type="enter">
 		<actor>TIT.</actor>
@@ -5937,6 +5967,8 @@
 	<dir>Aside to her sons</dir>
 	<action type="aside">
 		<actor>TAM.</actor>
+		<recipient>DEM.</recipient>
+		<recipient>CHI.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2256" number="137" form="verse">What say you, boys, will you abide with him,</line>
@@ -6140,6 +6172,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Court of Titus’s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucius</scenepersona>
 	<scenepersona short="MARC.">Marcus</scenepersona>
@@ -6411,11 +6444,14 @@
 
 <stagedir sdglobalnumber="2388.01" sdnumber="64.01">
 	<dir>Kills Titus.</dir>
-	<action type="death">
+	<action type="action">
 		<actor>SAT.</actor>
 		<recipient>TIT.</recipient>
 	</action>
-</stagedir>
+	<action type="death">
+		<recipient>TIT.</recipient>
+	</action>
+	</stagedir>
 
 <speech>
 <speaker long="Lucius">LUC.</speaker>
@@ -6430,6 +6466,7 @@
 		<recipient>SAT.</recipient>
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="2390.02" sdnumber="66.02">
 	<dir>Exeunt Lucius, Marcus, Aemilius, and others and enter above.</dir>
 	<action type="action">
@@ -6558,7 +6595,7 @@
 	<dir>To Attendants.</dir>
 	<action type="speak">
 		<actor>MARC.</actor>
-		<recipient>Attendants</recipient>
+		<recipient>Attendant</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2466" number="142" form="verse">Go, go into old Titus&#8217; sorrowful house,</line>
@@ -6570,7 +6607,7 @@
 <stagedir sdglobalnumber="2469.01" sdnumber="145.01">
 	<dir>Exeunt Attendants</dir>
 	<action type="exit">
-		<actor>Attendants</actor>
+		<actor>Attendant</actor>
 	</action>
 </stagedir>
 
@@ -6713,21 +6750,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="13">
-<placename>A forest near Rome.</placename>
-<placename>A lonely part of the forest.</placename>
-<placename>A room in Titus&#8217; house.</placename>
-<placename>Another part of the forest.</placename>
-<placename>Court of Titus’s house.</placename>
-<placename>Plains near Rome.</placename>
-<placename>Rome. A public place.</placename>
-<placename>Rome. A room in the palace.</placename>
-<placename>Rome. A street.</placename>
-<placename>Rome. Before Titus&#8217; house.</placename>
-<placename>Rome. Before the Capitol.</placename>
-<placename>Rome. Before the Palace.</placename>
-<placename>Rome. Titus&#8217; garden.</placename>
-</locations>
+
 
 
 <sources>
@@ -6773,12 +6796,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

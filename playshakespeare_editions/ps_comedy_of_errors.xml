@@ -1,90 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="comedy-of-errors">
 <title short="Comedy of Errors">The Comedy of Errors</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1593-1594</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="The Comedy of Errors">
 
-<persona gender="female">
-<persname short="LUCE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Luce</persname>
-</persona>
-
-<persona gender="female">
-<persname short="LUC." numberOfLines="95" numberOfVerseLines="93" numberOfProseLines="2" numberOfLyricsLines="0">Luciana</persname>
-</persona>
-
-<persona gender="female">
-<persname short="ADR." numberOfLines="263" numberOfVerseLines="263" numberOfProseLines="0" numberOfLyricsLines="0">Adriana</persname>
-</persona>
-
-<persona gender="female">
-<persname short="ABB." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Aemilia</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="PINCH." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Doctor Pinch</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANG." numberOfLines="77" numberOfVerseLines="77" numberOfProseLines="0" numberOfLyricsLines="0">Angelo</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BALTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Balthazar</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="S. DRO." numberOfLines="153" numberOfVerseLines="102" numberOfProseLines="51" numberOfLyricsLines="0">Dromio of Syracuse</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="E. DRO." numberOfLines="135" numberOfVerseLines="126" numberOfProseLines="9" numberOfLyricsLines="0">Dromio of Ephesus</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="56025a8a-15b9-4af8-9754-c58ba23a4b54">
 <persname short="S. ANT." numberOfLines="265" numberOfVerseLines="219" numberOfProseLines="46" numberOfLyricsLines="0">Antipholus of Syracuse</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f1909468-2724-4517-b82c-08820f029e35">
 <persname short="E. ANT." numberOfLines="212" numberOfVerseLines="208" numberOfProseLines="4" numberOfLyricsLines="0">Antipholus of Ephesus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="90cf327d-3520-414e-be52-fd8919fc50e6">
+<persname short="S. DRO." numberOfLines="153" numberOfVerseLines="102" numberOfProseLines="51" numberOfLyricsLines="0">Dromio of Syracuse</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="87e62c72-e761-4996-9262-9a61b844e09f">
+<persname short="E. DRO." numberOfLines="135" numberOfVerseLines="126" numberOfProseLines="9" numberOfLyricsLines="0">Dromio of Ephesus</persname>
+</persona>
+
+<persona gender="male" id="5db5cfeb-0a12-404e-83d6-e84234d52633">
 <persname short="EGE." numberOfLines="143" numberOfVerseLines="143" numberOfProseLines="0" numberOfLyricsLines="0">Egeon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="faa3a656-8db3-4e6e-bca1-4752b610e0c2">
 <persname short="DUKE." numberOfLines="90" numberOfVerseLines="90" numberOfProseLines="0" numberOfLyricsLines="0">Solinus, Duke of Ephesus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7a3fb4ab-bdcf-4abf-80e8-88bef990b551">
+<persname short="ANG." numberOfLines="77" numberOfVerseLines="77" numberOfProseLines="0" numberOfLyricsLines="0">Angelo</persname>
+</persona>
+
+<persona gender="male" id="48098128-3f06-4420-85f3-cd22584e37e5">
+<persname short="BALTH." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Balthazar</persname>
+</persona>
+
+<persona gender="male" id="1057c718-3979-4f2e-a82e-7cc651d1897e">
 <persname short="1. MER." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">First Merchant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aa9b25b5-7e9a-40de-b1a0-23a125f2f355">
 <persname short="2. MER." numberOfLines="34" numberOfVerseLines="34" numberOfProseLines="0" numberOfLyricsLines="0">Second Merchant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JAIL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
-</persona>
-
-<persona gender="female">
-<persname short="COUR." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Courtezan</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="349e0189-f24d-41e6-b27f-6a846df628d7">
 <persname short="OFF." numberOfLines="13" numberOfVerseLines="11" numberOfProseLines="2" numberOfLyricsLines="0">Officer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="11f337c5-9e74-4843-98bf-7f563e377aa7">
+<persname short="PINCH." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Doctor Pinch</persname>
+</persona>
+
+<persona gender="male" id="59936b6a-f6f7-4e59-9467-00b145d4da0c">
+<persname short="JAIL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
+</persona>
+
+<persona gender="female" id="eb464c46-1301-43dd-834d-dd253dd04384">
+<persname short="ADR." numberOfLines="263" numberOfVerseLines="263" numberOfProseLines="0" numberOfLyricsLines="0">Adriana</persname>
+</persona>
+
+<persona gender="female" id="d4d05cf1-c4aa-4b05-9aaf-c1be51938a7b">
+<persname short="LUC." numberOfLines="95" numberOfVerseLines="93" numberOfProseLines="2" numberOfLyricsLines="0">Luciana</persname>
+</persona>
+
+<persona gender="female" id="c57c2638-0761-4110-893b-4ebbf4e4c816">
+<persname short="ABB." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Aemilia</persname>
+</persona>
+
+<persona gender="female" id="67b5cc59-356d-46a5-bae9-8062229863bd">
+<persname short="COUR." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Courtezan</persname>
+</persona>
+
+<persona gender="female" id="94ad019b-6d60-4242-a818-8b3d446b006b">
+<persname short="LUCE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Luce</persname>
+</persona>
+
+<persona gender="male" id="db44303f-3331-4391-ae99-7da6bfa1aba6">
+<persname short="MESS." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="17b3c7b2-2516-41b4-afb4-592cf9cb9d2c">
 <persname short="HEAD." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Headsman</persname>
 </persona>
 
@@ -95,6 +100,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A hall in Duke Solinus&#8217;s Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke of Ephesus</scenepersona>
 	<scenepersona short="EGE.">Egeon</scenepersona>
@@ -338,6 +344,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The mart.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="S. ANT.">Antipholus Erotes of Syracuse</scenepersona>
 	<scenepersona short="1. MER.">First Merchant</scenepersona>
@@ -609,6 +616,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The house of Antipholus of Ephesus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ADR.">Adriana</scenepersona>
 	<scenepersona short="LUC.">Luciana</scenepersona>
@@ -922,6 +930,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="S. ANT.">Antipholus Erotes of Syracuse</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
@@ -1496,6 +1505,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before the house of Antipholus of Ephesus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="E. ANT.">Antipholus of Ephesus</scenepersona>
 	<scenepersona short="E. DRO.">Dromio of Ephesus</scenepersona>
@@ -1689,7 +1699,7 @@
 
 <stagedir sdglobalnumber="615.01" sdnumber="47.01">
 	<dir>Enter Luce within.</dir>
-	<action type="enter">
+	<action type="speak-offstage">
 		<actor>LUCE.</actor>
 	</action>
 </stagedir>
@@ -1833,7 +1843,7 @@
 
 <stagedir sdglobalnumber="634.01" sdnumber="61.01">
 	<dir>Enter Adriana within.</dir>
-	<action type="enter">
+	<action type="speak-offstage">
 		<actor>ADR.</actor>
 	</action>
 </stagedir>
@@ -2052,6 +2062,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before the house of Antipholus of Ephesus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Luciana</scenepersona>
 	<scenepersona short="S. ANT.">Antipholus of Syracuse</scenepersona>
@@ -2518,6 +2529,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="2. MER.">Second Merchant</scenepersona>
 	<scenepersona short="ANG.">Angelo</scenepersona>
@@ -2862,6 +2874,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in the house of Antipholus of Ephesus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ADR.">Adriana</scenepersona>
 	<scenepersona short="LUC.">Luciana</scenepersona>
@@ -3116,6 +3129,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="S. ANT.">Antipholus of Syracuse</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
@@ -3343,6 +3357,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="E. ANT.">Antipholus of Ephesus</scenepersona>
 	<scenepersona short="OFF.">Officer</scenepersona>
@@ -3353,6 +3368,7 @@
 	<scenepersona short="PINCH.">Pinch</scenepersona>
 	<scenepersona short="S. ANT.">Antipholus of Syracuse</scenepersona>
 	<scenepersona short="S. DRO.">Dromio of Syracuse</scenepersona>
+	<scenepersona>Officers</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -3724,6 +3740,9 @@
 <stagedir sdglobalnumber="1186.01" sdnumber="89.01">
 	<dir>Enter three or four, and offer to bind him; he strives.</dir>
 	<action type="enter">
+		<actor>Officers</actor>
+	</action>
+	<action type="action">
 		<recipient>E. ANT.</recipient>
 	</action>
 </stagedir>
@@ -3764,6 +3783,7 @@
 <stagedir sdglobalnumber="1195.01" sdnumber="97.01">
 	<dir>They offer to bind Dromio of Ephesus.</dir>
 	<action type="action">
+		<actor>Officers</actor>
 		<recipient>E. DRO.</recipient>
 	</action>
 </stagedir>
@@ -3825,6 +3845,7 @@
 		<actor>E. ANT.</actor>
 		<actor>E. DRO.</actor>
 		<actor>PINCH.</actor>
+		<actor>Officers</actor>
 	</action>
 </stagedir>
 <line globalnumber="1213" number="115" form="verse">Say now, whose suit is he arrested at?</line>
@@ -3952,6 +3973,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A street before an abbey.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="2. MER.">Second Merchant</scenepersona>
 	<scenepersona short="ANG.">Angelo</scenepersona>
@@ -4447,7 +4469,7 @@
 <line globalnumber="1422" number="183" form="verse">To scorch your face, and to disfigure you.</line>
 <stagedir sdglobalnumber="1422.01" sdnumber="183.01">
 	<dir>Cry within.</dir>
-	<action type="sound">
+	<action type="speak-offstage">
 		<actor>E. ANT.</actor>
 	</action>
 </stagedir>
@@ -5116,16 +5138,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="8">
-<placename>A hall in Duke Solinus&#8217;s Palace.</placename>
-<placename>A public place.</placename>
-<placename>A room in the house of Antipholus of Ephesus.</placename>
-<placename>A street before an abbey.</placename>
-<placename>A street.</placename>
-<placename>Before the house of Antipholus of Ephesus.</placename>
-<placename>The house of Antipholus of Ephesus.</placename>
-<placename>The mart.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -5144,17 +5157,20 @@
 <playsourcedate>1595</playsourcedate>
 </playsource>
 
+<textsources>
+<textsource title="Folio" edition="1" date="1623">First Folio</textsource>
+</textsources>
 </sources>
+
 
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

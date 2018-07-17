@@ -1,91 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="two-gentlemen-of-verona">
 <title short="Two Gentlemen of Verona">The Two Gentlemen of Verona</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1592-1594</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Two Gentlemen of Verona">
 
-<persona gender="male">
-<persname short="DUKE." numberOfLines="199" numberOfVerseLines="199" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Milan</persname>
-</persona>
-
-<persona gender="male">
-<persname short="VAL." numberOfLines="372" numberOfVerseLines="315" numberOfProseLines="57" numberOfLyricsLines="0">Valentine</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="e6904d3d-b381-4e38-975e-c8f75cb5bb09">
 <persname short="PRO." numberOfLines="438" numberOfVerseLines="403" numberOfProseLines="35" numberOfLyricsLines="0">Proteus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ANT." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Antonio</persname>
+<persona gender="male" id="364cf838-8917-4c88-8821-679b7c7e62fd">
+<persname short="VAL." numberOfLines="372" numberOfVerseLines="315" numberOfProseLines="57" numberOfLyricsLines="0">Valentine</persname>
 </persona>
 
-<persona gender="male">
-<persname short="THU." numberOfLines="54" numberOfVerseLines="44" numberOfProseLines="10" numberOfLyricsLines="0">Thurio</persname>
+<persona gender="male" id="c5604a3a-cff6-4fb4-a856-cbb73f6905e0">
+<persname short="DUKE." numberOfLines="199" numberOfVerseLines="199" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Milan</persname>
 </persona>
 
-<persona gender="male">
-<persname short="EGL." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Eglamour</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HOST." numberOfLines="31" numberOfVerseLines="19" numberOfProseLines="12" numberOfLyricsLines="15">Host</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="781ac59c-a618-4ab2-bd7e-baaf76f137dc">
 <persname short="SPEED." numberOfLines="131" numberOfVerseLines="21" numberOfProseLines="110" numberOfLyricsLines="0">Speed</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="26bebecb-5c2f-42b2-97c8-52d846e24706">
 <persname short="LAUNCE." numberOfLines="69" numberOfVerseLines="0" numberOfProseLines="69" numberOfLyricsLines="0">Launce</persname>
 </persona>
 
-<persona gender="male">
-<persname short="PAN." numberOfLines="36" numberOfVerseLines="29" numberOfProseLines="7" numberOfLyricsLines="0">Panthino</persname>
+<persona gender="male" id="30b3bc3f-c4bf-4799-b9e6-697d0af672e9">
+<persname short="THU." numberOfLines="54" numberOfVerseLines="44" numberOfProseLines="10" numberOfLyricsLines="0">Thurio</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
+<persona gender="male" id="e0cd62ee-affd-40b4-925f-5ca11eaf8f67">
+<persname short="PANT." numberOfLines="36" numberOfVerseLines="29" numberOfProseLines="7" numberOfLyricsLines="0">Panthino</persname>
+</persona>
+
+<persona gender="male" id="d98cca09-43bf-4e78-83ea-a0cf66a09ec4">
+<persname short="ANT." numberOfLines="35" numberOfVerseLines="35" numberOfProseLines="0" numberOfLyricsLines="0">Antonio</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="7012b008-5fcb-4b3a-9dc4-7e1468919e41">
 <persname short="JUL." numberOfLines="320" numberOfVerseLines="307" numberOfProseLines="13" numberOfLyricsLines="0">Julia</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="SIL." numberOfLines="155" numberOfVerseLines="149" numberOfProseLines="6" numberOfLyricsLines="0">Silvia</persname>
+<persona gender="female" archetype="hero" id="8fab2461-e543-452c-9e02-4300542cbc73">
+<persname short="SILV." numberOfLines="155" numberOfVerseLines="149" numberOfProseLines="6" numberOfLyricsLines="0">Silvia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e2598cb5-be4f-4513-8a1d-bf0f1e489a12">
 <persname short="LUC." numberOfLines="72" numberOfVerseLines="72" numberOfProseLines="0" numberOfLyricsLines="0">Lucetta</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MUSIC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Musicians</persname>
+<persona gender="male" id="5038c8b0-581a-4cd2-a2ce-5d92fa739609">
+<persname short="HOST." numberOfLines="31" numberOfVerseLines="19" numberOfProseLines="12" numberOfLyricsLines="15">Host</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd1192af-d8bb-47a9-ae9a-1edb4f1459a6">
+<persname short="EGL." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Eglamour</persname>
+</persona>
+
+<persona gender="male" id="50967d71-1618-4cf4-9bbe-2963bd86276b">
 <persname short="1. OUT." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">First Outlaw</persname>
 <persaliases>
 	<persname short="ALL OUTLAWS">All Outlaws</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5029c2ac-e1a4-4b88-8417-c2976be78500">
 <persname short="2. OUT." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="0">Second Outlaw</persname>
 <persaliases>
 	<persname short="ALL OUTLAWS">All Outlaws</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="18d44883-a275-4b39-bbb8-fca167bc4871">
 <persname short="3. OUT." numberOfLines="26" numberOfVerseLines="26" numberOfProseLines="0" numberOfLyricsLines="0">Third Outlaw</persname>
 <persaliases>
 	<persname short="ALL OUTLAWS">All Outlaws</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fa098491-b3ba-44da-9a4d-d79e0e5a841a">
+<persname short="MUSIC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Musicians</persname>
+</persona>
+
+<persona gender="male" id="85a0d11b-2018-4009-a659-af25e8d46799">
 <persname short="CRAB" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Crab</persname>
 </persona>
 
@@ -96,6 +101,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Verona. An open place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
@@ -541,6 +547,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Verona. The garden of Julia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="LUC.">Lucetta</scenepersona>
@@ -1050,9 +1057,10 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Verona. A room in Antonio&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antonio</scenepersona>
-	<scenepersona short="PAN.">Panthino</scenepersona>
+	<scenepersona short="PANT.">Panthino</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -1064,7 +1072,7 @@
 	<dir>Enter Antonio and Panthino.</dir>
 	<action type="enter">
 		<actor>ANT.</actor>
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
@@ -1075,7 +1083,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="272" number="3" form="verse">&#8217;Twas of his nephew Proteus, your son.</line>
 </speech>
 
@@ -1085,7 +1093,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="274" number="4" form="verse" offset="4">He wond&#8217;red that your lordship</line>
 <line globalnumber="275" number="5" form="verse">Would suffer him to spend his youth at home,</line>
 <line globalnumber="276" number="6" form="verse">While other men, of slender reputation,</line>
@@ -1114,7 +1122,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="295" number="25" form="verse">I think your lordship is not ignorant</line>
 <line globalnumber="296" number="26" form="verse">How his companion, youthful Valentine,</line>
 <line globalnumber="297" number="27" form="verse">Attends the Emperor in his royal court.</line>
@@ -1126,7 +1134,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="299" number="29" form="verse">&#8217;Twere good, I think, your lordship sent him thither:</line>
 <line globalnumber="300" number="30" form="verse">There shall he practice tilts and tournaments,</line>
 <line globalnumber="301" number="31" form="verse">Hear sweet discourse, converse with noblemen,</line>
@@ -1144,7 +1152,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="309" number="39" form="verse">Tomorrow, may it please you, Don Alphonso</line>
 <line globalnumber="310" number="40" form="verse">With other gentlemen of good esteem</line>
 <line globalnumber="311" number="41" form="verse">Are journeying to salute the Emperor,</line>
@@ -1240,7 +1248,7 @@
 	<dir>Exeunt Antonio and Panthino.</dir>
 	<action type="exit">
 		<actor>ANT.</actor>
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
@@ -1261,12 +1269,12 @@
 <stagedir sdglobalnumber="357.01" sdnumber="87.01">
 	<dir>Enter Panthino.</dir>
 	<action type="enter">
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="358" number="88" form="verse">Sir Proteus, your father calls for you:</line>
 <line globalnumber="359" number="89" form="verse">He is in haste; therefore I pray you go.</line>
 </speech>
@@ -1281,7 +1289,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>PRO.</actor>
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
@@ -1293,10 +1301,11 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Milan. A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="SPEED.">Speed</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -1580,7 +1589,7 @@
 <stagedir sdglobalnumber="415.01" sdnumber="52.01">
 	<dir>Enter Silvia.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 <line globalnumber="416" number="53" form="prose">Peace, here she comes.</line>
@@ -1614,7 +1623,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="420" number="57" form="verse">Sir Valentine and servant, to you two thousand.</line>
 </speech>
 
@@ -1638,7 +1647,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="426" number="63" form="verse">I thank you, gentle servant&#8212;&#8217;tis very clerkly done.</line>
 </speech>
 
@@ -1650,7 +1659,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="430" number="67" form="verse">Perchance you think too much of so much pains?</line>
 </speech>
 
@@ -1662,7 +1671,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="434" number="71" form="verse">A pretty period! Well&#8212;I guess the sequel;</line>
 <line globalnumber="435" number="72" form="verse">And yet I will not name it&#8212;and yet I care not&#8212;</line>
 <line globalnumber="436" number="73" form="verse">And yet take this again&#8212;and yet I thank you&#8212;</line>
@@ -1686,7 +1695,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="440" number="77" form="verse">Yes, yes; the lines are very quaintly writ,</line>
 <line globalnumber="441" number="78" form="verse">But (since unwillingly) take them again.</line>
 <line globalnumber="442" number="79" form="verse">Nay, take them.</line>
@@ -1698,7 +1707,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="444" number="81" form="verse">Ay, ay; you writ them, sir, at my request,</line>
 <line globalnumber="445" number="82" form="verse">But I will none of them; they are for you.</line>
 <line globalnumber="446" number="83" form="verse">I would have had them writ more movingly.</line>
@@ -1710,7 +1719,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="448" number="85" form="verse">And when it&#8217;s writ, for my sake read it over,</line>
 <line globalnumber="449" number="86" form="verse">And if it please you, so; if not, why, so.</line>
 </speech>
@@ -1721,7 +1730,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="451" number="88" form="verse">Why, if it please you, take it for your labor;</line>
 <line globalnumber="452" number="89" form="verse">And so good morrow, servant.</line>
 </speech>
@@ -1729,7 +1738,7 @@
 <stagedir sdglobalnumber="452.01" sdnumber="89.01">
 	<dir>Exit Silvia.</dir>
 	<action type="exit">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
@@ -1861,10 +1870,11 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Verona. A room in Julia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 	<scenepersona short="JUL.">Julia</scenepersona>
-	<scenepersona short="PAN.">Panthino</scenepersona>
+	<scenepersona short="PANT.">Panthino</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -1943,12 +1953,12 @@
 <stagedir sdglobalnumber="502.01" sdnumber="18.01">
 	<dir>Enter Panthino.</dir>
 	<action type="enter">
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="503" number="19" form="verse" offset="0">Sir Proteus, you are stay&#8217;d for.</line>
 </speech>
 
@@ -1961,7 +1971,7 @@
 <stagedir sdglobalnumber="505.01" sdnumber="20.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 		<actor>PRO.</actor>
 	</action>
 </stagedir>
@@ -1971,10 +1981,11 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Verona. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAUNCE.">Launce</scenepersona>
 	<scenepersona short="CRAB">Crab</scenepersona>
-	<scenepersona short="PAN.">Panthino</scenepersona>
+	<scenepersona short="PANT.">Panthino</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -1997,12 +2008,12 @@
 <stagedir sdglobalnumber="506.01" sdnumber="1.01">
 	<dir>Enter Panthino.</dir>
 	<action type="enter">
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="507" number="2" form="prose">Launce, away, away! Aboard! Thy master is shipp&#8217;d, and thou art to post after with oars. What&#8217;s the matter? Why weep&#8217;st thou, man? Away, ass, you&#8217;ll lose the tide, if you tarry any longer.</line>
 </speech>
 
@@ -2012,7 +2023,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="509" number="4" form="prose">What&#8217;s the unkindest tide?</line>
 </speech>
 
@@ -2022,7 +2033,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="511" number="6" form="prose">Tut, man, I mean thou&#8217;lt lose the flood, and in losing the flood, lose thy voyage, and in losing thy voyage, lose thy master, and in losing thy master, lose thy service, and in losing thy service&#8212;Why dost thou stop my mouth?</line>
 </speech>
 
@@ -2032,7 +2043,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="513" number="8" form="prose">Where should I lose my tongue?</line>
 </speech>
 
@@ -2042,7 +2053,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="515" number="10" form="prose">In thy tail!</line>
 </speech>
 
@@ -2052,7 +2063,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="517" number="12" form="prose">Come; come away, man&#8212;I was sent to call thee.</line>
 </speech>
 
@@ -2062,7 +2073,7 @@
 </speech>
 
 <speech>
-<speaker long="Panthino">PAN.</speaker>
+<speaker long="Panthino">PANT.</speaker>
 <line globalnumber="519" number="14" form="prose">Wilt thou go?</line>
 </speech>
 
@@ -2076,7 +2087,7 @@
 	<action type="exit">
 		<actor>LAUNCE.</actor>
 		<actor>CRAB</actor>
-		<actor>PAN.</actor>
+		<actor>PANT.</actor>
 	</action>
 </stagedir>
 
@@ -2085,9 +2096,10 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Milan. A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 	<scenepersona short="THU.">Thurio</scenepersona>
 	<scenepersona short="SPEED.">Speed</scenepersona>
 	<scenepersona short="DUKE.">Duke</scenepersona>
@@ -2102,14 +2114,14 @@
 	<dir>Enter Valentine, Silvia, Thurio, Speed.</dir>
 	<action type="enter">
 		<actor>VAL.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>THU.</actor>
 		<actor>SPEED.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="521" number="1" form="prose">Servant!</line>
 </speech>
 
@@ -2151,7 +2163,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="528" number="8" form="prose">Servant, you are sad.</line>
 </speech>
 
@@ -2226,7 +2238,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="543" number="23" form="prose">What, angry, Sir Thurio? Do you change color?</line>
 </speech>
 
@@ -2256,7 +2268,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="549" number="29" form="prose">A fine volley of words, gentlemen, and quickly shot off.</line>
 </speech>
 
@@ -2266,7 +2278,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="551" number="31" form="prose">Who is that, servant?</line>
 </speech>
 
@@ -2286,7 +2298,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="555" number="35" form="prose">No more, gentlemen, no more; here comes my father.</line>
 </speech>
 
@@ -2395,7 +2407,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="598" number="77" form="verse">Belike that now she hath enfranchis&#8217;d them</line>
 <line globalnumber="599" number="78" form="verse">Upon some other pawn for fealty.</line>
 </speech>
@@ -2406,7 +2418,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="601" number="80" form="verse">Nay then he should be blind, and being blind,</line>
 <line globalnumber="602" number="81" form="verse">How could he see his way to seek out you?</line>
 </speech>
@@ -2428,7 +2440,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="607" number="86" form="verse">Have done, have done; here comes the gentleman.</line>
 </speech>
 
@@ -2453,7 +2465,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="610" number="89" form="verse">His worth is warrant for his welcome hither,</line>
 <line globalnumber="611" number="90" form="verse">If this be he you oft have wish&#8217;d to hear from.</line>
 </speech>
@@ -2465,7 +2477,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="614" number="93" form="verse">Too low a mistress for so high a servant.</line>
 </speech>
 
@@ -2487,7 +2499,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="620" number="99" form="verse">And duty never yet did want his meed.</line>
 <line globalnumber="621" number="100" form="verse">Servant, you are welcome to a worthless mistress.</line>
 </speech>
@@ -2498,7 +2510,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="623" number="102" form="verse" offset="0">That you are welcome?</line>
 </speech>
 
@@ -2520,7 +2532,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="626" number="104" form="verse">I wait upon his pleasure. Come, Sir Thurio,</line>
 <line globalnumber="627" number="105" form="verse">Go with me. Once more, new servant, welcome;</line>
 <line globalnumber="628" number="106" form="verse">I&#8217;ll leave you to confer of home affairs;</line>
@@ -2535,7 +2547,7 @@
 <stagedir sdglobalnumber="630.01" sdnumber="108.01">
 	<dir>Exeunt Silvia and Thurio.</dir>
 	<action type="exit">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>THU.</actor>
 	</action>
 </stagedir>
@@ -2767,6 +2779,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Milan. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SPEED.">Speed</scenepersona>
 	<scenepersona short="LAUNCE.">Launce</scenepersona>
@@ -2962,6 +2975,7 @@
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Milan. A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 </scenepersonae>
@@ -3036,6 +3050,7 @@
 <scene actnum="2" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Verona. A room in Julia&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="LUC.">Lucetta</scenepersona>
@@ -3259,6 +3274,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Milan. An anteroom in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="THU.">Thurio</scenepersona>
@@ -4233,6 +4249,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Milan. A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="THU.">Thurio</scenepersona>
@@ -4491,6 +4508,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The frontiers of Mantua. A forest between Milan and Verona.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="SPEED.">Speed</scenepersona>
@@ -4752,13 +4770,14 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Milan. Outside the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 	<scenepersona short="THU.">Thurio</scenepersona>
 	<scenepersona short="MUSIC.">Musicians</scenepersona>
 	<scenepersona short="HOST.">Host</scenepersona>
 	<scenepersona short="JUL.">Julia</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5042,7 +5061,7 @@
 <stagedir sdglobalnumber="1466.02" sdnumber="72.02">
 	<dir>Enter Silvia above at her window.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
@@ -5052,7 +5071,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1468" number="74" form="verse">I thank you for your music, gentlemen.</line>
 <line globalnumber="1469" number="75" form="verse">Who is that that spake?</line>
 </speech>
@@ -5064,7 +5083,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1472" number="78" form="verse">Sir Proteus, as I take it.</line>
 </speech>
 
@@ -5074,7 +5093,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1474" number="80" form="verse" offset="0">What&#8217;s your will?</line>
 </speech>
 
@@ -5084,7 +5103,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1476" number="81" form="verse">You have your wish: my will is even this,</line>
 <line globalnumber="1477" number="82" form="verse">That presently you hie you home to bed.</line>
 <line globalnumber="1478" number="83" form="verse">Thou subtile, perjur&#8217;d, false, disloyal man,</line>
@@ -5118,7 +5137,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1492" number="96" form="verse">Say that she be; yet Valentine thy friend</line>
 <line globalnumber="1493" number="97" form="verse">Survives; to whom (thyself art witness)</line>
 <line globalnumber="1494" number="98" form="verse">I am betroth&#8217;d; and art thou not asham&#8217;d</line>
@@ -5131,7 +5150,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1497" number="101" form="verse">And so suppose am I; for in his grave</line>
 <line globalnumber="1498" number="102" form="verse">Assure thyself my love is buried.</line>
 </speech>
@@ -5142,7 +5161,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1500" number="104" form="verse">Go to thy lady&#8217;s grave and call hers thence,</line>
 <line globalnumber="1501" number="105" form="verse">Or at the least, in hers sepulchre thine.</line>
 </speech>
@@ -5182,7 +5201,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1512" number="116" form="verse">I am very loath to be your idol, sir;</line>
 <line globalnumber="1513" number="117" form="verse">But since your falsehood shall become you well</line>
 <line globalnumber="1514" number="118" form="verse">To worship shadows and adore false shapes,</line>
@@ -5200,7 +5219,7 @@
 	<dir>Exeunt Proteus and Silvia.</dir>
 	<action type="exit">
 		<actor>PRO.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
@@ -5243,9 +5262,10 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Milan. Outside the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EGL.">Eglamour</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5270,12 +5290,12 @@
 <stagedir sdglobalnumber="1528.01" sdnumber="4.01">
 	<dir>Enter Silvia above at her window.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1529" number="4" form="verse" offset="3">Who calls?</line>
 </speech>
 
@@ -5286,7 +5306,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1532" number="6" form="verse">Sir Eglamour, a thousand times good morrow.</line>
 </speech>
 
@@ -5299,7 +5319,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1537" number="11" form="verse">O Eglamour, thou art a gentleman&#8212;</line>
 <line globalnumber="1538" number="12" form="verse">Think not I flatter, for I swear I do not&#8212;</line>
 <line globalnumber="1539" number="13" form="verse">Valiant, wise, remorseful, well accomplish&#8217;d:</line>
@@ -5339,7 +5359,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1569" number="42" form="verse" offset="4">This evening coming.</line>
 </speech>
 
@@ -5349,7 +5369,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1571" number="43" form="verse" offset="5">At Friar Patrick&#8217;s cell,</line>
 <line globalnumber="1572" number="44" form="verse">Where I intend holy confession.</line>
 </speech>
@@ -5361,7 +5381,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1575" number="46" form="verse" offset="3">Good morrow, kind Sir Eglamour.</line>
 </speech>
 
@@ -5369,7 +5389,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>EGL.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
@@ -5378,12 +5398,13 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Milan. Outside the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LAUNCE.">Launce</scenepersona>
 	<scenepersona short="CRAB">Crab</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
 	<scenepersona short="JUL.">Julia</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 	<scenepersona >Attendants</scenepersona >
 </scenepersonae>
 <scenelanguage>
@@ -5579,7 +5600,7 @@
 <stagedir sdglobalnumber="1641.01" sdnumber="62.01">
 	<dir>Enter Silvia attended.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
@@ -5588,7 +5609,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1644" number="65" form="verse">What would you with her, if that I be she?</line>
 </speech>
 
@@ -5599,7 +5620,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1647" number="68" form="verse">From whom?</line>
 </speech>
 
@@ -5609,7 +5630,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1649" number="70" form="verse">O, he sends you for a picture?</line>
 </speech>
 
@@ -5619,7 +5640,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1651" number="72" form="verse">Ursula, bring my picture there.</line>
 <line globalnumber="1652" number="73" form="verse">Go give your master this. Tell him from me,</line>
 <line globalnumber="1653" number="74" form="verse">One Julia, that his changing thoughts forget,</line>
@@ -5635,7 +5656,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1659" number="80" form="verse">I pray thee let me look on that again.</line>
 </speech>
 
@@ -5645,7 +5666,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1661" number="82" form="verse">There, hold!</line>
 <line globalnumber="1662" number="83" form="verse">I will not look upon your master&#8217;s lines;</line>
 <line globalnumber="1663" number="84" form="verse">I know they are stuff&#8217;d with protestations,</line>
@@ -5659,7 +5680,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1667" number="88" form="verse">The more shame for him that he sends it me;</line>
 <line globalnumber="1668" number="89" form="verse">For I have heard him say a thousand times</line>
 <line globalnumber="1669" number="90" form="verse">His Julia gave it him at his departure:</line>
@@ -5673,7 +5694,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1673" number="94" form="verse">What say&#8217;st thou?</line>
 </speech>
 
@@ -5684,7 +5705,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1676" number="97" form="verse">Dost thou know her?</line>
 </speech>
 
@@ -5696,7 +5717,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1680" number="101" form="verse">Belike she thinks that Proteus hath forsook her?</line>
 </speech>
 
@@ -5706,7 +5727,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1682" number="103" form="verse">Is she not passing fair?</line>
 </speech>
 
@@ -5723,7 +5744,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1691" number="112" form="verse">How tall was she?</line>
 </speech>
 
@@ -5747,7 +5768,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1707" number="128" form="verse">She is beholding to thee, gentle youth.</line>
 <line globalnumber="1708" number="129" form="verse">Alas, poor lady, desolate and left!</line>
 <line globalnumber="1709" number="130" form="verse">I weep myself to think upon thy words.</line>
@@ -5762,7 +5783,7 @@
 <stagedir sdglobalnumber="1713.01" sdnumber="134.01">
 	<dir>Exit Silvia with Attendants.</dir>
 	<action type="exit">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>Attendants</actor>
 	</action>
 </stagedir>
@@ -5809,9 +5830,10 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Milan. An abbey.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EGL.">Eglamour</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5837,14 +5859,14 @@
 <stagedir sdglobalnumber="1746.01" sdnumber="7.01">
 	<dir>Enter Silvia.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1747" number="7" form="verse" offset="4">Lady, a happy evening!</line>
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1748" number="8" form="verse">Amen, amen! Go on, good Eglamour,</line>
 <line globalnumber="1749" number="9" form="verse">Out at the postern by the abbey wall;</line>
 <line globalnumber="1750" number="10" form="verse">I fear I am attended by some spies.</line>
@@ -5860,7 +5882,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>EGL.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 	</action>
 </stagedir>
 
@@ -5869,6 +5891,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Milan. A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THU.">Thurio</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
@@ -6168,8 +6191,9 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The frontiers of Mantua. A forest between Milan and Verona.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 	<scenepersona short="ALL OUTLAWS">Outlaws</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -6180,7 +6204,7 @@
 <stagedir sdglobalnumber="1811.02" sdnumber="0.01">
 	<dir>Enter Silvia, Outlaws.</dir>
 	<action type="enter">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>ALL OUTLAWS</actor>
 	</action>
 </stagedir>
@@ -6192,7 +6216,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1814" number="3" form="verse">A thousand more mischances than this one</line>
 <line globalnumber="1815" number="4" form="verse">Have learn&#8217;d me how to brook this patiently.</line>
 </speech>
@@ -6224,14 +6248,14 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1826" number="15" form="verse">O Valentine, this I endure for thee!</line>
 </speech>
 
 <stagedir sdglobalnumber="1826.01" sdnumber="15.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>ALL OUTLAWS</actor>
 	</action>
 </stagedir>
@@ -6241,10 +6265,11 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The frontiers of Mantua. Another part of the forest between Milan and Verona.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VAL.">Valentine</scenepersona>
 	<scenepersona short="PRO.">Proteus</scenepersona>
-	<scenepersona short="SIL.">Silvia</scenepersona>
+	<scenepersona short="SILV.">Silvia</scenepersona>
 	<scenepersona short="JUL.">Julia</scenepersona>
 	<scenepersona short="DUKE.">Duke</scenepersona>
 	<scenepersona short="THU.">Thurio</scenepersona>
@@ -6280,7 +6305,7 @@
 	<dir>Shouts within.</dir>
 	<action type="sound">
 		<actor>PRO.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>JUL.</actor>
 	</action>
 </stagedir>
@@ -6303,7 +6328,7 @@
 	<dir>Enter Proteus, Silvia, Julia disguised as Sebastian.</dir>
 	<action type="enter">
 		<actor>PRO.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>JUL.</actor>
 	</action>
 </stagedir>
@@ -6332,7 +6357,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1854" number="28" form="verse">O miserable, unhappy that I am!</line>
 </speech>
 
@@ -6343,7 +6368,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1857" number="31" form="verse">By thy approach thou mak&#8217;st me most unhappy.</line>
 </speech>
 
@@ -6359,7 +6384,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1859" number="33" form="verse">Had I been seized by a hungry lion,</line>
 <line globalnumber="1860" number="34" form="verse">I would have been a breakfast to the beast</line>
 <line globalnumber="1861" number="35" form="verse">Rather than have false Proteus rescue me.</line>
@@ -6379,7 +6404,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1871" number="45" form="verse">When Proteus cannot love where he&#8217;s belov&#8217;d!</line>
 <line globalnumber="1872" number="46" form="verse">Read over Julia&#8217;s heart (thy first best love),</line>
 <line globalnumber="1873" number="47" form="verse">For whose dear sake thou didst then rend thy faith</line>
@@ -6398,7 +6423,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1882" number="54" form="verse" offset="4">All men but Proteus.</line>
 </speech>
 
@@ -6411,7 +6436,7 @@
 </speech>
 
 <speech>
-<speaker long="Silvia">SIL.</speaker>
+<speaker long="Silvia">SILV.</speaker>
 <line globalnumber="1887" number="59" form="verse" offset="0">O heaven!</line>
 </speech>
 
@@ -6726,7 +6751,7 @@
 	<action type="exit">
 		<actor>VAL.</actor>
 		<actor>PRO.</actor>
-		<actor>SIL.</actor>
+		<actor>SILV.</actor>
 		<actor>JUL.</actor>
 		<actor>DUKE.</actor>
 		<actor>THU.</actor>
@@ -6737,20 +6762,9 @@
 </scene>
 </act>
 
-<locations numberOfLocations="12">
-<placename>Milan. A room in the Duke&#8217;s palace.</placename>
-<placename>Milan. A street.</placename>
-<placename>Milan. An abbey.</placename>
-<placename>Milan. An anteroom in the Duke&#8217;s palace.</placename>
-<placename>Milan. Outside the Duke&#8217;s palace.</placename>
-<placename>The frontiers of Mantua. A forest between Milan and Verona.</placename>
-<placename>The frontiers of Mantua. Another part of the forest between Milan and Verona.</placename>
-<placename>Verona. A room in Antonio&#8217;s house.</placename>
-<placename>Verona. A room in Julia&#8217;s house.</placename>
-<placename>Verona. A street.</placename>
-<placename>Verona. An open place.</placename>
-<placename>Verona. The garden of Julia&#8217;s house.</placename>
-</locations>
+
+
+
 
 
 <sources>
@@ -6800,12 +6814,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

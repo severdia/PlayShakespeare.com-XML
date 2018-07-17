@@ -1,352 +1,364 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="henry-viii">
 <title short="Henry VIII">The Famous History of the Life of King Henry the Eighth</title>
-<playwright>William Shakespeare and John Fletcher</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>John Fletcher</playwright>
+</playwrights>
 <pubdate>1612-1613</pubdate>
+
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
 
 <personae playtitle="Henry VIII">
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="c884cb0c-9189-4c4c-a64c-a2f5fe44bc54">
 <persname short="KING." numberOfLines="461" numberOfVerseLines="461" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Eighth</persname>
 </persona>
 
-<persona gender="male" archetype="villain" death="yes">
+<persona gender="male" archetype="villain" death="yes" id="215850ca-498f-45fa-9fec-b706725cac20">
 <persname short="WOL." numberOfLines="436" numberOfVerseLines="436" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Wolsey</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAM." numberOfLines="53" numberOfVerseLines="53" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Campeius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAP." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Lord Capuchius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CRAN." numberOfLines="134" numberOfVerseLines="134" numberOfProseLines="0" numberOfLyricsLines="0">Cranmer, Archbishop of Canterbury</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="1833e10e-1d20-49da-adc5-19d622422a53">
 <persname short="NOR." numberOfLines="212" numberOfVerseLines="212" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Norfolk</persname>
 <persaliases>
 	<persname short="ALL NOR., SUF., SUR., CHAM.">All Duke of Suffolk, Duke of Norfolk, Earl of Surrey, and Lord Chamberlain</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="72fdf6f5-56e5-4c32-af39-c3ab0b8cd761">
+<persname short="BUCK." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
+</persona>
+
+<persona gender="male" id="7e3bd934-ea33-4079-9840-d65c2b02248f">
+<persname short="CRAN." numberOfLines="134" numberOfVerseLines="134" numberOfProseLines="0" numberOfLyricsLines="0">Cranmer, Archbishop of Canterbury</persname>
+</persona>
+
+<persona gender="male" id="49f84de4-fdfe-422e-88fb-96af500ef8aa">
 <persname short="SUF." numberOfLines="94" numberOfVerseLines="94" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Suffolk</persname>
 <persaliases>
 	<persname short="ALL NOR., SUF., SUR., CHAM.">All Duke of Suffolk, Duke of Norfolk, Earl of Surrey, and Lord Chamberlain</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="BUCK." numberOfLines="192" numberOfVerseLines="192" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Buckingham</persname>
+<persona gender="male" id="b7acc4d7-5df3-4894-a04b-8c195650d39b">
+<persname short="GARD." numberOfLines="91" numberOfVerseLines="91" numberOfProseLines="0" numberOfLyricsLines="0">Gardiner</persname>
+<persaliases>
+	<persname short="BISH. WIN." type="namechange">Bishop of Winchester</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="af348844-a521-4baf-a52d-6b288037c8de">
 <persname short="SUR." numberOfLines="82" numberOfVerseLines="82" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Surrey</persname>
 <persaliases>
 	<persname short="ALL NOR., SUF., SUR., CHAM.">All Duke of Suffolk, Duke of Norfolk, Earl of Surrey, and Lord Chamberlain</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fe6e9364-d658-47fb-b5c0-bd398b06669e">
+<persname short="LOV." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Lovell</persname>
+</persona>
+
+<persona gender="male" id="e9e7e5ef-a967-4b60-8fad-ab70eeb48568">
+<persname short="GRIF." numberOfLines="61" numberOfVerseLines="61" numberOfProseLines="0" numberOfLyricsLines="0">Griffith</persname>
+</persona>
+
+<persona gender="male" id="094ae6a0-78b8-46b5-a758-137287d8740a">
+<persname short="BUCK. SURV." numberOfLines="61" numberOfVerseLines="61" numberOfProseLines="0" numberOfLyricsLines="0">Buckingham&#8217;s Surveyor</persname>
+</persona>
+
+<persona gender="male" id="77920c99-5c4b-4ed4-90e6-a2fd40acc062">
+<persname short="CAM." numberOfLines="53" numberOfVerseLines="53" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Campeius</persname>
+</persona>
+
+<persona gender="male" id="dfb7f268-73b8-4feb-bad7-f2a2f3b0f197">
+<persname short="CROM." numberOfLines="49" numberOfVerseLines="49" numberOfProseLines="0" numberOfLyricsLines="0">Cromwell</persname>
+</persona>
+
+<persona gender="male" id="6e29d3ec-4772-4e9b-a3ea-22365d156e71">
+<persname short="PRO." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
+<persaliases>
+	<persname short="EPILOGUE">Epilogue</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="0be46fb5-916c-440a-9666-f6e1b12580ee">
+<persname short="BRAN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Brandon</persname>
+</persona>
+
+<persona gender="male" id="c39af073-ba5c-4d70-972d-4c930223b490">
+<persname short="PORT." numberOfLines="14" numberOfVerseLines="9" numberOfProseLines="5" numberOfLyricsLines="0">Porter</persname>
+</persona>
+
+<persona gender="male" id="2b6e6f61-63f4-4a8d-a411-e3ef81b4620f">
+<persname short="PORT. MAN." numberOfLines="19" numberOfVerseLines="17" numberOfProseLines="2" numberOfLyricsLines="0">Porter&#8217;s Man</persname>
+</persona>
+
+<persona gender="male" id="2fccda37-f3cf-49cc-9ca0-d48d25a885db">
+<persname short="GUIL." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Sir Henry Guilford</persname>
+</persona>
+
+<persona gender="male" id="3b0ac61f-b2b6-41ec-acd1-eb4b8f6a9a87">
+<persname short="BUTTS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Doctor Butts</persname>
+</persona>
+
+<persona gender="male" id="12cb8d2d-a610-42c8-a556-b5a16d88ef2d">
+<persname short="LIN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Lincoln</persname>
+</persona>
+
+<persona gender="male" id="7d19b840-4a87-444a-8b99-bf9968c6e6f7">
+<persname short="DEN." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sir Anthony Denny</persname>
+</persona>
+
+<persona gender="male" id="b69a58ab-b4a6-44f5-88a7-57e289c142ae">
+<persname short="VAUX." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sir Nicholas Vaux</persname>
+</persona>
+
+<persona gender="female" archetype="hero" death="yes" id="abecdbb8-9f4d-4a7e-867d-19d29e0123e9">
+<persname short="Q. KATH." numberOfLines="376" numberOfVerseLines="376" numberOfProseLines="0" numberOfLyricsLines="0">Queen Katherine</persname>
+<persaliases>
+	<persname short="KATH." type="namechange">Katherine</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="4f61197b-cc64-42a9-af19-77db6b4ca21c">
+<persname short="OLD L." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Old Lady</persname>
+</persona>
+
+<persona gender="female" id="da94d2ae-571b-42bf-8db1-944d3c869447">
+<persname short="ANNE." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Anne Bullen</persname>
+</persona>
+
+<persona gender="female" id="bc14d75a-b821-4e61-b339-7708a3091f63">
+<persname short="GENTLEW." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="12">Gentlewoman</persname>
+</persona>
+
+<persona gender="female" id="5b597890-3dc4-4d7a-8c6c-db5f13d53778">
+<persname short="PAT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Patience</persname>
+</persona>
+
+<persona gender="male" id="e3af21d9-a567-4845-ba9c-513940eb28a9">
 <persname short="CHAM." numberOfLines="147" numberOfVerseLines="147" numberOfProseLines="0" numberOfLyricsLines="0">Lord Chamberlain</persname>
 <persaliases>
 	<persname short="ALL NOR., SUF., SUR., CHAM.">All Duke of Suffolk, Duke of Norfolk, Earl of Surrey, and Lord Chamberlain</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="CHAN." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Lord Chancellor</persname>
-</persona>
 
-<persona gender="male">
-<persname short="GARD." numberOfLines="91" numberOfVerseLines="91" numberOfProseLines="0" numberOfLyricsLines="0">Gardiner</persname>
-<persaliases>
-	<persname short="BISH. WIN.">Bishop of Winchester</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="LIN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Lincoln</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ABER." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Lord Abergavenny</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="a7f71b54-b254-49ef-94dd-5225786bf6d6">
 <persname short="SAN." numberOfLines="48" numberOfVerseLines="48" numberOfProseLines="0" numberOfLyricsLines="0">Lord Sands</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GUIL." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Sir Henry Guilford</persname>
+<persona gender="male" id="68ce919b-82c0-42e9-a070-806caf95e2af">
+<persname short="CHAN." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Lord Chancellor</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LOV." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Lovell</persname>
+<persona gender="male" id="5fead93b-0bfb-4301-b0a5-e91e7cf1e3fb">
+<persname short="ABER." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Lord Abergavenny</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DEN." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sir Anthony Denny</persname>
+<persona gender="male" id="12468870-69d8-4fb6-9234-fdaa97f66732">
+<persname short="CAP." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Lord Capuchius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="VAUX." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sir Nicholas Vaux</persname>
-</persona>
 
-<persona gender="male">
-<persname short="CROM." numberOfLines="49" numberOfVerseLines="49" numberOfProseLines="0" numberOfLyricsLines="0">Cromwell</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. WOL. SECR." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Wolsey&#8217;s First Secretary</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. WOL. SECR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Wolsey&#8217;s Second Secretary</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GRIF." numberOfLines="61" numberOfVerseLines="61" numberOfProseLines="0" numberOfLyricsLines="0">Griffith</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BUTTS." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Doctor Butts</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GART." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Garter King-of-Arms</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BUCK. SURV." numberOfLines="61" numberOfVerseLines="61" numberOfProseLines="0" numberOfLyricsLines="0">Buckingham&#8217;s Surveyor</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BRAN." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Brandon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SERG." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sergeant-at-Arms</persname>
-</persona>
-
-<persona gender="male">
-<persname short="DOORKEEP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Doorkeeper of the Council Chamber</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PORT." numberOfLines="14" numberOfVerseLines="9" numberOfProseLines="5" numberOfLyricsLines="0">Porter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GARD. PAGE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Gardiner&#8217;s Page</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CRIER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Crier</persname>
-</persona>
-
-<persona gender="female" archetype="hero" death="yes">
-<persname short="Q. KATH." numberOfLines="376" numberOfVerseLines="376" numberOfProseLines="0" numberOfLyricsLines="0">Queen Katherine</persname>
-<persaliases>
-	<persname short="KATH.">Katherine</persname>
-</persaliases>
-</persona>
-
-<persona gender="female">
-<persname short="ANNE." numberOfLines="58" numberOfVerseLines="58" numberOfProseLines="0" numberOfLyricsLines="0">Anne Bullen</persname>
-</persona>
-
-<persona gender="female">
-<persname short="OLD L." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Old Lady</persname>
-</persona>
-
-<persona gender="female">
-<persname short="PAT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Patience</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PROLOGUE." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Prologue</persname>
-<persaliases>
-	<persname short="EPILOGUE">Epilogue</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="98055bef-cdc9-4563-8216-9129fa73426c">
 <persname short="1. GENT." numberOfLines="108" numberOfVerseLines="108" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman</persname>
 <persaliases>
-	<persname short="BOTH. 1. GENT. AND 2. GENT.">Both First and Second Gentleman</persname>
+	<persname short="BOTH 1. GENT. AND 2. GENT.">Both First and Second Gentleman</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5c257128-e57d-45a7-8f83-c223fabf0dd2">
 <persname short="2. GENT." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
 <persaliases>
-	<persname short="BOTH. 1. GENT. AND 2. GENT.">Both First and Second Gentleman</persname>
+	<persname short="BOTH 1. GENT. AND 2. GENT.">Both First and Second Gentleman</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="TIPS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tipstaves</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HALB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Halberdiers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SCRIBE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Scribe</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. SCRIBE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Scribe</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BISH. ELY." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Ely</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BISH. ROCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Rochester</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BISH. ASAPH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Saint Asaph</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PRIESTS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Priests</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PURSE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman Purse-Bearer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BEARERS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Gentlemen Bearers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ARCH. CANT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Archbishop of Canterbury</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NOBLEMEN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Noblemen</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="b8427749-079f-464e-bd1e-e20f7c19e072">
 <persname short="3. GENT." numberOfLines="57" numberOfVerseLines="57" numberOfProseLines="0" numberOfLyricsLines="0">Third Gentleman</persname>
 </persona>
 
-<persona gender="female">
-<persname short="VIS. DANC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Six Vision Dancers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MASKERS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Maskers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PURS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Pursuivants</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PAGES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Pages</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PORT. MAN." numberOfLines="19" numberOfVerseLines="17" numberOfProseLines="2" numberOfLyricsLines="0">Porter&#8217;s Man</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="cbea7585-fbe0-4f6f-973a-a94d8234006b">
 <persname short="SERV." numberOfLines="6" numberOfVerseLines="4" numberOfProseLines="2" numberOfLyricsLines="0">Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="VERGERS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Vergers</persname>
+<persona gender="male" id="62dba596-7160-402f-a36a-402038957105">
+<persname short="DOORKEEP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Doorkeeper of the Council Chamber</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ALDERMEN" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Aldermen of London</persname>
+<persona gender="male" id="4e60f10b-99be-400b-be6f-060df6d746f6">
+<persname short="SERG." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sergeant at Arms</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FOUR NOBLE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Four Noblemen</persname>
+<persona gender="male" id="3f9ea4dc-9d82-4220-b17f-6ba27a1b643a">
+<persname short="MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
 </persona>
 
-<persona gender="female">
-<persname short="MARCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marchioness Dorset</persname>
+<persona gender="male" id="77984f92-34b3-421a-9f2a-d0db40147edc">
+<persname short="CRIER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Crier</persname>
 </persona>
 
-<persona gender="female">
-<persname short="PRIN. ELIZ." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Princess Elizabeth</persname>
+<persona gender="male" id="f726c352-d137-4cdf-bee5-1418535ed304">
+<persname short="1. WOL. SECR." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Wolsey&#8217;s First Secretary</persname>
 </persona>
 
-<persona gender="female">
-<persname short="LADY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lady</persname>
+<persona gender="male" id="4e247984-79fe-4b26-a446-05e641e820dd">
+<persname short="2. WOL. SECR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Wolsey&#8217;s Second Secretary</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CHOR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Choristers</persname>
+<persona gender="male" id="94bc30f3-a2fa-47bf-b35a-95f37e64fa6c">
+<persname short="1. SCRIBE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Scribe</persname>
 </persona>
 
-<persona gender="female">
-<persname short="GENTLEW." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="12">Gentlewoman</persname>
+<persona gender="male" id="e486c02c-976e-4f72-912d-7989a8317351">
+<persname short="2. SCRIBE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Scribe</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TWO JUDG." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Judges</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAY. LOND." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lord Mayor of London</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MARQ. DORS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marquess Dorset</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FOUR BARONS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Four Barons of the Cinque Ports</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BISH. STOK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop Stokesly of London</persname>
-</persona>
-
-<persona gender="female">
-<persname short="DUCH. NORF." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of Norfolk</persname>
-</persona>
-
-<persona gender="female">
-<persname short="COUNTESSES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Countesses</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="6ba2fe50-1904-4a95-9e2a-bc26590f9213">
 <persname short="GENT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e01a6e2f-35cc-4c4d-90a7-ea7b02284f3f">
+<persname short="GART." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Garter King-of-Arms</persname>
+</persona>
+
+<persona gender="male" id="65684139-c326-40e5-9f63-4a57af8ce69f">
+<persname short="GARD. PAGE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Gardiner&#8217;s Page</persname>
+</persona>
+
+<persona gender="male" id="64cf89a4-6b55-4579-bc7d-9ee81520c6e5">
+<persname short="PRIESTS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Priests</persname>
+</persona>
+
+<persona gender="male" id="293f8059-480d-4895-a4ca-81bb88df5f23">
+<persname short="FOUR NOBLE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Four Noblemen</persname>
+</persona>
+
+<persona gender="male" id="90e4ab49-2d26-44e2-aea3-878c463657db">
 <persname short="COUN. GUARDS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Council Guards</persname>
 </persona>
+
+<persona gender="male" id="e8b55195-9661-420a-b12a-ccff7b3e1cc1">
+<persname short="ARCH. CANT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Archbishop of Canterbury</persname>
+</persona>
+
+<persona gender="male" id="5547f6fc-e6f4-452b-8009-984acbaadf88">
+<persname short="TWO NOBLE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Noblemen</persname>
+</persona>
+
+<persona gender="male" id="89224ae1-3291-4e19-8fbf-ad9391fd9f49">
+<persname short="BISH. ASAPH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Saint Asaph</persname>
+</persona>
+
+<persona gender="male" id="db343bba-2db9-4a62-93d5-8c34ac8517ca">
+<persname short="BISH. STOK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop Stokesly of London</persname>
+</persona>
+
+<persona gender="male" id="cb532aec-5a08-4333-a097-14cc8f4270b4">
+<persname short="BISH. ROCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Rochester</persname>
+</persona>
+
+<persona gender="male" id="c497550f-a92c-4d6e-b32b-19361bedeb12">
+<persname short="BISH. ELY." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Ely</persname>
+</persona>
+
+
+<persona gender="male" id="a456aa10-2182-4ec2-ab9f-dbfe25728fe9">
+<persname short="PURS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Pursuivants</persname>
+</persona>
+
+<persona gender="male" id="13b85f88-f745-4e37-a905-5ac7160d0ca7">
+<persname short="MASKERS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Maskers</persname>
+</persona>
+
+<persona gender="male" id="a7170bed-80fc-4c6a-bc86-ccc8ee0287e9">
+<persname short="PAGES." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Pages</persname>
+</persona>
+
+<persona gender="male" id="ffc98a97-ab80-4c8a-b65c-381eb820e0bf">
+<persname short="HALB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Halberdiers</persname>
+</persona>
+
+<persona gender="male" id="61f49e28-89ce-4cf2-886b-5f37467b6208">
+<persname short="TIPS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Tipstaves</persname>
+</persona>
+
+<persona gender="male" id="ac3587ae-7897-4942-a425-37b622e1b317">
+<persname short="VERGERS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Vergers</persname>
+</persona>
+
+<persona gender="male" id="a065a49e-a522-4321-bc13-996858e41768">
+<persname short="ALDERMEN" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Aldermen of London</persname>
+</persona>
+
+<persona gender="male" id="7d57972f-990f-4442-81a1-fb3b424d815f">
+<persname short="FOUR BARONS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Four Barons of the Cinque Ports</persname>
+</persona>
+
+<persona gender="male" id="8467369e-3c62-496f-bbf3-2f36586d4d32">
+<persname short="MARQ. DORS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marquess Dorset</persname>
+</persona>
+
+<persona gender="male" id="2e94a9ed-58f4-49fa-ba8d-dedc39ed4ad3">
+<persname short="MAY. LOND." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lord Mayor of London</persname>
+</persona>
+
+<persona gender="male" id="48afbd5c-63d4-40ba-9046-9c1edaefccd6">
+<persname short="CHOR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Choristers</persname>
+</persona>
+
+<persona gender="male" id="99cea9ca-dc28-495e-a1d3-60cbe6e4a998">
+<persname short="TWO JUDG." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Judges</persname>
+</persona>
+
+<persona gender="female" id="bdf4c671-61d9-44fb-86ff-542707ad0997">
+<persname short="LADY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lady</persname>
+</persona>
+
+<persona gender="female" id="9d6dfe29-f63c-48fd-b0c6-9564baac490d">
+<persname short="PRIN. ELIZ." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Princess Elizabeth</persname>
+</persona>
+
+<persona gender="female" id="36fff639-f57f-4a3c-8470-44bd5203577b">
+<persname short="MARCH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marchioness Dorset</persname>
+</persona>
+
+<persona gender="female" id="06dcfbdd-0eee-4d10-bb0b-f80cc4fe1bdc">
+<persname short="VIS. DANC." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Six Vision Dancers</persname>
+</persona>
+
+<persona gender="female" id="e3589b82-16e5-440d-8a8c-d8a429e166ba">
+<persname short="DUCH. NORF." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Duchess of Norfolk</persname>
+</persona>
+
+<persona gender="female" id="8cadaadf-cebe-43d6-9113-125a32e4fc18">
+<persname short="COUNTESSES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Countesses</persname>
+</persona>
+
+<persona gender="male" id="f3b52e8a-34ff-42de-bc4c-af61f9382471">
+<persname short="BEARERS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Two Gentlemen Bearers</persname>
+</persona>
+
+<persona gender="male" id="1a875832-9b04-4298-918c-06a8086ff4b4">
+<persname short="PURSE." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman Purse-Bearer</persname>
+</persona>
+
 </personae>
 
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="2" numberOfWords="266" numberOfLines="32">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Act 1 Prologue</scenetitle>
 <scenepersonae>
-	<scenepersona short="PROLOGUE.">Prologue</scenepersona>
+	<scenepersona short="PRO.">Prologue</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -354,7 +366,7 @@
 
 
 <speech>
-<speaker long="Prologue">PROLOGUE.</speaker>
+<speaker long="Prologue">PRO.</speaker>
 <line globalnumber="1" number="1" form="verse">I come no more to make you laugh; things now</line>
 <line globalnumber="2" number="2" form="verse">That bear a weighty and a serious brow,</line>
 <line globalnumber="3" number="3" form="verse">Sad, high, and working, full of state and woe:</line>
@@ -393,6 +405,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. An ante-chamber in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NOR.">Duke of Norfolk</scenepersona>
 	<scenepersona short="BUCK.">Duke of Buckingham</scenepersona>
@@ -401,7 +414,7 @@
 	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
 	<scenepersona>Guards</scenepersona>
 	<scenepersona short="BRAN.">Brandon</scenepersona>
-	<scenepersona short="SERG.">Sergeant-at-Arms</scenepersona>
+	<scenepersona short="SERG.">Sergeant at Arms</scenepersona>
 	<scenepersona short="1. WOL. SECR.">Wolsey&#8217;s First Secretary</scenepersona>
 	<scenepersona short="2. WOL. SECR.">Wolsey&#8217;s Second Secretary</scenepersona>
 </scenepersonae>
@@ -706,6 +719,7 @@
 	<dir>Exeunt Cardinal and his Train.</dir>
 	<action type="exit">
 		<actor>WOL.</actor>
+		<actor>PURSE.</actor>
 		<actor>1. WOL. SECR.</actor>
 		<actor>2. WOL. SECR.</actor>
 	</action>
@@ -852,7 +866,7 @@
 </speech>
 
 <stagedir sdglobalnumber="261.01" sdnumber="197.01">
-	<dir>Enter Brandon, a Sergeant-at-Arms before him, and two or three of the Guard.</dir>
+	<dir>Enter Brandon, a Sergeant at Arms before him, and two or three of the Guard.</dir>
 	<action type="enter">
 		<actor>BRAN.</actor>
 		<actor>SERG.</actor>
@@ -866,7 +880,7 @@
 </speech>
 
 <speech>
-<speaker long="Sergeant-at-Arms">SERG.</speaker>
+<speaker long="Sergeant at Arms">SERG.</speaker>
 <line globalnumber="263" number="198" form="verse" offset="7">Sir,</line>
 <line globalnumber="264" number="199" form="verse">My lord the Duke of Buckingham and Earl</line>
 <line globalnumber="265" number="200" form="verse">Of Herford, Stafford, and Northampton, I</line>
@@ -975,6 +989,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The council chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KING.">King Henry</scenepersona>
 	<scenepersona short="WOL.">Cardinal Wolsey</scenepersona>
@@ -1475,7 +1490,6 @@
 		<actor>WOL.</actor>
 		<actor>Nobles</actor>
 		<actor>LOV.</actor>
-		<actor>1. WOL. SECR.</actor>
 		<actor>Q. KATH.</actor>
 		<actor>NOR.</actor>
 		<actor>SUF.</actor>
@@ -1488,6 +1502,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. An ante-chamber in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHAM.">Lord Chamberlain</scenepersona>
 	<scenepersona short="SAN.">Lord Sands</scenepersona>
@@ -1707,6 +1722,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A hall in York Place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANNE.">Anne Bullen</scenepersona>
 	<scenepersona>Ladies</scenepersona>
@@ -1737,6 +1753,7 @@
 		<actor>Ladies</actor>
 		<actor>Gentlemen</actor>
 		<actor>GUIL.</actor>
+		<actor>SERV.</actor>
 	</action>
 </stagedir>
 
@@ -2201,8 +2218,9 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster. A street.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="BOTH. 1. GENT. AND 2. GENT.">Gentlemen</scenepersona>
+	<scenepersona short="BOTH 1. GENT. AND 2. GENT.">Gentlemen</scenepersona>
 	<scenepersona short="BUCK.">Buckingham</scenepersona>
 	<scenepersona short="TIPS.">Tipstaves</scenepersona>
 	<scenepersona short="LOV.">Sir Thomas Lovell</scenepersona>
@@ -2219,7 +2237,7 @@
 <stagedir sdglobalnumber="765.02" sdnumber="0.01">
 	<dir>Enter two Gentlemen at several doors.</dir>
 	<action type="enter">
-		<actor>BOTH. 1. GENT. AND 2. GENT.</actor>
+		<actor>BOTH 1. GENT. AND 2. GENT.</actor>
 	</action>
 </stagedir>
 
@@ -2617,6 +2635,7 @@
 <stagedir sdglobalnumber="960.01" sdnumber="169.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
+		<actor>BOTH 1. GENT. AND 2. GENT.</actor>
 	</action>
 </stagedir>
 
@@ -2625,6 +2644,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. An ante-chamber in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CHAM.">Lord Chamberlain</scenepersona>
 	<scenepersona short="NOR.">Duke of Norfolk</scenepersona>
@@ -2896,7 +2916,7 @@
 
 <speech>
 <speaker long="Duke of Norfolk">NOR.</speaker>
-<stagedir sdglobalnumber="1047.01" sdnumber="72.01">
+<stagedir sdglobalnumber="1047.01" sdnumber="72.02">
 	<dir>Aside to Suffolk</dir>
 	<action type="aside">
 		<actor>NOR.</actor>
@@ -2945,7 +2965,7 @@
 <line globalnumber="1054" number="76" form="verse" offset="6">I another.</line>
 </speech>
 
-<stagedir sdglobalnumber="1054.01" sdnumber="76.01">
+<stagedir sdglobalnumber="1054.01" sdnumber="76.02">
 	<dir>Exeunt Norfolk and Suffolk.</dir>
 	<action type="exit">
 		<actor>NOR.</actor>
@@ -3145,6 +3165,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. An ante-chamber in the Queen&#8217;s apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANNE.">Anne Bullen</scenepersona>
 	<scenepersona short="OLD L.">Old Lady</scenepersona>
@@ -3448,6 +3469,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A hall in Black-Friars.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="VERGERS">Vergers</scenepersona>
 	<scenepersona short="1. SCRIBE.">First Scribe</scenepersona>
@@ -3460,12 +3482,12 @@
 	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
 	<scenepersona short="PRIESTS">Priests</scenepersona>
 	<scenepersona>Gentleman Usher</scenepersona>
-	<scenepersona short="SERG.">Sergeant-at-Arms</scenepersona>
+	<scenepersona short="SERG.">Sergeant at Arms</scenepersona>
 	<scenepersona short="CAM.">Cardinal Campeius</scenepersona>
 	<scenepersona short="WOL.">Cardinal Wolsey</scenepersona>
-	<scenepersona short="NOBLEMEN.">Noble-Men</scenepersona>
+	<scenepersona short="TWO NOBLE.">Noblemen</scenepersona>
 	<scenepersona short="KING.">King Henry</scenepersona>
-	<scenepersona short="Q. KATH.">Queen</scenepersona>
+	<scenepersona short="Q. KATH.">Queen Katherine</scenepersona>
 	<scenepersona short="BEARERS.">Two Gentlemen Bearers</scenepersona>
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
@@ -3475,7 +3497,7 @@
 
 
 <stagedir sdglobalnumber="1246.02" sdnumber="0.01">
-	<dir>Trumpets, sennet, and cornets. Enter two Vergers, with short silver wands; next them, two Scribes, in the habit of doctors; after them, the Archbishop of Canterbury alone; after him, the Bishops of Lincoln, Ely, Rochester, and Saint Asaph; next them, with some small distance, follows a Gentleman bearing the purse, with the great seal, and a cardinal&#8217;s hat; then two Priests bearing each a silver cross; then a Gentleman Usher bare-headed, accompanied with a Sergeant-at-Arms bearing a silver mace; then two Gentlemen bearing two great silver pillars; after them, side by side, the two Cardinals; two Noble-Men with the sword and mace. The King takes place under the cloth of state; the two Cardinals sit under him as judges. The Queen takes place some distance from the King. The Bishops place themselves on each side the court, in manner of a consistory; below them, the Scribes. The Lords sit next the Bishops. The rest of the Attendants stand in convenient order about the stage.</dir>
+	<dir>Trumpets, sennet, and cornets. Enter two Vergers, with short silver wands; next them, two Scribes, in the habit of doctors; after them, the Archbishop of Canterbury alone; after him, the Bishops of Lincoln, Ely, Rochester, and Saint Asaph; next them, with some small distance, follows a Gentleman bearing the purse, with the great seal, and a cardinal&#8217;s hat; then two Priests bearing each a silver cross; then a Gentleman Usher bare-headed, accompanied with a Sergeant-at Arms bearing a silver mace; then two Gentlemen bearing two great silver pillars; after them, side by side, the two Cardinals; two Noble-Men with the sword and mace. The King takes place under the cloth of state; the two Cardinals sit under him as judges. The Queen takes place some distance from the King. The Bishops place themselves on each side the court, in manner of a consistory; below them, the Scribes. The Lords sit next the Bishops. The rest of the Attendants stand in convenient order about the stage.</dir>
 	<action type="sound">
 	</action>
 	<action type="enter">
@@ -3512,7 +3534,7 @@
 		<actor>WOL.</actor>
 	</action>	
 	<action type="enter">
-		<actor>NOBLEMEN.</actor>
+		<actor>TWO NOBLE.</actor>
 	</action>	
 	<action type="enter">
 		<actor>KING.</actor>
@@ -3957,7 +3979,7 @@
 		<actor>BEARERS.</actor>
 		<actor>CAM.</actor>
 		<actor>WOL.</actor>
-		<actor>NOBLEMEN.</actor>
+		<actor>TWO NOBLE.</actor>
 		<actor>KING.</actor>
 	</action>
 </stagedir>
@@ -3970,8 +3992,9 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. Queen Katherine&#8217;s apartment.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="Q. KATH.">Queen</scenepersona>
+	<scenepersona short="Q. KATH.">Queen Katherine</scenepersona>
 	<scenepersona>Women</scenepersona>
 	<scenepersona short="GENTLEW.">Gentlewoman</scenepersona>
 	<scenepersona short="GRIF.">Griffith</scenepersona>
@@ -4383,6 +4406,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. Antechamber to King Henry VIII&#8217;s apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NOR.">Duke of Norfolk</scenepersona>
 	<scenepersona short="SUF.">Duke of Suffolk</scenepersona>
@@ -4893,7 +4917,7 @@
 
 <speech>
 <speaker long="Earl of Surrey">SUR.</speaker>
-<stagedir sdglobalnumber="1906.01" sdnumber="160.01">
+<stagedir sdglobalnumber="1906.01" sdnumber="160.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>SUR.</actor>
@@ -5504,8 +5528,9 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Westminster. A street.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="BOTH. 1. GENT. AND 2. GENT.">Gentlemen</scenepersona>
+	<scenepersona short="BOTH 1. GENT. AND 2. GENT.">Gentlemen</scenepersona>
 	<scenepersona short="TWO JUDG.">Two Judges</scenepersona>
 	<scenepersona short="CHAN.">Lord Chancellor</scenepersona>
 	<scenepersona short="PURSE.">Gentleman Purse-Bearer</scenepersona>
@@ -5521,7 +5546,7 @@
 	<scenepersona short="BISH. WIN.">Bishop of Winchester</scenepersona>
 	<scenepersona short="DUCH. NORF.">Duchess of Norfolk</scenepersona>
 	<scenepersona>Ladies</scenepersona>
-	<scenepersona short="COUNTESSES">Countessess</scenepersona>
+	<scenepersona short="COUNTESSES">Countesses</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5720,6 +5745,7 @@
 		<actor>MARQ. DORS.</actor>
 		<actor>BISH. STOK.</actor>
 		<actor>BISH. WIN.</actor>
+		<actor>PURSE.</actor>
 		<actor>Ladies</actor>
 	</action>
 </stagedir><lb />
@@ -5983,7 +6009,7 @@
 </speech>
 
 <speech>
-<speaker long="Both First and Second Gentleman">BOTH. 1. GENT. AND 2. GENT.</speaker>
+<speaker long="Both First and Second Gentleman">BOTH 1. GENT. AND 2. GENT.</speaker>
 <line globalnumber="2377" number="117" form="verse" offset="3">You may command us, sir.</line>
 </speech>
 
@@ -6001,6 +6027,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Kimbolton.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KATH.">Katherine Dowager</scenepersona>
 	<scenepersona short="GRIF.">Griffith</scenepersona>
@@ -6186,6 +6213,9 @@
 <stagedir sdglobalnumber="2466.03" sdnumber="82.03">
 	<dir>They first congee unto her, then dance; and, at certain changes, the first two hold a spare garland over her head, at which the other four make reverend curtsies. Then the two that held the garland deliver the same to the other next two, who observe the same order in their changes, and holding the garland over her head; which done, they deliver the same garland to the last two, who likewise observe the same order; at which (as it were by inspiration) she makes (in her sleep) signs of rejoicing, and holdeth up her hands to heaven: and so in their dancing vanish, carrying the garland with them. The music continues.</dir>
 	<action type="action">
+		<actor>VIS. DANC.</actor>
+	</action>
+	<action type="exit">
 		<actor>VIS. DANC.</actor>
 	</action>
 </stagedir>
@@ -6455,6 +6485,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A gallery in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GARD.">Gardiner</scenepersona>
 	<scenepersona short="BISH. WIN.">Bishop of Winchester</scenepersona>
@@ -6475,7 +6506,6 @@
 <stagedir sdglobalnumber="2571.02" sdnumber="0.01">
 	<dir>Enter Gardiner, Bishop of Winchester, Gardiner&#8217;s Page with a torch before him, met by Sir Thomas Lovell.</dir>
 	<action type="enter">
-		<actor>GARD.</actor>
 		<actor>BISH. WIN.</actor>
 		<actor>GARD. PAGE.</actor>
 		<actor>LOV.</actor>
@@ -7022,9 +7052,10 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The lobby before the council chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PURS.">Pursuivants</scenepersona>
-	<scenepersona short="PAGES">Pages</scenepersona>
+	<scenepersona short="PAGES.">Pages</scenepersona>
 	<scenepersona short="CRAN.">Cranmer</scenepersona>
 	<scenepersona short="ARCH. CANT.">Archbishop of Canterbury</scenepersona>
 	<scenepersona short="DOORKEEP.">Doorkeeper of the Council Chamber</scenepersona>
@@ -7048,7 +7079,7 @@
 	<dir>Pursuivants, Pages, etc., attending. Enter Cranmer, Archbishop of Canterbury.</dir>
 	<action type="enter">
 		<actor>PURS.</actor>
-		<actor>PAGES</actor>
+		<actor>PAGES.</actor>
 		<actor>CRAN.</actor>
 		<actor>ARCH. CANT.</actor>
 	</action>
@@ -7099,7 +7130,7 @@
 
 <speech>
 <speaker long="Doctor Butts">BUTTS.</speaker>
-<stagedir sdglobalnumber="2789.01" sdnumber="7.01">
+<stagedir sdglobalnumber="2789.01" sdnumber="7.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>BUTTS.</actor>
@@ -7678,7 +7709,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>PURS.</actor>
-		<actor>PAGES</actor>
+		<actor>PAGES.</actor>
 		<actor>CRAN.</actor>
 		<actor>ARCH. CANT.</actor>
 		<actor>DOORKEEP.</actor>
@@ -7699,6 +7730,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The council chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PORT.">Porter</scenepersona>
 	<scenepersona short="PORT. MAN.">Porter&#8217;s Man</scenepersona>
@@ -7890,6 +7922,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The palace-yard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ALDERMEN">Aldermen</scenepersona>
 	<scenepersona short="MAY. LOND.">Lord Mayor</scenepersona>
@@ -8107,7 +8140,7 @@
 
 </act>
 
-<epilogue minutesRunning="1" numberOfWords="128" numberOfLines="14">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="EPILOGUE">Epilogue</scenepersona>
@@ -8136,20 +8169,9 @@
 
 </epilogue>
 
-<locations numberOfLocations="12">
-<placename>A hall in Black-Friars.</placename>
-<placename>A hall in York Place.</placename>
-<placename>Kimbolton.</placename>
-<placename>London. A gallery in the palace.</placename>
-<placename>London. An ante-chamber in the Queen&#8217;s apartment.</placename>
-<placename>London. An ante-chamber in the palace.</placename>
-<placename>London. Antechamber to King Henry VIII&#8217;s apartment.</placename>
-<placename>London. Queen Katherine&#8217;s apartment.</placename>
-<placename>London. The council chamber.</placename>
-<placename>The lobby before the council chamber.</placename>
-<placename>The palace-yard.</placename>
-<placename>Westminster. A street.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -8180,12 +8202,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

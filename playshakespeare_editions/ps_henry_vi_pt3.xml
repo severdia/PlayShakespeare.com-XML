@@ -1,250 +1,256 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="henry-vi-part-iii">
 <title short="Henry VI, Pt. 3">The Third Part of Henry the Sixth</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1590-1591</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Henry VI, Part 3">
 
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="315b31c1-d203-4f50-b041-ea518c19bcb7">
 <persname short="K. HEN." numberOfLines="364" numberOfVerseLines="364" numberOfProseLines="0" numberOfLyricsLines="0">King Henry the Sixth</persname>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="PRINCE." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
-</persona>
-
-<persona gender="male">
-<persname short="K. LEW." numberOfLines="67" numberOfVerseLines="67" numberOfProseLines="0" numberOfLyricsLines="0">Lewis the Eleventh, King of France</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EXE." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Exeter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OXF." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Oxford</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NORTH." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Northumberland</persname>
-</persona>
-
-<persona gender="male">
-<persname short="D. SOM." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Somerset</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WEST." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Westmorland</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="YORK." numberOfLines="173" numberOfVerseLines="173" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet, Duke of York</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="CLIF." numberOfLines="140" numberOfVerseLines="140" numberOfProseLines="0" numberOfLyricsLines="0">Lord Clifford</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="EDW." numberOfLines="428" numberOfVerseLines="428" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Earl of March</persname>
-<persaliases>
-	<persname short="K. EDW.">King Edward</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="RUT." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Edmund, Earl of Rutland</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="e5542e66-b33e-4b3a-9566-ab98d51b5fd7">
 <persname short="WAR." numberOfLines="436" numberOfVerseLines="436" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Warwick</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GEO." numberOfLines="105" numberOfVerseLines="105" numberOfProseLines="0" numberOfLyricsLines="0">George</persname>
+<persona gender="male" archetype="hero" id="8b2bfb1e-80cd-4491-a94c-321b293818c8">
+<persname short="EDW." numberOfLines="428" numberOfVerseLines="428" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Earl of March</persname>
 <persaliases>
-	<persname short="CLAR.">Duke of Clarence</persname>
+	<persname short="K. EDW." type="namechange">King Edward</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="31c9b280-77e9-49f9-bc69-f6cd0566400d">
 <persname short="RICH." numberOfLines="392" numberOfVerseLines="392" numberOfProseLines="0" numberOfLyricsLines="0">Richard</persname>
 <persaliases>
-	<persname short="GLOU.">Duke of Gloucester</persname>
+	<persname short="GLOU." type="namechange">Duke of Gloucester</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="NORF." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Norfolk</persname>
+<persona gender="male" archetype="hero" death="yes" id="e53959fd-5f06-4aff-aff0-77853add5613">
+<persname short="YORK." numberOfLines="173" numberOfVerseLines="173" numberOfProseLines="0" numberOfLyricsLines="0">Richard Plantagenet, Duke of York</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MONT." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Marquess Montague</persname>
+<persona gender="male" id="3f029f21-c1a3-4d3e-823d-2ef6502c9770">
+<persname short="GEO." numberOfLines="105" numberOfVerseLines="105" numberOfProseLines="0" numberOfLyricsLines="0">George</persname>
+<persaliases>
+	<persname short="CLAR." type="namechange">Duke of Clarence</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="PEMB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Pembroke</persname>
+<persona gender="male" id="1c60b2ad-376c-451e-b5d7-ca17adad61fa">
+<persname short="K. LEW." numberOfLines="67" numberOfVerseLines="67" numberOfProseLines="0" numberOfLyricsLines="0">Lewis the Eleventh, King of France</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HAST." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
+<persona gender="male" death="yes" id="c6dc03f2-d59e-47a2-b386-20ece1aa1fce">
+<persname short="PRINCE." numberOfLines="46" numberOfVerseLines="46" numberOfProseLines="0" numberOfLyricsLines="0">Edward, Prince of Wales</persname>
 </persona>
 
-<persona gender="male">
-<persname short="STAFF." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lord Stafford</persname>
+<persona gender="male" id="ae54c018-ea1b-4f65-8c93-71a20dd5e7e1">
+<persname short="OXF." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Oxford</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SIR JOHN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Mortimer</persname>
+<persona gender="male" id="e7999bba-814d-433e-9867-a1e8ba656e2b">
+<persname short="D. SOM." numberOfLines="33" numberOfVerseLines="33" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Somerset</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SIR. HUGH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir Hugh Mortimer</persname>
+<persona gender="male" id="1f459120-3c22-42ed-96e9-ff9aa8e2a33e">
+<persname short="NORTH." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Northumberland</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HEN. RICH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Henry, Earl of Richmond</persname>
-</persona>
-
-<persona gender="male">
-<persname short="RIV." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Lord Rivers</persname>
-</persona>
-
-<persona gender="male">
-<persname short="WILL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Stanley</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MONTG." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Montgomery</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SOM." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Somervile</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TUT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tutor to Rutland</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of York</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAY. COV." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of Coventry</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LIEU." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant of the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="NOB." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Nobleman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SON." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">A Son That Has Killed His Father</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="17a49e9d-80ea-4978-8f6d-55d52606be40">
 <persname short="FATH." numberOfLines="27" numberOfVerseLines="27" numberOfProseLines="0" numberOfLyricsLines="0">A Father That Has Killed His Son</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="Q. MAR." numberOfLines="279" numberOfVerseLines="279" numberOfProseLines="0" numberOfLyricsLines="0">Queen Margaret</persname>
+<persona gender="male" id="5c3da7ad-261e-419a-9926-f9f2280cff4d">
+<persname short="SON." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">A Son That Has Killed His Father</persname>
 </persona>
 
-<persona gender="female">
-<persname short="L. GREY." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Lady Grey</persname>
-<persaliases>
-	<persname short="Q. ELIZ.">Queen Elizabeth</persname>
-</persaliases>
+<persona gender="male" death="yes" id="8bbb4ac7-3b1e-4f73-b7d1-84f11885a22d">
+<persname short="RUT." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Edmund, Earl of Rutland</persname>
 </persona>
 
-<persona gender="female">
-<persname short="BONA." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Lady Bona</persname>
+<persona gender="male" id="62025eb3-165d-40d0-95e3-50d6abc01cb1">
+<persname short="EXE." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Exeter</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. YORK. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Yorkist Messenger</persname>
+<persona gender="male" id="5b0a1a9b-1f1e-4a37-8eee-60631ebec74f">
+<persname short="MONT." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Marquess Montague</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. YORK. MESS." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Second Yorkist Messenger</persname>
+<persona gender="male" id="3b36f3de-47aa-4a55-a17a-2d0316054e64">
+<persname short="MONTG." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Montgomery</persname>
 </persona>
 
-<persona gender="male">
-<persname short="NOR. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Norfolk Messenger</persname>
+<persona gender="male" id="c40d4517-469b-4775-8434-8fd57ca3f5ce">
+<persname short="WEST." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Westmorland</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. LAN. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Lancastrian Messenger</persname>
+<persona gender="male" id="1e0c838f-4e9d-4f2b-bbd8-75f44a02dd5a">
+<persname short="SOM." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Somervile</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. LAN. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Lancastrian Messenger</persname>
+<persona gender="male" id="062dee63-fa55-4a66-8aa9-11b9b63d1c81">
+<persname short="MAY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of York</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. KEEP." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Gamekeeper</persname>
+<persona gender="male" id="6535cacb-a095-4d91-86dc-3a030fc72f85">
+<persname short="NORF." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Norfolk</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. KEEP." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Second Gamekeeper</persname>
+<persona gender="male" id="ced2c87d-2599-49bf-98b6-4094875b62c0">
+<persname short="TUT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Tutor to Rutland</persname>
 </persona>
 
-<persona gender="male">
-<persname short="POST." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Post</persname>
+<persona gender="male" id="d76f99b7-4e29-4fa9-b807-2bacb28db8cd">
+<persname short="LIEU." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant of the Tower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. WATCH." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Watchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. WATCH." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Watchman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. WATCH." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Third Watchman</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="951a2612-8046-4b44-85e1-754d969780ae">
 <persname short="HUNT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Huntsman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WAR. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Warwick&#8217;s Messenger</persname>
+<persona gender="male" id="bdc67cfa-ad55-45b4-99be-70039a958337">
+<persname short="SIR JOHN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Mortimer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" archetype="hero" id="3e375b7a-4c1c-4f8d-91b1-4609ef64b4bc">
+<persname short="Q. MAR." numberOfLines="279" numberOfVerseLines="279" numberOfProseLines="0" numberOfLyricsLines="0">Queen Margaret</persname>
+</persona>
+
+<persona gender="female" id="c9ac8209-6d7c-4574-8d69-63421e509ab5">
+<persname short="L. GREY." numberOfLines="73" numberOfVerseLines="73" numberOfProseLines="0" numberOfLyricsLines="0">Lady Grey</persname>
+<persaliases>
+	<persname short="Q. ELIZ." type="namechange">Queen Elizabeth</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="796e0f0a-0ad8-4ba8-9c95-6b2265927882">
+<persname short="BONA." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Lady Bona</persname>
+</persona>
+
+<persona gender="male" death="yes" id="d533f3e3-6cfa-4abc-b451-4c178d0a4b64">
+<persname short="CLIF." numberOfLines="140" numberOfVerseLines="140" numberOfProseLines="0" numberOfLyricsLines="0">Lord Clifford</persname>
+</persona>
+
+<persona gender="male" id="aa32f49e-307b-42f8-9f9b-cd0c8b42fc9c">
+<persname short="HAST." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Lord Hastings</persname>
+</persona>
+
+<persona gender="male" id="a2817555-c4a8-450b-9405-9285bfa05d54">
+<persname short="RIV." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Lord Rivers</persname>
+</persona>
+
+<persona gender="male" id="62d19063-64a6-49dc-8e9e-c950fb1f1d0c">
+<persname short="1. KEEP." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">First Gamekeeper</persname>
+</persona>
+
+<persona gender="male" id="558e3b6e-09be-4d3a-9489-66c68f2bcd18">
+<persname short="2. KEEP." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Second Gamekeeper</persname>
+</persona>
+
+<persona gender="male" id="73e7e84b-a7fd-45f3-8c5e-3f12b45c8d31">
+<persname short="1. WATCH." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">First Watchman</persname>
+</persona>
+
+<persona gender="male" id="672787e9-89eb-4164-96cf-8b8ae2e4d209">
+<persname short="2. WATCH." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Second Watchman</persname>
+</persona>
+
+<persona gender="male" id="0a421759-e443-498f-9ce9-d81a1d86d48b">
+<persname short="3. WATCH." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Third Watchman</persname>
+</persona>
+
+<persona gender="male" id="71bc2275-e6d9-400a-947b-242e85dfbfd4">
 <persname short="YORK. SOLD." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Yorkist Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="689ec98d-ebc3-4132-9f8e-6012c298d9bc">
+<persname short="POST." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Post</persname>
+</persona>
+
+<persona gender="male" id="8a2de035-2c07-446f-b8a2-6001752d7d2a">
+<persname short="WAR. MESS." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Warwick&#8217;s Messenger</persname>
+</persona>
+
+<persona gender="male" id="c6ba60eb-9ea6-4a06-8d5f-f483b875b1da">
+<persname short="NOR. MESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Norfolk Messenger</persname>
+</persona>
+
+<persona gender="male" id="2ba4e4cf-0fdb-4c3a-999d-d8634ebbd834">
 <persname short="OXF. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Oxford Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7cd58338-11c0-4281-9214-ae2b180faefe">
 <persname short="MONT. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Montague Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb4ef6f7-dda2-4bc9-87af-e4b278d332e8">
+<persname short="1. LAN. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Lancastrian Messenger</persname>
+</persona>
+
+<persona gender="male" id="e1954576-3d57-48cc-9fe3-5d460485dd76">
+<persname short="2. LAN. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Lancastrian Messenger</persname>
+</persona>
+
+<persona gender="male" id="775cf549-090f-41bf-afac-718e7ee64d27">
+<persname short="1. YORK. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Yorkist Messenger</persname>
+</persona>
+
+<persona gender="male" id="01e699ba-721d-4d04-98a2-d8da206a8b09">
+<persname short="2. YORK. MESS." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Second Yorkist Messenger</persname>
+</persona>
+
+
+<persona gender="male" id="48dd6dcc-620f-465a-9269-6d3794ce6fe3">
+<persname short="NOB." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Nobleman</persname>
+</persona>
+
+<persona gender="male" id="5d36dacb-bfa2-483e-81a3-8aaa9bfdd5c8">
+<persname short="PEMB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Pembroke</persname>
+</persona>
+
+<persona gender="male" id="859f018c-ad67-4224-98ce-3979e0d79088">
+<persname short="SIR. HUGH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir Hugh Mortimer</persname>
+</persona>
+
+<persona gender="male" id="03f92983-d9a2-43e3-b173-a0507ac81925">
+<persname short="STAFF." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lord Stafford</persname>
+</persona>
+
+<persona gender="male" id="7216deda-82b2-4162-8915-48a61aa44356">
+<persname short="MAY. COV." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of Coventry</persname>
+</persona>
+
+<persona gender="male" id="650396e7-f5c8-4389-89e3-f87631c337fa">
+<persname short="WILL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sir William Stanley</persname>
+</persona>
+
+<persona gender="male" id="2c95f6ce-d4be-4d7f-aa8a-fb136933a711">
+<persname short="HEN. RICH." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Henry, Earl of Richmond</persname>
+</persona>
+
+<persona gender="male" id="9082a397-ee7e-48be-8dd0-47b3a2ff1767">
 <persname short="ALD. YORK." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Aldermen of York</persname>
 </persona>
 
-<persona gender="female">
-<persname short="BESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Nurse Bess</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="c131124a-fd85-44e8-8abe-b15138af17a0">
 <persname short="BOURB." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Lord Bourbon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="e414c98e-75ed-426b-a6c5-d90cdbfd2080">
+<persname short="BESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Nurse Bess</persname>
+</persona>
+
+<persona gender="male" id="765a949d-1be2-4ef3-8112-4b8d3f210c53">
 <persname short="EDWARD (NED)" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Prince Edward (Ned)</persname>
 </persona>
 
@@ -255,6 +261,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. The Parliament House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="YORK.">Duke of York</scenepersona>
 	<scenepersona short="EDW.">Edward, Earl of March</scenepersona>
@@ -1202,6 +1209,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Yorkshire. A room in Sandal Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RICH.">Richard</scenepersona>
 	<scenepersona short="EDW.">Edward, Earl of March</scenepersona>
@@ -1461,6 +1469,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Field of battle between Sandal Castle and Wakefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RUT.">Rutland</scenepersona>
 	<scenepersona short="TUT.">Tutor</scenepersona>
@@ -1523,7 +1532,8 @@
 <stagedir sdglobalnumber="361.01" sdnumber="9.01">
 	<dir>Exit dragged off by Soldiers.</dir>
 	<action type="exit">
-		<actor>TUT.</actor>
+		<actor>Soldiers</actor>
+		<recipient>TUT.</recipient>
 	</action>
 </stagedir>
 
@@ -1650,6 +1660,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the field of battle between Sandal Castle and Wakefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="YORK.">Richard Duke of York</scenepersona>
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
@@ -1788,8 +1799,8 @@
 	<action type="action">
 		<actor>CLIF.</actor>
 		<actor>NORTH.</actor>
-		<recipient>YORK.</recipient>
 		<actor>Soldiers</actor>
+		<recipient>YORK.</recipient>
 	</action>
 </stagedir>
 
@@ -2026,6 +2037,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Herfordshire. A plain near Mortimer&#8217;s Cross.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDW.">Edward, Earl of March</scenepersona>
 	<scenepersona short="RICH.">Richard</scenepersona>
@@ -2428,6 +2440,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before York.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
@@ -2851,6 +2864,12 @@
 <stagedir sdglobalnumber="971.01" sdnumber="177.01">
 	<dir>Exeunt omnes.</dir>
 	<action type="exit">
+		<actor>K. HEN.</actor>
+		<actor>Q. MAR.</actor>		
+		<actor>CLIF.</actor>
+		<actor>NORTH.</actor>
+		<actor>PRINCE.</actor>
+		<actor>1. LAN. MESS.</actor>
 		<actor>EDW.</actor>	
 		<actor>WAR.</actor>
 		<actor>RICH.</actor>
@@ -2866,6 +2885,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Yorkshire. A battlefield between Towton and Saxton.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="WAR.">Warwick</scenepersona>
 	<scenepersona short="EDW.">Edward, Earl of March</scenepersona>
@@ -3020,6 +3040,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Yorkshire. Another part of the battlefield between Towton and Saxton.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RICH.">Richard</scenepersona>
 	<scenepersona short="CLIF.">Clifford</scenepersona>
@@ -3098,6 +3119,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Yorkshire. Another part of the battlefield between Towton and Saxton.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 	<scenepersona short="SON.">A Son That Has Killed His Father</scenepersona>
@@ -3383,6 +3405,7 @@
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Yorkshire. Another part of the battlefield between Towton and Saxton.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLIF.">Clifford</scenepersona>
 	<scenepersona short="EDW.">Edward, Earl of March</scenepersona>
@@ -3399,6 +3422,8 @@
 
 <stagedir sdglobalnumber="1179.02" sdnumber="0.01">
 	<dir>A loud alarum. Enter Clifford wounded with an arrow in his neck.</dir>
+	<action type="sound">
+	</action>
 	<action type="enter">
 		<actor>CLIF.</actor>
 	</action>
@@ -3657,6 +3682,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A forest in the North of England.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. KEEP.">First Gamekeeper</scenepersona>
 	<scenepersona short="2. KEEP.">Second Gamekeeper</scenepersona>
@@ -3909,6 +3935,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. A palace room.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
@@ -4118,7 +4145,7 @@
 
 <stagedir sdglobalnumber="1426.01" sdnumber="35.01">
 	<dir>Gloucester and Clarence retire.</dir>
-	<action type="exit">
+	<action type="action">
 		<actor>GLOU.</actor>
 		<actor>CLAR.</actor>
 	</action>
@@ -4613,6 +4640,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>France. A room in King Lewis XI&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. LEW.">Lewis the French King</scenepersona>
 	<scenepersona short="BONA.">Lady Bona</scenepersona>
@@ -5036,7 +5064,7 @@
 
 <stagedir sdglobalnumber="1752.01" sdnumber="161.01">
 	<dir>Post blowing a horn within.</dir>
-	<action type="action">
+	<action type="sound">
 		<actor>POST.</actor>
 	</action>
 </stagedir>
@@ -5338,6 +5366,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A palace room.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
@@ -5759,15 +5788,11 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>GLOU.</actor>
-		<actor>CLAR.</actor>	
-		<actor>D. SOM.</actor>
 		<actor>MONT.</actor>	
 		<actor>K. EDW.</actor>
 		<actor>Q. ELIZ.</actor>
 		<actor>HAST.</actor>
 		<actor>POST.</actor>
-		<actor>CLAR.</actor>
-		<actor>D. SOM.</actor>
 	</action>
 </stagedir>
 
@@ -5776,6 +5801,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A plain in Warwickshire.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="WAR.">Warwick</scenepersona>
 	<scenepersona short="OXF.">Oxford</scenepersona>
@@ -5866,6 +5892,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Edward&#8217;s camp near Warwick.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. WATCH.">First Watchman</scenepersona>
 	<scenepersona short="2. WATCH.">Second Watchman</scenepersona>
@@ -6014,7 +6041,11 @@
 
 <stagedir sdglobalnumber="2062.03" sdnumber="27.03">
 	<dir>Richard of Gloucester and Hastings fly over the stage.</dir>
-	<action type="action">
+	<action type="enter">
+		<actor>GLOU.</actor>
+		<actor>HAST.</actor>
+	</action>
+	<action type="exit">
 		<actor>GLOU.</actor>
 		<actor>HAST.</actor>
 	</action>
@@ -6083,7 +6114,7 @@
 
 <stagedir sdglobalnumber="2093.01" sdnumber="57.01">
 	<dir>They lead him out forcibly.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>French Soldiers</actor>
 		<recipient>WAR.</recipient>
 	</action>
@@ -6124,8 +6155,6 @@
 		<actor>3. WATCH.</actor>
 		<actor>CLAR.</actor>
 		<actor>OXF.</actor>
-		<actor>GLOU.</actor>
-		<actor>HAST.</actor>
 	</action>
 </stagedir>
 
@@ -6134,6 +6163,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>London. A palace room.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="RIV.">Rivers</scenepersona>
 	<scenepersona short="Q. ELIZ.">Queen Elizabeth</scenepersona>
@@ -6239,6 +6269,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Yorkshire. A park near Middleham Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
 	<scenepersona short="HAST.">Lord Hastings</scenepersona>
@@ -6373,6 +6404,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>London. The Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry the Sixth</scenepersona>
 	<scenepersona short="CLAR.">Clarence</scenepersona>
@@ -6645,6 +6677,7 @@
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Before York.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
@@ -6979,6 +7012,7 @@
 <scene actnum="4" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>London. A palace room.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">King Henry</scenepersona>
 	<scenepersona short="WAR.">Warwick</scenepersona>
@@ -7197,6 +7231,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Coventry.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="WAR.">Warwick</scenepersona>
 	<scenepersona short="MAY. COV.">Mayor of Coventry</scenepersona>
@@ -7608,6 +7643,7 @@
 	<dir>Exeunt King Edward and his company. March. Warwick and his company follows.</dir>
 	<action type="exit">
 		<actor>WAR.</actor>
+		<actor>SOM.</actor>
 		<actor>MAY. COV.</actor>
 		<actor>OXF. MESS.</actor>
 		<actor>MONT. MESS.</actor>
@@ -7623,6 +7659,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A battlefield near Barnet.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="WAR.">Warwick</scenepersona>
@@ -7758,6 +7795,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the battlefield near Barnet.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
@@ -7831,6 +7869,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Plains near Tewksbury.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="Q. MAR.">Queen Margaret</scenepersona>
 	<scenepersona short="PRINCE.">Prince Edward</scenepersona>
@@ -8055,6 +8094,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the battlefield near Barnet.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
@@ -8404,7 +8444,6 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>K. EDW.</actor>
-		<actor>Q. MAR.</actor>	
 		<actor>CLAR.</actor>
 		<actor>PRINCE.</actor>
 	</action>
@@ -8415,6 +8454,7 @@
 <scene actnum="5" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>London. The Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. HEN.">Henry the Sixth</scenepersona>
 	<scenepersona short="GLOU.">Richard of Gloucester</scenepersona>
@@ -8628,6 +8668,7 @@
 <scene actnum="5" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>London. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. EDW.">King Edward</scenepersona>
 	<scenepersona short="Q. ELIZ.">Queen Elizabeth</scenepersona>
@@ -8768,27 +8809,7 @@
 </scene>
 </act>
 
-<locations numberOfLocations="19">
-<placename>A battlefield near Barnet.</placename>
-<placename>A forest in the North of England.</placename>
-<placename>A plain in Warwickshire.</placename>
-<placename>Another part of the battlefield near Barnet.</placename>
-<placename>Another part of the field of battle between Sandal Castle and Wakefield.</placename>
-<placename>Before York.</placename>
-<placename>Coventry.</placename>
-<placename>Edward&#8217;s camp near Warwick.</placename>
-<placename>Field of battle between Sandal Castle and Wakefield.</placename>
-<placename>France. A room in King Lewis XI&#8217;s palace.</placename>
-<placename>Herfordshire. A plain near Mortimer&#8217;s Cross.</placename>
-<placename>London. A room in the palace.</placename>
-<placename>London. The Parliament House.</placename>
-<placename>London. The Tower.</placename>
-<placename>Plains near Tewksbury.</placename>
-<placename>Yorkshire. A battlefield between Towton and Saxton.</placename>
-<placename>Yorkshire. A park near Middleham Castle.</placename>
-<placename>Yorkshire. A room in Sandal Castle.</placename>
-<placename>Yorkshire. Another part of the battlefield between Towton and Saxton.</placename>
-</locations>
+
 
 
 <sources>
@@ -8821,12 +8842,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

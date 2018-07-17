@@ -1,147 +1,158 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="midsummer-nights-dream">
 <title short="Midsummer Night&#8217;s Dream">A Midsummer Night&#8217;s Dream</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1595-1596</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="A Midsummer Night&#8217;s Dream">
 
-<persona gender="male">
-<persname short="THE." numberOfLines="212" numberOfVerseLines="189" numberOfProseLines="23" numberOfLyricsLines="0">Theseus, Duke of Athens</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EGE." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Egeus</persname>
-</persona>
-
-<persona gender="male" archetype="lover">
-<persname short="LYS." numberOfLines="176" numberOfVerseLines="170" numberOfProseLines="6" numberOfLyricsLines="0">Lysander</persname>
-</persona>
-
-<persona gender="male" archetype="lover">
-<persname short="DEM." numberOfLines="128" numberOfVerseLines="115" numberOfProseLines="13" numberOfLyricsLines="0">Demetrius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PHIL." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Philostrate</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="QUIN." numberOfLines="74" numberOfVerseLines="38" numberOfProseLines="36" numberOfLyricsLines="0">Quince</persname>
-<persaliases>
-	<persname short="PRO.">Prologue</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="BOT." numberOfLines="123" numberOfVerseLines="76" numberOfProseLines="47" numberOfLyricsLines="8">Bottom</persname>
-<persaliases>
-	<persname short="PYR.">Pyramus</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="FLU." numberOfLines="48" numberOfVerseLines="39" numberOfProseLines="9" numberOfLyricsLines="0">Flute</persname>
-<persaliases>
-	<persname short="THIS.">Thisbe</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="SNOUT." numberOfLines="19" numberOfVerseLines="12" numberOfProseLines="7" numberOfLyricsLines="0">Snout</persname>
-<persaliases>
-	<persname short="WALL.">Wall</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="SNUG." numberOfLines="11" numberOfVerseLines="8" numberOfProseLines="3" numberOfLyricsLines="0">Snug</persname>
-<persaliases>
-	<persname short="LION.">Lion</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="STAR." numberOfLines="8" numberOfVerseLines="3" numberOfProseLines="5" numberOfLyricsLines="0">Starveling</persname>
-<persaliases>
-	<persname short="MOON.">Moonshine</persname>
-</persaliases>
-</persona>
-
-<persona gender="female">
-<persname short="HIP." numberOfLines="29" numberOfVerseLines="22" numberOfProseLines="7" numberOfLyricsLines="0">Hippolyta</persname>
-</persona>
-
-<persona gender="female" archetype="lover">
-<persname short="HER." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Hermia</persname>
-</persona>
-
-<persona gender="female" archetype="lover">
-<persname short="HEL." numberOfLines="229" numberOfVerseLines="229" numberOfProseLines="0" numberOfLyricsLines="0">Helena</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="01db7440-d53e-435c-88d6-7033ed3a2c3b">
 <persname short="OBE." numberOfLines="225" numberOfVerseLines="225" numberOfProseLines="0" numberOfLyricsLines="44">Oberon</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="TITA." numberOfLines="141" numberOfVerseLines="141" numberOfProseLines="0" numberOfLyricsLines="4">Titania</persname>
+<persona gender="male" id="a07c1703-f577-4d99-9bcf-d2b2367d1abe">
+<persname short="THE." numberOfLines="212" numberOfVerseLines="189" numberOfProseLines="23" numberOfLyricsLines="0">Theseus, Duke of Athens</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2c790c0a-d54b-4453-9f6d-517be399537e">
 <persname short="PUCK." numberOfLines="206" numberOfVerseLines="206" numberOfProseLines="0" numberOfLyricsLines="43">Puck</persname>
 </persona>
 
-<persona gender="female">
-<persname short="PEAS." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Peaseblossom</persname>
+<persona gender="male" archetype="lover" id="975b30d7-87ee-4470-95b4-4e39cec8c383">
+<persname short="LYS." numberOfLines="176" numberOfVerseLines="170" numberOfProseLines="6" numberOfLyricsLines="0">Lysander</persname>
+</persona>
+
+<persona gender="male" archetype="lover" id="3078e08d-9aa7-4b98-a9d3-b0cfe59f3cac">
+<persname short="DEM." numberOfLines="128" numberOfVerseLines="115" numberOfProseLines="13" numberOfLyricsLines="0">Demetrius</persname>
+</persona>
+
+
+<persona gender="male" archetype="clown" id="c885f455-b724-4524-848b-cd77ce482240">
+<persname short="BOT." numberOfLines="123" numberOfVerseLines="76" numberOfProseLines="47" numberOfLyricsLines="8">Bottom</persname>
 <persaliases>
-	<persname short="ALL. FAIRIES.">All Fairies</persname>
+	<persname short="PYR." type="namechange">Pyramus</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="COB." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Cobweb</persname>
+<persona gender="male" archetype="clown" id="b464786b-377b-45c5-ba57-fa4bea332cba">
+<persname short="QUIN." numberOfLines="74" numberOfVerseLines="38" numberOfProseLines="36" numberOfLyricsLines="0">Quince</persname>
 <persaliases>
-	<persname short="ALL. FAIRIES.">All Fairies</persname>
+	<persname short="PRO." type="namechange">Prologue</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="MOTH." numberOfLines="3" numberOfVerseLines="2" numberOfProseLines="1" numberOfLyricsLines="0">Moth</persname>
+<persona gender="male" archetype="clown" id="2cf4a348-6bfb-499b-84a7-f006751a8f8c">
+<persname short="FLU." numberOfLines="48" numberOfVerseLines="39" numberOfProseLines="9" numberOfLyricsLines="0">Flute</persname>
 <persaliases>
-	<persname short="ALL. FAIRIES.">All Fairies</persname>
+	<persname short="THIS." type="namechange">Thisbe</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="male" archetype="clown" id="459d5b8b-93d7-4b4a-9854-46aff748f67b">
+<persname short="SNOUT." numberOfLines="19" numberOfVerseLines="12" numberOfProseLines="7" numberOfLyricsLines="0">Snout</persname>
+<persaliases>
+	<persname short="WALL." type="namechange">Wall</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" archetype="clown" id="ac3ba4e1-a87b-4f71-8c42-7831ee5c6eac">
+<persname short="SNUG." numberOfLines="11" numberOfVerseLines="8" numberOfProseLines="3" numberOfLyricsLines="0">Snug</persname>
+<persaliases>
+	<persname short="LION." type="namechange">Lion</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" archetype="clown" id="50fe2d96-9f22-4345-8fb8-0813c5de403b">
+<persname short="STAR." numberOfLines="8" numberOfVerseLines="3" numberOfProseLines="5" numberOfLyricsLines="0">Starveling</persname>
+<persaliases>
+	<persname short="MOON." type="namechange">Moonshine</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="56822bd3-6791-4c90-a337-8f6e8d33edfe">
+<persname short="EGE." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Egeus</persname>
+</persona>
+
+<persona gender="male" id="01078bae-50e9-4664-aa0a-980af3d2518c">
+<persname short="PHIL." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Philostrate</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="64467513-60d3-476e-a5d4-4a9f8f7f709d">
+<persname short="TITA." numberOfLines="141" numberOfVerseLines="141" numberOfProseLines="0" numberOfLyricsLines="4">Titania</persname>
+</persona>
+
+<persona gender="female" archetype="lover" id="455d8d71-3831-4672-9fa1-692968d48fad">
+<persname short="HEL." numberOfLines="229" numberOfVerseLines="229" numberOfProseLines="0" numberOfLyricsLines="0">Helena</persname>
+</persona>
+
+<persona gender="female" archetype="lover" id="232548c4-587a-4d77-8b48-baf884ef1fe4">
+<persname short="HER." numberOfLines="165" numberOfVerseLines="165" numberOfProseLines="0" numberOfLyricsLines="0">Hermia</persname>
+</persona>
+
+<persona gender="female" id="186faff6-79fe-4b12-99ba-0e98ee6e09ae">
 <persname short="MUS." numberOfLines="6" numberOfVerseLines="2" numberOfProseLines="4" numberOfLyricsLines="0">Mustardseed</persname>
 <persaliases>
-	<persname short="ALL. FAIRIES.">All Fairies</persname>
+	<persname short="ALL FAIRIES.">All Fairies</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2d1b4743-addf-4dda-83f8-3cc61f356324">
+<persname short="PEAS." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Peaseblossom</persname>
+<persaliases>
+	<persname short="ALL FAIRIES.">All Fairies</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="32b561d4-7bed-4043-942c-ed62b930c874">
+<persname short="COB." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Cobweb</persname>
+<persaliases>
+	<persname short="ALL FAIRIES.">All Fairies</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="6082bf6d-4e7f-4c41-8796-9ed36fa80f8a">
+<persname short="MOTH." numberOfLines="3" numberOfVerseLines="2" numberOfProseLines="1" numberOfLyricsLines="0">Moth</persname>
+<persaliases>
+	<persname short="ALL FAIRIES.">All Fairies</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="d5a05cd0-b128-4dc7-a27a-3752491c9dd9">
 <persname short="FAIRY." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="20">A Fairy</persname>
 <persaliases>
 	<persname short="CHORUS.">Fairy Chorus</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="0e890108-ed69-4efa-843f-3c0a8351b342">
+<persname short="HIP." numberOfLines="29" numberOfVerseLines="22" numberOfProseLines="7" numberOfLyricsLines="0">Hippolyta</persname>
+</persona>
+
+<persona gender="female" id="8174dd89-6bcb-44e6-9614-02079e18cfeb">
 <persname short="1. FAIRY." numberOfLines="16" numberOfVerseLines="16" numberOfProseLines="0" numberOfLyricsLines="16">First Fairy</persname>
 <persaliases>
 	<persname short="CHORUS.">Fairy Chorus</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2494bc01-6f38-4695-b6a7-9afc69c5d5dc">
 <persname short="2. FAIRY." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="10">Second Fairy</persname>
 <persaliases>
 	<persname short="CHORUS.">Fairy Chorus</persname>
 </persaliases>
 </persona>
+
+
+
+
+
 </personae>
 
 <act num="1">
@@ -149,6 +160,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A room in the palace of Theseus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -408,7 +420,6 @@
 	<action type="exit">
 		<actor>THE.</actor>
 		<actor>HIP.</actor>
-		<actor>PHIL.</actor>
 		<actor>EGE.</actor>
 		<actor>DEM.</actor>
 	</action>
@@ -684,6 +695,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A room in Quince&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUIN.">Quince</scenepersona>
 	<scenepersona short="SNUG.">Snug</scenepersona>
@@ -944,6 +956,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>In the woods near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FAIRY.">Fairy</scenepersona>
 	<scenepersona short="PUCK.">Puck</scenepersona>
@@ -1448,7 +1461,6 @@
 	<action type="exit">
 		<actor>FAIRY.</actor>
 		<actor>OBE.</actor>
-		<actor>HEL.</actor>
 		<actor>PUCK.</actor>
 	</action>
 </stagedir>
@@ -1458,9 +1470,10 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the woods near Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TITA.">Titania</scenepersona>
-	<scenepersona short="ALL. FAIRIES.">Fairies</scenepersona>
+	<scenepersona short="ALL FAIRIES.">Fairies</scenepersona>
 	<scenepersona short="OBE.">Oberon</scenepersona>
 	<scenepersona short="LYS.">Lysander</scenepersona>
 	<scenepersona short="HER.">Hermia</scenepersona>
@@ -1478,7 +1491,7 @@
 	<dir>Enter Titania, Queen of Fairies, with her Train.</dir>
 	<action type="enter">
 		<actor>TITA.</actor>
-		<actor>ALL. FAIRIES.</actor>
+		<actor>ALL FAIRIES.</actor>
 	</action>
 </stagedir>
 
@@ -1497,7 +1510,7 @@
 <stagedir sdglobalnumber="586.01" sdnumber="8.01">
 	<dir>Fairies sing.</dir>
 	<action type="song">
-		<actor>ALL. FAIRIES.</actor>
+		<actor>ALL FAIRIES.</actor>
 	</action>
 </stagedir>
 
@@ -1542,7 +1555,7 @@
 <stagedir sdglobalnumber="604.01" sdnumber="26.01">
 	<dir>Exeunt Fairies. Titania sleeps.</dir>
 	<action type="exit">
-		<actor>ALL. FAIRIES.</actor>
+		<actor>ALL FAIRIES.</actor>
 	</action>
 	<action type="action">
 		<actor>TITA.</actor>
@@ -1853,6 +1866,12 @@
 	<action type="exit">
 		<actor>HER.</actor>
 	</action>
+	<action type="action">
+		<actor>TITA.</actor>
+	</action>
+	<action type="exit">
+		<actor>TITA.</actor>
+	</action>
 </stagedir>
 
 </scene>
@@ -1863,6 +1882,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>In the woods.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUIN.">Quince</scenepersona>
 	<scenepersona short="SNUG.">Snug</scenepersona>
@@ -1891,6 +1911,9 @@
 		<actor>FLU.</actor>
 		<actor>SNOUT.</actor>
 		<actor>STAR.</actor>
+	</action>
+	<action type="enter">
+		<actor>TITA.</actor>
 	</action>
 	<action type="action">
 		<actor>TITA.</actor>
@@ -2309,7 +2332,7 @@
 </speech>
 
 <speech>
-<speaker long="All Fairies">ALL. FAIRIES.</speaker>
+<speaker long="All Fairies">ALL FAIRIES.</speaker>
 <line globalnumber="827" number="88" form="verse" offset="7">Where shall we go?</line>
 </speech>
 
@@ -2409,6 +2432,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the woods.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="OBE.">Oberon</scenepersona>
 	<scenepersona short="PUCK.">Puck</scenepersona>
@@ -2526,7 +2550,7 @@
 <line globalnumber="905" number="51" form="verse">As he to me. Would he have stolen away</line>
 <line globalnumber="906" number="52" form="verse">From sleeping Hermia? I&#8217;ll believe as soon</line>
 <line globalnumber="907" number="53" form="verse">This whole earth may be bor&#8217;d, and that the moon</line>
-<line globalnumber="908" number="54" form="verse">May through the centre creep, and so displease</line>
+<line globalnumber="908" number="54" form="verse">May through the center creep, and so displease</line>
 <line globalnumber="909" number="55" form="verse">Her brother&#8217;s noontide with th&#8217; Antipodes.</line>
 <line globalnumber="910" number="56" form="verse">It cannot be but thou hast murd&#8217;red him;</line>
 <line globalnumber="911" number="57" form="verse">So should a murderer look&#8212;so dead, so grim.</line>
@@ -3564,6 +3588,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Another part of the woods.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TITA.">Titania</scenepersona>
 	<scenepersona short="BOT.">Bottom</scenepersona>
@@ -3859,7 +3884,7 @@
 
 <stagedir sdglobalnumber="1421.01" sdnumber="83.01">
 	<dir>Exeunt. Wind horn within.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>OBE.</actor>
 		<actor>TITA.</actor>
 		<actor>PUCK.</actor>
@@ -3874,7 +3899,8 @@
 		<actor>THE.</actor>
 		<actor>HIP.</actor>
 		<actor>EGE.</actor>
-		<actor>Attendants</actor>
+		<actor>Attendant</actor>
+		<actor>Attendant</actor>
 	</action>
 </stagedir>
 
@@ -3953,6 +3979,12 @@
 	</action>
 	<action type="sound">
 	</action>
+	<action type="action">
+		<actor>LYS.</actor>
+		<actor>HER.</actor>
+		<actor>HEL.</actor>
+		<actor>DEM.</actor>
+	</action>		
 </stagedir>
 <line globalnumber="1458" number="120" form="verse">Good morrow, friends. Saint Valentine is past;</line>
 <line globalnumber="1459" number="121" form="verse">Begin these wood-birds but to couple now?</line>
@@ -4045,7 +4077,7 @@
 		<actor>THE.</actor>
 		<actor>HIP.</actor>
 		<actor>EGE.</actor>
-		<actor>Attendants</actor>
+		<actor>Attendant</actor>
 	</action>
 </stagedir>
 
@@ -4130,6 +4162,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A room in Quince&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="QUIN.">Quince</scenepersona>
 	<scenepersona short="FLU.">Flute</scenepersona>
@@ -4257,6 +4290,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A room in the palace of Theseus.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THE.">Theseus</scenepersona>
 	<scenepersona short="HIP.">Hippolyta</scenepersona>
@@ -5291,7 +5325,6 @@
 <stagedir sdglobalnumber="1884.01" sdnumber="343.01">
 	<dir>Song and dance.</dir>
 	<action type="song">
-		<actor></actor>
 	</action>
 </stagedir>
 
@@ -5360,14 +5393,11 @@
 </act>
 
 
-<locations numberOfLocations="6">
-<placename>Another part of the woods near Athens.</placename>
-<placename>Another part of the woods.</placename>
-<placename>Athens. A room in Quince&#8217;s house.</placename>
-<placename>Athens. A room in the palace of Theseus.</placename>
-<placename>In the woods near Athens.</placename>
-<placename>In the woods.</placename>
-</locations>
+
+
+
+
+
 
 <sources>
 <playsource>
@@ -5435,7 +5465,7 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

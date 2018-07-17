@@ -1,41 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="timon-of-athens">
 <title short="Timon of Athens">The Life of Timon of Athens</title>
-<playwright>William Shakespeare and Thomas Middleton</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+		<playwright>Thomas Middleton</playwright>
+</playwrights>
 <pubdate>1607-1608</pubdate>
+
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
 
 <personae playtitle="Timon of Athens">
 
-<persona gender="male" archetype="hero" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="c9df550c-840d-45a4-aa50-39b533445fc0">
 <persname short="TIM." numberOfLines="769" numberOfVerseLines="716" numberOfProseLines="53" numberOfLyricsLines="0">Timon of Athens</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="ALCIB." numberOfLines="157" numberOfVerseLines="155" numberOfProseLines="2" numberOfLyricsLines="0">Alcibiades</persname>
+<persona gender="male" id="8735f2a3-ab8f-4db6-bc59-66df85b25659">
+<persname short="FLAV." numberOfLines="204" numberOfVerseLines="199" numberOfProseLines="5" numberOfLyricsLines="0">Flavius</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="8a7cc70b-bd0a-413d-91d8-779b06c27cc9">
 <persname short="APEM." numberOfLines="193" numberOfVerseLines="129" numberOfProseLines="64" numberOfLyricsLines="0">Apemantus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAPH." numberOfLines="21" numberOfVerseLines="20" numberOfProseLines="1" numberOfLyricsLines="0">Caphis</persname>
+<persona gender="male" archetype="hero" id="7d37549f-09f3-43a3-9264-59ed10995c4a">
+<persname short="ALCIB." numberOfLines="157" numberOfVerseLines="155" numberOfProseLines="2" numberOfLyricsLines="0">Alcibiades</persname>
 </persona>
 
-<persona gender="female">
-<persname short="CUP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Cupid</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. BAN." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">First Bandit</persname>
+<persona gender="male" id="8b79bf4c-bc82-4b2c-a0cc-eaf03b9d6862">
+<persname short="POET." numberOfLines="113" numberOfVerseLines="108" numberOfProseLines="5" numberOfLyricsLines="0">Poet</persname>
 <persaliases>
-	<persname short="ALL BAN.">All Bandits</persname>
+	<persname short="BOTH POET. AND PAIN.">Both Poet and Painter</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1843be92-0332-4783-91fe-7aba5528c560">
+<persname short="PAIN." numberOfLines="78" numberOfVerseLines="77" numberOfProseLines="1" numberOfLyricsLines="0">Painter</persname>
+<persaliases>
+	<persname short="BOTH POET. AND PAIN.">Both Poet and Painter</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="121bf218-7ac9-479c-ad4c-5a47febb2775">
+<persname short="FLAM." numberOfLines="35" numberOfVerseLines="26" numberOfProseLines="9" numberOfLyricsLines="0">Flaminius</persname>
+<persaliases>
+	<persname short="THREE SERVANTS.">Three Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="a1b71428-370a-4a3f-85af-9b4dc6098763">
+<persname short="SER." numberOfLines="24" numberOfVerseLines="17" numberOfProseLines="7" numberOfLyricsLines="0">Servilius</persname>
+<persaliases>
+	<persname short="THREE SERVANTS.">Three Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="bd37f308-a410-4bd5-ae23-ac2903cde5f0">
+<persname short="TIM. SERV." numberOfLines="18" numberOfVerseLines="16" numberOfProseLines="2" numberOfLyricsLines="0">Timon&#8217;s Servant</persname>
+<persaliases>
+	<persname short="THREE SERVANTS.">Three Servants</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="005431f7-a378-4ebf-baf2-cbb666bc43d6">
+<persname short="LUCIL." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Lucilius</persname>
+</persona>
+
+<persona gender="male" id="4439188e-34bc-42f0-bdf1-aa5faf319e0e">
+<persname short="OLD ATH." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Old Athenian</persname>
+</persona>
+
+<persona gender="male" id="5f153f72-15dc-430a-bf27-14187ad049a5">
+<persname short="SEM." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Sempronius</persname>
+</persona>
+
+<persona gender="male" id="50328268-4c2d-4170-9f09-5b7472888518">
+<persname short="CAPH." numberOfLines="21" numberOfVerseLines="20" numberOfProseLines="1" numberOfLyricsLines="0">Caphis</persname>
+</persona>
+
+<persona gender="male" id="ab9c1c52-cfff-4624-9ec3-171a57fb347e">
+<persname short="TIT." numberOfLines="14" numberOfVerseLines="11" numberOfProseLines="3" numberOfLyricsLines="0">Titus</persname>
+</persona>
+
+<persona gender="male" id="a5d67d46-8405-4a08-8121-213e120b4788">
+<persname short="LUC." numberOfLines="13" numberOfVerseLines="6" numberOfProseLines="7" numberOfLyricsLines="0">Lucius</persname>
+</persona>
+
+<persona gender="male" id="14a041ae-65bb-4d30-b695-5749e218f19e">
+<persname short="JEW." numberOfLines="12" numberOfVerseLines="11" numberOfProseLines="1" numberOfLyricsLines="0">Jeweler</persname>
+</persona>
+
+<persona gender="male" id="f80a1fe7-9c29-4f41-b752-580dfd68e1df">
+<persname short="MER." numberOfLines="11" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Merchant</persname>
+</persona>
+
+<persona gender="male" id="8064e377-c990-4dd0-95ef-b65f5e14567f">
+<persname short="VEN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Ventidius</persname>
+</persona>
+
+<persona gender="male" id="906d5ae3-9cee-47fc-8a6d-38c3545a81ef">
+<persname short="FOOL." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Fool</persname>
+</persona>
+
+<persona gender="male" id="e4b14fa5-9a21-4c4b-9ac5-7db457863193">
+<persname short="HOR." numberOfLines="9" numberOfVerseLines="7" numberOfProseLines="2" numberOfLyricsLines="0">Hortensius</persname>
+</persona>
+
+<persona gender="male" id="798a3840-f10e-42f1-b2c1-9852817a2ab1">
+<persname short="LUCUL." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Lucullus</persname>
+</persona>
+
+<persona gender="male" id="6e47667f-7c68-4553-966e-b1f3551c818b">
 <persname short="2. BAN." numberOfLines="8" numberOfVerseLines="1" numberOfProseLines="7" numberOfLyricsLines="0">Second Bandit</persname>
 <persaliases>
 	<persname short="ALL BAN.">All Bandits</persname>
@@ -43,7 +123,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f5bad299-8f5e-4f00-8067-24babe7e4a24">
+<persname short="1. BAN." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">First Bandit</persname>
+<persaliases>
+	<persname short="ALL BAN.">All Bandits</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="c77dd76a-40be-49cd-a578-65a0d2c46f62">
 <persname short="3. BAN." numberOfLines="7" numberOfVerseLines="1" numberOfProseLines="6" numberOfLyricsLines="0">Third Bandit</persname>
 <persaliases>
 	<persname short="ALL BAN.">All Bandits</persname>
@@ -51,18 +138,47 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="1. LADY MASK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Lady Amazon Masker</persname>
+<persona gender="male" id="10023726-81f7-463e-9434-db213efe03e8">
+<persname short="PHI." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Philotus</persname>
+</persona>
+
+<persona gender="male" id="04b30248-0e8d-4396-8285-bdb3b3bb0a5a">
+<persname short="PHRY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Phrynia</persname>
 <persaliases>
-	<persname short="ALL LADY MASK.">All Lady Amazon Maskers</persname>
+	<persname short="BOTH PHRY. AND TIMAN.">Both Phrynia and Timan</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="ALL LADY MASK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">All Lady Amazon Maskers</persname>
+<persona gender="female" id="c2d575e8-b337-4f87-ba5c-e4f8444c1137">
+<persname short="TIMAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Timandra</persname>
+<persaliases>
+	<persname short="BOTH PHRY. AND TIMAN.">Both Phrynia and Timan</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3531b913-682b-4613-a1d5-52189a90cc06">
+<persname short="1. SEN." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
+<persaliases>
+    <persname short="BOTH 1. SEN. AND 2. SEN.">Both 1. SEN. and 2. SEN.</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="1c90b949-c5b8-4b51-854e-c42feca0684b">
+<persname short="2. SEN." numberOfLines="62" numberOfVerseLines="62" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
+<persaliases>
+    <persname short="BOTH 1. SEN. AND 2. SEN.">Both 1. SEN. and 2. SEN.</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="e095f8a0-2445-494a-a5de-50edd3fdfd72">
+<persname short="3. SEN." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Third Senator</persname>
+</persona>
+
+<persona gender="male" id="430018b0-06f8-4c18-848e-9e8284ba8b14">
+<persname short="4. SEN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Senator</persname>
+</persona>
+
+<persona gender="male" id="fb78238f-6de4-4f04-8ca7-71e6f7c5773c">
 <persname short="1. LORD." numberOfLines="34" numberOfVerseLines="14" numberOfProseLines="20" numberOfLyricsLines="0">First Lord</persname>
 <persaliases>
 	<persname short="BOTH 1. LORD. AND 2. LORD.">Both First and Second Lords</persname>
@@ -70,7 +186,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="83ba65b7-4049-49ba-b59e-ba5effbd19e5">
 <persname short="2. LORD." numberOfLines="36" numberOfVerseLines="13" numberOfProseLines="23" numberOfLyricsLines="0">Second Lord</persname>
 <persaliases>
 	<persname short="BOTH 1. LORD. AND 2. LORD.">Both First and Second Lords</persname>
@@ -78,7 +194,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="45460451-a5a3-408c-b947-0116a90bb97c">
 <persname short="3. LORD." numberOfLines="14" numberOfVerseLines="5" numberOfProseLines="9" numberOfLyricsLines="0">Third Lord</persname>
 <persaliases>
 	<persname short="ALL LORDS.">All Lords</persname>
@@ -86,7 +202,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="78d1cc0d-2b24-47cf-97fa-665667e6165c">
 <persname short="4. LORD." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Fourth Lord</persname>
 <persaliases>
 	<persname short="ALL LORDS.">All Lords</persname>
@@ -94,169 +210,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. SEN." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">First Senator</persname>
-<persaliases>
-    <persname short="BOTH 1. SEN. AND 2. SEN.">Both 1. SEN. and 2. SEN.</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="2. SEN." numberOfLines="62" numberOfVerseLines="62" numberOfProseLines="0" numberOfLyricsLines="0">Second Senator</persname>
-<persaliases>
-    <persname short="BOTH 1. SEN. AND 2. SEN.">Both 1. SEN. and 2. SEN.</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="3. SEN." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Third Senator</persname>
-</persona>
-
-<persona gender="male">
-<persname short="4. SEN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Senator</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. STRAN." numberOfLines="26" numberOfVerseLines="25" numberOfProseLines="1" numberOfLyricsLines="0">First Stranger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. STRAN." numberOfLines="3" numberOfVerseLines="1" numberOfProseLines="2" numberOfLyricsLines="0">Second Stranger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. STRAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Stranger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FLAM." numberOfLines="35" numberOfVerseLines="26" numberOfProseLines="9" numberOfLyricsLines="0">Flaminius</persname>
-<persaliases>
-	<persname short="THREE SERVANTS.">Three Servants</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="FLAV." numberOfLines="204" numberOfVerseLines="199" numberOfProseLines="5" numberOfLyricsLines="0">Flavius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="FOOL." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Fool</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HOR." numberOfLines="9" numberOfVerseLines="7" numberOfProseLines="2" numberOfLyricsLines="0">Hortensius</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="bcd70082-fb2d-41fb-af0a-517d59d75b69">
 <persname short="ISID. SERV." numberOfLines="13" numberOfVerseLines="5" numberOfProseLines="8" numberOfLyricsLines="0">Isidore&#8217;s Servant</persname>
 <persaliases>
 	<persname short="ALL SERV.">All Servants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="JEW." numberOfLines="12" numberOfVerseLines="11" numberOfProseLines="1" numberOfLyricsLines="0">Jeweler</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUCIL." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Lucilius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUC." numberOfLines="13" numberOfVerseLines="6" numberOfProseLines="7" numberOfLyricsLines="0">Lucius</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="8c8a7c2d-d844-4c3d-ac69-89ee17bc8be2">
 <persname short="LUC. SERV." numberOfLines="31" numberOfVerseLines="27" numberOfProseLines="4" numberOfLyricsLines="0">Lucius&#8217;s Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LUCUL." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Lucullus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LUCUL. SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lucullus&#8217;s Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MER." numberOfLines="11" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Merchant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MESS. VENT." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Messenger from Ventidius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OLD ATH." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Old Athenian</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PAIN." numberOfLines="78" numberOfVerseLines="77" numberOfProseLines="1" numberOfLyricsLines="0">Painter</persname>
-<persaliases>
-	<persname short="BOTH POET. AND PAIN.">Both Poet and Painter</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="PHI." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Philotus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PHRY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Phrynia</persname>
-<persaliases>
-	<persname short="BOTH PHRY. AND TIMAN.">Both Phrynia and Timan</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="POET." numberOfLines="113" numberOfVerseLines="108" numberOfProseLines="5" numberOfLyricsLines="0">Poet</persname>
-<persaliases>
-	<persname short="BOTH POET. AND PAIN.">Both Poet and Painter</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="SEM." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Sempronius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SER." numberOfLines="24" numberOfVerseLines="17" numberOfProseLines="7" numberOfLyricsLines="0">Servilius</persname>
-<persaliases>
-	<persname short="THREE SERVANTS.">Three Servants</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="SOLD." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Soldier</persname>
-</persona>
-
-<persona gender="female">
-<persname short="TIMAN." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Timandra</persname>
-<persaliases>
-	<persname short="BOTH PHRY. AND TIMAN.">Both Phrynia and Timan</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="TIM. PAGE." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Timon&#8217;s Page</persname>
-</persona>
-
-<persona gender="male">
-<persname short="TIM. SERV." numberOfLines="18" numberOfVerseLines="16" numberOfProseLines="2" numberOfLyricsLines="0">Timon&#8217;s Servant</persname>
-<persaliases>
-	<persname short="THREE SERVANTS.">Three Servants</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="TIT." numberOfLines="14" numberOfVerseLines="11" numberOfProseLines="3" numberOfLyricsLines="0">Titus</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="9300c15a-5157-4c4d-9a5c-ce5167cf4ab1">
 <persname short="1. VAR. SERV." numberOfLines="25" numberOfVerseLines="11" numberOfProseLines="14" numberOfLyricsLines="0">Varro&#8217;s First Servant</persname>
 <persaliases>
 	<persname short="BOTH 1. VAR. SERV. AND 2. VAR. SERV.">Varro&#8217;s First and Second Servants</persname>
@@ -264,7 +229,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c9f64e28-d635-4515-bfe2-58ab561acf02">
 <persname short="2. VAR. SERV." numberOfLines="10" numberOfVerseLines="1" numberOfProseLines="9" numberOfLyricsLines="0">Varro&#8217;s Second Servant</persname>
 <persaliases>
 	<persname short="BOTH 1. VAR. SERV. AND 2. VAR. SERV.">Varro&#8217;s First and Second Servants</persname>
@@ -272,9 +237,56 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="VEN." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Ventidius</persname>
+<persona gender="male" id="81796ef0-ca69-40c2-bb7e-16f5ec3e0d48">
+<persname short="LUCUL. SERV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Lucullus&#8217;s Servant</persname>
 </persona>
+
+<persona gender="male" id="2ed047de-39f4-4091-954e-e5a2949689ad">
+<persname short="1. STRAN." numberOfLines="26" numberOfVerseLines="25" numberOfProseLines="1" numberOfLyricsLines="0">First Stranger</persname>
+</persona>
+
+<persona gender="male" id="c78efefd-7eb1-47cc-9704-34249f1407e5">
+<persname short="2. STRAN." numberOfLines="3" numberOfVerseLines="1" numberOfProseLines="2" numberOfLyricsLines="0">Second Stranger</persname>
+</persona>
+
+<persona gender="male" id="47fb55bb-89ca-4363-ad27-04a266633144">
+<persname short="3. STRAN." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Stranger</persname>
+</persona>
+
+<persona gender="female" id="ef96bcb9-87c5-4ed9-b7b6-e1cad7b21a5f">
+<persname short="CUP." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Cupid</persname>
+</persona>
+
+<persona gender="male" id="112a4dc4-05c0-4465-99c0-38169501d25a">
+<persname short="SOLD." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Soldier</persname>
+</persona>
+
+<persona gender="female" id="11f9ba7e-f026-4dc3-aef4-81f063499f5a">
+<persname short="1. LADY MASK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Lady Amazon Masker</persname>
+<persaliases>
+	<persname short="ALL LADY MASKERS.">All Lady Amazon Maskers</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="6549a83c-7b7e-4e29-b046-5719599b83a9">
+<persname short="ALL LADY MASK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">All Lady Amazon Maskers</persname>
+<persaliases>
+	<persname short="ALL LADY MASKERS.">All Lady Amazon Maskers</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="c8669cd1-6caa-4f04-9b12-99627e526deb">
+<persname short="MESS." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Messenger</persname>
+</persona>
+
+<persona gender="male" id="9915a542-831d-4053-8dc3-761de086319f">
+<persname short="MESS. VENT." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Messenger from Ventidius</persname>
+</persona>
+
+<persona gender="male" id="21be3ffa-36f6-4848-9375-cda12a9c44cc">
+<persname short="TIM. PAGE." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Timon&#8217;s Page</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -282,6 +294,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A hall in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POET.">Poet</scenepersona>
 	<scenepersona short="PAIN.">Painter</scenepersona>
@@ -1367,6 +1380,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A banqueting-room in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLAV.">Flavius</scenepersona>
 	<scenepersona short="TIM.">Lord Timon</scenepersona>
@@ -1393,7 +1407,7 @@
 	<dir>Hoboys playing loud music. A great banquet serv&#8217;d in, Flavius and others attending.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
+	<action type="enter">
 		<actor>FLAV.</actor>
 	</action>
 </stagedir>
@@ -1404,13 +1418,14 @@
 		<actor>States</actor>
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
+		<actor>3. LORD.</actor>
 		<actor>ALCIB.</actor>
 		<actor>VEN.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="300.04" sdnumber="0.03">
 	<dir>Then comes, dropping after all, Apemantus, discontentedly, like himself.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>APEM.</actor>
 	</action>
 </stagedir>
@@ -1460,6 +1475,7 @@
 		<actor>States</actor>
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
+		<actor>3. LORD.</actor>
 		<actor>ALCIB.</actor>
 		<actor>VEN.</actor>
 		<actor>APEM.</actor>
@@ -1742,6 +1758,7 @@
 	<action type="action">
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
+		<actor>3. LORD.</actor>
 	</action>
 </stagedir>
 
@@ -2167,6 +2184,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A room in a Senator&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="3. SEN.">Third Senator</scenepersona>
 	<scenepersona short="CAPH.">Caphis</scenepersona>
@@ -2269,6 +2287,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A hall in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLAV.">Steward Flavius</scenepersona>
 	<scenepersona short="CAPH.">Caphis</scenepersona>
@@ -3041,7 +3060,6 @@
 <stagedir sdglobalnumber="770.01" sdnumber="197.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>ALCIB.</actor>
 		<actor>TIM.</actor>
 		<actor>FLAV.</actor>
 	</action>
@@ -3055,6 +3073,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Athens. A room in Lucullus&#8217; house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLAM.">Flaminius</scenepersona>
 	<scenepersona short="LUCUL.">Lucullus</scenepersona>
@@ -3230,6 +3249,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LUC.">Lucius</scenepersona>
 	<scenepersona short="1. STRAN.">First Stranger</scenepersona>
@@ -3440,6 +3460,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Athens. A room in Sempronius&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIM. SERV.">Timon&#8217;s Servant</scenepersona>
 	<scenepersona short="SEM.">Sempronius</scenepersona>
@@ -3528,6 +3549,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Athens. A hall in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BOTH 1. VAR. SERV. AND 2. VAR. SERV.">Varro&#8217;s two Servants</scenepersona>
 	<scenepersona short="TIT.">Titus</scenepersona>
@@ -3980,7 +4002,6 @@
 		<actor>HOR.</actor> 
 		<actor>PHI.</actor>
 		<actor>SER.</actor>
-		<actor>TIM.</actor>
 		<actor>FLAM.</actor>
 	</action>
 </stagedir>
@@ -4050,7 +4071,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>TIM.</actor>
-		<actor>FLAM.</actor>
+		<actor>FLAV.</actor>
 	</action>
 </stagedir>
 
@@ -4059,6 +4080,7 @@
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Athens. The Senate House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
 	<scenepersona short="2. SEN.">First Senator</scenepersona>
@@ -4331,6 +4353,7 @@
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Athens. A banqueting-room in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>Servants</scenepersona>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
@@ -4348,10 +4371,14 @@
 
 <stagedir sdglobalnumber="1129.02" sdnumber="0.01">
 	<dir>Music. Tables set out: Servants attending.</dir>
+	<action type="enter">
+		<actor>Servants</actor>
+	</action>
 	<action type="action">
 		<actor>Servants</actor>
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="1129.03" sdnumber="0.02">
 	<dir>Enter divers friends of Timon, Senators and other Lords, at several doors.</dir>
 	<action type="enter">
@@ -4649,6 +4676,7 @@
 		<actor>1. LORD.</actor>
 		<actor>2. LORD.</actor>
 		<actor>Attendants</actor>
+		<actor>Servants</actor>
 	</action>
 </stagedir>
 
@@ -4744,6 +4772,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Outside the walls of Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIM.">Timon</scenepersona>
 </scenepersonae>
@@ -4816,6 +4845,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Athens. A room in Timon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLAV.">Steward Flavius</scenepersona>	
 	<scenepersona short="FLAM.">Flaminius</scenepersona>
@@ -4959,6 +4989,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Woods and cave near the seashore.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TIM.">Timon</scenepersona>
 	<scenepersona short="ALCIB.">Alcibiades</scenepersona>
@@ -5641,7 +5672,7 @@
 <line globalnumber="1602" number="280" form="verse" offset="4">Here, I will mend thy feast.</line>
 </speech>
 
-<stagedir sdglobalnumber="1602.01" sdnumber="280.01">
+<stagedir sdglobalnumber="1602.01" sdnumber="280.02">
 	<dir>Offering him another.</dir>
 	<action type="action">
 		<actor>APEM.</actor>
@@ -6264,6 +6295,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The woods. Before Timon&#8217;s cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POET.">Poet</scenepersona>
 	<scenepersona short="PAIN.">Painter</scenepersona>
@@ -6361,7 +6393,7 @@
 
 <stagedir sdglobalnumber="1850.01" sdnumber="30.01">
 	<dir>Enter Timon from his cave.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>TIM.</actor>
 	</action>
 </stagedir>
@@ -6950,6 +6982,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before the walls of Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
 	<scenepersona short="2. SEN.">First Senator</scenepersona>
@@ -7038,6 +7071,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The woods. A rude tomb near Timon&#8217;s cave.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SOLD.">Soldier</scenepersona>
 </scenepersonae>
@@ -7085,6 +7119,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before the walls of Athens.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ALCIB.">Alcibiades</scenepersona>
 	<scenepersona short="1. SEN.">First Senator</scenepersona>
@@ -7116,7 +7151,7 @@
 </stagedir>
 <stagedir sdglobalnumber="2106.02" sdnumber="2.02">
 	<dir>The Senators appear upon the walls.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>1. SEN.</actor>
 		<actor>2. SEN.</actor>
 	</action>
@@ -7303,21 +7338,7 @@
 </act>
 
 
-<locations numberOfLocations="13">
-<placename>Athens. A banqueting-room in Timon&#8217;s house.</placename>
-<placename>Athens. A hall in Timon&#8217;s house.</placename>
-<placename>Athens. A public place.</placename>
-<placename>Athens. A room in Lucullus&#8217; house.</placename>
-<placename>Athens. A room in Sempronius&#8217;s house.</placename>
-<placename>Athens. A room in Timon&#8217;s house.</placename>
-<placename>Athens. A room in a Senator&#8217;s house.</placename>
-<placename>Athens. The Senate House.</placename>
-<placename>Before the walls of Athens.</placename>
-<placename>Outside the walls of Athens.</placename>
-<placename>The woods. A rude tomb near Timon&#8217;s cave.</placename>
-<placename>The woods. Before Timon&#8217;s cave.</placename>
-<placename>Woods and cave near the seashore.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -7372,12 +7393,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

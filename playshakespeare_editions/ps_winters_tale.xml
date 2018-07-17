@@ -1,163 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="winters-tale">
 <title short="Winter&#8217;s Tale">The Winter&#8217;s Tale</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1610-1611</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="The Winter&#8217;s Tale">
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="46eaa3bb-4f32-4ac1-bb47-064e4c9c279a">
 <persname short="LEON." numberOfLines="692" numberOfVerseLines="692" numberOfProseLines="0" numberOfLyricsLines="0">Leontes, King of Sicilia</persname>
 </persona>
 
-<persona gender="male" death="yes">
-<persname short="MAM." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Mamillius</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="129a2f2a-0def-4c80-9b2a-f5a91895bd66">
 <persname short="CAM." numberOfLines="263" numberOfVerseLines="250" numberOfProseLines="13" numberOfLyricsLines="0">Camillo</persname>
 </persona>
 
-<persona gender="male" death="yes">
+<persona gender="male" id="b0ea4474-47f6-4499-9e56-2b394a3619b2">
+<persname short="POL." numberOfLines="237" numberOfVerseLines="230" numberOfProseLines="7" numberOfLyricsLines="0">Polixenes, King of Bohemia</persname>
+</persona>
+
+<persona gender="male" id="a2c07261-6d68-4453-b245-98dc5a3a720b">
+<persname short="FLO." numberOfLines="205" numberOfVerseLines="204" numberOfProseLines="1" numberOfLyricsLines="0">Florizel</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="3a64b0d3-231f-492f-9473-9f0c49362a57">
+<persname short="AUT." numberOfLines="122" numberOfVerseLines="53" numberOfProseLines="69" numberOfLyricsLines="50">Autolycus</persname>
+</persona>
+
+<persona gender="male" death="yes" id="335b242b-baef-4975-bb59-17922217336c">
 <persname short="ANT." numberOfLines="111" numberOfVerseLines="111" numberOfProseLines="0" numberOfLyricsLines="0">Antigonus</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CLEO." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Cleomines</persname>
-<persaliases>
-	<persname short="BOTH CLEO. AND DION.">Both Cleomines and Dion</persname>
-</persaliases>
+<persona gender="male" archetype="clown" id="782ce7c4-39e4-4cb8-aebc-49ef64adbc02">
+<persname short="SHEP." numberOfLines="88" numberOfVerseLines="54" numberOfProseLines="34" numberOfLyricsLines="0">Old Shepherd</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="3088cf14-9109-43c0-8135-4788fffa1fac">
+<persname short="CLO." numberOfLines="65" numberOfVerseLines="3" numberOfProseLines="62" numberOfLyricsLines="0">Clown</persname>
+</persona>
+
+<persona gender="male" id="df8af978-06d1-4aaf-9a8a-b85445f5a396">
+<persname short="TIME." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Time, as Chorus</persname>
+</persona>
+
+<persona gender="male" id="b9b7866b-41e1-4154-9e25-d22c8c3e9db6">
 <persname short="DION." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Dion</persname>
 <persaliases>
 	<persname short="BOTH CLEO. AND DION.">Both Cleomines and Dion</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="POL." numberOfLines="237" numberOfVerseLines="230" numberOfProseLines="7" numberOfLyricsLines="0">Polixenes, King of Bohemia</persname>
+<persona gender="male" id="1088b4a0-b393-4cc2-8011-5643d6a37987">
+<persname short="CLEO." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="0">Cleomines</persname>
+<persaliases>
+	<persname short="BOTH CLEO. AND DION.">Both Cleomines and Dion</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FLO." numberOfLines="205" numberOfVerseLines="204" numberOfProseLines="1" numberOfLyricsLines="0">Florizel</persname>
+<persona gender="male" death="yes" id="ccbfb0db-9205-4a07-b71a-7c8cddf202ee">
+<persname short="MAM." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Mamillius</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ARCH." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Archidamus</persname>
+<persona gender="female" archetype="hero" id="6278e59a-5df8-47d2-a89c-1ca0f3e648f5">
+<persname short="PAUL." numberOfLines="333" numberOfVerseLines="333" numberOfProseLines="0" numberOfLyricsLines="0">Paulina</persname>
+<persaliases>
+	<persname short="CHILD.">Child</persname>
+</persaliases>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="SHEP." numberOfLines="88" numberOfVerseLines="54" numberOfProseLines="34" numberOfLyricsLines="0">Old Shepherd</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="CLO." numberOfLines="65" numberOfVerseLines="3" numberOfProseLines="62" numberOfLyricsLines="0">Clown</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="AUT." numberOfLines="122" numberOfVerseLines="53" numberOfProseLines="69" numberOfLyricsLines="50">Autolycus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAR." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Mariner</persname>
-</persona>
-
-<persona gender="male">
-<persname short="JAIL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
+<persona gender="female" archetype="hero" id="012c8f8b-534e-40de-969a-19ec2bbfd0d0">
 <persname short="HER." numberOfLines="211" numberOfVerseLines="211" numberOfProseLines="0" numberOfLyricsLines="0">Hermione</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="aa2a69bd-c562-4376-96fa-1cfef814bcc1">
 <persname short="PER." numberOfLines="128" numberOfVerseLines="127" numberOfProseLines="1" numberOfLyricsLines="0">Perdita</persname>
 </persona>
 
-<persona gender="female" archetype="hero">
-<persname short="PAUL." numberOfLines="333" numberOfVerseLines="333" numberOfProseLines="0" numberOfLyricsLines="0">Paulina</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="53694f85-bc4b-4a93-ac71-887f5996516c">
 <persname short="EMIL." numberOfLines="20" numberOfVerseLines="20" numberOfProseLines="0" numberOfLyricsLines="0">Emilia</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="6189734f-9267-4984-b622-8b56a06b684c">
 <persname short="MOP." numberOfLines="15" numberOfVerseLines="7" numberOfProseLines="8" numberOfLyricsLines="6">Mopsa</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="9167f198-e94d-425c-960d-b06c59f80ccd">
 <persname short="DOR." numberOfLines="12" numberOfVerseLines="8" numberOfProseLines="4" numberOfLyricsLines="6">Dorcas</persname>
 </persona>
 
-<persona gender="male">
-<persname short="TIME." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Time, as Chorus</persname>
-</persona>
-
-<persona gender="female">
-<persname short="1. LADY" numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Lady</persname>
-</persona>
-
-<persona gender="female">
-<persname short="2. LADY" numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Lady</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="5ba9edf4-d93d-4fee-9c4b-0b7b067b6bc5">
 <persname short="OFF." numberOfLines="14" numberOfVerseLines="12" numberOfProseLines="2" numberOfLyricsLines="0">Officer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bafbd752-b72a-43e4-ae72-699dd3c26778">
+<persname short="JAIL." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Jailer</persname>
+</persona>
+
+<persona gender="male" id="3cea5ae9-45ea-4934-aa42-b208ccd76f78">
+<persname short="MAR." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Mariner</persname>
+</persona>
+
+<persona gender="male" id="632dcc0e-1294-4f7b-abc7-b0ca16ce7268">
+<persname short="ARCH." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">Archidamus</persname>
+</persona>
+
+<persona gender="female" id="60088c39-532f-4be0-8ce4-bb061c8e6d11">
+<persname short="1. LADY" numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Lady</persname>
+</persona>
+
+<persona gender="female" id="e52c13f3-b40b-4678-9d13-2f1eb05dfcbd">
+<persname short="2. LADY" numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Lady</persname>
+</persona>
+
+<persona gender="male" id="07ffa186-1bed-4f3c-8bc0-acf0f1e93a31">
 <persname short="1. LORD." numberOfLines="63" numberOfVerseLines="63" numberOfProseLines="0" numberOfLyricsLines="0">First Lord</persname>
 <persaliases>
 	<persname short="LORDS.">All Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. GENT." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">First Gentleman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. GENT." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Second Gentleman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. GENT." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Third Gentleman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SERV. OLD." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Servant of the Old Shepherd</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="94c1872a-df58-4176-aa26-07152562b5da">
 <persname short="1. SERV." numberOfLines="29" numberOfVerseLines="26" numberOfProseLines="3" numberOfLyricsLines="0">First Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bf8cd3d1-aa70-425b-ac47-c0b2d9fdd50e">
 <persname short="2. SERV." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="81b48389-fc51-4b72-9117-9e1e601336bb">
 <persname short="3. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Third Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f2c628c6-9421-449b-a525-eb273de74c3c">
+<persname short="SERV. OLD." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Servant of the Old Shepherd</persname>
+</persona>
+
+<persona gender="male" id="98bf75c3-7b71-41cb-b4b2-6fc84ae20ddd">
+<persname short="1. GENT." numberOfLines="7" numberOfVerseLines="0" numberOfProseLines="7" numberOfLyricsLines="0">First Gentleman</persname>
+</persona>
+
+<persona gender="male" id="445e2907-f189-4561-9630-928c608d8079">
+<persname short="2. GENT." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Second Gentleman</persname>
+</persona>
+
+<persona gender="male" id="5044457c-be2c-472d-8df2-c6a7d6312d29">
+<persname short="3. GENT." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Third Gentleman</persname>
+</persona>
+
+<persona gender="male" id="1c3bf151-9fac-40e0-9ff6-b21f90870cbc">
 <persname short="GENT. ATT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman Attendant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b6d30696-6733-477c-a98e-59b2f45d2686">
 <persname short="12. SAT." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Twelve Satyrs</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="463e124a-369c-480a-9bf6-8f50fc4e4850">
 <persname short="SHEPS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Shepherds and Shepherdesses</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="72da3bf4-3f45-4748-b5ca-35976786c82f">
 <persname short="BEAR" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Bear</persname>
 </persona>
 
@@ -168,6 +176,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Sicilia. An antechamber in Leontes&#8217; palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAM.">Camillo</scenepersona>
 	<scenepersona short="ARCH.">Archidamus</scenepersona>
@@ -222,7 +231,8 @@
 
 <speech>
 <speaker long="Camillo">CAM.</speaker>
-<line globalnumber="8" number="8" form="prose">Sicilia cannot show himself overkind to Bohemia. They were train&#8217;d together in their childhoods; and there rooted betwixt them then such an affection, which cannot choose but branch now. Since their more mature dignities and royal necessities made separation of their society, their encounters (though not personal) hath been royally attorney&#8217;d with interchange of gifts, letters, loving embassies, that they have seem&#8217;d to be together, though absent; shook hands, as over a vast; and embrac&#8217;d as it were from the ends of oppos&#8217;d winds. The heavens continue their loves!</line>
+<line globalnumber="8" number="8" form="prose">Sicilia cannot show himself overkind to 
+Bohemia. They were train&#8217;d together in their childhoods; and there rooted betwixt them then such an affection, which cannot choose but branch now. Since their more mature dignities and royal necessities made separation of their society, their encounters (though not personal) hath been royally attorney&#8217;d with interchange of gifts, letters, loving embassies, that they have seem&#8217;d to be together, though absent; shook hands, as over a vast; and embrac&#8217;d as it were from the ends of oppos&#8217;d winds. The heavens continue their loves!</line>
 </speech>
 
 <speech>
@@ -263,6 +273,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Sicilia. A room of state in Leontes&#8217; palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leontes</scenepersona>
 	<scenepersona short="HER.">Hermione</scenepersona>
@@ -617,7 +628,7 @@
 <line globalnumber="175" number="135" form="verse">To say this boy were like me. Come, sir page,</line>
 <line globalnumber="176" number="136" form="verse">Look on me with your welkin eye. Sweet villain!</line>
 <line globalnumber="177" number="137" form="verse">Most dear&#8217;st! My collop! Can thy dam?&#8212;may&#8217;t be?&#8212;</line>
-<line globalnumber="178" number="138" form="verse">Affection! Thy intention stabs the centre.</line>
+<line globalnumber="178" number="138" form="verse">Affection! Thy intention stabs the center.</line>
 <line globalnumber="179" number="139" form="verse">Thou dost make possible things not so held,</line>
 <line globalnumber="180" number="140" form="verse">Communicat&#8217;st with dreams (how can this be?),</line>
 <line globalnumber="181" number="141" form="verse">With what&#8217;s unreal thou co-active art,</line>
@@ -1339,6 +1350,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Sicilia. A room in Leontes&#8217; palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HER.">Queen Hermione</scenepersona>
 	<scenepersona short="MAM.">Mamillius</scenepersona>
@@ -1633,7 +1645,7 @@
 <speaker long="Leontes, King of Sicilia">LEON.</speaker>
 <line globalnumber="670" number="100" form="verse" offset="4">No; if I mistake</line>
 <line globalnumber="671" number="101" form="verse">In those foundations which I build upon,</line>
-<line globalnumber="672" number="102" form="verse">The centre is not big enough to bear</line>
+<line globalnumber="672" number="102" form="verse">The center is not big enough to bear</line>
 <line globalnumber="673" number="103" form="verse">A schoolboy&#8217;s top. Away with her, to prison!</line>
 <line globalnumber="674" number="104" form="verse">He who shall speak for her is afar off guilty</line>
 <line globalnumber="675" number="105" form="verse" offset="0">But that he speaks.</line>
@@ -1875,6 +1887,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Sicilia. The outer room of a prison.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAUL.">Paulina</scenepersona>
 	<scenepersona short="GENT. ATT.">Gentleman Attendant</scenepersona>
@@ -2104,6 +2117,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Sicilia. A room in Leontes&#8217; palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leontes</scenepersona>
 	<scenepersona>Servants</scenepersona>
@@ -2684,6 +2698,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Sicilia. A sea port.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLEO.">Cleomines</scenepersona>
 	<scenepersona short="DION.">Dion</scenepersona>
@@ -2765,6 +2780,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Sicilia. A court of justice.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leontes</scenepersona>
 	<scenepersona short="LORDS.">Lords</scenepersona>
@@ -3289,6 +3305,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Bohemia. A desert country near the sea.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antigonus</scenepersona>
 	<scenepersona short="MAR.">Mariner</scenepersona>
@@ -3622,6 +3639,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Bohemia. A room in the palace of Polixenes.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="POL.">Polixenes</scenepersona>
 	<scenepersona short="CAM.">Camillo</scenepersona>
@@ -3697,6 +3715,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Bohemia. A road near the shepherd&#8217;s cottage.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUT.">Autolycus</scenepersona>
 	<scenepersona short="CLO.">Clown</scenepersona>
@@ -3966,6 +3985,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Bohemia. A shepherd&#8217;s cottage.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FLO.">Florizel</scenepersona>
 	<scenepersona short="PER.">Perdita</scenepersona>
@@ -5990,6 +6010,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Sicilia. A room in the palace of Leontes.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leontes</scenepersona>
 	<scenepersona short="CLEO.">Cleomines</scenepersona>
@@ -6585,7 +6606,7 @@
 		<actor>PAUL.</actor>
 		<actor>Servants</actor>
 		<actor>1. SERV.</actor>
-		<actor>LO.</actor>
+		<actor>FLO.</actor>
 		<actor>PER.</actor>
 		<actor>1. LORD.</actor>
 	</action>
@@ -6596,6 +6617,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Sicilia. Before Leontes&#8217; palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AUT.">Autolycus</scenepersona>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
@@ -6852,6 +6874,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A chapel in Paulina&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEON.">Leontes</scenepersona>
 	<scenepersona short="POL.">Polixenes</scenepersona>
@@ -6921,10 +6944,9 @@
 	<dir>Paulina draws a curtain, and discovers Hermione standing like a statue.</dir>
 	<action type="action">
 		<actor>PAUL.</actor>
-		<actor>HER.</actor>
+	</action>
 	<action type="enter">
 		<actor>HER.</actor>
-	</action>
 	</action>
 </stagedir>
 <line globalnumber="2625" number="21" form="verse">I like your silence, it the more shows off</line>
@@ -7255,20 +7277,9 @@
 </act>
 
 
-<locations numberOfLocations="12">
-<placename>A chapel in Paulina&#8217;s house.</placename>
-<placename>Bohemia. A desert country near the sea.</placename>
-<placename>Bohemia. A road near the shepherd&#8217;s cottage.</placename>
-<placename>Bohemia. A room in the palace of Polixenes.</placename>
-<placename>Bohemia. A shepherd&#8217;s cottage.</placename>
-<placename>Sicilia. A court of justice.</placename>
-<placename>Sicilia. A room in Leontes&#8217; palace.</placename>
-<placename>Sicilia. A room of state in Leontes&#8217; palace.</placename>
-<placename>Sicilia. A sea port.</placename>
-<placename>Sicilia. An antechamber in Leontes&#8217; palace.</placename>
-<placename>Sicilia. The outer room of a prison.</placename>
-<placename>Sicilia. Before Leontes&#8217; palace.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -7353,12 +7364,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5</version>
-<pscatid>159</pscatid>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

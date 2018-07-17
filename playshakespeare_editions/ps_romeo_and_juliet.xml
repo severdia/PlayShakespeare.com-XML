@@ -1,169 +1,175 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="romeo-and-juliet">
 <title short="Romeo and Juliet">The Tragedy of Romeo and Juliet</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1594-1596</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="Romeo and Juliet">
 
-<persona gender="male">
-<persname short="CHORUS." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Chorus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PRIN." numberOfLines="75" numberOfVerseLines="75" numberOfProseLines="0" numberOfLyricsLines="0">Prince Escalus</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="PAR." numberOfLines="70" numberOfVerseLines="70" numberOfProseLines="0" numberOfLyricsLines="0">Paris</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MON." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Montague</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAP." numberOfLines="271" numberOfVerseLines="269" numberOfProseLines="2" numberOfLyricsLines="0">Capulet</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OLD. CAP." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Old Capulet</persname>
-</persona>
-
-<persona gender="male" archetype="lover" death="yes">
+<persona gender="male" archetype="lover" death="yes" id="8c84f117-f06e-497b-aaea-8c5e670eb87a">
 <persname short="ROM." numberOfLines="593" numberOfVerseLines="564" numberOfProseLines="29" numberOfLyricsLines="0">Romeo</persname>
 </persona>
 
-<persona gender="male" archetype="hero" death="yes">
-<persname short="MER." numberOfLines="175" numberOfVerseLines="130" numberOfProseLines="45" numberOfLyricsLines="7">Mercutio</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="BEN." numberOfLines="157" numberOfVerseLines="142" numberOfProseLines="15" numberOfLyricsLines="0">Benvolio</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="TYB." numberOfLines="34" numberOfVerseLines="29" numberOfProseLines="5" numberOfLyricsLines="0">Tybalt</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PETR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Petruchio</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="56ee913f-e249-40d0-94a9-d216e27a5ad6">
 <persname short="FRI. L." numberOfLines="351" numberOfVerseLines="351" numberOfProseLines="0" numberOfLyricsLines="0">Friar Lawrence</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FRI. J." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Friar John</persname>
+<persona gender="male" id="bd37509b-73a3-4807-a60b-cb0792b1b0ec">
+<persname short="CAP." numberOfLines="271" numberOfVerseLines="269" numberOfProseLines="2" numberOfLyricsLines="0">Capulet</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="3b12411d-b8ca-4777-adba-11f1c630f2db">
+<persname short="MER." numberOfLines="175" numberOfVerseLines="130" numberOfProseLines="45" numberOfLyricsLines="7">Mercutio</persname>
+</persona>
+
+<persona gender="male" death="yes" id="dbec5092-852b-42f6-8e63-81e49e87dd67">
+<persname short="BEN." numberOfLines="157" numberOfVerseLines="142" numberOfProseLines="15" numberOfLyricsLines="0">Benvolio</persname>
+</persona>
+
+<persona gender="male" id="8c99a572-ce40-455f-973b-c5a902a0a390">
+<persname short="PRIN." numberOfLines="75" numberOfVerseLines="75" numberOfProseLines="0" numberOfLyricsLines="0">Prince Escalus</persname>
+</persona>
+
+<persona gender="male" death="yes" id="a99c433b-982e-484c-a031-5281633dfc3c">
+<persname short="PAR." numberOfLines="70" numberOfVerseLines="70" numberOfProseLines="0" numberOfLyricsLines="0">Paris</persname>
+</persona>
+
+<persona gender="male" id="5e1994cf-e7a9-4ee7-9df7-661672789f4c">
+<persname short="MONT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Montague</persname>
+</persona>
+
+<persona gender="male" death="yes" id="d5e81a72-7887-438a-8a1f-750dd912f625">
+<persname short="TYB." numberOfLines="34" numberOfVerseLines="29" numberOfProseLines="5" numberOfLyricsLines="0">Tybalt</persname>
+</persona>
+
+<persona gender="male" id="d5207d14-8300-42b6-b1e0-a698a884b737">
 <persname short="BAL." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Balthasar</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ABR." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Abram</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="SAM." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Sampson</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="GRE." numberOfLines="15" numberOfVerseLines="0" numberOfProseLines="15" numberOfLyricsLines="0">Gregory</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="PET." numberOfLines="19" numberOfVerseLines="6" numberOfProseLines="13" numberOfLyricsLines="5">Peter</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PAGE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Page to Paris</persname>
-</persona>
-
-<persona gender="male">
-<persname short="AP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Apothecary</persname>
-</persona>
-
-<persona gender="female" death="yes">
-<persname short="LA. MON." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lady Montague</persname>
-</persona>
-
-<persona gender="female">
-<persname short="LA. CAP." numberOfLines="114" numberOfVerseLines="114" numberOfProseLines="0" numberOfLyricsLines="0">Lady Capulet</persname>
-</persona>
-
-<persona gender="female" archetype="lover" death="yes">
+<persona gender="female" archetype="lover" death="yes" id="197d429d-b96d-462f-b57e-c78edaad0a8b">
 <persname short="JUL." numberOfLines="544" numberOfVerseLines="544" numberOfProseLines="0" numberOfLyricsLines="0">Juliet</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2d3f61ab-8000-4892-b5e5-6c48d28b6b33">
 <persname short="NURSE." numberOfLines="241" numberOfVerseLines="222" numberOfProseLines="19" numberOfLyricsLines="0">Nurse</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="7d94ff13-84bb-4bde-8ba5-b8f4695025be">
+<persname short="L. CAP." numberOfLines="114" numberOfVerseLines="114" numberOfProseLines="0" numberOfLyricsLines="0">Lady Capulet</persname>
+</persona>
+
+<persona gender="female" death="yes" id="3ad21405-1488-4776-ba84-68fa72c23636">
+<persname short="L. MONT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lady Montague</persname>
+</persona>
+
+<persona gender="male" id="615b68fb-ad77-42fe-8cdd-3d8184e4dd05">
+<persname short="CHORUS." numberOfLines="28" numberOfVerseLines="28" numberOfProseLines="0" numberOfLyricsLines="0">Chorus</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="123a99fe-f21b-4f19-a3a2-5fd4855e599e">
+<persname short="PET." numberOfLines="19" numberOfVerseLines="6" numberOfProseLines="13" numberOfLyricsLines="5">Peter</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="508ca5b0-2bd7-4cf2-bbd3-5ba6297996bb">
+<persname short="SAM." numberOfLines="20" numberOfVerseLines="0" numberOfProseLines="20" numberOfLyricsLines="0">Sampson</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="b21b1b39-31ec-4726-94b3-083a1000de04">
+<persname short="GRE." numberOfLines="15" numberOfVerseLines="0" numberOfProseLines="15" numberOfLyricsLines="0">Gregory</persname>
+</persona>
+
+<persona gender="male" id="55301776-237f-4e40-b0f7-c5911fcf5ce5">
+<persname short="FRI. J." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Friar John</persname>
+</persona>
+
+<persona gender="male" id="2fee57ef-fb6a-47db-88a5-a41cd76bb274">
+<persname short="AP." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Apothecary</persname>
+</persona>
+
+<persona gender="male" id="28767b48-4d4e-4cdb-853f-1f76a9a3f5e0">
+<persname short="1. WATCH." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">First Watchman</persname>
+</persona>
+
+<persona gender="male" id="53b317b8-6d21-4d32-84a8-e743df006e2e">
+<persname short="2. WATCH." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Watchman</persname>
+</persona>
+
+<persona gender="male" id="ef0fde24-37ff-468b-9126-35bf2796018a">
+<persname short="3. WATCH." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Watchman</persname>
+</persona>
+
+<persona gender="male" id="d4fe834d-3d35-4e74-a151-377ee7f1d3b0">
+<persname short="1. SERV." numberOfLines="6" numberOfVerseLines="1" numberOfProseLines="5" numberOfLyricsLines="0">First Servingman</persname>
+</persona>
+
+<persona gender="male" id="7bcac5b7-cb43-400f-943a-37a58d3fbd1c">
+<persname short="2. SERV." numberOfLines="14" numberOfVerseLines="5" numberOfProseLines="9" numberOfLyricsLines="0">Second Servingman</persname>
+</persona>
+
+<persona gender="male" id="c0776d06-89db-49e3-80c5-1a92b18d239c">
+<persname short="3. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Servingman</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="5e9ecfef-bfd8-4f16-9820-2ebbbb3b0d89">
+<persname short="1. MUS." numberOfLines="10" numberOfVerseLines="2" numberOfProseLines="8" numberOfLyricsLines="0">First Musician</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="5c67081a-81a5-4fc8-ade2-23e3d9f950b5">
+<persname short="2. MUS." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Musician</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="fd5c427c-c22a-4d3a-a631-01e3753b8a30">
+<persname short="3. MUS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Third Musician</persname>
+</persona>
+
+<persona gender="male" id="7ae3fc25-2a21-4b94-9dfc-fe50fb8c5f84">
 <persname short="CITIZENS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Citizens of Verona</persname>
 <persaliases>
 	<persname short="1. CIT.">First Citizen of Verona</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. WATCH." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">First Watchman</persname>
+<persona gender="male" id="1940d4ee-c673-49ac-9a6b-7c3fc633b1fa">
+<persname short="ABR." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Abram</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. WATCH." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Watchman</persname>
+<persona gender="male" id="cfeb3435-ceff-458d-bf18-2499e8b04bff">
+<persname short="OLD. CAP." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Old Capulet</persname>
 </persona>
 
-<persona gender="male">
-<persname short="3. WATCH." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Third Watchman</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="1. MUS." numberOfLines="10" numberOfVerseLines="2" numberOfProseLines="8" numberOfLyricsLines="0">First Musician</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="2. MUS." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Musician</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="3. MUS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Third Musician</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. SERV." numberOfLines="6" numberOfVerseLines="1" numberOfProseLines="5" numberOfLyricsLines="0">First Servingman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. SERV." numberOfLines="14" numberOfVerseLines="5" numberOfProseLines="9" numberOfLyricsLines="0">Second Servingman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. SERV." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Servingman</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="7ce8809a-f0ec-492e-9385-dc7882b94fec">
 <persname short="ANT." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Anthony</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ab7701c-865d-4098-8a14-df5c131f0bee">
 <persname short="POT." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Potpan</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d9207451-2a6f-4cd8-b638-7eb8687f8274">
+<persname short="PAR. PAGE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Page to Paris</persname>
+</persona>
+
+<persona gender="male" id="7cf0ee9c-cf69-4fcb-969b-ede070220fe1">
+<persname short="PETR." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Petruchio</persname>
+</persona>
+
+<persona gender="male" id="bd86da12-b863-4f69-b23c-c04e2e4b8ad1">
 <persname short="MERC. PAGE" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Mercutio&#8217;s Page</persname>
 </persona>
+
 </personae>
 
 <act num="1">
 <acttitle>Act 1</acttitle>
 
-<prologue actnum="1" num="0" minutesRunning="1" numberOfWords="108" numberOfLines="14">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -209,6 +215,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Verona. A public place.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SAM.">Sampson</scenepersona>
 	<scenepersona short="GRE.">Gregory</scenepersona>
@@ -218,9 +225,9 @@
 	<scenepersona short="TYB.">Tybalt</scenepersona>
 	<scenepersona short="CITIZENS.">Citizens</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
-	<scenepersona short="MON.">Montague</scenepersona>
-	<scenepersona short="LA. MON.">Lady Montague</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="MONT.">Montague</scenepersona>
+	<scenepersona short="L. MONT.">Lady Montague</scenepersona>
 	<scenepersona short="PRIN.">Prince Escalus</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 </scenepersonae>
@@ -540,7 +547,7 @@
 	<dir>Enter old Capulet in his gown, and his wife, Lady Capulet.</dir>
 	<action type="enter">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -550,7 +557,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="67" number="53" form="verse">A crutch, a crutch! Why call you for a sword?</line>
 </speech>
 
@@ -563,18 +570,18 @@
 <stagedir sdglobalnumber="69.01" sdnumber="55.01">
 	<dir>Enter old Montague and his wife, Lady Montague.</dir>
 	<action type="enter">
-		<actor>MON.</actor>
-		<actor>LA. MON.</actor>
+		<actor>MONT.</actor>
+		<actor>L. MONT.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="70" number="56" form="verse">Thou villain Capulet!&#8212;Hold me not, let me go.</line>
 </speech>
 
 <speech>
-<speaker long="Lady Montague">LA. MON.</speaker>
+<speaker long="Lady Montague">L. MONT.</speaker>
 <line globalnumber="71" number="57" form="verse">Thou shalt not stir one foot to seek a foe.</line>
 </speech>
 
@@ -620,7 +627,7 @@
 		<actor>ABR.</actor>
 		<actor>BAL.</actor>
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>PRIN.</actor>
 		<actor>TYB.</actor>
 		<actor>CITIZENS.</actor>
@@ -628,7 +635,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="95" number="81" form="verse">Who set this ancient quarrel new abroach?</line>
 <line globalnumber="96" number="82" form="verse">Speak, nephew, were you by when it began?</line>
 </speech>
@@ -648,7 +655,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Montague">LA. MON.</speaker>
+<speaker long="Lady Montague">L. MONT.</speaker>
 <line globalnumber="107" number="93" form="verse">O, where is Romeo? Saw you him today?</line>
 <line globalnumber="108" number="94" form="verse">Right glad I am he was not at this fray.</line>
 </speech>
@@ -671,7 +678,7 @@
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="122" number="108" form="verse">Many a morning hath he there been seen,</line>
 <line globalnumber="123" number="109" form="verse">With tears augmenting the fresh morning&#8217;s dew,</line>
 <line globalnumber="124" number="110" form="verse">Adding to clouds more clouds with his deep sighs,</line>
@@ -692,7 +699,7 @@
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="135" number="121" form="verse">I neither know it, nor can learn of him.</line>
 </speech>
 
@@ -702,7 +709,7 @@
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="137" number="123" form="verse">Both by myself and many other friends,</line>
 <line globalnumber="138" number="124" form="verse">But he, his own affections&#8217; counsellor,</line>
 <line globalnumber="139" number="125" form="verse">Is to himself (I will not say how true)</line>
@@ -729,7 +736,7 @@
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="149" number="135" form="verse">I would thou wert so happy by thy stay</line>
 <line globalnumber="150" number="136" form="verse">To hear true shrift. Come, madam, let&#8217;s away.</line>
 </speech>
@@ -737,8 +744,8 @@
 <stagedir sdglobalnumber="150.01" sdnumber="136.01">
 	<dir>Exeunt Montague and Lady.</dir>
 	<action type="exit">
-		<actor>MON.</actor>
-		<actor>LA. MON.</actor>
+		<actor>MONT.</actor>
+		<actor>L. MONT.</actor>
 	</action>
 </stagedir>
 
@@ -973,6 +980,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Verona. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAP.">Capulet</scenepersona>
 	<scenepersona short="PAR.">County Paris</scenepersona>
@@ -1248,8 +1256,9 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Verona. A room in Capulet&#8217;s house.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
@@ -1262,13 +1271,13 @@
 <stagedir sdglobalnumber="324.02" sdnumber="0.01">
 	<dir>Enter Capulet&#8217;s Wife, and Nurse.</dir>
 	<action type="enter">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="325" number="1" form="verse">Nurse, where&#8217;s my daughter? Call her forth to me.</line>
 </speech>
 
@@ -1303,7 +1312,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="333" number="7" form="verse">This is the matter. Nurse, give leave a while,</line>
 <line globalnumber="334" number="8" form="verse">We must talk in secret. Nurse, come back again,</line>
 <line globalnumber="335" number="9" form="verse">I have rememb&#8217;red me, thou s&#8217; hear our counsel.</line>
@@ -1316,7 +1325,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="338" number="12" form="verse" offset="0">She&#8217;s not fourteen.</line>
 </speech>
 
@@ -1329,7 +1338,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="343" number="15" form="verse" offset="4">A fortnight and odd days.</line>
 </speech>
 
@@ -1371,7 +1380,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="377" number="49" form="verse">Enough of this, I pray thee hold thy peace.</line>
 </speech>
 
@@ -1401,7 +1410,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="391" number="63" form="verse">Marry, that &#8220;marry&#8221; is the very theme</line>
 <line globalnumber="392" number="64" form="verse">I came to talk of. Tell me, daughter Juliet,</line>
 <line globalnumber="393" number="65" form="verse">How stands your dispositions to be married?</line>
@@ -1419,7 +1428,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="397" number="69" form="verse">Well, think of marriage now; younger than you,</line>
 <line globalnumber="398" number="70" form="verse">Here in Verona, ladies of esteem,</line>
 <line globalnumber="399" number="71" form="verse">Are made already mothers. By my count,</line>
@@ -1435,7 +1444,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="405" number="77" form="verse">Verona&#8217;s summer hath not such a flower.</line>
 </speech>
 
@@ -1445,7 +1454,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="407" number="79" form="verse">What say you? Can you love the gentleman?</line>
 <line globalnumber="408" number="80" form="verse">This night you shall behold him at our feast;</line>
 <line globalnumber="409" number="81" form="verse">Read o&#8217;er the volume of young Paris&#8217; face,</line>
@@ -1470,7 +1479,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="424" number="96" form="verse">Speak briefly, can you like of Paris&#8217; love?</line>
 </speech>
 
@@ -1501,7 +1510,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="429" number="101" form="verse">We follow thee. Juliet, the County stays.</line>
 </speech>
 
@@ -1513,7 +1522,7 @@
 <stagedir sdglobalnumber="430.01" sdnumber="102.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 		<actor>JUL.</actor>
 	</action>
@@ -1524,6 +1533,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Verona. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="MER.">Mercutio</scenepersona>
@@ -1787,7 +1797,7 @@
 
 <stagedir sdglobalnumber="550.01" sdnumber="114.01">
 	<dir>They march about the stage and stand to one side.</dir>
-	<action type="action">
+	<action type="exit">
 		<actor>ROM.</actor>
 		<actor>MER.</actor>
 		<actor>BEN.</actor>
@@ -1801,11 +1811,12 @@
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Verona. A hall in Capulet&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Anthony</scenepersona>
 	<scenepersona short="POT.">Potpan</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="OLD. CAP.">Old Capulet</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="TYB.">Tybalt</scenepersona>
@@ -1891,7 +1902,7 @@
 	<dir>Enter Capulet, Lady Capulet, Old Capulet, Juliet, Tybalt, Nurse, Servingmen, and all the Guests and Gentlewomen to the Maskers.</dir>
 	<action type="enter">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>OLD. CAP.</actor>
 		<actor>JUL.</actor>
 		<actor>TYB.</actor>
@@ -1899,6 +1910,11 @@
 		<actor>3. SERV.</actor>
 		<actor>Guests</actor>
 		<actor>Gentlewomen</actor>
+		<actor>ROM.</actor>
+		<actor>MER.</actor>
+		<actor>BEN.</actor>
+		<actor>Maskers</actor>
+		<actor>Torch-Bearers</actor>
 	</action>
 </stagedir>
 
@@ -2227,10 +2243,8 @@
 	<dir>Exeunt all but Juliet and Nurse.</dir>
 	<action type="exit">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>OLD. CAP.</actor>
-		<actor>1. SERV.</actor>
-		<actor>2. SERV.</actor>
 		<actor>3. SERV.</actor>
 		<actor>ROM.</actor>
 		<actor>MER.</actor>
@@ -2326,7 +2340,7 @@
 
 <act num="2">
 <acttitle>Act 2</acttitle>
-<prologue actnum="2" num="0" minutesRunning="1" numberOfWords="115" numberOfLines="14">
+<prologue actnum="2" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="CHORUS.">Chorus</scenepersona>
@@ -2373,6 +2387,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A lane by the wall of Capulet&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="BEN.">Benvolio</scenepersona>
@@ -2393,7 +2408,7 @@
 <speech type="soliloquy">
 <speaker long="Romeo">ROM.</speaker>
 <line globalnumber="711" number="1" form="verse">Can I go forward when my heart is here?</line>
-<line globalnumber="712" number="2" form="verse">Turn back, dull earth, and find thy centre out.</line>
+<line globalnumber="712" number="2" form="verse">Turn back, dull earth, and find thy center out.</line>
 </speech>
 
 <stagedir sdglobalnumber="712.01" sdnumber="2.01">
@@ -2402,7 +2417,7 @@
 		<actor>BEN.</actor>
 		<actor>MER.</actor>
 	</action>
-	<action type="action">
+	<action type="exit">
 		<actor>ROM.</actor>
 	</action>
 </stagedir>
@@ -2499,6 +2514,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
@@ -2512,7 +2528,7 @@
 
 <stagedir sdglobalnumber="755.02" sdnumber="0.01">
 	<dir>Romeo advances.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>ROM.</actor>
 	</action>
 </stagedir>
@@ -2798,7 +2814,7 @@
 <line globalnumber="896" number="135" form="verse">The more I have, for both are infinite.</line>
 <stagedir sdglobalnumber="896.01" sdnumber="135.01">
 	<dir>Nurse calls within.</dir>
-	<action type="action">
+	<action type="speak-offstage">
 		<actor>NURSE.</actor>
 	</action>
 </stagedir>
@@ -3024,6 +3040,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
@@ -3233,6 +3250,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Verona. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BEN.">Benvolio</scenepersona>
 	<scenepersona short="MER.">Mercutio</scenepersona>
@@ -3310,8 +3328,7 @@
 
 <speech>
 <speaker long="Mercutio">MER.</speaker>
-<line globalnumber="1068" number="14" form="prose">More than Prince of Cats. O, he&#8217;s the courageous captain of compliments. He fights as you sing prick-song, keeps time, distance, and proportion; he rests his minim rests, one, two, and the third in your bosom: the very butcher of a silk button, a duellist, a duellist; 
-a gentleman of the very first house, of the first and second cause. Ah, the immortal <foreign xml:lang="it">passado</foreign>, the <foreign xml:lang="it">punto reverso</foreign>, the <foreign xml:lang="it">hay</foreign>!</line>
+<line globalnumber="1068" number="14" form="prose">More than Prince of Cats. O, he&#8217;s the courageous captain of compliments. He fights as you sing prick-song, keeps time, distance, and proportion; he rests his minim rests, one, two, and the third in your bosom: the very butcher of a silk button, a duellist, a duellist; a gentleman of the very first house, of the first and second cause. Ah, the immortal <foreign xml:lang="it">passado</foreign>, the <foreign xml:lang="it">punto reverso</foreign>, the <foreign xml:lang="it">hay</foreign>!</line>
 </speech>
 
 <speech>
@@ -3418,8 +3435,7 @@ a gentleman of the very first house, of the first and second cause. Ah, the immo
 
 <speech>
 <speaker long="Mercutio">MER.</speaker>
-<line globalnumber="1088" number="34" form="prose">Nay, if our wits run the wild-goose chase, I am done; for thou hast more of the wild goose in one of thy wits than, I am sure, I have in my whole five. 
-Was I with you there for the goose?</line>
+<line globalnumber="1088" number="34" form="prose">Nay, if our wits run the wild-goose chase, I am done; for thou hast more of the wild goose in one of thy wits than, I am sure, I have in my whole five. Was I with you there for the goose?</line>
 </speech>
 
 <speech>
@@ -3552,14 +3568,12 @@ Was I with you there for the goose?</line>
 
 <speech>
 <speaker long="Nurse">NURSE.</speaker>
-<line globalnumber="1114" number="60" form="prose">By my troth, it is well said; &#8220;for himself to mar,&#8221; quoth &#8217;a! 
-Gentlemen, can any of you tell me where I may find the young Romeo?</line>
+<line globalnumber="1114" number="60" form="prose">By my troth, it is well said; &#8220;for himself to mar,&#8221; quoth &#8217;a! Gentlemen, can any of you tell me where I may find the young Romeo?</line>
 </speech>
 
 <speech>
 <speaker long="Romeo">ROM.</speaker>
-<line globalnumber="1115" number="61" form="prose">I can tell you, but young Romeo will be older when you have found him than he was when you sought him. 
-I am the youngest of that name, for fault of a worse.</line>
+<line globalnumber="1115" number="61" form="prose">I can tell you, but young Romeo will be older when you have found him than he was when you sought him. I am the youngest of that name, for fault of a worse.</line>
 </speech>
 
 <speech>
@@ -3665,8 +3679,7 @@ I am the youngest of that name, for fault of a worse.</line>
 
 <speech>
 <speaker long="Nurse">NURSE.</speaker>
-<line globalnumber="1138" number="84" form="prose">Now, afore God, I am so vex&#8217;d that every part about me quivers. Scurvy knave! 
-Pray you, sir, a word: and as I told you, my young lady bid me inquire you out; what she bid me say, I will keep to myself. But first let me tell ye, if ye should lead her in a fool&#8217;s paradise, as they say, it were a very gross kind of behavior, as they say; for the gentlewoman is young; and therefore, if you should deal double with her, truly it were an ill thing to be off&#8217;red to any gentlewoman, and very weak dealing.</line>
+<line globalnumber="1138" number="84" form="prose">Now, afore God, I am so vex&#8217;d that every part about me quivers. Scurvy knave! Pray you, sir, a word: and as I told you, my young lady bid me inquire you out; what she bid me say, I will keep to myself. But first let me tell ye, if ye should lead her in a fool&#8217;s paradise, as they say, it were a very gross kind of behavior, as they say; for the gentlewoman is young; and therefore, if you should deal double with her, truly it were an ill thing to be off&#8217;red to any gentlewoman, and very weak dealing.</line>
 </speech>
 
 <speech>
@@ -3746,9 +3759,7 @@ Pray you, sir, a word: and as I told you, my young lady bid me inquire you out; 
 
 <speech>
 <speaker long="Nurse">NURSE.</speaker>
-<line globalnumber="1162" number="108" form="prose">Well, sir, my mistress is the sweetest lady&#8212;Lord, Lord! When &#8217;twas a little prating thing&#8212;O, there is a nobleman in town, one Paris, that would fain lay knife aboard; but she, good soul, had as lief see a toad, a very toad, as see him. 
-I anger her sometimes and tell her that Paris is the properer man, but I&#8217;ll warrant you, when I say so, she looks as pale as any clout in the versal world. 
-Doth not rosemary and Romeo begin both with a letter?</line>
+<line globalnumber="1162" number="108" form="prose">Well, sir, my mistress is the sweetest lady&#8212;Lord, Lord! When &#8217;twas a little prating thing&#8212;O, there is a nobleman in town, one Paris, that would fain lay knife aboard; but she, good soul, had as lief see a toad, a very toad, as see him. I anger her sometimes and tell her that Paris is the properer man, but I&#8217;ll warrant you, when I say so, she looks as pale as any clout in the versal world. Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
@@ -3808,6 +3819,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
@@ -4000,6 +4012,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
@@ -4114,6 +4127,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Verona. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MER.">Mercutio</scenepersona>
 	<scenepersona short="BEN.">Benvolio</scenepersona>
@@ -4124,10 +4138,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="CITIZENS.">Citizens</scenepersona>
 	<scenepersona short="PRIN.">Prince Escalus</scenepersona>
-	<scenepersona short="MON.">Montague</scenepersona>
+	<scenepersona short="MONT.">Montague</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
-	<scenepersona short="LA. MON.">Lady Montague</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. MONT.">Lady Montague</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -4558,10 +4572,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>Enter Prince, old Montague, Capulet, their Wives, and all.</dir>
 	<action type="enter">
 		<actor>PRIN.</actor>
-		<actor>MON.</actor>
-		<actor>LA. MON.</actor>
+		<actor>MONT.</actor>
+		<actor>L. MONT.</actor>
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -4579,7 +4593,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1387" number="104" form="verse">Tybalt, my cousin! O my brother&#8217;s child!</line>
 <line globalnumber="1388" number="105" form="verse">O Prince! O husband! O, the blood is spill&#8217;d</line>
 <line globalnumber="1389" number="106" form="verse">Of my dear kinsman! Prince, as thou art true,</line>
@@ -4621,7 +4635,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1417" number="134" form="verse">He is a kinsman to the Montague,</line>
 <line globalnumber="1418" number="135" form="verse">Affection makes him false, he speaks not true.</line>
 <line globalnumber="1419" number="136" form="verse">Some twenty of them fought in this black strife,</line>
@@ -4637,7 +4651,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="1425" number="142" form="verse">Not Romeo, Prince, he was Mercutio&#8217;s friend;</line>
 <line globalnumber="1426" number="143" form="verse">His fault concludes but what the law should end,</line>
 <line globalnumber="1427" number="144" form="verse" offset="0">The life of Tybalt.</line>
@@ -4664,16 +4678,14 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<action type="exit">
 		<actor>Men</actor>
 		<actor>PETR.</actor>
-		<actor>ROM.</actor>
 		<actor>BEN.</actor>
 		<actor>TYB.</actor>
-		<actor>ROM.</actor>
 		<actor>CITIZENS.</actor>
 		<actor>PRIN.</actor>
-		<actor>MON.</actor>
-		<actor>LA. MON.</actor>
+		<actor>MONT.</actor>
+		<actor>L. MONT.</actor>
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -4682,6 +4694,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Capulet&#8217;s orchard.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
@@ -4963,6 +4976,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
@@ -5406,9 +5420,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A room in Capulet&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAP.">Capulet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="PAR.">Paris</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -5420,7 +5435,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>Enter old Capulet, his Wife, and Paris.</dir>
 	<action type="enter">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>PAR.</actor>
 	</action>
 </stagedir>
@@ -5443,7 +5458,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1775" number="10" form="verse">I will, and know her mind early tomorrow;</line>
 <line globalnumber="1776" number="11" form="verse">Tonight she&#8217;s mewed up to her heaviness.</line>
 </speech>
@@ -5505,7 +5520,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>PAR.</actor>
 	</action>
 </stagedir>
@@ -5515,11 +5530,12 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Capulet&#8217;s orchard and Juliet&#8217;s chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -5707,11 +5723,11 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <stagedir sdglobalnumber="1865.01" sdnumber="63.01">
 	<dir>Within.</dir>
 	<action type="speak-offstage">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1866" number="63" form="verse" offset="4">Ho, daughter, are you up?</line>
@@ -5734,12 +5750,12 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="1869.02" sdnumber="66.02">
 	<dir>Enter Mother, Lady Capulet.</dir>
 	<action type="enter">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1870" number="67" form="verse" offset="0">Why, how now, Juliet?</line>
 </speech>
 
@@ -5749,7 +5765,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1872" number="68" form="verse">Evermore weeping for your cousin&#8217;s death?</line>
 <line globalnumber="1873" number="69" form="verse">What, wilt thou wash him from his grave with tears?</line>
 <line globalnumber="1874" number="70" form="verse">And if thou couldst, thou couldst not make him live;</line>
@@ -5763,7 +5779,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1878" number="74" form="verse">So shall you feel the loss, but not the friend</line>
 <line globalnumber="1879" number="75" form="verse" offset="0">Which you weep for.</line>
 </speech>
@@ -5775,7 +5791,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1882" number="77" form="verse">Well, girl, thou weep&#8217;st not so much for his death,</line>
 <line globalnumber="1883" number="78" form="verse">As that the villain lives which slaughter&#8217;d him.</line>
 </speech>
@@ -5786,7 +5802,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1885" number="79" form="verse" offset="4">That same villain Romeo.</line>
 </speech>
 
@@ -5804,7 +5820,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1889" number="83" form="verse">That is because the traitor murderer lives.</line>
 </speech>
 
@@ -5815,7 +5831,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1892" number="86" form="verse">We will have vengeance for it, fear thou not.</line>
 <line globalnumber="1893" number="87" form="verse">Then weep no more. I&#8217;ll send to one in Mantua,</line>
 <line globalnumber="1894" number="88" form="verse">Where that same banish&#8217;d runagate doth live,</line>
@@ -5839,7 +5855,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1908" number="102" form="verse">Find thou the means, and I&#8217;ll find such a man.</line>
 <line globalnumber="1909" number="103" form="verse">But now I&#8217;ll tell thee joyful tidings, girl.</line>
 </speech>
@@ -5851,7 +5867,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1912" number="106" form="verse">Well, well, thou hast a careful father, child,</line>
 <line globalnumber="1913" number="107" form="verse">One who, to put thee from thy heaviness,</line>
 <line globalnumber="1914" number="108" form="verse">Hath sorted out a sudden day of joy,</line>
@@ -5864,7 +5880,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1917" number="111" form="verse">Marry, my child, early next Thursday morn,</line>
 <line globalnumber="1918" number="112" form="verse">The gallant, young, and noble gentleman,</line>
 <line globalnumber="1919" number="113" form="verse">The County Paris, at Saint Peter&#8217;s Church,</line>
@@ -5884,7 +5900,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1929" number="123" form="verse">Here comes your father, tell him so yourself;</line>
 <line globalnumber="1930" number="124" form="verse">And see how he will take it at your hands.</line>
 </speech>
@@ -5906,8 +5922,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <line globalnumber="1935" number="129" form="verse">Evermore show&#8217;ring? In one little body</line>
 <line globalnumber="1936" number="130" form="verse">Thou counterfeits a bark, a sea, a wind:</line>
 <line globalnumber="1937" number="131" form="verse">For still thy eyes, which I may call the sea,</line>
-<line globalnumber="1938" number="132" form="verse">Do ebb and flow with tears; the bark
- thy body is,</line>
+<line globalnumber="1938" number="132" form="verse">Do ebb and flow with tears; the bark thy body is,</line>
 <line globalnumber="1939" number="133" form="verse">Sailing in this salt flood; the winds, thy sighs,</line>
 <line globalnumber="1940" number="134" form="verse">Who, raging with thy tears, and they with them,</line>
 <line globalnumber="1941" number="135" form="verse">Without a sudden calm, will overset</line>
@@ -5916,7 +5931,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1944" number="138" form="verse">Ay, sir, but she will none, she gives you thanks.</line>
 <line globalnumber="1945" number="139" form="verse">I would the fool were married to her grave!</line>
 </speech>
@@ -5951,7 +5966,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1963" number="156" form="verse" offset="4">Fie, fie, what, are you mad?</line>
 </speech>
 
@@ -6016,7 +6031,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="1985" number="175" form="verse" offset="5">You are too hot.</line>
 </speech>
 
@@ -6062,7 +6077,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2012" number="202" form="verse">Talk not to me, for I&#8217;ll not speak a word.</line>
 <line globalnumber="2013" number="203" form="verse">Do as thou wilt, for I have done with thee.</line>
 </speech>
@@ -6070,7 +6085,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2013.01" sdnumber="203.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -6178,6 +6193,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="PAR.">County Paris</scenepersona>
@@ -6489,9 +6505,10 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A hall in Capulet&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAP.">Capulet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
 	<scenepersona short="2. SERV.">Second Servingman</scenepersona>
@@ -6506,7 +6523,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>Enter Capulet, Mother Lady Capulet, Nurse, and Servingmen, two or three.</dir>
 	<action type="enter">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 		<actor>1. SERV.</actor>
 		<actor>2. SERV.</actor>
@@ -6628,7 +6645,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2214" number="34" form="verse">No, not till Thursday, there is time enough.</line>
 </speech>
 
@@ -6646,7 +6663,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2216" number="36" form="verse">We shall be short in our provision,</line>
 <line globalnumber="2217" number="37" form="verse" offset="0">&#8217;Tis now near night.</line>
 </speech>
@@ -6668,7 +6685,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -6677,10 +6694,11 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Juliet&#8217;s chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JUL.">Juliet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -6707,12 +6725,12 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2231.01" sdnumber="5.01">
 	<dir>Enter Mother, Lady Capulet.</dir>
 	<action type="enter">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2232" number="6" form="verse">What, are you busy, ho? Need you my help?</line>
 </speech>
 
@@ -6727,7 +6745,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2239" number="12" form="verse" offset="5">Good night.</line>
 <line globalnumber="2240" number="13" form="verse">Get thee to bed and rest, for thou hast need.</line>
 </speech>
@@ -6735,7 +6753,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2240.01" sdnumber="13.01">
 	<dir>Exeunt Lady Capulet and Nurse.</dir>
 	<action type="exit">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 	</action>
 </stagedir>
@@ -6800,6 +6818,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<action type="action">
 		<actor>JUL.</actor>
 	</action>
+	<action type="exit">
+		<actor>JUL.</actor>
+	</action>
 </stagedir>
 
 </scene>
@@ -6807,8 +6828,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A hall in Capulet&#8217;s house.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
 	<scenepersona short="1. SERV.">First Servingman</scenepersona>
@@ -6822,13 +6844,13 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2285.02" sdnumber="0.01">
 	<dir>Enter lady of the house Lady Capulet and Nurse with herbs.</dir>
 	<action type="enter">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2286" number="1" form="verse">Hold, take these keys and fetch more spices, nurse.</line>
 </speech>
 
@@ -6866,7 +6888,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2297" number="11" form="verse">Ay, you have been a mouse-hunt in your time,</line>
 <line globalnumber="2298" number="12" form="verse">But I will watch you from such watching now.</line>
 </speech>
@@ -6874,7 +6896,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2298.01" sdnumber="12.01">
 	<dir>Exeunt Lady Capulet and Nurse.</dir>
 	<action type="exit">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>NURSE.</actor>
 	</action>
 </stagedir>
@@ -6953,6 +6975,9 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<action type="exit">
 		<actor>NURSE.</actor>
 	</action>
+	<action type="exit">
+		<actor>CAP.</actor>
+	</action>
 </stagedir>
 
 </scene>
@@ -6960,10 +6985,11 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Juliet&#8217;s chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="NURSE.">Nurse</scenepersona>
 	<scenepersona short="JUL.">Juliet</scenepersona>
-	<scenepersona short="LA. CAP.">Lady Capulet</scenepersona>
+	<scenepersona short="L. CAP.">Lady Capulet</scenepersona>
 	<scenepersona short="CAP.">Capulet</scenepersona>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
 	<scenepersona short="PAR.">County Paris</scenepersona>
@@ -6977,6 +7003,12 @@ Doth not rosemary and Romeo begin both with a letter?</line>
     <language short="it">Italian</language>
 </scenelanguage>
 
+
+<stagedir sdglobalnumber="2317.02" sdnumber="0.01">
+	<action type="enter">
+		<actor>NURSE.</actor>
+	</action>
+</stagedir>
 
 <speech type="soliloquy">
 <speaker long="Nurse">NURSE.</speaker>
@@ -7007,12 +7039,12 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 <stagedir sdglobalnumber="2333.01" sdnumber="16.01">
 	<dir>Enter Mother, Lady Capulet.</dir>
 	<action type="enter">
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2334" number="17" form="verse" offset="0">What noise is here?</line>
 </speech>
 
@@ -7022,7 +7054,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2336" number="18" form="verse" offset="0">What is the matter?</line>
 </speech>
 
@@ -7032,7 +7064,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2338" number="19" form="verse">O me, O me, my child, my only life!</line>
 <line globalnumber="2339" number="20" form="verse">Revive, look up, or I will die with thee!</line>
 <line globalnumber="2340" number="21" form="verse">Help, help! Call help.</line>
@@ -7056,7 +7088,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2343" number="24" form="verse">Alack the day, she&#8217;s dead, she&#8217;s dead, she&#8217;s dead!</line>
 </speech>
 
@@ -7075,7 +7107,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2350" number="30" form="verse" offset="4">O woeful time!</line>
 </speech>
 
@@ -7119,7 +7151,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2363" number="43" form="verse">Accurs&#8217;d, unhappy, wretched, hateful day!</line>
 <line globalnumber="2364" number="44" form="verse">Most miserable hour that e&#8217;er time saw</line>
 <line globalnumber="2365" number="45" form="verse">In lasting labor of his pilgrimage!</line>
@@ -7203,13 +7235,13 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 	<dir>They all, but the Nurse and the Musicians, go forth, casting rosemary on her, and shutting the curtains.</dir>
 	<action type="action">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>FRI. L.</actor>
 		<actor>PAR.</actor>
 	</action>
 	<action type="exit">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 		<actor>FRI. L.</actor>
 		<actor>PAR.</actor>
 	</action>
@@ -7247,8 +7279,7 @@ Doth not rosemary and Romeo begin both with a letter?</line>
 
 <speech>
 <speaker long="Peter">PET.</speaker>
-<line globalnumber="2420" number="100" form="prose">Musicians, O musicians, &#8220;Heart&#8217;s ease,&#8221; &#8220;Heart&#8217;s ease&#8221;! 
-O, and you will have me live, play &#8220;Heart&#8217;s ease.&#8221;</line>
+<line globalnumber="2420" number="100" form="prose">Musicians, O musicians, &#8220;Heart&#8217;s ease,&#8221; &#8220;Heart&#8217;s ease&#8221;! O, and you will have me live, play &#8220;Heart&#8217;s ease.&#8221;</line>
 </speech>
 
 <speech>
@@ -7347,8 +7378,7 @@ O, and you will have me live, play &#8220;Heart&#8217;s ease.&#8221;</line>
 
 <speech>
 <speaker long="Peter">PET.</speaker>
-<line globalnumber="2443" number="123" form="prose">O, I cry you mercy, you are the singer; I will say for you; it is &#8220;music with her silver sound,&#8221; 
-because musicians have no gold for sounding:</line>
+<line globalnumber="2443" number="123" form="prose">O, I cry you mercy, you are the singer; I will say for you; it is &#8220;music with her silver sound,&#8221; because musicians have no gold for sounding:</line>
 <line globalnumber="2444" number="124" form="verse" type="lyric">&#8220;Then music with her silver sound</line>
 <line globalnumber="2445" number="125" form="verse" type="lyric">With speedy help doth lend redress.&#8221;</line>
 </speech>
@@ -7387,6 +7417,7 @@ because musicians have no gold for sounding:</line>
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Mantua. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="BAL.">Balthasar</scenepersona>
@@ -7483,7 +7514,7 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2486" number="37" form="verse">I do remember an apothecary&#8212;</line>
 <line globalnumber="2487" number="38" form="verse">And hereabouts &#8217;a dwells&#8212;which late I noted</line>
 <line globalnumber="2488" number="39" form="verse">In tatt&#8217;red weeds, with overwhelming brows,</line>
-<line globalnumber="2489" number="40" form="verse">Culling of simples; meagre were his looks,</line>
+<line globalnumber="2489" number="40" form="verse">Culling of simples; meager were his looks,</line>
 <line globalnumber="2490" number="41" form="verse">Sharp misery had worn him to the bones;</line>
 <line globalnumber="2491" number="42" form="verse">And in his needy shop a tortoise hung,</line>
 <line globalnumber="2492" number="43" form="verse">An alligator stuff&#8217;d, and other skins</line>
@@ -7590,6 +7621,7 @@ because musicians have no gold for sounding:</line>
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Friar Lawrence&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FRI. J.">Friar John</scenepersona>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
@@ -7694,9 +7726,10 @@ because musicians have no gold for sounding:</line>
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A churchyard; before a tomb belonging to the Capulets.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAR.">Paris</scenepersona>
-	<scenepersona short="PAGE.">Page</scenepersona>
+	<scenepersona short="PAR. PAGE.">Page</scenepersona>
 	<scenepersona short="ROM.">Romeo</scenepersona>
 	<scenepersona short="BAL.">Balthasar</scenepersona>
 	<scenepersona short="FRI. L.">Friar Lawrence</scenepersona>
@@ -7706,7 +7739,7 @@ because musicians have no gold for sounding:</line>
 	<scenepersona short="3. WATCH.">Third Watchman</scenepersona>
 	<scenepersona short="PRIN.">Prince Escalus</scenepersona>
 	<scenepersona>Attendants</scenepersona>
-	<scenepersona short="MON.">Montague</scenepersona>
+	<scenepersona short="MONT.">Montague</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -7717,7 +7750,7 @@ because musicians have no gold for sounding:</line>
 	<dir>Enter Paris and his Page with flowers and sweet water and a torch.</dir>
 	<action type="enter">
 		<actor>PAR.</actor>
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 	</action>
 </stagedir>
 
@@ -7735,11 +7768,11 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Page to Paris">PAGE.</speaker>
+<speaker long="Page to Paris">PAR. PAGE.</speaker>
 <stagedir sdglobalnumber="2575.01" sdnumber="9.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2576" number="10" form="verse">I am almost afraid to stand alone</line>
@@ -7764,7 +7797,7 @@ because musicians have no gold for sounding:</line>
 <stagedir sdglobalnumber="2583.01" sdnumber="17.01">
 	<dir>Whistle Boy.</dir>
 	<action type="action">
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2584" number="18" form="verse">The boy gives warning, something doth approach.</line>
@@ -7908,14 +7941,14 @@ because musicians have no gold for sounding:</line>
 </stagedir>
 
 <speech>
-<speaker long="Page to Paris">PAGE.</speaker>
+<speaker long="Page to Paris">PAR. PAGE.</speaker>
 <line globalnumber="2637" number="71" form="verse">O Lord, they fight! I will go call the watch.</line>
 </speech>
 
 <stagedir sdglobalnumber="2637.01" sdnumber="71.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 	</action>
 </stagedir>
 
@@ -8089,10 +8122,17 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2711" number="139" form="verse" offset="0">And that my master slew him.</line>
 </speech>
 
+<stagedir sdglobalnumber="2711.01" sdnumber="139.01">
+	<dir>Exit.</dir>
+	<action type="exit">
+		<actor>BAL.</actor>
+	</action>
+</stagedir>
+
 <speech>
 <speaker long="Friar Lawrence">FRI. L.</speaker>
 <line globalnumber="2712" number="139" form="verse" offset="6">Romeo!</line>
-<stagedir sdglobalnumber="2712.01" sdnumber="139.01">
+<stagedir sdglobalnumber="2712.01" sdnumber="139.02">
 	<dir>Friar stoops and looks on the blood and weapons.</dir>
 	<action type="action">
 		<actor>FRI. L.</actor>
@@ -8104,7 +8144,7 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2716" number="143" form="verse">To lie discolor&#8217;d by this place of peace?</line>
 <stagedir sdglobalnumber="2716.01" sdnumber="143.01">
 	<dir>Enters the tomb.</dir>
-	<action type="enter">
+	<action type="action">
 		<actor>FRI. L.</actor>
 	</action>
 </stagedir>
@@ -8116,6 +8156,9 @@ because musicians have no gold for sounding:</line>
 
 <stagedir sdglobalnumber="2720.01" sdnumber="147.01">
 	<dir>Juliet rises.</dir>
+	<action type="enter">
+		<actor>JUL.</actor>
+	</action>
 	<action type="action">
 		<actor>JUL.</actor>
 	</action>
@@ -8155,7 +8198,7 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2733" number="159" form="verse" offset="4">I dare no longer stay.</line>
 </speech>
 
-<stagedir sdglobalnumber="2733.01" sdnumber="159.01">
+<stagedir sdglobalnumber="2733.01" sdnumber="159.02">
 	<dir>Exit.</dir>
 	<action type="exit">
 		<actor>FRI. L.</actor>
@@ -8204,17 +8247,17 @@ because musicians have no gold for sounding:</line>
 <line globalnumber="2745" number="169" form="verse" offset="4">there rust, and let me die.</line>
 </speech>
 
-<stagedir sdglobalnumber="2745.01" sdnumber="169.01">
+<stagedir sdglobalnumber="2745.01" sdnumber="169.02">
 	<dir>Falls on Romeo&#8217;s body and dies.</dir>
 	<action type="death">
 		<actor>JUL.</actor>
 	</action>
 </stagedir>
 
-<stagedir sdglobalnumber="2745.02" sdnumber="169.02">
+<stagedir sdglobalnumber="2745.02" sdnumber="169.03">
 	<dir>Enter Paris&#8217; Page and Watch.</dir>
 	<action type="enter">
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 		<actor>1. WATCH.</actor>
 		<actor>2. WATCH.</actor>
 		<actor>3. WATCH.</actor>
@@ -8222,7 +8265,7 @@ because musicians have no gold for sounding:</line>
 </stagedir>
 
 <speech>
-<speaker long="Page to Paris">PAGE.</speaker>
+<speaker long="Page to Paris">PAR. PAGE.</speaker>
 <line globalnumber="2746" number="170" form="verse">This is the place, there where the torch doth burn.</line>
 </speech>
 
@@ -8308,7 +8351,7 @@ because musicians have no gold for sounding:</line>
 	<dir>Enter Capels (Capulet, Lady Capulet, and others).</dir>
 	<action type="enter">
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
+		<actor>L. CAP.</actor>
 	</action>
 </stagedir>
 
@@ -8318,7 +8361,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2766" number="190" form="verse">O, the people in the street cry &#8220;Romeo,&#8221;</line>
 <line globalnumber="2767" number="191" form="verse">Some &#8220;Juliet,&#8221; and some &#8220;Paris,&#8221; and all run</line>
 <line globalnumber="2768" number="192" form="verse">With open outcry toward our monument.</line>
@@ -8357,7 +8400,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Lady Capulet">LA. CAP.</speaker>
+<speaker long="Lady Capulet">L. CAP.</speaker>
 <line globalnumber="2781" number="205" form="verse">O me, this sight of death is as a bell</line>
 <line globalnumber="2782" number="206" form="verse">That warns my old age to a sepulchre.</line>
 </speech>
@@ -8365,7 +8408,7 @@ because musicians have no gold for sounding:</line>
 <stagedir sdglobalnumber="2782.01" sdnumber="206.01">
 	<dir>Enter Montague and others.</dir>
 	<action type="enter">
-		<actor>MON.</actor>
+		<actor>MONT.</actor>
 	</action>
 </stagedir>
 
@@ -8376,7 +8419,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="2785" number="209" form="verse">Alas, my liege, my wife is dead tonight;</line>
 <line globalnumber="2786" number="210" form="verse">Grief of my son&#8217;s exile hath stopp&#8217;d her breath.</line>
 <line globalnumber="2787" number="211" form="verse">What further woe conspires against mine age?</line>
@@ -8388,7 +8431,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="2789" number="213" form="verse">O thou untaught! What manners is in this,</line>
 <line globalnumber="2790" number="214" form="verse">To press before thy father to a grave?</line>
 </speech>
@@ -8487,7 +8530,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Page to Paris">PAGE.</speaker>
+<speaker long="Page to Paris">PAR. PAGE.</speaker>
 <line globalnumber="2856" number="280" form="verse">He came with flowers to strew his lady&#8217;s grave,</line>
 <line globalnumber="2857" number="281" form="verse">And bid me stand aloof, and so I did.</line>
 <line globalnumber="2858" number="282" form="verse">Anon comes one with light to ope the tomb,</line>
@@ -8517,7 +8560,7 @@ because musicians have no gold for sounding:</line>
 </speech>
 
 <speech>
-<speaker long="Montague">MON.</speaker>
+<speaker long="Montague">MONT.</speaker>
 <line globalnumber="2874" number="297" form="verse" offset="3">But I can give thee more,</line>
 <line globalnumber="2875" number="298" form="verse">For I will raise her statue in pure gold,</line>
 <line globalnumber="2876" number="299" form="verse">That whiles Verona by that name is known,</line>
@@ -8545,7 +8588,7 @@ because musicians have no gold for sounding:</line>
 	<dir>Exeunt omnes.</dir>
 	<action type="exit">
 		<actor>BAL.</actor>
-		<actor>PAGE.</actor>
+		<actor>PAR. PAGE.</actor>
 		<actor>1. WATCH.</actor>
 		<actor>2. WATCH.</actor>
 		<actor>FRI. L.</actor>
@@ -8553,8 +8596,8 @@ because musicians have no gold for sounding:</line>
 		<actor>PRIN.</actor>
 		<actor>Attendants</actor>
 		<actor>CAP.</actor>
-		<actor>LA. CAP.</actor>
-		<actor>MON.</actor>
+		<actor>L. CAP.</actor>
+		<actor>MONT.</actor>
 	</action>
 </stagedir>
 
@@ -8562,18 +8605,10 @@ because musicians have no gold for sounding:</line>
 </act>
 
 
-<locations numberOfLocations="10">
-<placename>A churchyard; before a tomb belonging to the Capulets.</placename>
-<placename>A lane by the wall of Capulet&#8217;s orchard.</placename>
-<placename>Capulet&#8217;s orchard.</placename>
-<placename>Friar Lawrence&#8217;s cell.</placename>
-<placename>Juliet&#8217;s chamber.</placename>
-<placename>Mantua. A street.</placename>
-<placename>Verona. A hall in Capulet&#8217;s house.</placename>
-<placename>Verona. A public place.</placename>
-<placename>Verona. A room in Capulet&#8217;s house.</placename>
-<placename>Verona. A street.</placename>
-</locations>
+
+
+
+
 
 <sources>
 <playsource>
@@ -8594,12 +8629,11 @@ because musicians have no gold for sounding:</line>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

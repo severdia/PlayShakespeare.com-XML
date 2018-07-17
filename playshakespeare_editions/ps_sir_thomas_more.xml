@@ -1,192 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="sir-thomas-more">
 <title short="Sir Thomas More">Sir Thomas More</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1596</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="Sir Thomas More">
 
-<persona gender="male">
-<persname short="SHREWSBURY." numberOfLines="101" numberOfVerseLines="100" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Shrewsbury</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SURREY." numberOfLines="152" numberOfVerseLines="151" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Surrey</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PALMER." numberOfLines="38" numberOfVerseLines="38" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Palmer</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHOLMLEY." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Sir Roger Cholmley</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" death="yes" id="7896fcf4-f442-4f47-9dc7-66500bc24eae">
 <persname short="MORE." numberOfLines="856" numberOfVerseLines="832" numberOfProseLines="24" numberOfLyricsLines="0">Sir Thomas More</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LORD MAYOR." numberOfLines="51" numberOfVerseLines="50" numberOfProseLines="1" numberOfLyricsLines="0">Lord Mayor</persname>
+<persona gender="male" id="0541eda8-f95b-4c45-ad6c-c8e2d3092b69">
+<persname short="SURREY." numberOfLines="152" numberOfVerseLines="151" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Surrey</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MUNDAY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Munday</persname>
+<persona gender="male" id="cdb45540-75e5-4487-8436-f94a98a47be4">
+<persname short="SHREWSBURY." numberOfLines="101" numberOfVerseLines="100" numberOfProseLines="1" numberOfLyricsLines="0">Earl of Shrewsbury</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="714a580e-c7f1-4781-881c-c9aa52d3a5f9">
 <persname short="SURESBY." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Justice Suresby</persname>
 </persona>
 
-<persona gender="male">
-<persname short="RECORDER." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Recorder</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SERG." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sergeant at Arms</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CLERK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Clerk of the Council</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ERASMUS." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Erasmus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ROCHESTER." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Rochester</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ROPER." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">Roper</persname>
-</persona>
-
-<persona gender="female">
-<persname short="ROP. WIFE." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Roper&#8217;s Wife</persname>
-<persaliases>
-	<persname short="BOTH DAUGHTERS.">Both Daughters</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="9f5b502c-8a37-472f-b9ed-18ff7b51bb97">
 <persname short="LINCOLN." numberOfLines="64" numberOfVerseLines="43" numberOfProseLines="21" numberOfLyricsLines="0">John Lincoln</persname>
 </persona>
 
-<persona gender="male">
-<persname short="GEORGE." numberOfLines="18" numberOfVerseLines="5" numberOfProseLines="13" numberOfLyricsLines="0">George Betts</persname>
+<persona gender="male" id="326bf9a6-e49c-4c0f-ab07-8c06c433a500">
+<persname short="INCLINATION." numberOfLines="58" numberOfVerseLines="42" numberOfProseLines="16" numberOfLyricsLines="0">Player of Inclination the Vice</persname>
+<persaliases>
+	<persname short="ALL PLAYERS.">All Players</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="WILLIAMSON." numberOfLines="14" numberOfVerseLines="8" numberOfProseLines="6" numberOfLyricsLines="0">Williamson</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SHERWIN." numberOfLines="8" numberOfVerseLines="3" numberOfProseLines="5" numberOfLyricsLines="0">Sherwin</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BARDE." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Francis de Barde</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CAVELER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Caveler</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="83e6f795-7926-4269-99d5-a5d22e19ef13">
 <persname short="LIFTER." numberOfLines="50" numberOfVerseLines="50" numberOfProseLines="0" numberOfLyricsLines="0">Lifter</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SMART." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Smart</persname>
+<persona gender="male" id="85708d81-ebd6-45d4-ab4f-f3ddd32b329c">
+<persname short="ROPER." numberOfLines="47" numberOfVerseLines="47" numberOfProseLines="0" numberOfLyricsLines="0">Roper</persname>
 </persona>
 
-<persona gender="male">
-<persname short="HARRY." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Harry</persname>
+
+<persona gender="male" id="32b25dc0-c980-4623-8e54-58f4c4eed577">
+<persname short="PALMER." numberOfLines="38" numberOfVerseLines="38" numberOfProseLines="0" numberOfLyricsLines="0">Sir Thomas Palmer</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ROBIN." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Robin</persname>
+<persona gender="male" id="e16cdbb5-d3f2-414c-9aa4-8bdee1d14830">
+<persname short="CLOWN." numberOfLines="34" numberOfVerseLines="21" numberOfProseLines="13" numberOfLyricsLines="0">Clown Betts</persname>
 </persona>
 
-<persona gender="male">
-<persname short="KIT." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Kit</persname>
+<persona gender="male" id="618bd85a-2be5-4243-b7c8-22ab7f0958b7">
+<persname short="ROCHESTER." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">Bishop of Rochester</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MORRIS." numberOfLines="14" numberOfVerseLines="8" numberOfProseLines="6" numberOfLyricsLines="0">Morris</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="c1fae197-d1e3-4392-94af-f2398696e18e">
 <persname short="FAULKNER." numberOfLines="31" numberOfVerseLines="4" numberOfProseLines="27" numberOfLyricsLines="0">Faulkner</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="220071d3-9e8d-41ca-a316-42e336ca020b">
+<persname short="ERASMUS." numberOfLines="25" numberOfVerseLines="25" numberOfProseLines="0" numberOfLyricsLines="0">Erasmus</persname>
+</persona>
+
+<persona gender="male" id="39a2a21b-724b-4e6d-9903-a027f64af2b3">
+<persname short="LIEU." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant of the Tower</persname>
+</persona>
+
+<persona gender="male" id="8cce27ce-332b-4057-9476-7ce2e427fd85">
+<persname short="GEORGE." numberOfLines="18" numberOfVerseLines="5" numberOfProseLines="13" numberOfLyricsLines="0">George Betts</persname>
+</persona>
+
+
+<persona gender="male" id="dbbf69cc-9154-4077-b995-9e208ab64de5">
 <persname short="GOUGH." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Gough</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="774691d9-4f4f-4938-99a8-7f99153aa750">
+<persname short="WILLIAMSON." numberOfLines="14" numberOfVerseLines="8" numberOfProseLines="6" numberOfLyricsLines="0">Williamson</persname>
+</persona>
+
+<persona gender="male" id="e94712d1-daff-409f-a7c7-323a4bd3e034">
 <persname short="CATESBY." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Catesby</persname>
 </persona>
 
-<persona gender="male">
-<persname short="RANDALL." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">Randall</persname>
+<persona gender="male" id="929ed89d-fe75-45ed-a167-a4cbeb616bbe">
+<persname short="MORRIS." numberOfLines="14" numberOfVerseLines="8" numberOfProseLines="6" numberOfLyricsLines="0">Morris</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DOWNES." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Downes</persname>
+<persona gender="male" id="8d93a98a-9eb2-48a2-bb9b-2e8a2091ec7b">
+<persname short="CHOLMLEY." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">Sir Roger Cholmley</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BUTLER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Ned</persname>
+<persona gender="female" id="212f9c95-b078-45d1-be76-daf4da0e1a77">
+<persname short="DOLL." numberOfLines="72" numberOfVerseLines="50" numberOfProseLines="22" numberOfLyricsLines="0">Doll Williamson</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BREWER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Robin</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HORSEKEEPER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Ralph</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PORTER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Giles</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LIEUTENANT." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Lieutenant of the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GENTLEMAN PORTER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman Porter of the Tower</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HANGMAN." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Hangman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MAN." numberOfLines="10" numberOfVerseLines="9" numberOfProseLines="1" numberOfLyricsLines="0">Servingman</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CROFTS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Crofts</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SERVANT." numberOfLines="5" numberOfVerseLines="4" numberOfProseLines="1" numberOfLyricsLines="0">Servant to More</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="155351e4-422c-48da-9f85-3c91c04bb0d6">
 <persname short="LADY MORE." numberOfLines="72" numberOfVerseLines="72" numberOfProseLines="0" numberOfLyricsLines="0">Lady More</persname>
 <persaliases>
 	<persname short="LADY MORE AND DAUGHTERS.">Lady More and Daughters</persname>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ce4763f1-f937-4e1d-8648-2472fb6390e8">
+<persname short="ROP. WIFE." numberOfLines="14" numberOfVerseLines="14" numberOfProseLines="0" numberOfLyricsLines="0">Roper&#8217;s Wife</persname>
+<persaliases>
+	<persname short="BOTH DAUGHTERS.">Both Daughters</persname>
+</persaliases>
+</persona>
+
+<persona gender="female" id="7189135c-6885-4821-9e29-0be643474056">
 <persname short="DAUGHTER." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Daughter to More</persname>
 <persaliases>
 	<persname short="LADY MORE AND DAUGHTERS.">Lady More and Daughters</persname>
@@ -194,103 +124,185 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="4cb6ec46-9a24-4583-8a56-7eec384763c7">
 <persname short="LADY MAYORESS." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lady Mayoress</persname>
 </persona>
 
-<persona gender="female">
-<persname short="DOLL." numberOfLines="72" numberOfVerseLines="50" numberOfProseLines="22" numberOfLyricsLines="0">Doll Williamson</persname>
+<persona gender="male" id="83a3c4d7-fc33-447c-b806-cc57ee2e7391">
+<persname short="LORD MAYOR." numberOfLines="51" numberOfVerseLines="50" numberOfProseLines="1" numberOfLyricsLines="0">Lord Mayor</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="bc92bf4c-ab35-42c4-99e5-fa235519dc81">
 <persname short="POOR WOMAN." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">A Poor Woman</persname>
 </persona>
 
-<persona gender="male">
-<persname short="INCLINATION." numberOfLines="58" numberOfVerseLines="42" numberOfProseLines="16" numberOfLyricsLines="0">Player of Inclination the Vice</persname>
-<persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
-</persaliases>
+
+
+
+<persona gender="male" id="80a461d4-6f88-48da-92f9-7c8a2ed539be">
+<persname short="SHERWIN." numberOfLines="8" numberOfVerseLines="3" numberOfProseLines="5" numberOfLyricsLines="0">Sherwin</persname>
 </persona>
 
-<persona gender="male">
-<persname short="VANITY." numberOfLines="10" numberOfVerseLines="9" numberOfProseLines="1" numberOfLyricsLines="0">Player of Lady Vanity</persname>
-<persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
-</persaliases>
+<persona gender="male" id="a88a8254-87d1-4cf5-b2aa-f85e78511742">
+<persname short="RANDALL." numberOfLines="7" numberOfVerseLines="3" numberOfProseLines="4" numberOfLyricsLines="0">Randall</persname>
 </persona>
 
-<persona gender="male">
-<persname short="WIT." numberOfLines="43" numberOfVerseLines="39" numberOfProseLines="4" numberOfLyricsLines="12">Player of Wit</persname>
-<persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
-</persaliases>
+<persona gender="male" id="92dea6bd-924f-45fb-8ecb-65c063a4ab37">
+<persname short="BARDE." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Francis de Barde</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="091fd056-ed27-4a1b-b261-682c7131b887">
+<persname short="CROFTS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Crofts</persname>
+</persona>
+
+<persona gender="male" id="37a4d242-ba13-4aea-a4db-90fe801cf1f2">
+<persname short="HARRY." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Harry</persname>
+</persona>
+
+
+<persona gender="male" id="a566ff03-14e3-47c6-bdfd-bfdadb4aea3e">
+<persname short="MUNDAY." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Sir John Munday</persname>
+</persona>
+
+<persona gender="male" id="345df5bd-ebfc-4aba-9c6c-baf3102eb99c">
+<persname short="HANGMAN." numberOfLines="5" numberOfVerseLines="2" numberOfProseLines="3" numberOfLyricsLines="0">Hangman</persname>
+</persona>
+
+<persona gender="male" id="2eac2ff2-926f-420a-a146-c664abcd74c5">
+<persname short="SERG." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Sergeant at Arms</persname>
+</persona>
+
+<persona gender="male" id="43e055ce-eabb-4014-8288-6b8a421705ca">
+<persname short="RECORDER." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Recorder</persname>
+</persona>
+
+<persona gender="male" id="37d5db3e-5f21-4402-9b93-f0a627e3615d">
+<persname short="KIT." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Kit</persname>
+</persona>
+
+<persona gender="male" id="150e3a76-c505-46b7-93ec-0604f4444f80">
+<persname short="PORTER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Giles</persname>
+</persona>
+
+<persona gender="male" id="172c30c7-3cec-4a89-b0d2-a42d8338f2ea">
+<persname short="CAVELER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Caveler</persname>
+</persona>
+
+<persona gender="male" id="ff7a6305-9fb0-44be-808b-6055172d7b34">
+<persname short="HORSEKEEPER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Ralph</persname>
+</persona>
+
+<persona gender="male" id="f1313890-acd4-4429-97f6-1c52d306718e">
+<persname short="BUTLER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Ned</persname>
+</persona>
+
+<persona gender="male" id="21c7df07-9817-41f9-80a8-1fc917d3b8a7">
+<persname short="BREWER." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Robin</persname>
+</persona>
+
+<persona gender="male" id="32c521c2-08cf-4125-ba80-ab04734b5d81">
+<persname short="DOWNES." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Downes</persname>
+</persona>
+
+<persona gender="male" id="a2e3bdcb-8848-4c9e-899d-e8c815ef33f0">
+<persname short="CLERK." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Clerk of the Council</persname>
+</persona>
+
+<persona gender="male" id="ca67b80b-e13f-41cc-888e-f5428077320d">
+<persname short="ROBIN." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Robin</persname>
+</persona>
+
+<persona gender="male" id="af0dadab-8467-4039-8d68-c3296d2ab125">
+<persname short="1. SHERIFF." numberOfLines="47" numberOfVerseLines="39" numberOfProseLines="8" numberOfLyricsLines="0">First Sheriff</persname>
+</persona>
+
+<persona gender="male" id="c02845ef-ca8d-4119-a290-7c91e69e4c51">
+<persname short="2. SHERIFF." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Second Sheriff</persname>
+</persona>
+
+<persona gender="male" id="fc199d55-b098-4891-8d90-41265cba4af1">
 <persname short="PLAYER." numberOfLines="14" numberOfVerseLines="12" numberOfProseLines="2" numberOfLyricsLines="0">Player of Prologue</persname>
 <persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
+	<persname short="ALL PLAYERS.">All Players</persname>
 	<persname short="PROLOGUE.">Player of Prologue</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="09a89d52-25e8-480e-8528-87cae28d7817">
+<persname short="WIT." numberOfLines="43" numberOfVerseLines="39" numberOfProseLines="4" numberOfLyricsLines="12">Player of Wit</persname>
+<persaliases>
+	<persname short="ALL PLAYERS.">All Players</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="ffbcb471-a68c-4505-8138-7b8235928bc6">
+<persname short="VANITY." numberOfLines="10" numberOfVerseLines="9" numberOfProseLines="1" numberOfLyricsLines="0">Player of Lady Vanity</persname>
+<persaliases>
+	<persname short="ALL PLAYERS.">All Players</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="bb00badc-0fb4-45c1-9f0a-99ee431bc7d6">
 <persname short="LUGGINS." numberOfLines="5" numberOfVerseLines="1" numberOfProseLines="4" numberOfLyricsLines="0">Luggins</persname>
 <persaliases>
-	<persname short="ALL. PLAYERS.">All Players</persname>
+	<persname short="ALL PLAYERS.">All Players</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="1. OFFICER." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Officer</persname>
-<persaliases>
-	<persname short="OFFICERS.">Officers</persname>
-</persaliases>
+<persona gender="male" id="43ec1ce9-8ab0-48b2-85ec-a1121e8663a6">
+<persname short="1. WARDER" numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Warder of the Tower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. OFFICER." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Officer</persname>
-<persaliases>
-	<persname short="OFFICERS.">Officers</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="1. WARDER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Warder of the Tower</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="86c43897-017b-47d8-8642-6a6d748e52af">
 <persname short="2. WARDER." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Second Warder of the Tower</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7a9a8225-44d2-4616-ad3c-e5583aa46085">
 <persname short="3. WARDER." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Third Warder of the Tower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. SHERIFF." numberOfLines="47" numberOfVerseLines="39" numberOfProseLines="8" numberOfLyricsLines="0">First Sheriff</persname>
+<persona gender="male" id="d346b035-fbc8-4e54-93f3-fa9af9734744">
+<persname short="1. OFF." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Officer</persname>
+<persaliases>
+	<persname short="OFFICERS.">Officers</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="2. SHERIFF." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Second Sheriff</persname>
+<persona gender="male" id="9613aace-3c5a-4262-88a6-240494accb89">
+<persname short="2. OFF." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Officer</persname>
+<persaliases>
+	<persname short="OFFICERS.">Officers</persname>
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="60669f27-8c22-4013-af08-220e07a2c1da">
 <persname short="1. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="93047cfe-0778-4dd5-8e16-ff7bb852e2a9">
 <persname short="2. MESS." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="de9cc599-14ce-4ba2-a80f-dcbfb4547e71">
 <persname short="3. MESS." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Third Messenger</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CLOWN." numberOfLines="34" numberOfVerseLines="21" numberOfProseLines="13" numberOfLyricsLines="0">Clown Betts</persname>
+<persona gender="male" id="36813ddd-e82e-4f50-b520-284b4343563f">
+<persname short="MAN." numberOfLines="10" numberOfVerseLines="9" numberOfProseLines="1" numberOfLyricsLines="0">Servingman</persname>
 </persona>
+
+<persona gender="male" id="2e30f468-a32a-40c8-86f7-f81aad9d3f1e">
+<persname short="SERVANT." numberOfLines="5" numberOfVerseLines="4" numberOfProseLines="1" numberOfLyricsLines="0">Servant to More</persname>
+</persona>
+
+<persona gender="male" id="fdf47550-14fa-48f0-8471-d35dead37b48">
+<persname short="GENTLEMAN PORTER." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Gentleman Porter of the Tower</persname>
+</persona>
+
+<persona gender="male" id="03e18147-e975-4507-a34c-3dcfa5951c30">
+<persname short="SMART." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Smart</persname>
+</persona>
+
 </personae>
 
 <act num="1">
@@ -298,6 +310,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LINCOLN.">John Lincoln</scenepersona>
 	<scenepersona short="GEORGE.">George Betts</scenepersona>
@@ -597,6 +610,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The Sessions House.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LORD MAYOR.">Lord Mayor</scenepersona>
 	<scenepersona short="SURESBY.">Justice Suresby</scenepersona>
@@ -715,7 +729,7 @@
 <line globalnumber="81" number="33" form="verse">To tempt the needy miserable wretch?</line>
 <line globalnumber="82" number="34" form="verse">Ten pounds, odd money; this is a pretty sum</line>
 <line globalnumber="83" number="35" form="verse">To bear about, which were more safe at home.</line>
-<line globalnumber="84" number="36" form="verse">&#8217;Fore God, &#8217;twere well to fine ye as much more</line>
+<line globalnumber="84" number="36" form="verse">&#8217;Fore God, &#8217;twere well to fine ye as much more.</line>
 <stagedir sdglobalnumber="84.01" sdnumber="36.01">
 	<dir>Lord Mayor and More whisper.</dir>
 	<action type="action">
@@ -751,6 +765,7 @@
 	<dir>Exeunt Lord Mayor and Justices.</dir>
 	<action type="exit">
 		<actor>LORD MAYOR.</actor>
+		<actor>SURESBY.</actor>
 		<actor>Justices</actor>
 	</action>
 </stagedir>
@@ -1062,7 +1077,7 @@
 
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<stagedir sdglobalnumber="204.01" sdnumber="151.01">
+<stagedir sdglobalnumber="204.01" sdnumber="151.02">
 	<dir>Aside.</dir>
 	<action type="aside">
 		<actor>MORE.</actor>
@@ -1093,7 +1108,7 @@
 </speech>
 
 <speech>
-<speaker long="First Officer">1. OFFICER.</speaker>
+<speaker long="First Officer">1. OFF.</speaker>
 <line globalnumber="215" number="161" form="verse" offset="4">And me.</line>
 </speech>
 
@@ -1195,6 +1210,7 @@
 		<actor>OFFICERS.</actor>		
 		<actor>LORD MAYOR.</actor>
 		<actor>MORE.</actor>
+		<actor>SURESBY.</actor>
 	</action>
 </stagedir>
 
@@ -1203,6 +1219,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. A state apartment.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SHREWSBURY.">Earl of Shrewsbury</scenepersona>
 	<scenepersona short="SURREY.">Earl of Surrey</scenepersona>
@@ -1425,6 +1442,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HARRY.">Apprentice Harry</scenepersona>
 	<scenepersona short="ROBIN.">Apprentice Robin</scenepersona>
@@ -1508,6 +1526,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Saint Martin&#8217;s-le-Grand.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LINCOLN.">Lincoln</scenepersona>
 	<scenepersona short="GEORGE.">George Betts</scenepersona>
@@ -1732,6 +1751,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Guildhall.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="LORD MAYOR.">Lord Mayor</scenepersona>
@@ -1886,6 +1906,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>St. Martin&#8217;s Gate.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LINCOLN.">Lincoln</scenepersona>
 	<scenepersona short="DOLL.">Doll</scenepersona>
@@ -2504,6 +2525,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SHERIFF.">First Sheriff</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
@@ -2584,7 +2606,7 @@
 <stagedir sdglobalnumber="714.01" sdnumber="15.01">
 	<dir>Exit some severally; others set up the gibbet.</dir>
 	<action type="exit">
-		<actor>2. OFFICER.</actor>
+		<actor>2. OFF.</actor>
 	</action>
 </stagedir>
 
@@ -2603,21 +2625,21 @@
 </speech>
 
 <speech>
-<speaker long="First Officer">1. OFFICER.</speaker>
+<speaker long="First Officer">1. OFF.</speaker>
 <line globalnumber="725" number="26" form="verse">I&#8217;ll see it done, sir.</line>
 </speech>
 
 <stagedir sdglobalnumber="725.01" sdnumber="26.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>1. OFFICER.</actor>
+		<actor>1. OFF.</actor>
 	</action>
 </stagedir>
 
 <stagedir sdglobalnumber="725.02" sdnumber="26.02">
 	<dir>Enter another Officer.</dir>
 	<action type="enter">
-		<actor>2. OFFICER.</actor>
+		<actor>2. OFF.</actor>
 	</action>
 </stagedir>
 
@@ -2629,7 +2651,7 @@
 </speech>
 
 <speech>
-<speaker long="Second Officer">2. OFFICER.</speaker>
+<speaker long="Second Officer">2. OFF.</speaker>
 <line globalnumber="729" number="30" form="verse">There&#8217;s such a press and multitude at Newgate,</line>
 <line globalnumber="730" number="31" form="verse">They cannot bring the carts onto the stairs,</line>
 <line globalnumber="731" number="32" form="verse" offset="0">To take the prisoners in.</line>
@@ -2642,7 +2664,7 @@
 </speech>
 
 <speech>
-<speaker long="Second Officer">2. OFFICER.</speaker>
+<speaker long="Second Officer">2. OFF.</speaker>
 <line globalnumber="734" number="34" form="verse">Some of the bench, sir, think it very fit</line>
 <line globalnumber="735" number="35" form="verse">That stay be made, and give it out abroad</line>
 <line globalnumber="736" number="36" form="verse">The execution is deferred till morning,</line>
@@ -2656,12 +2678,12 @@
 <line globalnumber="740" number="40" form="verse">See, they are coming. So, &#8217;tis very well:</line>
 <stagedir sdglobalnumber="740.01" sdnumber="40.01">
 	<dir>The prisoners are brought in, well guarded.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>LINCOLN.</actor>
 		<actor>DOLL.</actor>
 		<actor>CLOWN.</actor>
 		<actor>WILLIAMSON.</actor>
-		<actor>1. OFFICER.</actor>
+		<actor>1. OFF.</actor>
 	</action>
 </stagedir>
 <line globalnumber="741" number="41" form="verse">Bring Lincoln there the first unto the tree.</line>
@@ -2963,8 +2985,8 @@
 	<action type="exit">
 		<actor>1. SHERIFF.</actor>
 		<actor>OFFICERS.</actor>
-		<actor>2. OFFICER.</actor>
-		<actor>1. OFFICER.</actor>
+		<actor>2. OFF.</actor>
+		<actor>1. OFF.</actor>
 		<actor>DOLL.</actor>
 		<actor>CLOWN.</actor>
 		<actor>WILLIAMSON.</actor>
@@ -2980,6 +3002,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="RANDALL.">Randall</scenepersona>
@@ -3701,6 +3724,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea. Antechamber in More&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
@@ -3761,12 +3785,13 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="ROPER.">Master Roper</scenepersona>
 	<scenepersona short="MAN.">Servingmen</scenepersona>
 	<scenepersona short="LADY MORE.">Lady More</scenepersona>
-	<scenepersona short="ALL. PLAYERS.">Players</scenepersona>
+	<scenepersona short="ALL PLAYERS.">Players</scenepersona>
 	<scenepersona short="LORD MAYOR.">Lord Mayor</scenepersona>
 	<scenepersona>Aldermen</scenepersona>
 	<scenepersona short="LADY MAYORESS.">Lady Mayoress</scenepersona>
@@ -4541,7 +4566,7 @@
 </speech>
 
 <speech>
-<speaker long="All Players">ALL. PLAYERS.</speaker>
+<speaker long="All Players">ALL PLAYERS.</speaker>
 <line globalnumber="1375" number="246" form="prose">Here, sir.</line>
 </speech>
 
@@ -4676,6 +4701,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Whitehall. The council chamber.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SHREWSBURY.">Earl of Shrewsbury</scenepersona>
 	<scenepersona short="SURREY.">Earl of Surrey</scenepersona>
@@ -5030,6 +5056,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LADY MORE.">Lady More</scenepersona>
 	<scenepersona short="BOTH DAUGHTERS.">Two Daughters (one is Roper&#8217;s Wife)</scenepersona>
@@ -5308,12 +5335,13 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROCHESTER.">Bishop of Rochester</scenepersona>
 	<scenepersona short="SURREY.">Surrey</scenepersona>
 	<scenepersona short="SHREWSBURY.">Shrewsbury</scenepersona>
-	<scenepersona short="LIEUTENANT.">Lieutenant of the Tower</scenepersona>
-	<scenepersona short="1. WARDER.">First Warder of the Tower</scenepersona>
+	<scenepersona short="LIEU.">Lieutenant of the Tower</scenepersona>
+	<scenepersona short="1. WARDER">First Warder of the Tower</scenepersona>
 	<scenepersona short="2. WARDER.">Second Warder of the Tower</scenepersona>
 	<scenepersona short="3. WARDER.">Third Warder of the Tower</scenepersona>
 </scenepersonae>
@@ -5329,8 +5357,8 @@
 		<actor>ROCHESTER.</actor>
 		<actor>SURREY.</actor>
 		<actor>SHREWSBURY.</actor>
-		<actor>LIEUTENANT.</actor>
-		<actor>1. WARDER.</actor>
+		<actor>LIEU.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>	
 	</action>
@@ -5405,8 +5433,8 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>ROCHESTER.</actor>
-		<actor>LIEUTENANT.</actor>
-		<actor>1. WARDER.</actor>
+		<actor>LIEU.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>	
 	</action>
@@ -5417,6 +5445,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="LADY MORE.">Lady More</scenepersona>
@@ -5903,15 +5932,16 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Tower Gate.</scenelocation>
+
 <scenepersonae>
-	<scenepersona short="1. WARDER.">First Warder of the Tower</scenepersona>
+	<scenepersona short="1. WARDER">First Warder of the Tower</scenepersona>
 	<scenepersona short="2. WARDER.">Second Warder of the Tower</scenepersona>
 	<scenepersona short="3. WARDER.">Third Warder of the Tower</scenepersona>
 	<scenepersona short="POOR WOMAN.">Poor Woman</scenepersona>
 	<scenepersona>Lords</scenepersona>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona>Attendants</scenepersona>
-	<scenepersona short="LIEUTENANT.">Lieutenant</scenepersona>
+	<scenepersona short="LIEU.">Lieutenant</scenepersona>
 	<scenepersona short="GENTLEMAN PORTER.">Gentleman Porter</scenepersona>
 	<scenepersona short="SHREWSBURY.">Shrewsbury</scenepersona>
 	<scenepersona short="SURREY.">Surrey</scenepersona>
@@ -5925,14 +5955,14 @@
 <stagedir sdglobalnumber="1847.02" sdnumber="0.01">
 	<dir>Enter the Warders of the Tower, with halberds.</dir>
 	<action type="enter">
-		<actor>1. WARDER.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="First Warder of the Tower">1. WARDER.</speaker>
+<speaker long="First Warder of the Tower">1. WARDER</speaker>
 <line globalnumber="1848" number="1" form="verse">Ho, make a guard there!</line>
 </speech>
 
@@ -5948,7 +5978,7 @@
 </speech>
 
 <speech>
-<speaker long="First Warder of the Tower">1. WARDER.</speaker>
+<speaker long="First Warder of the Tower">1. WARDER</speaker>
 <line globalnumber="1852" number="5" form="verse">From Durham House, I hear.</line>
 </speech>
 
@@ -5986,7 +6016,7 @@
 </speech>
 
 <speech>
-<speaker long="First Warder of the Tower">1. WARDER.</speaker>
+<speaker long="First Warder of the Tower">1. WARDER</speaker>
 <line globalnumber="1863" number="16" form="verse">This woman will be trod to death anon.</line>
 </speech>
 
@@ -6035,7 +6065,7 @@
 		<actor>SURREY.</actor>
 		<actor>MORE.</actor>
 		<actor>Attendants</actor>
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>GENTLEMAN PORTER.</actor>
 	</action>
 </stagedir>
@@ -6131,7 +6161,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1903" number="56" form="verse"><foreign xml:lang="fr">Adieu</foreign>, most honored lords.</line>
 </speech>
 
@@ -6163,12 +6193,12 @@
 <stagedir sdglobalnumber="1916.01" sdnumber="69.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>1. WARDER.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>			
 		<actor>MORE.</actor>
 		<actor>Attendants</actor>
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>GENTLEMAN PORTER.</actor>
 	</action>
 </stagedir>
@@ -6178,6 +6208,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>More&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BUTLER.">Butler</scenepersona>
 	<scenepersona short="PORTER.">Porter</scenepersona>
@@ -6330,9 +6361,10 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
-	<scenepersona short="LIEUTENANT.">Lieutenant</scenepersona>
+	<scenepersona short="LIEU.">Lieutenant</scenepersona>
 	<scenepersona short="SERVANT.">Servant</scenepersona>
 	<scenepersona short="LADY MORE.">Lady More</scenepersona>
 	<scenepersona short="BOTH DAUGHTERS.">Daughters</scenepersona>
@@ -6347,7 +6379,7 @@
 	<dir>Enter Sir Thomas More, the Lieutenant, and a Servant attending, as in his chamber in the Tower.</dir>
 	<action type="enter">
 		<actor>MORE.</actor>
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>SERVANT.</actor>
 	</action>
 </stagedir>
@@ -6359,7 +6391,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1959" number="3" form="verse" offset="0">My lord, it is.</line>
 </speech>
 
@@ -6370,7 +6402,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1962" number="5" form="verse">Your wisdom, sir, hath been so well approved,</line>
 <line globalnumber="1963" number="6" form="verse">And your fair patience in imprisonment</line>
 <line globalnumber="1964" number="7" form="verse">Hath ever shewn such constancy of mind</line>
@@ -6388,7 +6420,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1972" number="15" form="verse" offset="0">Tomorrow morning.</line>
 </speech>
 
@@ -6403,7 +6435,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1979" number="21" form="verse">In life and death still merry Sir Thomas More.</line>
 </speech>
 
@@ -6437,7 +6469,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1990" number="32" form="verse">Yesterday morning was he put to death.</line>
 </speech>
 
@@ -6449,7 +6481,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1994" number="36" form="verse">If he were rich, what is Sir Thomas More,</line>
 <line globalnumber="1995" number="37" form="verse">That all this while hath been Lord Chancellor?</line>
 </speech>
@@ -6462,7 +6494,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="1999" number="41" form="verse">Perhaps, my lord, two thousand pound a year.</line>
 </speech>
 
@@ -6477,7 +6509,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2006" number="48" form="verse" offset="0">It&#8217;s very strange.</line>
 </speech>
 
@@ -6490,7 +6522,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2011" number="52" form="verse">Commodities, my lord!</line>
 <line globalnumber="2012" number="53" form="verse">Might I (without offense) inquire of them?</line>
 </speech>
@@ -6519,7 +6551,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2023" number="64" form="verse">Oh, noble More!&#8212;</line>
 <line globalnumber="2024" number="65" form="verse">My lord, your wife, your son-in-law, and daughters.</line>
 </speech>
@@ -6676,7 +6708,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>MORE.</actor>
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>SERVANT.</actor>
 		<actor>LADY MORE.</actor>
 		<actor>BOTH DAUGHTERS.</actor>
@@ -6689,14 +6721,15 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tower Hill.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. SHERIFF.">First Sheriff</scenepersona>
 	<scenepersona short="2. SHERIFF.">Second Sheriff</scenepersona>
 	<scenepersona short="OFFICERS.">Officers</scenepersona>
-	<scenepersona short="1. WARDER.">First Warder of the Tower</scenepersona>
+	<scenepersona short="1. WARDER">First Warder of the Tower</scenepersona>
 	<scenepersona short="2. WARDER.">Second Warder of the Tower</scenepersona>
 	<scenepersona short="3. WARDER.">Third Warder of the Tower</scenepersona>
-	<scenepersona short="LIEUTENANT.">Lieutenant</scenepersona>
+	<scenepersona short="LIEU.">Lieutenant</scenepersona>
 	<scenepersona>Guard</scenepersona>
 	<scenepersona short="MORE.">Sir Thomas More</scenepersona>
 	<scenepersona short="SURREY.">Earl of Surrey</scenepersona>
@@ -6714,7 +6747,7 @@
 		<actor>1. SHERIFF.</actor>
 		<actor>2. SHERIFF.</actor>
 		<actor>OFFICERS.</actor>
-		<actor>1. WARDER.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>	
 	</action>
@@ -6726,7 +6759,7 @@
 </speech>
 
 <speech>
-<speaker long="First Officer">1. OFFICER.</speaker>
+<speaker long="First Officer">1. OFF.</speaker>
 <line globalnumber="2091" number="2" form="verse">Almost eight o&#8217;clock.</line>
 </speech>
 
@@ -6756,7 +6789,7 @@
 <stagedir sdglobalnumber="2098.01" sdnumber="9.01">
 	<dir>Enter Lieutenant and his Guard, with More.</dir>
 	<action type="enter">
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>Guard</actor>
 		<actor>MORE.</actor>
 	</action>
@@ -6770,7 +6803,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2102" number="13" form="verse">And so it might have liked my sovereign lord,</line>
 <line globalnumber="2103" number="14" form="verse">I would to God you might have walked there still!</line>
 </speech>
@@ -6778,7 +6811,7 @@
 <stagedir sdglobalnumber="2103.01" sdnumber="14.01">
 	<dir>He weeps.</dir>
 	<action type="action">
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 	</action>
 </stagedir>
 
@@ -6792,7 +6825,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2109" number="20" form="verse">Oh, I had hoped we should not yet have parted!</line>
 </speech>
 
@@ -6807,7 +6840,7 @@
 </speech>
 
 <speech>
-<speaker long="Lieutenant of the Tower">LIEUTENANT.</speaker>
+<speaker long="Lieutenant of the Tower">LIEU.</speaker>
 <line globalnumber="2116" number="27" form="verse">God and his blessed angels be about ye!&#8212;</line>
 <line globalnumber="2117" number="28" form="verse">Here, Master Sheriffs, receive your prisoner.</line>
 </speech>
@@ -6868,10 +6901,10 @@
 		<actor>1. SHERIFF.</actor>
 		<actor>2. SHERIFF.</actor>
 		<actor>OFFICERS.</actor>
-		<actor>1. WARDER.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>	
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>Guard</actor>
 		<actor>MORE.</actor>
 	</action>
@@ -7034,10 +7067,10 @@
 		<actor>1. SHERIFF.</actor>
 		<actor>2. SHERIFF.</actor>
 		<actor>OFFICERS.</actor>
-		<actor>1. WARDER.</actor>
+		<actor>1. WARDER</actor>
 		<actor>2. WARDER.</actor>
 		<actor>3. WARDER.</actor>	
-		<actor>LIEUTENANT.</actor>
+		<actor>LIEU.</actor>
 		<actor>Guard</actor>
 		<actor>SHREWSBURY.</actor>
 		<actor>SURREY.</actor>
@@ -7051,23 +7084,11 @@
 </scene>
 </act>
 
-<locations numberOfLocations="15">
-<placename>Cheapside.</placename>
-<placename>Chelsea. A room in More&#8217;s house.</placename>
-<placename>Chelsea. Antechamber in More&#8217;s house.</placename>
-<placename>Chelsea.</placename>
-<placename>London. A state apartment.</placename>
-<placename>London. A street.</placename>
-<placename>London. The Sessions House.</placename>
-<placename>More&#8217;s house.</placename>
-<placename>Saint Martin&#8217;s-le-Grand.</placename>
-<placename>St. Martin&#8217;s Gate.</placename>
-<placename>The Guildhall.</placename>
-<placename>The Tower Gate.</placename>
-<placename>The Tower.</placename>
-<placename>Tower Hill.</placename>
-<placename>Whitehall. The council chamber.</placename>
-</locations>
+
+
+
+
+
 
 <sources>
 <playsource>
@@ -7110,12 +7131,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

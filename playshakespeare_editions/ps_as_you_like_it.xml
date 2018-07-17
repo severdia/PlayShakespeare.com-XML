@@ -1,120 +1,126 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="as-you-like-it">
 <title short="As You Like It">As You Like It</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1599</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="As You Like It">
 
-<persona gender="female" archetype="clown">
-<persname short="AUD." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Audrey</persname>
-</persona>
-
-<persona gender="female" archetype="clown">
-<persname short="PHE." numberOfLines="86" numberOfVerseLines="77" numberOfProseLines="9" numberOfLyricsLines="0">Phebe</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="CEL." numberOfLines="184" numberOfVerseLines="105" numberOfProseLines="79" numberOfLyricsLines="0">Celia</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
-<persname short="ROS." numberOfLines="361" numberOfVerseLines="193" numberOfProseLines="168" numberOfLyricsLines="0">Rosalind</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SIL." numberOfLines="75" numberOfVerseLines="63" numberOfProseLines="12" numberOfLyricsLines="0">Silvius</persname>
-</persona>
-
-<persona gender="male">
-<persname short="COR." numberOfLines="49" numberOfVerseLines="36" numberOfProseLines="13" numberOfLyricsLines="0">Corin</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SIR OLI." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Sir Oliver Martext</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="TOUCH." numberOfLines="97" numberOfVerseLines="26" numberOfProseLines="71" numberOfLyricsLines="6">Touchstone</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ADAM." numberOfLines="60" numberOfVerseLines="56" numberOfProseLines="4" numberOfLyricsLines="0">Adam</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="31575828-a13b-49f2-ab86-5dc4f1b8f5ef">
 <persname short="ORL." numberOfLines="190" numberOfVerseLines="93" numberOfProseLines="97" numberOfLyricsLines="0">Orlando</persname>
 </persona>
 
-<persona gender="male" archetype="villain">
-<persname short="OLI." numberOfLines="101" numberOfVerseLines="75" numberOfProseLines="26" numberOfLyricsLines="0">Oliver</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHA." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Charles</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LE BEAU." numberOfLines="34" numberOfVerseLines="22" numberOfProseLines="12" numberOfLyricsLines="0">Le Beau</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="342752f4-eed9-407a-8f51-e496f355898a">
 <persname short="JAQ." numberOfLines="168" numberOfVerseLines="123" numberOfProseLines="45" numberOfLyricsLines="8">Jaques</persname>
 </persona>
 
-<persona gender="male">
-<persname short="AMI." numberOfLines="44" numberOfVerseLines="36" numberOfProseLines="8" numberOfLyricsLines="33">Amiens</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
-<persname short="DUKE F." numberOfLines="63" numberOfVerseLines="56" numberOfProseLines="7" numberOfLyricsLines="0">Duke Frederick</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="14b9acd4-6d8d-4af6-8f88-16992d57a43a">
 <persname short="DUKE S." numberOfLines="107" numberOfVerseLines="104" numberOfProseLines="3" numberOfLyricsLines="0">Duke Senior</persname>
 </persona>
 
-<persona gender="male">
-<persname short="JAQ. DE B." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Jaques De Boys</persname>
+<persona gender="male" archetype="villain" id="edb4ab8d-d940-45df-8739-b01f4dfc29ef">
+<persname short="OLIV." numberOfLines="101" numberOfVerseLines="75" numberOfProseLines="26" numberOfLyricsLines="0">Oliver</persname>
 </persona>
 
-<persona gender="male">
-<persname short="DEN." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Dennis</persname>
+<persona gender="male" archetype="clown" id="275cd1fb-e7e4-4318-8502-5a2f716780b2">
+<persname short="TOUCH." numberOfLines="97" numberOfVerseLines="26" numberOfProseLines="71" numberOfLyricsLines="6">Touchstone</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fbc2c690-fbd8-43c6-82a1-93b3d2082dc3">
+<persname short="SIL." numberOfLines="75" numberOfVerseLines="63" numberOfProseLines="12" numberOfLyricsLines="0">Silvius</persname>
+</persona>
+
+<persona gender="male" archetype="villain" id="09fcc4ba-2356-421e-b052-bba450d1a322">
+<persname short="DUKE F." numberOfLines="63" numberOfVerseLines="56" numberOfProseLines="7" numberOfLyricsLines="0">Duke Frederick</persname>
+</persona>
+
+<persona gender="male" id="628151bd-8845-474f-9e04-8ac98702e10d">
+<persname short="ADAM." numberOfLines="60" numberOfVerseLines="56" numberOfProseLines="4" numberOfLyricsLines="0">Adam</persname>
+</persona>
+
+<persona gender="male" id="955fecaf-d868-4d7f-8414-b0dc1fb3f20b">
+<persname short="COR." numberOfLines="49" numberOfVerseLines="36" numberOfProseLines="13" numberOfLyricsLines="0">Corin</persname>
+</persona>
+
+<persona gender="male" id="483810ae-0520-475c-afc3-e34177703966">
+<persname short="AMI." numberOfLines="44" numberOfVerseLines="36" numberOfProseLines="8" numberOfLyricsLines="33">Amiens</persname>
+</persona>
+
+<persona gender="male" id="f9cf448b-3882-4de7-a257-e809f16625ef">
+<persname short="LE BEAU." numberOfLines="34" numberOfVerseLines="22" numberOfProseLines="12" numberOfLyricsLines="0">Le Beau</persname>
+</persona>
+
+<persona gender="male" id="dae071a1-541b-4876-880c-802ba5e2fbde">
 <persname short="HYM." numberOfLines="30" numberOfVerseLines="30" numberOfProseLines="0" numberOfLyricsLines="6">Hymen</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="282ae52a-d3a0-45cb-b9c1-dd583ae0ba94">
+<persname short="JAQ. DE B." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">Jaques De Boys</persname>
+</persona>
+
+<persona gender="male" id="26915a5f-a5f6-409c-a335-6082834efc18">
 <persname short="WILL." numberOfLines="11" numberOfVerseLines="0" numberOfProseLines="11" numberOfLyricsLines="0">William</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. LORD. COURT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Lord at Court</persname>
+<persona gender="male" id="d83a0ba5-8c0d-422f-bc9b-fa55d3301f75">
+<persname short="CHA." numberOfLines="8" numberOfVerseLines="0" numberOfProseLines="8" numberOfLyricsLines="0">Charles</persname>
 </persona>
 
-<persona gender="male">
-<persname short="2. LORD. COURT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord at Court</persname>
+<persona gender="male" id="7bb262f4-e02d-40c9-948c-6292c7eebb93">
+<persname short="SIR OLIV." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Sir Oliver Martext</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb76e2f4-b591-470f-a89b-a5ff4d944e9a">
+<persname short="DEN." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Dennis</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="539fa0ce-0d32-4a98-b59d-7bd59e45892d">
+<persname short="ROS." numberOfLines="361" numberOfVerseLines="193" numberOfProseLines="168" numberOfLyricsLines="0">Rosalind</persname>
+</persona>
+
+<persona gender="female" archetype="hero" id="205477b9-3677-43b8-9d53-487eac64a266">
+<persname short="CEL." numberOfLines="184" numberOfVerseLines="105" numberOfProseLines="79" numberOfLyricsLines="0">Celia</persname>
+</persona>
+
+<persona gender="female" archetype="clown" id="0b620da9-395b-4ee2-9f14-025e9e80f7b4">
+<persname short="PHE." numberOfLines="86" numberOfVerseLines="77" numberOfProseLines="9" numberOfLyricsLines="0">Phebe</persname>
+</persona>
+
+<persona gender="female" archetype="clown" id="433ecddc-3463-4687-af19-c4d8bc396904">
+<persname short="AUD." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Audrey</persname>
+</persona>
+
+<persona gender="male" id="3a169635-721c-47f3-a086-dc0ad010e4aa">
 <persname short="1. LORD. ARD." numberOfLines="43" numberOfVerseLines="42" numberOfProseLines="1" numberOfLyricsLines="0">First Lord in Arden</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="024c387d-56be-48f1-8826-1282f65bfea5">
 <persname short="2. LORD. ARD." numberOfLines="13" numberOfVerseLines="12" numberOfProseLines="1" numberOfLyricsLines="10">Second Lord in Arden</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="62fd0931-6155-4bb2-9d42-0de66e3dded1">
+<persname short="1. LORD. COURT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Lord at Court</persname>
+</persona>
+
+<persona gender="male" id="a1ade477-8092-40dd-a0b0-742e8a204269">
+<persname short="2. LORD. COURT." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord at Court</persname>
+</persona>
+
+<persona gender="male" id="9b8a6a84-b169-42ca-a5d1-688c48a85bef">
 <persname short="1. PAGE." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">First Page</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dd95d009-0a9b-4fbe-b4bc-0c5fc8f84653">
 <persname short="2. PAGE." numberOfLines="20" numberOfVerseLines="18" numberOfProseLines="2" numberOfLyricsLines="18">Second Page</persname>
 </persona>
+
 </personae>
 
 <act num="1">
@@ -122,10 +128,11 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>An orchard of Oliver&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ORL.">Orlando</scenepersona>
 	<scenepersona short="ADAM.">Adam</scenepersona>
-	<scenepersona short="OLI.">Oliver</scenepersona>
+	<scenepersona short="OLIV.">Oliver</scenepersona>
 	<scenepersona short="DEN.">Dennis</scenepersona>
 	<scenepersona short="CHA.">Charles</scenepersona>
 </scenepersonae>
@@ -151,7 +158,7 @@
 <stagedir sdglobalnumber="1.01" sdnumber="1.01">
 	<dir>Enter Oliver.</dir>
 	<action type="enter">
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
  
@@ -166,7 +173,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="4" number="4" form="prose">Now, sir, what make you here?</line>
 </speech>
 
@@ -176,7 +183,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="6" number="6" form="prose">What mar you then, sir?</line>
 </speech>
 
@@ -186,7 +193,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="8" number="8" form="prose">Marry, sir, be better employ&#8217;d, and be naught a while.</line>
 </speech>
 
@@ -196,7 +203,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="10" number="10" form="prose">Know you where you are, sir?</line>
 </speech>
 
@@ -206,7 +213,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="12" number="12" form="prose">Know you before whom, sir?</line>
 </speech>
 
@@ -216,14 +223,14 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="14" number="14" form="prose">What, boy!</line>
 </speech>
 
 <stagedir sdglobalnumber="14.01" sdnumber="14.01">
 	<dir>Strikes him.</dir>
 	<action type="fight">
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 		<recipient>ORL.</recipient>
 	</action>
 </stagedir>
@@ -236,13 +243,13 @@
 <stagedir sdglobalnumber="15.01" sdnumber="15.01">
 	<dir>Collaring him.</dir>
 	<action type="fight">
-		<recipient>OLI.</recipient>
+		<recipient>OLIV.</recipient>
 		<actor>ORL.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="16" number="16" form="prose">Wilt thou lay hands on me, villain?</line>
 </speech>
 
@@ -257,7 +264,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="19" number="19" form="prose">Let me go, I say.</line>
 </speech>
 
@@ -267,7 +274,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="21" number="21" form="prose">And what wilt thou do? Beg, when that is spent? Well, sir, get you in. I will not long be troubled with you; you shall have some part of your will. I pray you leave me.</line>
 </speech>
 
@@ -277,7 +284,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="23" number="23" form="prose">Get you with him, you old dog.</line>
 </speech>
 
@@ -295,7 +302,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="25" number="25" form="prose">Is it even so? Begin you to grow upon me? I will physic your rankness, and yet give no thousand crowns neither. Holla, Dennis!</line>
 </speech>
 
@@ -312,7 +319,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="27" number="27" form="prose">Was not Charles, the Duke&#8217;s wrestler, here to speak with me?</line>
 </speech>
 
@@ -322,7 +329,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="29" number="29" form="prose">Call him in.</line>
 <stagedir sdglobalnumber="29.01" sdnumber="29.01">
 	<dir>Exit Dennis.</dir>
@@ -346,7 +353,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="32" number="32" form="prose">Good <foreign xml:lang="fr">Monsieur</foreign> Charles, what&#8217;s the new news at the new court?</line>
 </speech>
 
@@ -356,7 +363,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="34" number="34" form="prose">Can you tell if Rosalind, the Duke&#8217;s daughter, be banish&#8217;d with her father?</line>
 </speech>
 
@@ -366,7 +373,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="36" number="36" form="prose">Where will the old Duke live?</line>
 </speech>
 
@@ -376,7 +383,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="38" number="38" form="prose">What, you wrestle tomorrow before the new Duke?</line>
 </speech>
 
@@ -386,7 +393,7 @@
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="40" number="40" form="prose">Charles, I thank thee for thy love to me, which thou shalt find I will most kindly requite. I had myself notice of my brother&#8217;s purpose herein, and have by underhand means labor&#8217;d to dissuade him from it; but he is resolute. I&#8217;ll tell thee, Charles, it is the stubbornest young fellow of France, full of ambition, an envious emulator of every man&#8217;s good parts, a secret and villainous contriver against me his natural brother; therefore use thy discretion&#8212; I had as lief thou didst break his neck as his finger. And thou wert best look to&#8217;t; for if thou dost him any slight disgrace, or if he do not mightily grace himself on thee, he will practice against thee by poison, entrap thee by some treacherous device, and never leave thee till he hath ta&#8217;en thy life by some indirect means or other; for I assure thee (and almost with tears I speak it) there is not one so young and so villainous this day living. I speak but brotherly of him, but should I anatomize him to thee as he is, I must blush and weep, and thou must look pale and wonder.</line>
 </speech>
 
@@ -403,14 +410,14 @@
 </stagedir>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="42" number="42" form="prose">Farewell, good Charles. Now will I stir this gamester. I hope I shall see an end of him; for my soul (yet I know not why) hates nothing more than he. Yet he&#8217;s gentle, never school&#8217;d and yet learned, full of noble device, of all sorts enchantingly belov&#8217;d, and indeed so much in the heart of the world, and especially of my own people, who best know him, that I am altogether mispris&#8217;d. But it shall not be so long, this wrestler shall clear all. Nothing remains but that I kindle the boy thither, which now I&#8217;ll go about.</line>
 </speech>
 
 <stagedir sdglobalnumber="42.01" sdnumber="42.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
 
@@ -419,6 +426,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A lawn before the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
@@ -971,7 +979,11 @@
 	<dir>Exit Duke with Train and Le Beau.</dir>
 	<action type="exit">
 		<actor>DUKE F.</actor>
+		<actor>CHA.</actor>
+		<actor>1. LORD. COURT.</actor>
+		<actor>2. LORD. COURT.</actor>
 		<actor>LE BEAU.</actor>
+		<actor>TOUCH.</actor>
 	</action>
 </stagedir>
 
@@ -1137,6 +1149,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A room in the Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CEL.">Celia</scenepersona>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
@@ -1373,7 +1386,7 @@
 <stagedir sdglobalnumber="278.01" sdnumber="68.01">
 	<dir>Exit Duke with Lords.</dir>
 	<action type="exit">
-		<actor>DUKE F..</actor>
+		<actor>DUKE F.</actor>
 		<actor>1. LORD. COURT.</actor>
 		<actor>2. LORD. COURT.</actor>
 	</action>
@@ -1463,7 +1476,8 @@
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
 <line globalnumber="316" number="103" form="verse">I&#8217;ll have no worse a name than Jove&#8217;s own page,</line>
-<line globalnumber="317" number="104" form="verse">And therefore look you call me Ganymede.</line>
+<line globalnumber="317" number="104" form="verse">And therefore look you call me 
+Ganymede.</line>
 <line globalnumber="318" number="105" form="verse">But what will you be call&#8217;d?</line>
 </speech>
 
@@ -1508,6 +1522,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE S.">Duke Senior</scenepersona>
 	<scenepersona short="AMI.">Amiens</scenepersona>
@@ -1656,6 +1671,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE F.">Duke Frederick</scenepersona>
 	<scenepersona short="1. LORD. COURT.">First Lord at Court</scenepersona>
@@ -1726,6 +1742,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before Oliver&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ORL.">Orlando</scenepersona>
 	<scenepersona short="ADAM.">Adam</scenepersona>
@@ -1873,6 +1890,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
@@ -2143,6 +2161,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="AMI.">Amiens</scenepersona>
 	<scenepersona short="JAQ.">Jaques</scenepersona>
@@ -2240,7 +2259,8 @@
 <stagedir sdglobalnumber="598.01" sdnumber="19.01">
 	<dir>Song. All together here.</dir>
 	<action type="song">
-		<actor>ALL.</actor>
+		<actor>AMI.</actor>
+		<actor>JAQ.</actor>
 	</action>
 </stagedir>
 <line globalnumber="599" number="20" form="verse" type="lyric">Who doth ambition shun,</line>
@@ -2304,6 +2324,7 @@
 <scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ORL.">Orlando</scenepersona>
 	<scenepersona short="ADAM.">Adam</scenepersona>
@@ -2328,8 +2349,7 @@
 
 <speech>
 <speaker long="Orlando">ORL.</speaker>
-<line globalnumber="622" number="2" form="prose">Why, how now, Adam? No greater heart in thee? Live a little, comfort a little, cheer thyself a little. If this uncouth forest yield any thing savage, I will either be food for it, or bring it for food to thee. Thy conceit is nearer death than thy powers. For my sake be comfortable, hold death a while at the arm&#8217;s end. I will here be with thee presently, and if I bring thee not something to eat, I will give thee leave to die; 
-but if thou diest before I come, thou art a mocker of my labor. Well said, thou look&#8217;st cheerly, and I&#8217;ll be with thee quickly. Yet thou liest in the bleak air. Come, I will bear thee to some shelter, and thou shalt not die for lack of a dinner if there live any thing in this desert. Cheerly, good Adam!</line>
+<line globalnumber="622" number="2" form="prose">Why, how now, Adam? No greater heart in thee? Live a little, comfort a little, cheer thyself a little. If this uncouth forest yield any thing savage, I will either be food for it, or bring it for food to thee. Thy conceit is nearer death than thy powers. For my sake be comfortable, hold death a while at the arm&#8217;s end. I will here be with thee presently, and if I bring thee not something to eat, I will give thee leave to die; but if thou diest before I come, thou art a mocker of my labor. Well said, thou look&#8217;st cheerly, and I&#8217;ll be with thee quickly. Yet thou liest in the bleak air. Come, I will bear thee to some shelter, and thou shalt not die for lack of a dinner if there live any thing in this desert. Cheerly, good Adam!</line>
 </speech>
 
 <stagedir sdglobalnumber="622.01" sdnumber="2.01">
@@ -2345,6 +2365,7 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 <scene actnum="2" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE S.">Duke Senior</scenepersona>
 	<scenepersona short="AMI.">Amiens</scenepersona>
@@ -2780,11 +2801,12 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Duke&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE F.">Duke Frederick</scenepersona>
 	<scenepersona short="1. LORD. COURT.">First Lord at Court</scenepersona>
 	<scenepersona short="2. LORD. COURT.">Second Lord at Court</scenepersona>
-	<scenepersona short="OLI.">Oliver</scenepersona>
+	<scenepersona short="OLIV.">Oliver</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -2795,7 +2817,7 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 	<dir>Enter Duke Frederick, Lords, and Oliver.</dir>
 	<action type="enter">
 		<actor>DUKE F.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 		<actor>1. LORD. COURT.</actor>
 		<actor>2. LORD. COURT.</actor>
 	</action>
@@ -2818,7 +2840,7 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="840" number="13" form="verse">O that your Highness knew my heart in this!</line>
 <line globalnumber="841" number="14" form="verse">I never lov&#8217;d my brother in my life.</line>
 </speech>
@@ -2835,7 +2857,7 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>DUKE F.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 		<actor>1. LORD. COURT.</actor>
 		<actor>2. LORD. COURT.</actor>
 	</action>
@@ -2846,6 +2868,7 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ORL.">Orlando</scenepersona>
 	<scenepersona short="COR.">Corin</scenepersona>
@@ -2905,14 +2928,12 @@ but if thou diest before I come, thou art a mocker of my labor. Well said, thou 
 
 <speech>
 <speaker long="Touchstone">TOUCH.</speaker>
-<line globalnumber="857" number="12" form="prose">Truly, shepherd, in respect of itself, it is a good life; but in respect that it is a shepherd&#8217;s life, it is naught. In respect that it is solitary, I like it very well; but in respect that it is private, it is a very vild life. Now in respect it is in the fields, it pleaseth me well; but in respect it is not in the court, it is tedious. As it is a spare life (look you) it fits my humor well; 
-but as there is no more plenty in it, it goes much against my stomach. Hast any philosophy in thee, shepherd?</line>
+<line globalnumber="857" number="12" form="prose">Truly, shepherd, in respect of itself, it is a good life; but in respect that it is a shepherd&#8217;s life, it is naught. In respect that it is solitary, I like it very well; but in respect that it is private, it is a very vild life. Now in respect it is in the fields, it pleaseth me well; but in respect it is not in the court, it is tedious. As it is a spare life (look you) it fits my humor well; but as there is no more plenty in it, it goes much against my stomach. Hast any philosophy in thee, shepherd?</line>
 </speech>
 
 <speech>
 <speaker long="Corin">COR.</speaker>
-<line globalnumber="858" number="13" form="prose">No more but that I know the more one sickens the worse at ease he is; and that he that wants money, means, and content is without three good friends; that the property of rain is to wet and fire to burn; that good pasture makes fat sheep; 
-and that a great cause of the night is lack of the sun; that he that hath learn&#8217;d no wit by nature, nor art, may complain of good breeding, or comes of a very dull kindred.</line>
+<line globalnumber="858" number="13" form="prose">No more but that I know the more one sickens the worse at ease he is; and that he that wants money, means, and content is without three good friends; that the property of rain is to wet and fire to burn; that good pasture makes fat sheep; and that a great cause of the night is lack of the sun; that he that hath learn&#8217;d no wit by nature, nor art, may complain of good breeding, or comes of a very dull kindred.</line>
 </speech>
 
 <speech>
@@ -2982,8 +3003,7 @@ and that a great cause of the night is lack of the sun; that he that hath learn&
 
 <speech>
 <speaker long="Corin">COR.</speaker>
-<line globalnumber="872" number="27" form="prose">And they are often tarr&#8217;d over with the surgery of our sheep; and would you have us kiss tar? 
-The courtier&#8217;s hands are perfum&#8217;d with civet.</line>
+<line globalnumber="872" number="27" form="prose">And they are often tarr&#8217;d over with the surgery of our sheep; and would you have us kiss tar? The courtier&#8217;s hands are perfum&#8217;d with civet.</line>
 </speech>
 
 <speech>
@@ -3008,8 +3028,7 @@ The courtier&#8217;s hands are perfum&#8217;d with civet.</line>
 
 <speech>
 <speaker long="Touchstone">TOUCH.</speaker>
-<line globalnumber="877" number="32" form="prose">That is another simple sin in you, to bring the ewes and the rams together, and to offer to get your living by the copulation of cattle; 
-to be bawd to a bell-wether, and to betray a she-lamb of a twelvemonth to a crooked-pated old cuckoldly ram, out of all reasonable match. If thou beest not damn&#8217;d for this, the devil himself will have no shepherds; 
+<line globalnumber="877" number="32" form="prose">That is another simple sin in you, to bring the ewes and the rams together, and to offer to get your living by the copulation of cattle; to be bawd to a bell-wether, and to betray a she-lamb of a twelvemonth to a crooked-pated old cuckoldly ram, out of all reasonable match. If thou beest not damn&#8217;d for this, the devil himself will have no shepherds; 
 I cannot see else how thou shouldst scape.</line>
 </speech>
 
@@ -3288,9 +3307,7 @@ I cannot see else how thou shouldst scape.</line>
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="967" number="122" form="prose">Alas the day, what shall I do with my doublet and hose? What did he when thou saw&#8217;st him? What said he? How look&#8217;d he? 
-Wherein went he? What makes he here? Did he ask for me? Where remains he? How parted he with thee? And when shalt thou see him again? 
-Answer me in one word.</line>
+<line globalnumber="967" number="122" form="prose">Alas the day, what shall I do with my doublet and hose? What did he when thou saw&#8217;st him? What said he? How look&#8217;d he? Wherein went he? What makes he here? Did he ask for me? Where remains he? How parted he with thee? And when shalt thou see him again? Answer me in one word.</line>
 </speech>
 
 <speech>
@@ -3627,8 +3644,7 @@ Answer me in one word.</line>
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1030" number="185" form="prose">No; I will not cast away my physic but on those that are sick. There is a man haunts the forest, that abuses our young plants with carving &#8217;Rosalind&#8217; 
-on their barks; hangs odes upon hawthorns, and elegies on brambles; all, forsooth, deifying the name of Rosalind. If I could meet that fancy-monger, I would give him some good counsel, for he seems to have the quotidian of love upon him.</line>
+<line globalnumber="1030" number="185" form="prose">No; I will not cast away my physic but on those that are sick. There is a man haunts the forest, that abuses our young plants with carving &#8217;Rosalind&#8217; on their barks; hangs odes upon hawthorns, and elegies on brambles; all, forsooth, deifying the name of Rosalind. If I could meet that fancy-monger, I would give him some good counsel, for he seems to have the quotidian of love upon him.</line>
 </speech>
 
 <speech>
@@ -3678,8 +3694,7 @@ on their barks; hangs odes upon hawthorns, and elegies on brambles; all, forsoot
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1040" number="195" form="prose">Love is merely a madness, and I tell you, deserves as well a dark house and a whip as madmen do; and the reason why they are not so punish&#8217;d 
-and cur&#8217;d is, that the lunacy is so ordinary that the whippers are in love too. Yet I profess curing it by counsel.</line>
+<line globalnumber="1040" number="195" form="prose">Love is merely a madness, and I tell you, deserves as well a dark house and a whip as madmen do; and the reason why they are not so punish&#8217;d and cur&#8217;d is, that the lunacy is so ordinary that the whippers are in love too. Yet I profess curing it by counsel.</line>
 </speech>
 
 <speech>
@@ -3689,8 +3704,7 @@ and cur&#8217;d is, that the lunacy is so ordinary that the whippers are in love
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1042" number="197" form="prose">Yes, one, and in this manner. He was to imagine me his love, his mistress; and I set him every day to woo me. At which time would I, being but a moonish youth, grieve, be effeminate, changeable, longing and liking, proud, fantastical, apish, shallow, inconstant, full of tears, full of smiles; for every passion something, and for no passion truly any thing, as boys and women are for the most part cattle of this 
-color; would now like him, now loathe him; then entertain him, then forswear him; now weep for him, then spit at him; that I drave my suitor from his mad humor of love to a living humor of madness, which was, to forswear the full stream of the world, and to live in a nook merely monastic. And thus I cur&#8217;d him, and this way will I take upon me to wash your liver as clean as a sound sheep&#8217;s heart, that there shall not be one spot of love in&#8217;t.</line>
+<line globalnumber="1042" number="197" form="prose">Yes, one, and in this manner. He was to imagine me his love, his mistress; and I set him every day to woo me. At which time would I, being but a moonish youth, grieve, be effeminate, changeable, longing and liking, proud, fantastical, apish, shallow, inconstant, full of tears, full of smiles; for every passion something, and for no passion truly any thing, as boys and women are for the most part cattle of this color; would now like him, now loathe him; then entertain him, then forswear him; now weep for him, then spit at him; that I drave my suitor from his mad humor of love to a living humor of madness, which was, to forswear the full stream of the world, and to live in a nook merely monastic. And thus I cur&#8217;d him, and this way will I take upon me to wash your liver as clean as a sound sheep&#8217;s heart, that there shall not be one spot of love in&#8217;t.</line>
 </speech>
 
 <speech>
@@ -3737,11 +3751,12 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TOUCH.">Touchstone</scenepersona>
 	<scenepersona short="AUD.">Audrey</scenepersona>
 	<scenepersona short="JAQ.">Jaques</scenepersona>
-	<scenepersona short="SIR OLI.">Sir Oliver Martext</scenepersona>
+	<scenepersona short="SIR OLIV.">Sir Oliver Martext</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -3871,14 +3886,14 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 <stagedir sdglobalnumber="1067.01" sdnumber="19.01">
 	<dir>Enter Sir Oliver Martext.</dir>
 	<action type="enter">
-		<actor>SIR OLI.</actor>
+		<actor>SIR OLIV.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1068" number="20" form="prose">Here comes Sir Oliver. Sir Oliver Martext, you are well met. Will you dispatch us here under this tree, or shall we go with you to your chapel?</line>
 </speech>
 
 <speech>
-<speaker long="Sir Oliver Martext">SIR OLI.</speaker>
+<speaker long="Sir Oliver Martext">SIR OLIV.</speaker>
 <line globalnumber="1069" number="21" form="prose">Is there none here to give the woman?</line>
 </speech>
 
@@ -3888,7 +3903,7 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 </speech>
 
 <speech>
-<speaker long="Sir Oliver Martext">SIR OLI.</speaker>
+<speaker long="Sir Oliver Martext">SIR OLIV.</speaker>
 <line globalnumber="1071" number="23" form="prose">Truly, she must be given, or the marriage is not lawful.</line>
 </speech>
 
@@ -3963,14 +3978,14 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 </stagedir>
 
 <speech>
-<speaker long="Sir Oliver Martext">SIR OLI.</speaker>
+<speaker long="Sir Oliver Martext">SIR OLIV.</speaker>
 <line globalnumber="1089" number="41" form="prose">&#8217;Tis no matter; ne&#8217;er a fantastical knave of them all shall flout me out of my calling.</line>
 </speech>
 
 <stagedir sdglobalnumber="1089.01" sdnumber="41.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>SIR OLI.</actor>
+		<actor>SIR OLIV.</actor>
 	</action>
 </stagedir>
 
@@ -3979,6 +3994,7 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
@@ -4084,8 +4100,7 @@ color; would now like him, now loathe him; then entertain him, then forswear him
 
 <speech>
 <speaker long="Celia">CEL.</speaker>
-<line globalnumber="1107" number="18" form="prose">&#8220;Was&#8221; is not &#8220;is.&#8221; Besides, the oath of a lover is no stronger than the word of a tapster; 
-they are both the confirmer of false reckonings. He attends here in the forest on the Duke your father.</line>
+<line globalnumber="1107" number="18" form="prose">&#8220;Was&#8221; is not &#8220;is.&#8221; Besides, the oath of a lover is no stronger than the word of a tapster; they are both the confirmer of false reckonings. He attends here in the forest on the Duke your father.</line>
 </speech>
 
 <speech>
@@ -4150,6 +4165,7 @@ they are both the confirmer of false reckonings. He attends here in the forest o
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIL.">Silvius</scenepersona>
 	<scenepersona short="PHE.">Phebe</scenepersona>
@@ -4447,6 +4463,7 @@ they are both the confirmer of false reckonings. He attends here in the forest o
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
@@ -4501,14 +4518,12 @@ they are both the confirmer of false reckonings. He attends here in the forest o
 
 <speech>
 <speaker long="Jaques">JAQ.</speaker>
-<line globalnumber="1271" number="7" form="prose">I have neither the scholar&#8217;s melancholy, which is emulation; nor the musician&#8217;s, which is fantastical; nor the courtier&#8217;s, which is proud; nor the soldier&#8217;s, which is ambitious; nor the lawyer&#8217;s, which is politic; nor the lady&#8217;s, which is nice; nor the lover&#8217;s, which is all these: but it is a melancholy of mine own, compounded of many simples, extracted from many objects, and indeed the sundry contemplation of my travels, in which my often rumination wraps me in a most humorous sadness
-.</line>
+<line globalnumber="1271" number="7" form="prose">I have neither the scholar&#8217;s melancholy, which is emulation; nor the musician&#8217;s, which is fantastical; nor the courtier&#8217;s, which is proud; nor the soldier&#8217;s, which is ambitious; nor the lawyer&#8217;s, which is politic; nor the lady&#8217;s, which is nice; nor the lover&#8217;s, which is all these: but it is a melancholy of mine own, compounded of many simples, extracted from many objects, and indeed the sundry contemplation of my travels, in which my often rumination wraps me in a most humorous sadness.</line>
 </speech>
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1272" number="8" form="prose">A traveler! By my faith, you have great reason to be sad. I fear you have sold your own lands to see other men&#8217;s; 
-then to have seen much, and to have nothing, is to have rich eyes and poor hands.</line>
+<line globalnumber="1272" number="8" form="prose">A traveler! By my faith, you have great reason to be sad. I fear you have sold your own lands to see other men&#8217;s; then to have seen much, and to have nothing, is to have rich eyes and poor hands.</line>
 </speech>
 
 <speech>
@@ -4667,9 +4682,7 @@ then to have seen much, and to have nothing, is to have rich eyes and poor hands
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1302" number="38" form="prose">No, faith, die by attorney. The poor world is almost six thousand years old, and in all this time there was not any man died in his own person, <foreign xml:lang="la">videlicet</foreign>, in a love-cause. Troilus had his brains dash&#8217;d out with a Grecian club, yet he did what he could to die before, and he is one of the patterns of love. Leander, he would have liv&#8217;d many a fair year though Hero had turn&#8217;d nun, if it had not been for a hot midsummer night; 
-for, good youth, he went but forth to wash him in the Hellespont, and being taken with the cramp was drown&#8217;d; 
-and the foolish chroniclers of that age found it was&#8212;Hero of Sestos. But these are all lies: men have died from time to time, and worms have eaten them, but not for love.</line>
+<line globalnumber="1302" number="38" form="prose">No, faith, die by attorney. The poor world is almost six thousand years old, and in all this time there was not any man died in his own person, <foreign xml:lang="la">videlicet</foreign>, in a love-cause. Troilus had his brains dash&#8217;d out with a Grecian club, yet he did what he could to die before, and he is one of the patterns of love. Leander, he would have liv&#8217;d many a fair year though Hero had turn&#8217;d nun, if it had not been for a hot midsummer night; for, good youth, he went but forth to wash him in the Hellespont, and being taken with the cramp was drown&#8217;d; and the foolish chroniclers of that age found it was&#8212;Hero of Sestos. But these are all lies: men have died from time to time, and worms have eaten them, but not for love.</line>
 </speech>
 
 <speech>
@@ -4886,8 +4899,7 @@ and the foolish chroniclers of that age found it was&#8212;Hero of Sestos. But t
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1344" number="80" form="prose">O coz, coz, coz, my pretty little coz, that thou didst know how many fathom deep I am in love! But it cannot be sounded; 
-my affection hath an unknown bottom, like the bay of Portugal.</line>
+<line globalnumber="1344" number="80" form="prose">O coz, coz, coz, my pretty little coz, that thou didst know how many fathom deep I am in love! But it cannot be sounded; my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
@@ -4918,6 +4930,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="JAQ.">Jaques</scenepersona>
 	<scenepersona short="1. LORD. ARD.">First Lord in Arden</scenepersona>
@@ -5003,11 +5016,12 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
 	<scenepersona short="SIL.">Silvius</scenepersona>
-	<scenepersona short="OLI.">Oliver</scenepersona>
+	<scenepersona short="OLIV.">Oliver</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -5181,12 +5195,12 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 <stagedir sdglobalnumber="1426.02" sdnumber="63.02">
 	<dir>Enter Oliver.</dir>
 	<action type="enter">
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1427" number="64" form="verse">Good morrow, fair ones. Pray you (if you know)</line>
 <line globalnumber="1428" number="65" form="verse">Where in the purlieus of this forest stands</line>
 <line globalnumber="1429" number="66" form="verse">A sheep-cote fenc&#8217;d about with olive-trees?</line>
@@ -5202,7 +5216,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1435" number="72" form="verse">If that an eye may profit by a tongue,</line>
 <line globalnumber="1436" number="73" form="verse">Then should I know you by description&#8212;</line>
 <line globalnumber="1437" number="74" form="verse">Such garments and such years. &#8220;The boy is fair,</line>
@@ -5218,7 +5232,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1443" number="80" form="verse">Orlando doth commend him to you both,</line>
 <line globalnumber="1444" number="81" form="verse">And to that youth he calls his Rosalind</line>
 <line globalnumber="1445" number="82" form="verse">He sends this bloody napkin. Are you he?</line>
@@ -5230,7 +5244,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1447" number="84" form="verse">Some of my shame, if you will know of me</line>
 <line globalnumber="1448" number="85" form="verse">What man I am, and how, and why, and where</line>
 <line globalnumber="1449" number="86" form="verse" offset="0">This handkercher was stain&#8217;d.</line>
@@ -5242,7 +5256,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1451" number="87" form="verse">When last the young Orlando parted from you</line>
 <line globalnumber="1452" number="88" form="verse">He left a promise to return again</line>
 <line globalnumber="1453" number="89" form="verse">Within an hour, and pacing through the forest,</line>
@@ -5276,7 +5290,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1477" number="112" form="verse" offset="5">And well he might so do,</line>
 <line globalnumber="1478" number="113" form="verse">For well I know he was unnatural.</line>
 </speech>
@@ -5288,7 +5302,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1481" number="116" form="verse">Twice did he turn his back, and purpos&#8217;d so;</line>
 <line globalnumber="1482" number="117" form="verse">But kindness, nobler ever than revenge,</line>
 <line globalnumber="1483" number="118" form="verse">And nature, stronger than his just occasion,</line>
@@ -5313,7 +5327,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1490" number="124" form="verse">&#8217;Twas I; but &#8217;tis not I. I do not shame</line>
 <line globalnumber="1491" number="125" form="verse">To tell you what I was, since my conversion</line>
 <line globalnumber="1492" number="126" form="verse">So sweetly tastes, being the thing I am.</line>
@@ -5325,7 +5339,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1494" number="127" form="verse" offset="6">By and by.</line>
 <line globalnumber="1495" number="128" form="verse">When from the first to last betwixt us two</line>
 <line globalnumber="1496" number="129" form="verse">Tears our recountments had most kindly bath&#8217;d,</line>
@@ -5360,7 +5374,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1514" number="147" form="verse">Many will swoon when they do look on blood.</line>
 </speech>
 
@@ -5370,7 +5384,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1516" number="149" form="verse">Look, he recovers.</line>
 </speech>
 
@@ -5386,7 +5400,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1520" number="152" form="verse">Be of good cheer, youth. You a man?</line>
 <line globalnumber="1521" number="153" form="verse">You lack a man&#8217;s heart.</line>
 </speech>
@@ -5397,7 +5411,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1523" number="155" form="prose">This was not counterfeit, there is too great testimony in your complexion that it was a passion of earnest.</line>
 </speech>
 
@@ -5407,7 +5421,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1525" number="157" form="prose">Well then, take a good heart and counterfeit to be a man.</line>
 </speech>
 
@@ -5422,7 +5436,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1528" number="160" form="prose">That will I, for I must bear answer back</line>
 <line globalnumber="1529" number="161" form="prose">How you excuse my brother, Rosalind.</line>
 </speech>
@@ -5437,7 +5451,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 	<action type="exit">
 		<actor>ROS.</actor>
 		<actor>CEL.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
 
@@ -5450,6 +5464,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TOUCH.">Touchstone</scenepersona>
 	<scenepersona short="AUD.">Audrey</scenepersona>
@@ -5569,9 +5584,7 @@ my affection hath an unknown bottom, like the bay of Portugal.</line>
 
 <speech>
 <speaker long="Touchstone">TOUCH.</speaker>
-<line globalnumber="1549" number="19" form="prose">Why, thou say&#8217;st well. I do now remember a saying, &#8220;The fool doth think he is wise, but the wise man knows himself to be a fool.&#8221; 
-The heathen philosopher, when he had a desire to eat a grape, would open his lips when he put it into his mouth, meaning thereby that grapes were made to eat and 
-lips to open. You do love this maid?</line>
+<line globalnumber="1549" number="19" form="prose">Why, thou say&#8217;st well. I do now remember a saying, &#8220;The fool doth think he is wise, but the wise man knows himself to be a fool.&#8221; The heathen philosopher, when he had a desire to eat a grape, would open his lips when he put it into his mouth, meaning thereby that grapes were made to eat and lips to open. You do love this maid?</line>
 </speech>
 
 <speech>
@@ -5652,9 +5665,10 @@ lips to open. You do love this maid?</line>
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ORL.">Orlando</scenepersona>
-	<scenepersona short="OLI.">Oliver</scenepersona>
+	<scenepersona short="OLIV.">Oliver</scenepersona>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="SIL.">Silvius</scenepersona>
 	<scenepersona short="PHE.">Phebe</scenepersona>
@@ -5668,7 +5682,7 @@ lips to open. You do love this maid?</line>
 	<dir>Enter Orlando and Oliver.</dir>
 	<action type="enter">
 		<actor>ORL.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
 
@@ -5678,7 +5692,7 @@ lips to open. You do love this maid?</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1561" number="2" form="prose">Neither call the giddiness of it in question, the poverty of her, the small acquaintance, my sudden wooing, nor her sudden consenting; but say with me, I love Aliena; say with her that she loves me; consent with both that we may enjoy each other. It shall be to your good; for my father&#8217;s house and all the revenue that was old Sir Rowland&#8217;s will I estate upon you, and here live and die a shepherd.</line>
 </speech>
 
@@ -5700,14 +5714,14 @@ lips to open. You do love this maid?</line>
 </speech>
 
 <speech>
-<speaker long="Oliver">OLI.</speaker>
+<speaker long="Oliver">OLIV.</speaker>
 <line globalnumber="1564" number="5" form="prose">And you, fair sister.</line>
 </speech>
 
 <stagedir sdglobalnumber="1564.01" sdnumber="5.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 	</action>
 </stagedir>
 
@@ -5743,9 +5757,7 @@ lips to open. You do love this maid?</line>
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1571" number="12" form="prose">O, I know where you are. Nay, &#8217;tis true. There was never any thing so sudden but the fight of two rams, and Caesar&#8217;s thrasonical brag of &#8220;I came, saw, and overcame.&#8221; For your brother and my sister no sooner met but they look&#8217;d; no sooner look&#8217;d but they lov&#8217;d; no sooner lov&#8217;d 
-but they sigh&#8217;d; no sooner sigh&#8217;d but they ask&#8217;d one another the reason; 
-no sooner knew the reason but they sought the remedy: and in these degrees have they made a pair of stairs to marriage, which they will climb incontinent, or else be incontinent before marriage. They are in the very wrath of love, and they will together. Clubs cannot part them.</line>
+<line globalnumber="1571" number="12" form="prose">O, I know where you are. Nay, &#8217;tis true. There was never any thing so sudden but the fight of two rams, and Caesar&#8217;s thrasonical brag of &#8220;I came, saw, and overcame.&#8221; For your brother and my sister no sooner met but they look&#8217;d; no sooner look&#8217;d but they lov&#8217;d; no sooner lov&#8217;d but they sigh&#8217;d; no sooner sigh&#8217;d but they ask&#8217;d one another the reason; no sooner knew the reason but they sought the remedy: and in these degrees have they made a pair of stairs to marriage, which they will climb incontinent, or else be incontinent before marriage. They are in the very wrath of love, and they will together. Clubs cannot part them.</line>
 </speech>
 
 <speech>
@@ -5765,8 +5777,7 @@ no sooner knew the reason but they sought the remedy: and in these degrees have 
 
 <speech>
 <speaker long="Rosalind">ROS.</speaker>
-<line globalnumber="1575" number="16" form="prose">I will weary you then no longer with idle talking. Know of me then (for now I speak to some purpose) that I know you are a gentleman of good conceit. I speak not this that you should bear a good opinion of my knowledge, insomuch I say I know you are; 
-neither do I labor for a greater esteem than may in some little measure draw a belief from you, to do yourself good, and not to grace me. Believe then, if you please, that I can do strange things. I have, since I was three year old, convers&#8217;d with a magician, most profound in his art, and yet not damnable. If you do love Rosalind so near the heart as your gesture cries it out, when your brother marries Aliena, shall you marry her. I know into what straits of fortune she is driven, and it is not impossible to me, if it appear not inconvenient to you, to set her before your eyes tomorrow, human as she is, and without any danger.</line>
+<line globalnumber="1575" number="16" form="prose">I will weary you then no longer with idle talking. Know of me then (for now I speak to some purpose) that I know you are a gentleman of good conceit. I speak not this that you should bear a good opinion of my knowledge, insomuch I say I know you are; neither do I labor for a greater esteem than may in some little measure draw a belief from you, to do yourself good, and not to grace me. Believe then, if you please, that I can do strange things. I have, since I was three year old, convers&#8217;d with a magician, most profound in his art, and yet not damnable. If you do love Rosalind so near the heart as your gesture cries it out, when your brother marries Aliena, shall you marry her. I know into what straits of fortune she is driven, and it is not impossible to me, if it appear not inconvenient to you, to set her before your eyes tomorrow, human as she is, and without any danger.</line>
 </speech>
 
 <speech>
@@ -5989,6 +6000,7 @@ neither do I labor for a greater esteem than may in some little measure draw a b
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="TOUCH.">Touchstone</scenepersona>
 	<scenepersona short="AUD.">Audrey</scenepersona>
@@ -6105,12 +6117,13 @@ neither do I labor for a greater esteem than may in some little measure draw a b
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the Forest of Arden.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DUKE S.">Duke Senior</scenepersona>
 	<scenepersona short="AMI.">Amiens</scenepersona>
 	<scenepersona short="JAQ.">Jaques</scenepersona>
 	<scenepersona short="ORL.">Orlando</scenepersona>
-	<scenepersona short="OLI.">Oliver</scenepersona>
+	<scenepersona short="OLIV.">Oliver</scenepersona>
 	<scenepersona short="CEL.">Celia</scenepersona>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
 	<scenepersona short="SIL.">Silvius</scenepersona>
@@ -6133,7 +6146,7 @@ neither do I labor for a greater esteem than may in some little measure draw a b
 		<actor>AMI.</actor>
 		<actor>JAQ.</actor>
 		<actor>ORL.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 		<actor>CEL.</actor>
 	</action>
 </stagedir>
@@ -6319,8 +6332,7 @@ neither do I labor for a greater esteem than may in some little measure draw a b
 
 <speech>
 <speaker long="Touchstone">TOUCH.</speaker>
-<line globalnumber="1695" number="47" form="prose">Upon a lie seven times remov&#8217;d (bear your body more seeming, Audrey), as thus, sir. I did dislike the cut of a certain courtier&#8217;s beard. He sent me word, if I said his beard was not cut well, he was in the mind it was: this is call&#8217;d the Retort Courteous. If I sent him word again, it was not well cut, he would send me word he cut it to please himself: this is call&#8217;d the Quip Modest. If again, it was not well cut, he disabled my judgment: this is call&#8217;d the Reply Churlish. If again, it was not well cut, he would answer I spake not true: 
-this is call&#8217;d the Reproof Valiant. If again, it was not well cut, he would say I lie: this is call&#8217;d the Countercheck Quarrelsome; and so to Lie Circumstantial and the Lie Direct.</line>
+<line globalnumber="1695" number="47" form="prose">Upon a lie seven times remov&#8217;d (bear your body more seeming, Audrey), as thus, sir. I did dislike the cut of a certain courtier&#8217;s beard. He sent me word, if I said his beard was not cut well, he was in the mind it was: this is call&#8217;d the Retort Courteous. If I sent him word again, it was not well cut, he would send me word he cut it to please himself: this is call&#8217;d the Quip Modest. If again, it was not well cut, he disabled my judgment: this is call&#8217;d the Reply Churlish. If again, it was not well cut, he would answer I spake not true: this is call&#8217;d the Reproof Valiant. If again, it was not well cut, he would say I lie: this is call&#8217;d the Countercheck Quarrelsome; and so to Lie Circumstantial and the Lie Direct.</line>
 </speech>
 
 <speech>
@@ -6340,8 +6352,7 @@ this is call&#8217;d the Reproof Valiant. If again, it was not well cut, he woul
 
 <speech>
 <speaker long="Touchstone">TOUCH.</speaker>
-<line globalnumber="1699" number="51" form="prose">O sir, we quarrel in print, by the book&#8212;as you have books for good manners. I will name you the degrees. The first, the Retort Courteous; the second, the Quip Modest; the third, the Reply Churlish; the fourth, the Reproof Valiant; the fift, the Countercheck Quarrelsome; the sixt, the Lie with Circumstance; the seventh, the Lie Direct. All these you may avoid but the Lie Direct; and you may avoid that too, with an If. I knew when seven justices could not take up a quarrel, but when the parties were met themselves, one of them thought but of an If, as, &#8220;If you said so, then I said so&#8221;; 
-and they shook hands and swore brothers. Your If is the only peacemaker; much virtue in If.</line>
+<line globalnumber="1699" number="51" form="prose">O sir, we quarrel in print, by the book&#8212;as you have books for good manners. I will name you the degrees. The first, the Retort Courteous; the second, the Quip Modest; the third, the Reply Churlish; the fourth, the Reproof Valiant; the fift, the Countercheck Quarrelsome; the sixt, the Lie with Circumstance; the seventh, the Lie Direct. All these you may avoid but the Lie Direct; and you may avoid that too, with an If. I knew when seven justices could not take up a quarrel, but when the parties were met themselves, one of them thought but of an If, as, &#8220;If you said so, then I said so&#8221;; and they shook hands and swore brothers. Your If is the only peacemaker; much virtue in If.</line>
 </speech>
 
 <speech>
@@ -6359,7 +6370,7 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 	<action type="enter">
 		<actor>HYM.</actor>
 		<actor>ROS.</actor>
-		<actor>SIL.</actor>
+		<actor>CEL.</actor>
 	</action>
 </stagedir>
 
@@ -6439,7 +6450,7 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 	<dir>To Oliver and Celia.</dir>
 	<action type="speak">
 		<actor>HYM.</actor>
-		<recipient>OLI.</recipient>
+		<recipient>OLIV.</recipient>
 		<recipient>CEL.</recipient>
 	</action>
 </stagedir>
@@ -6575,7 +6586,7 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 	<dir>To Oliver.</dir>
 	<action type="speak">
 		<actor>JAQ.</actor>
-		<recipient>OLI.</recipient>
+		<recipient>OLIV.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1784" number="132" form="verse">You to your land, and love, and great allies;</line>
@@ -6626,7 +6637,19 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 <stagedir sdglobalnumber="1793.01" sdnumber="141.01">
 	<dir>A dance.</dir>
 	<action type="song">
-		<actor>ALL.</actor>
+		<actor>DUKE S.</actor>
+		<actor>AMI.</actor>
+		<actor>ORL.</actor>
+		<actor>OLIV.</actor>
+		<actor>CEL.</actor>
+		<actor>SIL.</actor>
+		<actor>PHE.</actor>
+		<actor>TOUCH.</actor>
+		<actor>AUD.</actor>
+		<actor>HYM.</actor>
+		<actor>ROS.</actor>
+		<actor>JAQ. DE B.</actor>
+		<actor>ROS.</actor>
 	</action>
 </stagedir>
 
@@ -6636,16 +6659,17 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 		<actor>DUKE S.</actor>
 		<actor>AMI.</actor>
 		<actor>ORL.</actor>
-		<actor>OLI.</actor>
+		<actor>OLIV.</actor>
 		<actor>CEL.</actor>
 		<actor>SIL.</actor>
 		<actor>PHE.</actor>
 		<actor>TOUCH.</actor>
 		<actor>AUD.</actor>
 		<actor>HYM.</actor>
-		<actor>ROS.</actor>
-		<actor>SIL.</actor>
 		<actor>JAQ. DE B.</actor>
+	</action>
+	<action type="exit">
+		<actor>ROS.</actor>
 	</action>
 </stagedir>
 
@@ -6653,7 +6677,7 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 
 </act>
 
-<epilogue minutesRunning="2" numberOfWords="228" numberOfLines="1">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="ROS.">Rosalind</scenepersona>
@@ -6663,7 +6687,13 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 </scenelanguage>
 
 
-<speech>
+<stagedir sdglobalnumber="1793.03" sdnumber="0.01">
+	<action type="enter">
+		<actor>ROS.</actor>
+	</action>
+</stagedir>
+
+<speech type="soliloquy">
 <speaker long="Rosalind">ROS.</speaker>
 <line globalnumber="1794" number="1" form="prose">It is not the fashion to see the lady the epilogue; but it is no more unhandsome than to see the lord the prologue. If it be true that good wine needs no bush, &#8217;tis true that a good play needs no epilogue. Yet to good wine they do use good bushes; and good plays prove the better by the help of good epilogues. What a case am I in then, that am neither a good epilogue, nor cannot insinuate with you in the behalf of a good play! I am not furnish&#8217;d like a beggar, therefore to beg will not become me. My way is to conjure you, and I&#8217;ll begin with the women. I charge you, O women, for the love you bear to men, to like as much of this play as please you; and I charge you, O men, for the love you bear to women (as I perceive by your simp&#8217;ring, none of you hates them), that between you and the women the play may please. If I were a woman I would kiss as many of you as had beards that pleas&#8217;d me, complexions that lik&#8217;d me, and breaths that I defied not; and I am sure, as many as have good beards, or good faces, or sweet breaths, will for my kind offer, when I make curtsy, bid me farewell.</line>
 </speech>
@@ -6677,15 +6707,10 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 
 </epilogue>
 
-<locations numberOfLocations="7">
-<placename>A lawn before the Duke&#8217;s palace.</placename>
-<placename>A room in the Duke&#8217;s palace.</placename>
-<placename>An orchard of Oliver&#8217;s house.</placename>
-<placename>Another part of the Forest of Arden.</placename>
-<placename>Before Oliver&#8217;s house.</placename>
-<placename>The Duke&#8217;s palace.</placename>
-<placename>The Forest of Arden.</placename>
-</locations>
+
+
+
+
 
 <sources>
 <playsource>
@@ -6710,11 +6735,10 @@ and they shook hands and swore brothers. Your If is the only peacemaker; much vi
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

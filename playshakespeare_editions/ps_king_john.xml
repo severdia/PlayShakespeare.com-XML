@@ -1,130 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play> 
+<play variant="ps" unique="king-john"> 
 <title short="King John">The Life and Death of King John</title> 
 <playwright>William Shakespeare</playwright>
 <pubdate>1595-1596</pubdate>
 
+
+<statistics>
+<category type="genre">History</category>
+</statistics>
+
 <personae playtitle="King John">
 
-<persona gender="female">
-<persname short="LADY F." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Lady Faulconbridge</persname>
-</persona>
-
-<persona gender="female">
-<persname short="BLANCH." numberOfLines="42" numberOfVerseLines="42" numberOfProseLines="0" numberOfLyricsLines="0">Blanch of Spain</persname>
-</persona>
-
-<persona gender="female" archetype="hero" death="yes">
-<persname short="CONST." numberOfLines="265" numberOfVerseLines="265" numberOfProseLines="0" numberOfLyricsLines="0">Constance</persname>
-</persona>
-
-<persona gender="female" death="yes">
-<persname short="EL." numberOfLines="55" numberOfVerseLines="55" numberOfProseLines="0" numberOfLyricsLines="0">Queen Elinor</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CHAT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Chatillion</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MEL." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Melune</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="PAND." numberOfLines="164" numberOfVerseLines="164" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Pandulph</persname>
-</persona>
-
-<persona gender="male">
-<persname short="AUST." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Lymoges, Duke of Austria</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LEW." numberOfLines="137" numberOfVerseLines="137" numberOfProseLines="0" numberOfLyricsLines="0">Lewis, the Dauphin</persname>
-</persona>
-
-<persona gender="male">
-<persname short="K. PHI." numberOfLines="209" numberOfVerseLines="209" numberOfProseLines="0" numberOfLyricsLines="0">Philip, King of France</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="PETER." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Peter of Pomfret</persname>
-</persona>
-
-<persona gender="male">
-<persname short="GUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">James Gurney</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
-<persname short="BAST." numberOfLines="523" numberOfVerseLines="523" numberOfProseLines="0" numberOfLyricsLines="0">Philip, the Bastard</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ROB." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Robert Faulconbridge</persname>
-</persona>
-
-<persona gender="male">
-<persname short="HUB." numberOfLines="205" numberOfVerseLines="205" numberOfProseLines="0" numberOfLyricsLines="0">Hubert de Burgh</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BIG." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Lord Bigot</persname>
-<persaliases>
-	<persname short="BOTH. PEM. AND BIG.">Both Earl of Pembroke and Lord Bigot</persname>
-</persaliases>
-</persona>
-
-<persona gender="male">
-<persname short="SAL." numberOfLines="159" numberOfVerseLines="159" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ESSEX." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Essex</persname>
-</persona>
-
-<persona gender="male">
-<persname short="PEM." numberOfLines="79" numberOfVerseLines="79" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Pembroke</persname>
-<persaliases>
-	<persname short="BOTH. PEM. AND BIG.">Both Earl of Pembroke and Lord Bigot</persname>
-</persaliases>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="ARTH." numberOfLines="120" numberOfVerseLines="120" numberOfProseLines="0" numberOfLyricsLines="0">Arthur</persname>
-</persona>
-
-<persona gender="male">
-<persname short="P. HEN." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Prince Henry</persname>
-</persona>
-
-<persona gender="male" death="yes">
+<persona gender="male" death="yes" id="2e84c424-6b86-435d-a219-abbd40113b2f">
 <persname short="K. JOHN." numberOfLines="438" numberOfVerseLines="438" numberOfProseLines="0" numberOfLyricsLines="0">King John</persname>
 </persona>
 
-<persona gender="male">
-<persname short="EXEC." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Executioner</persname>
+<persona gender="male" archetype="villain" death="yes" id="51f8aa7f-2b57-445d-a702-1ff3133840e1">
+<persname short="BAST." numberOfLines="523" numberOfVerseLines="523" numberOfProseLines="0" numberOfLyricsLines="0">Philip, the Bastard</persname>
 </persona>
 
-<persona gender="male">
-<persname short="E. HER." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
+<persona gender="male" id="07126f79-3835-4423-bd56-349c60438a46">
+<persname short="K. PHI." numberOfLines="209" numberOfVerseLines="209" numberOfProseLines="0" numberOfLyricsLines="0">Philip, King of France</persname>
 </persona>
 
-<persona gender="male">
-<persname short="F. HER." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">French Herald</persname>
+<persona gender="male" id="4e433d48-d4fe-4ab8-bcaf-161a163b3ee0">
+<persname short="HUB." numberOfLines="205" numberOfVerseLines="205" numberOfProseLines="0" numberOfLyricsLines="0">Hubert de Burgh</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SHER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sheriff</persname>
+<persona gender="male" archetype="hero" id="d9978a63-edb6-4202-a16e-0e4492ebe5ef">
+<persname short="PAND." numberOfLines="164" numberOfVerseLines="164" numberOfProseLines="0" numberOfLyricsLines="0">Cardinal Pandulph</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="965a58fb-5522-40f4-811a-ec8014eca586">
+<persname short="SAL." numberOfLines="159" numberOfVerseLines="159" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Salisbury</persname>
+</persona>
+
+<persona gender="male" id="1f5e0047-f0e6-4b9f-a5d0-5cfe30d09810">
+<persname short="LEW." numberOfLines="137" numberOfVerseLines="137" numberOfProseLines="0" numberOfLyricsLines="0">Lewis, the Dauphin</persname>
+</persona>
+
+<persona gender="male" death="yes" id="1715fe85-0a1c-416d-be40-0ad07edadffe">
+<persname short="ARTH." numberOfLines="120" numberOfVerseLines="120" numberOfProseLines="0" numberOfLyricsLines="0">Arthur</persname>
+</persona>
+
+<persona gender="male" id="c245b081-d7cf-4ac4-9fdc-2e56308c9af9">
+<persname short="PEM." numberOfLines="79" numberOfVerseLines="79" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Pembroke</persname>
+<persaliases>
+	<persname short="BOTH PEM. AND BIG.">Both Earl of Pembroke and Lord Bigot</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="ca542e95-64a1-4931-bcaa-8fb54535677c">
+<persname short="CHAT." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Chatillion</persname>
+</persona>
+
+<persona gender="male" id="01c4a090-b245-4842-a6db-0529630aa217">
+<persname short="MEL." numberOfLines="39" numberOfVerseLines="39" numberOfProseLines="0" numberOfLyricsLines="0">Melune</persname>
+</persona>
+
+<persona gender="male" id="a51f0042-cc82-4a53-8727-6c71be4d3ca2">
+<persname short="AUST." numberOfLines="36" numberOfVerseLines="36" numberOfProseLines="0" numberOfLyricsLines="0">Lymoges, Duke of Austria</persname>
+</persona>
+
+<persona gender="male" id="6300a3a6-201f-461b-90fd-c5ade9e15e64">
+<persname short="P. HEN." numberOfLines="29" numberOfVerseLines="29" numberOfProseLines="0" numberOfLyricsLines="0">Prince Henry</persname>
+</persona>
+
+<persona gender="male" id="d45558f7-cfe6-4301-968d-1cf08c2dc7cb">
+<persname short="ROB." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Robert Faulconbridge</persname>
+</persona>
+
+<persona gender="male" id="e3744369-9ff6-42a8-a314-59f51d2c402a">
+<persname short="ESSEX." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Earl of Essex</persname>
+</persona>
+
+<persona gender="female" archetype="hero" death="yes" id="68431a54-e2b7-4f2b-afbd-4cf86f554962">
+<persname short="CONST." numberOfLines="265" numberOfVerseLines="265" numberOfProseLines="0" numberOfLyricsLines="0">Constance</persname>
+</persona>
+
+<persona gender="female" death="yes" id="fbbbc09c-45cc-476c-9548-aaf6ac0575ed">
+<persname short="Q. EL." numberOfLines="55" numberOfVerseLines="55" numberOfProseLines="0" numberOfLyricsLines="0">Queen Elinor</persname>
+</persona>
+
+<persona gender="female" id="18d47937-802b-4965-97ce-d25dc6b292b3">
+<persname short="BLANCH." numberOfLines="42" numberOfVerseLines="42" numberOfProseLines="0" numberOfLyricsLines="0">Blanch of Spain</persname>
+</persona>
+
+<persona gender="female" id="491b3c88-3a69-47c2-ba58-9500291a6020">
+<persname short="L. FAULC." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Lady Faulconbridge</persname>
+</persona>
+
+<persona gender="male" id="5382b021-36a9-4d21-aa83-3fc6ecb286b8">
+<persname short="BIG." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Lord Bigot</persname>
+<persaliases>
+	<persname short="BOTH PEM. AND BIG.">Both Earl of Pembroke and Lord Bigot</persname>
+</persaliases>
+</persona>
+
+<persona gender="male" id="4c713bd4-b906-413b-b7a8-2a4ba894aa19">
 <persname short="MESS." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">The Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0e6f2441-01f4-44e7-9e30-52ee08c0ac14">
+<persname short="E. HER." numberOfLines="13" numberOfVerseLines="13" numberOfProseLines="0" numberOfLyricsLines="0">English Herald</persname>
+</persona>
+
+<persona gender="male" id="acce5c93-8315-4631-9887-bb003b7e59cf">
+<persname short="FR. HER." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">French Herald</persname>
+</persona>
+
+<persona gender="male" id="074525b0-1ec7-4414-964e-efb97c4b5843">
 <persname short="FR. MESS." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">French Messenger</persname>
 </persona>
+
+<persona gender="male" id="e3e199ff-22d4-4cdb-acc4-ada6d1d1946f">
+<persname short="EXEC." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Executioner</persname>
+</persona>
+
+<persona gender="male" death="yes" id="d6752e56-77bc-4afe-b5fe-cbdec13b7d75">
+<persname short="PET." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Peter of Pomfret</persname>
+</persona>
+
+<persona gender="male" id="e193367a-45c3-4298-ad78-0b88333bd2f6">
+<persname short="GUR." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">James Gurney</persname>
+</persona>
+
+<persona gender="male" id="7e975150-47af-407c-bfa3-ece3188b504b">
+<persname short="SHER." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sheriff</persname>
+</persona>
+
 </personae>
 
 
@@ -133,9 +139,10 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A room in King John&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
-	<scenepersona short="EL.">Queen Elinor</scenepersona>
+	<scenepersona short="Q. EL.">Queen Elinor</scenepersona>
 	<scenepersona short="PEM.">Pembroke</scenepersona>
 	<scenepersona short="ESSEX.">Essex</scenepersona>
 	<scenepersona short="SAL.">Salisbury</scenepersona>
@@ -143,7 +150,7 @@
 	<scenepersona short="SHER.">Sheriff</scenepersona>
 	<scenepersona short="ROB.">Robert Faulconbridge</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
-	<scenepersona short="LADY F.">Lady Faulconbridge</scenepersona>
+	<scenepersona short="L. FAULC.">Lady Faulconbridge</scenepersona>
 	<scenepersona short="GUR.">James Gurney</scenepersona>
 </scenepersonae>
 <scenelanguage>
@@ -156,7 +163,7 @@
 	<dir>Enter King John, Queen Elinor, Pembroke, Essex, and Salisbury, with the Chatillion of France.</dir>
 	<action type="enter">
 		<actor>K. JOHN.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>PEM.</actor>
 		<actor>ESSEX.</actor>
 		<actor>SAL.</actor>
@@ -177,7 +184,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="5" number="5" form="verse">A strange beginning: &#8220;borrowed majesty&#8221;!</line>
 </speech>
 
@@ -243,7 +250,7 @@
 </stagedir>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="31" number="31" form="verse">What now, my son, have I not ever said</line>
 <line globalnumber="32" number="32" form="verse">How that ambitious Constance would not cease</line>
 <line globalnumber="33" number="33" form="verse">Till she had kindled France, and all the world,</line>
@@ -260,7 +267,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="40" number="40" form="verse">Your strong possession much more than your right,</line>
 <line globalnumber="41" number="41" form="verse">Or else it must go wrong with you and me;</line>
 <line globalnumber="42" number="42" form="verse">So much my conscience whispers in your ear,</line>
@@ -337,7 +344,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="65" number="64" form="verse">Out on thee, rude man, thou dost shame thy mother,</line>
 <line globalnumber="66" number="65" form="verse">And wound her honor with this diffidence.</line>
 </speech>
@@ -378,7 +385,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="86" number="85" form="verse">He hath a trick of Coeur de Lion&#8217;s face,</line>
 <line globalnumber="87" number="86" form="verse">The accent of his tongue affecteth him.</line>
 <line globalnumber="88" number="87" form="verse">Do you not read some tokens of my son</line>
@@ -463,7 +470,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="135" number="134" form="verse">Whether hadst thou rather be a Faulconbridge,</line>
 <line globalnumber="136" number="135" form="verse">And like thy brother, to enjoy thy land;</line>
 <line globalnumber="137" number="136" form="verse">Or the reputed son of Coeur de Lion,</line>
@@ -485,7 +492,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="149" number="148" form="verse">I like thee well. Wilt thou forsake thy fortune,</line>
 <line globalnumber="150" number="149" form="verse">Bequeath thy land to him, and follow me?</line>
 <line globalnumber="151" number="150" form="verse">I am a soldier, and now bound to France.</line>
@@ -500,7 +507,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="156" number="155" form="verse">Nay, I would have you go before me thither.</line>
 </speech>
 
@@ -536,7 +543,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="168" number="167" form="verse">The very spirit of Plantagenet!</line>
 <line globalnumber="169" number="168" form="verse">I am thy grandame, Richard, call me so.</line>
 </speech>
@@ -568,7 +575,7 @@
 	<dir>Exeunt all but Bastard.</dir>
 	<action type="exit">
 		<actor>K. JOHN.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>ESSEX.</actor>
 		<actor>SAL.</actor>
 		<actor>ROB.</actor>
@@ -615,7 +622,7 @@
 <stagedir sdglobalnumber="220.01" sdnumber="219.01">
 	<dir>Enter Lady Faulconbridge and James Gurney.</dir>
 	<action type="enter">
-		<actor>LADY F.</actor>
+		<actor>L. FAULC.</actor>
 		<actor>GUR.</actor>
 	</action>
 </stagedir>
@@ -624,7 +631,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Faulconbridge">LADY F.</speaker>
+<speaker long="Lady Faulconbridge">L. FAULC.</speaker>
 <line globalnumber="223" number="222" form="verse">Where is that slave, thy brother? Where is he,</line>
 <line globalnumber="224" number="223" form="verse">That holds in chase mine honor up and down?</line>
 </speech>
@@ -637,7 +644,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Faulconbridge">LADY F.</speaker>
+<speaker long="Lady Faulconbridge">L. FAULC.</speaker>
 <line globalnumber="228" number="227" form="verse">Sir Robert&#8217;s son! Ay, thou unreverend boy,</line>
 <line globalnumber="229" number="228" form="verse">Sir Robert&#8217;s son! Why scorn&#8217;st thou at Sir Robert?</line>
 <line globalnumber="230" number="229" form="verse">He is Sir Robert&#8217;s son, and so art thou.</line>
@@ -674,7 +681,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Faulconbridge">LADY F.</speaker>
+<speaker long="Lady Faulconbridge">L. FAULC.</speaker>
 <line globalnumber="243" number="241" form="verse">Hast thou conspired with thy brother too,</line>
 <line globalnumber="244" number="242" form="verse">That for thine own gain shouldst defend mine honor?</line>
 <line globalnumber="245" number="243" form="verse">What means this scorn, thou most untoward knave?</line>
@@ -692,7 +699,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Faulconbridge">LADY F.</speaker>
+<speaker long="Lady Faulconbridge">L. FAULC.</speaker>
 <line globalnumber="253" number="251" form="verse">Hast thou denied thyself a Faulconbridge?</line>
 </speech>
 
@@ -702,7 +709,7 @@
 </speech>
 
 <speech>
-<speaker long="Lady Faulconbridge">LADY F.</speaker>
+<speaker long="Lady Faulconbridge">L. FAULC.</speaker>
 <line globalnumber="255" number="253" form="verse">King Richard Coeur de Lion was thy father.</line>
 <line globalnumber="256" number="254" form="verse">By long and vehement suit I was seduc&#8217;d</line>
 <line globalnumber="257" number="255" form="verse">To make room for him in my husband&#8217;s bed.</line>
@@ -736,7 +743,7 @@
 <stagedir sdglobalnumber="278.01" sdnumber="276.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>LADY F.</actor>
+		<actor>L. FAULC.</actor>
 		<actor>BAST.</actor>
 	</action>
 </stagedir>
@@ -749,6 +756,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>France. Before the town of Angiers.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. PHI.">King of France</scenepersona>
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
@@ -758,12 +766,12 @@
 	<scenepersona short="CHAT.">Chatillion</scenepersona>
 	<scenepersona short="K. JOHN.">King John of England</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
-	<scenepersona short="EL.">Queen Elinor</scenepersona>
+	<scenepersona short="Q. EL.">Queen Elinor</scenepersona>
 	<scenepersona short="BLANCH.">Blanch</scenepersona>
 	<scenepersona short="PEM.">Pembroke</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
 	<scenepersona>Citizens</scenepersona>
-	<scenepersona short="F. HER.">Herald of France</scenepersona>
+	<scenepersona short="FR. HER.">Herald of France</scenepersona>
 	<scenepersona short="E. HER.">English Herald</scenepersona>		
 </scenepersonae>
 <scenelanguage>
@@ -930,7 +938,7 @@
 	<action type="enter">
 		<actor>K. JOHN.</actor>
 		<actor>BAST.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>BLANCH.</actor>
 		<actor>PEM.</actor>
 	</action>
@@ -997,7 +1005,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="398" number="120" form="verse">Who is it thou dost call usurper, France?</line>
 </speech>
 
@@ -1007,7 +1015,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="400" number="122" form="verse">Out, insolent, thy bastard shall be king</line>
 <line globalnumber="401" number="123" form="verse">That thou mayst be a queen, and check the world!</line>
 </speech>
@@ -1025,7 +1033,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="410" number="132" form="verse">There&#8217;s a good mother, boy, that blots thy father.</line>
 </speech>
 
@@ -1099,7 +1107,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="440" number="159" form="verse" offset="4">Come to thy grandame, child.</line>
 </speech>
 
@@ -1119,7 +1127,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="448" number="166" form="verse">His mother shames him so, poor boy, he weeps.</line>
 </speech>
 
@@ -1134,7 +1142,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="455" number="173" form="verse">Thou monstrous slanderer of heaven and earth!</line>
 </speech>
 
@@ -1169,7 +1177,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="474" number="191" form="verse">Thou unadvised scold, I can produce</line>
 <line globalnumber="475" number="192" form="verse">A will that bars the title of thy son.</line>
 </speech>
@@ -1414,7 +1422,7 @@
 		<actor>CHAT.</actor>
 		<actor>K. JOHN.</actor>
 		<actor>BAST.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>BLANCH.</actor>
 		<actor>PEM.</actor>
 	</action>
@@ -1422,12 +1430,12 @@
 <stagedir sdglobalnumber="585.02" sdnumber="299.02">
 	<dir>Here, after excursions, enter the Herald of France with Trumpets to the gates.</dir>
 	<action type="enter">
-		<actor>F. HER.</actor>
+		<actor>FR. HER.</actor>
 	</action>
 </stagedir>
 
 <speech>
-<speaker long="French Herald">F. HER.</speaker>
+<speaker long="French Herald">FR. HER.</speaker>
 <line globalnumber="586" number="300" form="verse">You men of Angiers, open wide your gates,</line>
 <line globalnumber="587" number="301" form="verse">And let young Arthur Duke of Britain in,</line>
 <line globalnumber="588" number="302" form="verse">Who by the hand of France this day hath made</line>
@@ -1490,7 +1498,7 @@
 		<actor>CHAT.</actor>
 		<actor>K. JOHN.</actor>
 		<actor>BAST.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>BLANCH.</actor>
 		<actor>PEM.</actor>
 	</action>
@@ -1723,7 +1731,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="756" number="468" form="verse">Son, list to this conjunction, make this match,</line>
 <line globalnumber="757" number="469" form="verse">Give with our niece a dowry large enough,</line>
 <line globalnumber="758" number="470" form="verse">For by this knot thou shalt so surely tie</line>
@@ -1916,13 +1924,13 @@
 		<actor>ARTH.</actor>
 		<actor>AUST.</actor>
 		<actor>CHAT.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>BLANCH.</actor>
 		<actor>PEM.</actor>
 		<actor>HUB.</actor>
 		<actor>Citizens</actor>
 		<actor>E. HER.</actor>
-		<actor>F. HER.</actor>
+		<actor>FR. HER.</actor>
 	</action>
 </stagedir>
 
@@ -1983,6 +1991,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The French King&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CONST.">Constance</scenepersona>
 	<scenepersona short="ARTH.">Arthur</scenepersona>
@@ -1991,7 +2000,7 @@
 	<scenepersona short="K. PHI.">King Philip of France</scenepersona>
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
 	<scenepersona short="BLANCH.">Blanch</scenepersona>
-	<scenepersona short="EL.">Elinor</scenepersona>
+	<scenepersona short="Q. EL.">Elinor</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="AUST.">Austria</scenepersona>
 	<scenepersona>Attendants</scenepersona>
@@ -2137,7 +2146,7 @@
 		<actor>K. PHI.</actor>
 		<actor>LEW.</actor>
 		<actor>BLANCH.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>BAST.</actor>
 		<actor>AUST.</actor>
 		<actor>Attendants</actor>
@@ -2151,7 +2160,7 @@
 <line globalnumber="966" number="78" form="verse">To solemnize this day the glorious sun</line>
 <line globalnumber="967" number="79" form="verse">Stays in his course and plays the alchemist,</line>
 <line globalnumber="968" number="80" form="verse">Turning with splendor of his precious eye</line>
-<line globalnumber="969" number="81" form="verse">The meagre cloddy earth to glittering gold.</line>
+<line globalnumber="969" number="81" form="verse">The meager cloddy earth to glittering gold.</line>
 <line globalnumber="970" number="82" form="verse">The yearly course that brings this day about</line>
 <line globalnumber="971" number="83" form="verse">Shall never see it but a holy day.</line>
 </speech>
@@ -2364,7 +2373,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="1086" number="196" form="verse">Look&#8217;st thou pale, France? Do not let go thy hand.</line>
 </speech>
 
@@ -2633,7 +2642,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="1219" number="323" form="verse">O foul revolt of French inconstancy!</line>
 </speech>
 
@@ -2710,7 +2719,7 @@
 		<actor>K. PHI.</actor>
 		<actor>LEW.</actor>
 		<actor>BLANCH.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>PAND.</actor>
 		<actor>AUST.</actor>
 		<actor>Attendants</actor>
@@ -2722,6 +2731,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The plains near Angiers.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
@@ -2789,9 +2799,10 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The plains near Angiers.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
-	<scenepersona short="EL.">Elinor</scenepersona>
+	<scenepersona short="Q. EL.">Elinor</scenepersona>
 	<scenepersona short="ARTH.">Arthur</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
@@ -2808,7 +2819,7 @@
 	</action>
 	<action type="enter">
 		<actor>K. JOHN.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>ARTH.</actor>
 		<actor>BAST.</actor>
 		<actor>HUB.</actor>
@@ -2822,7 +2833,7 @@
 	<dir>To Elinor.</dir>
 	<action type="speak">
 		<actor>K. JOHN.</actor>
-		<recipient>EL.</recipient>
+		<recipient>Q. EL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1256" number="1" form="verse">So shall it be; your Grace shall stay behind</line>
@@ -2871,7 +2882,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="1273" number="17" form="verse" offset="0">Farewell, gentle cousin.</line>
 </speech>
 
@@ -2888,14 +2899,14 @@
 </stagedir>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="1275" number="18" form="verse">Come hither, little kinsman, hark, a word.</line>
 </speech>
 
 <stagedir sdglobalnumber="1275.01" sdnumber="18.01">
 	<dir>Takes Arthur aside.</dir>
 	<action type="aside">
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<recipient>ARTH.</recipient>
 	</action>
 </stagedir>
@@ -2975,7 +2986,7 @@
 
 <speech>
 <speaker long="King John">K. JOHN.</speaker>
-<line globalnumber="1325" number="65" form="verse" offset="8">Death.</line>
+<line globalnumber="1325" number="65" form="verse" offset="10">Death.</line>
 </speech>
 
 <speech>
@@ -2985,17 +2996,17 @@
 
 <speech>
 <speaker long="King John">K. JOHN.</speaker>
-<line globalnumber="1327" number="66" form="verse" offset="2">A grave.</line>
+<line globalnumber="1327" number="66" form="verse" offset="3">A grave.</line>
 </speech>
 
 <speech>
 <speaker long="Hubert de Burgh">HUB.</speaker>
-<line globalnumber="1328" number="66" form="verse" offset="4">He shall not live.</line>
+<line globalnumber="1328" number="66" form="verse" offset="5">He shall not live.</line>
 </speech>
 
 <speech>
 <speaker long="King John">K. JOHN.</speaker>
-<line globalnumber="1329" number="66" form="verse" offset="8">Enough.</line>
+<line globalnumber="1329" number="66" form="verse" offset="9">Enough.</line>
 <line globalnumber="1330" number="67" form="verse">I could be merry now. Hubert, I love thee.</line>
 <line globalnumber="1331" number="68" form="verse">Well, I&#8217;ll not say what I intend for thee.</line>
 <line globalnumber="1332" number="69" form="verse">Remember. Madam, fare you well,</line>
@@ -3003,7 +3014,7 @@
 </speech>
 
 <speech>
-<speaker long="Queen Elinor">EL.</speaker>
+<speaker long="Queen Elinor">Q. EL.</speaker>
 <line globalnumber="1334" number="71" form="verse" offset="0">My blessing go with thee!</line>
 </speech>
 
@@ -3018,7 +3029,7 @@
 	<dir>Exeunt.</dir>
 	<action type="exit">
 			<actor>K. JOHN.</actor>
-		<actor>EL.</actor>
+		<actor>Q. EL.</actor>
 		<actor>ARTH.</actor>
 		<actor>HUB.</actor>
 		<actor>Lords</actor>
@@ -3030,6 +3041,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The plains near Angiers. King Philip&#8217;s tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. PHI.">King Philip of France</scenepersona>
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
@@ -3206,7 +3218,7 @@
 <line globalnumber="1421" number="82" form="verse">But now will canker-sorrow eat my bud,</line>
 <line globalnumber="1422" number="83" form="verse">And chase the native beauty from his cheek,</line>
 <line globalnumber="1423" number="84" form="verse">And he will look as hollow as a ghost,</line>
-<line globalnumber="1424" number="85" form="verse">As dim and meagre as an ague&#8217;s fit,</line>
+<line globalnumber="1424" number="85" form="verse">As dim and meager as an ague&#8217;s fit,</line>
 <line globalnumber="1425" number="86" form="verse">And so he&#8217;ll die; and rising so again,</line>
 <line globalnumber="1426" number="87" form="verse">When I shall meet him in the court of heaven</line>
 <line globalnumber="1427" number="88" form="verse">I shall not know him: therefore never, never</line>
@@ -3416,6 +3428,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Northampton. A room in the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HUB.">Hubert</scenepersona>
 	<scenepersona short="EXEC.">Executioners</scenepersona>
@@ -3812,6 +3825,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>A room in King John&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
 	<scenepersona short="PEM.">Pembroke</scenepersona>
@@ -3820,7 +3834,7 @@
 	<scenepersona short="HUB.">Hubert</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
-	<scenepersona short="PETER.">Peter of Pomfret</scenepersona>
+	<scenepersona short="PET.">Peter of Pomfret</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -4101,7 +4115,7 @@
 	<dir>Enter Bastard and Peter of Pomfret.</dir>
 	<action type="enter">
 		<actor>BAST.</actor>
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 	</action>
 </stagedir>
 
@@ -4149,7 +4163,7 @@
 </speech>
 
 <speech>
-<speaker long="Peter of Pomfret">PETER.</speaker>
+<speaker long="Peter of Pomfret">PET.</speaker>
 <line globalnumber="1823" number="154" form="verse">Foreknowing that the truth will fall out so.</line>
 </speech>
 
@@ -4164,7 +4178,7 @@
 	<dir>Exit Hubert with Peter.</dir>
 	<action type="exit">
 		<actor>HUB.</actor>
-		<actor>PETER.</actor>
+		<actor>PET.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1829" number="159" form="verse" offset="5">O my gentle cousin,</line>
@@ -4400,6 +4414,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Before King John&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ARTH.">Arthur</scenepersona>
 	<scenepersona short="PEM.">Pembroke</scenepersona>
@@ -4613,7 +4628,7 @@
 </speech>
 
 <speech>
-<speaker long="Both Earl of Pembroke and Lord Bigot">BOTH. PEM. AND BIG.</speaker>
+<speaker long="Both Earl of Pembroke and Lord Bigot">BOTH PEM. AND BIG.</speaker>
 <line globalnumber="2017" number="73" form="verse">Our souls religiously confirm thy words.</line>
 </speech>
 
@@ -4865,6 +4880,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King John&#8217;s Palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
 	<scenepersona short="PAND.">Pandulph</scenepersona>
@@ -5058,6 +5074,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The French camp at St. Edmundsbury.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
 	<scenepersona short="SAL.">Salisbury</scenepersona>
@@ -5374,6 +5391,7 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="K. JOHN.">King John</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
@@ -5460,6 +5478,7 @@
 <scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Another part of the battlefield.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SAL.">Salisbury</scenepersona>
 	<scenepersona short="PEM.">Pembroke</scenepersona>
@@ -5612,6 +5631,7 @@
 <scene actnum="5" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The French camp.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEW.">Lewis the Dauphin</scenepersona>
 	<scenepersona short="FR. MESS.">French Messenger</scenepersona>
@@ -5699,6 +5719,7 @@
 <scene actnum="5" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>An open place in the neighborhood of Swinstead Abbey.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="BAST.">Philip the Bastard</scenepersona>
 	<scenepersona short="HUB.">Hubert</scenepersona>
@@ -5857,6 +5878,7 @@
 <scene actnum="5" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The orchard at Swinstead Abbey.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="P. HEN.">Prince Henry</scenepersona>
 	<scenepersona short="SAL.">Salisbury</scenepersona>
@@ -5947,7 +5969,7 @@
 
 <stagedir sdglobalnumber="2552.01" sdnumber="27.01">
 	<dir>King John brought in.</dir>
-	<action type="action">
+	<action type="enter">
 		<recipient>K. JOHN.</recipient>
 	</action>
 </stagedir>
@@ -6154,24 +6176,7 @@
 </act>
 
 
-<locations numberOfLocations="16">
-<placename>A room in King John&#8217;s palace.</placename>
-<placename>France. Before the town of Angiers.</placename>
-<placename>The French King&#8217;s tent.</placename>
-<placename>The plains near Angiers.</placename>
-<placename>The plains near Angiers.</placename>
-<placename>The plains near Angiers. King Philip&#8217;s tent.</placename>
-<placename>Northampton. A room in the castle.</placename>
-<placename>A room in King John&#8217;s castle.</placename>
-<placename>Before King John&#8217;s castle.</placename>
-<placename>King John&#8217;s Palace.</placename>
-<placename>The French camp at St. Edmundsbury.</placename>
-<placename>The battlefield.</placename>
-<placename>Another part of the battlefield.</placename>
-<placename>The French camp.</placename>
-<placename>An open place in the neighborhood of Swinstead Abbey.</placename>
-<placename>The orchard at Swinstead Abbey.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -6220,12 +6225,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

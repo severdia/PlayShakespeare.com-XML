@@ -1,280 +1,286 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="pericles">
 <title short="Pericles">Pericles, Prince of Tyre</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1607-1608</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="Pericles">
 
-<persona gender="male">
-<persname short="GOW." numberOfLines="307" numberOfVerseLines="307" numberOfProseLines="0" numberOfLyricsLines="0">Gower</persname>
-</persona>
-
-<persona gender="male" archetype="villain" death="yes">
-<persname short="ANT." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Antiochus</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="hero" id="c9c5dd35-8b1d-4502-aa36-07cf8e734d46">
 <persname short="PER." numberOfLines="598" numberOfVerseLines="588" numberOfProseLines="10" numberOfLyricsLines="0">Pericles</persname>
 <persaliases>
 	<persname short="BOTH THAI., PER.">Both Thaliard and Pericles</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="HEL." numberOfLines="123" numberOfVerseLines="123" numberOfProseLines="0" numberOfLyricsLines="0">Helicanus</persname>
+<persona gender="male" id="d624afb4-fb34-425a-85e4-e137dc70307d">
+<persname short="GOW." numberOfLines="307" numberOfVerseLines="307" numberOfProseLines="0" numberOfLyricsLines="0">Gower</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ESCA." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Escanes</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="603777c2-d4a3-43c0-91a9-095d24c6b1e0">
 <persname short="SIM." numberOfLines="157" numberOfVerseLines="157" numberOfProseLines="0" numberOfLyricsLines="0">Simonides</persname>
 </persona>
 
-<persona gender="male" archetype="villain" death="yes">
+<persona gender="male" id="3d19b686-80a6-49d1-b4b1-e602fe4592e6">
+<persname short="HEL." numberOfLines="123" numberOfVerseLines="123" numberOfProseLines="0" numberOfLyricsLines="0">Helicanus</persname>
+</persona>
+
+<persona gender="male" archetype="villain" death="yes" id="2e4e07f6-20b4-44aa-ad27-f0541c60e673">
 <persname short="CLE." numberOfLines="110" numberOfVerseLines="110" numberOfProseLines="0" numberOfLyricsLines="0">Cleon</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LYS." numberOfLines="89" numberOfVerseLines="73" numberOfProseLines="16" numberOfLyricsLines="0">Lysimachus</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="117abade-9aa7-45b1-84d7-97966af8bd9f">
 <persname short="CER." numberOfLines="109" numberOfVerseLines="107" numberOfProseLines="2" numberOfLyricsLines="0">Cerimon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="580a6a72-21fd-43dd-a6d1-0863c7580e87">
+<persname short="LYS." numberOfLines="89" numberOfVerseLines="73" numberOfProseLines="16" numberOfLyricsLines="0">Lysimachus</persname>
+</persona>
+
+<persona gender="male" archetype="villain" death="yes" id="e6062515-e025-455d-ad62-691d15a3658f">
+<persname short="ANT." numberOfLines="68" numberOfVerseLines="68" numberOfProseLines="0" numberOfLyricsLines="0">Antiochus</persname>
+</persona>
+
+<persona gender="male" id="92cc56c8-30fc-41af-8ceb-a851627035f3">
+<persname short="BAWD." numberOfLines="45" numberOfVerseLines="0" numberOfProseLines="45" numberOfLyricsLines="0">Bawd</persname>
+</persona>
+
+<persona gender="male" archetype="clown" id="f7778a7a-137b-49f0-842c-6dd3edb8bf9a">
+<persname short="BOULT." numberOfLines="38" numberOfVerseLines="1" numberOfProseLines="37" numberOfLyricsLines="0">Boult</persname>
+</persona>
+
+<persona gender="male" id="75646149-f980-4fb8-9bf2-f782544d1212">
+<persname short="LEON." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Leonine</persname>
+</persona>
+
+<persona gender="male" id="03110633-6078-41a4-9170-6b67c7857649">
 <persname short="THAL." numberOfLines="21" numberOfVerseLines="20" numberOfProseLines="1" numberOfLyricsLines="0">Thaliard</persname>
 <persaliases>
 	<persname short="BOTH THAI., PER.">Both Thaliard and Pericles</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="PHIL." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Philemon</persname>
-</persona>
-
-<persona gender="male">
-<persname short="LEON." numberOfLines="23" numberOfVerseLines="23" numberOfProseLines="0" numberOfLyricsLines="0">Leonine</persname>
-</persona>
-
-<persona gender="male">
-<persname short="MARSHAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Marshal</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="cea51ead-c41b-4894-ac4f-0c1a4045df88">
 <persname short="PAND." numberOfLines="10" numberOfVerseLines="0" numberOfProseLines="10" numberOfLyricsLines="0">Pander</persname>
 </persona>
 
-<persona gender="male" archetype="clown">
-<persname short="BOULT." numberOfLines="38" numberOfVerseLines="1" numberOfProseLines="37" numberOfLyricsLines="0">Boult</persname>
+
+<persona gender="male" id="c6f0a428-630e-4e1c-a4f7-e2c4e911078b">
+<persname short="ESCA." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Escanes</persname>
 </persona>
 
-<persona gender="female" death="yes">
-<persname short="DAUGH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Daughter of Antiochus</persname>
-</persona>
 
-<persona gender="female" archetype="villain" death="yes">
-<persname short="DION." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Dionyza</persname>
-</persona>
-
-<persona gender="female">
-<persname short="THAI." numberOfLines="80" numberOfVerseLines="80" numberOfProseLines="0" numberOfLyricsLines="0">Thaisa</persname>
-</persona>
-
-<persona gender="female" archetype="hero">
+<persona gender="female" archetype="hero" id="e06337dd-e877-4e1f-8d5b-1a1eaccff68b">
 <persname short="MAR." numberOfLines="182" numberOfVerseLines="158" numberOfProseLines="24" numberOfLyricsLines="0">Marina</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="6703646e-938c-4ead-8fdb-51411c1586c2">
+<persname short="DION." numberOfLines="88" numberOfVerseLines="88" numberOfProseLines="0" numberOfLyricsLines="0">Dionyza</persname>
+</persona>
+
+<persona gender="female" id="efdbe0f9-a00f-4355-a83b-02afb792edfb">
+<persname short="THAI." numberOfLines="80" numberOfVerseLines="80" numberOfProseLines="0" numberOfLyricsLines="0">Thaisa</persname>
+</persona>
+
+<persona gender="female" id="44761d72-20f5-41b7-89d4-18b324661fd6">
 <persname short="LYC." numberOfLines="11" numberOfVerseLines="10" numberOfProseLines="1" numberOfLyricsLines="0">Lychorida</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BAWD." numberOfLines="45" numberOfVerseLines="0" numberOfProseLines="45" numberOfLyricsLines="0">Bawd</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="14f9a540-00dc-4a73-a47c-cb184d3f252b">
 <persname short="DIA." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">Diana</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bb343a51-5693-4306-90f3-dc9f4118ac98">
+<persname short="LORD. TAR." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Lord of Tarsus</persname>
+</persona>
+
+<persona gender="male" id="4c315ade-ee75-4a4c-8f38-e859b632d347">
+<persname short="PHIL." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Philemon</persname>
+</persona>
+
+<persona gender="male" id="68418cd5-c92a-454b-842d-68c8623a9c49">
+<persname short="MARSHAL." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Marshal</persname>
+</persona>
+
+<persona gender="female" death="yes" id="e3390e87-7a8b-4b3a-ab4d-b5af1f8d2258">
+<persname short="DAUGH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Daughter of Antiochus</persname>
+</persona>
+
+<persona gender="male" id="bf33129c-7472-437f-bdde-192a057d08c5">
+<persname short="1. LORD. TYRE." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">First Lord of Tyre</persname>
+</persona>
+
+<persona gender="male" id="fde12ab6-0dcb-4e77-a83f-cb252b86cfe9">
+<persname short="2. LORD. TYRE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord of Tyre</persname>
+</persona>
+
+<persona gender="male" id="1adca68a-0499-4980-b105-cfd5c355f843">
+<persname short="3. LORD. TYRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Lord of Tyre</persname>
+</persona>
+
+<persona gender="male" id="2f8ff533-aed7-4730-8bc9-aeb57028d94a">
+<persname short="1. LORD. PENT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Lord of Pentapolis</persname>
+</persona>
+
+<persona gender="male" id="4d890a43-a08b-4d16-9b41-dbf47fe2a64a">
+<persname short="2. LORD. PENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord of Pentapolis</persname>
+</persona>
+
+<persona gender="male" id="afa22705-5376-4fb7-a92d-41e6948100f5">
+<persname short="3. LORD. PENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Third Lord of Pentapolis</persname>
+</persona>
+
+<persona gender="male" id="35622e7d-45a3-4681-b3b2-de572ab6882b">
+<persname short="LORD. MYT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lord of Myteline</persname>
+</persona>
+
+<persona gender="male" id="5fe19882-98ec-4bd4-8d65-b1860ebfac02">
+<persname short="1. GENT. EPH." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman of Ephesus</persname>
+</persona>
+
+<persona gender="male" id="2a5e55f5-06e3-4a15-9a5a-1e24e2573d87">
+<persname short="2. GENT. EPH." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman of Ephesus</persname>
+</persona>
+
+<persona gender="male" id="bc96d5cf-41e3-49a0-94be-31b41b7583c0">
+<persname short="1. GENT. TYRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman of Tyre</persname>
+</persona>
+
+<persona gender="male" id="c3978205-9706-4939-9114-c393716b1ac2">
+<persname short="1. GENT. MYT." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">First Gentleman of Mytilene</persname>
+</persona>
+
+<persona gender="male" id="ada785c3-0838-4619-987c-1e9db01256b7">
+<persname short="2. GENT. MYT." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Second Gentleman of Mytilene</persname>
+</persona>
+
+<persona gender="male" id="f9320dfd-ba79-4537-9326-991b6896ddac">
 <persname short="1. FISH." numberOfLines="15" numberOfVerseLines="1" numberOfProseLines="14" numberOfLyricsLines="0">First Fisherman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7660cd3f-f38c-4c66-b9c5-03b380c23a44">
 <persname short="2. FISH." numberOfLines="12" numberOfVerseLines="0" numberOfProseLines="12" numberOfLyricsLines="0">Second Fisherman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="87cbe7a2-012d-4f88-90cd-f7f6ee90a5d3">
 <persname short="3. FISH." numberOfLines="6" numberOfVerseLines="0" numberOfProseLines="6" numberOfLyricsLines="0">Third Fisherman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ea0bcba3-c581-49f4-9208-431fb43e5b58">
 <persname short="1. KNIGHT." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">First Knight</persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9b75ad63-cbc6-41ce-bccf-c93591bd6451">
 <persname short="2. KNIGHT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Second Knight</persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="85f383e8-d399-4394-b60d-dd393441ec65">
 <persname short="3. KNIGHT." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Third Knight</persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="56a73784-65ed-4ed0-aeef-aea9d3843545">
 <persname short="4. KNIGHT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Knight </persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c568bf6e-f362-4884-b9f4-1b3a3436e4f4">
 <persname short="5. KNIGHT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Fifth Knight</persname>
 <persaliases>
 	<persname short="ALL KNIGHTS.">All Knights</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FIVE PAGES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Five Pages</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. LORD. TYRE." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">First Lord of Tyre</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. LORD. TYRE." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord of Tyre</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. LORD. TYRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Third Lord of Tyre</persname>
-</persona>
-
-<persona gender="male">
-<persname short="ANT. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antiochan Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. LORD. PENT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">First Lord of Pentapolis</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. LORD. PENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Second Lord of Pentapolis</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. LORD. PENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Third Lord of Pentapolis</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="faf19aa9-e7d9-4157-aa90-13c83483f822">
 <persname short="1. SAIL." numberOfLines="5" numberOfVerseLines="1" numberOfProseLines="4" numberOfLyricsLines="0">First Sailor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5865b11f-a212-442c-a089-e1223bdefcc3">
 <persname short="2. SAIL." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">Second Sailor</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. GENT. EPH." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman of Ephesus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. GENT. EPH." numberOfLines="15" numberOfVerseLines="15" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman of Ephesus</persname>
-</persona>
-
-<persona gender="male">
-<persname short="EPH. SERV." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Ephesan Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. PIRATE." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">First Pirate</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. PIRATE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Second Pirate</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. PIRATE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Third Pirate</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. GENT. MYT." numberOfLines="3" numberOfVerseLines="0" numberOfProseLines="3" numberOfLyricsLines="0">First Gentleman of Mytilene</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. GENT. MYT." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Second Gentleman of Mytilene</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. TYR. MESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Tyrian Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="2. TYR. MESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Tyrian Messenger</persname>
-</persona>
-
-<persona gender="male">
-<persname short="1. GENT. TYRE." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman of Tyre</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="349b1001-5b26-495f-a3a6-f392ca17e8a5">
 <persname short="TYR. SAIL." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">Sailor of Tyre</persname>
 </persona>
 
-<persona gender="male">
-<persname short="MYT. SAIL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sailor of Mytilene</persname>
+<persona gender="male" id="29925bfa-d93c-45cd-aee2-521edff5445c">
+<persname short="1. PIRATE." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">First Pirate</persname>
 </persona>
 
-<persona gender="female">
-<persname short="VIRGINS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Virgins</persname>
+<persona gender="male" id="2fbdbe7d-e286-4429-8747-531140edabe3">
+<persname short="2. PIRATE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Second Pirate</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LORD. TAR." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Lord of Tarsus</persname>
+<persona gender="male" id="6029ca27-0f05-446e-bec5-d6e1062d832b">
+<persname short="3. PIRATE." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Third Pirate</persname>
 </persona>
 
-<persona gender="female">
-<persname short="MAR. LADY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marina&#8217;s Lady</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="7c12d517-3040-4f18-9d56-8bc9f4b6aa14">
 <persname short="1. CER. SERV." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Cerimon&#8217;s First Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="215e45ed-cfd1-469f-86dc-4fa53dcca57d">
 <persname short="2. CER. SERV." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Cerimon&#8217;s Second Servant</persname>
 </persona>
 
-<persona gender="male">
-<persname short="LORD. MYT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">Lord of Myteline</persname>
+<persona gender="male" id="c49d9353-c386-43ab-a701-0b0378382cd5">
+<persname short="EPH. SERV." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Ephesan Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd79241e-0c30-410e-91ab-b0fecaf9f4fd">
+<persname short="ANT. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Antiochan Messenger</persname>
+</persona>
+
+<persona gender="male" id="9e61c500-19e8-4041-ba18-eadb57f14159">
+<persname short="1. TYR. MESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">First Tyrian Messenger</persname>
+</persona>
+
+<persona gender="male" id="41085137-0d11-4578-9a35-de59e61358c4">
+<persname short="2. TYR. MESS." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Second Tyrian Messenger</persname>
+</persona>
+
+<persona gender="male" id="a61e0c8b-a150-4546-a420-57070e8a17c5">
+<persname short="MYT. SAIL." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Sailor of Mytilene</persname>
+</persona>
+
+<persona gender="male" id="50ea967a-347f-4de9-9450-6eb7113d226b">
 <persname short="MAN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Man</persname>
+</persona>
+
+<persona gender="female" id="180fd542-7ca4-45b0-b342-5301fa9cbaa9">
+<persname short="VIRGINS" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Virgins</persname>
+</persona>
+
+<persona gender="female" id="4ead5e9f-783a-44cd-903b-cb4a02e45328">
+<persname short="MAR. LADY" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Marina&#8217;s Lady</persname>
+</persona>
+
+<persona gender="male" id="7d785b14-d1c2-4106-be0a-168685961ff9">
+<persname short="FIVE PAGES" numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Five Pages</persname>
 </persona>
 
 </personae>
 
-
 <act num="1">
 <acttitle>Act 1</acttitle>
-<prologue actnum="1" num="0" minutesRunning="3" numberOfWords="281" numberOfLines="42">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -356,6 +362,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Antioch (Syria). A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ANT.">Antiochus</scenepersona>
 	<scenepersona short="PER.">Prince Pericles</scenepersona>
@@ -760,6 +767,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Tyre. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="1. LORD. TYRE.">First Lord of Tyre</scenepersona>
@@ -1029,6 +1037,7 @@
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tyre. An antechamber in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THAL.">Thaliard</scenepersona>
 	<scenepersona short="HEL.">Helicanus</scenepersona>
@@ -1149,6 +1158,7 @@
 <stagedir sdglobalnumber="377.01" sdnumber="31.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
+		<actor>THAL.</actor>
 		<actor>HEL.</actor>
 		<actor>ESCA.</actor>
 		<actor>Lords of Tyre</actor>
@@ -1160,6 +1170,7 @@
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tarsus. A room in the Governor&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLE.">Cleon</scenepersona>
 	<scenepersona short="DION.">Dionyza</scenepersona>
@@ -1418,7 +1429,7 @@
 <act num="2">
 <acttitle>Act 2</acttitle>
 
-<prologue actnum="2" num="0" minutesRunning="3" numberOfWords="265" numberOfLines="40">
+<prologue actnum="2" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -1521,6 +1532,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Pentapolis. An open place by the seaside.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="1. FISH.">First Fisherman</scenepersona>
@@ -1926,6 +1938,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Pentapolis. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIM.">Simonides</scenepersona>
 	<scenepersona short="1. LORD. PENT.">First Lord of Pentapolis</scenepersona>
@@ -2010,10 +2023,18 @@
 
 <stagedir sdglobalnumber="649.01" sdnumber="16.01">
 	<dir>The First Knight passes by and his Page presents his shield to the Princess.</dir>
+	<action type="enter">
+		<actor>1. KNIGHT.</actor>
+		<actor>FIVE PAGES</actor>
+	</action>
 	<action type="action">
 		<actor>1. KNIGHT.</actor>
 		<actor>FIVE PAGES</actor>
 		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
+		<actor>1. KNIGHT.</actor>
+		<actor>FIVE PAGES</actor>
 	</action>
 </stagedir>
 
@@ -2035,7 +2056,14 @@
 <line globalnumber="655" number="22" form="verse">He loves you well that holds his life of you.</line>
 <stagedir sdglobalnumber="655.01" sdnumber="22.01">
 	<dir>The Second Knight passes by.</dir>
+	<action type="enter">
+		<actor>2. KNIGHT.</actor>
+	</action>
 	<action type="action">
+		<actor>2. KNIGHT.</actor>
+		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
 		<actor>2. KNIGHT.</actor>
 	</action>
 </stagedir>
@@ -2052,7 +2080,14 @@
 
 <stagedir sdglobalnumber="660.01" sdnumber="27.01">
 	<dir>Third Knight passes by.</dir>
+	<action type="enter">
+		<actor>3. KNIGHT.</actor>
+	</action>
 	<action type="action">
+		<actor>3. KNIGHT.</actor>
+		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
 		<actor>3. KNIGHT.</actor>
 	</action>
 </stagedir>
@@ -2071,7 +2106,14 @@
 
 <stagedir sdglobalnumber="664.01" sdnumber="30.01">
 	<dir>Fourth Knight passes by.</dir>
+	<action type="enter">
+		<actor>4. KNIGHT.</actor>
+	</action>
 	<action type="action">
+		<actor>4. KNIGHT.</actor>
+		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
 		<actor>4. KNIGHT.</actor>
 	</action>
 </stagedir>
@@ -2095,7 +2137,14 @@
 
 <stagedir sdglobalnumber="669.01" sdnumber="35.01">
 	<dir>Fifth Knight passes by.</dir>
+	<action type="enter">
+		<actor>5. KNIGHT.</actor>
+	</action>
 	<action type="action">
+		<actor>5. KNIGHT.</actor>
+		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
 		<actor>5. KNIGHT.</actor>
 	</action>
 </stagedir>
@@ -2109,7 +2158,14 @@
 
 <stagedir sdglobalnumber="672.01" sdnumber="38.01">
 	<dir>Sixth Knight, Pericles, as he passes by, himself presents his device to the Princess.</dir>
+	<action type="enter">
+		<actor>PER.</actor>
+	</action>
 	<action type="action">
+		<actor>PER.</actor>
+		<recipient>THAI.</recipient>
+	</action>
+	<action type="exit">
 		<actor>PER.</actor>
 	</action>
 </stagedir>
@@ -2185,6 +2241,7 @@
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Pentapolis. A hall of state and a banquet.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIM.">King Simonides</scenepersona>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
@@ -2213,7 +2270,12 @@
 		<actor>Lords</actor>
 		<actor>Ladies</actor>
 		<actor>Attendants</actor>
-		<actor>ALL KNIGHTS.</actor>
+		<actor>1. KNIGHT.</actor>
+		<actor>2. KNIGHT.</actor>
+		<actor>3. KNIGHT.</actor>
+		<actor>4. KNIGHT.</actor>
+		<actor>5. KNIGHT.</actor>
+		<actor>PER.</actor>
 	</action>
 </stagedir>
 
@@ -2328,7 +2390,7 @@
 
 <speech>
 <speaker long="Simonides">SIM.</speaker>
-<stagedir sdglobalnumber="728.01" sdnumber="32.01">
+<stagedir sdglobalnumber="728.01" sdnumber="32.02">
 	<dir>To Thaisa.</dir>
 	<action type="speak">
 		<actor>SIM.</actor>
@@ -2587,6 +2649,7 @@
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tyre. A room in the Governor&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="HEL.">Helicanus</scenepersona>
 	<scenepersona short="ESCA.">Escanes</scenepersona>
@@ -2759,6 +2822,7 @@
 <scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Pentapolis. A room in the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="SIM.">King Simonides</scenepersona>
 	<scenepersona>Knights</scenepersona>
@@ -3080,7 +3144,7 @@
 <act num="3">
 <acttitle>Act 3</acttitle>
 
-<prologue actnum="3" num="0" minutesRunning="4" numberOfWords="379" numberOfLines="60">
+<prologue actnum="3" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -3130,7 +3194,11 @@
 	<action type="enter">
 		<actor>PER.</actor>
 		<actor>SIM.</actor>
+		<actor>Lords</actor>
 		<actor>Attendants</actor>
+	</action>
+	<action type="enter">
+		<actor>2. TYR. MESS.</actor>
 	</action>
 	<action type="action">
 		<actor>2. TYR. MESS.</actor>
@@ -3143,6 +3211,7 @@
 	<action type="enter">
 		<actor>THAI.</actor>
 		<actor>LYC.</actor>
+		<actor>Attendants</actor>
 	</action>
 	<action type="action">
 		<actor>SIM.</actor>
@@ -3152,12 +3221,13 @@
 		<actor>THAI.</actor>
 		<actor>PER.</actor>
 		<actor>LYC.</actor>
+		<actor>Attendants</actor>
 	</action>
 	<action type="exit">
 		<actor>SIM.</actor>
 		<actor>Lords</actor>
-		<actor>Attendants</actor>
 		<actor>2. TYR. MESS.</actor>
+		<actor>Attendants</actor>
 	</action>
 </stagedir>
 <line globalnumber="988" number="15" form="verse">By many a dern and painful perch,</line>
@@ -3220,6 +3290,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On a ship at sea.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="LYC.">Lychorida</scenepersona>
@@ -3444,6 +3515,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Ephesus. A room in Cerimon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CER.">Lord Cerimon</scenepersona>
 	<scenepersona short="EPH. SERV.">Ephesan Servant</scenepersona>
@@ -3619,6 +3691,7 @@
 	<action type="enter">
 		<actor>1. CER. SERV.</actor>
 		<actor>2. CER. SERV.</actor>
+		<recipient>THAI.</recipient>
 	</action>
 </stagedir>
 
@@ -3826,6 +3899,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tarsus. A room in Cleon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="CLE.">Cleon</scenepersona>
@@ -3950,6 +4024,7 @@
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Ephesus. A room in Cerimon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CER.">Cerimon</scenepersona>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
@@ -4015,7 +4090,7 @@
 <act num="4">
 <acttitle>Act 4</acttitle>
 
-<prologue actnum="4" num="0" minutesRunning="3" numberOfWords="320" numberOfLines="52">
+<prologue actnum="4" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -4099,6 +4174,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Tarsus. An open place near the seashore.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="DION.">Dionyza</scenepersona>
 	<scenepersona short="LEON.">Leonine</scenepersona>
@@ -4416,6 +4492,7 @@
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Mytilene. A room in a brothel.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAND.">Pander</scenepersona>
 	<scenepersona short="BAWD.">Bawd</scenepersona>
@@ -4829,6 +4906,7 @@
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Tarsus. A room in Cleon&#8217;s house.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CLE.">Cleon</scenepersona>
 	<scenepersona short="DION.">Dionyza</scenepersona>
@@ -4968,6 +5046,7 @@
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tarsus. Before the tomb of Marina.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
 	<scenepersona short="PER.">Pericles</scenepersona>
@@ -5084,6 +5163,7 @@
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Mytilene. A street before the brothel.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="1. GENT. MYT.">First Gentleman of Mytilene</scenepersona>
 	<scenepersona short="2. GENT. MYT.">Second Gentleman of Mytilene</scenepersona>
@@ -5139,6 +5219,7 @@
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Mytilene. A room in a brothel.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PAND.">Pander</scenepersona>
 	<scenepersona short="BAWD.">Bawd</scenepersona>
@@ -5684,7 +5765,7 @@
 <act num="5">
 <acttitle>Act 5</acttitle>
 
-<prologue actnum="5" num="0" minutesRunning="2" numberOfWords="194" numberOfLines="24">
+<prologue actnum="5" num="0">
 <scenetitle type="prologue">Prologue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -5740,6 +5821,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On board Pericles&#8217;s ship, off Mytilene.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="HEL.">Helicanus</scenepersona>
@@ -5760,6 +5842,9 @@
 
 <stagedir sdglobalnumber="1801.02" sdnumber="0.01">
 	<dir>On board Pericles&#8217; ship, off Mytilene. A close pavilion on deck, with a curtain before it; Pericles within it, reclined on a couch.</dir>
+	<action type="enter">
+		<actor>PER.</actor>
+	</action>
 	<action type="action">
 		<actor>PER.</actor>
 	</action>
@@ -5832,7 +5917,7 @@
 	<dir>Enter Lysimachus and Lords with the Gentlemen and the Tyrian Sailor.</dir>
 	<action type="enter">
 		<actor>LYS.</actor>
-		<actor>Lords</actor>
+		<actor>Lord</actor>
 		<actor>Gentlemen</actor>
 		<actor>TYR. SAIL.</actor>
 	</action>
@@ -6600,6 +6685,7 @@
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Ephesus. Before the temple of Diana.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="THAI.">Thaisa</scenepersona>
 	<scenepersona short="VIRGINS">Virgins</scenepersona>
@@ -6613,7 +6699,7 @@
 
 <stagedir sdglobalnumber="2098.02" sdnumber="0.01">
 	<dir>The Temple of Diana at Ephesus; Thaisa standing near the altar, as high priestess; a number of Virgins on each side; Cerimon and other inhabitants of Ephesus attending.</dir>
-	<action type="action">
+	<action type="enter">
 		<actor>THAI.</actor>
 		<actor>VIRGINS</actor>
 		<actor>CER.</actor>
@@ -6656,6 +6742,11 @@
 	<action type="exit">
 		<actor>GOW.</actor>
 	</action>
+	<action type="exit">
+		<actor>THAI.</actor>
+		<actor>VIRGINS</actor>
+		<actor>CER.</actor>
+	</action>
 </stagedir>
 
 </scene>
@@ -6663,12 +6754,16 @@
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The temple of Diana at Ephesus.</scenelocation>
+
 <scenepersonae>
+	<scenepersona short="THAI.">Thaisa</scenepersona>
 	<scenepersona short="PER.">Pericles</scenepersona>
 	<scenepersona short="LYS.">Lysimachus</scenepersona>
 	<scenepersona short="HEL.">Helicanus</scenepersona>
 	<scenepersona short="MAR.">Marina</scenepersona>
 	<scenepersona short="MAR. LADY">Marina&#8217;s Lady</scenepersona>
+	<scenepersona short="VIRGINS">Virgins</scenepersona>
+	<scenepersona short="CER.">Cerimon</scenepersona>
 </scenepersonae>
 <scenelanguage>
     <language short="en">English</language>
@@ -6676,13 +6771,21 @@
 
 
 <stagedir sdglobalnumber="2118.02" sdnumber="0.01">
+	<action type="enter">
+		<actor>THAI.</actor>
+		<actor>VIRGINS</actor>
+		<actor>CER.</actor>
+	</action>
+</stagedir>
+
+<stagedir sdglobalnumber="2118.03" sdnumber="0.02">
 	<dir>Enter Gower.</dir>
 	<action type="enter">
 		<actor>GOW.</actor>
 	</action>
 </stagedir>
 
-<stagedir sdglobalnumber="2118.03" sdnumber="0.02">
+<stagedir sdglobalnumber="2118.04" sdnumber="0.03">
 	<dir>Enter Pericles with his Train: Lysimachus, Helicanus, Marina, and a Lady.</dir>
 	<action type="enter">
 		<actor>PER.</actor>
@@ -6810,6 +6913,7 @@
 	<dir>Points to his ring.</dir>
 	<action type="action">
 		<actor>THAI.</actor>
+		<recipient>PER.</recipient>
 	</action>
 </stagedir>
 
@@ -6942,13 +7046,16 @@
 		<actor>HEL.</actor>
 		<actor>MAR.</actor>
 		<actor>MAR. LADY</actor>
+		<actor>THAI.</actor>
+		<actor>CER.</actor>
+		<actor>VIRGINS</actor>
 	</action>
 </stagedir>
 </scene>
 
 </act>
 
-<epilogue minutesRunning="2" numberOfWords="135" numberOfLines="18">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="GOW.">Gower</scenepersona>
@@ -6996,27 +7103,7 @@
 </epilogue>
 
 
-<locations numberOfLocations="19">
-<placename>Antioch (Syria). A room in the palace.</placename>
-<placename>Ephesus. A room in Cerimon&#8217;s house.</placename>
-<placename>Ephesus. Before the temple of Diana.</placename>
-<placename>Mytilene. A room in a brothel.</placename>
-<placename>Mytilene. A street before the brothel.</placename>
-<placename>On a ship at sea.</placename>
-<placename>On board Pericles&#8217;s ship, off Mytilene.</placename>
-<placename>Pentapolis. A hall of state and a banquet.</placename>
-<placename>Pentapolis. A public way, or platform leading to the lists. A pavilion by the side of it for the reception of the King, Princess, Lords, etc.</placename>
-<placename>Pentapolis. A room in the palace.</placename>
-<placename>Pentapolis. An open place by the seaside.</placename>
-<placename>Tarsus. A room in Cleon&#8217;s house.</placename>
-<placename>Tarsus. A room in the Governor&#8217;s house.</placename>
-<placename>Tarsus. An open place near the seashore.</placename>
-<placename>Tarsus. Before the tomb of Marina.</placename>
-<placename>The temple of Diana at Ephesus.</placename>
-<placename>Tyre. A room in the Governor&#8217;s house.</placename>
-<placename>Tyre. A room in the palace.</placename>
-<placename>Tyre. An antechamber in the palace.</placename>
-</locations>
+
 
 <sources>
 <playsource>
@@ -7060,12 +7147,11 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 

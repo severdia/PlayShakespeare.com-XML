@@ -1,94 +1,103 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="tempest">
 <title short="The Tempest">The Tempest</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1611</pubdate>
 
+
+<statistics>
+<category type="genre">Comedy</category>
+</statistics>
+
 <personae playtitle="The Tempest">
 
-<persona gender="male">
-<persname short="ALON." numberOfLines="108" numberOfVerseLines="106" numberOfProseLines="2" numberOfLyricsLines="0">Alonso</persname>
+<persona gender="male" archetype="hero" id="643e8ded-2a78-42f4-a389-6834c9d1d72a">
+<persname short="PROS." numberOfLines="663" numberOfVerseLines="662" numberOfProseLines="1" numberOfLyricsLines="0">Prospero</persname>
 </persona>
 
-<persona gender="male">
-<persname short="SEB." numberOfLines="114" numberOfVerseLines="86" numberOfProseLines="28" numberOfLyricsLines="0">Sebastian</persname>
+<persona gender="male" archetype="hero" id="b43a328e-6196-464b-9002-6f9ee6cb5ab5">
+<persname short="ARI." numberOfLines="196" numberOfVerseLines="192" numberOfProseLines="4" numberOfLyricsLines="40">Ariel</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="PROS." numberOfLines="663" numberOfVerseLines="662" numberOfProseLines="1" numberOfLyricsLines="20">Prospero</persname>
+<persona gender="male" id="cee716b4-f94d-4eb2-a55a-69cc51b26d87">
+<persname short="CAL." numberOfLines="170" numberOfVerseLines="156" numberOfProseLines="14" numberOfLyricsLines="7">Caliban</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="85733ade-17e5-42c2-b80c-40464c866622">
 <persname short="ANT." numberOfLines="142" numberOfVerseLines="115" numberOfProseLines="27" numberOfLyricsLines="0">Antonio</persname>
 </persona>
 
-<persona gender="male" archetype="lover">
+<persona gender="male" archetype="lover" id="4362222e-7ae0-414f-8619-456ba5bd0e70">
 <persname short="FER." numberOfLines="140" numberOfVerseLines="140" numberOfProseLines="0" numberOfLyricsLines="0">Ferdinand</persname>
 <persaliases>
 	<persname short="BOTH FER. AND MIR.">Both Ferdinand and Miranda</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9e7f813c-619b-4713-909c-3c99f8ecce65">
 <persname short="GON." numberOfLines="135" numberOfVerseLines="108" numberOfProseLines="27" numberOfLyricsLines="0">Gonzalo</persname>
 </persona>
 
-<persona gender="male">
-<persname short="ADR." numberOfLines="9" numberOfVerseLines="1" numberOfProseLines="8" numberOfLyricsLines="0">Adrian</persname>
+<persona gender="male" id="4abfca5a-34ec-42a8-aad5-327d1630b84a">
+<persname short="SEB." numberOfLines="114" numberOfVerseLines="86" numberOfProseLines="28" numberOfLyricsLines="0">Sebastian</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FRAN." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Francisco</persname>
+<persona gender="male" id="264bcb37-1434-44cb-8d1d-e2b7ac2dfb89">
+<persname short="ALON." numberOfLines="108" numberOfVerseLines="106" numberOfProseLines="2" numberOfLyricsLines="0">Alonso</persname>
 </persona>
 
-<persona gender="male">
-<persname short="CAL." numberOfLines="170" numberOfVerseLines="156" numberOfProseLines="14" numberOfLyricsLines="7">Caliban</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
-<persname short="TRIN." numberOfLines="40" numberOfVerseLines="0" numberOfProseLines="40" numberOfLyricsLines="0">Trinculo</persname>
-</persona>
-
-<persona gender="male" archetype="clown">
+<persona gender="male" archetype="clown" id="f10be947-b754-4c98-b396-376cf91ab9cf">
 <persname short="STE." numberOfLines="79" numberOfVerseLines="22" numberOfProseLines="57" numberOfLyricsLines="14">Stephano</persname>
 </persona>
 
-<persona gender="female" archetype="lover">
+<persona gender="male" archetype="clown" id="8d559d58-b719-4e94-9a42-9816f61c1bc2">
+<persname short="TRIN." numberOfLines="40" numberOfVerseLines="0" numberOfProseLines="40" numberOfLyricsLines="0">Trinculo</persname>
+</persona>
+
+<persona gender="male" id="2ffa06dc-8d8e-4cb4-999a-41a9c94cc0e8">
+<persname short="BOATS." numberOfLines="29" numberOfVerseLines="18" numberOfProseLines="11" numberOfLyricsLines="0">Boatswain</persname>
+</persona>
+
+<persona gender="male" id="d1caa66a-3c3d-4186-af31-7a9a39f7b3d8">
+<persname short="FRAN." numberOfLines="11" numberOfVerseLines="11" numberOfProseLines="0" numberOfLyricsLines="0">Francisco</persname>
+</persona>
+
+<persona gender="male" id="47cfe209-2c11-4811-b12a-6108316e43f6">
+<persname short="ADR." numberOfLines="9" numberOfVerseLines="1" numberOfProseLines="8" numberOfLyricsLines="0">Adrian</persname>
+</persona>
+
+
+<persona gender="female" archetype="lover" id="ebc90147-02ce-449d-acef-94f89aa36c24">
 <persname short="MIR." numberOfLines="154" numberOfVerseLines="154" numberOfProseLines="0" numberOfLyricsLines="0">Miranda</persname>
 <persaliases>
 	<persname short="BOTH FER. AND MIR.">Both Ferdinand and Miranda</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="ARI." numberOfLines="196" numberOfVerseLines="192" numberOfProseLines="4" numberOfLyricsLines="40">Ariel</persname>
-</persona>
 
-<persona gender="female">
+<persona gender="female" id="1df54765-894f-499a-9016-e8469e351b9c">
 <persname short="IRIS." numberOfLines="41" numberOfVerseLines="41" numberOfProseLines="0" numberOfLyricsLines="0">Iris</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="98c1c46d-0482-4c94-8bff-addaea6fcdbd">
 <persname short="CER." numberOfLines="24" numberOfVerseLines="24" numberOfProseLines="0" numberOfLyricsLines="8">Ceres</persname>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="7c0e5b29-f29a-4a53-b21f-7477ba8ca769">
 <persname short="JUNO." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="4">Juno</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e24e45c8-73cd-4429-b946-b531db701123">
 <persname short="MAST." numberOfLines="2" numberOfVerseLines="0" numberOfProseLines="2" numberOfLyricsLines="0">Master of a Ship</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BOATS." numberOfLines="29" numberOfVerseLines="18" numberOfProseLines="11" numberOfLyricsLines="0">Boatswain</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="5a678060-cc07-406b-8971-226c80b792be">
 <persname short="MARINERS." numberOfLines="1" numberOfVerseLines="0" numberOfProseLines="1" numberOfLyricsLines="0">Mariners</persname>
 </persona>
+
+
 </personae>
 
 
@@ -97,6 +106,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>On a ship at sea.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="MAST.">Ship-Master</scenepersona>
 	<scenepersona short="BOATS.">Boatswain</scenepersona>
@@ -390,6 +400,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The island. Before Prospero&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PROS.">Prospero</scenepersona>
 	<scenepersona short="MIR.">Miranda</scenepersona>
@@ -1668,7 +1679,7 @@
 	</action>
 </stagedir>
 <line globalnumber="620" number="496" form="verse" offset="5">It works.</line>
-<stagedir sdglobalnumber="620.01" sdnumber="496.01">
+<stagedir sdglobalnumber="620.01" sdnumber="496.02">
 	<dir>To Ferdinand.</dir>
 	<action type="speak">
 		<actor>PROS.</actor>
@@ -1685,7 +1696,7 @@
 	</action>
 </stagedir>
 <line globalnumber="623" number="497" form="verse" offset="7">Follow me.</line>
-<stagedir sdglobalnumber="623.01" sdnumber="497.01">
+<stagedir sdglobalnumber="623.01" sdnumber="497.02">
 	<dir>To Ariel.</dir>
 	<action type="speak">
 		<actor>PROS.</actor>
@@ -1735,7 +1746,7 @@
 <line globalnumber="634" number="504" form="verse" offset="3">Speak not for him.</line>
 </speech>
 
-<stagedir sdglobalnumber="634.01" sdnumber="504.01">
+<stagedir sdglobalnumber="634.01" sdnumber="504.02">
 	<dir>Exeunt.</dir>
 	<action type="exit">
 		<actor>PROS.</actor>
@@ -1753,6 +1764,7 @@
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ALON.">Alonso</scenepersona>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
@@ -2850,6 +2862,7 @@
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAL.">Caliban</scenepersona>
 	<scenepersona short="TRIN.">Trinculo</scenepersona>
@@ -3252,6 +3265,7 @@
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="FER.">Ferdinand</scenepersona>
 	<scenepersona short="MIR.">Miranda</scenepersona>
@@ -3523,6 +3537,7 @@
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CAL.">Caliban</scenepersona>
 	<scenepersona short="STE.">Stephano</scenepersona>
@@ -3961,6 +3976,7 @@
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Another part of the island.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="ALON.">Alonso</scenepersona>
 	<scenepersona short="SEB.">Sebastian</scenepersona>
@@ -4062,13 +4078,13 @@
 <line globalnumber="1315" number="17" form="verse" offset="5">I say tonight. No more.</line>
 </speech>
 
-<stagedir sdglobalnumber="1315.01" sdnumber="17.01">
+<stagedir sdglobalnumber="1315.01" sdnumber="17.02">
 	<dir>Solemn and strange music.</dir>
 	<action type="song">
 	</action>
 </stagedir>
 
-<stagedir sdglobalnumber="1315.02" sdnumber="17.02">
+<stagedir sdglobalnumber="1315.02" sdnumber="17.03">
 	<dir>Prospero on the top, invisible.</dir>
 	<action type="enter">
 		<actor>PROS.</actor>
@@ -4204,8 +4220,12 @@
 	<action type="sound">
 	</action>
 </stagedir>
+
 <stagedir sdglobalnumber="1358.02" sdnumber="52.02">
 	<dir>Enter Ariel, like a harpy, claps his wings upon the table, and with a quaint device the banquet vanishes.</dir>
+	<action type="enter">
+		<actor>ARI.</actor>
+	</action>
 	<action type="action">
 		<actor>ARI.</actor>
 	</action>
@@ -4368,6 +4388,7 @@
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PROS.">Prospero</scenepersona>
 	<scenepersona short="FER.">Ferdinand</scenepersona>
@@ -4741,7 +4762,6 @@
 	<dir>Enter certain Reapers, properly habited: they join with the Nymphs in a graceful dance, towards the end whereof Prospero starts suddenly, and speaks; after which, to a strange, hollow, and confused noise, they heavily vanish.</dir>
 	<action type="enter">
 		<actor>Reapers</actor>
-		<actor>Nymphs</actor>
 	</action>
 	<action type="action">
 		<actor>Reapers</actor>
@@ -4771,7 +4791,6 @@
 		<actor>PROS.</actor>
 		<recipient>CER.</recipient>
 		<recipient>JUNO.</recipient>
-		<recipient>IRIS.</recipient>
 	</action>
 	<action type="exit">
 		<recipient>CER.</recipient>
@@ -4839,7 +4858,7 @@
 	</action>
 </stagedir>
 <line globalnumber="1601" number="164" form="verse" offset="5">I thank thee.</line>
-<stagedir sdglobalnumber="1601.01" sdnumber="164.01">
+<stagedir sdglobalnumber="1601.01" sdnumber="164.02">
 	<dir>Exeunt Ferdinand and Miranda.</dir>
 	<action type="exit">
 		<actor>FER.</actor>
@@ -4849,7 +4868,7 @@
 <line globalnumber="1602" number="164" form="verse" offset="8">Ariel! Come.</line>
 </speech>
 
-<stagedir sdglobalnumber="1602.01" sdnumber="164.01">
+<stagedir sdglobalnumber="1602.01" sdnumber="164.03">
 	<dir>Enter Ariel.</dir>
 	<action type="enter">
 		<actor>ARI.</actor>
@@ -5166,6 +5185,7 @@
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Before Prospero&#8217;s cell.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="PROS.">Prospero</scenepersona>
 	<scenepersona short="ARI.">Ariel</scenepersona>
@@ -5588,8 +5608,6 @@
 	<dir>Here Prospero discovers Ferdinand and Miranda playing at chess.</dir>
 	<action type="action">
 		<actor>PROS.</actor>
-		<actor>FER.</actor>
-		<actor>MIR.</actor>
 	</action>
 	<action type="enter">
 		<actor>FER.</actor>
@@ -5824,7 +5842,7 @@
 
 <speech>
 <speaker long="Prospero">PROS.</speaker>
-<stagedir sdglobalnumber="1961.01" sdnumber="240.01">
+<stagedir sdglobalnumber="1961.01" sdnumber="240.02">
 	<dir>Aside to Ariel</dir>
 	<action type="aside">
 		<actor>PROS.</actor>
@@ -6090,7 +6108,7 @@
 
 </act>
 
-<epilogue minutesRunning="1" numberOfWords="128" numberOfLines="20">
+<epilogue>
 <scenetitle type="epilogue">Epilogue</scenetitle>
 <scenepersonae>
 	<scenepersona short="PROS.">Prospero</scenepersona>
@@ -6100,28 +6118,34 @@
 </scenelanguage>
 
 
+<stagedir sdglobalnumber="2044.02" sdnumber="0.01">
+	<action type="enter">
+		<actor>PROS.</actor>
+	</action>
+</stagedir>
+
 <speech>
 <speaker long="Prospero">PROS.</speaker>
-<line globalnumber="2045" number="1" form="verse" type="lyric">Now my charms are all o&#8217;erthrown,</line>
-<line globalnumber="2046" number="2" form="verse" type="lyric">And what strength I have&#8217;s mine own,</line>
-<line globalnumber="2047" number="3" form="verse" type="lyric">Which is most faint. Now &#8217;tis true,</line>
-<line globalnumber="2048" number="4" form="verse" type="lyric">I must be here confin&#8217;d by you,</line>
-<line globalnumber="2049" number="5" form="verse" type="lyric">Or sent to Naples. Let me not,</line>
-<line globalnumber="2050" number="6" form="verse" type="lyric">Since I have my dukedom got,</line>
-<line globalnumber="2051" number="7" form="verse" type="lyric">And pardon&#8217;d the deceiver, dwell</line>
-<line globalnumber="2052" number="8" form="verse" type="lyric">In this bare island by your spell,</line>
-<line globalnumber="2053" number="9" form="verse" type="lyric">But release me from my bands</line>
-<line globalnumber="2054" number="10" form="verse" type="lyric">With the help of your good hands.</line>
-<line globalnumber="2055" number="11" form="verse" type="lyric">Gentle breath of yours my sails</line>
-<line globalnumber="2056" number="12" form="verse" type="lyric">Must fill, or else my project fails,</line>
-<line globalnumber="2057" number="13" form="verse" type="lyric">Which was to please. Now I want</line>
-<line globalnumber="2058" number="14" form="verse" type="lyric">Spirits to enforce, art to enchant,</line>
-<line globalnumber="2059" number="15" form="verse" type="lyric">And my ending is despair,</line>
-<line globalnumber="2060" number="16" form="verse" type="lyric">Unless I be reliev&#8217;d by prayer,</line>
-<line globalnumber="2061" number="17" form="verse" type="lyric">Which pierces so, that it assaults</line>
-<line globalnumber="2062" number="18" form="verse" type="lyric">Mercy itself, and frees all faults.</line>
-<line globalnumber="2063" number="19" form="verse" type="lyric">As you from crimes would pardon&#8217;d be,</line>
-<line globalnumber="2064" number="20" form="verse" type="lyric">Let your indulgence set me free.</line>
+<line globalnumber="2045" number="1" form="verse">Now my charms are all o&#8217;erthrown,</line>
+<line globalnumber="2046" number="2" form="verse">And what strength I have&#8217;s mine own,</line>
+<line globalnumber="2047" number="3" form="verse">Which is most faint. Now &#8217;tis true,</line>
+<line globalnumber="2048" number="4" form="verse">I must be here confin&#8217;d by you,</line>
+<line globalnumber="2049" number="5" form="verse">Or sent to Naples. Let me not,</line>
+<line globalnumber="2050" number="6" form="verse">Since I have my dukedom got,</line>
+<line globalnumber="2051" number="7" form="verse">And pardon&#8217;d the deceiver, dwell</line>
+<line globalnumber="2052" number="8" form="verse">In this bare island by your spell,</line>
+<line globalnumber="2053" number="9" form="verse">But release me from my bands</line>
+<line globalnumber="2054" number="10" form="verse">With the help of your good hands.</line>
+<line globalnumber="2055" number="11" form="verse">Gentle breath of yours my sails</line>
+<line globalnumber="2056" number="12" form="verse">Must fill, or else my project fails,</line>
+<line globalnumber="2057" number="13" form="verse">Which was to please. Now I want</line>
+<line globalnumber="2058" number="14" form="verse">Spirits to enforce, art to enchant,</line>
+<line globalnumber="2059" number="15" form="verse">And my ending is despair,</line>
+<line globalnumber="2060" number="16" form="verse">Unless I be reliev&#8217;d by prayer,</line>
+<line globalnumber="2061" number="17" form="verse">Which pierces so, that it assaults</line>
+<line globalnumber="2062" number="18" form="verse">Mercy itself, and frees all faults.</line>
+<line globalnumber="2063" number="19" form="verse">As you from crimes would pardon&#8217;d be,</line>
+<line globalnumber="2064" number="20" form="verse">Let your indulgence set me free.</line>
 </speech>
 
 <stagedir sdglobalnumber="2064.01" sdnumber="20.01">
@@ -6133,12 +6157,11 @@
 </epilogue>
 
 
-<locations numberOfLocations="4">
-<placename>Another part of the island.</placename>
-<placename>Before Prospero&#8217;s cell.</placename>
-<placename>On a ship at sea.</placename>
-<placename>The island. Before Prospero&#8217;s cell.</placename>
-</locations>
+
+
+
+
+
 
 <sources>
 <playsource>
@@ -6223,11 +6246,10 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>

@@ -1,134 +1,143 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 
-<play>
+<play variant="ps" unique="king-lear">
 <title short="King Lear">The Tragedy of King Lear</title>
 <playwright>William Shakespeare</playwright>
 <pubdate>1605</pubdate>
 
+
+<statistics>
+<category type="genre">Tragedy</category>
+</statistics>
+
 <personae playtitle="King Lear">
 
-<persona gender="male" archetype="hero" death="yes">
+<persona gender="male" archetype="hero" death="yes" id="2122dc44-a7c1-44d0-8321-b139cad5f882">
 <persname short="LEAR." numberOfLines="689" numberOfVerseLines="605" numberOfProseLines="84" numberOfLyricsLines="0">Lear, King of Britain</persname>
 </persona>
 
-<persona gender="male">
-<persname short="FRANCE." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">King of France</persname>
+<persona gender="male" archetype="hero" id="e96eed55-23ce-4f35-a91f-88a8d33ad3c0">
+<persname short="KENT." numberOfLines="317" numberOfVerseLines="262" numberOfProseLines="55" numberOfLyricsLines="0">Earl of Kent</persname>
 </persona>
 
-<persona gender="male">
-<persname short="BUR." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Burgundy</persname>
+<persona gender="male" archetype="hero" death="yes" id="6b5ce5ab-c581-46e3-8f45-07bbfc866c1a">
+<persname short="GLOU." numberOfLines="268" numberOfVerseLines="233" numberOfProseLines="35" numberOfLyricsLines="0">Earl of Gloucester</persname>
 </persona>
 
-<persona gender="male" archetype="villain" death="yes">
-<persname short="CORN." numberOfLines="95" numberOfVerseLines="84" numberOfProseLines="11" numberOfLyricsLines="0">Duke of Cornwall</persname>
-<persaliases>
-	<persname short="ALB. AND CORN.">Both Albany and Cornwall</persname>
-</persaliases>
+<persona gender="male" archetype="hero" id="c81e36d8-5928-4a8c-aef0-7b967038d6e1">
+<persname short="EDG." numberOfLines="327" numberOfVerseLines="294" numberOfProseLines="33" numberOfLyricsLines="7">Edgar</persname>
 </persona>
 
-<persona gender="male" archetype="hero">
+<persona gender="male" archetype="villain" id="907799e0-5e93-4f4c-a4d7-e338f47a13ea">
+<persname short="EDM." numberOfLines="240" numberOfVerseLines="202" numberOfProseLines="38" numberOfLyricsLines="0">Edmund</persname>
+</persona>
+
+<persona gender="male" archetype="hero" id="a1ed8532-8e56-4664-9cde-9223eca7ab28">
 <persname short="ALB." numberOfLines="156" numberOfVerseLines="156" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Albany</persname>
 <persaliases>
 	<persname short="ALB. AND CORN.">Both Albany and Cornwall</persname>
 </persaliases>
 </persona>
 
-<persona gender="male" archetype="hero">
-<persname short="KENT." numberOfLines="317" numberOfVerseLines="262" numberOfProseLines="55" numberOfLyricsLines="0">Earl of Kent</persname>
-</persona>
-
-<persona gender="male" archetype="hero" death="yes">
-<persname short="GLOU." numberOfLines="268" numberOfVerseLines="233" numberOfProseLines="35" numberOfLyricsLines="0">Earl of Gloucester</persname>
-</persona>
-
-<persona gender="male" archetype="hero">
-<persname short="EDG." numberOfLines="327" numberOfVerseLines="294" numberOfProseLines="33" numberOfLyricsLines="7">Edgar</persname>
-</persona>
-
-<persona gender="male" archetype="villain">
-<persname short="EDM." numberOfLines="240" numberOfVerseLines="202" numberOfProseLines="38" numberOfLyricsLines="0">Edmund</persname>
-</persona>
-
-<persona gender="male">
-<persname short="CUR." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Curan</persname>
-</persona>
-
-<persona gender="male" death="yes">
-<persname short="OSW." numberOfLines="75" numberOfVerseLines="57" numberOfProseLines="18" numberOfLyricsLines="0">Oswald</persname>
-</persona>
-
-<persona gender="male" archetype="clown" death="yes">
+<persona gender="male" archetype="clown" death="yes" id="834fe976-3716-4d43-83da-24b52318b365">
 <persname short="FOOL." numberOfLines="144" numberOfVerseLines="88" numberOfProseLines="56" numberOfLyricsLines="24">Fool</persname>
 </persona>
 
-<persona gender="female" archetype="villain" death="yes">
-<persname short="GON." numberOfLines="187" numberOfVerseLines="180" numberOfProseLines="7" numberOfLyricsLines="0">Goneril</persname>
+<persona gender="male" archetype="villain" death="yes" id="27b36bb9-0c33-49d8-8162-5ba7057362b7">
+<persname short="CORN." numberOfLines="95" numberOfVerseLines="84" numberOfProseLines="11" numberOfLyricsLines="0">Duke of Cornwall</persname>
+<persaliases>
+	<persname short="ALB. AND CORN.">Both Albany and Cornwall</persname>
+</persaliases>
 </persona>
 
-<persona gender="female" archetype="villain" death="yes">
+<persona gender="male" death="yes" id="efc05d5c-9d25-4b1c-aeb0-840772cef705">
+<persname short="OSW." numberOfLines="75" numberOfVerseLines="57" numberOfProseLines="18" numberOfLyricsLines="0">Oswald</persname>
+</persona>
+
+<persona gender="male" id="76bdc4e8-ddc4-47cc-8f98-31a03ea7ae99">
+<persname short="FRANCE." numberOfLines="32" numberOfVerseLines="32" numberOfProseLines="0" numberOfLyricsLines="0">King of France</persname>
+</persona>
+
+<persona gender="female" archetype="villain" death="yes" id="be3e5ff7-46ee-402c-8823-fdcb0b917606">
 <persname short="REG." numberOfLines="188" numberOfVerseLines="183" numberOfProseLines="5" numberOfLyricsLines="0">Regan</persname>
 </persona>
 
-<persona gender="female" archetype="hero" death="yes">
+<persona gender="female" archetype="villain" death="yes" id="72309f43-d516-462c-86f0-7093d4431c6e">
+<persname short="GON." numberOfLines="187" numberOfVerseLines="180" numberOfProseLines="7" numberOfLyricsLines="0">Goneril</persname>
+</persona>
+
+<persona gender="female" archetype="hero" death="yes" id="40a1a88a-2309-4bbe-99db-9b8d0dfac38f">
 <persname short="COR." numberOfLines="117" numberOfVerseLines="117" numberOfProseLines="0" numberOfLyricsLines="0">Cordelia</persname>
 </persona>
 
-<persona gender="male">
-<persname short="OLD MAN." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Old Man</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="7446fb27-c9c1-47a1-93dd-d99bb9e72ff0">
 <persname short="DOCT." numberOfLines="18" numberOfVerseLines="18" numberOfProseLines="0" numberOfLyricsLines="0">Doctor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="74c69047-7d98-4496-bd05-fd4b3b8423f1">
+<persname short="BUR." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Duke of Burgundy</persname>
+</persona>
+
+<persona gender="male" id="4293d8ca-fca6-479f-83b1-6a0f55dfc7e4">
+<persname short="OLD MAN." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Old Man</persname>
+</persona>
+
+<persona gender="male" id="819b9b9c-484b-446f-ad58-13620f1c7a80">
 <persname short="HER." numberOfLines="6" numberOfVerseLines="5" numberOfProseLines="1" numberOfLyricsLines="0">Herald</persname>
 </persona>
 
-<persona gender="male">
-<persname short="KNIGHT." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Knight</persname>
+<persona gender="male" id="0eec0723-2473-41ed-97ea-7f10457f30a1">
+<persname short="CUR." numberOfLines="4" numberOfVerseLines="0" numberOfProseLines="4" numberOfLyricsLines="0">Curan</persname>
 </persona>
 
-<persona gender="male">
-<persname short="1. CAPT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Captain</persname>
-</persona>
 
-<persona gender="male">
-<persname short="2. CAPT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Captain</persname>
-</persona>
 
-<persona gender="male">
-<persname short="1. SERV." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Servant</persname>
-</persona>
 
-<persona gender="male">
-<persname short="2. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="3. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Third Servant</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="68cee6fa-c31e-418f-97d8-d5d1cb265c7d">
 <persname short="1. GENT." numberOfLines="73" numberOfVerseLines="65" numberOfProseLines="8" numberOfLyricsLines="0">First Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e04ba19c-c00c-4b9e-9abb-933a3c7e21f3">
 <persname short="2. GENT." numberOfLines="6" numberOfVerseLines="6" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c2389d7-b7ba-44d1-8685-b1dffee1dcb4">
 <persname short="1. MESS." numberOfLines="17" numberOfVerseLines="17" numberOfProseLines="0" numberOfLyricsLines="0">First Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63cd6d81-7091-45f8-89f2-d12f9e627178">
 <persname short="2. MESS." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3b95fa2d-7d72-42e1-b2d0-fde9a54c6186">
 <persname short="FR. MESS." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">French Messenger</persname>
 </persona>
+
+<persona gender="male" death="yes" id="cb548983-80bd-4df2-aedd-44b2f8110989">
+<persname short="1. SERV." numberOfLines="9" numberOfVerseLines="9" numberOfProseLines="0" numberOfLyricsLines="0">First Servant</persname>
+</persona>
+
+<persona gender="male" id="0aca4e1e-0c14-4990-a867-025bdde14164">
+<persname short="2. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second Servant</persname>
+</persona>
+
+<persona gender="male" id="d0d82602-f862-49a5-b0c0-928f105f5763">
+<persname short="3. SERV." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Third Servant</persname>
+</persona>
+
+<persona gender="male" id="a91fd4a7-9d12-4fcf-872f-8778bd1ae17d">
+<persname short="KNIGHT." numberOfLines="5" numberOfVerseLines="0" numberOfProseLines="5" numberOfLyricsLines="0">Knight</persname>
+</persona>
+
+<persona gender="male" id="92ef1729-e7d7-47ff-b6c1-29dadbfaa315">
+<persname short="1. CAPT." numberOfLines="3" numberOfVerseLines="3" numberOfProseLines="0" numberOfLyricsLines="0">First Captain</persname>
+</persona>
+
+<persona gender="male" id="029bce91-14c9-4acc-8e22-a23846bc423b">
+<persname short="2. CAPT." numberOfLines="1" numberOfVerseLines="1" numberOfProseLines="0" numberOfLyricsLines="0">Second Captain</persname>
+</persona>
+
 
 </personae>
 
@@ -137,6 +146,7 @@
 <scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>King Lear&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
@@ -931,6 +941,7 @@
 <scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The Earl of Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDM.">Edmund the Bastard</scenepersona>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
@@ -1143,9 +1154,7 @@
 
 <speech>
 <speaker long="Earl of Gloucester">GLOU.</speaker>
-<line globalnumber="354" number="57" form="prose">These late eclipses in the sun and moon portend no good to us. Though the wisdom of nature can reason it thus and thus, yet nature finds itself scourg&#8217;d by the sequent effects. Love cools, friendship falls off, brothers divide: in cities, mutinies; in countries, discord; in palaces, treason; and the bond crack&#8217;d &#8217;twixt son and father. This villain of mine comes under the prediction; 
-there&#8217;s son against father: the King falls from bias of nature; there&#8217;s father against child. We have seen the best of our time. Machinations, hollowness, treachery, and all ruinous disorders follow us disquietly to our graves. Find out this villain, Edmund, it shall lose thee nothing, do it carefully. 
-And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217;Tis strange.</line>
+<line globalnumber="354" number="57" form="prose">These late eclipses in the sun and moon portend no good to us. Though the wisdom of nature can reason it thus and thus, yet nature finds itself scourg&#8217;d by the sequent effects. Love cools, friendship falls off, brothers divide: in cities, mutinies; in countries, discord; in palaces, treason; and the bond crack&#8217;d &#8217;twixt son and father. This villain of mine comes under the prediction; there&#8217;s son against father: the King falls from bias of nature; there&#8217;s father against child. We have seen the best of our time. Machinations, hollowness, treachery, and all ruinous disorders follow us disquietly to our graves. Find out this villain, Edmund, it shall lose thee nothing, do it carefully. And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217;Tis strange.</line>
 </speech>
 
 <stagedir sdglobalnumber="354.01" sdnumber="57.01">
@@ -1288,6 +1297,7 @@ And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217
 <scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Duke of Albany&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GON.">Goneril</scenepersona>
 	<scenepersona short="OSW.">Oswald</scenepersona>
@@ -1379,6 +1389,7 @@ And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217
 <scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>A hall in the Duke of Albany&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="LEAR.">Lear</scenepersona>
@@ -1701,6 +1712,9 @@ And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217
 		<actor>KENT.</actor>
 		<recipient>OSW.</recipient>
 	</action>
+	<action type="exit">
+		<actor>OSW.</actor>
+	</action>
 </stagedir>
 
 <speech>
@@ -1928,8 +1942,7 @@ And the noble and true-hearted Kent banish&#8217;d! His offense, honesty! &#8217
 
 <speech>
 <speaker long="Fool">FOOL.</speaker>
-<line globalnumber="517" number="106" form="prose">I marvel what kin thou and thy daughters are. They&#8217;ll have me whipt for speaking true; thou&#8217;lt have me whipt for lying; and sometimes I am whipt for holding my peace. I had rather be any kind o&#8217; 
-thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d thy wit o&#8217; both sides, and left nothing i&#8217; th&#8217; middle. Here comes one o&#8217; the parings.</line>
+<line globalnumber="517" number="106" form="prose">I marvel what kin thou and thy daughters are. They&#8217;ll have me whipt for speaking true; thou&#8217;lt have me whipt for lying; and sometimes I am whipt for holding my peace. I had rather be any kind o&#8217; thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d thy wit o&#8217; both sides, and left nothing i&#8217; th&#8217; middle. Here comes one o&#8217; the parings.</line>
 </speech>
 
 <stagedir sdglobalnumber="517.01" sdnumber="106.01">
@@ -2365,6 +2378,7 @@ thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d th
 <scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Court before the palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEAR.">Lear</scenepersona>
 	<scenepersona short="KENT.">Kent</scenepersona>
@@ -2569,6 +2583,7 @@ thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d th
 <scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Earl of Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDM.">Edmund</scenepersona>
 	<scenepersona short="CUR.">Curan</scenepersona>
@@ -2965,6 +2980,7 @@ thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d th
 <scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="OSW.">Oswald</scenepersona>
@@ -3071,8 +3087,7 @@ thing than a Fool, and yet I would not be thee, nuncle: thou hast par&#8217;d th
 
 <speech>
 <speaker long="Earl of Kent">KENT.</speaker>
-<line globalnumber="866" number="17" form="prose">Draw, you rascal! You come with letters against the King, and take Vanity the puppet&#8217;s part against the royalty of her father. 
-Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come your ways.</line>
+<line globalnumber="866" number="17" form="prose">Draw, you rascal! You come with letters against the King, and take Vanity the puppet&#8217;s part against the royalty of her father. Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come your ways.</line>
 </speech>
 
 <speech>
@@ -3398,6 +3413,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 		<actor>OSW.</actor>
 		<actor>CORN.</actor>
 		<actor>REG.</actor>
+		<actor>EDM.</actor>
 		<actor>Servants</actor>
 	</action>
 </stagedir>
@@ -3460,6 +3476,9 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 	<action type="action">
 		<actor>KENT.</actor>
 	</action>
+	<action type="exit">
+		<actor>KENT.</actor>
+	</action>
 </stagedir>
 
 </scene>
@@ -3467,6 +3486,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>A wood.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDG.">Edgar</scenepersona>
 </scenepersonae>
@@ -3519,6 +3539,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Before Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEAR.">Lear</scenepersona>
 	<scenepersona short="FOOL.">Fool</scenepersona>
@@ -4409,6 +4430,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 		<actor>Servants</actor>
 		<actor>OSW.</actor>
 		<actor>GON.</actor>
+		<actor>GLOU.</actor>
 	</action>
 </stagedir>
 
@@ -4420,6 +4442,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A heath.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
@@ -4552,6 +4575,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the heath.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEAR.">Lear</scenepersona>
 	<scenepersona short="FOOL.">Fool</scenepersona>
@@ -4751,6 +4775,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="EDM.">Edmund</scenepersona>
@@ -4811,6 +4836,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The heath. Before a hovel.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="LEAR.">Lear</scenepersona>
 	<scenepersona short="KENT.">Kent</scenepersona>
@@ -5276,6 +5302,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 <scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CORN.">Cornwall</scenepersona>
 	<scenepersona short="EDM.">Edmund</scenepersona>
@@ -5310,8 +5337,7 @@ Draw, you rogue, or I&#8217;ll so carbonado your shanks! Draw, you rascal! Come 
 
 <speech>
 <speaker long="Edmund">EDM.</speaker>
-<line globalnumber="1625" number="4" form="prose">How malicious is my fortune, that I must repent to be just! This is the letter which he spoke of, which approves him an intelligent party to the advantages of 
-France. O heavens! That this treason were not; or not I the detector!</line>
+<line globalnumber="1625" number="4" form="prose">How malicious is my fortune, that I must repent to be just! This is the letter which he spoke of, which approves him an intelligent party to the advantages of France. O heavens! That this treason were not; or not I the detector!</line>
 </speech>
 
 <speech>
@@ -5358,6 +5384,7 @@ France. O heavens! That this treason were not; or not I the detector!</line>
 <scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>A chamber in a farmhouse adjoining the castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
@@ -5488,8 +5515,7 @@ France. O heavens! That this treason were not; or not I the detector!</line>
 
 <speech>
 <speaker long="Edgar">EDG.</speaker>
-<line globalnumber="1649" number="19" form="prose">The foul fiend haunts poor Tom in the voice of a nightingale. Hoppedance cries in Tom&#8217;s belly for two white herring. 
-Croak not, black angel, I have no food for thee.</line>
+<line globalnumber="1649" number="19" form="prose">The foul fiend haunts poor Tom in the voice of a nightingale. Hoppedance cries in Tom&#8217;s belly for two white herring. Croak not, black angel, I have no food for thee.</line>
 </speech>
 
 <speech>
@@ -5701,14 +5727,13 @@ Croak not, black angel, I have no food for thee.</line>
 	<dir>Exeunt all but Edgar.</dir>
 	<action type="exit">
 		<actor>KENT.</actor>
-		<actor>GLOU.</actor>
 		<actor>LEAR.</actor>
 		<actor>FOOL.</actor>
 		<actor>GLOU.</actor>
 	</action>
 </stagedir>
 
-<speech>
+<speech type="soliloquy">
 <speaker long="Edgar">EDG.</speaker>
 <line globalnumber="1713" number="80" form="verse">When we our betters see bearing our woes,</line>
 <line globalnumber="1714" number="81" form="verse">We scarcely think our miseries our foes.</line>
@@ -5738,6 +5763,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Gloucester&#8217;s castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="CORN.">Cornwall</scenepersona>
 	<scenepersona short="REG.">Regan</scenepersona>
@@ -5761,7 +5787,9 @@ Croak not, black angel, I have no food for thee.</line>
 		<actor>REG.</actor>
 		<actor>GON.</actor>
 		<actor>EDM.</actor>
-		<actor>Servants</actor>
+		<actor>1. SERV.</actor>
+		<actor>2. SERV.</actor>
+		<actor>3. SERV.</actor>
 	</action>
 </stagedir>
 
@@ -5780,7 +5808,7 @@ Croak not, black angel, I have no food for thee.</line>
 <stagedir sdglobalnumber="1727.01" sdnumber="1.01">
 	<dir>Exeunt some of the Servants.</dir>
 	<action type="exit">
-		<actor>Servants</actor>
+		<actor>1. SERV.</actor>
 	</action>
 </stagedir>
 
@@ -5842,7 +5870,8 @@ Croak not, black angel, I have no food for thee.</line>
 <stagedir sdglobalnumber="1742.01" sdnumber="14.01">
 	<dir>Exeunt other Servants.</dir>
 	<action type="exit">
-		<actor>Servants</actor>
+		<actor>2. SERV.</actor>
+		<actor>3. SERV.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1743" number="15" form="verse">Though well we may not pass upon his life</line>
@@ -6208,6 +6237,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A heath.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDG.">Edgar</scenepersona>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
@@ -6485,6 +6515,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Before the Duke of Albany&#8217;s palace.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GON.">Goneril</scenepersona>
 	<scenepersona short="EDM.">Edmund</scenepersona>
@@ -6799,6 +6830,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The French camp near Dover.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="KENT.">Kent</scenepersona>
 	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
@@ -6970,6 +7002,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The French camp near Dover. A tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Cordelia</scenepersona>
 	<scenepersona short="DOCT.">Doctor</scenepersona>
@@ -7072,6 +7105,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Gloucester&#8217;s Castle.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="REG.">Regan</scenepersona>
 	<scenepersona short="OSW.">Oswald</scenepersona>
@@ -7223,6 +7257,7 @@ Croak not, black angel, I have no food for thee.</line>
 <scene actnum="4" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Fields near Dover.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="GLOU.">Gloucester</scenepersona>
 	<scenepersona short="EDG.">Edgar</scenepersona>
@@ -7895,8 +7930,7 @@ Croak not, black angel, I have no food for thee.</line>
 
 <speech>
 <speaker long="Edgar">EDG.</speaker>
-<line globalnumber="2397" number="209" form="prose">Good gentleman, go your gait, and let poor voke pass. And chud ha&#8217; bin zwagger&#8217;d out of my life, &#8217;twould not ha&#8217; 
-bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; keep out, che vor&#8217; ye, or I&#8217;ce try whither your costard or my ballow be the harder. Chill be plain with you.</line>
+<line globalnumber="2397" number="209" form="prose">Good gentleman, go your gait, and let poor voke pass. And chud ha&#8217; bin zwagger&#8217;d out of my life, &#8217;twould not ha&#8217; bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; keep out, che vor&#8217; ye, or I&#8217;ce try whither your costard or my ballow be the harder. Chill be plain with you.</line>
 </speech>
 
 <speech>
@@ -8008,6 +8042,7 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <scene actnum="4" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The French camp near Dover. A tent.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="COR.">Cordelia</scenepersona>
 	<scenepersona short="KENT.">Kent</scenepersona>
@@ -8357,11 +8392,12 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The British camp near Dover.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDM.">Edmund</scenepersona>
 	<scenepersona short="REG.">Regan</scenepersona>
-	<scenepersona short="1. GENT.">First Gentlemen</scenepersona>
-	<scenepersona short="2. GENT.">Second Gentlemen</scenepersona>
+	<scenepersona short="1. GENT.">First Gentleman</scenepersona>
+	<scenepersona short="2. GENT.">Second Gentleman</scenepersona>
 	<scenepersona short="ALB.">Albany</scenepersona>
 	<scenepersona short="GON.">Goneril</scenepersona>
 	<scenepersona>Soldiers</scenepersona>
@@ -8396,6 +8432,9 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 	<action type="action">
 		<actor>EDM.</actor>
 		<recipient>2. GENT.</recipient>
+	</action>
+	<action type="exit">
+		<actor>2. GENT.</actor>
 	</action>
 </stagedir>
 
@@ -8550,13 +8589,15 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 </stagedir>
 <stagedir sdglobalnumber="2583.02" sdnumber="37.02">
 	<dir>As they are going out, enter Edgar disguised. Albany remains.</dir>
-	<action type="action">
-		<actor>EDG.</actor>
+	<action type="exit">
 		<actor>EDM.</actor>
 		<actor>REG.</actor>
 		<actor>1. GENT.</actor>
 		<actor>GON.</actor>
 		<actor>Soldiers</actor>
+	</action>
+	<action type="enter">
+		<actor>EDG.</actor>
 	</action>
 </stagedir>
 
@@ -8664,6 +8705,7 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>The battlefield between the two camps.</scenelocation>
+
 <scenepersonae>
 	<scenepersona>Powers of France</scenepersona>
 	<scenepersona short="COR.">Cordelia</scenepersona>
@@ -8680,7 +8722,12 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 	<dir>Alarum within. Enter, with Drum and Colors, the Powers of France over the stage, Cordelia with her Father in her hand, and exeunt.</dir>
 	<action type="sound">
 	</action>
-	<action type="action">
+	<action type="enter">
+		<actor>Powers of France</actor>
+		<actor>LEAR.</actor>
+		<actor>COR.</actor>
+	</action>
+	<action type="exit">
 		<actor>Powers of France</actor>
 		<actor>LEAR.</actor>
 		<actor>COR.</actor>
@@ -8755,9 +8802,6 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <stagedir sdglobalnumber="2631.01" sdnumber="11.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>Powers of France</actor>
-		<actor>LEAR.</actor>
-		<actor>COR.</actor>
 		<actor>EDG.</actor>
 		<actor>GLOU.</actor>
 	</action>
@@ -8768,6 +8812,7 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The British camp near Dover.</scenelocation>
+
 <scenepersonae>
 	<scenepersona short="EDM.">Edmund</scenepersona>
 	<scenepersona short="LEAR.">Lear</scenepersona>
@@ -9547,8 +9592,8 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <stagedir sdglobalnumber="2906.01" sdnumber="234.01">
 	<dir>Goneril and Regan&#8217;s bodies brought out.</dir>
 	<action type="action">
-		<actor>GON.</actor>
-		<actor>REG.</actor>
+		<recipient>GON.</recipient>
+		<recipient>REG.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2907" number="235" form="verse">Seest thou this object, Kent?</line>
@@ -9624,8 +9669,9 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 
 <stagedir sdglobalnumber="2928.01" sdnumber="253.01">
 	<dir>Edmund is borne off.</dir>
-	<action type="action">
-		<actor>EDM.</actor>
+	<action type="exit">
+		<actor>Soldiers</actor>
+		<recipient>EDM.</recipient>
 	</action>
 </stagedir>
 
@@ -9918,27 +9964,9 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 </scene>
 </act>
 
-<locations numberOfLocations="19">
-<placename>A chamber in a farmhouse adjoining the castle.</placename>
-<placename>A hall in the Duke of Albany&#8217;s palace.</placename>
-<placename>A heath.</placename>
-<placename>A wood.</placename>
-<placename>Another part of the heath.</placename>
-<placename>Before Gloucester&#8217;s castle.</placename>
-<placename>Before the Duke of Albany&#8217;s palace.</placename>
-<placename>Court before the palace.</placename>
-<placename>Fields near Dover.</placename>
-<placename>Gloucester&#8217;s Castle.</placename>
-<placename>Gloucester&#8217;s castle.</placename>
-<placename>King Lear&#8217;s palace.</placename>
-<placename>The British camp near Dover.</placename>
-<placename>The Duke of Albany&#8217;s palace.</placename>
-<placename>The Earl of Gloucester&#8217;s castle.</placename>
-<placename>The French camp near Dover. A tent.</placename>
-<placename>The French camp near Dover.</placename>
-<placename>The battlefield between the two camps.</placename>
-<placename>The heath. Before a hovel.</placename>
-</locations>
+
+
+
 
 <sources>
 <playsource>
@@ -10013,12 +10041,11 @@ bin zo long as &#8217;tis by a vortnight. Nay, come not near th&#8217; old man; 
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2018 by PlayShakespeare.com</copyright>
-<version>5.0</version>
+<version>5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
-
 
 </play>
 
