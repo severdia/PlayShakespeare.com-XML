@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <poem variant="first-quarto" unique="sonnets">
 <title short="Sonnets">Shake-speares Sonnets</title>
-<playwright>William Shakespeare</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+</playwrights>
+
 
 <edition>First Quarto of 1609</edition>
 
 <poemintro>
 <dedication>
-<line globalnumber="1" number="1">TO.THE.ONLIE.BEGETTER.OF.<lb/>
-THESE . INSVING . SONNETS.<lb/>
-Mr.W.H. ALL.HAPPINESSE.<lb/>
-AND.THAT.ETERNITIE.<lb/>
-PROMISED.<lb/>
-BY.<lb/>
-OVR.EVER-LIVING.POET.<lb/>
-WISHETH.<lb/>
-THE. WELL-WISHING.<lb/>
-ADVENTVRER . IN.<lb/>
-SETTING.<lb/>
+<line globalnumber="1" number="1">TO.THE.ONLIE.BEGETTER.OF.<lb />
+THESE . INSVING . SONNETS.<lb />
+Mr.W.H. ALL.HAPPINESSE.<lb />
+AND.THAT.ETERNITIE.<lb />
+PROMISED.<lb />
+BY.<lb />
+OVR.EVER-LIVING.POET.<lb />
+WISHETH.<lb />
+THE. WELL-WISHING.<lb />
+ADVENTVRER . IN.<lb />
+SETTING.<lb />
 FORTH.</line>
 <dedauthor>T.T.</dedauthor>
 </dedication>
@@ -30,13 +33,13 @@ FORTH.</line>
 <sonnet id="1">
 <sonnetnum>1</sonnetnum>
 <quatrain>
-<line globalnumber="2" number="1" order="first"><dropcap>F</dropcap>rom faire&#383;t creatures we de&#383;ire increa&#383;e,</line>
-<line globalnumber="3" number="2" order="second">That thereby beauties <italic>Ro&#383;e</italic> might neuer die,</line>
+<line globalnumber="2" number="1" order="first"><dropcap type="regular" size="small">F</dropcap>rom faire&#383;t creatures we de&#383;ire increa&#383;e,</line>
+<line globalnumber="3" number="2" order="second">That thereby beauties <emph rend="italic">Ro&#383;e</emph> might neuer die,</line>
 <line globalnumber="4" number="3">But as the riper &#383;hould by time decea&#383;e,</line>
 <line globalnumber="5" number="4">His tender heire might beare his memory:</line>
 </quatrain>
 <quatrain>
-<line globalnumber="6" number="5">But thou contra&#392;ted to thine owne bright eyes,</line>
+<line globalnumber="6" number="5">But thou contra&#57348;ed to thine owne bright eyes,</line>
 <line globalnumber="7" number="6">Feed&#8217;&#383;t thy lights flame with &#383;elfe &#383;ub&#383;tantiall fewell,</line>
 <line globalnumber="8" number="7">Making a famine where aboundance lies,</line>
 <line globalnumber="9" number="8">Thy &#383;elfe thy foe, to thy &#383;weet &#383;elfe too cruell:</line>
@@ -56,7 +59,7 @@ FORTH.</line>
 <sonnet id="2">
 <sonnetnum>2</sonnetnum>
 <quatrain>
-<line globalnumber="16" number="1" order="first"><dropcap>VV</dropcap>hen fortie Winters &#383;hall be&#383;eige thy brow,</line>
+<line globalnumber="16" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen fortie Winters &#383;hall be&#383;eige thy brow,</line>
 <line globalnumber="17" number="2" order="second">And digge deep trenches in thy beauties field,</line>
 <line globalnumber="18" number="3">Thy youthes proud liuery &#383;o gaz&#8217;d on now,</line>
 <line globalnumber="19" number="4">Wil be a totter&#8217;d weed of &#383;mal worth held:</line>
@@ -82,7 +85,7 @@ FORTH.</line>
 <sonnet id="3">
 <sonnetnum>3</sonnetnum>
 <quatrain>
-<line globalnumber="30" number="1" order="first"><dropcap>L</dropcap>ooke in thy gla&#383;&#383;e and tell the face thou vewe&#383;t,</line>
+<line globalnumber="30" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>ooke in thy gla&#383;&#383;e and tell the face thou vewe&#383;t,</line>
 <line globalnumber="31" number="2" order="second">Now is the time that face &#383;hould forme an other,</line>
 <line globalnumber="32" number="3">Who&#383;e fre&#383;h repaire if now thou not renewe&#383;t,</line>
 <line globalnumber="33" number="4">Thou doo&#8217;&#383;t beguile the world, vnble&#383;&#383;e &#383;ome mother.</line>
@@ -108,7 +111,7 @@ FORTH.</line>
 <sonnet id="4">
 <sonnetnum>4</sonnetnum>
 <quatrain>
-<line globalnumber="44" number="1" order="first"><dropcap>V</dropcap>nthrifty loueline&#383;&#383;e why do&#383;t thou &#383;pend,</line>
+<line globalnumber="44" number="1" order="first"><dropcap type="regular" size="small">V</dropcap>nthrifty loueline&#383;&#383;e why do&#383;t thou &#383;pend,</line>
 <line globalnumber="45" number="2" order="second">Vpon thy &#383;elfe thy beauties legacy?</line>
 <line globalnumber="46" number="3">Natures beque&#383;t gives nothing but doth lend,</line>
 <line globalnumber="47" number="4">And being franck &#383;he lends to tho&#383;e are free:</line>
@@ -123,7 +126,7 @@ FORTH.</line>
 <line globalnumber="52" number="9">For hauing traffike with thy &#383;elfe alone,</line>
 <line globalnumber="53" number="10">Thou of thy &#383;elfe thy &#383;weet &#383;elfe do&#383;t deceaue,</line>
 <line globalnumber="54" number="11">Then how when nature calls thee to be gone,</line>
-<line globalnumber="55" number="12">What acceptable <italic>Audit</italic> can&#8217;&#383;t thou leaue?</line>
+<line globalnumber="55" number="12">What acceptable <emph rend="italic">Audit</emph> can&#8217;&#383;t thou leaue?</line>
 </quatrain>
 <couplet>
 <line globalnumber="56" number="13">Thy vnu&#383;&#8217;d beauty mu&#383;t be tomb&#8217;d with thee,</line>
@@ -134,7 +137,7 @@ FORTH.</line>
 <sonnet id="5">
 <sonnetnum>5</sonnetnum>
 <quatrain>
-<line globalnumber="58" number="1" order="first"><dropcap>T</dropcap>ho&#383;e howers that with gentle worke did frame,</line>
+<line globalnumber="58" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ho&#383;e howers that with gentle worke did frame,</line>
 <line globalnumber="59" number="2" order="second">The louely gaze where euery eye doth dwell</line>
 <line globalnumber="60" number="3">Will play the tirants to the very &#383;ame,</line>
 <line globalnumber="61" number="4">And that vnfaire which fairely doth excell:</line>
@@ -148,7 +151,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="66" number="9">Then were not &#383;ummers di&#383;tillation left</line>
 <line globalnumber="67" number="10">A liquid pri&#383;oner pent in walls of gla&#383;&#383;e,</line>
-<line globalnumber="68" number="11">Beauties effe&#392;t with beauty were bereft,</line>
+<line globalnumber="68" number="11">Beauties effe&#57348; with beauty were bereft,</line>
 <line globalnumber="69" number="12">Nor it nor noe remembrance what it was.</line>
 </quatrain>
 <couplet>
@@ -160,7 +163,7 @@ FORTH.</line>
 <sonnet id="6">
 <sonnetnum>6</sonnetnum>
 <quatrain>
-<line globalnumber="72" number="1" order="first"><dropcap>T</dropcap>hen let not winters wragged hand deface,</line>
+<line globalnumber="72" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hen let not winters wragged hand deface,</line>
 <line globalnumber="73" number="2" order="second">In thee thy &#383;ummer ere thou be di&#383;til&#8217;d:</line>
 <line globalnumber="74" number="3">Make &#383;weet &#383;ome viall; trea&#383;ure thou &#383;ome place,</line>
 <line globalnumber="75" number="4">With beauties trea&#383;ure ere it be &#383;elfe kil&#8217;d:</line>
@@ -186,7 +189,7 @@ FORTH.</line>
 <sonnet id="7">
 <sonnetnum>7</sonnetnum>
 <quatrain>
-<line globalnumber="86" number="1" order="first"><dropcap>L</dropcap>oe in the Orient when the gracious light,</line>
+<line globalnumber="86" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>oe in the Orient when the gracious light,</line>
 <line globalnumber="87" number="2" order="second">Lifts vp his burning head, each vnder eye</line>
 <line globalnumber="88" number="3">Doth homage to his new appearing &#383;ight,</line>
 <line globalnumber="89" number="4">Seruing with lookes his &#383;acred maie&#383;ty,</line>
@@ -201,7 +204,7 @@ FORTH.</line>
 <line globalnumber="94" number="9">But when from high-mo&#383;t pich with wery car,</line>
 <line globalnumber="95" number="10">Like feeble age he reeleth from the day,</line>
 <line globalnumber="96" number="11">The eyes (fore dutious) now conuerted are</line>
-<line globalnumber="97" number="12">From his low tra&#392;t and looke an other way:</line>
+<line globalnumber="97" number="12">From his low tra&#57348; and looke an other way:</line>
 </quatrain>
 <couplet>
 <line globalnumber="98" number="13">So thou, thy &#383;elfe out-going in thy noon:</line>
@@ -212,7 +215,7 @@ FORTH.</line>
 <sonnet id="8">
 <sonnetnum>8</sonnetnum>
 <quatrain>
-<line globalnumber="100" number="1" order="first"><dropcap>M</dropcap>v&#383;ick to heare, why hear&#8217;&#383;t thou mu&#383;ick &#383;adly,</line>
+<line globalnumber="100" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>v&#383;ick to heare, why hear&#8217;&#383;t thou mu&#383;ick &#383;adly,</line>
 <line globalnumber="101" number="2" order="second">Sweets with &#383;weets warre not, ioy delights in ioy:</line>
 <line globalnumber="102" number="3">Why lou&#8217;&#383;t thou that which thou receau&#383;t not gladly,</line>
 <line globalnumber="103" number="4">Or el&#383;e receau&#8217;&#383;t with plea&#383;ure thine annoy?</line>
@@ -238,7 +241,7 @@ FORTH.</line>
 <sonnet id="9">
 <sonnetnum>9</sonnetnum>
 <quatrain>
-<line globalnumber="114" number="1" order="first"><dropcap>I</dropcap>s it for feare to wet a widdowes eye,</line>
+<line globalnumber="114" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>s it for feare to wet a widdowes eye,</line>
 <line globalnumber="115" number="2" order="second">That thou con&#383;um&#8217;&#383;t thy &#383;elfe in &#383;ingle life?</line>
 <line globalnumber="116" number="3">Ah; if thou i&#383;&#383;ule&#383;&#383;e &#383;halt hap to die,</line>
 <line globalnumber="117" number="4">The world will waile thee like a makele&#383;&#383;e wife,</line>
@@ -264,7 +267,7 @@ FORTH.</line>
 <sonnet id="10">
 <sonnetnum>10</sonnetnum>
 <quatrain>
-<line globalnumber="128" number="1" order="first"><dropcap>F</dropcap>or &#383;hame deny that thou bear&#8217;&#383;t loue to any</line>
+<line globalnumber="128" number="1" order="first"><dropcap type="regular" size="small">F</dropcap>or &#383;hame deny that thou bear&#8217;&#383;t loue to any</line>
 <line globalnumber="129" number="2" order="second">Who for thy &#383;elfe art &#383;o vnprouident</line>
 <line globalnumber="130" number="3">Graunt if thou wilt, thou art belou&#8217;d of many,</line>
 <line globalnumber="131" number="4">But that thou none lou&#8217;&#383;t is mo&#383;t evident:</line>
@@ -290,7 +293,7 @@ FORTH.</line>
 <sonnet id="11">
 <sonnetnum>11</sonnetnum>
 <quatrain>
-<line globalnumber="142" number="1" order="first"><dropcap>A</dropcap>s fa&#383;t as thou &#383;halt wane, &#383;o fa&#383;t thou grow&#8217;&#383;t,</line>
+<line globalnumber="142" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>s fa&#383;t as thou &#383;halt wane, &#383;o fa&#383;t thou grow&#8217;&#383;t,</line>
 <line globalnumber="143" number="2" order="second">In one of thine, from that which thou departe&#383;t,</line>
 <line globalnumber="144" number="3">And that fre&#383;h bloud which yongly thou be&#383;tow&#8217;&#383;t,</line>
 <line globalnumber="145" number="4">Thou mai&#383;t call thine, when thou from youth conuerte&#383;t.</line>
@@ -316,7 +319,7 @@ FORTH.</line>
 <sonnet id="12">
 <sonnetnum>12</sonnetnum>
 <quatrain>
-<line globalnumber="156" number="1" order="first"><dropcap>VV</dropcap>hen I doe count the clock that tels the time,</line>
+<line globalnumber="156" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen I doe count the clock that tels the time,</line>
 <line globalnumber="157" number="2" order="second">And &#383;ee the braue day &#383;unck in hidious night,</line>
 <line globalnumber="158" number="3">When I behold the violet pa&#383;t prime,</line>
 <line globalnumber="159" number="4">And &#383;able curls or &#383;iluer&#8217;d ore with white:</line>
@@ -342,7 +345,7 @@ FORTH.</line>
 <sonnet id="13">
 <sonnetnum>13</sonnetnum>
 <quatrain>
-<line globalnumber="170" number="1" order="first"><dropcap>O</dropcap> That you were your &#383;elfe, but loue you are</line>
+<line globalnumber="170" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> That you were your &#383;elfe, but loue you are</line>
 <line globalnumber="171" number="2" order="second">No longer yours, then you your &#383;elfe here liue,</line>
 <line globalnumber="172" number="3">Again&#383;t this cumming end you &#383;hould prepare,</line>
 <line globalnumber="173" number="4">And your &#383;weet &#383;emblance to &#383;ome other giue.</line>
@@ -368,7 +371,7 @@ FORTH.</line>
 <sonnet id="14">
 <sonnetnum>14</sonnetnum>
 <quatrain>
-<line globalnumber="184" number="1" order="first"><dropcap>N</dropcap>ot from the &#383;tars do I my iudgement plucke,</line>
+<line globalnumber="184" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>ot from the &#383;tars do I my iudgement plucke,</line>
 <line globalnumber="185" number="2" order="second">And yet me thinkes I haue A&#383;tronomy,</line>
 <line globalnumber="186" number="3">But not to tell of good, or euil lucke,</line>
 <line globalnumber="187" number="4">Of plagues, of dearths, or &#383;ea&#383;ons quallity,</line>
@@ -377,7 +380,7 @@ FORTH.</line>
 <line globalnumber="188" number="5">Nor can I fortune to breefe mynuits tell;</line>
 <line globalnumber="189" number="6">Pointing to each his thunder, raine, and winde,</line>
 <line globalnumber="190" number="7">Or &#383;ay with Princes if it &#383;hal go wel</line>
-<line globalnumber="191" number="8">By oft predi&#392;t that I in heauen finde.</line>
+<line globalnumber="191" number="8">By oft predi&#57348; that I in heauen finde.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="192" number="9">But from thine eies my knowledge I deriue,</line>
@@ -394,8 +397,8 @@ FORTH.</line>
 <sonnet id="15">
 <sonnetnum>15</sonnetnum>
 <quatrain>
-<line globalnumber="198" number="1" order="first"><dropcap>W</dropcap>hen I con&#383;ider euery thing that growes</line>
-<line globalnumber="199" number="2" order="second">Holds in perfe&#392;tion but a little moment.</line>
+<line globalnumber="198" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hen I con&#383;ider euery thing that growes</line>
+<line globalnumber="199" number="2" order="second">Holds in perfe&#57348;ion but a little moment.</line>
 <line globalnumber="200" number="3">That this huge &#383;tage pre&#383;enteth nought but &#383;howes</line>
 <line globalnumber="201" number="4">Whereon the Stars in &#383;ecret influence comment.</line>
 </quatrain>
@@ -420,7 +423,7 @@ FORTH.</line>
 <sonnet id="16">
 <sonnetnum>16</sonnetnum>
 <quatrain>
-<line globalnumber="212" number="1" order="first"><dropcap>B</dropcap>vt wherefore do not you a mightier waie</line>
+<line globalnumber="212" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>vt wherefore do not you a mightier waie</line>
 <line globalnumber="213" number="2" order="second">Make warre vppon this bloudie tirant time?</line>
 <line globalnumber="214" number="3">And fortifie your &#383;elfe in your decay</line>
 <line globalnumber="215" number="4">With meanes more ble&#383;&#383;ed then my barren rime?</line>
@@ -446,7 +449,7 @@ FORTH.</line>
 <sonnet id="17">
 <sonnetnum>17</sonnetnum>
 <quatrain>
-<line globalnumber="226" number="1" order="first"><dropcap>VV</dropcap>ho will beleeue my ver&#383;e in time to come</line>
+<line globalnumber="226" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>ho will beleeue my ver&#383;e in time to come</line>
 <line globalnumber="227" number="2" order="second">If it were fild with your mo&#383;t high de&#383;erts?</line>
 <line globalnumber="228" number="3">Though yet heauen knowes it is but as a tombe</line>
 <line globalnumber="229" number="4">Which hides your life, and &#383;hewes not halfe your parts:</line>
@@ -472,7 +475,7 @@ FORTH.</line>
 <sonnet id="18">
 <sonnetnum>18</sonnetnum>
 <quatrain>
-<line globalnumber="240" number="1" order="first"><dropcap>S</dropcap>hall I compare thee to a Summers day?</line>
+<line globalnumber="240" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>hall I compare thee to a Summers day?</line>
 <line globalnumber="241" number="2" order="second">Thou art more louely and more temperate:</line>
 <line globalnumber="242" number="3">Rough windes do &#383;hake the darling buds of Maie,</line>
 <line globalnumber="243" number="4">And Sommers lea&#383;e hath all too &#383;hort a date:</line>
@@ -498,7 +501,7 @@ FORTH.</line>
 <sonnet id="19">
 <sonnetnum>19</sonnetnum>
 <quatrain>
-<line globalnumber="254" number="1" order="first"><dropcap>D</dropcap>euouring time blunt thou the Lyons pawes,</line>
+<line globalnumber="254" number="1" order="first"><dropcap type="regular" size="small">D</dropcap>euouring time blunt thou the Lyons pawes,</line>
 <line globalnumber="255" number="2" order="second">And make the earth deuoure her owne &#383;weet brood,</line>
 <line globalnumber="256" number="3">Plucke the keene teeth from the fierce Tygers yawes,</line>
 <line globalnumber="257" number="4">And burne the long liu&#8217;d Ph&#230;nix in her blood,</line>
@@ -524,15 +527,15 @@ FORTH.</line>
 <sonnet id="20">
 <sonnetnum>20</sonnetnum>
 <quatrain>
-<line globalnumber="268" number="1" order="first"><dropcap>A</dropcap> womans face with natures owne hand painted,</line>
+<line globalnumber="268" number="1" order="first"><dropcap type="regular" size="small">A</dropcap> womans face with natures owne hand painted,</line>
 <line globalnumber="269" number="2" order="second">Ha&#383;te thou the Ma&#383;ter Mi&#383;tris of my pa&#383;&#383;ion,</line>
 <line globalnumber="270" number="3">A womans gentle hart but not acquainted</line>
 <line globalnumber="271" number="4">With &#383;hifting change as is fal&#383;e womens fa&#383;hion;</line>
 </quatrain>
 <quatrain>
 <line globalnumber="272" number="5">An eye more bright then theirs, le&#383;&#383;e fal&#383;e in rowling:</line>
-<line globalnumber="273" number="6">Gilding the obie&#392;t where-vpon it gazeth,</line>
-<line globalnumber="274" number="7">A man in hew all <italic>Hews</italic> in his controwling,</line>
+<line globalnumber="273" number="6">Gilding the obie&#57348; where-vpon it gazeth,</line>
+<line globalnumber="274" number="7">A man in hew all <emph rend="italic">Hews</emph> in his controwling,</line>
 <line globalnumber="275" number="8">Which &#383;teales mens eyes and womens &#383;oules ama&#383;eth.</line>
 </quatrain>
 <quatrain>
@@ -550,7 +553,7 @@ FORTH.</line>
 <sonnet id="21">
 <sonnetnum>21</sonnetnum>
 <quatrain>
-<line globalnumber="282" number="1" order="first"><dropcap>S</dropcap>o is it not with me as with that Mu&#383;e</line>
+<line globalnumber="282" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o is it not with me as with that Mu&#383;e</line>
 <line globalnumber="283" number="2" order="second">Stird by a painted beauty to his ver&#383;e,</line>
 <line globalnumber="284" number="3">Who heauen it &#383;elfe for ornament doth v&#383;e,</line>
 <line globalnumber="285" number="4">And euery faire with his faire doth reher&#383;e,</line>
@@ -576,7 +579,7 @@ FORTH.</line>
 <sonnet id="22">
 <sonnetnum>22</sonnetnum>
 <quatrain>
-<line globalnumber="296" number="1" order="first"><dropcap>M</dropcap>y gla&#383;&#383;e &#383;hall not per&#383;wade me I am ould,</line>
+<line globalnumber="296" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>y gla&#383;&#383;e &#383;hall not per&#383;wade me I am ould,</line>
 <line globalnumber="297" number="2" order="second">So long as youth and thou are of one date,</line>
 <line globalnumber="298" number="3">But when in thee times forrows I behould,</line>
 <line globalnumber="299" number="4">Then look I death my daies &#383;hould expiate.</line>
@@ -602,14 +605,14 @@ FORTH.</line>
 <sonnet id="23">
 <sonnetnum>23</sonnetnum>
 <quatrain>
-<line globalnumber="310" number="1" order="first"><dropcap>A</dropcap>s an vnperfe&#392;t a&#392;tor on the &#383;tage,</line>
+<line globalnumber="310" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>s an vnperfe&#57348; a&#57348;or on the &#383;tage,</line>
 <line globalnumber="311" number="2" order="second">Who with his feare is put be&#383;ides his part,</line>
 <line globalnumber="312" number="3">Or &#383;ome fierce thing repleat with too much rage,</line>
 <line globalnumber="313" number="4">Who&#383;e &#383;trengths abondance weakens his owne heart;</line>
 </quatrain>
 <quatrain>
 <line globalnumber="314" number="5">So I, for feare of tru&#383;t, forget to &#383;ay,</line>
-<line globalnumber="315" number="6">The perfe&#392;t ceremony of loues right,</line>
+<line globalnumber="315" number="6">The perfe&#57348; ceremony of loues right,</line>
 <line globalnumber="316" number="7">And in mine owne loues &#383;trength &#383;eeme to decay,</line>
 <line globalnumber="317" number="8">Ore-charg&#8217;d with burthen of mine owne loues might:</line>
 </quatrain>
@@ -628,14 +631,14 @@ FORTH.</line>
 <sonnet id="24">
 <sonnetnum>24</sonnetnum>
 <quatrain>
-<line globalnumber="324" number="1" order="first"><dropcap>M</dropcap>ine eye hath play&#8217;d the painter and hath &#383;teeld,</line>
+<line globalnumber="324" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>ine eye hath play&#8217;d the painter and hath &#383;teeld,</line>
 <line globalnumber="325" number="2" order="second">Thy beauties forme in table of my heart,</line>
 <line globalnumber="326" number="3">My body is the frame wherein ti&#8217;s held,</line>
-<line globalnumber="327" number="4">And per&#383;pe&#392;tiue it is be&#383;t Painters art.</line>
+<line globalnumber="327" number="4">And per&#383;pe&#57348;iue it is be&#383;t Painters art.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="328" number="5">For through the Painter mu&#383;t you &#383;ee his skill,</line>
-<line globalnumber="329" number="6">To finde where your true Image pi&#392;tur&#8217;d lies,</line>
+<line globalnumber="329" number="6">To finde where your true Image pi&#57348;ur&#8217;d lies,</line>
 <line globalnumber="330" number="7">Which in my bo&#383;omes &#383;hop is hanging &#383;til,</line>
 <line globalnumber="331" number="8">That hath his windowes glazed with thine eyes:</line>
 </quatrain>
@@ -654,7 +657,7 @@ FORTH.</line>
 <sonnet id="25">
 <sonnetnum>25</sonnetnum>
 <quatrain>
-<line globalnumber="338" number="1" order="first"><dropcap>L</dropcap>et tho&#383;e who are in fauor with their &#383;tars,</line>
+<line globalnumber="338" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>et tho&#383;e who are in fauor with their &#383;tars,</line>
 <line globalnumber="339" number="2" order="second">Of publike honour and proud titles bo&#383;t,</line>
 <line globalnumber="340" number="3">Whil&#383;t I whome fortune of &#383;uch tryumph bars</line>
 <line globalnumber="341" number="4">Vnlookt for ioy in that I honour mo&#383;t;</line>
@@ -667,7 +670,7 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="346" number="9">The painefull warrier famo&#383;ed for worth,</line>
-<line globalnumber="347" number="10">After a thou&#383;and vi&#392;tories once foild,</line>
+<line globalnumber="347" number="10">After a thou&#383;and vi&#57348;ories once foild,</line>
 <line globalnumber="348" number="11">Is from the booke of honour ra&#383;ed quite,</line>
 <line globalnumber="349" number="12">And all the re&#383;t forgot for which he toild:</line>
 </quatrain>
@@ -680,7 +683,7 @@ FORTH.</line>
 <sonnet id="26">
 <sonnetnum>26</sonnetnum>
 <quatrain>
-<line globalnumber="352" number="1" order="first"><dropcap>L</dropcap>ord of my loue, to whome in va&#383;&#383;alage</line>
+<line globalnumber="352" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>ord of my loue, to whome in va&#383;&#383;alage</line>
 <line globalnumber="353" number="2" order="second">Thy merrit hath my dutie &#383;trongly knit;</line>
 <line globalnumber="354" number="3">To thee I &#383;end this written amba&#383;&#383;age</line>
 <line globalnumber="355" number="4">To witne&#383;&#383;e duty, not to &#383;hew my wit.</line>
@@ -693,9 +696,9 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="360" number="9">Til what&#383;oeuer &#383;tar that guides my mouing,</line>
-<line globalnumber="361" number="10">Points on me gratiou&#383;ly with faire a&#383;pe&#392;t,</line>
+<line globalnumber="361" number="10">Points on me gratiou&#383;ly with faire a&#383;pe&#57348;,</line>
 <line globalnumber="362" number="11">And puts apparell on my tottered louing,</line>
-<line globalnumber="363" number="12">To &#383;how me worthy of their &#383;weet re&#383;pe&#392;t,</line>
+<line globalnumber="363" number="12">To &#383;how me worthy of their &#383;weet re&#383;pe&#57348;,</line>
 </quatrain>
 <couplet>
 <line globalnumber="364" number="13">Then may I dare to boa&#383;t how I doe loue thee,</line>
@@ -706,7 +709,7 @@ FORTH.</line>
 <sonnet id="27">
 <sonnetnum>27</sonnetnum>
 <quatrain>
-<line globalnumber="366" number="1" order="first"><dropcap>W</dropcap>eary with toyle, I ha&#383;t me to my bed,</line>
+<line globalnumber="366" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>eary with toyle, I ha&#383;t me to my bed,</line>
 <line globalnumber="367" number="2" order="second">The deare repo&#383;e for lims with trauaill tired,</line>
 <line globalnumber="368" number="3">But then begins a iourny in my head</line>
 <line globalnumber="369" number="4">To worke my mind, when boddies work&#8217;s expired.</line>
@@ -732,7 +735,7 @@ FORTH.</line>
 <sonnet id="28">
 <sonnetnum>28</sonnetnum>
 <quatrain>
-<line globalnumber="380" number="1" order="first"><dropcap>H</dropcap>ow can I then returne in happy plight</line>
+<line globalnumber="380" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow can I then returne in happy plight</line>
 <line globalnumber="381" number="2" order="second">That am debard the benifit of res&#383;?</line>
 <line globalnumber="382" number="3">When daies oppre&#383;&#383;ion is not eazd by night,</line>
 <line globalnumber="383" number="4">But day by night and night by day opre&#383;t.</line>
@@ -758,7 +761,7 @@ FORTH.</line>
 <sonnet id="29">
 <sonnetnum>29</sonnetnum>
 <quatrain>
-<line globalnumber="394" number="1" order="first"><dropcap>VV</dropcap>hen in di&#383;grace with Fortune and mens eyes,</line>
+<line globalnumber="394" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen in di&#383;grace with Fortune and mens eyes,</line>
 <line globalnumber="395" number="2" order="second">I all alone beweepe my out-ca&#383;t &#383;tate,</line>
 <line globalnumber="396" number="3">And trouble deafe heauen with my bootle&#383;&#383;e cries.</line>
 <line globalnumber="397" number="4">And looke vpon my &#383;elfe and cur&#383;e my fate.</line>
@@ -784,7 +787,7 @@ FORTH.</line>
 <sonnet id="30">
 <sonnetnum>30</sonnetnum>
 <quatrain>
-<line globalnumber="408" number="1" order="first"><dropcap>VV</dropcap>hen to the Se&#383;&#383;ions of &#383;weet &#383;ilent thought,</line>
+<line globalnumber="408" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen to the Se&#383;&#383;ions of &#383;weet &#383;ilent thought,</line>
 <line globalnumber="409" number="2" order="second">I &#383;ommon vp remembrance of things pa&#383;t,</line>
 <line globalnumber="410" number="3">I &#383;igh the lacke of many a thing I &#383;ought,</line>
 <line globalnumber="411" number="4">And with old woes new waile my deare times wa&#383;te:</line>
@@ -810,7 +813,7 @@ FORTH.</line>
 <sonnet id="31">
 <sonnetnum>31</sonnetnum>
 <quatrain>
-<line globalnumber="422" number="1" order="first"><dropcap>T</dropcap>hy bo&#383;ome is indeared with all hearts,</line>
+<line globalnumber="422" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hy bo&#383;ome is indeared with all hearts,</line>
 <line globalnumber="423" number="2" order="second">Which I by lacking haue &#383;uppo&#383;ed dead,</line>
 <line globalnumber="424" number="3">And there raignes Loue and all Loues louing parts,</line>
 <line globalnumber="425" number="4">And all tho&#383;e friends which I thought buried.</line>
@@ -836,7 +839,7 @@ FORTH.</line>
 <sonnet id="32">
 <sonnetnum>32</sonnetnum>
 <quatrain>
-<line globalnumber="436" number="1" order="first"><dropcap>I</dropcap>f thou &#383;uruiue my well contented daie,</line>
+<line globalnumber="436" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>f thou &#383;uruiue my well contented daie,</line>
 <line globalnumber="437" number="2" order="second">When that churle death my bones with du&#383;t &#383;hall couer</line>
 <line globalnumber="438" number="3">And &#383;halt by fortune once more re-&#383;uruay:</line>
 <line globalnumber="439" number="4">The&#383;e poore rude lines of thy decea&#383;ed Louer:</line>
@@ -862,7 +865,7 @@ FORTH.</line>
 <sonnet id="33">
 <sonnetnum>33</sonnetnum>
 <quatrain>
-<line globalnumber="450" number="1" order="first"><dropcap>F</dropcap>vll many a glorious morning haue I &#383;eene,</line>
+<line globalnumber="450" number="1" order="first"><dropcap type="regular" size="small">F</dropcap>vll many a glorious morning haue I &#383;eene,</line>
 <line globalnumber="451" number="2" order="second">Flatter the mountaine tops with &#383;oueraine eie,</line>
 <line globalnumber="452" number="3">Ki&#383;&#383;ing with golden face the meddowes greene;</line>
 <line globalnumber="453" number="4">Guilding pale &#383;treames with heauenly alcumy:</line>
@@ -888,7 +891,7 @@ FORTH.</line>
 <sonnet id="34">
 <sonnetnum>34</sonnetnum>
 <quatrain>
-<line globalnumber="464" number="1" order="first"><dropcap>VV</dropcap>hy did&#383;t thou promi&#383;e &#383;uch a beautious day,</line>
+<line globalnumber="464" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hy did&#383;t thou promi&#383;e &#383;uch a beautious day,</line>
 <line globalnumber="465" number="2" order="second">And make me trauaile forth without my cloake,</line>
 <line globalnumber="466" number="3">To let bace cloudes ore-take me in my way,</line>
 <line globalnumber="467" number="4">Hiding thy brau&#8217;ry in their rotten &#383;moke.</line>
@@ -914,7 +917,7 @@ FORTH.</line>
 <sonnet id="35">
 <sonnetnum>35</sonnetnum>
 <quatrain>
-<line globalnumber="478" number="1" order="first"><dropcap>N</dropcap>o more bee greeu&#8217;d at that which thou ha&#383;t don&#8217;,</line>
+<line globalnumber="478" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>o more bee greeu&#8217;d at that which thou ha&#383;t don&#8217;,</line>
 <line globalnumber="479" number="2" order="second">Ro&#383;es haue thornes, and &#383;iluer fountaines mud,</line>
 <line globalnumber="480" number="3">Cloudes and eclip&#383;es &#383;taine both Moone and Sunne,</line>
 <line globalnumber="481" number="4">And loath&#383;ome canker liues in &#383;weete&#383;t bud.</line>
@@ -940,15 +943,15 @@ FORTH.</line>
 <sonnet id="36">
 <sonnetnum>36</sonnetnum>
 <quatrain>
-<line globalnumber="492" number="1" order="first"><dropcap>L</dropcap>et me confe&#383;&#383;e that we two mu&#383;t be twaine,</line>
+<line globalnumber="492" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>et me confe&#383;&#383;e that we two mu&#383;t be twaine,</line>
 <line globalnumber="493" number="2" order="second">Although our vndeuided loues are one:</line>
 <line globalnumber="494" number="3">So &#383;hall tho&#383;e blots that do with me remaine,</line>
 <line globalnumber="495" number="4">Without thy helpe, by me be borne alone.</line>
 </quatrain>
 <quatrain>
-<line globalnumber="496" number="5">In our two loues there is but one re&#383;pe&#392;t,</line>
+<line globalnumber="496" number="5">In our two loues there is but one re&#383;pe&#57348;,</line>
 <line globalnumber="497" number="6">Though in our liues a &#383;eparable &#383;pight,</line>
-<line globalnumber="498" number="7">Which though it alter not loues &#383;ole effe&#392;t,</line>
+<line globalnumber="498" number="7">Which though it alter not loues &#383;ole effe&#57348;,</line>
 <line globalnumber="499" number="8">Yet doth it &#383;teale &#383;weet houres from loues delight,</line>
 </quatrain>
 <quatrain>
@@ -966,8 +969,8 @@ FORTH.</line>
 <sonnet id="37">
 <sonnetnum>37</sonnetnum>
 <quatrain>
-<line globalnumber="506" number="1" order="first"><dropcap>A</dropcap>s a decrepit father takes delight,</line>
-<line globalnumber="507" number="2" order="second">To &#383;ee his a&#392;tive childe do deeds of youth,</line>
+<line globalnumber="506" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>s a decrepit father takes delight,</line>
+<line globalnumber="507" number="2" order="second">To &#383;ee his a&#57348;ive childe do deeds of youth,</line>
 <line globalnumber="508" number="3">So I, made lame by Fortunes deare&#383;t &#383;pight</line>
 <line globalnumber="509" number="4">Take all my comfort of thy worth and truth.</line>
 </quatrain>
@@ -992,7 +995,7 @@ FORTH.</line>
 <sonnet id="38">
 <sonnetnum>38</sonnetnum>
 <quatrain>
-<line globalnumber="520" number="1" order="first"><dropcap>H</dropcap>ow can my Mu&#383;e want &#383;ubie&#392;t to inuent</line>
+<line globalnumber="520" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow can my Mu&#383;e want &#383;ubie&#57348; to inuent</line>
 <line globalnumber="521" number="2" order="second">While thou do&#383;t breath that poor&#8217;&#383;t into my ver&#383;e,</line>
 <line globalnumber="522" number="3">Thine owne &#383;weet argument, to excellent,</line>
 <line globalnumber="523" number="4">For euery vulgar paper to rehear&#383;e:</line>
@@ -1018,7 +1021,7 @@ FORTH.</line>
 <sonnet id="39">
 <sonnetnum>39</sonnetnum>
 <quatrain>
-<line globalnumber="534" number="1" order="first"><dropcap>O</dropcap>h how thy worth with manners may I &#383;inge,</line>
+<line globalnumber="534" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>h how thy worth with manners may I &#383;inge,</line>
 <line globalnumber="535" number="2" order="second">When thou art all the better part of me?</line>
 <line globalnumber="536" number="3">What can mine owne prai&#383;e to mine owne &#383;elfe bring;</line>
 <line globalnumber="537" number="4">And what is&#8217;t but mine owne when I prai&#383;e thee,</line>
@@ -1044,7 +1047,7 @@ FORTH.</line>
 <sonnet id="40">
 <sonnetnum>40</sonnetnum>
 <quatrain>
-<line globalnumber="548" number="1" order="first"><dropcap>T</dropcap>ake all my loues, my loue, yea take them all,</line>
+<line globalnumber="548" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ake all my loues, my loue, yea take them all,</line>
 <line globalnumber="549" number="2" order="second">What ha&#383;t thou then more then thou had&#383;t before?</line>
 <line globalnumber="550" number="3">No loue, my loue, that thou mai&#383;t true loue call,</line>
 <line globalnumber="551" number="4">All mine was thine, before thou had&#383;t this more:</line>
@@ -1070,7 +1073,7 @@ FORTH.</line>
 <sonnet id="41">
 <sonnetnum>41</sonnetnum>
 <quatrain>
-<line globalnumber="562" number="1" order="first"><dropcap>T</dropcap>ho&#383;e pretty wrongs that liberty commits,</line>
+<line globalnumber="562" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ho&#383;e pretty wrongs that liberty commits,</line>
 <line globalnumber="563" number="2" order="second">When I am &#383;ome-time ab&#383;ent from thy heart,</line>
 <line globalnumber="564" number="3">Thy beautie, and thy yeares full well befits,</line>
 <line globalnumber="565" number="4">For &#383;till temptation followes where thou art.</line>
@@ -1096,7 +1099,7 @@ FORTH.</line>
 <sonnet id="42">
 <sonnetnum>42</sonnetnum>
 <quatrain>
-<line globalnumber="576" number="1" order="first"><dropcap>T</dropcap>hat thou ha&#383;t her it is not all my griefe,</line>
+<line globalnumber="576" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hat thou ha&#383;t her it is not all my griefe,</line>
 <line globalnumber="577" number="2" order="second">And yet it may be &#383;aid I lou&#8217;d her deerely,</line>
 <line globalnumber="578" number="3">That &#383;he hath thee is of my wayling chee&#383;e,</line>
 <line globalnumber="579" number="4">A lo&#383;&#383;e in loue that touches me more neerely.</line>
@@ -1122,10 +1125,10 @@ FORTH.</line>
 <sonnet id="43">
 <sonnetnum>43</sonnetnum>
 <quatrain>
-<line globalnumber="590" number="1" order="first"><dropcap>W</dropcap>hen mo&#383;t I winke then doe mine eyes be&#383;t &#383;ee,</line>
-<line globalnumber="591" number="2" order="second">For all the day they view things vnre&#383;pe&#392;ted,</line>
+<line globalnumber="590" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hen mo&#383;t I winke then doe mine eyes be&#383;t &#383;ee,</line>
+<line globalnumber="591" number="2" order="second">For all the day they view things vnre&#383;pe&#57348;ed,</line>
 <line globalnumber="592" number="3">But when I &#383;leepe, in dreames they looke on thee,</line>
-<line globalnumber="593" number="4">And darkely bright, are bright in darke dire&#392;ted.</line>
+<line globalnumber="593" number="4">And darkely bright, are bright in darke dire&#57348;ed.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="594" number="5">Then thou who&#383;e &#383;haddow &#383;haddowes doth make bright,</line>
@@ -1136,7 +1139,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="598" number="9">How would (I &#383;ay) mine eyes be ble&#383;&#383;ed made,</line>
 <line globalnumber="599" number="10">By looking on thee in the liuing day?</line>
-<line globalnumber="600" number="11">When in dead night their faire imperfe&#392;t &#383;hade,</line>
+<line globalnumber="600" number="11">When in dead night their faire imperfe&#57348; &#383;hade,</line>
 <line globalnumber="601" number="12">Through heauy &#383;leepe on &#383;ightle&#383;&#383;e eyes doth &#383;tay?</line>
 </quatrain>
 <couplet>
@@ -1148,7 +1151,7 @@ FORTH.</line>
 <sonnet id="44">
 <sonnetnum>44</sonnetnum>
 <quatrain>
-<line globalnumber="604" number="1" order="first"><dropcap>I</dropcap>f the dull &#383;ub&#383;tance of my fle&#383;h were thought,</line>
+<line globalnumber="604" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>f the dull &#383;ub&#383;tance of my fle&#383;h were thought,</line>
 <line globalnumber="605" number="2" order="second">Iniurious di&#383;tance &#383;hould not &#383;top my way,</line>
 <line globalnumber="606" number="3">For then di&#383;pight of &#383;pace I would be brought,</line>
 <line globalnumber="607" number="4">From limits farre remote, where thou doo&#383;t &#383;tay,</line>
@@ -1174,7 +1177,7 @@ FORTH.</line>
 <sonnet id="45">
 <sonnetnum>45</sonnetnum>
 <quatrain>
-<line globalnumber="618" number="1" order="first"><dropcap>T</dropcap>he other two, &#383;light ayre, and purging fire,</line>
+<line globalnumber="618" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>he other two, &#383;light ayre, and purging fire,</line>
 <line globalnumber="619" number="2" order="second">Are both with thee, where euer I abide,</line>
 <line globalnumber="620" number="3">The fir&#383;t my thought, the other my de&#383;ire,</line>
 <line globalnumber="621" number="4">The&#383;e pre&#383;ent ab&#383;ent with &#383;wift motion &#383;lide.</line>
@@ -1200,9 +1203,9 @@ FORTH.</line>
 <sonnet id="46">
 <sonnetnum>46</sonnetnum>
 <quatrain>
-<line globalnumber="632" number="1" order="first"><dropcap>M</dropcap>ine eye and heart are at a mortall warre,</line>
+<line globalnumber="632" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>ine eye and heart are at a mortall warre,</line>
 <line globalnumber="633" number="2" order="second">How to deuide the conque&#383;t of thy &#383;ight,</line>
-<line globalnumber="634" number="3">Mine eye, my heart their pi&#392;tures &#383;ight would barre,</line>
+<line globalnumber="634" number="3">Mine eye, my heart their pi&#57348;ures &#383;ight would barre,</line>
 <line globalnumber="635" number="4">My heart, mine eye the freedome of that right.</line>
 </quatrain>
 <quatrain>
@@ -1214,7 +1217,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="640" number="9">To &#383;ide this title is impannelled</line>
 <line globalnumber="641" number="10">A que&#383;t of thoughts, all tennants to the heart,</line>
-<line globalnumber="642" number="11">And by their verdi&#392;t is determined</line>
+<line globalnumber="642" number="11">And by their verdi&#57348; is determined</line>
 <line globalnumber="643" number="12">The cleere eyes moyitie, and the deare hearts part.</line>
 </quatrain>
 <couplet>
@@ -1226,25 +1229,25 @@ FORTH.</line>
 <sonnet id="47">
 <sonnetnum>47</sonnetnum>
 <quatrain>
-<line globalnumber="646" number="1" order="first"><dropcap>B</dropcap>etwixt mine eye and heart a league is tooke,</line>
+<line globalnumber="646" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>etwixt mine eye and heart a league is tooke,</line>
 <line globalnumber="647" number="2" order="second">And each doth good turnes now vnto the other,</line>
 <line globalnumber="648" number="3">When that mine eye is fami&#383;ht for a looke,</line>
 <line globalnumber="649" number="4">Or heart in loue with &#383;ighes him&#383;elfe doth &#383;mother;</line>
 </quatrain>
 <quatrain>
-<line globalnumber="650" number="5">With my loues pi&#392;ture then my eye doth fea&#383;t,</line>
+<line globalnumber="650" number="5">With my loues pi&#57348;ure then my eye doth fea&#383;t,</line>
 <line globalnumber="651" number="6">And to the painted banquet bids my heart:</line>
 <line globalnumber="652" number="7">An other time mine eye is my hearts gue&#383;t,</line>
 <line globalnumber="653" number="8">And in his thoughts of loue doth &#383;hare a part.</line>
 </quatrain>
 <quatrain>
-<line globalnumber="654" number="9">So either by thy pi&#392;ture or my loue,</line>
+<line globalnumber="654" number="9">So either by thy pi&#57348;ure or my loue,</line>
 <line globalnumber="655" number="10">Thy &#383;elfe away, are pre&#383;ent &#383;till with me,</line>
 <line globalnumber="656" number="11">For thou not farther then my thoughts can&#383;t moue,</line>
 <line globalnumber="657" number="12">And I am &#383;till with them and they with thee.</line>
 </quatrain>
 <couplet>
-<line globalnumber="658" number="13">Or if they &#383;leepe, thy pi&#392;ture in my &#383;ight</line>
+<line globalnumber="658" number="13">Or if they &#383;leepe, thy pi&#57348;ure in my &#383;ight</line>
 <line globalnumber="659" number="14">Awakes my heart, to hearts and eyes delight.</line>
 </couplet>
 </sonnet>
@@ -1252,7 +1255,7 @@ FORTH.</line>
 <sonnet id="48">
 <sonnetnum>48</sonnetnum>
 <quatrain>
-<line globalnumber="660" number="1" order="first"><dropcap>H</dropcap>ow carefull was I when I tooke my way,</line>
+<line globalnumber="660" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow carefull was I when I tooke my way,</line>
 <line globalnumber="661" number="2" order="second">Each trifle vnder true&#383;t barres to thru&#383;t,</line>
 <line globalnumber="662" number="3">That to my vse it might vn-v&#383;ed &#383;tay</line>
 <line globalnumber="663" number="4">From hands of fal&#383;ehood, in &#383;ure wards of tru&#383;t?</line>
@@ -1278,10 +1281,10 @@ FORTH.</line>
 <sonnet id="49">
 <sonnetnum>49</sonnetnum>
 <quatrain>
-<line globalnumber="674" number="1" order="first"><dropcap>A</dropcap>gain&#383;t that time (if euer that time come)</line>
-<line globalnumber="675" number="2" order="second">When I &#383;hall &#383;ee thee frowne on my defe&#392;ts,</line>
+<line globalnumber="674" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>gain&#383;t that time (if euer that time come)</line>
+<line globalnumber="675" number="2" order="second">When I &#383;hall &#383;ee thee frowne on my defe&#57348;s,</line>
 <line globalnumber="676" number="3">When as thy loue hath ca&#383;t his vtmo&#383;t &#383;umme,</line>
-<line globalnumber="677" number="4">Cauld to that audite by adui&#383;&#8217;d re&#383;pe&#392;ts,</line>
+<line globalnumber="677" number="4">Cauld to that audite by adui&#383;&#8217;d re&#383;pe&#57348;s,</line>
 </quatrain>
 <quatrain>
 <line globalnumber="678" number="5">Again&#383;t that time when thou &#383;halt &#383;trangely pa&#383;&#383;e,</line>
@@ -1304,7 +1307,7 @@ FORTH.</line>
 <sonnet id="50">
 <sonnetnum>50</sonnetnum>
 <quatrain>
-<line globalnumber="688" number="1" order="first"><dropcap>H</dropcap>ow heauie do I iourney on the way,</line>
+<line globalnumber="688" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow heauie do I iourney on the way,</line>
 <line globalnumber="689" number="2" order="second">When what I &#383;eeke (my wearie trauels end)</line>
 <line globalnumber="690" number="3">Doth teach that ea&#383;e and that repo&#383;e to &#383;ay</line>
 <line globalnumber="691" number="4">Thus farre the miles are mea&#383;urde from thy friend.</line>
@@ -1312,7 +1315,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="692" number="5">The bea&#383;t that beares me, tired with my woe,</line>
 <line globalnumber="693" number="6">Plods duly on, to beare that waight in me,</line>
-<line globalnumber="694" number="7">As if by &#383;ome in&#383;tin&#392;t the wretch did know</line>
+<line globalnumber="694" number="7">As if by &#383;ome in&#383;tin&#57348; the wretch did know</line>
 <line globalnumber="695" number="8">His rider lou&#8217;d not &#383;peed being made from thee:</line>
 </quatrain>
 <quatrain>
@@ -1330,7 +1333,7 @@ FORTH.</line>
 <sonnet id="51">
 <sonnetnum>51</sonnetnum>
 <quatrain>
-<line globalnumber="702" number="1" order="first"><dropcap>T</dropcap>hus can my loue excu&#383;e the &#383;low offence,</line>
+<line globalnumber="702" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hus can my loue excu&#383;e the &#383;low offence,</line>
 <line globalnumber="703" number="2" order="second">Of my dull bearer, when from thee I &#383;peed,</line>
 <line globalnumber="704" number="3">From where thou art, why &#383;houlld I ha&#383;t me thence,</line>
 <line globalnumber="705" number="4">Till I returne of po&#383;ting is noe need.</line>
@@ -1343,7 +1346,7 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="710" number="9">Then can no hor&#383;e with my de&#383;ire keepe pace,</line>
-<line globalnumber="711" number="10">Therefore de&#383;ire (of perfe&#392;ts loue being made)</line>
+<line globalnumber="711" number="10">Therefore de&#383;ire (of perfe&#57348;s loue being made)</line>
 <line globalnumber="712" number="11">Shall naigh noe dull fle&#383;h in his fiery race,</line>
 <line globalnumber="713" number="12">But loue, for loue, thus &#383;hall excu&#383;e my iade,</line>
 </quatrain>
@@ -1356,7 +1359,7 @@ FORTH.</line>
 <sonnet id="52">
 <sonnetnum>52</sonnetnum>
 <quatrain>
-<line globalnumber="716" number="1" order="first"><dropcap>S</dropcap>o am I as the rich who&#383;e ble&#383;&#383;ed key,</line>
+<line globalnumber="716" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o am I as the rich who&#383;e ble&#383;&#383;ed key,</line>
 <line globalnumber="717" number="2" order="second">Can bring him to his &#383;weet vp-locked trea&#383;ure,</line>
 <line globalnumber="718" number="3">The which he will not eu&#8217;ry hower &#383;uruay,</line>
 <line globalnumber="719" number="4">For blunting the fine point of &#383;eldome plea&#383;ure.</line>
@@ -1382,16 +1385,16 @@ FORTH.</line>
 <sonnet id="53">
 <sonnetnum>53</sonnetnum>
 <quatrain>
-<line globalnumber="730" number="1" order="first"><dropcap>VV</dropcap>hat is your &#383;ub&#383;tance, whereof are you made,</line>
+<line globalnumber="730" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hat is your &#383;ub&#383;tance, whereof are you made,</line>
 <line globalnumber="731" number="2" order="second">That millions of &#383;trange &#383;haddowes on you tend?</line>
 <line globalnumber="732" number="3">Since euery one, hath euery one, one &#383;hade,</line>
 <line globalnumber="733" number="4">And you but one, can euery &#383;haddow lend:</line>
 </quatrain>
 <quatrain>
-<line globalnumber="734" number="5">De&#383;cribe <italic>Adonis</italic> and the counterfet,</line>
+<line globalnumber="734" number="5">De&#383;cribe <emph rend="italic">Adonis</emph> and the counterfet,</line>
 <line globalnumber="735" number="6">Is poorely immitated after you,</line>
-<line globalnumber="736" number="7">On <italic>Hellens</italic> cheeke all art of beautie &#383;et,</line>
-<line globalnumber="737" number="8">And you in <italic>Grecian</italic> tires are painted new:</line>
+<line globalnumber="736" number="7">On <emph rend="italic">Hellens</emph> cheeke all art of beautie &#383;et,</line>
+<line globalnumber="737" number="8">And you in <emph rend="italic">Grecian</emph> tires are painted new:</line>
 </quatrain>
 <quatrain>
 <line globalnumber="738" number="9">Speake of the &#383;pring, and foyzon of the yeare,</line>
@@ -1408,20 +1411,20 @@ FORTH.</line>
 <sonnet id="54">
 <sonnetnum>54</sonnetnum>
 <quatrain>
-<line globalnumber="744" number="1" order="first"><dropcap>O</dropcap>h how much more doth beautie beautious &#383;eeme,</line>
+<line globalnumber="744" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>h how much more doth beautie beautious &#383;eeme,</line>
 <line globalnumber="745" number="2" order="second">By that &#383;weet ornament which truth doth giue,</line>
 <line globalnumber="746" number="3">The Ro&#383;e lookes faire, but fairer we it deeme</line>
 <line globalnumber="747" number="4">For that &#383;weet odor, which doth in it liue:</line>
 </quatrain>
 <quatrain>
 <line globalnumber="748" number="5">The Canker bloomes haue full as deepe a die,</line>
-<line globalnumber="749" number="6">As the perfumed tin&#392;ture of the Ro&#383;es,</line>
+<line globalnumber="749" number="6">As the perfumed tin&#57348;ure of the Ro&#383;es,</line>
 <line globalnumber="750" number="7">Hang on &#383;uch thornes, and play as wantonly,</line>
 <line globalnumber="751" number="8">When &#383;ommers breath their masked buds di&#383;clo&#383;es:</line>
 </quatrain>
 <quatrain>
 <line globalnumber="752" number="9">But for their virtue only is their &#383;how,</line>
-<line globalnumber="753" number="10">They liue vnwoo&#8217;d, and vnre&#383;pe&#392;ted fade,</line>
+<line globalnumber="753" number="10">They liue vnwoo&#8217;d, and vnre&#383;pe&#57348;ed fade,</line>
 <line globalnumber="754" number="11">Die to them&#383;elues. Sweet Ro&#383;es doe not &#383;o,</line>
 <line globalnumber="755" number="12">Of their &#383;weet deathes, are &#383;weete&#383;t odors made:</line>
 </quatrain>
@@ -1434,15 +1437,15 @@ FORTH.</line>
 <sonnet id="55">
 <sonnetnum>55</sonnetnum>
 <quatrain>
-<line globalnumber="758" number="1" order="first"><dropcap>N</dropcap>ot marble, nor the guilded monument,</line>
+<line globalnumber="758" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>ot marble, nor the guilded monument,</line>
 <line globalnumber="759" number="2" order="second">Of Princes &#383;hall out-liue this powrefull rime,</line>
 <line globalnumber="760" number="3">But you &#383;hall &#383;hine more bright in the&#383;e contents</line>
 <line globalnumber="761" number="4">Then vn&#383;wept &#383;tone, be&#383;meer&#8217;d with &#383;lutti&#383;h time.</line>
 </quatrain>
 <quatrain>
-<line globalnumber="762" number="5">When wa&#383;tefull warre &#383;hall <italic>Statues</italic> ouer-turne,</line>
+<line globalnumber="762" number="5">When wa&#383;tefull warre &#383;hall <emph rend="italic">Statues</emph> ouer-turne,</line>
 <line globalnumber="763" number="6">And broiles roote out the worke of ma&#383;onry,</line>
-<line globalnumber="764" number="7">Nor <italic>Mars</italic> his &#383;word, nor warres quick fire &#383;hall burne:</line>
+<line globalnumber="764" number="7">Nor <emph rend="italic">Mars</emph> his &#383;word, nor warres quick fire &#383;hall burne:</line>
 <line globalnumber="765" number="8">The liuing record of your memory.</line>
 </quatrain>
 <quatrain>
@@ -1460,7 +1463,7 @@ FORTH.</line>
 <sonnet id="56">
 <sonnetnum>56</sonnetnum>
 <quatrain>
-<line globalnumber="772" number="1" order="first"><dropcap>S</dropcap>weet loue renew thy force, be it not &#383;aid</line>
+<line globalnumber="772" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>weet loue renew thy force, be it not &#383;aid</line>
 <line globalnumber="773" number="2" order="second">Thy edge &#383;hould blunter be then apetite,</line>
 <line globalnumber="774" number="3">Which but too daie by feeding is alaied,</line>
 <line globalnumber="775" number="4">To morrow &#383;harpned in his former might.</line>
@@ -1472,8 +1475,8 @@ FORTH.</line>
 <line globalnumber="779" number="8">The &#383;pirit of Loue, with a perpetual dulne&#383;&#383;e:</line>
 </quatrain>
 <quatrain>
-<line globalnumber="780" number="9">Let this &#383;ad <italic>Intrim</italic> like the Ocean be</line>
-<line globalnumber="781" number="10">Which parts the &#383;hore, where two contra&#392;ted new,</line>
+<line globalnumber="780" number="9">Let this &#383;ad <emph rend="italic">Intrim</emph> like the Ocean be</line>
+<line globalnumber="781" number="10">Which parts the &#383;hore, where two contra&#57348;ed new,</line>
 <line globalnumber="782" number="11">Come daily to the banckes, that when they &#383;ee:</line>
 <line globalnumber="783" number="12">Returne of loue, more ble&#383;t may be the view.</line>
 </quatrain>
@@ -1486,7 +1489,7 @@ FORTH.</line>
 <sonnet id="57">
 <sonnetnum>57</sonnetnum>
 <quatrain>
-<line globalnumber="786" number="1" order="first"><dropcap>B</dropcap>eing your &#383;laue what &#383;hould I doe but tend,</line>
+<line globalnumber="786" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>eing your &#383;laue what &#383;hould I doe but tend,</line>
 <line globalnumber="787" number="2" order="second">Vpon the houres, and times of your de&#383;ire?</line>
 <line globalnumber="788" number="3">I haue no precious time at al to &#383;pend;</line>
 <line globalnumber="789" number="4">Nor &#383;ervices to doe til you require.</line>
@@ -1512,7 +1515,7 @@ FORTH.</line>
 <sonnet id="58">
 <sonnetnum>58</sonnetnum>
 <quatrain>
-<line globalnumber="800" number="1" order="first"><dropcap>T</dropcap>hat god forbid, that made me fir&#383;t your &#383;laue,</line>
+<line globalnumber="800" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hat god forbid, that made me fir&#383;t your &#383;laue,</line>
 <line globalnumber="801" number="2" order="second">I &#383;hould in thought controule your times of plea&#383;ure,</line>
 <line globalnumber="802" number="3">Or at your hand th&#8217; account of houres to craue,</line>
 <line globalnumber="803" number="4">Being your va&#383;&#383;ail bound to &#383;taie your lei&#383;ure.</line>
@@ -1538,7 +1541,7 @@ FORTH.</line>
 <sonnet id="59">
 <sonnetnum>59</sonnetnum>
 <quatrain>
-<line globalnumber="814" number="1" order="first"><dropcap>I</dropcap>f their bee nothing new, but that which is</line>
+<line globalnumber="814" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>f their bee nothing new, but that which is</line>
 <line globalnumber="815" number="2" order="second">Hath beene before, how are our braines beguild,</line>
 <line globalnumber="816" number="3">Which laboring for inuention beare ami&#383;&#383;e</line>
 <line globalnumber="817" number="4">The &#383;econd burthen of a former child?</line>
@@ -1547,7 +1550,7 @@ FORTH.</line>
 <line globalnumber="818" number="5">Oh that record could with a back-ward looke,</line>
 <line globalnumber="819" number="6">Euen of fiue hundreth cour&#383;es of the Sunne,</line>
 <line globalnumber="820" number="7">Show me your image in &#383;ome antique booke,</line>
-<line globalnumber="821" number="8">Since minde at fir&#383;t in carre&#392;ter was done.</line>
+<line globalnumber="821" number="8">Since minde at fir&#383;t in carre&#57348;er was done.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="822" number="9">That I might &#383;ee what the old world could &#383;ay,</line>
@@ -1557,14 +1560,14 @@ FORTH.</line>
 </quatrain>
 <couplet>
 <line globalnumber="826" number="13">Oh &#383;ure I am the wits of former daies,</line>
-<line globalnumber="827" number="14">To &#383;ubje&#392;ts wor&#383;e haue giuen admiring prai&#383;e.</line>
+<line globalnumber="827" number="14">To &#383;ubje&#57348;s wor&#383;e haue giuen admiring prai&#383;e.</line>
 </couplet>
 </sonnet>
 
 <sonnet id="60">
 <sonnetnum>60</sonnetnum>
 <quatrain>
-<line globalnumber="828" number="1" order="first"><dropcap>L</dropcap>ike as the waues make towards the pibled &#383;hore,</line>
+<line globalnumber="828" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>ike as the waues make towards the pibled &#383;hore,</line>
 <line globalnumber="829" number="2" order="second">So do our minuites ha&#383;ten to their end,</line>
 <line globalnumber="830" number="3">Each changing place with that which goes before,</line>
 <line globalnumber="831" number="4">In &#383;equent toile all forwards do contend.</line>
@@ -1590,7 +1593,7 @@ FORTH.</line>
 <sonnet id="61">
 <sonnetnum>61</sonnetnum>
 <quatrain>
-<line globalnumber="842" number="1" order="first"><dropcap>I</dropcap>s it thy wil, thy Image &#383;hould keepe open</line>
+<line globalnumber="842" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>s it thy wil, thy Image &#383;hould keepe open</line>
 <line globalnumber="843" number="2" order="second">My heauy eielids to the weary night?</line>
 <line globalnumber="844" number="3">Do&#383;t thou de&#383;ire my &#383;lumbers &#383;hould be broken,</line>
 <line globalnumber="845" number="4">While &#383;hadowes like to thee do mocke my &#383;ight?</line>
@@ -1616,7 +1619,7 @@ FORTH.</line>
 <sonnet id="62">
 <sonnetnum>62</sonnetnum>
 <quatrain>
-<line globalnumber="856" number="1" order="first"><dropcap>S</dropcap>inne of &#383;elfe-loue po&#383;&#383;e&#383;&#383;eth al mine eie,</line>
+<line globalnumber="856" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>inne of &#383;elfe-loue po&#383;&#383;e&#383;&#383;eth al mine eie,</line>
 <line globalnumber="857" number="2" order="second">And all my &#383;oule, and al my euery part;</line>
 <line globalnumber="858" number="3">And for this &#383;inne there is no remedie,</line>
 <line globalnumber="859" number="4">It is &#383;o grounded inward in my heart.</line>
@@ -1642,7 +1645,7 @@ FORTH.</line>
 <sonnet id="63">
 <sonnetnum>63</sonnetnum>
 <quatrain>
-<line globalnumber="870" number="1" order="first"><dropcap>A</dropcap>gain&#383;t my loue &#383;hall be as I am now</line>
+<line globalnumber="870" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>gain&#383;t my loue &#383;hall be as I am now</line>
 <line globalnumber="871" number="2" order="second">With times iniurious hand chru&#383;ht and ore-worne,</line>
 <line globalnumber="872" number="3">When houres haue dreind his blood and fild his brow</line>
 <line globalnumber="873" number="4">With lines and wrincles, when his youthfull morne</line>
@@ -1668,7 +1671,7 @@ FORTH.</line>
 <sonnet id="64">
 <sonnetnum>64</sonnetnum>
 <quatrain>
-<line globalnumber="884" number="1" order="first"><dropcap>VV</dropcap>hen I haue &#383;eene by times fell hand defaced</line>
+<line globalnumber="884" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen I haue &#383;eene by times fell hand defaced</line>
 <line globalnumber="885" number="2" order="second">The rich proud co&#383;t of outworne buried age,</line>
 <line globalnumber="886" number="3">When &#383;ometime loftie towers I &#383;ee downe ra&#383;ed,</line>
 <line globalnumber="887" number="4">And bra&#383;&#383;e eternall &#383;laue to mortall rage.</line>
@@ -1694,10 +1697,10 @@ FORTH.</line>
 <sonnet id="65">
 <sonnetnum>65</sonnetnum>
 <quatrain>
-<line globalnumber="898" number="1" order="first"><dropcap>S</dropcap>ince bra&#383;&#383;e, nor &#383;tone, nor earth, nor boundle&#383;&#383;e sea,</line>
+<line globalnumber="898" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>ince bra&#383;&#383;e, nor &#383;tone, nor earth, nor boundle&#383;&#383;e sea,</line>
 <line globalnumber="899" number="2" order="second">But &#383;ad mortallity ore-&#383;waies their power,</line>
 <line globalnumber="900" number="3">How with this rage &#383;hall beautie hold a plea,</line>
-<line globalnumber="901" number="4">Who&#383;e a&#392;tion is no &#383;tronger then a flower?</line>
+<line globalnumber="901" number="4">Who&#383;e a&#57348;ion is no &#383;tronger then a flower?</line>
 </quatrain>
 <quatrain>
 <line globalnumber="902" number="5">O how &#383;hall &#383;ummers hunny breath hold out,</line>
@@ -1720,7 +1723,7 @@ FORTH.</line>
 <sonnet id="66">
 <sonnetnum>66</sonnetnum>
 <quatrain>
-<line globalnumber="912" number="1" order="first"><dropcap>T</dropcap>yr&#8217;d with all the&#383;e for re&#383;tfull death I cry,</line>
+<line globalnumber="912" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>yr&#8217;d with all the&#383;e for re&#383;tfull death I cry,</line>
 <line globalnumber="913" number="2" order="second">As to behold de&#383;ert a begger borne,</line>
 <line globalnumber="914" number="3">And needie Nothing trimd in iollitie,</line>
 <line globalnumber="915" number="4">And pure&#383;t faith vnhappily for&#383;worne,</line>
@@ -1728,12 +1731,12 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="916" number="5">And gilded honor &#383;hamefully mi&#383;pla&#383;t,</line>
 <line globalnumber="917" number="6">And maiden vertue rudely &#383;trumpeted,</line>
-<line globalnumber="918" number="7">And right perfe&#392;tion wrongfully di&#383;grac&#8217;d,</line>
+<line globalnumber="918" number="7">And right perfe&#57348;ion wrongfully di&#383;grac&#8217;d,</line>
 <line globalnumber="919" number="8">And &#383;trength by limping &#383;way di&#383;abled,</line>
 </quatrain>
 <quatrain>
 <line globalnumber="920" number="9">And arte made tung-tide by authoritie,</line>
-<line globalnumber="921" number="10">And Folly (Do&#392;tor-like) controuling skill,</line>
+<line globalnumber="921" number="10">And Folly (Do&#57348;or-like) controuling skill,</line>
 <line globalnumber="922" number="11">And &#383;imple-Truth miscalde Simplicitie,</line>
 <line globalnumber="923" number="12">And captiue-good attending Captaine ill.</line>
 </quatrain>
@@ -1746,7 +1749,7 @@ FORTH.</line>
 <sonnet id="67">
 <sonnetnum>67</sonnetnum>
 <quatrain>
-<line globalnumber="926" number="1" order="first"><dropcap>A</dropcap>h wherefore with infe&#392;tion &#383;hould he liue,</line>
+<line globalnumber="926" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>h wherefore with infe&#57348;ion &#383;hould he liue,</line>
 <line globalnumber="927" number="2" order="second">And with his pre&#383;ence grace impietie,</line>
 <line globalnumber="928" number="3">That &#383;inne by him aduantage &#383;hould atchiue,</line>
 <line globalnumber="929" number="4">And lace it &#383;elfe with his &#383;ocietie?</line>
@@ -1754,7 +1757,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="930" number="5">Why &#383;hould fal&#383;e painting immitate his cheeke,</line>
 <line globalnumber="931" number="6">And &#383;teale dead &#383;eeing of his liuing hew?</line>
-<line globalnumber="932" number="7">Why &#383;hould poore beautie indire&#392;tly &#383;eeke,</line>
+<line globalnumber="932" number="7">Why &#383;hould poore beautie indire&#57348;ly &#383;eeke,</line>
 <line globalnumber="933" number="8">Ro&#383;es of &#383;haddow, &#383;ince his Ro&#383;e is true?</line>
 </quatrain>
 <quatrain>
@@ -1772,7 +1775,7 @@ FORTH.</line>
 <sonnet id="68">
 <sonnetnum>68</sonnetnum>
 <quatrain>
-<line globalnumber="940" number="1" order="first"><dropcap>T</dropcap>hus is his cheeke the map of daies out-worne,</line>
+<line globalnumber="940" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hus is his cheeke the map of daies out-worne,</line>
 <line globalnumber="941" number="2" order="second">When beauty liu&#8217;d and dy&#8217;ed as flowers do now,</line>
 <line globalnumber="942" number="3">Before the&#383;e ba&#383;tard &#383;ignes of faire were borne,</line>
 <line globalnumber="943" number="4">Or dur&#383;t inhabit on a liuing brow:</line>
@@ -1798,7 +1801,7 @@ FORTH.</line>
 <sonnet id="69">
 <sonnetnum>69</sonnetnum>
 <quatrain>
-<line globalnumber="954" number="1" order="first"><dropcap>T</dropcap>ho&#383;e parts of thee that the worlds eye doth view,</line>
+<line globalnumber="954" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ho&#383;e parts of thee that the worlds eye doth view,</line>
 <line globalnumber="955" number="2" order="second">Want nothing that the thought of hearts can mend:</line>
 <line globalnumber="956" number="3">All toungs (the voice of &#383;oules) giue thee that end,</line>
 <line globalnumber="957" number="4">Vttring bare truth, euen &#383;o as foes Commend.</line>
@@ -1824,9 +1827,9 @@ FORTH.</line>
 <sonnet id="70">
 <sonnetnum>70</sonnetnum>
 <quatrain>
-<line globalnumber="968" number="1" order="first"><dropcap>T</dropcap>hat thou are blam&#8217;d &#383;hall not be thy defe&#392;t,</line>
+<line globalnumber="968" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hat thou are blam&#8217;d &#383;hall not be thy defe&#57348;,</line>
 <line globalnumber="969" number="2" order="second">For &#383;landers marke was euer yet the faire,</line>
-<line globalnumber="970" number="3">The ornament of beauty is &#383;u&#383;pe&#392;t,</line>
+<line globalnumber="970" number="3">The ornament of beauty is &#383;u&#383;pe&#57348;,</line>
 <line globalnumber="971" number="4">A Crow that flies in heauens &#383;weete&#383;t ayre.</line>
 </quatrain>
 <quatrain>
@@ -1837,12 +1840,12 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="976" number="9">Thou ha&#383;t pa&#383;t by the ambu&#383;h of young daies,</line>
-<line globalnumber="977" number="10">Either not a&#383;&#383;ayld, or vi&#392;tor beeing charg&#8217;d,</line>
+<line globalnumber="977" number="10">Either not a&#383;&#383;ayld, or vi&#57348;or beeing charg&#8217;d,</line>
 <line globalnumber="978" number="11">Yet this thy prai&#383;e cannot be &#383;oe thy prai&#383;e,</line>
 <line globalnumber="979" number="12">To tye vp enuy, euermore inlarged,</line>
 </quatrain>
 <couplet>
-<line globalnumber="980" number="13">If &#383;ome &#383;u&#383;pe&#392;t of ill maskt not thy &#383;how,</line>
+<line globalnumber="980" number="13">If &#383;ome &#383;u&#383;pe&#57348; of ill maskt not thy &#383;how,</line>
 <line globalnumber="981" number="14">Then thou alone kingdomes of hearts &#383;hould&#383;t owe.</line>
 </couplet>
 </sonnet>
@@ -1850,7 +1853,7 @@ FORTH.</line>
 <sonnet id="71">
 <sonnetnum>71</sonnetnum>
 <quatrain>
-<line globalnumber="982" number="1" order="first"><dropcap>N</dropcap>oe Longer mourne for me when I am dead,</line>
+<line globalnumber="982" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>oe Longer mourne for me when I am dead,</line>
 <line globalnumber="983" number="2" order="second">Then you &#383;hall heare the &#383;urly &#383;ullen bell</line>
 <line globalnumber="984" number="3">Giue warning to the world that I am fled</line>
 <line globalnumber="985" number="4">From this vile world with vilde&#383;t wormes to dwell:</line>
@@ -1876,7 +1879,7 @@ FORTH.</line>
 <sonnet id="72">
 <sonnetnum>72</sonnetnum>
 <quatrain>
-<line globalnumber="996" number="1" order="first"><dropcap>O</dropcap> Lea&#383;t the world &#383;hould taske you to recite,</line>
+<line globalnumber="996" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> Lea&#383;t the world &#383;hould taske you to recite,</line>
 <line globalnumber="997" number="2" order="second">What merit liu&#8217;d in me that you &#383;hould loue</line>
 <line globalnumber="998" number="3">After my death (deare loue) for get me quite,</line>
 <line globalnumber="999" number="4">For you in me can nothing worthy proue.</line>
@@ -1902,7 +1905,7 @@ FORTH.</line>
 <sonnet id="73">
 <sonnetnum>73</sonnetnum>
 <quatrain>
-<line globalnumber="1010" number="1" order="first"><dropcap>T</dropcap>hat time of yeeare thou mai&#383;t in me behold,</line>
+<line globalnumber="1010" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hat time of yeeare thou mai&#383;t in me behold,</line>
 <line globalnumber="1011" number="2" order="second">When yellow leaues, or none, or few doe hange</line>
 <line globalnumber="1012" number="3">Vpon tho&#383;e boughes which &#383;hake again&#383;t the could,</line>
 <line globalnumber="1013" number="4">Bare rn&#8217;wd quiers, where late the &#383;weet birds &#383;ang.</line>
@@ -1928,7 +1931,7 @@ FORTH.</line>
 <sonnet id="74">
 <sonnetnum>74</sonnetnum>
 <quatrain>
-<line globalnumber="1024" number="1" order="first"><dropcap>B</dropcap>vt be contented when that fell are&#383;t,</line>
+<line globalnumber="1024" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>vt be contented when that fell are&#383;t,</line>
 <line globalnumber="1025" number="2" order="second">Without all bayle &#383;hall carry me away,</line>
 <line globalnumber="1026" number="3">My life hath in this line &#383;ome intere&#383;t,</line>
 <line globalnumber="1027" number="4">Which for memoriall &#383;till with thee &#383;hall &#383;tay.</line>
@@ -1954,7 +1957,7 @@ FORTH.</line>
 <sonnet id="75">
 <sonnetnum>75</sonnetnum>
 <quatrain>
-<line globalnumber="1038" number="1" order="first"><dropcap>S</dropcap>o are you to my thoughts as food to life,</line>
+<line globalnumber="1038" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o are you to my thoughts as food to life,</line>
 <line globalnumber="1039" number="2" order="second">Or as &#383;weet &#383;ea&#383;on&#8217;d &#383;hewers are to the ground;</line>
 <line globalnumber="1040" number="3">And for the peace of you I hold &#383;uch &#383;trife,</line>
 <line globalnumber="1041" number="4">As twixt a mi&#383;er and his wealth is found.</line>
@@ -1980,7 +1983,7 @@ FORTH.</line>
 <sonnet id="76">
 <sonnetnum>76</sonnetnum>
 <quatrain>
-<line globalnumber="1052" number="1" order="first"><dropcap>VV</dropcap>hy is my ver&#383;e &#383;o barren of new pride?</line>
+<line globalnumber="1052" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hy is my ver&#383;e &#383;o barren of new pride?</line>
 <line globalnumber="1053" number="2" order="second">So far from variation or quicke change?</line>
 <line globalnumber="1054" number="3">Why with the time do I not glance a&#383;ide</line>
 <line globalnumber="1055" number="4">To new found methods, and to compounds &#383;trange?</line>
@@ -2006,7 +2009,7 @@ FORTH.</line>
 <sonnet id="77">
 <sonnetnum>77</sonnetnum>
 <quatrain>
-<line globalnumber="1066" number="1" order="first"><dropcap>T</dropcap>hy gla&#383;&#383;e will &#383;hew thee how thy beauties were,</line>
+<line globalnumber="1066" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hy gla&#383;&#383;e will &#383;hew thee how thy beauties were,</line>
 <line globalnumber="1067" number="2" order="second">Thy dyall how thy precious mynuits wa&#383;te,</line>
 <line globalnumber="1068" number="3">The vacant leaues thy mindes imprint will beare,</line>
 <line globalnumber="1069" number="4">And of this booke, this learning mai&#383;t thou ta&#383;te.</line>
@@ -2032,9 +2035,9 @@ FORTH.</line>
 <sonnet id="78">
 <sonnetnum>78</sonnetnum>
 <quatrain>
-<line globalnumber="1080" number="1" order="first"><dropcap>S</dropcap>o oft haue I inuok&#8217;d thee for my Mu&#383;e,</line>
+<line globalnumber="1080" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o oft haue I inuok&#8217;d thee for my Mu&#383;e,</line>
 <line globalnumber="1081" number="2" order="second">And found &#383;uch faire a&#383;&#383;i&#383;tance in my ver&#383;e,</line>
-<line globalnumber="1082" number="3">As euery <italic>Alien</italic> pen hath got my v&#383;e,</line>
+<line globalnumber="1082" number="3">As euery <emph rend="italic">Alien</emph> pen hath got my v&#383;e,</line>
 <line globalnumber="1083" number="4">And vnder thee their poe&#383;ie di&#383;per&#383;e.</line>
 </quatrain>
 <quatrain>
@@ -2058,7 +2061,7 @@ FORTH.</line>
 <sonnet id="79">
 <sonnetnum>79</sonnetnum>
 <quatrain>
-<line globalnumber="1094" number="1" order="first"><dropcap>W</dropcap>hil&#383;t I alone did call vpon thy ayde,</line>
+<line globalnumber="1094" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hil&#383;t I alone did call vpon thy ayde,</line>
 <line globalnumber="1095" number="2" order="second">My ver&#383;e alone had all thy gentle grace,</line>
 <line globalnumber="1096" number="3">But now my gracious numbers are decayde,</line>
 <line globalnumber="1097" number="4">And my &#383;ick Mu&#383;e doth giue an other place.</line>
@@ -2084,7 +2087,7 @@ FORTH.</line>
 <sonnet id="80">
 <sonnetnum>80</sonnetnum>
 <quatrain>
-<line globalnumber="1108" number="1" order="first"><dropcap>O</dropcap> how I faint when I of you do write,</line>
+<line globalnumber="1108" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> how I faint when I of you do write,</line>
 <line globalnumber="1109" number="2" order="second">Knowing a better &#383;pirit doth v&#383;e your name,</line>
 <line globalnumber="1110" number="3">And in the prai&#383;e thereof &#383;pends all his might,</line>
 <line globalnumber="1111" number="4">To make me toung-tide &#383;peaking of your fame.</line>
@@ -2110,7 +2113,7 @@ FORTH.</line>
 <sonnet id="81">
 <sonnetnum>81</sonnetnum>
 <quatrain>
-<line globalnumber="1122" number="1" order="first"><dropcap>O</dropcap>r I &#383;hall liue your Epitaph to make,</line>
+<line globalnumber="1122" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>r I &#383;hall liue your Epitaph to make,</line>
 <line globalnumber="1123" number="2" order="second">Or you &#383;uruiue when I in earth am rotten,</line>
 <line globalnumber="1124" number="3">From hence your memory death cannot take,</line>
 <line globalnumber="1125" number="4">Although in me each part will be forgotten.</line>
@@ -2136,10 +2139,10 @@ FORTH.</line>
 <sonnet id="82">
 <sonnetnum>82</sonnetnum>
 <quatrain>
-<line globalnumber="1136" number="1" order="first"><dropcap>I</dropcap> grant thou wert not married to my Mu&#383;e,</line>
+<line globalnumber="1136" number="1" order="first"><dropcap type="regular" size="small">I</dropcap> grant thou wert not married to my Mu&#383;e,</line>
 <line globalnumber="1137" number="2" order="second">And therefore maie&#383;t without attaint ore-looke</line>
 <line globalnumber="1138" number="3">The dedicated words which writers v&#383;e</line>
-<line globalnumber="1139" number="4">Of their faire &#383;ubie&#392;t, ble&#383;&#383;ing euery booke.</line>
+<line globalnumber="1139" number="4">Of their faire &#383;ubie&#57348;, ble&#383;&#383;ing euery booke.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1140" number="5">Thou art as faire in knowledge as in hew,</line>
@@ -2162,7 +2165,7 @@ FORTH.</line>
 <sonnet id="83">
 <sonnetnum>83</sonnetnum>
 <quatrain>
-<line globalnumber="1150" number="1" order="first"><dropcap>I</dropcap> neuer &#383;aw that you did painting need,</line>
+<line globalnumber="1150" number="1" order="first"><dropcap type="regular" size="small">I</dropcap> neuer &#383;aw that you did painting need,</line>
 <line globalnumber="1151" number="2" order="second">And therefore to your faire no painting &#383;et,</line>
 <line globalnumber="1152" number="3">I found (or thought I found) you did exceed,</line>
 <line globalnumber="1153" number="4">The barren tender of a Poets debt:</line>
@@ -2188,14 +2191,14 @@ FORTH.</line>
 <sonnet id="84">
 <sonnetnum>84</sonnetnum>
 <quatrain>
-<line globalnumber="1164" number="1" order="first"><dropcap>W</dropcap>ho is it that &#383;ayes mo&#383;t, which can &#383;ay more,</line>
+<line globalnumber="1164" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>ho is it that &#383;ayes mo&#383;t, which can &#383;ay more,</line>
 <line globalnumber="1165" number="2" order="second">Then this rich prai&#383;e, that you alone, are you,</line>
 <line globalnumber="1166" number="3">In who&#383;e confine immured is the &#383;tore,</line>
 <line globalnumber="1167" number="4">Which &#383;hould example where your equall grew,</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1168" number="5">Leane penurie within that Pen doth dwell,</line>
-<line globalnumber="1169" number="6">That to his &#383;ubje&#392;t lends not &#383;ome &#383;mall glory,</line>
+<line globalnumber="1169" number="6">That to his &#383;ubje&#57348; lends not &#383;ome &#383;mall glory,</line>
 <line globalnumber="1170" number="7">But he that writes of you, if he can tell</line>
 <line globalnumber="1171" number="8">That you are you, &#383;o dignifies his &#383;tory.</line>
 </quatrain>
@@ -2214,9 +2217,9 @@ FORTH.</line>
 <sonnet id="85">
 <sonnetnum>85</sonnetnum>
 <quatrain>
-<line globalnumber="1178" number="1" order="first"><dropcap>M</dropcap>y toung-tide Mu&#383;e in manners holds her &#383;till,</line>
+<line globalnumber="1178" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>y toung-tide Mu&#383;e in manners holds her &#383;till,</line>
 <line globalnumber="1179" number="2" order="second">While comments of your prai&#383;e richly compil&#8217;d,</line>
-<line globalnumber="1180" number="3">Re&#383;erue their Chara&#392;ter with goulden quill,</line>
+<line globalnumber="1180" number="3">Re&#383;erue their Chara&#57348;er with goulden quill,</line>
 <line globalnumber="1181" number="4">And precious phra&#383;e by all the Mu&#383;es fil&#8217;d.</line>
 </quatrain>
 <quatrain>
@@ -2232,15 +2235,15 @@ FORTH.</line>
 <line globalnumber="1189" number="12">(Though words come hind-mo&#383;t) holds his ranke before.</line>
 </quatrain>
 <couplet>
-<line globalnumber="1190" number="13">Then others, for the breath of words re&#383;pe&#392;t,</line>
-<line globalnumber="1191" number="14">Me for my dombe thoughts, &#383;peaking in effe&#392;t.</line>
+<line globalnumber="1190" number="13">Then others, for the breath of words re&#383;pe&#57348;,</line>
+<line globalnumber="1191" number="14">Me for my dombe thoughts, &#383;peaking in effe&#57348;.</line>
 </couplet>
 </sonnet>
 
 <sonnet id="86">
 <sonnetnum>86</sonnetnum>
 <quatrain>
-<line globalnumber="1192" number="1" order="first"><dropcap>VV</dropcap>as it the proud full &#383;aile of his great ver&#383;e,</line>
+<line globalnumber="1192" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>as it the proud full &#383;aile of his great ver&#383;e,</line>
 <line globalnumber="1193" number="2" order="second">Bound for the prize of (all to precious) you,</line>
 <line globalnumber="1194" number="3">That did my ripe thoughts in my braine inhearce,</line>
 <line globalnumber="1195" number="4">Making their tombe the wombe wherein they grew?</line>
@@ -2254,7 +2257,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1200" number="9">He nor that affable familiar gho&#383;t</line>
 <line globalnumber="1201" number="10">Which nightly gulls him with intelligence,</line>
-<line globalnumber="1202" number="11">As vi&#392;tors of my &#383;ilence cannot boa&#383;t,</line>
+<line globalnumber="1202" number="11">As vi&#57348;ors of my &#383;ilence cannot boa&#383;t,</line>
 <line globalnumber="1203" number="12">I was not &#383;ick of any feare from thence.</line>
 </quatrain>
 <couplet>
@@ -2266,7 +2269,7 @@ FORTH.</line>
 <sonnet id="87">
 <sonnetnum>87</sonnetnum>
 <quatrain>
-<line globalnumber="1206" number="1" order="first"><dropcap>F</dropcap>arewell thou art too deare for my po&#383;&#383;e&#383;&#383;ing,</line>
+<line globalnumber="1206" number="1" order="first"><dropcap type="regular" size="small">F</dropcap>arewell thou art too deare for my po&#383;&#383;e&#383;&#383;ing,</line>
 <line globalnumber="1207" number="2" order="second">And like enough thou know&#383;t thy e&#383;timate,</line>
 <line globalnumber="1208" number="3">The Charter of thy worth giues thee relea&#383;ing:</line>
 <line globalnumber="1209" number="4">My bonds in thee are all determinate.</line>
@@ -2292,7 +2295,7 @@ FORTH.</line>
 <sonnet id="88">
 <sonnetnum>88</sonnetnum>
 <quatrain>
-<line globalnumber="1220" number="1" order="first"><dropcap>VV</dropcap>hen thou &#383;halt be di&#383;pode to &#383;et me light,</line>
+<line globalnumber="1220" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hen thou &#383;halt be di&#383;pode to &#383;et me light,</line>
 <line globalnumber="1221" number="2" order="second">And place my merrit in the eie of skorne,</line>
 <line globalnumber="1222" number="3">Vpon thy &#383;ide, again&#383;t my &#383;elfe ile fight,</line>
 <line globalnumber="1223" number="4">And proue thee virtuous, though thou art for&#383;worne:</line>
@@ -2318,7 +2321,7 @@ FORTH.</line>
 <sonnet id="89">
 <sonnetnum>89</sonnetnum>
 <quatrain>
-<line globalnumber="1234" number="1" order="first"><dropcap>S</dropcap>ay that thou did&#383;t for&#383;ake mee for &#383;ome falt,</line>
+<line globalnumber="1234" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>ay that thou did&#383;t for&#383;ake mee for &#383;ome falt,</line>
 <line globalnumber="1235" number="2" order="second">And I will comment vpon that offence,</line>
 <line globalnumber="1236" number="3">Speake of my lamene&#383;&#383;e, and I &#383;traight will halt:</line>
 <line globalnumber="1237" number="4">Again&#383;t thy rea&#383;ons making no defence.</line>
@@ -2344,7 +2347,7 @@ FORTH.</line>
 <sonnet id="90">
 <sonnetnum>90</sonnetnum>
 <quatrain>
-<line globalnumber="1248" number="1" order="first"><dropcap>T</dropcap>hen hate me when thou wilt, if euer, now,</line>
+<line globalnumber="1248" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hen hate me when thou wilt, if euer, now,</line>
 <line globalnumber="1249" number="2" order="second">Now while the world is bent my deeds to cro&#383;&#383;e,</line>
 <line globalnumber="1250" number="3">Ioyne with the &#383;pight of fortune, make me bow,</line>
 <line globalnumber="1251" number="4">And doe not drop in for an after lo&#383;&#383;e.</line>
@@ -2370,13 +2373,13 @@ FORTH.</line>
 <sonnet id="91">
 <sonnetnum>91</sonnetnum>
 <quatrain>
-<line globalnumber="1262" number="1" order="first"><dropcap>S</dropcap>ome glory in their birth, &#383;ome in their skill,</line>
+<line globalnumber="1262" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>ome glory in their birth, &#383;ome in their skill,</line>
 <line globalnumber="1263" number="2" order="second">Some in their wealth, &#383;ome in their bodies force,</line>
 <line globalnumber="1264" number="3">Some in their garments though new-fangled ill:</line>
 <line globalnumber="1265" number="4">Some in their Hawkes and Hounds, &#383;ome in their Hor&#383;e.</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1266" number="5">And euery humor hath his adjun&#392;t plea&#383;ure,</line>
+<line globalnumber="1266" number="5">And euery humor hath his adjun&#57348; plea&#383;ure,</line>
 <line globalnumber="1267" number="6">Wherein it findes a ioy aboue the re&#383;t,</line>
 <line globalnumber="1268" number="7">But the&#383;e perticulers are not my mea&#383;ure,</line>
 <line globalnumber="1269" number="8">All the&#383;e I better in one generall be&#383;t.</line>
@@ -2396,7 +2399,7 @@ FORTH.</line>
 <sonnet id="92">
 <sonnetnum>92</sonnetnum>
 <quatrain>
-<line globalnumber="1276" number="1" order="first"><dropcap>B</dropcap>vt doe thy wor&#383;t to &#383;teale thy &#383;elfe away,</line>
+<line globalnumber="1276" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>vt doe thy wor&#383;t to &#383;teale thy &#383;elfe away,</line>
 <line globalnumber="1277" number="2" order="second">For tearme of life thou art a&#383;&#383;ured mine,</line>
 <line globalnumber="1278" number="3">And life no longer then thy loue will &#383;tay,</line>
 <line globalnumber="1279" number="4">For it depends vpon that loue of thine.</line>
@@ -2422,7 +2425,7 @@ FORTH.</line>
 <sonnet id="93">
 <sonnetnum>93</sonnetnum>
 <quatrain>
-<line globalnumber="1290" number="1" order="first"><dropcap>S</dropcap>o &#383;hall I liue, &#383;uppo&#383;ing thou art true,</line>
+<line globalnumber="1290" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o &#383;hall I liue, &#383;uppo&#383;ing thou art true,</line>
 <line globalnumber="1291" number="2" order="second">Like a deceiued husband &#383;o loues face,</line>
 <line globalnumber="1292" number="3">May &#383;till &#383;eeme loue to me, though alter&#8217;d new:</line>
 <line globalnumber="1293" number="4">Thy lookes with me, thy heart in other place.</line>
@@ -2440,7 +2443,7 @@ FORTH.</line>
 <line globalnumber="1301" number="12">Thy lookes &#383;hould nothing thence, but &#383;weetne&#383;&#383;e tell.</line>
 </quatrain>
 <couplet>
-<line globalnumber="1302" number="13">How like <italic>Eaues</italic> apple doth thy beauty grow,</line>
+<line globalnumber="1302" number="13">How like <emph rend="italic">Eaues</emph> apple doth thy beauty grow,</line>
 <line globalnumber="1303" number="14">If thy &#383;weet vertue an&#383;wer not thy &#383;how.</line>
 </couplet>
 </sonnet>
@@ -2448,7 +2451,7 @@ FORTH.</line>
 <sonnet id="94">
 <sonnetnum>94</sonnetnum>
 <quatrain>
-<line globalnumber="1304" number="1" order="first"><dropcap>T</dropcap>hey that haue powre to hurt, and will doe none,</line>
+<line globalnumber="1304" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hey that haue powre to hurt, and will doe none,</line>
 <line globalnumber="1305" number="2" order="second">That doe not do the thing, they mo&#383;t do &#383;howe,</line>
 <line globalnumber="1306" number="3">Who mouing others, are them&#383;elues as &#383;tone,</line>
 <line globalnumber="1307" number="4">Vnmooued, could, and to temptation &#383;low:</line>
@@ -2462,7 +2465,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1312" number="9">The &#383;ommers flowre is to the &#383;ommer &#383;weet,</line>
 <line globalnumber="1313" number="10">Though to it &#383;elfe, it onely liue and die,</line>
-<line globalnumber="1314" number="11">But if that flowre with ba&#383;e infe&#392;tion meete,</line>
+<line globalnumber="1314" number="11">But if that flowre with ba&#383;e infe&#57348;ion meete,</line>
 <line globalnumber="1315" number="12">The ba&#383;e&#383;t weed out-braues his dignity:</line>
 </quatrain>
 <couplet>
@@ -2474,7 +2477,7 @@ FORTH.</line>
 <sonnet id="95">
 <sonnetnum>95</sonnetnum>
 <quatrain>
-<line globalnumber="1318" number="1" order="first"><dropcap>H</dropcap>ow &#383;weet and louely do&#383;t thou make the &#383;hame,</line>
+<line globalnumber="1318" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow &#383;weet and louely do&#383;t thou make the &#383;hame,</line>
 <line globalnumber="1319" number="2" order="second">Which like a canker in the fragrant Ro&#383;e,</line>
 <line globalnumber="1320" number="3">Doth &#383;pot the beautie of thy budding name?</line>
 <line globalnumber="1321" number="4">Oh in what &#383;weets doe&#383;t thou thy &#383;innes inclo&#383;e!</line>
@@ -2500,7 +2503,7 @@ FORTH.</line>
 <sonnet id="96">
 <sonnetnum>96</sonnetnum>
 <quatrain>
-<line globalnumber="1332" number="1" order="first"><dropcap>S</dropcap>ome &#383;ay thy fault is youth, &#383;ome wantone&#383;&#383;e,</line>
+<line globalnumber="1332" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>ome &#383;ay thy fault is youth, &#383;ome wantone&#383;&#383;e,</line>
 <line globalnumber="1333" number="2" order="second">Some &#383;ay thy grace is youth and gentle &#383;port,</line>
 <line globalnumber="1334" number="3">Both grace and faults are lou&#8217;d of more and le&#383;&#383;e:</line>
 <line globalnumber="1335" number="4">Thou mak&#383;t faults graces, that to thee re&#383;ort:</line>
@@ -2526,7 +2529,7 @@ FORTH.</line>
 <sonnet id="97">
 <sonnetnum>97</sonnetnum>
 <quatrain>
-<line globalnumber="1346" number="1" order="first"><dropcap>H</dropcap>ow like a Winter hath my ab&#383;ence beene</line>
+<line globalnumber="1346" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow like a Winter hath my ab&#383;ence beene</line>
 <line globalnumber="1347" number="2" order="second">From thee, the plea&#383;ure of the fleeting yeare?</line>
 <line globalnumber="1348" number="3">What freezings have I felt, what darke daies &#383;eene?</line>
 <line globalnumber="1349" number="4">What old Decembers barene&#383;&#383;e euery where?</line>
@@ -2552,10 +2555,10 @@ FORTH.</line>
 <sonnet id="98">
 <sonnetnum>98</sonnetnum>
 <quatrain>
-<line globalnumber="1360" number="1" order="first"><dropcap>F</dropcap>rom you haue I beene ab&#383;ent in the &#383;pring,</line>
+<line globalnumber="1360" number="1" order="first"><dropcap type="regular" size="small">F</dropcap>rom you haue I beene ab&#383;ent in the &#383;pring,</line>
 <line globalnumber="1361" number="2" order="second">When proud pide Aprill (dre&#383;t in all his trim)</line>
 <line globalnumber="1362" number="3">Hath put a &#383;pirit of youth in euery thing:</line>
-<line globalnumber="1363" number="4">That heauie <italic>Saturne</italic> laught and leapt with him.</line>
+<line globalnumber="1363" number="4">That heauie <emph rend="italic">Saturne</emph> laught and leapt with him.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1364" number="5">Yet nor the laies of birds, nor the &#383;weet &#383;mell</line>
@@ -2578,7 +2581,7 @@ FORTH.</line>
 <sonnet id="99">
 <sonnetnum>99</sonnetnum>
 <quatrain>
-<line globalnumber="1374" number="1" order="first"><dropcap>T</dropcap>he forward violet thus did I chide,</line>
+<line globalnumber="1374" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>he forward violet thus did I chide,</line>
 <line globalnumber="1375" number="2" order="second">Sweet theefe whence did&#383;t thou &#383;teale thy &#383;weet that &#383;mels,</line>
 <line globalnumber="1376" number="3">If not from my loues breath, the purple pride,</line>
 <line globalnumber="1377" number="4">Which on thy &#383;oft cheeke for complexion dwells?</line>
@@ -2605,10 +2608,10 @@ FORTH.</line>
 <sonnet id="100">
 <sonnetnum>100</sonnetnum>
 <quatrain>
-<line globalnumber="1389" number="1" order="first"><dropcap>VV</dropcap>here art thou Mu&#383;e, that thou forget&#383;t &#383;o long,</line>
+<line globalnumber="1389" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>here art thou Mu&#383;e, that thou forget&#383;t &#383;o long,</line>
 <line globalnumber="1390" number="2" order="second">To &#383;peake of that which giues thee all thy might?</line>
 <line globalnumber="1391" number="3">Spend&#383;t thou thy furie on &#383;ome worthle&#383;&#383;e &#383;onge,</line>
-<line globalnumber="1392" number="4">Darkning thy powre to lend ba&#383;e &#383;ubie&#392;ts light.</line>
+<line globalnumber="1392" number="4">Darkning thy powre to lend ba&#383;e &#383;ubie&#57348;s light.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1393" number="5">Returne forgetfull Mu&#383;e, and &#383;traight redeeme,</line>
@@ -2619,7 +2622,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1397" number="9">Ri&#383;e re&#383;ty Mu&#383;e, my loues &#383;weet face &#383;uruay,</line>
 <line globalnumber="1398" number="10">If time haue any wrincle grauen there,</line>
-<line globalnumber="1399" number="11">If any, be a <italic>Satire</italic> to decay,</line>
+<line globalnumber="1399" number="11">If any, be a <emph rend="italic">Satire</emph> to decay,</line>
 <line globalnumber="1400" number="12">And make times &#383;poiles di&#383;pi&#383;ed euery where.</line>
 </quatrain>
 <couplet>
@@ -2632,8 +2635,8 @@ FORTH.</line>
 <sonnet id="101">
 <sonnetnum>101</sonnetnum>
 <quatrain>
-<line globalnumber="1403" number="1" order="first"><dropcap>O</dropcap>h truant Mu&#383;e what &#383;halbe thy amends,</line>
-<line globalnumber="1404" number="2" order="second">For thy negle&#392;t of truth in beauty di&#8217;d?</line>
+<line globalnumber="1403" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>h truant Mu&#383;e what &#383;halbe thy amends,</line>
+<line globalnumber="1404" number="2" order="second">For thy negle&#57348; of truth in beauty di&#8217;d?</line>
 <line globalnumber="1405" number="3">Both truth and beauty on my loue depends:</line>
 <line globalnumber="1406" number="4">So do&#383;t thou too, and therein dignifi&#8217;d:</line>
 </quatrain>
@@ -2658,7 +2661,7 @@ FORTH.</line>
 <sonnet id="102">
 <sonnetnum>102</sonnetnum>
 <quatrain>
-<line globalnumber="1417" number="1" order="first"><dropcap>M</dropcap>y loue is &#383;trengthned though more weake in &#383;eeming,</line>
+<line globalnumber="1417" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>y loue is &#383;trengthned though more weake in &#383;eeming,</line>
 <line globalnumber="1418" number="2" order="second">I loue not le&#383;&#383;e, thogh le&#383;&#383;e the &#383;how appeare,</line>
 <line globalnumber="1419" number="3">That loue is marchandiz&#8217;d, who&#383;e ritch e&#383;teeming,</line>
 <line globalnumber="1420" number="4">The owners tongue doth publi&#383;h euery where.</line>
@@ -2666,7 +2669,7 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1421" number="5">Our loue was new, and then but in the &#383;pring,</line>
 <line globalnumber="1422" number="6">When I was wont to greet it with my laies,</line>
-<line globalnumber="1423" number="7">As <italic>Philomell</italic> in &#383;ummers front doth &#383;inge,</line>
+<line globalnumber="1423" number="7">As <emph rend="italic">Philomell</emph> in &#383;ummers front doth &#383;inge,</line>
 <line globalnumber="1424" number="8">And &#383;tops his pipe in growth of riper daies:</line>
 </quatrain>
 <quatrain>
@@ -2684,7 +2687,7 @@ FORTH.</line>
 <sonnet id="103">
 <sonnetnum>103</sonnetnum>
 <quatrain>
-<line globalnumber="1431" number="1" order="first"><dropcap>A</dropcap>lack what pouerty my Mu&#383;e brings forth,</line>
+<line globalnumber="1431" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>lack what pouerty my Mu&#383;e brings forth,</line>
 <line globalnumber="1432" number="2" order="second">That hauing &#383;uch a skope to &#383;how her pride,</line>
 <line globalnumber="1433" number="3">The argument all bare is of more worth</line>
 <line globalnumber="1434" number="4">Then when it hath my added prai&#383;e be&#383;ide.</line>
@@ -2697,7 +2700,7 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1439" number="9">Were it not &#383;infull then &#383;triuing to mend,</line>
-<line globalnumber="1440" number="10">To marre the &#383;ubje&#392;t that before was well,</line>
+<line globalnumber="1440" number="10">To marre the &#383;ubje&#57348; that before was well,</line>
 <line globalnumber="1441" number="11">For to no other pa&#383;&#383;e my ver&#383;es tend,</line>
 <line globalnumber="1442" number="12">Then of your graces and your gifts to tell.</line>
 </quatrain>
@@ -2710,13 +2713,13 @@ FORTH.</line>
 <sonnet id="104">
 <sonnetnum>104</sonnetnum>
 <quatrain>
-<line globalnumber="1445" number="1" order="first"><dropcap>T</dropcap>o me faire friend you neuer can be old,</line>
+<line globalnumber="1445" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>o me faire friend you neuer can be old,</line>
 <line globalnumber="1446" number="2" order="second">For as you were when fir&#383;t your eye I eyde,</line>
 <line globalnumber="1447" number="3">Such &#383;eemes your beautie &#383;till: Three Winters colde,</line>
 <line globalnumber="1448" number="4">Haue from the forre&#383;ts &#383;hooke three &#383;ummers pride,</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1449" number="5">Three beautious &#383;prings to yellow <italic>Autumne</italic> turn&#8217;d,</line>
+<line globalnumber="1449" number="5">Three beautious &#383;prings to yellow <emph rend="italic">Autumne</emph> turn&#8217;d,</line>
 <line globalnumber="1450" number="6">In proce&#383;&#383;e of the &#383;ea&#383;ons haue I &#383;eene,</line>
 <line globalnumber="1451" number="7">Three Aprill perfumes in three hot Iunes burn&#8217;d,</line>
 <line globalnumber="1452" number="8">Since fir&#383;t I &#383;aw you fre&#383;h which yet are greene.</line>
@@ -2736,7 +2739,7 @@ FORTH.</line>
 <sonnet id="105">
 <sonnetnum>105</sonnetnum>
 <quatrain>
-<line globalnumber="1459" number="1" order="first"><dropcap>L</dropcap>et not my loue be cal&#8217;d Idolatrie,</line>
+<line globalnumber="1459" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>et not my loue be cal&#8217;d Idolatrie,</line>
 <line globalnumber="1460" number="2" order="second">Nor my beloued as an Idoll &#383;how,</line>
 <line globalnumber="1461" number="3">Since all alike my &#383;ongs and prai&#383;es be</line>
 <line globalnumber="1462" number="4">To one, of one, &#383;till &#383;uch, and euer &#383;o.</line>
@@ -2762,7 +2765,7 @@ FORTH.</line>
 <sonnet id="106">
 <sonnetnum>106</sonnetnum>
 <quatrain>
-<line globalnumber="1473" number="1" order="first"><dropcap>W</dropcap>hen in the Chronicle of wa&#383;ted time,</line>
+<line globalnumber="1473" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hen in the Chronicle of wa&#383;ted time,</line>
 <line globalnumber="1474" number="2" order="second">I &#383;ee di&#383;criptions of the faire&#383;t wights,</line>
 <line globalnumber="1475" number="3">And beautie making beautifull old rime,</line>
 <line globalnumber="1476" number="4">In prai&#383;e of Ladies dead, and louely Knights,</line>
@@ -2788,7 +2791,7 @@ FORTH.</line>
 <sonnet id="107">
 <sonnetnum>107</sonnetnum>
 <quatrain>
-<line globalnumber="1487" number="1" order="first"><dropcap>N</dropcap>ot mine owne feares, nor the prophetick &#383;oule,</line>
+<line globalnumber="1487" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>ot mine owne feares, nor the prophetick &#383;oule,</line>
 <line globalnumber="1488" number="2" order="second">Of the wide world, dreaming on things to come,</line>
 <line globalnumber="1489" number="3">Can yet the lea&#383;e of my true loue controule,</line>
 <line globalnumber="1490" number="4">Suppo&#383;de as forfeit to a confin&#8217;d doome.</line>
@@ -2814,7 +2817,7 @@ FORTH.</line>
 <sonnet id="108">
 <sonnetnum>108</sonnetnum>
 <quatrain>
-<line globalnumber="1501" number="1" order="first"><dropcap>VV</dropcap>hat&#8217;s in the braine that Inck may chara&#392;ter,</line>
+<line globalnumber="1501" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>hat&#8217;s in the braine that Inck may chara&#57348;er,</line>
 <line globalnumber="1502" number="2" order="second">Which hath not figur&#8217;d to thee my true &#383;pirit?</line>
 <line globalnumber="1503" number="3">What&#8217;s new to &#383;peake, what now to register,</line>
 <line globalnumber="1504" number="4">That may expre&#383;&#383;e my loue, or thy deare merit?</line>
@@ -2840,7 +2843,7 @@ FORTH.</line>
 <sonnet id="109">
 <sonnetnum>109</sonnetnum>
 <quatrain>
-<line globalnumber="1515" number="1" order="first"><dropcap>O</dropcap> neuer &#383;ay that I was fal&#383;e of heart,</line>
+<line globalnumber="1515" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> neuer &#383;ay that I was fal&#383;e of heart,</line>
 <line globalnumber="1516" number="2" order="second">Though ab&#383;ence &#383;eem&#8217;d my flame to quallifie,</line>
 <line globalnumber="1517" number="3">As ea&#383;ie might I from my &#383;elfe depart,</line>
 <line globalnumber="1518" number="4">As from my &#383;oule which in thy bre&#383;t doth lye:</line>
@@ -2866,10 +2869,10 @@ FORTH.</line>
 <sonnet id="110">
 <sonnetnum>110</sonnetnum>
 <quatrain>
-<line globalnumber="1529" number="1" order="first"><dropcap>A</dropcap>las &#8217;tis true, I haue gone here and there,</line>
+<line globalnumber="1529" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>las &#8217;tis true, I haue gone here and there,</line>
 <line globalnumber="1530" number="2" order="second">And made my &#383;elfe a motley to the view,</line>
 <line globalnumber="1531" number="3">Gor&#8217;d mine own thoughts, &#383;old cheap what is mo&#383;t deare,</line>
-<line globalnumber="1532" number="4">Made old offences of affe&#392;tions new.</line>
+<line globalnumber="1532" number="4">Made old offences of affe&#57348;ions new.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1533" number="5">Mo&#383;t true it is, that I haue lookt on truth</line>
@@ -2892,7 +2895,7 @@ FORTH.</line>
 <sonnet id="111">
 <sonnetnum>111</sonnetnum>
 <quatrain>
-<line globalnumber="1543" number="1" order="first"><dropcap>O</dropcap> for my &#383;ake doe you with fortune chide,</line>
+<line globalnumber="1543" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> for my &#383;ake doe you with fortune chide,</line>
 <line globalnumber="1544" number="2" order="second">The guiltie godde&#383;&#383;e of my harmfull deeds,</line>
 <line globalnumber="1545" number="3">That did not better for my life prouide,</line>
 <line globalnumber="1546" number="4">Then publick meanes which publick manners breeds.</line>
@@ -2905,9 +2908,9 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1551" number="9">Whil&#383;t like a willing pacient I will drinke,</line>
-<line globalnumber="1552" number="10">Potions of Ey&#383;ell gain&#383;t my &#383;trong infe&#392;tion,</line>
+<line globalnumber="1552" number="10">Potions of Ey&#383;ell gain&#383;t my &#383;trong infe&#57348;ion,</line>
 <line globalnumber="1553" number="11">No bitterne&#383;&#383;e that I will bitter thinke,</line>
-<line globalnumber="1554" number="12">Nor double pennance to corre&#392;t corre&#392;tion.</line>
+<line globalnumber="1554" number="12">Nor double pennance to corre&#57348; corre&#57348;ion.</line>
 </quatrain>
 <couplet>
 <line globalnumber="1555" number="13">Pittie me then deare friend, and I a&#383;&#383;ure yee,</line>
@@ -2918,7 +2921,7 @@ FORTH.</line>
 <sonnet id="112">
 <sonnetnum>112</sonnetnum>
 <quatrain>
-<line globalnumber="1557" number="1" order="first"><dropcap>Y</dropcap>our loue and pittie doth th&#8217; impre&#383;&#383;ion fill,</line>
+<line globalnumber="1557" number="1" order="first"><dropcap type="regular" size="small">Y</dropcap>our loue and pittie doth th&#8217; impre&#383;&#383;ion fill,</line>
 <line globalnumber="1558" number="2" order="second">Which vulgar &#383;candall &#383;tampt vpon my brow,</line>
 <line globalnumber="1559" number="3">For what care I who calles me well or ill,</line>
 <line globalnumber="1560" number="4">So you ore-greene my bad, my good alow?</line>
@@ -2930,10 +2933,10 @@ FORTH.</line>
 <line globalnumber="1564" number="8">That my &#383;teel&#8217;d &#383;ence or changes right or wrong,</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1565" number="9">In &#383;o profound <italic>Abisme</italic> I throw all care</line>
+<line globalnumber="1565" number="9">In &#383;o profound <emph rend="italic">Abisme</emph> I throw all care</line>
 <line globalnumber="1566" number="10">Of others voyces, that my Adders &#383;ence,</line>
 <line globalnumber="1567" number="11">To cryttick and to flatterer &#383;topped are.</line>
-<line globalnumber="1568" number="12">Marke how with my negle&#392;t I doe di&#383;pence.</line>
+<line globalnumber="1568" number="12">Marke how with my negle&#57348; I doe di&#383;pence.</line>
 </quatrain>
 <couplet>
 <line globalnumber="1569" number="13">You are &#383;o &#383;trongly in my purpo&#383;e bred,</line>
@@ -2944,15 +2947,15 @@ FORTH.</line>
 <sonnet id="113">
 <sonnetnum>113</sonnetnum>
 <quatrain>
-<line globalnumber="1571" number="1" order="first"><dropcap>S</dropcap>ince I left you, mine eye is in my minde,</line>
+<line globalnumber="1571" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>ince I left you, mine eye is in my minde,</line>
 <line globalnumber="1572" number="2" order="second">And that which gouernes me to goe about,</line>
-<line globalnumber="1573" number="3">Doth part his fun&#392;tion, and is partly blind,</line>
-<line globalnumber="1574" number="4">Seemes &#383;eeing, but effe&#392;tually is out:</line>
+<line globalnumber="1573" number="3">Doth part his fun&#57348;ion, and is partly blind,</line>
+<line globalnumber="1574" number="4">Seemes &#383;eeing, but effe&#57348;ually is out:</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1575" number="5">For it no forme deliuers to the heart</line>
 <line globalnumber="1576" number="6">Of bird, of flowre, or &#383;hape which it doth lack,</line>
-<line globalnumber="1577" number="7">Of his quick obie&#392;ts hath the minde no part,</line>
+<line globalnumber="1577" number="7">Of his quick obie&#57348;s hath the minde no part,</line>
 <line globalnumber="1578" number="8">Nor his owne vi&#383;ion houlds what it doth catch:</line>
 </quatrain>
 <quatrain>
@@ -2970,16 +2973,16 @@ FORTH.</line>
 <sonnet id="114">
 <sonnetnum>114</sonnetnum>
 <quatrain>
-<line globalnumber="1585" number="1" order="first"><dropcap>O</dropcap>r whether doth my minde being crown&#8217;d with you</line>
+<line globalnumber="1585" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>r whether doth my minde being crown&#8217;d with you</line>
 <line globalnumber="1586" number="2" order="second">Drinke vp the monarks plague this flattery?</line>
 <line globalnumber="1587" number="3">Or whether &#383;hall I &#383;ay mine eie &#383;aith true,</line>
-<line globalnumber="1588" number="4">And that your loue taught it this <italic>Alcumie?</italic></line>
+<line globalnumber="1588" number="4">And that your loue taught it this <emph rend="italic">Alcumie?</emph></line>
 </quatrain>
 <quatrain>
 <line globalnumber="1589" number="5">To make of mon&#383;ters, and things indige&#383;t,</line>
 <line globalnumber="1590" number="6">Such cherubines as your &#383;weet &#383;elfe re&#383;emble,</line>
-<line globalnumber="1591" number="7">Creating euery bad a perfe&#392;t be&#383;t</line>
-<line globalnumber="1592" number="8">As fa&#383;t as obie&#392;ts to his beames a&#383;&#383;emble:</line>
+<line globalnumber="1591" number="7">Creating euery bad a perfe&#57348; be&#383;t</line>
+<line globalnumber="1592" number="8">As fa&#383;t as obie&#57348;s to his beames a&#383;&#383;emble:</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1593" number="9">Oh tis the fir&#383;t, tis flatry in my &#383;eeing,</line>
@@ -2996,7 +2999,7 @@ FORTH.</line>
 <sonnet id="115">
 <sonnetnum>115</sonnetnum>
 <quatrain>
-<line globalnumber="1599" number="1" order="first"><dropcap>T</dropcap>ho&#383;e lines that I before haue writ doe lie,</line>
+<line globalnumber="1599" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ho&#383;e lines that I before haue writ doe lie,</line>
 <line globalnumber="1600" number="2" order="second">Euen tho&#383;e that &#383;aid I could not loue you deerer,</line>
 <line globalnumber="1601" number="3">Yet then my iudgement knew no rea&#383;on why,</line>
 <line globalnumber="1602" number="4">My mo&#383;t full flame &#383;hould afterwards burne cleerer.</line>
@@ -3022,7 +3025,7 @@ FORTH.</line>
 <sonnet id="116">
 <sonnetnum>116</sonnetnum>
 <quatrain>
-<line globalnumber="1613" number="1" order="first"><dropcap>L</dropcap>et me not to the marriage of true mindes</line>
+<line globalnumber="1613" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>et me not to the marriage of true mindes</line>
 <line globalnumber="1614" number="2" order="second">Admit impediments, loue is not loue</line>
 <line globalnumber="1615" number="3">Which alters when it alteration findes,</line>
 <line globalnumber="1616" number="4">Or bends with the remouer to remoue.</line>
@@ -3048,7 +3051,7 @@ FORTH.</line>
 <sonnet id="117">
 <sonnetnum>117</sonnetnum>
 <quatrain>
-<line globalnumber="1627" number="1" order="first"><dropcap>A</dropcap>ccu&#383;e me thus, that I haue &#383;canted all,</line>
+<line globalnumber="1627" number="1" order="first"><dropcap type="regular" size="small">A</dropcap>ccu&#383;e me thus, that I haue &#383;canted all,</line>
 <line globalnumber="1628" number="2" order="second">Wherein I &#383;hould your great de&#383;erts repay,</line>
 <line globalnumber="1629" number="3">Forgot vpon your deare&#383;t loue to call,</line>
 <line globalnumber="1630" number="4">Whereto al bonds do tie me day by day,</line>
@@ -3074,7 +3077,7 @@ FORTH.</line>
 <sonnet id="118">
 <sonnetnum>118</sonnetnum>
 <quatrain>
-<line globalnumber="1641" number="1" order="first"><dropcap>L</dropcap>ike as to make our appetites more keene</line>
+<line globalnumber="1641" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>ike as to make our appetites more keene</line>
 <line globalnumber="1642" number="2" order="second">With eager compounds we our pallat vrge,</line>
 <line globalnumber="1643" number="3">As to preuent our malladies vn&#383;eene,</line>
 <line globalnumber="1644" number="4">We &#383;icken to &#383;hun &#383;ickne&#383;&#383;e when we purge.</line>
@@ -3100,7 +3103,7 @@ FORTH.</line>
 <sonnet id="119">
 <sonnetnum>119</sonnetnum>
 <quatrain>
-<line globalnumber="1655" number="1" order="first"><dropcap>W</dropcap>hat potions haue I drunke of <italic>Syren</italic> teares</line>
+<line globalnumber="1655" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hat potions haue I drunke of <emph rend="italic">Syren</emph> teares</line>
 <line globalnumber="1656" number="2" order="second">Di&#383;til&#8217;d from Lymbecks foule as hell within,</line>
 <line globalnumber="1657" number="3">Applying feares to hopes, and hopes to feares,</line>
 <line globalnumber="1658" number="4">Still loo&#383;ing when I &#383;aw my &#383;elfe to win?</line>
@@ -3109,7 +3112,7 @@ FORTH.</line>
 <line globalnumber="1659" number="5">What wretched errors hath my heart committed,</line>
 <line globalnumber="1660" number="6">Whil&#383;t it hath thought it &#383;elfe &#383;o ble&#383;&#383;ed neuer?</line>
 <line globalnumber="1661" number="7">How haue mine eies out of their Spheares bene fitted</line>
-<line globalnumber="1662" number="8">In the di&#383;tra&#392;tion of this madding feuer?</line>
+<line globalnumber="1662" number="8">In the di&#383;tra&#57348;ion of this madding feuer?</line>
 </quatrain>
 <quatrain>
 <line globalnumber="1663" number="9">O benefit of ill, now I find true</line>
@@ -3126,7 +3129,7 @@ FORTH.</line>
 <sonnet id="120">
 <sonnetnum>120</sonnetnum>
 <quatrain>
-<line globalnumber="1669" number="1" order="first"><dropcap>T</dropcap>hat you were once vnkind be-friends mee now,</line>
+<line globalnumber="1669" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hat you were once vnkind be-friends mee now,</line>
 <line globalnumber="1670" number="2" order="second">And for that &#383;orrow, which I then didde feele,</line>
 <line globalnumber="1671" number="3">Needes mu&#383;t I vnder my tran&#383;gre&#383;&#383;ion bow,</line>
 <line globalnumber="1672" number="4">Vnle&#383;&#383;e my Nerues were bra&#383;&#383;e or hammered &#383;teele.</line>
@@ -3152,7 +3155,7 @@ FORTH.</line>
 <sonnet id="121">
 <sonnetnum>121</sonnetnum>
 <quatrain>
-<line globalnumber="1683" number="1" order="first"><dropcap>T</dropcap>is better to be vile than vile e&#383;teemed,</line>
+<line globalnumber="1683" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>is better to be vile than vile e&#383;teemed,</line>
 <line globalnumber="1684" number="2" order="second">When not to be, receiues reproach of being,</line>
 <line globalnumber="1685" number="3">And the iu&#383;t plea&#383;ure lo&#383;t, which is &#383;o deemed,</line>
 <line globalnumber="1686" number="4">Not by our feeling, but by others &#383;eeing.</line>
@@ -3178,8 +3181,8 @@ FORTH.</line>
 <sonnet id="122">
 <sonnetnum>122</sonnetnum>
 <quatrain>
-<line globalnumber="1697" number="1" order="first"><dropcap>T</dropcap>hy guift, thy tables, are within my braine</line>
-<line globalnumber="1698" number="2" order="second">Full chara&#392;terd with la&#383;ting memory,</line>
+<line globalnumber="1697" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hy guift, thy tables, are within my braine</line>
+<line globalnumber="1698" number="2" order="second">Full chara&#57348;erd with la&#383;ting memory,</line>
 <line globalnumber="1699" number="3">Which &#383;hall aboue that idle rancke remaine</line>
 <line globalnumber="1700" number="4">Beyond all date euen to eternity.</line>
 </quatrain>
@@ -3204,7 +3207,7 @@ FORTH.</line>
 <sonnet id="123">
 <sonnetnum>123</sonnetnum>
 <quatrain>
-<line globalnumber="1711" number="1" order="first"><dropcap>N</dropcap>o! Time, thou &#383;halt not bo&#383;t that I doe change,</line>
+<line globalnumber="1711" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>o! Time, thou &#383;halt not bo&#383;t that I doe change,</line>
 <line globalnumber="1712" number="2" order="second">Thy pyramyds buylt vp with newer might</line>
 <line globalnumber="1713" number="3">To me are nothing nouell, nothing &#383;trange,</line>
 <line globalnumber="1714" number="4">They are but dre&#383;&#383;ings of a former &#383;ight:</line>
@@ -3230,9 +3233,9 @@ FORTH.</line>
 <sonnet id="124">
 <sonnetnum>124</sonnetnum>
 <quatrain>
-<line globalnumber="1725" number="1" order="first"><dropcap>Y</dropcap>f my deare loue were but the childe of &#383;tate,</line>
+<line globalnumber="1725" number="1" order="first"><dropcap type="regular" size="small">Y</dropcap>f my deare loue were but the childe of &#383;tate,</line>
 <line globalnumber="1726" number="2" order="second">It might for fortunes ba&#383;terd be vnfathered,</line>
-<line globalnumber="1727" number="3">As &#383;ubie&#392;t to times loue, or to times hate,</line>
+<line globalnumber="1727" number="3">As &#383;ubie&#57348; to times loue, or to times hate,</line>
 <line globalnumber="1728" number="4">Weeds among weeds, or flowers with flowers gatherd.</line>
 </quatrain>
 <quatrain>
@@ -3242,7 +3245,7 @@ FORTH.</line>
 <line globalnumber="1732" number="8">Whereto th&#8217; inuiting time our fa&#383;hion calls:</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1733" number="9">It feares not policy that <italic>Heriticke,</italic></line>
+<line globalnumber="1733" number="9">It feares not policy that <emph rend="italic">Heriticke,</emph></line>
 <line globalnumber="1734" number="10">Which workes on lea&#383;es of &#383;hort numbred howers,</line>
 <line globalnumber="1735" number="11">But all alone &#383;tands hugely pollitick,</line>
 <line globalnumber="1736" number="12">That it nor growes with heat, nor drownes with &#383;howres,</line>
@@ -3256,7 +3259,7 @@ FORTH.</line>
 <sonnet id="125">
 <sonnetnum>125</sonnetnum>
 <quatrain>
-<line globalnumber="1739" number="1" order="first"><dropcap>VV</dropcap>ere&#8217;t ought to me I bore the canopy,</line>
+<line globalnumber="1739" number="1" order="first"><dropcap type="regular" size="small">VV</dropcap>ere&#8217;t ought to me I bore the canopy,</line>
 <line globalnumber="1740" number="2" order="second">With my extern the outward honoring,</line>
 <line globalnumber="1741" number="3">Or layd great ba&#383;es for eternity,</line>
 <line globalnumber="1742" number="4">Which proues more &#383;hort then wa&#383;t or ruining?</line>
@@ -3274,7 +3277,7 @@ FORTH.</line>
 <line globalnumber="1750" number="12">But mutuall render onely me for thee.</line>
 </quatrain>
 <couplet>
-<line globalnumber="1751" number="13">Hence, thou &#383;ubbornd <italic>Informer,</italic> a trew &#383;oule</line>
+<line globalnumber="1751" number="13">Hence, thou &#383;ubbornd <emph rend="italic">Informer,</emph> a trew &#383;oule</line>
 <line globalnumber="1752" number="14">When mo&#383;t impeacht, &#383;tands lea&#383;t in thy controule.</line>
 </couplet>
 </sonnet>
@@ -3282,7 +3285,7 @@ FORTH.</line>
 <sonnet id="126">
 <sonnetnum>126</sonnetnum>
 <quatrain>
-<line globalnumber="1753" number="1" order="first"><dropcap>O</dropcap> thou my louely Boy who in thy power,</line>
+<line globalnumber="1753" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> thou my louely Boy who in thy power,</line>
 <line globalnumber="1754" number="2" order="second">Doe&#383;t hould times fickle gla&#383;&#383;e, his &#383;ickle, hower:</line>
 <line globalnumber="1755" number="3">Who ha&#383;t by wayning growne, and therein &#383;hou&#8217;&#383;t,</line>
 <line globalnumber="1756" number="4">Thy louers withering, as thy &#383;weet &#383;elfe grow&#8217;&#383;t.</line>
@@ -3296,19 +3299,19 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1761" number="9">Yet feare her O thou minnion of her plea&#383;ure,</line>
 <line globalnumber="1762" number="10">She may detaine, but not &#383;till keepe her tre&#383;ure!</line>
-<line globalnumber="1763" number="11">Her <italic>Audite</italic> (though delayd) an&#383;wer&#8217;d mu&#383;t be,</line>
-<line globalnumber="1764" number="12">And her <italic>Quietus</italic> is to render thee.</line>
+<line globalnumber="1763" number="11">Her <emph rend="italic">Audite</emph> (though delayd) an&#383;wer&#8217;d mu&#383;t be,</line>
+<line globalnumber="1764" number="12">And her <emph rend="italic">Quietus</emph> is to render thee.</line>
 </quatrain>
 <couplet>
-<line globalnumber="1765" number="13">(<missing/>)</line>
-<line globalnumber="1766" number="14">(<missing/>)</line>
+<line globalnumber="1765" number="13"><missing/></line>
+<line globalnumber="1766" number="14"><missing/></line>
 </couplet>
 </sonnet>
 
 <sonnet id="127">
 <sonnetnum>127</sonnetnum>
 <quatrain>
-<line globalnumber="1767" number="1" order="first"><dropcap>I</dropcap>n the ould age blacke was not counted faire,</line>
+<line globalnumber="1767" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>n the ould age blacke was not counted faire,</line>
 <line globalnumber="1768" number="2" order="second">Or if it weare it bore not beauties name:</line>
 <line globalnumber="1769" number="3">But now is blacke beauties &#383;ucce&#383;&#383;iue heire,</line>
 <line globalnumber="1770" number="4">And Beautie &#383;landerd with a ba&#383;tard &#383;hame,</line>
@@ -3334,7 +3337,7 @@ FORTH.</line>
 <sonnet id="128">
 <sonnetnum>128</sonnetnum>
 <quatrain>
-<line globalnumber="1781" number="1" order="first"><dropcap>H</dropcap>ow oft when thou my mu&#383;ike mu&#383;ike play&#383;t,</line>
+<line globalnumber="1781" number="1" order="first"><dropcap type="regular" size="small">H</dropcap>ow oft when thou my mu&#383;ike mu&#383;ike play&#383;t,</line>
 <line globalnumber="1782" number="2" order="second">Vpon that ble&#383;&#383;ed wood who&#383;e motion &#383;ounds</line>
 <line globalnumber="1783" number="3">With thy &#383;weet fingers when thou gently &#383;way&#383;t,</line>
 <line globalnumber="1784" number="4">The wiry concord that mine eare confounds,</line>
@@ -3360,8 +3363,8 @@ FORTH.</line>
 <sonnet id="129">
 <sonnetnum>129</sonnetnum>
 <quatrain>
-<line globalnumber="1795" number="1" order="first"><dropcap>T</dropcap>h&#8217; expence of Spirit in a wa&#383;te of &#383;hame</line>
-<line globalnumber="1796" number="2" order="second">Is lu&#383;t in a&#392;tion, and till a&#392;tion, lu&#383;t</line>
+<line globalnumber="1795" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>h&#8217; expence of Spirit in a wa&#383;te of &#383;hame</line>
+<line globalnumber="1796" number="2" order="second">Is lu&#383;t in a&#57348;ion, and till a&#57348;ion, lu&#383;t</line>
 <line globalnumber="1797" number="3">Is periurd, murdrous, blouddy full of blame,</line>
 <line globalnumber="1798" number="4">Sauage, extreame, rude, cruell, not to tru&#383;t,</line>
 </quatrain>
@@ -3386,7 +3389,7 @@ FORTH.</line>
 <sonnet id="130">
 <sonnetnum>130</sonnetnum>
 <quatrain>
-<line globalnumber="1809" number="1" order="first"><dropcap>M</dropcap>y Mi&#383;tres eyes are nothing like the Sunne,</line>
+<line globalnumber="1809" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>y Mi&#383;tres eyes are nothing like the Sunne,</line>
 <line globalnumber="1810" number="2" order="second">Currall is farre more red, then her lips red,</line>
 <line globalnumber="1811" number="3">If &#383;now be white, why then her bre&#383;ts are dun:</line>
 <line globalnumber="1812" number="4">If haires be wiers, black wiers grow on her head:</line>
@@ -3412,7 +3415,7 @@ FORTH.</line>
 <sonnet id="131">
 <sonnetnum>131</sonnetnum>
 <quatrain>
-<line globalnumber="1823" number="1" order="first"><dropcap>T</dropcap>hou art as tiranous, &#383;o as thou art,</line>
+<line globalnumber="1823" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hou art as tiranous, &#383;o as thou art,</line>
 <line globalnumber="1824" number="2" order="second">As tho&#383;e who&#383;e beauties proudly make them cruell;</line>
 <line globalnumber="1825" number="3">For well thou know&#8217;&#383;t to my deare doting hart</line>
 <line globalnumber="1826" number="4">Thou art the faire&#383;t and mo&#383;t precious Iewell.</line>
@@ -3438,7 +3441,7 @@ FORTH.</line>
 <sonnet id="132">
 <sonnetnum>132</sonnetnum>
 <quatrain>
-<line globalnumber="1837" number="1" order="first"><dropcap>T</dropcap>hine eies I loue, and they as pittying me,</line>
+<line globalnumber="1837" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hine eies I loue, and they as pittying me,</line>
 <line globalnumber="1838" number="2" order="second">Knowing thy heart torment me with di&#383;daine,</line>
 <line globalnumber="1839" number="3">Haue put on black, and louing mourners bee,</line>
 <line globalnumber="1840" number="4">Looking with pretty ruth vpon my paine.</line>
@@ -3464,7 +3467,7 @@ FORTH.</line>
 <sonnet id="133">
 <sonnetnum>133</sonnetnum>
 <quatrain>
-<line globalnumber="1851" number="1" order="first"><dropcap>B</dropcap>e&#383;hrew that heart that makes my heart to groane</line>
+<line globalnumber="1851" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>e&#383;hrew that heart that makes my heart to groane</line>
 <line globalnumber="1852" number="2" order="second">For that deepe wound it giues my friend and me;</line>
 <line globalnumber="1853" number="3">I&#8217;&#383;t not ynough to torture me alone,</line>
 <line globalnumber="1854" number="4">But &#383;laue to &#383;lauery my &#383;weet&#8217;&#383;t friend mu&#383;t be.</line>
@@ -3490,7 +3493,7 @@ FORTH.</line>
 <sonnet id="134">
 <sonnetnum>134</sonnetnum>
 <quatrain>
-<line globalnumber="1865" number="1" order="first"><dropcap>S</dropcap>o now I haue confe&#383;t that he is thine,</line>
+<line globalnumber="1865" number="1" order="first"><dropcap type="regular" size="small">S</dropcap>o now I haue confe&#383;t that he is thine,</line>
 <line globalnumber="1866" number="2" order="second">And I my &#383;elfe am mortgag&#8217;d to thy will,</line>
 <line globalnumber="1867" number="3">My &#383;elfe Ile forfeit, &#383;o that other mine,</line>
 <line globalnumber="1868" number="4">Thou wilt re&#383;tore to be my comfort &#383;till:</line>
@@ -3516,8 +3519,8 @@ FORTH.</line>
 <sonnet id="135">
 <sonnetnum>135</sonnetnum>
 <quatrain>
-<line globalnumber="1879" number="1" order="first"><dropcap>W</dropcap>ho euer hath her wi&#383;h, thou ha&#383;t thy <italic>Will</italic>,</line>
-<line globalnumber="1880" number="2" order="second">And <italic>Will</italic> too boote, and <italic>Will</italic> in ouer-plus;</line>
+<line globalnumber="1879" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>ho euer hath her wi&#383;h, thou ha&#383;t thy <emph rend="italic">Will</emph>,</line>
+<line globalnumber="1880" number="2" order="second">And <emph rend="italic">Will</emph> too boote, and <emph rend="italic">Will</emph> in ouer-plus;</line>
 <line globalnumber="1881" number="3">More then enough am I that vexe thee &#383;till,</line>
 <line globalnumber="1882" number="4">To thy &#383;weet will making addition thus.</line>
 </quatrain>
@@ -3530,25 +3533,25 @@ FORTH.</line>
 <quatrain>
 <line globalnumber="1887" number="9">The &#383;ea all water, yet receiues raine &#383;till,</line>
 <line globalnumber="1888" number="10">And in aboundance addeth to his &#383;tore,</line>
-<line globalnumber="1889" number="11">So thou beeing rich in <italic>Will</italic> adde to thy <italic>Will,</italic></line>
-<line globalnumber="1890" number="12">One will of mine to make thy large <italic>Will</italic> more.</line>
+<line globalnumber="1889" number="11">So thou beeing rich in <emph rend="italic">Will</emph> adde to thy <emph rend="italic">Will,</emph></line>
+<line globalnumber="1890" number="12">One will of mine to make thy large <emph rend="italic">Will</emph> more.</line>
 </quatrain>
 <couplet>
 <line globalnumber="1891" number="13">Let no vnkinde, no faire be&#383;eechers kill,</line>
-<line globalnumber="1892" number="14">Thinke all but one, and me in that one <italic>Will.</italic></line>
+<line globalnumber="1892" number="14">Thinke all but one, and me in that one <emph rend="italic">Will.</emph></line>
 </couplet>
 </sonnet>
 
 <sonnet id="136">
 <sonnetnum>136</sonnetnum>
 <quatrain>
-<line globalnumber="1893" number="1" order="first"><dropcap>I</dropcap>f thy &#383;oule check thee that I come &#383;o neere,</line>
-<line globalnumber="1894" number="2" order="second">Sweare to thy blind &#383;oule that I was thy <italic>Will,</italic></line>
+<line globalnumber="1893" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>f thy &#383;oule check thee that I come &#383;o neere,</line>
+<line globalnumber="1894" number="2" order="second">Sweare to thy blind &#383;oule that I was thy <emph rend="italic">Will,</emph></line>
 <line globalnumber="1895" number="3">And will thy &#383;oule knowes is admitted there,</line>
 <line globalnumber="1896" number="4">Thus farre for loue, my loue-&#383;ute &#383;weet fullfill.</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1897" number="5"><italic>Will,</italic> will fulfill the trea&#383;ure of thy loue,</line>
+<line globalnumber="1897" number="5"><emph rend="italic">Will,</emph> will fulfill the trea&#383;ure of thy loue,</line>
 <line globalnumber="1898" number="6">I fill it full with wils, and my will one.</line>
 <line globalnumber="1899" number="7">In things of great receit with ea&#383;e we prooue,</line>
 <line globalnumber="1900" number="8">Among a number one is reckon&#8217;d none.</line>
@@ -3561,14 +3564,14 @@ FORTH.</line>
 </quatrain>
 <couplet>
 <line globalnumber="1905" number="13">Make but my name thy loue, and loue that &#383;till,</line>
-<line globalnumber="1906" number="14">And then thou loue&#383;t me for my name is <italic>Will.</italic></line>
+<line globalnumber="1906" number="14">And then thou loue&#383;t me for my name is <emph rend="italic">Will.</emph></line>
 </couplet>
 </sonnet>
 
 <sonnet id="137">
 <sonnetnum>137</sonnetnum>
 <quatrain>
-<line globalnumber="1907" number="1" order="first"><dropcap>T</dropcap>hou blinde foole loue, what doo&#383;t thou to mine eyes,</line>
+<line globalnumber="1907" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>hou blinde foole loue, what doo&#383;t thou to mine eyes,</line>
 <line globalnumber="1908" number="2" order="second">That they behold and &#383;ee not what they &#383;ee:</line>
 <line globalnumber="1909" number="3">They know what beautie is, &#383;ee where it lyes,</line>
 <line globalnumber="1910" number="4">Yet what the be&#383;t is, take the wor&#383;t to be.</line>
@@ -3594,7 +3597,7 @@ FORTH.</line>
 <sonnet id="138">
 <sonnetnum>138</sonnetnum>
 <quatrain>
-<line globalnumber="1921" number="1" order="first"><dropcap>W</dropcap>hen my loue &#383;weares that &#383;he is made of truth,</line>
+<line globalnumber="1921" number="1" order="first"><dropcap type="regular" size="small">W</dropcap>hen my loue &#383;weares that &#383;he is made of truth,</line>
 <line globalnumber="1922" number="2" order="second">I do beleeue her though I know &#383;he lyes,</line>
 <line globalnumber="1923" number="3">That &#383;he might thinke me &#383;ome vntuterd youth,</line>
 <line globalnumber="1924" number="4">Vnlearned in the worlds fal&#383;e &#383;ubtilties.</line>
@@ -3620,7 +3623,7 @@ FORTH.</line>
 <sonnet id="139">
 <sonnetnum>139</sonnetnum>
 <quatrain>
-<line globalnumber="1935" number="1" order="first"><dropcap>O</dropcap> call not me to iu&#383;tifie the wrong,</line>
+<line globalnumber="1935" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> call not me to iu&#383;tifie the wrong,</line>
 <line globalnumber="1936" number="2" order="second">That thy vnkindne&#383;&#383;e layes vpon my heart,</line>
 <line globalnumber="1937" number="3">Wound me not with thine eye but with thy toung,</line>
 <line globalnumber="1938" number="4">V&#383;e power with power, and &#383;lay me not by Art,</line>
@@ -3646,7 +3649,7 @@ FORTH.</line>
 <sonnet id="140">
 <sonnetnum>140</sonnetnum>
 <quatrain>
-<line globalnumber="1949" number="1" order="first"><dropcap>B</dropcap>e wi&#383;e as thou art cruell, do not pre&#383;&#383;e</line>
+<line globalnumber="1949" number="1" order="first"><dropcap type="regular" size="small">B</dropcap>e wi&#383;e as thou art cruell, do not pre&#383;&#383;e</line>
 <line globalnumber="1950" number="2" order="second">My toung tide patience with too much di&#383;daine,</line>
 <line globalnumber="1951" number="3">Lea&#383;t &#383;orrow lend me words and words expre&#383;&#383;e,</line>
 <line globalnumber="1952" number="4">The manner of my pittie wanting paine.</line>
@@ -3672,7 +3675,7 @@ FORTH.</line>
 <sonnet id="141">
 <sonnetnum>141</sonnetnum>
 <quatrain>
-<line globalnumber="1963" number="1" order="first"><dropcap>I</dropcap>n faith I doe not loue thee with mine eyes,</line>
+<line globalnumber="1963" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>n faith I doe not loue thee with mine eyes,</line>
 <line globalnumber="1964" number="2" order="second">For they in thee a thou&#383;and errors note,</line>
 <line globalnumber="1965" number="3">But &#8217;tis my heart that loues what they di&#383;pi&#383;e,</line>
 <line globalnumber="1966" number="4">Who in di&#383;pight of view is plea&#383;d to dote.</line>
@@ -3698,7 +3701,7 @@ FORTH.</line>
 <sonnet id="142">
 <sonnetnum>142</sonnetnum>
 <quatrain>
-<line globalnumber="1977" number="1" order="first"><dropcap>L</dropcap>oue is my &#383;inne, and thy deare vertue hate,</line>
+<line globalnumber="1977" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>oue is my &#383;inne, and thy deare vertue hate,</line>
 <line globalnumber="1978" number="2" order="second">Hate of my &#383;inne, grounded on &#383;infull louing,</line>
 <line globalnumber="1979" number="3">O but with mine, compare thou thine owne &#383;tate,</line>
 <line globalnumber="1980" number="4">And thou &#383;halt finde it merrits not reproouing,</line>
@@ -3724,13 +3727,13 @@ FORTH.</line>
 <sonnet id="143">
 <sonnetnum>143</sonnetnum>
 <quatrain>
-<line globalnumber="1991" number="1" order="first"><dropcap>L</dropcap>oe as a carefull hu&#383;wife runnes to catch,</line>
+<line globalnumber="1991" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>oe as a carefull hu&#383;wife runnes to catch,</line>
 <line globalnumber="1992" number="2" order="second">One of her fethered creatures broake away,</line>
 <line globalnumber="1993" number="3">Sets downe her babe and makes all &#383;wift di&#383;patch</line>
 <line globalnumber="1994" number="4">In pur&#383;uit of the thing &#383;he would haue &#383;tay:</line>
 </quatrain>
 <quatrain>
-<line globalnumber="1995" number="5">Whil&#383;t her negle&#392;ted child holds her in chace,</line>
+<line globalnumber="1995" number="5">Whil&#383;t her negle&#57348;ed child holds her in chace,</line>
 <line globalnumber="1996" number="6">Cries to catch her who&#383;e bu&#383;ie care is bent,</line>
 <line globalnumber="1997" number="7">To follow that which flies before her face:</line>
 <line globalnumber="1998" number="8">Not prizing her poore infants di&#383;content;</line>
@@ -3742,7 +3745,7 @@ FORTH.</line>
 <line globalnumber="2002" number="12">And play the mothers part ki&#383;&#383;e me, be kind.</line>
 </quatrain>
 <couplet>
-<line globalnumber="2003" number="13">So will I pray that thou mai&#383;t haue thy <italic>Will,</italic></line>
+<line globalnumber="2003" number="13">So will I pray that thou mai&#383;t haue thy <emph rend="italic">Will,</emph></line>
 <line globalnumber="2004" number="14">If thou turne back and my loude crying &#383;till.</line>
 </couplet>
 </sonnet>
@@ -3750,7 +3753,7 @@ FORTH.</line>
 <sonnet id="144">
 <sonnetnum>144</sonnetnum>
 <quatrain>
-<line globalnumber="2005" number="1" order="first"><dropcap>T</dropcap>wo loues I haue of comfort and di&#383;paire,</line>
+<line globalnumber="2005" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>wo loues I haue of comfort and di&#383;paire,</line>
 <line globalnumber="2006" number="2" order="second">Which like two &#383;pirits do &#383;ugie&#383;t me &#383;till,</line>
 <line globalnumber="2007" number="3">The better angell is a man right faire:</line>
 <line globalnumber="2008" number="4">The wor&#383;er &#383;pirit a woman collour&#8217;d il.</line>
@@ -3763,7 +3766,7 @@ FORTH.</line>
 </quatrain>
 <quatrain>
 <line globalnumber="2013" number="9">And whether that my angel be turn&#8217;d finde,</line>
-<line globalnumber="2014" number="10">Su&#383;pe&#392;t I may, yet not dire&#392;tly tell,</line>
+<line globalnumber="2014" number="10">Su&#383;pe&#57348; I may, yet not dire&#57348;ly tell,</line>
 <line globalnumber="2015" number="11">But being both from me both to each friend,</line>
 <line globalnumber="2016" number="12">I ge&#383;&#383;e one angel in an others hel.</line>
 </quatrain>
@@ -3776,7 +3779,7 @@ FORTH.</line>
 <sonnet id="145">
 <sonnetnum>145</sonnetnum>
 <quatrain>
-<line globalnumber="2019" number="1" order="first"><dropcap>T</dropcap>ho&#383;e lips that Loues owne hand did make,</line>
+<line globalnumber="2019" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>ho&#383;e lips that Loues owne hand did make,</line>
 <line globalnumber="2020" number="2" order="second">Breath&#8217;d forth the &#383;ound that &#383;aid I hate</line>
 <line globalnumber="2021" number="3">To me that langui&#383;ht for her &#383;ake:</line>
 <line globalnumber="2022" number="4">But when &#383;he &#383;aw my wofull &#383;tate,</line>
@@ -3802,7 +3805,7 @@ FORTH.</line>
 <sonnet id="146">
 <sonnetnum>146</sonnetnum>
 <quatrain>
-<line globalnumber="2033" number="1" order="first"><dropcap>P</dropcap>oore &#383;oule the center of my &#383;infull earth,</line>
+<line globalnumber="2033" number="1" order="first"><dropcap type="regular" size="small">P</dropcap>oore &#383;oule the center of my &#383;infull earth,</line>
 <line globalnumber="2034" number="2" order="second">My &#383;infull earth the&#383;e rebbell powres that thee array,</line>
 <line globalnumber="2035" number="3">Why do&#383;t thou pine within and &#383;uffer dearth,</line>
 <line globalnumber="2036" number="4">Painting thy outward walls &#383;o co&#383;tlie gay?</line>
@@ -3828,7 +3831,7 @@ FORTH.</line>
 <sonnet id="147">
 <sonnetnum>147</sonnetnum>
 <quatrain>
-<line globalnumber="2047" number="1" order="first"><dropcap>M</dropcap>y loue is as a feauer longing &#383;till,</line>
+<line globalnumber="2047" number="1" order="first"><dropcap type="regular" size="small">M</dropcap>y loue is as a feauer longing &#383;till,</line>
 <line globalnumber="2048" number="2" order="second">For that which longer nur&#383;eth the di&#383;ea&#383;e,</line>
 <line globalnumber="2049" number="3">Feeding on that which doth pre&#383;erue the ill,</line>
 <line globalnumber="2050" number="4">Th&#8217; vncertaine &#383;icklie appetite to plea&#383;e:</line>
@@ -3854,7 +3857,7 @@ FORTH.</line>
 <sonnet id="148">
 <sonnetnum>148</sonnetnum>
 <quatrain>
-<line globalnumber="2061" number="1" order="first"><dropcap>O</dropcap> Me! what eyes hath loue put in my head,</line>
+<line globalnumber="2061" number="1" order="first"><dropcap type="regular" size="small">O</dropcap> Me! what eyes hath loue put in my head,</line>
 <line globalnumber="2062" number="2" order="second">Which haue no corre&#383;pondence with true &#383;ight,</line>
 <line globalnumber="2063" number="3">Or if they haue, where is my iudgment fled,</line>
 <line globalnumber="2064" number="4">That cen&#383;ures fal&#383;ely what they &#383;ee aright?</line>
@@ -3880,7 +3883,7 @@ FORTH.</line>
 <sonnet id="149">
 <sonnetnum>149</sonnetnum>
 <quatrain>
-<line globalnumber="2075" number="1" order="first"><dropcap>C</dropcap>an&#383;t thou O cruell, &#383;ay I loue thee not,</line>
+<line globalnumber="2075" number="1" order="first"><dropcap type="regular" size="small">C</dropcap>an&#383;t thou O cruell, &#383;ay I loue thee not,</line>
 <line globalnumber="2076" number="2" order="second">When I again&#383;t my &#383;elfe with thee pertake:</line>
 <line globalnumber="2077" number="3">Doe I not thinke on thee when I forgot</line>
 <line globalnumber="2078" number="4">Am of my &#383;elfe, all tirant for thy &#383;ake?</line>
@@ -3892,9 +3895,9 @@ FORTH.</line>
 <line globalnumber="2082" number="8">Reuenge vpon my &#383;elfe with pre&#383;ent mone?</line>
 </quatrain>
 <quatrain>
-<line globalnumber="2083" number="9">What merrit do I in my &#383;elfe re&#383;pe&#392;t,</line>
+<line globalnumber="2083" number="9">What merrit do I in my &#383;elfe re&#383;pe&#57348;,</line>
 <line globalnumber="2084" number="10">That is &#383;o proude thy &#383;eruice to di&#383;pi&#383;e,</line>
-<line globalnumber="2085" number="11">When all my be&#383;t doth wor&#383;hip thy defe&#392;t,</line>
+<line globalnumber="2085" number="11">When all my be&#383;t doth wor&#383;hip thy defe&#57348;,</line>
 <line globalnumber="2086" number="12">Commanded by the motion of thine eyes.</line>
 </quatrain>
 <couplet>
@@ -3906,7 +3909,7 @@ FORTH.</line>
 <sonnet id="150">
 <sonnetnum>150</sonnetnum>
 <quatrain>
-<line globalnumber="2089" number="1" order="first"><dropcap>O</dropcap>h from what powre ha&#383;t thou this powrefull might,</line>
+<line globalnumber="2089" number="1" order="first"><dropcap type="regular" size="small">O</dropcap>h from what powre ha&#383;t thou this powrefull might,</line>
 <line globalnumber="2090" number="2" order="second">VVith in&#383;ufficiency my heart to &#383;way,</line>
 <line globalnumber="2091" number="3">To make me giue the lie to my true &#383;ight,</line>
 <line globalnumber="2092" number="4">And &#383;were that brightne&#383;&#383;e doth not grace the day?</line>
@@ -3932,7 +3935,7 @@ FORTH.</line>
 <sonnet id="151">
 <sonnetnum>151</sonnetnum>
 <quatrain>
-<line globalnumber="2103" number="1" order="first"><dropcap>L</dropcap>oue is too young to know what con&#383;cience is,</line>
+<line globalnumber="2103" number="1" order="first"><dropcap type="regular" size="small">L</dropcap>oue is too young to know what con&#383;cience is,</line>
 <line globalnumber="2104" number="2" order="second">Yet who knowes not con&#383;cience is borne of loue,</line>
 <line globalnumber="2105" number="3">Then gentle cheater vrge not my ami&#383;&#383;e,</line>
 <line globalnumber="2106" number="4">Lea&#383;t guilty of my faults thy &#383;weet &#383;elfe proue.</line>
@@ -3958,9 +3961,9 @@ FORTH.</line>
 <sonnet id="152">
 <sonnetnum>152</sonnetnum>
 <quatrain>
-<line globalnumber="2117" number="1" order="first"><dropcap>I</dropcap>n louing thee thou know&#8217;&#383;t I am for&#383;worne,</line>
+<line globalnumber="2117" number="1" order="first"><dropcap type="regular" size="small">I</dropcap>n louing thee thou know&#8217;&#383;t I am for&#383;worne,</line>
 <line globalnumber="2118" number="2" order="second">But thou art twice for&#383;worne to me loue &#383;wearing;</line>
-<line globalnumber="2119" number="3">In a&#392;t thy bed-vow broake and new faith torne,</line>
+<line globalnumber="2119" number="3">In a&#57348; thy bed-vow broake and new faith torne,</line>
 <line globalnumber="2120" number="4">In vowing new hate after new loue bearing:</line>
 </quatrain>
 <quatrain>
@@ -3984,8 +3987,8 @@ FORTH.</line>
 <sonnet id="153">
 <sonnetnum>153</sonnetnum>
 <quatrain>
-<line globalnumber="2131" number="1" order="first"><dropcap>C</dropcap><italic>vpid</italic> laid by his brand and fell a &#383;leepe,</line>
-<line globalnumber="2132" number="2" order="second">A maide of <italic>Dyans</italic> this aduantage found,</line>
+<line globalnumber="2131" number="1" order="first"><dropcap type="regular" size="small">C</dropcap><emph rend="italic">vpid</emph> laid by his brand and fell a &#383;leepe,</line>
+<line globalnumber="2132" number="2" order="second">A maide of <emph rend="italic">Dyans</emph> this aduantage found,</line>
 <line globalnumber="2133" number="3">And his loue-kindling fire did quickly &#383;teepe</line>
 <line globalnumber="2134" number="4">In a could vallie-fountaine of that ground:</line>
 </quatrain>
@@ -4003,14 +4006,14 @@ FORTH.</line>
 </quatrain>
 <couplet>
 <line globalnumber="2143" number="13">But found no cure, the bath for my helpe lies</line>
-<line globalnumber="2144" number="14">Where <italic>Cupid</italic> got new fire; my mi&#383;tres eye.</line>
+<line globalnumber="2144" number="14">Where <emph rend="italic">Cupid</emph> got new fire; my mi&#383;tres eye.</line>
 </couplet>
 </sonnet>
 
 <sonnet id="154">
 <sonnetnum>154</sonnetnum>
 <quatrain>
-<line globalnumber="2145" number="1" order="first"><dropcap>T</dropcap>he little Loue-God lying once a &#383;leepe,</line>
+<line globalnumber="2145" number="1" order="first"><dropcap type="regular" size="small">T</dropcap>he little Loue-God lying once a &#383;leepe,</line>
 <line globalnumber="2146" number="2" order="second">Laid by his &#383;ide his heart inflaming brand,</line>
 <line globalnumber="2147" number="3">Whil&#383;t many Nymphes that vou&#8217;d cha&#383;t life to keep</line>
 <line globalnumber="2148" number="4">Came tripping by, but in her maiden hand,</line>
@@ -4040,14 +4043,13 @@ FORTH.</line>
 </finis>
 
 <sourcedetails>
-<author>PlayShakespeare.com</author>
-<authorurl>http://www.playshakespeare.com</authorurl>
-<copyright>2005-2014 by PlayShakespeare.com</copyright>
-
-<version>3.1</version>
+<source>PlayShakespeare.com</source>
+<sourceurl>http://www.playshakespeare.com</sourceurl>
+<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<version>3.5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
-<termsurl>http://www.playshakespeare.com/about-us</termsurl>
+<termsurl>http://www.playshakespeare.com/license</termsurl>
 </sourcedetails>
 
 </poem>
