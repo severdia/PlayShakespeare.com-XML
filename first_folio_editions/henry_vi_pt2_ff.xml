@@ -3,7 +3,9 @@
 
 <play variant="first-folio" unique="henry-vi-part-ii">
 <title short="Henry VI, Pt. 2">The &#383;econd Part of Henry the Sixt,<lb />with the death of the Good Duke<lb />HVMFREY.</title>
-<playwright>William Shakespeare</playwright>
+<playwrights>
+		<playwright>William Shakespeare</playwright>
+</playwrights>
 
 <edition>First Folio of 1623</edition>
 
@@ -121,7 +123,7 @@
 	<persname short="Salisb."/>
 	<persname short="Salisbury."/>
 	<persname short="All kneel."/>
-	<persname short="BOTH. WAR. AND SAL.">Both Salisbury and Warwick</persname>
+	<persname short="BOTH WAR. AND SAL.">Both Salisbury and Warwick</persname>
 	<persname short="Both."/>
 </persaliases>
 </persona>
@@ -133,7 +135,7 @@
 	<persname short="Warw."/>
 	<persname short="War."/>
 	<persname short="All kneel."/>
-	<persname short="BOTH. WAR. AND SAL.">Both Salisbury and Warwick</persname>
+	<persname short="BOTH WAR. AND SAL.">Both Salisbury and Warwick</persname>
 	<persname short="Both."/>
 </persaliases>
 </persona>
@@ -630,9 +632,9 @@
 </personae>
 
 <act>
-<acttitle id="scene1_1">A&#392;tus Primus. Sc&#339;na Prima.</acttitle>
+<acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
 <scene>
-<scenetitle type="act-title">A&#392;tus Primus. Sc&#339;na Prima.</scenetitle>
+<scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Flouri&#383;h of Trumpets: Then Hoboyes.</stagedir>
 
@@ -640,7 +642,7 @@
 
 <speech>
 <speaker>Suffolke.</speaker>
-<line globalnumber="1" number="1" order="first"><dropcap type="floral">A</dropcap>s by your high Imperiall Maie&#383;ty,</line>
+<line globalnumber="1" number="1" order="first"><dropcap type="floral" size="small">A</dropcap>s by your high Imperiall Maie&#383;ty,</line>
 <line globalnumber="2" number="2" order="second">I had in charge at my depart for France,</line>
 <line globalnumber="3" number="3" order="third">As Procurator to your Excellence,</line>
 <line globalnumber="4" number="4" order="fourth">To marry Princes <name type="person">Margaret</name> for your Grace;</line>
@@ -675,7 +677,7 @@
 <line globalnumber="25" number="25">The mutuall conference that my minde hath had,</line>
 <line globalnumber="26" number="26">By day, by night; waking, and in my dreames,</line>
 <line globalnumber="27" number="27">In Courtly company, or at my Beades,</line>
-<line globalnumber="28" number="28">With you mine <italic>Alder liefe&#383;t</italic> Soueraigne,</line>
+<line globalnumber="28" number="28">With you mine <emph rend="italic">Alder liefe&#383;t</emph> Soueraigne,</line>
 <line globalnumber="29" number="29">Makes me the bolder to &#383;alute my King,</line>
 <line globalnumber="30" number="30">With ruder termes, &#383;uch as my wit affoords,</line>
 <line globalnumber="31" number="31">And ouer ioy of heart doth mini&#383;ter.</line>
@@ -702,20 +704,20 @@
 <stagedir sdglobalnumber="38.01" sdnumber="38.01">Flori&#383;h</stagedir>
 <speech>
 <speaker>Suf.</speaker>
-<line globalnumber="39" number="39">My Lord Prote&#392;tor, &#383;o it plea&#383;e your Grace,</line>
-<line globalnumber="40" number="40">Heere are the Articles of contra&#392;ted peace,</line>
+<line globalnumber="39" number="39">My Lord Prote&#57348;or, &#383;o it plea&#383;e your Grace,</line>
+<line globalnumber="40" number="40">Heere are the Articles of contra&#57348;ed peace,</line>
 <line globalnumber="41" number="41">Betweene our Soueraigne, and the French King <name type="person">Charles</name>,</line>
 <line globalnumber="42" number="42">For eighteene moneths concluded by con&#383;ent.</line>
 
 <speaker>Glo.</speaker>
 <stagedir sdglobalnumber="42.01" sdnumber="42.01">Reads.</stagedir>
-<line globalnumber="43" number="43"><recite><noitalic>Inprimis</noitalic>, It is agreed betweene the French K.</recite></line>
+<line globalnumber="43" number="43"><recite><emph rend="noitalic">Inprimis</emph>, It is agreed betweene the French K.</recite></line>
 <line globalnumber="44" number="44"><recite>Charles, and William de la Pole Marque&#383;&#383;e of Suffolke, Am-</recite></line>
 <line globalnumber="45" number="45"><recite>ba&#383;&#383;ador for Henry King of England, That the &#383;aid Henry &#383;hal</recite></line>
 <line globalnumber="46" number="46"><recite>e&#383;pou&#383;e the Lady Margaret, daughter vnto Reignier King of</recite></line>
 <line globalnumber="47" number="47"><recite>Naples, Sicillia, and Ieru&#383;alem, and Crowne her Queene of</recite></line>
 <line globalnumber="48" number="48"><recite>England, ere the thirtieth of May next en&#383;uing.</recite></line>
-<line globalnumber="49" number="49"><recite><noitalic>Item</noitalic>, That the Dutchy of Aniou, and the County of Main,</recite></line>
+<line globalnumber="49" number="49"><recite><emph rend="noitalic">Item</emph>, That the Dutchy of Aniou, and the County of Main,</recite></line>
 <line globalnumber="50" number="50"><recite>&#383;hall be relea&#383;ed and deliuered to the King her father.</recite></line>
 </speech>
 
@@ -738,7 +740,7 @@
 
 <speech>
 <speaker>Win.</speaker>
-<line globalnumber="56" number="56"><recite><noitalic>Item</noitalic>, It is further agreed betweene them, That the</recite></line>
+<line globalnumber="56" number="56"><recite><emph rend="noitalic">Item</emph>, It is further agreed betweene them, That the</recite></line>
 <line globalnumber="57" number="57"><recite>Dutche&#383;&#383;e of Aniou and Maine, &#383;hall be relea&#383;ed and deliuered</recite></line>
 <line globalnumber="58" number="58"><recite>ouer to the King her Father, and &#383;hee &#383;ent ouer of the King of</recite></line>
 <line globalnumber="59" number="59"><recite>Englands owne proper Co&#383;t and Charges, without hauing any</recite></line>
@@ -778,7 +780,7 @@
 <line globalnumber="81" number="81">And did my brother <name type="person">Bedford</name> toyle his wits,</line>
 <line globalnumber="82" number="82">To keepe by policy what <name type="person">Henrie</name> got:</line>
 <line globalnumber="83" number="83">Haue you your &#383;elues, <name type="person">Somer&#383;et</name>, <name type="person">Buckingham</name>,</line>
-<line globalnumber="84" number="84">Braue <name type="person">Yorke</name>, <name type="person">Salisbury</name>, and vi&#392;torious <name type="person">Warwicke</name>,</line>
+<line globalnumber="84" number="84">Braue <name type="person">Yorke</name>, <name type="person">Salisbury</name>, and vi&#57348;orious <name type="person">Warwicke</name>,</line>
 <line globalnumber="85" number="85">Receiud deepe &#383;carres in France and Normandie:</line>
 <line globalnumber="86" number="86">Or hath mine Vnckle <name type="person">Beauford</name>, and my &#383;elfe,</line>
 <line globalnumber="87" number="87">With all the Learned Coun&#383;ell of the Realme,</line>
@@ -793,7 +795,7 @@
 <line globalnumber="96" number="96">O Peeres of England, &#383;hamefull is this League,</line>
 <line globalnumber="97" number="97">Fatall this Marriage, cancelling your Fame,</line>
 <line globalnumber="98" number="98">Blotting your names from Bookes of memory,</line>
-<line globalnumber="99" number="99">Racing the Charra&#392;ters of your Renowne,</line>
+<line globalnumber="99" number="99">Racing the Charra&#57348;ers of your Renowne,</line>
 <line globalnumber="100" number="100">Defacing Monuments of Conquer&#8217;d France,</line>
 <line globalnumber="101" number="101">Vndoing all as all had neuer bin.</line>
 </speech>
@@ -877,7 +879,7 @@
 
 <speech>
 <speaker>Car.</speaker>
-<line globalnumber="145" number="145">So, there goes our Prote&#392;tor in a rage:</line>
+<line globalnumber="145" number="145">So, there goes our Prote&#57348;or in a rage:</line>
 <line globalnumber="146" number="146">&#8217;Tis knowne to you he is mine enemy:</line>
 <line globalnumber="147" number="147">Nay more, an enemy vnto you all,</line>
 <line globalnumber="148" number="148">And no great friend, I feare me to the King;</line>
@@ -887,19 +889,19 @@
 <line globalnumber="152" number="152">And all the wealthy Kingdomes of the We&#383;t,</line>
 <line globalnumber="153" number="153">There&#8217;s rea&#383;on he &#383;hould be di&#383;pleas&#8217;d at it:</line>
 <line globalnumber="154" number="154">Looke to it Lords, let not his &#383;moothing words</line>
-<line globalnumber="155" number="155">Bewitch your hearts, be wi&#383;e and circum&#383;pe&#392;t.</line>
+<line globalnumber="155" number="155">Bewitch your hearts, be wi&#383;e and circum&#383;pe&#57348;.</line>
 <line globalnumber="156" number="156">What though the common people fauour him,</line>
-<line globalnumber="157" number="157">Calling him, <italic>Humfrey the good Duke of Glo&#383;ter</italic>,</line>
+<line globalnumber="157" number="157">Calling him, <emph rend="italic">Humfrey the good Duke of Glo&#383;ter</emph>,</line>
 <line globalnumber="158" number="158">Clapping their hands, and crying with loud voyce,</line>
 <line globalnumber="159" number="159">Ie&#383;u maintaine your Royall Excellence,</line>
 <line globalnumber="160" number="160">With God pre&#383;erue the good Duke <name type="person">Humfrey</name>:</line>
 <line globalnumber="161" number="161">I feare me Lords, for all this &#64258;attering glo&#383;&#383;e,</line>
-<line globalnumber="162" number="162">He will be found a dangerous Prote&#392;tor.</line>
+<line globalnumber="162" number="162">He will be found a dangerous Prote&#57348;or.</line>
 </speech>
 
 <speech>
 <speaker>Buc.</speaker>
-<line globalnumber="163" number="163">Why &#383;hould he then prote&#392;t our Soueraigne?</line>
+<line globalnumber="163" number="163">Why &#383;hould he then prote&#57348; our Soueraigne?</line>
 <line globalnumber="164" number="164">He being of age to gouerne of him&#383;elfe.</line>
 <line globalnumber="165" number="165">Co&#383;in of Somer&#383;et, ioyne you with me,</line>
 <line globalnumber="166" number="166">And altogether with the Duke of Suffolke,</line>
@@ -921,12 +923,12 @@
 <line globalnumber="172" number="172">Yet let vs watch the haughtie Cardinall,</line>
 <line globalnumber="173" number="173">His in&#383;olence is more intollerable</line>
 <line globalnumber="174" number="174">Then all the Princes in the Land be&#383;ide,</line>
-<line globalnumber="175" number="175">If Glo&#383;ter be di&#383;plac&#8217;d, hee&#8217;l be Prote&#392;tor.</line>
+<line globalnumber="175" number="175">If Glo&#383;ter be di&#383;plac&#8217;d, hee&#8217;l be Prote&#57348;or.</line>
 </speech>
 
 <speech>
 <speaker>Buc.</speaker>
-<line globalnumber="176" number="176">Or thou, or I Somer&#383;et will be Prote&#392;tors,</line>
+<line globalnumber="176" number="176">Or thou, or I Somer&#383;et will be Prote&#57348;ors,</line>
 <line globalnumber="177" number="177">De&#383;pite Duke <name type="person">Humfrey</name>, or the Cardinall.</line>
 </speech>
 
@@ -948,7 +950,7 @@
 <line globalnumber="189" number="189">Thy deeds, thy plainne&#383;&#383;e, and thy hou&#383;e-keeping,</line>
 <line globalnumber="190" number="190">Hath wonne the greate&#383;t fauour of the Commons,</line>
 <line globalnumber="191" number="191">Excepting none but good Duke Humfrey.</line>
-<line globalnumber="192" number="192">And Brother Yorke, thy A&#392;ts in Ireland,</line>
+<line globalnumber="192" number="192">And Brother Yorke, thy A&#57348;s in Ireland,</line>
 <line globalnumber="193" number="193">In bringing them to ciuill Di&#383;cipline:</line>
 <line globalnumber="194" number="194">Thy late exploits done in the heart of France,</line>
 <line globalnumber="195" number="195">When thou wert Regent for our Soueraigne,</line>
@@ -1111,7 +1113,7 @@
 <line globalnumber="302" number="302">Nay <name type="person">Elinor</name>, then mu&#383;t I chide outright:</line>
 <line globalnumber="303" number="303">Pre&#383;umptuous Dame, ill-nurter&#8217;d <name type="person">Elianor</name>,</line>
 <line globalnumber="304" number="304">Art thou not &#383;econd Woman in the Realme?</line>
-<line globalnumber="305" number="305">And the Prote&#392;tors wife belou&#8217;d of him?</line>
+<line globalnumber="305" number="305">And the Prote&#57348;ors wife belou&#8217;d of him?</line>
 <line globalnumber="306" number="306">Ha&#383;t thou not worldly plea&#383;ure at command,</line>
 <line globalnumber="307" number="307">Aboue the reach or compa&#383;&#383;e of thy thought?</line>
 <line globalnumber="308" number="308">And wilt thou &#383;till be hammering Treachery,</line>
@@ -1137,7 +1139,7 @@
 
 <speech>
 <speaker short="1. ROYAL MESS.">Me&#383;&#383;.</speaker>
-<line globalnumber="317" number="317">My Lord Prote&#392;tor, &#8217;tis his Highnes plea&#383;ure,</line>
+<line globalnumber="317" number="317">My Lord Prote&#57348;or, &#8217;tis his Highnes plea&#383;ure,</line>
 <line globalnumber="318" number="318">You do prepare to ride vnto S. <name type="person">Albons</name>,</line>
 <line globalnumber="319" number="319">Where as the King and Queene do meane to Hawke.</line>
 </speech>
@@ -1200,7 +1202,7 @@
 <speaker>Elianor.</speaker>
 <line globalnumber="343" number="343">It is enough, Ile thinke vpon the Que&#383;tions:</line>
 <line globalnumber="344" number="344">When from Saint <name type="person">Albones</name> we doe make returne,</line>
-<line globalnumber="345" number="345">Wee&#8217;le &#383;ee the&#383;e things effe&#392;ted to the full.</line>
+<line globalnumber="345" number="345">Wee&#8217;le &#383;ee the&#383;e things effe&#57348;ed to the full.</line>
 <line globalnumber="346" number="346">Here <name type="person">Hume</name>, take this reward, make merry man</line>
 <line globalnumber="347" number="347">With thy Confederates in this weightie cau&#383;e.</line>
 </speech>
@@ -1238,14 +1240,14 @@
 
 <speech>
 <speaker>1. Pet.</speaker>
-<line globalnumber="369" number="369">My Ma&#383;ters, let&#8217;s &#383;tand clo&#383;e, my Lord Pro&#8212;</line>
-<line globalnumber="370" number="370">te&#392;tor will come this way by and by, and then wee may</line>
+<line globalnumber="369" number="369">My Ma&#383;ters, let&#8217;s &#383;tand clo&#383;e, my Lord Pro&#160;&#8212;</line>
+<line globalnumber="370" number="370">te&#57348;or will come this way by and by, and then wee may</line>
 <line globalnumber="371" number="371">deliuer our Supplications in the Quill.</line>
 </speech>
 
 <speech>
 <speaker>2. Pet.</speaker>
-<line globalnumber="372" number="372">Marry the Lord prote&#392;t him, for hee&#8217;s a good</line>
+<line globalnumber="372" number="372">Marry the Lord prote&#57348; him, for hee&#8217;s a good</line>
 <line globalnumber="373" number="373">man, Ie&#383;u ble&#383;&#383;e him.</line>
 </speech>
 
@@ -1260,7 +1262,7 @@
 <speech>
 <speaker>2. Pet.</speaker>
 <line globalnumber="376" number="376">Come backe foole, this is the Duke of Suffolk,</line>
-<line globalnumber="377" number="377">and not my Lord Prote&#392;tor.</line>
+<line globalnumber="377" number="377">and not my Lord Prote&#57348;or.</line>
 </speech>
 
 <speech>
@@ -1271,12 +1273,12 @@
 <speech>
 <speaker>1.Pet.</speaker>
 <line globalnumber="379" number="379">I pray my Lord pardon me, I tooke ye for my</line>
-<line globalnumber="380" number="380">Lord Prote&#392;tor.</line>
+<line globalnumber="380" number="380">Lord Prote&#57348;or.</line>
 </speech>
 
 <speech>
 <speaker>Queene.</speaker>
-<line globalnumber="381" number="381">To my Lord Prote&#392;tor? Are your Supplica&#8212;</line>
+<line globalnumber="381" number="381">To my Lord Prote&#57348;or? Are your Supplica&#160;&#8212;</line>
 <line globalnumber="382" number="382">tions to his Lord&#383;hip? Let me &#383;ee them: what is thine?</line>
 </speech>
 
@@ -1324,7 +1326,7 @@
 <speaker>Suff.</speaker>
 <line globalnumber="399" number="399">Who is there?</line>
 <stagedir sdglobalnumber="399.01" sdnumber="399.01">Enter Seruant.</stagedir>
-<line globalnumber="400" number="400">Take this fellow in, and &#383;end for his Ma&#383;ter with a Pur&#383;e&#8212;</line>
+<line globalnumber="400" number="400">Take this fellow in, and &#383;end for his Ma&#383;ter with a Pur&#383;e&#160;&#8212;</line>
 <line globalnumber="401" number="401">uant pre&#383;ently: wee&#8217;le heare more of your matter before</line>
 <line globalnumber="402" number="402">the King.</line>
 </speech>
@@ -1333,8 +1335,8 @@
 
 <speech>
 <speaker>Queene.</speaker>
-<line globalnumber="403" number="403">And as for you that loue to be prote&#392;ted</line>
-<line globalnumber="404" number="404">Vnder the Wings of our Prote&#392;tors Grace,</line>
+<line globalnumber="403" number="403">And as for you that loue to be prote&#57348;ed</line>
+<line globalnumber="404" number="404">Vnder the Wings of our Prote&#57348;ors Grace,</line>
 <line globalnumber="405" number="405">Begin your Suites anew, and &#383;ue to him.</line>
 <stagedir sdglobalnumber="405.01" sdnumber="405.01">Teare the Supplication.</stagedir>
 <line globalnumber="406" number="406">Away, ba&#383;e Cullions: <name type="person">Suffolke</name> let them goe.</line>
@@ -1356,14 +1358,14 @@
 <line globalnumber="412" number="412">What, &#383;hall King <name type="person">Henry</name> be a Pupill &#383;till,</line>
 <line globalnumber="413" number="413">Vnder the &#383;urly <name type="person">Glo&#383;ters</name> Gouernance?</line>
 <line globalnumber="414" number="414">Am I a Queene in Title and in Stile,</line>
-<line globalnumber="415" number="415">And mu&#383;t be made a Subie&#392;t to a Duke?</line>
+<line globalnumber="415" number="415">And mu&#383;t be made a Subie&#57348; to a Duke?</line>
 <line globalnumber="416" number="416">I tell thee <name type="person">Poole</name>, when in the Citie <name type="person">Tours</name></line>
 <line globalnumber="417" number="417">Thou ran&#8217;&#383;t a-tilt in honor of my Loue,</line>
 <line globalnumber="418" number="418">And &#383;tol&#8217;&#383;t away the Ladies hearts of France;</line>
 <line globalnumber="419" number="419">I thought King <name type="person">Henry</name> had re&#383;embled thee,</line>
 <line globalnumber="420" number="420">In Courage, Court&#383;hip, and Proportion:</line>
 <line globalnumber="421" number="421">But all his minde is bent to Holine&#383;&#383;e,</line>
-<line globalnumber="422" number="422">To number <italic>Aue-Maries</italic> on his Beades:</line>
+<line globalnumber="422" number="422">To number <emph rend="italic">Aue-Maries</emph> on his Beades:</line>
 <line globalnumber="423" number="423">His Champions, are the Prophets and Apo&#383;tles,</line>
 <line globalnumber="424" number="424">His Weapons, holy Sawes of &#383;acred Writ,</line>
 <line globalnumber="425" number="425">His Studie is his Tilt-yard, and his Loues</line>
@@ -1383,7 +1385,7 @@
 
 <speech>
 <speaker>Queene.</speaker>
-<line globalnumber="434" number="434">Be&#383;ide the haughtie Prote&#392;tor, haue we <name type="person">Beauford</name></line>
+<line globalnumber="434" number="434">Be&#383;ide the haughtie Prote&#57348;or, haue we <name type="person">Beauford</name></line>
 <line globalnumber="435" number="435">The imperious Churchman; <name type="person">Somer&#383;et</name>, <name type="person">Buckingham</name>,</line>
 <line globalnumber="436" number="436">And grumbling <name type="person">Yorke</name>: and not the lea&#383;t of the&#383;e,</line>
 <line globalnumber="437" number="437">But can doe more in England then the King.</line>
@@ -1399,7 +1401,7 @@
 <speech>
 <speaker>Queene.</speaker>
 <line globalnumber="441" number="441">Not all the&#383;e Lords do vex me halfe &#383;o much,</line>
-<line globalnumber="442" number="442">As that prowd Dame, the Lord Prote&#392;tors Wife:</line>
+<line globalnumber="442" number="442">As that prowd Dame, the Lord Prote&#57348;ors Wife:</line>
 <line globalnumber="443" number="443">She &#383;weepes it through the Court with troups of Ladies,</line>
 <line globalnumber="444" number="444">More like an Empre&#383;&#383;e, then Duke <name type="person">Humphreyes</name> Wife:</line>
 <line globalnumber="445" number="445">Strangers in Court, doe take her for the Queene:</line>
@@ -1500,12 +1502,12 @@
 <speech>
 <speaker>Queene.</speaker>
 <line globalnumber="484" number="484">If he be old enough, what needs your Grace</line>
-<line globalnumber="485" number="485">To be Prote&#392;tor of his Excellence?</line>
+<line globalnumber="485" number="485">To be Prote&#57348;or of his Excellence?</line>
 </speech>
 
 <speech>
 <speaker>Humf.</speaker>
-<line globalnumber="486" number="486">Madame, I am Prote&#392;tor of the Realme,</line>
+<line globalnumber="486" number="486">Madame, I am Prote&#57348;or of the Realme,</line>
 <line globalnumber="487" number="487">And at his plea&#383;ure will re&#383;igne my Place.</line>
 </speech>
 
@@ -1541,7 +1543,7 @@
 <speech>
 <speaker>Queene.</speaker>
 <line globalnumber="501" number="501">Thy &#383;ale of Of&#64257;ces and Townes in France,</line>
-<line globalnumber="502" number="502">If they were knowne, as the &#383;u&#383;pe&#392;t is great,</line>
+<line globalnumber="502" number="502">If they were knowne, as the &#383;u&#383;pe&#57348; is great,</line>
 <line globalnumber="503" number="503">Would make thee quickly hop without thy Head.</line>
 <stagedir sdglobalnumber="503.01" sdnumber="503.01">Exit Humfrey.</stagedir>
 <line globalnumber="504" number="504">Giue me my Fanne: what, Mynion, can ye not?</line>
@@ -1576,7 +1578,7 @@
 <line globalnumber="514" number="514">Lord Cardinall, I will follow <name type="person">Elianor</name>,</line>
 <line globalnumber="515" number="515">And li&#383;ten after <name type="person">Humfrey</name>, how he proceedes:</line>
 <line globalnumber="516" number="516">Shee&#8217;s tickled now, her Fume needs no &#383;purres,</line>
-<line globalnumber="517" number="517">Shee&#8217;le gallop farre enough to her de&#383;tru&#392;tion.</line>
+<line globalnumber="517" number="517">Shee&#8217;le gallop farre enough to her de&#383;tru&#57348;ion.</line>
 </speech>
 
 <stagedir sdglobalnumber="517.01" sdnumber="517.01">Exit Buckingham.</stagedir>
@@ -1588,7 +1590,7 @@
 <line globalnumber="518" number="518">Now Lords, my Choller being ouer-blowne,</line>
 <line globalnumber="519" number="519">With walking once about the Quadrangle,</line>
 <line globalnumber="520" number="520">I come to talke of Common-wealth Affayres.</line>
-<line globalnumber="521" number="521">As for your &#383;pightfull fal&#383;e Obie&#392;tions,</line>
+<line globalnumber="521" number="521">As for your &#383;pightfull fal&#383;e Obie&#57348;ions,</line>
 <line globalnumber="522" number="522">Proue them, and I lye open to the Law:</line>
 <line globalnumber="523" number="523">But God in mercie &#383;o deale with my Soule,</line>
 <line globalnumber="524" number="524">As I in dutie loue my King and Countrey.</line>
@@ -1599,7 +1601,7 @@
 
 <speech>
 <speaker>Suff.</speaker>
-<line globalnumber="528" number="528">Before we make ele&#392;tion, giue me leaue</line>
+<line globalnumber="528" number="528">Before we make ele&#57348;ion, giue me leaue</line>
 <line globalnumber="529" number="529">To &#383;hew &#383;ome rea&#383;on, of no little force,</line>
 <line globalnumber="530" number="530">That <name type="person">Yorke</name> is mo&#383;t vnmeet of any man.</line>
 </speech>
@@ -1618,7 +1620,7 @@
 
 <speech>
 <speaker>Warw.</speaker>
-<line globalnumber="539" number="539">That can I witne&#383;&#383;e, and a fouler fa&#392;t</line>
+<line globalnumber="539" number="539">That can I witne&#383;&#383;e, and a fouler fa&#57348;</line>
 <line globalnumber="540" number="540">Did neuer Traytor in the Land commit.</line>
 </speech>
 
@@ -1675,7 +1677,7 @@
 <speech>
 <speaker>Peter.</speaker>
 <line globalnumber="557" number="557">By the&#383;e tenne bones, my Lords, hee did &#383;peake</line>
-<line globalnumber="558" number="558">them to me in the Garret one Night, as wee were &#383;cow&#8212;</line>
+<line globalnumber="558" number="558">them to me in the Garret one Night, as wee were &#383;cow&#160;&#8212;</line>
 <line globalnumber="559" number="559">ring my Lord of Yorkes Armor.</line>
 </speech>
 
@@ -1690,8 +1692,8 @@
 <speech>
 <speaker>Armorer.</speaker>
 <line globalnumber="564" number="564">Alas, my Lord, hang me if euer I &#383;pake the</line>
-<line globalnumber="565" number="565">words: my accu&#383;er is my Prentice, and when I did cor&#8212;</line>
-<line globalnumber="566" number="566">re&#392;t him for his fault the other day, he did vow vpon his</line>
+<line globalnumber="565" number="565">words: my accu&#383;er is my Prentice, and when I did cor&#160;&#8212;</line>
+<line globalnumber="566" number="566">re&#57348; him for his fault the other day, he did vow vpon his</line>
 <line globalnumber="567" number="567">knees he would be euen with me: I haue good witne&#383;&#383;e</line>
 <line globalnumber="568" number="568">of this; therefore I be&#383;eech your Maie&#383;tie, doe not ca&#383;t</line>
 <line globalnumber="569" number="569">away an hone&#383;t man for a Villaines accu&#383;ation.</line>
@@ -1749,8 +1751,8 @@
 
 <speech>
 <speaker>Hume.</speaker>
-<line globalnumber="588" number="588">Come my Ma&#383;ters, the Duche&#383;&#383;e I tell you ex&#8212;</line>
-<line globalnumber="589" number="589">pe&#392;ts performance of your promi&#383;es.</line>
+<line globalnumber="588" number="588">Come my Ma&#383;ters, the Duche&#383;&#383;e I tell you ex&#160;&#8212;</line>
+<line globalnumber="589" number="589">pe&#57348;s performance of your promi&#383;es.</line>
 </speech>
 
 <speech>
@@ -1768,7 +1770,7 @@
 <speaker>Bulling.</speaker>
 <line globalnumber="593" number="593">I haue heard her reported to be a Woman of</line>
 <line globalnumber="594" number="594">an inuincible &#383;pirit: but it &#383;hall be conuenient, Ma&#383;ter</line>
-<line globalnumber="595" number="595"> <name type="person">Hume</name>, that you be by her aloft, while wee be bu&#383;ie be&#8212;</line>
+<line globalnumber="595" number="595"> <name type="person">Hume</name>, that you be by her aloft, while wee be bu&#383;ie be&#160;&#8212;</line>
 <line globalnumber="596" number="596">low; and &#383;o I pray you goe in Gods Name, and leaue vs.</line>
 <stagedir sdglobalnumber="596.01" sdnumber="596.01">Exit Hume.</stagedir>
 <line globalnumber="597" number="597">Mother <name type="person">Iordan</name>, be you pro&#383;trate, and grouell on the</line>
@@ -1795,16 +1797,16 @@
 <line globalnumber="608" number="608">Wee will make fa&#383;t within a hallow&#8217;d Verge.</line>
 </speech>
 
-<stagedir sdglobalnumber="608.01" sdnumber="608.01">Here doe the Ceremonies belonging, and make the Circle, Bullingbrooke or Southwell reades, <noitalic>Coniuro te, &amp;c</noitalic>. It Thunders and Lightens terribly: then the Spirit ri&#383;eth.</stagedir>
+<stagedir sdglobalnumber="608.01" sdnumber="608.01">Here doe the Ceremonies belonging, and make the Circle, Bullingbrooke or Southwell reades, <emph rend="noitalic">Coniuro te, &amp;c</emph>. It Thunders and Lightens terribly: then the Spirit ri&#383;eth.</stagedir>
 
 <speech>
 <speaker>Spirit.</speaker>
-<line globalnumber="609" number="609"><latin xml:lang="la">Ad &#383;um</latin>.</line>
+<line globalnumber="609" number="609"><foreign xml:lang="la">Ad &#383;um</foreign>.</line>
 </speech>
 
 <speech>
 <speaker>Witch.</speaker>
-<line globalnumber="610" number="610"><italic>A&#383;math</italic>, by the eternall God,</line>
+<line globalnumber="610" number="610"><emph rend="italic">A&#383;math</emph>, by the eternall God,</line>
 <line globalnumber="611" number="611">Who&#383;e name and power thou tremble&#383;t at,</line>
 <line globalnumber="612" number="612">An&#383;were that I &#383;hall aske: for till thou &#383;peake,</line>
 <line globalnumber="613" number="613">Thou &#383;halt not pa&#383;&#383;e from hence.</line>
@@ -1818,7 +1820,7 @@
 
 <speech>
 <speaker>Bulling.</speaker>
-<line globalnumber="616" number="616">Fir&#383;t of the King: What &#383;hall of him be&#8212;</line>
+<line globalnumber="616" number="616">Fir&#383;t of the King: What &#383;hall of him be&#160;&#8212;</line>
 <line globalnumber="617" number="617">come?</line>
 </speech>
 
@@ -1865,7 +1867,7 @@
 <line globalnumber="630" number="630">Beldam I thinke we watcht you at an ynch.</line>
 <line globalnumber="631" number="631">What Madame, are you there? the King &amp; Commonweale</line>
 <line globalnumber="632" number="632">Are deepely indebted for this peece of paines;</line>
-<line globalnumber="633" number="633">My Lord Prote&#392;tor will, I doubt it not,</line>
+<line globalnumber="633" number="633">My Lord Prote&#57348;or will, I doubt it not,</line>
 <line globalnumber="634" number="634">See you well guerdon&#8217;d for the&#383;e good de&#383;erts.</line>
 </speech>
 
@@ -1894,9 +1896,9 @@
 <line globalnumber="645" number="645">Now pray my Lord, let&#8217;s &#383;ee the Deuils Writ.</line>
 <line globalnumber="646" number="646">What haue we here?</line>
 <stagedir sdglobalnumber="646.01" sdnumber="646.01">Reades.</stagedir>
-<line globalnumber="647" number="647"><recite>The Duke yet liues, that <noitalic>Henry</noitalic> &#383;hall depo&#383;e:</recite></line>
+<line globalnumber="647" number="647"><recite>The Duke yet liues, that <emph rend="noitalic">Henry</emph> &#383;hall depo&#383;e:</recite></line>
 <line globalnumber="648" number="648"><recite>But him out-liue, and dye a violent death.</recite></line>
-<line globalnumber="649" number="649">Why this is iu&#383;t, <latin xml:lang="la">Aio &#198;acida Romanos vincere po&#383;&#383;o</latin>.</line>
+<line globalnumber="649" number="649">Why this is iu&#383;t, <foreign xml:lang="la">Aio &#198;acida Romanos vincere po&#383;&#383;o</foreign>.</line>
 <line globalnumber="650" number="650">Well, to the re&#383;t:</line>
 <line globalnumber="651" number="651">Tell me what fate awaits the Duke of Suffolke?</line>
 <line globalnumber="652" number="652"><recite>By Water &#383;hall he dye, and take his end.</recite></line>
@@ -1911,7 +1913,7 @@
 <line globalnumber="661" number="661">With him, the Husband of this louely Lady:</line>
 <line globalnumber="662" number="662">Thither goes the&#383;e Newes,</line>
 <line globalnumber="663" number="663">As fa&#383;t as Hor&#383;e can carry them:</line>
-<line globalnumber="664" number="664">A &#383;orry Breakfa&#383;t for my Lord Prote&#392;tor.</line>
+<line globalnumber="664" number="664">A &#383;orry Breakfa&#383;t for my Lord Prote&#57348;or.</line>
 </speech>
 
 <speech>
@@ -1931,7 +1933,7 @@
 
 <stagedir sdglobalnumber="670.01" sdnumber="670.01">Exeunt.</stagedir>
 
-<stagedir sdglobalnumber="670.02" sdnumber="670.02">Enter the King, Queene, Prote&#392;tor, Cardinall, and Suffolke, with Faulkners hallowing.</stagedir>
+<stagedir sdglobalnumber="670.02" sdnumber="670.02">Enter the King, Queene, Prote&#57348;or, Cardinall, and Suffolke, with Faulkners hallowing.</stagedir>
 
 <speech>
 <speaker>Queene.</speaker>
@@ -1952,7 +1954,7 @@
 <speech>
 <speaker>Suff.</speaker>
 <line globalnumber="679" number="679">No maruell, and it like your Maie&#383;tie,</line>
-<line globalnumber="680" number="680">My Lord Prote&#392;tors Hawkes doe towre &#383;o well,</line>
+<line globalnumber="680" number="680">My Lord Prote&#57348;ors Hawkes doe towre &#383;o well,</line>
 <line globalnumber="681" number="681">They know their Ma&#383;ter loues to be aloft,</line>
 <line globalnumber="682" number="682">And beares his thoughts aboue his Faulcons Pitch.</line>
 </speech>
@@ -1984,7 +1986,7 @@
 <speaker>Card.</speaker>
 <line globalnumber="690" number="690">Thy Heauen is on Earth, thine Eyes &amp; Thoughts</line>
 <line globalnumber="691" number="691">Beat on a Crowne, the Trea&#383;ure of thy Heart,</line>
-<line globalnumber="692" number="692">Pernitious Prote&#392;tor, dangerous Peere,</line>
+<line globalnumber="692" number="692">Pernitious Prote&#57348;or, dangerous Peere,</line>
 <line globalnumber="693" number="693">That &#383;mooth&#8217;&#383;t it &#383;o with King and Common-weale.</line>
 </speech>
 
@@ -1992,7 +1994,7 @@
 <speaker>Glo&#383;t.</speaker>
 <line globalnumber="694" number="694">What, Cardinall?</line>
 <line globalnumber="695" number="695">Is your Prie&#383;t-hood growne peremptorie?</line>
-<line globalnumber="696" number="696"><latin xml:lang="la">Tant&#230;ne animis C&#339;le&#383;tibus ir&#230;</latin>, Church-men &#383;o hot?</line>
+<line globalnumber="696" number="696"><foreign xml:lang="la">Tant&#230;ne animis C&#339;le&#383;tibus ir&#230;</foreign>, Church-men &#383;o hot?</line>
 <line globalnumber="697" number="697">Good Vnckle hide &#383;uch mallice:</line>
 <line globalnumber="698" number="698">With &#383;uch Holyne&#383;&#383;e can you doe it?</line>
 </speech>
@@ -2011,7 +2013,7 @@
 <speech>
 <speaker>Suff.</speaker>
 <line globalnumber="702" number="702">Why, as you, my Lord,</line>
-<line globalnumber="703" number="703">An&#8217;t like your Lordly Lords Prote&#392;tor&#383;hip.</line>
+<line globalnumber="703" number="703">An&#8217;t like your Lordly Lords Prote&#57348;or&#383;hip.</line>
 </speech>
 
 <speech>
@@ -2034,7 +2036,7 @@
 <speech>
 <speaker>Card.</speaker>
 <line globalnumber="709" number="709">Let me be ble&#383;&#383;ed for the Peace I make</line>
-<line globalnumber="710" number="710">Again&#383;t this prowd Prote&#392;tor with my Sword.</line>
+<line globalnumber="710" number="710">Again&#383;t this prowd Prote&#57348;or with my Sword.</line>
 </speech>
 
 <speech>
@@ -2049,7 +2051,7 @@
 
 <speech>
 <speaker>Glo&#383;t.</speaker>
-<line globalnumber="713" number="713">Make vp no fa&#392;tious numbers for the matter,</line>
+<line globalnumber="713" number="713">Make vp no fa&#57348;ious numbers for the matter,</line>
 <line globalnumber="714" number="714">In thine owne per&#383;on an&#383;were thy abu&#383;e.</line>
 </speech>
 
@@ -2095,7 +2097,7 @@
 
 <speech>
 <speaker>Card.</speaker>
-<line globalnumber="731" number="731"><latin xml:lang="la">Medice teip&#383;um</latin>, Prote&#392;tor &#383;ee to&#8217;t well, prote&#392;t</line>
+<line globalnumber="731" number="731"><foreign xml:lang="la">Medice teip&#383;um</foreign>, Prote&#57348;or &#383;ee to&#8217;t well, prote&#57348;</line>
 <line globalnumber="732" number="732">your &#383;elfe.</line>
 </speech>
 
@@ -2123,7 +2125,7 @@
 
 <speech>
 <speaker>Suffolke.</speaker>
-<line globalnumber="741" number="741">Come to the King, and tell him what Mi&#8212;</line>
+<line globalnumber="741" number="741">Come to the King, and tell him what Mi&#160;&#8212;</line>
 <line globalnumber="742" number="742">racle.</line>
 </speech>
 
@@ -2442,7 +2444,7 @@
 <speech>
 <speaker>Glo&#383;t.</speaker>
 <line globalnumber="839" number="839">Now fetch me a Stoole hither by and by.</line>
-<line globalnumber="840" number="840">Now Sirrha, if you meane to &#383;aue your &#383;elfe from Whip&#8212;</line>
+<line globalnumber="840" number="840">Now Sirrha, if you meane to &#383;aue your &#383;elfe from Whip&#160;&#8212;</line>
 <line globalnumber="841" number="841">ping, leape me ouer this Stoole, and runne away.</line>
 </speech>
 
@@ -2531,11 +2533,11 @@
 <line globalnumber="862" number="862">Such as my heart doth tremble to vnfold:</line>
 <line globalnumber="863" number="863">A &#383;ort of naughtie per&#383;ons, lewdly bent,</line>
 <line globalnumber="864" number="864">Vnder the Countenance and Confederacie</line>
-<line globalnumber="865" number="865">Of Lady <name type="person">Elianor</name>, the Prote&#392;tors Wife,</line>
+<line globalnumber="865" number="865">Of Lady <name type="person">Elianor</name>, the Prote&#57348;ors Wife,</line>
 <line globalnumber="866" number="866">The Ring-leader and Head of all this Rout,</line>
-<line globalnumber="867" number="867">Haue pra&#392;tis&#8217;d dangerou&#383;ly again&#383;t your State,</line>
+<line globalnumber="867" number="867">Haue pra&#57348;is&#8217;d dangerou&#383;ly again&#383;t your State,</line>
 <line globalnumber="868" number="868">Dealing with Witches and with Coniurers,</line>
-<line globalnumber="869" number="869">Whom we haue apprehended in the Fa&#392;t,</line>
+<line globalnumber="869" number="869">Whom we haue apprehended in the Fa&#57348;,</line>
 <line globalnumber="870" number="870">Ray&#383;ing vp wicked Spirits from vnder ground,</line>
 <line globalnumber="871" number="871">Demanding of King <name type="person">Henrie</name>s Life and Death,</line>
 <line globalnumber="872" number="872">And other of your Highne&#383;&#383;e Priuie Councell,</line>
@@ -2544,7 +2546,7 @@
 
 <speech>
 <speaker>Card.</speaker>
-<line globalnumber="874" number="874">And &#383;o my Lord Prote&#392;tor, by this meanes</line>
+<line globalnumber="874" number="874">And &#383;o my Lord Prote&#57348;or, by this meanes</line>
 <line globalnumber="875" number="875">Your Lady is forth-comming, yet at London.</line>
 <line globalnumber="876" number="876">This Newes I thinke hath turn&#8217;d your Weapons edge;</line>
 <line globalnumber="877" number="877">&#8217;Tis like, my Lord, you will not keepe your houre.</line>
@@ -2552,7 +2554,7 @@
 
 <speech>
 <speaker>Glo&#383;t.</speaker>
-<line globalnumber="878" number="878">Ambitious Church-man, leaue to af&#64258;i&#392;t my heart:</line>
+<line globalnumber="878" number="878">Ambitious Church-man, leaue to af&#64258;i&#57348; my heart:</line>
 <line globalnumber="879" number="879">Sorrow and griefe haue vanqui&#383;ht all my powers;</line>
 <line globalnumber="880" number="880">And vanqui&#383;ht as I am, I yeeld to thee,</line>
 <line globalnumber="881" number="881">Or to the meane&#383;t Groome.</line>
@@ -2566,7 +2568,7 @@
 
 <speech>
 <speaker>Queene.</speaker>
-<line globalnumber="884" number="884"> <name type="person">Gloster</name>, &#383;ee here the Tain&#392;ture of thy Ne&#383;t,</line>
+<line globalnumber="884" number="884"> <name type="person">Gloster</name>, &#383;ee here the Tain&#57348;ure of thy Ne&#383;t,</line>
 <line globalnumber="885" number="885">And looke thy &#383;elfe be faultle&#383;&#383;e, thou wert be&#383;t.</line>
 </speech>
 
@@ -2613,7 +2615,7 @@
 <speech>
 <speaker>Warw.</speaker>
 <line globalnumber="908" number="908">Sweet <name type="person">Yorke</name> begin: and if thy clayme be good,</line>
-<line globalnumber="909" number="909">The <name type="person">Neuills</name> are thy Subie&#392;ts to command.</line>
+<line globalnumber="909" number="909">The <name type="person">Neuills</name> are thy Subie&#57348;s to command.</line>
 </speech>
 
 <speech>
@@ -2793,17 +2795,17 @@
 <speaker>King.</speaker>
 <line globalnumber="1015" number="1015">Stay <name type="person">Humfrey</name>, Duke of Glo&#383;ter,</line>
 <line globalnumber="1016" number="1016">Ere thou goe, giue vp thy Staffe,</line>
-<line globalnumber="1017" number="1017"> <name type="person">Henry</name> will to him&#383;elfe Prote&#392;tor be,</line>
+<line globalnumber="1017" number="1017"> <name type="person">Henry</name> will to him&#383;elfe Prote&#57348;or be,</line>
 <line globalnumber="1018" number="1018">And God &#383;hall be my hope, my &#383;tay, my guide,</line>
 <line globalnumber="1019" number="1019">And Lanthorne to my feete:</line>
 <line globalnumber="1020" number="1020">And goe in peace, <name type="person">Humfrey</name>, no le&#383;&#383;e belou&#8217;d,</line>
-<line globalnumber="1021" number="1021">Then when thou wert Prote&#392;tor to thy King.</line>
+<line globalnumber="1021" number="1021">Then when thou wert Prote&#57348;or to thy King.</line>
 </speech>
 
 <speech>
 <speaker>Queene.</speaker>
 <line globalnumber="1022" number="1022">I &#383;ee no rea&#383;on, why a King of yeeres</line>
-<line globalnumber="1023" number="1023">Should be to be prote&#392;ted like a Child,</line>
+<line globalnumber="1023" number="1023">Should be to be prote&#57348;ed like a Child,</line>
 <line globalnumber="1024" number="1024">God and King <name type="person">Henry</name> gouerne Englands Realme:</line>
 <line globalnumber="1025" number="1025">Giue vp your Staffe, Sir, and the King his Realme.</line>
 </speech>
@@ -2894,7 +2896,7 @@
 
 <speech>
 <speaker>1. Prent.</speaker>
-<line globalnumber="1062" number="1062">Here <name type="person">Peter</name>, I drinke to thee, and be not a&#8212;</line>
+<line globalnumber="1062" number="1062">Here <name type="person">Peter</name>, I drinke to thee, and be not a&#160;&#8212;</line>
 <line globalnumber="1063" number="1063">fraid.</line>
 </speech>
 
@@ -2962,7 +2964,7 @@
 
 <speech>
 <speaker>Armorer.</speaker>
-<line globalnumber="1088" number="1088">Hold <name type="person">Peter</name>, hold, I confe&#383;&#383;e, I confe&#383;&#383;e Trea&#8212;</line>
+<line globalnumber="1088" number="1088">Hold <name type="person">Peter</name>, hold, I confe&#383;&#383;e, I confe&#383;&#383;e Trea&#160;&#8212;</line>
 <line globalnumber="1089" number="1089">&#383;on.</line>
 </speech>
 
@@ -3012,7 +3014,7 @@
 <line globalnumber="1108" number="1108">Vnneath may &#383;hee endure the Flintie Streets,</line>
 <line globalnumber="1109" number="1109">To treade them with her tender-feeling feet.</line>
 <line globalnumber="1110" number="1110">Sweet <name type="person">Nell</name>, ill can thy Noble Minde abrooke</line>
-<line globalnumber="1111" number="1111">The abie&#392;t People, gazing on thy face,</line>
+<line globalnumber="1111" number="1111">The abie&#57348; People, gazing on thy face,</line>
 <line globalnumber="1112" number="1112">With enuious Lookes laughing at thy &#383;hame,</line>
 <line globalnumber="1113" number="1113">That er&#383;t did follow thy prowd Chariot-Wheeles,</line>
 <line globalnumber="1114" number="1114">When thou did&#383;t ride in triumph through the &#383;treets.</line>
@@ -3054,7 +3056,7 @@
 <speaker>Elianor.</speaker>
 <line globalnumber="1129" number="1129">Ah <name type="person">Gloster</name>, teach me to forget my &#383;elfe:</line>
 <line globalnumber="1130" number="1130">For while&#383;t I thinke I am thy married Wife,</line>
-<line globalnumber="1131" number="1131">And thou a Prince, Prote&#392;tor of this Land;</line>
+<line globalnumber="1131" number="1131">And thou a Prince, Prote&#57348;or of this Land;</line>
 <line globalnumber="1132" number="1132">Me thinkes I &#383;hould not thus be led along,</line>
 <line globalnumber="1133" number="1133">Mayl&#8217;d vp in &#383;hame, with Papers on my back,</line>
 <line globalnumber="1134" number="1134">And follow&#8217;d with a Rabble, that reioyce</line>
@@ -3126,7 +3128,7 @@
 
 <speech>
 <speaker>Glo&#383;t.</speaker>
-<line globalnumber="1181" number="1181">Mu&#383;t you, Sir <name type="person">Iohn</name>, prote&#392;t my Lady here?</line>
+<line globalnumber="1181" number="1181">Mu&#383;t you, Sir <name type="person">Iohn</name>, prote&#57348; my Lady here?</line>
 </speech>
 
 <speech>
@@ -3145,7 +3147,7 @@
 
 <speech>
 <speaker>Elianor.</speaker>
-<line globalnumber="1188" number="1188">What, gone my Lord, and bid me not fare&#8212;</line>
+<line globalnumber="1188" number="1188">What, gone my Lord, and bid me not fare&#160;&#8212;</line>
 <line globalnumber="1189" number="1189">well?</line>
 </speech>
 
@@ -3188,7 +3190,7 @@
 <speech>
 <speaker>Elianor.</speaker>
 <line globalnumber="1204" number="1204">Sherife farewell, and better then I fare,</line>
-<line globalnumber="1205" number="1205">Although thou ha&#383;t beene Condu&#392;t of my &#383;hame.</line>
+<line globalnumber="1205" number="1205">Although thou ha&#383;t beene Condu&#57348; of my &#383;hame.</line>
 </speech>
 
 <speech>
@@ -3250,7 +3252,7 @@
 <line globalnumber="1236" number="1236">Fir&#383;t note, that he is neere you in di&#383;cent,</line>
 <line globalnumber="1237" number="1237">And &#383;hould you fall, he is the next will mount.</line>
 <line globalnumber="1238" number="1238">Me &#383;eemeth then, it is no Pollicie,</line>
-<line globalnumber="1239" number="1239">Re&#383;pe&#392;ting what a rancorous minde he beares,</line>
+<line globalnumber="1239" number="1239">Re&#383;pe&#57348;ing what a rancorous minde he beares,</line>
 <line globalnumber="1240" number="1240">And his aduantage following your decea&#383;e,</line>
 <line globalnumber="1241" number="1241">That he &#383;hould come about your Royall Per&#383;on,</line>
 <line globalnumber="1242" number="1242">Or be admitted to your Highne&#383;&#383;e Councell.</line>
@@ -3261,13 +3263,13 @@
 <line globalnumber="1247" number="1247">Suffer them now, and they&#8217;le o&#8217;re-grow the Garden,</line>
 <line globalnumber="1248" number="1248">And choake the Herbes for want of Husbandry.</line>
 <line globalnumber="1249" number="1249">The reuerent care I beare vnto my Lord,</line>
-<line globalnumber="1250" number="1250">Made me colle&#392;t the&#383;e dangers in the Duke.</line>
+<line globalnumber="1250" number="1250">Made me colle&#57348; the&#383;e dangers in the Duke.</line>
 <line globalnumber="1251" number="1251">If it be fond, call it a Womans feare:</line>
 <line globalnumber="1252" number="1252">Which feare, if better Rea&#383;ons can &#383;upplant,</line>
 <line globalnumber="1253" number="1253">I will &#383;ub&#383;cribe, and &#383;ay I wrong&#8217;d the Duke.</line>
 <line globalnumber="1254" number="1254">My Lord of Suffolke, Buckingham, and Yorke,</line>
 <line globalnumber="1255" number="1255">Reproue my allegation, if you can,</line>
-<line globalnumber="1256" number="1256">Or el&#383;e conclude my words effe&#392;tuall.</line>
+<line globalnumber="1256" number="1256">Or el&#383;e conclude my words effe&#57348;uall.</line>
 </speech>
 
 <speech>
@@ -3276,7 +3278,7 @@
 <line globalnumber="1258" number="1258">And had I &#64257;r&#383;t beene put to &#383;peake my minde,</line>
 <line globalnumber="1259" number="1259">I thinke I &#383;hould haue told your Graces Tale.</line>
 <line globalnumber="1260" number="1260">The Duche&#383;&#383;e, by his &#383;ubornation,</line>
-<line globalnumber="1261" number="1261">Vpon my Life began her diuelli&#383;h pra&#392;ti&#383;es:</line>
+<line globalnumber="1261" number="1261">Vpon my Life began her diuelli&#383;h pra&#57348;i&#383;es:</line>
 <line globalnumber="1262" number="1262">Or if he were not priuie to tho&#383;e Faults,</line>
 <line globalnumber="1263" number="1263">Yet by reputing of his high di&#383;cent,</line>
 <line globalnumber="1264" number="1264">As next the King, he was &#383;ucce&#383;&#383;iue Heire,</line>
@@ -3298,7 +3300,7 @@
 
 <speech>
 <speaker>Yorke.</speaker>
-<line globalnumber="1275" number="1275">And did he not, in his Prote&#392;tor&#383;hip,</line>
+<line globalnumber="1275" number="1275">And did he not, in his Prote&#57348;or&#383;hip,</line>
 <line globalnumber="1276" number="1276">Leuie great &#383;ummes of Money through the Realme,</line>
 <line globalnumber="1277" number="1277">For Souldiers pay in France, and neuer &#383;ent it?</line>
 <line globalnumber="1278" number="1278">By meanes whereof, the Townes each day reuolted.</line>
@@ -3398,7 +3400,7 @@
 <speaker>Yorke.</speaker>
 <line globalnumber="1321" number="1321">&#8217;Tis thought, my Lord,</line>
 <line globalnumber="1322" number="1322">That you tooke Bribes of France,</line>
-<line globalnumber="1323" number="1323">And being Prote&#392;tor, &#383;tay&#8217;d the Souldiers pay,</line>
+<line globalnumber="1323" number="1323">And being Prote&#57348;or, &#383;tay&#8217;d the Souldiers pay,</line>
 <line globalnumber="1324" number="1324">By meanes whereof, his Highne&#383;&#383;e hath lo&#383;t France.</line>
 </speech>
 
@@ -3431,14 +3433,14 @@
 
 <speech>
 <speaker>Yorke.</speaker>
-<line globalnumber="1340" number="1340">In your Prote&#392;tor&#383;hip, you did deui&#383;e</line>
+<line globalnumber="1340" number="1340">In your Prote&#57348;or&#383;hip, you did deui&#383;e</line>
 <line globalnumber="1341" number="1341">Strange Tortures for Offendors, neuer heard of,</line>
 <line globalnumber="1342" number="1342">That England was defam&#8217;d by Tyrannie.</line>
 </speech>
 
 <speech>
 <speaker>Glo&#383;t.</speaker>
-<line globalnumber="1343" number="1343">Why &#8217;tis well known, that whiles I was Prote&#392;tor,</line>
+<line globalnumber="1343" number="1343">Why &#8217;tis well known, that whiles I was Prote&#57348;or,</line>
 <line globalnumber="1344" number="1344">Pittie was all the fault that was in me:</line>
 <line globalnumber="1345" number="1345">For I &#383;hould melt at an Offendors teares,</line>
 <line globalnumber="1346" number="1346">And lowly words were Ran&#383;ome for their fault:</line>
@@ -3478,7 +3480,7 @@
 <line globalnumber="1368" number="1368">And proue the Period of their Tyrannie,</line>
 <line globalnumber="1369" number="1369">I would expend it with all willingne&#383;&#383;e.</line>
 <line globalnumber="1370" number="1370">But mine is made the Prologue to their Play:</line>
-<line globalnumber="1371" number="1371">For thou&#383;ands more, that yet &#383;u&#383;pe&#392;t no perill,</line>
+<line globalnumber="1371" number="1371">For thou&#383;ands more, that yet &#383;u&#383;pe&#57348; no perill,</line>
 <line globalnumber="1372" number="1372">Will not conclude their plotted Tragedie.</line>
 <line globalnumber="1373" number="1373"> <name type="person">Beaufords</name> red &#383;parkling eyes blab his hearts mallice,</line>
 <line globalnumber="1374" number="1374">And <name type="person">Suffolks</name> cloudie Brow his &#383;tormie hate;</line>
@@ -3496,7 +3498,7 @@
 <line globalnumber="1386" number="1386">And all to make away my guiltle&#383;&#383;e Life.</line>
 <line globalnumber="1387" number="1387">I &#383;hall not want fal&#383;e Witne&#383;&#383;e, to condemne me,</line>
 <line globalnumber="1388" number="1388">Nor &#383;tore of Trea&#383;ons, to augment my guilt:</line>
-<line globalnumber="1389" number="1389">The ancient Prouerbe will be well effe&#392;ted,</line>
+<line globalnumber="1389" number="1389">The ancient Prouerbe will be well effe&#57348;ed,</line>
 <line globalnumber="1390" number="1390">A Staffe is quickly found to beat a Dogge.</line>
 </speech>
 
@@ -3561,7 +3563,7 @@
 
 <speech>
 <speaker>Queene.</speaker>
-<line globalnumber="1416" number="1416">What, will your Highne&#383;&#383;e leaue the Parlia&#8212;</line>
+<line globalnumber="1416" number="1416">What, will your Highne&#383;&#383;e leaue the Parlia&#160;&#8212;</line>
 <line globalnumber="1417" number="1417">ment?</line>
 </speech>
 
@@ -3646,7 +3648,7 @@
 <line globalnumber="1468" number="1468">Say as you thinke, and &#383;peake it from your Soules:</line>
 <line globalnumber="1469" number="1469">Wer&#8217;t not all one, an emptie Eagle were &#383;et,</line>
 <line globalnumber="1470" number="1470">To guard the Chicken from a hungry Kyte,</line>
-<line globalnumber="1471" number="1471">As place Duke <name type="person">Humfrey</name> for the Kings Prote&#392;tor?</line>
+<line globalnumber="1471" number="1471">As place Duke <name type="person">Humfrey</name> for the Kings Prote&#57348;or?</line>
 </speech>
 
 <speech>
@@ -3750,7 +3752,7 @@
 <line globalnumber="1518" number="1518">I rather would haue lo&#383;t my Life betimes,</line>
 <line globalnumber="1519" number="1519">Then bring a burthen of dis-honour home,</line>
 <line globalnumber="1520" number="1520">By &#383;taying there &#383;o long, till all were lo&#383;t.</line>
-<line globalnumber="1521" number="1521">Shew me one skarre, chara&#392;ter&#8217;d on thy Skinne,</line>
+<line globalnumber="1521" number="1521">Shew me one skarre, chara&#57348;er&#8217;d on thy Skinne,</line>
 <line globalnumber="1522" number="1522">Mens &#64258;e&#383;h pre&#383;eru&#8217;d &#383;o whole, doe &#383;eldome winne.</line>
 </speech>
 
@@ -3781,7 +3783,7 @@
 <line globalnumber="1533" number="1533">Th&#8217; vnciuill Kernes of Ireland are in Armes,</line>
 <line globalnumber="1534" number="1534">And temper Clay with blood of Engli&#383;hmen.</line>
 <line globalnumber="1535" number="1535">To Ireland will you leade a Band of men,</line>
-<line globalnumber="1536" number="1536">Colle&#392;ted choycely, from each Countie &#383;ome,</line>
+<line globalnumber="1536" number="1536">Colle&#57348;ed choycely, from each Countie &#383;ome,</line>
 <line globalnumber="1537" number="1537">And trie your hap again&#383;t the Iri&#383;hmen?</line>
 </speech>
 
@@ -3820,7 +3822,7 @@
 <speech>
 <speaker>Yorke.</speaker>
 <line globalnumber="1550" number="1550">My Lord of Suffolke, within foureteene dayes</line>
-<line globalnumber="1551" number="1551">At Bri&#383;tow I expe&#392;t my Souldiers,</line>
+<line globalnumber="1551" number="1551">At Bri&#383;tow I expe&#57348; my Souldiers,</line>
 <line globalnumber="1552" number="1552">For there Ile &#383;hippe them all for Ireland.</line>
 </speech>
 
@@ -3879,9 +3881,9 @@
 <line globalnumber="1595" number="1595">For that <name type="person">Iohn Mortimer</name>, which now is dead,</line>
 <line globalnumber="1596" number="1596">In face, in gate, in &#383;peech he doth re&#383;emble.</line>
 <line globalnumber="1597" number="1597">By this, I &#383;hall perceiue the Commons minde,</line>
-<line globalnumber="1598" number="1598">How they affe&#392;t the Hou&#383;e and Clayme of <name type="person">Yorke</name>.</line>
+<line globalnumber="1598" number="1598">How they affe&#57348; the Hou&#383;e and Clayme of <name type="person">Yorke</name>.</line>
 <line globalnumber="1599" number="1599">Say he be taken, rackt, and tortured;</line>
-<line globalnumber="1600" number="1600">I know, no paine they can in&#64258;i&#392;t vpon him,</line>
+<line globalnumber="1600" number="1600">I know, no paine they can in&#64258;i&#57348; vpon him,</line>
 <line globalnumber="1601" number="1601">Will make him &#383;ay, I mou&#8217;d him to tho&#383;e Armes.</line>
 <line globalnumber="1602" number="1602">Say that he thriue, as &#8217;tis great like he will,</line>
 <line globalnumber="1603" number="1603">Why then from Ireland come I with my &#383;trength,</line>
@@ -3929,7 +3931,7 @@
 <line globalnumber="1615" number="1615">I will reward you for this venturous deed:</line>
 <line globalnumber="1616" number="1616">The King and all the Peeres are here at hand.</line>
 <line globalnumber="1617" number="1617">Haue you layd faire the Bed? Is all things well,</line>
-<line globalnumber="1618" number="1618">According as I gaue dire&#392;tions?</line>
+<line globalnumber="1618" number="1618">According as I gaue dire&#57348;ions?</line>
 </speech>
 
 <speech>
@@ -3965,7 +3967,7 @@
 <line globalnumber="1625" number="1625">Lords take your places: and I pray you all</line>
 <line globalnumber="1626" number="1626">Proceed no &#383;traiter &#8217;gain&#383;t our Vnckle <name type="person">Glo&#383;ter</name>,</line>
 <line globalnumber="1627" number="1627">Then from true euidence, of good e&#383;teeme,</line>
-<line globalnumber="1628" number="1628">He be approu&#8217;d in pra&#392;ti&#383;e culpable.</line>
+<line globalnumber="1628" number="1628">He be approu&#8217;d in pra&#57348;i&#383;e culpable.</line>
 </speech>
 
 <speech>
@@ -4035,7 +4037,7 @@
 
 <speech>
 <speaker>Suff.</speaker>
-<line globalnumber="1647" number="1647">Comfort my Soueraigne, gracious <name type="person">Henry</name> com&#8212;</line>
+<line globalnumber="1647" number="1647">Comfort my Soueraigne, gracious <name type="person">Henry</name> com&#160;&#8212;</line>
 <line globalnumber="1648" number="1648">fort.</line>
 </speech>
 
@@ -4094,7 +4096,7 @@
 <line globalnumber="1687" number="1687">Be poy&#383;onous too, and kill thy forlorne Queene.</line>
 <line globalnumber="1688" number="1688">Is all thy comfort &#383;hut in Glo&#383;ters Tombe?</line>
 <line globalnumber="1689" number="1689">Why then Dame <name type="person">Elianor</name> was neere thy ioy.</line>
-<line globalnumber="1690" number="1690">Ere&#392;t his Statue, and wor&#383;hip it,</line>
+<line globalnumber="1690" number="1690">Ere&#57348; his Statue, and wor&#383;hip it,</line>
 <line globalnumber="1691" number="1691">And make my Image but an Ale-hou&#383;e &#383;igne.</line>
 <line globalnumber="1692" number="1692">Was I for this nye wrack&#8217;d vpon the Sea,</line>
 <line globalnumber="1693" number="1693">And twice by aukward winde from Englands banke</line>
@@ -4126,13 +4128,13 @@
 <line globalnumber="1719" number="1719">And &#383;o I wi&#383;h&#8217;d thy body might my Heart:</line>
 <line globalnumber="1720" number="1720">And euen with this, I lo&#383;t faire Englands view,</line>
 <line globalnumber="1721" number="1721">And bid mine eyes be packing with my Heart,</line>
-<line globalnumber="1722" number="1722">And call&#8217;d them blinde and duskie Spe&#392;tacles,</line>
+<line globalnumber="1722" number="1722">And call&#8217;d them blinde and duskie Spe&#57348;acles,</line>
 <line globalnumber="1723" number="1723">For loo&#383;ing ken of <name type="person">Albions</name> wi&#383;hed Coa&#383;t.</line>
 <line globalnumber="1724" number="1724">How often haue I tempted Suffolkes tongue</line>
 <line globalnumber="1725" number="1725">(The agent of thy foule incon&#383;tancie)</line>
 <line globalnumber="1726" number="1726">To &#383;it and watch me as <name type="person">A&#383;canius</name> did,</line>
 <line globalnumber="1727" number="1727">When he to madding <name type="person">Dido</name> would vnfold</line>
-<line globalnumber="1728" number="1728">His Fathers A&#392;ts, commenc&#8217;d in burning Troy.</line>
+<line globalnumber="1728" number="1728">His Fathers A&#57348;s, commenc&#8217;d in burning Troy.</line>
 <line globalnumber="1729" number="1729">Am I not witcht like her? Or thou not fal&#383;e like him?</line>
 <line globalnumber="1730" number="1730">Aye me, I can no more: Dye <name type="person">Elinor</name>,</line>
 <line globalnumber="1731" number="1731">For <name type="person">Henry</name> weepes, that thou do&#383;t liue &#383;o long.</line>
@@ -4171,7 +4173,7 @@
 <line globalnumber="1746" number="1746">O thou that iudge&#383;t all things, &#383;tay my thoghts:</line>
 <line globalnumber="1747" number="1747">My thoughts, that labour to per&#383;wade my &#383;oule,</line>
 <line globalnumber="1748" number="1748">Some violent hands were laid on <name type="person">Humfries</name> life:</line>
-<line globalnumber="1749" number="1749">If my &#383;u&#383;pe&#392;t be fal&#383;e, forgiue me God,</line>
+<line globalnumber="1749" number="1749">If my &#383;u&#383;pe&#57348; be fal&#383;e, forgiue me God,</line>
 <line globalnumber="1750" number="1750">For iudgement onely doth belong to thee:</line>
 <line globalnumber="1751" number="1751">Faine would I go to chafe his palie lips,</line>
 <line globalnumber="1752" number="1752">With twenty thou&#383;and ki&#383;&#383;es, and to draine</line>
@@ -4218,8 +4220,8 @@
 <line globalnumber="1772" number="1772">Oft haue I &#383;eene a timely-parted Gho&#383;t,</line>
 <line globalnumber="1773" number="1773">Of a&#383;hy &#383;emblance, meager, pale, and bloodle&#383;&#383;e,</line>
 <line globalnumber="1774" number="1774">Being all de&#383;cended to the labouring heart,</line>
-<line globalnumber="1775" number="1775">Who in the Con&#64258;i&#392;t that it holds with death,</line>
-<line globalnumber="1776" number="1776">Attra&#392;ts the &#383;ame for aydance &#8217;gain&#383;t the enemy,</line>
+<line globalnumber="1775" number="1775">Who in the Con&#64258;i&#57348; that it holds with death,</line>
+<line globalnumber="1776" number="1776">Attra&#57348;s the &#383;ame for aydance &#8217;gain&#383;t the enemy,</line>
 <line globalnumber="1777" number="1777">Which with the heart there cooles, and ne&#8217;re returneth,</line>
 <line globalnumber="1778" number="1778">To blu&#383;h and beauti&#64257;e the Cheeke againe.</line>
 <line globalnumber="1779" number="1779">But &#383;ee, his face is blacke, and full of blood:</line>
@@ -4238,7 +4240,7 @@
 <speech>
 <speaker>Suf.</speaker>
 <line globalnumber="1790" number="1790">Why Warwicke, who &#383;hould do the D. to death?</line>
-<line globalnumber="1791" number="1791">My &#383;elfe and <name type="person">Beauford</name> had him in prote&#392;tion,</line>
+<line globalnumber="1791" number="1791">My &#383;elfe and <name type="person">Beauford</name> had him in prote&#57348;ion,</line>
 <line globalnumber="1792" number="1792">And we I hope &#383;ir, are no murtherers.</line>
 </speech>
 
@@ -4252,7 +4254,7 @@
 
 <speech>
 <speaker>Queen.</speaker>
-<line globalnumber="1797" number="1797">Than you belike &#383;u&#383;pe&#392;t the&#383;e Noblemen,</line>
+<line globalnumber="1797" number="1797">Than you belike &#383;u&#383;pe&#57348; the&#383;e Noblemen,</line>
 <line globalnumber="1798" number="1798">As guilty of Duke <name type="person">Humfries</name> timele&#383;&#383;e death.</line>
 </speech>
 
@@ -4260,7 +4262,7 @@
 <speaker>Warw.</speaker>
 <line globalnumber="1799" number="1799">Who &#64257;nds the Heyfer dead, and bleeding fre&#383;h,</line>
 <line globalnumber="1800" number="1800">And &#383;ees fa&#383;t-by, a Butcher with an Axe,</line>
-<line globalnumber="1801" number="1801">But will &#383;u&#383;pe&#392;t, &#8217;twas he that made the &#383;laughter?</line>
+<line globalnumber="1801" number="1801">But will &#383;u&#383;pe&#57348;, &#8217;twas he that made the &#383;laughter?</line>
 <line globalnumber="1802" number="1802">Who &#64257;nds the Partridge in the Puttocks Ne&#383;t,</line>
 <line globalnumber="1803" number="1803">But may imagine how the Bird was dead,</line>
 <line globalnumber="1804" number="1804">Although the Kyte &#383;oare with vnbloudied Beake?</line>
@@ -4387,15 +4389,15 @@
 <line globalnumber="1861" number="1861">And torture him with grieuous lingring death.</line>
 <line globalnumber="1862" number="1862">They &#383;ay, by him the good Duke <name type="person">Humfrey</name> dy&#8217;de:</line>
 <line globalnumber="1863" number="1863">They &#383;ay, in him they feare your Highne&#383;&#383;e death;</line>
-<line globalnumber="1864" number="1864">And meere in&#383;tin&#392;t of Loue and Loyaltie,</line>
+<line globalnumber="1864" number="1864">And meere in&#383;tin&#57348; of Loue and Loyaltie,</line>
 <line globalnumber="1865" number="1865">Free from a &#383;tubborne oppo&#383;ite intent,</line>
-<line globalnumber="1866" number="1866">As being thought to contradi&#392;t your liking,</line>
+<line globalnumber="1866" number="1866">As being thought to contradi&#57348; your liking,</line>
 <line globalnumber="1867" number="1867">Makes them thus forward in his Bani&#383;hment.</line>
 <line globalnumber="1868" number="1868">They &#383;ay, in care of your mo&#383;t Royall Per&#383;on,</line>
 <line globalnumber="1869" number="1869">That if your Highne&#383;&#383;e &#383;hould intend to &#383;leepe,</line>
 <line globalnumber="1870" number="1870">And charge, that no man &#383;hould di&#383;turbe your re&#383;t,</line>
 <line globalnumber="1871" number="1871">In paine of your di&#383;like, or paine of death;</line>
-<line globalnumber="1872" number="1872">Yet not with&#383;tanding &#383;uch a &#383;trait Edi&#392;t,</line>
+<line globalnumber="1872" number="1872">Yet not with&#383;tanding &#383;uch a &#383;trait Edi&#57348;,</line>
 <line globalnumber="1873" number="1873">Were there a Serpent &#383;eene, with forked Tongue,</line>
 <line globalnumber="1874" number="1874">That &#383;lyly glyded towards your Maie&#383;tie,</line>
 <line globalnumber="1875" number="1875">It were but nece&#383;&#383;arie you were wak&#8217;t:</line>
@@ -4443,7 +4445,7 @@
 <line globalnumber="1900" number="1900">Mi&#383;chance vnto my State by <name type="person">Suffolkes</name> meanes.</line>
 <line globalnumber="1901" number="1901">And therefore by his Maie&#383;tie I &#383;weare,</line>
 <line globalnumber="1902" number="1902">Who&#383;e farre-vnworthie Deputie I am,</line>
-<line globalnumber="1903" number="1903">He &#383;hall not breathe infe&#392;tion in this ayre,</line>
+<line globalnumber="1903" number="1903">He &#383;hall not breathe infe&#57348;ion in this ayre,</line>
 <line globalnumber="1904" number="1904">But three dayes longer, on the paine of death.</line>
 </speech>
 
@@ -4471,7 +4473,7 @@
 <speech>
 <speaker>Qu.</speaker>
 <line globalnumber="1916" number="1916">Mi&#383;chance and Sorrow goe along with you,</line>
-<line globalnumber="1917" number="1917">Hearts Di&#383;content, and &#383;owre Af&#64258;i&#392;tion,</line>
+<line globalnumber="1917" number="1917">Hearts Di&#383;content, and &#383;owre Af&#64258;i&#57348;ion,</line>
 <line globalnumber="1918" number="1918">Be play-fellowes to keepe you companie:</line>
 <line globalnumber="1919" number="1919">There&#8217;s two of you, the Deuill make a third,</line>
 <line globalnumber="1920" number="1920">And three-fold Vengeance tend vpon your &#383;teps.</line>
@@ -4501,13 +4503,13 @@
 <line globalnumber="1932" number="1932">As leane-fac&#8217;d enuy in her loath&#383;ome caue.</line>
 <line globalnumber="1933" number="1933">My tongue &#383;hould &#383;tumble in mine earne&#383;t words,</line>
 <line globalnumber="1934" number="1934">Mine eyes &#383;hould &#383;parkle like the beaten Flint,</line>
-<line globalnumber="1935" number="1935">Mine haire be &#64257;xt an end, as one di&#383;tra&#392;t:</line>
+<line globalnumber="1935" number="1935">Mine haire be &#64257;xt an end, as one di&#383;tra&#57348;:</line>
 <line globalnumber="1936" number="1936">I, euery ioynt &#383;hould &#383;eeme to cur&#383;e and ban,</line>
 <line globalnumber="1937" number="1937">And euen now my burthen&#8217;d heart would breake</line>
 <line globalnumber="1938" number="1938">Should I not cur&#383;e them. Poy&#383;on be their drinke.</line>
 <line globalnumber="1939" number="1939">Gall, wor&#383;e then Gall, the daintie&#383;t that they ta&#383;te:</line>
 <line globalnumber="1940" number="1940">Their &#383;weete&#383;t &#383;hade, a groue of Cypre&#383;&#383;e Trees:</line>
-<line globalnumber="1941" number="1941">Their cheefe&#383;t Pro&#383;pe&#392;t, murd&#8217;ring Ba&#383;iliskes:</line>
+<line globalnumber="1941" number="1941">Their cheefe&#383;t Pro&#383;pe&#57348;, murd&#8217;ring Ba&#383;iliskes:</line>
 <line globalnumber="1942" number="1942">Their &#383;ofte&#383;t Touch, as &#383;mart as Lyzards &#383;tings:</line>
 <line globalnumber="1943" number="1943">Their Mu&#383;icke, frightfull as the Serpents hi&#383;&#383;e,</line>
 <line globalnumber="1944" number="1944">And boading Screech-Owles, make the Con&#383;ort full.</line>
@@ -4630,7 +4632,7 @@
 <line globalnumber="2022" number="2022">It is applyed to a deathfull wound.</line>
 <line globalnumber="2023" number="2023">To France &#383;weet Suffolke: Let me heare from thee:</line>
 <line globalnumber="2024" number="2024">For where&#383;oere thou art in this worlds Globe,</line>
-<line globalnumber="2025" number="2025">Ile haue an <italic>Iris</italic> that &#383;hall &#64257;nde thee out.</line>
+<line globalnumber="2025" number="2025">Ile haue an <emph rend="italic">Iris</emph> that &#383;hall &#64257;nde thee out.</line>
 </speech>
 
 <speech>
@@ -4921,7 +4923,7 @@
 <line globalnumber="2145" number="2145">And wedded be thou to the Hagges of hell,</line>
 <line globalnumber="2146" number="2146">For daring to affye a mighty Lord</line>
 <line globalnumber="2147" number="2147">Vnto the daughter of a worthle&#383;&#383;e King,</line>
-<line globalnumber="2148" number="2148">Hauing neyther Subie&#392;t, Wealth, nor Diadem:</line>
+<line globalnumber="2148" number="2148">Hauing neyther Subie&#57348;, Wealth, nor Diadem:</line>
 <line globalnumber="2149" number="2149">By diuelli&#383;h policy art thou growne great,</line>
 <line globalnumber="2150" number="2150">And like ambitious Sylla ouer-gorg&#8217;d,</line>
 <line globalnumber="2151" number="2151">With gobbets of thy Mother-bleeding heart.</line>
@@ -4938,7 +4940,7 @@
 <line globalnumber="2162" number="2162">And lofty proud incroaching tyranny,</line>
 <line globalnumber="2163" number="2163">Burnes with reuenging &#64257;re, who&#383;e hopefull colours</line>
 <line globalnumber="2164" number="2164">Aduance our halfe-fac&#8217;d Sunne, &#383;triuing to &#383;hine;</line>
-<line globalnumber="2165" number="2165">Vnder the which is writ, <latin xml:lang="la">Inuitis nubibus</latin>.</line>
+<line globalnumber="2165" number="2165">Vnder the which is writ, <foreign xml:lang="la">Inuitis nubibus</foreign>.</line>
 <line globalnumber="2166" number="2166">The Commons heere in Kent are vp in armes,</line>
 <line globalnumber="2167" number="2167">And to conclude, Reproach and Beggerie,</line>
 <line globalnumber="2168" number="2168">Is crept into the Pallace of our King,</line>
@@ -4948,7 +4950,7 @@
 <speech>
 <speaker>Suf.</speaker>
 <line globalnumber="2170" number="2170">O that I were a God, to &#383;hoot forth Thunder</line>
-<line globalnumber="2171" number="2171">Vpon the&#383;e paltry, &#383;eruile, abie&#392;t Drudges:</line>
+<line globalnumber="2171" number="2171">Vpon the&#383;e paltry, &#383;eruile, abie&#57348; Drudges:</line>
 <line globalnumber="2172" number="2172">Small things make ba&#383;e men proud. This Villaine heere,</line>
 <line globalnumber="2173" number="2173">Being Captaine of a Pinnace, threatens more</line>
 <line globalnumber="2174" number="2174">Then <name type="person">Bargulus</name> the &#383;trong Illyrian Pyrate.</line>
@@ -4968,7 +4970,7 @@
 
 <speech>
 <speaker>Suf.</speaker>
-<line globalnumber="2183" number="2183"><latin xml:lang="la">Pine gelidus timor occupat artus</latin>, it is thee I feare.</line>
+<line globalnumber="2183" number="2183"><foreign xml:lang="la">Pine gelidus timor occupat artus</foreign>, it is thee I feare.</line>
 </speech>
 
 <speech>
@@ -5035,7 +5037,7 @@
 
 <speech>
 <speaker>1. Gent.</speaker>
-<line globalnumber="2210" number="2210">O barbarous and bloudy &#383;pe&#392;tacle,</line>
+<line globalnumber="2210" number="2210">O barbarous and bloudy &#383;pe&#57348;acle,</line>
 <line globalnumber="2211" number="2211">His body will I beare vnto the King:</line>
 <line globalnumber="2212" number="2212">If he reuenge it not, yet will his Friends,</line>
 <line globalnumber="2213" number="2213">So will the Queene, that liuing, held him deere.</line>
@@ -5088,8 +5090,8 @@
 
 <speech>
 <speaker>Hol.</speaker>
-<line globalnumber="2229" number="2229">True: and yet it is &#383;aid, Labour in thy Vocati&#8212;</line>
-<line globalnumber="2230" number="2230">on: which is as much to &#383;ay, as let the Magi&#383;trates be la&#8212;</line>
+<line globalnumber="2229" number="2229">True: and yet it is &#383;aid, Labour in thy Vocati&#160;&#8212;</line>
+<line globalnumber="2230" number="2230">on: which is as much to &#383;ay, as let the Magi&#383;trates be la&#160;&#8212;</line>
 <line globalnumber="2231" number="2231">bouring men, and therefore &#383;hould we be Magi&#383;trates.</line>
 </speech>
 
@@ -5118,7 +5120,7 @@
 
 <speech>
 <speaker>Beuis.</speaker>
-<line globalnumber="2239" number="2239">Then is &#383;in &#383;trucke downe like an Oxe, and ini&#8212;</line>
+<line globalnumber="2239" number="2239">Then is &#383;in &#383;trucke downe like an Oxe, and ini&#160;&#8212;</line>
 <line globalnumber="2240" number="2240">quities throate cut like a Calfe.</line>
 </speech>
 
@@ -5141,7 +5143,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2244" number="2244">Wee <name type="person">Iohn Cade</name>, &#383;o tearm&#8217;d of our &#383;uppo&#383;ed Fa&#8212;</line>
+<line globalnumber="2244" number="2244">Wee <name type="person">Iohn Cade</name>, &#383;o tearm&#8217;d of our &#383;uppo&#383;ed Fa&#160;&#8212;</line>
 <line globalnumber="2245" number="2245">ther.</line>
 </speech>
 
@@ -5153,7 +5155,7 @@
 <speech>
 <speaker>Cade.</speaker>
 <line globalnumber="2247" number="2247">For our enemies &#383;hall faile before vs, in&#383;pired</line>
-<line globalnumber="2248" number="2248">with the &#383;pirit of putting down Kings and Princes. Com&#8212;</line>
+<line globalnumber="2248" number="2248">with the &#383;pirit of putting down Kings and Princes. Com&#160;&#8212;</line>
 <line globalnumber="2249" number="2249">mand &#383;ilence.</line>
 </speech>
 
@@ -5245,7 +5247,7 @@
 
 <speech>
 <speaker>But.</speaker>
-<line globalnumber="2272" number="2272">But me thinks he &#383;hould &#383;tand in feare of &#64257;re, be&#8212;</line>
+<line globalnumber="2272" number="2272">But me thinks he &#383;hould &#383;tand in feare of &#64257;re, be&#160;&#8212;</line>
 <line globalnumber="2273" number="2273">ing burnt i&#8217;th hand for &#383;tealing of Sheepe.</line>
 </speech>
 
@@ -5280,7 +5282,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2287" number="2287">Nay, that I meane to do. Is not this a lamenta&#8212;</line>
+<line globalnumber="2287" number="2287">Nay, that I meane to do. Is not this a lamenta&#160;&#8212;</line>
 <line globalnumber="2288" number="2288">ble thing, that of the skin of an innocent Lambe &#383;hould</line>
 <line globalnumber="2289" number="2289">be made Parchment; that Parchment being &#383;cribeld ore,</line>
 <line globalnumber="2290" number="2290">&#383;hould vndoe a man. Some &#383;ay the Bee &#383;tings, but I &#383;ay,</line>
@@ -5350,7 +5352,7 @@
 <speech>
 <speaker>Cade.</speaker>
 <line globalnumber="2310" number="2310">Let me alone: Do&#383;t thou v&#383;e to write thy name?</line>
-<line globalnumber="2311" number="2311">Or ha&#383;t thou a marke to thy &#383;elfe, like a hone&#383;t plain dea&#8212;</line>
+<line globalnumber="2311" number="2311">Or ha&#383;t thou a marke to thy &#383;elfe, like a hone&#383;t plain dea&#160;&#8212;</line>
 <line globalnumber="2312" number="2312">ling man?</line>
 </speech>
 
@@ -5406,7 +5408,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2327" number="2327">To equall him I will make my &#383;elfe a knight, pre&#8212;</line>
+<line globalnumber="2327" number="2327">To equall him I will make my &#383;elfe a knight, pre&#160;&#8212;</line>
 <line globalnumber="2328" number="2328">&#383;ently; Ri&#383;e vp Sir <name type="person">Iohn Mortimer</name>. Now haue at him.</line>
 </speech>
 
@@ -5511,11 +5513,11 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2362" number="2362">He lyes, for I inuented it my &#383;elfe. Go too Sir&#8212;</line>
+<line globalnumber="2362" number="2362">He lyes, for I inuented it my &#383;elfe. Go too Sir&#160;&#8212;</line>
 <line globalnumber="2363" number="2363">rah, tell the King from me, that for his Fathers &#383;ake <name type="person">Hen-</name></line>
 <line globalnumber="2364" number="2364"> <name type="person">ry</name> the &#64257;ft, (in who&#383;e time, boyes went to Span-counter</line>
 <line globalnumber="2365" number="2365">for French Crownes) I am content he &#383;hall raigne, but Ile</line>
-<line globalnumber="2366" number="2366">be Prote&#392;tor ouer him.</line>
+<line globalnumber="2366" number="2366">be Prote&#57348;or ouer him.</line>
 </speech>
 
 <speech>
@@ -5620,9 +5622,9 @@
 <speech>
 <speaker>Cade.</speaker>
 <line globalnumber="2406" number="2406">And to &#383;peake truth, thou de&#383;eru&#8217;&#383;t no le&#383;&#383;e.</line>
-<line globalnumber="2407" number="2407">This Monument of the vi&#392;tory will I beare, and the bo&#8212;</line>
+<line globalnumber="2407" number="2407">This Monument of the vi&#57348;ory will I beare, and the bo&#160;&#8212;</line>
 <line globalnumber="2408" number="2408">dies &#383;hall be dragg&#8217;d at my hor&#383;e heeles, till I do come to</line>
-<line globalnumber="2409" number="2409">London, where we will haue the Maiors &#383;word born be&#8212;</line>
+<line globalnumber="2409" number="2409">London, where we will haue the Maiors &#383;word born be&#160;&#8212;</line>
 <line globalnumber="2410" number="2410">fore vs.</line>
 </speech>
 
@@ -5929,7 +5931,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2524" number="2524">And hence-forward all things &#383;hall be in Com&#8212;</line>
+<line globalnumber="2524" number="2524">And hence-forward all things &#383;hall be in Com&#160;&#8212;</line>
 <line globalnumber="2525" number="2525">mon.</line>
 </speech>
 
@@ -5949,22 +5951,22 @@
 <speaker>Cade.</speaker>
 <line globalnumber="2530" number="2530">Well, hee &#383;hall be beheaded for it ten times:</line>
 <line globalnumber="2531" number="2531">Ah thou Say, thou Surge, nay thou Buckram Lord, now</line>
-<line globalnumber="2532" number="2532">art thou within point-blanke of our Iuri&#383;di&#392;tion Regall.</line>
+<line globalnumber="2532" number="2532">art thou within point-blanke of our Iuri&#383;di&#57348;ion Regall.</line>
 <line globalnumber="2533" number="2533">What can&#383;t thou an&#383;wer to my Maie&#383;ty, for giuing vp of</line>
 <line globalnumber="2534" number="2534">Normandie vnto Moun&#383;ieur <name type="person">Ba&#383;imecu</name>, the Dolphine of</line>
 <line globalnumber="2535" number="2535">France? Be it knowne vnto thee by the&#383;e pre&#383;ence, euen</line>
 <line globalnumber="2536" number="2536">the pre&#383;ence of Lord <name type="person">Mortimer</name>, that I am the Bee&#383;ome</line>
 <line globalnumber="2537" number="2537">that mu&#383;t &#383;weepe the Court cleane of &#383;uch &#64257;lth as thou</line>
 <line globalnumber="2538" number="2538">art: Thou ha&#383;t mo&#383;t traiterou&#383;ly corrupted the youth of</line>
-<line globalnumber="2539" number="2539">the Realme, in ere&#392;ting a Grammar Schoole: and where&#8212;</line>
+<line globalnumber="2539" number="2539">the Realme, in ere&#57348;ing a Grammar Schoole: and where&#160;&#8212;</line>
 <line globalnumber="2540" number="2540">as before, our Fore-fathers had no other Bookes but the</line>
 <line globalnumber="2541" number="2541">Score and the Tally, thou ha&#383;t cau&#383;ed printing to be vs&#8217;d,</line>
 <line globalnumber="2542" number="2542">and contrary to the King, his Crowne, and Dignity, thou</line>
 <line globalnumber="2543" number="2543">ha&#383;t built a Paper-Mill. It will be prooued to thy Face,</line>
 <line globalnumber="2544" number="2544">that thou ha&#383;t men about thee, that v&#383;ually talke of a</line>
 <line globalnumber="2545" number="2545">Nowne and a Verbe, and &#383;uch abhominable wordes, as</line>
-<line globalnumber="2546" number="2546">no Chri&#383;tian eare can endure to heare. Thou ha&#383;t appoin&#8212;</line>
-<line globalnumber="2547" number="2547">ted Iu&#383;tices of Peace, to call poore men before them, a&#8212;</line>
+<line globalnumber="2546" number="2546">no Chri&#383;tian eare can endure to heare. Thou ha&#383;t appoin&#160;&#8212;</line>
+<line globalnumber="2547" number="2547">ted Iu&#383;tices of Peace, to call poore men before them, a&#160;&#8212;</line>
 <line globalnumber="2548" number="2548">bout matters they were not able to an&#383;wer. Moreouer,</line>
 <line globalnumber="2549" number="2549">thou ha&#383;t put them in pri&#383;on, and becau&#383;e they could not</line>
 <line globalnumber="2550" number="2550">reade, thou ha&#383;t hang&#8217;d them, when (indeede) onely for</line>
@@ -5986,7 +5988,7 @@
 
 <speech>
 <speaker>Dicke.</speaker>
-<line globalnumber="2557" number="2557">And worke in their &#383;hirt to, as my &#383;elfe for ex&#8212;</line>
+<line globalnumber="2557" number="2557">And worke in their &#383;hirt to, as my &#383;elfe for ex&#160;&#8212;</line>
 <line globalnumber="2558" number="2558">ample, that am a butcher.</line>
 </speech>
 
@@ -6002,12 +6004,12 @@
 
 <speech>
 <speaker>Say.</speaker>
-<line globalnumber="2561" number="2561">Nothing but this: &#8217;Tis <latin xml:lang="la">bona terra, mala gens</latin>.</line>
+<line globalnumber="2561" number="2561">Nothing but this: &#8217;Tis <foreign xml:lang="la">bona terra, mala gens</foreign>.</line>
 </speech>
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2562" number="2562">Away with him, away with him, he &#383;peaks La&#8212;</line>
+<line globalnumber="2562" number="2562">Away with him, away with him, he &#383;peaks La&#160;&#8212;</line>
 <line globalnumber="2563" number="2563">tine.</line>
 </speech>
 
@@ -6018,13 +6020,13 @@
 <line globalnumber="2566" number="2566">Kent, in the Commentaries <name type="person">C&#230;&#383;ar</name> writ,</line>
 <line globalnumber="2567" number="2567">Is term&#8217;d the ciuel&#8217;&#383;t place of all this I&#383;le:</line>
 <line globalnumber="2568" number="2568">Sweet is the Country, becau&#383;e full of Riches,</line>
-<line globalnumber="2569" number="2569">The People Liberall, Valiant, A&#392;tiue, Wealthy,</line>
+<line globalnumber="2569" number="2569">The People Liberall, Valiant, A&#57348;iue, Wealthy,</line>
 <line globalnumber="2570" number="2570">Which makes me hope you are not void of pitty.</line>
 <line globalnumber="2571" number="2571">I &#383;old not <name type="person">Maine</name>, I lo&#383;t not <name type="person">Normandie</name>,</line>
 <line globalnumber="2572" number="2572">Yet to recouer them would loo&#383;e my life:</line>
 <line globalnumber="2573" number="2573">Iu&#383;tice with fauour haue I alwayes done,</line>
 <line globalnumber="2574" number="2574">Prayres and Teares haue mou&#8217;d me, Gifts could neuer.</line>
-<line globalnumber="2575" number="2575">When haue I ought exa&#392;ted at your hands?</line>
+<line globalnumber="2575" number="2575">When haue I ought exa&#57348;ed at your hands?</line>
 <line globalnumber="2576" number="2576">Kent to maintaine, the King, the Realme and you,</line>
 <line globalnumber="2577" number="2577">Large gifts haue I be&#383;tow&#8217;d on learned Clearkes,</line>
 <line globalnumber="2578" number="2578">Becau&#383;e my Booke preferr&#8217;d me to the King.</line>
@@ -6096,7 +6098,7 @@
 <speech>
 <speaker>Say.</speaker>
 <line globalnumber="2602" number="2602">Tell me: wherein haue I offended mo&#383;t?</line>
-<line globalnumber="2603" number="2603">Haue I affe&#392;ted wealth, or honor? Speake.</line>
+<line globalnumber="2603" number="2603">Haue I affe&#57348;ed wealth, or honor? Speake.</line>
 <line globalnumber="2604" number="2604">Are my Che&#383;ts &#64257;ll&#8217;d vp with extorted Gold?</line>
 <line globalnumber="2605" number="2605">Is my Apparrell &#383;umptuous to behold?</line>
 <line globalnumber="2606" number="2606">Whom haue I iniur&#8217;d, that ye &#383;eeke my death?</line>
@@ -6109,7 +6111,7 @@
 <speaker>Cade.</speaker>
 <line globalnumber="2610" number="2610">I feele remor&#383;e in my &#383;elfe with his words: but</line>
 <line globalnumber="2611" number="2611">Ile bridle it: he &#383;hall dye, and it bee but for pleading &#383;o</line>
-<line globalnumber="2612" number="2612">well for his life. Away with him, he ha&#8217;s a Familiar vn&#8212;</line>
+<line globalnumber="2612" number="2612">well for his life. Away with him, he ha&#8217;s a Familiar vn&#160;&#8212;</line>
 <line globalnumber="2613" number="2613">der his Tongue, he &#383;peakes not a Gods name. Goe, take</line>
 <line globalnumber="2614" number="2614">him away I &#383;ay, and &#383;trike off his head pre&#383;ently, and then</line>
 <line globalnumber="2615" number="2615">breake into his Sonne in Lawes hou&#383;e, Sir <name type="person">Iames Cromer</name>,</line>
@@ -6135,7 +6137,7 @@
 <line globalnumber="2623" number="2623">Away with him, and do as I command ye: the</line>
 <line globalnumber="2624" number="2624">proude&#383;t Peere in the Realme, &#383;hall not weare a head on</line>
 <line globalnumber="2625" number="2625">his &#383;houlders, vnle&#383;&#383;e he pay me tribute: there &#383;hall not</line>
-<line globalnumber="2626" number="2626">a maid be married, but &#383;he &#383;hall pay to me her Mayden&#8212;</line>
+<line globalnumber="2626" number="2626">a maid be married, but &#383;he &#383;hall pay to me her Mayden&#160;&#8212;</line>
 <line globalnumber="2627" number="2627">head ere they haue it: Men &#383;hall hold of mee in Capite.</line>
 <line globalnumber="2628" number="2628">And we charge and command, that their wiues be as free</line>
 <line globalnumber="2629" number="2629">as heart can wi&#383;h, or tongue can tell.</line>
@@ -6144,7 +6146,7 @@
 <speech>
 <speaker>Dicke.</speaker>
 <line globalnumber="2630" number="2630">My Lord,</line>
-<line globalnumber="2631" number="2631">When &#383;hall we go to Cheap&#383;ide, and take vp commodi&#8212;</line>
+<line globalnumber="2631" number="2631">When &#383;hall we go to Cheap&#383;ide, and take vp commodi&#160;&#8212;</line>
 <line globalnumber="2632" number="2632">ties vpon our billes?</line>
 </speech>
 
@@ -6225,7 +6227,7 @@
 <line globalnumber="2668" number="2668">I thought ye would neuer haue giuen out the&#383;e Armes til</line>
 <line globalnumber="2669" number="2669">you had recouered your ancient Freedome. But you are</line>
 <line globalnumber="2670" number="2670">all Recreants and Da&#383;tards, and delight to liue in &#383;lauerie</line>
-<line globalnumber="2671" number="2671">to the Nobility. Let them breake your backes with bur&#8212;</line>
+<line globalnumber="2671" number="2671">to the Nobility. Let them breake your backes with bur&#160;&#8212;</line>
 <line globalnumber="2672" number="2672">thens, take your hou&#383;es ouer your heads, raui&#383;h your</line>
 <line globalnumber="2673" number="2673">Wiues and Daughters before your faces. For me, I will</line>
 <line globalnumber="2674" number="2674">make &#383;hift for one, and &#383;o Gods Cur&#383;&#383;e light vppon you</line>
@@ -6242,7 +6244,7 @@
 <speaker short="CLIF.">Clif.</speaker>
 <line globalnumber="2678" number="2678">Is <name type="person">Cade</name> the &#383;onne of <name type="person">Henry</name> the &#64257;ft,</line>
 <line globalnumber="2679" number="2679">That thus you do exclaime you&#8217;l go with him.</line>
-<line globalnumber="2680" number="2680">Will he condu&#392;t you through the heart of France,</line>
+<line globalnumber="2680" number="2680">Will he condu&#57348; you through the heart of France,</line>
 <line globalnumber="2681" number="2681">And make the meane&#383;t of you Earles and Dukes?</line>
 <line globalnumber="2682" number="2682">Alas, he hath no home, no place to &#64258;ye too:</line>
 <line globalnumber="2683" number="2683">Nor knowes he how to liue, but by the &#383;poile,</line>
@@ -6252,13 +6254,13 @@
 <line globalnumber="2687" number="2687">Should make a &#383;tart ore-&#383;eas, and vanqui&#383;h you?</line>
 <line globalnumber="2688" number="2688">Me thinkes alreadie in this ciuill broyle,</line>
 <line globalnumber="2689" number="2689">I &#383;ee them Lording it in London &#383;treets,</line>
-<line globalnumber="2690" number="2690">Crying <italic>Villiago</italic> vnto all they meete.</line>
+<line globalnumber="2690" number="2690">Crying <emph rend="italic">Villiago</emph> vnto all they meete.</line>
 <line globalnumber="2691" number="2691">Better ten thou&#383;and ba&#383;e-borne <name type="person">Cades</name> mi&#383;carry,</line>
 <line globalnumber="2692" number="2692">Then you &#383;hould &#383;toope vnto a Frenchmans mercy.</line>
 <line globalnumber="2693" number="2693">To France, to France, and get what you haue lo&#383;t:</line>
 <line globalnumber="2694" number="2694">Spare England, for it is your Natiue Coa&#383;t:</line>
 <line globalnumber="2695" number="2695"> <name type="person">Henry</name> hath mony, you are &#383;trong and manly:</line>
-<line globalnumber="2696" number="2696">God on our &#383;ide, doubt not of Vi&#392;torie.</line>
+<line globalnumber="2696" number="2696">God on our &#383;ide, doubt not of Vi&#57348;orie.</line>
 </speech>
 
 <speech>
@@ -6271,7 +6273,7 @@
 <speaker>Cade.</speaker>
 <line globalnumber="2699" number="2699">Was euer Feather &#383;o lightly blowne too &amp; fro,</line>
 <line globalnumber="2700" number="2700">as this multitude? The name of Henry the &#64257;ft, hales them</line>
-<line globalnumber="2701" number="2701">to an hundred mi&#383;chiefes, and makes them leaue mee de&#8212;</line>
+<line globalnumber="2701" number="2701">to an hundred mi&#383;chiefes, and makes them leaue mee de&#160;&#8212;</line>
 <line globalnumber="2702" number="2702">&#383;olate. I &#383;ee them lay their heades together to &#383;urprize</line>
 <line globalnumber="2703" number="2703">me. My &#383;word make way for me, for heere is no &#383;taying:</line>
 <line globalnumber="2704" number="2704">in de&#383;pight of the diuels and hell, haue through the verie</line>
@@ -6303,8 +6305,8 @@
 <line globalnumber="2715" number="2715">And could command no more content then I?</line>
 <line globalnumber="2716" number="2716">No &#383;ooner was I crept out of my Cradle,</line>
 <line globalnumber="2717" number="2717">But I was made a King, at nine months olde.</line>
-<line globalnumber="2718" number="2718">Was neuer Subie&#392;t long&#8217;d to be a King,</line>
-<line globalnumber="2719" number="2719">As I do long and wi&#383;h to be a Subie&#392;t.</line>
+<line globalnumber="2718" number="2718">Was neuer Subie&#57348; long&#8217;d to be a King,</line>
+<line globalnumber="2719" number="2719">As I do long and wi&#383;h to be a Subie&#57348;.</line>
 </speech>
 
 <stagedir sdglobalnumber="2719.01" sdnumber="2719.01">Enter Buckingham and Clifford.</stagedir>
@@ -6326,7 +6328,7 @@
 <speaker short="CLIF.">Clif.</speaker>
 <line globalnumber="2723" number="2723">He is &#64258;ed my Lord, and all his powers do yeeld,</line>
 <line globalnumber="2724" number="2724">And humbly thus with halters on their neckes,</line>
-<line globalnumber="2725" number="2725">Expe&#392;t your Highne&#383;&#383;e doome of life, or death.</line>
+<line globalnumber="2725" number="2725">Expe&#57348; your Highne&#383;&#383;e doome of life, or death.</line>
 </speech>
 
 <speech>
@@ -6416,7 +6418,7 @@
 <line globalnumber="2772" number="2772">a mans &#383;tomacke this hot weather: and I think this word</line>
 <line globalnumber="2773" number="2773">Sallet was borne to do me good: for many a time but for</line>
 <line globalnumber="2774" number="2774">a Sallet, my braine-pan had bene cleft with a brown Bill;</line>
-<line globalnumber="2775" number="2775">and many a time when I haue beene dry, &amp; branely mar&#8212;</line>
+<line globalnumber="2775" number="2775">and many a time when I haue beene dry, &amp; branely mar&#160;&#8212;</line>
 <line globalnumber="2776" number="2776">ching, it hath &#383;eru&#8217;d me in&#383;teede of a quart pot to drinke</line>
 <line globalnumber="2777" number="2777">in: and now the word Sallet mu&#383;t &#383;erue me to feed on.</line>
 </speech>
@@ -6483,7 +6485,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2816" number="2816">By my Valour: the mo&#383;t compleate Champi&#8212;</line>
+<line globalnumber="2816" number="2816">By my Valour: the mo&#383;t compleate Champi&#160;&#8212;</line>
 <line globalnumber="2817" number="2817">on that euer I heard. Steele, if thou turne the edge, or</line>
 <line globalnumber="2818" number="2818">cut not out the burly bon&#8217;d Clowne in chines of Beefe,</line>
 <line globalnumber="2819" number="2819">ere thou &#383;leepe in thy Sheath, I be&#383;eech Ioue on my knees</line>
@@ -6509,7 +6511,7 @@
 
 <speech>
 <speaker>Cade.</speaker>
-<line globalnumber="2833" number="2833"> <name type="person">Iden</name> farewell, and be proud of thy vi&#392;tory: Tell</line>
+<line globalnumber="2833" number="2833"> <name type="person">Iden</name> farewell, and be proud of thy vi&#57348;ory: Tell</line>
 <line globalnumber="2834" number="2834">Kent from me, &#383;he hath lo&#383;t her be&#383;t man, and exhort all</line>
 <line globalnumber="2835" number="2835">the World to be Cowards: For I that neuer feared any,</line>
 <line globalnumber="2836" number="2836">am vanqui&#383;hed by Famine, not by Valour.</line>
@@ -6540,10 +6542,10 @@
 <line globalnumber="2847" number="2847">And plucke the Crowne from feeble <name type="person">Henries</name> head.</line>
 <line globalnumber="2848" number="2848">Ring Belles alowd, burne Bon&#64257;res cleare and bright</line>
 <line globalnumber="2849" number="2849">To entertaine great Englands lawfull King.</line>
-<line globalnumber="2850" number="2850">Ah <italic>San&#392;ta Maie&#383;tas</italic>! who would not buy thee deere?</line>
+<line globalnumber="2850" number="2850">Ah <emph rend="italic">San&#57348;a Maie&#383;tas</emph>! who would not buy thee deere?</line>
 <line globalnumber="2851" number="2851">Let them obey, that knowes not how to Rule.</line>
 <line globalnumber="2852" number="2852">This hand was made to handle nought but Gold.</line>
-<line globalnumber="2853" number="2853">I cannot giue due a&#392;tion to my words,</line>
+<line globalnumber="2853" number="2853">I cannot giue due a&#57348;ion to my words,</line>
 <line globalnumber="2854" number="2854">Except a Sword or Scepter ballance it.</line>
 <line globalnumber="2855" number="2855">A Scepter &#383;hall it haue, haue I a &#383;oule,</line>
 <line globalnumber="2856" number="2856">On which Ile to&#383;&#383;e the Fleure-de-Luce of France.</line>
@@ -6567,7 +6569,7 @@
 <speaker>Buc.</speaker>
 <line globalnumber="2862" number="2862">A Me&#383;&#383;enger from <name type="person">Henry</name>, our dread Liege,</line>
 <line globalnumber="2863" number="2863">To know the rea&#383;on of the&#383;e Armes in peace.</line>
-<line globalnumber="2864" number="2864">Or why, thou being a Subie&#392;t, as I am,</line>
+<line globalnumber="2864" number="2864">Or why, thou being a Subie&#57348;, as I am,</line>
 <line globalnumber="2865" number="2865">Again&#383;t thy Oath, and true Allegeance &#383;worne,</line>
 <line globalnumber="2866" number="2866">Should rai&#383;e &#383;o great a power without his leaue?</line>
 <line globalnumber="2867" number="2867">Or dare to bring thy Force &#383;o neere the Court?</line>
@@ -6577,7 +6579,7 @@
 <speaker>Yor.</speaker>
 <line globalnumber="2868" number="2868">Scar&#383;e can I &#383;peake, my Choller is &#383;o great.</line>
 <line globalnumber="2869" number="2869">Oh I could hew vp Rockes, and &#64257;ght with Flint,</line>
-<line globalnumber="2870" number="2870">I am &#383;o angry at the&#383;e abie&#392;t tearmes.</line>
+<line globalnumber="2870" number="2870">I am &#383;o angry at the&#383;e abie&#57348; tearmes.</line>
 <line globalnumber="2871" number="2871">And now like <name type="person">Aiax Telamonius</name>,</line>
 <line globalnumber="2872" number="2872">On Sheepe or Oxen could I &#383;pend my furie.</line>
 <line globalnumber="2873" number="2873">I am farre better borne then is the king:</line>
@@ -6741,7 +6743,7 @@
 <line globalnumber="2945" number="2945">Who&#383;e Smile and Frowne, like to <name type="person">Achilles</name> Speare</line>
 <line globalnumber="2946" number="2946">Is able with the change, to kill and cure.</line>
 <line globalnumber="2947" number="2947">Heere is hand to hold a Scepter vp,</line>
-<line globalnumber="2948" number="2948">And with the &#383;ame to a&#392;te controlling Lawes:</line>
+<line globalnumber="2948" number="2948">And with the &#383;ame to a&#57348;e controlling Lawes:</line>
 <line globalnumber="2949" number="2949">Giue place: by heauen thou &#383;halt rule no more</line>
 <line globalnumber="2950" number="2950">O&#8217;re him, whom heauen created for thy Ruler.</line>
 </speech>
@@ -6816,7 +6818,7 @@
 <speech>
 <speaker short="CLIF.">Clif.</speaker>
 <line globalnumber="2979" number="2979">He is a Traitor, let him to the Tower,</line>
-<line globalnumber="2980" number="2980">And chop away that fa&#392;tious pate of his.</line>
+<line globalnumber="2980" number="2980">And chop away that fa&#57348;ious pate of his.</line>
 </speech>
 
 <speech>
@@ -6897,7 +6899,7 @@
 <line globalnumber="3008" number="3008">Old Salsbury, &#383;hame to thy &#383;iluer haire,</line>
 <line globalnumber="3009" number="3009">Thou mad mi&#383;leader of thy brain-&#383;icke &#383;onne,</line>
 <line globalnumber="3010" number="3010">What wilt thou on thy death-bed play the Ruf&#64257;an?</line>
-<line globalnumber="3011" number="3011">And &#383;eeke for &#383;orrow with thy Spe&#392;tacles?</line>
+<line globalnumber="3011" number="3011">And &#383;eeke for &#383;orrow with thy Spe&#57348;acles?</line>
 <line globalnumber="3012" number="3012">Oh where is Faith? Oh, where is Loyalty?</line>
 <line globalnumber="3013" number="3013">If it be bani&#383;ht from the fro&#383;tie head,</line>
 <line globalnumber="3014" number="3014">Where &#383;hall it &#64257;nde a harbour in the earth?</line>
@@ -6994,12 +6996,12 @@
 <speaker>Old Clif.</speaker>
 <line globalnumber="3054" number="3054">And from thy Burgonet Ile rend thy Beare,</line>
 <line globalnumber="3055" number="3055">And tread it vnder foot with all contempt,</line>
-<line globalnumber="3056" number="3056">De&#383;pight the Bearard, that prote&#392;ts the Beare.</line>
+<line globalnumber="3056" number="3056">De&#383;pight the Bearard, that prote&#57348;s the Beare.</line>
 </speech>
 
 <speech>
 <speaker>Yo. Clif.</speaker>
-<line globalnumber="3057" number="3057">And &#383;o to Armes vi&#392;torious Father,</line>
+<line globalnumber="3057" number="3057">And &#383;o to Armes vi&#57348;orious Father,</line>
 <line globalnumber="3058" number="3058">To quell the Rebels, and their Complices.</line>
 </speech>
 
@@ -7098,7 +7100,7 @@
 
 <speech>
 <speaker short="CLIF.">Clif.</speaker>
-<line globalnumber="3090" number="3090">My &#383;oule and bodie on the a&#392;tion both.</line>
+<line globalnumber="3090" number="3090">My &#383;oule and bodie on the a&#57348;ion both.</line>
 </speech>
 
 <speech>
@@ -7108,7 +7110,7 @@
 
 <speech>
 <speaker short="CLIF.">Clif.</speaker>
-<line globalnumber="3092" number="3092"><latin xml:lang="la">La &#64257;n Corrone les eumenes</latin>.</line>
+<line globalnumber="3092" number="3092"><foreign xml:lang="la">La &#64257;n Corrone les eumenes</foreign>.</line>
 </speech>
 
 <speech>
@@ -7194,7 +7196,7 @@
 <stagedir sdglobalnumber="3142.01" sdnumber="3142.01">Alarum a farre off.</stagedir>
 <line globalnumber="3143" number="3143">If you be tane, we then &#383;hould &#383;ee the bottome</line>
 <line globalnumber="3144" number="3144">Of all our Fortunes: but if we haply &#383;cape,</line>
-<line globalnumber="3145" number="3145">(As well we may, if not through your negle&#392;t)</line>
+<line globalnumber="3145" number="3145">(As well we may, if not through your negle&#57348;)</line>
 <line globalnumber="3146" number="3146">We &#383;hall to London get, where you are lou&#8217;d,</line>
 <line globalnumber="3147" number="3147">And where this breach now in our Fortunes made</line>
 <line globalnumber="3148" number="3148">May readily be &#383;topt.</line>
@@ -7233,7 +7235,7 @@
 <line globalnumber="3163" number="3163">My Noble Father:</line>
 <line globalnumber="3164" number="3164">Three times to day I holpe him to his hor&#383;e,</line>
 <line globalnumber="3165" number="3165">Three times be&#383;trid him: Thrice I led him off,</line>
-<line globalnumber="3166" number="3166">Per&#383;waded him from any further a&#392;t:</line>
+<line globalnumber="3166" number="3166">Per&#383;waded him from any further a&#57348;:</line>
 <line globalnumber="3167" number="3167">But &#383;till where danger was, &#383;till there I met him,</line>
 <line globalnumber="3168" number="3168">And like rich hangings in a homely hou&#383;e,</line>
 <line globalnumber="3169" number="3169">So was his Will, in his old feeble body,</line>
@@ -7286,7 +7288,7 @@
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
 <copyright>2005-2017 by PlayShakespeare.com</copyright>
-<version>3.5</version>
+<version>3.5.1</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
