@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="twelfth-night">
 <title short="Twelfth Night">Twelfe Night, Or what you will.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Twelfth Night">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="3205a8dd-cb64-4588-b6fb-0ef0b9ea5dd4">
 <persname short="DUKE.">Orsino</persname>
 <persaliases>
 	<persname short="Du."/>
@@ -20,7 +20,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c45ba24f-119a-43dc-bd34-8ccf743f64c7">
 <persname short="SEB.">Sebastian</persname>
 <persaliases>	
 	<persname short="Seb"/>
@@ -28,7 +28,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="96994055-6355-4a49-a3d2-db222101181f">
 <persname short="ANT.">Antonio</persname>
 <persaliases>
 	<persname short="An."/>
@@ -36,21 +36,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="146faf08-a204-4302-8e7c-70ad59c548dc">
 <persname short="CAP.">Sea Captain</persname>
 <persaliases>
 	<persname short="Cap."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="014e8e18-5d2b-4dc0-8902-75ed66d353bd">
 <persname short="VAL.">Valentine</persname>
 <persaliases>
 	<persname short="Val."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0e7a32cb-fd87-4dcd-aa87-c325580b954d">
 <persname short="CUR.">Curio</persname>
 <persaliases>	
 	<persname short="Cu."/>
@@ -58,7 +58,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="69473b57-cd02-486e-be72-c0890053ed12">
 <persname short="SIR TO.">Sir Toby Belch</persname>
 <persaliases>
 	<persname short="Sir To."/>
@@ -67,14 +67,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="98c86d02-453d-4831-b41d-a3f95e526f88">
 <persname short="SIR AND.">Sir Andrew Aguecheek</persname>
 <persaliases>	
 	<persname short="And."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="182d34ce-e7c6-4e6e-bceb-fe4ba736dc3c">
 <persname short="MAL.">Malvolio</persname>
 <persaliases>		
 	<persname short="Ma"/>
@@ -85,7 +85,7 @@
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="4052db7a-c5ef-496b-90ee-13546723a200">
 <persname short="FAB.">Fabian</persname>
 <persaliases>	
 	<persname short="Fa."/>
@@ -93,7 +93,7 @@
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="2c260c23-2ad7-4b86-b4ba-4df36b8dc33a">
 <persname short="CLO.">Feste</persname>
 <persaliases>	
 	<persname short="Clow."/>
@@ -103,42 +103,42 @@
 </persaliases>	
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="a628db03-d3c8-4ba0-8c32-6d4fe9a2e5d8">
 <persname short="OLI.">Olivia</persname>
 <persaliases>	
 	<persname short="Ol."/>
 </persaliases>	
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a4e2269f-61a4-42c2-b5ba-8d93c4b5f356">
 <persname short="VIO.">Viola</persname>
 <persaliases>	
 	<persname short="Vio."/>
 </persaliases>	
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="f67ad34d-c0f4-4228-9806-192b5925222b">
 <persname short="MAR.">Maria</persname>
 <persaliases>	
 	<persname short="Mar."/>
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ba4938e6-41b9-4c18-b215-9eeb79a3f936">
 <persname short="SERV.">Olivia&#8217;s Servant</persname>
 <persaliases>	
 	<persname short="Ser."/>
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="305079aa-d693-4af5-be45-15db304be803">
 <persname short="PRIEST.">Priest</persname>
 <persaliases>	
 	<persname short="Prie&#383;t."/>
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1c867c3c-b59f-4542-b149-a39a35e78d24">
 <persname short="1. OFF.">First Officer</persname>
 <persaliases>	
 	<persname short="1.Off."/>
@@ -146,7 +146,7 @@
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f36d3c50-dee1-49b0-8195-548e2b0ecfe5">
 <persname short="2. OFF.">Second Officer</persname>
 <persaliases>	
 	<persname short="2.Off."/>
@@ -155,9 +155,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus, Sc&#230;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus, Sc&#230;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Or&#383;ino Duke of Illyria, Curio, and other Lords.</stagedir>
@@ -237,7 +237,7 @@
 <stagedir sdglobalnumber="42.01" sdnumber="42.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="42.02" sdnumber="0.01">Enter Viola, a Captaine, and Saylors.</stagedir>
@@ -396,7 +396,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Sc&#230;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="108.02" sdnumber="0.01">Enter Sir Toby, and Maria.</stagedir>
@@ -802,7 +802,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="237.02" sdnumber="0.01">Enter Valentine, and Viola in mans attire.</stagedir>
@@ -908,7 +908,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="5">
 <scenetitle id="scene1_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="280.02" sdnumber="0.01">Enter Maria, and Clowne.</stagedir>
@@ -1718,9 +1718,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus, Sc&#230;na prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus, Sc&#230;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="586.02" sdnumber="0.01">Enter Antonio &#38; Seba&#383;tian.</stagedir>
@@ -1818,7 +1818,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Sc&#230;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="629.02" sdnumber="0.01">Enter Viola and Maluolio, at &#383;euerall doores.</stagedir>
@@ -1892,7 +1892,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="645.02" sdnumber="0.01">Enter Sir Toby, and Sir Andrew.</stagedir>
@@ -2428,7 +2428,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="848.02" sdnumber="0.01">Enter Duke, Viola, Curio, and others.</stagedir>
@@ -2732,7 +2732,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="5">
 <scenetitle id="scene2_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="976.02" sdnumber="0.01">Enter Sir Toby, Sir Andrew, and Fabian.</stagedir>
@@ -3279,9 +3279,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius, Sc&#230;na prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius, Sc&#230;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="1166.03" sdnumber="0.01">Enter Viola and Clowne.</stagedir>
@@ -3724,7 +3724,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1330.02" sdnumber="0.01">Enter Sir Toby, Sir Andrew, and Fabian.</stagedir>
@@ -3929,7 +3929,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#230;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1410.02" sdnumber="0.01">Enter Seba&#383;tian and Anthonio.</stagedir>
@@ -4051,7 +4051,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#339;na Quarta. </scenetitle>
 
 <stagedir sdglobalnumber="1463.02" sdnumber="0.01">Enter Oliuia and Maria.</stagedir>
@@ -5097,9 +5097,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus, Sc&#230;na prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus, Sc&#230;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="1849.02" sdnumber="0.01">Enter Seba&#383;tian and Clowne.</stagedir>
@@ -5271,7 +5271,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1912.02" sdnumber="0.01">Enter Maria and Clowne.</stagedir>
@@ -5635,7 +5635,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#230;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2037.02" sdnumber="0.01">Enter Seba&#383;tian.</stagedir>
@@ -5699,9 +5699,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2072.03" sdnumber="0.01">Enter Clowne and Fabian.</stagedir>
@@ -6676,8 +6676,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

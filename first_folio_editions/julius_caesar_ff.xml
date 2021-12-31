@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="julius-caesar">
 <title short="Julius Caesar">THE TRAGEDIE OF<lb />IVLIVS C&#198;SAR.</title>
@@ -11,21 +11,21 @@
 
 <personae playtitle="Julis Caesar">
 
-<persona gender="male">
+<persona gender="male" id="2940b3f8-440d-48f7-b778-f2d9488bc754">
 <persname short="CAES. SERV.">Caesar&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="6d3176ba-24fc-44f1-ab92-4d0764ef1fb2">
 <persname short="POR.">Portia</persname>
 <persaliases>
 	<persname short="Por."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="6931e7fa-e909-4efe-bc1f-826390cc1d35">
 <persname short="CAL.">Calphurnia</persname>
 <persaliases>
 	<persname short="Cal."/>
@@ -33,7 +33,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b5ec815e-cff7-47a9-8b65-42e5a1201876">
 <persname short="PIN.">Pindarus</persname>
 <persaliases>
 	<persname short="Pin."/>
@@ -41,28 +41,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="977659b3-af3f-4513-855a-34e911e8bd29">
 <persname short="DAR.">Dardanius</persname>
 <persaliases>
 	<persname short="Dard."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4828cc16-64d5-42c1-acbd-b494bae822c0">
 <persname short="LUC.">Lucius</persname>
 <persaliases>
 	<persname short="Luc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="06875c52-620c-4e01-9af2-3b0bc3db29c5">
 <persname short="STRA.">Strato</persname>
 <persaliases>
 	<persname short="Stra."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6910ca56-e6e9-4e57-bfcf-cc97edaa375c">
 <persname short="CLAU.">Claudio</persname>
 <persaliases>
 	<persname short="Clau."/>
@@ -71,7 +71,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="59c88222-8732-476e-ace5-cdb5757f4f2e">
 <persname short="CLI.">Clitus</persname>
 <persaliases>
 	<persname short="Clit."/>
@@ -79,7 +79,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1427885b-f018-487e-8d62-41fb599a0790">
 <persname short="VAR.">Varrus</persname>
 <persaliases>
 	<persname short="Var."/>
@@ -88,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ebb84d84-7e03-4a9d-9191-d64fb4130240">
 <persname short="VOL.">Volumnius</persname>
 <persaliases>
 	<persname short="Vol."/>
@@ -96,14 +96,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="1059c927-3ccd-4713-9986-c966659060a8">
 <persname short="CATO.">Young Cato</persname>
 <persaliases>
 	<persname short="Cato."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e457da42-f75b-49f2-8a4b-885031c8ae19">
 <persname short="MES.">Messala</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;a."/>
@@ -113,7 +113,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="1f7dd888-a952-4433-b0fa-acdb66df1be2">
 <persname short="TIT.">Titinius</persname>
 <persaliases>
 	<persname short="Tit"/>
@@ -123,35 +123,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f7022d20-8c73-4972-a78c-94d1ab93f439">
 <persname short="LUCIL.">Lucilius</persname>
 <persaliases>
 	<persname short="Lucil."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a4b44846-0bbb-44de-9cd2-4a1390ed6543">
 <persname short="SOOTH.">Soothsayer</persname>
 <persaliases>
 	<persname short="Sooth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="61dfad1a-1029-4412-bac6-c9fc44fb3567">
 <persname short="ART.">Artemidorus of Cnidos</persname>
 <persaliases>
 	<persname short="Art."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="86bc585f-fda3-4d62-bde4-8bed907908a7">
 <persname short="MUR.">Murellus</persname>
 <persaliases>
 	<persname short="Mur."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="38676f06-b498-4367-9eef-97989ea43ccd">
 <persname short="FLAV.">Flavius</persname>
 <persaliases>
 	<persname short="Fla."/>
@@ -159,7 +159,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d0c2e562-201a-467b-a630-32bcceef0d44">
 <persname short="CIN.">Cinna</persname>
 <persaliases>
 	<persname short="Cyn."/>
@@ -168,7 +168,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a75a518b-8339-44bc-ada5-8b2c4e9db524">
 <persname short="CIN. POET.">Cinna, a Poet</persname>
 <persaliases>
 	<persname short="Cinna."/>
@@ -176,14 +176,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f54f8185-c322-472b-822b-8b31c5ff0c7d">
 <persname short="POET.">A Poet</persname>
 <persaliases>
 	<persname short="Poet."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fa2db3d1-ec5f-482e-9687-ae2cee8b2536">
 <persname short="MET.">Metellus Cimber</persname>
 <persaliases>
 	<persname short="Met."/>
@@ -191,7 +191,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="852d2bc6-78e5-4f87-924a-3f93356b6736">
 <persname short="DEC.">Decius Brutus</persname>
 <persaliases>
 	<persname short="Dec."/>
@@ -200,21 +200,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9a05e6ed-d510-4c97-8444-4d735338bee3">
 <persname short="LIG.">Caius Ligarius</persname>
 <persaliases>
 	<persname short="Cai."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6f3ea8f0-f4f0-4a6b-a77a-0473e2e70e85">
 <persname short="TREB.">Trebonius</persname>
 <persaliases>
 	<persname short="Treb."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5360b997-82ed-470e-876d-263b1e4b2d1a">
 <persname short="CASCA.">Casca</persname>
 <persaliases>
 	<persname short="Caska."/>
@@ -222,7 +222,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="df3becea-b361-47f9-9ba8-e982c9ec450e">
 <persname short="CAS.">Cassius</persname>
 <persaliases>
 	<persname short="Ca&#383;."/>
@@ -233,7 +233,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="de1f8ed0-c006-4c0c-b28a-9e5fbcea05b1">
 <persname short="BRU.">Marcus Brutus</persname>
 <persaliases>
 	<persname short="Br."/>
@@ -243,35 +243,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d00ad035-adf6-4c89-bdc1-78bfecc6083c">
 <persname short="POP.">Popilius Lena</persname>
 <persaliases>
 	<persname short="Popil."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="75ac732b-7edb-4f61-b7b4-db14125d7c82">
 <persname short="PUB.">Publius</persname>
 <persaliases>
 	<persname short="Pub."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="4cdb3f8a-83e2-4f02-8320-8eb8c7448880">
 <persname short="CIC.">Cicero</persname>
 <persaliases>
 	<persname short="Cic."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="555ce7ca-50c2-44ee-ac5f-84763e64fde8">
 <persname short="LEP.">M. Aemilius Lepidus</persname>
 <persaliases>
 	<persname short="Lep."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="0ad6bb94-5924-498c-8296-2af6e928eb6d">
 <persname short="ANT.">Mark Antony</persname>
 <persaliases>
 	<persname short="An."/>
@@ -279,7 +279,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="999727b9-7560-4262-bc6c-0d83e6010871">
 <persname short="OCT.">Octavius Caesar</persname>
 <persaliases>
 	<persname short="O&#57348;."/>
@@ -288,7 +288,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="5aa2fd9c-9ae8-43d9-8aca-3e0c7341bf71">
 <persname short="CAES.">Julius Caesar</persname>
 <persaliases>
 	<persname short="C&#230;&#383;."/>
@@ -298,25 +298,25 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7c1eaee2-7758-413e-b696-4180195ffc3f">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="119529a2-a977-4efe-b622-1c058f831829">
 <persname short="OCT. ATT.">Octavius&#8217;s Attendant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c1124e47-aa3d-4d1b-8275-ea77a1dc777c">
 <persname short="ANT. MESS.">Antony&#8217;s Messenger</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ef6c46dc-5af7-4809-abb6-26cf66097ce0">
 <persname short="COB.">Cobbler</persname>
 <persaliases>
 	<persname short="Cob."/>
@@ -324,26 +324,26 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a9077ad0-3796-4855-954c-a8e759c41674">
 <persname short="CAR.">Carpenter</persname>
 <persaliases>
 	<persname short="Car."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dca5f14c-797c-4927-b21d-e7ab3afc2c81">
 <persname short="1. SOLD.">First Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9856b3ca-9351-410d-8388-4c8acf7596ad">
 <persname short="2. SOLD.">Second Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9b0a5fce-f983-42b8-b596-9ca9401b5dc0">
 <persname short="3. SOLD.">Third Soldier</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b65b1c3c-f91d-4f38-9bfa-3e48905227c2">
 <persname short="1. ANT. SOLD.">First Soldier of Antony&#8217;s</persname>
 <persaliases>
 	<persname short="1. Sold."/>
@@ -351,14 +351,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8168d759-6abc-430b-8350-8739cceebd4b">
 <persname short="2. ANT. SOLD.">Second Soldier of Antony&#8217;s</persname>
 <persaliases>
 	<persname short="2. Sold."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6ba47b0-25af-4f16-b915-513609dfed29">
 <persname short="1. PLEB.">First Plebeian</persname>
 <persaliases>
 	<persname short="1."/>
@@ -370,7 +370,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f1bae141-58e3-48e5-8d2c-6060e6e8cc56">
 <persname short="2. PLEB.">Second Plebeian</persname>
 <persaliases>
 	<persname short="2."/>
@@ -381,7 +381,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b893e7a1-97e9-419c-8503-5c5235bc370b">
 <persname short="3. PLEB.">Third Plebeian</persname>
 <persaliases>
 	<persname short="2."/>
@@ -395,7 +395,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ff3d5184-eb24-4b26-a8e8-ceb62973f25d">
 <persname short="4. PLEB.">Fourth Plebeian</persname>
 <persaliases>
 	<persname short="3."/>
@@ -409,7 +409,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="15644336-4eff-4223-939e-057fdf426917">
 <persname short="5. PLEB.">Fifth Plebeian</persname>
 <persaliases>
 	<persname short="4."/>
@@ -423,9 +423,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Flauius, Murellus, and certaine Commoners ouer the Stage.</stagedir>
@@ -1627,9 +1627,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="592.02" sdnumber="0.01">Enter Brutus in his Orchard.</stagedir>
@@ -2794,9 +2794,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1150.02" sdnumber="0.01">Flouri&#383;h.</stagedir>
@@ -4284,9 +4284,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1785.02" sdnumber="0.01">Enter Antony, O&#57348;auius, and Lepidus.</stagedir>
@@ -5514,9 +5514,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2245.02" sdnumber="0.01">Enter O&#57348;auius, Antony, and their Army.</stagedir>
@@ -6460,8 +6460,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

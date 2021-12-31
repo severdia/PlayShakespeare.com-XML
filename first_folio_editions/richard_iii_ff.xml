@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="richard-iii">
 <title short="Ricahrd III">The Tragedy of Richard the Third:<lb />with the Landing of Earle Richmond, and the<lb />Battell at Bo&#383;worth Field.</title>
@@ -11,14 +11,14 @@
 
 <personae playtitle="Richard III">
 
-<persona gender="male">
+<persona gender="male" death="yes" id="8b2bfb1e-80cd-4491-a94c-321b293818c8">
 <persname short="K. EDW.">King Edward the Fourth</persname>
 <persaliases>
 	<persname short="King."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="765a949d-1be2-4ef3-8112-4b8d3f210c53">
 <persname short="PRINCE.">Edward, Prince of Wales</persname>
 <persaliases>
 	<persname short="Prin."/>
@@ -26,7 +26,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="f1921cdc-3c67-4b70-8aba-69fb1eeee75b">
 <persname short="YORK.">Richard, Duke of York</persname>
 <persaliases>
 	<persname short="Yor."/>
@@ -34,7 +34,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="b7cc2527-9d90-4075-9fa3-090cf14afdc0">
 <persname short="CLAR.">George, Duke of Clarence</persname>
 <persaliases>
 	<persname short="Cla"/>
@@ -46,7 +46,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6a05d8e5-a638-405f-881d-eea1bcf47ecb">
 <persname short="EDW.">Edward Plantagenet</persname>
 <persaliases>
 	<persname short="Edw."/>
@@ -59,7 +59,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="31c9b280-77e9-49f9-bc69-f6cd0566400d">
 <persname short="GLOU.">Richard, Duke of Gloucester</persname>
 <persaliases>
 	<persname short="K."/>
@@ -72,21 +72,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2c95f6ce-d4be-4d7f-aa8a-fb136933a711">
 <persname short="RICHM.">Henry, Earl of Richmond</persname>
 <persaliases>
 	<persname short="Richm."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="169a09f7-9490-4655-b337-f55094af4799">
 <persname short="CARD.">Cardinal Bourchier</persname>
 <persaliases>
 	<persname short="Card."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3a92beea-a537-4d33-be32-7498de393a27">
 <persname short="ARCH.">Thomas Rotherham, Archbishop of York</persname>
 <persaliases>
 	<persname short="Yor."/>
@@ -94,14 +94,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8ba0b466-ff01-4e06-a71d-60fedb3668d5">
 <persname short="ELY.">John Morton, Bishop of Ely</persname>
 <persaliases>
 	<persname short="Ely."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="42c611a5-1180-4d8e-ae69-fff59122e3a3">
 <persname short="BUCK.">Duke of Buckingham</persname>
 <persaliases>
 	<persname short="Buc"/>
@@ -114,7 +114,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="6535cacb-a095-4d91-86dc-3a030fc72f85">
 <persname short="NOR.">Duke of Norfolk</persname>
 <persaliases>
 	<persname short="Nor"/>
@@ -122,14 +122,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="06e6e4c0-7ff2-4957-bdaf-afd131f4c09c">
 <persname short="SUR.">Earl of Surrey</persname>
 <persaliases>
 	<persname short="Sur."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a2817555-c4a8-450b-9405-9285bfa05d54">
 <persname short="RIV.">Earl Rivers</persname>
 <persaliases>
 	<persname short="Ri."/>
@@ -140,7 +140,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="bfdfa29b-ef3c-4f34-97c9-05fa8c2d2871">
 <persname short="DOR.">Marquess of Dorset</persname>
 <persaliases>
 	<persname short="Dor."/>
@@ -148,7 +148,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="4a792bdb-e694-4099-8830-6829d6a6999d">
 <persname short="GREY.">Lord Grey</persname>
 <persaliases>
 	<persname short="Grey."/>
@@ -158,14 +158,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ae54c018-ea1b-4f65-8c93-71a20dd5e7e1">
 <persname short="OXF.">Earl of Oxford</persname>
 <persaliases>
 	<persname short="Oxf."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="aa32f49e-307b-42f8-9f9b-cd0c8b42fc9c">
 <persname short="HAST.">Lord Hastings</persname>
 <persaliases>
 	<persname short="Ha."/>
@@ -177,7 +177,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="368e0e84-fe41-4f14-bf8e-19c6c52fe367">
 <persname short="STAN.">Lord Stanley</persname>
 <persaliases>
 	<persname short="Der."/>
@@ -188,7 +188,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="01d26036-d07e-46c2-a3d5-6ef570fc0a13">
 <persname short="LOV.">Lord Lovel</persname>
 <persaliases>
 	<persname short="Lou."/>
@@ -196,7 +196,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="def0f8a1-5d3f-4d42-9636-2b2fb5ce8eb0">
 <persname short="VAUG.">Sir Thomas Vaughan</persname>
 <persaliases>
 	<persname short="Vaugh."/>
@@ -205,7 +205,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f445d938-ea47-4d5a-abb3-f74432d64f1c">
 <persname short="RAT.">Sir Richard Ratcliffe</persname>
 <persaliases>
 	<persname short="Ra."/>
@@ -213,7 +213,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a99b840d-22fd-4279-960d-86d7825e2a95">
 <persname short="CATE.">Sir William Catesby</persname>
 <persaliases>
 	<persname short="Cat"/>
@@ -227,7 +227,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1b4f2d0c-803f-48ee-a22d-86e9447f0cd0">
 <persname short="TYR.">Sir James Tyrrel</persname>
 <persaliases>
 	<persname short="Tir."/>
@@ -235,21 +235,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6eaf555d-9c0d-4315-b310-cd6fdac01ec3">
 <persname short="BLUNT.">Sir James Blunt</persname>
 <persaliases>
 	<persname short="Blunt."/>
 </persaliases> 
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="363bb9b9-fbd8-4195-99d6-112d8a7da690">
 <persname short="HERB.">Sir Walter Herbert</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="163b7bbd-bc61-4e4d-915d-58bceda8e7a9">
 <persname short="BRAK.">Sir Robert Brakenbury</persname>
 <persaliases>
 	<persname short="Bra."/>
@@ -257,18 +257,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="82929b32-d528-40cb-a9b9-29339617318f">
 <persname short="BRAND.">Sir William Brandon</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3867cb7d-716b-4e1a-a9a6-89c7baffe61a">
 <persname short="CHRIS.">Christopher Urswick</persname>
 <persaliases>
 	<persname short="Chri."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c9ac8209-6d7c-4574-8d69-63421e509ab5">
 <persname short="Q. ELIZ.">Queen Elizabeth</persname>
 <persaliases>
 	<persname short="Qu."/>
@@ -277,7 +277,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="3e375b7a-4c1c-4f8d-91b1-4609ef64b4bc">
 <persname short="Q. MAR.">Queen Margaret</persname>
 <persaliases>
 	<persname short="Q.M."/>
@@ -286,7 +286,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="98b8db85-5aed-4ca9-94f9-fff4e715cf4e">
 <persname short="DUCH.">Duchess of York</persname>
 <persaliases>
 	<persname short="Dut."/>
@@ -297,7 +297,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes" id="f0a5a6ec-2776-4dcf-af27-e47cb0b2ad3b">
 <persname short="ANNE.">Lady Anne</persname>
 <persaliases>
 	<persname short="An."/>
@@ -306,22 +306,22 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="2ad45017-02fc-41f2-ac11-8ffd079046b7">
 <persname short="TRESS.">Tressel</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="4ae3bfd0-448c-4cd8-97f3-dc9366ebc26a">
 <persname short="BERK.">Berkeley</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="32ff1e98-ddb5-4fe3-9df7-8170368e50d1">
 <persname short="KEEP.">Keeper in the Tower</persname>
 <persaliases>
 	<persname short="Keep."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="997a7f04-21e3-4554-a78f-0de65496b799">
 <persname short="MAY.">Lord Mayor of London</persname>
 <persaliases>
 	<persname short="Ma."/>
@@ -332,21 +332,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="838fd39d-0611-4546-87a4-8ec461bed4c4">
 <persname short="SHER.">Sheriff of Wiltshire</persname>
 <persaliases>
 	<persname short="Sher."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6d7de65e-9f25-4dff-bab7-9268f1ceecb8">
 <persname short="PURS.">Pursuivant</persname>
 <persaliases>
 	<persname short="Pur&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="37190db0-9d9e-45e5-a1b8-9387a15e4ca5">
 <persname short="MARG.">Margaret Plantagenet</persname>
 <persaliases>
 	<persname short="Daugh."/>
@@ -357,14 +357,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="eee597d1-634d-4c05-b18a-9e46cc81f4b5">
 <persname short="PRIEST.">Sir John</persname>
 <persaliases>
 	<persname short="Prie&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1cdbe1a7-3231-4ced-911a-8270b4064972">
 <persname short="1. MUR.">First Murderer</persname>
 <persaliases>
 	<persname short="1"/>
@@ -377,7 +377,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6ec10808-17b2-4610-af6b-bcfc4fa31a47">
 <persname short="2. MUR.">Second Murderer</persname>
 <persaliases>
 	<persname short="1"/>
@@ -389,7 +389,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e3415ffd-550a-4422-815e-84644984b735">
 <persname short="GENT.">Gentleman</persname>
 <persaliases>
 	<persname short="Gen."/>
@@ -397,7 +397,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bf262aa3-e5e6-43a4-baaf-e8c9a3cf6395">
 <persname short="1. CIT.">First Citizen</persname>
 <persaliases>
 	<persname short="1."/>
@@ -405,7 +405,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="751073db-8273-4b7e-92f0-6bccbd661d03">
 <persname short="2. CIT.">Second Citizen</persname>
 <persaliases>
 	<persname short="2"/>
@@ -414,7 +414,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0a04d171-7262-49c7-86cf-dc83ab382525">
 <persname short="3. CIT.">Third Citizen</persname>
 <persaliases>
 	<persname short="3"/>
@@ -422,7 +422,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c800955-874b-41fb-bf01-7f50d2f7ccab">
 <persname short="MESS. QUEEN.">Messenger to the Queen</persname>
 <persaliases>
 	<persname short="Mes."/>
@@ -431,7 +431,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="80bedf8f-4e11-424c-98a3-f2886ee10bfe">
 <persname short="STAN. MESS.">Stanley Messenger</persname>
 <persaliases>
 	<persname short="Lor."/>
@@ -439,68 +439,68 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1d2d143b-4cb5-49d7-94fb-e5d3d2a0f091">
 <persname short="SCRIV.">Scrivener</persname>
 <persaliases>
 	<persname short="Scr."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="d33d74f3-4ec9-499b-9467-3482bf86006a">
 <persname short="ALD.">Aldermen of London</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="1509f6ce-7891-4158-90c5-b04f132a411b">
 <persname short="HALB.">Halberds</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="fb794586-b3ed-4144-8052-649c1995a5be">
 <persname short="TWO BISH.">Two Bishops</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e0793e1e-5892-4e4d-9501-2b2165623559">
 <persname short="PAGE.">Page</persname>
 <persaliases>
 	<persname short="Page."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="71eb7f65-97cb-48b0-bee9-98e715196551">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4e0e446d-ddd7-4aba-9ea8-5e49d5a6ce9f">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f8be1d0e-61e7-47b4-8132-a2c627fab2a6">
 <persname short="3. MESS.">Third Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1813bc1f-186b-4907-b5ef-a1d2c360f189">
 <persname short="4. MESS.">Fourth Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5a04455d-aeab-49c7-8e3c-41473bfc872a">
 <persname short="5. MESS.">Fifth Messenger</persname>
 <persaliases>
 	<persname short="Mes."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1971e58e-b1c4-4857-a6d4-c64e5c9925e9">
 <persname short="GHOST. OF HENRY.">Ghost of King Henry VI</persname>
 <persaliases>
 	<persname short="Gho&#383;t."/>
@@ -508,21 +508,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c6dc03f2-d59e-47a2-b386-20ece1aa1fce">
 <persname short="GHOST. OF ED.">Ghost of Prince Edward of Lancaster</persname>
 <persaliases>
 	<persname short="Gh. to Ri."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="15448050-fb6d-422b-b88e-ba329d5b59a9">
 <persname short="1. LORD. RICH.">First Lord to Richmond</persname>
 <persaliases>
 	<persname short="Richm."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3596905b-6b47-4ebf-af22-93f7bfdbeb5c">
 <persname short="2. LORD. RICH.">Second Lord to Richmond</persname>
 <persaliases>
 	<persname short="Lords."/>
@@ -531,9 +531,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Richard Duke of Glo&#383;ter, &#383;olus.</stagedir>
@@ -840,7 +840,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="166.02" sdnumber="0.01">Enter the Coar&#383;e of Henrie the &#383;ixt with Halberds to guard it, Lady Anne being the Mourner.</stagedir>
@@ -1478,7 +1478,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="446.02" sdnumber="0.01">Enter the Queene Mother, Lord Riuers, and Lord Gray.</stagedir>
@@ -2292,7 +2292,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="792.02" sdnumber="0.01">Enter Clarence and Keeper.</stagedir>
@@ -2992,9 +2992,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1091.02" sdnumber="0.01">Flouri&#383;h.</stagedir>
@@ -3293,7 +3293,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1235.02" sdnumber="0.01">Enter the old Dutche&#383;&#383;e of Yorke, with the two children of Clarence.</stagedir>
@@ -3631,7 +3631,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1388.02" sdnumber="0.01">Enter one Citizen at one doore, and another at the other.</stagedir>
@@ -3780,7 +3780,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1438.02" sdnumber="0.01">Enter Arch-bi&#383;hop, yong Yorke, the Queene, and the Dutche&#383;&#383;e.</stagedir>
@@ -4011,9 +4011,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1517.02" sdnumber="0.01">The Trumpets &#383;ound.</stagedir>
@@ -4587,7 +4587,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1731.02" sdnumber="0.01">Enter a Me&#383;&#383;enger to the Doore of Ha&#383;tings.</stagedir>
@@ -4920,7 +4920,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1859.02" sdnumber="0.01">Enter Sir Richard Ratcliffe, with Halberds, carrying the Nobles to death at Pomfret.</stagedir>
@@ -4992,7 +4992,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1886.02" sdnumber="0.01">Enter Buckingham, Darby, Ha&#383;tings, Bi&#383;hop of Ely, Norfolke, Ratcliffe, Louell, with others, at a Table.</stagedir>
@@ -5932,9 +5932,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2368.02" sdnumber="0.01">Enter the Queene, Anne Duche&#383;&#383;e of Glouce&#383;ter, the Duche&#383;&#383;e of Yorke, and Marque&#383;&#383;e Dor&#383;et</stagedir>
@@ -6174,7 +6174,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2478.02" sdnumber="0.01">Sound a Sennet. Enter Richard in pompe, Buckingham, Catesby, Ratcliffe, Louel.</stagedir>
@@ -6607,7 +6607,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2650.02" sdnumber="0.01">Enter old Queene Margaret.</stagedir>
@@ -7919,7 +7919,7 @@
 <stagedir sdglobalnumber="3214.01" sdnumber="564.01">Flori&#383;h. Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="3214.02" sdnumber="0.01">Enter Derby, and Sir Chri&#383;topher.</stagedir>
@@ -7970,9 +7970,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="3235.02" sdnumber="0.01">Enter Buckingham with Halberds, led to Execution.</stagedir>
@@ -8030,7 +8030,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="3264.02" sdnumber="0.01">Enter Richmond, Oxford, Blunt, Herbert, and others, with drum and colours.</stagedir>
@@ -8917,8 +8917,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

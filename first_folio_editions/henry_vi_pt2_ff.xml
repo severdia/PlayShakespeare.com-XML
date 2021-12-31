@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="henry-vi-part-ii">
 <title short="Henry VI, Pt. 2">The &#383;econd Part of Henry the Sixt,<lb />with the death of the Good Duke<lb />HVMFREY.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Henry VI, Part 2">
 
-<persona gender="male">
+<persona gender="male" id="315b31c1-d203-4f50-b041-ea518c19bcb7">
 <persname short="KING.">King Henry the Sixth</persname>
 <persaliases>
 	<persname short="K."/>
@@ -21,7 +21,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e2a22c53-3657-4d24-a202-c64def5892c1">
 <persname short="GLOU.">Duke of Gloucester</persname>
 <persaliases>
 	<persname short="Hu."/>
@@ -35,7 +35,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="8df0f47d-bca9-4dd8-9cb8-b817917373b2">
 <persname short="CAR.">Cardinal Beauford</persname>
 <persaliases>
 	<persname short="Win."/>
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e53959fd-5f06-4aff-aff0-77853add5613">
 <persname short="YORK.">Richard Plantagenet, Duke of York</persname>
 <persaliases>
 	<persname short="Yor."/>
@@ -57,14 +57,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8b2bfb1e-80cd-4491-a94c-321b293818c8">
 <persname short="EDW.">Edward Earl of March</persname>
 <persaliases>
 	<persname short="Edw."/>
 </persaliases>	
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="31c9b280-77e9-49f9-bc69-f6cd0566400d">
 <persname short="RICH.">Richard Plantagenet</persname>
 <persaliases>
 	<persname short="Ric."/>
@@ -72,7 +72,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="7ec89d7d-3259-405e-9245-ec80ada91d0c">
 <persname short="SOM.">Duke of Somerset</persname>
 <persaliases>
 	<persname short="Som."/>
@@ -81,7 +81,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="0a76ab2a-f877-4a3b-a198-874c7ff92987">
 <persname short="SUF.">Duke of Suffolk</persname>
 <persaliases>
 	<persname short="Suffolke."/>
@@ -91,7 +91,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="008f5894-105c-42c7-ac6b-f1c0a1a8d322">
 <persname short="BUCK.">Duke of Buckingham</persname>
 <persaliases>
 	<persname short="Buck."/>
@@ -100,7 +100,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="ab75cdc4-a4c1-4ab4-9a2a-077790d9a72c">
 <persname short="CLIF.">Lord Clifford</persname>
 <persaliases>
 	<persname short="Clif."/>
@@ -108,7 +108,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d533f3e3-6cfa-4abc-b451-4c178d0a4b64">
 <persname short="Y. CLIF.">Young Clifford</persname>
 <persaliases>
 	<persname short="Clif."/>
@@ -116,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ebbddced-4235-4221-9558-636ef4c00214">
 <persname short="SAL.">Earl of Salisbury</persname>
 <persaliases>
 	<persname short="Sal."/>
@@ -128,7 +128,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e5542e66-b33e-4b3a-9566-ab98d51b5fd7">
 <persname short="WAR.">Earl of Warwick</persname>
 <persaliases>
 	<persname short="Warwicke."/>
@@ -140,21 +140,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dc50fdb1-c500-4683-82f8-a9c7600a8aef">
 <persname short="SCALES.">Lord Scales</persname>
 <persaliases>
 	<persname short="Scales."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="d97cafa8-79fc-4a44-87a1-fb9d9e18bdda">
 <persname short="SAY.">Lord Say</persname>
 <persaliases>
 	<persname short="Say."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="b2a504d6-9f3f-4e05-877a-ca0d72b759eb">
 <persname short="STAF.">Sir Humphrey Stafford</persname>
 <persaliases>
 	<persname short="Staf."/>
@@ -162,14 +162,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c96aa2be-fac9-4a6b-a629-46af5639b793">
 <persname short="BRO.">William Stafford</persname>
 <persaliases>
 	<persname short="Bro."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="55b8aea2-e05f-476a-b465-fcab41d08e42">
 <persname short="STAN.">Sir John Stanley</persname>
 <persaliases>
 	<persname short="Stanley."/>
@@ -177,18 +177,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9c853c09-7210-4821-8c8d-1f840158581d">
 <persname short="VAUX.">Vaux</persname>
 <persaliases>
 	<persname short="Vaux."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" mute="yes" id="c86ae143-667f-43d1-92fc-431ef5400b44">
 <persname short="GOFF.">Matthew Goffe</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="42de4167-2e74-4fde-a4a5-c8d910b33027">
 <persname short="IDEN.">Alexander Iden</persname>
 <persaliases>
 	<persname short="Id."/>
@@ -196,28 +196,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="648dc8c7-86f1-4264-9689-cf941cdcd744">
 <persname short="LIEU.">Lieutenant</persname>
 <persaliases>
 	<persname short="Lieu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="751734d0-8afb-479a-9162-73c8d6bea59b">
 <persname short="MAST.">Shipmaster</persname>
 <persaliases>
 	<persname short="Ma."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f8e57638-090e-416f-8c62-fda257a21e37">
 <persname short="MATE.">Master&#8217;s Mate</persname>
 <persaliases>
 	<persname short="Mate."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6c5d1c01-e42a-41de-bc48-8e5d8c075cf7">
 <persname short="WHIT.">Walter Whitmore</persname>
 <persaliases>
 	<persname short="Whit."/>
@@ -226,18 +226,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="f5f002d3-06d8-4b2c-b4fb-023c17578148">
 <persname short="HUME.">John Hume</persname>
 <persaliases>
 	<persname short="Hume."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" mute="yes" id="f001be67-06b8-4477-bac9-d943ccf8173e">
 <persname short="SOUTH.">John Southwell</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="ed1b7ec7-b738-48e8-9ba9-6f2dcdd57698">
 <persname short="BOLING.">Roger Bolingbrook</persname>
 <persaliases>
 	<persname short="Bullin."/>
@@ -245,49 +245,49 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="863b8bb0-62c3-417c-a174-09ac5dcd2c83">
 <persname short="HOR.">Thomas Horner</persname>
 <persaliases>
 	<persname short="Armorer."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f155ae66-20db-486b-813a-9015ed16abbb">
 <persname short="PETER.">Peter Thump</persname>
 <persaliases>
 	<persname short="Peter."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7d99b619-5c50-401b-add1-223a0d0fb281">
 <persname short="CLERK. CHAT.">Clerk of Chatham</persname>
 <persaliases>
 	<persname short="Clearke."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a8b48ea1-74d9-4109-8750-122d741d8a9e">
 <persname short="MAY.">Mayor of Saint Albans</persname>
 <persaliases>
 	<persname short="Maior."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d3b4ad34-58bd-4974-8c4c-f40560260a40">
 <persname short="SIMP.">Saunder Simpcox</persname>
 <persaliases>
 	<persname short="Simpc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="51f88953-a285-49d3-a030-2b32b63c925c">
 <persname short="CADE.">Jack Cade</persname>
 <persaliases>
 	<persname short="Cade."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="72812df1-4464-4345-a4f6-716601f6f03c">
 <persname short="BEVIS.">George Bevis</persname>
 <persaliases>
 	<persname short="Beuis."/>
@@ -298,7 +298,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1264ded8-2486-4912-bae0-57ed03016b6f">
 <persname short="HOLL.">John Holland</persname>
 <persaliases>
 	<persname short="Iohn."/>
@@ -308,7 +308,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8799d863-2014-4c90-aa70-222f891066ba">
 <persname short="DICK.">Dick the Butcher</persname>
 <persaliases>
 	<persname short="Dic."/>
@@ -321,28 +321,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="595decd1-5a02-4506-ae99-6f3d7c7853ee">
 <persname short="SPIR.">Spirit</persname>
 <persaliases>
 	<persname short="Spirit."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a585cd74-265f-4e5b-81df-0aaf51b80faa">
 <persname short="SIMP. WIFE.">Simpcox&#8217;s Wife</persname>
 <persaliases>
 	<persname short="Wife."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="c817c8c0-4015-4dc8-b361-071c58b943a5">
 <persname short="M. JORD.">Margery Jordan</persname>
 <persaliases>
 	<persname short="Witch."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="726b165b-6c4e-4ea2-a6d5-d5cb370f49ba">
 <persname short="DUCH.">Duchess Eleanor of Gloucester</persname>
 <persaliases>
 	<persname short="Duch."/>
@@ -352,7 +352,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="3e375b7a-4c1c-4f8d-91b1-4609ef64b4bc">
 <persname short="QUEEN.">Queen Margaret</persname>
 <persaliases>
 	<persname short="Q."/>
@@ -363,28 +363,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="13736bc5-1b18-4056-8f82-c05ade0702be">
 <persname short="1. MUR.">First Murderer</persname>
 <persaliases>
 	<persname short="1."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5295b02b-e775-4e8c-8c77-22a52a0127de">
 <persname short="2. MUR.">Second Murderer</persname>
 <persaliases>
 	<persname short="2."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e37dd817-840d-46e6-85c0-ee7e70697cb4">
 <persname short="MICH.">Michael</persname>
 <persaliases>
 	<persname short="Mich."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9652aebd-7844-46ad-b851-c1de143c6931">
 <persname short="SMITH.">Smith the Weaver</persname>
 <persaliases>
 	<persname short="Weauer."/>
@@ -395,21 +395,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="170b23c8-9647-4a91-8206-948852c58449">
 <persname short="BEAD.">Beadle of Saint Albans</persname>
 <persaliases>
 	<persname short="Beadle."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="704b0856-e232-4e48-97f3-fde93c7e11c8">
 <persname short="1. ROYAL MESS.">First Royal Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="863e2774-51f3-4226-bd30-5959397688f7">
 <persname short="1. PETIT.">First Petitioner</persname>
 <persaliases>
 	<persname short="1.Pet."/>
@@ -419,7 +419,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a3d10b38-af92-433b-ac49-944f4333cc53">
 <persname short="2. PETIT.">Second Petitioner</persname>
 <persaliases>
 	<persname short="2. Pet."/>
@@ -428,57 +428,57 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="f3301b38-17fb-4d9c-98f6-5c7923549cd5">
 <persname short="GLOU. SERV.">Gloucester&#8217;s Servingman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4c6e3127-d3f1-4128-aafb-7ec055f0e20a">
 <persname short="1. NEIGH.">First Neighbor</persname>
 <persaliases>
 	<persname short="1. Neighbor."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="04d894c9-3cb4-4bdf-87b9-641a9156534b">
 <persname short="2. NEIGH.">Second Neighbor</persname>
 <persaliases>
 	<persname short="2. Neighbor."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c6e76728-d339-4423-bc5c-4c786524381c">
 <persname short="3. NEIGH.">Third Neighbor</persname>
 <persaliases>
 	<persname short="3. Neighbor."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6f70f4ee-4bf9-4a32-8d80-c3e99a5d0911">
 <persname short="1. PREN.">First Prentice</persname>
 <persaliases>
 	<persname short="1. Prent."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e61691a9-41fc-445c-809e-a24683597805">
 <persname short="2. PREN.">Second Prentice</persname>
 <persaliases>
 	<persname short="2. Prent."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="842eeec1-dc38-4d17-9e25-45779b1eff9a">
 <persname short="3. PREN.">Third Prentice</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f504d2f0-eb4c-4529-be2a-6ce764507ba0">
 <persname short="HER.">Herald</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="606f5e89-0cf7-4a5e-9c9b-29904d3a7b6a">
 <persname short="SHER. LOND.">Sheriff of London</persname>
 <persaliases>
 	<persname short="Sherife."/>
@@ -486,89 +486,89 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="792a124a-00aa-4141-9dcb-12547a0e1e77">
 <persname short="POST.">Post</persname>
 <persaliases>
 	<persname short="Po&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6b061c0f-8084-43b0-a3da-767a82d404f2">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="1. Gent."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="06664e7c-1fc8-452b-97e4-e97e2f4c4b48">
 <persname short="2. GENT.">Second Gentleman</persname>
 <persaliases>
 	<persname short="2. Gent."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="284e4583-9cf7-47ff-b3e6-b250d8ed9b76">
 <persname short="2. ROYAL MESS.">Second Royal Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f90f28ef-d721-461b-8676-a8cf8b6cad34">
 <persname short="3. ROYAL MESS.">Third Royal Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c113d14f-0ef4-48cc-8ba1-b6e4f522c105">
 <persname short="4. ROYAL MESS.">Fourth Royal Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6b126a5e-638c-4b3e-b1d8-87cfbb429282">
 <persname short="1. LOND. CIT.">First London Citizen</persname>
 <persaliases>
 	<persname short="1. Cit."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6b126a5e-638c-4b3e-b1d8-87cfbb429282">
 <persname short="LOND. CIT.">London Citizens</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dee3442c-7ae9-4a59-82cb-ac8f91964ca5">
 <persname short="REBEL SOLD.">Rebel Soldier</persname>
 <persaliases>
 	<persname short="Soul."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c03b65b9-62b5-48ac-ab2b-d756f3c1f01b">
 <persname short="REBEL MESS.">Rebel Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="fa494dfe-1b88-47a0-904e-b34f2c37cd29">
 <persname short="IDEN. MEN.">Iden&#8217;s Men</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="647a6b5d-26f5-4fd2-bc6f-5a7984ade0cc">
 <persname short="ONE. CIT.">One Citizen</persname>
 <persaliases>
 	<persname short="One."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="dc7f181e-3d40-431a-88c7-aedb9116d50a">
 <persname short="CIT. ALB.">Citizens of Saint Albans</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="a5f74f51-76d8-45e9-a5aa-34ce7cc0a300">
 <persname short="SAW.">Sawyer</persname>
 <persaliases>
 	<persname short="DICK., SMITH., BEVIS., HOLL., SAW.">ALL</persname>
@@ -576,27 +576,27 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="8d41bd3f-0d3b-4c44-a255-4a33561997af">
 <persname short="BEST. SON.">Best&#8217;s Son</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="5f48cd2b-130e-4494-b822-d80d776733e5">
 <persname short="FALC.">Falconers</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="aea03b4f-570f-4eed-9a92-c4d8c728191b">
 <persname short="YORK. GUARDS.">York&#8217;s Guards</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="709145c6-513b-4279-90be-8082dd5b9426">
 <persname short="YORK. ATT.">York&#8217;s Attendant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="afcf0e47-e7c4-4a51-b2f4-aa5d9f0154e4">
 <persname short="REB. POLE.">Rebel Poleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="febe239e-a868-44ba-ae74-2948d31e9991">
 <persname short="1. COMMON.">First Commoner</persname>
 <persaliases>
 	<persname short="Within."/>
@@ -604,25 +604,25 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="7013bc9c-0a81-4242-a7e5-df523aa5ccb8">
 <persname short="COMMONS.">Commoners</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="521ef030-dcaf-498a-b051-e05d4998da9c">
 <persname short="GLOU. 1. ATT.">Gloucester&#8217;s First Attendant</persname>
 <persaliases>
 	<persname short="Seru."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a8e1b505-5733-43bf-9257-053a88b36e99">
 <persname short="GLOU. 2. ATT.">Gloucester&#8217;s Second Attendant</persname>
 <persaliases>
 	<persname short="Seru."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="50f40813-0305-4e48-94fd-f7f71b91aefe">
 <persname short="CADE. FOLL.">Cade&#8217;s Followers</persname>
 <persaliases>
 	<persname short="All."/>
@@ -631,9 +631,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Flouri&#383;h of Trumpets: Then Hoboyes.</stagedir>
@@ -7287,8 +7287,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

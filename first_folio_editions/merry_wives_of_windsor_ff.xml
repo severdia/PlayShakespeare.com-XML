@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="merry-wives-of-windsor">
 <title short="Merry Wives of Windsor">THE<lb /> Merry Wiues of Wind&#383;or.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="The Merry Wives of Windsor">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="85ee0bd0-5903-417b-9bb2-cbeda8489a73">
 <persname short="FAL.">Sir John Falstaff</persname>
 <persaliases>
 	<persname short="Fa."/>
@@ -20,7 +20,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ea273bea-c23e-4ea9-8cdc-9381518ee723">
 <persname short="FENT.">Fenton</persname>
 <persaliases>
 	<persname short="Fen."/>
@@ -28,7 +28,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="f139ffaf-ead5-48af-b7bd-01d827fc8804">
 <persname short="SHAL.">Robert Shallow</persname>
 <persaliases>
 	<persname short="Sh."/>
@@ -42,7 +42,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="6d4fe6f4-b1d3-442d-9e4f-69c781d1fba3">
 <persname short="FORD.">Francis Ford</persname>
 <persaliases>
 	<persname short="For."/>
@@ -50,7 +50,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="22cd0c92-0e2f-44a7-8ae5-5b3681e7a90f">
 <persname short="PAGE.">George Page</persname>
 <persaliases>
 	<persname short="Pag."/>
@@ -67,14 +67,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2817b8d4-d0af-41f1-abc8-7f748d5dc5f6">
 <persname short="WILL.">William Page</persname>
 <persaliases>
 	<persname short="Will."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7053b0cd-18d5-4a23-b7ab-375fef0dc2c6">
 <persname short="EVANS.">Sir Hugh Evans</persname>
 <persaliases>
 	<persname short="Eu."/>
@@ -88,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="3c1d5344-f07d-4a98-8ee7-b9bd50eae36f">
 <persname short="MRS. FORD.">Mistress Alice Ford</persname>
 <persaliases>
 	<persname short="Mi.Ford."/>
@@ -100,7 +100,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="e4a80f1d-5984-46b1-8575-cba449ce3cb9">
 <persname short="MRS. PAGE.">Mistress Margaret Page</persname>
 <persaliases>
 	<persname short="M.Pa."/>
@@ -117,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="f811b25b-15c1-4dee-b02d-7417029ba686">
 <persname short="ANNE.">Mistress Anne Page</persname>
 <persaliases>
 	<persname short="An."/>
@@ -125,7 +125,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="clown" id="d64a8f34-5b9b-40d2-a4e5-de00c826f4eb">
 <persname short="QUICK.">Mistress Quickly</persname>
 <persaliases>
 	<persname short="Qu."/>
@@ -134,7 +134,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="59800b33-3a77-4eb1-9839-7157f3e6d67e">
 <persname short="CAIUS.">Doctor Caius</persname>
 <persaliases>
 	<persname short="Ca."/>
@@ -147,7 +147,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8b7679f4-de10-4471-9828-8db716990ca1">
 <persname short="HOST.">Host of the Garter Inn</persname>
 <persaliases>
 	<persname short="Ho."/>
@@ -157,7 +157,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="02a15a8e-a068-4aeb-9650-ed3347bdd65e">
 <persname short="BARD.">Bardolph</persname>
 <persaliases>
 	<persname short="Ba."/>
@@ -166,15 +166,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="051de0bf-12da-472b-99fb-2c96265b08a3">
 <persname short="PIST.">Pistol</persname>
-
 <persaliases>
 	<persname short="Pi&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="14f81d94-f348-4dc6-9757-80f5ad7c6492">
 <persname short="NYM.">Nym</persname>
 <persaliases>
 	<persname short="Ni."/>
@@ -183,7 +182,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1f128f1c-d2c9-4f6e-bef1-c49f4e194711">
 <persname short="ROB.">Robin</persname>
 <persaliases>
 	<persname short="Rob."/>
@@ -191,7 +190,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="89405627-d133-4652-9b3c-6e6935f836a5">
 <persname short="SIM.">Peter Simple</persname>
 <persaliases>
 	<persname short="Si."/>
@@ -200,7 +199,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="f743ce16-fb9a-43b2-9652-8b07e2a103de">
 <persname short="RUG.">John Rugby</persname>
 <persaliases>
 	<persname short="Ru."/>
@@ -210,7 +209,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="43e3d429-7120-4680-87b6-169aab213464">
 <persname short="SLEN.">Abraham Slender</persname>
 <persaliases>
 	<persname short="Sl."/>
@@ -222,7 +221,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e7b41033-0967-47da-8767-9ca96353b850">
 <persname short="1. SERV.">First Servant</persname>
 <persaliases>
 	<persname short="1 Ser."/>
@@ -230,30 +229,30 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7af48bee-f108-4bfb-88d6-27bc3a6a6989">
 <persname short="2. SERV.">Second Servant</persname>
 <persaliases>
 	<persname short="2 Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="fd2e5ed8-b774-47ca-bf2d-a0be223ae967">
 <persname short="CHILD. WIND.">Children of Windsor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="77b5a77a-626c-4228-9083-663c5423de07">
 <persname short="POST. BOY">Postmaster&#8217;s Boy</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="c106a260-d708-44b6-a133-bf71ca817a45">
 <persname short="BOY.">Boy</persname>
 </persona>
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus, Scena prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus, Scena prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Iu&#383;tice <emph rend="noitalic">Shallow, Slender,</emph> Sir <emph rend="noitalic">Hugh Euans,</emph> Ma&#383;ter <emph rend="noitalic">Page, Falstoffe, Bardolph, Nym, Pi&#383;toll, Anne Page, </emph>Mi&#383;tre&#383;&#383;e <emph rend="noitalic">Ford,</emph> Mi&#383;tre&#383;&#383;e <emph rend="noitalic">Page, Simple</emph>.</stagedir>
@@ -1086,7 +1085,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="280.02" sdnumber="0.01">Enter Euans, and Simple.</stagedir>
@@ -1118,7 +1117,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="291.02" sdnumber="0.01">Enter Fal&#383;taffe, Ho&#383;t, Bardolfe, Nym, Pi&#383;toll, Page.</stagedir>
@@ -1402,7 +1401,7 @@
 <stagedir sdglobalnumber="387.01" sdnumber="96.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="387.02" sdnumber="0.01">Enter Mi&#383;tris Quickly, Simple, Iohn Rugby, Do&#57348;or, Caius, Fenton.</stagedir>
@@ -1811,9 +1810,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="538.02" sdnumber="0.01">Enter Mi&#383;tris <emph rend="noitalic">Page</emph>, Mi&#383;tris <emph rend="noitalic">Ford</emph>, Ma&#383;ter <emph rend="noitalic">Page</emph>, Ma&#383;ter <emph rend="noitalic">Ford, Pi&#383;toll, Nim, Quickly, Ho&#383;t, Shallow.</emph></stagedir>
@@ -2333,7 +2332,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="753.02" sdnumber="0.01">Enter <emph rend="noitalic">Fal&#383;taffe, Pi&#383;toll, Robin, Quickly, Bardolffe, Ford.</emph></stagedir>
@@ -2966,7 +2965,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1045.02" sdnumber="0.01">Enter Caius, Rugby, Page, Shallow, Slender, Ho&#383;t.</stagedir>
@@ -3249,9 +3248,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1134.02" sdnumber="0.01">Enter Euans, Simple, Page, Shallow, Slender, Ho&#383;t, Caius, Rugby.</stagedir>
@@ -3550,7 +3549,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1134.03" sdnumber="0.01">Mi&#383;t. Page, Robin, Ford, Page, Shallow, Slender, Ho&#383;t, Euans, Caius.</stagedir>
@@ -3762,7 +3761,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1321.02" sdnumber="0.01">Enter M. Ford, M. Page, Seruants, Robin, Fal&#383;taffe, Ford, Page, Caius, Euans.</stagedir>
@@ -4356,7 +4355,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1534.02" sdnumber="0.01">Enter Fenton, Anne, Page, Shallow, Slender, Quickly, Page, Mi&#383;t. Page.</stagedir>
@@ -4649,7 +4648,7 @@
 <stagedir sdglobalnumber="1643.01" sdnumber="109.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="5">
 <scenetitle id="scene3_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="1643.02" sdnumber="0.01">Enter Fal&#383;taffe, Bardolfe, Quickly, Ford.</stagedir>
@@ -4972,9 +4971,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1784.02" sdnumber="0.01">Enter Mi&#383;tris Page, Quickly, William, Euans.</stagedir>
@@ -5246,7 +5245,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1859.02" sdnumber="0.01">Enter Fal&#383;toffe, Mi&#383;t. Ford, Mi&#383;t. Page, Seruants, Ford, Page, Caius, Euans, Shallow.</stagedir>
@@ -5813,8 +5812,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2065.02" sdnumber="0.01">Enter Ho&#383;t and Bardolfe.</stagedir>
@@ -5850,7 +5848,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2076.02" sdnumber="0.01">Enter Page, Ford, Mi&#383;tris Page, Mi&#383;tris Ford, and Euans.</stagedir>
@@ -6055,7 +6053,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="5">
 <scenetitle id="scene4_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="2076.03" sdnumber="0.01">Enter Ho&#383;t, Simple, Fal&#383;taffe, Bardolfe, Euans, Caius, Quickly.</stagedir>
@@ -6371,7 +6369,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="6">
 <scenetitle id="scene4_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="2293.02" sdnumber="0.01">Enter Fenton, Ho&#383;t.</stagedir>
@@ -6468,9 +6466,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2348.02" sdnumber="0.01">Enter Fal&#383;toffe, Quickly, and Ford.</stagedir>
@@ -6527,7 +6525,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2376.02" sdnumber="0.01">Enter Page, Shallow, Slender.</stagedir>
@@ -6566,7 +6564,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2390.02" sdnumber="0.01">Enter Mi&#383;t. Page, Mi&#383;t. Ford, Caius.</stagedir>
@@ -6639,7 +6637,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2414.02" sdnumber="0.01">Enter Euans and Fairies.</stagedir>
@@ -6656,7 +6654,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="5">
 <scenetitle id="scene5_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="2418.02" sdnumber="0.01">Enter Fal&#383;taffe, Mi&#383;tris Page, Mi&#383;tris Ford, Euans, Anne Page, Fairies, Page, Ford, Quickly, Slender, Fenton, Caius, Pi&#383;toll.</stagedir>
@@ -7224,8 +7222,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

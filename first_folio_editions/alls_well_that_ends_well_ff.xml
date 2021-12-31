@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="alls-well-that-ends-well">
 <title short="All&#8217;s Well That Ends Well">ALL&#8217;S<lb />Well, that Ends Well.</title>
@@ -10,7 +10,8 @@
 <edition>First Folio of 1623</edition>
 
 <personae playtitle="All&#8217;s Well That Ends Well">
-<persona gender="male">
+
+<persona gender="male" archetype="hero" id="f0a503de-1eb6-430e-84e9-0cc157f0f4c3">
 <persname short="KING.">King of France</persname>
 <persaliases>
 	<persname short="King."/>
@@ -18,14 +19,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a6a2517e-b033-4103-a8c5-b27994fc4474">
 <persname short="DUKE.">Duke of Florence</persname>
 <persaliases>
 	<persname short="Duke."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e4b51df2-2a4c-45d4-a657-4130838ebcfc">
 <persname short="BER.">Bertram, Count of Roussillon</persname>
 <persaliases>
 	<persname short="Ber"/>
@@ -38,7 +39,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="df4e2ad0-6dcc-46f1-af74-c3c99d483ce2">
 <persname short="LAF.">Lafew</persname>
 <persaliases>
 	<persname short="Ol.Laf."/>
@@ -53,7 +54,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="0d19dfab-51a6-4e51-9a58-1d899d1dafb5">
 <persname short="PAR.">Parolles</persname>
 <persaliases>
 	<persname short="Paroll."/>
@@ -63,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ede8c958-ccb1-4ccb-9385-39cc3fc6aa18">
 <persname short="STEW.">Rinaldo</persname>
 <persaliases>
 	<persname short="Stew."/>
@@ -71,7 +72,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="9f513b4c-b30a-4efe-b082-2a133a0042ff">
 <persname short="CLO.">Lavatch</persname>
 <persaliases>
 	<persname short="CloW."/>
@@ -82,14 +83,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6407aa16-302e-4a83-ac8c-a58937941a48">
 <persname short="PAGE.">Countess&#8217;s Page</persname>
 <persaliases>
 	<persname short="Pag."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="844267de-ebb5-4638-aea9-75eb0c754bf0">
 <persname short="GENT.">Gentleman</persname>
 <persaliases>
 	<persname short="Gent."/>
@@ -97,7 +98,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="ee491ff4-9d43-4e07-9a75-fabfbf07878c">
 <persname short="COUNT.">Countess of Roussillon</persname>
 <persaliases>
 	<persname short="Mother."/>
@@ -112,7 +113,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="033d23a3-2998-489c-b4a7-c254b994155d">
 <persname short="HEL.">Helena</persname>
 <persaliases>
 	<persname short="Hel"/>
@@ -122,7 +123,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="4a2fbd89-cc9e-41cd-b043-46c0c1c27087">
 <persname short="WID.">An Old Widow of Florence</persname>
 <persaliases>
 	<persname short="Widdow."/>
@@ -131,7 +132,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="5a136d39-d258-4078-a54d-ecb5a576667c">
 <persname short="DIA.">Diana</persname>
 <persaliases>
 	<persname short="Dian."/>
@@ -142,7 +143,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="be61d1d5-da28-42c0-b9f8-1be9f80b6f9c">
 <persname short="MAR.">Mariana</persname>
 <persaliases>
 	<persname short="Maria."/>
@@ -152,11 +153,11 @@
 </persaliases>
 </persona>
 
-<persona gender="female">	
+<persona gender="female" mute="yes" id="72834791-8d5b-4a70-af0d-6d2594612ef1">
 <persname short="VIOL.">Violenta</persname>	
 </persona>	
 
-<persona gender="male">
+<persona gender="male" id="9006a178-c3de-44d0-9c7a-87ed0077c2be">
 <persname short="1. LORD.">First French Lord</persname>
 <persaliases>
 	<persname short="1.Lo."/>
@@ -165,7 +166,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f1e15c83-43c1-47e0-a607-752b095ff86c">
 <persname short="2. LORD.">Second French Lord</persname>
 <persaliases>
 	<persname short="2.Lo."/>
@@ -173,14 +174,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cab9fc17-65a1-40ea-a85b-b4c562b60ef4">
 <persname short="3. LORD.">Third French Lord</persname>
 <persaliases>
 	<persname short="All.">All French Lords</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="490e7233-09f6-4e87-a673-496f98784320">
 <persname short="4. LORD.">Fourth French Lord</persname>
 <persaliases>
 	<persname short="4.Lord."/>
@@ -188,7 +189,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb9d9e28-c77b-4111-bac1-fd4716138fee">
 <persname short="1. LORD. DUM.">First French Lord Dumaine</persname>
 <persaliases>
 	<persname short="Lord.G."/>
@@ -203,7 +204,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ce15e84-1106-4254-b4bd-fbfd3d3d690a">
 <persname short="2. LORD. DUM.">Second French Lord Dumaine</persname>
 <persaliases>
 	<persname short="L.G."/>
@@ -220,7 +221,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6aa463e3-5682-4a1f-a710-c35f1fdb0974">
 <persname short="1. SOLD. AS INTERPRETER.">First Soldier as Interpreter</persname>
 <persaliases>
 	<persname short="Interp."/>
@@ -231,14 +232,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d30834d-a2cc-4bc3-85ff-d439bb98cda6">
 <persname short="2. SOLD.">Second Soldier</persname>
 <persaliases>
 	<persname short="Sol."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f016e062-43a6-445f-a95e-581cef21ef2a">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -246,9 +247,9 @@
 </persona>
 </personae> 
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter yong Bertram Count of Ro&#383;&#383;illion, his Mother, and Helena, Lord Lafew, all in blacke.</stagedir>
@@ -1433,9 +1434,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="577.02" sdnumber="0.01">Enter the King with diuers yong Lords, taking leaue for the Florentine warre: Count, Ro&#383;&#383;e, and Parrolles. Flori&#383;h Cornets</stagedir>
@@ -3318,9 +3319,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1329.02" sdnumber="0.01">Flouri&#383;h. Enter the Duke of Florence, the two Frenchmen,with a troope of Souldiers</stagedir>
@@ -4264,7 +4265,7 @@
 <line globalnumber="1740" number="407">magnanimious in the enterprize and go on, I wil grace</line>
 <line globalnumber="1741" number="408">the attempt for a worthy exploit: if you &#383;peede well in</line>
 <line globalnumber="1742" number="409">it, the Duke &#383;hall both &#383;peake of it, and extend to you</line>
-<line globalnumber="1743" number="410">what further becomes his greatne&#383;&#383;e, euen to the vtmo>&#383;t</line>
+<line globalnumber="1743" number="410">what further becomes his greatne&#383;&#383;e, euen to the vtmo&#383;t</line>
 <line globalnumber="1744" number="411">&#383;yllable of your worthine&#383;&#383;e.</line>
 </speech>
 
@@ -4493,9 +4494,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1795.03" sdnumber="0.01">Enter one of the Frenchmen, with fiue or &#383;ixe other &#383;ouldiers in ambu&#383;h</stagedir>
@@ -6113,9 +6114,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2512.02" sdnumber="0.01">Enter Hellen, Widdow, and Diana, with two Attendants</stagedir>
@@ -7187,16 +7188,18 @@
 
 <stagedir sdglobalnumber="2978.01" sdnumber="466.01">Flouri&#383;h.</stagedir>
 
-
 </scene>
 
 <epilogue>
+<speech>
+<speaker rend="hidden">King.</speaker>
 <line globalnumber="2979" number="467" order="first"><dropcap type="regular" size="small">T</dropcap>he Kings a Begger, now the Play is done,</line>
 <line globalnumber="2980" number="468" order="second">All is well ended, if this &#383;uite be wonne,</line>
 <line globalnumber="2981" number="469">That you expre&#383;&#383;e Content: which we will pay,</line>
 <line globalnumber="2982" number="470">With &#383;trife to plea&#383;e you, day exceeding day:</line>
 <line globalnumber="2983" number="471">Ours be your patience then, and yours our parts,</line>
 <line globalnumber="2984" number="472">Your gentle hands lend vs, and take our hearts.</line>
+</speech>
 
 <stagedir sdglobalnumber="2984.01" sdnumber="472.01">Exeunt omn.</stagedir>
 
@@ -7210,7 +7213,7 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
 <version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

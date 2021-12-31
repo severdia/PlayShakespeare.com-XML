@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="comedy-of-errors">
 <title short="Comedie of Errors">The Comedie of Errors.</title>
@@ -11,14 +11,14 @@
 
 <personae playtitle="A Comedy of Errors">
 
-<persona gender="female">
+<persona gender="female" id="94ad019b-6d60-4242-a818-8b3d446b006b">
 <persname short="LUCE.">Luce</persname>
 <persaliases>
 	<persname short="Luce."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="d4d05cf1-c4aa-4b05-9aaf-c1be51938a7b">
 <persname short="LUC.">Luciana</persname>
 <persaliases>
 	<persname short="Luc."/>
@@ -27,7 +27,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="eb464c46-1301-43dd-834d-dd253dd04384">
 <persname short="ADR.">Adriana</persname>
 <persaliases>
 	<persname short="Adr."/>
@@ -37,7 +37,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c57c2638-0761-4110-893b-4ebbf4e4c816">
 <persname short="ABB.">Aemilia</persname>
 <persaliases>
 	<persname short="Abb."/>
@@ -46,14 +46,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="11f337c5-9e74-4843-98bf-7f563e377aa7">
 <persname short="PINCH.">Doctor Pinch</persname>
 <persaliases>
 	<persname short="Pinch."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7a3fb4ab-bdcf-4abf-80e8-88bef990b551">
 <persname short="ANG.">Angelo</persname>
 <persaliases>
 	<persname short="Ang."/>
@@ -64,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="48098128-3f06-4420-85f3-cd22584e37e5">
 <persname short="BALTH.">Balthazar</persname>
 <persaliases>
 	<persname short="Balth."/>
@@ -73,7 +73,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="90cf327d-3520-414e-be52-fd8919fc50e6">
 <persname short="S. DRO.">Dromio of Syracuse</persname>
 <persaliases>
 	<persname short="S.Dro."/>
@@ -85,7 +85,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="87e62c72-e761-4996-9262-9a61b844e09f">
 <persname short="E. DRO.">Dromio of Ephesus</persname>
 <persaliases>
 	<persname short="E.Dro."/>
@@ -94,7 +94,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="56025a8a-15b9-4af8-9754-c58ba23a4b54">
 <persname short="S. ANT.">Antipholus of Syracuse</persname>
 <persaliases>
 	<persname short="S.Ant."/>
@@ -107,7 +107,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f1909468-2724-4517-b82c-08820f029e35">
 <persname short="E. ANT.">Antipholus of Ephesus</persname>
 <persaliases>
 	<persname short="E.Ant."/>
@@ -118,7 +118,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5db5cfeb-0a12-404e-83d6-e84234d52633">
 <persname short="EGE.">Egeon</persname>
 <persaliases>
 	<persname short="Fa."/>
@@ -132,7 +132,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="faa3a656-8db3-4e6e-bca1-4752b610e0c2">
 <persname short="DUKE.">Solinus, Duke of Ephesus</persname>
 <persaliases>
 	<persname short="Duke."/>
@@ -140,28 +140,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1057c718-3979-4f2e-a82e-7cc651d1897e">
 <persname short="1. MER.">First Merchant</persname>
 <persaliases>
 	<persname short="E.Mar."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aa9b25b5-7e9a-40de-b1a0-23a125f2f355">
 <persname short="2. MER.">Second Merchant</persname>
 <persaliases>
 	<persname short="Mar."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="59936b6a-f6f7-4e59-9467-00b145d4da0c">
 <persname short="JAIL.">Jailer</persname>
 <persaliases>
 	<persname short="Iaylor."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="67b5cc59-356d-46a5-bae9-8062229863bd">
 <persname short="COUR.">Courtezan</persname>
 <persaliases>
 	<persname short="Curt."/>
@@ -169,14 +169,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="db44303f-3331-4391-ae99-7da6bfa1aba6">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="349e0189-f24d-41e6-b27f-6a846df628d7">
 <persname short="OFF.">Officer</persname>
 <persaliases>
 	<persname short="Off."/>
@@ -185,15 +185,15 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="17b3c7b2-2516-41b4-afb4-592cf9cb9d2c">
 <persname short="HEAD.">Headsman</persname>
 </persona>
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus, Scena prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus, Scena prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter the Duke of Ephe&#383;us, with the Merchant of Siracu&#383;a, Iaylor, and other attendants</stagedir>
@@ -623,9 +623,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="262.02" sdnumber="0.01">Enter Adriana, wife to Antipholis Sereptus, with Luciana her Si&#383;ter</stagedir>
@@ -1461,9 +1461,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="487.02" sdnumber="0.01">Enter Antipholus of Ephe&#383;us, his man Dromio, Angelo the Gold&#383;mith, and Baltha&#383;er the Merchant</stagedir>
@@ -2339,9 +2339,9 @@ me turne i&#8217;th wheele.</line>
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="953.02" sdnumber="0.01">Enter a Merchant, Gold&#383;mith, and an Officer.</stagedir>
@@ -3605,9 +3605,9 @@ me turne i&#8217;th wheele.</line>
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1412.02" sdnumber="0.01">Enter the Merchant and the Gold&#383;mith.</stagedir>
@@ -4653,8 +4653,8 @@ me turne i&#8217;th wheele.</line>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

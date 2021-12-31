@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="timon-of-athens">
 <title short="Timon of Athens">THE LIFE OF TYMON<lb />OF ATHENS.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Timon of Athens">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="c9df550c-840d-45a4-aa50-39b533445fc0">
 <persname short="TIM.">Timon of Athens</persname>
 <persaliases>
 	<persname short="Ti."/>
@@ -22,7 +22,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="7d37549f-09f3-43a3-9264-59ed10995c4a">
 <persname short="ALCIB.">Alcibiades</persname>
 <persaliases>
 	<persname short="Alc."/>
@@ -30,7 +30,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="8a7cc70b-bd0a-413d-91d8-779b06c27cc9">
 <persname short="APEM.">Apemantus</persname>
 <persaliases>
 	<persname short="Ap."/>
@@ -40,7 +40,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="50328268-4c2d-4170-9f09-5b7472888518">
 <persname short="CAPH.">Caphis</persname>
 <persaliases>
 	<persname short="Ca."/>
@@ -49,14 +49,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ef96bcb9-87c5-4ed9-b7b6-e1cad7b21a5f">
 <persname short="CUP.">Cupid</persname>
 <persaliases>
 	<persname short="Cup."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f5bad299-8f5e-4f00-8067-24babe7e4a24">
 <persname short="1. BAN.">First Bandit</persname>
 <persaliases>
 	<persname short="1"/>
@@ -65,7 +65,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6e47667f-7c68-4553-966e-b1f3551c818b">
 <persname short="2. BAN.">Second Bandit</persname>
 <persaliases>
 	<persname short="2"/>
@@ -75,7 +75,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c77dd76a-40be-49cd-a578-65a0d2c46f62">
 <persname short="3. BAN.">Third Bandit</persname>
 <persaliases>
 	<persname short="3"/>
@@ -85,7 +85,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="11f9ba7e-f026-4dc3-aef4-81f063499f5a">
 <persname short="1. LADY MASK.">First Lady Amazon Masker</persname>
 <persaliases>
 	<persname short="1 Lord."/>
@@ -94,7 +94,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="female" id="6549a83c-7b7e-4e29-b046-5719599b83a9">
 <persname short="ALL LADY MASK.">Lady Amazon Maskers</persname>
 <persaliases>
 	<persname short="All La"/>
@@ -102,7 +102,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb78238f-6de4-4f04-8ca7-71e6f7c5773c">
 <persname short="1. LORD.">First Lord</persname>
 <persaliases>
 	<persname short="1"/>
@@ -119,7 +119,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="83ba65b7-4049-49ba-b59e-ba5effbd19e5">
 <persname short="2. LORD.">Second Lord</persname>
 <persaliases>
 	<persname short="2"/>
@@ -135,7 +135,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="45460451-a5a3-408c-b947-0116a90bb97c">
 <persname short="3. LORD.">Third Lord</persname>
 <persaliases>
 	<persname short="2"/>
@@ -150,7 +150,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="78d1cc0d-2b24-47cf-97fa-665667e6165c">
 <persname short="4. LORD.">Fourth Lord</persname>
 <persaliases>
 	<persname short="4"/>
@@ -162,7 +162,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3531b913-682b-4613-a1d5-52189a90cc06">
 <persname short="1. SEN.">First Senator</persname>
 <persaliases>
 	<persname short="1"/>
@@ -171,7 +171,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1c90b949-c5b8-4b51-854e-c42feca0684b">
 <persname short="2. SEN.">Second Senator</persname>
 <persaliases>
 	<persname short="2"/>
@@ -179,7 +179,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e095f8a0-2445-494a-a5de-50edd3fdfd72">
 <persname short="3. SEN.">Third Senator</persname>
 <persaliases>
 	<persname short="1"/>
@@ -188,35 +188,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="430018b0-06f8-4c18-848e-9e8284ba8b14">
 <persname short="4. SEN.">Fourth Senator</persname>
 <persaliases>
 	<persname short="2"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2ed047de-39f4-4091-954e-e5a2949689ad">
 <persname short="1. STRAN.">First Stranger</persname>
 <persaliases>
 	<persname short="1"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c78efefd-7eb1-47cc-9704-34249f1407e5">
 <persname short="2. STRAN.">Second Stranger</persname>
 <persaliases>
 	<persname short="2"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="47fb55bb-89ca-4363-ad27-04a266633144">
 <persname short="3. STRAN.">Third Stranger</persname>
 <persaliases>
 	<persname short="3"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="121bf218-7ac9-479c-ad4c-5a47febb2775">
 <persname short="FLAM.">Flaminius</persname>
 <persaliases>
 	<persname short="1"/>
@@ -227,7 +227,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8735f2a3-ab8f-4db6-bc59-66df85b25659">
 <persname short="FLAV.">Flavius</persname>
 <persaliases>
 	<persname short="Fla."/>
@@ -237,14 +237,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="906d5ae3-9cee-47fc-8a6d-38c3545a81ef">
 <persname short="FOOL.">Fool</persname>
 <persaliases>
 	<persname short="Foole."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e4b14fa5-9a21-4c4b-9ac5-7db457863193">
 <persname short="HOR.">Hortensius</persname>
 <persaliases>
 	<persname short="Hort."/>
@@ -252,7 +252,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bcd70082-fb2d-41fb-af0a-517d59d75b69">
 <persname short="ISID. SERV.">Isidore&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Isid."/>
@@ -264,7 +264,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="14a041ae-65bb-4d30-b695-5749e218f19e">
 <persname short="JEW.">Jeweller</persname>
 <persaliases>
 	<persname short="Iew."/>
@@ -272,14 +272,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="798a3840-f10e-42f1-b2c1-9852817a2ab1">
 <persname short="LUCIL.">Lucilius</persname>
 <persaliases>
 	<persname short="Luc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a5d67d46-8405-4a08-8121-213e120b4788">
 <persname short="LUC.">Lucius</persname>
 <persaliases>
 	<persname short="Luc."/>
@@ -289,7 +289,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c8a7c2d-d844-4c3d-ac69-89ee17bc8be2">
 <persname short="LUC. SERV.">Lucius&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Luc."/>
@@ -297,28 +297,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="005431f7-a378-4ebf-baf2-cbb666bc43d6">
 <persname short="LUCUL.">Lucullus</persname>
 <persaliases>
 	<persname short="Luc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="81796ef0-ca69-40c2-bb7e-16f5ec3e0d48">
 <persname short="LUCUL. SERV.">Lucullus&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f80a1fe7-9c29-4f41-b752-580dfd68e1df">
 <persname short="MER.">Merchant</persname>
 <persaliases>
 	<persname short="Mer."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c8669cd1-6caa-4f04-9b12-99627e526deb">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Mes."/>
@@ -326,14 +326,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9915a542-831d-4053-8dc3-761de086319f">
 <persname short="MESS. VENT.">Messenger from Ventidius</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4439188e-34bc-42f0-bdf1-aa5faf319e0e">
 <persname short="OLD ATH.">Old Athenian</persname>
 <persaliases>
 	<persname short="Old."/>
@@ -341,7 +341,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1843be92-0332-4783-91fe-7aba5528c560">
 <persname short="PAIN.">Painter</persname>
 <persaliases>
 	<persname short="Pain."/>
@@ -351,7 +351,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="10023726-81f7-463e-9434-db213efe03e8">
 <persname short="PHI.">Philotus</persname>
 <persaliases>
 	<persname short="Phil."/>
@@ -359,7 +359,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="04b30248-0e8d-4396-8285-bdb3b3bb0a5a">
 <persname short="PHRY.">Phrynia</persname>
 <persaliases>
 	<persname short="Phrin."/>
@@ -368,7 +368,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8b79bf4c-bc82-4b2c-a0cc-eaf03b9d6862">
 <persname short="POET.">Poet</persname>
 <persaliases>
 	<persname short="Po."/>
@@ -378,14 +378,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5f153f72-15dc-430a-bf27-14187ad049a5">
 <persname short="SEM.">Sempronius</persname>
 <persaliases>
 	<persname short="Semp."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a1b71428-370a-4a3f-85af-9b4dc6098763">
 <persname short="SER.">Servilius</persname>
 <persaliases>
 	<persname short="2"/>
@@ -396,7 +396,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="112a4dc4-05c0-4465-99c0-38169501d25a">
 <persname short="SOLD.">Soldier</persname>
 <persaliases>
 	<persname short="Sol."/>
@@ -404,7 +404,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c2d575e8-b337-4f87-ba5c-e4f8444c1137">
 <persname short="TIMAN.">Timandra</persname>
 <persaliases>
 	<persname short="Timan."/>
@@ -413,7 +413,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="21be3ffa-36f6-4848-9375-cda12a9c44cc">
 <persname short="TIM. PAGE.">Timon&#8217;s Page</persname>
 <persaliases>
 	<persname short="Page."/>
@@ -421,7 +421,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd37f308-a410-4bd5-ae23-ac2903cde5f0">
 <persname short="TIM. SERV.">Timon&#8217;s Servant</persname>
 <persaliases>
 	<persname short="3"/>
@@ -430,7 +430,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ab9c1c52-cfff-4624-9ec3-171a57fb347e">
 <persname short="TIT.">Titus</persname>
 <persaliases>
 	<persname short="Tit."/>
@@ -438,7 +438,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9300c15a-5157-4c4d-9a5c-ce5167cf4ab1">
 <persname short="1. VAR. SERV.">Varro&#8217;s First Servant</persname>
 <persaliases>
 	<persname short="Var."/>
@@ -454,7 +454,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c9f64e28-d635-4515-bfe2-58ab561acf02">
 <persname short="2. VAR. SERV.">Varro&#8217;s Second Servant</persname>
 <persaliases>
 	<persname short="2.Var."/>
@@ -466,7 +466,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8064e377-c990-4dd0-95ef-b65f5e14567f">
 <persname short="VEN.">Ventidius</persname>
 <persaliases>
 	<persname short="Vint."/>
@@ -476,9 +476,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter P&#339;t, Painter, Ieweller, Merchant, and Mercer, at &#383;euerall doores.</stagedir>
 
 <speech>
@@ -541,7 +541,7 @@
 
 <speech>
 <speaker>Mer.</speaker>
-<line globalnumber="19" number="19">O pray let&#8217;s &#383;ee&#8217;t. For the Lord <nameref>Timon</nameref>, &#383;ir?</line>
+<line globalnumber="19" number="19">O pray let&#8217;s &#383;ee&#8217;t. For the Lord <name type="person">Timon</name>, &#383;ir?</line>
 </speech>
 
 <speech>
@@ -671,14 +671,14 @@
 <line globalnumber="64" number="64">You &#383;ee how all Conditions, how all Mindes,</line>
 <line globalnumber="65" number="65">As well of glib and &#383;lipp&#8217;ry Creatures, as</line>
 <line globalnumber="66" number="66">Of Graue and au&#383;tere qualitie, tender downe</line>
-<line globalnumber="67" number="67">Their &#383;eruices to Lord <nameref>Timon</nameref>: his large Fortune,</line>
+<line globalnumber="67" number="67">Their &#383;eruices to Lord <name type="person">Timon</name>: his large Fortune,</line>
 <line globalnumber="68" number="68">Vpon his good and gracious Nature hanging,</line>
 <line globalnumber="69" number="69">Subdues and properties to his loue and tendance</line>
 <line globalnumber="70" number="70">All &#383;orts of hearts; yea, from the gla&#383;&#383;e-fac&#8217;d Flatterer</line>
-<line globalnumber="71" number="71">To <nameref>Apemantus</nameref>, that few things loues better</line>
+<line globalnumber="71" number="71">To <name type="person">Apemantus</name>, that few things loues better</line>
 <line globalnumber="72" number="72">Then to abhorre him&#383;elfe; euen hee drops downe</line>
 <line globalnumber="73" number="73">The knee before him, and returnes in peace</line>
-<line globalnumber="74" number="74">Mo&#383;t rich in <nameref>Timons</nameref> nod.</line>
+<line globalnumber="74" number="74">Mo&#383;t rich in <name type="person">Timons</name> nod.</line>
 </speech>
 
 <speech>
@@ -695,7 +695,7 @@
 <line globalnumber="80" number="80">That labour on the bo&#383;ome of this Sphere,</line>
 <line globalnumber="81" number="81">To propagate their &#383;tates; among&#8217;&#383;t them all,</line>
 <line globalnumber="82" number="82">Who&#383;e eyes are on this Soueraigne Lady &#64257;xt,</line>
-<line globalnumber="83" number="83">One do I per&#383;onate of Lord <nameref>Timons</nameref> frame,</line>
+<line globalnumber="83" number="83">One do I per&#383;onate of Lord <name type="person">Timons</name> frame,</line>
 <line globalnumber="84" number="84">Whom Fortune with her Iuory hand wa&#64261;s to her,</line>
 <line globalnumber="85" number="85">Who&#383;e pre&#383;ent grace, to pre&#383;ent &#383;laues and &#383;eruants</line>
 <line globalnumber="86" number="86">Tran&#383;lates his Riuals.</line>
@@ -741,7 +741,7 @@
 <line globalnumber="106" number="106">Tis common: A thou&#383;and morall Paintings I can &#383;hew,</line>
 <line globalnumber="107" number="107">That &#383;hall demon&#383;trate the&#383;e quicke blowes of Fortunes,</line>
 <line globalnumber="108" number="108">More pregnantly then words. Yet you do well,</line>
-<line globalnumber="109" number="109">To &#383;hew Lord <nameref>Timon</nameref>, that meane eyes haue &#383;eene</line>
+<line globalnumber="109" number="109">To &#383;hew Lord <name type="person">Timon</name>, that meane eyes haue &#383;eene</line>
 <line globalnumber="110" number="110">The foot aboue the head.</line>
 </speech>
 
@@ -764,7 +764,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="117" number="117">Noble <nameref>Ventidius</nameref>, well:</line>
+<line globalnumber="117" number="117">Noble <name type="person">Ventidius</name>, well:</line>
 <line globalnumber="118" number="118">I am not of that Feather, to &#383;hake off</line>
 <line globalnumber="119" number="119">My Friend when he mu&#383;t neede me. I do know him</line>
 <line globalnumber="120" number="120">A Gentleman, that well de&#383;erues a helpe,</line>
@@ -795,7 +795,7 @@
 
 <speech>
 <speaker>Oldm.</speaker>
-<line globalnumber="128" number="128">Lord <nameref>Timon</nameref>, heare me &#383;peake.</line>
+<line globalnumber="128" number="128">Lord <name type="person">Timon</name>, heare me &#383;peake.</line>
 </speech>
 
 <speech>
@@ -805,7 +805,7 @@
 
 <speech>
 <speaker>Oldm.</speaker>
-<line globalnumber="130" number="130">Thou ha&#383;t a Seruant nam&#8217;d <nameref>Lucilius</nameref>.</line>
+<line globalnumber="130" number="130">Thou ha&#383;t a Seruant nam&#8217;d <name type="person">Lucilius</name>.</line>
 </speech>
 
 <speech>
@@ -815,12 +815,12 @@
 
 <speech>
 <speaker>Oldm.</speaker>
-<line globalnumber="132" number="132">Mo&#383;t Noble <nameref>Timon</nameref>, call the man before thee.</line>
+<line globalnumber="132" number="132">Mo&#383;t Noble <name type="person">Timon</name>, call the man before thee.</line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="133" number="133">Attends he heere, or no? <nameref>Lucillius</nameref>.</line>
+<line globalnumber="133" number="133">Attends he heere, or no? <name type="person">Lucillius</name>.</line>
 </speech>
 
 <speech>
@@ -830,7 +830,7 @@
 
 <speech>
 <speaker>Oldm.</speaker>
-<line globalnumber="135" number="135">This Fellow heere, L. <nameref>Timon</nameref>, this thy Creature,</line>
+<line globalnumber="135" number="135">This Fellow heere, L. <name type="person">Timon</name>, this thy Creature,</line>
 <line globalnumber="136" number="136">By night frequents my hou&#383;e. I am a man</line>
 <line globalnumber="137" number="137">That from my &#64257;r&#383;t haue beene inclin&#8217;d to thri&#64261;,</line>
 <line globalnumber="138" number="138">And my e&#383;tate de&#383;erues an Heyre more rais&#8217;d,</line>
@@ -861,7 +861,7 @@
 
 <speech>
 <speaker>Oldm.</speaker>
-<line globalnumber="150" number="150">Therefore he will be <nameref>Timon</nameref>,</line>
+<line globalnumber="150" number="150">Therefore he will be <name type="person">Timon</name>,</line>
 <line globalnumber="151" number="151">His hone&#383;ty rewards him in it &#383;elfe,</line>
 <line globalnumber="152" number="152">It mu&#383;t not beare my Daughter.</line>
 </speech>
@@ -1031,13 +1031,13 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="211" number="211">Good morrow to thee,</line>
-<line globalnumber="212" number="212">Gentle <nameref>Apermantus</nameref>.</line>
+<line globalnumber="212" number="212">Gentle <name type="person">Apermantus</name>.</line>
 </speech>
 
 <speech>
 <speaker>Ape.</speaker>
 <line globalnumber="213" number="213">Till I be gentle, &#383;tay thou for thy good morrow.</line>
-<line globalnumber="214" number="214">When thou art <nameref>Timons</nameref> dogge, and the&#383;e Knaues hone&#383;t.</line>
+<line globalnumber="214" number="214">When thou art <name type="person">Timons</name> dogge, and the&#383;e Knaues hone&#383;t.</line>
 </speech>
 
 <speech>
@@ -1063,7 +1063,7 @@
 
 <speech>
 <speaker>Iew.</speaker>
-<line globalnumber="220" number="220">You know me, <nameref>Apemantus</nameref>?</line>
+<line globalnumber="220" number="220">You know me, <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1073,12 +1073,12 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="222" number="222">Thou art proud <nameref>Apemantus</nameref>?</line>
+<line globalnumber="222" number="222">Thou art proud <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="223" number="223">Of nothing &#383;o much, as that I am not like <nameref>Timon</nameref></line>
+<line globalnumber="223" number="223">Of nothing &#383;o much, as that I am not like <name type="person">Timon</name></line>
 </speech>
 
 <speech>
@@ -1103,7 +1103,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="228" number="228">How lik&#8217;&#383;t thou this pi&#57348;ure <nameref>Apemantus</nameref>?</line>
+<line globalnumber="228" number="228">How lik&#8217;&#383;t thou this pi&#57348;ure <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1135,7 +1135,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="236" number="236">Wilt dine with me <nameref>Apemantus</nameref>?</line>
+<line globalnumber="236" number="236">Wilt dine with me <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1167,7 +1167,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="244" number="244">How do&#383;t thou like this Iewell, <nameref>Apemantus</nameref>?</line>
+<line globalnumber="244" number="244">How do&#383;t thou like this Iewell, <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1243,12 +1243,12 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="264" number="264">What would&#383;t do then <nameref>Apemantus</nameref>?</line>
+<line globalnumber="264" number="264">What would&#383;t do then <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="265" number="265">E&#8217;ne as <nameref>Apemantus</nameref> d&#339;s now, hate a Lord with</line>
+<line globalnumber="265" number="265">E&#8217;ne as <name type="person">Apemantus</name> d&#339;s now, hate a Lord with</line>
 <line globalnumber="266" number="266">my heart.</line>
 </speech>
 
@@ -1275,7 +1275,7 @@
 
 <speech>
 <speaker>Mer.</speaker>
-<line globalnumber="272" number="272">I <nameref>Apemantus</nameref>.</line>
+<line globalnumber="272" number="272">I <name type="person">Apemantus</name>.</line>
 </speech>
 
 <speech>
@@ -1302,7 +1302,7 @@
 
 <speech>
 <speaker>Mes.</speaker>
-<line globalnumber="277" number="277">&#8217;Tis <nameref>Alcibiades</nameref>, and &#383;ome twenty Hor&#383;e</line>
+<line globalnumber="277" number="277">&#8217;Tis <name type="person">Alcibiades</name>, and &#383;ome twenty Hor&#383;e</line>
 <line globalnumber="278" number="278">All of Companion&#383;hip.</line>
 </speech>
 
@@ -1344,7 +1344,7 @@
 
 <speech>
 <speaker>1.Lord</speaker>
-<line globalnumber="294" number="294">What time a day is&#8217;t <nameref>Apemantus</nameref>?</line>
+<line globalnumber="294" number="294">What time a day is&#8217;t <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1364,7 +1364,7 @@
 
 <speech>
 <speaker short="2. LORD.">2</speaker>
-<line globalnumber="298" number="298">Thou art going to Lord <nameref>Timons</nameref> Fea&#383;t.</line>
+<line globalnumber="298" number="298">Thou art going to Lord <name type="person">Timons</name> Fea&#383;t.</line>
 </speech>
 
 <speech>
@@ -1384,7 +1384,7 @@
 
 <speech>
 <speaker short="2. LORD.">2</speaker>
-<line globalnumber="302" number="302">Why <nameref>Apemantus</nameref>?</line>
+<line globalnumber="302" number="302">Why <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -1419,13 +1419,13 @@
 <speaker short="1. LORD.">1</speaker>
 <line globalnumber="311" number="311">Hee&#8217;s oppo&#383;ite to humanity.</line>
 <line globalnumber="312" number="312">Come &#383;hall we in,</line>
-<line globalnumber="313" number="313">And ra&#383;te Lord <nameref>Timons</nameref> bountie: he out-g&#339;s</line>
+<line globalnumber="313" number="313">And ra&#383;te Lord <name type="person">Timons</name> bountie: he out-g&#339;s</line>
 <line globalnumber="314" number="314">The verie heart of kindne&#383;&#383;e.</line>
 </speech>
 
 <speech>
 <speaker short="2. LORD.">2</speaker>
-<line globalnumber="315" number="315">He powres it out: <nameref>Plutus</nameref> the God of Gold</line>
+<line globalnumber="315" number="315">He powres it out: <name type="person">Plutus</name> the God of Gold</line>
 <line globalnumber="316" number="316">Is but his Steward: no meede but he repayes</line>
 <line globalnumber="317" number="317">Seuen-fold aboue it &#383;elfe: No gui&#64261; to him,</line>
 <line globalnumber="318" number="318">But breeds the giuer a returne: exceeding</line>
@@ -1451,7 +1451,7 @@
 
 <speech>
 <speaker>Ventig.</speaker>
-<line globalnumber="324" number="324">Mo&#383;t honoured <nameref>Timon</nameref>,</line>
+<line globalnumber="324" number="324">Mo&#383;t honoured <name type="person">Timon</name>,</line>
 <line globalnumber="325" number="325">It hath pleas&#8217;d the Gods to remember my Fathers age,</line>
 <line globalnumber="326" number="326">And call him to long peace:</line>
 <line globalnumber="327" number="327">He is gone happy, and has le&#64261; me rich:</line>
@@ -1464,7 +1464,7 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="332" number="332">O by no meanes,</line>
-<line globalnumber="333" number="333">Hone&#383;t <nameref>Ventigius</nameref>: You mi&#383;take my loue,</line>
+<line globalnumber="333" number="333">Hone&#383;t <name type="person">Ventigius</name>: You mi&#383;take my loue,</line>
 <line globalnumber="334" number="334">I gaue it freely euer, and ther&#8217;s none</line>
 <line globalnumber="335" number="335">Can truely &#383;ay he giues, if he receiues:</line>
 <line globalnumber="336" number="336">If our betters play at that game, we mu&#383;t not dare</line>
@@ -1498,7 +1498,7 @@
 
 <speech>
 <speaker>Timo.</speaker>
-<line globalnumber="347" number="347">O <nameref>Apermantus</nameref>, you are welcome.</line>
+<line globalnumber="347" number="347">O <name type="person">Apermantus</name>, you are welcome.</line>
 </speech>
 
 <speech>
@@ -1520,13 +1520,13 @@
 
 <speech>
 <speaker>Aper.</speaker>
-<line globalnumber="357" number="357">Let me &#383;tay at thine apperill <nameref>Timon</nameref>,</line>
+<line globalnumber="357" number="357">Let me &#383;tay at thine apperill <name type="person">Timon</name>,</line>
 <line globalnumber="358" number="358">I come to ob&#383;erue, I giue thee warning on&#8217;t.</line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="359" number="359">I take no heede of thee: Th&#8217;art an <nameref>Athenian</nameref>,</line>
+<line globalnumber="359" number="359">I take no heede of thee: Th&#8217;art an <name type="person">Athenian</name>,</line>
 <line globalnumber="360" number="360">therefore welcome: I my &#383;elfe would haue no power,</line>
 <line globalnumber="361" number="361">prythee let my meate make thee &#383;ilent.</line>
 </speech>
@@ -1535,7 +1535,7 @@
 <speaker>Aper.</speaker>
 <line globalnumber="362" number="362">I &#383;corne thy meate, &#8217;twould choake me: for I</line>
 <line globalnumber="363" number="363">&#383;hould nere &#64258;atter thee. Oh you Gods! What a number</line>
-<line globalnumber="364" number="364">of men eats <nameref>Timon</nameref>, and he &#383;ees &#8217;em not? It greeues me</line>
+<line globalnumber="364" number="364">of men eats <name type="person">Timon</name>, and he &#383;ees &#8217;em not? It greeues me</line>
 <line globalnumber="365" number="365">to &#383;ee &#383;o many dip there meate in one mans blood, and</line>
 <line globalnumber="366" number="366">all the madne&#383;&#383;e is, he cheeres them vp too.</line>
 <line globalnumber="367" number="367">I wonder men dare tru&#383;t them&#383;elues with men.</line>
@@ -1564,7 +1564,7 @@
 <speaker>Aper.</speaker>
 <line globalnumber="379" number="379">Flow this way? A braue fellow. He keepes his</line>
 <line globalnumber="380" number="380">tides well, tho&#383;e healths will make thee and thy &#383;tate</line>
-<line globalnumber="381" number="381">looke ill, <nameref>Timon</nameref>.</line>
+<line globalnumber="381" number="381">looke ill, <name type="person">Timon</name>.</line>
 <line globalnumber="382" number="382">Heere&#8217;s that which is too weake to be a &#383;inner,</line>
 <line globalnumber="383" number="383">Hone&#383;t water, which nere le&#64261; man i&#8217;th&#8217; mire:</line>
 <line globalnumber="384" number="384">This and my food are equals, there&#8217;s no ods,</line>
@@ -1580,13 +1580,13 @@
 <line globalnumber="393" number="393"><emph rend="italic">Or my friends if I &#383;hould need &#8217;em.</emph></line>
 <line globalnumber="394" number="394"><emph rend="italic">Amen. So fall too&#8217;t:</emph></line>
 <line globalnumber="395" number="395"><emph rend="italic">Richmen &#383;in, and I eat root.</emph></line>
-<line globalnumber="396" number="396">Much good dich thy good heart, <nameref>Apermantus</nameref></line>
+<line globalnumber="396" number="396">Much good dich thy good heart, <name type="person">Apermantus</name></line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="397" number="397">Captaine,</line>
-<line globalnumber="398" number="398"><nameref>Alcibiades</nameref>, your hearts in the &#64257;eld now.</line>
+<line globalnumber="398" number="398"><name type="person">Alcibiades</name>, your hearts in the &#64257;eld now.</line>
 </speech>
 
 <speech>
@@ -1646,7 +1646,7 @@
 
 <speech>
 <speaker>Aper.</speaker>
-<line globalnumber="430" number="430">Thou weep&#8217;&#383;t to make them drinke, <nameref>Timon</nameref>.</line>
+<line globalnumber="430" number="430">Thou weep&#8217;&#383;t to make them drinke, <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -1705,7 +1705,7 @@
 
 <speech>
 <speaker>Cup.</speaker>
-<line globalnumber="443" number="443">Haile to thee worthy <nameref>Timon</nameref> and to all that of</line>
+<line globalnumber="443" number="443">Haile to thee worthy <name type="person">Timon</name> and to all that of</line>
 <line globalnumber="444" number="444">his Bounties ta&#383;te: the &#64257;ue be&#383;t Sences acknowledge thee</line>
 <line globalnumber="445" number="445">their Patron, and come freely to gratulate thy plentious</line>
 <line globalnumber="446" number="446">bo&#383;ome.</line>
@@ -1782,7 +1782,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="480" number="480"><nameref>Flauius</nameref>.</line>
+<line globalnumber="480" number="480"><name type="person">Flauius</name>.</line>
 </speech>
 
 <speech>
@@ -1877,7 +1877,7 @@
 
 <speech>
 <speaker short="SER.">Ser.</speaker>
-<line globalnumber="507" number="507">May it plea&#383;e your Honor, Lord <nameref>Lucius</nameref></line>
+<line globalnumber="507" number="507">May it plea&#383;e your Honor, Lord <name type="person">Lucius</name></line>
 <line globalnumber="508" number="508">(Out of his free loue) hath pre&#383;ented to you</line>
 <line globalnumber="509" number="509">Foure Milke-white Hor&#383;es, trapt in Siluer.</line>
 </speech>
@@ -1893,7 +1893,7 @@
 <speech>
 <speaker>3.Ser.</speaker>
 <line globalnumber="513" number="513">Plea&#383;e you my Lord, that honourable Gentle&#160;&#8212;</line>
-<line globalnumber="514" number="514">man Lord <nameref>Lucullus</nameref>, entreats your companie to morrow,</line>
+<line globalnumber="514" number="514">man Lord <name type="person">Lucullus</name>, entreats your companie to morrow,</line>
 <line globalnumber="515" number="515">to hunt with him, and ha&#8217;s &#383;ent your Honour two brace</line>
 <line globalnumber="516" number="516">of Grey-hounds.</line>
 </speech>
@@ -1972,7 +1972,7 @@
 <line globalnumber="548" number="548">I take all, and your &#383;euerall vi&#383;itations</line>
 <line globalnumber="549" number="549">So kinde to heart, &#8217;tis not enough to giue:</line>
 <line globalnumber="550" number="550">Me thinkes, I could deale Kingdomes to my Friends,</line>
-<line globalnumber="551" number="551">And nere be wearie. <nameref>Alcibiades</nameref>,</line>
+<line globalnumber="551" number="551">And nere be wearie. <name type="person">Alcibiades</name>,</line>
 <line globalnumber="552" number="552">Thou art a Soldiour, therefore &#383;ildome rich,</line>
 <line globalnumber="553" number="553">It comes in Charitie to thee: for all thy liuing</line>
 <line globalnumber="554" number="554">Is mong&#8217;&#383;t the dead: and all the Lands thou ha&#383;t</line>
@@ -2007,7 +2007,7 @@
 <speech>
 <speaker>1.Lord.</speaker>
 <line globalnumber="561" number="561">The be&#383;t of Happines, Honor, and Fortunes</line>
-<line globalnumber="562" number="562">Keepe with you Lord <nameref>Timon</nameref>.</line>
+<line globalnumber="562" number="562">Keepe with you Lord <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -2029,7 +2029,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="570" number="570">Now <nameref>Apermantus</nameref> (if thou wert not &#383;ullen)</line>
+<line globalnumber="570" number="570">Now <name type="person">Apermantus</name> (if thou wert not &#383;ullen)</line>
 <line globalnumber="571" number="571">I would be good to thee.</line>
 </speech>
 
@@ -2037,7 +2037,7 @@
 <speaker>Aper.</speaker>
 <line globalnumber="572" number="572">No, Ile nothing; for if I &#383;hould be brib&#8217;d too,</line>
 <line globalnumber="573" number="573">there would be none le&#64261; to raile vpon thee, and then thou</line>
-<line globalnumber="574" number="574">would&#383;t &#383;inne the fa&#383;ter. Thou giu&#8217;&#383;t &#383;o long <nameref>Timon</nameref> (I</line>
+<line globalnumber="574" number="574">would&#383;t &#383;inne the fa&#383;ter. Thou giu&#8217;&#383;t &#383;o long <name type="person">Timon</name> (I</line>
 <line globalnumber="575" number="575">feare me) thou wilt giue away thy &#383;elfe in paper &#383;hortly.</line>
 <line globalnumber="576" number="576">What needs the&#383;e Fea&#383;ts, pompes, and Vaine-glories?</line>
 </speech>
@@ -2065,20 +2065,20 @@
 
 <speech>
 <speaker>Sen.</speaker>
-<line globalnumber="584" number="584">And late &#64257;ue thou&#383;and: to <nameref>Varro</nameref> and to <nameref>I&#383;idore</nameref></line>
+<line globalnumber="584" number="584">And late &#64257;ue thou&#383;and: to <name type="person">Varro</name> and to <name type="person">I&#383;idore</name></line>
 <line globalnumber="585" number="585">He owes nine thou&#383;and, be&#383;ides my former &#383;umme,</line>
 <line globalnumber="586" number="586">Which makes it &#64257;ue and twenty. Still in motion</line>
 <line globalnumber="587" number="587">Of raging wa&#383;te? It cannot hold, it will not.</line>
 <line globalnumber="588" number="588">If I want Gold, &#383;teale but a beggers Dogge,</line>
-<line globalnumber="589" number="589">And giue it <nameref>Timon</nameref>, why the Dogge coines Gold.</line>
+<line globalnumber="589" number="589">And giue it <name type="person">Timon</name>, why the Dogge coines Gold.</line>
 <line globalnumber="590" number="590">If I would &#383;ell my Hor&#383;e, and buy twenty m&#339;</line>
-<line globalnumber="591" number="591">Better then he; why giue my Hor&#383;e to <nameref>Timon</nameref>.</line>
+<line globalnumber="591" number="591">Better then he; why giue my Hor&#383;e to <name type="person">Timon</name>.</line>
 <line globalnumber="592" number="592">Aske nothing, giue it him, it Foles me &#383;traight</line>
 <line globalnumber="593" number="593">And able Hor&#383;es: No Porter at his gate,</line>
 <line globalnumber="594" number="594">But rather one that &#383;miles, and &#383;till inuites</line>
 <line globalnumber="595" number="595">All that pa&#383;&#383;e by. It cannot hold, no rea&#383;on</line>
-<line globalnumber="596" number="596">Can &#383;ound his &#383;tate in &#383;afety. <nameref>Caphis</nameref> hoa,</line>
-<line globalnumber="597" number="597"><nameref>Caphis</nameref> I &#383;ay.</line>
+<line globalnumber="596" number="596">Can &#383;ound his &#383;tate in &#383;afety. <name type="person">Caphis</name> hoa,</line>
+<line globalnumber="597" number="597"><name type="person">Caphis</name> I &#383;ay.</line>
 </speech>
 
 <stagedir sdglobalnumber="597.01" sdnumber="597.01">Enter Caphis.</stagedir>
@@ -2090,7 +2090,7 @@
 
 <speech>
 <speaker>Sen.</speaker>
-<line globalnumber="599" number="599">Get on your cloake, &amp; ha&#383;t you to Lord <nameref>Timon</nameref>,</line>
+<line globalnumber="599" number="599">Get on your cloake, &amp; ha&#383;t you to Lord <name type="person">Timon</name>,</line>
 <line globalnumber="600" number="600">Importune him for my Moneyes, be not cea&#383;t</line>
 <line globalnumber="601" number="601">With &#383;light deniall; nor then &#383;ilenc&#8217;d, when</line>
 <line globalnumber="602" number="602">Commend me to your Ma&#383;ter, and the Cap</line>
@@ -2106,7 +2106,7 @@
 <line globalnumber="612" number="612">Put on a mo&#383;t importunate a&#383;pe&#57348;,</line>
 <line globalnumber="613" number="613">A vi&#383;age of demand: for I do feare</line>
 <line globalnumber="614" number="614">When euery Feather &#383;tickes in his owne wing,</line>
-<line globalnumber="615" number="615">Lord <nameref>Timon</nameref> will be le&#64261; a naked gull,</line>
+<line globalnumber="615" number="615">Lord <name type="person">Timon</name> will be le&#64261; a naked gull,</line>
 <line globalnumber="616" number="616">Which &#64258;a&#383;hes now a Ph&#339;nix, get you gone.</line>
 </speech>
 
@@ -2153,7 +2153,7 @@
 
 <speech>
 <speaker>Cap.</speaker>
-<line globalnumber="632" number="632">Good euen <nameref>Varro</nameref>: what, you come for money?</line>
+<line globalnumber="632" number="632">Good euen <name type="person">Varro</name>: what, you come for money?</line>
 </speech>
 
 <speech>
@@ -2163,7 +2163,7 @@
 
 <speech>
 <speaker>Cap.</speaker>
-<line globalnumber="634" number="634">It is, and yours too, <nameref>I&#383;idore</nameref>?</line>
+<line globalnumber="634" number="634">It is, and yours too, <name type="person">I&#383;idore</name>?</line>
 </speech>
 
 <speech>
@@ -2191,7 +2191,7 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="639" number="639">So &#383;oone as dinners done, wee&#8217;l forth againe</line>
-<line globalnumber="640" number="640">My <nameref>Alcibiades</nameref>. With me, what is your will?</line>
+<line globalnumber="640" number="640">My <name type="person">Alcibiades</name>. With me, what is your will?</line>
 </speech>
 
 <speech>
@@ -2242,12 +2242,12 @@
 
 <speech>
 <speaker>Var.</speaker>
-<line globalnumber="655" number="655">One <nameref>Varr&#339;s</nameref> &#383;eruant, my good Lord.</line>
+<line globalnumber="655" number="655">One <name type="person">Varr&#339;s</name> &#383;eruant, my good Lord.</line>
 </speech>
 
 <speech>
 <speaker>I&#383;id.</speaker>
-<line globalnumber="656" number="656">From <nameref>I&#383;idore</nameref>, he humbly prayes your &#383;peedy pay&#160;&#8212;</line>
+<line globalnumber="656" number="656">From <name type="person">I&#383;idore</name>, he humbly prayes your &#383;peedy pay&#160;&#8212;</line>
 <line globalnumber="657" number="657">ment.</line>
 </speech>
 
@@ -2304,8 +2304,8 @@
 
 <speech>
 <speaker>Caph.</speaker>
-<line globalnumber="677" number="677">Stay, &#383;tay, here comes the Foole with <nameref>Apeman-</nameref></line>
-<line globalnumber="678" number="678"><nameref>tus</nameref>, let&#8217;s ha &#383;ome &#383;port with &#8217;em.</line>
+<line globalnumber="677" number="677">Stay, &#383;tay, here comes the Foole with <name type="person">Apeman-</name></line>
+<line globalnumber="678" number="678"><name type="person">tus</name>, let&#8217;s ha &#383;ome &#383;port with &#8217;em.</line>
 </speech>
 
 <speech>
@@ -2361,7 +2361,7 @@
 
 <speech>
 <speaker>Al.</speaker>
-<line globalnumber="690" number="690">What are we <nameref>Apemantus</nameref>?</line>
+<line globalnumber="690" number="690">What are we <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -2413,7 +2413,7 @@
 <speaker>Page.</speaker>
 <line globalnumber="702" number="702">Why how now Captaine? what do you in this</line>
 <line globalnumber="703" number="703">wi&#383;e Company.</line>
-<line globalnumber="704" number="704">How do&#383;t thou <nameref>Apermantus</nameref>?</line>
+<line globalnumber="704" number="704">How do&#383;t thou <name type="person">Apermantus</name>?</line>
 </speech>
 
 <speech>
@@ -2424,7 +2424,7 @@
 
 <speech>
 <speaker>Boy.</speaker>
-<line globalnumber="707" number="707">Prythee <nameref>Apemantus</nameref> reade me the &#383;uper&#383;cripti&#160;&#8212;</line>
+<line globalnumber="707" number="707">Prythee <name type="person">Apemantus</name> reade me the &#383;uper&#383;cripti&#160;&#8212;</line>
 <line globalnumber="708" number="708">on of the&#383;e Letters, I know not which is which.</line>
 </speech>
 
@@ -2441,7 +2441,7 @@
 <speech>
 <speaker>Ape.</speaker>
 <line globalnumber="711" number="711">There will litle Learning dye then that day thou</line>
-<line globalnumber="712" number="712">art hang&#8217;d. This is to Lord <nameref>Timon</nameref>, this to <nameref>Alcibiades</nameref>. Go</line>
+<line globalnumber="712" number="712">art hang&#8217;d. This is to Lord <name type="person">Timon</name>, this to <name type="person">Alcibiades</name>. Go</line>
 <line globalnumber="713" number="713">thou was&#8217;t borne a Ba&#383;tard, and thou&#8217;t dye a Bawd.</line>
 </speech>
 
@@ -2457,7 +2457,7 @@
 <speech>
 <speaker>Ape.</speaker>
 <line globalnumber="717" number="717">E&#8217;ne &#383;o thou out-run&#383;t Grace,</line>
-<line globalnumber="718" number="718">Foole I will go with you to Lord <nameref>Timons</nameref>.</line>
+<line globalnumber="718" number="718">Foole I will go with you to Lord <name type="person">Timons</name>.</line>
 </speech>
 
 <speech>
@@ -2467,7 +2467,7 @@
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="720" number="720">If <nameref>Timon</nameref> &#383;tay at home.</line>
+<line globalnumber="720" number="720">If <name type="person">Timon</name> &#383;tay at home.</line>
 <line globalnumber="721" number="721">You three &#383;erue three V&#383;urers?</line>
 </speech>
 
@@ -2542,12 +2542,12 @@
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="747" number="747">That an&#383;wer might haue become <nameref>Apemantus</nameref>.</line>
+<line globalnumber="747" number="747">That an&#383;wer might haue become <name type="person">Apemantus</name>.</line>
 </speech>
 
 <speech>
 <speaker short="ALL SERV.">All.</speaker>
-<line globalnumber="748" number="748">A&#383;ide, a&#383;ide, heere comes Lord <nameref>Timon</nameref>.</line>
+<line globalnumber="748" number="748">A&#383;ide, a&#383;ide, heere comes Lord <name type="person">Timon</name>.</line>
 </speech>
 
 <stagedir sdglobalnumber="748.01" sdnumber="748.01">Enter Timon and Steward.</stagedir>
@@ -2665,9 +2665,9 @@
 <speaker>Stew.</speaker>
 <line globalnumber="800" number="800">Heauens, haue I &#383;aid, the bounty of this Lord:</line>
 <line globalnumber="801" number="801">How many prodigall bits haue Slaues and Pezants</line>
-<line globalnumber="802" number="802">This night englutted: who is not <nameref>Timons</nameref>,</line>
-<line globalnumber="803" number="803">What heart, head, &#383;word, force, meanes, but is L.<nameref>Timons:</nameref></line>
-<line globalnumber="804" number="804">Great <nameref>Timon</nameref>, Noble, Worthy, Royall <nameref>Timon</nameref>:</line>
+<line globalnumber="802" number="802">This night englutted: who is not <name type="person">Timons</name>,</line>
+<line globalnumber="803" number="803">What heart, head, &#383;word, force, meanes, but is L.<name type="person">Timons:</name></line>
+<line globalnumber="804" number="804">Great <name type="person">Timon</name>, Noble, Worthy, Royall <name type="person">Timon</name>:</line>
 <line globalnumber="805" number="805">Ah, when the meanes are gone, that buy this prai&#383;e,</line>
 <line globalnumber="806" number="806">The breath is gone, whereof this prai&#383;e is made:</line>
 <line globalnumber="807" number="807">Fea&#383;t won, fa&#383;t lo&#383;t; one cloud of Winter &#383;howres,</line>
@@ -2699,7 +2699,7 @@
 <line globalnumber="821" number="821">Shall I trie Friends. You &#383;hall perceiue</line>
 <line globalnumber="822" number="822">How you mi&#383;take my Fortunes:</line>
 <line globalnumber="823" number="823">I am wealthie in my Friends.</line>
-<line globalnumber="824" number="824">Within there, <nameref>Flauius, Seruilius</nameref>?</line>
+<line globalnumber="824" number="824">Within there, <name type="person">Flauius, Seruilius</name>?</line>
 </speech>
 
 <stagedir sdglobalnumber="824.01" sdnumber="824.01">Enter three Seruants.</stagedir>
@@ -2712,8 +2712,8 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="826" number="826">I will di&#383;patch you &#383;euerally.</line>
-<line globalnumber="827" number="827">You to Lord <nameref>Lucius</nameref>, to Lord <nameref>Lucullus</nameref> you, I hunted</line>
-<line globalnumber="828" number="828">with his Honor to day; you to <nameref>Sempronius</nameref>; commend me</line>
+<line globalnumber="827" number="827">You to Lord <name type="person">Lucius</name>, to Lord <name type="person">Lucullus</name> you, I hunted</line>
+<line globalnumber="828" number="828">with his Honor to day; you to <name type="person">Sempronius</name>; commend me</line>
 <line globalnumber="829" number="829">to their loues; and I am proud &#383;ay, that my occa&#383;ions</line>
 <line globalnumber="830" number="830">haue found time to v&#383;e &#8217;em toward a &#383;upply of mony: let</line>
 <line globalnumber="831" number="831">the reque&#383;t be &#64257;&#64261;y Talents.</line>
@@ -2726,7 +2726,7 @@
 
 <speech>
 <speaker>Stew.</speaker>
-<line globalnumber="833" number="833">Lord <nameref>Lucius</nameref> and <nameref>Lucullus</nameref>? Humh.</line>
+<line globalnumber="833" number="833">Lord <name type="person">Lucius</name> and <name type="person">Lucullus</name>? Humh.</line>
 </speech>
 
 <speech>
@@ -2774,9 +2774,9 @@
 <line globalnumber="858" number="858">&#8217;Tis lacke of kindely warmth, they are not kinde;</line>
 <line globalnumber="859" number="859">And Nature, as it growes againe toward earth,</line>
 <line globalnumber="860" number="860">Is fa&#383;hion&#8217;d for the iourney, dull and heauy.</line>
-<line globalnumber="861" number="861">Go to <nameref>Ventiddius</nameref> (prythee be not &#383;ad,</line>
+<line globalnumber="861" number="861">Go to <name type="person">Ventiddius</name> (prythee be not &#383;ad,</line>
 <line globalnumber="862" number="862">Thou art true, and hone&#383;t; Ingeniou&#383;ly I &#383;peake,</line>
-<line globalnumber="863" number="863">No blame belongs to thee:) <nameref>Ventiddius</nameref> lately</line>
+<line globalnumber="863" number="863">No blame belongs to thee:) <name type="person">Ventiddius</name> lately</line>
 <line globalnumber="864" number="864">Buried his Father, by who&#383;e death hee&#8217;s &#383;tepp&#8217;d</line>
 <line globalnumber="865" number="865">Into a great e&#383;tate: When he was poore,</line>
 <line globalnumber="866" number="866">Impri&#383;on&#8217;d, and in &#383;car&#383;itie of Friends,</line>
@@ -2785,7 +2785,7 @@
 <line globalnumber="869" number="869">Touches his Friend, which craues to be remembred</line>
 <line globalnumber="870" number="870">With tho&#383;e &#64257;ue Talents; that had, giue&#8217;t the&#383;e Fellowes</line>
 <line globalnumber="871" number="871">To whom &#8217;tis in&#383;tant due. Neu&#8217;r &#383;peake, or thinke,</line>
-<line globalnumber="872" number="872">That <nameref>Timons</nameref> fortunes &#8217;mong his Friends can &#383;inke.</line>
+<line globalnumber="872" number="872">That <name type="person">Timons</name> fortunes &#8217;mong his Friends can &#383;inke.</line>
 </speech>
 
 <speech>
@@ -2819,9 +2819,9 @@
 
 <speech>
 <speaker short="LUCUL.">Luc.</speaker>
-<line globalnumber="880" number="880">One of Lord <nameref>Timons</nameref> men? A Gui&#64261; I warrant.</line>
+<line globalnumber="880" number="880">One of Lord <name type="person">Timons</name> men? A Gui&#64261; I warrant.</line>
 <line globalnumber="881" number="881">Why this hits right: I dreampt of a Siluer Ba&#383;on &amp; Ewre</line>
-<line globalnumber="882" number="882">to night. <nameref>Flaminius</nameref>, hone&#383;t <nameref>Flaminius</nameref>, you are verie re&#160;&#8212;</line>
+<line globalnumber="882" number="882">to night. <name type="person">Flaminius</name>, hone&#383;t <name type="person">Flaminius</name>, you are verie re&#160;&#8212;</line>
 <line globalnumber="883" number="883">&#383;pe&#57348;iuely welcome &#383;ir. Fill me &#383;ome Wine. And how</line>
 <line globalnumber="884" number="884">d&#339;s that Honourable, Compleate, Free-hearted Gentle&#160;&#8212;</line>
 <line globalnumber="885" number="885">man of Athens, thy very bountifull good Lord and May&#160;&#8212;</line>
@@ -2836,7 +2836,7 @@
 <speech>
 <speaker short="LUCUL.">Luc.</speaker>
 <line globalnumber="888" number="888">I am right glad that his health is well &#383;ir: and</line>
-<line globalnumber="889" number="889">what ha&#383;t thou there vnder thy Cloake, pretty <nameref>Flaminius</nameref>?</line>
+<line globalnumber="889" number="889">what ha&#383;t thou there vnder thy Cloake, pretty <name type="person">Flaminius</name>?</line>
 </speech>
 
 <speech>
@@ -2869,7 +2869,7 @@
 
 <speech>
 <speaker short="LUCUL.">Luc.</speaker>
-<line globalnumber="904" number="904"><nameref>Flaminius</nameref>, I haue noted thee alwayes wi&#383;e.</line>
+<line globalnumber="904" number="904"><name type="person">Flaminius</name>, I haue noted thee alwayes wi&#383;e.</line>
 <line globalnumber="905" number="905">Heere&#8217;s to thee.</line>
 </speech>
 
@@ -2884,11 +2884,11 @@
 <line globalnumber="908" number="908">prompt &#383;pirit, giue thee thy due, and one that knowes</line>
 <line globalnumber="909" number="909">what belongs to rea&#383;on; and can&#383;t v&#383;e the time wel, if the</line>
 <line globalnumber="910" number="910">time v&#383;e thee well. Good parts in thee; get you gone &#383;ir&#160;&#8212;</line>
-<line globalnumber="911" number="911">rah. Draw neerer hone&#383;t <nameref>Flaminius</nameref>. Thy Lords a boun&#160;&#8212;</line>
+<line globalnumber="911" number="911">rah. Draw neerer hone&#383;t <name type="person">Flaminius</name>. Thy Lords a boun&#160;&#8212;</line>
 <line globalnumber="912" number="912">tifull Gentleman, but thou art wi&#383;e, and thou know&#8217;&#383;t</line>
 <line globalnumber="913" number="913">well enough (although thou com&#8217;&#383;t to me) that this is no</line>
 <line globalnumber="914" number="914">time to lend money, e&#383;pecially vpon bare friend&#383;hippe</line>
-<line globalnumber="915" number="915">without &#383;ecuritie. Here&#8217;s three <nameref>Solidares</nameref> for thee, good</line>
+<line globalnumber="915" number="915">without &#383;ecuritie. Here&#8217;s three <name type="person">Solidares</name> for thee, good</line>
 <line globalnumber="916" number="916">Boy winke at me, and &#383;ay thou &#383;aw&#8217;&#383;t mee not. Fare thee</line>
 <line globalnumber="917" number="917">well.</line>
 </speech>
@@ -2931,7 +2931,7 @@
 
 <speech>
 <speaker short="LUC.">Luc.</speaker>
-<line globalnumber="936" number="936">Who the Lord <nameref>Timon</nameref>? He is my very good friend</line>
+<line globalnumber="936" number="936">Who the Lord <name type="person">Timon</name>? He is my very good friend</line>
 <line globalnumber="937" number="937">and an Honourable Gentleman.</line>
 </speech>
 
@@ -2939,7 +2939,7 @@
 <speaker short="1. STRAN.">1</speaker>
 <line globalnumber="938" number="938">We know him for no le&#383;&#383;e, thogh we are but &#383;tran&#160;&#8212;</line>
 <line globalnumber="939" number="939">gers to him. But I can tell you one thing my Lord, and</line>
-<line globalnumber="940" number="940">which I heare from common rumours, now Lord <nameref>Timons</nameref></line>
+<line globalnumber="940" number="940">which I heare from common rumours, now Lord <name type="person">Timons</name></line>
 <line globalnumber="941" number="941">happie howres are done and pa&#383;t, and his e&#383;tate &#383;hrinkes</line>
 <line globalnumber="942" number="942">from him.</line>
 </speech>
@@ -2953,7 +2953,7 @@
 <speech>
 <speaker short="2. STRAN.">2</speaker>
 <line globalnumber="945" number="945">But beleeue you this my Lord, that not long ag&#339;,</line>
-<line globalnumber="946" number="946">one of his men was with the Lord <nameref>Lucullus</nameref>, to borrow &#383;o</line>
+<line globalnumber="946" number="946">one of his men was with the Lord <name type="person">Lucullus</name>, to borrow &#383;o</line>
 <line globalnumber="947" number="947">many Talents, nay vrg&#8217;d extreamly for&#8217;t, and &#383;hewed</line>
 <line globalnumber="948" number="948">what nece&#383;&#383;ity belong&#8217;d too&#8217;t, and yet was deny&#8217;de.</line>
 </speech>
@@ -2990,7 +2990,7 @@
 
 <speech>
 <speaker>Lucil.</speaker>
-<line globalnumber="961" number="961"><nameref>Seruilius</nameref>? You are kindely met &#383;ir. Farthewell,</line>
+<line globalnumber="961" number="961"><name type="person">Seruilius</name>? You are kindely met &#383;ir. Farthewell,</line>
 <line globalnumber="962" number="962">commend me to thy Honourable vertuous Lord, my ve&#160;&#8212;</line>
 <line globalnumber="963" number="963">ry exqui&#383;ite Friend.</line>
 </speech>
@@ -3030,7 +3030,7 @@
 
 <speech>
 <speaker short="LUC.">Luc.</speaker>
-<line globalnumber="977" number="977">Do&#383;t thou &#383;peake &#383;eriou&#383;ly <nameref>Seruilius</nameref>?</line>
+<line globalnumber="977" number="977">Do&#383;t thou &#383;peake &#383;eriou&#383;ly <name type="person">Seruilius</name>?</line>
 </speech>
 
 <speech>
@@ -3044,16 +3044,16 @@
 <line globalnumber="980" number="980">&#383;elf again&#383;t &#383;uch a good time, when I might ha &#383;hewn my</line>
 <line globalnumber="981" number="981">&#383;elfe Honourable? How vnluckily it hapned, that I &#383;hold</line>
 <line globalnumber="982" number="982">Purcha&#383;e the day before for a little part, and vndo a great</line>
-<line globalnumber="983" number="983">deale of Honour? <nameref>Seruilius</nameref>, now before the Gods I am</line>
+<line globalnumber="983" number="983">deale of Honour? <name type="person">Seruilius</name>, now before the Gods I am</line>
 <line globalnumber="984" number="984">not able to do (the more bea&#383;t I &#383;ay) I was &#383;ending to v&#383;e</line>
-<line globalnumber="985" number="985">Lord <nameref>Timon</nameref> my &#383;elfe, the&#383;e Gentlemen can witne&#383;&#383;e; but</line>
+<line globalnumber="985" number="985">Lord <name type="person">Timon</name> my &#383;elfe, the&#383;e Gentlemen can witne&#383;&#383;e; but</line>
 <line globalnumber="986" number="986">I would not for the wealth of Athens I had done&#8217;t now.</line>
 <line globalnumber="987" number="987">Commend me bountifully to his good Lord&#383;hip, and I</line>
 <line globalnumber="988" number="988">hope his Honor will conceiue the faire&#383;t of mee, becau&#383;e</line>
 <line globalnumber="989" number="989">I haue no power to be kinde. And tell him this from me,</line>
 <line globalnumber="990" number="990">I count it one of my greate&#383;t af&#64258;i&#57348;ions &#383;ay, that I cannot</line>
-<line globalnumber="991" number="991">plea&#383;ure &#383;uch an Honourable Gentleman. Good <nameref>Seruili-</nameref></line>
-<line globalnumber="992" number="992"><nameref>us</nameref>, will you befriend mee &#383;o farre, as to v&#383;e mine owne</line>
+<line globalnumber="991" number="991">plea&#383;ure &#383;uch an Honourable Gentleman. Good <name type="person">Seruili-</name></line>
+<line globalnumber="992" number="992"><name type="person">us</name>, will you befriend mee &#383;o farre, as to v&#383;e mine owne</line>
 <line globalnumber="993" number="993">words to him?</line>
 </speech>
 
@@ -3066,8 +3066,8 @@
 
 <speech>
 <speaker>Lucil.</speaker>
-<line globalnumber="995" number="995">Ile looke you out a good turne <nameref>Seruilius</nameref>.</line>
-<line globalnumber="996" number="996">True as you &#383;aid, <nameref>Timon</nameref> is &#383;hrunke indeede,</line>
+<line globalnumber="995" number="995">Ile looke you out a good turne <name type="person">Seruilius</name>.</line>
+<line globalnumber="996" number="996">True as you &#383;aid, <name type="person">Timon</name> is &#383;hrunke indeede,</line>
 <line globalnumber="997" number="997">And he that&#8217;s once deny&#8217;de, will hardly &#383;peede.</line>
 </speech>
 
@@ -3075,7 +3075,7 @@
 
 <speech>
 <speaker short="1. STRAN.">1</speaker>
-<line globalnumber="998" number="998">Do you ob&#383;erue this <nameref>Ho&#383;tilius</nameref>?</line>
+<line globalnumber="998" number="998">Do you ob&#383;erue this <name type="person">Ho&#383;tilius</name>?</line>
 </speech>
 
 <speech>
@@ -3089,11 +3089,11 @@
 <line globalnumber="1001" number="1001">And iu&#383;t of the &#383;ame peece</line>
 <line globalnumber="1002" number="1002">Is euery Flatterers &#383;port: who can call him his Friend</line>
 <line globalnumber="1003" number="1003">That dips in the &#383;ame di&#383;h? For in my knowing</line>
-<line globalnumber="1004" number="1004"><nameref>Timon</nameref> has bin this Lords Father,</line>
+<line globalnumber="1004" number="1004"><name type="person">Timon</name> has bin this Lords Father,</line>
 <line globalnumber="1005" number="1005">And kept his credit with his pur&#383;e:</line>
-<line globalnumber="1006" number="1006">Supported his e&#383;tate, nay <nameref>Timons</nameref> money</line>
+<line globalnumber="1006" number="1006">Supported his e&#383;tate, nay <name type="person">Timons</name> money</line>
 <line globalnumber="1007" number="1007">Has paid his men their wages. He ne&#8217;re drinkes,</line>
-<line globalnumber="1008" number="1008">But <nameref>Timons</nameref> Siluer treads vpon his Lip,</line>
+<line globalnumber="1008" number="1008">But <name type="person">Timons</name> Siluer treads vpon his Lip,</line>
 <line globalnumber="1009" number="1009">And yet, oh &#383;ee the mon&#383;trou&#383;ne&#383;&#383;e of man,</line>
 <line globalnumber="1010" number="1010">When he lookes out in an vngratefull &#383;hape;</line>
 <line globalnumber="1011" number="1011">He d&#339;s deny him (in re&#383;pe&#57348; of his)</line>
@@ -3107,7 +3107,7 @@
 
 <speech>
 <speaker short="1. STRAN.">1</speaker>
-<line globalnumber="1014" number="1014">For mine owne part, I neuer ta&#383;ted <nameref>Timon</nameref> in my life</line>
+<line globalnumber="1014" number="1014">For mine owne part, I neuer ta&#383;ted <name type="person">Timon</name> in my life</line>
 <line globalnumber="1015" number="1015">Nor came any of his bounties ouer me,</line>
 <line globalnumber="1016" number="1016">To marke me for his Friend. Yet I prote&#383;t,</line>
 <line globalnumber="1017" number="1017">For his right Noble minde, illu&#383;trious Vertue,</line>
@@ -3128,8 +3128,8 @@
 <speaker>Semp.</speaker>
 <line globalnumber="1025" number="1025">Mu&#383;t he needs trouble me in&#8217;t? Hum.</line>
 <line globalnumber="1026" number="1026">&#8217;Boue all others?</line>
-<line globalnumber="1027" number="1027">He might haue tried Lord <nameref>Lucius</nameref>, or <nameref>Lucullus</nameref>,</line>
-<line globalnumber="1028" number="1028">And now <nameref>Ventidgius</nameref> is wealthy too,</line>
+<line globalnumber="1027" number="1027">He might haue tried Lord <name type="person">Lucius</name>, or <name type="person">Lucullus</name>,</line>
+<line globalnumber="1028" number="1028">And now <name type="person">Ventidgius</name> is wealthy too,</line>
 <line globalnumber="1029" number="1029">Whom he redeem&#8217;d from pri&#383;on. All the&#383;e</line>
 <line globalnumber="1030" number="1030">Owes their e&#383;tates vnto him.</line>
 </speech>
@@ -3144,7 +3144,7 @@
 <speech>
 <speaker>Semp.</speaker>
 <line globalnumber="1034" number="1034">How? Haue they deny&#8217;de him?</line>
-<line globalnumber="1035" number="1035">Has <nameref>Ventidgius</nameref> and <nameref>Lucullus</nameref> deny&#8217;de him,</line>
+<line globalnumber="1035" number="1035">Has <name type="person">Ventidgius</name> and <name type="person">Lucullus</name> deny&#8217;de him,</line>
 <line globalnumber="1036" number="1036">And d&#339;s he &#383;end to me? Three? Humh?</line>
 <line globalnumber="1037" number="1037">It &#383;hewes but little loue, or iudgement in him.</line>
 <line globalnumber="1038" number="1038">Mu&#383;t I be his la&#383;t Refuge? His Friends (like Phy&#383;itians)</line>
@@ -3192,17 +3192,17 @@
 
 <speech>
 <speaker>Var.man.</speaker>
-<line globalnumber="1069" number="1069">Well met, goodmorrow <nameref>Titus</nameref> &amp; <nameref>Horten&#383;ius</nameref></line>
+<line globalnumber="1069" number="1069">Well met, goodmorrow <name type="person">Titus</name> &amp; <name type="person">Horten&#383;ius</name></line>
 </speech>
 
 <speech>
 <speaker>Tit.</speaker>
-<line globalnumber="1070" number="1070">The like to you kinde <nameref>Varro</nameref>.</line>
+<line globalnumber="1070" number="1070">The like to you kinde <name type="person">Varro</name>.</line>
 </speech>
 
 <speech>
 <speaker>Hort.</speaker>
-<line globalnumber="1071" number="1071"><nameref>Lucius</nameref>, what do we meet together?</line>
+<line globalnumber="1071" number="1071"><name type="person">Lucius</name>, what do we meet together?</line>
 </speech>
 
 <speech>
@@ -3220,7 +3220,7 @@
 
 <speech>
 <speaker short="LUC. SERV.">Luci.</speaker>
-<line globalnumber="1075" number="1075">And &#383;ir <nameref>Philotus</nameref> too.</line>
+<line globalnumber="1075" number="1075">And &#383;ir <name type="person">Philotus</name> too.</line>
 </speech>
 
 <speech>
@@ -3264,7 +3264,7 @@
 <line globalnumber="1084" number="1084">I, but the dayes are waxt &#383;horter with him:</line>
 <line globalnumber="1085" number="1085">You mu&#383;t con&#383;ider, that a Prodigall cour&#383;e</line>
 <line globalnumber="1086" number="1086">Is like the Sunnes, but not like his recouerable, I feare:</line>
-<line globalnumber="1087" number="1087">&#8217;Tis deepe&#383;t Winter in Lord <nameref>Timons</nameref> pur&#383;e, that is: One</line>
+<line globalnumber="1087" number="1087">&#8217;Tis deepe&#383;t Winter in Lord <name type="person">Timons</name> pur&#383;e, that is: One</line>
 <line globalnumber="1088" number="1088">may reach deepe enough, and yet &#64257;nde little.</line>
 </speech>
 
@@ -3286,7 +3286,7 @@
 
 <speech>
 <speaker>Tit.</speaker>
-<line globalnumber="1093" number="1093">And he weares Iewels now of <nameref>Timons</nameref> gui&#64261;,</line>
+<line globalnumber="1093" number="1093">And he weares Iewels now of <name type="person">Timons</name> gui&#64261;,</line>
 <line globalnumber="1094" number="1094">For which I waite for money.</line>
 </speech>
 
@@ -3298,7 +3298,7 @@
 <speech>
 <speaker short="LUC. SERV.">Luci.</speaker>
 <line globalnumber="1096" number="1096">Marke how &#383;trange it &#383;howes,</line>
-<line globalnumber="1097" number="1097"><nameref>Timon</nameref> in this, &#383;hould pay more then he owes:</line>
+<line globalnumber="1097" number="1097"><name type="person">Timon</name> in this, &#383;hould pay more then he owes:</line>
 <line globalnumber="1098" number="1098">And e&#8217;ne as if your Lord &#383;hould weare rich Iewels,</line>
 <line globalnumber="1099" number="1099">And &#383;end for money for &#8217;em.</line>
 </speech>
@@ -3307,7 +3307,7 @@
 <speaker>Hort.</speaker>
 <line globalnumber="1100" number="1100">I&#8217;me weary of this Charge,</line>
 <line globalnumber="1101" number="1101">The Gods can witne&#383;&#383;e:</line>
-<line globalnumber="1102" number="1102">I know my Lord hath &#383;pent of <nameref>Timons</nameref> wealth,</line>
+<line globalnumber="1102" number="1102">I know my Lord hath &#383;pent of <name type="person">Timons</name> wealth,</line>
 <line globalnumber="1103" number="1103">And now Ingratitude, makes it wor&#383;e then &#383;tealth.</line>
 </speech>
 
@@ -3333,12 +3333,12 @@
 
 <speech>
 <speaker>Tit.</speaker>
-<line globalnumber="1110" number="1110">One of Lord <nameref>Timons</nameref> men.</line>
+<line globalnumber="1110" number="1110">One of Lord <name type="person">Timons</name> men.</line>
 </speech>
 
 <speech>
 <speaker short="LUC. SERV.">Luc.</speaker>
-<line globalnumber="1111" number="1111"><nameref>Flaminius</nameref>? Sir, a word: Pray is my Lord readie</line>
+<line globalnumber="1111" number="1111"><name type="person">Flaminius</name>? Sir, a word: Pray is my Lord readie</line>
 <line globalnumber="1112" number="1112">to come forth?</line>
 </speech>
 
@@ -3428,7 +3428,7 @@
 
 <speech>
 <speaker>Tit.</speaker>
-<line globalnumber="1141" number="1141">Oh heere&#8217;s <nameref>Seruilius</nameref>: now wee &#383;hall know &#383;ome</line>
+<line globalnumber="1141" number="1141">Oh heere&#8217;s <name type="person">Seruilius</name>: now wee &#383;hall know &#383;ome</line>
 <line globalnumber="1142" number="1142">an&#383;were.</line>
 </speech>
 
@@ -3457,7 +3457,7 @@
 <speech>
 <speaker>Titus.</speaker>
 <line globalnumber="1153" number="1153">We cannot take this for an&#383;wer, &#383;ir.</line>
-<line globalnumber="1154" number="1154"><emph rend="italic">Flaminius within</emph>.<nameref>Seruilius</nameref> helpe, my Lord, my Lord.</line>
+<line globalnumber="1154" number="1154"><emph rend="italic">Flaminius within</emph>.<name type="person">Seruilius</name> helpe, my Lord, my Lord.</line>
 </speech>
 
 <stagedir sdglobalnumber="1154.01" sdnumber="1154.01">Enter Timon in a rage.</stagedir>
@@ -3473,7 +3473,7 @@
 
 <speech>
 <speaker short="LUC. SERV.">Luci.</speaker>
-<line globalnumber="1160" number="1160">Put in now <nameref>Titus</nameref>.</line>
+<line globalnumber="1160" number="1160">Put in now <name type="person">Titus</name>.</line>
 </speech>
 
 <speech>
@@ -3600,7 +3600,7 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="1188" number="1188">So &#64257;tly? Go, bid all my Friends againe,</line>
-<line globalnumber="1189" number="1189"><nameref>Lucius, Lucullus</nameref>, and <nameref>Sempronius Vllorxa</nameref>: All,</line>
+<line globalnumber="1189" number="1189"><name type="person">Lucius, Lucullus</name>, and <name type="person">Sempronius Vllorxa</name>: All,</line>
 <line globalnumber="1190" number="1190">Ile once more fea&#383;t the Ra&#383;cals.</line>
 </speech>
 
@@ -4026,12 +4026,12 @@
 
 <speech>
 <speaker short="3. LORD.">3</speaker>
-<line globalnumber="1373" number="1373"><nameref>Alcibiades</nameref> is bani&#383;h&#8217;d: heare you of it?</line>
+<line globalnumber="1373" number="1373"><name type="person">Alcibiades</name> is bani&#383;h&#8217;d: heare you of it?</line>
 </speech>
 
 <speech>
 <speaker short="BOTH 1. LORD. AND 2. LORD.">Both.</speaker>
-<line globalnumber="1374" number="1374"><nameref>Alcibiades</nameref> bani&#383;h&#8217;d?</line>
+<line globalnumber="1374" number="1374"><name type="person">Alcibiades</name> bani&#383;h&#8217;d?</line>
 </speech>
 
 <speech>
@@ -4116,7 +4116,7 @@
 <speaker>Timon.</speaker>
 <line globalnumber="1405" number="1405">May you a better Fea&#383;t neuer behold</line>
 <line globalnumber="1406" number="1406">You knot of Mouth-Friends: Smoke, &amp; lukewarm water</line>
-<line globalnumber="1407" number="1407">Is your perfe&#57348;ion. This is <nameref>Timons</nameref> la&#383;t,</line>
+<line globalnumber="1407" number="1407">Is your perfe&#57348;ion. This is <name type="person">Timons</name> la&#383;t,</line>
 <line globalnumber="1408" number="1408">Who &#383;tucke and &#383;pangled you with Flatteries,</line>
 <line globalnumber="1409" number="1409">Wa&#383;hes it off and &#383;prinkles in your faces</line>
 <line globalnumber="1410" number="1410">Your reeking villany. Liue loath&#8217;d, and long</line>
@@ -4131,7 +4131,7 @@
 <line globalnumber="1419" number="1419">What? All in Motion? Henceforth be no Fea&#383;t,</line>
 <line globalnumber="1420" number="1420">Whereat a Villaine&#8217;s not a welcome Gue&#383;t.</line>
 <line globalnumber="1421" number="1421">Burne hou&#383;e, &#383;inke Athens, henceforth hated be</line>
-<line globalnumber="1422" number="1422">Of <nameref>Timon</nameref> Man, and all Humanity.</line>
+<line globalnumber="1422" number="1422">Of <name type="person">Timon</name> Man, and all Humanity.</line>
 </speech>
 
 <stagedir sdglobalnumber="1422.01" sdnumber="1422.01">Exit.</stagedir>
@@ -4145,7 +4145,7 @@
 
 <speech>
 <speaker short="2. LORD.">2</speaker>
-<line globalnumber="1424" number="1424">Know you the quality of Lord <nameref>Timons</nameref> fury?</line>
+<line globalnumber="1424" number="1424">Know you the quality of Lord <name type="person">Timons</name> fury?</line>
 </speech>
 
 <speech>
@@ -4188,7 +4188,7 @@
 
 <speech>
 <speaker short="2. LORD.">2</speaker>
-<line globalnumber="1435" number="1435">Lord <nameref>Timons</nameref> mad.</line>
+<line globalnumber="1435" number="1435">Lord <name type="person">Timons</name> mad.</line>
 </speech>
 
 <speech>
@@ -4241,11 +4241,11 @@
 <line globalnumber="1469" number="1469">Be meerely poy&#383;on. Nothing Ile beare from thee</line>
 <line globalnumber="1470" number="1470">But nakedne&#383;&#383;e, thou dete&#383;table Towne,</line>
 <line globalnumber="1471" number="1471">Take thou that too, with multiplying Bannes:</line>
-<line globalnumber="1472" number="1472"><nameref>Timon</nameref> will to the Woods, where he &#383;hall &#64257;nde</line>
+<line globalnumber="1472" number="1472"><name type="person">Timon</name> will to the Woods, where he &#383;hall &#64257;nde</line>
 <line globalnumber="1473" number="1473">Th&#8217; vnkinde&#383;t Bea&#383;t, more kinder then Mankinde.</line>
 <line globalnumber="1474" number="1474">The Gods confound (heare me you good Gods all)</line>
 <line globalnumber="1475" number="1475">Th&#8217; Athenians both within and out that Wall:</line>
-<line globalnumber="1476" number="1476">And graunt as <nameref>Timon</nameref> growes, his hate may grow</line>
+<line globalnumber="1476" number="1476">And graunt as <name type="person">Timon</name> growes, his hate may grow</line>
 <line globalnumber="1477" number="1477">To the whole race of Mankinde, high and low.</line>
 <line globalnumber="1478" number="1478">Amen.</line>
 </speech>
@@ -4296,7 +4296,7 @@
 
 <speech>
 <speaker short="TIM. SERV.">3</speaker>
-<line globalnumber="1497" number="1497">Yet do our hearts weare <nameref>Timons</nameref> Liuery,</line>
+<line globalnumber="1497" number="1497">Yet do our hearts weare <name type="person">Timons</name> Liuery,</line>
 <line globalnumber="1498" number="1498">That &#383;ee I by our Faces: we are Fellowes &#383;till,</line>
 <line globalnumber="1499" number="1499">Seruing alike in &#383;orrow: Leak&#8217;d is our Barke,</line>
 <line globalnumber="1500" number="1500">And we poore Mates, &#383;tand on the dying Decke,</line>
@@ -4308,7 +4308,7 @@
 <speaker>Stew.</speaker>
 <line globalnumber="1503" number="1503">Good Fellowes all,</line>
 <line globalnumber="1504" number="1504">The late&#383;t of my wealth Ile &#383;hare among&#8217;&#383;t you.</line>
-<line globalnumber="1505" number="1505">Where euer we &#383;hall meete, for <nameref>Timons</nameref> &#383;ake,</line>
+<line globalnumber="1505" number="1505">Where euer we &#383;hall meete, for <name type="person">Timons</name> &#383;ake,</line>
 <line globalnumber="1506" number="1506">Let&#8217;s yet be Fellowes. Let&#8217;s &#383;hake our heads, and &#383;ay</line>
 <line globalnumber="1507" number="1507">As &#8217;twere a Knell vnto our Ma&#383;ters Fortunes,</line>
 <line globalnumber="1508" number="1508">We haue &#383;eene better dayes. Let each take &#383;ome:</line>
@@ -4366,7 +4366,7 @@
 <line globalnumber="1551" number="1551">There&#8217;s nothing leuell in our cur&#383;ed Natures</line>
 <line globalnumber="1552" number="1552">But dire&#57348; villanie. Therefore be abhorr&#8217;d,</line>
 <line globalnumber="1553" number="1553">All Fea&#383;ts, Societies, and Throngs of men.</line>
-<line globalnumber="1554" number="1554">His &#383;emblable, yea him&#383;elfe <nameref>Timon</nameref> di&#383;daines,</line>
+<line globalnumber="1554" number="1554">His &#383;emblable, yea him&#383;elfe <name type="person">Timon</name> di&#383;daines,</line>
 <line globalnumber="1555" number="1555">De&#383;tru&#57348;ion phang mankinde; Earth yeeld me Rootes,</line>
 <line globalnumber="1556" number="1556">Who &#383;eekes for better of thee, &#383;awce his pallate</line>
 <line globalnumber="1557" number="1557">With thy mo&#383;t operant Poy&#383;on. What is heere?</line>
@@ -4418,7 +4418,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="1587" number="1587">I am <nameref>Mi&#383;antropos</nameref>, and hate Mankinde.</line>
+<line globalnumber="1587" number="1587">I am <name type="person">Mi&#383;antropos</name>, and hate Mankinde.</line>
 <line globalnumber="1588" number="1588">For thy part, I do wi&#383;h thou wert a dogge,</line>
 <line globalnumber="1589" number="1589">That I might loue thee &#383;omething.</line>
 </speech>
@@ -4453,7 +4453,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1602" number="1602">How came the Noble <nameref>Timon</nameref> to this change?</line>
+<line globalnumber="1602" number="1602">How came the Noble <name type="person">Timon</name> to this change?</line>
 </speech>
 
 <speech>
@@ -4465,7 +4465,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1606" number="1606">Noble <nameref>Timon</nameref>, what friend&#383;hip may I do thee?</line>
+<line globalnumber="1606" number="1606">Noble <name type="person">Timon</name>, what friend&#383;hip may I do thee?</line>
 </speech>
 
 <speech>
@@ -4475,7 +4475,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1608" number="1608">What is it <nameref>Timon</nameref>?</line>
+<line globalnumber="1608" number="1608">What is it <name type="person">Timon</name>?</line>
 </speech>
 
 <speech>
@@ -4514,7 +4514,7 @@
 
 <speech>
 <speaker>Tim.</speaker>
-<line globalnumber="1619" number="1619">Art thou <nameref>Timandra</nameref>?</line>
+<line globalnumber="1619" number="1619">Art thou <name type="person">Timandra</name>?</line>
 </speech>
 
 <speech>
@@ -4538,9 +4538,9 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1627" number="1627">Pardon him &#383;weet <nameref>Timandra</nameref>, for his wits</line>
+<line globalnumber="1627" number="1627">Pardon him &#383;weet <name type="person">Timandra</name>, for his wits</line>
 <line globalnumber="1628" number="1628">Are drown&#8217;d and lo&#383;t in his Calamities.</line>
-<line globalnumber="1629" number="1629">I haue but little Gold of late, braue <nameref>Timon</nameref>,</line>
+<line globalnumber="1629" number="1629">I haue but little Gold of late, braue <name type="person">Timon</name>,</line>
 <line globalnumber="1630" number="1630">The want whereof, doth dayly make reuolt</line>
 <line globalnumber="1631" number="1631">In my penurious Band. I haue heard and greeu&#8217;d</line>
 <line globalnumber="1632" number="1632">How cur&#383;ed Athens, mindele&#383;&#383;e of thy worth,</line>
@@ -4555,7 +4555,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1636" number="1636">I am thy Friend, and pitty thee deere <nameref>Timon</nameref>.</line>
+<line globalnumber="1636" number="1636">I am thy Friend, and pitty thee deere <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -4587,7 +4587,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1644" number="1644">I <nameref>Timon</nameref>, and haue cau&#383;e.</line>
+<line globalnumber="1644" number="1644">I <name type="person">Timon</name>, and haue cau&#383;e.</line>
 </speech>
 
 <speech>
@@ -4598,7 +4598,7 @@
 
 <speech>
 <speaker>Alc.</speaker>
-<line globalnumber="1647" number="1647">Why me, <nameref>Timon</nameref>?</line>
+<line globalnumber="1647" number="1647">Why me, <name type="person">Timon</name>?</line>
 </speech>
 
 <speech>
@@ -4643,7 +4643,7 @@
 
 <speech>
 <speaker short="BOTH PHRY. AND TIMAN.">Both.</speaker>
-<line globalnumber="1676" number="1676">Giue vs &#383;ome Gold good <nameref>Timon</nameref>, ha&#383;t &#1267; more?</line>
+<line globalnumber="1676" number="1676">Giue vs &#383;ome Gold good <name type="person">Timon</name>, ha&#383;t &#1267; more?</line>
 </speech>
 
 <speech>
@@ -4696,7 +4696,7 @@
 <speech>
 <speaker short="BOTH PHRY. AND TIMAN.">Both.</speaker>
 <line globalnumber="1712" number="1712">More coun&#383;ell with more Money, bounteous</line>
-<line globalnumber="1713" number="1713"><nameref>Timon</nameref>.</line>
+<line globalnumber="1713" number="1713"><name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -4708,7 +4708,7 @@
 <speech>
 <speaker>Alc.</speaker>
 <line globalnumber="1716" number="1716">Strike vp the Drum towardes Athens, farewell</line>
-<line globalnumber="1717" number="1717"><nameref>Timon</nameref>: if I thriue well, Ile vi&#383;it thee againe.</line>
+<line globalnumber="1717" number="1717"><name type="person">Timon</name>: if I thriue well, Ile vi&#383;it thee againe.</line>
 </speech>
 
 <speech>
@@ -4754,7 +4754,7 @@
 <line globalnumber="1730" number="1730">Engenders the blacke Toad, and Adder blew,</line>
 <line globalnumber="1731" number="1731">The gilded Newt, and eyele&#383;&#383;e venom&#8217;d Worme,</line>
 <line globalnumber="1732" number="1732">With all th&#8217; abhorred Births below Cri&#383;pe Heauen,</line>
-<line globalnumber="1733" number="1733">Whereon <nameref>Hyperions</nameref> quickning &#64257;re doth &#383;hine:</line>
+<line globalnumber="1733" number="1733">Whereon <name type="person">Hyperions</name> quickning &#64257;re doth &#383;hine:</line>
 <line globalnumber="1734" number="1734">Yeeld him, who all the humane Sonnes do hate,</line>
 <line globalnumber="1735" number="1735">From foorth thy plenteous bo&#383;ome, one poore roote:</line>
 <line globalnumber="1736" number="1736">En&#383;eare thy Fertile and Conceptious wombe,</line>
@@ -4791,7 +4791,7 @@
 <line globalnumber="1754" number="1754">This Slaue-like Habit, and the&#383;e lookes of Care?</line>
 <line globalnumber="1755" number="1755">Thy Flatterers yet weare Silke, drinke Wine, lye &#383;o&#64261;,</line>
 <line globalnumber="1756" number="1756">Hugge their di&#383;eas&#8217;d Perfumes, and haue forgot</line>
-<line globalnumber="1757" number="1757">That euer <nameref>Timon</nameref> was. Shame not the&#383;e Woods,</line>
+<line globalnumber="1757" number="1757">That euer <name type="person">Timon</name> was. Shame not the&#383;e Woods,</line>
 <line globalnumber="1758" number="1758">By putting on the cunning of a Carper.</line>
 <line globalnumber="1759" number="1759">Be thou a Flatterer now, and &#383;eeke to thriue</line>
 <line globalnumber="1760" number="1760">By that which ha&#8217;s vndone thee; hindge thy knee,</line>
@@ -4997,13 +4997,13 @@
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="1851" number="1851">Where lye&#383;t a nights <nameref>Timon</nameref>?</line>
+<line globalnumber="1851" number="1851">Where lye&#383;t a nights <name type="person">Timon</name>?</line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="1852" number="1852">Vnder that&#8217;s aboue me.</line>
-<line globalnumber="1853" number="1853">Where feed&#8217;&#383;t thou a-dayes <nameref>Apemantus</nameref>?</line>
+<line globalnumber="1853" number="1853">Where feed&#8217;&#383;t thou a-dayes <name type="person">Apemantus</name>?</line>
 </speech>
 
 <speech>
@@ -5084,8 +5084,8 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="1877" number="1877">Women neere&#383;t, but men: men are the things</line>
-<line globalnumber="1878" number="1878">them&#383;elues. What would&#8217;&#383;t thou do with the world <nameref>A-</nameref></line>
-<line globalnumber="1879" number="1879"><nameref>pemantus</nameref>, if it lay in thy power?</line>
+<line globalnumber="1878" number="1878">them&#383;elues. What would&#8217;&#383;t thou do with the world <name type="person">A-</name></line>
+<line globalnumber="1879" number="1879"><name type="person">pemantus</name>, if it lay in thy power?</line>
 </speech>
 
 <speech>
@@ -5101,7 +5101,7 @@
 
 <speech>
 <speaker>Ape.</speaker>
-<line globalnumber="1883" number="1883">I <nameref>Timon</nameref>.</line>
+<line globalnumber="1883" number="1883">I <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -5156,7 +5156,7 @@
 <line globalnumber="1915" number="1915">When there is nothing liuing but thee,</line>
 <line globalnumber="1916" number="1916">Thou &#383;halt be welcome.</line>
 <line globalnumber="1917" number="1917">I had rather be a Beggers Dogge,</line>
-<line globalnumber="1918" number="1918">Then <nameref>Apemantus</nameref>.</line>
+<line globalnumber="1918" number="1918">Then <name type="person">Apemantus</name>.</line>
 </speech>
 
 <speech>
@@ -5239,13 +5239,13 @@
 <line globalnumber="1942" number="1942">Rogue, Rogue, Rogue.</line>
 <line globalnumber="1943" number="1943">I am &#383;icke of this fal&#383;e world, and will loue nought</line>
 <line globalnumber="1944" number="1944">But euen the meere nece&#383;&#383;ities vpon&#8217;t:</line>
-<line globalnumber="1945" number="1945">Then <nameref>Timon</nameref> pre&#383;ently prepare thy graue:</line>
+<line globalnumber="1945" number="1945">Then <name type="person">Timon</name> pre&#383;ently prepare thy graue:</line>
 <line globalnumber="1946" number="1946">Lye where the light Fome of the Sea may beate</line>
 <line globalnumber="1947" number="1947">Thy graue &#383;tone dayly, make thine Epitaph,</line>
 <line globalnumber="1948" number="1948">That death in me, at others liues may laugh.</line>
 <line globalnumber="1949" number="1949">O thou &#383;weete King-killer, and deare diuorce</line>
 <line globalnumber="1950" number="1950">Twixt naturall Sunne and &#64257;re: thou bright de&#64257;ler</line>
-<line globalnumber="1951" number="1951">Of <nameref>Himens</nameref> pure&#383;t bed, thou valiant Mars,</line>
+<line globalnumber="1951" number="1951">Of <name type="person">Himens</name> pure&#383;t bed, thou valiant Mars,</line>
 <line globalnumber="1952" number="1952">Thou euer, yong, fre&#383;h, loued, and delicate wo&#339;r,</line>
 <line globalnumber="1953" number="1953">Who&#383;e blu&#383;h doth thawe the con&#383;ecrated Snow</line>
 <line globalnumber="1954" number="1954">That lyes on Dians lap.</line>
@@ -5293,7 +5293,7 @@
 <speech>
 <speaker>Ape.</speaker>
 <line globalnumber="1970" number="1970">Mo things like men,</line>
-<line globalnumber="1971" number="1971">Eate <nameref>Timon</nameref>, and abhorre then.</line>
+<line globalnumber="1971" number="1971">Eate <name type="person">Timon</name>, and abhorre then.</line>
 </speech>
 
 <stagedir sdglobalnumber="1971.01" sdnumber="1971.01">Exit Apeman.</stagedir>
@@ -5349,7 +5349,7 @@
 
 <speech>
 <speaker short="ALL OTHER BAN.">All.</speaker>
-<line globalnumber="1987" number="1987">Saue thee <nameref>Timon</nameref>.</line>
+<line globalnumber="1987" number="1987">Saue thee <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -5605,7 +5605,7 @@
 <speech>
 <speaker>Painter.</speaker>
 <line globalnumber="2122" number="2122">Certaine.</line>
-<line globalnumber="2123" number="2123"><nameref>Alcibiades</nameref> reports it: <nameref>Phrinica</nameref> and <nameref>Timandylo</nameref></line>
+<line globalnumber="2123" number="2123"><name type="person">Alcibiades</name> reports it: <name type="person">Phrinica</name> and <name type="person">Timandylo</name></line>
 <line globalnumber="2124" number="2124">Had Gold of him. He likewi&#383;e enrich&#8217;d</line>
 <line globalnumber="2125" number="2125">Poore &#383;tragling Souldiers, with great quantity.</line>
 <line globalnumber="2126" number="2126">&#8217;Tis &#383;aide, he gaue vnto his Steward</line>
@@ -5721,7 +5721,7 @@
 
 <speech>
 <speaker>P&#339;t.</speaker>
-<line globalnumber="2185" number="2185">Haile worthy <nameref>Timon</nameref>.</line>
+<line globalnumber="2185" number="2185">Haile worthy <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -5926,7 +5926,7 @@
 <speaker>1.Sen.</speaker>
 <line globalnumber="2268" number="2268">Bring vs to his Caue.</line>
 <line globalnumber="2269" number="2269">It is our part and promi&#383;e to th&#8217; Athenians</line>
-<line globalnumber="2270" number="2270">To &#383;peake with <nameref>Timon</nameref>.</line>
+<line globalnumber="2270" number="2270">To &#383;peake with <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -5942,10 +5942,10 @@
 <speech>
 <speaker>Stew.</speaker>
 <line globalnumber="2277" number="2277">Heere is his Caue:</line>
-<line globalnumber="2278" number="2278">Peace and content be heere. Lord <nameref>Timon, Timon</nameref>,</line>
+<line globalnumber="2278" number="2278">Peace and content be heere. Lord <name type="person">Timon, Timon</name>,</line>
 <line globalnumber="2279" number="2279">Looke out, and &#383;peake to Friends: Th&#8217; Athenians</line>
 <line globalnumber="2280" number="2280">By two of their mo&#383;t reuerend Senate greet thee:</line>
-<line globalnumber="2281" number="2281">Speake to them Noble <nameref>Timon</nameref>.</line>
+<line globalnumber="2281" number="2281">Speake to them Noble <name type="person">Timon</name>.</line>
 </speech>
 
 <stagedir sdglobalnumber="2281.01" sdnumber="2281.01">Enter Timon out of his Caue.</stagedir>
@@ -5961,18 +5961,18 @@
 
 <speech>
 <speaker short="1. SEN.">1</speaker>
-<line globalnumber="2287" number="2287">Worthy <nameref>Timon</nameref>.</line>
+<line globalnumber="2287" number="2287">Worthy <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="2288" number="2288">Of none but &#383;uch as you,</line>
-<line globalnumber="2289" number="2289">And you of <nameref>Timon</nameref>.</line>
+<line globalnumber="2289" number="2289">And you of <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
 <speaker short="1. SEN.">1</speaker>
-<line globalnumber="2290" number="2290">The Senators of Athens, greet thee <nameref>Timon</nameref>.</line>
+<line globalnumber="2290" number="2290">The Senators of Athens, greet thee <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -5998,8 +5998,8 @@
 <line globalnumber="2301" number="2301">Toward thee, forgetfulne&#383;&#383;e too generall gro&#383;&#383;e;</line>
 <line globalnumber="2302" number="2302">Which now the publike Body, which doth &#383;ildome</line>
 <line globalnumber="2303" number="2303">Play the re-canter, feeling in it &#383;elfe</line>
-<line globalnumber="2304" number="2304">A lacke of <nameref>Timons</nameref> ayde, hath &#383;ince withall</line>
-<line globalnumber="2305" number="2305">Of it owne fall, re&#383;training ayde to <nameref>Timon</nameref>,</line>
+<line globalnumber="2304" number="2304">A lacke of <name type="person">Timons</name> ayde, hath &#383;ince withall</line>
+<line globalnumber="2305" number="2305">Of it owne fall, re&#383;training ayde to <name type="person">Timon</name>,</line>
 <line globalnumber="2306" number="2306">And &#383;end forth vs, to make their &#383;orrowed render,</line>
 <line globalnumber="2307" number="2307">Together, with a recompence more fruitfull</line>
 <line globalnumber="2308" number="2308">Then their offence can weigh downe by the Dramme,</line>
@@ -6024,7 +6024,7 @@
 <line globalnumber="2319" number="2319">The Captain&#383;hip, thou &#383;halt be met with thankes,</line>
 <line globalnumber="2320" number="2320">Allowed with ab&#383;olute power, and thy good name</line>
 <line globalnumber="2321" number="2321">Liue with Authoritie: &#383;o &#383;oone we &#383;hall driue backe</line>
-<line globalnumber="2322" number="2322">Of <nameref>Alcibiades</nameref> th&#8217;approaches wild,</line>
+<line globalnumber="2322" number="2322">Of <name type="person">Alcibiades</name> th&#8217;approaches wild,</line>
 <line globalnumber="2323" number="2323">Who like a Bore too &#383;auage, doth root vp</line>
 <line globalnumber="2324" number="2324">His Countries peace.</line>
 </speech>
@@ -6032,24 +6032,24 @@
 <speech>
 <speaker short="2. SEN.">2</speaker>
 <line globalnumber="2325" number="2325">And &#383;hakes his threatning Sword</line>
-<line globalnumber="2326" number="2326">Again&#383;t the walles of <nameref>Athens</nameref>.</line>
+<line globalnumber="2326" number="2326">Again&#383;t the walles of <name type="person">Athens</name>.</line>
 </speech>
 
 <speech>
 <speaker short="1. SEN.">1</speaker>
-<line globalnumber="2327" number="2327">Therefore <nameref>Timon</nameref>.</line>
+<line globalnumber="2327" number="2327">Therefore <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="2328" number="2328">Well &#383;ir, I will: therefore I will &#383;ir thus:</line>
-<line globalnumber="2329" number="2329">If <nameref>Alcibiades</nameref> kill my Countrymen,</line>
-<line globalnumber="2330" number="2330">Let <nameref>Alcibiades</nameref> know this of <nameref>Timon</nameref>,</line>
-<line globalnumber="2331" number="2331">That <nameref>Timon</nameref> cares not. But if he &#383;acke faire Athens,</line>
+<line globalnumber="2329" number="2329">If <name type="person">Alcibiades</name> kill my Countrymen,</line>
+<line globalnumber="2330" number="2330">Let <name type="person">Alcibiades</name> know this of <name type="person">Timon</name>,</line>
+<line globalnumber="2331" number="2331">That <name type="person">Timon</name> cares not. But if he &#383;acke faire Athens,</line>
 <line globalnumber="2332" number="2332">And take our goodly aged men by&#8217;th&#8217; Beards,</line>
 <line globalnumber="2333" number="2333">Giuing our holy Virgins to the &#383;taine</line>
 <line globalnumber="2334" number="2334">Of contumelious, bea&#383;tly, mad-brain&#8217;d warre:</line>
-<line globalnumber="2335" number="2335">Then let him know, and tell him <nameref>Timon</nameref> &#383;peakes it,</line>
+<line globalnumber="2335" number="2335">Then let him know, and tell him <name type="person">Timon</name> &#383;peakes it,</line>
 <line globalnumber="2336" number="2336">In pitty of our aged, and our youth,</line>
 <line globalnumber="2337" number="2337">I cannot choo&#383;e but tell him that I care not,</line>
 <line globalnumber="2338" number="2338">And let him tak&#8217;t at wor&#383;t: For their Kniues care not,</line>
@@ -6072,7 +6072,7 @@
 <line globalnumber="2347" number="2347">It will be &#383;eene to morrow. My long &#383;ickne&#383;&#383;e</line>
 <line globalnumber="2348" number="2348">Of Health, and Liuing, now begins to mend,</line>
 <line globalnumber="2349" number="2349">And nothing brings me all things. Go, liue &#383;till,</line>
-<line globalnumber="2350" number="2350">Be <nameref>Alcibiades</nameref> your plague; you his,</line>
+<line globalnumber="2350" number="2350">Be <name type="person">Alcibiades</name> your plague; you his,</line>
 <line globalnumber="2351" number="2351">And la&#383;t &#383;o long enough.</line>
 </speech>
 
@@ -6118,7 +6118,7 @@
 <line globalnumber="2365" number="2365">Their pangs of Loue, with other incident throwes</line>
 <line globalnumber="2366" number="2366">That Natures fragile Ve&#383;&#383;ell doth &#383;u&#383;taine</line>
 <line globalnumber="2367" number="2367">In lifes vncertaine voyage, I will &#383;ome kindnes do them,</line>
-<line globalnumber="2368" number="2368">Ile teach them to preuent wilde <nameref>Alcibiades</nameref> wrath.</line>
+<line globalnumber="2368" number="2368">Ile teach them to preuent wilde <name type="person">Alcibiades</name> wrath.</line>
 </speech>
 
 <speech>
@@ -6147,7 +6147,7 @@
 <speech>
 <speaker>Tim.</speaker>
 <line globalnumber="2380" number="2380">Come not to me againe, but &#383;ay to Athens,</line>
-<line globalnumber="2381" number="2381"><nameref>Timon</nameref> hath made his euerla&#383;ting Man&#383;ion</line>
+<line globalnumber="2381" number="2381"><name type="person">Timon</name> hath made his euerla&#383;ting Man&#383;ion</line>
 <line globalnumber="2382" number="2382">Vpon the Beached Verge of the &#383;alt Flood,</line>
 <line globalnumber="2383" number="2383">Who once a day with his embo&#383;&#383;ed Froth</line>
 <line globalnumber="2384" number="2384">The turbulent Surge &#383;hall couer; thither come,</line>
@@ -6155,7 +6155,7 @@
 <line globalnumber="2386" number="2386">Lippes, let foure words go by, and Language end:</line>
 <line globalnumber="2387" number="2387">What is ami&#383;&#383;e, Plague and Infe&#57348;ion mend.</line>
 <line globalnumber="2388" number="2388">Graues onely be mens workes, and Death their gaine;</line>
-<line globalnumber="2389" number="2389">Sunne, hide thy Beames, <nameref>Timon</nameref> hath done his Raigne.</line>
+<line globalnumber="2389" number="2389">Sunne, hide thy Beames, <name type="person">Timon</name> hath done his Raigne.</line>
 </speech>
 
 <stagedir sdglobalnumber="2389.01" sdnumber="2389.01">Exit Timon.</stagedir>
@@ -6196,7 +6196,7 @@
 
 <speech>
 <speaker short="4. SEN.">2</speaker>
-<line globalnumber="2400" number="2400">We &#383;tand much hazard, if they bring not <nameref>Timon</nameref>.</line>
+<line globalnumber="2400" number="2400">We &#383;tand much hazard, if they bring not <name type="person">Timon</name>.</line>
 </speech>
 
 <speech>
@@ -6205,7 +6205,7 @@
 <line globalnumber="2402" number="2402">Whom though in generall part we were oppos&#8217;d,</line>
 <line globalnumber="2403" number="2403">Yet our old loue made a particular force,</line>
 <line globalnumber="2404" number="2404">And made vs &#383;peake like Friends. This man was riding</line>
-<line globalnumber="2405" number="2405">From <nameref>Alcibiades</nameref> to <nameref>Timons</nameref> Caue,</line>
+<line globalnumber="2405" number="2405">From <name type="person">Alcibiades</name> to <name type="person">Timons</name> Caue,</line>
 <line globalnumber="2406" number="2406">With Letters of intreaty, which imported</line>
 <line globalnumber="2407" number="2407">His Fellow&#383;hip i&#8217;th&#8217; cau&#383;e again&#383;t your City,</line>
 <line globalnumber="2408" number="2408">In part for his &#383;ake mou&#8217;d.</line>
@@ -6220,7 +6220,7 @@
 
 <speech>
 <speaker short="1. SEN.">3</speaker>
-<line globalnumber="2410" number="2410">No talke of <nameref>Timon</nameref>, nothing of him expe&#57348;,</line>
+<line globalnumber="2410" number="2410">No talke of <name type="person">Timon</name>, nothing of him expe&#57348;,</line>
 <line globalnumber="2411" number="2411">The Enemies Drumme is heard, and fearefull &#383;couring</line>
 <line globalnumber="2412" number="2412">Doth choake the ayre with du&#383;t: In, and prepare,</line>
 <line globalnumber="2413" number="2413">Ours is the fall I feare, our F&#339;s the Snare.</line>
@@ -6234,7 +6234,7 @@
 <speaker>Sol.</speaker>
 <line globalnumber="2414" number="2414">By all de&#383;cription this &#383;hould be the place.</line>
 <line globalnumber="2415" number="2415">Who&#383;e heere? Speake hoa. No an&#383;wer? What is this?</line>
-<line globalnumber="2416" number="2416"><nameref>Tymon</nameref> is dead, who hath out-&#383;tretcht his &#383;pan,</line>
+<line globalnumber="2416" number="2416"><name type="person">Tymon</name> is dead, who hath out-&#383;tretcht his &#383;pan,</line>
 <line globalnumber="2417" number="2417">Some Bea&#383;t reade this; There do&#8217;s not liue a Man.</line>
 <line globalnumber="2418" number="2418">Dead &#383;ure, and this his Graue, what&#8217;s on this Tomb,</line>
 <line globalnumber="2419" number="2419">I cannot read: the Charra&#57348;er Ile take with wax,</line>
@@ -6280,7 +6280,7 @@
 <speech>
 <speaker short="2. SEN.">2</speaker>
 <line globalnumber="2443" number="2443">So did we wo&#339;</line>
-<line globalnumber="2444" number="2444">Tran&#383;formed <nameref>Timon</nameref>, to our Citties loue</line>
+<line globalnumber="2444" number="2444">Tran&#383;formed <name type="person">Timon</name>, to our Citties loue</line>
 <line globalnumber="2445" number="2445">By humble Me&#383;&#383;age, and by promi&#383;t meanes:</line>
 <line globalnumber="2446" number="2446">We were not all vnkinde, nor all de&#383;erue</line>
 <line globalnumber="2447" number="2447">The common &#383;troke of warre.</line>
@@ -6352,7 +6352,7 @@
 <speaker>Alc.</speaker>
 <line globalnumber="2486" number="2486">Then there&#8217;s my Gloue,</line>
 <line globalnumber="2487" number="2487">Defend and open your vncharged Ports,</line>
-<line globalnumber="2488" number="2488">Tho&#383;e Enemies of <nameref>Timons</nameref>, and mine owne</line>
+<line globalnumber="2488" number="2488">Tho&#383;e Enemies of <name type="person">Timons</name>, and mine owne</line>
 <line globalnumber="2489" number="2489">Whom you your &#383;elues &#383;hall &#383;et out for reproofe,</line>
 <line globalnumber="2490" number="2490">Fall and no more; and to attone your feares</line>
 <line globalnumber="2491" number="2491">With my more Noble meaning, not a man</line>
@@ -6376,7 +6376,7 @@
 
 <speech>
 <speaker short="SOLD.">Me&#383;.</speaker>
-<line globalnumber="2498" number="2498">My Noble Generall, <nameref>Timon</nameref> is dead,</line>
+<line globalnumber="2498" number="2498">My Noble Generall, <name type="person">Timon</name> is dead,</line>
 <line globalnumber="2499" number="2499">Entomb&#8217;d vpon the very hemme o&#8217;th&#8217; Sea,</line>
 <line globalnumber="2500" number="2500">And on his Graue&#383;tone, this In&#383;culpture which</line>
 <line globalnumber="2501" number="2501">With wax I brought away: who&#383;e &#383;o&#64261; Impre&#383;&#383;ion</line>
@@ -6393,7 +6393,7 @@
 <line globalnumber="2510" number="2510">From niggard Nature fall; yet Rich Conceit</line>
 <line globalnumber="2511" number="2511">Taught thee to make va&#383;t Neptune weepe for aye</line>
 <line globalnumber="2512" number="2512">On thy low Graue, on faults forgiuen. Dead</line>
-<line globalnumber="2513" number="2513">Is Noble <nameref>Timon</nameref>, of who&#383;e Memorie</line>
+<line globalnumber="2513" number="2513">Is Noble <name type="person">Timon</name>, of who&#383;e Memorie</line>
 <line globalnumber="2514" number="2514">Heerea&#64261;er more. Bring me into your Citie,</line>
 <line globalnumber="2515" number="2515">And I will v&#383;e the Oliue, with my Sword:</line>
 <line globalnumber="2516" number="2516">Make war breed peace; make peace &#383;tint war, make each</line>
@@ -6445,8 +6445,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="two-gentlemen-of-verona">
 <title short="Two Gentlemen of Verona">THE<lb />Two Gentlemen of Verona.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Two Gentlemen of Verona">
 
-<persona gender="male">
+<persona gender="male" id="c5604a3a-cff6-4fb4-a856-cbb73f6905e0">
 <persname short="DUKE.">Duke of Milan</persname>
 <persaliases>
 	<persname short="Du"/>
@@ -22,7 +22,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="364cf838-8917-4c88-8821-679b7c7e62fd">
 <persname short="VAL.">Valentine</persname>
 <persaliases>
 	<persname short="Val"/>
@@ -32,21 +32,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e6904d3d-b381-4e38-975e-c8f75cb5bb09">
 <persname short="PRO.">Proteus</persname>
 <persaliases>
 	<persname short="Pro."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d98cca09-43bf-4e78-83ea-a0cf66a09ec4">
 <persname short="ANT.">Antonio</persname>
 <persaliases>
 	<persname short="Ant."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="30b3bc3f-c4bf-4799-b9e6-697d0af672e9">
 <persname short="THU.">Thurio</persname>
 <persaliases>
 	<persname short="Th."/>
@@ -55,7 +55,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd1192af-d8bb-47a9-ae9a-1edb4f1459a6">
 <persname short="EGL.">Eglamour</persname>
 <persaliases>
 	<persname short="Eg."/>
@@ -63,14 +63,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5038c8b0-581a-4cd2-a2ce-5d92fa739609">
 <persname short="HOST.">Host</persname>
 <persaliases>
 	<persname short="Ho."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="781ac59c-a618-4ab2-bd7e-baaf76f137dc">
 <persname short="SPEED.">Speed</persname>
 <persaliases>
 	<persname short="Sp."/>
@@ -79,7 +79,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="26bebecb-5c2f-42b2-97c8-52d846e24706">
 <persname short="LAUNCE.">Launce</persname>
 <persaliases>
 	<persname short="La."/>
@@ -89,7 +89,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e0cd62ee-affd-40b4-925f-5ca11eaf8f67">
 <persname short="PAN.">Panthino</persname>
 <persaliases>
 	<persname short="Pan."/>
@@ -98,7 +98,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="7012b008-5fcb-4b3a-9dc4-7e1468919e41">
 <persname short="JUL.">Julia</persname>
 <persaliases>
 	<persname short="Iu"/>
@@ -107,7 +107,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="8fab2461-e543-452c-9e02-4300542cbc73">
 <persname short="SIL.">Silvia</persname>
 <persaliases>
 	<persname short="Sil"/>
@@ -116,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e2598cb5-be4f-4513-8a1d-bf0f1e489a12">
 <persname short="LUC.">Lucetta</persname>
 <persaliases>
 	<persname short="Lu."/>
@@ -124,11 +124,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="MUSIC.">Musicians</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="50967d71-1618-4cf4-9bbe-2963bd86276b">
 <persname short="1. OUT.">First Outlaw</persname>
 <persaliases>
 	<persname short="1 Out."/>
@@ -139,7 +135,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5029c2ac-e1a4-4b88-8417-c2976be78500">
 <persname short="2. OUT.">Second Outlaw</persname>
 <persaliases>
 	<persname short="2 Out."/>
@@ -149,7 +145,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="18d44883-a275-4b39-bbb8-fca167bc4871">
 <persname short="3. OUT.">Third Outlaw</persname>
 <persaliases>
 	<persname short="3 Out."/>
@@ -159,15 +155,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="CRAB">Crab</persname>
-</persona>
-
 </personae> 
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus, Scena prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus, Scena prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Valentine: Protheus, and Speed.</stagedir>
@@ -590,8 +582,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="148.02" sdnumber="0.01">Enter Iulia and Lucetta.</stagedir>
@@ -1039,8 +1030,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="294.02" sdnumber="0.01">Enter Antonio and Panthino. Protheus.</stagedir>
@@ -1242,9 +1232,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us &#383;ecundus: Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us &#383;ecundus: Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="386.02" sdnumber="0.01">Enter Valentine, Speed, Siluia.</stagedir>
@@ -1796,7 +1786,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Sc&#339;na &#383;ecunda.</scenetitle>
 
 <stagedir sdglobalnumber="555.02" sdnumber="0.01">Enter Protheus, Iulia, Panthion.</stagedir>
@@ -1862,8 +1852,7 @@
 <stagedir sdglobalnumber="577.01" sdnumber="22.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
-
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="577.02" sdnumber="0.01">Enter Launce, Panthion.</stagedir>
@@ -1991,7 +1980,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="636.02" sdnumber="0.01">Enter Valentine, Siluia, Thurio, Speed, Duke, Protheus.</stagedir>
@@ -2601,7 +2590,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="5">
 <scenetitle id="scene2_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="851.02" sdnumber="0.01">Enter Speed and Launce.</stagedir>
@@ -2796,7 +2785,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="6">
 <scenetitle id="scene2_6">Sc&#339;na Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="905.02" sdnumber="0.01">Enter Protheus &#383;olus.</stagedir>
@@ -2852,8 +2841,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="2" num="7">
 <scenetitle id="scene2_7">Sc&#339;na &#383;eptima.</scenetitle>
 
 <stagedir sdglobalnumber="948.02" sdnumber="0.01">Enter Iulia and Lucetta.</stagedir>
@@ -3053,9 +3041,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius, Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius, Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1038.02" sdnumber="0.01">Enter Duke, Thurio, Protheus, Valentine, Launce, Speed.</stagedir>
@@ -3970,7 +3958,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1412.02" sdnumber="0.01">Enter Duke, Thurio, Protheus.</stagedir>
@@ -4197,9 +4185,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1509.02" sdnumber="0.01">Enter Valentine, Speed, and certaine Out-lawes.</stagedir>
@@ -4435,8 +4423,7 @@
 <stagedir sdglobalnumber="1585.01" sdnumber="76.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
-
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1585.02" sdnumber="0.01">Enter Protheus, Thurio, Iulia, Ho&#383;t, Mu&#383;itian, Siluia.</stagedir>
@@ -4845,7 +4832,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1623.02" sdnumber="0.01">Enter Eglamore, Siluia.</stagedir>
@@ -4953,7 +4940,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1778.02" sdnumber="0.01">Enter Launce, Protheus, Iulia, Siluia.</stagedir>
@@ -5355,9 +5342,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Sc&#339;na Prima</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Sc&#339;na Prima</scenetitle>
 
 <stagedir sdglobalnumber="1982.02" sdnumber="0.01">Enter Eglamoure, Siluia.</stagedir>
@@ -5389,7 +5376,7 @@
 <stagedir sdglobalnumber="1994.01" sdnumber="12.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1994.02" sdnumber="0.01">Enter Thurio, Protheus, Iulia, Duke.</stagedir>
@@ -5601,7 +5588,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2053.02" sdnumber="0.01">Siluia, Out-lawes.</stagedir>
@@ -5652,8 +5639,7 @@
 <stagedir sdglobalnumber="2068.01" sdnumber="15.01">Exeunt.</stagedir>
 
 </scene>
-<scene>
-
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2068.02" sdnumber="0.01">Enter Valentine, Protheus, Siluia, Iulia, Duke, Thurio, Out-lawes.</stagedir>
@@ -6077,8 +6063,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="cymbeline">
 <title short="Cymbeline">THE TRAGEDIE OF<lb />CYMBELINE</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Cymbeline">
 
-<persona gender="female">
+<persona gender="female" id="7084864c-63d8-4ac7-9e54-3f9134a2259e">
 <persname short="HEL.">Helen</persname>
 <persaliases>
 	<persname short="La."/>
@@ -19,7 +19,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="cd837fa0-da43-4654-9538-fe74538a9dbf">
 <persname short="IMO.">Imogen</persname>
 <persaliases>
 	<persname short="Imo."/>
@@ -27,7 +27,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="02f67976-bd64-439f-a80f-a77ab4335475">
 <persname short="QUEEN.">Queen</persname>
 <persaliases>
 	<persname short="Queen"/>
@@ -35,28 +35,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d33fbd89-656e-4db3-8482-673029e737ba">
 <persname short="FRENCH.">Frenchman</persname>
 <persaliases>
 	<persname short="French."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1225475f-e8ef-4a40-bfe6-ec4408cfaf9c">
 <persname short="CAP.">Roman Captain</persname>
 <persaliases>
 	<persname short="Cap."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c750ff3-7ec9-4147-a72c-650a299344af">
 <persname short="PHIL.">Philarmonus</persname>
 <persaliases>
 	<persname short="Sooth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a92364e8-9a26-4029-84fd-ebbe8252a36b">
 <persname short="COR.">Cornelius</persname>
 <persaliases>
 	<persname short="Cor."/>
@@ -64,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aa668705-20d4-4933-8198-eac247e397cd">
 <persname short="PIS.">Pisanio</persname>
 <persaliases>
 	<persname short="Pi&#383;an."/>
@@ -74,14 +74,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f655db77-3dcd-4b90-9bfb-0cfec24359b7">
 <persname short="LUC.">Caius Lucius</persname>
 <persaliases>
 	<persname short="Luc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2eb7b79e-8052-4a4c-91b0-bda6c88aef7d">
 <persname short="JACH.">Jachimo</persname>
 <persaliases>
 	<persname short="Iach."/>
@@ -91,7 +91,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6f447505-58a2-41af-9ffe-03819c5cb38b">
 <persname short="PHI.">Philario</persname>
 <persaliases>
 	<persname short="Phi."/>
@@ -99,7 +99,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="95b33145-1455-4530-b47e-10f341e7ae1d">
 <persname short="ARV.">Arviragus</persname>
 <persaliases>
 	<persname short="Arui"/>
@@ -111,7 +111,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8b0499f4-7733-49a8-a24a-4edec06e24f8">
 <persname short="GUI.">Guiderius</persname>
 <persaliases>
 	<persname short="Gui."/>
@@ -121,7 +121,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b7673a49-e700-4592-986b-c53277a94f33">
 <persname short="BEL.">Belarius</persname>
 <persaliases>
 	<persname short="Bel."/>
@@ -129,7 +129,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="fd02062f-7682-42c1-9ef1-c825034c6dc0">
 <persname short="POST.">Posthumus Leonatus</persname>
 <persaliases>
 	<persname short="Po&#383;thmus."/>
@@ -139,7 +139,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="fc670faa-66b1-4ba4-aa58-2470c6cc0830">
 <persname short="CLO.">Cloten</persname>
 <persaliases>
 	<persname short="Clo."/>
@@ -148,14 +148,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ab371c49-38b0-49c4-bc4c-b9b2b6a5c630">
 <persname short="CYM.">Cymbeline</persname>
 <persaliases>
 	<persname short="Cym."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2b8af707-915e-47c2-ab10-ffd8fcfd900c">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="1.Gent."/>
@@ -164,7 +164,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d65ba8a3-1291-4133-930c-0c0561efe9e9">
 <persname short="2. GENT.">Second Gentleman</persname>
 <persaliases>
 	<persname short="2 Gent."/>
@@ -172,7 +172,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="960fa65f-991c-4393-ac78-1e27af0e30b0">
 <persname short="1. LORD.">First Lord</persname>
 <persaliases>
 	<persname short="Lord."/>
@@ -181,7 +181,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b86dc453-5ad7-4532-b9a1-8dc40f3b3979">
 <persname short="2. LORD.">Second Lord</persname>
 <persaliases>
 	<persname short="2"/>
@@ -189,14 +189,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="bf8bee0e-14dd-4d47-a319-beaf083e890d">
 <persname short="LADY">Lady Attendant</persname>
 <persaliases>
 	<persname short="Lady."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="d05ce656-6033-4a0e-9c94-872cf5c753f0">
 <persname short="OTH. LAD.">Other Ladies</persname>
 <persaliases>
 	<persname short="LADIES.">Ladies</persname>
@@ -204,40 +204,40 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="dc115f35-44c3-4a1b-b13f-49a1b56ebc65">
 <persname short="DUTCHMAN.">Dutchman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="c02b9684-a2c2-4d46-9696-1a9eeaf42412">
 <persname short="SPANIARD.">Spaniard</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="44e275e5-468e-489e-b46e-cd3510bb803f">
 <persname short="SING.">Singer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ab8d1fb7-0bec-4fad-9f17-ffc9192494f0">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9724fe2d-a94d-40eb-a6af-c36632072fc1">
 <persname short="1. SEN.">First Senator</persname>
 <persaliases>
 	<persname short="1.Sen."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="467f990e-9dd6-461c-8d1f-dd6845b6a3c4">
 <persname short="2. SEN.">Second Senator</persname>
 <persaliases>
 	<persname short="2.Sen."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6133a7f9-574b-4080-9a75-ce98971a5183">
 <persname short="TRIB.">Tribune</persname>
 <persaliases>
 	<persname short="Tri."/>
@@ -245,25 +245,25 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0d904530-7423-4b22-9beb-068e0aacdfd5">
 <persname short="1. BRIT. CAP.">First British Captain</persname>
 <persaliases>
 	<persname short="1"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1c41dac6-440b-4196-992a-1b74b995e739">
 <persname short="2. BRIT. CAP.">Second British Captain</persname>
 <persaliases>
 	<persname short="2"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="9e6c8ec0-bd89-4d19-bd8f-96e9eab5518f">
 <persname short="BRIT. SOLD.">British Soldiers</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="56a55566-bde1-484f-ba86-59cfba2e09b2">
 <persname short="BRIT. LORD.">British Lord</persname>
 <persaliases>
 	<persname short="Lo."/>
@@ -273,28 +273,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="af316283-8dc3-44f3-93d3-c2d9874e9228">
 <persname short="1. JAIL.">First Jailer</persname>
 <persaliases>
 	<persname short="Gao."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="974c0953-a07d-4c3a-9a6b-fb2b053713fb">
 <persname short="2. JAIL.">Second Jailer</persname>
 <persaliases>
 	<persname short="2.Gao."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6e43ee6b-5b83-46e8-a911-c056087ec355">
 <persname short="JUP.">Jupiter</persname>
 <persaliases>
 	<persname short="Iupiter."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6e060404-6d9f-418c-a210-5d531e17930e">
 <persname short="SICI.">Apparition of Sicilius Leonatus</persname>
 <persaliases>
 	<persname short="Sic."/>
@@ -304,7 +304,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a6689356-fa9e-4aca-9256-45be41f64a2f">
 <persname short="MOTH.">Apparition of the Matron</persname>
 <persaliases>
 	<persname short="Moth."/>
@@ -314,7 +314,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63356943-8c15-478e-902f-2238615844bd">
 <persname short="APP. 1. BRO.">Apparition of First Brother of Posthumus</persname>
 <persaliases>
 	<persname short="1 Bro."/>
@@ -326,7 +326,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b964b8f2-55f8-4294-aa65-17d0cf84950e">
 <persname short="APP. 2. BRO.">Apparition of Second Brother of Posthumus</persname>
 <persaliases>
 	<persname short="2 Bro."/>
@@ -337,14 +337,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="6cedc66c-da40-4208-881b-4d48402f67fe">
 <persname short="GUARD.">Guard</persname>
 </persona>
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter two Gentlemen.</stagedir>
@@ -506,7 +506,7 @@
 <stagedir sdglobalnumber="78.01" sdnumber="78.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda</scenetitle>
 
 <stagedir sdglobalnumber="78.02" sdnumber="0.01">Enter the Queene, Po&#383;thumus, and Imogen.</stagedir>
@@ -823,7 +823,7 @@
 <stagedir sdglobalnumber="215.01" sdnumber="137.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="215.02" sdnumber="0.01">Enter Clotten, and two Lords.</stagedir>
@@ -950,7 +950,7 @@
 <stagedir sdglobalnumber="250.01" sdnumber="35.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="250.02" sdnumber="0.01">Enter Imogen, and Pi&#383;anio.</stagedir>
@@ -1064,7 +1064,7 @@
 <stagedir sdglobalnumber="298.01" sdnumber="48.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="5">
 <scenetitle id="scene1_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="298.02" sdnumber="0.01">Enter Philario, Iachimo: a Frenchman, a Dutch-man, and a Spaniard.</stagedir>
@@ -1453,7 +1453,7 @@
 <stagedir sdglobalnumber="469.01" sdnumber="171.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="6">
 <scenetitle id="scene1_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="469.02" sdnumber="0.01">Enter Queene, Ladies, and Cornelius.</stagedir>
@@ -1628,7 +1628,7 @@
 <stagedir sdglobalnumber="568.01" sdnumber="99.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="7">
 <scenetitle id="scene1_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="568.02" sdnumber="0.01">Enter Imogen alone.</stagedir>
@@ -2104,9 +2104,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">Actus Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">Actus Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="812.02" sdnumber="0.01">Enter Clotten, and the two Lords.</stagedir>
@@ -2283,7 +2283,7 @@
 <stagedir sdglobalnumber="874.01" sdnumber="62.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="874.02" sdnumber="0.01">Enter Imogen, in her Bed, and a Lady.</stagedir>
@@ -2375,7 +2375,7 @@
 <stagedir sdglobalnumber="928.01" sdnumber="54.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="928.02" sdnumber="0.01">Enter Clotten, and Lords.</stagedir>
@@ -2780,7 +2780,7 @@
 <stagedir sdglobalnumber="1103.01" sdnumber="175.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1103.02" sdnumber="0.01">Enter Po&#383;thumus, and Philario.</stagedir>
@@ -3249,9 +3249,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">Actus Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">Actus Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1331.02" sdnumber="0.01">Enter in State, Cymbeline, Queene, Clotten, and Lords at one doore, and at another, Caius, Lucius; and Attendants.</stagedir>
@@ -3409,7 +3409,7 @@
 <stagedir sdglobalnumber="1421.01" sdnumber="90.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1421.02" sdnumber="0.01">Enter Pi&#383;anio reading of a Letter.</stagedir>
@@ -3536,7 +3536,7 @@
 <stagedir sdglobalnumber="1504.01" sdnumber="83.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1504.02" sdnumber="0.01">Enter Belarius, Guiderius, and Aruiragus.</stagedir>
@@ -3697,7 +3697,7 @@
 <stagedir sdglobalnumber="1618.01" sdnumber="114.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1618.02" sdnumber="0.01">Enter Pi&#383;anio and Imogen.</stagedir>
@@ -4059,7 +4059,7 @@
 <stagedir sdglobalnumber="1834.01" sdnumber="216.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="5">
 <scenetitle id="scene3_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="1834.02" sdnumber="0.01">Enter Cymbeline, Queene, Cloten, Lucius, and Lords.</stagedir>
@@ -4480,7 +4480,7 @@
 <stagedir sdglobalnumber="2019.01" sdnumber="185.01">Exit</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="6">
 <scenetitle id="scene3_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="2019.02" sdnumber="0.01">Enter Imogen alone.</stagedir>
@@ -4519,7 +4519,7 @@
 <stagedir sdglobalnumber="2046.01" sdnumber="27.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="7">
 <scenetitle id="scene3_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="2046.02" sdnumber="0.01">Enter Belarius, Guiderius, and Aruiragus.</stagedir>
@@ -4729,7 +4729,7 @@
 <stagedir sdglobalnumber="2130.01" sdnumber="84.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="3" num="8">
 <scenetitle id="scene3_8">Scena O&#57348;aua.</scenetitle>
 
 <stagedir sdglobalnumber="2130.02" sdnumber="0.01">Enter two Roman Senators, and Tribunes.</stagedir>
@@ -4782,9 +4782,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2149.02" sdnumber="0.01">Enter Clotten alone.</stagedir>
@@ -4820,7 +4820,7 @@
 <stagedir sdglobalnumber="2173.01" sdnumber="24.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2173.02" sdnumber="0.01">Enter Belarius, Guiderius, Aruiragus, and Imogen from the Caue.</stagedir>
@@ -5836,7 +5836,7 @@
 <stagedir sdglobalnumber="2653.01" sdnumber="480.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2653.02" sdnumber="0.01">Enter Cymbeline, Lords, and Pi&#383;anio.</stagedir>
@@ -5934,7 +5934,7 @@
 <stagedir sdglobalnumber="2705.01" sdnumber="52.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2705.02" sdnumber="0.01">Enter Belarius, Guiderius, &amp; Aruiragus.</stagedir>
@@ -6060,9 +6060,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">Actus Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">Actus Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2769.02" sdnumber="0.01">Enter Po&#383;thumus alone.</stagedir>
@@ -6107,7 +6107,7 @@
 <stagedir sdglobalnumber="2802.01" sdnumber="33.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2802.02" sdnumber="0.01">Enter Lucius, Iachimo, and the Romane Army at one doore: and the Britaine Army at another: Leonatus Po&#383;thumus following like a poore Souldier. They march ouer, and g&#339; out. Then enter againe in Skirmi&#383;h Iachimo and Po&#383;thumus: he vanqui&#383;heth and di&#383;armeth Iachimo, and then leaues him.</stagedir>
@@ -6167,7 +6167,7 @@
 <stagedir sdglobalnumber="2822.01" sdnumber="20.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2822.02" sdnumber="0.01">Enter Po&#383;thumus, and a Britaine Lord.</stagedir>
@@ -6349,7 +6349,7 @@
 <stagedir sdglobalnumber="2924.01" sdnumber="102.01">Enter Cymbeline, Belarius, Guiderius, Aruiragus, Pi&#383;anio, and Romane Captiues. The Captaines pre&#383;ent Po&#383;thumus to Cymbeline, who deliuers him ouer to a Gaoler.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2924.02" sdnumber="0.01">Enter Po&#383;thumus, and Gaoler.</stagedir>
@@ -6715,7 +6715,7 @@
 <stagedir sdglobalnumber="3124.01" sdnumber="200.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="5" num="5">
 <scenetitle id="scene5_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="3124.02" sdnumber="0.01">Enter Cymbeline, Bellarius, Guiderius, Aruiragus, Pi&#383;anio, and Lords.</stagedir>
@@ -7850,8 +7850,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

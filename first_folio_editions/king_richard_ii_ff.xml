@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="king-richard-ii">
 <title short="King Richard II">The life and death of King Richard<lb />the Second.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="King Richard II">
 
-<persona gender="male">
+<persona gender="male" death="yes" id="66639adf-e440-47d6-a1ba-df095954e48a">
 <persname short="K. RICH.">King Richard the Second</persname>
 <persaliases>
 	<persname short="King."/>
@@ -23,7 +23,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="2902c996-bfbd-4a2f-b321-6004e5c8b37d">
 <persname short="GAUNT.">John of Gaunt, Duke of Lancaster</persname>
 <persaliases>
 	<persname short="Gaunt."/>
@@ -32,7 +32,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e3534e8f-7318-41cb-8297-abed7f80a241">
 <persname short="YORK.">Edmund of Langley, Duke of York</persname>
 <persaliases>
 	<persname short="Yor."/>
@@ -43,7 +43,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="a7359fe3-322f-46a3-a5b4-36d22e304d2b">
 <persname short="BULL.">Henry Bullingbrook</persname>
 <persaliases>
 	<persname short="Bull."/>
@@ -54,7 +54,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8ea4c87a-d13a-4647-b087-87ea00d6361a">
 <persname short="AUM.">Duke of Aumerle</persname>
 <persaliases>
 	<persname short="Au."/>
@@ -63,7 +63,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="7a997941-8cca-4ff4-8971-00bc58ce843f">
 <persname short="MOW.">Thomas Mowbray</persname>
 <persaliases>
 	<persname short="Mo."/>
@@ -71,14 +71,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="feeb635e-d641-4496-a921-740e164a05ca">
 <persname short="SURREY.">Duke of Surrey</persname>
 <persaliases>
 	<persname short="Surrey."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d9d9ed54-ce0e-4855-8638-22fb5c2a0954">
 <persname short="SAL.">Earl of Salisbury</persname>
 <persaliases>
 	<persname short="Sal."/>
@@ -86,14 +86,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8e79baa7-cf63-43c0-a863-d4bea7077c0a">
 <persname short="BERK.">Lord Berkeley</persname>
 <persaliases>
 	<persname short="Bark."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="92305c80-c1b2-4561-a0a4-5520361a451d">
 <persname short="BUSHY.">Sir John Bushy</persname>
 <persaliases>
 	<persname short="Bu."/>
@@ -103,7 +103,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="18ed73fe-b6da-4b17-a33c-dc5469251736">
 <persname short="BAGOT.">Sir John Bagot</persname>
 <persaliases>
 	<persname short="Ba."/>
@@ -113,7 +113,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bc5a82ac-d9d7-43f0-aa6e-9e3c50ebc9a5">
 <persname short="GREEN.">Sir Henry Green</persname>
 <persaliases>
 	<persname short="Gr."/>
@@ -124,7 +124,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5d20eef7-25b8-4478-9e5c-71bd112d0715">
 <persname short="NORTH.">Earl of Northumberland</persname>
 <persaliases>
 	<persname short="Nor."/>
@@ -132,7 +132,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="61bf3651-a486-48fe-aa08-d13e035d6a08">
 <persname short="PERCY.">Henry Percy</persname>
 <persaliases>
 	<persname short="Per."/>
@@ -140,7 +140,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3b16e288-39ef-4804-9285-34132bdcb88b">
 <persname short="ROSS.">Lord Ross</persname>
 <persaliases>
 	<persname short="Ros."/>
@@ -149,7 +149,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="79705e02-1ad9-4143-b1f2-4e10c2cf7a26">
 <persname short="WILLO.">Lord Willoughby</persname>
 <persaliases>
 	<persname short="Wil."/>
@@ -157,7 +157,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="514a23ae-91ce-49c6-b775-b416e35d92b0">
 <persname short="FITZ.">Lord Fitzwater</persname>
 <persaliases>
 	<persname short="Fitz."/>
@@ -165,7 +165,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3a2f998a-c2e6-4a4b-8a46-f0ac60d35de1">
 <persname short="CAR.">Bishop of Carlisle</persname>
 <persaliases>
 	<persname short="Car."/>
@@ -173,28 +173,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="1c868821-1c39-4426-aacd-202d700494f9">
 <persname short="ABBOT.">Abbot of Westminster</persname>
 <persaliases>
 	<persname short="Abbot."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0de020c5-8b07-4fe3-9ed6-8249add662c2">
 <persname short="MAR.">Lord Marshal</persname>
 <persaliases>
 	<persname short="Mar."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8b44135c-fd43-4f8d-8a81-c2e14a5f221a">
 <persname short="SCROOP.">Sir Stephen Scroop</persname>
 <persaliases>
 	<persname short="Scroope."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aff17a21-6759-428c-86c7-fbda83357cd3">
 <persname short="EXTON.">Sir Pierce of Exton</persname>
 <persaliases>
 	<persname short="Ex."/>
@@ -203,21 +203,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="eece23b9-049a-4707-bf32-f8646e4bc118">
 <persname short="CAP.">Welsh Captain</persname>
 <persaliases>
 	<persname short="Capt."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="b186b732-7d77-4401-8eb3-a74fb7ceff18">
 <persname short="QUEEN.">Queen to King Richard</persname>
 <persaliases>
 	<persname short="Qu."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="d97ee1e9-3268-42c2-b4ae-df25be1d7ed3">
 <persname short="DUCH. YORK.">Duchess of York</persname>
 <persaliases>
 	<persname short="Dut."/>
@@ -226,18 +226,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="DUCH.">Duchess of Gloucester</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="f2ad4449-913f-442a-b1b8-e1e6da255af3">
 <persname short="KEEP.">Keeper</persname>
 <persaliases>
 	<persname short="Keep."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7d3e9082-38f1-4e28-a1d6-42f9abfa197d">
 <persname short="GARD.">Gardener</persname>
 <persaliases>
 	<persname short="G."/>
@@ -246,84 +242,81 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9fef694a-ec31-46fd-bc87-42ab15acab7d">
 <persname short="SERV.">Servingman</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e400e071-0d10-4162-8b96-87f2ebe7791e">
 <persname short="1. LADY">First Attending Lady</persname>
 <persaliases>
 	<persname short="La."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ab45b6c8-6c63-4921-9ef4-e2889d0c69a7">
 <persname short="2. LADY">Second Attending Lady</persname>
 <persaliases>
 	<persname short="La."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ac84f1c4-aa00-4973-a0d1-2680deef37a1">
 <persname short="1. HER.">First Herald</persname>
 <persaliases>
 	<persname short="1.Har."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="569a54f6-8589-416c-9545-7292e1321eb5">
 <persname short="2. HER.">Second Herald</persname>
 <persaliases>
 	<persname short="2.Har."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a52a4610-07bb-43b7-aeb2-b3e97a809901">
 <persname short="1. EXT. SERV.">Exton&#8217;s First Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c02707af-733d-44b6-b1b9-436cd465128b">
 <persname short="2. EXT. SERV.">Exton&#8217;s Second Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4b7bcf19-b1ef-41eb-b97a-16878852ca73">
 <persname short="1. GARD. MAN.">First Gardener&#8217;s Man</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6f629d0-2890-44b3-8c02-9500cd5e3b7f">
 <persname short="2. GARD. MAN.">Second Gardener&#8217;s Man</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3a92d60f-7a62-4e79-96a7-6ea3ffd071b6">
 <persname short="GROOM.">Groom</persname>
 <persaliases>
 	<persname short="Groo."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ANOTHER LORD.">Another Lord</persname>
-</persona>
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus, Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus, Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter King Richard, Iohn of Gaunt, with other Nobles and Attendants</stagedir>
@@ -660,7 +653,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="208.02" sdnumber="0.01">Enter Gaunt, and Dutche&#383;&#383;e of Glouce&#383;ter.</stagedir>
@@ -775,7 +768,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="282.02" sdnumber="0.01">Enter Mar&#383;hall, and Aumerle.</stagedir>
@@ -1303,7 +1296,7 @@
 </speech>
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="521.03" sdnumber="0.01">Enter King, Aumerle, Greene, and Bagot.</stagedir>
@@ -1430,9 +1423,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="619.02" sdnumber="0.01">Enter Gaunt, &#383;icke with Yorke.</stagedir>
@@ -1984,7 +1977,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="922.02" sdnumber="0.01">Enter Queene, Bu&#383;hy, and Bagot.</stagedir>
@@ -2296,7 +2289,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1069.02" sdnumber="0.01">Enter the Duke of Hereford, and Northumberland.</stagedir>
@@ -2646,8 +2639,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1242.02" sdnumber="0.01">Enter Salisbury, and a Captaine.</stagedir>
@@ -2699,9 +2691,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1266.02" sdnumber="0.01">Enter Bullingbrooke, Yorke, Northumberland, Ro&#383;&#383;e, Percie, Willoughby, with Bu&#383;hie and Greene Pri&#383;oners</stagedir>
@@ -2778,7 +2770,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1310.02" sdnumber="0.01">Drums: Flouri&#383;h, and Colours. Enter Richard, Aumerle, Carlile, and Souldiers</stagedir>
@@ -3122,7 +3114,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1526.02" sdnumber="0.01">Enter with Drum and Colours, Bullingbrooke,Yorke, Northumberland, Attendants</stagedir>
@@ -3482,7 +3474,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1741.02" sdnumber="0.01">Enter the Queene, and two Ladies.</stagedir>
@@ -3703,9 +3695,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1852.02" sdnumber="0.01">Enter as to the Parliament, Bullingbrooke, Aumerle, Northumberland, Percie, FitzWater, Surrey, Carlile, Abbot of We&#383;tmin&#383;ter. Herauld, Of&#64257;cers, and Bagot</stagedir>
@@ -4337,9 +4329,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2184.02" sdnumber="0.01">Enter Queene, and Ladies.</stagedir>
@@ -4525,8 +4517,7 @@
 <stagedir sdglobalnumber="2286.01" sdnumber="102.01">Exeunt.</stagedir>
 
 </scene>
-<scene>
-
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2286.02" sdnumber="0.01">Enter Yorke, and his Duche&#383;&#383;e.</stagedir>
@@ -4835,8 +4826,7 @@
 <stagedir sdglobalnumber="2412.01" sdnumber="126.01">Exit</stagedir>
 
 </scene>
-<scene>
-
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2412.02" sdnumber="0.01">Enter Bullingbrooke, Percie, and other Lords.</stagedir>
@@ -5232,7 +5222,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2573.02" sdnumber="0.01">Enter Richard.</stagedir>
@@ -5436,7 +5426,7 @@
 </speech>
 </scene>
 
-<scene>
+<scene actnum="5" num="5">
 <scenetitle id="scene5_5">Sc&#339;na Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="2691.02" sdnumber="0.01">Flouri&#383;h. Enter Bullingbrooke, Yorke, with other Lords &amp; attendants</stagedir>
@@ -5557,8 +5547,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

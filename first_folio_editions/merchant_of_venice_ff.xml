@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="merchant-of-venice">
 <title short="Merchant of Venice">The Merchant of Venice.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="The Merchant of Venice">
 
-<persona gender="male">
+<persona gender="male" id="01cf3558-8fdb-471c-a76c-9baa7fd528a7">
 <persname short="DUKE.">The Duke of Venice</persname>
 <persaliases>
 	<persname short="Duke."/>
@@ -20,7 +20,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="93a8438d-4457-4e05-bee8-9c9449c1d340">
 <persname short="ANT.">Antonio</persname>
 <persaliases>
 	<persname short="Anth."/>
@@ -31,7 +31,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="6a7a3a01-6817-496b-8bd0-c59dda6e8ae4">
 <persname short="BASS.">Bassanio</persname>
 <persaliases>
 	<persname short="Ba&#383;."/>
@@ -39,7 +39,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c9ae0a1-bea0-4bfc-8c4d-7accf2e6c6ad">
 <persname short="SOL.">Solanio</persname>
 <persaliases>
 	<persname short="Sol."/>
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="8c1f4564-bf9d-4dfc-a3bd-e185412c6ba2">
 <persname short="GRA.">Gratiano</persname>
 <persaliases>
 	<persname short="Grati."/>
@@ -57,7 +57,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="22f6eabc-2b2f-4635-bfc9-813cc8c46115">
 <persname short="SAL.">Salerio</persname>
 <persaliases>
 	<persname short="Sal"/>
@@ -68,7 +68,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="393fcb63-7e4a-49fb-b96a-0089d3de5fd9">
 <persname short="LOR.">Lorenzo</persname>
 <persaliases>
 	<persname short="Lor."/>
@@ -77,7 +77,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="954d952a-9518-459d-96f6-15d00d31ce27">
 <persname short="SHY.">Shylock</persname>
 <persaliases>
 	<persname short="Shy."/>
@@ -85,14 +85,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="466ebf23-cc44-453a-9f28-49481e953c70">
 <persname short="TUB.">Tubal</persname>
 <persaliases>
 	<persname short="Tub."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="c33bc8db-dfb5-431c-bf7b-9ebdaf9306f8">
 <persname short="LAUN.">Launcelot Gobbo</persname>
 <persaliases>
 	<persname short="Lau."/>
@@ -104,14 +104,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2b620d36-f7e8-47bb-a2ae-e66e7a23076c">
 <persname short="GOB.">Old Gobbo</persname>
 <persaliases>
 	<persname short="Gob."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5e16cc96-d718-4c90-80e0-4f995fdbe613">
 <persname short="LEON.">Leonardo</persname>
 <persaliases>
 	<persname short="Leon"/>
@@ -119,21 +119,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="62d74307-688d-478f-849c-9ee9e598db2d">
 <persname short="BALTH.">Balthazar</persname>
 <persaliases>
 	<persname short="Balth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="09c99389-13aa-4928-a049-03b2eb3a55dc">
 <persname short="STEPH.">Stephano</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="d91570e2-b256-4a89-8ca4-4c096adcea87">
 <persname short="POR.">Portia</persname>
 <persaliases>
 	<persname short="Portia."/>
@@ -143,7 +143,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c47a1ba7-e01a-4620-8ff3-1650da6d130c">
 <persname short="NER.">Nerissa</persname>
 <persaliases>
 	<persname short="Ner"/>
@@ -154,7 +154,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e52d5713-f44e-40e0-b144-cbc44c5758d9">
 <persname short="JES.">Jessica</persname>
 <persaliases>
 	<persname short="Ie&#383;."/>
@@ -165,25 +165,25 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ac656ee8-1277-4eec-9cba-3e253af74528">
 <persname short="MOR.">The Prince of Morocco</persname>
 <persaliases>
 	<persname short="Mor."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="791b2814-051a-4fcb-b2ea-086d016952a2">
 <persname short="AR.">The Prince of Arragon</persname>
 <persaliases>
 	<persname short="Ar."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="9a3950fb-23a1-4443-a3d2-79f3034aef2b">
 <persname short="JAIL.">Jailer</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b5410f5c-6b5f-4ce3-b11f-07621d7cfea0">
 <persname short="SERV.">Portia&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -191,14 +191,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0d9fae8e-3a99-4c84-babb-8c3c5be4e9d1">
 <persname short="ANT. SERV.">Antonio&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ant. Serv."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="617e77a5-e82b-4346-80b6-45eb3558250c">
 <persname short="SING.">Singer</persname>
 <persaliases>
 	<persname short="Sing."/>
@@ -208,9 +208,9 @@
 </personae>
 
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Anthonio, Salarino, and Salanio.</stagedir>
@@ -1169,9 +1169,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="501.02" sdnumber="0.01">Enter Morochus a tawnie Moore all in white, and three or foure followers accordingly, with Portia, Nerri&#383;&#383;a, and their traine. Flo. Cornets.</stagedir>
@@ -2577,9 +2577,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1173.02" sdnumber="0.01">Enter Solanio and Salarino.</stagedir>
@@ -3840,9 +3840,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1838.02" sdnumber="0.01">Enter the Duke, the Magni&#64257;c&#339;s, Anthonio, Ba&#383;&#383;anio, and Gratiano</stagedir>
@@ -4928,9 +4928,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2330.02" sdnumber="0.01">Enter Lorenzo and Ie&#383;&#383;ica.</stagedir>
@@ -5648,8 +5648,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

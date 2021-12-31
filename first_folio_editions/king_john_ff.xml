@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="king-john">
 <title short="King John">The life and death of King Iohn.</title>
@@ -11,14 +11,14 @@
 
 <personae playtitle="King John">
 
-<persona gender="female">
+<persona gender="female" id="491b3c88-3a69-47c2-ba58-9500291a6020">
 <persname short="L. FAULC.">Lady Faulconbridge</persname>
 <persaliases>
 	<persname short="Lady."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="18d47937-802b-4965-97ce-d25dc6b292b3">
 <persname short="BLANCH.">Blanch of Spain</persname>
 <persaliases>
 	<persname short="Blanch."/>
@@ -27,7 +27,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="68431a54-e2b7-4f2b-afbd-4cf86f554962">
 <persname short="CONST.">Constance</persname>
 <persaliases>
 	<persname short="Con."/>
@@ -37,7 +37,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="fbbbc09c-45cc-476c-9548-aaf6ac0575ed">
 <persname short="EL.">Queen Elinor</persname>
 <persaliases>
 	<persname short="Ele."/>
@@ -52,21 +52,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ca542e95-64a1-4931-bcaa-8fb54535677c">
 <persname short="CHAT.">Chatillion</persname>
 <persaliases>
 	<persname short="Chat."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="01c4a090-b245-4842-a6db-0529630aa217">
 <persname short="MEL.">Melune</persname>
 <persaliases>
 	<persname short="Mel."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d9978a63-edb6-4202-a16e-0e4492ebe5ef">
 <persname short="PAND.">Cardinal Pandulph</persname>
 <persaliases>
 	<persname short="Pan."/>
@@ -74,7 +74,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a51f0042-cc82-4a53-8727-6c71be4d3ca2">
 <persname short="AUST.">Lymoges, Duke of Austria</persname>
 <persaliases>
 	<persname short="Au&#383;."/>
@@ -82,7 +82,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1f5e0047-f0e6-4b9f-a5d0-5cfe30d09810">
 <persname short="LEW.">Lewis, the Dauphin</persname>
 <persaliases>
 	<persname short="Lew."/>
@@ -93,7 +93,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="07126f79-3835-4423-bd56-349c60438a46">
 <persname short="K. PHI.">Philip, King of France</persname>
 <persaliases>
 	<persname short="Phil."/>
@@ -105,21 +105,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6752e56-77bc-4afe-b5fe-cbdec13b7d75">
 <persname short="PETER.">Peter of Pomfret</persname>
 <persaliases>
 	<persname short="Pet."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e193367a-45c3-4298-ad78-0b88333bd2f6">
 <persname short="GUR.">James Gurney</persname>
 <persaliases>
 	<persname short="Gour."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="51f8aa7f-2b57-445d-a702-1ff3133840e1">
 <persname short="BAST.">Philip, the Bastard</persname>
 <persaliases>
 	<persname short="Philip."/>
@@ -129,7 +129,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d45558f7-cfe6-4301-968d-1cf08c2dc7cb">
 <persname short="ROB.">Robert Faulconbridge</persname>
 <persaliases>
 	<persname short="Rob."/>
@@ -137,7 +137,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4e433d48-d4fe-4ab8-bcaf-161a163b3ee0">
 <persname short="HUB.">Hubert de Burgh</persname>
 <persaliases>
 	<persname short="Hubert."/>
@@ -148,7 +148,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5382b021-36a9-4d21-aa83-3fc6ecb286b8">
 <persname short="BIG.">Lord Bigot</persname>
 <persaliases>
 	<persname short="Big."/>
@@ -156,21 +156,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="965a58fb-5522-40f4-811a-ec8014eca586">
 <persname short="SAL.">Earl of Salisbury</persname>
 <persaliases>
 	<persname short="Sal."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e3744369-9ff6-42a8-a314-59f51d2c402a">
 <persname short="ESSEX.">Earl of Essex</persname>
 <persaliases>
 	<persname short="E&#383;&#383;ex."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c245b081-d7cf-4ac4-9fdc-2e56308c9af9">
 <persname short="PEM.">Earl of Pembroke</persname>
 <persaliases>
 	<persname short="P"/>
@@ -180,7 +180,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="1715fe85-0a1c-416d-be40-0ad07edadffe">
 <persname short="ARTH.">Arthur</persname>
 <persaliases>
 	<persname short="Arthur."/>
@@ -190,14 +190,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6300a3a6-201f-461b-90fd-c5ade9e15e64">
 <persname short="P. HEN.">Prince Henry</persname>
 <persaliases>
 	<persname short="Hen."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="2e84c424-6b86-435d-a219-abbd40113b2f">
 <persname short="K. JOHN.">King John</persname>
 <persaliases>
 	<persname short="King Iohn."/>
@@ -212,32 +212,32 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e3e199ff-22d4-4cdb-acc4-ada6d1d1946f">
 <persname short="EXEC.">Executioner</persname>
 <persaliases>
 	<persname short="Exec."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0e6f2441-01f4-44e7-9e30-52ee08c0ac14">
 <persname short="E. HER.">English Herald</persname>
 <persaliases>
 	<persname short="E.Har."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="acce5c93-8315-4631-9887-bb003b7e59cf">
 <persname short="FR. HER.">French Herald</persname>
 <persaliases>
 	<persname short="F.Her."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="7e975150-47af-407c-bfa3-ece3188b504b">
 <persname short="SHER.">Sheriff</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4c713bd4-b906-413b-b7a8-2a4ba894aa19">
 <persname short="MESS.">The Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
@@ -246,9 +246,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus, Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus, Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter King Iohn, <emph rend="noitalic">Q</emph>ueene Elinor, Pembroke, E&#383;&#383;ex, and Salisbury, with the Chattylion of France.</stagedir>
@@ -791,7 +791,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="279.02" sdnumber="0.01">Enter before Angiers, Philip King of France, Lewis, Daulphin, Au&#383;tria, Con&#383;tance, Arthur</stagedir>
@@ -1882,9 +1882,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus</scenetitle>
 
 <stagedir sdglobalnumber="892.02" sdnumber="0.01">Enter Con&#383;tance, Arthur, and Salisbury.</stagedir>
@@ -2003,9 +2003,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius, Sc&#339;na prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius, Sc&#339;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="892.03" sdnumber="0.01">Enter King Iohn, France, Dolphin, Blanch, Elianor, Philip, Au&#383;tria, Con&#383;tance</stagedir>
@@ -2552,7 +2552,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 <stagedir sdglobalnumber="1247.02" sdnumber="0.01">Allarums, Excur&#383;ions: Enter Ba&#383;tard with Au&#383;tria&#8217;s head</stagedir>
 
@@ -2750,7 +2750,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1339.02" sdnumber="0.01">Enter France, Dolphin, Pandulpho, Attendants.</stagedir>
@@ -3086,9 +3086,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us <emph rend="noitalic">Q</emph>uartus, Sc&#339;na prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us <emph rend="noitalic">Q</emph>uartus, Sc&#339;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="1524.02" sdnumber="0.01">Enter Hubert and Executioners.</stagedir>
@@ -3403,7 +3403,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1668.02" sdnumber="0.01">Enter Iohn, Pembroke, Salisbury, and other Lordes.</stagedir>
@@ -3905,7 +3905,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1942.02" sdnumber="0.01">Enter Arthur on the walles.</stagedir>
@@ -4294,9 +4294,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us <emph rend="noitalic">Q</emph>uartus, Sc&#339;na prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us <emph rend="noitalic">Q</emph>uartus, Sc&#339;na prima.</scenetitle>
 
 <stagedir sdglobalnumber="2107.02" sdnumber="0.01">Enter King Iohn and Pandolph, attendants.</stagedir>
@@ -4446,7 +4446,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2188.02" sdnumber="0.01">Enter (in Armes) Dolphin, Salisbury, Meloone, Pembroke, Bigot, Souldiers</stagedir>
@@ -4710,7 +4710,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2371.02" sdnumber="0.01">Alarums. Enter Iohn and Hubert.</stagedir>
@@ -4766,7 +4766,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Scena <emph rend="noitalic">Q</emph>uarta.</scenetitle>
 
 <stagedir sdglobalnumber="2388.02" sdnumber="0.01">Enter Salisbury, Pembroke, and Bigot.</stagedir>
@@ -4887,7 +4887,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="5">
 <scenetitle id="scene5_5">Scena <emph rend="noitalic">Q</emph>uinta.</scenetitle>
 
 <stagedir sdglobalnumber="2450.02" sdnumber="0.01">Enter Dolphin, and his Traine.</stagedir>
@@ -4949,7 +4949,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="6">
 <scenetitle id="scene5_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="2473.02" sdnumber="0.01">Enter Ba&#383;tard and Hubert, &#383;euerally.</stagedir>
@@ -5089,7 +5089,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="7">
 <scenetitle id="scene5_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="2524.02" sdnumber="0.01">Enter Prince Henry, Salisburie, and Bigot.</stagedir>
@@ -5334,8 +5334,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

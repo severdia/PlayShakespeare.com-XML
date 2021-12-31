@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="troilus-and-cressida">
 <title short="Troilus and Cre&#383;sida">THE TRAGEDIE OF<lb />Troylus and Cre&#383;sida.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Troilus and Cressida">
 
-<persona gender="male">
+<persona gender="male" id="76fc4395-f563-43f1-ad1f-919e67e52f0c">
 <persname short="PRI.">Priam, King of Troy</persname>
 <persaliases>
 	<persname short="Pri."/>
@@ -19,7 +19,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="fd227586-15f0-4cfa-b164-7ea527d8c120">
 <persname short="HECT.">Hector</persname>
 <persaliases>
 	<persname short="He&#57348;."/>
@@ -28,7 +28,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="812f972c-9f17-4f6b-8d4a-fe42de629615">
 <persname short="TRO.">Troilus</persname>
 <persaliases>
 	<persname short="Tro."/>
@@ -39,7 +39,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f318fa92-0edd-48d1-8c91-94ceb11a8641">
 <persname short="PAR.">Paris</persname>
 <persaliases>
 	<persname short="Par."/>
@@ -51,7 +51,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="260ee02e-cd5f-4624-a67e-9149fe4e712a">
 <persname short="DEI.">Deiphobus</persname>
 <persaliases>
 	<persname short="Dieph."/>
@@ -59,7 +59,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0215c141-6c70-4d9c-af9a-00bd2418cf3b">
 <persname short="HEL.">Helenus</persname>
 <persaliases>
 	<persname short="Hel."/>
@@ -68,14 +68,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="078eb45f-4f3d-4488-8ad0-b0056efce5ae">
 <persname short="MAR.">Margarelon</persname>
 <persaliases>
 	<persname short="Ba&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="4b104685-678b-47a1-b6d1-e9d748576cc8">
 <persname short="AENE.">Aeneas</persname>
 <persaliases>
 	<persname short="&#198;n."/>
@@ -87,7 +87,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8774676d-dc84-46ab-8626-13acda6df985">
 <persname short="CAL.">Calchas</persname>
 <persaliases>
 	<persname short="Cal."/>
@@ -95,7 +95,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="d10e0afa-0ae9-4eff-8ce2-8dc986b2f9fd">
 <persname short="PAN.">Pandarus</persname>
 <persaliases>
 	<persname short="Pa."/>
@@ -105,7 +105,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="5b3bd281-149e-4241-a187-7227f51431a4">
 <persname short="AGAM.">Agamemnon</persname>
 <persaliases>
 	<persname short="Ag."/>
@@ -114,7 +114,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e01085f1-e8df-4c73-8533-6edd8fa7bb8e">
 <persname short="MEN.">Menelaus</persname>
 <persaliases>
 	<persname short="Men."/>
@@ -122,7 +122,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1fd24b42-ed46-4dca-bdd6-2ae343d0bc34">
 <persname short="NEST.">Nestor</persname>
 <persaliases>
 	<persname short="Ne."/>
@@ -132,7 +132,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="98f740dc-5f12-4670-89ac-bdc56c86ca58">
 <persname short="ULYSS.">Ulysses</persname>
 <persaliases>
 	<persname short="Vl."/>
@@ -144,7 +144,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="d39eb3ec-3a15-4384-a6a7-b33a4e4a0f17">
 <persname short="ACHIL.">Achilles</persname>
 <persaliases>
 	<persname short="Ach."/>
@@ -153,7 +153,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="b9a8ca35-43ae-4965-99a0-bf224d173db6">
 <persname short="AJAX.">Ajax</persname>
 <persaliases>
 	<persname short="Aia."/>
@@ -161,7 +161,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="92c97fd7-5374-4738-aad4-8bce8a6d3782">
 <persname short="DIO.">Diomedes</persname>
 <persaliases>
 	<persname short="Dio."/>
@@ -169,7 +169,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" death="yes" id="896d5263-84d8-4c81-b753-82abf6c7be1e">
 <persname short="PATR.">Patroclus</persname>
 <persaliases>
 	<persname short="Pat."/>
@@ -178,28 +178,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1964ae27-c6e3-4e0b-833d-86069d6a8871">
 <persname short="THER.">Thersites</persname>
 <persaliases>
 	<persname short="Ther."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2b618b94-eb1f-476f-b781-68a5baf2cd20">
 <persname short="HELEN.">Helen</persname>
 <persaliases>
 	<persname short="Hel."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="47e16d42-7477-4856-b269-52b8a51a1567">
 <persname short="AND.">Andromache</persname>
 <persaliases>
 	<persname short="And."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a3726b97-21c9-4d8a-91ea-1ef3f0231f54">
 <persname short="CAS.">Cassandra</persname>
 <persaliases>
 	<persname short="Ca&#383;."/>
@@ -208,7 +208,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="dd637230-349b-4a7b-8123-ec7f5cd7245a">
 <persname short="CRES.">Cressida</persname>
 <persaliases>
 	<persname short="Cre."/>
@@ -217,11 +217,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8ef34054-51cd-4f91-87e1-6c8a178071cd">
 <persname short="PROLOGUE.">Prologue</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b87d6827-bf5b-4d8d-845d-c0a95c763981">
 <persname short="TRO. BOY.">Troilus&#8217;s Boy</persname>
 <persaliases>
 	<persname short="Boy."/>
@@ -229,74 +229,76 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="17254b37-69f2-48e9-88e9-158773feac2a">
 <persname short="PAR. SERV.">Paris&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="9a4d75e8-4420-4a0f-b8d7-2ad6e14fae66">
 <persname short="GREEK TRUM.">Greek Trumpeter</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="16476198-083f-42c6-a03c-38ebc0e5ca21">
 <persname short="ALEX.">Alexander</persname>
 <persaliases>
 	<persname short="Man."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="13f9cc8d-b077-41e6-b282-e0f0f8564e45">
 <persname short="ANT.">Antenor</persname>
 <persaliases>
 	<persname short="ALL AENE., PAR., DEI., ANT.">All Aeneas, Paris, Antenor, and Deiphobus</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="6d1f7801-822f-427e-8d21-68f4aac9393a">
 <persname short="TROJ. TRUM.">Trojan Trumpeter</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="28f1b2bd-b3b2-41aa-9a62-5087858ebf71">
 <persname short="DIO. SERV.">Diomedes&#8217;s Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="25a29afe-8e18-414e-9d10-8f36f61041a9">
 <persname short="GREEK. KNI.">Greek Knight</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f9ef049f-e729-4e9f-8b77-408e6141c344">
 <persname short="MYR.">Myrmidon</persname>
 <persaliases>
 	<persname short="Gree."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b9e519fc-b7a2-47cb-b379-890ab0227f4d">
 <persname short="MYRMIDONS.">Myrmidons</persname>
 <persaliases>
 	<persname short="Sold."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="8b609a26-2acc-4e9a-bf58-9164e8dd81db">
 <persname short="MUSIC.">Musicians</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="1cf991ea-5099-4551-9a9b-2b1c5c721a2b">
 <persname short="TROJ. SOLD.">Trojan Soldiers</persname>
 </persona>
 
 </personae>
 
-<act>
-
-<prologue>
+<act num="1">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">The Prologue.</scenetitle>
+
+<speech>
+<speaker rend="hidden">Prologue</speaker>
 <line globalnumber="1" number="1" type="lyric" order="first"><dropcap type="regular" size="medium">I</dropcap>n Troy there lyes the Scene: From Iles of Greece</line>
 <line globalnumber="2" number="2" type="lyric" order="second">The Princes Orgillous, their high blood chaf&#8217;d</line>
 <line globalnumber="3" number="3" type="lyric" order="third">Haue to the Port of Athens &#383;ent their &#383;hippes</line>
@@ -328,10 +330,12 @@
 <line globalnumber="29" number="29" type="lyric">To what may be dige&#383;ted in a Play:</line>
 <line globalnumber="30" number="30" type="lyric">Like, or finde fault, do as your plea&#383;ures are,</line>
 <line globalnumber="31" number="31" type="lyric">Now good, or bad, &#8216;tis but the chance of Warre.</line>
+</speech>
+
 </prologue>
     
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Pandarus and Troylus.</stagedir>
@@ -8663,8 +8667,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

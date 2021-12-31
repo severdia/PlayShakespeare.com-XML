@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="hamlet">
 <title short="Hamlet">THE TRAGEDIE OF<lb />HAMLET, Prince of Denmarke.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Hamlet">
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="d9a25a55-fce7-4f4a-9f19-fac0828fc0f6">
 <persname short="KING.">Claudius, King of Denmark</persname>
 <persaliases>
 	<persname short="King."/>
@@ -20,7 +20,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e4b9d9d9-0c3b-4542-9c58-c05f7a114862">
 <persname short="GHOST.">Ghost of Hamlet&#8217;s Father</persname>
 <persaliases>
 	<persname short="Gho"/>
@@ -29,7 +29,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="4ae7577f-13ed-4506-8e50-210b6a57f0a4">
 <persname short="OPH.">Ophelia</persname>
 <persaliases>
 	<persname short="Ophe."/>
@@ -38,7 +38,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="a9afb381-d026-4c12-ae93-803936acfd51">
 <persname short="QUEEN.">Getrude, Queen of Denmark</persname>
  <persaliases>
 	<persname short="Queen."/>
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6f52daf-aa13-4946-bbf9-4f18465ab477">
 <persname short="FORT.">Fortinbras</persname>
 <persaliases>
 	<persname short="For"/>
@@ -56,7 +56,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ce708ce7-18c6-4a31-a14e-60d242f7e76a">
 <persname short="FRAN.">Francisco</persname>
 <persaliases>
 	<persname short="Fran."/>
@@ -64,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="146cf2a5-399e-4d1d-9132-8e60a0f1c4bc">
 <persname short="BAR.">Barnardo</persname>
 <persaliases>
 	<persname short="Bar."/>
@@ -78,7 +78,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a721770b-ad7c-4c24-8386-8fe303671a83">
 <persname short="MAR.">Marcellus</persname>
 <persaliases>
 	<persname short="Marcell."/>
@@ -93,7 +93,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2ce701b4-d2f9-4011-ae9a-53c71be0c764">
 <persname short="HOR.">Horatio</persname>
 <persaliases>
 	<persname short="Gen."/>
@@ -107,7 +107,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="b603a63e-91df-4280-b363-9e1764a55656">
 <persname short="POL.">Polonius</persname>
 <persaliases>
 	<persname short="Pol"/>
@@ -117,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="91d29aa8-e85f-4d04-9a40-bb85c88d1e35">
 <persname short="HAM.">Hamlet</persname>
 <persaliases>
 	<persname short="Ham"/>
@@ -127,7 +127,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="84f16ceb-41d7-46d2-8080-7f0c87699a84">
 <persname short="OSR.">Osric</persname>
 <persaliases>
 	<persname short="O&#383;ricke."/>
@@ -136,7 +136,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="bc7a0de3-5554-4b61-a5c1-f6eb5a758641">
 <persname short="GUIL.">Guildenstern</persname>
 <persaliases>
 	<persname short="Guil."/>
@@ -146,7 +146,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="447ff908-8105-4e3c-bc56-3f6ed9a56e3e">
 <persname short="ROS.">Rosencrantz</persname>
 <persaliases>
 	<persname short="Ro&#383;in"/>
@@ -158,7 +158,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ebffebf8-0963-4bc0-b636-334d5b2e0992">
 <persname short="COR.">Cornelius</persname>
 <persaliases>
 	<persname short="Volt."/>
@@ -166,7 +166,7 @@
 </persaliases>F
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="45525792-79fd-4d89-b643-1ce4e266c1f3">
 <persname short="VOL.">Voltemand</persname>
 <persaliases>
 	<persname short="Volt."/>
@@ -174,14 +174,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="4b482331-da3f-4f8c-8f8c-2c53219aab64">
 <persname short="LAER.">Laertes</persname>
 <persaliases>
 	<persname short="La."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ed9fadb-1edf-4301-91d3-fb985ceb2c81">
 <persname short="P. KING.">First Player (Player King)</persname>
 <persaliases>
 	<persname short="1.Player."/>
@@ -192,7 +192,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="df8a2a2c-898d-43ea-be94-b3145a3d1dd7">
 <persname short="P. QUEEN.">Player Queen</persname>
 <persaliases>
 	<persname short="Bapt."/>
@@ -200,18 +200,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ee10f0e0-dcf5-4739-a25c-c4849d8989ed">
 <persname short="P. PRO.">Player Prologue</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cd1a28ab-3039-423c-96b4-229c021d9a87">
 <persname short="P. LUC.">Player Lucianus</persname>
 <persaliases>
 	<persname short="Lucian."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e030d0ef-9d5d-4180-8503-fcd26c701136">
 <persname short="1. CLO.">First Clown (Gravedigger)</persname>
 <persaliases>
 	<persname short="Clown."/>
@@ -219,14 +219,14 @@
  </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c01a99cc-0343-4932-904a-646c47d85f03">
 <persname short="2. CLO.">Second Clown (Gravedigger)</persname>
 <persaliases>
 	<persname short="Other."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="54c6fd30-0293-435b-9d31-7fd53acf6366">
 <persname short="LAER. FOL.">Laertes&#8217;s Followers</persname>
 <persaliases>
 	<persname short="All."/>
@@ -234,7 +234,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1fb2ce59-1442-4f0b-a7b0-2c3051fc18f7">
 <persname short="GENT.">Gentleman</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -242,61 +242,61 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6f35ef3-7be7-41b7-a378-fbf751faddab">
 <persname short="REY.">Reynaldo</persname>
 <persaliases>
 	<persname short="Reynol."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="683c35b8-8d8f-407c-83f2-cffd0a98461d">
 <persname short="LORD.">Lord</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d12dd341-8921-4313-aba5-00cbd284017c">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4fa9ac50-9312-4bda-a0d8-269cdf6a3250">
 <persname short="1. SAIL.">First Sailor</persname>
 <persaliases>
 	<persname short="Say."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="631eda98-ac62-4660-8554-6f68f27fcbbb">
 <persname short="1. AMB.">First Ambassador</persname>
 <persaliases>
 	<persname short="Amb."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="47c6ead8-180e-4db7-b24d-e922384f9981">
 <persname short="CAP.">Norwegian Captain</persname>
 <persaliases>
 	<persname short="Cap."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d09f8bd-5a3e-49c3-93ad-30ce31316e1e">
 <persname short="DOCTOR.">Doctor of Divinity</persname>
 <persaliases>
 	<persname short="Prie&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8722b2f3-d010-4d0b-a14a-5b0cc6ab83eb">
 <persname short="PALL.">Ophelia&#8217;s Pallbearers</persname>
 </persona>
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Barnardo and Franci&#383;co two Centinels.</stagedir>
@@ -716,7 +716,7 @@
 
 
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="166.02" sdnumber="0.01">Enter Claudius King of Denmarke, Gertrude the Queene, Hamlet, Polonius, L&#230;rtes, and his Si&#383;ter Ophelia, Lords Attendants</stagedir>
@@ -1313,7 +1313,7 @@
 <stagedir sdglobalnumber="443.01" sdnumber="277.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="443.02" sdnumber="0.01">Enter L&#230;rtes and Ophelia.</stagedir>
@@ -2230,9 +2230,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="862.02" sdnumber="0.01">Enter Polonius, and Reynoldo.</stagedir>
@@ -2519,7 +2519,7 @@
 <stagedir sdglobalnumber="989.01" sdnumber="127.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="989.02" sdnumber="0.01">Enter King, Queene, Ro&#383;incrane, and Guilden&#383;terne Cum alijs</stagedir>
@@ -8777,8 +8777,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

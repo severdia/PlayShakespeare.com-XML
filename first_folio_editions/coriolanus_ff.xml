@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="coriolanus">
 <title short="Coriolanus">The Tragedy of Coriolanus.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Coriolanus">
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="3f87ac86-0813-47a7-855b-8fb230762b79">
 <persname short="VOL.">Volumnia</persname>
 <persaliases>
 	<persname short="Vol."/>
@@ -20,7 +20,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="1a59a878-9525-4337-9726-75574e1c8b64">
 <persname short="AUF.">Tullus Aufidius</persname>
 <persaliases>
 	<persname short="Auf."/>
@@ -31,14 +31,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a7321cfd-dd2c-4b7f-85b6-ec84fc2bbc62">
 <persname short="LIEU. AUF.">Lieutenant to Aufidius</persname>
 <persaliases>
 	<persname short="Lieu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d00fa161-75a8-4faf-8370-b590bfb1dd49">
 <persname short="NIC.">Nicanor</persname>
 <persaliases>
 	<persname short="Rom."/>
@@ -46,7 +46,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6877799d-5638-44c7-a346-924d9ac782aa">
 <persname short="ROM. HER.">Roman Herald</persname>
 <persaliases>
 	<persname short="Rom."/>
@@ -56,14 +56,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c124dee-23a4-439d-b6e0-314c0061ac72">
 <persname short="BOY.">Young Martius</persname>
 <persaliases>
 	<persname short="Boy."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="45b9c7cd-9611-40a8-93fa-fe35549bde01">
 <persname short="BRU.">Junius Brutus</persname>
 <persaliases>
 	<persname short="Bru."/>
@@ -75,7 +75,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d7843742-fc73-4601-ab20-7cf1399f2b51">
 <persname short="SIC.">Sicinius Velutus</persname>
 <persaliases>
 	<persname short="Sic."/>
@@ -88,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="c2620194-79bc-4f5e-8e62-a9fa08000bc0">
 <persname short="MEN.">Menenius Agrippa</persname>
 <persaliases>
 	<persname short="Men."/>
@@ -100,7 +100,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4b7e9517-88a9-4cc2-912b-80209f3b4fde">
 <persname short="COM.">Cominius</persname>
 <persaliases>
 	<persname short="Com"/>
@@ -109,7 +109,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1123588b-c644-4d78-a45a-fdea6df3fc6b">
 <persname short="LART.">Titus Lartius</persname>
 <persaliases>
 	<persname short="Lartius."/>
@@ -122,14 +122,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a7ff2e74-aec6-4758-8a7c-9285493bc338">
 <persname short="LIEU. LART.">Lieutenant to Lartius</persname>
 <persaliases>
 	<persname short="Lieu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="56c00753-f694-4283-bc41-f1d91c5d654c">
 <persname short="MAR.">Caius Martius</persname>
 <persaliases>
 	<persname short="Mar."/>
@@ -144,7 +144,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="f39393b4-3a53-4cb9-b674-78427863d57a">
 <persname short="VIR.">Virgilia</persname>
 <persaliases>
 	<persname short="Virgil."/>
@@ -155,14 +155,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="94d1d7fd-6627-46a1-bc08-e7c272cd15e7">
 <persname short="GENTLEW.">Gentlewoman</persname>
 <persaliases>
 	<persname short="Gent."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e51b8c15-2830-476a-ac80-50a3b802350b">
 <persname short="VAL.">Valeria</persname>
 <persaliases>
 	<persname short="Val"/>
@@ -173,21 +173,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="92fa070a-f18d-4a20-b730-e407fd4fc38c">
 <persname short="CIT. ANT.">Citizen of Antium</persname>
 <persaliases>
 	<persname short="Cit."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="916f123a-4798-40a6-84da-c556d20926e1">
 <persname short="ADR.">Adrian</persname>
 <persaliases>
 	<persname short="Volce."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="69d7e990-c7e3-4210-8cb7-8bd74736f2af">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Mes."/>
@@ -195,7 +195,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7d5c538f-0949-40f0-8ca1-1f9763bc9e6a">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
@@ -203,14 +203,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ed1659c1-b58f-4b48-bb33-e4d5fba830de">
 <persname short="3. MESS.">Third Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ee8fdbbe-0232-413d-8e3d-3b9f703b5f7c">
 <persname short="1. ROM. SEN.">First Roman Senator</persname>
 <persaliases>
 	<persname short="Sen."/>
@@ -224,7 +224,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d744d7e-da0e-492b-b3ee-62e36be59b1d">
 <persname short="2. ROM. SEN.">Second Roman Senator</persname>
 <persaliases>
 	<persname short="2.Sena."/>
@@ -235,7 +235,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="32e01b80-fe4d-45b0-9884-33da85d671f7">
 <persname short="1. VOL. SEN.">First Volscian Senator</persname>
 <persaliases>
 	<persname short="1.Senat."/>
@@ -244,7 +244,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="61dbba7a-6cf9-4549-b865-27084e2ea6dc">
 <persname short="2. VOL. SEN.">Second Volscian Senator</persname>
 <persaliases>
 	<persname short="2.Sen."/>
@@ -252,7 +252,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="68236ba5-d83f-4533-8f3d-173b1eaaec7e">
 <persname short="1. ROM. SOLD.">First Roman Soldier</persname>
 <persaliases>
 	<persname short="1.Sol."/>
@@ -261,7 +261,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f418f665-77d8-40fa-ba4f-d25ec12dbb90">
 <persname short="2. ROM. SOLD.">Second Roman Soldier</persname>
 <persaliases>
 	<persname short="2.Sol."/>
@@ -270,36 +270,36 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="35b50116-e3f0-4a2a-9d5e-70f4e05ef6f0">
 <persname short="1. ROM.">First Roman</persname>
 <persaliases>
 	<persname short="1.Rom."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4d383d9a-9aec-4d85-885c-003243b24d38">
 <persname short="2. ROM.">Second Roman</persname>
 <persaliases>
 	<persname short="2.Rom."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e1c7c0cd-7c48-4675-a223-003e25a79097">
 <persname short="3. ROM.">Third Roman</persname>
 <persaliases>
 	<persname short="3.Rom"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="fd4f18da-d5c3-4b64-955e-52a187638983">
 <persname short="USH.">Usher</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="3ecade68-3bfc-4d5f-8277-45e1d186eefc">
 <persname short="SCOUT.">Scout</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c78e3982-e85d-4a18-857f-55cc0fe40e80">
 <persname short="VOL. SOLD.">Volscian Soldier</persname>
 <persaliases>
 	<persname short="Soul."/>
@@ -307,7 +307,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c7f273d3-4fde-4dc1-9336-03e1c564fdfb">
 <persname short="1. OFF.">First Officer</persname>
 <persaliases>
 	<persname short="1.Off."/>
@@ -315,14 +315,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6c0cc140-540e-4139-b793-b8b0b9031431">
 <persname short="2. OFF.">Second Officer</persname>
 <persaliases>
 	<persname short="2.Off."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6a61ee12-e99b-4213-8a9f-2cce9121b015">
 <persname short="1. ROM. CIT.">First Roman Citizen</persname>
 <persaliases>
 	<persname short="1"/>
@@ -335,7 +335,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0f5da06a-0534-4cfc-98b6-2d325fe6e78e">
 <persname short="2. ROM. CIT.">Second Roman Citizen</persname>
 <persaliases>
 	<persname short="2"/>
@@ -345,7 +345,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0889f125-a7fa-41ee-8722-72e574166cfa">
 <persname short="3. ROM. CIT.">Third Roman Citizen</persname>
 <persaliases>
 	<persname short="3"/>
@@ -355,7 +355,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a9f9e077-dabe-4c5f-b2da-804c8e207bec">
 <persname short="4. ROM. CIT.">Fourth Roman Citizen</persname>
 <persaliases>
 	<persname short="1."/>
@@ -364,7 +364,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d6186ef6-77a3-410e-93ca-0cf8f7b79698">
 <persname short="5. ROM. CIT.">Fifth Roman Citizen</persname>
 <persaliases>
 	<persname short="2."/>
@@ -373,7 +373,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f5011354-010d-437b-b31e-8db82321c296">
 <persname short="6. ROM. CIT.">Sixth Roman Citizen</persname>
 <persaliases>
 	<persname short="1.Cit."/>
@@ -381,7 +381,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d47afa58-ff73-477b-8350-705c5cdc7b87">
 <persname short="7. ROM. CIT.">Seventh Roman Citizen</persname>
 <persaliases>
 	<persname short="2.Cit."/>
@@ -389,7 +389,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d996d735-b807-40be-af89-0e22a6df7246">
 <persname short="1. AED.">First Aedile</persname>
 <persaliases>
 	<persname short="&#198;dile."/>
@@ -399,14 +399,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="abb76c13-a535-4afa-a27a-90d3e21d02b3">
 <persname short="2. AED.">Second Aedile</persname>
 <persaliases>
 	<persname short="&#198;diles.">Both Aediles</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="1bf2284a-201d-4992-917b-630b058a46a1">
 <persname short="1. SERV.">First Servingman</persname>
 <persaliases>
 	<persname short="1"/>
@@ -415,7 +415,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="62225f5b-23b3-4760-9c20-dc9fda9d9f6b">
 <persname short="2. SERV.">Second Servingman</persname>
 <persaliases>
 	<persname short="2"/>
@@ -424,14 +424,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="e1845f9a-5438-461e-9cd6-bf6ab276b188">
 <persname short="3. SERV.">Third Servingman</persname>
 <persaliases>
 	<persname short="3"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cf16a9f2-eed5-4635-8105-3b22d23cf97d">
 <persname short="1. WATCH.">First Watchman</persname>
 <persaliases>
 	<persname short="1.Wat."/>
@@ -440,7 +440,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8d7c491f-68c1-4daa-a42e-819a8e2ea71c">
 <persname short="2. WATCH.">Second Watchman</persname>
 <persaliases>
 	<persname short="2"/>
@@ -448,7 +448,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d1e65b22-6735-4cc3-923b-e18c5560d9c8">
 <persname short="1. CONSP.">First Conspirator</persname>
 <persaliases>
 	<persname short="1.Con."/>
@@ -456,7 +456,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c80eb95b-c014-488c-9836-dc2ab267cad3">
 <persname short="2. CONSP.">Second Conspirator</persname>
 <persaliases>
 	<persname short="2.Con."/>
@@ -464,7 +464,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a0ca4af6-9f29-43c4-98b8-7315cc306d42">
 <persname short="3. CONSP.">Third Conspirator</persname>
 <persaliases>
 	<persname short="3.Con&#383;p."/>
@@ -473,7 +473,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="727f8f0f-d4f1-4a11-a41f-391ab01a4c31">
 <persname short="1. VOL. LORD.">First Volscian Lord</persname>
 <persaliases>
 	<persname short="1 Lord."/>
@@ -484,7 +484,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="49fc8bc4-e87c-46b7-ba34-3bb53e20d477">
 <persname short="2. VOL. LORD.">Second Volscian Lord</persname>
 <persaliases>
 	<persname short="2 Lord."/>
@@ -495,7 +495,7 @@
 </persaliases>
 </persona>
 	
-<persona gender="male">
+<persona gender="male" id="67287fe1-3313-4d3c-8548-9f7d8e709140">
 <persname short="3. VOL. LORD.">Third Volscian Lord</persname>
 <persaliases>
 	<persname short="3.Lord."/>
@@ -505,25 +505,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="ALL VOL.">Volscians</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" mute="yes" id="9ec3d981-05a0-47fa-84b1-d2ade3b63229">
 <persname short="VOL. SOLDS">Volscian Soldiers</persname>
 <persaliases>
 	<persname short="Sould."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ff67665-4f22-450f-9e67-da4d2059ac65">
 <persname short="ALL ROM. SOLD.">Roman Soldiers</persname>
 <persaliases>
 	<persname short="ALL">All.</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1c92ab2d-ee62-4659-97c2-aa146ad20f55">
 <persname short="PATRICIAN.">Patrician</persname>
 <persaliases>
 	<persname short="Noble."/>
@@ -531,11 +527,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9f343980-84b3-4ada-a150-09ff9132d542">
 <persname short="PATRICIANS">Patricians</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6bc977bc-bb36-4200-a20a-d7654dc65768">
 <persname short="ALL PLEBEIANS.">Plebeians</persname>
 <persaliases>
 	<persname short="Both Tri."/>
@@ -544,9 +540,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter a Company of Mutinous Citizens, with Staues, Clubs, and other weapons</stagedir>
@@ -2446,9 +2442,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="800.03" sdnumber="0.01">Enter Menenius with the two Tribunes of the people, Sicinius &amp; Brutus.</stagedir>
@@ -4135,9 +4131,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1577.02" sdnumber="0.01">Cornets. Enter Coriolanus, Menenius, all the Gentry, Cominius, Titus Latius, and other Senators.</stagedir>
@@ -5966,9 +5962,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="2321.02" sdnumber="0.01">Enter Coriolanus, Volumnia, Virgilia, Menenius, Cominius, with the yong Nobility of Rome.</stagedir>
@@ -7668,9 +7664,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="3009.02" sdnumber="0.01">Enter Menenius, Cominius, Sicinius, Brutus, the two Tribunes, with others.</stagedir>
@@ -9042,8 +9038,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

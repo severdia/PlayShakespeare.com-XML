@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="king-lear">
 <title short="King Lear">THE TRAGEDIE OF<lb />KING LEAR.</title>
@@ -9,7 +9,7 @@
 
 <personae playtitle="King Lear">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="2122dc44-a7c1-44d0-8321-b139cad5f882">
 <persname short="LEAR.">Lear, King of Britain</persname>
 <persaliases>
 	<persname short="Le."/>
@@ -18,7 +18,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="76bdc4e8-ddc4-47cc-8f98-31a03ea7ae99">
 <persname short="FRANCE.">King of France</persname>
 <persaliases>
 	<persname short="Fra"/>
@@ -26,14 +26,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="74c69047-7d98-4496-bd05-fd4b3b8423f1">
 <persname short="BUR.">Duke of Burgundy</persname>
 <persaliases>
 	<persname short="Bur."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="27b36bb9-0c33-49d8-8162-5ba7057362b7">
 <persname short="CORN.">Duke of Cornwall</persname>
 <persaliases>
 	<persname short="Corn."/>
@@ -43,7 +43,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="a1ed8532-8e56-4664-9cde-9223eca7ab28">
 <persname short="ALB.">Duke of Albany</persname>
 <persaliases>
 	<persname short="Alb"/>
@@ -53,14 +53,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e96eed55-23ce-4f35-a91f-88a8d33ad3c0">
 <persname short="KENT.">Earl of Kent</persname>
 <persaliases>
 	<persname short="Kent."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="6b5ce5ab-c581-46e3-8f45-07bbfc866c1a">
 <persname short="GLOU.">Earl of Gloucester</persname>
 <persaliases>
 	<persname short="Glo&#383;t."/>
@@ -69,7 +69,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="c81e36d8-5928-4a8c-aef0-7b967038d6e1">
 <persname short="EDG.">Edgar</persname>
 <persaliases>
 	<persname short="Edg."/>
@@ -77,7 +77,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="907799e0-5e93-4f4c-a4d7-e338f47a13ea">
 <persname short="EDM.">Edmund</persname>
 <persaliases>
 	<persname short="Edm."/>
@@ -85,14 +85,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0eec0723-2473-41ed-97ea-7f10457f30a1">
 <persname short="CUR.">Curan</persname>
 <persaliases>
 	<persname short="Cur."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="efc05d5c-9d25-4b1c-aeb0-840772cef705">
 <persname short="OSW.">Oswald</persname>
 <persaliases>
 	<persname short="Ste."/>
@@ -100,7 +100,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="834fe976-3716-4d43-83da-24b52318b365">
 <persname short="FOOL.">Fool</persname>
 <persaliases>
 	<persname short="Fool."/>
@@ -108,7 +108,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="72309f43-d516-462c-86f0-7093d4431c6e">
 <persname short="GON.">Goneril</persname>
 <persaliases>
 	<persname short="Gon"/>
@@ -117,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="be3e5ff7-46ee-402c-8823-fdcb0b917606">
 <persname short="REG.">Regan</persname>
 <persaliases>
 	<persname short="Rega."/>
@@ -127,7 +127,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes" id="40a1a88a-2309-4bbe-99db-9b8d0dfac38f">
 <persname short="COR.">Cordelia</persname>
 <persaliases>
 	<persname short="Cor."/>
@@ -135,7 +135,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4293d8ca-fca6-479f-83b1-6a0f55dfc7e4">
 <persname short="OLD MAN.">Old Man</persname>
 <persaliases>
 	<persname short="Old."/>
@@ -143,18 +143,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7446fb27-c9c1-47a1-93dd-d99bb9e72ff0">
 <persname short="DOCT.">Doctor</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="819b9b9c-484b-446f-ad58-13620f1c7a80">
 <persname short="HER.">Herald</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a91fd4a7-9d12-4fcf-872f-8778bd1ae17d">
 <persname short="KNIGHT.">Knight</persname>
 <persaliases>
 	<persname short="Knigh."/>
@@ -162,18 +162,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="92ef1729-e7d7-47ff-b6c1-29dadbfaa315">
 <persname short="1. CAPT.">First Captain</persname>
 <persaliases>
 	<persname short="Capt."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="029bce91-14c9-4acc-8e22-a23846bc423b">
 <persname short="2. CAPT.">Second Captain</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="cb548983-80bd-4df2-aedd-44b2f8110989">
 <persname short="1. SERV.">First Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -181,15 +181,15 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0aca4e1e-0c14-4990-a867-025bdde14164">
 <persname short="2. SERV.">Second Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d0d82602-f862-49a5-b0c0-928f105f5763">
 <persname short="3. SERV.">Third Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="68cee6fa-c31e-418f-97d8-d5d1cb265c7d">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="Gen."/>
@@ -197,33 +197,29 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e04ba19c-c00c-4b9e-9abb-933a3c7e21f3">
 <persname short="2. GENT.">Second Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c2389d7-b7ba-44d1-8685-b1dffee1dcb4">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63cd6d81-7091-45f8-89f2-d12f9e627178">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>	
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="FR. MESS.">French Messenger</persname>
-</persona>
-
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Kent, Glouce&#383;ter, and Edmond.</stagedir>
@@ -901,7 +897,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="325.02" sdnumber="0.01">Enter Ba&#383;tard.</stagedir>
@@ -1264,7 +1260,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="493.02" sdnumber="0.01">Enter Gonerill, and Steward.</stagedir>
@@ -1323,7 +1319,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="515.02" sdnumber="0.01">Enter Kent.</stagedir>
@@ -2101,7 +2097,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="5">
 <scenetitle id="scene1_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="849.02" sdnumber="0.01">Enter Lear, Kent, Gentleman, and Foole.</stagedir>
@@ -2279,9 +2275,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="899.02" sdnumber="0.01">Enter Ba&#383;tard, and Curan, &#383;euerally.</stagedir>
@@ -2610,7 +2606,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1041.02" sdnumber="0.01">Enter Kent, and Steward &#383;euerally.</stagedir>
@@ -3828,9 +3824,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1570.02" sdnumber="0.01">Storme &#383;till. Enter Kent, and a Gentleman, &#383;euerally.</stagedir>
@@ -3921,7 +3917,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1608.02" sdnumber="0.01">Storme &#383;till. Enter Lear, and Foole.</stagedir>
@@ -4083,7 +4079,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1701.02" sdnumber="0.01">Enter Glo&#383;ter, and Edmund.</stagedir>
@@ -4133,7 +4129,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1724.02" sdnumber="0.01">Enter Lear, Kent, and Foole.</stagedir>
@@ -4575,7 +4571,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="5">
 <scenetitle id="scene3_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="1913.02" sdnumber="0.01">Enter Cornwall, and Edmund.</stagedir>
@@ -4645,7 +4641,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="6">
 <scenetitle id="scene3_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="1938.02" sdnumber="0.01">Enter Kent, and Glouce&#383;ter.</stagedir>
@@ -4793,7 +4789,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="7">
 <scenetitle id="scene3_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="1995.02" sdnumber="0.01">Enter Cornwall, Regan, Gonerill, Ba&#383;tard, and Seruants.</stagedir>
@@ -5120,9 +5116,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2109.02" sdnumber="0.01">Enter Edgar.</stagedir>
@@ -5340,7 +5336,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2195.02" sdnumber="0.01">Enter Gonerill, Ba&#383;tard, and Steward.</stagedir>
@@ -5529,7 +5525,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2273.02" sdnumber="0.01">Enter with Drum and Colours, Cordelia, Gentlemen, and Souldiours.</stagedir>
@@ -5590,7 +5586,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2303.02" sdnumber="0.01">Enter Regan, and Steward.</stagedir>
@@ -5720,7 +5716,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="5">
 <scenetitle id="scene4_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="2348.02" sdnumber="0.01">Enter Glouce&#383;ter, and Edgar.</stagedir>
@@ -6411,7 +6407,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="6">
 <scenetitle id="scene4_6">Sc&#339;na Septima.</scenetitle>
 
 <stagedir sdglobalnumber="2655.02" sdnumber="0.01">Enter Cordelia, Kent, and Gentleman.</stagedir>
@@ -6649,9 +6645,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2753.02" sdnumber="0.01">Enter with Drumme and Colours, Edmund, Regan, Gentlemen, and Souldiers.</stagedir>
@@ -6842,7 +6838,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2819.02" sdnumber="0.01">Alarum within. Enter with Drumme and Colours, Lear, Cordelia, and Souldiers, ouer the Stage, and Exeunt.</stagedir>
@@ -6897,7 +6893,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2833.02" sdnumber="0.01">Enter in conque&#383;t with Drum and Colours, Edmund, Lear, and Cordelia, as pri&#383;oners, Souldiers, Captaine.</stagedir>
@@ -7764,8 +7760,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

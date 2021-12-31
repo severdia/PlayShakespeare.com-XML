@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="loves-labours-lost">
 <title short="Loves Labour&#8217;s lo&#383;t">Loues Labour&#8217;s lo&#383;t.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Love&#8217;s Labour&#8217;s Lost">
 
-<persona gender="male">
+<persona gender="male" id="3a7825a2-4101-4b19-bbf4-1f4a6c6ed151">
 <persname short="KING.">Ferdinand, King of Navarre</persname>
 <persaliases>
 	<persname short="Ferd."/>
@@ -24,7 +24,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="76039696-674e-4dee-9035-71c507fa9000">
 <persname short="BER.">Berowne</persname>
 <persaliases>
 	<persname short="Be."/>
@@ -36,7 +36,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="51affbb4-905c-426f-8c9b-0d41e4979180">
 <persname short="LONG.">Longaville</persname>
 <persaliases>
 	<persname short="Lon."/>
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d30cdecd-1f00-4ffa-85dd-b0465f7dcac2">
 <persname short="DUM.">Dumaine</persname>
 <persaliases>
 	<persname short="Du."/>
@@ -57,7 +57,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="31a4c0db-b820-4039-92f2-1eb9e7540c85">
 <persname short="BOYET.">Boyet</persname>
 <persaliases>
 	<persname short="Bo."/>
@@ -70,7 +70,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="62e52808-428c-4bd0-a039-f0ebeaccaa32">
 <persname short="ARM.">Don Adriano de Armado</persname>
 <persaliases>
 	<persname short="Brag."/>
@@ -82,7 +82,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="33e367e2-40a5-42f1-8211-5df4421ddbb5">
 <persname short="NATH.">Sir Nathaniel</persname>
 <persaliases>
 	<persname short="Cur."/>
@@ -94,7 +94,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="4387f850-531d-4316-855a-49aaab11a8ac">
 <persname short="HOL.">Holofernes</persname>
 <persaliases>
 	<persname short="Hol."/>
@@ -105,7 +105,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="ad4d4d16-1701-4c8d-a0ba-c0518eac0176">
 <persname short="DULL.">Dull</persname>
 <persaliases>
 	<persname short="Dull."/>
@@ -117,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="66188773-3cca-400d-954c-960b38385f37">
 <persname short="COST.">Costard</persname>
 <persaliases>
 	<persname short="Co&#383;t."/>
@@ -129,7 +129,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="1836eae7-6452-4e8d-b6dc-525f7a383122">
 <persname short="MOTH.">Moth</persname>
 <persaliases>
 	<persname short="Boy."/>
@@ -138,7 +138,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="20589b97-47c5-4213-84c2-07d4af60e7f9">
 <persname short="FOR.">Forester</persname>
 <persaliases>
 	<persname short="For."/>
@@ -146,7 +146,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="4944f457-4686-46b1-a6b7-5aec4cba8505">
 <persname short="PRIN.">The Princess of France</persname>
 <persaliases>
 	<persname short="Q."/>
@@ -161,7 +161,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="0ba64d49-fb6d-4643-9ce0-6123aa3e847e">
 <persname short="ROS.">Rosaline</persname>
 <persaliases>
 	<persname short="Ro&#383;."/>
@@ -172,7 +172,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="9263c71e-0494-4948-8e1f-b897061d406f">
 <persname short="MAR.">Maria</persname>
 <persaliases>
 	<persname short="Ma."/>
@@ -188,7 +188,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="a56d5b63-7b17-461a-96eb-aac985db89d9">
 <persname short="KATH.">Katherine</persname>
 <persaliases>
 	<persname short="Ka."/>
@@ -201,7 +201,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c2fce4b6-6ab0-451e-b3e0-cfb1db15468e">
 <persname short="JAQ.">Jaquenetta</persname>
 <persaliases>
 	<persname short="Iaq."/>
@@ -212,18 +212,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="60ecae08-3470-4465-9886-d430536d1386">
 <persname short="MARC.">Marcade</persname>
 <persaliases>
 	<persname short="Marc."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="a564b8e6-965b-499e-bf8f-ae5a00214386">
 <persname short="BLACK.">Blackamoors</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d9db82b6-7149-4039-a374-d46b109bd7ab">
 <persname short="1. FR. LORD.">First French Lord</persname>
 <persaliases>
 	<persname short="Lor."/>
@@ -231,15 +231,15 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="59777754-8d50-415d-8b53-18b32d33af21">
 <persname short="2. FR. LORD.">Second French Lord</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7df7b935-d983-4466-b206-ca4cc20ea52d">
 <persname short="SPRING.">Ver, the Spring</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cd03c2e5-3b04-4a43-bd94-49a6e1f00e7c">
 <persname short="WINTER.">Hiems, the Winter</persname>
 <persaliases>
 	<persname short="Winter."/>
@@ -248,9 +248,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Ferdinand King of Nauarre, Berowne, Longauill, and Dumane.</stagedir>
@@ -799,7 +799,7 @@
 
 <speech>
 <speaker>Ferd.</speaker>
-<line globalnumber="257" number="257"><emph rend="italic">With a childe of our Grandmother</emph> Eue<emph rend="italic">, a female;</emph></line>
+<line globalnumber="257" number="257"><emph rend="italic">With a childe of our Grandmother</emph> Eue, <emph rend="italic">a female;</emph></line>
 <line globalnumber="258" number="258"><emph rend="italic">or for thy more &#383;weet under&#383;tanding a woman: him, I (as my</emph></line>
 <line globalnumber="259" number="259"><emph rend="italic">euer e&#383;teemed dutie prickes me on) haue &#383;ent to thee, to receiue</emph></line>
 <line globalnumber="260" number="260"><emph rend="italic">the meed of puni&#383;hment by the &#383;weet Graces </emph>Officer Anthony</line>
@@ -1486,9 +1486,9 @@
 
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secunda.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="479.02" sdnumber="0.01">Enter the Prince&#383;&#383;e of France, with three attending Ladies, 
@@ -2237,9 +2237,9 @@ and three Lords.</stagedir>
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="752.02" sdnumber="0.01">Enter Braggart and Boy.</stagedir>
@@ -2751,9 +2751,9 @@ and three Lords.</stagedir>
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="916.02" sdnumber="0.01">Enter the Prince&#383;&#383;e, a Forre&#383;ter, her Ladies, and her Lords.</stagedir>
@@ -4385,9 +4385,9 @@ and three Lords.</stagedir>
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1701.02" sdnumber="0.01">Enter the Pedant, Curate and Dull.</stagedir>
@@ -6767,7 +6767,7 @@ and three Lords.</stagedir>
 <speech>
 <speaker>Brag.</speaker>
 <line globalnumber="2545" number="844"><emph rend="italic">The Armipotent Mars, of Launces the almighty,</emph></line>
-<line globalnumber="2546" number="845"><emph rend="italic">gaue</emph> He&#57348;or<emph rend="italic"> a gift</emph>.</line>
+<line globalnumber="2546" number="845"><emph rend="italic">gaue</emph> He&#57348;or <emph rend="italic">a gift</emph>.</line>
 </speech>
 
 <speech>
@@ -7462,8 +7462,8 @@ is quicke by him, and hang&#8217;d for <name type="person">Pompey</name>, that i
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

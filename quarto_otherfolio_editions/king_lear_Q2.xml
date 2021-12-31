@@ -11,7 +11,7 @@
 
 <personae playtitle="King Lear">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="2122dc44-a7c1-44d0-8321-b139cad5f882">
 <persname short="LEAR.">Lear, King of Britain</persname>
 <persaliases>
 	<persname short="Le."/>
@@ -22,7 +22,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="76bdc4e8-ddc4-47cc-8f98-31a03ea7ae99">
 <persname short="FRANCE.">King of France</persname>
 <persaliases>
 	<persname short="Fra."/>
@@ -30,14 +30,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="74c69047-7d98-4496-bd05-fd4b3b8423f1">
 <persname short="BUR.">Duke of Burgundie</persname>
 <persaliases>
 	<persname short="Burg."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="27b36bb9-0c33-49d8-8162-5ba7057362b7">
 <persname short="CORN.">Duke of Cornwall</persname>
 <persaliases>
 	<persname short="Corn."/>
@@ -46,7 +46,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="a1ed8532-8e56-4664-9cde-9223eca7ab28">
 <persname short="ALB.">Duke of Albany</persname>
 <persaliases>
 	<persname short="Alb:"/>
@@ -56,7 +56,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e96eed55-23ce-4f35-a91f-88a8d33ad3c0">
 <persname short="KENT.">Earl of Kent</persname>
 <persaliases>
 	<persname short="Kent," />
@@ -66,7 +66,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="6b5ce5ab-c581-46e3-8f45-07bbfc866c1a">
 <persname short="GLOU.">Earl of Glo&#383;ter</persname>
 <persaliases>
 	<persname short="Glo."/>
@@ -76,7 +76,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="c81e36d8-5928-4a8c-aef0-7b967038d6e1">
 <persname short="EDG.">Edgar</persname>
 <persaliases>
 	<persname short="Ed."/>
@@ -88,9 +88,10 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="BA&#383;T.">Ba&#383;tard Solus</persname>
+<persona gender="male" archetype="villain" id="907799e0-5e93-4f4c-a4d7-e338f47a13ea">
+<persname short="Edm.">Edmund</persname>
 <persaliases>
+	<persname short="&#64261;."/>
 	<persname short="Ba&#383;t."/>
 	<persname short="Ba&#64261;."/>
 	<persname short="Ba&#64261;ard."/>
@@ -98,21 +99,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="Edm.">Edmund</persname>
-<persaliases>
-	<persname short="&#64261;."/>
-</persaliases>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="0eec0723-2473-41ed-97ea-7f10457f30a1">
 <persname short="CUR.">Curan</persname>
 <persaliases>
 	<persname short="Curan."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="efc05d5c-9d25-4b1c-aeb0-840772cef705">
 <persname short="OSW.">Oswald</persname>
 <persaliases>
 	<persname short="Stew,"/>
@@ -123,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="834fe976-3716-4d43-83da-24b52318b365">
 <persname short="FOOLE.">Foole</persname>
 <persaliases>
 	<persname short="Foole"/>
@@ -131,7 +125,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="72309f43-d516-462c-86f0-7093d4431c6e">
 <persname short="GON.">Goneril</persname>
 <persaliases>
 	<persname short="Gon."/>
@@ -140,7 +134,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="be3e5ff7-46ee-402c-8823-fdcb0b917606">
 <persname short="REG.">Regan</persname>
 <persaliases>
 	<persname short="Reg."/>
@@ -148,7 +142,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" death="yes" id="40a1a88a-2309-4bbe-99db-9b8d0dfac38f">
 <persname short="COR.">Cordelia</persname>
 <persaliases>
 	<persname short="Cord."/>
@@ -156,46 +150,46 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4293d8ca-fca6-479f-83b1-6a0f55dfc7e4">
 <persname short="OLD MAN.">Old Man</persname>
 <persaliases>
 	<persname short="Old man."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7446fb27-c9c1-47a1-93dd-d99bb9e72ff0">
 <persname short="DOCT.">Doctor</persname>
 <persaliases>
 	<persname short="Do&#392;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="819b9b9c-484b-446f-ad58-13620f1c7a80">
 <persname short="HER.">Herald</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a91fd4a7-9d12-4fcf-872f-8778bd1ae17d">
 <persname short="KNIGHT.">Knight</persname>
 <persaliases>
 	<persname short="Knight."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="92ef1729-e7d7-47ff-b6c1-29dadbfaa315">
 <persname short="1. CAPT.">First Captain</persname>
 <persaliases>
 	<persname short="Cap."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="029bce91-14c9-4acc-8e22-a23846bc423b">
 <persname short="2. CAPT.">Second Captain</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="cb548983-80bd-4df2-aedd-44b2f8110989">
 <persname short="1. SERV.">First Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -204,7 +198,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0aca4e1e-0c14-4990-a867-025bdde14164">
 <persname short="2. SERV.">Second Servant</persname>
 <persaliases>
 	<persname short="2 Ser."/>
@@ -212,11 +206,11 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d0d82602-f862-49a5-b0c0-928f105f5763">
 <persname short="3. SERV.">Third Servant</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="68cee6fa-c31e-418f-97d8-d5d1cb265c7d">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="Gen."/>
@@ -224,18 +218,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e04ba19c-c00c-4b9e-9abb-933a3c7e21f3">
 <persname short="2. GENT.">Second Gentleman</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0c2389d7-b7ba-44d1-8685-b1dffee1dcb4">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Me&#64256;en."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63cd6d81-7091-45f8-89f2-d12f9e627178">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Cap:"/>	
@@ -1539,7 +1533,7 @@
 <line globalnumber="415" number="415">I maruell what kin thou and thy daughters are, they&#8217;l haue me whipt for &#383;peaking true, thou wilt haue mee whipt for lying, and &#383;ometime I am whipt for holding my peace, I had rather be any kinde of thing then a foole, and yet I would not bee thee Nunckle, thou ha&#64261; pared thy wit a both &#64257;des, and left nothing in the middle; heere comes one of the parings.</line>
 </speech>
 
-<stagedir sdglobalnumber="415.01" sdnumber="415.01">Enter<name type="person">Gonorill</name>.</stagedir>
+<stagedir sdglobalnumber="415.01" sdnumber="415.01">Enter <name type="person">Gonorill</name>.</stagedir>
 
 <speech>
 <speaker>Lear.</speaker>
@@ -1648,7 +1642,7 @@
 
 <speech>
 <speaker>Lear.</speaker>
-<line globalnumber="439" number="439">Ile tell thee, life and death! I am a&#383;ham&#8217;d that thou ha&#64261; power to &#383;hake my man-hood thus, that the&#383;e hot teares that breake from me perforce, &#383;hould make the wor&#64261; bla&#64261;s and fogs vpon the vntender woundings of a fathers cur&#383;e, peru&#383;e euery &#383;ence about the olde fond eies, be-weepe this cau&#383;e againe, ile plucke you out, and you ca&#64261; with the waters that you make to temper clay, yea, it is come to this? yet haue I left a daughter, whom I am &#383;ure is kinde and comfortable, when &#383;he &#383;hall heare this of thee, with her nailes &#383;hee&#8217;l fley thy wolui&#383;h vi&#383;age, thou &#383;halt finde that ile re&#383;ume the &#383;hape, which thou doe&#64261; thinke I haue ca&#64261; off for euer, thou &#383;halt I warrant thee.</line>
+<line globalnumber="439" number="439">Ile tell thee, life and death! I am a&#383;ham&#8217;d that thou ha&#64261; power to &#383;hake my man-hood thus, that the&#383;e hot teares that breake from me perforce, &#383;hould make the wor&#64261; bla&#64261;s and fogs vpon the vntender woundings of a fathers cur&#383;e, peru&#383;e euery &#383;ence about the olde fond eies,&#8203;be-weepe this cau&#383;e againe, ile plucke you out, and you ca&#64261; with the waters that you make to temper clay, yea,&#8203;is it come to this? yet haue I left a daughter, whom I am &#383;ure is kinde and comfortable, when &#383;he &#383;hall heare this of thee, with her nailes &#383;hee&#8217;l fley thy wolui&#383;h vi&#383;age, thou &#383;halt finde that ile re&#383;ume the &#383;hape, which thou doe&#64261; thinke I haue ca&#64261; off for euer,&#8203;thou &#383;halt I warrant thee.</line>
 </speech>
 
 <stagedir sdglobalnumber="439.01" sdnumber="439.01">Exit.</stagedir>
@@ -2736,7 +2730,7 @@
 <speaker>Lear.</speaker>
 <line globalnumber="763" number="763">The King would &#383;peake with <name type="person">Cornwall</name>, the deare father</line>
 <line globalnumber="764" number="764">Would with his daughter &#383;peake, commands her &#383;eruice,</line>
-<line globalnumber="765" number="765">Fiery Duke, tell the hot Duke that<name type="person">Lear</name>,</line>
+<line globalnumber="765" number="765">Fiery Duke, tell the hot Duke that <name type="person">Lear</name>,</line>
 <line globalnumber="766" number="766">No but not yet, may be he is not well,</line>
 <line globalnumber="767" number="767">Infirmity doth &#64261;ill negle&#392;t all office, where to our health</line>
 <line globalnumber="768" number="768">Is bound, we are not our &#383;elues, when nature being oppre&#64261;,</line>
@@ -4937,7 +4931,7 @@
 <line globalnumber="1591" number="1591">That &#64261;ript her from his benedi&#392;tion, turnd her</line>
 <line globalnumber="1592" number="1592">To forraine ca&#383;ualties, gaue her deare rights</line>
 <line globalnumber="1593" number="1593">To his dog-hearted daughters; the&#383;e things &#64261;ing his minde</line>
-<line globalnumber="1594" number="1594">So venomou&#64258;y, that burning &#383;hame detaines him from<name type="person">Cordelia</name>.</line>
+<line globalnumber="1594" number="1594">So venomou&#64258;y, that burning &#383;hame detaines him from&#8203;<name type="person">Cordelia</name>.</line>
 </speech>
 
 <speech>
@@ -7106,7 +7100,7 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
 <version>3.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

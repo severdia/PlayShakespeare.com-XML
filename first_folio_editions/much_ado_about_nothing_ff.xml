@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="much-ado-about-nothing">
 <title short="Much Ado About Nothing">Much adoe about Nothing.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Much Ado About Nothing">
 
-<persona gender="male">
+<persona gender="male" id="69085ce6-55ac-40dc-b60a-1e6432dd3ce3">
 <persname short="D. PEDRO.">Don Pedro</persname>
 <persaliases>
 	<persname short="Pri."/>
@@ -24,7 +24,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="cc529639-290b-4b46-9696-a312afb8aa51">
 <persname short="D. JOHN.">Don John</persname>
 <persaliases>
 	<persname short="Ioh."/>
@@ -35,7 +35,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" id="ee3d78c2-5610-4965-b5af-a969322b4396">
 <persname short="CLAUD.">Claudio</persname>
 <persaliases>
 	<persname short="Lo."/>
@@ -47,7 +47,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="fe9e1272-6d82-49dd-993e-6bb5d34c6c45">
 <persname short="BENE.">Benedick</persname>
 <persaliases>
 	<persname short="Ben."/>
@@ -56,7 +56,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ec4f74e9-0e40-4d87-9d7f-14a7c111cf06">
 <persname short="LEON.">Leonato</persname>
 <persaliases>
 	<persname short="Lo."/>
@@ -67,7 +67,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c16f9928-1388-48f8-b815-c2ab761fbdac">
 <persname short="ANT.">Antonio</persname>
 <persaliases>
 	<persname short="Ant."/>
@@ -80,14 +80,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aae96994-a140-41db-b679-4f67a9d76230">
 <persname short="BALTH.">Balthasar</persname>
 <persaliases>
 	<persname short="Balth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b645fc87-52e7-47f5-a8c1-d549f5a23934">
 <persname short="CON.">Conrade</persname>
 <persaliases>
 	<persname short="Con."/>
@@ -97,7 +97,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="2286fc97-42ed-4a8c-8bea-676fda4c687f">
 <persname short="BORA.">Borachio</persname>
 <persaliases>
 	<persname short="Bor."/>
@@ -108,7 +108,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5afb2f5f-61b8-4c2a-a992-18479559ef30">
 <persname short="FRIAR.">Friar Francis</persname>
 <persaliases>
 	<persname short="Fri."/>
@@ -117,7 +117,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" id="5e89c6e5-d4b9-4140-b2c5-c809d07ea7e2">
 <persname short="HERO.">Hero</persname>
 <persaliases>
 	<persname short="Her."/>
@@ -126,7 +126,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="3c2f9912-1d6c-4870-843c-9ca8356b9a86">
 <persname short="BEAT.">Beatrice</persname>
 <persaliases>
 	<persname short="Bea."/>
@@ -136,7 +136,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ddcc29aa-2a30-4a6b-894d-0a0203ba8bf1">
 <persname short="MARG.">Margaret</persname>
 <persaliases>
 	<persname short="Mar."/>
@@ -145,7 +145,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2ede8fe0-3613-42a7-b5a7-0f712643b51c">
 <persname short="URS.">Ursula</persname>
 <persaliases>
 	<persname short="Vr&#383;."/>
@@ -154,7 +154,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="a49d459e-1104-45fe-bb23-5495b311bd2e">
 <persname short="DOG.">Dogberry</persname>
 <persaliases>
 	<persname short="Dog."/>
@@ -171,7 +171,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="31f701be-6f21-4816-bbfe-2e9ab500b407">
 <persname short="VERG.">Verges</persname>
 <persaliases>
 	<persname short="Ver."/>
@@ -186,7 +186,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="631cd6a7-9a10-4886-8618-2149839abb75">
 <persname short="SEX.">Sexton</persname>
 <persaliases>
 	<persname short="Sexton."/>
@@ -194,14 +194,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="52cc1c69-af91-4488-86be-1a56b353faf8">
 <persname short="BOY.">Boy</persname>
 <persaliases>
 	<persname short="Boy."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e12c2a1e-c7ff-4b86-9cb7-221ad7548d0c">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
@@ -210,7 +210,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="67333f27-9e4c-4c50-b136-b9be15cfc558">
 <persname short="1. WATCH.">First Watchman</persname>
 <persaliases>
 	<persname short="Watch 1."/>
@@ -221,7 +221,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="13a19949-c55b-44d4-8034-2fd59cb398df">
 <persname short="2. WATCH.">Second Watchman</persname>
 <persaliases>
 	<persname short="Watch 2."/>
@@ -232,11 +232,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="WATCH.">Watchmen</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="9829848d-21aa-4a6c-ade1-3e3bf1d63216">
 <persname short="LORD.">Lord</persname>
 <persaliases>
 	<persname short="Lord."/>
@@ -245,9 +241,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus, Scena prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus, Scena prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Leonato Gouernour of Me&#383;&#383;ina, Innogen his wife, Hero his daughter, and Beatrice his Neece, with a me&#383;&#383;enger.</stagedir>
@@ -1256,9 +1252,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="401.02" sdnumber="0.01">Enter Leonato, his brother, his wife, Hero his daughter, and Beatrice his neece, and a kin&#383;man.</stagedir>
@@ -2923,9 +2919,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1056.02" sdnumber="0.01">Enter Hero and two Gentlemen, Margaret, and Vr&#383;ula.</stagedir>
@@ -4419,9 +4415,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1615.02" sdnumber="0.01">Enter Prince, Ba&#383;tard, Leonato, Frier, Claudio, Benedicke, Hero, and Beatrice.</stagedir>
@@ -5463,9 +5459,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2031.02" sdnumber="0.01">Enter Leonato and his brother.</stagedir>
@@ -6972,8 +6968,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="winters-tale">
 <title short="Winter's Tale">The Winters Tale.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="The Winter&#8217;s Tale">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="46eaa3bb-4f32-4ac1-bb47-064e4c9c279a">
 <persname short="LEON.">Leontes, King of Sicilia</persname>
 <persaliases>
 	<persname short="Leo"/>
@@ -20,14 +20,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="ccbfb0db-9205-4a07-b71a-7c8cddf202ee">
 <persname short="MAM.">Mamillius</persname>
 <persaliases>
 	<persname short="Mam."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="129a2f2a-0def-4c80-9b2a-f5a91895bd66">
 <persname short="CAM.">Camillo</persname>
 <persaliases>
 	<persname short="Cam"/>
@@ -35,7 +35,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="335b242b-baef-4975-bb59-17922217336c">
 <persname short="ANT.">Antigonus</persname>
 <persaliases>
 	<persname short="Ant."/>
@@ -43,26 +43,24 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1088b4a0-b393-4cc2-8011-5643d6a37987">
 <persname short="CLEO.">Cleomines</persname>
 <persaliases>
 	<persname short="Cleo."/>
 	<persname short="Cleo. Dio."/>
-	<persname short="BOTH CLEO. AND DION.">Both Cleomines and Dion</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b9b7866b-41e1-4154-9e25-d22c8c3e9db6">
 <persname short="DION.">Dion</persname>
 <persaliases>
 	<persname short="Dio."/>
 	<persname short="Dion."/>
 	<persname short="Cleo. Dio."/>
-	<persname short="BOTH CLEO. AND DION.">Both Cleomines and Dion</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b0ea4474-47f6-4499-9e56-2b394a3619b2">
 <persname short="POL.">Polixenes, King of Bohemia</persname>
 <persaliases>
 	<persname short="Pol"/>
@@ -70,28 +68,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a2c07261-6d68-4453-b245-98dc5a3a720b">
 <persname short="FLO.">Florizel</persname>
 <persaliases>
 	<persname short="Flo."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="632dcc0e-1294-4f7b-abc7-b0ca16ce7268">
 <persname short="ARCH.">Archidamus</persname>
 <persaliases>
 	<persname short="Arch."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="782ce7c4-39e4-4cb8-aebc-49ef64adbc02">
 <persname short="SHEP.">Old Shepherd</persname>
 <persaliases>
 	<persname short="Shep."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="3088cf14-9109-43c0-8135-4788fffa1fac">
 <persname short="CLO.">Clown</persname>
 <persaliases>
 	<persname short="Clo."/>
@@ -100,7 +98,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="3a64b0d3-231f-492f-9473-9f0c49362a57">
 <persname short="AUT.">Autolycus</persname>
 <persaliases>
 	<persname short="Aut."/>
@@ -109,28 +107,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3cea5ae9-45ea-4934-aa42-b208ccd76f78">
 <persname short="MAR.">Mariner</persname>
 <persaliases>
 	<persname short="Mar."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bafbd752-b72a-43e4-ae72-699dd3c26778">
 <persname short="JAIL.">Jailer</persname>
 <persaliases>
 	<persname short="Gao."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="012c8f8b-534e-40de-969a-19ec2bbfd0d0">
 <persname short="HER.">Hermione</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="aa2a69bd-c562-4376-96fa-1cfef814bcc1">
 <persname short="PER.">Perdita</persname>
 <persaliases>
 	<persname short="Per."/>
@@ -138,7 +136,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="6278e59a-5df8-47d2-a89c-1ca0f3e648f5">
 <persname short="PAUL.">Paulina</persname>
 <persaliases>
 	<persname short="Pau."/>
@@ -146,14 +144,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="53694f85-bc4b-4a93-ac71-887f5996516c">
 <persname short="EMIL.">Emilia</persname>
 <persaliases>
 	<persname short="Emil."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="6189734f-9267-4984-b622-8b56a06b684c">
 <persname short="MOP.">Mopsa</persname>
 <persaliases>
 	<persname short="Mop."/>
@@ -161,7 +159,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="9167f198-e94d-425c-960d-b06c59f80ccd">
 <persname short="DOR.">Dorcas</persname>
 <persaliases>
 	<persname short="Dor:"/>
@@ -170,28 +168,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="df8af978-06d1-4aaf-9a8a-b85445f5a396">
 <persname short="TIME.">Time, as Chorus</persname>
 <persaliases>
 	<persname short="Time."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="60088c39-532f-4be0-8ce4-bb061c8e6d11">
 <persname short="1. LADY">First Lady</persname>
 <persaliases>
 	<persname short="Lady."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="e52c13f3-b40b-4678-9d13-2f1eb05dfcbd">
 <persname short="2. LADY">Second Lady</persname>
 <persaliases>
 	<persname short="2.Lady."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5ba9edf4-d93d-4fee-9c4b-0b7b067b6bc5">
 <persname short="OFF.">Officer</persname>
 <persaliases>
 	<persname short="Of&#64257;c."/>
@@ -199,7 +197,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="07ffa186-1bed-4f3c-8bc0-acf0f1e93a31">
 <persname short="1. LORD.">First Lord</persname>
 <persaliases>
 	<persname short="Lord."/>
@@ -208,35 +206,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="98bf75c3-7b71-41cb-b4b2-6fc84ae20ddd">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="Gent.1."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="445e2907-f189-4561-9630-928c608d8079">
 <persname short="2. GENT.">Second Gentleman</persname>
 <persaliases>
 	<persname short="Gent.2."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5044457c-be2c-472d-8df2-c6a7d6312d29">
 <persname short="3. GENT.">Third Gentleman</persname>
 <persaliases>
 	<persname short="Gent.3."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f2c628c6-9421-449b-a525-eb273de74c3c">
 <persname short="SERV. OLD.">Servant of the Old Shepherd</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="94c1872a-df58-4176-aa26-07152562b5da">
 <persname short="1. SERV.">First Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -244,41 +242,25 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bf8cd3d1-aa70-425b-ac47-c0b2d9fdd50e">
 <persname short="2. SERV.">Second Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="81b48389-fc51-4b72-9117-9e1e601336bb">
 <persname short="3. SERV.">Third Servant</persname>
 <persaliases>
 	<persname short="Seru."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="GENT. ATT.">Gentleman Attendant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="12. SAT.">Twelve Satyrs</persname>
-</persona>
-
-<persona gender="male">
-<persname short="SHEPS.">Shepherds and Shepherdesses</persname>
-</persona>
-
-<persona gender="male">
-<persname short="BEAR">Bear</persname>
-</persona>
-
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title" id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Camillo and Archidamus.</stagedir>
@@ -382,7 +364,7 @@
 <stagedir sdglobalnumber="44.01" sdnumber="44.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="44.02" sdnumber="0.01">Enter Leontes, Hermione, Mamillius, Polixenes, Camillo.</stagedir>
@@ -1373,9 +1355,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title" id="scene2_1">A&#57348;us Secundus.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="577.02" sdnumber="0.01">Enter Hermione, Mamillius, Ladies: Leontes, Antigonus, Lords.</stagedir>
@@ -1841,7 +1823,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="810.02" sdnumber="0.01">Enter Paulina, a Gentleman, Gaoler, Emilia.</stagedir>
@@ -2008,7 +1990,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="886.02" sdnumber="0.01">Enter Leontes, Seruants, Paulina, Antigonus, and Lords.</stagedir>
@@ -2493,10 +2475,9 @@
 </scene>
 </act>
 
-<act>
-
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title" id="scene3_1">A&#57348;us Tertius.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1129.02" sdnumber="0.01">Enter Cleomines and Dion.</stagedir>
@@ -2556,7 +2537,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1156.02" sdnumber="0.01">Enter Leontes, Lords, Of&#64257;cers: Hermione (as to her Triall) Ladies: Cleomines, Dion.</stagedir>
@@ -2991,7 +2972,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1416.02" sdnumber="0.01">Enter Antigonus, a Marriner, Babe, Sheepeheard, and Clowne.</stagedir>
@@ -3241,9 +3222,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title" id="scene4_1">A&#57348;us Quartus.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1554.02" sdnumber="0.01">Enter Time, the Chorus.</stagedir>
@@ -3288,7 +3269,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1586.02" sdnumber="0.01">Enter Polixenes, and Camillo.</stagedir>
@@ -3386,7 +3367,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1639.02" sdnumber="0.01">Enter Autolicus &#383;inging.</stagedir>
@@ -3678,7 +3659,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1764.02" sdnumber="0.01">Enter Florizell, Perdita, Shepherd, Clowne, Polixenes, Camillo, Mop&#383;a, Dorcas, Seruants, Autolicus.</stagedir>
@@ -5589,9 +5570,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title" id="scene5_1">A&#57348;us Quintus.Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2685.02" sdnumber="0.01">Enter Leontes, Cleomines, Dion, Paulina, Seruants: Florizel, Perdita.</stagedir>
@@ -6121,7 +6102,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2963.02" sdnumber="0.01">Enter Autolicus, and a Gentleman.</stagedir>
@@ -6458,7 +6439,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="3134.02" sdnumber="0.01">Enter Leontes, Polixenes, Florizell, Perdita, Camillo, Paulina: Hermione (like a Statue:) Lords, &amp; c.</stagedir>
@@ -6835,8 +6816,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="titus-andronicus">
 <title short="Titus Andronicus">The Lamentable Tragedy of<lb />Titus Andronicus.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Titus Andronicus">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="a9817820-6059-4d16-b464-b5868c746cc2">
 <persname short="SAT.">Saturninus</persname>
 <persaliases>
 	<persname short="Sat."/>
@@ -26,7 +26,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="3d7444c4-133f-4829-8d8d-02d446c32231">
 <persname short="BAS.">Bassianus</persname>
 <persaliases>
 	<persname short="Ba&#383;s."/>
@@ -37,7 +37,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="24913566-927f-44e6-8fb3-46aa570f6b8a">
 <persname short="TIT.">Titus Andronicus</persname>
 <persaliases>
 	<persname short="An."/>
@@ -48,7 +48,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bc3a8ea1-2b48-44e8-ab1a-a4f7066ecfc8">
 <persname short="MARC.">Marcus Andronicus</persname>
 <persaliases>
 	<persname short="Mar"/>
@@ -58,7 +58,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="75271a33-3bfc-4a39-87be-ecf490a58712">
 <persname short="LUC.">Lucius</persname>
 <persaliases>
 	<persname short="Lu."/>
@@ -69,7 +69,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="f04473c7-affa-42d0-aaa7-de185072e625">
 <persname short="QUIN.">Quintus</persname>
 <persaliases>
 	<persname short="Quin."/>
@@ -79,7 +79,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="953142da-f283-4e75-a8f4-3efe12ee7560">
 <persname short="MART.">Martius</persname>
 <persaliases>
 	<persname short="Mart."/>
@@ -89,7 +89,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="cb5228b9-5590-4835-9773-b56d09cc9c50">
 <persname short="MUT.">Mutius</persname>
 <persaliases>
 	<persname short="Mut."/>
@@ -97,14 +97,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f10318f3-e62b-4103-bfe8-a62e1577a27f">
 <persname short="Y. LUC.">Young Lucius</persname>
 <persaliases>
 	<persname short="Boy."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6fb5e870-2fc7-4421-ac52-dba4d04129d8">
 <persname short="AEMIL.">Aemilius</persname>
 <persaliases>
 	<persname short="Emi."/>
@@ -116,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="02bd480a-c3ff-4f29-8e32-6b30b53c3325">
 <persname short="PUB.">Publius</persname>
 <persaliases>
 	<persname short="Pub."/>
@@ -124,23 +124,23 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="e3e4473d-4c8b-4ffc-835f-b6e8beac8c3a">
 <persname short="SEMP.">Sempronius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="22db6933-8da0-4955-bbc8-88042cf7c87e">
 <persname short="CAI.">Caius</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="305c54fb-ec1b-4af4-a4c0-a8e34ceb078e">
 <persname short="VAL.">Valentine</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" mute="yes" id="ad9b7bce-95e7-4d9c-9c3f-01c1e64169ff">
 <persname short="ALAR.">Alarbus</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="cbd8546e-7ed4-4411-b234-ce88c2ce2f67">
 <persname short="DEM.">Demetrius</persname>
 <persaliases>
 	<persname short="Dem"/>
@@ -151,7 +151,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="25638348-9081-4fd6-9bf2-a9a9713a70ac">
 <persname short="CHI.">Chiron</persname>
 <persaliases>
 	<persname short="Chi."/>
@@ -160,7 +160,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="280ab91d-00ed-4da0-9e13-dac161164b01">
 <persname short="AAR.">Aaron</persname>
 <persaliases>
 	<persname short="Aron."/>
@@ -168,7 +168,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="5e8f0a82-26fd-4070-b0fe-cfeee21dd095">
 <persname short="TAM.">Tamora</persname>
 <persaliases>
 	<persname short="Tam."/>
@@ -177,7 +177,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="676ccb4d-4cf1-4b44-af24-7b0e8ab09043">
 <persname short="LAV.">Lavinia</persname>
 <persaliases>
 	<persname short="Lau."/>
@@ -187,7 +187,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="9539a27e-80c3-43ea-94e3-882d70e7027d">
 <persname short="NUR.">Nurse</persname>
 <persaliases>
 	<persname short="Nur."/>
@@ -196,18 +196,18 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="687910fe-83c6-48bd-8b96-c45986cbf145">
 <persname short="SENATORS">Senators</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5020306d-11b2-4821-b904-32664988c76b">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="866368c6-87f6-4556-85a4-e3fd42348bf6">
 <persname short="CLO.">Clown</persname>
 <persaliases>
 	<persname short="Clo."/>
@@ -217,47 +217,47 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ea1ef790-be74-4519-a76f-e012d5b88ebe">
 <persname short="TRIB.">Tribune</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="768c5200-d538-464c-9094-e1bd9c3300fb">
 <persname short="TRIBUNES.">Tribunes</persname>
 <persaliases>
 	<persname short="Tribunes."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="46e9a6a0-26ac-4401-a990-39e57488cf4e">
 <persname short="BL. CHILD.">A Black Child</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="cf2b51df-bebf-410d-959b-375a118fa137">
 <persname short="JUDGES">Judges</persname>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="309c5a69-7625-4c72-a9f8-7e4f9180c29c">
 <persname short="1. GOTH.">First Goth</persname>
 <persaliases>
 	<persname short="Goth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="176afdd3-d103-4d23-9fc6-3522971cbe1f">
 <persname short="2. GOTH.">Second Goth</persname>
 <persaliases>
 	<persname short="Goth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="099edf0f-7020-4eee-ad2c-9cdef351e03f">
 <persname short="3. GOTH.">Third Goth</persname>
 <persaliases>
 	<persname short="Goth."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="55c3bd2a-bfac-4e74-90ee-032c91e37d7f">
 <persname short="ROM. CAP.">Roman Captain</persname>
 <persaliases>
 	<persname short="Cap."/>
@@ -267,9 +267,9 @@
 </personae>
 
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus.Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus.Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Flouri&#383;h. Enter the Tribunes and Senators alo&#383;t And then enter Saturninus and his Followers at one doore, and Ba&#383;sianus and his Followers at the other, with Drum &amp; Colours</stagedir>
@@ -1262,9 +1262,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secunda.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="515.02" sdnumber="0.01">Flouri&#383;h. Enter Aaron alone.</stagedir>
@@ -2357,9 +2357,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="1069.02" sdnumber="0.01">Enter the Iudges and Senatours with Titus two &#383;onnes bound, pa&#383;&#383;ing on the Stage to the place of execution, and Titus going before pleading</stagedir>
@@ -3075,9 +3075,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1461.02" sdnumber="0.01">Enter young Lucius and Lauinia running a&#64261;er him, and the Boy &#64258;ies from her with his bookes vnder his arme. Enter Titus and Marcus</stagedir>
@@ -4241,9 +4241,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2003.02" sdnumber="0.01">Flouri&#383;h. Enter Lucius with an Army of Gothes, with Drum and Souldiers</stagedir>
@@ -5338,8 +5338,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

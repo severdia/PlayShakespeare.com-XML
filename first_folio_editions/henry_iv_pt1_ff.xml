@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="henry-iv-part-i">
 <title short="Henry IV, Pt. 1">The Fir&#383;t Part of Henry the Fourth,<lb />with the Life and Death of HENRY<lb /> Sirnamed HOT-SPVRRE.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="Henry IV, Part 1">
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="85ee0bd0-5903-417b-9bb2-cbeda8489a73">
 <persname short="FAL.">Sir John Falstaff</persname>
 <persaliases>
 	<persname short="Fal."/>
@@ -19,7 +19,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="4a1ab8b8-b1bf-4ce7-a3fd-42d57548aa59">
 <persname short="VER.">Sir Richard Vernon</persname>
 <persaliases>
 	<persname short="Ver."/>
@@ -27,14 +27,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d21818bb-f782-4257-9599-dbd37ca04516">
 <persname short="GLEND.">Owen Glendower</persname>
 <persaliases>
 	<persname short="Glend."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1d543ce0-f485-4d00-b427-7d79f15a21ae">
 <persname short="DOUG.">Archibald, Earl of Douglas</persname>
 <persaliases>
 	<persname short="Dow."/>
@@ -42,21 +42,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="14398505-a03a-4fd7-ae0e-eb7ccabefe3a">
 <persname short="ARCH.">Richard Scroop, Archbishop of York</persname>
 <persaliases>
 	<persname short="Arch."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3fa92b9e-ccc2-4822-a26b-2a94688edbc2">
 <persname short="MORT.">Edmund Mortimer, Earl of March</persname>
 <persaliases>
 	<persname short="Mort."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="61bf3651-a486-48fe-aa08-d13e035d6a08">
 <persname short="HOT.">Henry Percy</persname>
 <persaliases>
 	<persname short="Hot."/>
@@ -64,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5d20eef7-25b8-4478-9e5c-71bd112d0715">
 <persname short="NORTH.">Henry Percy, Earl of Northumberland</persname>
 <persaliases>
 	<persname short="Nor."/>
@@ -72,7 +72,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="35b84915-a6e5-40eb-9d2c-a2be670fab21">
 <persname short="WOR.">Thomas Percy, Earl of Worcester</persname>
 <persaliases>
 	<persname short="Wor."/>
@@ -80,7 +80,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="d79e32a6-179f-4870-bba6-b4f2e155f681">
 <persname short="BLUNT.">Sir Walter Blunt</persname>
 <persaliases>
 	<persname short="Blunt."/>
@@ -88,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="84ce8d0b-be3c-4a2a-86cb-7393c0e14bb9">
 <persname short="WEST.">Earl of Westmorland</persname>
 <persaliases>
 	<persname short="We&#383;t."/>
@@ -96,7 +96,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0b466374-b603-458b-beac-47832f0979c4">
 <persname short="LAN.">Prince John of Lancaster</persname>
 <persaliases>
 	<persname short="P. Ioh."/>
@@ -106,7 +106,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="e342444d-c6b7-4dc8-af8c-3e9cd448e2ac">
 <persname short="PRINCE.">Henry, Prince of Wales</persname>
 <persaliases>
 	<persname short="Prince."/>
@@ -116,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="a7359fe3-322f-46a3-a5b4-36d22e304d2b">
 <persname short="KING.">King Henry IV</persname>
 <persaliases>
 	<persname short="King."/>
@@ -125,11 +125,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
-<persname short="L. MORT.">Lady Mortimer</persname>
-</persona>
-
-<persona gender="female">
+<persona gender="female" id="42e069f0-7417-4afe-80bb-0567774240d3">
 <persname short="LADY P.">Lady Percy</persname>
 <persaliases>
 	<persname short="La."/>
@@ -137,7 +133,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="02a15a8e-a068-4aeb-9650-ed3347bdd65e">
 <persname short="BARD.">Bardolph</persname>
 <persaliases>
 	<persname short="Bar."/>
@@ -145,14 +141,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="60f91bdd-6a95-419b-b324-ded52f8556cf">
 <persname short="PETO.">Peto</persname>
 <persaliases>
 	<persname short="Peto."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f4051520-6a2f-4f16-8e29-d835f3ddf6ee">
 <persname short="GADS.">Gadshill</persname>
 <persaliases>
 	<persname short="Bar."/>
@@ -160,7 +156,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5e0c0280-bc4e-4054-aded-0fa2f3223044">
 <persname short="POINS.">Edward Poins</persname>
 <persaliases>
 	<persname short="Poin."/>
@@ -174,7 +170,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="76384071-bfd8-493d-a7ce-d18bf8e85f7d">
 <persname short="SIR M.">Sir Michael</persname>
 <persaliases>
 	<persname short="Sir M."/>
@@ -183,21 +179,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8beaa9c1-1b43-4c85-bd8c-bab79ecf7525">
 <persname short="OST.">Ostler</persname>
 <persaliases>
 	<persname short="O&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f0681e68-0d0a-40d8-9e31-aa493a014713">
 <persname short="SHER.">Sheriff</persname>
 <persaliases>
 	<persname short="She."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6505b5fb-f2f3-4a66-bf69-ba8503daa3b7">
 <persname short="1. CAR.">First Carrier</persname>
 <persaliases>
 	<persname short="1. Car."/>
@@ -205,14 +201,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cbde95d3-4fbe-4043-90af-609d2732e497">
 <persname short="2. CAR.">Second Carrier</persname>
 <persaliases>
 	<persname short="2. Car."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a173bfdb-1119-4495-979b-11a6eafb585d">
 <persname short="1. TRAV.">First Traveller</persname>
 <persaliases>
 	<persname short="Tra."/>
@@ -220,7 +216,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c3b4fc97-c8a2-4441-8ecc-5a9f05c9fff6">
 <persname short="2. TRAV.">Second Traveller</persname>
 <persaliases>
 	<persname short="TRAVELLERS.">Travellers</persname>
@@ -228,21 +224,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dd592368-4e7d-41f9-a882-eae6964405c8">
 <persname short="SERV.">Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0e938db6-af9d-4138-81c9-3880bfefc99f">
 <persname short="FRAN.">Francis</persname>
 <persaliases>
 	<persname short="Fran."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="72820202-ece4-4e0c-b9e6-effa7b8e9372">
 <persname short="HOST.">Hostess</persname>
 <persaliases>
 	<persname short="Ho&#383;te&#383;&#383;e."/>
@@ -250,7 +246,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c62044ea-ed7e-4628-a58e-dcc30b67338a">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
@@ -258,43 +254,43 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8982afdc-835c-4bd9-ba61-85af6a958735">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4eb8a98c-be98-4fa6-946b-81083e111e76">
 <persname short="3. MESS.">Third Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="816a1ac2-fad3-46cf-bd53-5cf2b0cc299a">
 <persname short="CHAM.">Chamberlain</persname>
 <persaliases>
 	<persname short="Cham."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="079d121d-ecdd-40e7-8d0b-f8d2ff6f9468">
 <persname short="VINT.">Vintner</persname>
 <persaliases>
 	<persname short="Vint."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" mute="yes" id="3b11b662-1299-49a2-81fb-6898e94ea2a6">
 <persname short="WEL. LAD.">Welsh Ladies</persname>
 </persona>
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter the King, Lord Iohn of Lanca&#383;ter, Earle of We&#383;tmerland, with others.</stagedir>
@@ -449,7 +445,7 @@
 <stagedir sdglobalnumber="107.01" sdnumber="107.01">Exeunt</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="107.02" sdnumber="0.01">Enter Henry Prince of Wales, Sir Iohn Fal&#383;ta&#64256;e, and Pointz.</stagedir>
@@ -914,7 +910,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="288.02" sdnumber="0.01">Enter the King, Northumberland, Worce&#383;ter, Hot&#383;purre, Sir Walter Blunt, and others.</stagedir>
@@ -1455,9 +1451,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="622.02" sdnumber="0.01">Enter a Carrier with a Lanterne in his hand.</stagedir>
@@ -1698,7 +1694,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="718.02" sdnumber="0.01">Enter Prince, Poynes, and Peto.</stagedir>
@@ -2005,7 +2001,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="822.02" sdnumber="0.01">Enter Hot&#383;purre &#383;olus, reading a Letter.</stagedir>
@@ -2215,7 +2211,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="935.02" sdnumber="0.01">Enter Prince and Poines.</stagedir>
@@ -3592,9 +3588,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1474.02" sdnumber="0.01">Enter Hot&#383;purre, Worce&#383;ter, Lord Mortimer, Owen Glendower.</stagedir>
@@ -4205,7 +4201,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1758.02" sdnumber="0.01">Enter the King, Prince of Wales, and others.</stagedir>
@@ -4436,7 +4432,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1942.02" sdnumber="0.01">Enter Fal&#383;ta&#64256;e and Bardolph.</stagedir>
@@ -4946,9 +4942,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2150.02" sdnumber="0.01">Enter Harrie Hot&#383;purre, Worce&#383;ter, and Dowglas.</stagedir>
@@ -5243,7 +5239,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2300.02" sdnumber="0.01">Enter Fal&#383;ta&#64256;e and Bardolph.</stagedir>
@@ -5419,7 +5415,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2379.02" sdnumber="0.01">Enter Hot&#383;pur, Worce&#383;ter, Dowglas, and Vernon.</stagedir>
@@ -5661,8 +5657,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="4" num="4">
 <scenetitle id="scene4_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2503.02" sdnumber="0.01">Enter the Arch-Bi&#383;hop of Yorke, and Sir Michell.</stagedir>
@@ -5751,9 +5746,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2546.02" sdnumber="0.01">Enter the King, Prince of Wales, Lord Iohn of Lanca&#383;ter, Earle of We&#383;tmerland, Sir Walter Blunt, and Fal&#383;ta&#64256;e.</stagedir>
@@ -5988,7 +5983,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2687.02" sdnumber="0.01">Enter Worce&#383;ter, and Sir Richard Vernon.</stagedir>
@@ -6360,7 +6355,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2848.02" sdnumber="0.01">Alarum, excur&#383;ions, enter the King, the Prince, Lord Iohn of Lanca&#383;ter, and Earle of We&#383;tmerland.</stagedir>
@@ -6709,7 +6704,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="3010.02" sdnumber="0.01">The Trumpets &#383;ound.</stagedir>
@@ -6800,8 +6795,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

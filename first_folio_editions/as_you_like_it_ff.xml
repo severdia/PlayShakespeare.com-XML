@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="as-you-like-it">
 <title short="As You Like It">As you Like it.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="As You Like It">
 
-<persona gender="female">
+<persona gender="female" archetype="clown" id="433ecddc-3463-4687-af19-c4d8bc396904">
 <persname short="AUD.">Audrey</persname>
 <persaliases>
 	<persname short="Awd."/>
@@ -19,14 +19,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="clown" id="0b620da9-395b-4ee2-9f14-025e9e80f7b4">
 <persname short="PHE.">Phebe</persname>
 <persaliases>
 	<persname short="Phe."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="205477b9-3677-43b8-9d53-487eac64a266">
 <persname short="CEL.">Celia</persname>
 <persaliases>
 	<persname short="Cel"/>
@@ -34,7 +34,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="539fa0ce-0d32-4a98-b59d-7bd59e45892d">
 <persname short="ROS.">Rosalind</persname>
 <persaliases>
 	<persname short="Ro&#383;a."/>
@@ -45,14 +45,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fbc2c690-fbd8-43c6-82a1-93b3d2082dc3">
 <persname short="SIL.">Silvius</persname>
 <persaliases>
 	<persname short="Sil."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="955fecaf-d868-4d7f-8414-b0dc1fb3f20b">
 <persname short="COR.">Corin</persname>
 <persaliases>
 	<persname short="Co."/>
@@ -61,14 +61,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7bb262f4-e02d-40c9-948c-6292c7eebb93">
 <persname short="SIR OLI.">Sir Oliver Martext</persname>
 <persaliases>
 	<persname short="Ol."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="275cd1fb-e7e4-4318-8502-5a2f716780b2">
 <persname short="TOUCH.">Touchstone</persname>
 <persaliases>
 	<persname short="Clo."/>
@@ -76,7 +76,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="628151bd-8845-474f-9e04-8ac98702e10d">
 <persname short="ADAM.">Adam</persname>
 <persaliases>
 	<persname short="Ad."/>
@@ -84,7 +84,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="31575828-a13b-49f2-ab86-5dc4f1b8f5ef">
 <persname short="ORL.">Orlando</persname>
 <persaliases>
 	<persname short="Orl"/>
@@ -94,7 +94,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="edb4ab8d-d940-45df-8739-b01f4dfc29ef">
 <persname short="OLI.">Oliver</persname>
 <persaliases>
 	<persname short="Oli."/>
@@ -103,7 +103,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d83a0ba5-8c0d-422f-bc9b-fa55d3301f75">
 <persname short="CHA.">Charles</persname>
 <persaliases>
 	<persname short="Cha."/>
@@ -112,14 +112,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f9cf448b-3882-4de7-a257-e809f16625ef">
 <persname short="LE BEAU.">Le Beau</persname>
 <persaliases>
 	<persname short="Le Beu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="342752f4-eed9-407a-8f51-e496f355898a">
 <persname short="JAQ.">Jaques</persname>
 <persaliases>
 	<persname short="Ia."/>
@@ -127,7 +127,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="483810ae-0520-475c-afc3-e34177703966">
 <persname short="AMI.">Amiens</persname>
 <persaliases>
 	<persname short="Amy."/>
@@ -135,7 +135,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="09fcc4ba-2356-421e-b052-bba450d1a322">
 <persname short="DUKE F.">Duke Frederick</persname>
 <persaliases>
 	<persname short="Du."/>
@@ -144,7 +144,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="14b9acd4-6d8d-4af6-8f88-16992d57a43a">
 <persname short="DUKE S.">Duke Senior</persname>
 <persaliases>
 	<persname short="Du. Se."/>
@@ -155,21 +155,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="282ae52a-d3a0-45cb-b9c1-dd583ae0ba94">
 <persname short="JAQ. DE B.">Jaques De Boys</persname>
 <persaliases>
 	<persname short="2. Bro."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb76e2f4-b591-470f-a89b-a5ff4d944e9a">
 <persname short="DEN.">Dennis</persname>
 <persaliases>
 	<persname short="Den."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dae071a1-541b-4876-880c-802ba5e2fbde">
 <persname short="HYM.">Hymen</persname>
 <persaliases>
 	<persname short="Hy."/>
@@ -177,7 +177,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="26915a5f-a5f6-409c-a335-6082834efc18">
 <persname short="WILL.">William</persname>
 <persaliases>
 	<persname short="Will"/>
@@ -185,21 +185,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="62fd0931-6155-4bb2-9d42-0de66e3dded1">
 <persname short="1. LORD. COURT.">First Lord at Court</persname>
 <persaliases>
 	<persname short="1. Lo."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a1ade477-8092-40dd-a0b0-742e8a204269">
 <persname short="2. LORD. COURT.">Second Lord at Court</persname>
 <persaliases>
 	<persname short="2. Lor."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3a169635-721c-47f3-a086-dc0ad010e4aa">
 <persname short="1. LORD. ARD.">First Lord in Arden</persname>
 <persaliases>
 	<persname short="1. Lord."/>
@@ -208,21 +208,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="024c387d-56be-48f1-8826-1282f65bfea5">
 <persname short="2. LORD. ARD.">Second Lord in Arden</persname>
 <persaliases>
 	<persname short="2. Lord."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9b8a6a84-b169-42ca-a5d1-688c48a85bef">
 <persname short="1. PAGE.">First Page</persname>
 <persaliases>
 	<persname short="1. Pa."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dd95d009-0a9b-4fbe-b4bc-0c5fc8f84653">
 <persname short="2. PAGE.">Second Page</persname>
 <persaliases>
 	<persname short="2. Pa."/>
@@ -231,9 +231,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Orlando and Adam.</stagedir>
@@ -572,7 +572,7 @@
 <stagedir sdglobalnumber="162.01" sdnumber="162.01">Exit.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">S&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="162.02" sdnumber="0.01">Enter Rosalind, and Cellia.</stagedir>
@@ -1315,7 +1315,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="443.02" sdnumber="0.01">Enter Celia and Ro&#383;aline.</stagedir>
@@ -1663,9 +1663,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="585.02" sdnumber="0.01">Enter Duke Senior: Amyens, and two or three Lords like Forre&#383;ters.</stagedir>
@@ -1786,7 +1786,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="657.02" sdnumber="0.01">Enter Duke, with Lords.</stagedir>
@@ -1832,7 +1832,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="678.02" sdnumber="0.01">Enter Orlando and Adam.</stagedir>
@@ -1954,7 +1954,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="755.02" sdnumber="0.01">Enter Ro&#383;aline for Ganimed, Celia for Aliena, and Clowne, alias Touch&#383;tone.</stagedir>
@@ -2210,7 +2210,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="5">
 <scenetitle id="scene2_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="858.02" sdnumber="0.01">Enter, Amyens, Iaques, &amp; others.</stagedir>
@@ -2355,7 +2355,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="6">
 <scenetitle id="scene2_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="915.02" sdnumber="0.01">Enter Orlando, &amp; Adam.</stagedir>
@@ -2392,7 +2392,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="7">
 <scenetitle id="scene2_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="935.02" sdnumber="0.01">Enter Duke Sen. &amp; Lord, like Out-lawes.</stagedir>
@@ -2763,9 +2763,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1137.02" sdnumber="0.01">Enter Duke, Lords, &amp; Oliuer.</stagedir>
@@ -2804,7 +2804,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1155.02" sdnumber="0.01">Enter Orlando.</stagedir>
@@ -3811,7 +3811,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1564.02" sdnumber="0.01">Enter Clowne, Audrey, &amp; Iaques.</stagedir>
@@ -4037,7 +4037,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1656.02" sdnumber="0.01">Enter Ro&#383;alind &amp; Celia.</stagedir>
@@ -4202,7 +4202,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="5">
 <scenetitle id="scene3_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="1714.02" sdnumber="0.01">Enter Siluius and Phebe.</stagedir>
@@ -4455,9 +4455,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1857.02" sdnumber="0.01">Enter Ro&#383;alind, and Celia, and Iaques.</stagedir>
@@ -5005,7 +5005,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2064.02" sdnumber="0.01">Enter Iaques and Lords, Forre&#383;ters.</stagedir>
@@ -5058,7 +5058,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2082.02" sdnumber="0.01">Enter Ro&#383;alind and Celia.</stagedir>
@@ -5458,9 +5458,9 @@
 
 </scene>
 </act>
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2270.02" sdnumber="0.01">Enter Clowne and Awdrie.</stagedir>
@@ -5655,7 +5655,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2334.02" sdnumber="0.01">Enter Orlando &amp; Oliuer.</stagedir>
@@ -5954,7 +5954,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2453.02" sdnumber="0.01">Enter Clowne and Audrey.</stagedir>
@@ -6054,7 +6054,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2491.02" sdnumber="0.01">Enter Duke Senior, Amyens, Iaques, Orlando, Oliuer, Celia.</stagedir>
@@ -6518,8 +6518,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

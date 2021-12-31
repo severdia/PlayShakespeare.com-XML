@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="othello">
 <title short="Othello">THE TRAGEDIE OF<lb />Othello, the Moore of Venice.</title>
@@ -11,22 +11,21 @@
 
 <personae playtitle="Othello">
 
-<persona gender="male">
+<persona gender="male" id="4426b17d-cbed-45d3-9a2e-405f36a0a7dd">
 <persname short="DUKE.">Duke of Venice</persname>
 <persaliases>
 	<persname short="Duke."/>
-	<persname short="DUKE., 1. SEN., CAS., IAGO., ROD.">All.</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6867747f-4c5d-439e-9cb6-43fb9b2f2274">
 <persname short="BRA.">Brabantio</persname>
 <persaliases>
 	<persname short="Bra."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="db6508b9-27b7-496a-9f40-db71b7f9b0df">
 <persname short="GRA.">Gratiano</persname>
 <persaliases>
 	<persname short="Gra."/>
@@ -34,7 +33,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="aef8a3b3-519a-4c98-9d83-d041982602f8">
 <persname short="LOD.">Lodovico</persname>
 <persaliases>
 	<persname short="Lod"/>
@@ -44,7 +43,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="d99aceb6-b896-4b3b-8d33-fb50435408dd">
 <persname short="OTH.">Othello</persname>
 <persaliases>
 	<persname short="Oth"/>
@@ -55,7 +54,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="fb44d3ac-5a00-441c-9e39-13cab844b983">
 <persname short="CAS.">Cassio</persname>
 <persaliases>
 	<persname short="Ca&#383;."/>
@@ -66,7 +65,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" id="af523d0c-855f-4f53-acd1-c24f11c3ebcd">
 <persname short="IAGO.">Iago</persname>
 <persaliases>
 	<persname short="Ia."/>
@@ -78,7 +77,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a997f6a4-8243-4241-ab1b-8f9ea6e27c78">
 <persname short="ROD.">Roderigo</persname>
 <persaliases>
 	<persname short="Rod"/>
@@ -91,7 +90,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5579c7f7-fb75-466f-87e1-27a188d78361">
 <persname short="MON.">Montano</persname>
 <persaliases>
 	<persname short="Mon."/>
@@ -102,7 +101,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="1d1f19d0-4eac-4b0d-b3ee-96ce4deb68c7">
 <persname short="DES.">Desdemona</persname>
 <persaliases>
 	<persname short="De&#383;."/>
@@ -110,7 +109,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="a48539cf-6e5b-47a8-92da-918a96148ce6">
 <persname short="EMIL.">Emilia</persname>
 <persaliases>
 	<persname short="Emil."/>
@@ -121,7 +120,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="01a8e17c-27c0-4429-9388-b4c323b87dd7">
 <persname short="BIAN.">Bianca</persname>
 <persaliases>
 	<persname short="Bian."/>
@@ -129,7 +128,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7f362eb0-0408-413f-ac27-e6da34d65995">
 <persname short="SAIL.">Sailor</persname>
 <persaliases>
 	<persname short="Sailor."/>
@@ -137,14 +136,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c0529f13-36a3-4d36-a601-95e3f4d15bd3">
 <persname short="OFF.">Officer</persname>
 <persaliases>
 	<persname short="Officer."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="4cf0b9d9-2fb7-49ab-8cc6-c0d60c89f091">
 <persname short="CLO.">Clown</persname>
 <persaliases>
 	<persname short="Clo."/>
@@ -152,7 +151,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4751a36d-b3ce-47e6-811d-4c3165bf060b">
 <persname short="1. MESS.">First Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;s."/>
@@ -160,7 +159,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="554ea45d-9c60-43c5-a32a-76340ce81f92">
 <persname short="2. MESS.">Second Messenger</persname>
 <persaliases>
 	<persname short="Gent."/>
@@ -168,14 +167,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9b299e83-cf4d-4b52-93e9-08c3217394af">
 <persname short="HER.">Herald</persname>
 <persaliases>
 	<persname short="Herald."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8e30d86d-d810-481e-b5a9-57a8aa1e251c">
 <persname short="1. SEN.">First Senator</persname>
 <persaliases>
 	<persname short="1.Sen."/>
@@ -183,21 +182,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="89481b05-d4ed-4062-b3fb-1dff6e541a19">
 <persname short="2. SEN.">Second Senator</persname>
 <persaliases>
 	<persname short="2.Sena."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ce606d5d-e68e-4bbd-acd7-f9b8a8eb899f">
 <persname short="1. MUS.">First Musician</persname>
 <persaliases>
 	<persname short="Mu&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a02be189-bc27-45fb-8cca-2219e4d52f78">
 <persname short="1. GENT.">First Gentleman</persname>
 <persaliases>
 	<persname short="1.Gent."/>
@@ -206,7 +205,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="48ea7eae-b67e-46cd-9021-f34326f270f5">
 <persname short="2. GENT.">Second Gentleman</persname>
 <persaliases>
 	<persname short="2"/>
@@ -217,7 +216,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2d8970fa-5885-4fe2-a747-af20e88c8522">
 <persname short="3. GENT.">Third Gentleman</persname>
 <persaliases>
 	<persname short="3"/>
@@ -229,9 +228,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Rodorigo, and Iago.</stagedir>
@@ -623,7 +622,7 @@
 <stagedir sdglobalnumber="197.01" sdnumber="197.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 <stagedir sdglobalnumber="197.02" sdnumber="0.01">Enter Othello, Iago, Attendants, with Torches.</stagedir>
 
@@ -880,8 +879,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Sc&#230;na Tertia.</scenetitle>
 <stagedir sdglobalnumber="314.02" sdnumber="0.01">Enter Duke, Senators, and Officers.</stagedir>
 
@@ -1655,9 +1653,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="713.02" sdnumber="0.01">Enter Montano, and two Gentlemen.</stagedir>
@@ -2367,7 +2365,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 <stagedir sdglobalnumber="1072.02" sdnumber="0.01">Enter Othello&#8217;s Herald with a Proclamation.</stagedir>
 
@@ -3215,9 +3213,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">Actus Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">Actus Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1482.02" sdnumber="0.01">Enter Ca&#383;&#383;io, Mu&#383;itians, and Clowne.</stagedir>
@@ -3388,7 +3386,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 <stagedir sdglobalnumber="1523.02" sdnumber="0.01">Enter Othello, Iago, and Gentlemen.</stagedir>
 
@@ -3419,7 +3417,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Sc&#339;na Tertia.</scenetitle>
 <stagedir sdglobalnumber="1547.02" sdnumber="0.01">Enter De&#383;demona, Ca&#383;&#383;io, and &#198;milia.</stagedir>
 
@@ -4639,7 +4637,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#230;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2089.02" sdnumber="0.01">Enter De&#383;demona, &#198;milia, and Clown.</stagedir>
@@ -5254,9 +5252,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="2316.02" sdnumber="0.01">Enter Othello, and Iago.</stagedir>
@@ -6178,7 +6176,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 <stagedir sdglobalnumber="2627.02" sdnumber="0.01">Enter Othello and &#198;milia.</stagedir>
 
@@ -6887,7 +6885,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Scena Tertia.</scenetitle>
 <stagedir sdglobalnumber="2899.02" sdnumber="0.01">Enter Othello, Lodouico, De&#383;demona, &#198;milia, and Atendants.</stagedir>
 
@@ -7177,9 +7175,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="3011.02" sdnumber="0.01">Enter Iago, and Rodorigo.</stagedir>
@@ -7657,7 +7655,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Sc&#339;na Secunda.</scenetitle>
 <stagedir sdglobalnumber="3161.02" sdnumber="0.01">Enter Othello, and De&#383;demona in her bed.</stagedir>
 
@@ -8863,8 +8861,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

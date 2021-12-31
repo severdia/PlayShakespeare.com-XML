@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="tempest">
 <title short="The Tempest">THE<lb />TEMPEST.</title>
@@ -12,7 +12,7 @@
 
 <personae playtitle="The Tempest">
 
-<persona gender="male">
+<persona gender="male" id="264bcb37-1434-44cb-8d1d-e2b7ac2dfb89">
 <persname short="ALON.">Alonso</persname>
 <persaliases>
 	<persname short="Al."/>
@@ -22,7 +22,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4abfca5a-34ec-42a8-aad5-327d1630b84a">
 <persname short="SEB.">Sebastian</persname>
 <persaliases>
 	<persname short="Seb."/>
@@ -30,7 +30,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="643e8ded-2a78-42f4-a389-6834c9d1d72a">
 <persname short="PROS.">Prospero</persname>
 <persaliases>
 	<persname short="Pro&#383;."/>
@@ -39,7 +39,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="85733ade-17e5-42c2-b80c-40464c866622">
 <persname short="ANT.">Antonio</persname>
 <persaliases>
 	<persname short="Anth."/>
@@ -48,7 +48,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" id="4362222e-7ae0-414f-8619-456ba5bd0e70">
 <persname short="FER.">Ferdinand</persname>
 <persaliases>
 	<persname short="Fer."/>
@@ -56,7 +56,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9e7f813c-619b-4713-909c-3c99f8ecce65">
 <persname short="GON.">Gonzalo</persname>
 <persaliases>
 	<persname short="Gon."/>
@@ -64,7 +64,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="47cfe209-2c11-4811-b12a-6108316e43f6">
 <persname short="ADR.">Adrian</persname>
 <persaliases>
 	<persname short="Ad"/>
@@ -73,7 +73,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d1caa66a-3c3d-4186-af31-7a9a39f7b3d8">
 <persname short="FRAN.">Francisco</persname>
 <persaliases>
 	<persname short="Fr."/>
@@ -81,14 +81,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cee716b4-f94d-4eb2-a55a-69cc51b26d87">
 <persname short="CAL.">Caliban</persname>
 <persaliases>
 	<persname short="Cal."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="8d559d58-b719-4e94-9a42-9816f61c1bc2">
 <persname short="TRIN.">Trinculo</persname>
 <persaliases>
 	<persname short="Tr."/>
@@ -97,7 +97,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="f10be947-b754-4c98-b396-376cf91ab9cf">
 <persname short="STE.">Stephano</persname>
 <persaliases>
 	<persname short="St."/>
@@ -105,16 +105,15 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" id="ebc90147-02ce-449d-acef-94f89aa36c24">
 <persname short="MIR.">Miranda</persname>
 <persaliases>
 	<persname short="Mir."/>
 	<persname short="Mira."/>	
-	<persname short="BOTH FER. AND MIR.">Both Ferdinand and Miranda</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="b43a328e-6196-464b-9002-6f9ee6cb5ab5">
 <persname short="ARI.">Ariel</persname>
 <persaliases>
 	<persname short="Ar"/>
@@ -125,7 +124,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="1df54765-894f-499a-9016-e8469e351b9c">
 <persname short="IRIS.">Iris</persname>
 <persaliases>
 	<persname short="Ir."/>
@@ -133,21 +132,21 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="98c1c46d-0482-4c94-8bff-addaea6fcdbd">
 <persname short="CER.">Ceres</persname>
 <persaliases>
 	<persname short="Cer."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="7c0e5b29-f29a-4a53-b21f-7477ba8ca769">
 <persname short="JUNO.">Juno</persname>
 <persaliases>
 	<persname short="Iu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e24e45c8-73cd-4429-b946-b531db701123">
 <persname short="MAST.">Master of a Ship</persname>
 <persaliases>
 	<persname short="Ma&#383;t."/>
@@ -155,7 +154,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2ffa06dc-8d8e-4cb4-999a-41a9c94cc0e8">
 <persname short="BOATS.">Boatswain</persname>
 <persaliases>
 	<persname short="Bot."/>
@@ -163,7 +162,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5a678060-cc07-406b-8971-226c80b792be">
 <persname short="MARINERS.">Mariners</persname>
 <persaliases>
 	<persname short="Mari."/>
@@ -172,9 +171,9 @@
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus, Scena prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus, Scena prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">A tempe&#383;tuous noi&#383;e of Thunder and Lightning heard: Enter a Ship-ma&#383;ter, and a Bote&#383;waine.</stagedir>
@@ -377,7 +376,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="69.02" sdnumber="0.01">Enter Pro&#383;pero and Miranda.</stagedir>
@@ -1551,9 +1550,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="659.02" sdnumber="0.01">Enter Alonso, Seba&#383;tian, Anthonio, Gonzalo, Adrian, Franci&#383;co, and others.</stagedir>
@@ -2578,7 +2577,7 @@
 <stagedir sdglobalnumber="1023.01" sdnumber="364.01">Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1023.02" sdnumber="0.01">Enter Caliban, with a burthen of Wood (a noy&#383;e of Thunder heard.)</stagedir>
@@ -2972,9 +2971,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1215.02" sdnumber="0.01">Enter Ferdinand (bearing a Log.)</stagedir>
@@ -3201,8 +3200,7 @@
 
 </scene>
 
-<scene>
-
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Sc&#339;na Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1329.02" sdnumber="0.01">Enter Caliban, Stephano, and Trinculo.</stagedir>
@@ -3638,7 +3636,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1487.02" sdnumber="0.01">Enter Alonso, Seba&#383;tian, Anthonio, Gonzallo, Adrian, Franci&#383;co, &amp;c.</stagedir>
@@ -3894,9 +3892,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1611.02" sdnumber="0.01">Enter Pro&#383;pero, Ferdinand, and Miranda.</stagedir>
@@ -4503,9 +4501,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us quintus: Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us quintus: Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1894.02" sdnumber="0.01">Enter Pro&#383;pero (in his Magicke robes) and Ariel.</stagedir>
@@ -5197,13 +5195,14 @@
 <stagedir sdglobalnumber="2254.01" sdnumber="360.01">Exeunt omnes.</stagedir>
 
 </scene>
-</act>
 
-<epilogue>
+
+<epilogue actnum="5">
 <scenetitle>EPILOGVE,</scenetitle>
 <stagedir sdglobalnumber="2254.02" sdnumber="0.01"><emph rend="noitalic">&#383;poken by</emph> Pro&#383;pero.</stagedir>
 
 <speech>
+<speaker rend="hidden">Epilogue</speaker>
 <line globalnumber="2255" number="1" order="first"><dropcap type="regular" size="small">N</dropcap>ow my Charmes are all ore-throwne,</line>
 <line globalnumber="2256" number="2" order="second">And what &#383;trength I haue&#8217;s mine owne.</line>
 <line globalnumber="2257" number="3">Which is mo&#383;t faint: now &#8217;tis true</line>
@@ -5228,6 +5227,8 @@
 
 <stagedir sdglobalnumber="2274.01" sdnumber="18.01">Exit.</stagedir>
 </epilogue>
+
+</act>
 
 <endpersonae>
 <persloc>The Scene, an vn-inhabited I&#383;land</persloc>
@@ -5264,8 +5265,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

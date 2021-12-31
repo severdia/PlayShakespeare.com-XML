@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="taming-of-the-shrew">
 <title short="Taming of the Shrew">THE<lb />Taming of the Shrew.</title>
@@ -12,7 +12,7 @@
 
 <personae playtitle="Taming of the Shrew">
 
-<persona gender="male">
+<persona gender="male" id="c1daa6e8-5a1b-44e2-9b12-305ead6f29ca">
 <persname short="LORD.">Lord</persname>
 <persaliases>
 	<persname short="Lo."/>
@@ -20,11 +20,10 @@
 	<persname short="Vin."/>
 	<persname short="Vinc."/>
 	<persname short="All."/>
-	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="561a9185-0cf3-4e3b-ab23-94c0a88af543">
 <persname short="SLY.">Christopher Sly</persname>
 <persaliases>
 	<persname short="Beg."/>
@@ -32,14 +31,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="clown" id="08ed2aee-59c1-4d6f-9d00-073f63be668c">
 <persname short="HOST.">Hostess</persname>
 <persaliases>
 	<persname short="Ho&#383;t."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4f169778-f644-48df-ab57-fe0d02411ad2">
 <persname short="PAGE.">Page (Bartholomew)</persname>
 <persaliases>
 	<persname short="La."/>
@@ -47,7 +46,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4343ed0a-d2f4-4afb-8a1b-f23cdec4538c">
 <persname short="BAP.">Baptista</persname>
 <persaliases>
 	<persname short="Bap"/>
@@ -56,7 +55,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ea6048ea-a6c0-4e7c-9452-aca406ca444f">
 <persname short="VIN.">Vincentio</persname>
 <persaliases>
 	<persname short="Vin"/>
@@ -66,7 +65,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dc23871d-bc08-4d08-a43a-8911d24cf6a8">
 <persname short="LUC.">Lucentio</persname>
 <persaliases>
 	<persname short="Luc"/>
@@ -75,7 +74,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="1e692438-f6e7-45c9-a656-771f1222ce73">
 <persname short="PET.">Petruchio</persname>
 <persaliases>
 	<persname short="Pet"/>
@@ -85,7 +84,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6c1d3751-8ff5-4e43-b89e-1e31cb4fae83">
 <persname short="GRE.">Gremio</persname>
 <persaliases>
 	<persname short="Gre."/>
@@ -93,11 +92,10 @@
 	<persname short="Grem."/>
 	<persname short="Gremio."/>
 	<persname short="Gre.Tra."/>
-	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="ff9c4e26-e7da-491f-b811-7ef3d52ed8c7">
 <persname short="HOR.">Hortensio</persname>
 <persaliases>
 	<persname short="Hor."/>
@@ -106,7 +104,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="28737fb2-955d-4004-bff1-90b4c6c2ed71">
 <persname short="TRA.">Tranio</persname>
 <persaliases>
 	<persname short="Tra."/>
@@ -115,32 +113,29 @@
 	<persname short="Par."/>
 	<persname short="Tranio."/>
 	<persname short="Gre.Tra."/>
-	<persname short="BOTH GRE. AND TRA.">Both Gremio and Tranio</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="0652871a-5dc5-43b4-9b76-f4807934be51">
 <persname short="BION.">Biondello</persname>
 <persaliases>
 	<persname short="Bio"/>
 	<persname short="Bio."/>
 	<persname short="Bion."/>
 	<persname short="Biond."/>
-	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="4cc3a432-19c3-4d94-98dc-827deb4a0899">
 <persname short="GRU.">Grumio</persname>
 <persaliases>
 	<persname short="Gru"/>
 	<persname short="Gru."/>
 	<persname short="Grumio."/>
-	<persname short="GRU., BION.">Both Grumio and Biondello</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="f45d8e64-84a0-41ec-8d75-481b9a593431">
 <persname short="CURT.">Curtis</persname>
 <persaliases>
 	<persname short="Cur."/>
@@ -148,7 +143,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0fbb40b6-1736-4028-8d8f-ed9517d8acc7">
 <persname short="PED.">Pedant</persname>
 <persaliases>
 	<persname short="Ped."/>
@@ -157,7 +152,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="cbca4835-086b-4daf-a2b6-2d8d6b3aa52d">
 <persname short="KATH.">Katherina</persname>
 <persaliases>
 	<persname short="Ka"/>
@@ -168,7 +163,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="b77fe878-700b-4c45-9012-ca0e27543424">
 <persname short="BIAN.">Bianca</persname>
 <persaliases>
 	<persname short="Bian."/>
@@ -177,14 +172,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="63f5d568-b65d-4a51-877a-bfaa6ca92074">
 <persname short="WID.">Widow</persname>
 <persaliases>
 	<persname short="Wid."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="355c49f1-5b67-4d7d-b811-abf02fed1706">
 <persname short="TAI.">Tailor</persname>
 <persaliases>
 	<persname short="Tai."/>
@@ -192,72 +187,67 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="099b3ad2-1275-4f6b-bb11-171590fec649">
 <persname short="HAB.">Haberdasher</persname>
 <persaliases>
 	<persname short="Fel."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1830c9ea-6a26-4c34-a202-86ddbc0776a8">
 <persname short="PETER.">Peter</persname>
 <persaliases>
 	<persname short="Peter."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2a1b3a0a-597d-4c67-86b9-4910e65fc477">
 <persname short="1. SERV.">First Servingman</persname>
 <persaliases>
 	<persname short="Ser."/>
 	<persname short="1.Ser."/>
 	<persname short="1.Man."/>
 	<persname short="All."/>
-	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e88f12ff-0fc6-4cff-8b3a-e8e3d9e75cab">
 <persname short="2. SERV.">Second Servingman</persname>
 <persaliases>
 	<persname short="2.M."/>
 	<persname short="2.Man."/>
 	<persname short="2.Ser."/>
 	<persname short="All."/>
-	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="81adc09b-2e17-4212-8aa2-e146d8aaaf01">
 <persname short="3. SERV.">Third Servingman</persname>
 <persaliases>
 	<persname short="3.Ser."/>
 	<persname short="3.Man."/>
 	<persname short="All."/>
-	<persname short="ALL SERV. AND LORD.">All Servants and Lord</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c7607926-656f-4aba-bba5-62276361224f">
 <persname short="1. PLAY.">First Player</persname>
 <persaliases>
 	<persname short="Plai."/>
 	<persname short="Sincklo."/>
 	<persname short="Players."/>
-	<persname short="ALL PLAYERS.">All Players</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="320df8a6-9447-4346-afa5-19dc22b0e475">
 <persname short="2. PLAY.">Second Player</persname>
 <persaliases>
 	<persname short="2.Player."/>
 	<persname short="Players."/>
-	<persname short="ALL PLAYERS.">All Players</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="b81e7bc7-8396-463b-900c-8710831faea4">
 <persname short="1. HUN.">First Huntsman</persname>
 <persaliases>
 	<persname short="1.Hun."/>
@@ -266,7 +256,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="078bc4bf-836a-4920-bcb0-391faf6bde82">
 <persname short="2. HUN.">Second Huntsman</persname>
 <persaliases>
 	<persname short="2.H."/>
@@ -274,71 +264,59 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="42a8cc08-a8df-4717-94f7-fbbd08641b6b">
 <persname short="NICH.">Nicholas</persname>
 <persaliases>
 	<persname short="Nick."/>
 	<persname short="All &#383;er."/>
-	<persname short="ALL SERV.">All Servants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="531ccc65-bdf8-4763-91fd-877697e86ae0">
 <persname short="JOS.">Joseph</persname>
 <persaliases>
 	<persname short="Ios."/>
 	<persname short="1.Ser."/>
 	<persname short="All &#383;er."/>
-	<persname short="ALL SERV.">All Servants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="f8d01add-78be-4842-b2cf-531db947755f">
 <persname short="PHIL.">Philip</persname>
 <persaliases>
 	<persname short="Phil."/>
 	<persname short="All &#383;er."/>
-	<persname short="ALL SERV.">All Servants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e82e0d6c-4fcb-4e66-9460-a7a267e03c67">
 <persname short="NATH.">Nathaniel</persname>
 <persaliases>
 	<persname short="Nat."/>
 	<persname short="Nath."/>
 	<persname short="All &#383;er."/>
-	<persname short="ALL SERV.">All Servants</persname>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="75d92322-ea49-4965-b6d8-a0ae05295acc">
 <persname short="BAP. MESS.">Baptista&#8217;s Messenger</persname>
 <persaliases>
 	<persname short="Nicke."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="adf74270-7444-4c51-a27f-f187d6d20cfd">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Me&#383;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="BAP. SERV.">Baptista’s Servant</persname>
-</persona>
-
-<persona gender="male">
-<persname short="OFF.">Officer</persname>
-</persona>
-
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Begger and Ho&#383;tes, Chri&#383;tophero Sly.</stagedir>
@@ -3128,9 +3106,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Tertia.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1256.02" sdnumber="0.01">Enter Lucentio, Hortentio, and Bianca.</stagedir>
@@ -4780,9 +4758,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1917.02" sdnumber="0.01">Enter Katherina and Grumio.</stagedir>
@@ -6231,9 +6209,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="2448.02" sdnumber="0.01">Enter Bapti&#383;ta,Vincentio, Gremio, the Pedant, Lucentio, and Bianca. Tranio, Biondello Grumio, and Widdow: The Seruingmen with Tranio bringing in a Banquet</stagedir>
@@ -6847,8 +6825,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

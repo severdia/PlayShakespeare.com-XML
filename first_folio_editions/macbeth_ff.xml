@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="macbeth">
 <title short="Macbeth">THE TRAGEDIE OF<lb />MACBETH.</title>
@@ -11,14 +11,14 @@
 
 <personae playtitle="Macbeth">
 
-<persona gender="male">
+<persona gender="male" death="yes" id="de7b6e64-1bce-4d0b-9a42-5114356388dd">
 <persname short="DUN.">Duncan, King of Scotland</persname>
 <persaliases>
 	<persname short="King."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3daf5853-e6d7-448d-a1b9-3c239817104e">
 <persname short="MAL.">Malcolm</persname>
 <persaliases>
 	<persname short="Mal."/>
@@ -29,7 +29,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="21635243-256d-4dae-a2a9-d5d9e7ef68f7">
 <persname short="DON.">Donalbain</persname>
 <persaliases>
 	<persname short="Don."/>
@@ -38,7 +38,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="villain" death="yes" id="f7c09937-4aa5-47ef-8b4f-1a52f8cb3f22">
 <persname short="MACB.">Macbeth</persname>
 <persaliases>
 	<persname short="Mac."/>
@@ -49,7 +49,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="villain" death="yes" id="e5a1d76f-8dee-43de-a149-6ccd8ba4c451">
 <persname short="L. MACB.">Lady Macbeth</persname>
 <persaliases>
 	<persname short="La."/>
@@ -59,14 +59,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="3e2179f4-e618-4342-8e35-dcc9179561f1">
 <persname short="L. MACD.">Lady Macduff</persname>
 <persaliases>
 	<persname short="Wife."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="93cb1550-28ba-469c-b678-fed4d276e225">
 <persname short="BAN.">Banquo</persname>
 <persaliases>
 	<persname short="Ban."/>
@@ -79,7 +79,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="2eea819f-5ebc-4c7e-be7c-3fde14a36443">
 <persname short="MACD.">Macduff</persname>
 <persaliases>
 	<persname short="Mac."/>
@@ -88,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e16ff2ab-5e80-4df3-8c08-440e2b0ffce5">
 <persname short="LEN.">Lennox</persname>
 <persaliases>
 	<persname short="Len."/>
@@ -99,7 +99,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d8ea7b65-aaf0-41b6-a8aa-93dc510f0176">
 <persname short="ROSSE.">Rosse</persname>
 <persaliases>
 	<persname short="Ro."/>
@@ -110,35 +110,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5405fa5d-4c3b-4ab4-b638-9732c4eecbf6">
 <persname short="MENT.">Menteth</persname>
 <persaliases>
 	<persname short="Ment."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="e075140d-942a-4663-8668-d02949f854d6">
 <persname short="ANG.">Angus</persname>
 <persaliases>
 	<persname short="Ang."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="6a847720-270d-4590-999a-f5c6b649b392">
 <persname short="CATH.">Cathness</persname>
 <persaliases>
 	<persname short="Cath."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9e9a6871-c78c-4fb0-92f6-0ba424f67163">
 <persname short="FLE.">Fleance</persname>
 <persaliases>
 	<persname short="Fleance."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9fb0140c-ff18-4508-b9b4-59d5e45822db">
 <persname short="SIW.">Siward, Earl of Northumberland</persname>
 <persaliases>
 	<persname short="Sey"/>
@@ -149,14 +149,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="caa0a9d9-d52b-4726-92a9-a7fd606cb3ae">
 <persname short="Y. SIW.">Young Siward</persname>
 <persaliases>
 	<persname short="Y. Sey."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a2d52d28-abb3-433f-a746-f01a7c03aead">
 <persname short="SEY.">Seyton</persname>
 <persaliases>
 	<persname short="Sey."/>
@@ -164,35 +164,35 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="91b1b92f-c425-4be3-8301-3caa812fae2b">
 <persname short="SON.">Son to Macduff</persname>
 <persaliases>
 	<persname short="Son."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c1290ecf-428f-43db-96e8-10672c37455c">
 <persname short="DOCT.">English Doctor</persname>
 <persaliases>
 	<persname short="Do&#57348;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c64c7744-3583-4461-8aae-b5e13e7fd195">
 <persname short="DOCT. PHYS.">Doctor of Physic</persname>
 <persaliases>
 	<persname short="Do&#57348;."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="0226efe6-47f5-4b02-86c3-d0c279ba4a5e">
 <persname short="SERG.">Sergeant</persname>
 <persaliases>
 	<persname short="Cap."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="91d23cc7-6757-4534-ac30-793477d7e8ea">
 <persname short="PORT.">Porter</persname>
 <persaliases>
 	<persname short="Port."/>
@@ -200,7 +200,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d73ce336-32a9-4dd0-9853-86fb404b2169">
 <persname short="OLD MAN.">Old Man</persname>
 <persaliases>
 	<persname short="Old M."/>
@@ -208,7 +208,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="023e4eb6-49fb-4010-9f82-af3bd7b48675">
 <persname short="1. MUR.">First Murderer</persname>
 <persaliases>
 	<persname short="1."/>
@@ -219,7 +219,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2c1e271e-051d-4581-b7f7-6c16fe1153d1">
 <persname short="2. MUR.">Second Murderer</persname>
 <persaliases>
 	<persname short="2."/>
@@ -229,14 +229,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="4451f14d-e2a1-44f4-a76b-6ac2e9532abf">
 <persname short="3. MUR.">Third Murderer</persname>
 <persaliases>
 	<persname short="3."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="3c570572-c599-40a1-9838-a2ad8ade0fad">
 <persname short="SERV.">Servant</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -244,7 +244,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9dac6741-456d-4820-9f65-0e33f9f29d31">
 <persname short="SOLDIERS.">Soldiers</persname>
 <persaliases>
 	<persname short="Sold."/>
@@ -252,7 +252,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="497b7b2c-b653-4a3e-b0fc-68e4607f4981">
 <persname short="LORD.">Lord</persname>
 <persaliases>
 	<persname short="Lord."/>
@@ -260,7 +260,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="ee57db27-a1da-41cc-8950-3d56e1f09251">
 <persname short="GENTLEW.">Gentlewoman</persname>
 <persaliases>
 	<persname short="Gent."/>
@@ -268,14 +268,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="11749adb-d7d3-4234-9142-6df5637bd146">
 <persname short="HEC.">Hecat</persname>
 <persaliases>
 	<persname short="Hec."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c7da154a-7954-48f9-962c-a4d3d09c5035">
 <persname short="1. WITCH.">First Witch</persname>
 <persaliases>
 	<persname short="1"/>
@@ -286,7 +286,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="c45f3d1c-7a3c-4c3d-911e-e7b8eb152bf0">
 <persname short="2. WITCH.">Second Witch</persname>
 <persaliases>
 	<persname short="2"/>
@@ -297,7 +297,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="f9f0f6a8-811c-48bc-92c9-bcfae16ec947">
 <persname short="3. WITCH.">Third Witch</persname>
 <persaliases>
 	<persname short="3"/>
@@ -308,7 +308,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="1222cc3c-ec2d-4fab-99c9-297193f83a3f">
 <persname short="4. WITCH.">Fourth Witch</persname>
 <persaliases>
 	<persname short="ALL WITCHES">All Witches</persname>
@@ -317,7 +317,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="953846f7-f4b0-45df-9469-859e932a382a">
 <persname short="5. WITCH.">Fifth Witch</persname>
 <persaliases>
 	<persname short="ALL WITCHES">All Witches</persname>
@@ -326,7 +326,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="4d632c24-2c04-4f46-b26d-05355008a549">
 <persname short="6. WITCH.">Sixth Witch</persname>
 <persaliases>
 	<persname short="ALL WITCHES">All Witches</persname>
@@ -335,7 +335,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="a095b184-6843-44a7-97e2-63ed301da5b3">
 <persname short="1. APP.">First Apparition</persname>
 <persaliases>
 	<persname short="1 Appar."/>
@@ -343,7 +343,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="26ddacd5-3b0a-418d-9214-7510c8ead525">
 <persname short="2. APP.">Second Apparition</persname>
 <persaliases>
 	<persname short="2 Appar."/>
@@ -351,7 +351,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="35d828c6-9b51-4719-a313-a4d4fe58b349">
 <persname short="3. APP.">Third Apparition</persname>
 <persaliases>
 	<persname short="3 Appar."/>
@@ -359,7 +359,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="26753d0a-34f3-4d5b-a147-f2356d39ac0a">
 <persname short="MACB. MESS.">Macbeth&#8217;s Messenger</persname>
 <persaliases>
 	<persname short="Mes."/>
@@ -367,22 +367,22 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9a95574f-446f-43aa-822d-398e34d6573a">
 <persname short="MESS.">Messenger</persname>
 <persaliases>
 	<persname short="Mes."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="1f7b37e1-a99d-4860-84ef-58bd7e0ba3a0">
 <persname short="SEW.">Sewer</persname>
 </persona>
 
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Thunder and Lightning. Enter three Witches.</stagedir>
@@ -434,7 +434,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="2">
 <scenetitle id="scene1_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="11.02" sdnumber="0.01">Alarum within. Enter King Malcome, Donalbaine, Lenox, with attendants, meeting a bleeding Captaine.</stagedir>
@@ -592,7 +592,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="3">
 <scenetitle id="scene1_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="87.02" sdnumber="0.01">Thunder. Enter the three Witches.</stagedir>
@@ -990,7 +990,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="4">
 <scenetitle id="scene1_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="264.02" sdnumber="0.01">Flouri&#383;h. Enter King, Lenox, Malcolme, Donalbaine, and Attendants.</stagedir>
@@ -1111,7 +1111,7 @@
 <stagedir sdglobalnumber="330.01" sdnumber="66.01">Flouri&#383;h. Exeunt.</stagedir>
 </scene>
 
-<scene>
+<scene actnum="1" num="5">
 <scenetitle id="scene1_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="330.02" sdnumber="0.01">Enter Macbeths Wife alone with a Letter.</stagedir>
@@ -1248,7 +1248,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="6">
 <scenetitle id="scene1_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="411.02" sdnumber="0.01">Hoboyes, and Torches. Enter King, Malcolme, Donalbaine, Banquo, Lenox, Macduff, Ro&#383;&#383;e, Angus, and Attendants.</stagedir>
@@ -1324,7 +1324,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="1" num="7">
 <scenetitle id="scene1_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="448.02" sdnumber="0.01">Ho-boyes. Torches. Enter a Sewer, and diuers Seruants with Di&#383;hes and Seruice ouer the Stage. Then enter Macbeth.</stagedir>
@@ -1479,9 +1479,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="540.02" sdnumber="0.01">Enter Banquo, and Fleance, with a Torch before him.</stagedir>
@@ -1632,7 +1632,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="2">
 <scenetitle id="scene2_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="613.02" sdnumber="0.01">Enter Lady.</stagedir>
@@ -1854,7 +1854,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="3">
 <scenetitle id="scene2_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="703.02" sdnumber="0.01">Enter a Porter.</stagedir>
@@ -2274,7 +2274,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="2" num="4">
 <scenetitle id="scene2_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="873.02" sdnumber="0.01">Enter Ro&#383;&#383;e, with an Old man.</stagedir>
@@ -2422,9 +2422,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius. Scena Prima.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="926.02" sdnumber="0.01">Enter Banquo.</stagedir>
@@ -2732,7 +2732,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="2">
 <scenetitle id="scene3_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1090.02" sdnumber="0.01">Enter Macbeths Lady, and a Seruant.</stagedir>
@@ -2863,7 +2863,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="3">
 <scenetitle id="scene3_3">Scena Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1153.02" sdnumber="0.01">Enter three Murtherers.</stagedir>
@@ -2988,7 +2988,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="4">
 <scenetitle id="scene3_4">Sc&#339;na Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="1186.02" sdnumber="0.01">Banquet prepar&#8217;d. Enter Macbeth, Lady, Ro&#383;&#383;e, Lenox, Lords, and Attendants.</stagedir>
@@ -3387,7 +3387,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="5">
 <scenetitle id="scene3_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="1355.02" sdnumber="0.01">Thunder. Enter the three Witches, meeting Hecat.</stagedir>
@@ -3448,7 +3448,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="3" num="6">
 <scenetitle id="scene3_6">Sc&#339;na Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="1392.02" sdnumber="0.01">Enter Lenox, and another Lord.</stagedir>
@@ -3536,9 +3536,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1446.02" sdnumber="0.01">Thunder. Enter the three Witches.</stagedir>
@@ -3956,7 +3956,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="2">
 <scenetitle id="scene4_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="1618.02" sdnumber="0.01">Enter Macduffes Wife, her Son, and Ro&#383;&#383;e.</stagedir>
@@ -4235,7 +4235,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="4" num="3">
 <scenetitle id="scene4_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="1716.02" sdnumber="0.01">Enter Malcolme and Macduffe.</stagedir>
@@ -4787,9 +4787,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus. Scena Prima.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus. Scena Prima.</scenetitle>
 
 <stagedir sdglobalnumber="1992.02" sdnumber="0.01">Enter a Do&#57348;or of Phy&#383;icke, and a Wayting Gentlewoman.</stagedir>
@@ -5006,7 +5006,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="2">
 <scenetitle id="scene5_2">Scena Secunda.</scenetitle>
 
 <stagedir sdglobalnumber="2069.02" sdnumber="0.01">Drum and Colours. Enter Menteth, Cathnes, Angus, Lenox, Soldiers.</stagedir>
@@ -5092,7 +5092,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="3">
 <scenetitle id="scene5_3">Sc&#339;na Tertia.</scenetitle>
 
 <stagedir sdglobalnumber="2106.02" sdnumber="0.01">Enter Macbeth, Do&#57348;or, and Attendants.</stagedir>
@@ -5254,7 +5254,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="4">
 <scenetitle id="scene5_4">Scena Quarta.</scenetitle>
 
 <stagedir sdglobalnumber="2176.02" sdnumber="0.01">Drum and Colours. Enter Malcolme, Seyward, Macduffe, Seywards Sonne, Menteth, Cathnes, Angus, and Soldiers Marching.</stagedir>
@@ -5330,7 +5330,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="5">
 <scenetitle id="scene5_5">Scena Quinta.</scenetitle>
 
 <stagedir sdglobalnumber="2203.02" sdnumber="0.01">Enter Macbeth, Seyton, &amp; Souldiers, with Drum and Colours.</stagedir>
@@ -5441,7 +5441,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="6">
 <scenetitle id="scene5_6">Scena Sexta.</scenetitle>
 
 <stagedir sdglobalnumber="2258.02" sdnumber="0.01">Drumme and Colours. Enter Malcolme, Seyward, Macduffe, and their Army, with Boughes.</stagedir>
@@ -5476,7 +5476,7 @@
 
 </scene>
 
-<scene>
+<scene actnum="5" num="7">
 <scenetitle id="scene5_7">Scena Septima.</scenetitle>
 
 <stagedir sdglobalnumber="2270.03" sdnumber="0.01">Enter Macbeth.</stagedir>
@@ -5787,8 +5787,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

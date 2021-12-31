@@ -11,11 +11,14 @@
 
 <personae playtitle="Romeo and Juliet">
 
-<persona gender="male">
+<persona gender="male" id="615b68fb-ad77-42fe-8cdd-3d8184e4dd05">
 <persname short="CHORUS.">Chorus</persname>
+<persaliases>
+	<persname short="Chorus" />
+</persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c99a572-ce40-455f-973b-c5a902a0a390">
 <persname short="PRIN.">Prince Escalus</persname>
 <persaliases>
 	<persname short="Prin:"/>
@@ -24,7 +27,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a99c433b-982e-484c-a031-5281633dfc3c">
 <persname short="PAR.">Paris</persname>
 <persaliases>
 	<persname short="Par:"/>
@@ -32,7 +35,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5e1994cf-e7a9-4ee7-9df7-661672789f4c">
 <persname short="MON.">Montague</persname>
 <persaliases>
 	<persname short="Moun:"/>
@@ -40,7 +43,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd37509b-73a3-4807-a60b-cb0792b1b0ec">
 <persname short="CAP.">Capulet</persname>
 <persaliases>
 	<persname short="Ca:"/>
@@ -50,14 +53,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cfeb3435-ceff-458d-bf18-2499e8b04bff">
 <persname short="OLD. CAP.">Old Capulet</persname>
 <persaliases>
 	<persname short="Co&#383;:"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" death="yes" id="8c84f117-f06e-497b-aaea-8c5e670eb87a">
 <persname short="ROM.">Romeo</persname>
 <persaliases>
 	<persname short="Ro:"/>
@@ -66,7 +69,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="3b12411d-b8ca-4777-adba-11f1c630f2db">
 <persname short="MER.">Mercutio</persname>
 <persaliases>
 	<persname short="Me:"/>
@@ -75,7 +78,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dbec5092-852b-42f6-8e63-81e49e87dd67">
 <persname short="BEN.">Benvolio</persname>
 <persaliases>
 	<persname short="Ben:"/>
@@ -85,7 +88,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="d5e81a72-7887-438a-8a1f-750dd912f625">
 <persname short="TYB.">Tybalt</persname>
 <persaliases>
 	<persname short="Ti:"/>
@@ -95,14 +98,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" mute="yes" id="7cf0ee9c-cf69-4fcb-969b-ede070220fe1">
 <persname short="PETR.">Petruchio</persname>
 <persaliases>
 	<persname short="Pet:"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="56ee913f-e249-40d0-94a9-d216e27a5ad6">
 <persname short="FRI. L.">Friar Lawrence</persname>
 <persaliases>
 	<persname short="Fr:"/>
@@ -113,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="55301776-237f-4e40-b0f7-c5911fcf5ce5">
 <persname short="FRI. J.">Friar John</persname>
 <persaliases>
 	<persname short="John."/>
@@ -124,7 +127,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d5207d14-8300-42b6-b1e0-a698a884b737">
 <persname short="BAL.">Balthasar</persname>
 <persaliases>
 	<persname short="Balt:"/>
@@ -135,14 +138,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1940d4ee-c673-49ac-9a6b-7c3fc633b1fa">
 <persname short="ABR.">Abram</persname>
 <persaliases>
 	<persname short="1 Moun:"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="508ca5b0-2bd7-4cf2-bbd3-5ba6297996bb">
 <persname short="SAM.">Sampson</persname>
 <persaliases>
 	<persname short="Sampson."/>
@@ -150,21 +153,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="b21b1b39-31ec-4726-94b3-083a1000de04">
 <persname short="GRE.">Gregory</persname>
 <persaliases>
 	<persname short="2"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2fee57ef-fb6a-47db-88a5-a41cd76bb274">
 <persname short="AP.">Apothecary</persname>
 <persaliases>
 	<persname short="Apo:"/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="7d94ff13-84bb-4bde-8ba5-b8f4695025be">
 <persname short="L. CAP.">Lady Capulet</persname>
 <persaliases>
 	<persname short="VV:"/>
@@ -175,7 +178,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" death="yes" id="197d429d-b96d-462f-b57e-c78edaad0a8b">
 <persname short="JUL.">Juliet</persname>
 <persaliases>
 	<persname short="Iu:"/>
@@ -186,7 +189,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2d3f61ab-8000-4892-b5e5-6c48d28b6b33">
 <persname short="NURSE.">Nurse</persname>
 <persaliases>
 	<persname short="Nu:"/>
@@ -199,14 +202,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="525cfaf9-128d-48f2-b03f-54358359267e">
 <persname short="CAPT.">Captain of the Watch</persname>
 <persaliases>
 	<persname short="Capt:" />
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="28767b48-4d4e-4cdb-853f-1f76a9a3f5e0">
 <persname short="1. WATCH.">First Watchman</persname>
 <persaliases>
 	<persname short="Watch."/>
@@ -214,7 +217,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d4fe834d-3d35-4e74-a151-377ee7f1d3b0">
 <persname short="1. SERV.">First Servingman</persname>
 <persaliases>
 	<persname short="Ser:"/>
@@ -223,7 +226,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7bcac5b7-cb43-400f-943a-37a58d3fbd1c">
 <persname short="2. SERV.">Second Servingman</persname>
 <persaliases>
 	<persname short="2."/>
@@ -231,7 +234,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c0776d06-89db-49e3-80c5-1a92b18d239c">
 <persname short="3. SERV.">Third Servingman</persname>
 <persaliases>
 	<persname short="3."/>
@@ -240,15 +243,14 @@
 
 </personae>
 
-<act>
-
-<prologue>
+<act num="1">
+<prologue actnum="1" num="0">
 <scenetitle type="prologue">The Prologue.</scenetitle>
 
 <speech>
 <speaker rend="hidden">Chorus</speaker>
 <line globalnumber="1" number="1" order="first"><dropcap type="regular" size="medium">T</dropcap><emph>VVo hou&#383;hold Frends alike in dignitie,</emph></line>
-<line globalnumber="2" number="2" order="second"><emph>(In faire </emph>Verona<emph>, where we lay our Scene)</emph></line>
+<line globalnumber="2" number="2" order="second"><emph>(In faire </emph>Verona, <emph>where we lay our Scene)</emph></line>
 <line globalnumber="3" number="3" order="third"><emph>From ciuill broyles broke into enmitie,</emph></line>
 <line globalnumber="4" number="4"><emph>VVho&#383;e ciuill warre makes ciuill hands vncleane.</emph></line>
 <line globalnumber="5" number="5"><emph>From forth the fatall loynes of the&#383;e two foes,</emph></line>
@@ -912,7 +914,7 @@
 
 <speech>
 <speaker>Nurce:</speaker>
-<line globalnumber="228" number="216"><emph>Ile lay fourteene of my teeth, and yet to my recne be it &#383;poken, I haue but foure, &#383;hee&#8217;s not fourteene.</emph></line>
+<line globalnumber="228" number="216"><emph>Ile lay fourteene of my teeth, and yet to my teene be it &#383;poken, I haue but foure, &#383;hee&#8217;s not fourteene.</emph></line>
 <line globalnumber="229" number="217"><emph>How long is it now to </emph>Lammas-tide?</line>
 </speech>
 
@@ -923,7 +925,7 @@
 
 <speech>
 <speaker>Nurce:</speaker>
-<line globalnumber="231" number="219"><emph>Euen or odde, of all dayes in the yeare come </emph>Lammas<emph> Eue at night &#383;hall &#383;he be fourteene. <name type="person">Su&#383;an</name> and &#383;he God re&#64261; all Chri&#64261;ian &#383;oules were of an age. VVell <name type="person">Su&#383;an</name> is with God, &#383;he was too good for me: But as I &#383;aid on </emph>Lammas<emph> Eue at night &#383;hall &#383;he be fourteene, that &#383;hall &#383;hee marie I remember it well. Tis &#64257;nce the Earth-quake nowe eleauen yeares, and &#383;he was weand I neuer &#383;hall forget it, of all the daies of the yeare vpon that day: for I had then laid wormewood to my dug, &#64257;tting in the &#383;un vnder the Doue-hou&#383;e wall. My Lord and you were then at </emph>Mantua<emph>, nay I do beare a braine: But as I &#383;aid, when it did ta&#64261; the wormwood on the nipple of my dug, &#38; felt it bitter, pretty foole to &#383;ee it reachie and fall out with Dugge. Shake quoth the Doue-hou&#383;e twas no need I trow to bid me trudge, and &#64257;nce that time it is a leauen yeare: for then could <name type="person">Iuliet</name> &#64261;ande high lone, nay by the Roode, &#383;hee could haue wadled vp and downe, for euen the day before &#383;hee brake her brow, and then my husband God be with his &#383;oule, hee was a merrie man: Do&#64261; thou fall forward <name type="person">Iuliet</name>? thou wilt fall backward when thou ha&#64261; more wit: wilt thou not <name type="person">Iuliet</name>? and by my hollidam, the pretty foole left crying and &#383;aid I. To &#383;ee how a iea&#64261; &#383;hall come about, I warrant you if I &#383;hould liue a hundred yeare, I neuer &#383;hould forget it, wilt thou not <name type="person">Iuliet</name>? and by my troth &#383;he &#64261;inted and cried I.</emph></line>
+<line globalnumber="231" number="219"><emph>Euen or odde, of all dayes in the yeare come </emph>Lammas <emph>Eue at night &#383;hall &#383;he be fourteene. <name type="person">Su&#383;an</name> and &#383;he God re&#64261; all Chri&#64261;ian &#383;oules were of an age. VVell <name type="person">Su&#383;an</name> is with God, &#383;he was too good for me: But as I &#383;aid on </emph>Lammas <emph>Eue at night &#383;hall &#383;he be fourteene, that &#383;hall &#383;hee marie I remember it well. Tis &#64257;nce the Earth-quake nowe eleauen yeares, and &#383;he was weand I neuer &#383;hall forget it, of all the daies of the yeare vpon that day: for I had then laid wormewood to my dug, &#64257;tting in the &#383;un vnder the Doue-hou&#383;e wall. My Lord and you were then at </emph>Mantua, <emph>nay I do beare a braine: But as I &#383;aid, when it did ta&#64261; the wormwood on the nipple of my dug, &#38; felt it bitter, pretty foole to &#383;ee it reachie and fall out with Dugge. Shake quoth the Doue-hou&#383;e twas no need I trow to bid me trudge, and &#64257;nce that time it is a leauen yeare: for then could <name type="person">Iuliet</name> &#64261;ande high lone, nay by the Roode, &#383;hee could haue wadled vp and downe, for euen the day before &#383;hee brake her brow, and then my husband God be with his &#383;oule, hee was a merrie man: Do&#64261; thou fall forward <name type="person">Iuliet</name>? thou wilt fall backward when thou ha&#64261; more wit: wilt thou not <name type="person">Iuliet</name>? and by my hollidam, the pretty foole left crying and &#383;aid I. To &#383;ee how a iea&#64261; &#383;hall come about, I warrant you if I &#383;hould liue a hundred yeare, I neuer &#383;hould forget it, wilt thou not <name type="person">Iuliet</name>? and by my troth &#383;he &#64261;inted and cried I.</emph></line>
 </speech>
 
 <speech>
@@ -5409,8 +5411,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

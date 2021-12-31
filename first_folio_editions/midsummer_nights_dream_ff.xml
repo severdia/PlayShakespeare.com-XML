@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="midsummer-nights-dream">
 <title short="Midsommer Nights Dreame">A<lb />MIDSOMMER<lb />Nights Dreame.</title>
@@ -11,7 +11,7 @@
 
 <personae playtitle="A Midsummer Night&#8217;s Dream">
 
-<persona gender="male">
+<persona gender="male" id="a07c1703-f577-4d99-9bcf-d2b2367d1abe">
 <persname short="THE.">Theseus, Duke of Athens</persname>
 <persaliases>
 	<persname short="The."/>
@@ -23,7 +23,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="56822bd3-6791-4c90-a337-8f6e8d33edfe">
 <persname short="EGE.">Egeus</persname>
 <persaliases>
 	<persname short="Ege."/>
@@ -31,7 +31,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" id="975b30d7-87ee-4470-95b4-4e39cec8c383">
 <persname short="LYS.">Lysander</persname>
 <persaliases>
 	<persname short="Ly&#383;."/>
@@ -41,7 +41,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" id="3078e08d-9aa7-4b98-a9d3-b0cfe59f3cac">
 <persname short="DEM.">Demetrius</persname>
 <persaliases>
 	<persname short="De."/>
@@ -51,7 +51,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="01078bae-50e9-4664-aa0a-980af3d2518c">
 <persname short="PHIL.">Philostrate</persname>
 <persaliases>
 	<persname short="Ege."/>
@@ -59,7 +59,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="b464786b-377b-45c5-ba57-fa4bea332cba">
 <persname short="QUIN.">Quince</persname>
 <persaliases>
 	<persname short="Qu."/>
@@ -74,7 +74,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="c885f455-b724-4524-848b-cd77ce482240">
 <persname short="BOT.">Bottom</persname>
 <persaliases>
 	<persname short="Bot."/>
@@ -92,7 +92,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="2cf4a348-6bfb-499b-84a7-f006751a8f8c">
 <persname short="FLU.">Flute</persname>
 <persaliases>
 	<persname short="Flu."/>
@@ -104,7 +104,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="459d5b8b-93d7-4b4a-9854-46aff748f67b">
 <persname short="SNOUT.">Snout</persname>
 <persaliases>
 	<persname short="Sn."/>
@@ -116,7 +116,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="ac3ba4e1-a87b-4f71-8c42-7831ee5c6eac">
 <persname short="SNUG.">Snug</persname>
 <persaliases>
 	<persname short="Snug."/>
@@ -126,7 +126,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="50fe2d96-9f22-4345-8fb8-0813c5de403b">
 <persname short="STAR.">Starveling</persname>
 <persaliases>
 	<persname short="Star."/>
@@ -138,7 +138,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="0e890108-ed69-4efa-843f-3c0a8351b342">
 <persname short="HIP.">Hippolyta</persname>
 <persaliases>
 	<persname short="Hip."/>
@@ -146,14 +146,14 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" id="232548c4-587a-4d77-8b48-baf884ef1fe4">
 <persname short="HER.">Hermia</persname>
 <persaliases>
 	<persname short="Her."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" id="455d8d71-3831-4672-9fa1-692968d48fad">
 <persname short="HEL.">Helena</persname>
 <persaliases>
 	<persname short="Hel."/>
@@ -162,7 +162,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" id="01db7440-d53e-435c-88d6-7033ed3a2c3b">
 <persname short="OBE.">Oberon</persname>
 <persaliases>
 	<persname short="Ob."/>
@@ -170,7 +170,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="hero" id="64467513-60d3-476e-a5d4-4a9f8f7f709d">
 <persname short="TITA.">Titania</persname>
 <persaliases>
 	<persname short="Tita."/>
@@ -181,7 +181,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2c790c0a-d54b-4453-9f6d-517be399537e">
 <persname short="PUCK.">Puck</persname>
 <persaliases>
 	<persname short="Pu."/>
@@ -195,7 +195,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2d1b4743-addf-4dda-83f8-3cc61f356324">
 <persname short="PEAS.">Peaseblossom</persname>
 <persaliases>
 	<persname short="Pea&#383;."/>
@@ -205,7 +205,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="32b561d4-7bed-4043-942c-ed62b930c874">
 <persname short="COB.">Cobweb</persname>
 <persaliases>
 	<persname short="Cob."/>
@@ -215,7 +215,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="6082bf6d-4e7f-4c41-8796-9ed36fa80f8a">
 <persname short="MOTH.">Moth</persname>
 <persaliases>
 	<persname short="Fai."/>
@@ -223,7 +223,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="186faff6-79fe-4b12-99ba-0e98ee6e09ae">
 <persname short="MUS.">Mustardseed</persname>
 <persaliases>
 	<persname short="Mus."/>
@@ -234,7 +234,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="d5a05cd0-b128-4dc7-a27a-3752491c9dd9">
 <persname short="FAIRY.">A Fairy</persname>
 <persaliases>
 	<persname short="Fai."/>
@@ -243,7 +243,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="8174dd89-6bcb-44e6-9614-02079e18cfeb">
 <persname short="1. FAIRY.">First Fairy</persname>
 <persaliases>
 	<persname short="2.Fairy."/>
@@ -251,7 +251,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2494bc01-6f38-4695-b6a7-9afc69c5d5dc">
 <persname short="2. FAIRY.">Second Fairy</persname>
 <persaliases>
 	<persname short="1.Fairy."/>
@@ -260,9 +260,9 @@
 </persona>
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us primus.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us primus.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter The&#383;eus, Hippolita, with others.</stagedir>
@@ -1007,9 +1007,9 @@
 </scene>
 </act>
 
-<act>
+<act num="2">
 <acttitle id="scene2_1">A&#57348;us Secundus.</acttitle>
-<scene>
+<scene actnum="2" num="1">
 <scenetitle type="act-title">A&#57348;us Secundus.</scenetitle>
 
 <stagedir sdglobalnumber="357.02" sdnumber="0.01">Enter a Fairie at one doore, and Robin goodfellow at another.</stagedir>
@@ -1730,9 +1730,9 @@
 </scene>
 </act>
 
-<act>
+<act num="3">
 <acttitle id="scene3_1">A&#57348;us Tertius.</acttitle>
-<scene>
+<scene actnum="3" num="1">
 <scenetitle type="act-title">A&#57348;us Tertius.</scenetitle>
 
 <stagedir sdglobalnumber="782.02" sdnumber="0.01">Enter the Clownes.</stagedir>
@@ -3176,9 +3176,9 @@
 </scene>
 </act>
 
-<act>
+<act num="4">
 <acttitle id="scene4_1">A&#57348;us Quartus.</acttitle>
-<scene>
+<scene actnum="4" num="1">
 <scenetitle type="act-title">A&#57348;us Quartus.</scenetitle>
 
 <stagedir sdglobalnumber="1456.02" sdnumber="0.01">Enter Queene of Fairies, and Clowne, and Fairies, and the King behinde them.</stagedir>
@@ -3744,9 +3744,9 @@
 </scene>
 </act>
 
-<act>
+<act num="5">
 <acttitle id="scene5_1">A&#57348;us Quintus.</acttitle>
-<scene>
+<scene actnum="5" num="1">
 <scenetitle type="act-title">A&#57348;us Quintus.</scenetitle>
 
 <stagedir sdglobalnumber="1723.02" sdnumber="0.01">Enter The&#383;eus, Hippolita, Egeus and his Lords.</stagedir>
@@ -4650,8 +4650,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

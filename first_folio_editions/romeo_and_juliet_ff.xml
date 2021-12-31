@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="folio.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
 
 <play variant="first-folio" unique="romeo-and-juliet">
 <title short="Romeo and Juliet">THE TRAGEDIE OF<lb />ROMEO and IVLIET.</title>
@@ -12,14 +12,14 @@
 
 <personae playtitle="Romeo and Juliet">
 
-<persona gender="male">
+<persona gender="male" id="615b68fb-ad77-42fe-8cdd-3d8184e4dd05">
 <persname short="CHORUS.">Chorus</persname>
 <persaliases>
 	<persname short="Chorus."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="8c99a572-ce40-455f-973b-c5a902a0a390">
 <persname short="PRIN.">Prince Escalus</persname>
 <persaliases>
 	<persname short="Pri."/>
@@ -28,7 +28,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="a99c433b-982e-484c-a031-5281633dfc3c">
 <persname short="PAR.">Paris</persname>
 <persaliases>
 	<persname short="Pa."/>
@@ -38,7 +38,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="5e1994cf-e7a9-4ee7-9df7-661672789f4c">
 <persname short="MON.">Montague</persname>
 <persaliases>
 	<persname short="Moun."/>
@@ -46,7 +46,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="bd37509b-73a3-4807-a60b-cb0792b1b0ec">
 <persname short="CAP.">Capulet</persname>
 <persaliases>
 	<persname short="Fa."/>
@@ -58,7 +58,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="cfeb3435-ceff-458d-bf18-2499e8b04bff">
 <persname short="OLD. CAP.">Old Capulet</persname>
 <persaliases>
 	<persname short="2. Cap."/>
@@ -66,7 +66,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="lover" death="yes" id="8c84f117-f06e-497b-aaea-8c5e670eb87a">
 <persname short="ROM.">Romeo</persname>
 <persaliases>
 	<persname short="Ro."/>
@@ -75,7 +75,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="hero" death="yes" id="3b12411d-b8ca-4777-adba-11f1c630f2db">
 <persname short="MER.">Mercutio</persname>
 <persaliases>
 	<persname short="Hora."/>
@@ -84,25 +84,21 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="dbec5092-852b-42f6-8e63-81e49e87dd67">
 <persname short="BEN.">Benvolio</persname>
 <persaliases>
 	<persname short="Ben"/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" death="yes" id="d5e81a72-7887-438a-8a1f-750dd912f625">
 <persname short="TYB.">Tybalt</persname>
 <persaliases>
 	<persname short="Tib."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="PETR.">Petruchio</persname>
-</persona>
-
-<persona gender="male">
+<persona gender="male" id="56ee913f-e249-40d0-94a9-d216e27a5ad6">
 <persname short="FRI. L.">Friar Lawrence</persname>
 <persaliases>
 	<persname short="Fri."/>
@@ -111,7 +107,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="55301776-237f-4e40-b0f7-c5911fcf5ce5">
 <persname short="FRI. J.">Friar John</persname>
 <persaliases>
 	<persname short="Iohn"/>
@@ -119,7 +115,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d5207d14-8300-42b6-b1e0-a698a884b737">
 <persname short="BAL.">Balthasar</persname>
 <persaliases>
 	<persname short="Boy."/>
@@ -127,14 +123,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="1940d4ee-c673-49ac-9a6b-7c3fc633b1fa">
 <persname short="ABR.">Abram</persname>
 <persaliases>
 	<persname short="Abra."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="508ca5b0-2bd7-4cf2-bbd3-5ba6297996bb">
 <persname short="SAM.">Sampson</persname>
 <persaliases>
 	<persname short="Sam."/>
@@ -143,7 +139,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="b21b1b39-31ec-4726-94b3-083a1000de04">
 <persname short="GRE.">Gregory</persname>
 <persaliases>
 	<persname short="Gr."/>
@@ -152,15 +148,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="123a99fe-f21b-4f19-a3a2-5fd4855e599e">
 <persname short="PET.">Peter</persname>
 <persaliases>
 	<persname short="Peter."/>
 </persaliases>
-
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d9207451-2a6f-4cd8-b638-7eb8687f8274">
 <persname short="PAGE.">Page to Paris</persname>
 <persaliases>
 	<persname short="Boy."/>
@@ -168,14 +163,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="2fee57ef-fb6a-47db-88a5-a41cd76bb274">
 <persname short="AP.">Apothecary</persname>
 <persaliases>
 	<persname short="App."/>
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" death="yes" id="3ad21405-1488-4776-ba84-68fa72c23636">
 <persname short="LA. MON.">Lady Montague</persname>
 <persaliases>
 	<persname short="Wife."/>
@@ -183,7 +178,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="7d94ff13-84bb-4bde-8ba5-b8f4695025be">
 <persname short="L. CAP.">Lady Capulet</persname>
 <persaliases>
 	<persname short="M."/>
@@ -197,7 +192,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" archetype="lover" death="yes" id="197d429d-b96d-462f-b57e-c78edaad0a8b">
 <persname short="JUL.">Juliet</persname>
 <persaliases>
 	<persname short="Iu."/>
@@ -209,7 +204,7 @@
 </persaliases>
 </persona>
 
-<persona gender="female">
+<persona gender="female" id="2d3f61ab-8000-4892-b5e5-6c48d28b6b33">
 <persname short="NURSE.">Nurse</persname>
 <persaliases>
 	<persname short="Nur."/>
@@ -218,7 +213,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7ae3fc25-2a21-4b94-9dfc-fe50fb8c5f84">
 <persname short="CITIZENS.">Citizens of Verona</persname>
 <persaliases>
 	<persname short="Offi."/>
@@ -227,7 +222,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="28767b48-4d4e-4cdb-853f-1f76a9a3f5e0">
 <persname short="1. WATCH.">First Watchman</persname>
 <persaliases>
 	<persname short="Wat."/>
@@ -236,28 +231,28 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="53b317b8-6d21-4d32-84a8-e743df006e2e">
 <persname short="2. WATCH.">Second Watchman</persname>
 <persaliases>
 	<persname short="Watch."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="ef0fde24-37ff-468b-9126-35bf2796018a">
 <persname short="3. WATCH.">Third Watchman</persname>
 <persaliases>
 	<persname short="3.Wat."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="5e9ecfef-bfd8-4f16-9820-2ebbbb3b0d89">
 <persname short="1. MUS.">First Musician</persname>
 <persaliases>
 	<persname short="Mu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="5c67081a-81a5-4fc8-ade2-23e3d9f950b5">
 <persname short="2. MUS.">Second Musician</persname>
 <persaliases>
 	<persname short="M.2."/>
@@ -265,14 +260,14 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" archetype="clown" id="fd5c427c-c22a-4d3a-a631-01e3753b8a30">
 <persname short="3. MUS.">Third Musician</persname>
 <persaliases>
 	<persname short="3.Mu."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="d4fe834d-3d35-4e74-a151-377ee7f1d3b0">
 <persname short="1. SERV.">First Servingman</persname>
 <persaliases>
 	<persname short="Ser."/>
@@ -280,7 +275,7 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7bcac5b7-cb43-400f-943a-37a58d3fbd1c">
 <persname short="2. SERV.">Second Servingman</persname>
 <persaliases>
 	<persname short="1."/>
@@ -288,36 +283,32 @@
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="c0776d06-89db-49e3-80c5-1a92b18d239c">
 <persname short="3. SERV.">Third Servingman</persname>
 <persaliases>
 	<persname short="Ser."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="7ce8809a-f0ec-492e-9385-dc7882b94fec">
 <persname short="ANT.">Anthony</persname>
 <persaliases>
 	<persname short="2."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
+<persona gender="male" id="9ab7701c-865d-4098-8a14-df5c131f0bee">
 <persname short="POT.">Potpan</persname>
 <persaliases>
 	<persname short="1."/>
 </persaliases>
 </persona>
 
-<persona gender="male">
-<persname short="MERC. PAGE">Mercutio&#8217;s Page</persname>
-</persona>
-
 </personae>
 
-<act>
+<act num="1">
 <acttitle id="scene1_1">A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
-<scene>
+<scene actnum="1" num="1">
 <scenetitle type="act-title">A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
 
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">Enter Samp&#383;on and Gregory, with Swords and Bucklers, of the Hou&#383;e of Capulet.</stagedir>
@@ -6994,8 +6985,8 @@
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
-<version>3.5.1</version>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
+<version>3.5</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>
