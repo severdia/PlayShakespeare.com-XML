@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="sir-thomas-more">
-<title short="Sir Thomas More">Sir Thomas More</title>
+<title short="Sir Thomas More" abbr="STM">Sir Thomas More</title>
 <playwrights status="apocrypha">
 		<playwright>William Shakespeare</playwright>
 		<playwright>Anthony Munday</playwright>
@@ -9,13 +9,19 @@
 		<playwright>Thomas Heywood</playwright>
 		<playwright>Thomas Dekker</playwright>
 </playwrights>
-<written>1591-1593</written>
-<imprint printer="Unknown">1603-1604</imprint>
-<pubdate source="stationers" date="">Unknown</pubdate>
-<performance>
-	<location date="1922">Birkbeck, University of London</location>
-	<company>Unknown</company>
-</performance>
+<editions>
+	<written>1591-3</written>
+	<register>Never registered.</register>
+	<edition format="Manuscript" pssource="yes">
+	</edition>
+</editions>
+<performances>
+	<performance>
+		<date>1922</date>
+		<company>University of London Drama</company>
+		<location>Birkbeck, University of London</location>
+	</performance>
+</performances>
 <personae playtitle="Sir Thomas More">
 <persona gender="male" death="yes" id="7896fcf4-f442-4f47-9dc7-66500bc24eae">
 <persname short="MORE." numberOfLines="857" numberOfVerseLines="833" numberOfProseLines="24" numberOfLyricsLines="0">Sir Thomas More</persname>
@@ -241,7 +247,7 @@
 </personae>
 <act num="1">
 <acttitle>Act 1</acttitle>
-<scene actnum="1" num="1" minutesRunning="10" numberOfProseWords="1213" numberOfVerseWords="0" numberOfLines="46">
+<scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>London. A street.</scenelocation>
 <scenetime>In April 1517.</scenetime>
@@ -256,7 +262,7 @@
 	<scenepersona short="SHERWIN.">Sherwin</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
 	<dir>Enter, at one end, John Lincoln, with the two Bettses together; at the other end, enters Francis de Barde and Doll a lusty woman, he haling her by the arm.</dir>
@@ -489,7 +495,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="2" minutesRunning="14" numberOfProseWords="0" numberOfVerseWords="1639" numberOfLines="210">
+<scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>London. The Sessions House.</scenelocation>
 <scenetime>About the same time.</scenetime>
@@ -505,7 +511,7 @@
 	<scenepersona short="OFFICERS.">Officers</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="46.02" sdnumber="0.01">
 	<dir>An arras is drawn, and behind it as in sessions sit the Lord Mayor, Justice Suresby, and other Justices; Sheriff More and the other Sheriff sitting by. Smart is the plaintiff, Lifter the prisoner at the bar. Recorder, Officers.</dir>
@@ -767,7 +773,7 @@
 </speech>
 <speech>
 <speaker long="Lifter">LIFTER.</speaker>
-<line globalnumber="159" number="111" form="verse">There be, sir, there be, if&#8217;t shall please your worship&#8212;</line>
+<line globalnumber="159" number="111" form="verse">There be, sir, there be, if&#8217;t shall please your worship&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Justice Suresby">SURESBY.</speaker>
@@ -806,7 +812,7 @@
 <line globalnumber="177" number="127" form="verse">This fellow, sir, perhaps will meet ye thus,</line>
 <line globalnumber="178" number="128" form="verse">Or thus, or thus, and in kind compliment</line>
 <line globalnumber="179" number="129" form="verse">Pretend acquaintance, somewhat doubtfully;</line>
-<line globalnumber="180" number="130" form="verse">And these embraces serve&#8212;</line>
+<line globalnumber="180" number="130" form="verse">And these embraces serve&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Justice Suresby">SURESBY.</speaker>
@@ -850,7 +856,7 @@
 </speech>
 <speech>
 <speaker long="Lifter">LIFTER.</speaker>
-<line globalnumber="194" number="142" form="verse">Not yet, sir, fie!&#8212;</line>
+<line globalnumber="194" number="142" form="verse">Not yet, sir, fie!&#8288;&#8212;</line>
 <stagedir sdglobalnumber="194.01" sdnumber="142.01">
 	<dir>Aside.</dir>
 	<action type="aside">
@@ -900,7 +906,7 @@
 		<actor>LIFTER.</actor>
 	</action>
 </stagedir>
-<line globalnumber="204" number="151" form="verse" offset="4">Done, Master Sheriff; and there it is.</line>
+<line globalnumber="204" number="151" form="verse" offset="3">Done, Master Sheriff; and there it is.</line>
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -932,11 +938,11 @@
 </speech>
 <speech>
 <speaker long="First Officer">1. OFF.</speaker>
-<line globalnumber="215" number="161" form="verse" offset="4">And me.</line>
+<line globalnumber="215" number="161" form="verse" offset="4" part="m">And me.</line>
 </speech>
 <speech>
 <speaker long="Justice Suresby">SURESBY.</speaker>
-<line globalnumber="216" number="161" form="verse" offset="6">Body of me,</line>
+<line globalnumber="216" number="161" form="verse" offset="7">Body of me,</line>
 <line globalnumber="217" number="162" form="verse" offset="0">My purse is gone!</line>
 </speech>
 <speech>
@@ -1024,7 +1030,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="3" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="724" numberOfLines="94">
+<scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. A state apartment.</scenelocation>
 <scenetime>A few days later.</scenetime>
@@ -1036,7 +1042,7 @@
 	<scenepersona short="1. MESS.">First Messenger</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="256.02" sdnumber="0.01">
 	<dir>Enter the Earls of Shrewsbury and Surrey, Sir Thomas Palmer, and Sir Roger Cholmley.</dir>
@@ -1221,7 +1227,7 @@
 </act>
 <act num="2">
 <acttitle>Act 2</acttitle>
-<scene actnum="2" num="1" minutesRunning="2" numberOfProseWords="219" numberOfVerseWords="0" numberOfLines="10">
+<scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
 <scenetime>About the same time.</scenetime>
@@ -1231,7 +1237,7 @@
 	<scenepersona short="KIT.">Apprentice Kit</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="350.02" sdnumber="0.01">
 	<dir>Enter three or four Apprentices of trades, with a pair of cudgels.</dir>
@@ -1279,7 +1285,7 @@
 </speech>
 <speech>
 <speaker long="Kit">KIT.</speaker>
-<line globalnumber="360" number="10" form="prose">Why, I am a prentice as thou art; seest thou now? I&#8217;ll play with thee at blunt here in Cheapside, and when thou hast done, if thou beest angry, I&#8217;ll fight with thee at sharp in More fields. I have a sword to serve my turn in a favor. ..come Julie, to serve...</line>
+<line globalnumber="360" number="10" form="prose">Why, I am a prentice as thou art; seest thou now? I&#8217;ll play with thee at blunt here in Cheapside, and when thou hast done, if thou beest angry, I&#8217;ll fight with thee at sharp in More fields. I have a sword to serve my turn in a favor...come Julie, to serve...</line>
 </speech>
 <stagedir sdglobalnumber="360.01" sdnumber="10.01">
 	<dir>Exeunt.</dir>
@@ -1290,7 +1296,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="2" minutesRunning="5" numberOfProseWords="216" numberOfVerseWords="329" numberOfLines="64">
+<scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Saint Martin&#8217;s-le-Grand.</scenelocation>
 <scenetime>On May Day in the morning.</scenetime>
@@ -1303,7 +1309,7 @@
 	<scenepersona short="DOLL.">Doll</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="360.02" sdnumber="0.01">
 	<dir>Enter Lincoln, two Bettses, Williamson, Sherwin, and other, armed; Doll in a shirt of mail, a headpiece, sword, and buckler; a crew attending.</dir>
@@ -1436,7 +1442,7 @@
 </stagedir>
 <speech>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<line globalnumber="414" number="35" form="prose">A purchase, a purchase! We have found, we ha found&#8212;</line>
+<line globalnumber="414" number="35" form="prose">A purchase, a purchase! We have found, we ha found&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Doll Williamson">DOLL.</speaker>
@@ -1483,7 +1489,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="3" minutesRunning="4" numberOfProseWords="0" numberOfVerseWords="371" numberOfLines="50">
+<scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Guildhall.</scenelocation>
 <scenetime>An hour later.</scenetime>
@@ -1498,7 +1504,7 @@
 	<scenepersona short="CHOLMLEY.">Cholmley</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="424.02" sdnumber="0.01">
 	<dir>Enter at one door Sir Thomas More and Lord Mayor; at another door Sir John Munday hurt.</dir>
@@ -1587,7 +1593,7 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="461" number="37" form="verse">My lords, I doubt not but we shall appease</line>
 <line globalnumber="462" number="38" form="verse">With a calm breath this flux of discontent:</line>
-<line globalnumber="463" number="39" form="verse">To call them to a parley, questionless&#8212;</line>
+<line globalnumber="463" number="39" form="verse">To call them to a parley, questionless&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
@@ -1620,7 +1626,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="4" minutesRunning="15" numberOfProseWords="483" numberOfVerseWords="1419" numberOfLines="223">
+<scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>St. Martin&#8217;s Gate.</scenelocation>
 <scenetime>In the afternoon.</scenetime>
@@ -1638,8 +1644,8 @@
 	<scenepersona short="CROFTS.">Crofts</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="la">Latin</language>
+<language short="en">English</language>
+<language short="la">Latin</language>
 </scenelanguage>
 <stagedir sdglobalnumber="474.02" sdnumber="0.01">
 	<dir>Enter Lincoln, Doll, Clown, George Betts, Williamson, others; and a Sergeant at Arms.</dir>
@@ -1721,7 +1727,7 @@
 </speech>
 <speech>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<line globalnumber="491" number="16" form="verse" offset="5">Friends, masters, countrymen&#8212;</line>
+<line globalnumber="491" number="16" form="verse" offset="5">Friends, masters, countrymen&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
@@ -1729,7 +1735,7 @@
 </speech>
 <speech>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
-<line globalnumber="493" number="18" form="prose">My masters, countrymen&#8212;</line>
+<line globalnumber="493" number="18" form="prose">My masters, countrymen&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Williamson">WILLIAMSON.</speaker>
@@ -1809,7 +1815,7 @@
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="515" number="40" form="verse">Then what a rough and riotous charge have you,</line>
-<line globalnumber="516" number="41" form="verse">To lead those that the dual cannot rule?&#8212;</line>
+<line globalnumber="516" number="41" form="verse">To lead those that the dual cannot rule?&#8288;&#8212;</line>
 <line globalnumber="517" number="42" form="verse">Good masters, hear me speak.</line>
 </speech>
 <speech>
@@ -1910,7 +1916,7 @@
 <line globalnumber="584" number="109" form="verse">What country, by the nature of your error,</line>
 <line globalnumber="585" number="110" form="verse">Should give you harbor? Go you to France or Flanders,</line>
 <line globalnumber="586" number="111" form="verse">To any German province, to Spain or Portugal,</line>
-<line globalnumber="587" number="112" form="verse">Nay, any where that not adheres to England,&#8212;</line>
+<line globalnumber="587" number="112" form="verse">Nay, any where that not adheres to England,&#8288;&#8212;</line>
 <line globalnumber="588" number="113" form="verse">Why, you must needs be strangers. Would you be pleased</line>
 <line globalnumber="589" number="114" form="verse">To find a nation of such barbarous temper,</line>
 <line globalnumber="590" number="115" form="verse">That, breaking out in hideous violence,</line>
@@ -2059,7 +2065,7 @@
 </speech>
 <speech>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
-<line globalnumber="656" number="179" form="verse" offset="5">It shall be so:</line>
+<line globalnumber="656" number="179" form="verse" offset="6">It shall be so:</line>
 <line globalnumber="657" number="180" form="verse">But yond me thinks my lord of Shrewsbury.</line>
 </speech>
 <stagedir sdglobalnumber="657.01" sdnumber="180.01">
@@ -2096,7 +2102,7 @@
 <line globalnumber="672" number="195" form="verse">Whence they first came;</line>
 <line globalnumber="673" number="196" form="verse">To urge my imperfections in excuse,</line>
 <line globalnumber="674" number="197" form="verse">Were all as stale as custom. No, my lord,</line>
-<line globalnumber="675" number="198" form="verse">My service is my kings; good reason why,&#8212;</line>
+<line globalnumber="675" number="198" form="verse">My service is my kings; good reason why,&#8288;&#8212;</line>
 <line globalnumber="676" number="199" form="verse">Since life or death hangs on our sovereign&#8217;s eye.</line>
 </speech>
 <speech>
@@ -2135,7 +2141,7 @@
 </speech>
 <speech>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
-<line globalnumber="693" number="214" form="verse" offset="4">Lord Mayor, you hear your charge.</line>
+<line globalnumber="693" number="214" form="verse" offset="3">Lord Mayor, you hear your charge.</line>
 <line globalnumber="694" number="215" form="verse">Come, good Sir Thomas More, to court let&#8217;s hie;</line>
 <line globalnumber="695" number="216" form="verse">You are th&#8217; appeaser of this mutiny.</line>
 </speech>
@@ -2154,7 +2160,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="5" minutesRunning="12" numberOfProseWords="77" numberOfVerseWords="1331" numberOfLines="174">
+<scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Cheapside.</scenelocation>
 <scenetime>Three days later.</scenetime>
@@ -2169,7 +2175,7 @@
 	<scenepersona short="SURREY.">Earl of Surrey</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="697.02" sdnumber="0.01">
 	<dir>Enter First Sheriff, and meet a Messenger.</dir>
@@ -2333,7 +2339,7 @@
 <line globalnumber="754" number="54" form="verse">But against such as wronged us over much:</line>
 <line globalnumber="755" number="55" form="verse">And now I can perceive it was not fit</line>
 <line globalnumber="756" number="56" form="verse">That private men should carve out their redress,</line>
-<line globalnumber="757" number="57" form="verse">Which way they list; no, learn it now by me,&#8212;</line>
+<line globalnumber="757" number="57" form="verse">Which way they list; no, learn it now by me,&#8288;&#8212;</line>
 <line globalnumber="758" number="58" form="verse">Obedience is the best in each degree:</line>
 <line globalnumber="759" number="59" form="verse">And asking mercy meekly of my king,</line>
 <line globalnumber="760" number="60" form="verse">I patiently submit me to the law;</line>
@@ -2543,13 +2549,13 @@
 <line globalnumber="858" number="158" form="verse">To shun such lewd assemblies as beget</line>
 <line globalnumber="859" number="159" form="verse">Unlawful riots and such traitorous acts,</line>
 <line globalnumber="860" number="160" form="verse">That, striking with the hand of private hate,</line>
-<line globalnumber="861" number="161" form="verse">Maim your dear country with a public wound:&#8212;</line>
+<line globalnumber="861" number="161" form="verse">Maim your dear country with a public wound:&#8288;&#8212;</line>
 <line globalnumber="862" number="162" form="verse">Oh God, that Mercy, whose majestic brow</line>
 <line globalnumber="863" number="163" form="verse">Should be unwrinkled, and that awful Justice,</line>
 <line globalnumber="864" number="164" form="verse">Which looketh through a vail of sufferance</line>
 <line globalnumber="865" number="165" form="verse">Upon the frailty of the multitude,</line>
 <line globalnumber="866" number="166" form="verse">Should with the clamors of outrageous wrongs</line>
-<line globalnumber="867" number="167" form="verse">Be stirred and wakened thus to punishment!&#8212;</line>
+<line globalnumber="867" number="167" form="verse">Be stirred and wakened thus to punishment!&#8288;&#8212;</line>
 <line globalnumber="868" number="168" form="verse">But your deserved death he doth forgive:</line>
 <line globalnumber="869" number="169" form="verse">Who gives you life, pray all he long may live.</line>
 </speech>
@@ -2575,7 +2581,7 @@
 </act>
 <act num="3">
 <acttitle>Act 3</acttitle>
-<scene actnum="3" num="1" minutesRunning="19" numberOfProseWords="886" numberOfVerseWords="1386" numberOfLines="227">
+<scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
 <scenetime>In the year 1529.</scenetime>
@@ -2591,8 +2597,8 @@
 	<scenepersona short="MORRIS.">Master Morris</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="la">Latin</language>
+<language short="en">English</language>
+<language short="la">Latin</language>
 </scenelanguage>
 <stagedir sdglobalnumber="871.02" sdnumber="0.01">
 	<dir>A table being covered with a green carpet, a state cushion on it, and the purse and mace lying thereon.</dir>
@@ -2704,7 +2710,7 @@
 </speech>
 <speech>
 <speaker long="Faulkner">FAULKNER.</speaker>
-<line globalnumber="922" number="51" form="prose">My lord&#8212;</line>
+<line globalnumber="922" number="51" form="prose">My lord&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="First Sheriff">1. SHERIFF.</speaker>
@@ -2831,7 +2837,7 @@
 </speech>
 <speech>
 <speaker long="Faulkner">FAULKNER.</speaker>
-<line globalnumber="965" number="93" form="verse" offset="7">My lord&#8212;</line>
+<line globalnumber="965" number="93" form="verse" offset="7">My lord&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -2896,7 +2902,7 @@
 </speech>
 <speech>
 <speaker long="Erasmus">ERASMUS.</speaker>
-<line globalnumber="992" number="118" form="verse" offset="6">I doubt him not</line>
+<line globalnumber="992" number="118" form="verse" offset="5">I doubt him not</line>
 <line globalnumber="993" number="119" form="verse">To be as near the life of excellence</line>
 <line globalnumber="994" number="120" form="verse">As you proclaim him, when his meanest servants</line>
 <line globalnumber="995" number="121" form="verse">Are of some weight. You saw, my lord, his porter</line>
@@ -2957,7 +2963,7 @@
 		<actor>RANDALL.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1014" number="139" form="verse" offset="7">Thus you see,</line>
+<line globalnumber="1014" number="139" form="verse" offset="6">Thus you see,</line>
 <line globalnumber="1015" number="140" form="verse">My loving learned friends, how far respect</line>
 <line globalnumber="1016" number="141" form="verse">Waits often on the ceremonious train</line>
 <line globalnumber="1017" number="142" form="verse">Of base illiterate wealth, whilst men of schools,</line>
@@ -3018,7 +3024,7 @@
 		<actor>MORRIS.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1051" number="173" form="verse">Come, will your lordship in?&#8212;My dear Erasmus&#8212;</line>
+<line globalnumber="1051" number="173" form="verse">Come, will your lordship in?&#8212;My dear Erasmus&#8288;&#8212;</line>
 <line globalnumber="1052" number="174" form="verse">I&#8217;ll hear you, Master Morris, presently.</line>
 <line globalnumber="1053" number="175" form="verse">My lord, I make you master of my house:</line>
 <line globalnumber="1054" number="176" form="verse">We&#8217;ll banquet here with fresh and staid delights,</line>
@@ -3130,7 +3136,7 @@
 <speech>
 <speaker long="Morris">MORRIS.</speaker>
 <line globalnumber="1084" number="206" form="verse">Thou desperate knave! For that I see the devil</line>
-<line globalnumber="1085" number="207" form="verse">Wholly gets hold of thee&#8212;</line>
+<line globalnumber="1085" number="207" form="verse">Wholly gets hold of thee&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Faulkner">FAULKNER.</speaker>
@@ -3193,7 +3199,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="2" minutesRunning="2" numberOfProseWords="0" numberOfVerseWords="173" numberOfLines="22">
+<scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea. Antechamber in More&#8217;s house.</scenelocation>
 <scenetime>A week later.</scenetime>
@@ -3202,7 +3208,7 @@
 	<scenepersona short="3. MESS.">Third Messenger</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1098.02" sdnumber="0.01">
 	<dir>Enter Third Messenger to More.</dir>
@@ -3247,7 +3253,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="3" minutesRunning="23" numberOfProseWords="767" numberOfVerseWords="2043" numberOfLines="295">
+<scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
 <scenetime>Later that evening.</scenetime>
@@ -3271,7 +3277,7 @@
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1120.02" sdnumber="0.01">
 	<dir>Enter Sir Thomas More, Master Roper, and Servingmen setting stools.</dir>
@@ -3358,7 +3364,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="1147" number="26" form="verse" offset="5">What, for a play, you mean?</line>
+<line globalnumber="1147" number="26" form="verse" offset="6">What, for a play, you mean?</line>
 <line globalnumber="1148" number="27" form="verse" offset="0">Whom do ye serve?</line>
 </speech>
 <speech>
@@ -3505,8 +3511,8 @@
 <line globalnumber="1214" number="87" form="verse">That on so short a summons you would come</line>
 <line globalnumber="1215" number="88" form="verse">To visit him that holds your kindness dear.</line>
 <line globalnumber="1216" number="89" form="verse">Madame, you are not merry with my Lady Mayoress</line>
-<line globalnumber="1217" number="90" form="verse">And these fair ladies; pray ye, seat them all:&#8212;</line>
-<line globalnumber="1218" number="91" form="verse">And here, my lord, let me appoint your place;&#8212;</line>
+<line globalnumber="1217" number="90" form="verse">And these fair ladies; pray ye, seat them all:&#8288;&#8212;</line>
+<line globalnumber="1218" number="91" form="verse">And here, my lord, let me appoint your place;&#8288;&#8212;</line>
 <line globalnumber="1219" number="92" form="verse">The rest to seat themselves:&#8212;nay, I&#8217;ll weary ye;</line>
 <line globalnumber="1220" number="93" form="verse">You will not long in haste to visit me.</line>
 </speech>
@@ -3679,15 +3685,15 @@
 </stagedir>
 <line globalnumber="1272" number="144" form="verse" type="lyric">In an arbor green, asleep whereas I lay,</line>
 <line globalnumber="1273" number="145" form="verse" type="lyric">The birds sang sweetly in the midst of the day,</line>
-<line globalnumber="1274" number="146" form="verse" type="lyric">I dreamed fast of mirth and play,&#8212;</line>
+<line globalnumber="1274" number="146" form="verse" type="lyric">I dreamed fast of mirth and play,&#8288;&#8212;</line>
 <line globalnumber="1275" number="147" form="verse" type="lyric">In youth is pleasure, in youth is pleasure,</line>
 <line globalnumber="1276" number="148" form="verse" type="lyric">Methought I walked still to and fro,</line>
 <line globalnumber="1277" number="149" form="verse" type="lyric">And from her company I could not go;</line>
-<line globalnumber="1278" number="150" form="verse" type="lyric">But when I waked, it was not so,&#8212;</line>
+<line globalnumber="1278" number="150" form="verse" type="lyric">But when I waked, it was not so,&#8288;&#8212;</line>
 <line globalnumber="1279" number="151" form="verse" type="lyric">In youth is pleasure, in youth is pleasure.</line>
 <line globalnumber="1280" number="152" form="verse" type="lyric">Therefore my heart is surely plight,</line>
 <line globalnumber="1281" number="153" form="verse" type="lyric">Of her alone to have a sight,</line>
-<line globalnumber="1282" number="154" form="verse" type="lyric">Which is my joy and heart&#8217;s delight,&#8212;</line>
+<line globalnumber="1282" number="154" form="verse" type="lyric">Which is my joy and heart&#8217;s delight,&#8288;&#8212;</line>
 <line globalnumber="1283" number="155" form="verse" type="lyric">In youth is pleasure, in youth is pleasure.</line>
 </speech>
 <speech>
@@ -3763,7 +3769,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="1313" number="184" form="verse">This is Lady Vanity, I&#8217;ll hold my life:&#8212;</line>
+<line globalnumber="1313" number="184" form="verse">This is Lady Vanity, I&#8217;ll hold my life:&#8288;&#8212;</line>
 <line globalnumber="1314" number="185" form="verse">Beware, good Wit, you take not her to wife.</line>
 </speech>
 <speech>
@@ -3883,7 +3889,7 @@
 <line globalnumber="1364" number="235" form="verse">And then they shall begin the play again,</line>
 <line globalnumber="1365" number="236" form="verse">Which through the fellow&#8217;s absence, and by me,</line>
 <line globalnumber="1366" number="237" form="verse">Instead of helping, hath been hindered.</line>
-<line globalnumber="1367" number="238" form="verse">Prepare against we come. Lights there, I say!&#8212;</line>
+<line globalnumber="1367" number="238" form="verse">Prepare against we come. Lights there, I say!&#8288;&#8212;</line>
 <line globalnumber="1368" number="239" form="verse">Thus fools oft times do help to mar the play.</line>
 </speech>
 <stagedir sdglobalnumber="1368.01" sdnumber="239.01">
@@ -3970,7 +3976,7 @@
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="1390" number="260" form="verse">In haste to counsel! What&#8217;s the business now,</line>
-<line globalnumber="1391" number="261" form="verse">That all so late his highness sends for me?&#8212;</line>
+<line globalnumber="1391" number="261" form="verse">That all so late his highness sends for me?&#8288;&#8212;</line>
 <line globalnumber="1392" number="262" form="verse" offset="0">What seek&#8217;st thou, fellow?</line>
 </speech>
 <speech>
@@ -4020,7 +4026,7 @@
 </speech>
 <speech>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
-<line globalnumber="1413" number="282" form="prose">Well, a kind man, and more loving than many other. But I think we ha&#8217; met with the first&#8212;</line>
+<line globalnumber="1413" number="282" form="prose">Well, a kind man, and more loving than many other. But I think we ha&#8217; met with the first&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Luggins">LUGGINS.</speaker>
@@ -4045,7 +4051,7 @@
 </act>
 <act num="4">
 <acttitle>Act 4</acttitle>
-<scene actnum="4" num="1" minutesRunning="7" numberOfProseWords="0" numberOfVerseWords="850" numberOfLines="119">
+<scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Whitehall. The council chamber.</scenelocation>
 <scenetime>Early the next morning.</scenetime>
@@ -4059,7 +4065,7 @@
 	<scenepersona short="PALMER.">Sir Thomas Palmer</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1415.02" sdnumber="0.01">
 	<dir>Enter the Earls of Shrewsbury, Surrey, Bishop of Rochester, and other Lords; severally, doing courtesy to each other.</dir>
@@ -4139,7 +4145,7 @@
 <line globalnumber="1434" number="18" form="verse">Now by choice diet, anon by letting blood;</line>
 <line globalnumber="1435" number="19" form="verse">Our toil and careful watching brings the king</line>
 <line globalnumber="1436" number="20" form="verse">In league with slumbers, to which peace doth sing.</line>
-<line globalnumber="1437" number="21" form="verse">Avoid the room there!&#8212;</line>
+<line globalnumber="1437" number="21" form="verse">Avoid the room there!&#8288;&#8212;</line>
 <line globalnumber="1438" number="22" form="verse" offset="0">What business, lords, today?</line>
 </speech>
 <speech>
@@ -4182,7 +4188,7 @@
 </speech>
 <speech>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
-<line globalnumber="1468" number="51" form="verse" offset="0">Yet, my good lord&#8212;</line>
+<line globalnumber="1468" number="51" form="verse" offset="0">Yet, my good lord&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
@@ -4278,7 +4284,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
-<line globalnumber="1510" number="89" form="verse" offset="7">Then, my lord,</line>
+<line globalnumber="1510" number="89" form="verse" offset="6">Then, my lord,</line>
 <line globalnumber="1511" number="90" form="verse">Hear the prepared order from the king:</line>
 <line globalnumber="1512" number="91" form="verse">On your refusal, you shall straight depart</line>
 <line globalnumber="1513" number="92" form="verse">Unto your house at Chelsea, till you know</line>
@@ -4305,7 +4311,7 @@
 </speech>
 <speech>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<line globalnumber="1522" number="99" form="verse" offset="4">Instantly, good Sir Thomas,</line>
+<line globalnumber="1522" number="99" form="verse" offset="5">Instantly, good Sir Thomas,</line>
 <line globalnumber="1523" number="100" form="verse">We&#8217;ll bring the writing unto our sovereign.</line>
 </speech>
 <stagedir sdglobalnumber="1523.01" sdnumber="100.01">
@@ -4355,7 +4361,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="2" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="716" numberOfLines="96">
+<scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Chelsea.</scenelocation>
 <scenetime>A few days later.</scenetime>
@@ -4367,8 +4373,8 @@
 	<scenepersona short="SERVANT.">Servants</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="la">Latin</language>
+<language short="en">English</language>
+<language short="la">Latin</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1534.02" sdnumber="0.01">
 	<dir>Enter the Lady More, her two Daughters, and Master Roper, as walking.</dir>
@@ -4485,7 +4491,7 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="1586" number="50" form="verse">As seamen, having passed a troubled storm,</line>
 <line globalnumber="1587" number="51" form="verse">Dance on the pleasant shore; so I&#8212;oh, I could speak</line>
-<line globalnumber="1588" number="52" form="verse">Now like a poet! Now, afore God, I am passing light!&#8212;</line>
+<line globalnumber="1588" number="52" form="verse">Now like a poet! Now, afore God, I am passing light!&#8288;&#8212;</line>
 <line globalnumber="1589" number="53" form="verse">Wife, give me kind welcome. Thou wast wont to blame</line>
 <line globalnumber="1590" number="54" form="verse">My kissing when my beard was in the stubble;</line>
 <line globalnumber="1591" number="55" form="verse">But I have been trimmed of late; I have had</line>
@@ -4597,7 +4603,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="3" minutesRunning="2" numberOfProseWords="0" numberOfVerseWords="223" numberOfLines="29">
+<scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
 <scenetime>In May 1532.</scenetime>
@@ -4611,8 +4617,8 @@
 	<scenepersona short="3. WARDER.">Third Warder of the Tower</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="fr">French</language>
+<language short="en">English</language>
+<language short="fr">French</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1630.02" sdnumber="0.01">
 	<dir>Enter the Bishop of Rochester, Surrey, Shrewsbury, Lieutenant of the Tower, and Warders with weapons</dir>
@@ -4632,7 +4638,7 @@
 <line globalnumber="1632" number="2" form="verse">I can but thank ye for; but in this breast</line>
 <line globalnumber="1633" number="3" form="verse">There lives a soul that aims at higher things</line>
 <line globalnumber="1634" number="4" form="verse">Than temporary pleasing earthly kings.</line>
-<line globalnumber="1635" number="5" form="verse">God bless his highness even with all my heart!&#8212;</line>
+<line globalnumber="1635" number="5" form="verse">God bless his highness even with all my heart!&#8288;&#8212;</line>
 <line globalnumber="1636" number="6" form="verse">We shall meet one day, though that now we part.</line>
 </speech>
 <speech>
@@ -4694,7 +4700,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="4" minutesRunning="11" numberOfProseWords="17" numberOfVerseWords="1354" numberOfLines="189">
+<scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Chelsea. A room in More&#8217;s house.</scenelocation>
 <scenetime>In April 1534.</scenetime>
@@ -4712,9 +4718,9 @@
 	<scenepersona short="DOWNES.">Downes</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="la">Latin</language>
-    <language short="fr">French</language>
+<language short="en">English</language>
+<language short="la">Latin</language>
+<language short="fr">French</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1659.02" sdnumber="0.01">
 	<dir>Enter Sir Thomas More, his Lady, Daughters, Master Roper, Gentlemen, and Servants, as in his house at Chelsea.</dir>
@@ -4767,7 +4773,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="1681" number="20" form="verse" offset="8">True, son,&#8212;</line>
+<line globalnumber="1681" number="20" form="verse" offset="7">True, son,&#8288;&#8212;</line>
 <line globalnumber="1682" number="21" form="verse">Nor does the wanton tongue here screw itself</line>
 <line globalnumber="1683" number="22" form="verse">Into the ear, that like a vise drinks up</line>
 <line globalnumber="1684" number="23" form="verse" offset="0">The iron instrument.</line>
@@ -4788,7 +4794,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="1690" number="27" form="verse" offset="7">Have done.</line>
+<line globalnumber="1690" number="27" form="verse" offset="5">Have done.</line>
 </speech>
 <speech>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -4796,13 +4802,13 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="1692" number="28" form="verse" offset="4">Still thou harpest on that:</line>
+<line globalnumber="1692" number="28" form="verse" offset="5">Still thou harpest on that:</line>
 <line globalnumber="1693" number="29" form="verse">&#8217;Tis sin for to deserve that banishment;</line>
 <line globalnumber="1694" number="30" form="verse">But he that ne&#8217;er knew court, courts sweet content.</line>
 </speech>
 <speech>
 <speaker long="Lady More">LADY MORE.</speaker>
-<line globalnumber="1695" number="31" form="verse" offset="0">Oh, but, dear husband&#8212;</line>
+<line globalnumber="1695" number="31" form="verse" offset="0">Oh, but, dear husband&#8288;&#8212;</line>
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -5063,7 +5069,7 @@
 </speech>
 <speech>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<line globalnumber="1824" number="151" form="verse" offset="6">I am right glad</line>
+<line globalnumber="1824" number="151" form="verse" offset="7">I am right glad</line>
 <line globalnumber="1825" number="152" form="verse" offset="0">Of this your fair conversion.</line>
 </speech>
 <speech>
@@ -5123,7 +5129,7 @@
 </act>
 <act num="5">
 <acttitle>Act 5</acttitle>
-<scene actnum="5" num="1" minutesRunning="5" numberOfProseWords="0" numberOfVerseWords="528" numberOfLines="69">
+<scene actnum="5" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Tower Gate.</scenelocation>
 <scenetime>Later that night.</scenetime>
@@ -5141,8 +5147,8 @@
 	<scenepersona short="SURREY.">Surrey</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="fr">French</language>
+<language short="en">English</language>
+<language short="fr">French</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1848.02" sdnumber="0.01">
 	<dir>Enter the Warders of the Tower, with halberds.</dir>
@@ -5360,7 +5366,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="5" num="2" minutesRunning="4" numberOfProseWords="264" numberOfVerseWords="236" numberOfLines="40">
+<scene actnum="5" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>More&#8217;s house.</scenelocation>
 <scenetime>In early July 1535.</scenetime>
@@ -5373,7 +5379,7 @@
 	<scenepersona short="CATESBY.">Catesby</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1917.02" sdnumber="0.01">
 	<dir>Enter Butler, Porter, Brewer, and Horsekeeper several ways.</dir>
@@ -5491,7 +5497,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="5" num="3" minutesRunning="9" numberOfProseWords="0" numberOfVerseWords="1004" numberOfLines="133">
+<scene actnum="5" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Tower.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -5504,7 +5510,7 @@
 	<scenepersona short="ROPER.">Master Roper</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1957.02" sdnumber="0.01">
 	<dir>Enter Sir Thomas More, the Lieutenant, and a Servant attending, as in his chamber in the Tower.</dir>
@@ -5660,7 +5666,7 @@
 </stagedir>
 <speech>
 <speaker long="Lieutenant of the Tower">LIEU.</speaker>
-<line globalnumber="2024" number="64" form="verse">Oh, noble More!&#8212;</line>
+<line globalnumber="2024" number="64" form="verse">Oh, noble More!&#8288;&#8212;</line>
 <line globalnumber="2025" number="65" form="verse">My lord, your wife, your son-in-law, and daughters.</line>
 </speech>
 <speech>
@@ -5697,7 +5703,7 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <line globalnumber="2044" number="84" form="verse">Wife, so I have; and I do leave you all</line>
 <line globalnumber="2045" number="85" form="verse">To his protection hath the power to keep you</line>
-<line globalnumber="2046" number="86" form="verse">Safer than I can,&#8212;</line>
+<line globalnumber="2046" number="86" form="verse">Safer than I can,&#8288;&#8212;</line>
 <line globalnumber="2047" number="87" form="verse">The father of the widow and the orphans.</line>
 </speech>
 <speech>
@@ -5774,7 +5780,7 @@
 </speech>
 <speech>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<line globalnumber="2084" number="123" form="verse">I must be gone&#8212;God bless you!&#8212;</line>
+<line globalnumber="2084" number="123" form="verse">I must be gone&#8212;God bless you!&#8288;&#8212;</line>
 <line globalnumber="2085" number="124" form="verse">To talk with God, who now doth call.</line>
 </speech>
 <speech>
@@ -5803,7 +5809,7 @@
 	</action>
 </stagedir>
 </scene>
-<scene actnum="5" num="4" minutesRunning="10" numberOfProseWords="442" numberOfVerseWords="667" numberOfLines="93">
+<scene actnum="5" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Tower Hill.</scenelocation>
 <scenetime>On July 6, 1535.</scenetime>
@@ -5822,7 +5828,7 @@
 	<scenepersona short="HANGMAN.">Hangman</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+<language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2090.02" sdnumber="0.01">
 	<dir>Enter the Sheriffs of London and their Officers at one door, the Warders with their halberds at another.</dir>
@@ -5910,7 +5916,7 @@
 </speech>
 <speech>
 <speaker long="Lieutenant of the Tower">LIEU.</speaker>
-<line globalnumber="2117" number="27" form="verse">God and his blessed angels be about ye!&#8212;</line>
+<line globalnumber="2117" number="27" form="verse">God and his blessed angels be about ye!&#8288;&#8212;</line>
 <line globalnumber="2118" number="28" form="verse">Here, Master Sheriffs, receive your prisoner.</line>
 </speech>
 <speech>
@@ -6151,14 +6157,11 @@
 <playsourceauthor>Anthony Munday</playsourceauthor>
 <playsourcedate>1588</playsourcedate>
 </playsource>
-<textsources>
-<textsource title="Manuscript" edition="1" date="1596">Manuscript</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>4.3</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

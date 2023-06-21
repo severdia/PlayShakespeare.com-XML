@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<poem variant="ps" unique="lovers-complaint" numberOfLines="329" trans="no">
-<title short="A Lover&#8217;s Complaint">A Lover&#8217;s Complaint</title>
+<poem variant="ps-poems" unique="lovers-complaint" numberOfLines="329" trans="no">
+<title short="Lover’s Complaint" abbr="LC">A Lover’s Complaint</title>
 <playwrights>
 		<playwright>William Shakespeare</playwright>
 </playwrights>
-<pubdate>1609</pubdate>
+<editions>
+	<written>1591</written>
+	<register when="1609-05-20">May 20, 1609</register>
+	<edition format="Quarto" n="1" pssource="yes">
+		<date>1609</date>
+		<title>Shakespeare's Sonnets</title>
+		<printer>George Eld</printer>
+		<publisher>Thomas Thorpe</publisher>
+	</edition>
+</editions>
 <poembody>
 <stanza num="1">
 <line globalnumber="1" number="1" rhyme="a" form="verse">From off a hill whose concave womb reworded</line>
@@ -435,14 +444,11 @@
 <playsource>
 <playsourcetitle>None known.</playsourcetitle>
 </playsource>
-<textsources>
-<textsource title="Quarto" edition="1" date="1609">Quarto 1</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>4.2</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

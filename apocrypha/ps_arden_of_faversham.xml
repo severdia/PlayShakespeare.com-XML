@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<play variant="ps" unique="arden-of-faversham">
-<title short="Arden of Faversham">Arden of Faversham</title>
+<play variant="ps-apocrypha" unique="arden-of-faversham" trans="no">
+<title short="Arden of Faversham" abbr="AoF">Arden of Faversham</title>
 <playwrights status="apocrypha">
 		<playwright>William Shakespeare</playwright>
 		<playwright>Thomas Kyd</playwright>
+		<playwright>Christopher Marlowe</playwright>
 </playwrights>
-<written>1587-1592</written>
-<imprint printer="Edward Allde">1592</imprint>
-<pubdate source="stationers" date="1592">April 3, 1592</pubdate>
-<performance>
-	<location date="1578">Court</location>
-	<company>Unknown</company>
-</performance>
+<editions>
+	<written>1590</written>
+	<register when="1592-04-03">April 3, 1592</register>
+	<edition format="Quarto" n="1" pssource="yes">
+		<date>1592</date>
+		<title>The Tragedy of Arden of Faversham and Black Will</title>
+		<printer>Edward Allde</printer>
+		<publisher>Edward White</publisher>
+		<leaves>38</leaves>
+	</edition>
+	<edition format="Quarto" authorized="illegal" pssource="no">
+		<date>August 3-7, 1592</date>
+		<title>Arden of Kent</title>
+		<printer>Abel Jeffes</printer>
+		<publisher>Abel Jeffes</publisher>
+		<note>No copies exist.</note>
+	</edition>
+	<edition format="Quarto" n="2" pssource="no">
+		<date>1599</date>
+		<title></title>
+		<printer>Edward Allde</printer>
+		<publisher>Edward White</publisher>
+		<leaves>36</leaves>
+	</edition>
+	<edition format="Quarto" n="3" pssource="no">
+		<date>1633</date>
+		<title></title>
+		<printer>Edward Allde</printer>
+		<publisher>Edward White</publisher>
+		<leaves>36</leaves>
+	</edition>
+</editions>
+<performances>
+	<performance>
+		<date>1591</date>
+		<company>Unknown</company>
+		<location>Court</location>
+	</performance>
+</performances>
 <personae playtitle="Arden of Faversham">
 <persona gender="male" death="yes" id="134967d7-ef85-4d17-b311-5a70df153974">
 <persname short="ARDEN." numberOfLines="306" numberOfVerseLines="305" numberOfProseLines="1" numberOfLyricsLines="0">Thomas Arden</persname>
@@ -54,7 +87,7 @@
 <persname short="MAYOR." numberOfLines="19" numberOfVerseLines="19" numberOfProseLines="0" numberOfLyricsLines="0">Mayor of Faversham</persname>
 </persona>
 <persona gender="male" id="88c87623-925e-4ee6-9d5e-4c26d870bcdd">
-<persname short="WATCH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">The Mayor's Watchman</persname>
+<persname short="WATCH." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">The Mayor&#8217;s Watchman</persname>
 </persona>
 <persona gender="male" id="55826965-0432-4937-89ac-fbbb4bc99285">
 <persname short="ADAM." numberOfLines="8" numberOfVerseLines="8" numberOfProseLines="0" numberOfLyricsLines="0">Adam Fowle</persname>
@@ -71,13 +104,13 @@
 <persona gender="male" id="c6e00013-714b-4ccb-b297-57b19fc9e877">
 <persname short="CHEY." numberOfLines="21" numberOfVerseLines="21" numberOfProseLines="0" numberOfLyricsLines="0">Lord Cheyne</persname>
 </persona>
-<persona gender="male" id="6e0e745b-0ef3-4b09-a6ee-80def1be3f30">
+<persona gender="male" mute="yes" id="6e0e745b-0ef3-4b09-a6ee-80def1be3f30">
 <persname short="CHEY. MAN." numberOfLines="0" numberOfVerseLines="0" numberOfProseLines="0" numberOfLyricsLines="0">Manservant to Lord Cheyne</persname>
 </persona>
 </personae>
 <act num="1">
 <acttitle>Act 1</acttitle>
-<scene actnum="1" num="1" minutesRunning="41" numberOfProseWords="0" numberOfVerseWords="5150" numberOfLines="639">
+<scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>Arden&#8217;s house in Faversham.</scenelocation>
 <scenetime>In the mid-1500s. Early morning.</scenetime>
@@ -93,14 +126,14 @@
 	<scenepersona short="SUS.">Susan Mosby</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
 	<dir>Arden and Franklin enter. Susan is in the background cleaning.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>SUS.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -114,8 +147,8 @@
 <stagedir sdglobalnumber="6.01" sdnumber="6.01">
 	<dir>Gives deeds.</dir>
 	<action type="action">
-		<actor>FRANK.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>FRANK.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="7" number="7" form="verse">Sealed and subscribed with his name and the king&#8217;s.</line>
@@ -199,7 +232,7 @@
 <stagedir sdglobalnumber="56.01" sdnumber="56.01">
 	<dir>Alice enters.</dir>
 	<action type="enter">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -238,7 +271,7 @@
 <stagedir sdglobalnumber="72.01" sdnumber="72.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <line globalnumber="73" number="73" form="verse">Arden leave to urge her overfar.</line>
@@ -295,14 +328,14 @@
 <stagedir sdglobalnumber="92.01" sdnumber="92.01">
 	<dir>Exeunt Arden and Franklin.</dir>
 	<action type="exit">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="92.02" sdnumber="92.02">
 	<dir>Alice exits the house, seeing them off.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -322,7 +355,7 @@
 <stagedir sdglobalnumber="104.01" sdnumber="104.01">
 	<dir>Adam of the Flower-de-Luce enters.</dir>
 	<action type="enter">
-		<actor>ADAM.</actor>
+			<actor>ADAM.</actor>
 	</action>
 </stagedir>
 <line globalnumber="105" number="105" form="verse">And here comes Adam of the Flower-de-Luce.</line>
@@ -371,8 +404,8 @@
 <stagedir sdglobalnumber="123.01" sdnumber="123.01">
 	<dir>Gives dice.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>ADAM.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>ADAM.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="124" number="124" form="verse">With which we played for kisses many a time.</line>
@@ -390,7 +423,7 @@
 <stagedir sdglobalnumber="131.01" sdnumber="131.01">
 	<dir>Adam exits.</dir>
 	<action type="exit">
-		<actor>ADAM.</actor>
+			<actor>ADAM.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -408,7 +441,7 @@
 <stagedir sdglobalnumber="141.01" sdnumber="141.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="142" number="142" form="verse">How now Michael, whither are you going?</line>
@@ -489,7 +522,7 @@
 <stagedir sdglobalnumber="176.01" sdnumber="176.01">
 	<dir>Mosby enters.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -499,7 +532,7 @@
 <stagedir sdglobalnumber="178.01" sdnumber="178.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="179" number="179" form="verse">Mosby, my love!</line>
@@ -636,7 +669,7 @@
 <stagedir sdglobalnumber="246.01" sdnumber="246.01">
 	<dir>Clarke enters.</dir>
 	<action type="enter">
-		<actor>CLAR.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="247" number="247" form="verse">O, you are an honest man of your word: you served me well.</line>
@@ -661,8 +694,8 @@
 <stagedir sdglobalnumber="259.01" sdnumber="259.01">
 	<dir>To Mosby.</dir>
 	<action type="speak">
-		<actor>ALICE.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="260" number="260" form="verse">&#8217;Tis pity but he should: he&#8217;ll use her well.</line>
@@ -708,8 +741,8 @@
 <stagedir sdglobalnumber="278.01" sdnumber="278.01">
 	<dir>To Clarke</dir>
 	<action type="speak">
-		<actor>MOSBY.</actor>
-		<recipient>CLAR.</recipient>
+			<actor>MOSBY.</actor>
+			<recipient>CLAR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="279" number="279" form="verse">Some other poison would do better far.</line>
@@ -725,8 +758,8 @@
 <stagedir sdglobalnumber="282.01" sdnumber="282.01">
 	<dir>Shows poison.</dir>
 	<action type="action">
-		<actor>CLAR.</actor>
-		<recipient>ALICE.</recipient>
+			<actor>CLAR.</actor>
+			<recipient>ALICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="283" number="283" form="verse">Put but a dram of this into his drink.</line>
@@ -749,7 +782,7 @@
 <stagedir sdglobalnumber="289.01" sdnumber="289.01">
 	<dir>Clarke exits.</dir>
 	<action type="exit">
-		<actor>CLAR.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -758,9 +791,9 @@
 <stagedir sdglobalnumber="290.01" sdnumber="290.01">
 	<dir>Thomas Arden, Franklin, and Michael enter.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="291" number="291" form="verse">Master Mosby, ask him the question yourself.</line>
@@ -780,8 +813,8 @@
 <line globalnumber="299" number="299" form="verse">Alice, make ready my breakfast: I must hence.</line>
 <stagedir sdglobalnumber="299.01" sdnumber="299.01">
 	<dir>Alice exits into the house.</dir>
-	<action type="exit">
-		<actor>ALICE.</actor>
+	<action type="action">
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="300" number="300" form="verse">As for the lands, Mosby, they are mine,</line>
@@ -807,7 +840,7 @@
 <stagedir sdglobalnumber="309.01" sdnumber="309.01">
 	<dir>Arden draws forth Mosby&#8217;s sword.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -877,10 +910,10 @@
 <line globalnumber="348" number="348" form="verse">Forbear his house.</line>
 </speech>
 <stagedir sdglobalnumber="348.01" sdnumber="348.01">
-	<dir>Arden returns Mosby's sword to him.</dir>
+	<dir>Arden returns Mosby&#8217;s sword to him.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -905,8 +938,8 @@
 </speech>
 <stagedir sdglobalnumber="359.01" sdnumber="359.01">
 	<dir>Alice enters, placing breakfast on the table.</dir>
-	<action type="enter">
-		<actor>ALICE.</actor>
+	<action type="action">
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -918,8 +951,8 @@
 <stagedir sdglobalnumber="360.01" sdnumber="360.01">
 	<dir>They return to the dining area.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ARDEN.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="361" number="361" form="verse">Come, Master Mosby, will you sit with us.</line>
@@ -935,13 +968,13 @@
 <stagedir sdglobalnumber="363.01" sdnumber="363.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="363.02" sdnumber="363.02">
 	<dir>Arden starts to eat a few times, but keeps pausing, distracted, before he takes a bite.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -951,7 +984,7 @@
 <stagedir sdglobalnumber="364.01" sdnumber="364.01">
 	<dir>Arden finally takes a small taste.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -965,7 +998,7 @@
 <stagedir sdglobalnumber="367.01" sdnumber="367.01">
 	<dir>She throws down the broth on the ground.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="368" number="368" form="verse">There&#8217;s nothing that I do can please your taste:</line>
@@ -977,8 +1010,8 @@
 <stagedir sdglobalnumber="373.01" sdnumber="373.01">
 	<dir>To Mosby.</dir>
 	<action type="speak">
-		<actor>ALICE.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="374" number="374" form="verse">I charge thee speak to this mistrustful man&#8212;</line>
@@ -1001,7 +1034,7 @@
 <stagedir sdglobalnumber="383.01" sdnumber="383.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1010,8 +1043,8 @@
 <stagedir sdglobalnumber="384.01" sdnumber="384.01">
 	<dir>Gives medicine.</dir>
 	<action type="action">
-		<actor>FRANK.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>FRANK.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="385" number="385" form="verse">My life for yours, ye shall do well enough.</line>
@@ -1025,7 +1058,7 @@
 </speech>
 <speech>
 <speaker long="Thomas Arden">ARDEN.</speaker>
-<line globalnumber="390" number="390" form="verse">Be patient, sweet love: I mistrust not <emph rend="italic">thee</emph>.</line>
+<line globalnumber="390" number="390" form="verse">Be patient, sweet love: I mistrust not thee.</line>
 </speech>
 <speech>
 <speaker long="Alice Arden">ALICE.</speaker>
@@ -1044,8 +1077,8 @@
 <stagedir sdglobalnumber="395.01" sdnumber="395.01">
 	<dir>They stand to go.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1075,8 +1108,8 @@
 <stagedir sdglobalnumber="407.01" sdnumber="407.01">
 	<dir>She kisses Arden.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -1088,8 +1121,8 @@
 <stagedir sdglobalnumber="410.01" sdnumber="410.01">
 	<dir>She kisses Franklin.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>FRANK.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>FRANK.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -1109,16 +1142,16 @@
 <stagedir sdglobalnumber="415.01" sdnumber="415.01">
 	<dir>Exeunt Arden, Franklin, and Michael.</dir>
 	<action type="exeunt">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="415.02" sdnumber="415.02">
 	<dir>Alice and Mosby see them off.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1181,7 +1214,7 @@
 <stagedir sdglobalnumber="445.01" sdnumber="445.01">
 	<dir>Greene enters.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1196,7 +1229,7 @@
 <stagedir sdglobalnumber="448.01" sdnumber="448.01">
 	<dir>Mosby exits.</dir>
 	<action type="exit">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1244,7 +1277,7 @@
 <stagedir sdglobalnumber="476.01" sdnumber="476.01">
 	<dir>He starts to leave.</dir>
 	<action type="action">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="477" number="477" form="verse">But seeing he hath taken my lands, I&#8217;ll value life</line>
@@ -1316,8 +1349,8 @@
 <stagedir sdglobalnumber="521.01" sdnumber="521.01">
 	<dir>Gives money.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>GRE.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>GRE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="522" number="522" form="verse">When he is dead you shall have twenty more:</line>
@@ -1345,7 +1378,7 @@
 <stagedir sdglobalnumber="531.01" sdnumber="531.01">
 	<dir>Greene exits.</dir>
 	<action type="exit">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="532" number="532" form="verse">And whosoever doth attempt the deed,</line>
@@ -1356,8 +1389,8 @@
 <stagedir sdglobalnumber="535.01" sdnumber="535.01">
 	<dir>Mosby and Clarke enter.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
-		<actor>CLAR.</actor>
+			<actor>MOSBY.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1390,8 +1423,8 @@
 </speech>
 <stagedir sdglobalnumber="548.01" sdnumber="548.01">
 	<dir>Clarke enters the house.</dir>
-	<action type="exit">
-		<actor>CLAR.</actor>
+	<action type="action">
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1470,9 +1503,9 @@
 </speech>
 <stagedir sdglobalnumber="589.01" sdnumber="589.01">
 	<dir>Clarke and Susan come outside.</dir>
-	<action type="enter">
-		<actor>CLAR.</actor>
-		<actor>SUS.</actor>
+	<action type="action">
+			<actor>CLAR.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1573,8 +1606,8 @@
 <stagedir sdglobalnumber="634.01" sdnumber="634.01">
 	<dir>Clarke and Susan exit.</dir>
 	<action type="exit">
-		<actor>CLAR.</actor>
-		<actor>SUS.</actor>
+			<actor>CLAR.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <line globalnumber="635" number="635" form="verse">Now, Alice, let&#8217;s in and see what cheer you keep:</line>
@@ -1588,13 +1621,17 @@
 </speech>
 <stagedir sdglobalnumber="639.01" sdnumber="639.01">
 	<dir>They exit inside.</dir>
+	<action type="action">
+			<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
+	</action>
 	<action type="exit">
-		<actor>ALICE.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="2" minutesRunning="8" numberOfProseWords="462" numberOfVerseWords="460" numberOfLines="76">
+<scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Faversham. A street.</scenelocation>
 <scenetime>Later that day.</scenetime>
@@ -1605,13 +1642,13 @@
 	<scenepersona short="SHAKE.">George Shakebag</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="639.02" sdnumber="0.01">
 	<dir>Greene and Bradshaw enter.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
-		<actor>BRAD.</actor>
+			<actor>GRE.</actor>
+			<actor>BRAD.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1625,8 +1662,8 @@
 <stagedir sdglobalnumber="641.01" sdnumber="2.01">
 	<dir>Black Will and Shakebag enter.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1647,7 +1684,7 @@
 <stagedir sdglobalnumber="651.01" sdnumber="12.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="652" number="13" form="verse">The fitter is he for my purpose, marry.</line>
@@ -1665,7 +1702,7 @@
 </speech>
 <speech>
 <speaker long="Black Will">WILL.</speaker>
-<line globalnumber="658" number="19" form="prose">Why, Bradshaw, was not thou and I fellow soldiers at Boulogne, where I was a corporal and thou but a base mercenary groom?  &#8220;No fellows now,&#8221; because you are a goldsmith and have a little plate in your shop. You were glad to call me &#8220;fellow Will,&#8221; and with a curtsy to the earth, &#8220;One snatch good corporal&#8221; when I stole the half ox from John the victualler and domineered with it amongst good fellows in one night.</line>
+<line globalnumber="658" number="19" form="prose">Why, Bradshaw, was not thou and I fellow soldiers at Boulogne, where I was a corporal and thou but a base mercenary groom? &#8220;No fellows now,&#8221; because you are a goldsmith and have a little plate in your shop. You were glad to call me &#8220;fellow Will,&#8221; and with a curtsy to the earth, &#8220;One snatch good corporal&#8221; when I stole the half ox from John the victualler and domineered with it amongst good fellows in one night.</line>
 </speech>
 <speech>
 <speaker long="Bradshaw">BRAD.</speaker>
@@ -1740,8 +1777,8 @@
 <stagedir sdglobalnumber="690.01" sdnumber="51.01">
 	<dir>Gives him money.</dir>
 	<action type="action">
-		<actor>BRAD.</actor>
-		<recipient>WILL.</recipient>
+			<actor>BRAD.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="691" number="52" form="prose">Who? I pray thee, good Will.</line>
@@ -1766,14 +1803,14 @@
 <stagedir sdglobalnumber="696.01" sdnumber="57.01">
 	<dir>Gives him more money.</dir>
 	<action type="action">
-		<actor>BRAD.</actor>
-		<recipient>WILL.</recipient>
+			<actor>BRAD.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="696.02" sdnumber="57.02">
 	<dir>Bradshaw exits.</dir>
 	<action type="exit">
-		<actor>BRAD.</actor>
+			<actor>BRAD.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1804,8 +1841,8 @@
 <stagedir sdglobalnumber="707.01" sdnumber="68.01">
 	<dir>Offers money.</dir>
 	<action type="action">
-		<actor>GRE.</actor>
-		<recipient>WILL.</recipient>
+			<actor>GRE.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="708" number="69" form="verse">And I will lay the platform of his death.</line>
@@ -1832,8 +1869,8 @@
 <stagedir sdglobalnumber="713.01" sdnumber="74.01">
 	<dir>Gives money.</dir>
 	<action type="action">
-		<actor>GRE.</actor>
-		<recipient>WILL.</recipient>
+			<actor>GRE.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="714" number="75" form="verse">Ye shall have forty more.</line>
@@ -1845,13 +1882,13 @@
 <stagedir sdglobalnumber="715.01" sdnumber="76.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="3" minutesRunning="14" numberOfProseWords="419" numberOfVerseWords="1280" numberOfLines="180">
+<scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>London. A street near Aldersgate.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -1866,12 +1903,12 @@
 	<scenepersona short="GRE.">Dick Greene</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="715.02" sdnumber="0.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1881,11 +1918,11 @@
 <stagedir sdglobalnumber="717.01" sdnumber="2.01">
 	<dir>Arden and Franklin enter quietly and listen as Michael reads the letter:</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 	<action type="read">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="718" number="3" form="prose"><recite>&#8220;My duty remembered Mistress Susan, hoping in God you be in good health, as I, Michael, was at the making hereof. This is to certify you, that as the turtle true, when she hath lost her mate, sitteth alone, so I mourning for your absence, do walk up and down Paul&#8217;s, till one day I fell asleep and lost my master&#8217;s pantofles. Ah, Mistress Susan, abolish that paltry painter: cut him off by the shins with a frowning look of your crabbed countenance and think upon Michael, who, drunk with the dregs of your favor, will cleave as fast to your love, as a plaster of pitch to a galled horseback. Thus hoping you will let my passions penetrate, or rather impetrate mercy of your meek hands, I end.</recite></line>
@@ -1910,8 +1947,8 @@
 <stagedir sdglobalnumber="727.01" sdnumber="12.01">
 	<dir>Michael gives him the letter.</dir>
 	<action type="action">
-		<actor>MICH.</actor>
-		<recipient>FRANK.</recipient>
+			<actor>MICH.</actor>
+			<recipient>FRANK.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="728" number="13" form="verse">See Master Franklin, here&#8217;s proper stuff:</line>
@@ -1922,13 +1959,13 @@
 <stagedir sdglobalnumber="732.01" sdnumber="17.01">
 	<dir>Greene, Will, and Shakebag enter, unseen by the others.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 	<dir>Arden looks at the letter.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <line globalnumber="733" number="18" form="verse">Wilt thou be married to so base a whore?</line>
@@ -1938,11 +1975,11 @@
 <line globalnumber="737" number="22" form="verse">Come, but a turn or two and then away.</line>
 </speech>
 <stagedir sdglobalnumber="737.01" sdnumber="22.01">
-	<dir>Exeunt Arden, Franklin, and Michael..</dir>
+	<dir>Exeunt Arden, Franklin, and Michael.</dir>
 	<action type="exeunt">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1965,7 +2002,7 @@
 <stagedir sdglobalnumber="745.01" sdnumber="30.01">
 	<dir>Greene exits.</dir>
 	<action type="exit">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1975,11 +2012,8 @@
 <stagedir sdglobalnumber="746.01" sdnumber="31.01">
 	<dir>They see Arden, Franklin, and Michael returning.</dir>
 	<action type="see">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<recipient>ARDEN.</recipient>
-		<recipient>FRANK.</recipient>
-		<recipient>MICH.</recipient>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1997,7 +2031,7 @@
 <stagedir sdglobalnumber="749.01" sdnumber="34.01">
 	<dir>The Prentice enters.</dir>
 	<action type="enter">
-		<actor>PRE.</actor>
+			<actor>PRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2007,8 +2041,8 @@
 <stagedir sdglobalnumber="750.01" sdnumber="35.01">
 	<dir>Then lets he down his window, and it breaks Black Will&#8217;s head.</dir>
 	<action type="fight">
-		<actor>PRE.</actor>
-		<recipient>WILL.</recipient>
+			<actor>PRE.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2026,9 +2060,9 @@
 <stagedir sdglobalnumber="753.01" sdnumber="38.01">
 	<dir>Arden, Franklin, and Michael enter.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2047,9 +2081,9 @@
 <stagedir sdglobalnumber="757.01" sdnumber="42.01">
 	<dir>Exeunt Arden, Franklin, and Michael.</dir>
 	<action type="exeunt">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2063,7 +2097,7 @@
 <stagedir sdglobalnumber="759.01" sdnumber="44.01">
 	<dir>The Prentice exits.</dir>
 	<action type="exit">
-		<actor>PRE.</actor>
+			<actor>PRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2072,7 +2106,7 @@
 <stagedir sdglobalnumber="760.01" sdnumber="45.01">
 	<dir>Greene enters.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="761" number="46" form="prose">I had a glimpse of him and his companion.</line>
@@ -2156,7 +2190,7 @@
 <stagedir sdglobalnumber="808.01" sdnumber="93.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="809" number="94" form="verse">See yonder comes his man, and wot you what?</line>
@@ -2190,7 +2224,7 @@
 <stagedir sdglobalnumber="820.01" sdnumber="105.01">
 	<dir>He starts to go.</dir>
 	<action type="action">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2216,8 +2250,8 @@
 <stagedir sdglobalnumber="826.01" sdnumber="111.01">
 	<dir>To Greene</dir>
 	<action type="speak">
-		<actor>SHAKE.</actor>
-		<recipient>GRE.</recipient>
+			<actor>SHAKE.</actor>
+			<recipient>GRE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="827" number="112" form="verse">You have a pretty love in Faversham.</line>
@@ -2232,8 +2266,8 @@
 <stagedir sdglobalnumber="829.01" sdnumber="114.01">
 	<dir>To Shakebag.</dir>
 	<action type="speak">
-		<actor>WILL.</actor>
-		<recipient>SHAKE.</recipient>
+			<actor>WILL.</actor>
+			<recipient>SHAKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="830" number="115" form="verse">&#8216;Tis known to us you love Mosby&#8217;s sister.</line>
@@ -2311,12 +2345,12 @@
 <stagedir sdglobalnumber="876.01" sdnumber="161.01">
 	<dir>Exeunt Will, Greene, and Shakebag. Michael remains.</dir>
 	<action type="exeunt">
-		<actor>WILL.</actor>
-		<actor>GRE.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>GRE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 	<action type="action">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -2326,7 +2360,7 @@
 <line globalnumber="879" number="164" form="verse">The hunger-bitten wolf o&#8217;erpries his haunt</line>
 <line globalnumber="880" number="165" form="verse">And takes advantage to eat him up.</line>
 <line globalnumber="881" number="166" form="verse">Ah, harmless Arden how, how hast thou misdone.</line>
-<line globalnumber="882" number="167" form="verse">That thus thy gentle life is levelled at?</line>
+<line globalnumber="882" number="167" form="verse">That thus thy gentle life is leveled at?</line>
 <line globalnumber="883" number="168" form="verse">The many good turns that thou hast done to me</line>
 <line globalnumber="884" number="169" form="verse">Now must I quittance with betraying thee:</line>
 <line globalnumber="885" number="170" form="verse">I that should take the weapon in my hand</line>
@@ -2344,11 +2378,11 @@
 <stagedir sdglobalnumber="895.01" sdnumber="180.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="4" minutesRunning="7" numberOfProseWords="0" numberOfVerseWords="827" numberOfLines="108">
+<scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>Arden and Franklin&#8217;s home in Aldersgate, London.</scenelocation>
 <scenetime>Late that evening.</scenetime>
@@ -2358,13 +2392,13 @@
 	<scenepersona short="MICH.">Michael</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="895.02" sdnumber="0.01">
 	<dir>Arden and Franklin enter.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2416,7 +2450,7 @@
 <stagedir sdglobalnumber="927.01" sdnumber="32.01">
 	<dir>Indicating his breast.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <line globalnumber="928" number="33" form="verse">That will not out till wretched Arden dies.</line>
@@ -2424,7 +2458,7 @@
 <stagedir sdglobalnumber="928.01" sdnumber="33.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2436,8 +2470,8 @@
 <stagedir sdglobalnumber="929.01" sdnumber="34.01">
 	<dir>To Michael.</dir>
 	<action type="speak">
-		<actor>ARDEN.</actor>
-		<recipient>MICH.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="930" number="35" form="verse">What o&#8217;clock is&#8217;t, sirrah?</line>
@@ -2454,8 +2488,8 @@
 <stagedir sdglobalnumber="933.01" sdnumber="38.01">
 	<dir>Arden and Michael exit.</dir>
 	<action type="exit">
-		<actor>ARDEN.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -2464,7 +2498,7 @@
 <stagedir sdglobalnumber="934.01" sdnumber="39.01">
 	<dir>Franklin remains.</dir>
 	<action type="action">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <line globalnumber="935" number="40" form="verse">Ah, what a hell is fretful jealousy?</line>
@@ -2487,7 +2521,7 @@
 <stagedir sdglobalnumber="950.01" sdnumber="55.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2504,10 +2538,10 @@
 <stagedir sdglobalnumber="953.01" sdnumber="58.01">
 	<dir>Franklin exits. Michael remains</dir>
 	<action type="exit">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 	<action type="action">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="954" number="59" form="verse">Conflicting thoughts encamped in my breast</line>
@@ -2543,8 +2577,8 @@
 <stagedir sdglobalnumber="982.01" sdnumber="87.01">
 	<dir>Franklin and Arden enter.</dir>
 	<action type="enter">
-		<actor>FRANK.</actor>
-		<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2581,7 +2615,7 @@
 <stagedir sdglobalnumber="996.01" sdnumber="101.01">
 	<dir>He checks the door.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <line globalnumber="997" number="102" form="verse">Ne&#8217;er trust me, but the doors were all unlocked!</line>
@@ -2598,13 +2632,13 @@
 <stagedir sdglobalnumber="1003.01" sdnumber="108.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
-		<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="5" minutesRunning="5" numberOfProseWords="0" numberOfVerseWords="520" numberOfLines="63">
+<scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>Aldersgate, London. The street outside Arden&#8217;s and Franklin&#8217;s house.</scenelocation>
 <scenetime>A few hours later.</scenetime>
@@ -2614,14 +2648,14 @@
 	<scenepersona short="SHAKE.">George Shakebag</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1003.02" sdnumber="0.01">
 	<dir>Will, Greene, and Shakebag enter.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>GRE.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>GRE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2647,7 +2681,7 @@
 <stagedir sdglobalnumber="1017.01" sdnumber="14.01">
 	<dir>Greene exits.</dir>
 	<action type="exit">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2741,12 +2775,12 @@
 <stagedir sdglobalnumber="1066.01" sdnumber="63.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="6" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="361" numberOfLines="46">
+<scene actnum="1" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>Arden and Franklin&#8217;s home in Aldersgate, London.</scenelocation>
 <scenetime>The next morning.</scenetime>
@@ -2755,14 +2789,14 @@
 	<scenepersona short="FRANK.">Franklin</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1066.02" sdnumber="0.01">
 	<dir>The next morning. Arden, Franklin, and Michael enter.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2774,7 +2808,7 @@
 <stagedir sdglobalnumber="1070.01" sdnumber="4.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1071" number="5" form="verse">Come, Master Franklin, you shall go with me.</line>
@@ -2838,12 +2872,12 @@
 <stagedir sdglobalnumber="1112.01" sdnumber="46.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="7" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="245" numberOfLines="30">
+<scene actnum="1" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>Aldersgate, London. The street outside Arden&#8217;s and Franklin&#8217;s house.</scenelocation>
 <scenetime>An hour later.</scenetime>
@@ -2854,24 +2888,24 @@
 	<scenepersona short="MICH.">Michael</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1112.02" sdnumber="0.01">
 	<dir>Michael enters at one door, leaving the house. Then Greene, Will, and Shakebag enter at another door.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 	<action type="enter">
-		<actor>GRE.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1112.03" sdnumber="0.02">
 	<dir>Will sees Michael and advances.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<recipient>MICH.</recipient>
+			<actor>WILL.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2937,14 +2971,14 @@
 <stagedir sdglobalnumber="1142.01" sdnumber="30.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>GRE.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<actor>MICH.</actor>
+			<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="8" minutesRunning="11" numberOfProseWords="23" numberOfVerseWords="1279" numberOfLines="165">
+<scene actnum="1" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>Faversham. Outside Arden&#8217;s house.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -2954,12 +2988,12 @@
 	<scenepersona short="BRAD.">Bradshaw</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1142.02" sdnumber="0.01">
 	<dir>Mosby enters.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -3010,7 +3044,7 @@
 <stagedir sdglobalnumber="1185.01" sdnumber="43.01">
 	<dir>Alice, returning from church, enters carrying a prayerbook.</dir>
 	<action type="enter">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1186" number="44" form="verse">But here she comes and I must flatter her&#8212;</line>
@@ -3092,8 +3126,8 @@
 <line globalnumber="1232" number="90" form="verse">Whose beauty and demeanor far exceeded thee.</line>
 <line globalnumber="1233" number="91" form="verse">This certain good I lost for changing bad</line>
 <line globalnumber="1234" number="92" form="verse">And wrapped my credit in thy company.</line>
-<line globalnumber="1235" number="93" form="verse"><emph rend="italic">I</emph> was bewitched &#8212; that is no theme of thine! &#8212;</line>
-<line globalnumber="1236" number="94" form="verse">And thou unhallowed hast enchanted <emph rend="italic">me</emph>.</line>
+<line globalnumber="1235" number="93" form="verse">I was bewitched &#8212; that is no theme of thine! &#8212;</line>
+<line globalnumber="1236" number="94" form="verse">And thou unhallowed hast enchanted me.</line>
 <line globalnumber="1237" number="95" form="verse">But I will break thy spells and exorcisms,</line>
 <line globalnumber="1238" number="96" form="verse">And put another sight upon these eyes</line>
 <line globalnumber="1239" number="97" form="verse">That showed my heart a raven for a dove.</line>
@@ -3116,7 +3150,7 @@
 <stagedir sdglobalnumber="1252.01" sdnumber="110.01">
 	<dir>Mosby tries to interrupt.</dir>
 	<action type="speak">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1253" number="111" form="verse">I&#8217;ll bite my tongue if it speak bitterly.</line>
@@ -3130,7 +3164,7 @@
 <stagedir sdglobalnumber="1260.01" sdnumber="118.01">
 	<dir>She tears out leaves from the prayerbook.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1261" number="119" form="verse">And all the leaves, and in this golden cover</line>
@@ -3177,7 +3211,7 @@
 <stagedir sdglobalnumber="1291.01" sdnumber="149.01">
 	<dir>Bradshaw enters.</dir>
 	<action type="enter">
-		<actor>BRAD.</actor>
+			<actor>BRAD.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3187,8 +3221,8 @@
 <stagedir sdglobalnumber="1292.01" sdnumber="150.01">
 	<dir>She goes to kiss him.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -3211,13 +3245,13 @@
 <stagedir sdglobalnumber="1298.01" sdnumber="156.01">
 	<dir>Bradshaw exits.</dir>
 	<action type="exit">
-		<actor>BRAD.</actor>
+			<actor>BRAD.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1298.02" sdnumber="156.02">
 	<dir>She reads the letter.</dir>
 	<action type="read">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1299" number="157" form="prose"><recite>&#8220;We have missed of our purpose at London, but shall perform it by the way. We thank our neighbor Bradshaw.</recite></line>
@@ -3242,12 +3276,12 @@
 <stagedir sdglobalnumber="1307.01" sdnumber="165.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>MOSBY.</actor>
-		<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="9" minutesRunning="11" numberOfProseWords="0" numberOfVerseWords="1266" numberOfLines="154">
+<scene actnum="1" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>The road near Rainham Down.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -3262,14 +3296,14 @@
 	<scenepersona short="CHEY. MAN.">Manservant to Lord Cheyne</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1307.02" sdnumber="0.01">
 	<dir>Greene, Will, and Shakebag enter.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3307,8 +3341,8 @@
 <stagedir sdglobalnumber="1328.01" sdnumber="21.01">
 	<dir>To Greene.</dir>
 	<action type="speak">
-		<actor>WILL.</actor>
-		<recipient>GRE.</recipient>
+			<actor>WILL.</actor>
+			<recipient>GRE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1329" number="22" form="verse">O, Greene, intolerable!</line>
@@ -3326,14 +3360,14 @@
 <stagedir sdglobalnumber="1336.01" sdnumber="29.01">
 	<dir>They fight.</dir>
 	<action type="fight">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1336.02" sdnumber="29.02">
 	<dir>Greene tries to keep the peace.</dir>
 	<action type="action">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3357,7 +3391,7 @@
 <stagedir sdglobalnumber="1345.01" sdnumber="38.01">
 	<dir>He kneels down and holds up his hands to heaven.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
+			<actor>WILL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3385,29 +3419,29 @@
 <stagedir sdglobalnumber="1358.01" sdnumber="51.01">
 	<dir>Greene exits.</dir>
 	<action type="exit">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1358.02" sdnumber="51.02">
 	<dir>Black Will and Shakebag hide.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1358.03" sdnumber="51.03">
 	<dir>Arden, Franklin, and Michael enter with horses.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Michael Bolton">MICH.</speaker>
 <line globalnumber="1359" number="52" form="verse">&#8217;Twere best that I went back to Rochester.</line>
 <line globalnumber="1360" number="53" form="verse">The horse halts downright: it were not good</line>
-<line globalnumber="1361" number="54" form="verse">He travelled in such pain to Faversham.</line>
+<line globalnumber="1361" number="54" form="verse">He traveled in such pain to Faversham.</line>
 <line globalnumber="1362" number="55" form="verse">Removing of a shoe may happily help it.</line>
 </speech>
 <speech>
@@ -3421,7 +3455,7 @@
 <stagedir sdglobalnumber="1365.01" sdnumber="58.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1366" number="59" form="verse">Ay, God he knows, and so doth Will and Shakebag.</line>
@@ -3432,7 +3466,7 @@
 <stagedir sdglobalnumber="1369.01" sdnumber="62.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3499,7 +3533,7 @@
 <stagedir sdglobalnumber="1401.01" sdnumber="94.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>SHAKE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1402" number="95" form="verse">Stand close, Will, I hear them coming.</line>
@@ -3507,8 +3541,8 @@
 <stagedir sdglobalnumber="1402.01" sdnumber="95.01">
 	<dir>Lord Cheyne and his man enter.</dir>
 	<action type="enter">
-		<actor>CHEY.</actor>
-		<actor>CHEY. MAN.</actor>
+			<actor>CHEY.</actor>
+			<actor>CHEY. MAN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3516,7 +3550,7 @@
 <stagedir sdglobalnumber="1402.02" sdnumber="95.02">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>WILL.</actor>
+			<actor>WILL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1403" number="96" form="verse">Stand to it, Shakebag, and be resolute.</line>
@@ -3547,8 +3581,8 @@
 <stagedir sdglobalnumber="1412.01" sdnumber="105.01">
 	<dir>To Franklin.</dir>
 	<action type="speak">
-		<actor>CHEY.</actor>
-		<recipient>FRANK.</recipient>
+			<actor>CHEY.</actor>
+			<recipient>FRANK.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1413" number="106" form="verse">My Lord Protector&#8217;s man, I take you to be.</line>
@@ -3583,16 +3617,16 @@
 <stagedir sdglobalnumber="1423.01" sdnumber="116.01">
 	<dir>To his Manservant.</dir>
 	<action type="speak">
-		<actor>CHEY.</actor>
-		<recipient>CHEY. MAN.</recipient>
+			<actor>CHEY.</actor>
+			<recipient>CHEY. MAN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1424" number="117" form="verse">You, stay my horse at the top of the hill.</line>
 <stagedir sdglobalnumber="1424.01" sdnumber="117.01">
 	<dir>He sees Black William.</dir>
 	<action type="see">
-		<actor>CHEY.</actor>
-		<recipient>WILL.</recipient>
+			<actor>CHEY.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1425" number="118" form="verse">What, Black Will, for whose purse wait you?</line>
@@ -3610,15 +3644,15 @@
 <stagedir sdglobalnumber="1430.01" sdnumber="123.01">
 	<dir>Arden gives Will a coin.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
-		<recipient>WILL.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1430.02" sdnumber="123.02">
 	<dir>To Will.</dir>
 	<action type="speak">
-		<actor>CHEY.</actor>
-		<recipient>WILL.</recipient>
+			<actor>CHEY.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1431" number="124" form="verse">And, sirrah, leave this kind of life.</line>
@@ -3630,14 +3664,14 @@
 <stagedir sdglobalnumber="1435.01" sdnumber="128.01">
 	<dir>Exeunt. Black Will and Shakebag remain.</dir>
 	<action type="exit">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
-		<actor>CHEY.</actor>
-		<actor>CHEY. MAN.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
+			<actor>CHEY.</actor>
+			<actor>CHEY. MAN.</actor>
 	</action>
 	<action type="action">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3645,7 +3679,7 @@
 <line globalnumber="1436" number="129" form="verse">The devil break all your necks, at four miles end.</line>
 <line globalnumber="1437" number="130" form="verse">Zounds, I could kill myself for very anger!</line>
 <line globalnumber="1438" number="131" form="verse">His lordship chops me in, even when</line>
-<line globalnumber="1439" number="132" form="verse">My dag was levelled at his heart.</line>
+<line globalnumber="1439" number="132" form="verse">My dag was leveled at his heart.</line>
 <line globalnumber="1440" number="133" form="verse">I would his crown were molten down his throat.</line>
 </speech>
 <speech>
@@ -3656,7 +3690,7 @@
 <stagedir sdglobalnumber="1443.01" sdnumber="136.01">
 	<dir>Fires pistol.</dir>
 	<action type="action">
-		<actor>SHAKE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1444" number="137" form="verse">For by this bullet, Arden might not die.</line>
@@ -3664,7 +3698,7 @@
 <stagedir sdglobalnumber="1444.01" sdnumber="137.01">
 	<dir>Greene enters.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3714,13 +3748,13 @@
 <stagedir sdglobalnumber="1461.01" sdnumber="154.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="10" minutesRunning="7" numberOfProseWords="69" numberOfVerseWords="769" numberOfLines="104">
+<scene actnum="1" num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Arden&#8217;s house in Faversham.</scenelocation>
 <scenetime>Early the next morning.</scenetime>
@@ -3735,19 +3769,19 @@
 	<scenepersona short="SUS.">Susan Mosby</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1461.02" sdnumber="0.01">
 	<dir>Arden, his wife, Franklin, and Michael enter. Susan enters separately cleaning.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>ALICE.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
-		<actor>SUS.</actor>
+			<actor>ARDEN.</actor>
+			<actor>ALICE.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
+			<actor>SUS.</actor>
 	</action>
 	<action type="action">
-		<actor>SUS.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3792,8 +3826,8 @@
 <stagedir sdglobalnumber="1483.01" sdnumber="22.01">
 	<dir>To Michael.</dir>
 	<action type="speak">
-		<actor>ARDEN.</actor>
-		<recipient>MICH.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1484" number="23" form="verse">Content.&#8212; Sirrah, saddle your mistress&#8217; nag.</line>
@@ -3801,7 +3835,7 @@
 <stagedir sdglobalnumber="1484.01" sdnumber="23.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3837,13 +3871,13 @@
 <stagedir sdglobalnumber="1496.01" sdnumber="35.01">
 	<dir>Alice exits.</dir>
 	<action type="exit">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1496.02" sdnumber="35.02">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3862,8 +3896,8 @@
 <stagedir sdglobalnumber="1501.01" sdnumber="40.01">
 	<dir>To Arden</dir>
 	<action type="speak">
-		<actor>FRANK.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>FRANK.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1502" number="41" form="verse">Why, I pray you, let us go before,</line>
@@ -3874,8 +3908,8 @@
 <stagedir sdglobalnumber="1503.01" sdnumber="42.01">
 	<dir>To Michael.</dir>
 	<action type="speak">
-		<actor>ARDEN.</actor>
-		<recipient>FRANK.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>FRANK.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1504" number="43" form="verse">Go to, sirrah, see you follow us to the Isle of Sheppey</line>
@@ -3884,11 +3918,11 @@
 <stagedir sdglobalnumber="1505.01" sdnumber="44.01">
 	<dir>Exeunt Arden and Franklin. Michael remains.</dir>
 	<action type="exit">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 	<action type="action">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -3897,7 +3931,7 @@
 <stagedir sdglobalnumber="1506.01" sdnumber="45.01">
 	<dir>Here enters the Painter Clarke.</dir>
 	<action type="enter">
-		<actor>CLAR.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1507" number="46" form="verse">But who is this? The painter, my corrival.</line>
@@ -3989,19 +4023,19 @@
 <stagedir sdglobalnumber="1534.01" sdnumber="73.01">
 	<dir>He breaks Michael&#8217;s head.</dir>
 	<action type="fight">
-		<actor>CLAR.</actor>
-		<recipient>MICH.</recipient>
+			<actor>CLAR.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1534.02" sdnumber="73.02">
 	<dir>Susan returns and sees them fighting. Then Mosby, Greene, and Alice enter.</dir>
 	<action type="action">
-		<actor>SUS.</actor>
+			<actor>SUS.</actor>
 	</action>
 	<action type="enter">
-		<actor>MOSBY.</actor>
-		<actor>GRE.</actor>
-		<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>GRE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4013,7 +4047,7 @@
 <stagedir sdglobalnumber="1538.01" sdnumber="77.01">
 	<dir>Michael exits</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1539" number="78" form="verse">Say Clarke, hast thou done the thing thou promised?</line>
@@ -4025,7 +4059,7 @@
 <stagedir sdglobalnumber="1540.01" sdnumber="79.01">
 	<dir>He shows the poisoned crucifix.</dir>
 	<action type="action">
-		<actor>CLAR.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4065,15 +4099,15 @@
 <stagedir sdglobalnumber="1565.01" sdnumber="104.01">
 	<dir>Exeunt Alice, Mosby, and Greene. Clarke and Susan separately.</dir>
 	<action type="exeunt">
-		<actor>GRE.</actor>
-		<actor>SUS.</actor>
-		<actor>MOSBY.</actor>
-		<actor>ALICE.</actor>
-		<actor>CLAR.</actor>
+			<actor>GRE.</actor>
+			<actor>SUS.</actor>
+			<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
+			<actor>CLAR.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="11" minutesRunning="3" numberOfProseWords="118" numberOfVerseWords="147" numberOfLines="26">
+<scene actnum="1" num="11">
 <scenetitle>Scene 11</scenetitle>
 <scenelocation>The Harty Ferry crossing to the Isle of Sheppey.</scenelocation>
 <scenetime>About an hour later.</scenetime>
@@ -4083,13 +4117,13 @@
 	<scenepersona short="FERRY.">Ferryman</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1565.02" sdnumber="0.01">
-	<dir>Arden and Franklin enter. It's foggy.</dir>
+	<dir>Arden and Franklin enter. It&#8217;s foggy.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4099,7 +4133,7 @@
 <stagedir sdglobalnumber="1566.01" sdnumber="1.01">
 	<dir>The Ferryman enters.</dir>
 	<action type="enter">
-		<actor>FERRY.</actor>
+			<actor>FERRY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4190,13 +4224,13 @@
 <stagedir sdglobalnumber="1591.01" sdnumber="26.01">
 	<dir>Exeunt on the ferry.</dir>
 	<action type="exeunt">
-		<actor>FERRY.</actor>
-		<actor>ARDEN.</actor>
-		<actor>FRANK.</actor>
+			<actor>FERRY.</actor>
+			<actor>ARDEN.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="12" minutesRunning="6" numberOfProseWords="224" numberOfVerseWords="374" numberOfLines="63">
+<scene actnum="1" num="12">
 <scenetitle>Scene 12</scenetitle>
 <scenelocation>Open country near the Harty Ferry crossing.</scenelocation>
 <scenetime>About thirty minutes later.</scenetime>
@@ -4209,13 +4243,13 @@
 	<scenepersona short="ALICE.">Alice Arden</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1591.02" sdnumber="0.01">
 	<dir>Will and Shakebag enter from different directions.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4270,7 +4304,7 @@
 <stagedir sdglobalnumber="1605.01" sdnumber="14.01">
 	<dir>Shakebag falls into a ditch.</dir>
 	<action type="action">
-		<actor>SHAKE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4280,7 +4314,7 @@
 <stagedir sdglobalnumber="1606.01" sdnumber="15.01">
 	<dir>The Ferryman enters.</dir>
 	<action type="enter">
-		<actor>FERRY.</actor>
+			<actor>FERRY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4340,7 +4374,7 @@
 <stagedir sdglobalnumber="1621.01" sdnumber="30.01">
 	<dir>The Ferryman exits.</dir>
 	<action type="exit">
-		<actor>FERRY.</actor>
+			<actor>FERRY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4351,9 +4385,9 @@
 <stagedir sdglobalnumber="1623.01" sdnumber="32.01">
 	<dir>Greene, Mosby, and Alice enter.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
-		<actor>MOSBY.</actor>
-		<actor>ALICE.</actor>
+			<actor>GRE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4382,10 +4416,10 @@
 <speech>
 <speaker long="Mosby">MOSBY.</speaker>
 <stagedir sdglobalnumber="1634.01" sdnumber="43.01">
-	<dir>Indicating Shakebag's clothes.</dir>
+	<dir>Indicating Shakebag&#8217;s clothes.</dir>
 	<action type="speak">
-		<actor>MOSBY.</actor>
-		<recipient>SHAKE.</recipient>
+			<actor>MOSBY.</actor>
+			<recipient>SHAKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1635" number="44" form="verse">How cam&#8217;st thou so bewrayed?</line>
@@ -4400,8 +4434,8 @@
 <stagedir sdglobalnumber="1637.01" sdnumber="46.01">
 	<dir>Gives money.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>WILL.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1638" number="47" form="verse">Here&#8217;s to pay for a fire and good cheer</line>
@@ -4420,9 +4454,9 @@
 <stagedir sdglobalnumber="1643.01" sdnumber="52.01">
 	<dir>Exeunt Greene, Will, and Shakebag.</dir>
 	<action type="exit">
-		<actor>GRE.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4448,19 +4482,19 @@
 <stagedir sdglobalnumber="1654.01" sdnumber="63.01">
 	<dir>He kisses her.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
-		<recipient>ALICE.</recipient>
+			<actor>MOSBY.</actor>
+			<recipient>ALICE.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1654.02" sdnumber="63.02">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>MOSBY.</actor>
-		<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="13" minutesRunning="10" numberOfProseWords="0" numberOfVerseWords="1251" numberOfLines="154">
+<scene actnum="1" num="13">
 <scenetitle>Scene 13</scenetitle>
 <scenelocation>Faversham. Near Arden&#8217;s house.</scenelocation>
 <scenetime>In the early evening on the same day.</scenetime>
@@ -4476,13 +4510,13 @@
 	<scenepersona short="SHAKE.">George Shakebag</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1654.03" sdnumber="0.01">
 	<dir>Dick Reede and a Sailor enter.</dir>
 	<action type="enter">
-		<actor>DICK.</actor>
-		<actor>SAIL.</actor>
+			<actor>DICK.</actor>
+			<actor>SAIL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4502,9 +4536,9 @@
 <stagedir sdglobalnumber="1663.01" sdnumber="9.01">
 	<dir>Franklin, Arden, and Michael enter.</dir>
 	<action type="enter">
-		<actor>FRANK.</actor>
-		<actor>ARDEN.</actor>
-		<actor>MICH.</actor>
+			<actor>FRANK.</actor>
+			<actor>ARDEN.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1664" number="10" form="verse">See where he comes: to further my intent&#8212;</line>
@@ -4567,8 +4601,8 @@
 <stagedir sdglobalnumber="1707.01" sdnumber="53.01">
 	<dir>Exeunt Reede and Sailor.</dir>
 	<action type="exit">
-		<actor>DICK.</actor>
-		<actor>SAIL.</actor>
+			<actor>DICK.</actor>
+			<actor>SAIL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4610,8 +4644,8 @@
 <stagedir sdglobalnumber="1728.01" sdnumber="74.01">
 	<dir>Alice and Mosby enter arm in arm.</dir>
 	<action type="enter">
-		<actor>ALICE.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ALICE.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4632,8 +4666,8 @@
 <stagedir sdglobalnumber="1734.01" sdnumber="80.01">
 	<dir>She kisses Mosby.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -4641,7 +4675,7 @@
 <stagedir sdglobalnumber="1734.02" sdnumber="80.02">
 	<dir>He draws.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1735" number="81" form="verse">Ah, Mosby! Perjured beast! Bear this and all!</line>
@@ -4651,7 +4685,7 @@
 <stagedir sdglobalnumber="1735.01" sdnumber="81.01">
 	<dir>He draws.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1736" number="82" form="verse">And yet no horned beast: the horns are thine.</line>
@@ -4661,7 +4695,7 @@
 <stagedir sdglobalnumber="1736.01" sdnumber="82.01">
 	<dir>He draws.</dir>
 	<action type="action">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1737" number="83" form="verse">O monstrous! Nay, then, &#8217;tis time to draw.</line>
@@ -4673,16 +4707,16 @@
 <stagedir sdglobalnumber="1738.01" sdnumber="84.01">
 	<dir>Will and Shakebag enter.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1738.02" sdnumber="84.02">
 	<dir>They fight. Shakebag and Mosby are injured.</dir>
 	<action type="fight">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<actor>MOSBY.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4696,9 +4730,9 @@
 <stagedir sdglobalnumber="1740.01" sdnumber="86.01">
 	<dir>Exeunt Mosby, Will, and Shakebag.</dir>
 	<action type="exit">
-		<actor>MOSBY.</actor>
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4813,9 +4847,9 @@
 <stagedir sdglobalnumber="1804.01" sdnumber="150.01">
 	<dir>Exeunt Arden, Alice, and Michael.</dir>
 	<action type="exit">
-		<actor>ARDEN.</actor>
-		<actor>ALICE.</actor>
-		<actor>MICH.</actor>
+			<actor>ARDEN.</actor>
+			<actor>ALICE.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4828,11 +4862,11 @@
 <stagedir sdglobalnumber="1808.01" sdnumber="154.01">
 	<dir>Franklin exits.</dir>
 	<action type="exit">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="14" minutesRunning="30" numberOfProseWords="514" numberOfVerseWords="2987" numberOfLines="377">
+<scene actnum="1" num="14">
 <scenetitle>Scene 14</scenetitle>
 <scenelocation>Faversham. Near Arden&#8217;s house.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -4852,15 +4886,15 @@
 	<scenepersona short="WATCH.">The Watch</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
-    <language short="fr">French</language>
+ <language short="en">English</language>
+ <language short="fr">French</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1808.02" sdnumber="0.01">
 	<dir>The next day. Will, Shakebag, and Greene enter.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<actor>GRE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4890,8 +4924,8 @@
 <stagedir sdglobalnumber="1814.01" sdnumber="6.01">
 	<dir>Alice and Michael enter.</dir>
 	<action type="enter">
-		<actor>ALICE.</actor>
-		<actor>MICH.</actor>
+			<actor>ALICE.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4933,7 +4967,7 @@
 <stagedir sdglobalnumber="1832.01" sdnumber="24.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4983,7 +5017,7 @@
 <stagedir sdglobalnumber="1849.01" sdnumber="41.01">
 	<dir>Mosby enters.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5073,8 +5107,8 @@
 <stagedir sdglobalnumber="1883.01" sdnumber="75.01">
 	<dir>Exeunt Mosby and Greene.</dir>
 	<action type="exit">
-		<actor>MOSBY.</actor>
-		<actor>GRE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1884" number="76" form="verse">And if he e&#8217;er go forth again blame me.</line>
@@ -5132,9 +5166,9 @@
 </speech>
 <stagedir sdglobalnumber="1914.01" sdnumber="106.01">
 	<dir>Black Will and Shakebag hide.</dir>
-	<action type="enter">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+	<action type="action">
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -5155,7 +5189,7 @@
 <stagedir sdglobalnumber="1926.01" sdnumber="118.01">
 	<dir>Michael enters.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5211,14 +5245,14 @@
 <stagedir sdglobalnumber="1941.01" sdnumber="133.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1941.02" sdnumber="133.02">
 	<dir>Arden and Mosby enter.</dir>
 	<action type="enter">
-		<actor>ARDEN.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ARDEN.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1942" number="134" form="verse">Husband, what mean you to bring Mosby home?</line>
@@ -5231,7 +5265,7 @@
 <stagedir sdglobalnumber="1948.01" sdnumber="140.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1949" number="141" form="verse">You have given me my supper with his sight.</line>
@@ -5239,7 +5273,7 @@
 <stagedir sdglobalnumber="1949.01" sdnumber="141.01">
 	<dir>Michael enters with the gaming tables.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5263,7 +5297,7 @@
 <stagedir sdglobalnumber="1956.01" sdnumber="148.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1957" number="149" form="verse">O, how cunningly she can dissemble.</line>
@@ -5273,8 +5307,8 @@
 <stagedir sdglobalnumber="1957.01" sdnumber="149.01">
 	<dir>To Alice</dir>
 	<action type="speak">
-		<actor>ARDEN.</actor>
-		<recipient>ALICE.</recipient>
+			<actor>ARDEN.</actor>
+			<recipient>ALICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1958" number="150" form="verse">Now he is here, you will not serve me so.</line>
@@ -5290,7 +5324,7 @@
 <stagedir sdglobalnumber="1961.01" sdnumber="153.01">
 	<dir>Sits.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1962" number="154" form="verse">I know I am welcome to your loving husband,</line>
@@ -5329,7 +5363,7 @@
 <stagedir sdglobalnumber="1970.01" sdnumber="162.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1971" number="163" form="verse">Nay, that&#8217;s a lie: for I have locked the doors.</line>
@@ -5340,7 +5374,7 @@
 <stagedir sdglobalnumber="1972.01" sdnumber="164.01">
 	<dir>Michael exits.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1973" number="165" form="verse">I&#8217;ll make them friends.</line>
@@ -5359,7 +5393,7 @@
 <stagedir sdglobalnumber="1978.01" sdnumber="170.01">
 	<dir>Michael returns with wine.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5369,7 +5403,7 @@
 <stagedir sdglobalnumber="1980.01" sdnumber="172.01">
 	<dir>She raises her glass.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1981" number="173" form="verse">Here, Master Mosby, and I pray you henceforth,</line>
@@ -5423,15 +5457,15 @@
 <stagedir sdglobalnumber="2000.01" sdnumber="192.01">
 	<dir>They play at the tables.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
-		<actor>MOSBY.</actor>
+			<actor>ARDEN.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2000.02" sdnumber="192.02">
 	<dir>Black Will and Shakebag enter, unobserved.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5439,8 +5473,8 @@
 <stagedir sdglobalnumber="2000.03" sdnumber="192.03">
 	<dir>Aside to Alice.</dir>
 	<action type="aside">
-		<actor>WILL.</actor>
-		<recipient>ALICE.</recipient>
+			<actor>WILL.</actor>
+			<recipient>ALICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2001" number="193" form="verse">Can he not take him yet? What a spite is that?</line>
@@ -5450,8 +5484,8 @@
 <stagedir sdglobalnumber="2001.01" sdnumber="193.01">
 	<dir>Aside to Black Will.</dir>
 	<action type="aside">
-		<actor>ALICE.</actor>
-		<recipient>WILL.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2002" number="194" form="verse">Not yet, Will. Take heed he see thee not.</line>
@@ -5461,8 +5495,8 @@
 <stagedir sdglobalnumber="2002.01" sdnumber="194.01">
 	<dir>Aside to Michael.</dir>
 	<action type="aside">
-		<actor>WILL.</actor>
-		<recipient>MICH.</recipient>
+			<actor>WILL.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2003" number="195" form="verse">I fear he will spy me as I am coming.</line>
@@ -5472,8 +5506,8 @@
 <stagedir sdglobalnumber="2003.01" sdnumber="195.01">
 	<dir>Aside to Black Will.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>WILL.</recipient>
+			<actor>MICH.</actor>
+			<recipient>WILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2004" number="196" form="verse">To prevent that creep betwixt my legs.</line>
@@ -5483,7 +5517,7 @@
 <stagedir sdglobalnumber="2004.01" sdnumber="196.01">
 	<dir>Throws the dice.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2005" number="197" form="verse">One ace, or else I lose the game.</line>
@@ -5499,8 +5533,8 @@
 <stagedir sdglobalnumber="2007.01" sdnumber="199.01">
 	<dir>Will pulls him down with a towel.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>WILL.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5514,8 +5548,8 @@
 <stagedir sdglobalnumber="2009.01" sdnumber="201.01">
 	<dir>He stabs and apparently kills Arden.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>WILL.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5523,8 +5557,8 @@
 <stagedir sdglobalnumber="2009.02" sdnumber="201.02">
 	<dir>Stabbing Arden.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>MOSBY.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2010" number="202" form="verse">There&#8217;s for the pressing iron you mocked me of.</line>
@@ -5534,8 +5568,8 @@
 <stagedir sdglobalnumber="2010.01" sdnumber="202.01">
 	<dir>Stabbing Arden.</dir>
 	<action type="action">
-		<actor>SHAKE.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>SHAKE.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2011" number="203" form="verse">And there&#8217;s for the ten pound in my sleeve,</line>
@@ -5543,7 +5577,7 @@
 <stagedir sdglobalnumber="2011.01" sdnumber="203.01">
 	<dir>Arden falls to the floor, but he rises slowly.</dir>
 	<action type="action">
-		<actor>ARDEN.</actor>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5551,9 +5585,12 @@
 <line globalnumber="2012" number="204" form="verse">What, groans thou? Nay, then give me the weapon.</line>
 <stagedir sdglobalnumber="2012.01" sdnumber="204.01">
 	<dir>She takes the dagger from Mosby and stabs Arden, killing him.</dir>
+	<action type="action">
+			<actor>ALICE.</actor>
+			<recipient>ARDEN.</recipient>
+	</action>
 	<action type="death">
-		<actor>ALICE..</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>ARDEN.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2013" number="205" form="verse">Take this for hindering Mosby&#8217;s love and mine.</line>
@@ -5592,17 +5629,17 @@
 <stagedir sdglobalnumber="2023.01" sdnumber="215.01">
 	<dir>Will and Shakebag lay the body in the counting-house.</dir>
 	<action type="action">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2023.02" sdnumber="215.02">
 	<dir>Alice takes Arden&#8217;s purse and pays them.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>WILL.</recipient>
-		<recipient>SHAKE.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>WILL.</recipient>
+			<recipient>SHAKE.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5613,14 +5650,14 @@
 <stagedir sdglobalnumber="2025.01" sdnumber="217.01">
 	<dir>Exeunt Black Will and Shakebag.</dir>
 	<action type="exit">
-		<actor>WILL.</actor>
-		<actor>SHAKE.</actor>
+			<actor>WILL.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2025.02" sdnumber="217.02">
 	<dir>Susan enters.</dir>
 	<action type="enter">
-		<actor>SUS.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5637,10 +5674,9 @@
 <speaker long="Alice Arden">ALICE.</speaker>
 <line globalnumber="2028" number="220" form="verse">Mosby, go thou and bear them company.</line>
 <stagedir sdglobalnumber="2028.01" sdnumber="220.01">
-	<dir>Mosby exits, taking Michael with him.</dir>
+	<dir>Mosby exits.</dir>
 	<action type="exit">
-		<actor>MOSBY.</actor>
-		<actor>MICH.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2029" number="221" form="verse">And, Susan, fetch water and wash away this blood.</line>
@@ -5650,7 +5686,7 @@
 <stagedir sdglobalnumber="2029.01" sdnumber="221.01">
 	<dir>Tries to wash away the blood</dir>
 	<action type="action">
-		<actor>SUS.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2030" number="222" form="verse">The blood cleaveth to the ground and will not out.</line>
@@ -5660,7 +5696,7 @@
 <stagedir sdglobalnumber="2030.01" sdnumber="222.01">
 	<dir>Tries to scrape away the blood.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2031" number="223" form="verse">But with my nails I&#8217;ll scrape away the blood:</line>
@@ -5677,7 +5713,7 @@
 <stagedir sdglobalnumber="2034.01" sdnumber="226.01">
 	<dir>Mosby enters.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5695,8 +5731,8 @@
 <stagedir sdglobalnumber="2038.01" sdnumber="230.01">
 	<dir>To Susan.</dir>
 	<action type="speak">
-		<actor>MOSBY.</actor>
-		<recipient>SUS.</recipient>
+			<actor>MOSBY.</actor>
+			<recipient>SUS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2039" number="231" form="verse">This wench doth nothing.&#8212; Fall unto the work!</line>
@@ -5730,8 +5766,8 @@
 <stagedir sdglobalnumber="2047.01" sdnumber="239.01">
 	<dir>Adam Fowle and Bradshaw enter.</dir>
 	<action type="enter">
-		<actor>BRAD.</actor>
-		<actor>ADAM.</actor>
+			<actor>BRAD.</actor>
+			<actor>ADAM.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5751,7 +5787,7 @@
 <stagedir sdglobalnumber="2052.01" sdnumber="244.01">
 	<dir>Greene enters.</dir>
 	<action type="enter">
-		<actor>GRE.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5769,7 +5805,7 @@
 <stagedir sdglobalnumber="2055.01" sdnumber="247.01">
 	<dir>Franklin enters.</dir>
 	<action type="enter">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5794,8 +5830,8 @@
 <stagedir sdglobalnumber="2063.01" sdnumber="255.01">
 	<dir>Susan and Michael converse apart. To Susan.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>SUS.</recipient>
+			<actor>MICH.</actor>
+			<recipient>SUS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2064" number="256" form="verse">Susan, shall thou and I wait on them,</line>
@@ -5806,8 +5842,8 @@
 <stagedir sdglobalnumber="2065.01" sdnumber="257.01">
 	<dir>To Michael.</dir>
 	<action type="aside">
-		<actor>SUS.</actor>
-		<recipient>MICH.</recipient>
+			<actor>SUS.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2066" number="258" form="verse">Peace, we have other matters now in hand.</line>
@@ -5818,8 +5854,8 @@
 <stagedir sdglobalnumber="2067.01" sdnumber="259.01">
 	<dir>To Susan.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>SUS.</recipient>
+			<actor>MICH.</actor>
+			<recipient>SUS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2068" number="260" form="prose">Tush, so it be known that I shall marry thee in the morning. I care not though I be hanged &#8216;ere night. But to prevent the worst, I&#8217;ll buy some ratsbane.</line>
@@ -5829,8 +5865,8 @@
 <stagedir sdglobalnumber="2068.01" sdnumber="260.01">
 	<dir>To Michael.</dir>
 	<action type="aside">
-		<actor>SUS.</actor>
-		<recipient>MICH.</recipient>
+			<actor>SUS.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2069" number="261" form="verse">Why, Michael, wilt thou poison thyself?</line>
@@ -5840,8 +5876,8 @@
 <stagedir sdglobalnumber="2069.01" sdnumber="261.01">
 	<dir>To Susan.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>SUS.</recipient>
+			<actor>MICH.</actor>
+			<recipient>SUS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2070" number="262" form="verse">No, but my Mistress, for I fear she&#8217;ll tell.</line>
@@ -5851,8 +5887,8 @@
 <stagedir sdglobalnumber="2070.01" sdnumber="262.01">
 	<dir>To Michael.</dir>
 	<action type="aside">
-		<actor>SUS.</actor>
-		<recipient>MICH.</recipient>
+			<actor>SUS.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2071" number="263" form="verse">Tush, Michael, fear not her: she&#8217;s wise enough.</line>
@@ -5862,7 +5898,7 @@
 <stagedir sdglobalnumber="2071.01" sdnumber="263.01">
 	<dir>Offers a toast with the cup.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2072" number="264" form="verse">Sirrah Michael, give&#8217;s a cup of beer.</line>
@@ -5888,7 +5924,7 @@
 <stagedir sdglobalnumber="2079.01" sdnumber="271.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2080" number="272" form="verse">She will undo us through her foolishness.</line>
@@ -5910,7 +5946,7 @@
 <stagedir sdglobalnumber="2086.01" sdnumber="278.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2087" number="279" form="verse">I like not this, I pray God all be well.</line>
@@ -5919,9 +5955,9 @@
 <stagedir sdglobalnumber="2088.01" sdnumber="280.01">
 	<dir>Exeunt Franklin, Mosby, and Greene.</dir>
 	<action type="exit">
-		<actor>FRANK.</actor>
-		<actor>GRE.</actor>
-		<actor>MOSBY.</actor>
+			<actor>FRANK.</actor>
+			<actor>GRE.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5929,8 +5965,8 @@
 <stagedir sdglobalnumber="2088.02" sdnumber="280.02">
 	<dir>Aside to Michael.</dir>
 	<action type="aside">
-		<actor>ALICE.</actor>
-		<recipient>MICH.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2089" number="281" form="verse">Michael, how shall I do to rid the rest away?</line>
@@ -5940,8 +5976,8 @@
 <stagedir sdglobalnumber="2089.01" sdnumber="281.01">
 	<dir>Aside to Alice.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>ALICE.</recipient>
+			<actor>MICH.</actor>
+			<recipient>ALICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2090" number="282" form="verse">Leave that to my charge: let me alone.&#8212;</line>
@@ -5961,9 +5997,9 @@
 <stagedir sdglobalnumber="2097.01" sdnumber="289.01">
 	<dir>Exeunt Bradshaw, Adam, and Michael.</dir>
 	<action type="exit">
-		<actor>MICH.</actor>
-		<actor>BRAD.</actor>
-		<actor>ADAM.</actor>
+			<actor>MICH.</actor>
+			<actor>BRAD.</actor>
+			<actor>ADAM.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2098" number="290" form="verse">Go, Susan, and bid thy brother come.</line>
@@ -5977,9 +6013,9 @@
 <stagedir sdglobalnumber="2101.01" sdnumber="293.01">
 	<dir>They open the counting-house door and look upon Arden.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5999,16 +6035,16 @@
 <stagedir sdglobalnumber="2106.01" sdnumber="298.01">
 	<dir>They bring out the body.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2106.02" sdnumber="298.02">
 	<dir>Mosby and Greene enter.</dir>
 	<action type="enter">
-		<actor>MOSBY.</actor>
-		<actor>GRE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6036,7 +6072,7 @@
 <stagedir sdglobalnumber="2113.01" sdnumber="305.01">
 	<dir>Michael returns.</dir>
 	<action type="enter">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6051,7 +6087,7 @@
 <stagedir sdglobalnumber="2116.01" sdnumber="308.01">
 	<dir>Michael locks the door and returns.</dir>
 	<action type="action">
-		<actor>MICH.</actor>
+			<actor>MICH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6077,8 +6113,8 @@
 <stagedir sdglobalnumber="2122.01" sdnumber="314.01">
 	<dir>Alice hands the bloody towel and knife to Michael. She begins cleaning.</dir>
 	<action type="action">
-		<actor>ALICE.</actor>
-		<recipient>MICH.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2123" number="315" form="verse">Why, take that way that Master Mosby doth:</line>
@@ -6087,17 +6123,17 @@
 <stagedir sdglobalnumber="2124.01" sdnumber="316.01">
 	<dir>Mosby removes Arden&#8217;s purse, putting it in his pocket.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
+			<actor>MOSBY.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2124.02" sdnumber="316.02">
-	<dir>They bear the body into the fields and return. It's now begun to snow outside.</dir>
+	<dir>They bear the body into the fields and return. It&#8217;s now begun to snow outside.</dir>
 	<action type="action">
-		<actor>MOSBY.</actor>
-		<actor>GRE.</actor>
-		<actor>MICH.</actor>
-		<actor>SUS.</actor>
-		<recipient>ARDEN.</recipient>
+			<actor>MOSBY.</actor>
+			<actor>GRE.</actor>
+			<actor>MICH.</actor>
+			<actor>SUS.</actor>
+			<recipient>ARDEN.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -6113,8 +6149,8 @@
 <stagedir sdglobalnumber="2128.01" sdnumber="320.01">
 	<dir>Exeunt Mosby and Greene.</dir>
 	<action type="exit">
-		<actor>MOSBY.</actor>
-		<actor>GRE.</actor>
+			<actor>MOSBY.</actor>
+			<actor>GRE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6140,8 +6176,8 @@
 <stagedir sdglobalnumber="2134.01" sdnumber="326.01">
 	<dir>A knocking heard.</dir>
 	<action type="sound">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2135" number="327" form="verse">Hark! Hark! They knock! Go, Michael, let them in.</line>
@@ -6150,12 +6186,12 @@
 <stagedir sdglobalnumber="2136.01" sdnumber="328.01">
 	<dir>The Mayor and his Watch enter.</dir>
 	<action type="enter">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="The Mayor's Watchman">WATCH.</speaker>
+<speaker long="The Mayor&#8217;s Watchman">WATCH.</speaker>
 <line globalnumber="2137" number="329" form="verse">I saw him come into your house an hour ago.</line>
 </speech>
 <speech>
@@ -6179,14 +6215,14 @@
 <stagedir sdglobalnumber="2141.01" sdnumber="333.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>ALICE.</actor>
+			<actor>ALICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2142" number="334" form="verse">I am glad it is no worse.&#8212;</line>
 <line globalnumber="2143" number="335" form="verse">Why, Master Mayor, think you I harbor any such?</line>
 </speech>
 <speech>
-<speaker long="The Mayor's Watchman">WATCH.</speaker>
+<speaker long="The Mayor&#8217;s Watchman">WATCH.</speaker>
 <line globalnumber="2144" number="336" form="verse">We are informed that here he is.</line>
 </speech>
 <speech>
@@ -6200,7 +6236,7 @@
 <stagedir sdglobalnumber="2147.01" sdnumber="339.01">
 	<dir>Here enters Franklin with a bloody towel and a knife.</dir>
 	<action type="enter">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2148" number="340" form="verse">Master Franklin, what mean you come so sad?</line>
@@ -6247,8 +6283,8 @@
 <stagedir sdglobalnumber="2158.01" sdnumber="350.01">
 	<dir>Aside to Michael.</dir>
 	<action type="aside">
-		<actor>SUS.</actor>
-		<recipient>MICH.</recipient>
+			<actor>SUS.</actor>
+			<recipient>MICH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2159" number="351" form="prose">Ah, Michael, through this thy negligence thou hast betrayed and undone us all.</line>
@@ -6258,8 +6294,8 @@
 <stagedir sdglobalnumber="2159.01" sdnumber="351.01">
 	<dir>Aside to Susan.</dir>
 	<action type="aside">
-		<actor>MICH.</actor>
-		<recipient>SUS.</recipient>
+			<actor>MICH.</actor>
+			<recipient>SUS.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2160" number="352" form="prose">I was so afraid, I knew not what I did: I thought I had thrown them both into the well.</line>
@@ -6269,8 +6305,8 @@
 <stagedir sdglobalnumber="2160.01" sdnumber="352.01">
 	<dir>To Franklin.</dir>
 	<action type="speak">
-		<actor>ALICE.</actor>
-		<recipient>FRANK.</recipient>
+			<actor>ALICE.</actor>
+			<recipient>FRANK.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2161" number="353" form="verse">It is the pig&#8217;s blood we had to supper.</line>
@@ -6325,8 +6361,8 @@
 <stagedir sdglobalnumber="2182.01" sdnumber="374.01">
 	<dir>To the Watch.</dir>
 	<action type="speak">
-		<actor>FRANK.</actor>
-		<recipient>WATCH.</recipient>
+			<actor>FRANK.</actor>
+			<recipient>WATCH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2183" number="375" form="verse">Bring that villain and Mosby&#8217;s sister too:</line>
@@ -6336,16 +6372,16 @@
 <stagedir sdglobalnumber="2185.01" sdnumber="377.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>FRANK.</actor>
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
-		<actor>MICH.</actor>
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
+			<actor>FRANK.</actor>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
+			<actor>MICH.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="15" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="106" numberOfLines="12">
+<scene actnum="1" num="15">
 <scenetitle>Scene 15</scenetitle>
 <scenelocation>London. A side street near the Thames.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -6353,12 +6389,12 @@
 	<scenepersona short="SHAKE.">George Shakebag</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2185.02" sdnumber="0.01">
-	<dir>Shakebag enters alone, dragging two body bags..</dir>
+	<dir>Shakebag enters alone, dragging two body bags.</dir>
 	<action type="enter">
-		<actor>SHAKE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -6379,11 +6415,11 @@
 <stagedir sdglobalnumber="2197.01" sdnumber="12.01">
 	<dir>Shakebag exits.</dir>
 	<action type="exit">
-		<actor>SHAKE.</actor>
+			<actor>SHAKE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="16" minutesRunning="2" numberOfProseWords="0" numberOfVerseWords="179" numberOfLines="21">
+<scene actnum="1" num="16">
 <scenetitle>Scene 16</scenetitle>
 <scenelocation>Faversham. The council chambers.</scenelocation>
 <scenetime>Later that day.</scenetime>
@@ -6397,18 +6433,18 @@
 	<scenepersona short="SUS.">Susan Mosby</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2197.02" sdnumber="0.01">
 	<dir>The Mayor, Mosby, Alice, Franklin, Michael, and Susan enter.</dir>
 	<action type="enter">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
-		<actor>MOSBY.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
+			<actor>MOSBY.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6453,17 +6489,17 @@
 <stagedir sdglobalnumber="2218.01" sdnumber="21.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
-		<actor>MOSBY.</actor>
-		<actor>FRANK.</actor>
-		<actor>MICH.</actor>
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
+			<actor>MOSBY.</actor>
+			<actor>FRANK.</actor>
+			<actor>MICH.</actor>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="17" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="117" numberOfLines="14">
+<scene actnum="1" num="17">
 <scenetitle>Scene 17</scenetitle>
 <scenelocation>London. A side street.</scenelocation>
 <scenetime>A few days later.</scenetime>
@@ -6471,12 +6507,12 @@
 	<scenepersona short="WILL.">Black Will</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2218.02" sdnumber="0.01">
 	<dir>Black Will enters alone.</dir>
 	<action type="enter">
-		<actor>WILL.</actor>
+			<actor>WILL.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -6499,11 +6535,11 @@
 <stagedir sdglobalnumber="2232.01" sdnumber="14.01">
 	<dir>Black Will exits.</dir>
 	<action type="exit">
-		<actor>WILL.</actor>
+			<actor>WILL.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="18" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="320" numberOfLines="39">
+<scene actnum="1" num="18">
 <scenetitle>Scene 18</scenetitle>
 <scenelocation>Faversham. The council chambers.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -6517,18 +6553,18 @@
 	<scenepersona short="SUS.">Susan Mosby</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2232.02" sdnumber="0.01">
 	<dir>The Mayor and the Watch enter, bringing in Mosby, Alice, Michael, Susan, and Bradshaw.</dir>
 	<action type="enter">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
-		<actor>MOSBY.</actor>
-		<actor>BRAD.</actor>
-		<actor>MICH.</actor>
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
+			<actor>MOSBY.</actor>
+			<actor>BRAD.</actor>
+			<actor>MICH.</actor>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6536,8 +6572,8 @@
 <stagedir sdglobalnumber="2232.03" sdnumber="0.02">
 	<dir>To the Watch.</dir>
 	<action type="speak">
-		<actor>MAYOR.</actor>
-		<recipient>WATCH.</recipient>
+			<actor>MAYOR.</actor>
+			<recipient>WATCH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2233" number="1" form="verse">Come, make haste, and bring away the prisoners.</line>
@@ -6576,8 +6612,8 @@
 <stagedir sdglobalnumber="2250.01" sdnumber="18.01">
 	<dir>To Mosby.</dir>
 	<action type="speak">
-		<actor>SUS.</actor>
-		<recipient>MOSBY.</recipient>
+			<actor>SUS.</actor>
+			<recipient>MOSBY.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2251" number="19" form="verse">Ah, gentle brother, wherefore should I die?</line>
@@ -6632,13 +6668,13 @@
 <stagedir sdglobalnumber="2271.01" sdnumber="39.01">
 	<dir>Exeunt.</dir>
 	<action type="exeunt">
-		<actor>MAYOR.</actor>
-		<actor>WATCH.</actor>
-		<actor>MOSBY.</actor>
-		<actor>BRAD.</actor>
-		<actor>MICH.</actor>
-		<actor>ALICE.</actor>
-		<actor>SUS.</actor>
+			<actor>MAYOR.</actor>
+			<actor>WATCH.</actor>
+			<actor>MOSBY.</actor>
+			<actor>BRAD.</actor>
+			<actor>MICH.</actor>
+			<actor>ALICE.</actor>
+			<actor>SUS.</actor>
 	</action>
 </stagedir>
 </scene>
@@ -6649,12 +6685,12 @@
 	<scenepersona short="FRANK.">Franklin</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2271.02" sdnumber="0.01">
 	<dir>Franklin enters as the Epilogue.</dir>
 	<action type="enter">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -6681,7 +6717,7 @@
 <stagedir sdglobalnumber="2289.01" sdnumber="18.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>FRANK.</actor>
+			<actor>FRANK.</actor>
 	</action>
 </stagedir>
 </epilogue>
@@ -6691,18 +6727,12 @@
 <playsourceauthor>Raphael Holinshed</playsourceauthor>
 <playsourcedate>1577-1587</playsourcedate>
 </playsource>
-<textsources>
-<textsource title="Quarto" edition="1" date="1592">First Quarto</textsource>
-<textsource title="Quarto" edition="2" date="1599">Second Quarto</textsource>
-<textsource title="Quarto" edition="3" date="1633">Third Quarto</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>1.0</version>
-<pscatid></pscatid>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
 <termsurl>http://www.playshakespeare.com/license</termsurl>

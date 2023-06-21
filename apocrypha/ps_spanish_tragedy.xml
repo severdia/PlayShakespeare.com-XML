@@ -1,18 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<play variant="ps" unique="spanish-tragedy" trans="no">
-<title short="The Spanish Tragedy">The Spanish Tragedy</title>
+<play variant="ps-apocrypha" unique="spanish-tragedy" trans="no">
+<title short="Spanish Tragedy" abbr="ST">The Spanish Tragedy</title>
 <playwrights status="apocrypha">
 		<playwright>William Shakespeare</playwright>
 		<playwright>Thomas Kyd</playwright>
 </playwrights>
-<written>1582-1592</written>
-<imprint printer="Edward Allde">1592</imprint>
-<pubdate source="stationers" date="1592">October 6, 1592</pubdate>
-<performance>
-	<location date="1597">Unknown location</location>
-	<company>Derby&#8217;s (Strange&#8217;s) Men</company>
-</performance>
+<editions>
+	<written>1587-92</written>
+	<register when="1592-10-06">October 6, 1592</register>
+	<edition format="Quarto" n="1" pssource="yes">
+		<date>1592</date>
+		<title>The Spanish Tragedie: or Hieronimo is mad againe.</title>
+		<printer>Edward Allde</printer>
+		<publisher>Edward White</publisher>
+		<note>Undated quarto</note>
+	</edition>
+	<edition format="Quarto" n="2" pssource="no">
+		<date>1594</date>
+		<title></title>
+		<printer>Abell Jeffes</printer>
+		<publisher>Edward White</publisher>
+	</edition>
+	<edition format="Quarto" n="3" pssource="no">
+		<date>1599</date>
+		<title></title>
+		<printer></printer>
+		<publisher>William White</publisher>
+	</edition>
+	<edition format="Quarto" n="4" pssource="yes">
+		<date>1602</date>
+		<title></title>
+		<printer>William White</printer>
+		<publisher>Thomas Pavier</publisher>
+	</edition>
+	<edition format="Quarto" n="4A" pssource="no">
+		<date>1610</date>
+		<title></title>
+		<printer></printer>
+		<publisher></publisher>
+	</edition>
+	<edition format="Quarto" n="4B" pssource="no">
+		<date>1615</date>
+		<title></title>
+		<printer></printer>
+		<publisher></publisher>
+	</edition>
+	<edition format="Quarto" n="4C" pssource="no">
+		<date>1618</date>
+		<title></title>
+		<printer></printer>
+		<publisher></publisher>
+	</edition>
+	<edition format="Quarto" n="4D" pssource="no">
+		<date>1623</date>
+		<title></title>
+		<printer></printer>
+		<publisher></publisher>
+	</edition>
+	<edition format="Quarto" n="4E" pssource="no">
+		<date>1633</date>
+		<title></title>
+		<printer></printer>
+		<publisher></publisher>
+	</edition>
+</editions>
+<performances>
+	<performance>
+		<date>1597</date>
+		<company>Derby&#8217;s (Strange&#8217;s) Men</company>
+		<location>Unknown location</location>
+	</performance>
+</performances>
 <personae playtitle="The Spanish Tragedy">
 <persona gender="male" id="37bfc18c-7f75-44e0-b7fd-42409743c061">
 <persname short="GHOST OF AND." numberOfLines="156" numberOfVerseLines="156" numberOfProseLines="0" numberOfLyricsLines="0">Ghost of Don Andrea</persname>
@@ -90,10 +149,10 @@
 <persname short="SERB." numberOfLines="7" numberOfVerseLines="7" numberOfProseLines="0" numberOfLyricsLines="0">Serberine</persname>
 </persona>
 <persona gender="male" id="7f56bfd9-3d17-4c7a-a50e-165c44fc2c15">
-<persname short="LOR. PAGE." numberOfLines="12" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Lorenzo's Page</persname>
+<persname short="LOR. PAGE." numberOfLines="12" numberOfVerseLines="9" numberOfProseLines="2" numberOfLyricsLines="0">Lorenzo&#8217;s Page</persname>
 </persona>
 <persona gender="female" id="5c1a8a4c-7824-46cd-87a4-e0c3c3eb0ec1">
-<persname short="MAID." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Isabella's Maid</persname>
+<persname short="MAID." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Isabella&#8217;s Maid</persname>
 </persona>
 <persona gender="male" id="370f0784-d4c5-4519-b0fb-1b17d617ca05">
 <persname short="1. NOBLE." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">First Nobleman</persname>
@@ -141,26 +200,26 @@
 <persname short="OLD." numberOfLines="12" numberOfVerseLines="12" numberOfProseLines="0" numberOfLyricsLines="0">Old Man</persname>
 </persona>
 <persona gender="male" id="30c1907b-ba4d-4b22-aa6a-590b3f3bcd57">
-<persname short="HIER. SERV." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Hieronimo's Servant</persname>
+<persname short="HIER. SERV." numberOfLines="4" numberOfVerseLines="4" numberOfProseLines="0" numberOfLyricsLines="0">Hieronimo&#8217;s Servant</persname>
 </persona>
 </personae>
 <act num="1">
 <acttitle>Act 1</acttitle>
-<scene actnum="1" num="1" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="695" numberOfLines="91">
+<scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The supernatural world.</scenelocation>
 <scenepersonae>
-	<scenepersona short="GHOST OF ANDREA.">Ghost of Don Andrea</scenepersona>
+	<scenepersona short="GHOST OF AND.">Ghost of Don Andrea</scenepersona>
 	<scenepersona short="REV.">Revenge</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
 	<dir>Enter the Ghost of Don Andrea, and with him, Revenge.</dir>
 	<action type="enter">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -262,12 +321,12 @@
 </speech>
 <stagedir sdglobalnumber="91.01" sdnumber="91.01">
 	<action type="exit">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="2" minutesRunning="12" numberOfProseWords="0" numberOfVerseWords="1510" numberOfLines="198">
+<scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>An outdoor Spanish court.</scenelocation>
 <scenetime>A few days after the Spanish victory.</scenetime>
@@ -282,15 +341,15 @@
 	<scenepersona>Soldiers</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="91.02" sdnumber="0.01">
 	<dir>Enter Spanish King, General, Castile and Hieronimo.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>GEN.</actor>
-		<actor>DUKE.</actor>
-		<actor>HIER.</actor>
+			<actor>KING.</actor>
+			<actor>GEN.</actor>
+			<actor>DUKE.</actor>
+			<actor>HIER.</actor>
 	</action>
 .</stagedir>
 <speech>
@@ -372,7 +431,7 @@
 <line globalnumber="139" number="48" form="verse">Their violent shot resembling th&#8217;ocean&#8217;s rage,</line>
 <line globalnumber="140" number="49" form="verse">When, roaring loud and with a swelling tide,</line>
 <line globalnumber="141" number="50" form="verse">It beats upon the rampires of huge rocks,</line>
-<line globalnumber="142" number="51" form="verse">And gapes to swallow neighbour-bounding lands.</line>
+<line globalnumber="142" number="51" form="verse">And gapes to swallow neighbor-bounding lands.</line>
 <line globalnumber="143" number="52" form="verse">Now while Bellona rageth here and there,</line>
 <line globalnumber="144" number="53" form="verse">Thick storms of bullets rain like winter&#8217;s hail,</line>
 <line globalnumber="145" number="54" form="verse">And shivered lances darked the troubled air.</line>
@@ -415,8 +474,8 @@
 <stagedir sdglobalnumber="178.01" sdnumber="87.01">
 	<dir>Gives him his chain.</dir>
 	<action type="action">
-		<actor>KING.</actor>
-		<recipient>GEN.</recipient>
+			<actor>KING.</actor>
+			<recipient>GEN.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="179" number="88" form="verse">But tell me now, hast thou confirmed a peace?</line>
@@ -430,8 +489,8 @@
 <stagedir sdglobalnumber="183.01" sdnumber="92.01">
 	<dir>Gives the King a paper.</dir>
 	<action type="action">
-		<actor>GEN.</actor>
-		<recipient>KING.</recipient>
+			<actor>GEN.</actor>
+			<recipient>KING.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="184" number="93" form="verse">And made a solemn vow that, during life,</line>
@@ -471,10 +530,10 @@
 <stagedir sdglobalnumber="200.01" sdnumber="109.01">
 	<dir>The Army enters. Balthazar, between Lorenzo and Horatio, captive.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>HOR.</actor>
-		<recipient>BALTH.</recipient>
-		<actor>Soldiers</actor>
+			<actor>LOR.</actor>
+			<actor>HOR.</actor>
+			<recipient>BALTH.</recipient>
+			<actor>Soldiers</actor>
 	</action>
 </stagedir>
 <speech>
@@ -483,7 +542,10 @@
 <stagedir sdglobalnumber="201.01" sdnumber="110.01">
 	<dir>They enter and pass by.</dir>
 	<action type="enter">
-		<actor>Soldiers</actor>
+			<actor>Soldiers</actor>
+	</action>
+	<action type="exit">
+			<actor>Soldiers</actor>
 	</action>
 </stagedir>
 <line globalnumber="202" number="111" form="verse">Was that the warlike prince of Portugal,</line>
@@ -517,7 +579,7 @@
 <stagedir sdglobalnumber="217.01" sdnumber="126.01">
 	<dir>Enter the Army again.</dir>
 	<action type="enter">
-		<actor>Soldiers</actor>
+			<actor>Soldiers</actor>
 	</action>
 </stagedir>
 <line globalnumber="218" number="127" form="verse">Bring hither the young Prince of Portugal;</line>
@@ -528,8 +590,8 @@
 <stagedir sdglobalnumber="222.01" sdnumber="131.01">
 	<dir>Exeunt the Army and Duke.</dir>
 	<action type="exit">
-		<actor>DUKE.</actor>
-		<actor>Soldiers</actor>		
+			<actor>DUKE.</actor>
+			<actor>Soldiers</actor>		
 	</action>
 </stagedir>
 <line globalnumber="223" number="132" form="verse">Welcome, Don Balthazar! Welcome, nephew!</line>
@@ -569,7 +631,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="245" number="154" form="verse">To me, my liege.</line>
+<line globalnumber="245" number="154" form="verse" offset="0">To me, my liege.</line>
 </speech>
 <speech>
 <speaker long="Horatio">HOR.</speaker>
@@ -597,9 +659,9 @@
 <stagedir sdglobalnumber="251.01" sdnumber="159.01">
 	<dir>They let him go.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<actor>HOR.</actor>
-		<recipient>BALTH.</recipient>
+			<actor>LOR.</actor>
+			<actor>HOR.</actor>
+			<recipient>BALTH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="252" number="160" form="verse">Say, worthy Prince, to whether did&#8217;st thou yield?</line>
@@ -609,7 +671,7 @@
 <stagedir sdglobalnumber="252.01" sdnumber="160.01">
 	<dir>Turning to Lorenzo, then to Horatio.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="253" number="161" form="verse">To him in courtesy, to this perforce:</line>
@@ -644,7 +706,7 @@
 </speech>
 <speech>
 <speaker long="King of Spain">KING.</speaker>
-<line globalnumber="270" number="178" form="verse">Then by my judgement, thus your strife shall end.</line>
+<line globalnumber="270" number="178" form="verse">Then by my judgment, thus your strife shall end.</line>
 <line globalnumber="271" number="179" form="verse">You both deserve, and both shall have reward.</line>
 <line globalnumber="272" number="180" form="verse">Nephew, thou took&#8217;st his weapon and his horse:</line>
 <line globalnumber="273" number="181" form="verse">His weapons and his horse are thy reward.</line>
@@ -674,16 +736,16 @@
 <stagedir sdglobalnumber="289.01" sdnumber="197.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>KING.</actor>
-		<actor>BALTH.</actor>
-		<actor>LOR.</actor>
-		<actor>HOR.</actor>
-		<actor>HIER.</actor>
-		<actor>GEN.</actor>
+			<actor>KING.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>HOR.</actor>
+			<actor>HIER.</actor>
+			<actor>GEN.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="3" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="742" numberOfLines="95">
+<scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Portuguese court.</scenelocation>
 <scenetime>About the same time.</scenetime>
@@ -694,15 +756,15 @@
 	<scenepersona>Attendants</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="289.02" sdnumber="0.01">
 	<dir>Enter Viceroy, Alexandro, Villuppo and Attendants.</dir>
 	<action type="enter">
-		<actor>VICE.</actor>
-		<actor>ALEX.</actor>
-		<actor>VILL.</actor>
-		<actor>Attendants</actor>
+			<actor>VICE.</actor>
+			<actor>ALEX.</actor>
+			<actor>VILL.</actor>
+			<actor>Attendants.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -731,7 +793,7 @@
 <stagedir sdglobalnumber="298.01" sdnumber="9.01">
 	<dir>Falls to the ground.</dir>
 	<action type="action">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="299" number="10" form="verse">Yet this is higher than my fortunes reach,</line>
@@ -746,10 +808,10 @@
 <stagedir sdglobalnumber="307.01" sdnumber="18.01">
 	<dir>He holds the crown in his hand.</dir>
 	<action type="action">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
-<line globalnumber="308" number="19" form="verse">Here, take it now. let Fortune do her worst,</line>
+<line globalnumber="308" number="19" form="verse">Here, take it now, let Fortune do her worst,</line>
 <line globalnumber="309" number="20" form="verse">She will not rob me of this sable weed:</line>
 <line globalnumber="310" number="21" form="verse">O, no, she envies none but pleasant things.</line>
 <line globalnumber="311" number="22" form="verse">Such is the folly of despiteful chance!</line>
@@ -823,7 +885,7 @@
 <speaker long="Viceroy of Portugal">VICE.</speaker>
 <line globalnumber="344" number="55" form="verse">Speak on, I&#8217;ll guerdon thee, whate&#8217;er it be.</line>
 <line globalnumber="345" number="56" form="verse">Mine ear is ready to receive ill news,</line>
-<line globalnumber="346" number="57" form="verse">My heart grown hard &#8217;gainst mischief&#8217;s battery.</line>
+<line globalnumber="346" number="57" form="verse">My heart grown hard &#8216;gainst mischief&#8217;s battery.</line>
 <line globalnumber="347" number="58" form="verse">Stand up, I say, and tell thy tale at large.</line>
 </speech>
 <speech>
@@ -831,7 +893,7 @@
 <stagedir sdglobalnumber="347.01" sdnumber="58.01">
 	<dir>He rises.</dir>
 	<action type="action">
-		<actor>VILL.</actor>
+			<actor>VILL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="348" number="59" form="verse">Then hear that truth which these mine eyes have seen:</line>
@@ -867,8 +929,8 @@
 <stagedir sdglobalnumber="365.01" sdnumber="76.01">
 	<dir>To Alexandro.</dir>
 	<action type="speak">
-		<actor>VICE.</actor>
-		<recipient>ALEX.</recipient>
+			<actor>VICE.</actor>
+			<recipient>ALEX.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="366" number="77" form="verse">Thou false, unkind, unthankful, traitorous beast,</line>
@@ -884,7 +946,7 @@
 <stagedir sdglobalnumber="375.01" sdnumber="86.01">
 	<dir>Takes the crown and puts it on again.</dir>
 	<action type="action">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="376" number="87" form="verse">But I&#8217;ll now wear it till thy blood be spilt.</line>
@@ -900,8 +962,8 @@
 <stagedir sdglobalnumber="379.01" sdnumber="90.01">
 	<dir>Exit Alexandro, with Attendants.</dir>
 	<action type="exit">
-		<actor>ALEX.</actor>
-		<actor>Attendants</actor>
+			<actor>ALEX.</actor>
+			<actor>Attendants.</actor>
 	</action>
 </stagedir>
 <line globalnumber="380" number="91" form="verse">If Balthazar be dead, he shall not live.</line>
@@ -910,7 +972,7 @@
 <stagedir sdglobalnumber="381.01" sdnumber="92.01">
 	<dir>Exit Viceroy.</dir>
 	<action type="exit">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <speech type="aside">
@@ -922,11 +984,11 @@
 <stagedir sdglobalnumber="384.01" sdnumber="95.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>VILL.</actor>
+			<actor>VILL.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="4" minutesRunning="12" numberOfProseWords="0" numberOfVerseWords="1363" numberOfLines="179">
+<scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>An outdoor Spanish court.</scenelocation>
 <scenetime>A day or two later.</scenetime>
@@ -942,13 +1004,13 @@
 	<scenepersona>Three Kings</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="384.02" sdnumber="0.01">
 	<dir>Enter Horatio and Bel-imperia.</dir>
 	<action type="enter">
-		<actor>HOR.</actor>
-		<actor>BEL.</actor>
+			<actor>HOR.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1029,7 +1091,7 @@
 <stagedir sdglobalnumber="441.01" sdnumber="57.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HOR.</actor>
+			<actor>HOR.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -1057,8 +1119,8 @@
 <stagedir sdglobalnumber="460.01" sdnumber="76.01">
 	<dir>Enter Lorenzo and Balthazar.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1138,8 +1200,10 @@
 <stagedir sdglobalnumber="483.01" sdnumber="99.01">
 	<dir>She, in going in, lets fall her glove, which Horatio, coming out, takes up.</dir>
 	<action type="action">
-		<actor>BEL.</actor>
-		<actor>HOR.</actor>
+			<actor>BEL.</actor>
+	</action>
+	<action type="action">
+			<actor>HOR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1163,8 +1227,8 @@
 <stagedir sdglobalnumber="487.01" sdnumber="103.01">
 	<dir>To Balthazar.</dir>
 	<action type="speak">
-		<actor>LOR.</actor>
-		<recipient>BALTH.</recipient>
+			<actor>LOR.</actor>
+			<recipient>BALTH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="488" number="104" form="verse">My lord, be not dismayed for what is past:</line>
@@ -1189,8 +1253,8 @@
 <stagedir sdglobalnumber="499.01" sdnumber="115.01">
 	<dir>Enter the Banquet, Trumpets, the King and Ambassador.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>PORT. AMB.</actor>
+			<actor>KING.</actor>
+			<actor>PORT. AMB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1209,15 +1273,15 @@
 <stagedir sdglobalnumber="504.01" sdnumber="120.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="505" number="121" form="verse">So am I slain by beauty&#8217;s tyranny.</line>
 <stagedir sdglobalnumber="505.01" sdnumber="121.01">
 	<dir>To him.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
-		<recipient>PORT. AMB.</recipient>
+			<actor>BALTH.</actor>
+			<recipient>PORT. AMB.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="506" number="122" form="verse">You see, my lord, how Balthazar is slain:</line>
@@ -1232,7 +1296,7 @@
 <stagedir sdglobalnumber="511.01" sdnumber="127.01">
 	<dir>Sit to the banquet.</dir>
 	<action type="action">
-		<actor>KING.</actor>
+			<actor>KING.</actor>
 	</action>
 </stagedir>
 <line globalnumber="512" number="128" form="verse">Sit down, young Prince, you are our second guest;</line>
@@ -1248,14 +1312,14 @@
 <stagedir sdglobalnumber="521.01" sdnumber="137.01">
 	<dir>Enter Hieronimo with a drum, three Knights, each with his scutcheon; then he fetches three kings, they the Knights take their crowns and them captive.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
-		<actor>Three Knights</actor>
-		<actor>Three Kings</actor>
+			<actor>HIER.</actor>
+			<actor>Three Knights</actor>
+			<actor>Three Kings</actor>
 	</action>
 	<action type="action">
-		<actor>HIER.</actor>
-		<actor>Three Knights</actor>
-		<recipient>Three Kings</recipient>
+			<actor>HIER.</actor>
+			<actor>Three Knights</actor>
+			<recipient>Three Kings</recipient>
 	</action>
 </stagedir>
 <line globalnumber="522" number="138" form="verse">Hieronimo, this masque contents mine eye,</line>
@@ -1267,8 +1331,8 @@
 <stagedir sdglobalnumber="524.01" sdnumber="140.01">
 	<dir>He takes the scutcheon and gives it to the King.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>KING.</recipient>
+			<actor>HIER.</actor>
+			<recipient>KING.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="525" number="141" form="verse">Was English Robert, Earl of Gloucester,</line>
@@ -1291,7 +1355,7 @@
 <stagedir sdglobalnumber="535.01" sdnumber="151.01">
 	<dir>He doth as he did before.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="536" number="152" form="verse">Was Edmund, Earl of Kent in Albion,</line>
@@ -1314,7 +1378,7 @@
 <stagedir sdglobalnumber="546.01" sdnumber="162.01">
 	<dir>Doing as before.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="547" number="163" form="verse">Was, as the rest, a valiant Englishman,</line>
@@ -1338,8 +1402,8 @@
 <stagedir sdglobalnumber="558.01" sdnumber="174.01">
 	<dir>Takes the cup of Horatio.</dir>
 	<action type="action">
-		<actor>KING.</actor>
-		<recipient>PORT. AMB..</recipient>
+			<actor>KING.</actor>
+			<recipient>PORT. AMB.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="559" number="175" form="verse">My lord, I fear we sit but over-long</line>
@@ -1349,20 +1413,21 @@
 <line globalnumber="563" number="179" form="verse">I think our council is already set.</line>
 </speech>
 <stagedir sdglobalnumber="563.01" sdnumber="179.01">
-	<dir>Exeunt omnes..</dir>
+	<dir>Exeunt omnes.</dir>
 	<action type="exit">
-		<actor>KING.</actor>
-		<actor>PORT. AMB.</actor>
-		<actor>HIER.</actor>
-		<actor>BALTH.</actor>
-		<actor>LOR.</actor>
-		<actor>BEL.</actor>
-		<actor>Three Knights</actor>
-		<actor>Three Kings</actor>
+			<actor>KING.</actor>
+			<actor>PORT. AMB.</actor>
+			<actor>HIER.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>BEL.</actor>
+			<actor>HOR.</actor>
+			<actor>Three Knights</actor>
+			<actor>Three Kings</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="5" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="73" numberOfLines="9">
+<scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The supernatural world.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
@@ -1371,13 +1436,13 @@
 	<scenepersona short="REV.">Revenge</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="563.02" sdnumber="0.01">
 	<dir>Enter Ghost of Don Andrea and Revenge.</dir>
 	<action type="enter">
-		<actor>GHOST OF AND.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1398,17 +1463,21 @@
 <stagedir sdglobalnumber="572.01" sdnumber="9.01">
 	<dir>Ghost and Revenge remain.</dir>
 	<action type="action">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
+	</action>
+	<action type="exit">
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 </scene>
 </act>
 <act num="2">
 <acttitle>Act 2</acttitle>
-<scene actnum="2" num="1" minutesRunning="9" numberOfProseWords="0" numberOfVerseWords="1084" numberOfLines="138">
+<scene actnum="2" num="1">
 <scenetitle>Scene 1</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>The next day.</scenetime>
 <scenepersonae>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
@@ -1416,13 +1485,13 @@
 	<scenepersona short="PEDR.">Pedringano</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="572.02" sdnumber="0.01">
 	<dir>Enter Lorenzo and Balthazar.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1479,17 +1548,17 @@
 <line globalnumber="610" number="38" form="verse">Hinder me not, whate&#8217;er you hear or see.</line>
 <line globalnumber="611" number="39" form="verse">By force or fair means will I cast about</line>
 <line globalnumber="612" number="40" form="verse">To find the truth of all this question out.</line>
-<line globalnumber="613" number="41" form="verse">Ho, Pedringano!</line>
+<line globalnumber="613" number="41" form="verse" offset="0">Ho, Pedringano!</line>
 </speech>
 <speech>
 <speaker long="Pedringano">PEDR.</speaker>
 <stagedir sdglobalnumber="613.01" sdnumber="41.01">
 	<dir>Calls from within.</dir>
-	<action type="speak-offstage">
-		<actor>PEDR.</actor>
+	<action type="speak" offstage="true">
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
-<line globalnumber="614" number="41" form="verse" offset="5">Signior!</line>
+<line globalnumber="614" number="41" form="verse" offset="5" part="m"><foreign xml:lang="it">Signior!</foreign></line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -1498,7 +1567,7 @@
 <stagedir sdglobalnumber="615.01" sdnumber="41.02">
 	<dir>Enter Pedringano.</dir>
 	<action type="enter">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1528,7 +1597,7 @@
 <stagedir sdglobalnumber="631.01" sdnumber="57.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="632" number="58" form="verse"> If case it lie in me to tell the truth.</line>
@@ -1553,7 +1622,7 @@
 <stagedir sdglobalnumber="641.01" sdnumber="67.01">
 	<dir>Draws his sword.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="642" number="68" form="verse">And fear shall force what friendship cannot win:</line>
@@ -1582,8 +1651,8 @@
 <stagedir sdglobalnumber="651.01" sdnumber="77.01">
 	<dir>Offers to kill him.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>LOR.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -1591,7 +1660,7 @@
 <stagedir sdglobalnumber="651.02" sdnumber="77.02">
 	<dir>Kneels.</dir>
 	<action type="action">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="652" number="78" form="verse">O, stay, my lord, she loves Horatio.</line>
@@ -1599,7 +1668,7 @@
 <stagedir sdglobalnumber="652.01" sdnumber="78.01">
 	<dir>Balthazar starts back.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1621,7 +1690,7 @@
 <stagedir sdglobalnumber="657.01" sdnumber="83.01">
 	<dir>Rises</dir>
 	<action type="action">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="658" number="84" form="verse">She sent him letters, which myself perused,</line>
@@ -1643,8 +1712,8 @@
 <stagedir sdglobalnumber="664.01" sdnumber="90.01">
 	<dir>Gives purse.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>LOR.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="665" number="91" form="verse">But if I prove thee perjured and unjust,</line>
@@ -1678,7 +1747,7 @@
 <stagedir sdglobalnumber="680.01" sdnumber="106.01">
 	<dir>Exit Pedringano.</dir>
 	<action type="exit">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="681" number="107" form="verse">Why so: <foreign xml:lang="la">tam armis quam ingenio</foreign>:</line>
@@ -1721,12 +1790,12 @@
 <stagedir sdglobalnumber="710.01" sdnumber="136.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="2" minutesRunning="4" numberOfProseWords="0" numberOfVerseWords="448" numberOfLines="57">
+<scene actnum="2" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Another part of the Spanish court.</scenelocation>
 <scenetime>Later that evening.</scenetime>
@@ -1738,13 +1807,13 @@
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="710.02" sdnumber="0.01">
 	<dir>Enter Horatio and Bel-imperia.</dir>
 	<action type="enter">
-		<actor>HOR.</actor>
-		<actor>BEL.</actor>
+			<actor>HOR.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1759,12 +1828,10 @@
 <stagedir sdglobalnumber="716.01" sdnumber="6.01">
 	<dir>Pedringano showeth all to the Prince Balthazar and Lorenzo, placing them in secret above.</dir>
 	<action type="enter">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 	<action type="action">
-		<actor>PEDR.</actor>
-		<recipient>BALTH.</recipient>
-		<recipient>LOR.</recipient>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1784,7 +1851,7 @@
 <stagedir sdglobalnumber="727.01" sdnumber="17.01">
 	<dir>Enter Balthazar above.</dir>
 	<action type="enter">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1792,7 +1859,7 @@
 <stagedir sdglobalnumber="727.02" sdnumber="17.02">
 	<dir>Above.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="728" number="18" form="verse">Oh, sleep, mine eyes, see not my love profaned;</line>
@@ -1804,7 +1871,7 @@
 <stagedir sdglobalnumber="730.01" sdnumber="20.01">
 	<dir>Above.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="731" number="21" form="verse">Watch still, mine eyes, to see this love disjoined;</line>
@@ -1832,7 +1899,7 @@
 <stagedir sdglobalnumber="737.01" sdnumber="27.01">
 	<dir>Above.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="738" number="28" form="verse">On pleasures past, and dangers to ensue.</line>
@@ -1850,7 +1917,7 @@
 <stagedir sdglobalnumber="740.01" sdnumber="30.01">
 	<dir>Above.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="741" number="31" form="verse">Dangers of death, but pleasures none at all.</line>
@@ -1875,7 +1942,7 @@
 <stagedir sdglobalnumber="750.01" sdnumber="40.01">
 	<dir>Above.</dir>
 	<action type="action">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="751" number="41" form="verse">Ambitious villain, how his boldness grows!</line>
@@ -1905,7 +1972,7 @@
 <stagedir sdglobalnumber="765.01" sdnumber="55.01">
 	<dir>Above.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="766" number="56" form="verse">Ay, danger mix&#232;d with jealous despite</line>
@@ -1914,15 +1981,15 @@
 <stagedir sdglobalnumber="767.01" sdnumber="57.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>BALTH.</actor>
-		<actor>LOR.</actor>
-		<actor>HOR.</actor>
-		<actor>BEL.</actor>
-		<actor>PEDR.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>HOR.</actor>
+			<actor>BEL.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="3" minutesRunning="4" numberOfProseWords="0" numberOfVerseWords="388" numberOfLines="50">
+<scene actnum="2" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>An outdoor Spanish court.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -1932,14 +1999,14 @@
 	<scenepersona short="DUKE.">Duke of Castile</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="767.02" sdnumber="0.01">
 	<dir>Enter King of Spain, Portuguese Ambassador, Don Cyprian Castile, etc.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>PORT. AMB.</actor>
-		<actor>DUKE.</actor>
+			<actor>KING.</actor>
+			<actor>PORT. AMB.</actor>
+			<actor>DUKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2021,7 +2088,7 @@
 <stagedir sdglobalnumber="807.01" sdnumber="40.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>PORT. AMB.</actor>
+			<actor>PORT. AMB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2040,14 +2107,14 @@
 <stagedir sdglobalnumber="817.01" sdnumber="50.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>KING.</actor>
-		<actor>DUKE.</actor>
+			<actor>KING.</actor>
+			<actor>DUKE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="4" minutesRunning="5" numberOfProseWords="0" numberOfVerseWords="504" numberOfLines="64">
+<scene actnum="2" num="4">
 <scenetitle>Scene 4</scenetitle>
-<scenelocation>Hieronimo's garden.</scenelocation>
+<scenelocation>Hieronimo&#8217;s garden.</scenelocation>
 <scenetime>Later that night.</scenetime>
 <scenepersonae>
 	<scenepersona short="HOR.">Horatio</scenepersona>
@@ -2057,14 +2124,14 @@
 	<scenepersona short="BALTH.">Balthazar</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="817.02" sdnumber="0.01">
 	<dir>Enter Horatio, Bel-imperia, and Pedringano.</dir>
 	<action type="enter">
-		<actor>HOR.</actor>
-		<actor>BEL.</actor>
-		<actor>PEDR.</actor>
+			<actor>HOR.</actor>
+			<actor>BEL.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2095,7 +2162,7 @@
 <stagedir sdglobalnumber="828.01" sdnumber="11.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="829" number="12" form="verse">Instead of watching, I&#8217;ll deserve more gold</line>
@@ -2104,7 +2171,7 @@
 <stagedir sdglobalnumber="830.01" sdnumber="13.01">
 	<dir>Exit Pedringano.</dir>
 	<action type="exit">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2180,8 +2247,8 @@
 <stagedir sdglobalnumber="858.01" sdnumber="41.01">
 	<dir>Kisses him.</dir>
 	<action type="action">
-		<actor>BEL.</actor>
-		<recipient>HOR.</recipient>
+			<actor>BEL.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2191,8 +2258,8 @@
 <stagedir sdglobalnumber="859.01" sdnumber="42.01">
 	<dir>Kisses her.</dir>
 	<action type="action">
-		<actor>HOR.</actor>
-		<recipient>BEL.</recipient>
+			<actor>HOR.</actor>
+			<recipient>BEL.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2222,10 +2289,10 @@
 <stagedir sdglobalnumber="868.01" sdnumber="51.01">
 	<dir>Enter Lorenzo, Balthazar, Serberine, Pedringano disguised.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>SERB.</actor>
-		<actor>PEDR.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>SERB.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2235,9 +2302,9 @@
 <stagedir sdglobalnumber="870.01" sdnumber="53.01">
 	<dir>To Serberine and Pedringano.</dir>
 	<action type="speak">
-		<actor>LOR.</actor>
-		<recipient>SERB.</recipient>
-		<recipient>PEDR.</recipient>
+			<actor>LOR.</actor>
+			<recipient>SERB.</recipient>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="871" number="54" form="verse">Quickly dispatch, my masters.</line>
@@ -2245,11 +2312,11 @@
 <stagedir sdglobalnumber="871.01" sdnumber="54.01">
 	<dir>They hang him in the arbor.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>SERB.</actor>
-		<actor>PEDR.</actor>
-		<recipient>HOR.</recipient>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>SERB.</actor>
+			<actor>PEDR.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2263,11 +2330,14 @@
 <stagedir sdglobalnumber="873.01" sdnumber="56.01">
 	<dir>They stab him.</dir>
 	<action type="fight">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>SERB.</actor>
-		<actor>PEDR.</actor>
-		<recipient>HOR.</recipient>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>SERB.</actor>
+			<actor>PEDR.</actor>
+			<recipient>HOR.</recipient>
+	</action>
+	<action type="death">
+			<actor>HOR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2296,17 +2366,17 @@
 <stagedir sdglobalnumber="881.01" sdnumber="64.01">
 	<dir>Exeunt leaving Horatio&#8217;s body.</dir>
 	<action type="exit">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>SERB.</actor>
-		<actor>PEDR.</actor>
-		<actor>BEL.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>SERB.</actor>
+			<actor>PEDR.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="5" minutesRunning="9" numberOfProseWords="0" numberOfVerseWords="1033" numberOfLines="139">
+<scene actnum="2" num="5">
 <scenetitle>Scene 5</scenetitle>
-<scenelocation>Hieronimo's garden.</scenelocation>
+<scenelocation>Hieronimo&#8217;s garden.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
@@ -2315,12 +2385,12 @@
 	<scenepersona short="JAQ.">Jaques</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="881.02" sdnumber="0.01">
 	<dir>Enter Hieronimo in his shirt with a sword and torch.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -2340,8 +2410,8 @@
 <stagedir sdglobalnumber="893.01" sdnumber="12.01">
 	<dir>He cuts him down.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>HOR.</recipient>
+			<actor>HIER.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="894" number="13" form="verse">Those garments that he wears I oft have seen.</line>
@@ -2369,7 +2439,7 @@
 <stagedir sdglobalnumber="914.01" sdnumber="33.01">
 	<dir>Enter Isabella.</dir>
 	<action type="enter">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2412,8 +2482,8 @@
 <stagedir sdglobalnumber="933.01" sdnumber="52.01">
 	<dir>Enter Pedro and Jaques.</dir>
 	<action type="enter">
-		<actor>PEDRO.</actor>
-		<actor>JAQ.</actor>
+			<actor>PEDRO.</actor>
+			<actor>JAQ.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2555,9 +2625,9 @@
 <stagedir sdglobalnumber="1004.01" sdnumber="123.01">
 	<dir>They take him up.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<actor>ISAB.</actor>
-		<recipient>HOR.</recipient>
+			<actor>HIER.</actor>
+			<actor>ISAB.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1005" number="124" form="verse">And bear him in from out this curs&#232;d place.</line>
@@ -2566,7 +2636,7 @@
 <stagedir sdglobalnumber="1007.01" sdnumber="126.01">
 	<dir>Hieronimo sets his breast unto his sword.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1008" number="127" form="verse"><foreign xml:lang="la">Misceat, et nostro detur medicina dolori;</foreign></line>
@@ -2586,17 +2656,17 @@
 <stagedir sdglobalnumber="1020.01" sdnumber="139.01">
 	<dir>Here he throws the sword from him and bears the body away.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 	<action type="exit">
-		<actor>ISAB.</actor>
-		<actor>PEDRO.</actor>
-		<actor>JAQ.</actor>
-		<recipient>HOR.</recipient>
+			<actor>ISAB.</actor>
+			<actor>PEDRO.</actor>
+			<actor>JAQ.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="2" num="6" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="93" numberOfLines="11">
+<scene actnum="2" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The supernatural world.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
@@ -2605,13 +2675,13 @@
 	<scenepersona short="REV.">Revenge</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1020.02" sdnumber="0.01">
 	<dir>Ghost and Revenge come forward.</dir>
 	<action type="enter">
-		<actor>GHOST OF AND.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2633,16 +2703,16 @@
 </speech>
 <stagedir sdglobalnumber="1031.01" sdnumber="11.01">
 	<dir>Ghost and Revenge remain.</dir>
-	<action type="action">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+	<action type="exit">
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 </scene>
 </act>
 <act num="3">
 <acttitle>Act 3</acttitle>
-<scene actnum="3" num="1" minutesRunning="7" numberOfProseWords="0" numberOfVerseWords="787" numberOfLines="110">
+<scene actnum="3" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>The Portuguese court.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -2656,14 +2726,14 @@
 	<scenepersona>Halberds</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1031.02" sdnumber="0.01">
 	<dir>Enter Viceroy of Portugal, Nobles, and Villuppo.</dir>
 	<action type="enter">
-		<actor>VICE.</actor>
-		<actor>1. NOBLE.</actor>
-		<actor>VILL.</actor>
+			<actor>VICE.</actor>
+			<actor>1. NOBLE.</actor>
+			<actor>VILL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2696,7 +2766,7 @@
 <line globalnumber="1051" number="20" form="verse">That feign&#232;d love had colored in his looks,</line>
 <line globalnumber="1052" number="21" form="verse">When he in camp consorted Balthazar,</line>
 <line globalnumber="1053" number="22" form="verse">Far more inconstant had you thought the sun,</line>
-<line globalnumber="1054" number="23" form="verse">That hourly coasts the centre of the earth,</line>
+<line globalnumber="1054" number="23" form="verse">That hourly coasts the center of the earth,</line>
 <line globalnumber="1055" number="24" form="verse">Than Alexandro&#8217;s purpose to the Prince.</line>
 </speech>
 <speech>
@@ -2709,7 +2779,7 @@
 <stagedir sdglobalnumber="1060.01" sdnumber="29.01">
 	<dir>Exit several Nobles.</dir>
 	<action type="exit">
-		<actor>1. NOBLE.</actor>
+			<actor>1. NOBLE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1061" number="30" form="verse">That, as he is condemn&#232;d, he may die.</line>
@@ -2717,9 +2787,9 @@
 <stagedir sdglobalnumber="1061.01" sdnumber="30.01">
 	<dir>Enter Alexandro, with a Nobleman and Halberds.</dir>
 	<action type="enter">
-		<actor>ALEX.</actor>
-		<actor>2. NOBLE.</actor>
-		<actor>Halberds</actor>
+			<actor>ALEX.</actor>
+			<actor>2. NOBLE.</actor>
+			<actor>Halberds.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2734,13 +2804,13 @@
 </speech>
 <speech>
 <speaker long="Second Nobleman">2. NOBLE.</speaker>
-<line globalnumber="1066" number="35" form="verse">Yet hope the best.</line>
+<line globalnumber="1066" number="35" form="verse" offset="0">Yet hope the best.</line>
 </speech>
 <speech>
 <speaker long="Alexandro">ALEX.</speaker>
 <line globalnumber="1067" number="35" form="verse" offset="5">&#8217;Tis heaven my hope.</line>
 <line globalnumber="1068" number="36" form="verse">As for the earth, it is too much infect</line>
-<line globalnumber="1069" number="37" form="verse">To yield me hope of any of her mould.</line>
+<line globalnumber="1069" number="37" form="verse">To yield me hope of any of her mold.</line>
 </speech>
 <speech>
 <speaker long="Viceroy of Portugal">VICE.</speaker>
@@ -2764,8 +2834,8 @@
 <stagedir sdglobalnumber="1080.01" sdnumber="48.01">
 	<dir>They bind him to the stake.</dir>
 	<action type="action">
-		<actor>Halberds</actor>
-		<recipient>ALEX.</recipient>
+			<actor>Halberds.</actor>
+			<recipient>ALEX.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1081" number="49" form="verse">That shall prefigure those unquench&#232;d fires</line>
@@ -2787,14 +2857,14 @@
 <stagedir sdglobalnumber="1089.01" sdnumber="57.01">
 	<dir>Enter Ambassador.</dir>
 	<action type="enter">
-		<actor>PORT. AMB.</actor>
+			<actor>PORT. AMB.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Portuguese Ambassador">PORT. AMB.</speaker>
 <line globalnumber="1090" number="58" form="verse">Stay, hold a while;</line>
 <line globalnumber="1091" number="59" form="verse">And here&#8212;with pardon of his majesty&#8212;</line>
-<line globalnumber="1092" number="60" form="verse">Lay hands upon Villuppo.</line>
+<line globalnumber="1092" number="60" form="verse" offset="0">Lay hands upon Villuppo.</line>
 </speech>
 <speech>
 <speaker long="Viceroy of Portugal">VICE.</speaker>
@@ -2819,8 +2889,8 @@
 <stagedir sdglobalnumber="1101.01" sdnumber="68.01">
 	<dir>Gives him letters.</dir>
 	<action type="action">
-		<actor>PORT. AMB.</actor>
-		<recipient>VICE.</recipient>
+			<actor>PORT. AMB.</actor>
+			<recipient>VICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1102" number="69" form="verse">Are happy witnesses of his highness&#8217; health.</line>
@@ -2828,7 +2898,7 @@
 <stagedir sdglobalnumber="1102.01" sdnumber="69.01">
 	<dir>The Viceroy looks on the letters, and proceeds.</dir>
 	<action type="action">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2836,7 +2906,7 @@
 <stagedir sdglobalnumber="1102.02" sdnumber="69.02">
 	<dir>Reads.</dir>
 	<action type="read">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1103" number="70" form="verse"><recite>&#8216;Thy son doth live, your tribute is received;</recite></line>
@@ -2851,8 +2921,8 @@
 <stagedir sdglobalnumber="1107.01" sdnumber="74.01">
 	<dir>He gives him more letters.</dir>
 	<action type="action">
-		<actor>PORT. AMB.</actor>
-		<recipient>VICE.</recipient>
+			<actor>PORT. AMB.</actor>
+			<recipient>VICE.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2860,8 +2930,8 @@
 <stagedir sdglobalnumber="1107.02" sdnumber="74.02">
 	<dir>To Villuppo.</dir>
 	<action type="speak">
-		<actor>VICE.</actor>
-		<recipient>VILL.</recipient>
+			<actor>VICE.</actor>
+			<recipient>VILL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1108" number="75" form="verse">Accurs&#232;d wretch, to intimate these ills</line>
@@ -2870,8 +2940,8 @@
 <stagedir sdglobalnumber="1110.01" sdnumber="77.01">
 	<dir>To Alexandro.</dir>
 	<action type="speak">
-		<actor>VICE.</actor>
-		<recipient>ALEX.</recipient>
+			<actor>VICE.</actor>
+			<recipient>ALEX.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1111" number="78" form="verse">Let him unbind thee, that is bound to death,</line>
@@ -2880,8 +2950,8 @@
 <stagedir sdglobalnumber="1112.01" sdnumber="79.01">
 	<dir>They unbind him.</dir>
 	<action type="action">
-		<actor>Halberds</actor>
-		<recipient>ALEX.</recipient>
+			<actor>Halberds.</actor>
+			<recipient>ALEX.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -2923,15 +2993,15 @@
 <stagedir sdglobalnumber="1134.01" sdnumber="101.01">
 	<dir>Alexandro seems to entreat.</dir>
 	<action type="action">
-		<actor>ALEX.</actor>
+			<actor>ALEX.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1135" number="102" form="verse">Entreat me not. Go, take the traitor hence:</line>
 <stagedir sdglobalnumber="1135.01" sdnumber="102.01">
 	<dir>Exit Villuppo guarded by the Halberds.</dir>
 	<action type="exit">
-		<actor>VILL.</actor>
-		<actor>Halberds</actor>
+			<actor>VILL.</actor>
+			<actor>Halberds.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1136" number="103" form="verse">And, Alexandro, let us honor thee</line>
@@ -2944,31 +3014,31 @@
 <stagedir sdglobalnumber="1141.01" sdnumber="108.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>VICE.</actor>
-		<actor>ALEX.</actor>
-		<actor>PORT. AMB.</actor>
-		<actor>2. NOBLE.</actor>
+			<actor>VICE.</actor>
+			<actor>ALEX.</actor>
+			<actor>PORT. AMB.</actor>
+			<actor>2. NOBLE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="2" minutesRunning="8" numberOfProseWords="22" numberOfVerseWords="959" numberOfLines="134">
+<scene actnum="3" num="2">
 <scenetitle>Scene 2</scenetitle>
-<scenelocation>A street near the Duke of Castile's castle.</scenelocation>
+<scenelocation>A street near the Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>About the same time.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
 	<scenepersona short="PEDR.">Pedringano</scenepersona>
 	<scenepersona short="BEL.">Bel-imperia</scenepersona>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
-	<scenepersona short="LOR. PAGE.">Lorenzo's Page</scenepersona>
+	<scenepersona short="LOR. PAGE.">Lorenzo&#8217;s Page</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1141.02" sdnumber="0.01">
 	<dir>Enter Hieronimo.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -2998,8 +3068,11 @@
 <line globalnumber="1164" number="23" form="verse">See, search, show, send some man, some mean, that may&#8212;</line>
 <stagedir sdglobalnumber="1164.01" sdnumber="23.01">
 	<dir>A letter falleth.</dir>
+	<action type="enter">
+			<actor>BEL.</actor>
+	</action>
 	<action type="action">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1165" number="24" form="verse">What&#8217;s here? A letter? Tush! It is not so!</line>
@@ -3008,7 +3081,7 @@
 <stagedir sdglobalnumber="1166.01" sdnumber="25.01">
 	<dir>He opens the letter written in red ink.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3016,20 +3089,20 @@
 <stagedir sdglobalnumber="1166.02" sdnumber="25.02">
 	<dir>Reciting from above or within.</dir>
 	<action type="speak">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1167" number="26" form="verse"><recite>&#8216;For want of ink receive this bloody writ:</recite></line>
 <line globalnumber="1168" number="27" form="verse"><recite>Me hath my hapless brother hid from thee;</recite></line>
 <line globalnumber="1169" number="28" form="verse"><recite>Revenge thyself on Balthazar and him,</recite></line>
 <line globalnumber="1170" number="29" form="verse"><recite>For these were they that murder&#232;d thy son.</recite></line>
-<line globalnumber="1171" number="30" form="verse"><recite>>Hieronimo, revenge Horatio&#8217;s death,</recite></line>
+<line globalnumber="1171" number="30" form="verse"><recite>Hieronimo, revenge Horatio&#8217;s death,</recite></line>
 <line globalnumber="1172" number="31" form="verse"><recite>And better fare than Bel-imperia doth.&#8217;</recite></line>
 </speech>
 <stagedir sdglobalnumber="1172.01" sdnumber="31.01">
 	<dir>Exit Bel-imperia.</dir>
 	<action type="exit">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -3047,7 +3120,7 @@
 <line globalnumber="1183" number="42" form="verse">And he, for thy dishonor done, should draw</line>
 <line globalnumber="1184" number="43" form="verse">Thy life in question and thy name in hate.</line>
 <line globalnumber="1185" number="44" form="verse">Dear was the life of my belov&#232;d son,</line>
-<line globalnumber="1186" number="45" form="verse">And of his death behoves me be revenged:</line>
+<line globalnumber="1186" number="45" form="verse">And of his death behooves me be revenged:</line>
 <line globalnumber="1187" number="46" form="verse">Then hazard not thine own, Hieronimo,</line>
 <line globalnumber="1188" number="47" form="verse">But live t&#8217;effect thy resolution.</line>
 <line globalnumber="1189" number="48" form="verse">I therefore will by circumstances try</line>
@@ -3058,10 +3131,10 @@
 <stagedir sdglobalnumber="1193.01" sdnumber="52.01">
 	<dir>Enter Pedringano.</dir>
 	<action type="enter">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1194" number="53" form="verse">Now, Pedringano!</line>
+<line globalnumber="1194" number="53" form="verse" offset="0">Now, Pedringano!</line>
 </speech>
 <speech>
 <speaker long="Pedringano">PEDR.</speaker>
@@ -3069,7 +3142,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="1196" number="54" form="verse">Where&#8217;s thy lady?</line>
+<line globalnumber="1196" number="54" form="verse" offset="0">Where&#8217;s thy lady?</line>
 </speech>
 <speech>
 <speaker long="Pedringano">PEDR.</speaker>
@@ -3078,12 +3151,12 @@
 <stagedir sdglobalnumber="1197.01" sdnumber="54.01">
 	<dir>Enter Lorenzo.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1198" number="55" form="verse">How now, who&#8217;s this? Hieronimo?</line>
+<line globalnumber="1198" number="55" form="verse" offset="0">How now, who&#8217;s this? Hieronimo?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -3094,8 +3167,8 @@
 <stagedir sdglobalnumber="1199.01" sdnumber="55.01">
 	<dir>To Lorenzo.</dir>
 	<action type="action">
-		<actor>PEDR.</actor>
-		<recipient>LOR.</recipient>
+			<actor>PEDR.</actor>
+			<recipient>LOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1200" number="56" form="verse">He asketh for my lady Bel-imperia.</line>
@@ -3115,7 +3188,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1208" number="64" form="verse">Why so, Hieronimo? Use me.</line>
+<line globalnumber="1208" number="64" form="verse" offset="0">Why so, Hieronimo? Use me.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -3139,7 +3212,7 @@
 <speaker long="Hieronimo">HIER.</speaker>
 <line globalnumber="1215" number="70" form="verse">In troth, my lord, it is a thing of nothing,</line>
 <line globalnumber="1216" number="71" form="verse">The murder of a son, or so:</line>
-<line globalnumber="1217" number="72" form="verse">A thing of nothing, my lord.</line>
+<line globalnumber="1217" number="72" form="verse" offset="0">A thing of nothing, my lord.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -3150,7 +3223,7 @@
 <stagedir sdglobalnumber="1218.01" sdnumber="72.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1219" number="73" form="verse">My grief no heart, my thoughts no tongue can tell.</line>
@@ -3158,7 +3231,7 @@
 <stagedir sdglobalnumber="1219.01" sdnumber="73.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3191,16 +3264,16 @@
 <stagedir sdglobalnumber="1232.01" sdnumber="86.01">
 	<dir>Gives him more gold.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>LOR.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1233" number="87" form="verse">And hearken to me&#8212;thus it is devised:</line>
 <stagedir sdglobalnumber="1233.01" sdnumber="87.01">
 	<dir>Gives him more gold.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>LOR.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1234" number="88" form="verse">This night thou must (and, prithee, so resolve)</line>
@@ -3230,45 +3303,45 @@
 <stagedir sdglobalnumber="1245.01" sdnumber="99.01">
 	<dir>Exit Pedringano.</dir>
 	<action type="exit">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1246" number="100" form="verse"><foreign xml:lang="it">Che le</foreign> Jeron!</line>
+<line globalnumber="1246" number="100" form="verse" offset="0"><foreign xml:lang="it">Che le</foreign> Jeron!</line>
 </speech>
 <stagedir sdglobalnumber="1246.01" sdnumber="100.01">
 	<dir>Enter Page.</dir>
 	<action type="enter">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
-<line globalnumber="1247" number="100" form="verse" offset="3">My lord?</line>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
+<line globalnumber="1247" number="100" form="verse" offset="3" part="m">My lord?</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="1248" number="100" form="verse" offset="5">Go, sirrah, to Serberine,</line>
 <line globalnumber="1249" number="101" form="verse">And bid him forthwith meet the Prince and me</line>
 <line globalnumber="1250" number="102" form="verse">At Saint Luigi&#8217;s park, behind the house,</line>
-<line globalnumber="1251" number="103" form="verse">This evening, boy.</line>
+<line globalnumber="1251" number="103" form="verse" offset="0">This evening, boy.</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1252" number="103" form="verse" offset="5">I go, my lord.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="1253" number="104" form="verse">But sirrah, let the hour be eight o&#8217;clock:</line>
-<line globalnumber="1254" number="105" form="verse">Bid him not fail.</line>
+<line globalnumber="1254" number="105" form="verse" offset="0">Bid him not fail.</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1255" number="105" form="verse" offset="5">I fly, my lord.</line>
 </speech>
 <stagedir sdglobalnumber="1255.01" sdnumber="105.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -3297,13 +3370,13 @@
 <stagedir sdglobalnumber="1275.01" sdnumber="125.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="3" minutesRunning="4" numberOfProseWords="0" numberOfVerseWords="376" numberOfLines="48">
+<scene actnum="3" num="3">
 <scenetitle>Scene 3</scenetitle>
-<scenelocation>Saint Luigi's park, behind the Duke of Castile's castle.</scenelocation>
+<scenelocation>Saint Luigi&#8217;s park, behind the Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>Later that night.</scenetime>
 <scenepersonae>
 	<scenepersona short="PEDR.">Pedringano</scenepersona>
@@ -3313,15 +3386,15 @@
 	<scenepersona short="SERB.">Serberine</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1275.02" sdnumber="0.01">
 	<dir>Enter Pedringano with a pistol.</dir>
 	<action type="enter">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
-<speech type="soliloquy">
+<speech>
 <speaker long="Pedringano">PEDR.</speaker>
 <line globalnumber="1276" number="1" form="verse">Now, Pedringano, bid thy pistol hold,</line>
 <line globalnumber="1277" number="2" form="verse">And hold on, Fortune! Once more favor me,</line>
@@ -3343,9 +3416,9 @@
 <stagedir sdglobalnumber="1291.01" sdnumber="16.01">
 	<dir>Enter the watch behind.</dir>
 	<action type="enter">
-		<actor>1. WATCH.</actor>
-		<actor>2. WATCH.</actor>
-		<actor>3. WATCH.</actor>
+			<actor>1. WATCH.</actor>
+			<actor>2. WATCH.</actor>
+			<actor>3. WATCH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3369,7 +3442,7 @@
 <stagedir sdglobalnumber="1297.01" sdnumber="22.01">
 	<dir>Enter Serberine.</dir>
 	<action type="enter">
-		<actor>SERB.</actor>
+			<actor>SERB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3377,7 +3450,7 @@
 <stagedir sdglobalnumber="1297.02" sdnumber="22.02">
 	<dir>To himself.</dir>
 	<action type="aside">
-		<actor>SERB.</actor>
+			<actor>SERB.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1298" number="23" form="verse">Here, Serberine, attend and stay thy pace,</line>
@@ -3391,7 +3464,7 @@
 <stagedir sdglobalnumber="1302.01" sdnumber="27.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1303" number="28" form="verse">Here comes the bird that I must seize upon:</line>
@@ -3402,7 +3475,7 @@
 <stagedir sdglobalnumber="1304.01" sdnumber="29.01">
 	<dir>To himself.</dir>
 	<action type="aside">
-		<actor>SERB.</actor>
+			<actor>SERB.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1305" number="30" form="verse">I wonder that his lordship stays so long,</line>
@@ -3414,21 +3487,21 @@
 <stagedir sdglobalnumber="1307.01" sdnumber="32.01">
 	<dir>He shoots Serberine. Serberine falls dead.</dir>
 	<action type="action">
-		<actor>PEDR.</actor>
-		<recipient>SERB.</recipient>
+			<actor>PEDR.</actor>
+			<recipient>SERB.</recipient>
 	</action>
 	<action type="death">
-		<actor>SERB.</actor>
+			<actor>SERB.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1308" number="33" form="verse">So, there he lies; my promise is performed.</line>
 </speech>
 <stagedir sdglobalnumber="1308.01" sdnumber="33.01">
 	<dir>The Watch come forward.</dir>
-	<action type="enter">
-		<actor>1. WATCH.</actor>
-		<actor>2. WATCH.</actor>
-		<actor>3. WATCH.</actor>
+	<action type="action">
+			<actor>1. WATCH.</actor>
+			<actor>2. WATCH.</actor>
+			<actor>3. WATCH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3445,10 +3518,10 @@
 <stagedir sdglobalnumber="1311.01" sdnumber="36.01">
 	<dir>He strives with the Watch.</dir>
 	<action type="fight">
-		<actor>PEDR.</actor>
-		<actor>1. WATCH.</actor>
-		<actor>2. WATCH.</actor>
-		<actor>3. WATCH.</actor>
+			<actor>PEDR.</actor>
+			<actor>1. WATCH.</actor>
+			<actor>2. WATCH.</actor>
+			<actor>3. WATCH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1312" number="37" form="verse">Who first lays hand on me, I&#8217;ll be his priest.</line>
@@ -3485,32 +3558,32 @@
 <stagedir sdglobalnumber="1323.01" sdnumber="48.01">
 	<dir>Exeunt with Serberine&#8217;s body.</dir>
 	<action type="exit">
-		<actor>PEDR.</actor>
-		<actor>1. WATCH.</actor>
-		<actor>2. WATCH.</actor>
-		<actor>3. WATCH.</actor>
-		<actor>SERB.</actor>
+			<actor>PEDR.</actor>
+			<actor>1. WATCH.</actor>
+			<actor>2. WATCH.</actor>
+			<actor>3. WATCH.</actor>
+			<recipient>SERB.</recipient>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="4" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="637" numberOfLines="93">
+<scene actnum="3" num="4">
 <scenetitle>Scene 4</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>The next morning.</scenetime>
 <scenepersonae>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 	<scenepersona short="BALTH.">Balthazar</scenepersona>
-	<scenepersona short="LOR. PAGE.">Lorenzo's Page</scenepersona>
+	<scenepersona short="LOR. PAGE.">Lorenzo&#8217;s Page</scenepersona>
 	<scenepersona short="MESS.">Messenger</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1323.02" sdnumber="0.01">
 	<dir>Enter Lorenzo and Balthazar.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3557,37 +3630,37 @@
 <stagedir sdglobalnumber="1341.01" sdnumber="18.01">
 	<dir>Enter Page.</dir>
 	<action type="enter">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1342" number="19" form="verse">But here&#8217;s the page. How now? What news with thee?</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
-<line globalnumber="1343" number="20" form="verse">My lord, Serberine is slain.</line>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
+<line globalnumber="1343" number="20" form="verse" offset="0">My lord, Serberine is slain.</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
 <line globalnumber="1344" number="20" form="verse" offset="5">Who? Serberine, my man?</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
-<line globalnumber="1345" number="21" form="verse">Your highness&#8217; man, my lord.</line>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
+<line globalnumber="1345" number="21" form="verse" offset="0">Your highness&#8217; man, my lord.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="1346" number="21" form="verse" offset="4">Speak, page, who murder&#8217;d him?</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1347" number="22" form="verse">He that is apprehended for the fact.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1348" number="23" form="verse">Who?</line>
+<line globalnumber="1348" number="23" form="verse" offset="0">Who?</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1349" number="23" form="verse" offset="2">Pedringano.</line>
 </speech>
 <speech>
@@ -3613,7 +3686,7 @@
 <stagedir sdglobalnumber="1360.01" sdnumber="34.01">
 	<dir>Exit Balthazar.</dir>
 	<action type="exit">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -3633,14 +3706,14 @@
 <stagedir sdglobalnumber="1372.01" sdnumber="46.01">
 	<dir>Enter a Messenger with a letter.</dir>
 	<action type="enter">
-		<actor>MESS.</actor>
+			<actor>MESS.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1373" number="47" form="verse">Boy!</line>
+<line globalnumber="1373" number="47" form="verse" offset="0">Boy!</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
-<line globalnumber="1374" number="47" offset="2">My lord?</line>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
+<line globalnumber="1374" number="47" offset="2" part="m">My lord?</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -3648,7 +3721,7 @@
 </speech>
 <speech>
 <speaker long="Messenger">MESS.</speaker>
-<line globalnumber="1376" number="48" form="verse">I have a letter to your lordship.</line>
+<line globalnumber="1376" number="48" form="verse" offset="0">I have a letter to your lordship.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -3660,7 +3733,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1379" number="50" form="verse">So, he is imprisoned then?</line>
+<line globalnumber="1379" number="50" form="verse" offset="0">So, he is imprisoned then?</line>
 </speech>
 <speech>
 <speaker long="Messenger">MESS.</speaker>
@@ -3672,7 +3745,7 @@
 <stagedir sdglobalnumber="1381.01" sdnumber="51.01">
 	<dir>Reads.</dir>
 	<action type="read">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1382" number="52" form="verse">He writes us here:</line>
@@ -3683,21 +3756,21 @@
 <stagedir sdglobalnumber="1386.01" sdnumber="56.01">
 	<dir>Exit Messenger.</dir>
 	<action type="exit">
-		<actor>MESS.</actor>
+			<actor>MESS.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1386.02" sdnumber="56.02">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1387" number="57" form="verse">This works like wax, yet once more try thy wits.&#8212;</line>
 <stagedir sdglobalnumber="1387.01" sdnumber="57.01">
 	<dir>To the Boy.</dir>
 	<action type="speak">
-		<actor>LOR.</actor>
-		<recipient>LOR. PAGE.</recipient>
+			<actor>LOR.</actor>
+			<recipient>LOR. PAGE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1388" number="58" form="verse">Boy, go, convey this purse to Pedringano;</line>
@@ -3713,19 +3786,19 @@
 <line globalnumber="1398" number="68" form="verse">Thou with his pardon shalt attend him still.</line>
 <line globalnumber="1399" number="69" form="verse">Show him this box, tell him his pardon&#8217;s in&#8217;t;</line>
 <stagedir sdglobalnumber="1399.01" sdnumber="69.01">
-	<dir>Gives him a box..</dir>
+	<dir>Gives him a box.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>LOR. PAGE.</recipient>
+			<actor>LOR.</actor>
+			<recipient>LOR. PAGE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1400" number="70" form="verse">But open&#8217;t not, an if thou lov&#8217;st thy life;</line>
 <line globalnumber="1401" number="71" form="verse">But let him wisely keep his hopes unknown:</line>
 <line globalnumber="1402" number="72" form="verse">He shall not want while Don Lorenzo lives.</line>
-<line globalnumber="1403" number="73" form="verse">Away!</line>
+<line globalnumber="1403" number="73" form="verse" offset="0">Away!</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1404" number="73" form="verse" offset="3">I go, my lord, I run.</line>
 </speech>
 <speech>
@@ -3734,7 +3807,7 @@
 <stagedir sdglobalnumber="1405.01" sdnumber="74.01">
 	<dir>Exit Page.</dir>
 	<action type="exit">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1406" number="75" form="verse">Now stands our fortune on a tickle point,</line>
@@ -3752,33 +3825,33 @@
 <stagedir sdglobalnumber="1416.01" sdnumber="85.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="5" minutesRunning="2" numberOfProseWords="207" numberOfVerseWords="0" numberOfLines="2">
+<scene actnum="3" num="5">
 <scenetitle>Scene 5</scenetitle>
-<scenelocation>A street near the Duke of Castile's castle.</scenelocation>
+<scenelocation>A street near the Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
 <scenepersonae>
-	<scenepersona short="LOR. PAGE.">Lorenzo's Page</scenepersona>
+	<scenepersona short="LOR. PAGE.">Lorenzo&#8217;s Page</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1416.02" sdnumber="0.01">
 	<dir>Enter Boy Page with the box.</dir>
 	<action type="enter">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
 <line globalnumber="1417" number="1" form="prose">My master hath forbidden me to look in this box, and, by my troth, &#8217;tis likely, if he had not warned me, I should not have had so much idle time, for we men&#8217;s-kind, in our minority, are like women in their uncertainty: that they are most forbidden, they will soonest attempt: so I now.&#8212;</line>
 <stagedir sdglobalnumber="1417.01" sdnumber="1.01">
 	<dir>Opens the box.</dir>
 	<action type="action">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1418" number="2" form="prose">By my bare honesty, here&#8217;s nothing but the bare empty box: were it not sin against secrecy, I would say it were a piece of gentlemanlike knavery. I must go to Pedringano, and tell him his pardon is in this box. Nay, I would have sworn it, had I not seen the contrary.&#8212;I cannot choose but smile to think how the villain will flout the gallows, scorn the audience, and descant on the hangman, and all presuming of his pardon from hence. Will&#8217;t not be an odd jest for me to stand and grace every jest he makes, pointing my finger at this box as who would say: &#8216;Mock on, here&#8217;s thy warrant.&#8217; Is&#8217;t not a scurvy jest that a man should jest himself to death? Alas, poor Pedringano, I am in a sort sorry for thee, but if I should be hanged with thee, I cannot weep.</line>
@@ -3786,30 +3859,30 @@
 <stagedir sdglobalnumber="1418.01" sdnumber="2.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="6" minutesRunning="8" numberOfProseWords="450" numberOfVerseWords="396" numberOfLines="91">
+<scene actnum="3" num="6">
 <scenetitle>Scene 6</scenetitle>
-<scenelocation>The Knight Marshal's courtroom.</scenelocation>
+<scenelocation>The Knight Marshal&#8217;s courtroom.</scenelocation>
 <scenetime>A few minutes later.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
 	<scenepersona short="DEP.">Deputy</scenepersona>
 	<scenepersona short="PEDR.">Pedringano</scenepersona>
 	<scenepersona short="HANG.">Hangman</scenepersona>
-	<scenepersona short="LOR. PAGE.">Lorenzo's Page</scenepersona>
+	<scenepersona short="LOR. PAGE.">Lorenzo&#8217;s Page</scenepersona>
 	<scenepersona>Officers</scenepersona>	
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1418.02" sdnumber="0.01">
 	<dir>Enter Hieronimo and the Deputy.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
-		<actor>DEP.</actor>
+			<actor>HIER.</actor>
+			<actor>DEP.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3840,16 +3913,15 @@
 <stagedir sdglobalnumber="1434.01" sdnumber="16.01">
 	<dir>Enter Officers, Boy, and Pedringano with a letter in his hand, bound and guarded. Page enters with the box.</dir>
 	<action type="enter">
-		<actor>PEDR.</actor>
-		<actor>HANG.</actor>
-		<actor>Officers.</actor>
-		<actor>LOR. PAGE.</actor>
+			<actor>PEDR.</actor>
+			<actor>Officers</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1434.02" sdnumber="16.02">
 	<dir>The Hangman enters and begins setting up the gallows.</dir>
 	<action type="enter">
-		<actor>HANG.</actor>
+			<actor>HANG.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3861,7 +3933,7 @@
 <stagedir sdglobalnumber="1435.01" sdnumber="17.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>PEDR.</actor>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1436" number="18" form="verse">Gramercy, boy, but it was time to come,</line>
@@ -3888,7 +3960,7 @@
 </speech>
 <speech>
 <speaker long="Deputy">DEP.</speaker>
-<line globalnumber="1451" number="33" form="verse">Ay, Pedringano.</line>
+<line globalnumber="1451" number="33" form="verse" offset="0">Ay, Pedringano.</line>
 </speech>
 <speech>
 <speaker long="Pedringano">PEDR.</speaker>
@@ -3943,7 +4015,7 @@
 <stagedir sdglobalnumber="1468.01" sdnumber="49.01">
 	<dir>Points to the noose.</dir>
 	<action type="action">
-		<actor>HANG.</actor>
+			<actor>HANG.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -3968,7 +4040,7 @@
 </speech>
 <speech>
 <speaker long="Hangman">HANG.</speaker>
-<line globalnumber="1474" number="55" form="prose">Alas, sir! you are a foot too low to reach it, and I hope you will never grow so high while I am in the office.</line>
+<line globalnumber="1474" number="55" form="prose">Alas, sir! You are a foot too low to reach it, and I hope you will never grow so high while I am in the office.</line>
 </speech>
 <speech>
 <speaker long="Pedringano">PEDR.</speaker>
@@ -4046,14 +4118,14 @@
 <stagedir sdglobalnumber="1499.01" sdnumber="80.01">
 	<dir>Exit Hieronimo.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="1499.02" sdnumber="80.02">
 	<dir>Hangman prepares to execute Pedringano.</dir>
 	<action type="action">
-		<actor>HANG.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>HANG.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -4082,9 +4154,12 @@
 </speech>
 <stagedir sdglobalnumber="1505.01" sdnumber="86.01">
 	<dir>He turns him off.</dir>
+	<action type="action">
+			<actor>HANG.</actor>
+			<recipient>PEDR.</recipient>
+	</action>
 	<action type="death">
-		<actor>HANG.</actor>
-		<recipient>PEDR.</recipient>
+			<actor>PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4097,29 +4172,29 @@
 <stagedir sdglobalnumber="1509.01" sdnumber="90.01">
 	<dir>Exeunt bearing Pedringano&#8217;s body and gallows</dir>
 	<action type="exit">
-		<actor>PEDR.</actor>
-		<actor>HANG.</actor>
-		<actor>DEP.</actor>
-		<actor>Officers.</actor>
-		<actor>LOR. PAGE.</actor>
+			<actor>HANG.</actor>
+			<actor>DEP.</actor>
+			<actor>Officers</actor>
+			<actor>LOR. PAGE.</actor>
+			<recipient>PEDR.</recipient>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="7" minutesRunning="5" numberOfProseWords="76" numberOfVerseWords="481" numberOfLines="70">
+<scene actnum="3" num="7">
 <scenetitle>Scene 7</scenetitle>
-<scenelocation>The Knight Marshal's courtroom.</scenelocation>
+<scenelocation>The Knight Marshal&#8217;s courtroom.</scenelocation>
 <scenetime>An hour later.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
 	<scenepersona short="HANG.">Hangman</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1509.02" sdnumber="0.01">
 	<dir>Enter Hieronimo.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -4146,7 +4221,7 @@
 <stagedir sdglobalnumber="1527.01" sdnumber="18.01">
 	<dir>Enter Hangman with a letter.</dir>
 	<action type="enter">
-		<actor>HANG.</actor>
+			<actor>HANG.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4168,7 +4243,7 @@
 <stagedir sdglobalnumber="1531.01" sdnumber="22.01">
 	<dir>Takes the letter.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4186,7 +4261,7 @@
 <stagedir sdglobalnumber="1534.01" sdnumber="25.01">
 	<dir>Exit Hangman.</dir>
 	<action type="exit">
-		<actor>HANG.</actor>
+			<actor>HANG.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -4197,7 +4272,7 @@
 <stagedir sdglobalnumber="1537.01" sdnumber="28.01">
 	<dir>Reads.</dir>
 	<action type="read">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1538" number="29" form="verse"><recite>&#8216;My lord, I write, as my extremes required,</recite></line>
@@ -4246,26 +4321,26 @@
 <stagedir sdglobalnumber="1579.01" sdnumber="70.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="8" minutesRunning="2" numberOfProseWords="0" numberOfVerseWords="185" numberOfLines="25">
+<scene actnum="3" num="8">
 <scenetitle>Scene 8</scenetitle>
-<scenelocation>Hieronimo's house.</scenelocation>
+<scenelocation>Hieronimo&#8217;s house.</scenelocation>
 <scenetime>About the same time.</scenetime>
 <scenepersonae>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
-	<scenepersona short="MAID.">Isabella's Maid</scenepersona>
+	<scenepersona short="MAID.">Isabella&#8217;s Maid</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1579.02" sdnumber="0.01">
 	<dir>Enter Isabella and her Maid.</dir>
 	<action type="enter">
-		<actor>ISAB.</actor>
-		<actor>MAID.</actor>
+			<actor>ISAB.</actor>
+			<actor>MAID.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4280,11 +4355,11 @@
 <stagedir sdglobalnumber="1585.01" sdnumber="6.01">
 	<dir>She runs lunatic.</dir>
 	<action type="action">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="Isabella's Maid">MAID.</speaker>
+<speaker long="Isabella&#8217;s Maid">MAID.</speaker>
 <line globalnumber="1586" number="7" form="verse">Good madam, affright not thus yourself</line>
 <line globalnumber="1587" number="8" form="verse">With outrage for your son Horatio:</line>
 <line globalnumber="1588" number="9" form="verse">He sleeps in quiet in the Elysian fields.</line>
@@ -4296,7 +4371,7 @@
 <line globalnumber="1591" number="12" form="verse">To be reveng&#232;d on their villainies?</line>
 </speech>
 <speech>
-<speaker long="Isabella's Maid">MAID.</speaker>
+<speaker long="Isabella&#8217;s Maid">MAID.</speaker>
 <line globalnumber="1592" number="13" form="verse">Madam, these humors do torment my soul.</line>
 </speech>
 <speech>
@@ -4317,26 +4392,26 @@
 <stagedir sdglobalnumber="1604.01" sdnumber="25.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>ISAB.</actor>
-		<actor>MAID.</actor>
+			<actor>ISAB.</actor>
+			<actor>MAID.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="9" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="113" numberOfLines="15">
+<scene actnum="3" num="9">
 <scenetitle>Scene 9</scenetitle>
-<scenelocation>An upper window of the Duke of Castile's castle.</scenelocation>
+<scenelocation>An upper window of the Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>About the same time.</scenetime>
 <scenepersonae>
 	<scenepersona short="BEL.">Bel-imperia</scenepersona>
 	<scenepersona short="CHRISTO.">Christophil</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1604.02" sdnumber="0.01">
 	<dir>Bel-imperia at a window.</dir>
 	<action type="enter">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -4359,7 +4434,7 @@
 <stagedir sdglobalnumber="1618.01" sdnumber="14.01">
 	<dir>Enter Christophil above.</dir>
 	<action type="enter">
-		<actor>CHRISTO.</actor>
+			<actor>CHRISTO.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4369,30 +4444,30 @@
 <stagedir sdglobalnumber="1619.01" sdnumber="15.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>CHRISTO.</actor>
-		<actor>BEL.</actor>
+			<actor>CHRISTO.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="10" minutesRunning="7" numberOfProseWords="0" numberOfVerseWords="799" numberOfLines="120">
+<scene actnum="3" num="10">
 <scenetitle>Scene 10</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>The next day.</scenetime>
 <scenepersonae>
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 	<scenepersona short="BALTH.">Balthazar</scenepersona>
-	<scenepersona short="LOR. PAGE.">Lorenzo's Page</scenepersona>
+	<scenepersona short="LOR. PAGE.">Lorenzo&#8217;s Page</scenepersona>
 	<scenepersona short="BEL.">Bel-imperia</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1619.02" sdnumber="0.01">
 	<dir>Enter Lorenzo, Balthazar and the Page.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4401,8 +4476,8 @@
 <line globalnumber="1621" number="2" form="verse">Thou art assured that thou saw&#8217;st him dead?</line>
 </speech>
 <speech>
-<speaker long="Lorenzo's Page">LOR. PAGE.</speaker>
-<line globalnumber="1622" number="3" form="verse">Or else, my lord, I live not.</line>
+<speaker long="Lorenzo&#8217;s Page">LOR. PAGE.</speaker>
+<line globalnumber="1622" number="3" form="verse" offset="0">Or else, my lord, I live not.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -4412,8 +4487,8 @@
 <stagedir sdglobalnumber="1625.01" sdnumber="5.01">
 	<dir>Hands over ring.</dir>
 	<action type="action">
-		<actor>LOR.</actor>
-		<recipient>LOR. PAGE.</recipient>
+			<actor>LOR.</actor>
+			<recipient>LOR. PAGE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1626" number="6" form="verse">Here, take my ring and give it Christophil,</line>
@@ -4422,7 +4497,7 @@
 <stagedir sdglobalnumber="1628.01" sdnumber="8.01">
 	<dir>Exit Page.</dir>
 	<action type="exit">
-		<actor>LOR. PAGE.</actor>
+			<actor>LOR. PAGE.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1629" number="9" form="verse">This that I did was for a policy,</line>
@@ -4439,7 +4514,7 @@
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="1635" number="15" form="verse">Why, and my lord, I hope you heard me say</line>
 <line globalnumber="1636" number="16" form="verse">Sufficient reason why she kept away;</line>
-<line globalnumber="1637" number="17" form="verse">But that&#8217;s all one. My lord, you love her?</line>
+<line globalnumber="1637" number="17" form="verse" offset="0">But that&#8217;s all one. My lord, you love her?</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
@@ -4453,14 +4528,14 @@
 <line globalnumber="1642" number="21" form="verse">As for her sweetheart and concealment so,</line>
 <line globalnumber="1643" number="22" form="verse">Jest with her gently: under feign&#232;d jest</line>
 <line globalnumber="1644" number="23" form="verse">Are things concealed that else would breed unrest.&#8212;</line>
-<line globalnumber="1645" number="24" form="verse">But here she comes.</line>
+<line globalnumber="1645" number="24" form="verse" offset="0">But here she comes.</line>
 <stagedir sdglobalnumber="1645.01" sdnumber="24.01">
 	<dir>Enter Bel-imperia.</dir>
 	<action type="enter">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
-<line globalnumber="1646" number="24" form="verse" offset="4">Now, sister?</line>
+<line globalnumber="1646" number="24" form="verse" offset="4" part="m">Now, sister?</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
@@ -4570,8 +4645,8 @@
 <stagedir sdglobalnumber="1701.01" sdnumber="78.01">
 	<dir>He whispereth in her ear.</dir>
 	<action type="speak">
-		<actor>LOR.</actor>
-		<recipient>BEL.</recipient>
+			<actor>LOR.</actor>
+			<recipient>BEL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1702" number="79" form="verse">Look on thy love, behold young Balthazar,</line>
@@ -4603,11 +4678,11 @@
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
-<line globalnumber="1719" number="96" form="verse">&#8217;Tis I that love.</line>
+<line globalnumber="1719" number="96" form="verse" offset="0">&#8217;Tis I that love.</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
-<line globalnumber="1720" number="96" form="verse" offset="5">Whom?</line>
+<line globalnumber="1720" number="96" form="verse" offset="5" part="m">Whom?</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
@@ -4615,11 +4690,11 @@
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
-<line globalnumber="1722" number="97" form="verse">But I that fear.</line>
+<line globalnumber="1722" number="97" form="verse" offset="0">But I that fear.</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
-<line globalnumber="1723" number="97" form="verse" offset="5">Whom?</line>
+<line globalnumber="1723" number="97" form="verse" offset="5" part="m">Whom?</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
@@ -4627,15 +4702,15 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1725" number="98" form="verse">Fear yourself?</line>
+<line globalnumber="1725" number="98" form="verse" offset="0">Fear yourself?</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
-<line globalnumber="1726" number="98" form="verse" offset="4">Ay, brother.</line>
+<line globalnumber="1726" number="98" form="verse" offset="4" part="m">Ay, brother.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1727" number="98" form="verse" offset="5">How?</line>
+<line globalnumber="1727" number="98" form="verse" offset="5" part="m">How?</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
@@ -4655,7 +4730,7 @@
 <stagedir sdglobalnumber="1733.01" sdnumber="103.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>BEL.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4673,14 +4748,14 @@
 <stagedir sdglobalnumber="1739.01" sdnumber="109.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>BALTH.</actor>
-		<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="11" minutesRunning="6" numberOfProseWords="0" numberOfVerseWords="638" numberOfLines="85">
+<scene actnum="3" num="11">
 <scenetitle>Scene 11</scenetitle>
-<scenelocation>A street near the Duke of Castile's castle.</scenelocation>
+<scenelocation>A street near the Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>About the same time.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
@@ -4688,14 +4763,14 @@
 	<scenepersona short="2. PORT.">Second Portuguese</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1739.02" sdnumber="0.01">
 	<dir>Enter two Portuguese, and Hieronimo meets them.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
-		<actor>1. PORT.</actor>
-		<actor>2. PORT.</actor>
+			<actor>HIER.</actor>
+			<actor>1. PORT.</actor>
+			<actor>2. PORT.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4760,7 +4835,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="1791" number="52" form="verse">The next way from me.</line>
+<line globalnumber="1791" number="52" form="verse" offset="0">The next way from me.</line>
 </speech>
 <speech>
 <speaker long="First Portuguese">1. PORT.</speaker>
@@ -4776,16 +4851,16 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="1795" number="55" form="verse">Who, my lord Lorenzo?</line>
+<line globalnumber="1795" number="55" form="verse" offset="0">Who, my lord Lorenzo?</line>
 </speech>
 <speech>
 <speaker long="First Portuguese">1. PORT.</speaker>
-<line globalnumber="1796" number="55" form="verse" offset="6">Ay, sir.</line>
+<line globalnumber="1796" number="55" form="verse" offset="6" part="m">Ay, sir.</line>
 </speech>
 <stagedir sdglobalnumber="1796.01" sdnumber="55.01">
 	<dir>He goes in at one door and comes out at another.</dir>
 	<action type="action">
-		<actor>1. PORT.</actor>
+			<actor>1. PORT.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4825,7 +4900,7 @@
 <stagedir sdglobalnumber="1821.01" sdnumber="78.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4837,12 +4912,12 @@
 <stagedir sdglobalnumber="1824.01" sdnumber="81.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>1. PORT.</actor>
-		<actor>2. PORT.</actor>
+			<actor>1. PORT.</actor>
+			<actor>2. PORT.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="12" minutesRunning="7" numberOfProseWords="0" numberOfVerseWords="818" numberOfLines="111">
+<scene actnum="3" num="12">
 <scenetitle>Scene 12</scenetitle>
 <scenelocation>The Spanish court.</scenelocation>
 <scenetime>A little while later.</scenetime>
@@ -4854,15 +4929,15 @@
 	<scenepersona short="PORT. AMB.">Portuguese Ambassador</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1824.02" sdnumber="0.01">
 	<dir>Enter Hieronimo with a poniard in one hand and a rope in the other.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
-<speech tyoe="soliloquy">
+<speech type="soliloquy">
 <speaker long="Hieronimo">HIER.</speaker>
 <line globalnumber="1825" number="1" form="verse">Now, sir, perhaps I come and see the King;</line>
 <line globalnumber="1826" number="2" form="verse">The King sees me, and fain would hear my suit:</line>
@@ -4880,14 +4955,14 @@
 <stagedir sdglobalnumber="1837.01" sdnumber="13.01">
 	<dir>Points at the poniard.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1838" number="14" form="verse">Turn down this path: thou shalt be with him straight;</line>
 <stagedir sdglobalnumber="1838.01" sdnumber="14.01">
 	<dir>Points at the rope.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1839" number="15" form="verse">Or this, and then thou need&#8217;st not take thy breath.</line>
@@ -4898,14 +4973,14 @@
 <stagedir sdglobalnumber="1843.01" sdnumber="19.01">
 	<dir>He flings away the dagger and halter.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1844" number="20" form="verse">This way I&#8217;ll take, and this way comes the king:</line>
 <stagedir sdglobalnumber="1844.01" sdnumber="20.01">
 	<dir>He takes them up again.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1845" number="21" form="verse">And here I&#8217;ll have a fling at him, that&#8217;s flat.</line>
@@ -4916,10 +4991,10 @@
 <stagedir sdglobalnumber="1848.01" sdnumber="24.01">
 	<dir>Enter King, Ambassador, Castile and Lorenzo.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>DUKE.</actor>
-		<actor>LOR.</actor>
-		<actor>PORT. AMB.</actor>
+			<actor>KING.</actor>
+			<actor>DUKE.</actor>
+			<actor>LOR.</actor>
+			<actor>PORT. AMB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -4933,7 +5008,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="1852" number="28" form="verse">Back! See&#8217;st thou not the King is busy?</line>
+<line globalnumber="1852" number="28" form="verse" offset="0">Back! See&#8217;st thou not the King is busy?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -4941,7 +5016,7 @@
 </speech>
 <speech>
 <speaker long="King of Spain">KING.</speaker>
-<line globalnumber="1854" number="29" form="verse">Who is he that interrupts our business?</line>
+<line globalnumber="1854" number="29" form="verse" offset="0">Who is he that interrupts our business?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -4949,7 +5024,7 @@
 <stagedir sdglobalnumber="1855.01" sdnumber="29.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1856" number="30" form="verse">Hieronimo, beware; go by, go by.</line>
@@ -4957,7 +5032,7 @@
 <stagedir sdglobalnumber="1856.01" sdnumber="30.01">
 	<dir>Withdraws.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5003,8 +5078,8 @@
 <stagedir sdglobalnumber="1884.01" sdnumber="58.01">
 	<dir>Gives the King gold.</dir>
 	<action type="speak">
-		<actor>PORT. AMB.</actor>
-		<recipient>KING.</recipient>
+			<actor>PORT. AMB.</actor>
+			<recipient>KING.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5012,7 +5087,7 @@
 <stagedir sdglobalnumber="1884.02" sdnumber="58.02">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1885" number="59" form="verse">Horatio? Who calls Horatio?</line>
@@ -5023,8 +5098,8 @@
 <stagedir sdglobalnumber="1886.01" sdnumber="60.01">
 	<dir>Gives purse.</dir>
 	<action type="action">
-		<actor>KING.</actor>
-		<recipient>HIER.</recipient>
+			<actor>KING.</actor>
+			<recipient>HIER.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1887" number="61" form="verse">Here, see it given to Horatio.</line>
@@ -5055,7 +5130,7 @@
 <stagedir sdglobalnumber="1896.01" sdnumber="70.01">
 	<dir>He diggeth with his dagger.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="1897" number="71" form="verse">And ferry over to th&#8217;Elysian plains,</line>
@@ -5079,7 +5154,7 @@
 <stagedir sdglobalnumber="1907.01" sdnumber="81.01">
 	<dir>Exit Hieronimo.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5103,8 +5178,8 @@
 <stagedir sdglobalnumber="1917.01" sdnumber="91.01">
 	<dir>Gives Castile the gold.</dir>
 	<action type="speak">
-		<actor>KING.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>KING.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="1918" number="92" form="verse">The Prince&#8217;s ransom; let him have his due,</line>
@@ -5141,16 +5216,16 @@
 <stagedir sdglobalnumber="1935.01" sdnumber="109.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>KING.</actor>
-		<actor>PORT. AMB.</actor>
-		<actor>LOR.</actor>
-		<actor>DUKE.</actor>
+			<actor>KING.</actor>
+			<actor>PORT. AMB.</actor>
+			<actor>LOR.</actor>
+			<actor>DUKE.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="13" minutesRunning="12" numberOfProseWords="0" numberOfVerseWords="1449" numberOfLines="178">
+<scene actnum="3" num="13">
 <scenetitle>Scene 13</scenetitle>
-<scenelocation>Hieronimo's garden.</scenelocation>
+<scenelocation>Hieronimo&#8217;s garden.</scenelocation>
 <scenetime>Late that night.</scenetime>
 <scenepersonae>
 	<scenepersona short="PEDRO.">Pedro</scenepersona>
@@ -5160,13 +5235,13 @@
 	<scenepersona short="PAINT.">Painter</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="1935.02" sdnumber="0.01">
 	<dir>Enter Jaques and Pedro.</dir>
 	<action type="enter">
-		<actor>JAQ.</actor>
-		<actor>PEDRO.</actor>
+			<actor>JAQ.</actor>
+			<actor>PEDRO.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5194,7 +5269,7 @@
 <stagedir sdglobalnumber="1951.01" sdnumber="16.01">
 	<dir>Enter Hieronimo.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5220,11 +5295,11 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="1961" number="26" form="verse">No, no, you are deceived! Not I! you are deceived!</line>
+<line globalnumber="1961" number="26" form="verse">No, no, you are deceived! Not I! You are deceived!</line>
 <line globalnumber="1962" number="27" form="verse">Was I so mad to bid you light your torches now?</line>
 <line globalnumber="1963" number="28" form="verse">Light me your torches at the mid of noon,</line>
 <line globalnumber="1964" number="29" form="verse">Whenas the sun god rides in all his glory;</line>
-<line globalnumber="1965" number="30" form="verse">Light me your torches then.</line>
+<line globalnumber="1965" number="30" form="verse" offset="0">Light me your torches then.</line>
 </speech>
 <speech>
 <speaker long="Pedro">PEDRO.</speaker>
@@ -5266,7 +5341,7 @@
 <stagedir sdglobalnumber="1990.01" sdnumber="54.01">
 	<dir>Enter Isabella.</dir>
 	<action type="enter">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5300,11 +5375,11 @@
 <line globalnumber="2008" number="72" form="verse">O wicked, wicked plant!</line>
 <stagedir sdglobalnumber="2008.01" sdnumber="72.01">
 	<dir>One knocks within at the door.</dir>
-	<action type="action">
-		<actor>PAINT.</actor>
+	<action type="sound">
+			<actor>PAINT.</actor>
 	</action>
 </stagedir>
-<line globalnumber="2009" number="73" form="verse">See, who knocks there.</line>
+<line globalnumber="2009" number="73" form="verse" offset="0">See, who knocks there.</line>
 </speech>
 <speech>
 <speaker long="Pedro">PEDRO.</speaker>
@@ -5322,12 +5397,12 @@
 <stagedir sdglobalnumber="2016.01" sdnumber="79.01">
 	<dir>Enter the Painter.</dir>
 	<action type="enter">
-		<actor>PAINT.</actor>
+			<actor>PAINT.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Painter">PAINT.</speaker>
-<line globalnumber="2017" number="80" form="verse">God bless you, sir.</line>
+<line globalnumber="2017" number="80" form="verse" offset="0">God bless you, sir.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -5336,7 +5411,7 @@
 </speech>
 <speech>
 <speaker long="Isabella">ISAB.</speaker>
-<line globalnumber="2020" number="82" form="verse">What wouldst thou have, good fellow?</line>
+<line globalnumber="2020" number="82" form="verse" offset="0">What wouldst thou have, good fellow?</line>
 </speech>
 <speech>
 <speaker long="Painter">PAINT.</speaker>
@@ -5387,24 +5462,24 @@
 <stagedir sdglobalnumber="2043.01" sdnumber="104.01">
 	<dir>Exeunt Pedro, Jaques and Isabella.</dir>
 	<action type="exit">
-		<actor>PEDRO.</actor>
-		<actor>JAQ.</actor>
-		<actor>ISAB.</actor>
+			<actor>PEDRO.</actor>
+			<actor>JAQ.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2043.02" sdnumber="104.02">
 	<dir>The Painter and Hieronimo sit down.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<actor>PAINT.</actor>
+			<actor>HIER.</actor>
+			<actor>PAINT.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2044" number="105" form="verse">Come, let&#8217;s talk wisely now.</line>
-<line globalnumber="2045" number="106" form="verse">Was thy son murder&#8217;d?</line>
+<line globalnumber="2045" number="106" form="verse" offset="0">Was thy son murder&#8217;d?</line>
 </speech>
 <speech>
 <speaker long="Painter">PAINT.</speaker>
-<line globalnumber="2046" number="106" form="verse" offset="5">Ay, sir.</line>
+<line globalnumber="2046" number="106" form="verse" offset="5" part="m">Ay, sir.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -5521,8 +5596,8 @@
 <stagedir sdglobalnumber="2113.01" sdnumber="172.01">
 	<dir>He beats the Painter in, then comes out again, with a book in his hand.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
-		<recipient>PAINT.</recipient>
+			<actor>HIER.</actor>
+			<recipient>PAINT.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2113.02" sdnumber="172.02">
@@ -5530,24 +5605,24 @@
 	<action type="action"></action>
 </stagedir>
 </scene>
-<scene actnum="3" num="14" minutesRunning="11" numberOfProseWords="0" numberOfVerseWords="1313" numberOfLines="182">
+<scene actnum="3" num="14">
 <scenetitle>Scene 14</scenetitle>
-<scenelocation>The Knight Marshal's courtroom.</scenelocation>
+<scenelocation>The Knight Marshal&#8217;s courtroom.</scenelocation>
 <scenetime>The next day.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
-	<scenepersona short="HIER. SERV.">Hieronimo's Servant</scenepersona>
+	<scenepersona short="HIER. SERV.">Hieronimo&#8217;s Servant</scenepersona>
 	<scenepersona short="1. CIT.">First Citizen</scenepersona>
 	<scenepersona short="2. CIT.">Second Citizen</scenepersona>
 	<scenepersona short="3. CIT.">Third Citizen</scenepersona>	
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2113.03" sdnumber="0.01">
 	<dir>Enter Hieronimo with a book in his hand.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -5599,11 +5674,11 @@
 <stagedir sdglobalnumber="2157.01" sdnumber="44.01">
 	<dir>A noise within.</dir>
 	<action type="sound">
-		<actor>HIER. SERV.</actor>
-		<actor>OLD.</actor>
-		<actor>1. CIT.</actor>
-		<actor>2. CIT.</actor>
-		<actor>3. CIT.</actor>
+			<actor>HIER. SERV.</actor>
+			<actor>OLD.</actor>
+			<actor>1. CIT.</actor>
+			<actor>2. CIT.</actor>
+			<actor>3. CIT.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2158" number="45" form="verse">How now, what noise? What coil is that you keep?</line>
@@ -5611,11 +5686,11 @@
 <stagedir sdglobalnumber="2158.01" sdnumber="45.01">
 	<dir>Enter a Servant.</dir>
 	<action type="enter">
-		<actor>HIER. SERV.</actor>
+			<actor>HIER. SERV.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="Hieronimo's Servant">HIER. SERV.</speaker>
+<speaker long="Hieronimo&#8217;s Servant">HIER. SERV.</speaker>
 <line globalnumber="2159" number="46" form="verse">Here are a sort of poor petitioners,</line>
 <line globalnumber="2160" number="47" form="verse">That are importunate, and it shall please you, sir,</line>
 <line globalnumber="2161" number="48" form="verse">That you should plead their cases to the King.</line>
@@ -5628,10 +5703,10 @@
 <stagedir sdglobalnumber="2163.01" sdnumber="50.01">
 	<dir>Enter three Citizens and Bazulto, an Old Man.</dir>
 	<action type="enter">
-		<actor>OLD.</actor>
-		<actor>1. CIT.</actor>
-		<actor>2. CIT.</actor>
-		<actor>3. CIT.</actor>
+			<actor>OLD.</actor>
+			<actor>1. CIT.</actor>
+			<actor>2. CIT.</actor>
+			<actor>3. CIT.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5639,9 +5714,9 @@
 <stagedir sdglobalnumber="2163.02" sdnumber="50.02">
 	<dir>To the other Citizens.</dir>
 	<action type="speak">
-		<actor>1. CIT.</actor>
-		<recipient>2. CIT.</recipient>
-		<recipient>3. CIT.</recipient>
+			<actor>1. CIT.</actor>
+			<recipient>2. CIT.</recipient>
+			<recipient>3. CIT.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2164" number="51" form="verse">So,</line>
@@ -5656,7 +5731,7 @@
 <stagedir sdglobalnumber="2169.01" sdnumber="56.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2170" number="57" form="verse">Now must I bear a face of gravity,</line>
@@ -5665,13 +5740,13 @@
 <stagedir sdglobalnumber="2172.01" sdnumber="59.01">
 	<dir>To Citizens.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>1. CIT.</recipient>
-		<recipient>2. CIT.</recipient>
-		<recipient>3. CIT.</recipient>
+			<actor>HIER.</actor>
+			<recipient>1. CIT.</recipient>
+			<recipient>2. CIT.</recipient>
+			<recipient>3. CIT.</recipient>
 	</action>
 </stagedir>
-<line globalnumber="2173" number="60" form="verse">Come on, sirs, what&#8217;s the matter?</line>
+<line globalnumber="2173" number="60" form="verse" offset="0">Come on, sirs, what&#8217;s the matter?</line>
 </speech>
 <speech>
 <speaker long="Second Citizen">2. CIT.</speaker>
@@ -5679,11 +5754,11 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2175" number="61" form="verse">Of battery?</line>
+<line globalnumber="2175" number="61" form="verse" offset="0">Of battery?</line>
 </speech>
 <speech>
 <speaker long="First Citizen">1. CIT.</speaker>
-<line globalnumber="2176" number="61" form="verse" offset="4">Mine of debt.</line>
+<line globalnumber="2176" number="61" form="verse" offset="4" part="m">Mine of debt.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -5708,7 +5783,7 @@
 </speech>
 <speech>
 <speaker long="Second Citizen">2. CIT.</speaker>
-<line globalnumber="2183" number="67" form="verse">And here is my bond.</line>
+<line globalnumber="2183" number="67" form="verse" offset="0">And here is my bond.</line>
 </speech>
 <speech>
 <speaker long="Third Citizen">3. CIT.</speaker>
@@ -5717,8 +5792,8 @@
 <stagedir sdglobalnumber="2184.01" sdnumber="67.01">
 	<dir>They give him papers.</dir>
 	<action type="action">
-		<actor>3. CIT.</actor>
-		<recipient>HIER.</recipient>
+			<actor>3. CIT.</actor>
+			<recipient>HIER.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -5735,7 +5810,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2191" number="74" form="verse">Say, father, tell me what&#8217;s thy suit?</line>
+<line globalnumber="2191" number="74" form="verse" offset="0">Say, father, tell me what&#8217;s thy suit?</line>
 </speech>
 <speech>
 <speaker long="Old Man">OLD.</speaker>
@@ -5750,7 +5825,7 @@
 <stagedir sdglobalnumber="2196.01" sdnumber="78.01">
 	<dir>Reads.</dir>
 	<action type="read">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2197" number="79" form="verse"><recite>&#8216;The humble supplication</recite></line>
@@ -5771,7 +5846,7 @@
 <stagedir sdglobalnumber="2205.01" sdnumber="87.01">
 	<dir>He draweth out a bloody napkin.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2206" number="88" form="verse">O no, not this, Horatio, this was thine,</line>
@@ -5781,8 +5856,8 @@
 <stagedir sdglobalnumber="2209.01" sdnumber="91.01">
 	<dir>He pulls out more objects. Gives napkin, then purse.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>1. CIT.</recipient>
+			<actor>HIER.</actor>
+			<recipient>1. CIT.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2210" number="92" form="verse">But here, take this, and this&#8212;what, my purse?</line>
@@ -5832,18 +5907,18 @@
 <stagedir sdglobalnumber="2243.01" sdnumber="125.01">
 	<dir>Tears the papers.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="First Citizen">1. CIT.</speaker>
-<line globalnumber="2244" number="126" form="verse">O, sir, my declaration!</line>
+<line globalnumber="2244" number="126" form="verse" offset="0">O, sir, my declaration!</line>
 </speech>
 <stagedir sdglobalnumber="2244.01" sdnumber="126.01">
 	<dir>Exit Hieronimo, and they after.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
-		<actor>1. CIT.</actor>
+			<actor>HIER.</actor>
+			<actor>1. CIT.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5853,12 +5928,12 @@
 <stagedir sdglobalnumber="2245.01" sdnumber="126.02">
 	<dir>Enter Hieronimo and Citizens.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Second Citizen">2. CIT.</speaker>
-<line globalnumber="2246" number="127" form="verse">Save my bond!</line>
+<line globalnumber="2246" number="127" form="verse" offset="0">Save my bond!</line>
 </speech>
 <speech>
 <speaker long="Third Citizen">3. CIT.</speaker>
@@ -5875,19 +5950,19 @@
 <stagedir sdglobalnumber="2252.01" sdnumber="132.01">
 	<dir>Exeunt all but Bazulto, the Old Man.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
-		<actor>2. CIT.</actor>
-		<actor>3. CIT.</actor>
-		<actor>HIER. SERV.</actor>
+			<actor>HIER.</actor>
+			<actor>2. CIT.</actor>
+			<actor>3. CIT.</actor>
+			<actor>HIER. SERV.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2252.02" sdnumber="132.02">
 	<dir>Bazulto remains till Hieronimo enters again, who, staring him in the face, speaks.</dir>
 	<action type="action">
-		<actor>OLD.</actor>
+			<actor>OLD.</actor>
 	</action>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -5957,12 +6032,12 @@
 <stagedir sdglobalnumber="2295.01" sdnumber="175.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
-		<actor>OLD.</actor>
+			<actor>HIER.</actor>
+			<actor>OLD.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="15" minutesRunning="11" numberOfProseWords="0" numberOfVerseWords="1260" numberOfLines="180">
+<scene actnum="3" num="15">
 <scenetitle>Scene 15</scenetitle>
 <scenelocation>An outdoor Spanish court.</scenelocation>
 <scenetime>Later that day.</scenetime>
@@ -5975,27 +6050,27 @@
 	<scenepersona short="VICE.">Viceroy of Portugal</scenepersona>
 	<scenepersona short="DON PEDR.">Don Pedro</scenepersona>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
-	<scenepersona short="HIER. SERV.">Hieronimo's Servant</scenepersona>
+	<scenepersona short="HIER. SERV.">Hieronimo&#8217;s Servant</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2295.02" sdnumber="0.01">
 	<dir>Enter at one door the King of Spain, the Duke of Castile, Lorenzo, Balthazar and Bel-imperia with Servants; and at another door the Viceroy, Don Pedro and their train.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>DUKE.</actor>
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>BEL.</actor>
-		<actor>VICE.</actor>
-		<actor>DON PEDR.</actor>
+			<actor>KING.</actor>
+			<actor>DUKE.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>BEL.</actor>
+			<actor>VICE.</actor>
+			<actor>DON PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="King of Spain">KING.</speaker>
 <line globalnumber="2296" number="1" form="verse">Go, brother, &#8217;tis the Duke of Castile&#8217;s cause;</line>
-<line globalnumber="2297" number="2" form="verse">Salute the Viceroy in our name.</line>
+<line globalnumber="2297" number="2" form="verse" offset="0">Salute the Viceroy in our name.</line>
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
@@ -6004,7 +6079,7 @@
 <speech>
 <speaker long="Viceroy of Portugal">VICE.</speaker>
 <line globalnumber="2299" number="3" form="verse">Go forth, Don Pedro, for thy nephew&#8217;s sake,</line>
-<line globalnumber="2300" number="4" form="verse">And greet the Duke of Castile.</line>
+<line globalnumber="2300" number="4" form="verse" offset="0">And greet the Duke of Castile.</line>
 </speech>
 <speech>
 <speaker long="Don Pedro">DON PEDR.</speaker>
@@ -6049,7 +6124,7 @@
 <stagedir sdglobalnumber="2331.01" sdnumber="34.01">
 	<dir>He weeps.</dir>
 	<action type="action">
-		<actor>VICE.</actor>
+			<actor>VICE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6066,11 +6141,11 @@
 <stagedir sdglobalnumber="2336.01" sdnumber="39.01">
 	<dir>Exeunt all but Castile and Lorenzo.</dir>
 	<action type="exit">
-		<actor>KING.</actor>
-		<actor>BALTH.</actor>
-		<actor>BEL.</actor>
-		<actor>VICE.</actor>
-		<actor>DON PEDR.</actor>
+			<actor>KING.</actor>
+			<actor>BALTH.</actor>
+			<actor>BEL.</actor>
+			<actor>VICE.</actor>
+			<actor>DON PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6093,7 +6168,7 @@
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
-<line globalnumber="2343" number="46" form="verse">She is thy sister?</line>
+<line globalnumber="2343" number="46" form="verse" offset="0">She is thy sister?</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -6183,8 +6258,8 @@
 <stagedir sdglobalnumber="2392.01" sdnumber="94.01">
 	<dir>Enter Balthazar and Bel-imperia.</dir>
 	<action type="enter">
-		<actor>BALTH.</actor>
-		<actor>BEL.</actor>
+			<actor>BALTH.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6208,12 +6283,12 @@
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
 <line globalnumber="2402" number="104" form="verse">But not too fast, lest heat and all be done.</line>
-<line globalnumber="2403" number="105" form="verse">I see my lord my father.</line>
+<line globalnumber="2403" number="105" form="verse" offset="0">I see my lord my father.</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
 <line globalnumber="2404" number="105" form="verse" offset="7">Truce, my love:</line>
-<line globalnumber="2405" number="106" form="verse">I will go salute him.</line>
+<line globalnumber="2405" number="106" form="verse" offset="0">I will go salute him.</line>
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
@@ -6231,8 +6306,8 @@
 <stagedir sdglobalnumber="2415.01" sdnumber="115.01">
 	<dir>Enter Hieronimo and a Servant.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
-		<actor>HIER. SERV.</actor>
+			<actor>HIER.</actor>
+			<actor>HIER. SERV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6240,7 +6315,7 @@
 <line globalnumber="2416" number="116" form="verse">And where&#8217;s the Duke?</line>
 </speech>
 <speech>
-<speaker long="Hieronimo's Servant">HIER. SERV.</speaker>
+<speaker long="Hieronimo&#8217;s Servant">HIER. SERV.</speaker>
 <line globalnumber="2417" number="117" form="verse">Yonder.</line>
 </speech>
 <speech>
@@ -6248,7 +6323,7 @@
 <stagedir sdglobalnumber="2417.01" sdnumber="117.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2418" number="118" form="verse">Even so.&#8212;</line>
@@ -6275,7 +6350,7 @@
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
 <line globalnumber="2426" number="126" form="verse">Hieronimo, the reason that I sent</line>
-<line globalnumber="2427" number="127" form="verse">To speak with you is this.</line>
+<line globalnumber="2427" number="127" form="verse" offset="0">To speak with you is this.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6285,7 +6360,7 @@
 <stagedir sdglobalnumber="2429.01" sdnumber="128.01">
 	<dir>Offers to go.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6298,7 +6373,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2432" number="131" form="verse">With me, sir? Why, my lord, I thought you had done.</line>
+<line globalnumber="2432" number="131" form="verse" offset="0">With me, sir? Why, my lord, I thought you had done.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -6306,10 +6381,10 @@
 <stagedir sdglobalnumber="2433.01" sdnumber="132.01">
 	<dir>Aside.</dir>
 	<action type="aside">
-		<actor>LOR.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
-<line globalnumber="2434" number="132" form="verse" offset="2">Would he had!</line>
+<line globalnumber="2434" number="132" form="verse" offset="2" part="m">Would he had!</line>
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
@@ -6337,7 +6412,7 @@
 <stagedir sdglobalnumber="2446.01" sdnumber="143.01">
 	<dir>Draws out his sword.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2447" number="144" form="verse">I&#8217;ll meet him face to face, to tell me so!</line>
@@ -6370,8 +6445,8 @@
 <stagedir sdglobalnumber="2461.01" sdnumber="157.01">
 	<dir>He embraces Lorenzo.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<actor>LOR.</actor>
+			<actor>HIER.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2462" number="158" form="verse">Ay, marry, my lord, and shall.</line>
@@ -6379,8 +6454,8 @@
 <stagedir sdglobalnumber="2463.01" sdnumber="159.01">
 	<dir>To Lorenzo.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>LOR.</recipient>
+			<actor>HIER.</actor>
+			<recipient>LOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2464" number="160" form="verse">Especially with you, my lovely lord.</line>
@@ -6408,11 +6483,11 @@
 <stagedir sdglobalnumber="2472.01" sdnumber="168.01">
 	<dir>Exeunt all but Hieronimo.</dir>
 	<action type="exit">
-		<actor>DUKE.</actor>
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>		
-		<actor>HIER. SERV.</actor>
-		<actor>BEL.</actor>
+			<actor>DUKE.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>		
+			<actor>HIER. SERV.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6424,26 +6499,28 @@
 <stagedir sdglobalnumber="2475.01" sdnumber="171.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="3" num="16" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="257" numberOfLines="39">
+<scene actnum="3" num="16">
 <scenetitle>Scene 16</scenetitle>
 <scenelocation>The supernatural world.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
 <scenepersonae>
-	<scenepersona short="GHOST OF ANDREA.">Ghost of Don Andrea</scenepersona>
+	<scenepersona short="GHOST OF AND.">Ghost of Don Andrea</scenepersona>
 	<scenepersona short="REV.">Revenge</scenepersona>
+	<scenepersona>Torchbearers</scenepersona>
+	<scenepersona>Hymen</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2475.02" sdnumber="0.01">
 	<dir>Enter Ghost and Revenge.</dir>
 	<action type="enter">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6454,7 +6531,7 @@
 <line globalnumber="2479" number="4" form="verse">For ne&#8217;er, by Styx and Phlegethon in hell,</line>
 <line globalnumber="2480" number="5" form="verse">Nor ferried Charon to the fiery lakes</line>
 <line globalnumber="2481" number="6" form="verse">Such fearful sights, as poor Andrea sees!</line>
-<line globalnumber="2482" number="7" form="verse">Revenge, awake!</line>
+<line globalnumber="2482" number="7" form="verse" offset="0">Revenge, awake!</line>
 </speech>
 <speech>
 <speaker long="Revenge">REV.</speaker>
@@ -6494,8 +6571,16 @@
 <stagedir sdglobalnumber="2502.01" sdnumber="26.01">
 	<dir>Enter a Dumb Show of two Torchbearers and Hymen. They mime, and then exeunt.</dir>
 	<action type="enter">
-		<actor>Torchbearer</actor>
-		<actor>Hymen</actor>
+			<actor>Torchbearers</actor>
+			<actor>Hymen</actor>
+	</action>
+	<action type="dumbshow">
+			<actor>Torchbearers</actor>
+			<actor>Hymen</actor>
+	</action>
+	<action type="exit">
+			<actor>Torchbearers</actor>
+			<actor>Hymen</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6524,18 +6609,18 @@
 </speech>
 <stagedir sdglobalnumber="2514.01" sdnumber="38.01">
 	<dir>Ghost and Revenge remain.</dir>
-	<action type="action">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+	<action type="exit">
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 </scene>
 </act>
 <act num="4">
 <acttitle>Act 4</acttitle>
-<scene actnum="4" num="1" minutesRunning="12" numberOfProseWords="0" numberOfVerseWords="1400" numberOfLines="208">
+<scene actnum="4" num="1">
 <scenetitle>Scene 1</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>The next day.</scenetime>
 <scenepersonae>
 	<scenepersona short="BEL">Bel-imperia</scenepersona>
@@ -6544,13 +6629,13 @@
 	<scenepersona short="LOR.">Lorenzo</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2514.02" sdnumber="0.01">
 	<dir>Enter Bel-imperia and Hieronimo.</dir>
 	<action type="enter">
-		<actor>BEL.</actor>
-		<actor>HIER.</actor>
+			<actor>BEL.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -6615,19 +6700,19 @@
 <line globalnumber="2563" number="49" form="verse">On, then! And whatsoever I devise,</line>
 <line globalnumber="2564" number="50" form="verse">Let me entreat you, grace my practices,</line>
 <line globalnumber="2565" number="51" form="verse">For why the plot&#8217;s already in mine head.</line>
-<line globalnumber="2566" number="52" form="verse">Here they are.</line>
+<line globalnumber="2566" number="52" form="verse" offset="0">Here they are.</line>
 </speech>
 <stagedir sdglobalnumber="2566.01" sdnumber="52.01">
 	<dir>Enter Balthazar and Lorenzo.</dir>
 	<action type="enter">
-		<actor>BALTH.</actor>
-		<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>LOR.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
-<line globalnumber="2567" number="52" form="verse" offset="3">How now, Hieronimo?</line>
-<line globalnumber="2568" number="53" form="verse">What, courting Bel-imperia?</line>
+<line globalnumber="2567" number="52" form="verse" offset="3" part="m">How now, Hieronimo?</line>
+<line globalnumber="2568" number="53" form="verse" offset="0">What, courting Bel-imperia?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6638,7 +6723,7 @@
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
 <line globalnumber="2572" number="56" form="verse">But now, Hieronimo, or never,</line>
-<line globalnumber="2573" number="57" form="verse">We are to entreat your help.</line>
+<line globalnumber="2573" number="57" form="verse" offset="0">We are to entreat your help.</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6660,7 +6745,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2586" number="69" form="verse">Is this all?</line>
+<line globalnumber="2586" number="69" form="verse" offset="0">Is this all?</line>
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
@@ -6676,7 +6761,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="2593" number="75" form="verse">And how for that?</line>
+<line globalnumber="2593" number="75" form="verse" offset="0">And how for that?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6688,7 +6773,7 @@
 <stagedir sdglobalnumber="2598.01" sdnumber="79.01">
 	<dir>He shows them a book.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2599" number="80" form="verse">Which, long forgot, I found this other day.</line>
@@ -6716,7 +6801,7 @@
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
 <line globalnumber="2611" number="92" form="verse">In faith, Hieronimo, an you be in earnest,</line>
-<line globalnumber="2612" number="93" form="verse">I&#8217;ll make one.</line>
+<line globalnumber="2612" number="93" form="verse" offset="0">I&#8217;ll make one.</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
@@ -6772,7 +6857,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="2647" number="127" form="verse">O, excellent!</line>
+<line globalnumber="2647" number="127" form="verse" offset="0">O, excellent!</line>
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
@@ -6797,7 +6882,7 @@
 </speech>
 <speech>
 <speaker long="Prince Balthazar">BALTH.</speaker>
-<line globalnumber="2657" number="136" form="verse">And what shall I?</line>
+<line globalnumber="2657" number="136" form="verse" offset="0">And what shall I?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6805,7 +6890,7 @@
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="2659" number="137" form="verse">And I?</line>
+<line globalnumber="2659" number="137" form="verse" offset="0">And I?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6813,7 +6898,7 @@
 </speech>
 <speech>
 <speaker long="Bel-imperia">BEL.</speaker>
-<line globalnumber="2661" number="138" form="verse">And I?</line>
+<line globalnumber="2661" number="138" form="verse" offset="0">And I?</line>
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
@@ -6826,24 +6911,24 @@
 <stagedir sdglobalnumber="2667.01" sdnumber="143.01">
 	<dir>Gives a paper to Balthazar.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>BALTH.</recipient>
+			<actor>HIER.</actor>
+			<recipient>BALTH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2668" number="144" form="verse">You with a cross, like to a knight of Rhodes;</line>
 <stagedir sdglobalnumber="2668.01" sdnumber="144.01">
 	<dir>Gives another to Lorenzo.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>LOR.</recipient>
+			<actor>HIER.</actor>
+			<recipient>LOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2669" number="145" form="verse">And, madam, you must attire yourself</line>
 <stagedir sdglobalnumber="2669.01" sdnumber="145.01">
 	<dir>He gives Bel-imperia another.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>BEL.</recipient>
+			<actor>HIER.</actor>
+			<recipient>BEL.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2670" number="146" form="verse">Like Phoebe, Flora, or the Huntress,</line>
@@ -6895,8 +6980,8 @@
 <stagedir sdglobalnumber="2697.01" sdnumber="173.01">
 	<dir>To Lorenzo.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>LOR.</recipient>
+			<actor>HIER.</actor>
+			<recipient>LOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2698" number="174" form="verse">You in Italian, and for because I know</line>
@@ -6928,19 +7013,19 @@
 <stagedir sdglobalnumber="2711.01" sdnumber="187.01">
 	<dir>Aside to Lorenzo.</dir>
 	<action type="aside">
-		<actor>BALTH.</actor>
-		<recipient>LOR.</recipient>
+			<actor>BALTH.</actor>
+			<recipient>LOR.</recipient>
 	</action>
 </stagedir>
-<line globalnumber="2712" number="188" form="verse">How like you this?</line>
+<line globalnumber="2712" number="188" form="verse" offset="0">How like you this?</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
 <stagedir sdglobalnumber="2712.01" sdnumber="188.01">
 	<dir>Aside to Balthazar.</dir>
 	<action type="aside">
-		<actor>HIER.</actor>
-		<recipient>BALTH.</recipient>
+			<actor>HIER.</actor>
+			<recipient>BALTH.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2713" number="188" form="verse" offset="5">Why, thus, my lord:</line>
@@ -6952,18 +7037,18 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2716" number="191" form="verse">You&#8217;ll ply this gear?</line>
+<line globalnumber="2716" number="191" form="verse" offset="0">You&#8217;ll ply this gear?</line>
 </speech>
 <speech>
 <speaker long="Lorenzo">LOR.</speaker>
-<line globalnumber="2717" number="191" form="verse" offset="5">I warrant you.</line>
+<line globalnumber="2717" number="191" form="verse" offset="5" part="m">I warrant you.</line>
 </speech>
 <stagedir sdglobalnumber="2717.01" sdnumber="191.01">
 	<dir>Exeunt all but Hieronimo.</dir>
 	<action type="exit">
-		<actor>LOR.</actor>
-		<actor>BALTH.</actor>
-		<actor>BEL.</actor>
+			<actor>LOR.</actor>
+			<actor>BALTH.</actor>
+			<actor>BEL.</actor>
 	</action>
 </stagedir>
 <speech type="aside">
@@ -6977,24 +7062,24 @@
 <stagedir sdglobalnumber="2722.01" sdnumber="195.01">
 	<dir>Exit.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="2" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="282" numberOfLines="38">
+<scene actnum="4" num="2">
 <scenetitle>Scene 2</scenetitle>
-<scenelocation>Hieronimo's garden.</scenelocation>
+<scenelocation>Hieronimo&#8217;s garden.</scenelocation>
 <scenetime>About the same time.</scenetime>
 <scenepersonae>
 	<scenepersona short="ISAB.">Isabella</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2722.02" sdnumber="0.01">
 	<dir>Arbor set forth. Enter Isabella with a weapon.</dir>
 	<action type="enter">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -7007,7 +7092,7 @@
 <stagedir sdglobalnumber="2727.01" sdnumber="5.01">
 	<dir>She cuts down the arbor.</dir>
 	<action type="action">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2728" number="6" form="verse">Down with these branches and these loathsome boughs</line>
@@ -7045,21 +7130,21 @@
 <line globalnumber="2760" number="38" form="verse">The hapless breast that gave Horatio suck.</line>
 </speech>
 <stagedir sdglobalnumber="2760.01" sdnumber="38.01">
-	<dir>She stabs herself and exits.</dir>
-	<action type="exit">
-		<actor>ISAB.</actor>
+	<dir>She stabs herself and dies just after exits.</dir>
+	<action type="action">
+			<actor>ISAB.</actor>
 	</action>
-</stagedir>
-<stagedir sdglobalnumber="2760.02" sdnumber="38.02">
-	<dir>Dies.</dir>
 	<action type="death">
-		<actor>ISAB.</actor>
+			<actor>ISAB.</actor>
+	</action>
+	<action type="exit">
+			<actor>ISAB.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="3" minutesRunning="2" numberOfProseWords="0" numberOfVerseWords="200" numberOfLines="30">
+<scene actnum="4" num="3">
 <scenetitle>Scene 3</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>Later that evening.</scenetime>
 <scenepersonae>
 	<scenepersona short="HIER.">Hieronimo</scenepersona>
@@ -7067,18 +7152,18 @@
 	<scenepersona short="BALTH.">Balthazar</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2760.03" sdnumber="0.01">
 	<dir>Enter Hieronimo. He knocks up the curtain concealing Isabella&#8217;s body and the arbor.</dir>
 	<action type="enter">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="2760.04" sdnumber="0.02">
 	<dir>Enter the Duke of Castile.</dir>
 	<action type="enter">
-		<actor>DUKE.</actor>
+			<actor>DUKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7097,8 +7182,8 @@
 <stagedir sdglobalnumber="2767.01" sdnumber="7.01">
 	<dir>Gives him a book.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
 <speech>
@@ -7121,12 +7206,12 @@
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
-<line globalnumber="2774" number="14" form="verse">I will, Hieronimo.</line>
+<line globalnumber="2774" number="14" form="verse" offset="0">I will, Hieronimo.</line>
 </speech>
 <stagedir sdglobalnumber="2774.01" sdnumber="14.01">
 	<dir>Exit Castile.</dir>
 	<action type="exit">
-		<actor>DUKE.</actor>
+			<actor>DUKE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7136,7 +7221,7 @@
 <stagedir sdglobalnumber="2776.01" sdnumber="15.01">
 	<dir>Enter Balthazar with a chair, a cushion, a title-board and a beard.</dir>
 	<action type="enter">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2777" number="16" form="verse">Well done, Balthazar, hang up the title:</line>
@@ -7152,7 +7237,7 @@
 <stagedir sdglobalnumber="2780.01" sdnumber="19.01">
 	<dir>Exit Balthazar.</dir>
 	<action type="exit">
-		<actor>BALTH.</actor>
+			<actor>BALTH.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2781" number="20" form="verse">Bethink thyself, Hieronimo,</line>
@@ -7169,13 +7254,13 @@
 <stagedir sdglobalnumber="2790.01" sdnumber="29.01">
 	<dir>Exit Hieronimo.</dir>
 	<action type="exit">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 </scene>
-<scene actnum="4" num="4" minutesRunning="17" numberOfProseWords="27" numberOfVerseWords="1992" numberOfLines="271">
+<scene actnum="4" num="4">
 <scenetitle>Scene 4</scenetitle>
-<scenelocation>The Duke of Castile's castle.</scenelocation>
+<scenelocation>The Duke of Castile&#8217;s castle.</scenelocation>
 <scenetime>A few minutes later.</scenetime>
 <scenepersonae>
 	<scenepersona short="KING.">King of Spain</scenepersona>
@@ -7188,15 +7273,15 @@
 	<scenepersona short="DON PEDR.">Don Pedro</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="2790.02" sdnumber="0.01">
 	<dir>Enter Spanish King, Viceroy, the Duke of Castile, Don Pedro, and their train.</dir>
 	<action type="enter">
-		<actor>KING.</actor>
-		<actor>VICE.</actor>
-		<actor>DUKE.</actor>
-		<actor>DON PEDR.</actor>
+			<actor>KING.</actor>
+			<actor>VICE.</actor>
+			<actor>DUKE.</actor>
+			<actor>DON PEDR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7208,7 +7293,7 @@
 </speech>
 <speech>
 <speaker long="Viceroy of Portugal">VICE.</speaker>
-<line globalnumber="2795" number="5" form="verse">Who? Bel-imperia?</line>
+<line globalnumber="2795" number="5" form="verse" offset="0">Who? Bel-imperia?</line>
 </speech>
 <speech>
 <speaker long="King of Spain">KING.</speaker>
@@ -7220,8 +7305,8 @@
 <stagedir sdglobalnumber="2800.01" sdnumber="9.01">
 	<dir>He giveth him a book.</dir>
 	<action type="action">
-		<actor>KING.</actor>
-		<recipient>VICE.</recipient>
+			<actor>KING.</actor>
+			<recipient>VICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2801" number="10" form="prose"><recite>Gentlemen, this play of Hieronimo in sundry languages was thought good to be set down in English more largely for the easier understanding to every public reader.</recite></line>
@@ -7235,7 +7320,7 @@
 	</action>
 </stagedir>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <line globalnumber="2802" number="11" form="verse"><recite>Pasha, that Rhodes is ours, yield heavens the honor,</recite></line>
 <line globalnumber="2803" number="12" form="verse"><recite>And holy Muhammad, our sacred prophet!</recite></line>
 <line globalnumber="2804" number="13" form="verse"><recite>And be thou graced with every excellence</recite></line>
@@ -7261,7 +7346,7 @@
 <line globalnumber="2815" number="24" form="verse">That&#8217;s because his mind runs all on Bel-imperia.</line>
 </speech>
 <speech>
-<speaker long="Bashaw" alias="HIER.">BASH.</speaker>
+<speaker long="Hieronimo (as Bashaw)" alias="BASH.">HIER.</speaker>
 <line globalnumber="2816" number="25" form="verse"><recite>Whatever joy earth yields betide your majesty.</recite></line>
 </speech>
 <speech>
@@ -7269,11 +7354,11 @@
 <line globalnumber="2817" number="26" form="verse"><recite>Earth yields no joy without Perseda&#8217;s love.</recite></line>
 </speech>
 <speech>
-<speaker long="Bashaw" alias="HIER.">BASH.</speaker>
+<speaker long="Hieronimo (as Bashaw)" alias="BASH.">HIER.</speaker>
 <line globalnumber="2818" number="27" form="verse"><recite>Then let Perseda on your grace attend.</recite></line>
 </speech>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <line globalnumber="2819" number="28" form="verse"><recite>She shall not wait on me, but I on her:</recite></line>
 <line globalnumber="2820" number="29" form="verse"><recite>Drawn by the influence of her lights, I yield.</recite></line>
 <line globalnumber="2821" number="30" form="verse"><recite>But let my friend, the Rhodian knight, come forth,</recite></line>
@@ -7283,7 +7368,7 @@
 <stagedir sdglobalnumber="2823.01" sdnumber="32.01">
 	<dir>Enter Lorenzo as Erasto.</dir>
 	<action type="enter">
-		<actor>LOR.</actor>
+			<actor alias="ERAS.">LOR.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7292,21 +7377,21 @@
 <line globalnumber="2825" number="34" form="verse">And tell me, brother, what part plays he?</line>
 </speech>
 <speech>
-<speaker long="Perseda" alias="BEL.">PERS.</speaker>
+<speaker long="Bel-imperia (as Perseda)" alias="PERS.">BEL.</speaker>
 <line globalnumber="2826" number="35" form="verse"><recite>Ah, my Erasto, welcome to Perseda.</recite></line>
 </speech>
 <speech>
-<speaker long="Erasto" alias="LOR.">ERAS.</speaker>
+<speaker long="Lorenzo (as Erasto)" alias="ERAS.">LOR.</speaker>
 <line globalnumber="2827" number="36" form="verse"><recite>Thrice happy is Erasto that thou liv&#8217;st.</recite></line>
 <line globalnumber="2828" number="37" form="verse"><recite>Rhodes&#8217; loss is nothing to Erasto&#8217;s joy;</recite></line>
 <line globalnumber="2829" number="38" form="verse"><recite>Sith his Perseda lives, his life survives.</recite></line>
 </speech>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <stagedir sdglobalnumber="2829.01" sdnumber="38.01">
 	<dir>Aside to Hieronimo.</dir>
 	<action type="aside">
-		<actor alias="BALTH.">SOL.</actor>
+		<actor alias="SOL.">BALTH.</actor>
 		<recipient alias="BASH.">HIER.</recipient>
 	</action>
 </stagedir>
@@ -7322,15 +7407,15 @@
 	<dir>They continue to confer aside.</dir>
 	<action type="speak">
 		<actor alias="BASH.">HIER.</actor>
-		<actor alias="BALTH.">SOL.</actor>
+		<actor alias="SOL.">BALTH.</actor>
 	</action>
 </stagedir>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <line globalnumber="2834" number="43" form="verse"><recite>Erasto is my friend, and while he lives, Perseda never will remove her love.</recite></line>
 </speech>
 <speech>
-<speaker long="Bashaw" alias="HIER.">BASH.</speaker>
+<speaker long="Hieronimo (as Bashaw)" alias="BASH.">HIER.</speaker>
 <line globalnumber="2835" number="44" form="verse"><recite>Let not Erasto live to grieve great Soliman.</recite></line>
 </speech>
 <speech>
@@ -7338,16 +7423,16 @@
 <line globalnumber="2836" number="45" form="verse"><recite>Dear is Erasto in our princely eye.</recite></line>
 </speech>
 <speech>
-<speaker long="Bashaw" alias="HIER.">BASH.</speaker>
+<speaker long="Hieronimo (as Bashaw)" alias="BASH.">HIER.</speaker>
 <line globalnumber="2837" number="46" form="verse"><recite>But if he be your rival, let him die.</recite></line>
 </speech>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <line globalnumber="2838" number="47" form="verse"><recite>Why, let him die!&#8212;So love commandeth me.</recite></line>
 <line globalnumber="2839" number="48" form="verse"><recite>Yet grieve I that Erasto should so die.</recite></line>
 </speech>
 <speech>
-<speaker long="Bashaw" alias="HIER.">BASH.</speaker>
+<speaker long="Hieronimo (as Bashaw)" alias="BASH.">HIER.</speaker>
 <line globalnumber="2840" number="49" form="verse"><recite>Erasto, Suleiman saluteth thee,</recite></line>
 <line globalnumber="2841" number="50" form="verse"><recite>And lets thee wit by me his highness&#8217; will,</recite></line>
 <line globalnumber="2842" number="51" form="verse"><recite>Which is thou shouldst be thus employed.</recite></line>
@@ -7360,12 +7445,12 @@
 	</action>
 </stagedir>
 <speech>
-<speaker long="Perseda" alias="BEL.">PERS.</speaker>
+<speaker long="Bel-imperia (as Perseda)" alias="PERS.">BEL.</speaker>
 <line globalnumber="2843" number="52" form="verse"><recite>Ay me!</recite></line>
 <line globalnumber="2844" number="53" form="verse"><recite>Erasto! See, Soliman, Erasto&#8217;s slain!</recite></line>
 </speech>
 <speech>
-<speaker long="Soliman" alias="BALTH.">SOL.</speaker>
+<speaker long="Balthazar (as Soliman)" alias="SOL.">BALTH.</speaker>
 <line globalnumber="2845" number="54" form="verse"><recite>Yet liveth Soliman to comfort thee.</recite></line>
 <line globalnumber="2846" number="55" form="verse"><recite>Fair queen of beauty, let not favor die,</recite></line>
 <line globalnumber="2847" number="56" form="verse"><recite>But with a gracious eye behold his grief,</recite></line>
@@ -7373,7 +7458,7 @@
 <line globalnumber="2849" number="58" form="verse"><recite>If by Perseda his grief be not released.</recite></line>
 </speech>
 <speech>
-<speaker long="Perseda" alias="BEL.">PERS.</speaker>
+<speaker long="Bel-imperia (as Perseda)" alias="PERS.">BEL.</speaker>
 <line globalnumber="2850" number="59" form="verse"><recite>Tyrant, desist soliciting vain suits,</recite></line>
 <line globalnumber="2851" number="60" form="verse"><recite>Relentless are mine ears to thy laments,</recite></line>
 <line globalnumber="2852" number="61" form="verse"><recite>As thy butcher is pitiless and base,</recite></line>
@@ -7435,8 +7520,8 @@
 <stagedir sdglobalnumber="2879.01" sdnumber="88.01">
 	<dir>He shows his dead son.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>HOR.</recipient>
+			<actor>HIER.</actor>
+			<recipient>HOR.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2880" number="89" form="verse">See here my show, look on this spectacle:</line>
@@ -7476,7 +7561,7 @@
 <stagedir sdglobalnumber="2913.01" sdnumber="122.01">
 	<dir>Draws out a bloody napkin.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2914" number="123" form="verse">Which at Horatio&#8217;s death I weeping dipped</line>
@@ -7507,7 +7592,7 @@
 <stagedir sdglobalnumber="2938.01" sdnumber="147.01">
 	<dir>Holding a rope in his hand.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <line globalnumber="2939" number="148" form="verse">Bearing his latest fortune in his fist,</line>
@@ -7519,7 +7604,7 @@
 <stagedir sdglobalnumber="2943.01" sdnumber="152.01">
 	<dir>He runs to hang himself.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7534,7 +7619,7 @@
 <stagedir sdglobalnumber="2947.01" sdnumber="156.01">
 	<dir>They break in and hold Hieronimo.</dir>
 	<action type="action">
-		<recipient>HIER.</recipient>
+			<recipient>HIER.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2948" number="157" form="verse">Hieronimo,</line>
@@ -7585,10 +7670,10 @@
 <speech>
 <speaker long="King of Spain">KING.</speaker>
 <stagedir sdglobalnumber="2970.01" sdnumber="179.01">
-	<dir>To Hieronimo..</dir>
+	<dir>To Hieronimo.</dir>
 	<action type="speak">
-		<actor>KING.</actor>
-		<recipient>HIER.</recipient>
+			<actor>KING.</actor>
+			<recipient>HIER.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="2971" number="180" form="verse">Why speakest thou not?</line>
@@ -7615,7 +7700,7 @@
 </speech>
 <speech>
 <speaker long="Hieronimo">HIER.</speaker>
-<line globalnumber="2983" number="192" form="verse">But are you sure they are dead?</line>
+<line globalnumber="2983" number="192" form="verse" offset="0">But are you sure they are dead?</line>
 </speech>
 <speech>
 <speaker long="Duke of Castile">DUKE.</speaker>
@@ -7683,24 +7768,24 @@
 <stagedir sdglobalnumber="3014.01" sdnumber="222.01">
 	<dir>Addressed to Viceroy.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>VICE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>VICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3015" number="223" form="verse">You had a son, as I take it: and your son</line>
 <stagedir sdglobalnumber="3015.01" sdnumber="223.01">
 	<dir>Addressed to Castile.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
-<line globalnumber="3016" number="224" form="verse">Should ha&#8217; been married&#8212;</line>
+<line globalnumber="3016" number="224" form="verse" offset="0">Should ha&#8217; been married&#8212;</line>
 <stagedir sdglobalnumber="3016.01" sdnumber="224.01">
 	<dir>To Castile.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3017" number="224" form="verse" offset="6">&#8212;to your daughter:</line>
@@ -7711,8 +7796,8 @@
 <stagedir sdglobalnumber="3021.01" sdnumber="228.01">
 	<dir>Addressed to Viceroy.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>VICE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>VICE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3022" number="229" form="verse">&#8217;Twas I that killed him. Look you, this same hand,</line>
@@ -7723,8 +7808,8 @@
 <stagedir sdglobalnumber="3026.01" sdnumber="233.01">
 	<dir>Addressed to Castile.</dir>
 	<action type="speak">
-		<actor>HIER.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3027" number="234" form="verse">While your more valiant son did take him prisoner.</line>
@@ -7751,7 +7836,7 @@
 <stagedir sdglobalnumber="3034.01" sdnumber="241.01">
 	<dir>He bites out his tongue.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7773,7 +7858,7 @@
 <stagedir sdglobalnumber="3041.01" sdnumber="248.01">
 	<dir>Hieronimo makes signs for a knife to mend his pen.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
+			<actor>HIER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7786,8 +7871,8 @@
 <stagedir sdglobalnumber="3043.01" sdnumber="250.01">
 	<dir>Hieronimo with the knife stabs the Duke and himself to death.</dir>
 	<action type="action">
-		<actor>HIER.</actor>
-		<recipient>DUKE.</recipient>
+			<actor>HIER.</actor>
+			<recipient>DUKE.</recipient>
 	</action>
 </stagedir>
 <line globalnumber="3044" number="251" form="verse">Look to my brother! Save Hieronimo!</line>
@@ -7818,9 +7903,9 @@
 <stagedir sdglobalnumber="3061.01" sdnumber="268.01">
 	<dir>The trumpets sound a dead march; the King of Spain mourning after his brother&#8217;s body, and the Viceroy of Portugal bearing the body of his son.</dir>
 	<action type="action">
-		<actor>KING.</actor>
-		<actor>VICE.</actor>
-		<recipient>HIER.</recipient>
+			<actor>KING.</actor>
+			<actor>VICE.</actor>
+			<recipient>HIER.</recipient>
 	</action>
 </stagedir>
 <stagedir sdglobalnumber="3061.02" sdnumber="268.02">
@@ -7846,13 +7931,13 @@
 	<scenepersona short="REV.">Revenge</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="3061.03" sdnumber="0.01">
 	<dir>Enter Ghost and Revenge.</dir>
 	<action type="enter">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -7918,21 +8003,15 @@
 <stagedir sdglobalnumber="3109.01" sdnumber="48.01">
 	<dir>Exeunt.</dir>
 	<action type="exit">
-		<actor>GHOST OF ANDREA.</actor>
-		<actor>REV.</actor>
+			<actor>GHOST OF AND.</actor>
+			<actor>REV.</actor>
 	</action>
 </stagedir>
 </epilogue>
-<sources>
-<textsources>
-<textsource title="Quarto" edition="1" date="1592">First Quarto</textsource>
-<textsource title="Quarto" edition="4" date="1602">Fourth Quarto</textsource>
-</textsources>
-</sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
 <version>4.3</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

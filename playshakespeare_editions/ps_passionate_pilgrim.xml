@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<poem variant="ps" unique="passionate-pilgrim" numberOfLines="410" trans="no">
-<title short="The Passionate Pilgrim">The Passionate Pilgrim</title>
+<poem variant="ps-poems" unique="passionate-pilgrim" numberOfLines="410" trans="no">
+<title short="Passionate Pilgrim" abbr="PP">The Passionate Pilgrim</title>
 <playwrights>
 		<playwright>William Shakespeare</playwright>
 </playwrights>
-<pubdate>1599</pubdate>
+<editions>
+	<written>1599</written>
+	<register>Not registered</register>
+	<edition format="Octavo (Incomplete)" n="1" pssource="no">
+		<date>1599</date>
+		<printer>Thomas Judson</printer>
+		<publisher>William Jaggard</publisher>
+	</edition>
+	<edition format="Octavo" n="2" pssource="yes">
+		<date>1599</date>
+		<printer>Thomas Judson</printer>
+		<publisher>William Jaggard</publisher>
+	</edition>
+	<edition format="Octavo" n="3" pssource="no">
+		<date>1612</date>
+		<title></title>
+		<printer>William Jaggard</printer>
+		<publisher>William Jaggard</publisher>
+	</edition>
+	<edition format="Octavo" n="4" pssource="no">
+		<date>1640</date>
+		<title>Shakespeare's Poems</title>
+		<printer>Thomas Cotes</printer>
+		<publisher>John Benson</publisher>
+	</edition>
+</editions>
 <poembody>
 <stanza num="1">
 <stanzanum num="1">I</stanzanum>
@@ -720,14 +745,11 @@
 <playsource>
 <playsourcetitle>None known.</playsourcetitle>
 </playsource>
-<textsources>
-<textsource title="Octavo" edition="2" date="1609">Octavo 2</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>4.2</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

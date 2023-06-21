@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<poem variant="ps" unique="a-funeral-elegy" numberOfLines="580" trans="no">
-<title short="A Funeral Elegy">A Funeral Elegy</title>
+<poem variant="ps-apocrypha" unique="a-funeral-elegy" numberOfLines="580" trans="no">
+<title short="A Funeral Elegy" abbr="Elegy">A Funeral Elegy</title>
 <playwrights status="apocrypha">
 		<playwright>William Shakespeare</playwright>
 		<playwright>John Ford</playwright>
 </playwrights>
-<pubdate>1612</pubdate>
+<editions>
+	<written>1612</written>
+	<register>Not registered</register>
+	<edition format="Manuscript" n="1" pssource="yes">
+		<date>1612</date>
+	</edition>
+</editions>
 <poemintro>
 <dedication>
 <subtitle>TO MASTER JOHN PETER<lb />of Bowhay in Devon, Esq.</subtitle>
-<line globalnumber="1">The love I bore to your brother, and will do to his memory, hath crav'd from me this last duty of a friend; I am herein but a second to the privilege of Truth, who can warrant more in his behalf than I undertook to deliver. Exercise in this kind I will little affect, and am less addicted to, but there must be miracle in that labor which, to witness my remembrance to this departed gentleman, I would not willingly undergo. Yet whatsoever is here done, is done to him, and to him only. For whom and whose sake I will not forget to remember any friendly respects to you, or to any of those that have lov'd him for himself, and himself for his deserts.</line>
+<line globalnumber="1">The love I bore to your brother, and will do to his memory, hath crav&#8217;d from me this last duty of a friend; I am herein but a second to the privilege of Truth, who can warrant more in his behalf than I undertook to deliver. Exercise in this kind I will little affect, and am less addicted to, but there must be miracle in that labor which, to witness my remembrance to this departed gentleman, I would not willingly undergo. Yet whatsoever is here done, is done to him, and to him only. For whom and whose sake I will not forget to remember any friendly respects to you, or to any of those that have lov&#8217;d him for himself, and himself for his deserts.</line>
 <dedauthor>W. S.</dedauthor>
 </dedication>
 </poemintro>
@@ -23,7 +29,7 @@
 <line globalnumber="6" number="5" form="verse">What memorable monument can last</line>
 <line globalnumber="7" number="6" form="verse">Whereon to build his never-blemish&#8217;d name</line>
 <line globalnumber="8" number="7" form="verse">But his own worth, wherein his life was grac&#8217;d&#8212;</line>
-<line globalnumber="9" number="8" form="verse">Sith as [that] ever he maintain&#8217;d the same?</line>
+<line globalnumber="9" number="8" form="verse">Sith as that ever he maintain&#8217;d the same?</line>
 <line globalnumber="10" number="9" form="verse">Oblivion in the darkest day to come,</line>
 <line globalnumber="11" number="10" form="verse">When sin shall tread on merit in the dust,</line>
 <line globalnumber="12" number="11" form="verse">Cannot rase out the lamentable tomb</line>
@@ -322,7 +328,7 @@
 <line globalnumber="305" number="304" form="verse">Had taught him in both fortunes to be free;</line>
 <line globalnumber="306" number="305" form="verse">Whence now retir&#8217;d home, to a home indeed</line>
 <line globalnumber="307" number="306" form="verse">The home of his condition and estate,</line>
-<line globalnumber="308" number="307" form="verse">He well provided &#8217;gainst the hand of need,</line>
+<line globalnumber="308" number="307" form="verse">He well provided &#8216;gainst the hand of need,</line>
 <line globalnumber="309" number="308" form="verse">Whence young men sometime grow unfortunate;</line>
 <line globalnumber="310" number="309" form="verse">His disposition, by the bonds of unity,</line>
 <line globalnumber="311" number="310" form="verse">So fast&#8217;ned to his reason that it strove</line>
@@ -603,14 +609,11 @@
 <playsource>
 <playsourcetitle>None known.</playsourcetitle>
 </playsource>
-<textsources>
-<textsource title="Manuscript" edition="1" date="1612">Manuscript</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2022 by PlayShakespeare.com</copyright>
 <version>4.2</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

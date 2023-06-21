@@ -1,66 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<play variant="ps" unique="yorkshire-tragedy" trans="no">
-<title short="A Yorkshire Tragedy">A Yorkshire Tragedy</title>
+<play variant="ps-apocrypha" unique="yorkshire-tragedy" trans="no">
+<title short="Yorkshire Tragedy" abbr="YT">A Yorkshire Tragedy</title>
 <playwrights status="apocrypha">
 		<playwright>William Shakespeare</playwright>
 		<playwright>Thomas Middleton</playwright>
 		<playwright>George Wilkins</playwright>
 </playwrights>
-<written>1605</written>
-<imprint printer="Thomas Pavier">1608</imprint>
-<pubdate source="stationers" date="1608">May 2, 1608</pubdate>
-<performance>
-	<location date="Unknown">The Globe Theatre</location>
-	<company>King&#8217;s Men</company>
-</performance>
+<editions>
+	<written>1605</written>
+	<register when="1608-05-02" type="transfer">May 2, 1608</register>
+	<edition format="Quarto" n="1" pssource="yes">
+		<date>1608</date>
+		<title>A YORKSHIRE Tragedy. Not so New as Lamentable and true.</title>
+		<printer>Richard Bradock</printer>
+		<publisher>Thomas Pavier</publisher>
+		<leaves>16</leaves>
+	</edition>
+	<edition format="Quarto" n="2" pssource="no">
+		<date>1619</date>
+		<title>A YORKSHIRE TRAGEDIE. Not so New, as Lamentable and True.</title>
+		<printer>William Jaggard</printer>
+		<publisher>Thomas Pavier</publisher>
+		<leaves>16</leaves>
+	</edition>
+	<edition format="Folio" n="3" pssource="yes">
+		<date>1664</date>
+		<printer>Isaac Jaggard, William Jaggard</printer>
+		<publisher>John Heminges, Henry Condell</publisher>
+	</edition>
+</editions>
+<performances>
+	<performance>
+		<date>1605</date>
+		<company>The King&#8217;s Men</company>
+		<location>The Globe Theatre</location>
+	</performance>
+</performances>
 <personae playtitle="A Yorkshire Tragedy">
-<persona gender="male"  id="6a3dc2b2-9ee1-4eac-aedd-377bbeabafeb">
+<persona gender="male" id="6a3dc2b2-9ee1-4eac-aedd-377bbeabafeb">
 <persname short="HUSB." numberOfLines="217" numberOfVerseLines="195" numberOfProseLines="22" numberOfLyricsLines="0">Husband</persname>
 </persona>
 <persona gender="female" id="8c69804d-a5bb-4bee-b8df-5f01268f96e5">
 <persname short="WIFE." numberOfLines="162" numberOfVerseLines="161" numberOfProseLines="1" numberOfLyricsLines="0">Wife</persname>
 </persona>
-<persona gender="male"  id="9ce3ca9e-2c0e-4c55-a349-842e4e9c6a2b">
+<persona gender="male" id="9ce3ca9e-2c0e-4c55-a349-842e4e9c6a2b">
 <persname short="MAST." numberOfLines="40" numberOfVerseLines="35" numberOfProseLines="5" numberOfLyricsLines="0">Master of a College</persname>
 </persona>
-<persona gender="male"  id="d62cdb50-9237-4afc-8ffe-c97e5b8091e4">
+<persona gender="male" id="d62cdb50-9237-4afc-8ffe-c97e5b8091e4">
 <persname short="OLIV." numberOfLines="14" numberOfVerseLines="0" numberOfProseLines="14" numberOfLyricsLines="0">Oliver</persname>
 <persaliases>
 <persname short="BOTH RAL. AND OLIV.">Both Ralph and Oliver</persname>
 </persaliases>
 </persona>
-<persona gender="male"  id="db322fed-c195-4c43-8898-e0d8bb741ca3">
+<persona gender="male" id="db322fed-c195-4c43-8898-e0d8bb741ca3">
 <persname short="RAL." numberOfLines="9" numberOfVerseLines="0" numberOfProseLines="9" numberOfLyricsLines="0">Ralph</persname>
 <persaliases>
 <persname short="BOTH RAL. AND OLIV.">Both Ralph and Oliver</persname>
 </persaliases>
 </persona>
-<persona gender="male"  id="af12b31e-389c-4b74-b668-44d7a04056ac">
+<persona gender="male" id="af12b31e-389c-4b74-b668-44d7a04056ac">
 <persname short="SAM." numberOfLines="15" numberOfVerseLines="0" numberOfProseLines="15" numberOfLyricsLines="0">Sam</persname>
 </persona>
-<persona gender="male"  id="fc707e2a-2a0b-4988-8dcd-2fc5029f2cf2">
+<persona gender="male" id="fc707e2a-2a0b-4988-8dcd-2fc5029f2cf2">
 <persname short="1. GENT." numberOfLines="10" numberOfVerseLines="10" numberOfProseLines="0" numberOfLyricsLines="0">First Gentleman</persname>
 <persaliases>
 <persname short="ALL GENT.">All Gentlemen</persname>
 </persaliases>
 </persona>
-<persona gender="male"  id="7b100715-a197-4655-8d28-72e4a7159b16">
+<persona gender="male" id="7b100715-a197-4655-8d28-72e4a7159b16">
 <persname short="2. GENT." numberOfLines="5" numberOfVerseLines="5" numberOfProseLines="0" numberOfLyricsLines="0">Second Gentleman</persname>
 <persaliases>
 <persname short="ALL GENT.">All Gentlemen</persname>
 </persaliases>
 </persona>
-<persona gender="male"  id="b6b60b5f-416d-4a03-9840-e706b23c68f6">
+<persona gender="male" id="b6b60b5f-416d-4a03-9840-e706b23c68f6">
 <persname short="3. GENT." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">Third Gentleman</persname>
 <persaliases>
 <persname short="ALL GENT.">All Gentlemen</persname>
 </persaliases>
 </persona>
-<persona gender="male"  id="282e0a78-262e-4149-993c-65cff712fee4">
+<persona gender="male" id="282e0a78-262e-4149-993c-65cff712fee4">
 <persname short="4. GENT." numberOfLines="52" numberOfVerseLines="52" numberOfProseLines="0" numberOfLyricsLines="0">Fourth Gentleman</persname>
 </persona>
-<persona gender="male"  id="4f0e6de1-8abe-4c61-9c13-0b726f519afa">
+<persona gender="male" id="4f0e6de1-8abe-4c61-9c13-0b726f519afa">
 <persname short="SERV." numberOfLines="9" numberOfVerseLines="3" numberOfProseLines="6" numberOfLyricsLines="0">Servant</persname>
 </persona>
 <persona gender="female" id="00691248-4da7-4078-b579-67978ec30a7d">
@@ -69,13 +92,13 @@
 <persona gender="male" death="yes" id="31de5d37-8786-4fd7-97f5-e00fb8dbb2cb">
 <persname short="SON." numberOfLines="5" numberOfVerseLines="1" numberOfProseLines="4" numberOfLyricsLines="0">First Son</persname>
 </persona>
-<persona gender="male"  id="3978e203-c3fa-4b3a-9724-e1bd08a1a959">
+<persona gender="male" id="3978e203-c3fa-4b3a-9724-e1bd08a1a959">
 <persname short="LUSTY." numberOfLines="22" numberOfVerseLines="21" numberOfProseLines="1" numberOfLyricsLines="0">Lusty Servant</persname>
 </persona>
-<persona gender="male"  id="49da95ea-a5da-4acb-aec4-0e8f3c6cf499">
+<persona gender="male" id="49da95ea-a5da-4acb-aec4-0e8f3c6cf499">
 <persname short="KNIGHT." numberOfLines="22" numberOfVerseLines="22" numberOfProseLines="0" numberOfLyricsLines="0">Knight (Justice of the Peace)</persname>
 </persona>
-<persona gender="male"  id="47438ca5-d3b3-4f0c-b7e7-786c3478555f">
+<persona gender="male" id="47438ca5-d3b3-4f0c-b7e7-786c3478555f">
 <persname short="1. SERV." numberOfLines="2" numberOfVerseLines="2" numberOfProseLines="0" numberOfLyricsLines="0">First Servant to the Master of the College</persname>
 </persona>
 <persona gender="male" mute="yes" id="e46c2e55-b894-44f0-a725-82b11b1b253b">
@@ -90,7 +113,7 @@
 </personae>
 <act num="1">
 <acttitle>Act 1</acttitle>
-<scene actnum="1" num="1" minutesRunning="6" numberOfProseWords="654" numberOfVerseWords="0" numberOfLines="34">
+<scene actnum="1" num="1">
 <scenetitle>Scene 1</scenetitle>
 <scenelocation>A house in Yorkshire.</scenelocation>
 <scenetime>A day in April 1605.</scenetime>
@@ -101,13 +124,13 @@
 	<scenepersona short="BOY.">Stable Boy</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="0.01" sdnumber="0.01">
 	<dir>Enter Oliver and Ralph, two serving-men.</dir>
 	<action type="enter">
-		<actor>OLIV.</actor>
-		<actor>RAL.</actor>
+			<actor>OLIV.</actor>
+			<actor>RAL.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -140,7 +163,7 @@
 <speaker long="Sam">SAM.</speaker>
 <stagedir sdglobalnumber="6.01" sdnumber="6.01">
 <dir>Calls within.</dir>
-<action type="speak-offstage">
+<action type="speak" offstage="true">
 <actor>SAM.</actor>
 </action>
 </stagedir>
@@ -279,7 +302,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="2" minutesRunning="13" numberOfProseWords="193" numberOfVerseWords="1314" numberOfLines="184">
+<scene actnum="1" num="2">
 <scenetitle>Scene 2</scenetitle>
 <scenelocation>Outside the Husband&#8217;s house, near Yorkshire.</scenelocation>
 <scenetime>Later that day.</scenetime>
@@ -293,12 +316,12 @@
 	<scenepersona short="SERV.">Servant</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="34.02" sdnumber="0.01">
 	<dir>Enter Wife.</dir>
 	<action type="enter">
-		<actor>WIFE.</actor>
+			<actor>WIFE.</actor>
 	</action>
 </stagedir>
 <speech type="soliloquy">
@@ -336,7 +359,7 @@
 </stagedir>
 <speech>
 <speaker long="Husband">HUSB.</speaker>
-<line globalnumber="59" number="25" form="verse">Pox o' th&#8217; last throw, it made</line>
+<line globalnumber="59" number="25" form="verse">Pox o&#8217; th&#8217; last throw, it made</line>
 <line globalnumber="60" number="26" form="verse">Five hundred angels vanish from my sight!</line>
 <line globalnumber="61" number="27" form="verse">I&#8217;m damn&#8217;d, I&#8217;m damn&#8217;d: the angels have forsook me!</line>
 <line globalnumber="62" number="28" form="verse">Nay, &#8217;tis certainly true, for he that has no coin</line>
@@ -591,7 +614,7 @@
 <speaker long="Fourth Gentleman">4. GENT.</speaker>
 <line globalnumber="151" number="117" form="verse">Strike thine own follies, for it is they</line>
 <line globalnumber="152" number="118" form="verse">Deserve to be well beaten. We are now in private;</line>
-<line globalnumber="153" number="119" form="verse">There&#8217;s none but thou and I. Thou'rt fond and peevish,</line>
+<line globalnumber="153" number="119" form="verse">There&#8217;s none but thou and I. Thou&#8217;rt fond and peevish,</line>
 <line globalnumber="154" number="120" form="verse">An unclean rioter, thy lands and credit</line>
 <line globalnumber="155" number="121" form="verse">Lie now both sick of a consumption.</line>
 <line globalnumber="156" number="122" form="verse">I am sorry for thee: that man spends with shame</line>
@@ -745,7 +768,7 @@
 <line globalnumber="215" number="181" form="verse">And makes my breast spit blood! But thou shalt bleed.</line>
 <line globalnumber="216" number="182" form="verse">Vanquish&#8217;d? Got down? Unable e&#8217;en to speak?</line>
 <line globalnumber="217" number="183" form="verse">Surely &#8217;tis want of money makes men weak.</line>
-<line globalnumber="218" number="184" form="verse">Ay, &#8216;twas that o'erthrew me; I&#8217;d ne&#8217;er been down else.</line>
+<line globalnumber="218" number="184" form="verse">Ay, &#8216;twas that o&#8217;erthrew me; I&#8217;d ne&#8217;er been down else.</line>
 </speech>
 <stagedir sdglobalnumber="218.01" sdnumber="184.01">
 <dir>Exit.</dir>
@@ -754,7 +777,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="3" minutesRunning="7" numberOfProseWords="208" numberOfVerseWords="562" numberOfLines="82">
+<scene actnum="1" num="3">
 <scenetitle>Scene 3</scenetitle>
 <scenelocation>The Husband&#8217;s house, a room above.</scenelocation>
 <scenetime>About three weeks later.</scenetime>
@@ -764,13 +787,13 @@
 	<scenepersona short="HUSB.">Husband</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="218.02" sdnumber="0.01">
 	<dir>Enter Wife in a riding suit with a serving-man.</dir>
 	<action type="enter">
-		<actor>WIFE.</actor>
-		<actor>SERV.</actor>
+			<actor>WIFE.</actor>
+			<actor>SERV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -784,7 +807,7 @@
 <line globalnumber="222" number="4" form="verse">I grant I had, but alas,</line>
 <line globalnumber="223" number="5" form="verse">Why should our faults at home be spread abroad?</line>
 <line globalnumber="224" number="6" form="verse">&#8217;Tis grief enough within doors. At first sight</line>
-<line globalnumber="225" number="7" form="verse">Mine uncle could run o'er his prodigal life</line>
+<line globalnumber="225" number="7" form="verse">Mine uncle could run o&#8217;er his prodigal life</line>
 <line globalnumber="226" number="8" form="verse">As perfectly as if his serious eye</line>
 <line globalnumber="227" number="9" form="verse">Had numbered all his follies,</line>
 <line globalnumber="228" number="10" form="verse">Knew of his mortgag&#8217;d lands, his friends in bonds,</line>
@@ -836,7 +859,7 @@
 </stagedir>
 <speech>
 <speaker long="Husband">HUSB.</speaker>
-<line globalnumber="250" number="32" form="prose">Now, are you come? Where&#8217;s the money, let&#8217;s see the money. Is the rubbish sold, those wiseacres, your lands? Why, when! The money, where is&#8217;t? Pour&#8217;t down, down with it, down with it! I say, pour&#8217;t o' th&#8217; ground; let&#8217;s see&#8217;t, let&#8217;s see&#8217;t!</line>
+<line globalnumber="250" number="32" form="prose">Now, are you come? Where&#8217;s the money, let&#8217;s see the money. Is the rubbish sold, those wiseacres, your lands? Why, when! The money, where is&#8217;t? Pour&#8217;t down, down with it, down with it! I say, pour&#8217;t o&#8217; th&#8217; ground; let&#8217;s see&#8217;t, let&#8217;s see&#8217;t!</line>
 </speech>
 <speech>
 <speaker long="Wife">WIFE.</speaker>
@@ -964,7 +987,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="4" minutesRunning="8" numberOfProseWords="752" numberOfVerseWords="195" numberOfLines="48">
+<scene actnum="1" num="4">
 <scenetitle>Scene 4</scenetitle>
 <scenelocation>The Husband&#8217;s house.</scenelocation>
 <scenetime>About two weeks later.</scenetime>
@@ -975,18 +998,18 @@
 	<scenepersona short="SON.">First Son</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="300.02" sdnumber="0.01">
 	<dir>Enter the Husband with the Master of the College.</dir>
 	<action type="enter">
-		<actor>HUSB.</actor>
-		<actor>MAST.</actor>
+			<actor>HUSB.</actor>
+			<actor>MAST.</actor>
 	</action>
 </stagedir>
 <speech>
 <speaker long="Husband">HUSB.</speaker>
-<line globalnumber="301" number="1" form="verse">Pray you draw near, sir, y'are exceeding welcome.</line>
+<line globalnumber="301" number="1" form="verse">Pray you draw near, sir, y&#8217;are exceeding welcome.</line>
 </speech>
 <speech>
 <speaker long="Master of a College">MAST.</speaker>
@@ -1045,7 +1068,7 @@
 <speech>
 <speaker long="Master of a College">MAST.</speaker>
 <line globalnumber="314" number="14" form="verse">A bruise indeed makes many a mortal</line>
-<line globalnumber="315" number="15" form="verse">Sore till the grave cure 'em.</line>
+<line globalnumber="315" number="15" form="verse">Sore till the grave cure &#8217;em.</line>
 </speech>
 <stagedir sdglobalnumber="315.01" sdnumber="15.01">
 <dir>Enter Servant with wine.</dir>
@@ -1180,7 +1203,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="5" minutesRunning="4" numberOfProseWords="0" numberOfVerseWords="317" numberOfLines="49">
+<scene actnum="1" num="5">
 <scenetitle>Scene 5</scenetitle>
 <scenelocation>The Husband&#8217;s house, the room above.</scenelocation>
 <scenetime>A few minutes later.</scenetime>
@@ -1192,18 +1215,18 @@
 	<scenepersona short="SON.">First Son</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="348.02" sdnumber="0.01">
 	<dir>Enter a Maid with a child in her arms, the mother, Wife, by her asleep.</dir>
 	<action type="enter">
-		<actor>MAID.</actor>
+			<actor>MAID.</actor>
 	</action>
 	<action type="enter">
-		<actor>WIFE.</actor>
+			<actor>WIFE.</actor>
 	</action>
 	<action type="action">
-		<actor>WIFE.</actor>
+			<actor>WIFE.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1332,7 +1355,7 @@
 <dir>The Husband gets the child from her.</dir>
 <action type="action">
 <actor>HUSB.</actor>
-<recipient>WIFE</recipient>
+<recipient>WIFE.</recipient>
 </action>
 </stagedir>
 <speech>
@@ -1430,7 +1453,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="6" minutesRunning="1" numberOfProseWords="0" numberOfVerseWords="58" numberOfLines="7">
+<scene actnum="1" num="6">
 <scenetitle>Scene 6</scenetitle>
 <scenelocation>The Husband&#8217;s house, the room below.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
@@ -1441,15 +1464,15 @@
 	<scenepersona short="2. SERV.">Second Servant to the Master of the College</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="392.02" sdnumber="0.01">
 	<dir>The Husband enters and the Master, with his servants, meets him.</dir>
 	<action type="enter">
-		<actor>HUSB.</actor>
-		<actor>MAST.</actor>
-		<actor>1. SERV.</actor>
-		<actor>2. SERV.</actor>
+			<actor>HUSB.</actor>
+			<actor>MAST.</actor>
+			<actor>1. SERV.</actor>
+			<actor>2. SERV.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1469,13 +1492,18 @@
 <line globalnumber="404" number="7" form="verse">I shall be glad to see it, sir. I&#8217;ll attend you.</line>
 </speech>
 <stagedir sdglobalnumber="404.01" sdnumber="7.01">
-<dir>Exit Husband.</dir>
-<action type="exit">
-	<actor>HUSB.</actor>
-</action>
+<dir>Exit Husband. Master and his servants go to room above.</dir>
+	<action type="exit">
+		<actor>HUSB.</actor>
+	</action>
+	<action type="exit">
+			<actor>MAST.</actor>
+			<actor>1. SERV.</actor>
+			<actor>2. SERV.</actor>
+	</action>
 </stagedir>
 </scene>
-<scene actnum="1" num="7" minutesRunning="3" numberOfProseWords="17" numberOfVerseWords="285" numberOfLines="40">
+<scene actnum="1" num="7">
 <scenetitle>Scene 7</scenetitle>
 <scenelocation>The Husband&#8217;s house, the room above.</scenelocation>
 <scenetime>Immediately afterward.</scenetime>
@@ -1488,7 +1516,7 @@
 	<scenepersona short="2. SERV.">Second Servant to the Master of the College</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="00" sdnumber="00">
 <action type="enter">
@@ -1508,9 +1536,9 @@
 <stagedir sdglobalnumber="410.01" sdnumber="6.01">
 <dir>Enter Master of the College and two Servants.</dir>
 <action type="enter">
-		<actor>MAST.</actor>
-		<actor>1. SERV.</actor>
-		<actor>2. SERV.</actor>
+			<actor>MAST.</actor>
+			<actor>1. SERV.</actor>
+			<actor>2. SERV.</actor>
 </action>
 </stagedir>
 <line globalnumber="411" number="7" form="verse">Oh, the most piteous deed, sir, since you came!</line>
@@ -1547,9 +1575,9 @@
 <stagedir sdglobalnumber="422.01" sdnumber="18.01">
 <dir>Exeunt Master and Servants.</dir>
 <action type="exit">
-		<actor>MAST.</actor>
-		<actor>1. SERV.</actor>
-		<actor>2. SERV.</actor>
+			<actor>MAST.</actor>
+			<actor>1. SERV.</actor>
+			<actor>2. SERV.</actor>
 </action>
 </stagedir>
 <speech>
@@ -1571,7 +1599,7 @@
 <speaker long="Lusty Servant">LUSTY.</speaker>
 <line globalnumber="429" number="25" form="prose">I, thinking to prevent what his quick mischiefs had so soon acted, came and rush&#8217;d upon him.</line>
 <line globalnumber="430" number="26" form="verse">We struggled, but a fouler strength than his</line>
-<line globalnumber="431" number="27" form="verse">O'erthrew me with his arms; then did he bruise me</line>
+<line globalnumber="431" number="27" form="verse">O&#8217;erthrew me with his arms; then did he bruise me</line>
 <line globalnumber="432" number="28" form="verse">And rent my flesh, and robb&#8217;d me of my hair</line>
 <line globalnumber="433" number="29" form="verse">Like a man mad in execution,</line>
 <line globalnumber="434" number="30" form="verse">Made me unfit to rise and follow him.</line>
@@ -1613,7 +1641,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="8" minutesRunning="3" numberOfProseWords="19" numberOfVerseWords="227" numberOfLines="31">
+<scene actnum="1" num="8">
 <scenetitle>Scene 8</scenetitle>
 <scenelocation>A road just outside Yorkshire.</scenelocation>
 <scenetime>About an hour later.</scenetime>
@@ -1626,12 +1654,12 @@
 	<scenepersona short="HALB.">Halberdiers</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="444.02" sdnumber="0.01">
 	<dir>Enter Husband as being thrown off his horse, and falls.</dir>
 	<action type="enter">
-		<actor>HUSB.</actor>
+			<actor>HUSB.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1639,13 +1667,13 @@
 <line globalnumber="445" number="1" form="verse">Oh, stumbling jade, the spavin overtake thee, the fifty diseases stop thee!</line>
 <line globalnumber="446" number="2" form="verse">Oh, I am sorely bruis&#8217;d! Plague founder thee!</line>
 <line globalnumber="447" number="3" form="verse">Thou runn&#8217;st at ease and pleasure, heart, of chance</line>
-<line globalnumber="448" number="4" form="verse">To throw me now with a flight o' th&#8217; town,</line>
-<line globalnumber="449" number="5" form="prose">In such plain even ground! 'Sfoot, a man may dice upon&#8217;t, and throw away the meadows, filthy beast!</line>
+<line globalnumber="448" number="4" form="verse">To throw me now with a flight o&#8217; th&#8217; town,</line>
+<line globalnumber="449" number="5" form="prose">In such plain even ground! &#8217;Sfoot, a man may dice upon&#8217;t, and throw away the meadows, filthy beast!</line>
 </speech>
 <stagedir sdglobalnumber="449.01" sdnumber="5.01">
 	<dir>Cries of &#8220;Follow, follow, follow!"</dir>
-	<action type="speak-offstage">
-		<actor>MASTER.</actor>
+	<action type="speak" offstage="true">
+			<actor>MASTER.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1655,8 +1683,8 @@
 <line globalnumber="452" number="8" form="verse">Dispatch that little beggar and all&#8217;s done!</line>
 <stagedir sdglobalnumber="452.01" sdnumber="8.01">
 	<dir>Cries of &#8220;Here, this way, this way!"</dir>
-	<action type="speak-offstage">
-		<actor>MAST.</actor>
+	<action type="speak" offstage="true">
+			<actor>MAST.</actor>
 	</action>
 </stagedir>
 <line globalnumber="453" number="9" form="verse">At my back? Oh,</line>
@@ -1690,7 +1718,7 @@
 <speech>
 <speaker long="Husband">HUSB.</speaker>
 <line globalnumber="464" number="20" form="verse">Why, he can have no more on&#8217;s than our skins,</line>
-<line globalnumber="465" number="21" form="verse">And some of 'em want but fleaing.</line>
+<line globalnumber="465" number="21" form="verse">And some of &#8217;em want but fleaing.</line>
 </speech>
 <speech>
 <speaker long="First Gentleman">1. GENT.</speaker>
@@ -1720,16 +1748,16 @@
 <stagedir sdglobalnumber="475.01" sdnumber="31.01">
 <dir>Exeunt.</dir>
 <action type="exit">
-<actor>MASTER.</actor>
-<actor>1. GENT.</actor>
-<actor>2. GENT.</actor>
-<actor>3. GENT.</actor>
-<actor>HALB.</actor>
-<recipient>HUSB.</recipient>
+	<actor>MAST.</actor>
+	<actor>1. GENT.</actor>
+	<actor>2. GENT.</actor>
+	<actor>3. GENT.</actor>
+	<actor>HALB.</actor>
+	<recipient>HUSB.</recipient>
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="9" minutesRunning="3" numberOfProseWords="0" numberOfVerseWords="272" numberOfLines="37">
+<scene actnum="1" num="9">
 <scenetitle>Scene 9</scenetitle>
 <scenelocation>The Knight&#8217;s house.</scenelocation>
 <scenetime>About an hour later.</scenetime>
@@ -1744,13 +1772,13 @@
 	<scenepersona short="HALB.">Halberdiers</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="475.02" sdnumber="0.01">
 	<dir>Enter a Knight with the Fourth Gentlemen.</dir>
 	<action type="enter">
-		<actor>KNIGHT.</actor>
-		<actor>4. GENT.</actor>
+			<actor>KNIGHT.</actor>
+			<actor>4. GENT.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -1763,7 +1791,7 @@
 </speech>
 <speech>
 <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
-<line globalnumber="478" number="3" form="verse">I am sorry I e'er knew him,</line>
+<line globalnumber="478" number="3" form="verse">I am sorry I e&#8217;er knew him,</line>
 <line globalnumber="479" number="4" form="verse">That ever he took life and natural being</line>
 <line globalnumber="480" number="5" form="verse">From such an honored stock and fair descent</line>
 <line globalnumber="481" number="6" form="verse">Till this black minute without stain or blemish.</line>
@@ -1808,7 +1836,7 @@
 <line globalnumber="491" number="16" form="verse">In a word, sir,</line>
 <line globalnumber="492" number="17" form="verse">I have consum&#8217;d all, play&#8217;d away Longacre,</line>
 <line globalnumber="493" number="18" form="verse">And I thought it the charitablest deed I could do</line>
-<line globalnumber="494" number="19" form="verse">To cozen beggary, and knock my house o' th&#8217; head.</line>
+<line globalnumber="494" number="19" form="verse">To cozen beggary, and knock my house o&#8217; th&#8217; head.</line>
 </speech>
 <speech>
 <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
@@ -1871,7 +1899,7 @@
 </action>
 </stagedir>
 </scene>
-<scene actnum="1" num="10" minutesRunning="5" numberOfProseWords="14" numberOfVerseWords="585" numberOfLines="76">
+<scene actnum="1" num="10">
 <scenetitle>Scene 10</scenetitle>
 <scenelocation>Outside the Husband&#8217;s house, near Yorkshire.</scenelocation>
 <scenetime>The next day.</scenetime>
@@ -1887,18 +1915,18 @@
 	<scenepersona short="SON.">First Son</scenepersona>
 </scenepersonae>
 <scenelanguage>
-    <language short="en">English</language>
+ <language short="en">English</language>
 </scenelanguage>
 <stagedir sdglobalnumber="512.02" sdnumber="0.01">
 	<dir>Enter Husband with the officers, the Master and Gentlemen as going by his house.</dir>
 	<action type="enter">
-		<actor>HALB.</actor>
-		<actor>HUSB.</actor>
-		<actor>MASTER.</actor>
-		<actor>1. GENT.</actor>
-		<actor>2. GENT.</actor>
-		<actor>3. GENT.</actor>
-		<actor>SON.</actor>
+			<actor>HALB.</actor>
+			<actor>HUSB.</actor>
+			<actor>MASTER.</actor>
+			<actor>1. GENT.</actor>
+			<actor>2. GENT.</actor>
+			<actor>3. GENT.</actor>
+			<actor>SON.</actor>
 	</action>
 </stagedir>
 <speech>
@@ -2096,15 +2124,11 @@
 <playsourceauthor>George Wilkins</playsourceauthor>
 <playsourcedate>1607</playsourcedate>
 </playsource>
-<textsources>
-<textsource title="Folio" edition="1" date="1664">Third Folio</textsource>
-<textsource title="Quarto" edition="1" date="1608">Quarto 1</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>1.0</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>

@@ -1,78 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<poem variant="ps" unique="to-the-queen" numberOfLines="17">
-<title short="To the Queen">To the Queen</title>
+<poem variant="ps-poems" unique="to-the-queen" numberOfLines="17">
+<title short="To the Queen" abbr="Queen">To the Queen</title>
 <playwrights>
 		<playwright>William Shakespeare</playwright>
 </playwrights>
-<pubdate>1599</pubdate>
+<editions>
+	<written>1599</written>
+	<register>Not Registered</register>
+	<edition format="Manuscript" n="1" pssource="yes">
+		<date>1599</date>
+	</edition>
+</editions>
 <poembody>
 <stanza num="1">
-<linegroup>
 <line globalnumber="1" number="1" form="verse">As the dial hand tells o&#8217;er</line>
-</linegroup>
-<linegroup>
 <line globalnumber="2" number="2" form="verse">The same hours it had before,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="3" number="3" form="verse">Circular account still lending,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="4" number="4" form="verse">So, most mighty Queen we pray,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="5" number="5" form="verse">Like the dial day by day</line>
-</linegroup>
-<linegroup>
 <line globalnumber="6" number="6" form="verse">You may lead the seasons on,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="7" number="7" form="verse">Making new when old are gone,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="8" number="8" form="verse">That the babe which now is young</line>
-</linegroup>
-<linegroup>
 <line globalnumber="9" number="9" form="verse">And hath yet no use of tongue</line>
-</linegroup>
-<linegroup>
 <line globalnumber="10" number="10" form="verse">Many a Shrovetide here may bow</line>
-</linegroup>
-<linegroup>
 <line globalnumber="11" number="11" form="verse">To that empress I do now,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="12" number="12" form="verse">That these children of these lords,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="13" number="13" form="verse">Sitting at your council boards,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="14" number="14" form="verse">May be grave and ag&#232;d seen</line>
-</linegroup>
-<linegroup>
 <line globalnumber="15" number="15" form="verse">Of her that was their fathers&#8217; queen.</line>
-</linegroup>
-<linegroup>
 <line globalnumber="16" number="16" form="verse">Once I wish this wish again,</line>
-</linegroup>
-<linegroup>
 <line globalnumber="17" number="17" form="verse">Heaven subscribe it with &#8220;Amen&#8221;.</line>
-</linegroup>
 </stanza>
 </poembody>
 <sources>
 <playsource>
 <playsourcetitle>None known.</playsourcetitle>
 </playsource>
-<textsources>
-<textsource title="Manuscript" edition="1" date="1599">Manuscript</textsource>
-</textsources>
 </sources>
 <sourcedetails>
 <source>PlayShakespeare.com</source>
 <sourceurl>http://www.playshakespeare.com</sourceurl>
-<copyright>2005-2021 by PlayShakespeare.com</copyright>
+<copyright>2005-2023 by PlayShakespeare.com</copyright>
 <version>4.2</version>
 <license>GFDL License 1.3</license>
 <licenseurl>http://www.gnu.org/copyleft/fdl.html</licenseurl>
