@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="julius-caesar">
 <title>
-	<common>Julius Caesar	</common>
+	<common>Julius Caesar</common>
 	<main>The Tragedy of Julius Caesar</main>
 	<short>Julius Caesar</short>
 	<abbr>JC</abbr>
@@ -20,7 +20,7 @@
 </availability>
 </publicationStmt>
 <editionStmt>
-<edition n="5.0"></edition>
+<edition n="5.1"></edition>
 </editionStmt>
 </fileDesc>
 <castList playtitle="Julius Caesar">
@@ -161,7 +161,7 @@
 </castItem>
 <castItem gender="male" id="ebb84d84-7e03-4a9d-9191-d64fb4130240">
 <role short="VOL.">Volumnius</role>
-<roleDesc>Volumnius is an officer in Brutus&#8217;s army, and an old schoolfellow of his.</roleDesc>
+<roleDesc>Volumnius is an officer in Brutus&#8217;s army, and an old schoolmate of his.</roleDesc>
 </castItem>
 <castItem gender="male" id="977659b3-af3f-4513-855a-34e911e8bd29">
 <role short="DAR.">Dardanius</role>
@@ -343,8 +343,8 @@
 </sp>
 <sp>
 <speaker long="Murellus">MUR.</speaker>
-<l gn="22" n="22" form="verse">Wherefore rejoice? What conquest brings he home?</l>
-<l gn="23" n="23" form="verse">What tributaries follow him to Rome,</l>
+<l gn="22" n="22" form="rhyme">Wherefore rejoice? What conquest brings he home?</l>
+<l gn="23" n="23" form="rhyme">What tributaries follow him to Rome,</l>
 <l gn="24" n="24" form="verse">To grace in captive bonds his chariot-wheels?</l>
 <l gn="25" n="25" form="verse">You blocks, you stones, you worse than senseless things!</l>
 <l gn="26" n="26" form="verse">O you hard hearts, you cruel men of Rome,</l>
@@ -451,11 +451,11 @@
 </stage>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
-<l gn="66" n="1" form="verse" rend="indent(0)">Calphurnia!</l>
+<l gn="66" n="1" form="verse">Calphurnia!</l>
 </sp>
 <sp>
 <speaker long="Casca">CASCA.</speaker>
-<l gn="67" n="1" form="verse" rend="indent(2)" part="m">Peace ho, Caesar speaks.</l>
+<l gn="67" n="1" form="verse" rend="indent(3)" part="m">Peace ho, Caesar speaks.</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -479,7 +479,7 @@
 <l gn="73" n="6" form="verse">Forget not in your speed, Antonio,</l>
 <l gn="74" n="7" form="verse">To touch Calphurnia; for our elders say,</l>
 <l gn="75" n="8" form="verse">The barren, touched in this holy chase,</l>
-<l gn="76" n="9" form="verse" rend="indent(0)">Shake off their sterile curse.</l>
+<l gn="76" n="9" form="verse">Shake off their sterile curse.</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -515,7 +515,7 @@
 </sp>
 <sp>
 <speaker long="Soothsayer">SOOTH.</speaker>
-<l gn="86" n="18" form="verse" rend="indent(0)">Beware the ides of March.</l>
+<l gn="86" n="18" form="verse">Beware the ides of March.</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -591,7 +591,7 @@
 <l gn="102" n="33" form="verse">I have not from your eyes that gentleness</l>
 <l gn="103" n="34" form="verse">And show of love as I was wont to have.</l>
 <l gn="104" n="35" form="verse">You bear too stubborn and too strange a hand</l>
-<l gn="105" n="36" form="verse" rend="indent(0)">Over your friend that loves you.</l>
+<l gn="105" n="36" form="verse">Over your friend that loves you.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -662,7 +662,7 @@
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="149" n="79" form="verse">What means this shouting? I do fear the people</l>
-<l gn="150" n="80" form="verse" rend="indent(0)">Choose Caesar for their king.</l>
+<l gn="150" n="80" form="verse">Choose Caesar for their king.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1072,8 +1072,8 @@
 <l gn="345" n="274" form="verse">Writings, all tending to the great opinion</l>
 <l gn="346" n="275" form="verse">That Rome holds of his name; wherein obscurely</l>
 <l gn="347" n="276" form="verse">Caesar&#8217;s ambition shall be glanced at.</l>
-<l gn="348" n="277" form="verse">And after this let Caesar seat him sure,</l>
-<l gn="349" n="278" form="verse">For we will shake him, or worse days endure.</l>
+<l gn="348" n="277" form="rhyme">And after this let Caesar seat him sure,</l>
+<l gn="349" n="278" form="rhyme">For we will shake him, or worse days endure.</l>
 </sp>
 <stage sgn="349.01" sn="278.01">
 <dir>Exit.</dir>
@@ -1163,7 +1163,7 @@
 <sp>
 <speaker long="Cicero">CIC.</speaker>
 <l gn="388" n="39" form="verse">Good night then, Casca; this disturbed sky</l>
-<l gn="389" n="40" form="verse" rend="indent(0)">Is not to walk in.</l>
+<l gn="389" n="40" form="verse">Is not to walk in.</l>
 </sp>
 <sp>
 <speaker long="Casca">CASCA.</speaker>
@@ -1183,7 +1183,7 @@
 </stage>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="391" n="41" form="verse" rend="indent(0)">Who&#8217;s there?</l>
+<l gn="391" n="41" form="verse">Who&#8217;s there?</l>
 </sp>
 <sp>
 <speaker long="Casca">CASCA.</speaker>
@@ -1280,7 +1280,7 @@
 <l gn="449" n="97" form="verse">Never lacks power to dismiss itself.</l>
 <l gn="450" n="98" form="verse">If I know this, know all the world besides,</l>
 <l gn="451" n="99" form="verse">That part of tyranny that I do bear</l>
-<l gn="452" n="100" form="verse" rend="indent(0)">I can shake off at pleasure.</l>
+<l gn="452" n="100" form="verse">I can shake off at pleasure.</l>
 </sp>
 <stage sgn="452.01" sn="100.01">
 <dir>Thunder still.</dir>
@@ -1315,7 +1315,7 @@
 <l gn="470" n="117" form="verse">That is no fleering tell-tale. Hold, my hand.</l>
 <l gn="471" n="118" form="verse">Be factious for redress of all these griefs,</l>
 <l gn="472" n="119" form="verse">And I will set this foot of mine as far</l>
-<l gn="473" n="120" form="verse" rend="indent(0)">As who goes farthest.</l>
+<l gn="473" n="120" form="verse">As who goes farthest.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1362,7 +1362,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="493" n="139" form="verse" rend="indent(0)">Am I not stay&#8217;d for? Tell me.</l>
+<l gn="493" n="139" form="verse">Am I not stay&#8217;d for? Tell me.</l>
 </sp>
 <sp>
 <speaker long="Cinna">CIN.</speaker>
@@ -1563,9 +1563,9 @@
 </stage>
 <l gn="565" n="46" form="verse"><recite>&#8220;Brutus, thou sleep&#8217;st; awake, and see thyself!</recite></l>
 <l gn="566" n="47" form="verse"><recite>Shall Rome, etc. Speak, strike, redress!&#8221;</recite></l>
-<l gn="567" n="48" form="verse"><recite>&#8220;Brutus, thou sleep&#8217;st; awake!&#8221;</recite></l>
-<l gn="568" n="49" form="verse"><recite>Such instigations have been often dropp&#8217;d</recite></l>
-<l gn="569" n="50" form="verse" lb="2"><recite>Where I have took them up.</recite></l>
+<l gn="567" n="48" form="verse" lb="2"><recite>&#8220;Brutus, thou sleep&#8217;st; awake!&#8221;</recite></l>
+<l gn="568" n="49" form="verse">Such instigations have been often dropp&#8217;d</l>
+<l gn="569" n="50" form="verse">Where I have took them up.</l>
 <l gn="570" n="51" form="verse">&#8220;Shall Rome, etc.&#8221; Thus must I piece it out:</l>
 <l gn="571" n="52" form="verse">Shall Rome stand under one man&#8217;s awe? What, Rome?</l>
 <l gn="572" n="53" form="verse">My ancestors did from the streets of Rome</l>
@@ -1619,15 +1619,15 @@
 <sp>
 <speaker long="Lucius">LUC.</speaker>
 <l gn="589" n="70" form="verse">Sir, &#8217;tis your brother Cassius at the door,</l>
-<l gn="590" n="71" form="verse" rend="indent(0)">Who doth desire to see you.</l>
+<l gn="590" n="71" form="verse">Who doth desire to see you.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="591" n="71" form="verse" rend="indent(5)">Is he alone?</l>
+<l gn="591" n="71" form="verse" rend="indent(6)">Is he alone?</l>
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
-<l gn="592" n="72" form="verse" rend="indent(0)">No, sir, there are more with him.</l>
+<l gn="592" n="72" form="verse">No, sir, there are more with him.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -1638,11 +1638,11 @@
 <l gn="594" n="73" form="verse">No, sir, their hats are pluck&#8217;d about their ears,</l>
 <l gn="595" n="74" form="verse">And half their faces buried in their cloaks,</l>
 <l gn="596" n="75" form="verse">That by no means I may discover them</l>
-<l gn="597" n="76" form="verse" rend="indent(0)">By any mark of favor.</l>
+<l gn="597" n="76" form="verse">By any mark of favor.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="598" n="76" form="verse" rend="indent(5)">Let &#8217;em enter.</l>
+<l gn="598" n="76" form="verse" rend="indent(4)">Let &#8217;em enter.</l>
 <stage sgn="598.01" sn="76.01">
 <dir>Exit Lucius.</dir>
 	<action type="exit">
@@ -1686,7 +1686,7 @@
 <l gn="613" n="91" form="verse">But honors you; and every one doth wish</l>
 <l gn="614" n="92" form="verse">You had but that opinion of yourself</l>
 <l gn="615" n="93" form="verse">Which every noble Roman bears of you.</l>
-<l gn="616" n="94" form="verse" rend="indent(0)">This is Trebonius.</l>
+<l gn="616" n="94" form="verse">This is Trebonius.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -1694,7 +1694,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="618" n="95" form="verse" rend="indent(0)">This, Decius Brutus.</l>
+<l gn="618" n="95" form="verse">This, Decius Brutus.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -1789,7 +1789,7 @@
 </sp>
 <sp>
 <speaker long="Casca">CASCA.</speaker>
-<l gn="667" n="143" form="verse" rend="indent(0)">Let us not leave him out.</l>
+<l gn="667" n="143" form="verse">Let us not leave him out.</l>
 </sp>
 <sp>
 <speaker long="Cinna">CIN.</speaker>
@@ -1808,7 +1808,7 @@
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="675" n="150" form="verse">O, name him not; let us not break with him,</l>
 <l gn="676" n="151" form="verse">For he will never follow any thing</l>
-<l gn="677" n="152" form="verse" rend="indent(0)">That other men begin.</l>
+<l gn="677" n="152" form="verse">That other men begin.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1855,7 +1855,7 @@
 <l gn="706" n="180" form="verse">We shall be call&#8217;d purgers, not murderers,</l>
 <l gn="707" n="181" form="verse">And for Mark Antony, think not of him;</l>
 <l gn="708" n="182" form="verse">For he can do no more than Caesar&#8217;s arm</l>
-<l gn="709" n="183" form="verse" rend="indent(0)">When Caesar&#8217;s head is off.</l>
+<l gn="709" n="183" form="verse">When Caesar&#8217;s head is off.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1882,7 +1882,7 @@
 </stage>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="719" n="192" form="verse" rend="indent(0)">Peace, count the clock.</l>
+<l gn="719" n="192" form="verse">Peace, count the clock.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1890,7 +1890,7 @@
 </sp>
 <sp>
 <speaker long="Trebonius">TREB.</speaker>
-<l gn="721" n="193" form="verse" rend="indent(0)">&#8217;Tis time to part.</l>
+<l gn="721" n="193" form="verse">&#8217;Tis time to part.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -1969,7 +1969,7 @@
 <l gn="759" n="230" form="verse">Enjoy the honey-heavy dew of slumber.</l>
 <l gn="760" n="231" form="verse">Thou hast no figures nor no fantasies,</l>
 <l gn="761" n="232" form="verse">Which busy care draws in the brains of men;</l>
-<l gn="762" n="233" form="verse" rend="indent(0)">Therefore thou sleep&#8217;st so sound.</l>
+<l gn="762" n="233" form="verse">Therefore thou sleep&#8217;st so sound.</l>
 </sp>
 <stage sgn="762.01" sn="233.01">
 <dir>Enter Portia.</dir>
@@ -2042,7 +2042,7 @@
 <l gn="805" n="275" form="verse">Why you are heavy, and what men tonight</l>
 <l gn="806" n="276" form="verse">Have had resort to you; for here have been</l>
 <l gn="807" n="277" form="verse">Some six or seven, who did hide their faces</l>
-<l gn="808" n="278" form="verse" rend="indent(0)">Even from darkness.</l>
+<l gn="808" n="278" form="verse">Even from darkness.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -2079,7 +2079,7 @@
 <l gn="830" n="299" form="verse">I have made strong proof of my constancy,</l>
 <l gn="831" n="300" form="verse">Giving myself a voluntary wound</l>
 <l gn="832" n="301" form="verse">Here, in the thigh; can I bear that with patience,</l>
-<l gn="833" n="302" form="verse" rend="indent(0)">And not my husband&#8217;s secrets?</l>
+<l gn="833" n="302" form="verse">And not my husband&#8217;s secrets?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -2097,7 +2097,7 @@
 <l gn="838" n="306" form="verse">The secrets of my heart.</l>
 <l gn="839" n="307" form="verse">All my engagements I will construe to thee,</l>
 <l gn="840" n="308" form="verse">All the charactery of my sad brows.</l>
-<l gn="841" n="309" form="verse" rend="indent(0)">Leave me with haste.</l>
+<l gn="841" n="309" form="verse">Leave me with haste.</l>
 <stage sgn="841.01" sn="309.01">
 <dir>Exit Portia.</dir>
 	<action type="exit">
@@ -2177,7 +2177,7 @@
 <l gn="866" n="333" form="verse">Set on your foot,</l>
 <l gn="867" n="334" form="verse">And with a heart new-fir&#8217;d I follow you,</l>
 <l gn="868" n="335" form="verse">To do I know not what; but it sufficeth</l>
-<l gn="869" n="336" form="verse" rend="indent(0)">That Brutus leads me on.</l>
+<l gn="869" n="336" form="verse">That Brutus leads me on.</l>
 </sp>
 <stage sgn="869.01" sn="336.01">
 <dir>Thunder.</dir>
@@ -2288,7 +2288,7 @@
 <l gn="893" n="23" form="verse">Horses did neigh, and dying men did groan,</l>
 <l gn="894" n="24" form="verse">And ghosts did shriek and squeal about the streets.</l>
 <l gn="895" n="25" form="verse">O Caesar, these things are beyond all use,</l>
-<l gn="896" n="26" form="verse" rend="indent(0)">And I do fear them.</l>
+<l gn="896" n="26" form="verse">And I do fear them.</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -2309,7 +2309,7 @@
 <l gn="905" n="34" form="verse">Of all the wonders that I yet have heard,</l>
 <l gn="906" n="35" form="verse">It seems to me most strange that men should fear,</l>
 <l gn="907" n="36" form="verse">Seeing that death, a necessary end,</l>
-<l gn="908" n="37" form="verse" rend="indent(0)">Will come when it will come.</l>
+<l gn="908" n="37" form="verse">Will come when it will come.</l>
 <stage sgn="908.01" sn="37.01">
 <dir>Enter a Servant.</dir>
 	<action type="enter">
@@ -2333,7 +2333,7 @@
 <l gn="917" n="45" form="verse">That Caesar is more dangerous than he.</l>
 <l gn="918" n="46" form="verse">We are two lions litter&#8217;d in one day,</l>
 <l gn="919" n="47" form="verse">And I the elder and more terrible;</l>
-<l gn="920" n="48" form="verse" rend="indent(0)">And Caesar shall go forth.</l>
+<l gn="920" n="48" form="verse">And Caesar shall go forth.</l>
 </sp>
 <sp>
 <speaker long="Calphurnia">CAL.</speaker>
@@ -2372,7 +2372,7 @@
 </sp>
 <sp>
 <speaker long="Calphurnia">CAL.</speaker>
-<l gn="938" n="65" form="verse" rend="indent(0)">Say he is sick.</l>
+<l gn="938" n="65" form="verse">Say he is sick.</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -2453,7 +2453,7 @@
 </sp>
 <sp>
 <speaker long="Publius">PUB.</speaker>
-<l gn="983" n="109" form="verse" rend="indent(0)">Good morrow, Caesar.</l>
+<l gn="983" n="109" form="verse">Good morrow, Caesar.</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -2462,7 +2462,7 @@
 <l gn="986" n="111" form="verse">Good morrow, Casca. Caius Ligarius,</l>
 <l gn="987" n="112" form="verse">Caesar was ne&#8217;er so much your enemy</l>
 <l gn="988" n="113" form="verse">As that same ague which hath made you lean.</l>
-<l gn="989" n="114" form="verse" rend="indent(0)">What is&#8217;t a&#8217; clock?</l>
+<l gn="989" n="114" form="verse">What is&#8217;t o&#8217;clock?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -2559,8 +2559,8 @@
 <l gn="1010" n="3" form="verse">And as a suitor will I give him this.</l>
 <l gn="1011" n="4" form="verse">My heart laments that virtue cannot live</l>
 <l gn="1012" n="5" form="verse">Out of the teeth of emulation.</l>
-<l gn="1013" n="6" form="verse">If thou read this, O Caesar, thou mayest live;</l>
-<l gn="1014" n="7" form="verse">If not, the Fates with traitors do contrive.</l>
+<l gn="1013" n="6" form="rhyme">If thou read this, O Caesar, thou mayest live;</l>
+<l gn="1014" n="7" form="rhyme">If not, the Fates with traitors do contrive.</l>
 </sp>
 <stage sgn="1014.01" sn="7.01">
 <dir>Exit.</dir>
@@ -2589,7 +2589,7 @@
 <speaker long="Portia">POR.</speaker>
 <l gn="1015" n="1" form="verse">I prithee, boy, run to the Senate-house;</l>
 <l gn="1016" n="2" form="verse">Stay not to answer me, but get thee gone.</l>
-<l gn="1017" n="3" form="verse" rend="indent(0)">Why dost thou stay?</l>
+<l gn="1017" n="3" form="verse">Why dost thou stay?</l>
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
@@ -2603,7 +2603,7 @@
 <l gn="1022" n="7" form="verse">Set a huge mountain &#8217;tween my heart and tongue!</l>
 <l gn="1023" n="8" form="verse">I have a man&#8217;s mind, but a woman&#8217;s might.</l>
 <l gn="1024" n="9" form="verse">How hard it is for women to keep counsel!&#8288;&#8212;</l>
-<l gn="1025" n="10" form="verse" rend="indent(0)">Art thou here yet?</l>
+<l gn="1025" n="10" form="verse">Art thou here yet?</l>
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
@@ -2620,7 +2620,7 @@
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
-<l gn="1033" n="17" form="verse" rend="indent(0)">I hear none, madam.</l>
+<l gn="1033" n="17" form="verse">I hear none, madam.</l>
 </sp>
 <sp>
 <speaker long="Portia">POR.</speaker>
@@ -2648,7 +2648,7 @@
 </sp>
 <sp>
 <speaker long="Portia">POR.</speaker>
-<l gn="1040" n="23" form="verse" rend="indent(0)">What is&#8217;t a&#8217; clock?</l>
+<l gn="1040" n="23" form="verse">What is&#8217;t o&#8217;clock?</l>
 </sp>
 <sp>
 <speaker long="Soothsayer">SOOTH.</speaker>
@@ -2788,7 +2788,7 @@
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
-<l gn="1074" n="10" form="verse" rend="indent(0)">What, is the fellow mad?</l>
+<l gn="1074" n="10" form="verse">What, is the fellow mad?</l>
 </sp>
 <sp>
 <speaker long="Publius">PUB.</speaker>
@@ -2823,7 +2823,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1079" n="14" form="verse" rend="indent(0)">What enterprise, Popilius?</l>
+<l gn="1079" n="14" form="verse">What enterprise, Popilius?</l>
 </sp>
 <sp>
 <speaker long="Popilius Lena">POP.</speaker>
@@ -2853,7 +2853,7 @@
 <l gn="1085" n="19" form="verse">Casca, be sudden, for we fear prevention.</l>
 <l gn="1086" n="20" form="verse">Brutus, what shall be done? If this be known,</l>
 <l gn="1087" n="21" form="verse">Cassius or Caesar never shall turn back,</l>
-<l gn="1088" n="22" form="verse" rend="indent(0)">For I will slay myself.</l>
+<l gn="1088" n="22" form="verse">For I will slay myself.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -2895,7 +2895,7 @@
 <speaker long="Metellus Cimber">MET.</speaker>
 <l gn="1100" n="33" form="verse">Most high, most mighty, and most puissant Caesar,</l>
 <l gn="1101" n="34" form="verse">Metellus Cimber throws before thy seat</l>
-<l gn="1102" n="35" form="verse" rend="indent(0)">An humble heart.</l>
+<l gn="1102" n="35" form="verse">An humble heart.</l>
 </sp>
 <stage sgn="1102.01" sn="35.01">
 <dir>Kneeling.</dir>
@@ -2934,7 +2934,7 @@
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
-<l gn="1123" n="55" form="verse" rend="indent(0)">What, Brutus?</l>
+<l gn="1123" n="55" form="verse">What, Brutus?</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -2963,15 +2963,15 @@
 </sp>
 <sp>
 <speaker long="Cinna">CIN.</speaker>
-<l gn="1143" n="74" form="verse" rend="indent(0)">O Caesar&#8288;&#8212;</l>
+<l gn="1143" n="74" form="verse">O Caesar&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
-<l gn="1144" n="74" form="verse" rend="indent(2)">Hence! Wilt thou lift up Olympus?</l>
+<l gn="1144" n="74" form="verse" rend="indent(3)">Hence! Wilt thou lift up Olympus?</l>
 </sp>
 <sp>
 <speaker long="Decius Brutus">DEC.</speaker>
-<l gn="1145" n="75" form="verse" rend="indent(0)">Great Caesar&#8288;&#8212;</l>
+<l gn="1145" n="75" form="verse">Great Caesar&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Julius Caesar">CAES.</speaker>
@@ -3019,7 +3019,7 @@
 </sp>
 <sp>
 <speaker long="Casca">CASCA.</speaker>
-<l gn="1155" n="84" form="verse" rend="indent(0)">Go to the pulpit, Brutus.</l>
+<l gn="1155" n="84" form="verse">Go to the pulpit, Brutus.</l>
 </sp>
 <sp>
 <speaker long="Decius Brutus">DEC.</speaker>
@@ -3072,13 +3072,13 @@
 </stage>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1168" n="96" form="verse" rend="indent(0)">Where is Antony?</l>
+<l gn="1168" n="96" form="verse">Where is Antony?</l>
 </sp>
 <sp>
 <speaker long="Trebonius">TREB.</speaker>
 <l gn="1169" n="96" form="verse" rend="indent(4)">Fled to his house amaz&#8217;d.</l>
 <l gn="1170" n="97" form="verse">Men, wives, and children stare, cry out, and run,</l>
-<l gn="1171" n="98" form="verse" rend="indent(0)">As it were doomsday.</l>
+<l gn="1171" n="98" form="verse">As it were doomsday.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -3112,7 +3112,7 @@
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="1188" n="114" form="verse">How many times shall Caesar bleed in sport,</l>
 <l gn="1189" n="115" form="verse">That now on Pompey&#8217;s basis lies along</l>
-<l gn="1190" n="116" form="verse" rend="indent(0)">No worthier than the dust!</l>
+<l gn="1190" n="116" form="verse">No worthier than the dust!</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -3122,7 +3122,7 @@
 </sp>
 <sp>
 <speaker long="Decius Brutus">DEC.</speaker>
-<l gn="1194" n="119" form="verse" rend="indent(0)">What, shall we forth?</l>
+<l gn="1194" n="119" form="verse">What, shall we forth?</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -3164,7 +3164,7 @@
 <l gn="1215" n="139" form="verse">I never thought him worse.</l>
 <l gn="1216" n="140" form="verse">Tell him, so please him come unto this place,</l>
 <l gn="1217" n="141" form="verse">He shall be satisfied; and, by my honor,</l>
-<l gn="1218" n="142" form="verse" rend="indent(0)">Depart untouch&#8217;d.</l>
+<l gn="1218" n="142" form="verse">Depart untouch&#8217;d.</l>
 </sp>
 <sp>
 <speaker long="Caesar&#8217;s Servant">CAES. SERV.</speaker>
@@ -3242,7 +3242,7 @@
 <l gn="1257" n="180" form="verse">The multitude, beside themselves with fear,</l>
 <l gn="1258" n="181" form="verse">And then we will deliver you the cause</l>
 <l gn="1259" n="182" form="verse">Why I, that did love Caesar when I struck him,</l>
-<l gn="1260" n="183" form="verse" rend="indent(0)">Have thus proceeded.</l>
+<l gn="1260" n="183" form="verse">Have thus proceeded.</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -3277,7 +3277,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1289" n="211" form="verse" rend="indent(0)">Mark Antony&#8288;&#8212;</l>
+<l gn="1289" n="211" form="verse">Mark Antony&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -3305,7 +3305,7 @@
 <l gn="1302" n="223" form="verse">Or else were this a savage spectacle.</l>
 <l gn="1303" n="224" form="verse">Our reasons are so full of good regard</l>
 <l gn="1304" n="225" form="verse">That were you, Antony, the son of Caesar,</l>
-<l gn="1305" n="226" form="verse" rend="indent(0)">You should be satisfied.</l>
+<l gn="1305" n="226" form="verse">You should be satisfied.</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -3317,7 +3317,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="1311" n="231" form="verse" rend="indent(0)">You shall, Mark Antony.</l>
+<l gn="1311" n="231" form="verse">You shall, Mark Antony.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -3332,7 +3332,7 @@
 <l gn="1313" n="232" form="verse">You know not what you do. Do not consent</l>
 <l gn="1314" n="233" form="verse">That Antony speak in his funeral.</l>
 <l gn="1315" n="234" form="verse">Know you how much the people may be mov&#8217;d</l>
-<l gn="1316" n="235" form="verse" rend="indent(0)">By that which he will utter?</l>
+<l gn="1316" n="235" form="verse">By that which he will utter?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -3358,7 +3358,7 @@
 <l gn="1330" n="248" form="verse">Else shall you not have any hand at all</l>
 <l gn="1331" n="249" form="verse">About his funeral. And you shall speak</l>
 <l gn="1332" n="250" form="verse">In the same pulpit whereto I am going,</l>
-<l gn="1333" n="251" form="verse" rend="indent(0)">After my speech is ended.</l>
+<l gn="1333" n="251" form="verse">After my speech is ended.</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -3510,7 +3510,7 @@
 <l gn="1385" n="5" form="verse">Those that will hear me speak, let &#8217;em stay here;</l>
 <l gn="1386" n="6" form="verse">Those that will follow Cassius, go with him;</l>
 <l gn="1387" n="7" form="verse">And public reasons shall be rendered</l>
-<l gn="1388" n="8" form="verse" rend="indent(0)">Of Caesar&#8217;s death.</l>
+<l gn="1388" n="8" form="verse">Of Caesar&#8217;s death.</l>
 </sp>
 <sp>
 <speaker long="First Plebeian">1. PLEB.</speaker>
@@ -3574,17 +3574,17 @@
 </sp>
 <sp>
 <speaker long="Fourth Plebeian">4. PLEB.</speaker>
-<l gn="1401" n="20" form="verse" rend="indent(0)">Let him be Caesar.</l>
+<l gn="1401" n="20" form="verse">Let him be Caesar.</l>
 </sp>
 <sp>
 <speaker long="Fifth Plebeian">5. PLEB.</speaker>
 <l gn="1402" n="20" form="verse" rend="indent(4)">Caesar&#8217;s better parts</l>
-<l gn="1403" n="21" form="verse" rend="indent(0)">Shall be crown&#8217;d in Brutus.</l>
+<l gn="1403" n="21" form="verse">Shall be crown&#8217;d in Brutus.</l>
 </sp>
 <sp>
 <speaker long="First Plebeian">1. PLEB.</speaker>
 <l gn="1404" n="21" form="verse" rend="indent(5)">We&#8217;ll bring him to his house</l>
-<l gn="1405" n="22" form="verse" rend="indent(0)">With shouts and clamors.</l>
+<l gn="1405" n="22" form="verse">With shouts and clamors.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -3592,7 +3592,7 @@
 </sp>
 <sp>
 <speaker long="Third Plebeian">3. PLEB.</speaker>
-<l gn="1407" n="23" form="verse" rend="indent(0)">Peace, silence! Brutus speaks.</l>
+<l gn="1407" n="23" form="verse">Peace, silence! Brutus speaks.</l>
 </sp>
 <sp>
 <speaker long="First Plebeian">1. PLEB.</speaker>
@@ -3635,7 +3635,7 @@
 </stage>
 <sp>
 <speaker long="Fifth Plebeian">5. PLEB.</speaker>
-<l gn="1420" n="35" form="verse" rend="indent(0)">What does he say of Brutus?</l>
+<l gn="1420" n="35" form="verse">What does he say of Brutus?</l>
 </sp>
 <sp>
 <speaker long="Fourth Plebeian">4. PLEB.</speaker>
@@ -3648,7 +3648,7 @@
 </sp>
 <sp>
 <speaker long="First Plebeian">1. PLEB.</speaker>
-<l gn="1424" n="38" form="verse" rend="indent(0)">This Caesar was a tyrant.</l>
+<l gn="1424" n="38" form="verse">This Caesar was a tyrant.</l>
 </sp>
 <sp>
 <speaker long="Fourth Plebeian">4. PLEB.</speaker>
@@ -3661,7 +3661,7 @@
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
-<l gn="1428" n="41" form="verse" rend="indent(0)">You gentle Romans&#8288;&#8212;</l>
+<l gn="1428" n="41" form="verse">You gentle Romans&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="All Plebeians">ALL PLEBEIANS.</speaker>
@@ -3712,7 +3712,7 @@
 <sp>
 <speaker long="Third Plebeian">3. PLEB.</speaker>
 <l gn="1466" n="78" form="verse">If thou consider rightly of the matter,</l>
-<l gn="1467" n="79" form="verse" rend="indent(0)">Caesar has had great wrong.</l>
+<l gn="1467" n="79" form="verse">Caesar has had great wrong.</l>
 </sp>
 <sp>
 <speaker long="Fourth Plebeian">4. PLEB.</speaker>
@@ -3955,7 +3955,7 @@
 </sp>
 <sp>
 <speaker long="All Plebeians">ALL PLEBEIANS.</speaker>
-<l gn="1586" n="197" form="verse" rend="indent(0)">We&#8217;ll mutiny.</l>
+<l gn="1586" n="197" form="verse">We&#8217;ll mutiny.</l>
 </sp>
 <sp>
 <speaker long="First Plebeian">1. PLEB.</speaker>
@@ -4251,7 +4251,7 @@
 </sp>
 <sp>
 <speaker long="M. Aemilius Lepidus">LEP.</speaker>
-<l gn="1659" n="3" form="verse" rend="indent(0)">I do consent&#8288;&#8212;</l>
+<l gn="1659" n="3" form="verse">I do consent&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Octavius Caesar">OCT.</speaker>
@@ -4288,7 +4288,7 @@
 <l gn="1669" n="12" form="verse">This is a slight unmeritable man,</l>
 <l gn="1670" n="13" form="verse">Meet to be sent on errands; is it fit,</l>
 <l gn="1671" n="14" form="verse">The threefold world divided, he should stand</l>
-<l gn="1672" n="15" form="verse" rend="indent(0)">One of the three to share it?</l>
+<l gn="1672" n="15" form="verse">One of the three to share it?</l>
 </sp>
 <sp>
 <speaker long="Octavius Caesar">OCT.</speaker>
@@ -4307,7 +4307,7 @@
 <l gn="1682" n="24" form="verse">And having brought our treasure where we will,</l>
 <l gn="1683" n="25" form="verse">Then take we down his load, and turn him off</l>
 <l gn="1684" n="26" form="verse">(Like to the empty ass) to shake his ears</l>
-<l gn="1685" n="27" form="verse" rend="indent(0)">And graze in commons.</l>
+<l gn="1685" n="27" form="verse">And graze in commons.</l>
 </sp>
 <sp>
 <speaker long="Octavius Caesar">OCT.</speaker>
@@ -4401,7 +4401,7 @@
 <l gn="1717" n="7" form="verse">In his own change, or by ill officers,</l>
 <l gn="1718" n="8" form="verse">Hath given me some worthy cause to wish</l>
 <l gn="1719" n="9" form="verse">Things done undone; but if he be at hand</l>
-<l gn="1720" n="10" form="verse" rend="indent(0)">I shall be satisfied.</l>
+<l gn="1720" n="10" form="verse">I shall be satisfied.</l>
 </sp>
 <sp>
 <speaker long="Pindarus">PIN.</speaker>
@@ -4419,7 +4419,7 @@
 <l gn="1726" n="15" form="verse">With courtesy and with respect enough,</l>
 <l gn="1727" n="16" form="verse">But not with such familiar instances,</l>
 <l gn="1728" n="17" form="verse">Nor with such free and friendly conference,</l>
-<l gn="1729" n="18" form="verse" rend="indent(0)">As he hath us&#8217;d of old.</l>
+<l gn="1729" n="18" form="verse">As he hath us&#8217;d of old.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4491,7 +4491,7 @@
 <sp>
 <speaker long="Cassius">CAS.</speaker>
 <l gn="1753" n="41" form="verse">Brutus, this sober form of yours hides wrongs,</l>
-<l gn="1754" n="42" form="verse" rend="indent(0)">And when you do them&#8288;&#8212;</l>
+<l gn="1754" n="42" form="verse">And when you do them&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4501,7 +4501,7 @@
 <l gn="1758" n="45" form="verse">(Which should perceive nothing but love from us)</l>
 <l gn="1759" n="46" form="verse">Let us not wrangle. Bid them move away;</l>
 <l gn="1760" n="47" form="verse">Then in my tent, Cassius, enlarge your griefs,</l>
-<l gn="1761" n="48" form="verse" rend="indent(0)">And I will give you audience.</l>
+<l gn="1761" n="48" form="verse">And I will give you audience.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4581,7 +4581,7 @@
 <l gn="1776" n="9" form="verse">Let me tell you, Cassius, you yourself</l>
 <l gn="1777" n="10" form="verse">Are much condemn&#8217;d to have an itching palm,</l>
 <l gn="1778" n="11" form="verse">To sell and mart your offices for gold</l>
-<l gn="1779" n="12" form="verse" rend="indent(0)">To undeservers.</l>
+<l gn="1779" n="12" form="verse">To undeservers.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4610,7 +4610,7 @@
 <l gn="1793" n="25" form="verse">And sell the mighty space of our large honors</l>
 <l gn="1794" n="26" form="verse">For so much trash as may be grasped thus?</l>
 <l gn="1795" n="27" form="verse">I had rather be a dog, and bay the moon,</l>
-<l gn="1796" n="28" form="verse" rend="indent(0)">Than such a Roman.</l>
+<l gn="1796" n="28" form="verse">Than such a Roman.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4618,7 +4618,7 @@
 <l gn="1798" n="29" form="verse">I&#8217;ll not endure it. You forget yourself</l>
 <l gn="1799" n="30" form="verse">To hedge me in. I am a soldier, I,</l>
 <l gn="1800" n="31" form="verse">Older in practice, abler than yourself</l>
-<l gn="1801" n="32" form="verse" rend="indent(0)">To make conditions.</l>
+<l gn="1801" n="32" form="verse">To make conditions.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4643,7 +4643,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1808" n="38" form="verse" rend="indent(0)">Is&#8217;t possible?</l>
+<l gn="1808" n="38" form="verse">Is&#8217;t possible?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4665,7 +4665,7 @@
 <l gn="1818" n="47" form="verse">You shall digest the venom of your spleen</l>
 <l gn="1819" n="48" form="verse">Though it do split you; for, from this day forth,</l>
 <l gn="1820" n="49" form="verse">I&#8217;ll use you for my mirth, yea, for my laughter,</l>
-<l gn="1821" n="50" form="verse" rend="indent(0)">When you are waspish.</l>
+<l gn="1821" n="50" form="verse">When you are waspish.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4682,7 +4682,7 @@
 <speaker long="Cassius">CAS.</speaker>
 <l gn="1827" n="55" form="verse">You wrong me every way; you wrong me, Brutus:</l>
 <l gn="1828" n="56" form="verse">I said an elder soldier, not a better.</l>
-<l gn="1829" n="57" form="verse" rend="indent(0)">Did I say &#8220;better&#8221;?</l>
+<l gn="1829" n="57" form="verse">Did I say &#8220;better&#8221;?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4706,7 +4706,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1835" n="62" form="verse" rend="indent(0)">What? Durst not tempt him?</l>
+<l gn="1835" n="62" form="verse">What? Durst not tempt him?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4736,7 +4736,7 @@
 <l gn="1853" n="79" form="verse">When Marcus Brutus grows so covetous</l>
 <l gn="1854" n="80" form="verse">To lock such rascal counters from his friends,</l>
 <l gn="1855" n="81" form="verse">Be ready, gods, with all your thunderbolts,</l>
-<l gn="1856" n="82" form="verse" rend="indent(0)">Dash him to pieces!</l>
+<l gn="1856" n="82" form="verse">Dash him to pieces!</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4759,7 +4759,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1864" n="89" form="verse" rend="indent(0)">You love me not.</l>
+<l gn="1864" n="89" form="verse">You love me not.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4790,7 +4790,7 @@
 <l gn="1880" n="104" form="verse">I, that denied thee gold, will give my heart:</l>
 <l gn="1881" n="105" form="verse">Strike as thou didst at Caesar; for I know,</l>
 <l gn="1882" n="106" form="verse">When thou didst hate him worst, thou lovedst him better</l>
-<l gn="1883" n="107" form="verse" rend="indent(0)">Than ever thou lovedst Cassius.</l>
+<l gn="1883" n="107" form="verse">Than ever thou lovedst Cassius.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4800,7 +4800,7 @@
 <l gn="1887" n="110" form="verse">O Cassius, you are yoked with a lamb</l>
 <l gn="1888" n="111" form="verse">That carries anger as the flint bears fire,</l>
 <l gn="1889" n="112" form="verse">Who, much enforced, shows a hasty spark,</l>
-<l gn="1890" n="113" form="verse" rend="indent(0)">And straight is cold again.</l>
+<l gn="1890" n="113" form="verse">And straight is cold again.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4818,7 +4818,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="1896" n="118" form="verse" rend="indent(0)">And my heart too.</l>
+<l gn="1896" n="118" form="verse">And my heart too.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4832,7 +4832,7 @@
 <speaker long="Cassius">CAS.</speaker>
 <l gn="1899" n="119" form="verse">Have not you love enough to bear with me,</l>
 <l gn="1900" n="120" form="verse">When that rash humor which my mother gave me</l>
-<l gn="1901" n="121" form="verse" rend="indent(0)">Makes me forgetful?</l>
+<l gn="1901" n="121" form="verse">Makes me forgetful?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4874,8 +4874,8 @@
 <sp>
 <speaker long="A Poet">POET.</speaker>
 <l gn="1911" n="130" form="verse">For shame, you generals! What do you mean?</l>
-<l gn="1912" n="131" form="verse">Love, and be friends, as two such men should be,</l>
-<l gn="1913" n="132" form="verse">For I have seen more years, I&#8217;m sure, than ye.</l>
+<l gn="1912" n="131" form="rhyme">Love, and be friends, as two such men should be,</l>
+<l gn="1913" n="132" form="rhyme">For I have seen more years, I&#8217;m sure, than ye.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4893,7 +4893,7 @@
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="1917" n="136" form="verse">I&#8217;ll know his humor, when he knows his time.</l>
 <l gn="1918" n="137" form="verse">What should the wars do with these jigging fools?</l>
-<l gn="1919" n="138" form="verse" rend="indent(0)">Companion, hence!</l>
+<l gn="1919" n="138" form="verse">Companion, hence!</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -4913,7 +4913,7 @@
 <sp>
 <speaker long="Cassius">CAS.</speaker>
 <l gn="1923" n="141" form="verse">And come yourselves, and bring Messala with you</l>
-<l gn="1924" n="142" form="verse" rend="indent(0)">Immediately to us.</l>
+<l gn="1924" n="142" form="verse">Immediately to us.</l>
 </sp>
 <stage sgn="1924.01" sn="142.01">
 <dir>Exeunt Lucilius and Titinius.</dir>
@@ -4969,7 +4969,7 @@
 <speaker long="Cassius">CAS.</speaker>
 <l gn="1933" n="150" form="verse">How scap&#8217;d I killing when I cross&#8217;d you so?</l>
 <l gn="1934" n="151" form="verse">O insupportable and touching loss!</l>
-<l gn="1935" n="152" form="verse" rend="indent(0)">Upon what sickness?</l>
+<l gn="1935" n="152" form="verse">Upon what sickness?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -4981,7 +4981,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1941" n="157" form="verse" rend="indent(0)">And died so?</l>
+<l gn="1941" n="157" form="verse">And died so?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5041,7 +5041,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1952" n="166" form="verse" rend="indent(0)">Portia, art thou gone?</l>
+<l gn="1952" n="166" form="verse">Portia, art thou gone?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5073,7 +5073,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1966" n="179" form="verse" rend="indent(0)">Cicero one?</l>
+<l gn="1966" n="179" form="verse">Cicero one?</l>
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
@@ -5091,7 +5091,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="1972" n="184" form="verse" rend="indent(0)">Nothing, Messala.</l>
+<l gn="1972" n="184" form="verse">Nothing, Messala.</l>
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
@@ -5136,7 +5136,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="1987" n="198" form="verse" rend="indent(0)">I do not think it good.</l>
+<l gn="1987" n="198" form="verse">I do not think it good.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5161,7 +5161,7 @@
 <l gn="2000" n="209" form="verse">Come on refresh&#8217;d, new-added, and encourag&#8217;d;</l>
 <l gn="2001" n="210" form="verse">From which advantage shall we cut him off</l>
 <l gn="2002" n="211" form="verse">If at Philippi we do face him there,</l>
-<l gn="2003" n="212" form="verse" rend="indent(0)">These people at our back.</l>
+<l gn="2003" n="212" form="verse">These people at our back.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5180,7 +5180,7 @@
 <l gn="2013" n="221" form="verse">Is bound in shallows and in miseries.</l>
 <l gn="2014" n="222" form="verse">On such a full sea are we now afloat,</l>
 <l gn="2015" n="223" form="verse">And we must take the current when it serves,</l>
-<l gn="2016" n="224" form="verse" rend="indent(0)">Or lose our ventures.</l>
+<l gn="2016" n="224" form="verse">Or lose our ventures.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5192,7 +5192,7 @@
 <l gn="2019" n="226" form="verse">The deep of night is crept upon our talk,</l>
 <l gn="2020" n="227" form="verse">And nature must obey necessity,</l>
 <l gn="2021" n="228" form="verse">Which we will niggard with a little rest.</l>
-<l gn="2022" n="229" form="verse" rend="indent(0)">There is no more to say?</l>
+<l gn="2022" n="229" form="verse">There is no more to say?</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5201,14 +5201,14 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="2025" n="231" form="verse" rend="indent(0)">Lucius!</l>
+<l gn="2025" n="231" form="verse">Lucius!</l>
 <stage sgn="2025.01" sn="231.01">
 <dir>Enter Lucius.</dir>
 	<action type="enter">
 		<actor>LUC.</actor>
 	</action>
 </stage>
-<l gn="2026" n="231" form="verse" rend="indent(2)" part="m">My gown.</l>
+<l gn="2026" n="231" form="verse" rend="indent(3)" part="m">My gown.</l>
 <stage sgn="2026.01" sn="231.02">
 <dir>Exit Lucius.</dir>
 	<action type="exit">
@@ -5217,14 +5217,14 @@
 </stage>
 <l gn="2027" n="231" form="verse" rend="indent(5)">Farewell, good Messala.</l>
 <l gn="2028" n="232" form="verse">Good night, Titinius. Noble, noble Cassius,</l>
-<l gn="2029" n="233" form="verse" rend="indent(0)">Good night, and good repose.</l>
+<l gn="2029" n="233" form="verse">Good night, and good repose.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
 <l gn="2030" n="233" form="verse" rend="indent(6)">O my dear brother!</l>
 <l gn="2031" n="234" form="verse">This was an ill beginning of the night.</l>
 <l gn="2032" n="235" form="verse">Never come such division &#8217;tween our souls!</l>
-<l gn="2033" n="236" form="verse" rend="indent(0)">Let it not, Brutus.</l>
+<l gn="2033" n="236" form="verse">Let it not, Brutus.</l>
 </sp>
 <stage sgn="2033.01" sn="236.01">
 <dir>Enter Lucius with the gown.</dir>
@@ -5238,7 +5238,7 @@
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="2035" n="237" form="verse" rend="indent(0)">Good night, my lord.</l>
+<l gn="2035" n="237" form="verse">Good night, my lord.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5246,7 +5246,7 @@
 </sp>
 <sp>
 <speaker long="Both Titinius and Messala">BOTH TIT. AND MES.</speaker>
-<l gn="2037" n="238" form="verse" rend="indent(0)">Good night, Lord Brutus.</l>
+<l gn="2037" n="238" form="verse">Good night, Lord Brutus.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5263,7 +5263,7 @@
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
-<l gn="2040" n="240" form="verse" rend="indent(0)">Here in the tent.</l>
+<l gn="2040" n="240" form="verse">Here in the tent.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5323,7 +5323,7 @@
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
-<l gn="2059" n="258" form="verse" rend="indent(0)">Ay, my lord, an&#8217;t please you.</l>
+<l gn="2059" n="258" form="verse">Ay, my lord, an&#8217;t please you.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5377,7 +5377,7 @@
 </sp>
 <sp>
 <speaker long="Ghost of Julius Caesar" alias="CAES.">GHOST.</speaker>
-<l gn="2084" n="282" form="verse" rend="indent(0)">Thy evil spirit, Brutus.</l>
+<l gn="2084" n="282" form="verse">Thy evil spirit, Brutus.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5464,7 +5464,7 @@
 </sp>
 <sp>
 <speaker long="Both Claudio and Varrus">BOTH VAR. AND CLAU.</speaker>
-<l gn="2107" n="304" form="verse" rend="indent(0)">Did we, my lord?</l>
+<l gn="2107" n="304" form="verse">Did we, my lord?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -5472,7 +5472,7 @@
 </sp>
 <sp>
 <speaker long="Varrus">VAR.</speaker>
-<l gn="2109" n="305" form="verse" rend="indent(0)">No, my lord, I saw nothing.</l>
+<l gn="2109" n="305" form="verse">No, my lord, I saw nothing.</l>
 </sp>
 <sp>
 <speaker long="Claudio">CLAU.</speaker>
@@ -5482,7 +5482,7 @@
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="2111" n="306" form="verse">Go and commend me to my brother Cassius;</l>
 <l gn="2112" n="307" form="verse">Bid him set on his pow&#8217;rs betimes before,</l>
-<l gn="2113" n="308" form="verse" rend="indent(0)">And we will follow.</l>
+<l gn="2113" n="308" form="verse">And we will follow.</l>
 </sp>
 <sp>
 <speaker long="Both Claudio and Varrus">BOTH VAR. AND CLAU.</speaker>
@@ -5538,7 +5538,7 @@
 <l gn="2123" n="9" form="verse">To visit other places, and come down</l>
 <l gn="2124" n="10" form="verse">With fearful bravery, thinking by this face</l>
 <l gn="2125" n="11" form="verse">To fasten in our thoughts that they have courage;</l>
-<l gn="2126" n="12" form="verse" rend="indent(0)">But &#8217;tis not so.</l>
+<l gn="2126" n="12" form="verse">But &#8217;tis not so.</l>
 </sp>
 <stage sgn="2126.01" sn="12.01">
 <dir>Enter a Messenger.</dir>
@@ -5622,14 +5622,14 @@
 <speaker long="Mark Antony">ANT.</speaker>
 <l gn="2145" n="30" form="verse">In your bad strokes, Brutus, you give good words;</l>
 <l gn="2146" n="31" form="verse">Witness the hole you made in Caesar&#8217;s heart,</l>
-<l gn="2147" n="32" form="verse" rend="indent(0)">Crying, &#8220;Long live! Hail, Caesar!&#8221;</l>
+<l gn="2147" n="32" form="verse">Crying, &#8220;Long live! Hail, Caesar!&#8221;</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
 <l gn="2148" n="32" form="verse" rend="indent(7)">Antony,</l>
 <l gn="2149" n="33" form="verse">The posture of your blows are yet unknown;</l>
 <l gn="2150" n="34" form="verse">But for your words, they rob the Hybla bees,</l>
-<l gn="2151" n="35" form="verse" rend="indent(0)">And leave them honeyless.</l>
+<l gn="2151" n="35" form="verse">And leave them honeyless.</l>
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
@@ -5670,7 +5670,7 @@
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="2173" n="56" form="verse">Caesar, thou canst not die by traitors&#8217; hands,</l>
-<l gn="2174" n="57" form="verse" rend="indent(0)">Unless thou bring&#8217;st them with thee.</l>
+<l gn="2174" n="57" form="verse">Unless thou bring&#8217;st them with thee.</l>
 </sp>
 <sp>
 <speaker long="Octavius Caesar">OCT.</speaker>
@@ -5689,7 +5689,7 @@
 </sp>
 <sp>
 <speaker long="Mark Antony">ANT.</speaker>
-<l gn="2181" n="63" form="verse" rend="indent(0)">Old Cassius still!</l>
+<l gn="2181" n="63" form="verse">Old Cassius still!</l>
 </sp>
 <sp>
 <speaker long="Octavius Caesar">OCT.</speaker>
@@ -5734,7 +5734,7 @@
 </stage>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
-<l gn="2190" n="71" form="verse" rend="indent(0)">Messala!</l>
+<l gn="2190" n="71" form="verse">Messala!</l>
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
@@ -5764,7 +5764,7 @@
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
-<l gn="2211" n="90" form="verse" rend="indent(0)">Believe not so.</l>
+<l gn="2211" n="90" form="verse">Believe not so.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5774,7 +5774,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="2215" n="93" form="verse" rend="indent(0)">Even so, Lucilius.</l>
+<l gn="2215" n="93" form="verse">Even so, Lucilius.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5796,7 +5796,7 @@
 <l gn="2228" n="105" form="verse">For fear of what might fall, so to prevent</l>
 <l gn="2229" n="106" form="verse">The time of life&#8212;arming myself with patience</l>
 <l gn="2230" n="107" form="verse">To stay the providence of some high powers</l>
-<l gn="2231" n="108" form="verse" rend="indent(0)">That govern us below.</l>
+<l gn="2231" n="108" form="verse">That govern us below.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -5935,7 +5935,7 @@
 </sp>
 <sp>
 <speaker long="Titinius">TIT.</speaker>
-<l gn="2270" n="14" form="verse" rend="indent(0)">They are, my lord.</l>
+<l gn="2270" n="14" form="verse">They are, my lord.</l>
 </sp>
 <sp>
 <speaker long="Cassius">CAS.</speaker>
@@ -6066,7 +6066,7 @@
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
-<l gn="2314" n="57" form="verse" rend="indent(0)">Where did you leave him?</l>
+<l gn="2314" n="57" form="verse">Where did you leave him?</l>
 </sp>
 <sp>
 <speaker long="Titinius">TIT.</speaker>
@@ -6083,7 +6083,7 @@
 </sp>
 <sp>
 <speaker long="Messala">MES.</speaker>
-<l gn="2319" n="61" form="verse" rend="indent(0)">Is not that he?</l>
+<l gn="2319" n="61" form="verse">Is not that he?</l>
 </sp>
 <sp>
 <speaker long="Titinius">TIT.</speaker>
@@ -6115,7 +6115,7 @@
 <l gn="2336" n="77" form="verse">Into his ears; I may say &#8220;thrusting&#8221; it;</l>
 <l gn="2337" n="78" form="verse">For piercing steel, and darts envenomed,</l>
 <l gn="2338" n="79" form="verse">Shall be as welcome to the ears of Brutus</l>
-<l gn="2339" n="80" form="verse" rend="indent(0)">As tidings of this sight.</l>
+<l gn="2339" n="80" form="verse">As tidings of this sight.</l>
 </sp>
 <sp type="soliloquy">
 <speaker long="Titinius">TIT.</speaker>
@@ -6136,8 +6136,8 @@
 <l gn="2348" n="88" form="verse">Thy Brutus bid me give it thee, and I</l>
 <l gn="2349" n="89" form="verse">Will do his bidding. Brutus, come apace,</l>
 <l gn="2350" n="90" form="verse">And see how I regarded Caius Cassius.</l>
-<l gn="2351" n="91" form="verse">By your leave, gods!&#8212;this is a Roman&#8217;s part.</l>
-<l gn="2352" n="92" form="verse">Come, Cassius&#8217; sword, and find Titinius&#8217; heart.</l>
+<l gn="2351" n="91" form="rhyme">By your leave, gods!&#8212;this is a Roman&#8217;s part.</l>
+<l gn="2352" n="92" form="rhyme">Come, Cassius&#8217; sword, and find Titinius&#8217; heart.</l>
 </sp>
 <stage sgn="2352.01" sn="92.01">
 <dir>Dies.</dir>
@@ -6168,7 +6168,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="2355" n="95" form="verse" rend="indent(0)">Titinius&#8217; face is upward.</l>
+<l gn="2355" n="95" form="verse">Titinius&#8217; face is upward.</l>
 </sp>
 <sp>
 <speaker long="Young Cato">CATO.</speaker>
@@ -6178,7 +6178,7 @@
 <speaker long="Marcus Brutus">BRU.</speaker>
 <l gn="2357" n="96" form="verse">O Julius Caesar, thou art mighty yet!</l>
 <l gn="2358" n="97" form="verse">Thy spirit walks abroad, and turns our swords</l>
-<l gn="2359" n="98" form="verse" rend="indent(0)">In our own proper entrails.</l>
+<l gn="2359" n="98" form="verse">In our own proper entrails.</l>
 </sp>
 <stage sgn="2359.01" sn="98.01">
 <dir>Low alarums.</dir>
@@ -6203,8 +6203,8 @@
 <l gn="2370" n="108" form="verse">Lest it discomfort us. Lucilius, come,</l>
 <l gn="2371" n="109" form="verse">And come, young Cato, let us to the field,</l>
 <l gn="2372" n="110" form="verse">Labio and Flavio set our battles on.</l>
-<l gn="2373" n="111" form="verse">&#8217;Tis three a&#8217; clock, and, Romans, yet ere night</l>
-<l gn="2374" n="112" form="verse">We shall try fortune in a second fight.</l>
+<l gn="2373" n="111" form="rhyme">&#8217;Tis three o&#8217;clock, and, Romans, yet ere night</l>
+<l gn="2374" n="112" form="rhyme">We shall try fortune in a second fight.</l>
 </sp>
 <stage sgn="2374.01" sn="112.01">
 <dir>Exeunt.</dir>
@@ -6283,7 +6283,7 @@
 </sp>
 <sp>
 <speaker long="First Soldier of Antony&#8217;s">1. ANT. SOLD.</speaker>
-<l gn="2386" n="12" form="verse" rend="indent(0)">Yield, or thou diest.</l>
+<l gn="2386" n="12" form="verse">Yield, or thou diest.</l>
 </sp>
 <sp>
 <speaker long="Lucilius">LUCIL.</speaker>
@@ -6396,7 +6396,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="2414" n="7" form="verse" rend="indent(0)">Peace then, no words.</l>
+<l gn="2414" n="7" form="verse">Peace then, no words.</l>
 </sp>
 <sp>
 <speaker long="Clitus">CLI.</speaker>
@@ -6404,7 +6404,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
-<l gn="2416" n="8" form="verse" rend="indent(0)">Hark thee, Dardanius.</l>
+<l gn="2416" n="8" form="verse">Hark thee, Dardanius.</l>
 </sp>
 <stage sgn="2416.01" sn="8.01">
 <dir>Whispering.</dir>
@@ -6443,7 +6443,7 @@
 </sp>
 <sp>
 <speaker long="Volumnius">VOL.</speaker>
-<l gn="2425" n="16" form="verse" rend="indent(0)">What says my lord?</l>
+<l gn="2425" n="16" form="verse">What says my lord?</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -6451,7 +6451,7 @@
 <l gn="2427" n="17" form="verse">The ghost of Caesar hath appear&#8217;d to me</l>
 <l gn="2428" n="18" form="verse">Two several times by night; at Sardis once,</l>
 <l gn="2429" n="19" form="verse">And this last night, here in Philippi fields.</l>
-<l gn="2430" n="20" form="verse" rend="indent(0)">I know my hour is come.</l>
+<l gn="2430" n="20" form="verse">I know my hour is come.</l>
 </sp>
 <sp>
 <speaker long="Volumnius">VOL.</speaker>
@@ -6508,7 +6508,7 @@
 </stage>
 <sp>
 <speaker long="Clitus">CLI.</speaker>
-<l gn="2454" n="43" form="verse" rend="indent(0)">Fly, my lord, fly.</l>
+<l gn="2454" n="43" form="verse">Fly, my lord, fly.</l>
 </sp>
 <sp>
 <speaker long="Marcus Brutus">BRU.</speaker>
@@ -6540,8 +6540,8 @@
 		<actor>BRU.</actor>
 	</action>
 </stage>
-<l gn="2463" n="51" form="verse">Caesar, now be still,</l>
-<l gn="2464" n="52" form="verse">I kill&#8217;d not thee with half so good a will.</l>
+<l gn="2463" n="51" form="rhyme">Caesar, now be still,</l>
+<l gn="2464" n="52" form="rhyme">I kill&#8217;d not thee with half so good a will.</l>
 </sp>
 <stage sgn="2464.01" sn="52.01">
 <dir>Dies.</dir>
@@ -6623,8 +6623,8 @@
 <l gn="2490" n="78" form="verse">With all respect and rites of burial.</l>
 <l gn="2491" n="79" form="verse">Within my tent his bones tonight shall lie,</l>
 <l gn="2492" n="80" form="verse">Most like a soldier, ordered honorably.</l>
-<l gn="2493" n="81" form="verse">So call the field to rest, and let&#8217;s away,</l>
-<l gn="2494" n="82" form="verse">To part the glories of this happy day.</l>
+<l gn="2493" n="81" form="rhyme">So call the field to rest, and let&#8217;s away,</l>
+<l gn="2494" n="82" form="rhyme">To part the glories of this happy day.</l>
 </sp>
 <stage sgn="2494.01" sn="82.01">
 <dir>Exeunt omnes.</dir>

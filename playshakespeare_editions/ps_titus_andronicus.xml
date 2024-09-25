@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="titus-andronicus">
 <title>
-	<common>Titus Andronicus	</common>
+	<common>Titus Andronicus</common>
 	<main>The Tragedy of Titus Andronicus</main>
 	<short>Titus Andronicus</short>
 	<abbr>Tit</abbr>
@@ -21,7 +21,7 @@
 </availability>
 </publicationStmt>
 <editionStmt>
-<edition n="5.0"></edition>
+<edition n="5.1"></edition>
 </editionStmt>
 </fileDesc>
 <castList playtitle="Titus Andronicus">
@@ -214,8 +214,8 @@
 <l gn="4" n="4" form="verse">Plead my successive title with your swords.</l>
 <l gn="5" n="5" form="verse">I am his first-born son, that was the last</l>
 <l gn="6" n="6" form="verse">That ware the imperial diadem of Rome,</l>
-<l gn="7" n="7" form="verse">Then let my father&#8217;s honors live in me,</l>
-<l gn="8" n="8" form="verse">Nor wrong mine age with this indignity.</l>
+<l gn="7" n="7" form="rhyme">Then let my father&#8217;s honors live in me,</l>
+<l gn="8" n="8" form="rhyme">Nor wrong mine age with this indignity.</l>
 </sp>
 <sp>
 <speaker long="Bassianus">BAS.</speaker>
@@ -531,8 +531,8 @@
 <speaker long="Titus Andronicus">TIT.</speaker>
 <l gn="165" n="165" form="verse">Kind Rome, that hast thus lovingly reserv&#8217;d</l>
 <l gn="166" n="166" form="verse">The cordial of mine age to glad my heart!</l>
-<l gn="167" n="167" form="verse">Lavinia, live, outlive thy father&#8217;s days,</l>
-<l gn="168" n="168" form="verse">And fame&#8217;s eternal date, for virtue&#8217;s praise!</l>
+<l gn="167" n="167" form="rhyme">Lavinia, live, outlive thy father&#8217;s days,</l>
+<l gn="168" n="168" form="rhyme">And fame&#8217;s eternal date, for virtue&#8217;s praise!</l>
 </sp>
 <stage sgn="168.01" sn="168.01">
 <dir>Marcus Andronicus, attended by the other Tribunes, with Saturninus and Bassianus, speaks from above.</dir>
@@ -597,7 +597,7 @@
 </sp>
 <sp>
 <speaker long="Titus Andronicus">TIT.</speaker>
-<l gn="203" n="203" form="verse" rend="indent(0)">Patience, Prince Saturninus.</l>
+<l gn="203" n="203" form="verse">Patience, Prince Saturninus.</l>
 </sp>
 <sp>
 <speaker long="Saturninus">SAT.</speaker>
@@ -783,7 +783,7 @@
 </sp>
 <sp>
 <speaker long="Saturninus">SAT.</speaker>
-<l gn="286" n="285" form="verse" rend="indent(0)">Surpris&#8217;d? By whom?</l>
+<l gn="286" n="285" form="verse">Surpris&#8217;d? By whom?</l>
 </sp>
 <sp>
 <speaker long="Bassianus">BAS.</speaker>
@@ -817,12 +817,12 @@
 </sp>
 <sp>
 <speaker long="Mutius">MUT.</speaker>
-<l gn="292" n="290" form="verse" rend="indent(0)">My lord, you pass not here.</l>
+<l gn="292" n="290" form="verse">My lord, you pass not here.</l>
 </sp>
 <sp>
 <speaker long="Titus Andronicus">TIT.</speaker>
 <l gn="293" n="290" form="verse" rend="indent(5)">What, villain boy,</l>
-<l gn="294" n="291" form="verse" rend="indent(0)">Barr&#8217;st me my way in Rome?</l>
+<l gn="294" n="291" form="verse">Barr&#8217;st me my way in Rome?</l>
 </sp>
 <sp>
 <speaker long="Mutius">MUT.</speaker>
@@ -1082,7 +1082,7 @@
 <l gn="384" n="380" form="verse">That slew himself; and wise Laertes&#8217; son</l>
 <l gn="385" n="381" form="verse">Did graciously plead for his funerals;</l>
 <l gn="386" n="382" form="verse">Let not young Mutius then, that was thy joy,</l>
-<l gn="387" n="383" form="verse" rend="indent(0)">Be barr&#8217;d his entrance here.</l>
+<l gn="387" n="383" form="verse">Be barr&#8217;d his entrance here.</l>
 </sp>
 <sp>
 <speaker long="Titus Andronicus">TIT.</speaker>
@@ -1420,8 +1420,8 @@
 <l gn="532" n="32" form="verse">Makes me less gracious, or thee more fortunate;</l>
 <l gn="533" n="33" form="verse">I am as able and as fit as thou</l>
 <l gn="534" n="34" form="verse">To serve, and to deserve my mistress&#8217; grace,</l>
-<l gn="535" n="35" form="verse">And that my sword upon thee shall approve,</l>
-<l gn="536" n="36" form="verse">And plead my passions for Lavinia&#8217;s love.</l>
+<l gn="535" n="35" form="rhyme">And that my sword upon thee shall approve,</l>
+<l gn="536" n="36" form="rhyme">And plead my passions for Lavinia&#8217;s love.</l>
 </sp>
 <sp>
 <speaker long="Aaron">AAR.</speaker>
@@ -1448,7 +1448,7 @@
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
-<l gn="545" n="45" form="verse" rend="indent(0)">Ay, boy, grow ye so brave?</l>
+<l gn="545" n="45" form="verse">Ay, boy, grow ye so brave?</l>
 </sp>
 <stage sgn="545.01" sn="45.01">
 <dir>They draw.</dir>
@@ -1473,7 +1473,7 @@
 <l gn="551" n="50" form="verse">The cause were known to them it most concerns,</l>
 <l gn="552" n="51" form="verse">Nor would your noble mother for much more</l>
 <l gn="553" n="52" form="verse">Be so dishonored in the court of Rome.</l>
-<l gn="554" n="53" form="verse" rend="indent(0)">For shame, put up.</l>
+<l gn="554" n="53" form="verse">For shame, put up.</l>
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
@@ -1518,7 +1518,7 @@
 <l gn="578" n="76" form="verse">How furious and impatient they be,</l>
 <l gn="579" n="77" form="verse">And cannot brook competitors in love?</l>
 <l gn="580" n="78" form="verse">I tell you, lords, you do but plot your deaths</l>
-<l gn="581" n="79" form="verse" rend="indent(0)">By this device.</l>
+<l gn="581" n="79" form="verse">By this device.</l>
 </sp>
 <sp>
 <speaker long="Chiron">CHI.</speaker>
@@ -1527,7 +1527,7 @@
 </sp>
 <sp>
 <speaker long="Aaron">AAR.</speaker>
-<l gn="584" n="81" form="verse" rend="indent(0)">To achieve her how?</l>
+<l gn="584" n="81" form="verse">To achieve her how?</l>
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
@@ -1561,7 +1561,7 @@
 <sp>
 <speaker long="Aaron">AAR.</speaker>
 <l gn="599" n="95" form="verse">Why then it seems some certain snatch or so</l>
-<l gn="600" n="96" form="verse" rend="indent(0)">Would serve your turns.</l>
+<l gn="600" n="96" form="verse">Would serve your turns.</l>
 </sp>
 <sp>
 <speaker long="Chiron">CHI.</speaker>
@@ -1581,7 +1581,7 @@
 </sp>
 <sp>
 <speaker long="Chiron">CHI.</speaker>
-<l gn="608" n="103" form="verse" rend="indent(0)">Faith, not me.</l>
+<l gn="608" n="103" form="verse">Faith, not me.</l>
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
@@ -1706,7 +1706,7 @@
 </sp>
 <sp>
 <speaker long="Bassianus">BAS.</speaker>
-<l gn="658" n="16" form="verse" rend="indent(0)">Lavinia, how say you?</l>
+<l gn="658" n="16" form="verse">Lavinia, how say you?</l>
 </sp>
 <sp>
 <speaker long="Lavinia">LAV.</speaker>
@@ -1716,7 +1716,7 @@
 <sp>
 <speaker long="Saturninus">SAT.</speaker>
 <l gn="661" n="18" form="verse">Come on then, horse and chariots let us have,</l>
-<l gn="662" n="19" form="verse" rend="indent(0)">And to our sport.</l>
+<l gn="662" n="19" form="verse">And to our sport.</l>
 <stage sgn="662.01" sn="19.01">
 <dir>To Tamora.</dir>
 	<action type="speak">
@@ -1725,7 +1725,7 @@
 	</action>
 </stage>
 <l gn="663" n="19" form="verse" rend="indent(4)">Madam, now shall ye see</l>
-<l gn="664" n="20" form="verse" rend="indent(0)">Our Roman hunting.</l>
+<l gn="664" n="20" form="verse">Our Roman hunting.</l>
 </sp>
 <sp>
 <speaker long="Marcus Andronicus">MARC.</speaker>
@@ -1740,8 +1740,8 @@
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
-<l gn="670" n="25" form="verse">Chiron, we hunt not, we, with horse nor hound,</l>
-<l gn="671" n="26" form="verse">But hope to pluck a dainty doe to ground.</l>
+<l gn="670" n="25" form="rhyme">Chiron, we hunt not, we, with horse nor hound,</l>
+<l gn="671" n="26" form="rhyme">But hope to pluck a dainty doe to ground.</l>
 </sp>
 <stage sgn="671.01" sn="26.01">
 <dir>Exeunt.</dir>
@@ -1836,7 +1836,7 @@
 <l gn="702" n="31" form="verse">Saturn is dominator over mine:</l>
 <l gn="703" n="32" form="verse">What signifies my deadly-standing eye,</l>
 <l gn="704" n="33" form="verse">My silence, an&#8217; my cloudy melancholy,</l>
-<l gn="705" n="34" form="verse">My fleece of woolly hair that now uncurls,</l>
+<l gn="705" n="34" form="verse">My fleece of wooly hair that now uncurls,</l>
 <l gn="706" n="35" form="verse">Even as an adder when she doth unroll</l>
 <l gn="707" n="36" form="verse">To do some fatal execution?</l>
 <l gn="708" n="37" form="verse">No, madam, these are no venereal signs.</l>
@@ -2127,8 +2127,8 @@
 </sp>
 <sp>
 <speaker long="Tamora">TAM.</speaker>
-<l gn="850" n="179" form="verse">So should I rob my sweet sons of their fee.</l>
-<l gn="851" n="180" form="verse">No, let them satisfice their lust on thee.</l>
+<l gn="850" n="179" form="rhyme">So should I rob my sweet sons of their fee.</l>
+<l gn="851" n="180" form="rhyme">No, let them satisfice their lust on thee.</l>
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
@@ -2146,7 +2146,7 @@
 <l gn="857" n="186" form="verse">This is the hole where Aaron bid us hide him.</l>
 </sp>
 <stage sgn="857.01" sn="186.01">
-<dir>Demetrius throws the body of Bassianus into the pit. </dir>
+<dir>Demetrius throws the body of Bassianus into the pit.</dir>
 	<action type="action">
 		<actor>DEM.</actor>
 		<recipient>BAS.</recipient>
@@ -2589,8 +2589,8 @@
 <l gn="1030" n="53" form="verse">For such a sight will blind a father&#8217;s eye.</l>
 <l gn="1031" n="54" form="verse">One hour&#8217;s storm will drown the fragrant meads,</l>
 <l gn="1032" n="55" form="verse">What will whole months of tears thy father&#8217;s eyes?</l>
-<l gn="1033" n="56" form="verse">Do not draw back, for we will mourn with thee.</l>
-<l gn="1034" n="57" form="verse">O, could our mourning ease thy misery!</l>
+<l gn="1033" n="56" form="rhyme">Do not draw back, for we will mourn with thee.</l>
+<l gn="1034" n="57" form="rhyme">O, could our mourning ease thy misery!</l>
 </sp>
 <stage sgn="1034.01" sn="57.01">
 <dir>Exeunt.</dir>
@@ -2763,7 +2763,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Andronicus">MARC.</speaker>
-<l gn="1097" n="63" form="verse" rend="indent(0)">This was thy daughter.</l>
+<l gn="1097" n="63" form="verse">This was thy daughter.</l>
 </sp>
 <sp>
 <speaker long="Titus Andronicus">TIT.</speaker>
@@ -2894,8 +2894,8 @@
 <l gn="1180" n="145" form="verse">That to her brother which I said to thee:</l>
 <l gn="1181" n="146" form="verse">His napkin, with his true tears all bewet,</l>
 <l gn="1182" n="147" form="verse">Can do no service on her sorrowful cheeks.</l>
-<l gn="1183" n="148" form="verse">O, what a sympathy of woe is this,</l>
-<l gn="1184" n="149" form="verse">As far from help as limbo is from bliss!</l>
+<l gn="1183" n="148" form="rhyme">O, what a sympathy of woe is this,</l>
+<l gn="1184" n="149" form="rhyme">As far from help as limbo is from bliss!</l>
 </sp>
 <stage sgn="1184.01" sn="149.01">
 <dir>Enter Aaron the Moor alone.</dir>
@@ -2946,7 +2946,7 @@
 </sp>
 <sp>
 <speaker long="Marcus Andronicus">MARC.</speaker>
-<l gn="1211" n="176" form="verse" rend="indent(0)">My hand shall go.</l>
+<l gn="1211" n="176" form="verse">My hand shall go.</l>
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
@@ -3041,8 +3041,8 @@
 </stage>
 <l gn="1238" n="202" form="verse">Their heads, I mean. O how this villainy</l>
 <l gn="1239" n="203" form="verse">Doth fat me with the very thoughts of it!</l>
-<l gn="1240" n="204" form="verse">Let fools do good, and fair men call for grace,</l>
-<l gn="1241" n="205" form="verse">Aaron will have his soul black like his face.</l>
+<l gn="1240" n="204" form="rhyme">Let fools do good, and fair men call for grace,</l>
+<l gn="1241" n="205" form="rhyme">Aaron will have his soul black like his face.</l>
 </sp>
 <stage sgn="1241.01" sn="205.01">
 <dir>Exit.</dir>
@@ -3055,7 +3055,7 @@
 <l gn="1242" n="206" form="verse">O, here I lift this one hand up to heaven,</l>
 <l gn="1243" n="207" form="verse">And bow this feeble ruin to the earth;</l>
 <l gn="1244" n="208" form="verse">If any power pities wretched tears,</l>
-<l gn="1245" n="209" form="verse" rend="indent(0)">To that I call!</l>
+<l gn="1245" n="209" form="verse">To that I call!</l>
 <stage sgn="1245.01" sn="209.01">
 <dir>To Lavinia.</dir>
 	<action type="speak">
@@ -3514,7 +3514,7 @@
 <sp>
 <speaker long="Young Lucius">Y. LUC.</speaker>
 <l gn="1464" n="42" form="verse">Grandsire, &#8217;tis Ovid&#8217;s Metamorphosis,</l>
-<l gn="1465" n="43" form="verse" rend="indent(0)">My mother gave it me.</l>
+<l gn="1465" n="43" form="verse">My mother gave it me.</l>
 </sp>
 <sp>
 <speaker long="Marcus Andronicus">MARC.</speaker>
@@ -3752,7 +3752,7 @@
 <l gn="1566" n="14" form="verse">And so I do, and with his gifts present</l>
 <l gn="1567" n="15" form="verse">Your lordships, that, when ever you have need,</l>
 <l gn="1568" n="16" form="verse">You may be armed and appointed well:</l>
-<l gn="1569" n="17" form="verse" rend="indent(0)">And so I leave you both&#8288;&#8212;</l>
+<l gn="1569" n="17" form="verse">And so I leave you both&#8288;&#8212;</l>
 <stage sgn="1569.01" sn="17.01">
 <dir>Aside.</dir>
 	<action type="aside">
@@ -3865,7 +3865,7 @@
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
-<l gn="1604" n="51" form="verse" rend="indent(0)">Soft, who comes here?</l>
+<l gn="1604" n="51" form="verse">Soft, who comes here?</l>
 </sp>
 <stage sgn="1604.01" sn="51.01">
 <dir>Enter Nurse with a blackamoor child.</dir>
@@ -3902,7 +3902,7 @@
 </sp>
 <sp>
 <speaker long="Aaron">AAR.</speaker>
-<l gn="1616" n="62" form="verse" rend="indent(0)">To whom?</l>
+<l gn="1616" n="62" form="verse">To whom?</l>
 </sp>
 <sp>
 <speaker long="Nurse">NUR.</speaker>
@@ -4147,7 +4147,7 @@
 <sp>
 <speaker long="Chiron">CHI.</speaker>
 <l gn="1724" n="169" form="verse">Aaron, I see thou wilt not trust the air</l>
-<l gn="1725" n="170" form="verse" rend="indent(0)">With secrets.</l>
+<l gn="1725" n="170" form="verse">With secrets.</l>
 </sp>
 <sp>
 <speaker long="Demetrius">DEM.</speaker>
@@ -4306,7 +4306,7 @@
 </sp>
 <sp>
 <speaker long="Titus Andronicus">TIT.</speaker>
-<l gn="1800" n="64" form="verse" rend="indent(0)">Now, masters, draw.</l>
+<l gn="1800" n="64" form="verse">Now, masters, draw.</l>
 <stage sgn="1800.01" sn="64.01">
 <dir>They shoot.</dir>
 	<action type="action">
@@ -4508,7 +4508,7 @@
 <l gn="1873" n="31" form="verse">Whose loss hath pierc&#8217;d him deep and scarr&#8217;d his heart,</l>
 <l gn="1874" n="32" form="verse">And rather comfort his distressed plight</l>
 <l gn="1875" n="33" form="verse">Than prosecute the meanest or the best</l>
-<l gn="1876" n="34" form="verse" rend="indent(0)">For these contempts.</l>
+<l gn="1876" n="34" form="verse">For these contempts.</l>
 <stage sgn="1876.01" sn="34.01">
 <dir>Aside.</dir>
 	<action type="aside">
@@ -4796,8 +4796,8 @@
 <l gn="1997" n="44" form="verse">Say, wall-ey&#8217;d slave, whither wouldst thou convey</l>
 <l gn="1998" n="45" form="verse">This growing image of thy fiend-like face?</l>
 <l gn="1999" n="46" form="verse">Why dost not speak? What, deaf? Not a word?</l>
-<l gn="2000" n="47" form="verse">A halter, soldiers! Hang him on this tree,</l>
-<l gn="2001" n="48" form="verse">And by his side his fruit of bastardy.</l>
+<l gn="2000" n="47" form="rhyme">A halter, soldiers! Hang him on this tree,</l>
+<l gn="2001" n="48" form="rhyme">And by his side his fruit of bastardy.</l>
 </sp>
 <sp>
 <speaker long="Aaron">AAR.</speaker>
@@ -4806,9 +4806,9 @@
 <sp>
 <speaker long="Lucius">LUC.</speaker>
 <l gn="2003" n="50" form="verse">Too like the sire forever being good.</l>
-<l gn="2004" n="51" form="verse">First hang the child, that he may see it sprawl&#8288;&#8212;</l>
-<l gn="2005" n="52" form="verse">A sight to vex the father&#8217;s soul withal.</l>
-<l gn="2006" n="53" form="verse" rend="indent(0)">Get me a ladder.</l>
+<l gn="2004" n="51" form="rhyme">First hang the child, that he may see it sprawl&#8288;&#8212;</l>
+<l gn="2005" n="52" form="rhyme">A sight to vex the father&#8217;s soul withal.</l>
+<l gn="2006" n="53" form="verse">Get me a ladder.</l>
 </sp>
 <stage sgn="2006.01" sn="53.01">
 <dir>A ladder brought, which Aaron is made to ascend.</dir>
@@ -4822,8 +4822,8 @@
 <l gn="2008" n="54" form="verse">And bear it from me to the Emperess.</l>
 <l gn="2009" n="55" form="verse">If thou do this, I&#8217;ll show thee wondrous things,</l>
 <l gn="2010" n="56" form="verse">That highly may advantage thee to hear.</l>
-<l gn="2011" n="57" form="verse">If thou wilt not, befall what may befall,</l>
-<l gn="2012" n="58" form="verse">I&#8217;ll speak no more but &#8220;Vengeance rot you all!&#8221;</l>
+<l gn="2011" n="57" form="rhyme">If thou wilt not, befall what may befall,</l>
+<l gn="2012" n="58" form="rhyme">I&#8217;ll speak no more but &#8220;Vengeance rot you all!&#8221;</l>
 </sp>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
@@ -5740,8 +5740,8 @@
 </stage>
 <sp>
 <speaker long="Lucius">LUC.</speaker>
-<l gn="2389" n="65" form="verse">Can the son&#8217;s eye behold his father bleed?</l>
-<l gn="2390" n="66" form="verse">There&#8217;s meed for meed, death for a deadly deed!</l>
+<l gn="2389" n="65" form="rhyme">Can the son&#8217;s eye behold his father bleed?</l>
+<l gn="2390" n="66" form="rhyme">There&#8217;s meed for meed, death for a deadly deed!</l>
 </sp>
 <stage sgn="2390.01" sn="66.01">
 <dir>Kills Saturninus. A great tumult.</dir>

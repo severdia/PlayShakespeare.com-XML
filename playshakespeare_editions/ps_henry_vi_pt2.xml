@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="henry-vi-part-ii">
 <title>
-	<common>Henry VI, Part 2	</common>
+	<common>Henry VI, Part 2</common>
 	<main>The Second Part of Henry the Sixth</main>
 	<short>Henry 6, Part 2</short>
 	<abbr>2H6</abbr>
@@ -20,7 +20,7 @@
 </availability>
 </publicationStmt>
 <editionStmt>
-<edition n="5.0"></edition>
+<edition n="5.1"></edition>
 </editionStmt>
 </fileDesc>
 <castList playtitle="Henry VI, Part 2">
@@ -160,7 +160,7 @@
 </castItem>
 <castItem gender="female" id="c817c8c0-4015-4dc8-b361-071c58b943a5">
 <role short="M. JORD.">Margery Jourdain</role>
-<roleDesc>Margery Jourdain is a witch who works with Roger Bolingbrook and has been hired by the Duchess of Gloucester to raise a spirit a commit the forbidden act of asking for the King&#8217;s horoscope.</roleDesc>
+<roleDesc>Margery Jourdain is a witch who works with Roger Bolingbrook and has been hired by the Duchess of Gloucester to raise a spirit to commit the forbidden act of asking for the King&#8217;s horoscope.</roleDesc>
 </castItem>
 <castItem gender="male" id="ab75cdc4-a4c1-4ab4-9a2a-077790d9a72c">
 <role short="CLIF.">Lord Clifford</role>
@@ -496,7 +496,7 @@
 </stage>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
-<l gn="44" n="44" form="verse" rend="indent(0)">Uncle, how now?</l>
+<l gn="44" n="44" form="verse">Uncle, how now?</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
@@ -742,7 +742,7 @@
 </sp>
 <sp>
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
-<l gn="194" n="193" form="verse" rend="indent(0)">And so says York&#8288;&#8212;</l>
+<l gn="194" n="193" form="verse">And so says York&#8288;&#8212;</l>
 <stage sgn="194.01" sn="193.01">
 <dir>Aside.</dir>
 	<action type="aside">
@@ -760,8 +760,8 @@
 <l gn="197" n="195" form="verse">Unto the main? O father, Maine is lost!</l>
 <l gn="198" n="196" form="verse">That Maine which by main force Warwick did win,</l>
 <l gn="199" n="197" form="verse">And would have kept so long as breath did last!</l>
-<l gn="200" n="198" form="verse">Main chance, father, you meant, but I meant Maine,</l>
-<l gn="201" n="199" form="verse">Which I will win from France, or else be slain.</l>
+<l gn="200" n="198" form="rhyme">Main chance, father, you meant, but I meant Maine,</l>
+<l gn="201" n="199" form="rhyme">Which I will win from France, or else be slain.</l>
 </sp>
 <stage sgn="201.01" sn="199.01">
 <dir>Exeunt Warwick and Salisbury. Manet York.</dir>
@@ -816,8 +816,8 @@
 <l gn="243" n="241" form="verse">With whose sweet smell the air shall be perfum&#8217;d,</l>
 <l gn="244" n="242" form="verse">And in my standard bear the arms of York,</l>
 <l gn="245" n="243" form="verse">To grapple with the house of Lancaster;</l>
-<l gn="246" n="244" form="verse">And force perforce I&#8217;ll make him yield the crown,</l>
-<l gn="247" n="245" form="verse">Whose bookish rule hath pull&#8217;d fair England down.</l>
+<l gn="246" n="244" form="rhyme">And force perforce I&#8217;ll make him yield the crown,</l>
+<l gn="247" n="245" form="rhyme">Whose bookish rule hath pull&#8217;d fair England down.</l>
 </sp>
 <stage sgn="247.01" sn="245.01">
 <dir>Exit York.</dir>
@@ -1026,8 +1026,8 @@
 <l gn="350" n="103" form="verse">To call them both a pair of crafty knaves.</l>
 <l gn="351" n="104" form="verse">Well, so it stands; and thus, I fear, at last</l>
 <l gn="352" n="105" form="verse">Hume&#8217;s knavery will be the Duchess&#8217; wrack,</l>
-<l gn="353" n="106" form="verse">And her attainture will be Humphrey&#8217;s fall.</l>
-<l gn="354" n="107" form="verse">Sort how it will, I shall have gold for all.</l>
+<l gn="353" n="106" form="rhyme">And her attainture will be Humphrey&#8217;s fall.</l>
+<l gn="354" n="107" form="rhyme">Sort how it will, I shall have gold for all.</l>
 </sp>
 <stage sgn="354.01" sn="107.01">
 <dir>Exit.</dir>
@@ -1514,7 +1514,7 @@
 <speaker long="Peter Thump">PET.</speaker>
 <l gn="523" n="169" form="prose">By these ten bones, my lords</l>
 <stage sgn="523.01" sn="169.01">
-<dir>Holding up his hands. </dir>
+<dir>Holding up his hands.</dir>
 	<action type="action">
 		<actor>PET.</actor>
 	</action>
@@ -1941,7 +1941,7 @@
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="645" n="29" form="verse" rend="indent(0)">As who, my lord?</l>
+<l gn="645" n="29" form="verse">As who, my lord?</l>
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
@@ -1954,7 +1954,7 @@
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
-<l gn="649" n="32" form="verse" rend="indent(0)">And thy ambition, Gloucester.</l>
+<l gn="649" n="32" form="verse">And thy ambition, Gloucester.</l>
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
@@ -2015,13 +2015,13 @@
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
-<l gn="661" n="43" form="verse" rend="indent(0)">How now, my lords?</l>
+<l gn="661" n="43" form="verse">How now, my lords?</l>
 </sp>
 <sp>
 <speaker long="Cardinal Beauford">CAR.</speaker>
 <l gn="662" n="43" form="verse" rend="indent(4)">Believe me, cousin Gloucester,</l>
 <l gn="663" n="44" form="verse">Had not your man put up the fowl so suddenly,</l>
-<l gn="664" n="45" form="verse" rend="indent(0)">We had had more sport.</l>
+<l gn="664" n="45" form="verse">We had had more sport.</l>
 <stage sgn="664.01" sn="45.01">
 <dir>Aside to Gloucester.</dir>
 	<action type="aside">
@@ -2055,7 +2055,7 @@
 		<recipient>CAR.</recipient>
 	</action>
 </stage>
-<l gn="668" n="48" form="verse" rend="indent(0)">Cardinal, I am with you.</l>
+<l gn="668" n="48" form="verse">Cardinal, I am with you.</l>
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
@@ -2073,7 +2073,7 @@
 </stage>
 <l gn="671" n="50" form="verse">Now by God&#8217;s Mother, priest,</l>
 <l gn="672" n="51" form="verse">I&#8217;ll shave your crown for this,</l>
-<l gn="673" n="52" form="verse" rend="indent(0)">Or all my fence shall fail.</l>
+<l gn="673" n="52" form="verse">Or all my fence shall fail.</l>
 </sp>
 <sp>
 <speaker long="Cardinal Beauford">CAR.</speaker>
@@ -2095,7 +2095,7 @@
 <l gn="679" n="57" form="verse">I pray, my lords, let me compound this strife.</l>
 </sp>
 <stage sgn="679.01" sn="57.01">
-<dir>Enter one crying, &#8220;A miracle!&#8221; </dir>
+<dir>Enter one crying, &#8220;A miracle!&#8221;</dir>
 	<action type="enter">
 		<actor>ONE. CIT.</actor>
 	</action>
@@ -2207,7 +2207,7 @@
 </sp>
 <sp>
 <speaker long="Cardinal Beauford">CAR.</speaker>
-<l gn="716" n="94" form="verse" rend="indent(0)">What, art thou lame?</l>
+<l gn="716" n="94" form="verse">What, art thou lame?</l>
 </sp>
 <sp>
 <speaker long="Saunder Simpcox">SIMP.</speaker>
@@ -2215,7 +2215,7 @@
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
-<l gn="718" n="95" form="verse" rend="indent(0)">How cam&#8217;st thou so?</l>
+<l gn="718" n="95" form="verse">How cam&#8217;st thou so?</l>
 </sp>
 <sp>
 <speaker long="Saunder Simpcox">SIMP.</speaker>
@@ -2223,7 +2223,7 @@
 </sp>
 <sp>
 <speaker long="Simpcox&#8217;s Wife">SIMP. WIFE.</speaker>
-<l gn="720" n="96" form="verse" rend="indent(0)">A plum-tree, master.</l>
+<l gn="720" n="96" form="verse">A plum-tree, master.</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
@@ -2231,11 +2231,11 @@
 </sp>
 <sp>
 <speaker long="Saunder Simpcox">SIMP.</speaker>
-<l gn="722" n="97" form="verse" rend="indent(0)">O, born so, master.</l>
+<l gn="722" n="97" form="verse">O, born so, master.</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="723" n="97" form="verse" rend="indent(3)">What, and wouldst climb a tree?</l>
+<l gn="723" n="97" form="verse" rend="indent(4)">What, and wouldst climb a tree?</l>
 </sp>
 <sp>
 <speaker long="Saunder Simpcox">SIMP.</speaker>
@@ -2401,7 +2401,7 @@
 <l gn="770" n="144" form="prose">Alas, master, what shall I do? I am not able to stand.</l>
 </sp>
 <stage sgn="770.01" sn="144.01">
-<dir>After the Beadle hath hit him once, he leaps over the stool and runs away; and they follow and cry, &#8220;A miracle!&#8221; </dir>
+<dir>After the Beadle hath hit him once, he leaps over the stool and runs away; and they follow and cry, &#8220;A miracle!&#8221;å</dir>
 	<action type="fight">
 		<actor>BEAD.</actor>
 		<actor>SIMP.</actor>
@@ -2442,16 +2442,16 @@
 </stage>
 <sp>
 <speaker long="Cardinal Beauford">CAR.</speaker>
-<l gn="777" n="151" form="verse">Duke Humphrey has done a miracle today.</l>
+<l gn="777" n="151" form="rhyme">Duke Humphrey has done a miracle today.</l>
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
-<l gn="778" n="152" form="verse">True; made the lame to leap and fly away.</l>
+<l gn="778" n="152" form="rhyme">True; made the lame to leap and fly away.</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="779" n="153" form="verse">But you have done more miracles than I:</l>
-<l gn="780" n="154" form="verse">You made in a day, my lord, whole towns to fly.</l>
+<l gn="779" n="153" form="rhyme">But you have done more miracles than I:</l>
+<l gn="780" n="154" form="rhyme">You made in a day, my lord, whole towns to fly.</l>
 </sp>
 <stage sgn="780.01" sn="154.01">
 <dir>Enter Buckingham.</dir>
@@ -2506,21 +2506,21 @@
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
-<l gn="804" n="178" form="verse">Gloucester, see here the tainture of thy nest,</l>
-<l gn="805" n="179" form="verse">And look thyself be faultless, thou wert best.</l>
+<l gn="804" n="178" form="rhyme">Gloucester, see here the tainture of thy nest,</l>
+<l gn="805" n="179" form="rhyme">And look thyself be faultless, thou wert best.</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="806" n="180" form="verse">Madam, for myself, to heaven I do appeal,</l>
-<l gn="807" n="181" form="verse">How I have lov&#8217;d my king and commonweal;</l>
+<l gn="806" n="180" form="rhyme">Madam, for myself, to heaven I do appeal,</l>
+<l gn="807" n="181" form="rhyme">How I have lov&#8217;d my king and commonweal;</l>
 <l gn="808" n="182" form="verse">And for my wife, I know not how it stands.</l>
 <l gn="809" n="183" form="verse">Sorry I am to hear what I have heard.</l>
 <l gn="810" n="184" form="verse">Noble she is; but if she have forgot</l>
 <l gn="811" n="185" form="verse">Honor and virtue, and convers&#8217;d with such</l>
 <l gn="812" n="186" form="verse">As, like to pitch, defile nobility,</l>
 <l gn="813" n="187" form="verse">I banish her my bed and company,</l>
-<l gn="814" n="188" form="verse">And give her as a prey to law and shame,</l>
-<l gn="815" n="189" form="verse">That hath dishonored Gloucester&#8217;s honest name.</l>
+<l gn="814" n="188" form="rhyme">And give her as a prey to law and shame,</l>
+<l gn="815" n="189" form="rhyme">That hath dishonored Gloucester&#8217;s honest name.</l>
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
@@ -2528,8 +2528,8 @@
 <l gn="817" n="191" form="verse">Tomorrow toward London back again,</l>
 <l gn="818" n="192" form="verse">To look into this business thoroughly,</l>
 <l gn="819" n="193" form="verse">And call these foul offenders to their answers,</l>
-<l gn="820" n="194" form="verse">And poise the cause in justice&#8217; equal scales,</l>
-<l gn="821" n="195" form="verse">Whose beam stands sure, whose rightful cause prevails.</l>
+<l gn="820" n="194" form="rhyme">And poise the cause in justice&#8217; equal scales,</l>
+<l gn="821" n="195" form="rhyme">Whose beam stands sure, whose rightful cause prevails.</l>
 </sp>
 <stage sgn="821.01" sn="195.01">
 <dir>Flourish. Exeunt.</dir>
@@ -2818,12 +2818,12 @@
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
 <l gn="936" n="32" form="verse">My staff? Here, noble Henry, is my staff.</l>
-<l gn="937" n="33" form="verse">As willingly do I the same resign</l>
-<l gn="938" n="34" form="verse">As ere thy father Henry made it mine;</l>
-<l gn="939" n="35" form="verse">And even as willingly at thy feet I leave it</l>
-<l gn="940" n="36" form="verse">As others would ambitiously receive it.</l>
-<l gn="941" n="37" form="verse">Farewell, good King; when I am dead and gone,</l>
-<l gn="942" n="38" form="verse">May honorable peace attend thy throne!</l>
+<l gn="937" n="33" form="rhyme">As willingly do I the same resign</l>
+<l gn="938" n="34" form="rhyme">As ere thy father Henry made it mine;</l>
+<l gn="939" n="35" form="rhyme">And even as willingly at thy feet I leave it</l>
+<l gn="940" n="36" form="rhyme">As others would ambitiously receive it.</l>
+<l gn="941" n="37" form="rhyme">Farewell, good King; when I am dead and gone,</l>
+<l gn="942" n="38" form="rhyme">May honorable peace attend thy throne!</l>
 </sp>
 <stage sgn="942.01" sn="38.01">
 <dir>Exit Gloucester.</dir>
@@ -2837,13 +2837,13 @@
 <l gn="944" n="40" form="verse">And Humphrey Duke of Gloucester scarce himself,</l>
 <l gn="945" n="41" form="verse">That bears so shrewd a maim: two pulls at once&#8288;&#8212;</l>
 <l gn="946" n="42" form="verse">His lady banish&#8217;d, and a limb lopp&#8217;d off.</l>
-<l gn="947" n="43" form="verse">This staff of honor raught, there let it stand,</l>
-<l gn="948" n="44" form="verse">Where it best fits to be, in Henry&#8217;s hand.</l>
+<l gn="947" n="43" form="rhyme">This staff of honor raught, there let it stand,</l>
+<l gn="948" n="44" form="rhyme">Where it best fits to be, in Henry&#8217;s hand.</l>
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
-<l gn="949" n="45" form="verse">Thus droops this lofty pine and hangs his sprays,</l>
-<l gn="950" n="46" form="verse">Thus Eleanor&#8217;s pride dies in her youngest days.</l>
+<l gn="949" n="45" form="rhyme">Thus droops this lofty pine and hangs his sprays,</l>
+<l gn="950" n="46" form="rhyme">Thus Eleanor&#8217;s pride dies in her youngest days.</l>
 </sp>
 <sp>
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
@@ -2896,7 +2896,7 @@
 </sp>
 <sp>
 <speaker long="Thomas Horner">HOR.</speaker>
-<l gn="966" n="62" form="prose">Let it come, i&#8217; faith, and I&#8217;ll pledge you all, and a fig for Peter!</l>
+<l gn="966" n="62" form="prose">Let it come, i&#8217;faith, and I&#8217;ll pledge you all, and a fig for Peter!</l>
 </sp>
 <sp>
 <speaker long="First Prentice">1. PREN.</speaker>
@@ -3034,7 +3034,7 @@
 <l gn="988" n="2" form="verse">And after summer evermore succeeds</l>
 <l gn="989" n="3" form="verse">Barren winter, with his wrathful nipping cold;</l>
 <l gn="990" n="4" form="verse">So cares and joys abound, as seasons fleet.</l>
-<l gn="991" n="5" form="verse" rend="indent(0)">Sirs, what&#8217;s a&#8217; clock?</l>
+<l gn="991" n="5" form="verse">Sirs, what&#8217;s o&#8217;clock?</l>
 </sp>
 <sp>
 <speaker long="Gloucester&#8217;s First Attendant">GLOU. 1. ATT.</speaker>
@@ -3641,8 +3641,8 @@
 <l gn="1315" n="218" form="verse">With sad unhelpful tears, and with dimm&#8217;d eyes</l>
 <l gn="1316" n="219" form="verse">Look after him, and cannot do him good,</l>
 <l gn="1317" n="220" form="verse">So mighty are his vowed enemies.</l>
-<l gn="1318" n="221" form="verse">His fortunes I will weep, and &#8217;twixt each groan</l>
-<l gn="1319" n="222" form="verse">Say, &#8220;Who&#8217;s a traitor, Gloucester he is none.&#8221;</l>
+<l gn="1318" n="221" form="rhyme">His fortunes I will weep, and &#8217;twixt each groan</l>
+<l gn="1319" n="222" form="rhyme">Say, &#8220;Who&#8217;s a traitor, Gloucester he is none.&#8221;</l>
 </sp>
 <stage sgn="1319.01" sn="222.01">
 <dir>Exit with Buckingham, Salisbury, and Warwick.</dir>
@@ -3798,8 +3798,8 @@
 <l gn="1394" n="297" form="verse">I rather would have lost my life betimes</l>
 <l gn="1395" n="298" form="verse">Than bring a burden of dishonor home</l>
 <l gn="1396" n="299" form="verse">By staying there so long till all were lost.</l>
-<l gn="1397" n="300" form="verse">Show me one scar character&#8217;d on thy skin:</l>
-<l gn="1398" n="301" form="verse">Men&#8217;s flesh preserv&#8217;d so whole do seldom win.</l>
+<l gn="1397" n="300" form="rhyme">Show me one scar character&#8217;d on thy skin:</l>
+<l gn="1398" n="301" form="rhyme">Men&#8217;s flesh preserv&#8217;d so whole do seldom win.</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
@@ -3850,8 +3850,8 @@
 <speaker long="Cardinal Beauford">CAR.</speaker>
 <l gn="1420" n="323" form="verse">No more of him; for I will deal with him</l>
 <l gn="1421" n="324" form="verse">That henceforth he shall trouble us no more.</l>
-<l gn="1422" n="325" form="verse">And so break off, the day is almost spent;</l>
-<l gn="1423" n="326" form="verse">Lord Suffolk, you and I must talk of that event.</l>
+<l gn="1422" n="325" form="rhyme">And so break off, the day is almost spent;</l>
+<l gn="1423" n="326" form="rhyme">Lord Suffolk, you and I must talk of that event.</l>
 </sp>
 <sp>
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
@@ -3925,8 +3925,8 @@
 <l gn="1476" n="379" form="verse">Say that he thrive, as &#8217;tis great like he will,</l>
 <l gn="1477" n="380" form="verse">Why then from Ireland come I with my strength,</l>
 <l gn="1478" n="381" form="verse">And reap the harvest which that rascal sow&#8217;d.</l>
-<l gn="1479" n="382" form="verse">For Humphrey being dead, as he shall be,</l>
-<l gn="1480" n="383" form="verse">And Henry put apart, the next for me.</l>
+<l gn="1479" n="382" form="rhyme">For Humphrey being dead, as he shall be,</l>
+<l gn="1480" n="383" form="rhyme">And Henry put apart, the next for me.</l>
 </sp>
 <stage sgn="1480.01" sn="383.01">
 <dir>Exit.</dir>
@@ -4104,7 +4104,7 @@
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
-<l gn="1517" n="37" form="verse" rend="indent(0)">O heavenly God!</l>
+<l gn="1517" n="37" form="verse">O heavenly God!</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
@@ -4335,7 +4335,7 @@
 <sp>
 <speaker long="Earl of Warwick">WAR.</speaker>
 <l gn="1663" n="182" form="verse">But both of you were vowed Duke Humphrey&#8217;s foes,</l>
-<l gn="1664" n="183" form="verse" rend="indent(0)">And you</l>
+<l gn="1664" n="183" form="verse">And you</l>
 <stage sgn="1664.01" sn="183.01">
 <dir>To Cardinal.</dir>
 	<action type="speak">
@@ -4756,7 +4756,7 @@
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
-<l gn="1890" n="408" form="verse" rend="indent(0)">I go.</l>
+<l gn="1890" n="408" form="verse">I go.</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
@@ -4773,12 +4773,12 @@
 <speaker long="Duke of Suffolk">SUF.</speaker>
 <l gn="1892" n="409" form="verse">A jewel, lock&#8217;d into the woefull&#8217;st cask</l>
 <l gn="1893" n="410" form="verse">That ever did contain a thing of worth.</l>
-<l gn="1894" n="411" form="verse">Even as a splitted bark, so sunder we;</l>
-<l gn="1895" n="412" form="verse" rend="indent(0)">This way fall I to death.</l>
+<l gn="1894" n="411" form="rhyme">Even as a splitted bark, so sunder we;</l>
+<l gn="1895" n="412" form="verse">This way fall I to death.</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
-<l gn="1896" n="412" form="verse" rend="indent(5)">This way for me.</l>
+<l gn="1896" n="412" form="rhyme" rend="indent(5)">This way for me.</l>
 </sp>
 <stage sgn="1896.01" sn="412.01">
 <dir>Exeunt severally.</dir>
@@ -5063,7 +5063,7 @@
 <sp>
 <speaker long="Lieutenant">LIEU.</speaker>
 <l gn="1997" n="68" form="verse">Convey him hence, and on our longboat&#8217;s side</l>
-<l gn="1998" n="69" form="verse" rend="indent(0)">Strike off his head.</l>
+<l gn="1998" n="69" form="verse">Strike off his head.</l>
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
@@ -5071,7 +5071,7 @@
 </sp>
 <sp>
 <speaker long="Lieutenant">LIEU.</speaker>
-<l gn="2000" n="70" form="verse" rend="indent(0)">Yes, Poole.</l>
+<l gn="2000" n="70" form="verse">Yes, Poole.</l>
 </sp>
 <sp>
 <speaker long="Duke of Suffolk">SUF.</speaker>
@@ -5910,11 +5910,11 @@
 <l gn="2223" n="20" form="verse">How now, madam?</l>
 <l gn="2224" n="21" form="verse">Still lamenting and mourning for Suffolk&#8217;s death?</l>
 <l gn="2225" n="22" form="verse">I fear me, love, if that I had been dead,</l>
-<l gn="2226" n="23" form="verse">Thou wouldst not have mourn&#8217;d so much for me.</l>
+<l gn="2226" n="23" form="rhyme">Thou wouldst not have mourn&#8217;d so much for me.</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
-<l gn="2227" n="24" form="verse">No, my love, I should not mourn, but die for thee.</l>
+<l gn="2227" n="24" form="rhyme">No, my love, I should not mourn, but die for thee.</l>
 </sp>
 <stage sgn="2227.01" sn="24.01">
 <dir>Enter Second Royal Messenger.</dir>
@@ -5963,8 +5963,8 @@
 <speaker long="Lord Say">SAY.</speaker>
 <l gn="2247" n="44" form="verse">So might your Grace&#8217;s person be in danger.</l>
 <l gn="2248" n="45" form="verse">The sight of me is odious in their eyes;</l>
-<l gn="2249" n="46" form="verse">And therefore in this city will I stay</l>
-<l gn="2250" n="47" form="verse">And live alone as secret as I may.</l>
+<l gn="2249" n="46" form="rhyme">And therefore in this city will I stay</l>
+<l gn="2250" n="47" form="rhyme">And live alone as secret as I may.</l>
 </sp>
 <stage sgn="2250.01" sn="47.01">
 <dir>Enter Third Royal Messenger.</dir>
@@ -7029,7 +7029,7 @@
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
-<l gn="2566" n="78" form="verse" rend="indent(0)">Iden, kneel down.</l>
+<l gn="2566" n="78" form="verse">Iden, kneel down.</l>
 <stage sgn="2566.01" sn="78.01">
 <dir>He kneels.</dir>
 	<action type="action">
@@ -7346,16 +7346,16 @@
 </sp>
 <sp>
 <speaker long="Richard Plantagenet">RICH.</speaker>
-<l gn="2702" n="213" form="verse">Fie! Charity, for shame! Speak not in spite,</l>
-<l gn="2703" n="214" form="verse">For you shall sup with Jesu Christ tonight.</l>
+<l gn="2702" n="213" form="rhyme">Fie! Charity, for shame! Speak not in spite,</l>
+<l gn="2703" n="214" form="rhyme">For you shall sup with Jesu Christ tonight.</l>
 </sp>
 <sp>
 <speaker long="Young Clifford">Y. CLIF.</speaker>
-<l gn="2704" n="215" form="verse">Foul stigmatic, that&#8217;s more than thou canst tell.</l>
+<l gn="2704" n="215" form="rhyme">Foul stigmatic, that&#8217;s more than thou canst tell.</l>
 </sp>
 <sp>
 <speaker long="Richard Plantagenet">RICH.</speaker>
-<l gn="2705" n="216" form="verse">If not in heaven, you&#8217;ll surely sup in hell.</l>
+<l gn="2705" n="216" form="rhyme">If not in heaven, you&#8217;ll surely sup in hell.</l>
 </sp>
 <stage sgn="2705.01" sn="216.01">
 <dir>Exeunt severally.</dir>
@@ -7491,8 +7491,8 @@
 </stage>
 <sp>
 <speaker long="Richard Plantagenet, Duke of York">YORK.</speaker>
-<l gn="2734" n="29" form="verse">Thus war hath given thee peace, for thou art still.</l>
-<l gn="2735" n="30" form="verse">Peace with his soul, heaven, if it be thy will!</l>
+<l gn="2734" n="29" form="rhyme">Thus war hath given thee peace, for thou art still.</l>
+<l gn="2735" n="30" form="rhyme">Peace with his soul, heaven, if it be thy will!</l>
 </sp>
 <stage sgn="2735.01" sn="30.01">
 <dir>Exit.</dir>
@@ -7582,8 +7582,8 @@
 <l gn="2773" n="68" form="verse">For underneath an alehouse&#8217; paltry sign,</l>
 <l gn="2774" n="69" form="verse">The Castle in Saint Albans, Somerset</l>
 <l gn="2775" n="70" form="verse">Hath made the wizard famous in his death.</l>
-<l gn="2776" n="71" form="verse">Sword, hold thy temper; heart, be wrathful still:</l>
-<l gn="2777" n="72" form="verse">Priests pray for enemies, but princes kill.</l>
+<l gn="2776" n="71" form="rhyme">Sword, hold thy temper; heart, be wrathful still:</l>
+<l gn="2777" n="72" form="rhyme">Priests pray for enemies, but princes kill.</l>
 </sp>
 <stage sgn="2777.01" sn="72.01">
 <dir>Exit.</dir>
@@ -7605,11 +7605,11 @@
 </stage>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
-<l gn="2778" n="73" form="verse">Away, my lord! You are slow, for shame, away!</l>
+<l gn="2778" n="73" form="rhyme">Away, my lord! You are slow, for shame, away!</l>
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>
-<l gn="2779" n="74" form="verse">Can we outrun the heavens? Good Margaret, stay.</l>
+<l gn="2779" n="74" form="rhyme">Can we outrun the heavens? Good Margaret, stay.</l>
 </sp>
 <sp>
 <speaker long="Queen Margaret">Q. MARG.</speaker>
@@ -7641,8 +7641,8 @@
 <l gn="2791" n="86" form="verse">I would speak blasphemy ere bid you fly.</l>
 <l gn="2792" n="87" form="verse">But fly you must. Uncurable discomfit</l>
 <l gn="2793" n="88" form="verse">Reigns in the hearts of all our present parts.</l>
-<l gn="2794" n="89" form="verse">Away, for your relief! And we will live</l>
-<l gn="2795" n="90" form="verse">To see their day, and them our fortune give.</l>
+<l gn="2794" n="89" form="rhyme">Away, for your relief! And we will live</l>
+<l gn="2795" n="90" form="rhyme">To see their day, and them our fortune give.</l>
 <l gn="2796" n="91" form="verse">Away, my lord, away!</l>
 </sp>
 <stage sgn="2796.01" sn="91.01">
@@ -7684,7 +7684,7 @@
 <l gn="2800" n="4" form="verse">And like a gallant in the brow of youth,</l>
 <l gn="2801" n="5" form="verse">Repairs him with occasion? This happy day</l>
 <l gn="2802" n="6" form="verse">Is not itself, nor have we won one foot,</l>
-<l gn="2803" n="7" form="verse" rend="indent(0)">If Salisbury be lost.</l>
+<l gn="2803" n="7" form="verse">If Salisbury be lost.</l>
 </sp>
 <sp>
 <speaker long="Richard Plantagenet">RICH.</speaker>
@@ -7728,8 +7728,8 @@
 <l gn="2826" n="29" form="verse">Now, by my faith, lords, &#8217;twas a glorious day.</l>
 <l gn="2827" n="30" form="verse">Saint Albans battle won by famous York</l>
 <l gn="2828" n="31" form="verse">Shall be eterniz&#8217;d in all age to come.</l>
-<l gn="2829" n="32" form="verse">Sound drum and trumpets, and to London all,</l>
-<l gn="2830" n="33" form="verse">And more such days as these to us befall!</l>
+<l gn="2829" n="32" form="rhyme">Sound drum and trumpets, and to London all,</l>
+<l gn="2830" n="33" form="rhyme">And more such days as these to us befall!</l>
 </sp>
 <stage sgn="2830.01" sn="33.01">
 <dir>Exeunt.</dir>

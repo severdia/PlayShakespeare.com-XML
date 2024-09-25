@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="henry-vi-part-i">
 <title>
-	<common>Henry VI, Part 1	</common>
+	<common>Henry VI, Part 1</common>
 	<main>The First Part of Henry the Sixth</main>
 	<short>Henry 6, Part 1</short>
 	<abbr>1H6</abbr>
@@ -20,7 +20,7 @@
 </availability>
 </publicationStmt>
 <editionStmt>
-<edition n="5.0"></edition>
+<edition n="5.1"></edition>
 </editionStmt>
 </fileDesc>
 <castList playtitle="Henry VI, Part 1">
@@ -131,8 +131,8 @@
 <roleDesc>Sir John Falstaff is a cowardly English knight who twice runs away from battle, leaving Talbot in grave difficulty, a fact that in one case leads to Talbot&#8217;s capture.</roleDesc>
 </castItem>
 <castItem gender="male" id="b195a596-bbcf-4965-a81f-d96e87e0d509">
-<role short="WOODV.">Woodvile</role>
-<roleDesc>Woodvile is the Lieutenant of the Tower of London, charged with its defense.</roleDesc>
+<role short="WOODV.">Woodville</role>
+<roleDesc>Richard Woodville is the Lieutenant of the Tower of London, charged with its defense.</roleDesc>
 </castItem>
 <castItem gender="male" id="305beecf-c4bb-4c02-bab8-771123194e2a">
 <role short="GAR.">Sir Thomas Gargrave</role>
@@ -267,7 +267,7 @@
 </castItem>
 <castItem gender="male" id="cc6cabde-c010-4c19-abf6-7b2fe36d5e55">
 <role short="PORT.">Porter</role>
-<roleDesc>The Porter is charged by the Countess of Auvergne to lock the doors to her house once Talbot has entered in.</roleDesc>
+<roleDesc>The Porter is charged by the Countess of Auvergne to lock the doors to her house once Talbot has entered.</roleDesc>
 </castItem>
 <castItem gender="male" mute="yes" id="adda0e3d-a166-4916-a4a1-b9d328b0679e">
 <role short="GOV. PARIS.">Governor of Paris</role>
@@ -275,7 +275,7 @@
 </castItem>
 <castItem gender="male" mute="yes" id="ab825238-720f-46ce-a4d9-17e7d35a268c">
 <role short="AMB. EMP.">Ambassador from the Emperor</role>
-<roleDesc>Ambassador from the Emperor has brought the Emperor&#8217;s request that England and France should make peace to King Henry.</roleDesc>
+<roleDesc>Ambassador from the Emperor has brought the Emperor&#8217;s request that England and France should make peace with King Henry.</roleDesc>
 </castItem>
 <castItem gender="male" mute="yes" id="fc056736-eb4b-4547-baed-81df36f619c3">
 <role short="AMB. ARM.">Ambassador from the Earl of Armagnac</role>
@@ -856,8 +856,8 @@
 <l gn="266" n="89" form="verse">And I will answer unpremeditated;</l>
 <l gn="267" n="90" form="verse">My courage try by combat, if thou dar&#8217;st,</l>
 <l gn="268" n="91" form="verse">And thou shalt find that I exceed my sex.</l>
-<l gn="269" n="92" form="verse">Resolve on this: thou shalt be fortunate</l>
-<l gn="270" n="93" form="verse">If thou receive me for thy warlike mate.</l>
+<l gn="269" n="92" form="rhyme">Resolve on this: thou shalt be fortunate</l>
+<l gn="270" n="93" form="rhyme">If thou receive me for thy warlike mate.</l>
 </sp>
 <sp>
 <speaker long="Charles, Dauphin of France">CHAR.</speaker>
@@ -909,10 +909,10 @@
 </sp>
 <sp>
 <speaker long="Joan de Pucelle">PUC.</speaker>
-<l gn="291" n="114" form="verse">I must not yield to any rites of love,</l>
-<l gn="292" n="115" form="verse">For my profession&#8217;s sacred from above.</l>
-<l gn="293" n="116" form="verse">When I have chased all thy foes from hence,</l>
-<l gn="294" n="117" form="verse">Then will I think upon a recompense.</l>
+<l gn="291" n="114" form="rhyme">I must not yield to any rites of love,</l>
+<l gn="292" n="115" form="rhyme">For my profession&#8217;s sacred from above.</l>
+<l gn="293" n="116" form="rhyme">When I have chased all thy foes from hence,</l>
+<l gn="294" n="117" form="rhyme">Then will I think upon a recompense.</l>
 </sp>
 <sp>
 <speaker long="Charles, Dauphin of France">CHAR.</speaker>
@@ -1008,7 +1008,7 @@
 <scenepersona short="2. GLOU. SERV. ATT.">Gloucester&#8217;s Second Serving Attendant</scenepersona>
 <scenepersona short="1. WARDER">First Warder of the Tower</scenepersona>
 <scenepersona short="2. WARDER">Second Warder of the Tower</scenepersona>
-<scenepersona short="WOODV.">Lieutenant Woodvile</scenepersona>
+<scenepersona short="WOODV.">Lieutenant Woodville</scenepersona>
 <scenepersona short="WIN.">Bishop of Winchester</scenepersona>
 <scenepersona short="MAY.">Mayor of London</scenepersona>
 <scenepersona short="OFF.">Officers</scenepersona>
@@ -1075,7 +1075,7 @@
 <l gn="342" n="14" form="verse">Shall I be flouted thus by dunghill grooms?</l>
 </sp>
 <stage sgn="342.01" sn="14.01">
-<dir>Gloucester&#8217;s men rush at the Tower gates, and Woodvile the Lieutenant speaks within.</dir>
+<dir>Gloucester&#8217;s men rush at the Tower gates, and Woodville the Lieutenant speaks within.</dir>
 	<action type="action">
 		<actor>1. GLOU. SERV. ATT.</actor>
 		<actor>2. GLOU. SERV. ATT.</actor>
@@ -1085,7 +1085,7 @@
 	</action>
 </stage>
 <sp>
-<speaker long="Woodvile">WOODV.</speaker>
+<speaker long="Woodville">WOODV.</speaker>
 <l gn="343" n="15" form="verse">What noise is this? What traitors have we here?</l>
 </sp>
 <sp>
@@ -1094,7 +1094,7 @@
 <l gn="345" n="17" form="verse">Open the gates, here&#8217;s Gloucester that would enter.</l>
 </sp>
 <sp>
-<speaker long="Woodvile">WOODV.</speaker>
+<speaker long="Woodville">WOODV.</speaker>
 <l gn="346" n="18" form="verse">Have patience, noble Duke, I may not open,</l>
 <l gn="347" n="19" form="verse">The Cardinal of Winchester forbids.</l>
 <l gn="348" n="20" form="verse">From him I have express commandment</l>
@@ -1102,7 +1102,7 @@
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="350" n="22" form="verse">Faint-hearted Woodvile, prizest him &#8217;fore me?</l>
+<l gn="350" n="22" form="verse">Faint-hearted Woodville, prizest him &#8217;fore me?</l>
 <l gn="351" n="23" form="verse">Arrogant Winchester, that haughty prelate,</l>
 <l gn="352" n="24" form="verse">Whom Henry, our late sovereign, ne&#8217;er could brook?</l>
 <l gn="353" n="25" form="verse">Thou art no friend to God or to the King.</l>
@@ -1175,8 +1175,8 @@
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
 <l gn="381" n="53" form="verse">Winchester goose, I cry, &#8220;A rope! A rope!&#8221;</l>
-<l gn="382" n="54" form="verse">Now beat them hence, why do you let them stay?</l>
-<l gn="383" n="55" form="verse">Thee I&#8217;ll chase hence, thou wolf in sheep&#8217;s array.</l>
+<l gn="382" n="54" form="rhyme">Now beat them hence, why do you let them stay?</l>
+<l gn="383" n="55" form="rhyme">Thee I&#8217;ll chase hence, thou wolf in sheep&#8217;s array.</l>
 <l gn="384" n="56" form="verse">Out, tawny-coats! Out, scarlet hypocrite!</l>
 </sp>
 <stage sgn="384.01" sn="56.01">
@@ -1277,8 +1277,8 @@
 <sp>
 <speaker long="Mayor of London">MAY.</speaker>
 <l gn="412" n="84" form="verse">See the coast clear&#8217;d, and then we will depart.</l>
-<l gn="413" n="85" form="verse">Good God, these nobles should such stomachs bear!</l>
-<l gn="414" n="86" form="verse">I myself fight not once in forty year.</l>
+<l gn="413" n="85" form="rhyme">Good God, these nobles should such stomachs bear!</l>
+<l gn="414" n="86" form="rhyme">I myself fight not once in forty year.</l>
 </sp>
 <stage sgn="414.01" sn="86.01">
 <dir>Exeunt.</dir>
@@ -1793,7 +1793,7 @@
 </sp>
 <sp>
 <speaker long="First Sentinel">1. SENT.</speaker>
-<l gn="600" n="5" form="verse" rend="indent(0)">Sergeant, you shall.</l>
+<l gn="600" n="5" form="verse">Sergeant, you shall.</l>
 <stage sgn="600.01" sn="5.01">
 <dir>Exit Sergeant.</dir>
 	<action type="exit">
@@ -1836,7 +1836,7 @@
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="617" n="21" form="verse" rend="indent(0)">A maid, they say.</l>
+<l gn="617" n="21" form="verse">A maid, they say.</l>
 </sp>
 <sp>
 <speaker long="Duke of Bedford">BED.</speaker>
@@ -1867,7 +1867,7 @@
 </sp>
 <sp>
 <speaker long="Duke of Bedford">BED.</speaker>
-<l gn="630" n="33" form="verse" rend="indent(0)">Agreed. I&#8217;ll to yond corner.</l>
+<l gn="630" n="33" form="verse">Agreed. I&#8217;ll to yond corner.</l>
 </sp>
 <sp>
 <speaker long="Duke of Burgundy">BUR.</speaker>
@@ -1881,7 +1881,7 @@
 <l gn="635" n="37" form="verse">How much in duty I am bound to both.</l>
 </sp>
 <stage sgn="635.01" sn="37.01">
-<dir>Cry: &#8220;Saint George!&#8221; &#8220;A Talbot!&#8221; </dir>
+<dir>Cry: &#8220;Saint George!&#8221; &#8220;A Talbot!&#8221;</dir>
 	<action type="speak" offstage="true">
 	</action>
 </stage>
@@ -1977,7 +1977,7 @@
 </sp>
 <sp>
 <speaker long="Bastard of Orl&#233;ans">BAST.</speaker>
-<l gn="664" n="66" form="verse" rend="indent(0)">Mine was secure.</l>
+<l gn="664" n="66" form="verse">Mine was secure.</l>
 </sp>
 <sp>
 <speaker long="Reignier, Duke of Anjou">REIG.</speaker>
@@ -2155,7 +2155,7 @@
 <speaker long="Lord Talbot">TAL.</speaker>
 <l gn="737" n="57" form="verse">Well then, alone (since there&#8217;s no remedy)</l>
 <l gn="738" n="58" form="verse">I mean to prove this lady&#8217;s courtesy.</l>
-<l gn="739" n="59" form="verse" rend="indent(0)">Come hither, captain.</l>
+<l gn="739" n="59" form="verse">Come hither, captain.</l>
 <stage sgn="739.01" sn="59.01">
 <dir>Whispers.</dir>
 	<action type="action">
@@ -2242,7 +2242,7 @@
 </sp>
 <sp>
 <speaker long="Messenger of the Countess">MESS. COUNT.</speaker>
-<l gn="756" n="15" form="verse" rend="indent(0)">Madam, it is.</l>
+<l gn="756" n="15" form="verse">Madam, it is.</l>
 </sp>
 <sp>
 <speaker long="Countess of Auvergne">COUNT.</speaker>
@@ -2295,7 +2295,7 @@
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="776" n="34" form="verse" rend="indent(0)">Prisoner? To whom?</l>
+<l gn="776" n="34" form="verse">Prisoner? To whom?</l>
 </sp>
 <sp>
 <speaker long="Countess of Auvergne">COUNT.</speaker>
@@ -2325,7 +2325,7 @@
 </sp>
 <sp>
 <speaker long="Countess of Auvergne">COUNT.</speaker>
-<l gn="791" n="48" form="verse" rend="indent(0)">Why? Art not thou the man?</l>
+<l gn="791" n="48" form="verse">Why? Art not thou the man?</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
@@ -2570,7 +2570,7 @@
 <speaker long="Richard Plantagenet">PLAN.</speaker>
 <l gn="888" n="62" form="verse">Mean time your cheeks do counterfeit our roses;</l>
 <l gn="889" n="63" form="verse">For pale they look with fear, as witnessing</l>
-<l gn="890" n="64" form="verse" rend="indent(0)">The truth on our side.</l>
+<l gn="890" n="64" form="verse">The truth on our side.</l>
 </sp>
 <sp>
 <speaker long="John Beauford, Duke of Somerset">SOM.</speaker>
@@ -2719,13 +2719,13 @@
 </sp>
 <sp>
 <speaker long="Lawyer">LAW.</speaker>
-<l gn="958" n="131" form="verse" rend="indent(0)">And so will I.</l>
+<l gn="958" n="131" form="verse">And so will I.</l>
 </sp>
 <sp>
 <speaker long="Richard Plantagenet">PLAN.</speaker>
 <l gn="959" n="131" form="verse" rend="indent(3)">Thanks, gentlemen.</l>
-<l gn="960" n="132" form="verse">Come, let us four to dinner. I dare say</l>
-<l gn="961" n="133" form="verse">This quarrel will drink blood another day.</l>
+<l gn="960" n="132" form="rhyme">Come, let us four to dinner. I dare say</l>
+<l gn="961" n="133" form="rhyme">This quarrel will drink blood another day.</l>
 </sp>
 <stage sgn="961.01" sn="133.01">
 <dir>Exeunt.</dir>
@@ -2955,8 +2955,8 @@
 <l gn="1086" n="125" form="verse">Which Somerset hath offer&#8217;d to my house,</l>
 <l gn="1087" n="126" form="verse">I doubt not but with honor to redress.</l>
 <l gn="1088" n="127" form="verse">And therefore haste I to the parliament,</l>
-<l gn="1089" n="128" form="verse">Either to be restored to my blood,</l>
-<l gn="1090" n="129" form="verse">Or make my will th&#8217; advantage of my good.</l>
+<l gn="1089" n="128" form="rhyme">Either to be restored to my blood,</l>
+<l gn="1090" n="129" form="rhyme">Or make my will th&#8217; advantage of my good.</l>
 </sp>
 <stage sgn="1090.01" sn="129.01">
 <dir>Exit.</dir>
@@ -3055,7 +3055,7 @@
 <l gn="1128" n="38" form="verse">No one, but he, should be about the King;</l>
 <l gn="1129" n="39" form="verse">And that engenders thunder in his breast,</l>
 <l gn="1130" n="40" form="verse">And makes him roar these accusations forth.</l>
-<l gn="1131" n="41" form="verse" rend="indent(0)">But he shall know I am as good&#8288;&#8212;</l>
+<l gn="1131" n="41" form="verse">But he shall know I am as good&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
@@ -3082,7 +3082,7 @@
 </sp>
 <sp>
 <speaker long="Henry Beauford, Bishop of Winchester">WIN.</speaker>
-<l gn="1140" n="49" form="verse" rend="indent(0)">Unreverent Gloucester!</l>
+<l gn="1140" n="49" form="verse">Unreverent Gloucester!</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
@@ -3091,7 +3091,7 @@
 </sp>
 <sp>
 <speaker long="Henry Beauford, Bishop of Winchester">WIN.</speaker>
-<l gn="1143" n="51" form="verse" rend="indent(0)">Rome shall remedy this.</l>
+<l gn="1143" n="51" form="verse">Rome shall remedy this.</l>
 </sp>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
@@ -3158,12 +3158,12 @@
 	</action>
 </stage>
 <l gn="1167" n="74" form="verse">&#8220;Down with the tawny-coats!&#8221;</l>
-<l gn="1168" n="75" form="verse" rend="indent(0)">What tumult&#8217;s this?</l>
+<l gn="1168" n="75" form="verse">What tumult&#8217;s this?</l>
 </sp>
 <sp>
 <speaker long="Earl of Warwick">WAR.</speaker>
 <l gn="1169" n="75" form="verse" rend="indent(4)">An uproar, I dare warrant,</l>
-<l gn="1170" n="76" form="verse" rend="indent(0)">Begun through malice of the Bishop&#8217;s men.</l>
+<l gn="1170" n="76" form="verse">Begun through malice of the Bishop&#8217;s men.</l>
 <stage sgn="1170.01" sn="76.01">
 <dir>A noise again.</dir>
 	<action type="sound">
@@ -3239,7 +3239,7 @@
 <sp>
 <speaker long="Winchester&#8217;s Serving Attendant">WIN. SERV. ATT.</speaker>
 <l gn="1197" n="102" form="verse">Ay, and the very parings of our nails</l>
-<l gn="1198" n="103" form="verse" rend="indent(0)">Shall pitch a field when we are dead.</l>
+<l gn="1198" n="103" form="verse">Shall pitch a field when we are dead.</l>
 </sp>
 <stage sgn="1198.01" sn="103.01">
 <dir>Begin again.</dir>
@@ -3251,7 +3251,7 @@
 </stage>
 <sp>
 <speaker long="Duke of Gloucester">GLOU.</speaker>
-<l gn="1199" n="103" form="verse" rend="indent(7)">Stay, stay, I say!</l>
+<l gn="1199" n="103" form="verse" rend="indent(8)">Stay, stay, I say!</l>
 <l gn="1200" n="104" form="verse">And if you love me, as you say you do,</l>
 <l gn="1201" n="105" form="verse">Let me persuade you to forbear a while.</l>
 </sp>
@@ -3345,7 +3345,7 @@
 </sp>
 <sp>
 <speaker long="Winchester&#8217;s Serving Attendant">WIN. SERV. ATT.</speaker>
-<l gn="1242" n="146" form="verse" rend="indent(0)">Content, I&#8217;ll to the surgeon&#8217;s.</l>
+<l gn="1242" n="146" form="verse">Content, I&#8217;ll to the surgeon&#8217;s.</l>
 </sp>
 <sp>
 <speaker long="Gloucester&#8217;s First Serving Attendant">1. GLOU. SERV. ATT.</speaker>
@@ -3834,7 +3834,7 @@
 </sp>
 <sp>
 <speaker long="Captain">CAPT.</speaker>
-<l gn="1404" n="107" form="verse" rend="indent(0)">What? Will you fly, and leave Lord Talbot?</l>
+<l gn="1404" n="107" form="verse">What? Will you fly, and leave Lord Talbot?</l>
 </sp>
 <sp>
 <speaker long="Sir John Falstaff">FAL.</speaker>
@@ -4770,8 +4770,8 @@
 <l gn="1762" n="191" form="verse">This factious bandying of their favorites,</l>
 <l gn="1763" n="192" form="verse">But that it doth presage some ill event.</l>
 <l gn="1764" n="193" form="verse">&#8217;Tis much, when scepters are in children&#8217;s hands;</l>
-<l gn="1765" n="194" form="verse">But more, when envy breeds unkind division:</l>
-<l gn="1766" n="195" form="verse">There comes the ruin, there begins confusion.</l>
+<l gn="1765" n="194" form="rhyme">But more, when envy breeds unkind division:</l>
+<l gn="1766" n="195" form="rhyme">There comes the ruin, there begins confusion.</l>
 </sp>
 <stage sgn="1766.01" sn="195.01">
 <dir>Exit.</dir>
@@ -4875,8 +4875,8 @@
 <l gn="1818" n="52" form="verse">And make the cowards stand aloof at bay.</l>
 <l gn="1819" n="53" form="verse">Sell every man his life as dear as mine,</l>
 <l gn="1820" n="54" form="verse">And they shall find dear deer of us, my friends.</l>
-<l gn="1821" n="55" form="verse">God and Saint George, Talbot and England&#8217;s right,</l>
-<l gn="1822" n="56" form="verse">Prosper our colors in this dangerous fight!</l>
+<l gn="1821" n="55" form="rhyme">God and Saint George, Talbot and England&#8217;s right,</l>
+<l gn="1822" n="56" form="rhyme">Prosper our colors in this dangerous fight!</l>
 </sp>
 <stage sgn="1822.01" sn="56.01">
 <dir>Exeunt.</dir>
@@ -4957,8 +4957,8 @@
 <l gn="1847" n="25" form="verse">Doth stop my cornets, were in Talbot&#8217;s place!</l>
 <l gn="1848" n="26" form="verse">So should we save a valiant gentleman</l>
 <l gn="1849" n="27" form="verse">By forfeiting a traitor and a coward.</l>
-<l gn="1850" n="28" form="verse">Mad ire and wrathful fury makes me weep,</l>
-<l gn="1851" n="29" form="verse">That thus we die, while remiss traitors sleep.</l>
+<l gn="1850" n="28" form="rhyme">Mad ire and wrathful fury makes me weep,</l>
+<l gn="1851" n="29" form="rhyme">That thus we die, while remiss traitors sleep.</l>
 </sp>
 <sp>
 <speaker long="Sir William Lucy">LUCY.</speaker>
@@ -4975,19 +4975,19 @@
 <l gn="1856" n="34" form="verse">Then God take mercy on brave Talbot&#8217;s soul,</l>
 <l gn="1857" n="35" form="verse">And on his son young John, who two hours since</l>
 <l gn="1858" n="36" form="verse">I met in travel toward his warlike father!</l>
-<l gn="1859" n="37" form="verse">This seven years did not Talbot see his son,</l>
-<l gn="1860" n="38" form="verse">And now they meet where both their lives are done.</l>
+<l gn="1859" n="37" form="rhyme">This seven years did not Talbot see his son,</l>
+<l gn="1860" n="38" form="rhyme">And now they meet where both their lives are done.</l>
 </sp>
 <sp>
 <speaker long="Richard, Duke of York" alias="PLAN.">YORK.</speaker>
-<l gn="1861" n="39" form="verse">Alas, what joy shall noble Talbot have</l>
-<l gn="1862" n="40" form="verse">To bid his young son welcome to his grave?</l>
-<l gn="1863" n="41" form="verse">Away! Vexation almost stops my breath,</l>
-<l gn="1864" n="42" form="verse">That sund&#8217;red friends greet in the hour of death.</l>
-<l gn="1865" n="43" form="verse">Lucy, farewell, no more my fortune can,</l>
-<l gn="1866" n="44" form="verse">But curse the cause I cannot aid the man.</l>
-<l gn="1867" n="45" form="verse">Maine, Blois, Poictiers, and Tours, are won away,</l>
-<l gn="1868" n="46" form="verse">Long all of Somerset and his delay.</l>
+<l gn="1861" n="39" form="rhyme">Alas, what joy shall noble Talbot have</l>
+<l gn="1862" n="40" form="rhyme">To bid his young son welcome to his grave?</l>
+<l gn="1863" n="41" form="rhyme">Away! Vexation almost stops my breath,</l>
+<l gn="1864" n="42" form="rhyme">That sund&#8217;red friends greet in the hour of death.</l>
+<l gn="1865" n="43" form="rhyme">Lucy, farewell, no more my fortune can,</l>
+<l gn="1866" n="44" form="rhyme">But curse the cause I cannot aid the man.</l>
+<l gn="1867" n="45" form="rhyme">Maine, Blois, Poictiers, and Tours, are won away,</l>
+<l gn="1868" n="46" form="rhyme">Long all of Somerset and his delay.</l>
 </sp>
 <stage sgn="1868.01" sn="46.01">
 <dir>Exit with his Soldiers.</dir>
@@ -5003,8 +5003,8 @@
 <l gn="1871" n="49" form="verse">Sleeping neglection doth betray to loss</l>
 <l gn="1872" n="50" form="verse">The conquest of our scarce-cold conqueror,</l>
 <l gn="1873" n="51" form="verse">That ever-living man of memory,</l>
-<l gn="1874" n="52" form="verse">Henry the Fifth. Whiles they each other cross,</l>
-<l gn="1875" n="53" form="verse">Lives, honors, lands, and all, hurry to loss.</l>
+<l gn="1874" n="52" form="rhyme">Henry the Fifth. Whiles they each other cross,</l>
+<l gn="1875" n="53" form="rhyme">Lives, honors, lands, and all, hurry to loss.</l>
 </sp>
 <stage sgn="1875.01" sn="53.01">
 <dir>Exit Sir William Lucy</dir>
@@ -5039,8 +5039,8 @@
 <l gn="1880" n="5" form="verse">Be buckled with. The over-daring Talbot</l>
 <l gn="1881" n="6" form="verse">Hath sullied all his gloss of former honor</l>
 <l gn="1882" n="7" form="verse">By this unheedful, desperate, wild adventure.</l>
-<l gn="1883" n="8" form="verse">York set him on to fight and die in shame,</l>
-<l gn="1884" n="9" form="verse">That, Talbot dead, great York might bear the name.</l>
+<l gn="1883" n="8" form="rhyme">York set him on to fight and die in shame,</l>
+<l gn="1884" n="9" form="rhyme">That, Talbot dead, great York might bear the name.</l>
 </sp>
 <sp>
 <speaker long="Captain">CAPT.</speaker>
@@ -5090,8 +5090,8 @@
 <speaker long="Sir William Lucy">LUCY.</speaker>
 <l gn="1911" n="36" form="verse">The fraud of England, not the force of France,</l>
 <l gn="1912" n="37" form="verse">Hath now entrapp&#8217;d the noble-minded Talbot:</l>
-<l gn="1913" n="38" form="verse">Never to England shall he bear his life,</l>
-<l gn="1914" n="39" form="verse">But dies, betray&#8217;d to fortune by your strife.</l>
+<l gn="1913" n="38" form="rhyme">Never to England shall he bear his life,</l>
+<l gn="1914" n="39" form="rhyme">But dies, betray&#8217;d to fortune by your strife.</l>
 </sp>
 <sp>
 <speaker long="John Beauford, Duke of Somerset">SOM.</speaker>
@@ -5106,11 +5106,11 @@
 </sp>
 <sp>
 <speaker long="John Beauford, Duke of Somerset">SOM.</speaker>
-<l gn="1920" n="45" form="verse">If he be dead, brave Talbot, then !</l>
+<l gn="1920" n="45" form="rhyme">If he be dead, brave Talbot, then !</l>
 </sp>
 <sp>
 <speaker long="Sir William Lucy">LUCY.</speaker>
-<l gn="1921" n="46" form="verse">His fame lives in the world, his shame in you.</l>
+<l gn="1921" n="46" form="rhyme">His fame lives in the world, his shame in you.</l>
 </sp>
 <stage sgn="1921.01" sn="46.01">
 <dir>Exeunt.</dir>
@@ -5156,97 +5156,97 @@
 <l gn="1934" n="13" form="verse">And shall I fly? O, if you love my mother,</l>
 <l gn="1935" n="14" form="verse">Dishonor not her honorable name</l>
 <l gn="1936" n="15" form="verse">To make a bastard and a slave of me!</l>
-<l gn="1937" n="16" form="verse">The world will say, he is not Talbot&#8217;s blood,</l>
-<l gn="1938" n="17" form="verse">That basely fled when noble Talbot stood.</l>
+<l gn="1937" n="16" form="rhyme">The world will say, he is not Talbot&#8217;s blood,</l>
+<l gn="1938" n="17" form="rhyme">That basely fled when noble Talbot stood.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1939" n="18" form="verse">Fly, to revenge my death, if I be slain.</l>
+<l gn="1939" n="18" form="rhyme">Fly, to revenge my death, if I be slain.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1940" n="19" form="verse">He that flies so will ne&#8217;er return again.</l>
+<l gn="1940" n="19" form="rhyme">He that flies so will ne&#8217;er return again.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1941" n="20" form="verse">If we both stay, we both are sure to die.</l>
+<l gn="1941" n="20" form="rhyme">If we both stay, we both are sure to die.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1942" n="21" form="verse">Then let me stay, and, father, do you fly.</l>
-<l gn="1943" n="22" form="verse">Your loss is great, so your regard should be;</l>
-<l gn="1944" n="23" form="verse">My worth unknown, no loss is known in me.</l>
-<l gn="1945" n="24" form="verse">Upon my death the French can little boast;</l>
-<l gn="1946" n="25" form="verse">In yours they will, in you all hopes are lost.</l>
-<l gn="1947" n="26" form="verse">Flight cannot stain the honor you have won,</l>
-<l gn="1948" n="27" form="verse">But mine it will, that no exploit have done.</l>
-<l gn="1949" n="28" form="verse">You fled for vantage, every one will swear;</l>
-<l gn="1950" n="29" form="verse">But if I bow, they&#8217;ll say it was for fear.</l>
-<l gn="1951" n="30" form="verse">There is no hope that ever I will stay,</l>
-<l gn="1952" n="31" form="verse">If the first hour I shrink and run away.</l>
-<l gn="1953" n="32" form="verse">Here on my knee I beg mortality,</l>
-<l gn="1954" n="33" form="verse">Rather than life preserv&#8217;d with infamy.</l>
+<l gn="1942" n="21" form="rhyme">Then let me stay, and, father, do you fly.</l>
+<l gn="1943" n="22" form="rhyme">Your loss is great, so your regard should be;</l>
+<l gn="1944" n="23" form="rhyme">My worth unknown, no loss is known in me.</l>
+<l gn="1945" n="24" form="rhyme">Upon my death the French can little boast;</l>
+<l gn="1946" n="25" form="rhyme">In yours they will, in you all hopes are lost.</l>
+<l gn="1947" n="26" form="rhyme">Flight cannot stain the honor you have won,</l>
+<l gn="1948" n="27" form="rhyme">But mine it will, that no exploit have done.</l>
+<l gn="1949" n="28" form="rhyme">You fled for vantage, every one will swear;</l>
+<l gn="1950" n="29" form="rhyme">But if I bow, they&#8217;ll say it was for fear.</l>
+<l gn="1951" n="30" form="rhyme">There is no hope that ever I will stay,</l>
+<l gn="1952" n="31" form="rhyme">If the first hour I shrink and run away.</l>
+<l gn="1953" n="32" form="rhyme">Here on my knee I beg mortality,</l>
+<l gn="1954" n="33" form="rhyme">Rather than life preserv&#8217;d with infamy.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1955" n="34" form="verse">Shall all thy mother&#8217;s hopes lie in one tomb?</l>
+<l gn="1955" n="34" form="rhyme">Shall all thy mother&#8217;s hopes lie in one tomb?</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1956" n="35" form="verse">Ay, rather than I&#8217;ll shame my mother&#8217;s womb.</l>
+<l gn="1956" n="35" form="rhyme">Ay, rather than I&#8217;ll shame my mother&#8217;s womb.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1957" n="36" form="verse">Upon my blessing I command thee go.</l>
+<l gn="1957" n="36" form="rhyme">Upon my blessing I command thee go.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1958" n="37" form="verse">To fight I will, but not to fly the foe.</l>
+<l gn="1958" n="37" form="rhyme">To fight I will, but not to fly the foe.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1959" n="38" form="verse">Part of thy father may be sav&#8217;d in thee.</l>
+<l gn="1959" n="38" form="rhyme">Part of thy father may be sav&#8217;d in thee.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1960" n="39" form="verse">No part of him but will be shame in me.</l>
+<l gn="1960" n="39" form="rhyme">No part of him but will be shame in me.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1961" n="40" form="verse">Thou never hadst renown, nor canst not lose it.</l>
+<l gn="1961" n="40" form="rhyme">Thou never hadst renown, nor canst not lose it.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1962" n="41" form="verse">Yes, your renowned name. Shall flight abuse it?</l>
+<l gn="1962" n="41" form="rhyme">Yes, your renowned name. Shall flight abuse it?</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1963" n="42" form="verse">Thy father&#8217;s charge shall clear thee from that stain.</l>
+<l gn="1963" n="42" form="rhyme">Thy father&#8217;s charge shall clear thee from that stain.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1964" n="43" form="verse">You cannot witness for me, being slain.</l>
-<l gn="1965" n="44" form="verse">If death be so apparent, then both fly.</l>
+<l gn="1964" n="43" form="rhyme">You cannot witness for me, being slain.</l>
+<l gn="1965" n="44" form="rhyme">If death be so apparent, then both fly.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1966" n="45" form="verse">And leave my followers here to fight and die?</l>
-<l gn="1967" n="46" form="verse">My age was never tainted with such shame.</l>
+<l gn="1966" n="45" form="rhyme">And leave my followers here to fight and die?</l>
+<l gn="1967" n="46" form="rhyme">My age was never tainted with such shame.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1968" n="47" form="verse">And shall my youth be guilty of such blame?</l>
-<l gn="1969" n="48" form="verse">No more can I be severed from your side</l>
-<l gn="1970" n="49" form="verse">Than can yourself yourself in twain divide.</l>
-<l gn="1971" n="50" form="verse">Stay, go, do what you will, the like do I;</l>
-<l gn="1972" n="51" form="verse">For live I will not if my father die.</l>
+<l gn="1968" n="47" form="rhyme">And shall my youth be guilty of such blame?</l>
+<l gn="1969" n="48" form="rhyme">No more can I be severed from your side</l>
+<l gn="1970" n="49" form="rhyme">Than can yourself yourself in twain divide.</l>
+<l gn="1971" n="50" form="rhyme">Stay, go, do what you will, the like do I;</l>
+<l gn="1972" n="51" form="rhyme">For live I will not if my father die.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1973" n="52" form="verse">Then here I take my leave of thee, fair son,</l>
-<l gn="1974" n="53" form="verse">Born to eclipse thy life this afternoon.</l>
-<l gn="1975" n="54" form="verse">Come, side by side, together live and die,</l>
-<l gn="1976" n="55" form="verse">And soul with soul from France to heaven fly.</l>
+<l gn="1973" n="52" form="rhyme">Then here I take my leave of thee, fair son,</l>
+<l gn="1974" n="53" form="rhyme">Born to eclipse thy life this afternoon.</l>
+<l gn="1975" n="54" form="rhyme">Come, side by side, together live and die,</l>
+<l gn="1976" n="55" form="rhyme">And soul with soul from France to heaven fly.</l>
 </sp>
 <stage sgn="1976.01" sn="55.01">
 <dir>Exeunt.</dir>
@@ -5276,74 +5276,74 @@
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
 <l gn="1977" n="1" form="verse">Saint George and victory! Fight, soldiers, fight!</l>
-<l gn="1978" n="2" form="verse">The Regent hath with Talbot broke his word,</l>
-<l gn="1979" n="3" form="verse">And left us to the rage of France his sword.</l>
-<l gn="1980" n="4" form="verse">Where is John Talbot? Pause, and take thy breath;</l>
-<l gn="1981" n="5" form="verse">I gave thee life, and rescu&#8217;d thee from death.</l>
+<l gn="1978" n="2" form="rhyme">The Regent hath with Talbot broke his word,</l>
+<l gn="1979" n="3" form="rhyme">And left us to the rage of France his sword.</l>
+<l gn="1980" n="4" form="rhyme">Where is John Talbot? Pause, and take thy breath;</l>
+<l gn="1981" n="5" form="rhyme">I gave thee life, and rescu&#8217;d thee from death.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="1982" n="6" form="verse">O, twice my father, twice am I thy son!</l>
-<l gn="1983" n="7" form="verse">The life thou gav&#8217;st me first was lost and done,</l>
-<l gn="1984" n="8" form="verse">Till with thy warlike sword, despite of fate,</l>
-<l gn="1985" n="9" form="verse">To my determin&#8217;d time thou gav&#8217;st new date.</l>
+<l gn="1982" n="6" form="rhyme">O, twice my father, twice am I thy son!</l>
+<l gn="1983" n="7" form="rhyme">The life thou gav&#8217;st me first was lost and done,</l>
+<l gn="1984" n="8" form="rhyme">Till with thy warlike sword, despite of fate,</l>
+<l gn="1985" n="9" form="rhyme">To my determin&#8217;d time thou gav&#8217;st new date.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="1986" n="10" form="verse">When from the Dauphin&#8217;s crest thy sword struck fire,</l>
-<l gn="1987" n="11" form="verse">It warm&#8217;d thy father&#8217;s heart with proud desire</l>
-<l gn="1988" n="12" form="verse">Of bold-fac&#8217;d victory. Then leaden age,</l>
-<l gn="1989" n="13" form="verse">Quicken&#8217;d with youthful spleen and warlike rage,</l>
-<l gn="1990" n="14" form="verse">Beat down Alanson, Orl&#233;ans, Burgundy,</l>
-<l gn="1991" n="15" form="verse">And from the pride of Gallia rescued thee.</l>
-<l gn="1992" n="16" form="verse">The ireful Bastard Orl&#233;ans, that drew blood</l>
-<l gn="1993" n="17" form="verse">From thee, my boy, and had the maidenhood</l>
-<l gn="1994" n="18" form="verse">Of thy first fight, I soon encountered,</l>
-<l gn="1995" n="19" form="verse">And interchanging blows I quickly shed</l>
-<l gn="1996" n="20" form="verse">Some of his bastard blood, and in disgrace</l>
-<l gn="1997" n="21" form="verse">Bespoke him thus: &#8220;Contaminated, base,</l>
-<l gn="1998" n="22" form="verse">And misbegotten blood I spill of thine,</l>
-<l gn="1999" n="23" form="verse">Mean and right poor, for that pure blood of mine</l>
-<l gn="2000" n="24" form="verse">Which thou didst force from Talbot, my brave boy.&#8221;</l>
-<l gn="2001" n="25" form="verse">Here, purposing the Bastard to destroy,</l>
-<l gn="2002" n="26" form="verse">Came in strong rescue. Speak, thy father&#8217;s care:</l>
-<l gn="2003" n="27" form="verse">Art thou not weary, John? How dost thou fare?</l>
-<l gn="2004" n="28" form="verse">Wilt thou yet leave the battle, boy, and fly,</l>
-<l gn="2005" n="29" form="verse">Now thou art seal&#8217;d the son of chivalry?</l>
-<l gn="2006" n="30" form="verse">Fly, to revenge my death when I am dead;</l>
-<l gn="2007" n="31" form="verse">The help of one stands me in little stead.</l>
-<l gn="2008" n="32" form="verse">O, too much folly is it, well I wot,</l>
-<l gn="2009" n="33" form="verse">To hazard all our lives in one small boat!</l>
-<l gn="2010" n="34" form="verse">If I today die not with Frenchmen&#8217;s rage,</l>
-<l gn="2011" n="35" form="verse">Tomorrow I shall die with mickle age.</l>
-<l gn="2012" n="36" form="verse">By me they nothing gain and if I stay,</l>
-<l gn="2013" n="37" form="verse">&#8217;Tis but the short&#8217;ning of my life one day.</l>
-<l gn="2014" n="38" form="verse">In thee thy mother dies, our household&#8217;s name,</l>
-<l gn="2015" n="39" form="verse">My death&#8217;s revenge, thy youth, and England&#8217;s fame:</l>
-<l gn="2016" n="40" form="verse">All these, and more, we hazard by thy stay;</l>
-<l gn="2017" n="41" form="verse">All these are sav&#8217;d if thou wilt fly away.</l>
+<l gn="1986" n="10" form="rhyme">When from the Dauphin&#8217;s crest thy sword struck fire,</l>
+<l gn="1987" n="11" form="rhyme">It warm&#8217;d thy father&#8217;s heart with proud desire</l>
+<l gn="1988" n="12" form="rhyme">Of bold-fac&#8217;d victory. Then leaden age,</l>
+<l gn="1989" n="13" form="rhyme">Quicken&#8217;d with youthful spleen and warlike rage,</l>
+<l gn="1990" n="14" form="rhyme">Beat down Alanson, Orl&#233;ans, Burgundy,</l>
+<l gn="1991" n="15" form="rhyme">And from the pride of Gallia rescued thee.</l>
+<l gn="1992" n="16" form="rhyme">The ireful Bastard Orl&#233;ans, that drew blood</l>
+<l gn="1993" n="17" form="rhyme">From thee, my boy, and had the maidenhood</l>
+<l gn="1994" n="18" form="rhyme">Of thy first fight, I soon encountered,</l>
+<l gn="1995" n="19" form="rhyme">And interchanging blows I quickly shed</l>
+<l gn="1996" n="20" form="rhyme">Some of his bastard blood, and in disgrace</l>
+<l gn="1997" n="21" form="rhyme">Bespoke him thus: &#8220;Contaminated, base,</l>
+<l gn="1998" n="22" form="rhyme">And misbegotten blood I spill of thine,</l>
+<l gn="1999" n="23" form="rhyme">Mean and right poor, for that pure blood of mine</l>
+<l gn="2000" n="24" form="rhyme">Which thou didst force from Talbot, my brave boy.&#8221;</l>
+<l gn="2001" n="25" form="rhyme">Here, purposing the Bastard to destroy,</l>
+<l gn="2002" n="26" form="rhyme">Came in strong rescue. Speak, thy father&#8217;s care:</l>
+<l gn="2003" n="27" form="rhyme">Art thou not weary, John? How dost thou fare?</l>
+<l gn="2004" n="28" form="rhyme">Wilt thou yet leave the battle, boy, and fly,</l>
+<l gn="2005" n="29" form="rhyme">Now thou art seal&#8217;d the son of chivalry?</l>
+<l gn="2006" n="30" form="rhyme">Fly, to revenge my death when I am dead;</l>
+<l gn="2007" n="31" form="rhyme">The help of one stands me in little stead.</l>
+<l gn="2008" n="32" form="rhyme">O, too much folly is it, well I wot,</l>
+<l gn="2009" n="33" form="rhyme">To hazard all our lives in one small boat!</l>
+<l gn="2010" n="34" form="rhyme">If I today die not with Frenchmen&#8217;s rage,</l>
+<l gn="2011" n="35" form="rhyme">Tomorrow I shall die with mickle age.</l>
+<l gn="2012" n="36" form="rhyme">By me they nothing gain and if I stay,</l>
+<l gn="2013" n="37" form="rhyme">&#8217;Tis but the short&#8217;ning of my life one day.</l>
+<l gn="2014" n="38" form="rhyme">In thee thy mother dies, our household&#8217;s name,</l>
+<l gn="2015" n="39" form="rhyme">My death&#8217;s revenge, thy youth, and England&#8217;s fame:</l>
+<l gn="2016" n="40" form="rhyme">All these, and more, we hazard by thy stay;</l>
+<l gn="2017" n="41" form="rhyme">All these are sav&#8217;d if thou wilt fly away.</l>
 </sp>
 <sp>
 <speaker long="John Talbot">JOHN.</speaker>
-<l gn="2018" n="42" form="verse">The sword of Orl&#233;ans hath not made me smart;</l>
-<l gn="2019" n="43" form="verse">These words of yours draw life-blood from my heart.</l>
-<l gn="2020" n="44" form="verse">On that advantage, bought with such a shame,</l>
-<l gn="2021" n="45" form="verse">To save a paltry life and slay bright fame,</l>
-<l gn="2022" n="46" form="verse">Before young Talbot from old Talbot fly</l>
-<l gn="2023" n="47" form="verse">The coward horse that bears me fall and die!</l>
-<l gn="2024" n="48" form="verse">And like me to the peasant boys of France,</l>
-<l gn="2025" n="49" form="verse">To be shame&#8217;s scorn and subject of mischance!</l>
-<l gn="2026" n="50" form="verse">Surely, by all the glory you have won,</l>
-<l gn="2027" n="51" form="verse">And if I fly, I am not Talbot&#8217;s son.</l>
-<l gn="2028" n="52" form="verse">Then talk no more of flight, it is no boot;</l>
-<l gn="2029" n="53" form="verse">If son to Talbot, die at Talbot&#8217;s foot.</l>
+<l gn="2018" n="42" form="rhyme">The sword of Orl&#233;ans hath not made me smart;</l>
+<l gn="2019" n="43" form="rhyme">These words of yours draw life-blood from my heart.</l>
+<l gn="2020" n="44" form="rhyme">On that advantage, bought with such a shame,</l>
+<l gn="2021" n="45" form="rhyme">To save a paltry life and slay bright fame,</l>
+<l gn="2022" n="46" form="rhyme">Before young Talbot from old Talbot fly</l>
+<l gn="2023" n="47" form="rhyme">The coward horse that bears me fall and die!</l>
+<l gn="2024" n="48" form="rhyme">And like me to the peasant boys of France,</l>
+<l gn="2025" n="49" form="rhyme">To be shame&#8217;s scorn and subject of mischance!</l>
+<l gn="2026" n="50" form="rhyme">Surely, by all the glory you have won,</l>
+<l gn="2027" n="51" form="rhyme">And if I fly, I am not Talbot&#8217;s son.</l>
+<l gn="2028" n="52" form="rhyme">Then talk no more of flight, it is no boot;</l>
+<l gn="2029" n="53" form="rhyme">If son to Talbot, die at Talbot&#8217;s foot.</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="2030" n="54" form="verse">Then follow thou thy desp&#8217;rate sire of Crete,</l>
-<l gn="2031" n="55" form="verse">Thou Icarus; thy life to me is sweet.</l>
-<l gn="2032" n="56" form="verse">If thou wilt fight, fight by thy father&#8217;s side,</l>
-<l gn="2033" n="57" form="verse">And commendable prov&#8217;d, let&#8217;s die in pride.</l>
+<l gn="2030" n="54" form="rhyme">Then follow thou thy desp&#8217;rate sire of Crete,</l>
+<l gn="2031" n="55" form="rhyme">Thou Icarus; thy life to me is sweet.</l>
+<l gn="2032" n="56" form="rhyme">If thou wilt fight, fight by thy father&#8217;s side,</l>
+<l gn="2033" n="57" form="rhyme">And commendable prov&#8217;d, let&#8217;s die in pride.</l>
 </sp>
 <stage sgn="2033.01" sn="57.01">
 <dir>Exeunt.</dir>
@@ -5381,22 +5381,22 @@
 </stage>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="2034" n="1" form="verse">Where is my other life? Mine own is gone.</l>
-<l gn="2035" n="2" form="verse">O, where&#8217;s young Talbot? Where is valiant John?</l>
-<l gn="2036" n="3" form="verse">Triumphant Death, smear&#8217;d with captivity,</l>
-<l gn="2037" n="4" form="verse">Young Talbot&#8217;s valor makes me smile at thee.</l>
-<l gn="2038" n="5" form="verse">When he perceiv&#8217;d me shrink and on my knee,</l>
-<l gn="2039" n="6" form="verse">His bloody sword he brandish&#8217;d over me,</l>
-<l gn="2040" n="7" form="verse">And like a hungry lion did commence</l>
-<l gn="2041" n="8" form="verse">Rough deeds of rage and stern impatience;</l>
-<l gn="2042" n="9" form="verse">But when my angry guardant stood alone,</l>
-<l gn="2043" n="10" form="verse">Tend&#8217;ring my ruin and assail&#8217;d of none,</l>
-<l gn="2044" n="11" form="verse">Dizzy-ey&#8217;d fury and great rage of heart</l>
-<l gn="2045" n="12" form="verse">Suddenly made him from my side to start</l>
-<l gn="2046" n="13" form="verse">Into the clust&#8217;ring battle of the French;</l>
-<l gn="2047" n="14" form="verse">And in that sea of blood my boy did drench</l>
-<l gn="2048" n="15" form="verse">His overmounting spirit; and there died</l>
-<l gn="2049" n="16" form="verse">My Icarus, my blossom, in his pride.</l>
+<l gn="2034" n="1" form="rhyme">Where is my other life? Mine own is gone.</l>
+<l gn="2035" n="2" form="rhyme">O, where&#8217;s young Talbot? Where is valiant John?</l>
+<l gn="2036" n="3" form="rhyme">Triumphant Death, smear&#8217;d with captivity,</l>
+<l gn="2037" n="4" form="rhyme">Young Talbot&#8217;s valor makes me smile at thee.</l>
+<l gn="2038" n="5" form="rhyme">When he perceiv&#8217;d me shrink and on my knee,</l>
+<l gn="2039" n="6" form="rhyme">His bloody sword he brandish&#8217;d over me,</l>
+<l gn="2040" n="7" form="rhyme">And like a hungry lion did commence</l>
+<l gn="2041" n="8" form="rhyme">Rough deeds of rage and stern impatience;</l>
+<l gn="2042" n="9" form="rhyme">But when my angry guardant stood alone,</l>
+<l gn="2043" n="10" form="rhyme">Tend&#8217;ring my ruin and assail&#8217;d of none,</l>
+<l gn="2044" n="11" form="rhyme">Dizzy-ey&#8217;d fury and great rage of heart</l>
+<l gn="2045" n="12" form="rhyme">Suddenly made him from my side to start</l>
+<l gn="2046" n="13" form="rhyme">Into the clust&#8217;ring battle of the French;</l>
+<l gn="2047" n="14" form="rhyme">And in that sea of blood my boy did drench</l>
+<l gn="2048" n="15" form="rhyme">His overmounting spirit; and there died</l>
+<l gn="2049" n="16" form="rhyme">My Icarus, my blossom, in his pride.</l>
 </sp>
 <stage sgn="2049.01" sn="16.01">
 <dir>Enter Soldiers with John Talbot borne.</dir>
@@ -5410,25 +5410,25 @@
 </stage>
 <sp>
 <speaker long="Talbot&#8217;s Servant">TAL. SERV.</speaker>
-<l gn="2050" n="17" form="verse">O my dear lord, lo where your son is borne!</l>
+<l gn="2050" n="17" form="rhyme">O my dear lord, lo where your son is borne!</l>
 </sp>
 <sp>
 <speaker long="Lord Talbot">TAL.</speaker>
-<l gn="2051" n="18" form="verse">Thou antic Death, which laugh&#8217;st us here to scorn,</l>
-<l gn="2052" n="19" form="verse">Anon, from thy insulting tyranny,</l>
-<l gn="2053" n="20" form="verse">Coupled in bonds of perpetuity,</l>
-<l gn="2054" n="21" form="verse">Two Talbots, winged through the lither sky,</l>
-<l gn="2055" n="22" form="verse">In thy despite shall scape mortality.</l>
-<l gn="2056" n="23" form="verse">O thou whose wounds become hard-favored Death,</l>
-<l gn="2057" n="24" form="verse">Speak to thy father ere thou yield thy breath!</l>
-<l gn="2058" n="25" form="verse">Brave Death by speaking, whether he will or no;</l>
-<l gn="2059" n="26" form="verse">Imagine him a Frenchman, and thy foe.</l>
-<l gn="2060" n="27" form="verse">Poor boy, he smiles, methinks, as who should say,</l>
-<l gn="2061" n="28" form="verse">Had Death been French, then Death had died today.</l>
-<l gn="2062" n="29" form="verse">Come, come, and lay him in his father&#8217;s arms,</l>
-<l gn="2063" n="30" form="verse">My spirit can no longer bear these harms.</l>
-<l gn="2064" n="31" form="verse">Soldiers, ! I have what I would have,</l>
-<l gn="2065" n="32" form="verse">Now my old arms are young John Talbot&#8217;s grave.</l>
+<l gn="2051" n="18" form="rhyme">Thou antic Death, which laugh&#8217;st us here to scorn,</l>
+<l gn="2052" n="19" form="rhyme">Anon, from thy insulting tyranny,</l>
+<l gn="2053" n="20" form="rhyme">Coupled in bonds of perpetuity,</l>
+<l gn="2054" n="21" form="rhyme">Two Talbots, winged through the lither sky,</l>
+<l gn="2055" n="22" form="rhyme">In thy despite shall scape mortality.</l>
+<l gn="2056" n="23" form="rhyme">O thou whose wounds become hard-favored Death,</l>
+<l gn="2057" n="24" form="rhyme">Speak to thy father ere thou yield thy breath!</l>
+<l gn="2058" n="25" form="rhyme">Brave Death by speaking, whether he will or no;</l>
+<l gn="2059" n="26" form="rhyme">Imagine him a Frenchman, and thy foe.</l>
+<l gn="2060" n="27" form="rhyme">Poor boy, he smiles, methinks, as who should say,</l>
+<l gn="2061" n="28" form="rhyme">Had Death been French, then Death had died today.</l>
+<l gn="2062" n="29" form="rhyme">Come, come, and lay him in his father&#8217;s arms,</l>
+<l gn="2063" n="30" form="rhyme">My spirit can no longer bear these harms.</l>
+<l gn="2064" n="31" form="rhyme">Soldiers, ! I have what I would have,</l>
+<l gn="2065" n="32" form="rhyme">Now my old arms are young John Talbot&#8217;s grave.</l>
 </sp>
 <stage sgn="2065.01" sn="32.01">
 <dir>Dies.</dir>
@@ -5453,34 +5453,34 @@
 </sp>
 <sp>
 <speaker long="Bastard of Orl&#233;ans">BAST.</speaker>
-<l gn="2068" n="35" form="verse">How the young whelp of Talbot&#8217;s, raging wood,</l>
-<l gn="2069" n="36" form="verse">Did flesh his puny sword in Frenchmen&#8217;s blood!</l>
+<l gn="2068" n="35" form="rhyme">How the young whelp of Talbot&#8217;s, raging wood,</l>
+<l gn="2069" n="36" form="rhyme">Did flesh his puny sword in Frenchmen&#8217;s blood!</l>
 </sp>
 <sp>
 <speaker long="Joan de Pucelle">PUC.</speaker>
-<l gn="2070" n="37" form="verse">Once I encount&#8217;red him, and thus I said:</l>
-<l gn="2071" n="38" form="verse">&#8220;Thou maiden youth, be vanquish&#8217;d by a maid!&#8221;</l>
-<l gn="2072" n="39" form="verse">But with a proud majestical high scorn</l>
-<l gn="2073" n="40" form="verse">He answer&#8217;d thus: &#8220;Young Talbot was not born</l>
-<l gn="2074" n="41" form="verse">To be the pillage of a giglot wench.&#8221;</l>
-<l gn="2075" n="42" form="verse">So rushing in the bowels of the French,</l>
-<l gn="2076" n="43" form="verse">He left me proudly, as unworthy fight.</l>
+<l gn="2070" n="37" form="rhyme">Once I encount&#8217;red him, and thus I said:</l>
+<l gn="2071" n="38" form="rhyme">&#8220;Thou maiden youth, be vanquish&#8217;d by a maid!&#8221;</l>
+<l gn="2072" n="39" form="rhyme">But with a proud majestical high scorn</l>
+<l gn="2073" n="40" form="rhyme">He answer&#8217;d thus: &#8220;Young Talbot was not born</l>
+<l gn="2074" n="41" form="rhyme">To be the pillage of a giglot wench.&#8221;</l>
+<l gn="2075" n="42" form="rhyme">So rushing in the bowels of the French,</l>
+<l gn="2076" n="43" form="rhyme">He left me proudly, as unworthy fight.</l>
 </sp>
 <sp>
 <speaker long="Duke of Burgundy">BUR.</speaker>
-<l gn="2077" n="44" form="verse">Doubtless he would have made a noble knight.</l>
-<l gn="2078" n="45" form="verse">See where he lies inhearsed in the arms</l>
-<l gn="2079" n="46" form="verse">Of the most bloody nurser of his harms!</l>
+<l gn="2077" n="44" form="rhyme">Doubtless he would have made a noble knight.</l>
+<l gn="2078" n="45" form="rhyme">See where he lies inhearsed in the arms</l>
+<l gn="2079" n="46" form="rhyme">Of the most bloody nurser of his harms!</l>
 </sp>
 <sp>
 <speaker long="Bastard of Orl&#233;ans">BAST.</speaker>
-<l gn="2080" n="47" form="verse">Hew them to pieces, hack their bones asunder,</l>
-<l gn="2081" n="48" form="verse">Whose life was England&#8217;s glory, Gallia&#8217;s wonder.</l>
+<l gn="2080" n="47" form="rhyme">Hew them to pieces, hack their bones asunder,</l>
+<l gn="2081" n="48" form="rhyme">Whose life was England&#8217;s glory, Gallia&#8217;s wonder.</l>
 </sp>
 <sp>
 <speaker long="Charles, Dauphin of France">CHAR.</speaker>
-<l gn="2082" n="49" form="verse">O no, forbear! For that which we have fled</l>
-<l gn="2083" n="50" form="verse">During the life, let us not wrong it dead.</l>
+<l gn="2082" n="49" form="rhyme">O no, forbear! For that which we have fled</l>
+<l gn="2083" n="50" form="rhyme">During the life, let us not wrong it dead.</l>
 </sp>
 <stage sgn="2083.01" sn="50.01">
 <dir>Enter Lucy attended, Herald of the French preceding.</dir>
@@ -5565,8 +5565,8 @@
 <sp>
 <speaker long="Charles, Dauphin of France">CHAR.</speaker>
 <l gn="2127" n="94" form="verse">So we be rid of them, do with &#8217;em what thou wilt.</l>
-<l gn="2128" n="95" form="verse">And now to Paris in this conquering vein,</l>
-<l gn="2129" n="96" form="verse">All will be ours, now bloody Talbot&#8217;s slain.</l>
+<l gn="2128" n="95" form="rhyme">And now to Paris in this conquering vein,</l>
+<l gn="2129" n="96" form="rhyme">All will be ours, now bloody Talbot&#8217;s slain.</l>
 </sp>
 <stage sgn="2129.01" sn="96.01">
 <dir>Exeunt.</dir>
@@ -5741,10 +5741,10 @@
 <l gn="2185" n="56" form="verse">Now Winchester will not submit, I trow,</l>
 <l gn="2186" n="57" form="verse">Or be inferior to the proudest peer.</l>
 <l gn="2187" n="58" form="verse">Humphrey of Gloucester, thou shalt well perceive</l>
-<l gn="2188" n="59" form="verse">That neither in birth, or for authority,</l>
-<l gn="2189" n="60" form="verse">The Bishop will be overborne by thee.</l>
-<l gn="2190" n="61" form="verse">I&#8217;ll either make thee stoop and bend thy knee,</l>
-<l gn="2191" n="62" form="verse">Or sack this country with a mutiny.</l>
+<l gn="2188" n="59" form="rhyme">That neither in birth, or for authority,</l>
+<l gn="2189" n="60" form="rhyme">The Bishop will be overborne by thee.</l>
+<l gn="2190" n="61" form="rhyme">I&#8217;ll either make thee stoop and bend thy knee,</l>
+<l gn="2191" n="62" form="rhyme">Or sack this country with a mutiny.</l>
 </sp>
 <stage sgn="2191.01" sn="62.01">
 <dir>Exit.</dir>
@@ -5785,8 +5785,8 @@
 </sp>
 <sp>
 <speaker long="Duke of Alanson">ALAN.</speaker>
-<l gn="2195" n="4" form="verse">Then march to Paris, royal Charles of France,</l>
-<l gn="2196" n="5" form="verse">And keep not back your powers in dalliance.</l>
+<l gn="2195" n="4" form="rhyme">Then march to Paris, royal Charles of France,</l>
+<l gn="2196" n="5" form="rhyme">And keep not back your powers in dalliance.</l>
 </sp>
 <sp>
 <speaker long="Joan de Pucelle">PUC.</speaker>
@@ -5827,8 +5827,8 @@
 <sp>
 <speaker long="Joan de Pucelle">PUC.</speaker>
 <l gn="2209" n="18" form="verse">Of all base passions, fear is most accurs&#8217;d.</l>
-<l gn="2210" n="19" form="verse">Command the conquest, Charles, it shall be thine,</l>
-<l gn="2211" n="20" form="verse">Let Henry fret, and all the world repine.</l>
+<l gn="2210" n="19" form="rhyme">Command the conquest, Charles, it shall be thine,</l>
+<l gn="2211" n="20" form="rhyme">Let Henry fret, and all the world repine.</l>
 </sp>
 <sp>
 <speaker long="Charles, Dauphin of France">CHAR.</speaker>
@@ -6037,15 +6037,15 @@
 <l gn="2267" n="55" form="verse">Thou art allotted to be ta&#8217;en by me;</l>
 <l gn="2268" n="56" form="verse">So doth the swan her downy cygnets save,</l>
 <l gn="2269" n="57" form="verse">Keeping them prisoner underneath her wings.</l>
-<l gn="2270" n="58" form="verse">Yet, if this servile usage once offend,</l>
-<l gn="2271" n="59" form="verse">Go, and be free again, as Suffolk&#8217;s friend.</l>
+<l gn="2270" n="58" form="rhyme">Yet, if this servile usage once offend,</l>
+<l gn="2271" n="59" form="rhyme">Go, and be free again, as Suffolk&#8217;s friend.</l>
 <stage sgn="2271.01" sn="59.01">
 <dir>She is going.</dir>
 	<action type="action">
 		<actor>MARG.</actor>
 	</action>
 </stage>
-<l gn="2272" n="60" form="verse" rend="indent(0)">O, stay!</l>
+<l gn="2272" n="60" form="verse">O, stay!</l>
 <stage sgn="2272.01" sn="60.01">
 <dir>Aside.</dir>
 	<action type="aside">
@@ -6247,7 +6247,7 @@
 <speaker long="Margaret">MARG.</speaker>
 <l gn="2325" n="112" form="verse">To be a queen in bondage is more vile</l>
 <l gn="2326" n="113" form="verse">Than is a slave in base servility;</l>
-<l gn="2327" n="114" form="verse" rend="indent(0)">For princes should be free.</l>
+<l gn="2327" n="114" form="verse">For princes should be free.</l>
 </sp>
 <sp>
 <speaker long="Earl of Suffolk">SUF.</speaker>
@@ -6263,7 +6263,7 @@
 <l gn="2331" n="117" form="verse">I&#8217;ll undertake to make thee Henry&#8217;s queen,</l>
 <l gn="2332" n="118" form="verse">To put a golden scepter in thy hand,</l>
 <l gn="2333" n="119" form="verse">And set a precious crown upon thy head,</l>
-<l gn="2334" n="120" form="verse" rend="indent(0)">If thou wilt condescend to be my&#8288;&#8212;</l>
+<l gn="2334" n="120" form="verse">If thou wilt condescend to be my&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Margaret">MARG.</speaker>
@@ -6305,7 +6305,7 @@
 </sp>
 <sp>
 <speaker long="Reignier, Duke of Anjou">REIG.</speaker>
-<l gn="2347" n="132" form="verse" rend="indent(0)">To whom?</l>
+<l gn="2347" n="132" form="verse">To whom?</l>
 </sp>
 <sp>
 <speaker long="Earl of Suffolk">SUF.</speaker>
@@ -6328,7 +6328,7 @@
 </sp>
 <sp>
 <speaker long="Reignier, Duke of Anjou">REIG.</speaker>
-<l gn="2358" n="141" form="verse" rend="indent(0)">Speaks Suffolk as he thinks?</l>
+<l gn="2358" n="141" form="verse">Speaks Suffolk as he thinks?</l>
 </sp>
 <sp>
 <speaker long="Earl of Suffolk">SUF.</speaker>
@@ -6996,10 +6996,10 @@
 <l gn="2660" n="72" form="verse">Will answer our hope in issue of a king;</l>
 <l gn="2661" n="73" form="verse">For Henry, son unto a conqueror,</l>
 <l gn="2662" n="74" form="verse">Is likely to beget more conquerors,</l>
-<l gn="2663" n="75" form="verse">If with a lady of so high resolve</l>
-<l gn="2664" n="76" form="verse">(As is fair Margaret) he be link&#8217;d in love.</l>
-<l gn="2665" n="77" form="verse">Then yield, my lords, and here conclude with me</l>
-<l gn="2666" n="78" form="verse">That Margaret shall be Queen, and none but she.</l>
+<l gn="2663" n="75" form="rhyme">If with a lady of so high resolve</l>
+<l gn="2664" n="76" form="rhyme">(As is fair Margaret) he be link&#8217;d in love.</l>
+<l gn="2665" n="77" form="rhyme">Then yield, my lords, and here conclude with me</l>
+<l gn="2666" n="78" form="rhyme">That Margaret shall be Queen, and none but she.</l>
 </sp>
 <sp>
 <speaker long="King Henry the Sixth">KING.</speaker>

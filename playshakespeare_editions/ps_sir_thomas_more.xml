@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <play variant="ps" unique="sir-thomas-more">
 <title>
-	<common>Sir Thomas More	</common>
+	<common>Sir Thomas More</common>
 	<main>Sir Thomas More</main>
 	<short>Sir Thomas More</short>
 	<abbr>STM</abbr>
@@ -24,7 +24,7 @@
 </availability>
 </publicationStmt>
 <editionStmt>
-<edition n="5.0"></edition>
+<edition n="5.1"></edition>
 </editionStmt>
 </fileDesc>
 <castList playtitle="Sir Thomas More">
@@ -602,7 +602,7 @@
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
-<l gn="52" n="6" form="verse" rend="indent(0)">Who sent him in?</l>
+<l gn="52" n="6" form="verse">Who sent him in?</l>
 </sp>
 <sp>
 <speaker long="Justice Suresby">SURESBY.</speaker>
@@ -643,7 +643,7 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="69" n="22" form="verse" rend="indent(0)">My lord, that&#8217;s worthy the hearing.</l>
+<l gn="69" n="22" form="verse">My lord, that&#8217;s worthy the hearing.</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
@@ -766,14 +766,14 @@
 </sp>
 <sp>
 <speaker long="Lifter">LIFTER.</speaker>
-<l gn="132" n="84" form="verse">If ye do so, sir, then let me alone;</l>
-<l gn="133" n="85" form="verse">Forty to one but then his purse is gone.</l>
+<l gn="132" n="84" form="rhyme">If ye do so, sir, then let me alone;</l>
+<l gn="133" n="85" form="rhyme">Forty to one but then his purse is gone.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="134" n="86" form="verse">Well said. But see that thou diminish not</l>
-<l gn="135" n="87" form="verse">One penny of the money, but give it me;</l>
-<l gn="136" n="88" form="verse">It is the cunning act that credits thee.</l>
+<l gn="135" n="87" form="rhyme">One penny of the money, but give it me;</l>
+<l gn="136" n="88" form="rhyme">It is the cunning act that credits thee.</l>
 </sp>
 <sp>
 <speaker long="Lifter">LIFTER.</speaker>
@@ -846,13 +846,13 @@
 <speaker long="Lifter">LIFTER.</speaker>
 <l gn="162" n="114" form="verse">There be, sir, diverse very cunning fellows,</l>
 <l gn="163" n="115" form="verse">That, while you stand and look them in the face,</l>
-<l gn="164" n="116" form="verse" rend="indent(0)">Will have your purse.</l>
+<l gn="164" n="116" form="verse">Will have your purse.</l>
 </sp>
 <sp>
 <speaker long="Justice Suresby">SURESBY.</speaker>
-<l gn="165" n="116" form="verse" rend="indent(5)">Th&#8217;art an honest knave:</l>
+<l gn="165" n="116" form="verse" rend="indent(4)">Th&#8217;art an honest knave:</l>
 <l gn="166" n="117" form="verse">Tell me what are they? Where they may be caught?</l>
-<l gn="167" n="118" form="verse" rend="indent(0)">Aye, those are they I look for.</l>
+<l gn="167" n="118" form="verse">Aye, those are they I look for.</l>
 </sp>
 <sp>
 <speaker long="Lifter">LIFTER.</speaker>
@@ -895,7 +895,7 @@
 <sp>
 <speaker long="Justice Suresby">SURESBY.</speaker>
 <l gn="185" n="135" form="verse">In plainer English, Lifter, if my purse</l>
-<l gn="186" n="136" form="verse" rend="indent(0)">Be stored or no?</l>
+<l gn="186" n="136" form="verse">Be stored or no?</l>
 </sp>
 <sp>
 <speaker long="Lifter">LIFTER.</speaker>
@@ -958,7 +958,7 @@
 		<actor>MORE.</actor>
 	</action>
 </stage>
-<l gn="203" n="151" form="verse" rend="indent(0)">Lifter, is it done?</l>
+<l gn="203" n="151" form="verse">Lifter, is it done?</l>
 </sp>
 <sp>
 <speaker long="Lifter">LIFTER.</speaker>
@@ -996,7 +996,7 @@
 </sp>
 <sp>
 <speaker long="Recorder">RECORDER.</speaker>
-<l gn="214" n="161" form="verse" rend="indent(0)">And there for me.</l>
+<l gn="214" n="161" form="verse">And there for me.</l>
 </sp>
 <sp>
 <speaker long="First Officer">1. OFF.</speaker>
@@ -1005,7 +1005,7 @@
 <sp>
 <speaker long="Justice Suresby">SURESBY.</speaker>
 <l gn="216" n="161" form="verse" rend="indent(7)">Body of me,</l>
-<l gn="217" n="162" form="verse" rend="indent(0)">My purse is gone!</l>
+<l gn="217" n="162" form="verse">My purse is gone!</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -1064,8 +1064,8 @@
 <l gn="246" n="190" form="verse">And Lifter here in trial for like case,</l>
 <l gn="247" n="191" form="verse">But that the poor man is a prisoner,</l>
 <l gn="248" n="192" form="verse">It would be now suspected that he had it.</l>
-<l gn="249" n="193" form="verse">Thus may ye see what mischief often comes</l>
-<l gn="250" n="194" form="verse">By the fond carriage of such needless sums.</l>
+<l gn="249" n="193" form="rhyme">Thus may ye see what mischief often comes</l>
+<l gn="250" n="194" form="rhyme">By the fond carriage of such needless sums.</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
@@ -1076,8 +1076,8 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="254" n="198" form="verse">Well, Master Suresby, there&#8217;s your purse again,</l>
-<l gn="255" n="199" form="verse">And all your money. Fear nothing of More;</l>
-<l gn="256" n="200" form="verse">Wisdom still keeps the mean and locks the door.</l>
+<l gn="255" n="199" form="rhyme">And all your money. Fear nothing of More;</l>
+<l gn="256" n="200" form="rhyme">Wisdom still keeps the mean and locks the door.</l>
 </sp>
 <stage sgn="256.01" sn="200.01">
 	<dir>Exeunt.</dir>
@@ -1226,11 +1226,11 @@
 </stage>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
-<l gn="327" n="71" form="verse" rend="indent(0)">Sirrah, what news?</l>
+<l gn="327" n="71" form="verse">Sirrah, what news?</l>
 </sp>
 <sp>
 <speaker long="Sir Roger Cholmley">CHOLMLEY.</speaker>
-<l gn="328" n="71" form="verse" rend="indent(5)">None good, I fear.</l>
+<l gn="328" n="71" form="verse" rend="indent(4)">None good, I fear.</l>
 </sp>
 <sp>
 <speaker long="First Messenger">1. MESS.</speaker>
@@ -1381,87 +1381,87 @@
 </sp>
 <sp>
 <speaker long="George Betts">GEORGE.</speaker>
-<l gn="362" n="2" form="verse" rend="indent(0)">Brother, give place, and hear John Lincoln speak.</l>
+<l gn="362" n="2" form="verse">Brother, give place, and hear John Lincoln speak.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="363" n="2" form="verse" rend="indent(2)">Aye, Lincoln my leader,</l>
-<l gn="364" n="2" form="verse" rend="indent(2)">And Doll my true breeder,</l>
-<l gn="365" n="2" form="verse" rend="indent(2)">With the rest of our crew,</l>
-<l gn="366" n="2" form="verse" rend="indent(2)">Shall ran tan tarra ran;</l>
-<l gn="367" n="2" form="verse" rend="indent(2)">Do all they what they can.</l>
-<l gn="368" n="2" form="verse" rend="indent(2)">Shall we be bobbed, braved? No:</l>
-<l gn="369" n="2" form="verse" rend="indent(2)">Shall we be held under? No;</l>
-<l gn="370" n="2" form="verse" rend="indent(2)">We are freeborne,</l>
-<l gn="371" n="2" form="verse" rend="indent(2)">And do take scorn</l>
-<l gn="372" n="2" form="verse" rend="indent(2)">To be used so.</l>
+<l gn="363" n="3" form="rhyme" rend="indent(2)">Aye, Lincoln my leader,</l>
+<l gn="364" n="4" form="rhyme" rend="indent(2)">And Doll my true breeder,</l>
+<l gn="365" n="5" form="rhyme" rend="indent(2)">With the rest of our crew,</l>
+<l gn="366" n="6" form="rhyme" rend="indent(2)">Shall ran tan tarra ran;</l>
+<l gn="367" n="7" form="rhyme" rend="indent(2)">Do all they what they can.</l>
+<l gn="368" n="8" form="rhyme" rend="indent(2)">Shall we be bobbed, braved? No:</l>
+<l gn="369" n="9" form="rhyme" rend="indent(2)">Shall we be held under? No;</l>
+<l gn="370" n="10" form="rhyme" rend="indent(2)">We are freeborne,</l>
+<l gn="371" n="11" form="rhyme" rend="indent(2)">And do take scorn</l>
+<l gn="372" n="12" form="rhyme" rend="indent(2)">To be used so.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="373" n="3" form="prose">Peace there, I say! Hear Captain Lincoln speak. Keep silence, till we know his mind at large.</l>
+<l gn="373" n="13" form="prose">Peace there, I say! Hear Captain Lincoln speak. Keep silence, till we know his mind at large.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="374" n="4" form="prose">Then largely deliver; speak, bully. And he that presumes to interrupt thee in thy oration, this for him.</l>
+<l gn="374" n="14" form="prose">Then largely deliver; speak, bully. And he that presumes to interrupt thee in thy oration, this for him.</l>
 </sp>
 <sp>
 <speaker long="John Lincoln">LINCOLN.</speaker>
-<l gn="375" n="5" form="verse">Then, gallant bloods, you whose free souls do scorn</l>
-<l gn="376" n="6" form="verse">To bear the inforced wrongs of aliens,</l>
-<l gn="377" n="7" form="verse">Add rage to resolution, fire the houses</l>
-<l gn="378" n="8" form="verse">Of these audacious strangers. This is St. Martin&#8217;s,</l>
-<l gn="379" n="9" form="verse">And yonder dwells Mutas, a wealthy Piccardy,</l>
-<l gn="380" n="10" form="verse">At the Green Gate,</l>
-<l gn="381" n="11" form="verse">De Barde, Peter Van Hollocke, Adrian Martine,</l>
-<l gn="382" n="12" form="verse">With many more outlandish fugitives.</l>
-<l gn="383" n="13" form="verse">Shall these enjoy more privilege than we</l>
-<l gn="384" n="14" form="verse">In our own country? Let&#8217;s, then, become their slaves.</l>
-<l gn="385" n="15" form="verse">Since justice keeps not them in greater awe,</l>
-<l gn="386" n="16" form="verse" rend="indent(0)">We be ourselves rough ministers at law.</l>
+<l gn="375" n="15" form="verse">Then, gallant bloods, you whose free souls do scorn</l>
+<l gn="376" n="16" form="verse">To bear the inforced wrongs of aliens,</l>
+<l gn="377" n="17" form="verse">Add rage to resolution, fire the houses</l>
+<l gn="378" n="18" form="verse">Of these audacious strangers. This is St. Martin&#8217;s,</l>
+<l gn="379" n="19" form="verse">And yonder dwells Mutas, a wealthy Piccardy,</l>
+<l gn="380" n="20" form="verse">At the Green Gate,</l>
+<l gn="381" n="21" form="verse">De Barde, Peter Van Hollocke, Adrian Martine,</l>
+<l gn="382" n="22" form="verse">With many more outlandish fugitives.</l>
+<l gn="383" n="23" form="verse">Shall these enjoy more privilege than we</l>
+<l gn="384" n="24" form="verse">In our own country? Let&#8217;s, then, become their slaves.</l>
+<l gn="385" n="25" form="verse">Since justice keeps not them in greater awe,</l>
+<l gn="386" n="26" form="verse">We be ourselves rough ministers at law.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="387" n="16" form="verse" rend="indent(2)">Use no more swords,</l>
-<l gn="388" n="16" form="verse" rend="indent(2)">Nor no more words,</l>
-<l gn="389" n="16" form="verse" rend="indent(2)">But fire the houses;</l>
-<l gn="390" n="16" form="verse" rend="indent(2)">Brave captain courageous,</l>
-<l gn="391" n="16" form="verse" rend="indent(2)">Fire me their houses.</l>
+<l gn="387" n="27" form="rhyme" rend="indent(2)">Use no more swords,</l>
+<l gn="388" n="28" form="rhyme" rend="indent(2)">Nor no more words,</l>
+<l gn="389" n="29" form="rhyme" rend="indent(2)">But fire the houses;</l>
+<l gn="390" n="30" form="rhyme" rend="indent(2)">Brave captain courageous,</l>
+<l gn="391" n="31" form="rhyme" rend="indent(2)">Fire me their houses.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="392" n="17" form="prose">Aye, for we may as well make bonfires on May Day as at Midsummer. We&#8217;ll alter the day in the calendar, and set it down in flaming letters.</l>
+<l gn="392" n="32" form="prose">Aye, for we may as well make bonfires on May Day as at Midsummer. We&#8217;ll alter the day in the calendar, and set it down in flaming letters.</l>
 </sp>
 <sp>
 <speaker long="Sherwin">SHERWIN.</speaker>
-<l gn="393" n="18" form="verse">Stay!</l>
-<l gn="394" n="19" form="verse">No, that would much endanger the whole city,</l>
-<l gn="395" n="20" form="verse">Whereto I would not the least prejudice.</l>
+<l gn="393" n="33" form="verse">Stay!</l>
+<l gn="394" n="34" form="verse">No, that would much endanger the whole city,</l>
+<l gn="395" n="35" form="verse">Whereto I would not the least prejudice.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="396" n="21" form="prose">No, nor I neither; so may mine own house be burned for company. I&#8217;ll tell ye what. We&#8217;ll drag the strangers into More fields, and there bombast them till they stink again.</l>
+<l gn="396" n="36" form="prose">No, nor I neither; so may mine own house be burned for company. I&#8217;ll tell ye what. We&#8217;ll drag the strangers into More fields, and there bombast them till they stink again.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="397" n="22" form="prose">And that&#8217;s soon done; for they smell for fear already.</l>
+<l gn="397" n="37" form="prose">And that&#8217;s soon done; for they smell for fear already.</l>
 </sp>
 <sp>
 <speaker long="George Betts">GEORGE.</speaker>
-<l gn="398" n="23" form="verse">Let some of us enter the strangers&#8217; houses,</l>
-<l gn="399" n="24" form="verse">And, if we find them there, then bring them forth.</l>
+<l gn="398" n="38" form="verse">Let some of us enter the strangers&#8217; houses,</l>
+<l gn="399" n="39" form="verse">And, if we find them there, then bring them forth.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="400" n="25" form="prose" rend="indent(0)">But if ye bring them forth ere ye find them, I&#8217;ll ne&#8217;er allow of that.</l>
+<l gn="400" n="40" form="prose">But if ye bring them forth ere ye find them, I&#8217;ll ne&#8217;er allow of that.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="401" n="25" form="verse" rend="indent(2)">Now, Mars, for thy honor,</l>
-<l gn="402" n="25" form="verse" rend="indent(2)">Dutch or French,</l>
-<l gn="403" n="25" form="verse" rend="indent(2)">So it be a wench,</l>
-<l gn="404" n="25" form="verse" rend="indent(2)">I&#8217;ll upon her.</l>
+<l gn="401" n="41" form="rhyme" rend="indent(2)">Now, Mars, for thy honor,</l>
+<l gn="402" n="42" form="rhyme" rend="indent(2)">Dutch or French,</l>
+<l gn="403" n="43" form="rhyme" rend="indent(2)">So it be a wench,</l>
+<l gn="404" n="44" form="rhyme" rend="indent(2)">I&#8217;ll upon her.</l>
 </sp>
-<stage sgn="404.01" sn="25.01">
+<stage sgn="404.01" sn="44.01">
 	<dir>Exeunt some and Sherwin.</dir>
 	<action type="exit">
 		<actor>SHERWIN.</actor>
@@ -1470,23 +1470,23 @@
 </stage>
 <sp>
 <speaker long="Williamson">WILLIAMSON.</speaker>
-<l gn="405" n="26" form="verse">Now, lads, sure shall we labor in our safety.</l>
-<l gn="406" n="27" form="verse">I hear the Mayor hath gathered men in arms,</l>
-<l gn="407" n="28" form="verse">And that Sheriff More an hour ago rised</l>
-<l gn="408" n="29" form="verse">Some of the Privy Counsel in at Ludgate:</l>
-<l gn="409" n="30" form="verse">Force now must make our peace, or else we fall;</l>
-<l gn="410" n="31" form="verse">&#8217;Twill soon be known we are the principal.</l>
+<l gn="405" n="45" form="verse">Now, lads, sure shall we labor in our safety.</l>
+<l gn="406" n="46" form="verse">I hear the Mayor hath gathered men in arms,</l>
+<l gn="407" n="47" form="verse">And that Sheriff More an hour ago rised</l>
+<l gn="408" n="48" form="verse">Some of the Privy Counsel in at Ludgate:</l>
+<l gn="409" n="49" form="verse">Force now must make our peace, or else we fall;</l>
+<l gn="410" n="50" form="verse">&#8217;Twill soon be known we are the principal.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="411" n="32" form="prose">And what of that? If thou beest afraid, husband, go home again, and hide they head; for, by the Lord, I&#8217;ll have a little sport, now we are at it.</l>
+<l gn="411" n="51" form="prose">And what of that? If thou beest afraid, husband, go home again, and hide they head; for, by the Lord, I&#8217;ll have a little sport, now we are at it.</l>
 </sp>
 <sp>
 <speaker long="George Betts">GEORGE.</speaker>
-<l gn="412" n="33" form="verse">Let&#8217;s stand upon our swords, and if they come,</l>
-<l gn="413" n="34" form="verse">Receive them as they were our enemies.</l>
+<l gn="412" n="52" form="verse">Let&#8217;s stand upon our swords, and if they come,</l>
+<l gn="413" n="53" form="verse">Receive them as they were our enemies.</l>
 </sp>
-<stage sgn="413.01" sn="34.01">
+<stage sgn="413.01" sn="53.01">
 	<dir>Enter Sherwin and the rest.</dir>
 	<action type="enter">
 		<actor>SHERWIN.</actor>
@@ -1495,32 +1495,32 @@
 </stage>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="414" n="35" form="prose">A purchase, a purchase! We have found, we ha found&#8288;&#8212;</l>
+<l gn="414" n="54" form="prose">A purchase, a purchase! We have found, we ha found&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="415" n="36" form="prose">What?</l>
+<l gn="415" n="55" form="prose">What?</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="416" n="37" form="prose">Nothing; not a French Fleming nor a Fleming French to be found; but all fled, in plain English.</l>
+<l gn="416" n="56" form="prose">Nothing; not a French Fleming nor a Fleming French to be found; but all fled, in plain English.</l>
 </sp>
 <sp>
 <speaker long="John Lincoln">LINCOLN.</speaker>
-<l gn="417" n="38" form="prose">How now! Have you found any?</l>
+<l gn="417" n="57" form="prose">How now! Have you found any?</l>
 </sp>
 <sp>
 <speaker long="Sherwin">SHERWIN.</speaker>
-<l gn="418" n="39" form="prose">No, not one; they&#8217;re all fled.</l>
+<l gn="418" n="58" form="prose">No, not one; they&#8217;re all fled.</l>
 </sp>
 <sp>
 <speaker long="John Lincoln">LINCOLN.</speaker>
-<l gn="419" n="40" form="verse">Then fire the houses, that, the Mayor being busy</l>
-<l gn="420" n="41" form="verse">About the quenching of them, we may escape;</l>
-<l gn="421" n="42" form="verse">Burn down their kennels. Let us straight away,</l>
-<l gn="422" n="43" form="verse">Least this day prove to us an ill May Day.</l>
+<l gn="419" n="59" form="verse">Then fire the houses, that, the Mayor being busy</l>
+<l gn="420" n="60" form="verse">About the quenching of them, we may escape;</l>
+<l gn="421" n="61" form="verse">Burn down their kennels. Let us straight away,</l>
+<l gn="422" n="62" form="verse">Least this day prove to us an ill May Day.</l>
 </sp>
-<stage sgn="422.01" sn="43.01">
+<stage sgn="422.01" sn="62.01">
 	<dir>Exeunt manet Clown.</dir>
 	<action type="exit">
 		<actor>WILLIAMSON.</actor>
@@ -1532,10 +1532,10 @@
 </stage>
 <sp type="aside">
 <speaker long="Clown Betts">CLOWN.</speaker>
-<l gn="423" n="44" form="verse">Fire, fire! I&#8217;ll be the first.</l>
-<l gn="424" n="45" form="verse">If hanging come, &#8217;tis welcome; that&#8217;s the worst.</l>
+<l gn="423" n="63" form="rhyme">Fire, fire! I&#8217;ll be the first.</l>
+<l gn="424" n="64" form="rhyme">If hanging come, &#8217;tis welcome; that&#8217;s the worst.</l>
 </sp>
-<stage sgn="424.01" sn="45.01">
+<stage sgn="424.01" sn="64.01">
 	<dir>Exit.</dir>
 	<action type="exit">
 		<actor>CLOWN.</actor>
@@ -1610,8 +1610,8 @@
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
 <l gn="446" n="22" form="verse">Up with the drawbridge, gather some forces</l>
 <l gn="447" n="23" form="verse">To Cornhill and Cheapside:&#8212;and, gentlemen,</l>
-<l gn="448" n="24" form="verse">If diligence be weighed on every side,</l>
-<l gn="449" n="25" form="verse">A quiet ebb will follow this rough tide.</l>
+<l gn="448" n="24" form="rhyme">If diligence be weighed on every side,</l>
+<l gn="449" n="25" form="rhyme">A quiet ebb will follow this rough tide.</l>
 </sp>
 <stage sgn="449.01" sn="25.01">
 	<dir>Enter Shrewsbury, Surrey, Palmer, and Cholmley.</dir>
@@ -1630,14 +1630,14 @@
 <l gn="453" n="29" form="verse">Sir Thomas Palmer and our followers,</l>
 <l gn="454" n="30" form="verse">To add unto your forces our best means</l>
 <l gn="455" n="31" form="verse">For pacifying of this mutiny.</l>
-<l gn="456" n="32" form="verse">In God&#8217;s name, then, set on with happy speed!</l>
-<l gn="457" n="33" form="verse">The king laments, if one true subject bleed.</l>
+<l gn="456" n="32" form="rhyme">In God&#8217;s name, then, set on with happy speed!</l>
+<l gn="457" n="33" form="rhyme">The king laments, if one true subject bleed.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
 <l gn="458" n="34" form="verse">I hear they mean to fire the Lombards&#8217; houses:</l>
-<l gn="459" n="35" form="verse">Oh power, what art thou in a madman&#8217;s eyes!</l>
-<l gn="460" n="36" form="verse">Thou mak&#8217;st the plodding idiot bloody-wise.</l>
+<l gn="459" n="35" form="rhyme">Oh power, what art thou in a madman&#8217;s eyes!</l>
+<l gn="460" n="36" form="rhyme">Thou mak&#8217;st the plodding idiot bloody-wise.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -1651,16 +1651,16 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="465" n="41" form="verse">Let&#8217;s to these simple men; for many sweat</l>
-<l gn="466" n="42" form="verse">Under this act, that knows not the law&#8217;s debt</l>
-<l gn="467" n="43" form="verse">Which hangs upon their lives; for silly men</l>
-<l gn="468" n="44" form="verse">Plod on they know not how, like a fool&#8217;s pen,</l>
-<l gn="469" n="45" form="verse">That, ending, shows not any sentence writ,</l>
-<l gn="470" n="46" form="verse">Linked but to common reason or slightest wit:</l>
-<l gn="471" n="47" form="verse">These follow for no harm; but yet incur</l>
-<l gn="472" n="48" form="verse">Self penalty with those that raised this stir.</l>
-<l gn="473" n="49" form="verse">I&#8217;God&#8217;s name, on, to calm our private foes</l>
-<l gn="474" n="50" form="verse">With breath of gravity, not dangerous blows!</l>
+<l gn="465" n="41" form="rhyme">Let&#8217;s to these simple men; for many sweat</l>
+<l gn="466" n="42" form="rhyme">Under this act, that knows not the law&#8217;s debt</l>
+<l gn="467" n="43" form="rhyme">Which hangs upon their lives; for silly men</l>
+<l gn="468" n="44" form="rhyme">Plod on they know not how, like a fool&#8217;s pen,</l>
+<l gn="469" n="45" form="rhyme">That, ending, shows not any sentence writ,</l>
+<l gn="470" n="46" form="rhyme">Linked but to common reason or slightest wit:</l>
+<l gn="471" n="47" form="rhyme">These follow for no harm; but yet incur</l>
+<l gn="472" n="48" form="rhyme">Self penalty with those that raised this stir.</l>
+<l gn="473" n="49" form="rhyme">I&#8217;God&#8217;s name, on, to calm our private foes</l>
+<l gn="474" n="50" form="rhyme">With breath of gravity, not dangerous blows!</l>
 </sp>
 <stage sgn="474.01" sn="50.01">
 	<dir>Exeunt.</dir>
@@ -1769,11 +1769,11 @@
 </stage>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
-<l gn="490" n="16" form="verse" rend="indent(0)">Hold! In the king&#8217;s name, hold!</l>
+<l gn="490" n="16" form="verse">Hold! In the king&#8217;s name, hold!</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<l gn="491" n="16" form="verse" rend="indent(5)">Friends, masters, countrymen&#8288;&#8212;</l>
+<l gn="491" n="16" form="verse" rend="indent(6)">Friends, masters, countrymen&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
@@ -2025,7 +2025,7 @@
 <l gn="620" n="145" form="verse">Will them to go unto their several wards,</l>
 <l gn="621" n="146" form="verse">Both for the stay of further mutiny,</l>
 <l gn="622" n="147" form="verse">And for the apprehending of such persons</l>
-<l gn="623" n="148" form="verse" rend="indent(0)">As shall contend.</l>
+<l gn="623" n="148" form="verse">As shall contend.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -2056,8 +2056,8 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
-<l gn="630" n="154" form="verse">Go guard them hence. A little breath well spent</l>
-<l gn="631" n="155" form="verse">Cheats expectation in his fairest event.</l>
+<l gn="630" n="154" form="rhyme">Go guard them hence. A little breath well spent</l>
+<l gn="631" n="155" form="rhyme">Cheats expectation in his fairest event.</l>
 </sp>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
@@ -2089,10 +2089,10 @@
 <l gn="637" n="161" form="verse">From a most dangerous fierce commotion;</l>
 <l gn="638" n="162" form="verse">For, if this limb of riot here in St. Martin&#8217;s</l>
 <l gn="639" n="163" form="verse">Had joined with other branches of the city</l>
-<l gn="640" n="164" form="verse">That did begin to kindle, &#8217;twould have bred</l>
-<l gn="641" n="165" form="verse">Great rage; that rage much murder would have fed.</l>
-<l gn="642" n="166" form="verse">Not steel, but eloquence hath wrought this good:</l>
-<l gn="643" n="167" form="verse">You have redeemed us from much threatened blood.</l>
+<l gn="640" n="164" form="rhyme">That did begin to kindle, &#8217;twould have bred</l>
+<l gn="641" n="165" form="rhyme">Great rage; that rage much murder would have fed.</l>
+<l gn="642" n="166" form="rhyme">Not steel, but eloquence hath wrought this good:</l>
+<l gn="643" n="167" form="rhyme">You have redeemed us from much threatened blood.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -2107,7 +2107,7 @@
 <l gn="652" n="176" form="verse">In armor, but especially proud</l>
 <l gn="653" n="177" form="verse">That at the city gates selected men,</l>
 <l gn="654" n="178" form="verse">Substantial citizens, do ward tonight,</l>
-<l gn="655" n="179" form="verse" rend="indent(0)">For fear of further mischief.</l>
+<l gn="655" n="179" form="verse">For fear of further mischief.</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
@@ -2148,23 +2148,23 @@
 <l gn="672" n="195" form="verse">Whence they first came;</l>
 <l gn="673" n="196" form="verse">To urge my imperfections in excuse,</l>
 <l gn="674" n="197" form="verse">Were all as stale as custom. No, my lord,</l>
-<l gn="675" n="198" form="verse">My service is my kings; good reason why,&#8288;&#8212;</l>
-<l gn="676" n="199" form="verse">Since life or death hangs on our sovereign&#8217;s eye.</l>
+<l gn="675" n="198" form="rhyme">My service is my kings; good reason why,&#8288;&#8212;</l>
+<l gn="676" n="199" form="rhyme">Since life or death hangs on our sovereign&#8217;s eye.</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
 <l gn="677" n="200" form="verse">His majesty hath honored much the city</l>
-<l gn="678" n="201" form="verse" rend="indent(0)">In this his princely choice.</l>
+<l gn="678" n="201" form="verse">In this his princely choice.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="679" n="201" form="verse" rend="indent(5)">My lord and brethren,</l>
-<l gn="680" n="202" form="verse">Though I depart for court my love shall rest</l>
-<l gn="681" n="203" form="verse">With you, as heretofore, a faithful guest.</l>
-<l gn="682" n="204" form="verse">I now must sleep in court, sound sleeps forbear;</l>
-<l gn="683" n="205" form="verse">The chamberlain to state is public care:</l>
-<l gn="684" n="206" form="verse">Yet, in this rising of my private blood,</l>
-<l gn="685" n="207" form="verse">My studious thoughts shall tend the city&#8217;s good.</l>
+<l gn="680" n="202" form="rhyme">Though I depart for court my love shall rest</l>
+<l gn="681" n="203" form="rhyme">With you, as heretofore, a faithful guest.</l>
+<l gn="682" n="204" form="rhyme">I now must sleep in court, sound sleeps forbear;</l>
+<l gn="683" n="205" form="rhyme">The chamberlain to state is public care:</l>
+<l gn="684" n="206" form="rhyme">Yet, in this rising of my private blood,</l>
+<l gn="685" n="207" form="rhyme">My studious thoughts shall tend the city&#8217;s good.</l>
 </sp>
 <stage sgn="685.01" sn="207.01">
 	<dir>Enter Crofts.</dir>
@@ -2183,7 +2183,7 @@
 <l gn="689" n="211" form="verse">And that the chief and capital offenders</l>
 <l gn="690" n="212" form="verse">Be thereon straight arraigned, for himself intends</l>
 <l gn="691" n="213" form="verse">To sit in person on the rest tomorrow</l>
-<l gn="692" n="214" form="verse" rend="indent(0)">At Westminster.</l>
+<l gn="692" n="214" form="verse">At Westminster.</l>
 </sp>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
@@ -2193,8 +2193,8 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="696" n="217" form="verse">My lord, farewell. New days begets new tides;</l>
-<l gn="697" n="218" form="verse">Life whirls bout fate, then to a grave it slides.</l>
+<l gn="696" n="217" form="rhyme">My lord, farewell. New days begets new tides;</l>
+<l gn="697" n="218" form="rhyme">Life whirls bout fate, then to a grave it slides.</l>
 </sp>
 <stage sgn="697.01" sn="218.01">
 	<dir>Exeunt severally.</dir>
@@ -2229,7 +2229,7 @@
 </stage>
 <sp>
 <speaker long="First Sheriff">1. SHERIFF.</speaker>
-<l gn="698" n="1" form="verse" rend="indent(0)">Messenger, what news?</l>
+<l gn="698" n="1" form="verse">Messenger, what news?</l>
 </sp>
 <sp>
 <speaker long="Third Messenger">3. MESS.</speaker>
@@ -2257,7 +2257,7 @@
 </sp>
 <sp>
 <speaker long="First Sheriff">1. SHERIFF.</speaker>
-<l gn="708" n="10" form="verse" rend="indent(0)">It shall be done, sir.</l>
+<l gn="708" n="10" form="verse">It shall be done, sir.</l>
 <stage sgn="708.01" sn="10.01">
 	<dir>Exit Third Messenger.</dir>
 	<action type="exit">
@@ -2319,7 +2319,7 @@
 <speaker long="Second Officer">2. OFF.</speaker>
 <l gn="729" n="30" form="verse">There&#8217;s such a press and multitude at Newgate,</l>
 <l gn="730" n="31" form="verse">They cannot bring the carts onto the stairs,</l>
-<l gn="731" n="32" form="verse" rend="indent(0)">To take the prisoners in.</l>
+<l gn="731" n="32" form="verse">To take the prisoners in.</l>
 </sp>
 <sp>
 <speaker long="First Sheriff">1. SHERIFF.</speaker>
@@ -2393,8 +2393,8 @@
 <l gn="765" n="65" form="verse">That others by example of the same</l>
 <l gn="766" n="66" form="verse">Henceforth be warned to attempt the like</l>
 <l gn="767" n="67" form="verse">&#8217;Gainst any alien that repaireth hither.</l>
-<l gn="768" n="68" form="verse">Fare ye well, all. The next time that we meet,</l>
-<l gn="769" n="69" form="verse">I trust in heaven we shall each other greet.</l>
+<l gn="768" n="68" form="rhyme">Fare ye well, all. The next time that we meet,</l>
+<l gn="769" n="69" form="rhyme">I trust in heaven we shall each other greet.</l>
 </sp>
 <stage sgn="769.01" sn="69.01">
 	<dir>He leaps off.</dir>
@@ -2404,8 +2404,8 @@
 </stage>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="770" n="70" form="verse">Farewell, John Lincoln. Say all what they can,</l>
-<l gn="771" n="71" form="verse">Thou liv&#8217;dst a good fellow, and diedst an honest man.</l>
+<l gn="770" n="70" form="rhyme">Farewell, John Lincoln. Say all what they can,</l>
+<l gn="771" n="71" form="rhyme">Thou liv&#8217;dst a good fellow, and diedst an honest man.</l>
 </sp>
 <sp>
 <speaker long="Clown Betts">CLOWN.</speaker>
@@ -2492,13 +2492,13 @@
 <l gn="813" n="113" form="verse">And all I can bequeath them at this time</l>
 <l gn="814" n="114" form="verse">Is but the love of some good honest friend,</l>
 <l gn="815" n="115" form="verse">To bring them up in charitable sort:</l>
-<l gn="816" n="116" form="verse">What, masters! He goes upright that never halts,</l>
-<l gn="817" n="117" form="verse">And they may live to mend their parents&#8217; faults.</l>
+<l gn="816" n="116" form="rhyme">What, masters! He goes upright that never halts,</l>
+<l gn="817" n="117" form="rhyme">And they may live to mend their parents&#8217; faults.</l>
 </sp>
 <sp>
 <speaker long="Williamson">WILLIAMSON.</speaker>
-<l gn="818" n="118" form="verse">Why, well said, wife; i&#8217;faith, thou cheerest my heart:</l>
-<l gn="819" n="119" form="verse">Give me thy hand; let&#8217;s kiss, and so let&#8217;s part.</l>
+<l gn="818" n="118" form="rhyme">Why, well said, wife; i&#8217;faith, thou cheerest my heart:</l>
+<l gn="819" n="119" form="rhyme">Give me thy hand; let&#8217;s kiss, and so let&#8217;s part.</l>
 </sp>
 <stage sgn="819.01" sn="119.01">
 	<dir>He kisses her on the ladder.</dir>
@@ -2576,10 +2576,10 @@
 </stage>
 <sp>
 <speaker long="Doll Williamson">DOLL.</speaker>
-<l gn="849" n="149" form="verse">And Doll desires it from her very heart,</l>
-<l gn="850" n="150" form="verse">More&#8217;s name may live for this right noble part;</l>
-<l gn="851" n="151" form="verse">And whensoere we talk of ill May day,</l>
-<l gn="852" n="152" form="verse">Praise More, whose honest words our falls did stay.</l>
+<l gn="849" n="149" form="rhyme">And Doll desires it from her very heart,</l>
+<l gn="850" n="150" form="rhyme">More&#8217;s name may live for this right noble part;</l>
+<l gn="851" n="151" form="rhyme">And whensoere we talk of ill May day,</l>
+<l gn="852" n="152" form="rhyme">Praise More, whose honest words our falls did stay.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -2598,8 +2598,8 @@
 <l gn="865" n="165" form="verse">Upon the frailty of the multitude,</l>
 <l gn="866" n="166" form="verse">Should with the clamors of outrageous wrongs</l>
 <l gn="867" n="167" form="verse">Be stirred and wakened thus to punishment!&#8288;&#8212;</l>
-<l gn="868" n="168" form="verse">But your deserved death he doth forgive:</l>
-<l gn="869" n="169" form="verse">Who gives you life, pray all he long may live.</l>
+<l gn="868" n="168" form="rhyme">But your deserved death he doth forgive:</l>
+<l gn="869" n="169" form="rhyme">Who gives you life, pray all he long may live.</l>
 </sp>
 <sp>
 <speaker long="All">ALL.</speaker>
@@ -2871,7 +2871,7 @@
 <l gn="961" n="90" form="verse">Besides, because it is an odious sight</l>
 <l gn="962" n="91" form="verse">To see a man thus hairy, thou shalt lie</l>
 <l gn="963" n="92" form="verse">In Newgate till thy vow and thy three years</l>
-<l gn="964" n="93" form="verse" rend="indent(0)">Be full expired. Away with him!</l>
+<l gn="964" n="93" form="verse">Be full expired. Away with him!</l>
 </sp>
 <sp>
 <speaker long="Faulkner">FAULKNER.</speaker>
@@ -2887,8 +2887,8 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="968" n="96" form="verse">To Newgate, then. Sirrah, great sins are bred</l>
-<l gn="969" n="97" form="verse">In all that body where there&#8217;s a foul head.</l>
+<l gn="968" n="96" form="rhyme">To Newgate, then. Sirrah, great sins are bred</l>
+<l gn="969" n="97" form="rhyme">In all that body where there&#8217;s a foul head.</l>
 <l gn="970" n="98" form="verse">Away with him.</l>
 </sp>
 <stage sgn="970.01" sn="98.01">
@@ -2915,8 +2915,8 @@
 <l gn="973" n="101" form="verse">This little isle holds not a truer friend</l>
 <l gn="974" n="102" form="verse">Unto the arts; nor doth his greatness add</l>
 <l gn="975" n="103" form="verse">A feigned flourish to his worthy parts;</l>
-<l gn="976" n="104" form="verse">He&#8217;s great in study; that&#8217;s the statist&#8217;s grace,</l>
-<l gn="977" n="105" form="verse">That gains more reverence than the outward place.</l>
+<l gn="976" n="104" form="rhyme">He&#8217;s great in study; that&#8217;s the statist&#8217;s grace,</l>
+<l gn="977" n="105" form="rhyme">That gains more reverence than the outward place.</l>
 </sp>
 <sp>
 <speaker long="Erasmus">ERASMUS.</speaker>
@@ -2925,7 +2925,7 @@
 <l gn="980" n="108" form="verse">Hath borne the fame of your Lord Chancellor:</l>
 <l gn="981" n="109" form="verse">I long to see him, whom with loving thoughts</l>
 <l gn="982" n="110" form="verse">I in my study oft have visited.</l>
-<l gn="983" n="111" form="verse" rend="indent(0)">Is that Sir Thomas More?</l>
+<l gn="983" n="111" form="verse">Is that Sir Thomas More?</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -2936,7 +2936,7 @@
 <l gn="988" n="115" form="verse">That study is the general watch of England;</l>
 <l gn="989" n="116" form="verse">In it the prince&#8217;s safety, and the peace</l>
 <l gn="990" n="117" form="verse">That shines upon our commonwealth, are forged</l>
-<l gn="991" n="118" form="verse" rend="indent(0)">By loyal industry.</l>
+<l gn="991" n="118" form="verse">By loyal industry.</l>
 </sp>
 <sp>
 <speaker long="Erasmus">ERASMUS.</speaker>
@@ -2945,8 +2945,8 @@
 <l gn="994" n="120" form="verse">As you proclaim him, when his meanest servants</l>
 <l gn="995" n="121" form="verse">Are of some weight. You saw, my lord, his porter</l>
 <l gn="996" n="122" form="verse">Give entertainment to us at the gate</l>
-<l gn="997" n="123" form="verse">In Latin good phrase; what&#8217;s the master, then,</l>
-<l gn="998" n="124" form="verse">When such good parts shine in his meanest men?</l>
+<l gn="997" n="123" form="rhyme">In Latin good phrase; what&#8217;s the master, then,</l>
+<l gn="998" n="124" form="rhyme">When such good parts shine in his meanest men?</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -2994,14 +2994,14 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1012" n="138" form="verse">Fool, painted barbarism, retire thyself</l>
-<l gn="1013" n="139" form="verse" rend="indent(0)">Into thy first creation!</l>
+<l gn="1013" n="139" form="verse">Into thy first creation!</l>
 <stage sgn="1013.01" sn="139.01">
 	<dir>Exit Randall.</dir>
 	<action type="exit">
 		<actor>RANDALL.</actor>
 	</action>
 </stage>
-<l gn="1014" n="139" form="verse" rend="indent(6)">Thus you see,</l>
+<l gn="1014" n="139" form="verse" rend="indent(4)">Thus you see,</l>
 <l gn="1015" n="140" form="verse">My loving learned friends, how far respect</l>
 <l gn="1016" n="141" form="verse">Waits often on the ceremonious train</l>
 <l gn="1017" n="142" form="verse">Of base illiterate wealth, whilst men of schools,</l>
@@ -3009,8 +3009,8 @@
 <l gn="1019" n="144" form="verse">Pardon, thou reverent German, I have mixed</l>
 <l gn="1020" n="145" form="verse">So slight a jest to the fair entertainment</l>
 <l gn="1021" n="146" form="verse">Of thy most worthy self; for know, Erasmus,</l>
-<l gn="1022" n="147" form="verse">Mirth wrinkles up my face, and I still crave,</l>
-<l gn="1023" n="148" form="verse">When that forsakes me I may hug my grave.</l>
+<l gn="1022" n="147" form="rhyme">Mirth wrinkles up my face, and I still crave,</l>
+<l gn="1023" n="148" form="rhyme">When that forsakes me I may hug my grave.</l>
 </sp>
 <sp>
 <speaker long="Erasmus">ERASMUS.</speaker>
@@ -3019,20 +3019,20 @@
 <l gn="1026" n="151" form="verse">Where melancholy chokes the passages</l>
 <l gn="1027" n="152" form="verse">Of blood and breath, the erected spirit still</l>
 <l gn="1028" n="153" form="verse">Lengthens our days with sportful exercise:</l>
-<l gn="1029" n="154" form="verse">Study should be the saddest time of life.</l>
-<l gn="1030" n="155" form="verse">The rest a sport exempt from thought of strife.</l>
+<l gn="1029" n="154" form="rhyme">Study should be the saddest time of life.</l>
+<l gn="1030" n="155" form="rhyme">The rest a sport exempt from thought of strife.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1031" n="156" form="verse">Erasmus preacheth gospel against physic,</l>
-<l gn="1032" n="157" form="verse" rend="indent(0)">My noble poet.</l>
+<l gn="1032" n="157" form="verse">My noble poet.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<l gn="1033" n="157" form="verse" rend="indent(4)">Oh, my Lord, you tax me</l>
+<l gn="1033" n="157" form="verse" rend="indent(3)">Oh, my Lord, you tax me</l>
 <l gn="1034" n="158" form="verse">In that word poet of much idleness:</l>
-<l gn="1035" n="159" form="verse">It is a study that makes poor our fate;</l>
-<l gn="1036" n="160" form="verse">Poets were ever thought unfit for state.</l>
+<l gn="1035" n="159" form="rhyme">It is a study that makes poor our fate;</l>
+<l gn="1036" n="160" form="rhyme">Poets were ever thought unfit for state.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -3040,17 +3040,17 @@
 <l gn="1038" n="162" form="verse">To such contempt! That I may speak my heart,</l>
 <l gn="1039" n="163" form="verse">It is the sweetest heraldry of art,</l>
 <l gn="1040" n="164" form="verse">That sets a difference &#8217;tween the tough sharp holly</l>
-<l gn="1041" n="165" form="verse" rend="indent(0)">And tender bay tree.</l>
+<l gn="1041" n="165" form="verse">And tender bay tree.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<l gn="1042" n="165" form="verse" rend="indent(6)">Yet, my lord,</l>
+<l gn="1042" n="165" form="verse" rend="indent(4)">Yet, my lord,</l>
 <l gn="1043" n="166" form="verse">It is become the very logic number</l>
-<l gn="1044" n="167" form="verse" rend="indent(0)">To all mechanic sciences.</l>
+<l gn="1044" n="167" form="verse">To all mechanic sciences.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1045" n="167" form="verse" rend="indent(4)">Why, I&#8217;ll show the reason:</l>
+<l gn="1045" n="167" form="verse" rend="indent(5)">Why, I&#8217;ll show the reason:</l>
 <l gn="1046" n="168" form="verse">This is no age for poets; they should sing</l>
 <l gn="1047" n="169" form="verse">To the loud canon ;</l>
 <l gn="1048" n="170" form="verse">:</l>
@@ -3138,8 +3138,8 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1074" n="196" form="verse">Because I see some grace in thee, go free.</l>
 <l gn="1075" n="197" form="verse">Discharge him, fellows. Farewell, Master Morris.</l>
-<l gn="1076" n="198" form="verse">Thy head is for thy shoulders now more fit;</l>
-<l gn="1077" n="199" form="verse">Thou hast less hair upon it, but more wit.</l>
+<l gn="1076" n="198" form="rhyme">Thy head is for thy shoulders now more fit;</l>
+<l gn="1077" n="199" form="rhyme">Thou hast less hair upon it, but more wit.</l>
 </sp>
 <stage sgn="1077.01" sn="199.01">
 	<dir>Exit.</dir>
@@ -3221,8 +3221,8 @@
 </sp>
 <sp>
 <speaker long="Morris">MORRIS.</speaker>
-<l gn="1096" n="218" form="verse">Away, you kind ass! Come, sir, dry your eyes:</l>
-<l gn="1097" n="219" form="verse">Keep you old place, and mend these fooleries.</l>
+<l gn="1096" n="218" form="rhyme">Away, you kind ass! Come, sir, dry your eyes:</l>
+<l gn="1097" n="219" form="rhyme">Keep you old place, and mend these fooleries.</l>
 </sp>
 <sp>
 <speaker long="Faulkner">FAULKNER.</speaker>
@@ -3277,8 +3277,8 @@
 <l gn="1116" n="18" form="verse">More&#8217;s merry heart lives by good company.</l>
 <l gn="1117" n="19" form="verse">Good gentlemen, be careful; give great charge</l>
 <l gn="1118" n="20" form="verse">Our diet be made dainty for the taste;</l>
-<l gn="1119" n="21" form="verse">For, of all people that the earth affords,</l>
-<l gn="1120" n="22" form="verse">The Londoners fare richest at their boards.</l>
+<l gn="1119" n="21" form="rhyme">For, of all people that the earth affords,</l>
+<l gn="1120" n="22" form="rhyme">The Londoners fare richest at their boards.</l>
 </sp>
 <stage sgn="1120.01" sn="22.01">
 	<dir>Exeunt.</dir>
@@ -3392,12 +3392,12 @@
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
 <l gn="1144" n="24" form="verse">My lord, my fellows and myself</l>
 <l gn="1145" n="25" form="verse">Are come to tender ye our willing service,</l>
-<l gn="1146" n="26" form="verse" rend="indent(0)">So please you to command us.</l>
+<l gn="1146" n="26" form="verse">So please you to command us.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1147" n="26" form="verse" rend="indent(6)">What, for a play, you mean?</l>
-<l gn="1148" n="27" form="verse" rend="indent(0)">Whom do ye serve?</l>
+<l gn="1148" n="27" form="verse">Whom do ye serve?</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
@@ -3412,7 +3412,7 @@
 <l gn="1154" n="32" form="verse">His lady and their wives, are my kind guests</l>
 <l gn="1155" n="33" form="verse">This night at supper. Now, to have a play</l>
 <l gn="1156" n="34" form="verse">Before the banquet, will be excellent.</l>
-<l gn="1157" n="35" form="verse" rend="indent(0)">How think you, son Roper?</l>
+<l gn="1157" n="35" form="verse">How think you, son Roper?</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -3440,7 +3440,7 @@
 <l gn="1170" n="47" form="verse">We&#8217;ll see how Master poet plays his part,</l>
 <l gn="1171" n="48" form="verse">And whether wit or wisdom grace his art.</l>
 <l gn="1172" n="49" form="verse">Go, make him drink, and all his fellows too.</l>
-<l gn="1173" n="50" form="verse" rend="indent(0)">How many are ye?</l>
+<l gn="1173" n="50" form="verse">How many are ye?</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
@@ -3463,7 +3463,7 @@
 <l gn="1181" n="57" form="verse">And make ye ready with what haste ye may.</l>
 <l gn="1182" n="58" form="verse">Provide their supper &#8217;gainst the play be done,</l>
 <l gn="1183" n="59" form="verse">Else shall we stay our guests here over long.</l>
-<l gn="1184" n="60" form="verse" rend="indent(0)">Make haste, I pray ye.</l>
+<l gn="1184" n="60" form="verse">Make haste, I pray ye.</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
@@ -3479,7 +3479,7 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1186" n="61" form="verse">Where are the waits? Go, big them play,</l>
-<l gn="1187" n="62" form="verse" rend="indent(0)">To spend the time a while.</l>
+<l gn="1187" n="62" form="verse">To spend the time a while.</l>
 <stage sgn="1187.01" sn="62.01">
 	<dir>Enter Lady More.</dir>
 	<action type="enter">
@@ -3498,7 +3498,7 @@
 <l gn="1191" n="65" form="verse">One sport is somewhat mended; we shall have</l>
 <l gn="1192" n="66" form="verse">A play tonight, <name type="title">The Marriage of Wit and Wisdom</name>,</l>
 <l gn="1193" n="67" form="verse">And acted by my good Lord Cardinal&#8217;s players;</l>
-<l gn="1194" n="68" form="verse" rend="indent(0)">How like ye that, wife?</l>
+<l gn="1194" n="68" form="verse">How like ye that, wife?</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -3519,23 +3519,23 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1197" n="70" form="verse">Once again, welcome, welcome, my good Lord Mayor,</l>
 <l gn="1198" n="71" form="verse">And brethren all, for once I was your brother,</l>
-<l gn="1199" n="72" form="verse">And so I am still in heart. It is not state</l>
-<l gn="1200" n="73" form="verse">That can our love from London separate.</l>
-<l gn="1201" n="74" form="verse">True, upstart fools, by sudden fortune tried,</l>
-<l gn="1202" n="75" form="verse">Regard their former mates with naught but pride.</l>
-<l gn="1203" n="76" form="verse">But they that cast an eye still whence they came,</l>
-<l gn="1204" n="77" form="verse">Know how they rose, and how to use the same.</l>
+<l gn="1199" n="72" form="rhyme">And so I am still in heart. It is not state</l>
+<l gn="1200" n="73" form="rhyme">That can our love from London separate.</l>
+<l gn="1201" n="74" form="rhyme">True, upstart fools, by sudden fortune tried,</l>
+<l gn="1202" n="75" form="rhyme">Regard their former mates with naught but pride.</l>
+<l gn="1203" n="76" form="rhyme">But they that cast an eye still whence they came,</l>
+<l gn="1204" n="77" form="rhyme">Know how they rose, and how to use the same.</l>
 </sp>
 <sp>
 <speaker long="Lord Mayor">LORD MAYOR.</speaker>
-<l gn="1205" n="78" form="verse">My lord, you set a gloss on London&#8217;s fame,</l>
-<l gn="1206" n="79" form="verse">And make it happy ever by your name.</l>
-<l gn="1207" n="80" form="verse">Needs must we say, when we remember More,</l>
-<l gn="1208" n="81" form="verse">&#8217;Twas he that drove rebellion from our door</l>
-<l gn="1209" n="82" form="verse">With grave discretions mild and gentle breath,</l>
-<l gn="1210" n="83" form="verse">Shielding a many subjects&#8217; lives from death,</l>
-<l gn="1211" n="84" form="verse">Oh, how our city is by you renowned,</l>
-<l gn="1212" n="85" form="verse">And with your virtues our endeavors crowned!</l>
+<l gn="1205" n="78" form="rhyme">My lord, you set a gloss on London&#8217;s fame,</l>
+<l gn="1206" n="79" form="rhyme">And make it happy ever by your name.</l>
+<l gn="1207" n="80" form="rhyme">Needs must we say, when we remember More,</l>
+<l gn="1208" n="81" form="rhyme">&#8217;Twas he that drove rebellion from our door</l>
+<l gn="1209" n="82" form="rhyme">With grave discretions mild and gentle breath,</l>
+<l gn="1210" n="83" form="rhyme">Shielding a many subjects&#8217; lives from death,</l>
+<l gn="1211" n="84" form="rhyme">Oh, how our city is by you renowned,</l>
+<l gn="1212" n="85" form="rhyme">And with your virtues our endeavors crowned!</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -3545,8 +3545,8 @@
 <l gn="1216" n="89" form="verse">Madame, you are not merry with my Lady Mayoress</l>
 <l gn="1217" n="90" form="verse">And these fair ladies; pray ye, seat them all:&#8288;&#8212;</l>
 <l gn="1218" n="91" form="verse">And here, my lord, let me appoint your place;&#8288;&#8212;</l>
-<l gn="1219" n="92" form="verse">The rest to seat themselves:&#8212;nay, I&#8217;ll weary ye;</l>
-<l gn="1220" n="93" form="verse">You will not long in haste to visit me.</l>
+<l gn="1219" n="92" form="rhyme">The rest to seat themselves:&#8212;nay, I&#8217;ll weary ye;</l>
+<l gn="1220" n="93" form="rhyme">You will not long in haste to visit me.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -3564,7 +3564,7 @@
 <sp>
 <speaker long="Lady Mayoress">LADY MAYORESS.</speaker>
 <l gn="1225" n="98" form="verse">It is your favor, madame, makes me thus</l>
-<l gn="1226" n="99" form="verse" rend="indent(0)">Presume above my merit.</l>
+<l gn="1226" n="99" form="verse">Presume above my merit.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -3581,8 +3581,8 @@
 <l gn="1234" n="106" form="verse">My good Lord Cardinal&#8217;s players, I thank them for it,</l>
 <l gn="1235" n="107" form="verse">Play us a play, to lengthen out your welcome:</l>
 <l gn="1236" n="108" form="verse">They say it is <name type="title">The Marriage of Wit and Wisdom</name>,</l>
-<l gn="1237" n="109" form="verse">A theme of some import, howe&#8217;er it prove;</l>
-<l gn="1238" n="110" form="verse">But, if art fail, we&#8217;ll inch it out with love.</l>
+<l gn="1237" n="109" form="rhyme">A theme of some import, howe&#8217;er it prove;</l>
+<l gn="1238" n="110" form="rhyme">But, if art fail, we&#8217;ll inch it out with love.</l>
 <stage sgn="1238.01" sn="110.01">
 	<dir>Enter a Servant.</dir>
 	<action type="enter">
@@ -3667,8 +3667,8 @@
 	</action>
 </stage>
 <l gn="1256" n="128" form="verse">My Lord Mayor,</l>
-<l gn="1257" n="129" form="verse">Wit lacks a beard, or else they would begin:</l>
-<l gn="1258" n="130" form="verse">I&#8217;d lend him mine, but that it is too thin.</l>
+<l gn="1257" n="129" form="rhyme">Wit lacks a beard, or else they would begin:</l>
+<l gn="1258" n="130" form="rhyme">I&#8217;d lend him mine, but that it is too thin.</l>
 <l gn="1259" n="131" form="verse">Silence, they come.</l>
 </sp>
 <stage sgn="1259.01" sn="131.01">
@@ -3715,17 +3715,17 @@
 		<actor>WIT.</actor>
 	</action>
 </stage>
-<l gn="1272" n="144" form="lyric" rend="indent(1)">In an arbor green, asleep whereas I lay,</l>
-<l gn="1273" n="145" form="lyric" rend="indent(1)">The birds sang sweetly in the midst of the day,</l>
-<l gn="1274" n="146" form="lyric" rend="indent(1)">I dreamed fast of mirth and play,&#8288;&#8212;</l>
-<l gn="1275" n="147" form="lyric" rend="indent(1)">In youth is pleasure, in youth is pleasure,</l>
-<l gn="1276" n="148" form="lyric" rend="indent(1)">Methought I walked still to and fro,</l>
-<l gn="1277" n="149" form="lyric" rend="indent(1)">And from her company I could not go;</l>
-<l gn="1278" n="150" form="lyric" rend="indent(1)">But when I waked, it was not so,&#8288;&#8212;</l>
-<l gn="1279" n="151" form="lyric" rend="indent(1)">In youth is pleasure, in youth is pleasure.</l>
-<l gn="1280" n="152" form="lyric" rend="indent(1)">Therefore my heart is surely plight,</l>
-<l gn="1281" n="153" form="lyric" rend="indent(1)">Of her alone to have a sight,</l>
-<l gn="1282" n="154" form="lyric" rend="indent(1)">Which is my joy and heart&#8217;s delight,&#8288;&#8212;</l>
+<l gn="1272" n="144" form="lyric" rend="indent(2)">In an arbor green, asleep whereas I lay,</l>
+<l gn="1273" n="145" form="lyric" rend="indent(2)">The birds sang sweetly in the midst of the day,</l>
+<l gn="1274" n="146" form="lyric" rend="indent(2)">I dreamed fast of mirth and play,&#8288;&#8212;</l>
+<l gn="1275" n="147" form="lyric" rend="indent(1)" lb="2">In youth is pleasure, in youth is pleasure,</l>
+<l gn="1276" n="148" form="lyric" rend="indent(2)">Methought I walked still to and fro,</l>
+<l gn="1277" n="149" form="lyric" rend="indent(2)">And from her company I could not go;</l>
+<l gn="1278" n="150" form="lyric" rend="indent(2)">But when I waked, it was not so,&#8288;&#8212;</l>
+<l gn="1279" n="151" form="lyric" rend="indent(1)" lb="2">In youth is pleasure, in youth is pleasure.</l>
+<l gn="1280" n="152" form="lyric" rend="indent(2)">Therefore my heart is surely plight,</l>
+<l gn="1281" n="153" form="lyric" rend="indent(2)">Of her alone to have a sight,</l>
+<l gn="1282" n="154" form="lyric" rend="indent(2)">Which is my joy and heart&#8217;s delight,&#8288;&#8212;</l>
 <l gn="1283" n="155" form="lyric" rend="indent(1)">In youth is pleasure, in youth is pleasure.</l>
 </sp>
 <sp>
@@ -3740,12 +3740,12 @@
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1288" n="160" form="verse" rend="indent(0)">And is her name Wisdom?</l>
+<l gn="1288" n="160" form="verse">And is her name Wisdom?</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
-<l gn="1289" n="160" form="verse" rend="indent(5)">Ay, sir, a wife most fit</l>
-<l gn="1290" n="161" form="verse">For you, my good master, my dainty sweet Wit.</l>
+<l gn="1289" n="160" form="rhyme" rend="indent(5)">Ay, sir, a wife most fit</l>
+<l gn="1290" n="161" form="rhyme">For you, my good master, my dainty sweet Wit.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
@@ -3756,32 +3756,32 @@
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
 <l gn="1294" n="165" form="verse">Oh, sir, she will come her self even anon;</l>
-<l gn="1295" n="166" form="verse">For I told her before where we would stand.</l>
-<l gn="1296" n="167" form="verse">And then she said she would beck us with her hand.</l>
-<l gn="1297" n="168" form="verse">Back with these boys and saucy great knaves!</l>
+<l gn="1295" n="166" form="rhyme">For I told her before where we would stand.</l>
+<l gn="1296" n="167" form="rhyme">And then she said she would beck us with her hand.</l>
+<l gn="1297" n="168" form="rhyme">Back with these boys and saucy great knaves!</l>
 <stage sgn="1297.01" sn="168.01">
 	<dir>Flourishing a dagger.</dir>
 	<action type="action">
 		<actor>INCLINATION.</actor>
 	</action>
 </stage>
-<l gn="1298" n="169" form="verse">What, stand ye here so big in your braves?</l>
-<l gn="1299" n="170" form="verse">My dagger about your coxcombs shall walk,</l>
-<l gn="1300" n="171" form="verse">If I may but so much as hear ye chat or talk.</l>
+<l gn="1298" n="169" form="rhyme">What, stand ye here so big in your braves?</l>
+<l gn="1299" n="170" form="rhyme">My dagger about your coxcombs shall walk,</l>
+<l gn="1300" n="171" form="rhyme">If I may but so much as hear ye chat or talk.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1301" n="172" form="verse">But will she take pains to come for us hither?</l>
+<l gn="1301" n="172" form="rhyme">But will she take pains to come for us hither?</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
-<l gn="1302" n="173" form="verse">I warrant ye; therefore you must be familiar with her;</l>
-<l gn="1303" n="174" form="verse">When she commeth in place,</l>
-<l gn="1304" n="175" form="verse">You must her embrace</l>
-<l gn="1305" n="176" form="verse">Somewhat handsomely,</l>
-<l gn="1306" n="177" form="verse">Least she think it danger,</l>
-<l gn="1307" n="178" form="verse">Because you are a stranger,</l>
-<l gn="1308" n="179" form="verse">To come in your company.</l>
+<l gn="1302" n="173" form="rhyme">I warrant ye; therefore you must be familiar with her;</l>
+<l gn="1303" n="174" form="rhyme" rend="indent(2)">When she commeth in place,</l>
+<l gn="1304" n="175" form="rhyme" rend="indent(2)">You must her embrace</l>
+<l gn="1305" n="176" form="rhyme" rend="indent(3)">Somewhat handsomely,</l>
+<l gn="1306" n="177" form="rhyme" rend="indent(2)">Least she think it danger,</l>
+<l gn="1307" n="178" form="rhyme" rend="indent(2)">Because you are a stranger,</l>
+<l gn="1308" n="179" form="verse" rend="indent(3)">To come in your company.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
@@ -3796,66 +3796,66 @@
 </stage>
 <sp>
 <speaker long="Player of Lady Vanity">VANITY.</speaker>
-<l gn="1311" n="182" form="verse">Come hither, come hither, come hither, come:</l>
-<l gn="1312" n="183" form="verse">Such cheer as I have, thou shalt have some.</l>
+<l gn="1311" n="182" form="rhyme">Come hither, come hither, come hither, come:</l>
+<l gn="1312" n="183" form="rhyme">Such cheer as I have, thou shalt have some.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1313" n="184" form="verse">This is Lady Vanity, I&#8217;ll hold my life:&#8288;&#8212;</l>
-<l gn="1314" n="185" form="verse">Beware, good Wit, you take not her to wife.</l>
+<l gn="1313" n="184" form="rhyme">This is Lady Vanity, I&#8217;ll hold my life:&#8288;&#8212;</l>
+<l gn="1314" n="185" form="rhyme">Beware, good Wit, you take not her to wife.</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
-<l gn="1315" n="186" form="verse">What, unknown honesty? A word in your ear.</l>
+<l gn="1315" n="186" form="rhyme">What, unknown honesty? A word in your ear.</l>
 <stage sgn="1315.01" sn="186.01">
 	<dir>She offers to depart.</dir>
 	<action type="action">
 		<actor>VANITY.</actor>
 	</action>
 </stage>
-<l gn="1316" n="187" form="verse">You shall not be gone as yet, I swear:</l>
-<l gn="1317" n="188" form="verse">Here&#8217;s none but friends, you need not to fray;</l>
-<l gn="1318" n="189" form="verse">This young gentleman loves ye, therefore you must stay.</l>
+<l gn="1316" n="187" form="rhyme">You shall not be gone as yet, I swear:</l>
+<l gn="1317" n="188" form="rhyme">Here&#8217;s none but friends, you need not to fray;</l>
+<l gn="1318" n="189" form="rhyme">This young gentleman loves ye, therefore you must stay.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1319" n="190" form="verse">I trust in me she will think no danger,</l>
-<l gn="1320" n="191" form="verse">For I love well the company of fair women;</l>
-<l gn="1321" n="192" form="verse">And though to you I am a stranger,</l>
-<l gn="1322" n="193" form="verse">Yet Wit may pleasure you now and then.</l>
+<l gn="1319" n="190" form="rhyme">I trust in me she will think no danger,</l>
+<l gn="1320" n="191" form="rhyme">For I love well the company of fair women;</l>
+<l gn="1321" n="192" form="rhyme">And though to you I am a stranger,</l>
+<l gn="1322" n="193" form="rhyme">Yet Wit may pleasure you now and then.</l>
 </sp>
 <sp>
 <speaker long="Player of Lady Vanity">VANITY.</speaker>
-<l gn="1323" n="194" form="verse">Who, you? Nay, you are such a holy man,</l>
-<l gn="1324" n="195" form="verse">That to touch on you dare not be bold;</l>
-<l gn="1325" n="196" form="verse">I think you would not kiss a young woman,</l>
-<l gn="1326" n="197" form="verse">If one would give ye twenty pound in gold.</l>
+<l gn="1323" n="194" form="rhyme">Who, you? Nay, you are such a holy man,</l>
+<l gn="1324" n="195" form="rhyme">That to touch on you dare not be bold;</l>
+<l gn="1325" n="196" form="rhyme">I think you would not kiss a young woman,</l>
+<l gn="1326" n="197" form="rhyme">If one would give ye twenty pound in gold.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1327" n="198" form="verse">Yes, in good sadness, lady, that I would:</l>
-<l gn="1328" n="199" form="verse">I could find in my heart to kiss you in your smock.</l>
+<l gn="1327" n="198" form="rhyme">Yes, in good sadness, lady, that I would:</l>
+<l gn="1328" n="199" form="rhyme">I could find in my heart to kiss you in your smock.</l>
 </sp>
 <sp>
 <speaker long="Player of Lady Vanity">VANITY.</speaker>
-<l gn="1329" n="200" form="verse">My back is broad enough to bear that mock;</l>
-<l gn="1330" n="201" form="verse">For it hath been told me many a time</l>
-<l gn="1331" n="202" form="verse">That you would be seen in no such company as mine.</l>
+<l gn="1329" n="200" form="rhyme">My back is broad enough to bear that mock;</l>
+<l gn="1330" n="201" form="rhyme">For it hath been told me many a time</l>
+<l gn="1331" n="202" form="rhyme">That you would be seen in no such company as mine.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1332" n="203" form="verse">Not Wit in the company of Lady Wisdom?</l>
-<l gn="1333" n="204" form="verse">Oh Jove, for what do I hither come?</l>
+<l gn="1332" n="203" form="rhyme">Not Wit in the company of Lady Wisdom?</l>
+<l gn="1333" n="204" form="rhyme">Oh Jove, for what do I hither come?</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
-<l gn="1334" n="205" form="verse">Sir, she did this nothing else but to prove</l>
-<l gn="1335" n="206" form="verse">Whether a little thing would you move</l>
-<l gn="1336" n="207" form="verse">To be angry and fret:</l>
-<l gn="1337" n="208" form="verse">What, and if one said so?</l>
-<l gn="1338" n="209" form="verse">Let such trifling matters go</l>
-<l gn="1339" n="210" form="verse">And with a kind kiss come out of her debt.</l>
-<l gn="1340" n="211" form="verse">Is Luggins come yet with the beard?</l>
+<l gn="1334" n="205" form="rhyme">Sir, she did this nothing else but to prove</l>
+<l gn="1335" n="206" form="rhyme">Whether a little thing would you move</l>
+<l gn="1336" n="207" form="rhyme">To be angry and fret:</l>
+<l gn="1337" n="208" form="rhyme">What, and if one said so?</l>
+<l gn="1338" n="209" form="rhyme" rend="indent(1)">Let such trifling matters go</l>
+<l gn="1339" n="210" form="rhyme" rend="indent(1)">And with a kind kiss come out of her debt.</l>
+<l gn="1340" n="211" form="rhyme">Is Luggins come yet with the beard?</l>
 </sp>
 <stage sgn="1340.01" sn="211.01">
 	<dir>Enter Prologue Player.</dir>
@@ -3874,12 +3874,12 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1343" n="214" form="prose">Nay, and it be no more but so, ye shall not tarry at a stand for that; we&#8217;ll not have our play marred for lack of a little good council. Till your fellow come, I&#8217;ll give him the best council that I can. Pardon me, my Lord Mayor; I love to be merry.</l>
-<l gn="1344" n="215" form="verse">Oh...Wit, thou art now on the bow hand,</l>
-<l gn="1345" n="216" form="verse">And blindly in thine own opinion dost stand.</l>
-<l gn="1346" n="217" form="verse">I tell thee, this naughty lewd Inclination</l>
-<l gn="1347" n="218" form="verse">Does lead thee amiss in a very strange fashion:</l>
-<l gn="1348" n="219" form="verse">This is not Wisdom, but Lady Vanity;</l>
-<l gn="1349" n="220" form="verse">Therefore list to Good Council, and be ruled by me.</l>
+<l gn="1344" n="215" form="rhyme">Oh...Wit, thou art now on the bow hand,</l>
+<l gn="1345" n="216" form="rhyme">And blindly in thine own opinion dost stand.</l>
+<l gn="1346" n="217" form="rhyme">I tell thee, this naughty lewd Inclination</l>
+<l gn="1347" n="218" form="rhyme">Does lead thee amiss in a very strange fashion:</l>
+<l gn="1348" n="219" form="rhyme">This is not Wisdom, but Lady Vanity;</l>
+<l gn="1349" n="220" form="rhyme">Therefore list to Good Council, and be ruled by me.</l>
 </sp>
 <sp>
 <speaker long="Player of Inclination the Vice">INCLINATION.</speaker>
@@ -3891,17 +3891,17 @@
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
-<l gn="1352" n="223" form="verse">Art thou Good Council, and will tell me so?</l>
-<l gn="1353" n="224" form="verse">Wouldst thou have Wit from Lady Wisdom to go?</l>
-<l gn="1354" n="225" form="verse">Thou art some deceiver, I tell thee verily,</l>
-<l gn="1355" n="226" form="verse">In saying that this is Lady Vanity.</l>
+<l gn="1352" n="223" form="rhyme">Art thou Good Council, and will tell me so?</l>
+<l gn="1353" n="224" form="rhyme">Wouldst thou have Wit from Lady Wisdom to go?</l>
+<l gn="1354" n="225" form="rhyme">Thou art some deceiver, I tell thee verily,</l>
+<l gn="1355" n="226" form="rhyme">In saying that this is Lady Vanity.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1356" n="227" form="verse">Wit, judge not things by the outward show;</l>
-<l gn="1357" n="228" form="verse">The eye oft mistakes, right well you do know:</l>
-<l gn="1358" n="229" form="verse">Good Council assures thee upon his honesty,</l>
-<l gn="1359" n="230" form="verse">That this is not Wisdom, but Lady Vanity.</l>
+<l gn="1356" n="227" form="rhyme">Wit, judge not things by the outward show;</l>
+<l gn="1357" n="228" form="rhyme">The eye oft mistakes, right well you do know:</l>
+<l gn="1358" n="229" form="rhyme">Good Council assures thee upon his honesty,</l>
+<l gn="1359" n="230" form="rhyme">That this is not Wisdom, but Lady Vanity.</l>
 </sp>
 <stage sgn="1359.01" sn="230.01">
 	<dir>Enter Luggins with the beard.</dir>
@@ -3921,8 +3921,8 @@
 <l gn="1364" n="235" form="verse">And then they shall begin the play again,</l>
 <l gn="1365" n="236" form="verse">Which through the fellow&#8217;s absence, and by me,</l>
 <l gn="1366" n="237" form="verse">Instead of helping, hath been hindered.</l>
-<l gn="1367" n="238" form="verse">Prepare against we come. Lights there, I say!&#8288;&#8212;</l>
-<l gn="1368" n="239" form="verse">Thus fools oft times do help to mar the play.</l>
+<l gn="1367" n="238" form="rhyme">Prepare against we come. Lights there, I say!&#8288;&#8212;</l>
+<l gn="1368" n="239" form="rhyme">Thus fools oft times do help to mar the play.</l>
 </sp>
 <stage sgn="1368.01" sn="239.01">
 	<dir>Exeunt all but players.</dir>
@@ -3977,10 +3977,10 @@
 <l gn="1376" n="247" form="verse">My lord is sent for to the court,</l>
 <l gn="1377" n="248" form="verse">And all the guests do after supper part;</l>
 <l gn="1378" n="249" form="verse">And, for he will not trouble you again,</l>
-<l gn="1379" n="250" form="verse">By me for your reward a sends 8 angels,</l>
+<l gn="1379" n="250" form="verse">By me for your reward &#8217;a sends eight angels,</l>
 <l gn="1380" n="251" form="verse">With many thanks. But sup before you go:</l>
 <l gn="1381" n="252" form="verse">It is his will you should be fairly entreated:</l>
-<l gn="1382" n="253" form="verse" rend="indent(0)">Follow, I pray ye.</l>
+<l gn="1382" n="253" form="verse">Follow, I pray ye.</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
@@ -4009,7 +4009,7 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1390" n="260" form="verse">In haste to counsel! What&#8217;s the business now,</l>
 <l gn="1391" n="261" form="verse">That all so late his highness sends for me?&#8288;&#8212;</l>
-<l gn="1392" n="262" form="verse" rend="indent(0)">What seek&#8217;st thou, fellow?</l>
+<l gn="1392" n="262" form="verse">What seek&#8217;st thou, fellow?</l>
 </sp>
 <sp>
 <speaker long="Player of Wit">WIT.</speaker>
@@ -4141,7 +4141,7 @@
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
 <l gn="1425" n="10" form="verse">Clerk of the Council, certify his lordship</l>
-<l gn="1426" n="11" form="verse" rend="indent(0)">The lords expect him here.</l>
+<l gn="1426" n="11" form="verse">The lords expect him here.</l>
 </sp>
 <sp>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
@@ -4175,7 +4175,7 @@
 <l gn="1435" n="19" form="verse">Our toil and careful watching brings the king</l>
 <l gn="1436" n="20" form="verse">In league with slumbers, to which peace doth sing.</l>
 <l gn="1437" n="21" form="verse">Avoid the room there!&#8288;&#8212;</l>
-<l gn="1438" n="22" form="verse" rend="indent(0)">What business, lords, today?</l>
+<l gn="1438" n="22" form="verse">What business, lords, today?</l>
 </sp>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
@@ -4217,7 +4217,7 @@
 </sp>
 <sp>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
-<l gn="1468" n="51" form="verse" rend="indent(0)">Yet, my good lord&#8288;&#8212;</l>
+<l gn="1468" n="51" form="verse">Yet, my good lord&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
@@ -4226,8 +4226,8 @@
 <l gn="1471" n="53" form="verse">Of their true sovereign, other than the merit</l>
 <l gn="1472" n="54" form="verse">That from the sovereign guerdons the true subject;</l>
 <l gn="1473" n="55" form="verse">So the good Emperor, in a friendly league</l>
-<l gn="1474" n="56" form="verse">Of amity with England, will not soil</l>
-<l gn="1475" n="57" form="verse">His honor with the theft of English spoil.</l>
+<l gn="1474" n="56" form="rhyme">Of amity with England, will not soil</l>
+<l gn="1475" n="57" form="rhyme">His honor with the theft of English spoil.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4240,8 +4240,8 @@
 <l gn="1482" n="64" form="verse">We had ten thousand of such able men!</l>
 <l gn="1483" n="65" form="verse">Hah, then there would appear no court, no city,</l>
 <l gn="1484" n="66" form="verse">But, where the wars were, they would pay themselves.</l>
-<l gn="1485" n="67" form="verse">Then, to prevent in French wars England&#8217;s loss,</l>
-<l gn="1486" n="68" form="verse">Let German flags wave with our English cross.</l>
+<l gn="1485" n="67" form="rhyme">Then, to prevent in French wars England&#8217;s loss,</l>
+<l gn="1486" n="68" form="rhyme">Let German flags wave with our English cross.</l>
 </sp>
 <stage sgn="1486.01" sn="68.01">
 	<dir>Enter Sir Thomas Palmer.</dir>
@@ -4272,12 +4272,12 @@
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
 <l gn="1494" n="76" form="verse">Subscribe to these! Now, good Sir Thomas Palmer,</l>
 <l gn="1495" n="77" form="verse">Beseech the king that he will pardon me:</l>
-<l gn="1496" n="78" form="verse">My heart will check my hand whilst I do write;</l>
-<l gn="1497" n="79" form="verse">Subscribing so, I were an hypocrite.</l>
+<l gn="1496" n="78" form="rhyme">My heart will check my hand whilst I do write;</l>
+<l gn="1497" n="79" form="rhyme">Subscribing so, I were an hypocrite.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
-<l gn="1498" n="80" form="verse" rend="indent(0)">Do you refuse it, then, my lord?</l>
+<l gn="1498" n="80" form="verse">Do you refuse it, then, my lord?</l>
 </sp>
 <sp>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
@@ -4287,11 +4287,11 @@
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
 <l gn="1500" n="81" form="verse">Then here I summon you forthwith t&#8217; appear</l>
 <l gn="1501" n="82" form="verse">Before his majesty, to answer there</l>
-<l gn="1502" n="83" form="verse" rend="indent(0)">This capital contempt.</l>
+<l gn="1502" n="83" form="verse">This capital contempt.</l>
 </sp>
 <sp>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
-<l gn="1503" n="83" form="verse" rend="indent(6)">I rise and part,</l>
+<l gn="1503" n="83" form="verse" rend="indent(4)">I rise and part,</l>
 <l gn="1504" n="84" form="verse">In lieu of this to tender him my heart.</l>
 </sp>
 <stage sgn="1504.01" sn="84.01">
@@ -4309,7 +4309,7 @@
 <l gn="1506" n="86" form="verse">Sir, tell his highness, I entreat</l>
 <l gn="1507" n="87" form="verse">Some time for to bethink me of this task:</l>
 <l gn="1508" n="88" form="verse">In the meanwhile I do resign mine office</l>
-<l gn="1509" n="89" form="verse" rend="indent(0)">Into my sovereign&#8217;s hands.</l>
+<l gn="1509" n="89" form="verse">Into my sovereign&#8217;s hands.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
@@ -4317,7 +4317,7 @@
 <l gn="1511" n="90" form="verse">Hear the prepared order from the king:</l>
 <l gn="1512" n="91" form="verse">On your refusal, you shall straight depart</l>
 <l gn="1513" n="92" form="verse">Unto your house at Chelsea, till you know</l>
-<l gn="1514" n="93" form="verse" rend="indent(0)">Our sovereign&#8217;s further pleasure.</l>
+<l gn="1514" n="93" form="verse">Our sovereign&#8217;s further pleasure.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4325,8 +4325,8 @@
 <l gn="1516" n="94" form="verse">My lords, if you will visit me at Chelsea,</l>
 <l gn="1517" n="95" form="verse">We&#8217;ll go a-fishing, and with a cunning net,</l>
 <l gn="1518" n="96" form="verse">Not like weak film, we&#8217;ll catch none but the great:</l>
-<l gn="1519" n="97" form="verse">Farewell, my noble lords. Why, this is right:</l>
-<l gn="1520" n="98" form="verse">Good morrow to the sun, to state good night!</l>
+<l gn="1519" n="97" form="rhyme">Farewell, my noble lords. Why, this is right:</l>
+<l gn="1520" n="98" form="rhyme">Good morrow to the sun, to state good night!</l>
 </sp>
 <stage sgn="1520.01" sn="98.01">
 	<dir>Exit More.</dir>
@@ -4336,7 +4336,7 @@
 </stage>
 <sp>
 <speaker long="Sir Thomas Palmer">PALMER.</speaker>
-<l gn="1521" n="99" form="verse" rend="indent(0)">Will you subscribe, my lords?</l>
+<l gn="1521" n="99" form="verse">Will you subscribe, my lords?</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -4377,8 +4377,8 @@
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
 <l gn="1532" n="109" form="verse">Come, let us in. No doubt</l>
-<l gn="1533" n="110" form="verse">His mind will alter, and the bishop&#8217;s too:</l>
-<l gn="1534" n="111" form="verse">Error in learned heads hath much to do.</l>
+<l gn="1533" n="110" form="rhyme">His mind will alter, and the bishop&#8217;s too:</l>
+<l gn="1534" n="111" form="rhyme">Error in learned heads hath much to do.</l>
 </sp>
 <stage sgn="1534.01" sn="111.01">
 	<dir>Exeunt.</dir>
@@ -4443,8 +4443,8 @@
 <l gn="1555" n="21" form="verse">Being carried by the waves, our boat stood still</l>
 <l gn="1556" n="22" form="verse">Just opposite the Tower, and there it turned</l>
 <l gn="1557" n="23" form="verse">And turned about, as when a whirl-pool sucks</l>
-<l gn="1558" n="24" form="verse">The circled waters. Methought that we both cried,</l>
-<l gn="1559" n="25" form="verse">Till that we sunk. Where arm in arm we died.</l>
+<l gn="1558" n="24" form="rhyme">The circled waters. Methought that we both cried,</l>
+<l gn="1559" n="25" form="rhyme">Till that we sunk. Where arm in arm we died.</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -4456,7 +4456,7 @@
 <l gn="1562" n="28" form="verse">Tell me not all are so; for often dreams</l>
 <l gn="1563" n="29" form="verse">Are true diviners, either of good or ill:</l>
 <l gn="1564" n="30" form="verse">I cannot be in quiet till I hear</l>
-<l gn="1565" n="31" form="verse" rend="indent(0)">How my lord fares.</l>
+<l gn="1565" n="31" form="verse">How my lord fares.</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -4470,7 +4470,7 @@
 <l gn="1567" n="32" form="verse">I will not fright thy mother, to interpret</l>
 <l gn="1568" n="33" form="verse">The nature of a dream; but trust me, sweet,</l>
 <l gn="1569" n="34" form="verse">This night I have been troubled with thy father</l>
-<l gn="1570" n="35" form="verse" rend="indent(0)">Beyond all thought.</l>
+<l gn="1570" n="35" form="verse">Beyond all thought.</l>
 </sp>
 <sp>
 <speaker long="Roper&#8217;s Wife">ROP. WIFE.</speaker>
@@ -4531,12 +4531,12 @@
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
-<l gn="1594" n="58" form="verse" rend="indent(0)">Your honor&#8217;s welcome home.</l>
+<l gn="1594" n="58" form="verse">Your honor&#8217;s welcome home.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1595" n="58" form="verse" rend="indent(7)">Honor! Ha ha!</l>
-<l gn="1596" n="59" form="verse" rend="indent(0)">And how dost, wife?</l>
+<l gn="1595" n="58" form="verse" rend="indent(6)">Honor! Ha ha!</l>
+<l gn="1596" n="59" form="verse">And how dost, wife?</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -4544,7 +4544,7 @@
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1598" n="60" form="verse" rend="indent(0)">Will your lordship in?</l>
+<l gn="1598" n="60" form="verse">Will your lordship in?</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4554,17 +4554,17 @@
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
 <l gn="1601" n="62" form="verse">Lord, that your honor ne&#8217;er will leave these jests!</l>
-<l gn="1602" n="63" form="verse" rend="indent(0)">In faith, it ill becomes ye.</l>
+<l gn="1602" n="63" form="verse">In faith, it ill becomes ye.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1603" n="63" form="verse" rend="indent(7)">Oh, good wife,</l>
+<l gn="1603" n="63" form="verse" rend="indent(5)">Oh, good wife,</l>
 <l gn="1604" n="64" form="verse">Honor and jests are both together fled;</l>
 <l gn="1605" n="65" form="verse">The merriest councillor of England&#8217;s dead.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1606" n="66" form="verse" rend="indent(0)">Who&#8217;s that, my lord?</l>
+<l gn="1606" n="66" form="verse">Who&#8217;s that, my lord?</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4572,11 +4572,11 @@
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1608" n="67" form="verse" rend="indent(0)">That&#8217;s you.</l>
+<l gn="1608" n="67" form="verse">That&#8217;s you.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1609" n="67" form="verse" rend="indent(2)">Certain; but I have changed my life.</l>
+<l gn="1609" n="67" form="verse" rend="indent(3)">Certain; but I have changed my life.</l>
 <l gn="1610" n="68" form="verse">Am I not leaner than I was before?</l>
 <l gn="1611" n="69" form="verse">The fat is gone; my title&#8217;s only More.</l>
 <l gn="1612" n="70" form="verse">Contented with one style, I&#8217;ll live at rest:</l>
@@ -4590,7 +4590,7 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1616" n="74" form="verse">Come, breed not female children in your eyes:</l>
-<l gn="1617" n="75" form="verse" rend="indent(0)">The king will have it so.</l>
+<l gn="1617" n="75" form="verse">The king will have it so.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -4610,12 +4610,12 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1623" n="80" form="verse">Oh, son Roper,</l>
 <l gn="1624" n="81" form="verse"></l>
-<l gn="1625" n="82" form="verse">No, wife, be merry;&#8212;and be merry, all:</l>
-<l gn="1626" n="83" form="verse">You smiled at rising, weep not at my fall.</l>
-<l gn="1627" n="84" form="verse">Let&#8217;s in, and hear joy like to private friends,</l>
-<l gn="1628" n="85" form="verse">Since days of pleasure have repentant ends:</l>
-<l gn="1629" n="86" form="verse">The light of greatness is with triumph born;</l>
-<l gn="1630" n="87" form="verse">It sets at midday oft with public scorn.</l>
+<l gn="1625" n="82" form="rhyme">No, wife, be merry;&#8212;and be merry, all:</l>
+<l gn="1626" n="83" form="rhyme">You smiled at rising, weep not at my fall.</l>
+<l gn="1627" n="84" form="rhyme">Let&#8217;s in, and hear joy like to private friends,</l>
+<l gn="1628" n="85" form="rhyme">Since days of pleasure have repentant ends:</l>
+<l gn="1629" n="86" form="rhyme">The light of greatness is with triumph born;</l>
+<l gn="1630" n="87" form="rhyme">It sets at midday oft with public scorn.</l>
 </sp>
 <stage sgn="1630.01" sn="87.01">
 	<dir>Exeunt.</dir>
@@ -4657,10 +4657,10 @@
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
 <l gn="1631" n="1" form="verse">Your kind persuasions, honorable lords,</l>
 <l gn="1632" n="2" form="verse">I can but thank ye for; but in this breast</l>
-<l gn="1633" n="3" form="verse">There lives a soul that aims at higher things</l>
-<l gn="1634" n="4" form="verse">Than temporary pleasing earthly kings.</l>
-<l gn="1635" n="5" form="verse">God bless his highness even with all my heart!&#8288;&#8212;</l>
-<l gn="1636" n="6" form="verse">We shall meet one day, though that now we part.</l>
+<l gn="1633" n="3" form="rhyme">There lives a soul that aims at higher things</l>
+<l gn="1634" n="4" form="rhyme">Than temporary pleasing earthly kings.</l>
+<l gn="1635" n="5" form="rhyme">God bless his highness even with all my heart!&#8288;&#8212;</l>
+<l gn="1636" n="6" form="rhyme">We shall meet one day, though that now we part.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -4707,8 +4707,8 @@
 <sp>
 <speaker long="Bishop of Rochester">ROCHESTER.</speaker>
 <l gn="1657" n="27" form="verse">Now, Master Lieutenant, on; i&#8217;God&#8217;s name, go!</l>
-<l gn="1658" n="28" form="verse">And with as glad a mind go I with you</l>
-<l gn="1659" n="29" form="verse">As ever truant bade the school .</l>
+<l gn="1658" n="28" form="rhyme">And with as glad a mind go I with you</l>
+<l gn="1659" n="29" form="rhyme">As ever truant bade the school .</l>
 </sp>
 <stage sgn="1659.01" sn="29.01">
 	<dir>Exeunt.</dir>
@@ -4758,23 +4758,23 @@
 	<action type="action">
 	</action>
 </stage>
-<l gn="1662" n="3" form="verse">Upon an humble seat; the time so craves;</l>
-<l gn="1663" n="4" form="verse">Rest your good heart on earth, the roof of graves:</l>
-<l gn="1664" n="5" form="verse">You see the floor of greatness is uneven;</l>
-<l gn="1665" n="6" form="verse">The cricket and high throne alike near heaven.</l>
-<l gn="1666" n="7" form="verse">Now, daughters, you that like to branches spread,</l>
-<l gn="1667" n="8" form="verse">And give best shadow to a private house,</l>
-<l gn="1668" n="9" form="verse">Be comforted, my girls; your hopes stand fair:</l>
-<l gn="1669" n="10" form="verse">Virtue breeds gentry, she makes the best heir.</l>
+<l gn="1662" n="3" form="rhyme">Upon an humble seat; the time so craves;</l>
+<l gn="1663" n="4" form="rhyme">Rest your good heart on earth, the roof of graves:</l>
+<l gn="1664" n="5" form="rhyme">You see the floor of greatness is uneven;</l>
+<l gn="1665" n="6" form="rhyme">The cricket and high throne alike near heaven.</l>
+<l gn="1666" n="7" form="rhyme">Now, daughters, you that like to branches spread,</l>
+<l gn="1667" n="8" form="rhyme">And give best shadow to a private house,</l>
+<l gn="1668" n="9" form="rhyme">Be comforted, my girls; your hopes stand fair:</l>
+<l gn="1669" n="10" form="rhyme">Virtue breeds gentry, she makes the best heir.</l>
 </sp>
 <sp>
 <speaker long="Both Daughters">BOTH DAUGHTERS.</speaker>
-<l gn="1670" n="11" form="verse" rend="indent(0)">Good morrow to your honor.</l>
+<l gn="1670" n="11" form="verse">Good morrow to your honor.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1671" n="11" form="verse" rend="indent(5)">Nay, good night rather;</l>
-<l gn="1672" n="12" form="verse">Your honor&#8217;s crest-fain with your happy father.</l>
+<l gn="1671" n="11" form="rhyme" rend="indent(5)">Nay, good night rather;</l>
+<l gn="1672" n="12" form="rhyme">Your honor&#8217;s crest-fain with your happy father.</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -4785,18 +4785,18 @@
 <l gn="1677" n="17" form="verse">Whilst, like a pawn at chess, he keeps in rank</l>
 <l gn="1678" n="18" form="verse">With kings and mighty fellows; yet indeed</l>
 <l gn="1679" n="19" form="verse">Those men that stand on tiptoe smile to see</l>
-<l gn="1680" n="20" form="verse" rend="indent(0)">Him pawn his fortunes.</l>
+<l gn="1680" n="20" form="verse">Him pawn his fortunes.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1681" n="20" form="verse" rend="indent(7)">True, son,&#8288;&#8212;</l>
+<l gn="1681" n="20" form="verse" rend="indent(5)">True, son,&#8288;&#8212;</l>
 <l gn="1682" n="21" form="verse">Nor does the wanton tongue here screw itself</l>
 <l gn="1683" n="22" form="verse">Into the ear, that like a vise drinks up</l>
-<l gn="1684" n="23" form="verse" rend="indent(0)">The iron instrument.</l>
+<l gn="1684" n="23" form="verse">The iron instrument.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1685" n="23" form="verse" rend="indent(5)">We are here at peace.</l>
+<l gn="1685" n="23" form="verse" rend="indent(4)">We are here at peace.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4806,15 +4806,15 @@
 <speaker long="Lady More">LADY MORE.</speaker>
 <l gn="1687" n="25" form="verse">For, keeping still in compass, a strange point</l>
 <l gn="1688" n="26" form="verse">In times new navigation we have sailed</l>
-<l gn="1689" n="27" form="verse" rend="indent(0)">Beyond our course.</l>
+<l gn="1689" n="27" form="verse">Beyond our course.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1690" n="27" form="verse" rend="indent(5)">Have done.</l>
+<l gn="1690" n="27" form="verse" rend="indent(4)">Have done.</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1691" n="28" form="verse" rend="indent(0)">We are exiled the court.</l>
+<l gn="1691" n="28" form="verse">We are exiled the court.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4824,7 +4824,7 @@
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1695" n="31" form="verse" rend="indent(0)">Oh, but, dear husband&#8288;&#8212;</l>
+<l gn="1695" n="31" form="verse">Oh, but, dear husband&#8288;&#8212;</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4835,10 +4835,10 @@
 <l gn="1700" n="35" form="verse">Thou shalt not understand a word we speak;</l>
 <l gn="1701" n="36" form="verse">We&#8217;ll talk in Latin.</l>
 <l gn="1702" n="37" form="verse"></l>
-<l gn="1703" n="38" form="verse">More rest enjoys the subject meanly bred</l>
-<l gn="1704" n="39" form="verse">Than he that bears the kingdom in his head.</l>
-<l gn="1705" n="40" form="verse">Great men are still musicians, else the world lies;</l>
-<l gn="1706" n="41" form="verse">They learn low strains after the notes that rise.</l>
+<l gn="1703" n="38" form="rhyme">More rest enjoys the subject meanly bred</l>
+<l gn="1704" n="39" form="rhyme">Than he that bears the kingdom in his head.</l>
+<l gn="1705" n="40" form="rhyme">Great men are still musicians, else the world lies;</l>
+<l gn="1706" n="41" form="rhyme">They learn low strains after the notes that rise.</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -4852,17 +4852,17 @@
 <l gn="1714" n="49" form="verse">Avoid destruction? Most honored father-in-law,</l>
 <l gn="1715" n="50" form="verse">The blood you have bequeathed these several hearts</l>
 <l gn="1716" n="51" form="verse">To nourish your posterity, stands firm;</l>
-<l gn="1717" n="52" form="verse">And, as with joy you led us first to rise,</l>
-<l gn="1718" n="53" form="verse">So with like hearts we&#8217;ll lock preferment&#8217;s eyes.</l>
+<l gn="1717" n="52" form="rhyme">And, as with joy you led us first to rise,</l>
+<l gn="1718" n="53" form="rhyme">So with like hearts we&#8217;ll lock preferment&#8217;s eyes.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1719" n="54" form="verse">Close them not, then, with tears. For that ostent</l>
-<l gn="1720" n="55" form="verse">Gives a wet signal of your discontent.</l>
-<l gn="1721" n="56" form="verse">If you will share my fortunes, comfort then;</l>
-<l gn="1722" n="57" form="verse">An hundred smiles for one sigh. What! We are men:</l>
-<l gn="1723" n="58" form="verse">Resign wet passion to these weaker eyes,</l>
-<l gn="1724" n="59" form="verse">Which proves their sex, but grants it ne&#8217;er more wise.</l>
+<l gn="1719" n="54" form="rhyme">Close them not, then, with tears. For that ostent</l>
+<l gn="1720" n="55" form="rhyme">Gives a wet signal of your discontent.</l>
+<l gn="1721" n="56" form="rhyme">If you will share my fortunes, comfort then;</l>
+<l gn="1722" n="57" form="rhyme">An hundred smiles for one sigh. What! We are men:</l>
+<l gn="1723" n="58" form="rhyme">Resign wet passion to these weaker eyes,</l>
+<l gn="1724" n="59" form="rhyme">Which proves their sex, but grants it ne&#8217;er more wise.</l>
 <l gn="1725" n="60" form="verse">Let&#8217;s now survey our state. Here sits my wife,</l>
 <l gn="1726" n="61" form="verse">And dear esteemed issue; yonder stand</l>
 <l gn="1727" n="62" form="verse">My loving servants. Now the difference</l>
@@ -4871,8 +4871,8 @@
 <l gn="1730" n="65" form="verse">Hath sundry metals, out of which she frames</l>
 <l gn="1731" n="66" form="verse">Us mortals, each in valuation</l>
 <l gn="1732" n="67" form="verse">Outprizing other. Of the finest stuff</l>
-<l gn="1733" n="68" form="verse">The finest features come. The rest of earth,</l>
-<l gn="1734" n="69" form="verse">Receive base fortune even before their birth;</l>
+<l gn="1733" n="68" form="rhyme">The finest features come. The rest of earth,</l>
+<l gn="1734" n="69" form="rhyme">Receive base fortune even before their birth;</l>
 <l gn="1735" n="70" form="verse">Hence slaves have their creation; and I think</l>
 <l gn="1736" n="71" form="verse">Nature provides content for the base mind;</l>
 <l gn="1737" n="72" form="verse">Under the whip, the burden, and the toil,</l>
@@ -4880,14 +4880,14 @@
 <l gn="1739" n="74" form="verse">As for the prince in all his sweet-gorged maw,</l>
 <l gn="1740" n="75" form="verse">And his rank flesh, that sinfully renews</l>
 <l gn="1741" n="76" form="verse">The noon&#8217;s excess in the night&#8217;s dangerous surfeits.</l>
-<l gn="1742" n="77" form="verse">What means or misery from our birth doth flow</l>
-<l gn="1743" n="78" form="verse">Nature entitles to us; that we owe:</l>
-<l gn="1744" n="79" form="verse">But we, being subject to the rack of hate,</l>
-<l gn="1745" n="80" form="verse">Falling from happy life to bondage state,</l>
-<l gn="1746" n="81" form="verse">Having seen better days, now know the lack</l>
-<l gn="1747" n="82" form="verse">Of glory that once reared each high-fed back.</l>
-<l gn="1748" n="83" form="verse">But you, that in your age did ne&#8217;er view better,</l>
-<l gn="1749" n="84" form="verse">Challenged not fortune for your thriftless debter.</l>
+<l gn="1742" n="77" form="rhyme">What means or misery from our birth doth flow</l>
+<l gn="1743" n="78" form="rhyme">Nature entitles to us; that we owe:</l>
+<l gn="1744" n="79" form="rhyme">But we, being subject to the rack of hate,</l>
+<l gn="1745" n="80" form="rhyme">Falling from happy life to bondage state,</l>
+<l gn="1746" n="81" form="rhyme">Having seen better days, now know the lack</l>
+<l gn="1747" n="82" form="rhyme">Of glory that once reared each high-fed back.</l>
+<l gn="1748" n="83" form="rhyme">But you, that in your age did ne&#8217;er view better,</l>
+<l gn="1749" n="84" form="rhyme">Challenged not fortune for your thriftless debter.</l>
 </sp>
 <sp>
 <speaker long="Catesby">CATESBY.</speaker>
@@ -4895,8 +4895,8 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1751" n="86" form="verse">I was the patron of those days, and know</l>
-<l gn="1752" n="87" form="verse">Those were but painted days, only for show.</l>
+<l gn="1751" n="86" form="rhyme">I was the patron of those days, and know</l>
+<l gn="1752" n="87" form="rhyme">Those were but painted days, only for show.</l>
 <l gn="1753" n="88" form="verse">Then grieve not you to fall with him that gave them:</l>
 <l gn="1754" n="89" form="verse"></l>
 <l gn="1755" n="90" form="verse">Dear Gough, thou art my learned secretary;</l>
@@ -4907,8 +4907,8 @@
 <l gn="1760" n="95" form="verse">Bribes, that make open traffic twixt the soul</l>
 <l gn="1761" n="96" form="verse">And netherland of hell, deliver up</l>
 <l gn="1762" n="97" form="verse">Their guilty homage to the second lords.</l>
-<l gn="1763" n="98" form="verse">Then, living thus untainted, you are well:</l>
-<l gn="1764" n="99" form="verse">Truth is no pilot for the land of hell.</l>
+<l gn="1763" n="98" form="rhyme">Then, living thus untainted, you are well:</l>
+<l gn="1764" n="99" form="rhyme">Truth is no pilot for the land of hell.</l>
 </sp>
 <stage sgn="1764.01" sn="99.01">
 	<dir>Enter a Servant.</dir>
@@ -4934,7 +4934,7 @@
 </stage>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1769" n="104" form="verse" rend="indent(0)">Oh, God, what news with them?</l>
+<l gn="1769" n="104" form="verse">Oh, God, what news with them?</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -4949,8 +4949,8 @@
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1773" n="107" form="verse">What shouldst thou fear, fond woman?</l>
 <l gn="1774" n="108" form="verse"></l>
-<l gn="1775" n="109" form="verse">Here let me live estranged from great men&#8217;s looks;</l>
-<l gn="1776" n="110" form="verse">They are like golden flies on leaden hooks.</l>
+<l gn="1775" n="109" form="rhyme">Here let me live estranged from great men&#8217;s looks;</l>
+<l gn="1776" n="110" form="rhyme">They are like golden flies on leaden hooks.</l>
 </sp>
 <stage sgn="1776.01" sn="110.01">
 	<dir>Enter the Earls, Downes with his mace, and Attendants.</dir>
@@ -4973,14 +4973,14 @@
 </stage>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
-<l gn="1778" n="112" form="verse" rend="indent(0)">Good day, good madame.</l>
+<l gn="1778" n="112" form="verse">Good day, good madame.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="1779" n="112" form="verse" rend="indent(5)">Welcome, my good lords.</l>
 <l gn="1780" n="113" form="verse">What ails your lordships look so melancholy?</l>
 <l gn="1781" n="114" form="verse">Oh, I know; you live in court, and the court diet</l>
-<l gn="1782" n="115" form="verse" rend="indent(0)">Is only friend to physic.</l>
+<l gn="1782" n="115" form="verse">Is only friend to physic.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
@@ -5000,7 +5000,7 @@
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="1796" n="128" form="verse" rend="indent(0)">Oh, dear husband!</l>
+<l gn="1796" n="128" form="verse">Oh, dear husband!</l>
 </sp>
 <stage sgn="1796.01" sn="128.01">
 	<dir>Kneeling and weeping.</dir>
@@ -5026,7 +5026,7 @@
 </sp>
 <sp>
 <speaker long="Lady More and Daughters">LADY MORE AND DAUGHTERS.</speaker>
-<l gn="1804" n="134" form="verse" rend="indent(0)">Oh, God, oh, God!</l>
+<l gn="1804" n="134" form="verse">Oh, God, oh, God!</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -5038,15 +5038,15 @@
 <l gn="1807" n="136" form="verse">When else by cruel riotous assault</l>
 <l gn="1808" n="137" form="verse">Thou hadst been torn in pieces. Thou art reserved</l>
 <l gn="1809" n="138" form="verse">To be my summoner to yond spiritual court.</l>
-<l gn="1810" n="139" form="verse">Give me thy hand; good fellow, smooth thy face:</l>
-<l gn="1811" n="140" form="verse">The diet that thou drinkst is spic&#8217;d with mace,</l>
-<l gn="1812" n="141" form="verse">And I could ne&#8217;er abide it; &#8217;twill not digest,</l>
-<l gn="1813" n="142" form="verse">&#8217;Twill lie too heavily, man, on my weak breast.</l>
+<l gn="1810" n="139" form="rhyme">Give me thy hand; good fellow, smooth thy face:</l>
+<l gn="1811" n="140" form="rhyme">The diet that thou drinkst is spic&#8217;d with mace,</l>
+<l gn="1812" n="141" form="rhyme">And I could ne&#8217;er abide it; &#8217;twill not digest,</l>
+<l gn="1813" n="142" form="rhyme">&#8217;Twill lie too heavily, man, on my weak breast.</l>
 </sp>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
 <l gn="1814" n="143" form="verse">Be brief, my lord, for we are limited</l>
-<l gn="1815" n="144" form="verse" rend="indent(0)">Unto an hour.</l>
+<l gn="1815" n="144" form="verse">Unto an hour.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -5081,12 +5081,12 @@
 </sp>
 <sp>
 <speaker long="Earl of Shrewsbury">SHREWSBURY.</speaker>
-<l gn="1823" n="151" form="verse" rend="indent(0)">Come, then, subscribe, my lord.</l>
+<l gn="1823" n="151" form="verse">Come, then, subscribe, my lord.</l>
 </sp>
 <sp>
 <speaker long="Earl of Surrey">SURREY.</speaker>
 <l gn="1824" n="151" form="verse" rend="indent(7)">I am right glad</l>
-<l gn="1825" n="152" form="verse" rend="indent(0)">Of this your fair conversion.</l>
+<l gn="1825" n="152" form="verse">Of this your fair conversion.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -5104,18 +5104,18 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1834" n="160" form="verse">Gramercies, friend.</l>
-<l gn="1835" n="161" form="verse">To a great prison, to discharge the strife</l>
-<l gn="1836" n="162" form="verse">Commenc&#8217;d &#8217;twixt conscience and my frailer life,</l>
-<l gn="1837" n="163" form="verse">More now must march. Chelsea, !</l>
-<l gn="1838" n="164" form="verse">Strange farewell! Thou shalt ne&#8217;er more see More true,</l>
-<l gn="1839" n="165" form="verse">For I shall ne&#8217;er see thee more. Servants, farewell.</l>
-<l gn="1840" n="166" form="verse">Wife, mar not thine indifferent face; be wise:</l>
-<l gn="1841" n="167" form="verse">More&#8217;s widow&#8217;s husband, he must make thee rise.</l>
-<l gn="1842" n="168" form="verse">Daughters&#8212;what&#8217;s here, what&#8217;s here?</l>
-<l gn="1843" n="169" form="verse">Mine eye had almost parted with a tear.</l>
-<l gn="1844" n="170" form="verse">Dear son, possess my virtue, that I ne&#8217;er gave.</l>
-<l gn="1845" n="171" form="verse">Grave More thus lightly walks to a quick grave.</l>
+<l gn="1834" n="160" form="rhyme">Gramercies, friend.</l>
+<l gn="1835" n="161" form="rhyme">To a great prison, to discharge the strife</l>
+<l gn="1836" n="162" form="rhyme">Commenc&#8217;d &#8217;twixt conscience and my frailer life,</l>
+<l gn="1837" n="163" form="rhyme">More now must march. Chelsea, !</l>
+<l gn="1838" n="164" form="rhyme">Strange farewell! Thou shalt ne&#8217;er more see More true,</l>
+<l gn="1839" n="165" form="rhyme">For I shall ne&#8217;er see thee more. Servants, farewell.</l>
+<l gn="1840" n="166" form="rhyme">Wife, mar not thine indifferent face; be wise:</l>
+<l gn="1841" n="167" form="rhyme">More&#8217;s widow&#8217;s husband, he must make thee rise.</l>
+<l gn="1842" n="168" form="rhyme">Daughters&#8212;what&#8217;s here, what&#8217;s here?</l>
+<l gn="1843" n="169" form="rhyme">Mine eye had almost parted with a tear.</l>
+<l gn="1844" n="170" form="rhyme">Dear son, possess my virtue, that I ne&#8217;er gave.</l>
+<l gn="1845" n="171" form="rhyme">Grave More thus lightly walks to a quick grave.</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
@@ -5123,8 +5123,8 @@
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1847" n="173" form="verse">You that way in; mind you my course in prayer:</l>
-<l gn="1848" n="174" form="verse">By water I to prison, to heaven through air.</l>
+<l gn="1847" n="173" form="rhyme">You that way in; mind you my course in prayer:</l>
+<l gn="1848" n="174" form="rhyme">By water I to prison, to heaven through air.</l>
 </sp>
 <stage sgn="1848.01" sn="174.01">
 	<dir>Exeunt.</dir>
@@ -5362,8 +5362,8 @@
 <l gn="1913" n="65" form="verse">My lodging prove, the cry of the poor suitor,</l>
 <l gn="1914" n="66" form="verse">Fatherless orphan, or distressed widow,</l>
 <l gn="1915" n="67" form="verse">Shall not disturb me in my quiet sleep.</l>
-<l gn="1916" n="68" form="verse">On, then, i&#8217;God&#8217;s name, to our close abode!</l>
-<l gn="1917" n="69" form="verse">God is as strong here as he is abroad.</l>
+<l gn="1916" n="68" form="rhyme">On, then, i&#8217;God&#8217;s name, to our close abode!</l>
+<l gn="1917" n="69" form="rhyme">God is as strong here as he is abroad.</l>
 </sp>
 <stage sgn="1917.01" sn="69.01">
 	<dir>Exeunt.</dir>
@@ -5491,8 +5491,8 @@
 <l gn="1953" n="36" form="verse">Thus the fair spreading oak falls not alone,</l>
 <l gn="1954" n="37" form="verse">But all the neighbor plants and under-trees</l>
 <l gn="1955" n="38" form="verse">Are crushed down with his weight. No more of this:</l>
-<l gn="1956" n="39" form="verse">Come, and receive your due, and after go</l>
-<l gn="1957" n="40" form="verse">Fellow-like hence, copartners of one woe.</l>
+<l gn="1956" n="39" form="rhyme">Come, and receive your due, and after go</l>
+<l gn="1957" n="40" form="rhyme">Fellow-like hence, copartners of one woe.</l>
 </sp>
 <stage sgn="1957.01" sn="40.01">
 	<dir>Exeunt.</dir>
@@ -5533,7 +5533,7 @@
 </sp>
 <sp>
 <speaker long="Lieutenant of the Tower">LIEU.</speaker>
-<l gn="1960" n="3" form="verse" rend="indent(0)">My lord, it is.</l>
+<l gn="1960" n="3" form="verse">My lord, it is.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -5558,11 +5558,11 @@
 </sp>
 <sp>
 <speaker long="Lieutenant of the Tower">LIEU.</speaker>
-<l gn="1973" n="15" form="verse" rend="indent(0)">Tomorrow morning.</l>
+<l gn="1973" n="15" form="verse">Tomorrow morning.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="1974" n="15" form="verse" rend="indent(5)">So, sir, I thank ye;</l>
+<l gn="1974" n="15" form="verse" rend="indent(4)">So, sir, I thank ye;</l>
 <l gn="1975" n="16" form="verse">I have not lived so ill, I fear to die.</l>
 <l gn="1976" n="17" form="verse">Master Lieutenant,</l>
 <l gn="1977" n="18" form="verse">I have had a sore fit of the stone tonight;</l>
@@ -5635,7 +5635,7 @@
 </sp>
 <sp>
 <speaker long="Lieutenant of the Tower">LIEU.</speaker>
-<l gn="2007" n="48" form="verse" rend="indent(0)">It&#8217;s very strange.</l>
+<l gn="2007" n="48" form="verse">It&#8217;s very strange.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -5758,7 +5758,7 @@
 </sp>
 <sp>
 <speaker long="Daughter to More">DAUGHTER.</speaker>
-<l gn="2068" n="108" form="verse" rend="indent(0)">Ah, my dear father!</l>
+<l gn="2068" n="108" form="verse">Ah, my dear father!</l>
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
@@ -5791,17 +5791,17 @@
 </sp>
 <sp>
 <speaker long="Lady More">LADY MORE.</speaker>
-<l gn="2086" n="125" form="verse" rend="indent(0)">Aye, my dear husband!</l>
+<l gn="2086" n="125" form="verse">Aye, my dear husband!</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
-<l gn="2087" n="125" form="verse" rend="indent(4)">Sweet wife, good night, good night:</l>
-<l gn="2088" n="126" form="verse">God send us all his everlasting light!</l>
+<l gn="2087" n="125" form="rhyme" rend="indent(4)">Sweet wife, good night, good night:</l>
+<l gn="2088" n="126" form="rhyme">God send us all his everlasting light!</l>
 </sp>
 <sp>
 <speaker long="Roper">ROPER.</speaker>
-<l gn="2089" n="127" form="verse">I think, before this hour,</l>
-<l gn="2090" n="128" form="verse">More heavy hearts ne&#8217;er parted in the Tower.</l>
+<l gn="2089" n="127" form="rhyme">I think, before this hour,</l>
+<l gn="2090" n="128" form="rhyme">More heavy hearts ne&#8217;er parted in the Tower.</l>
 </sp>
 <stage sgn="2090.01" sn="128.01">
 	<dir>Exeunt.</dir>
@@ -6084,12 +6084,12 @@
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
 <l gn="2170" n="80" form="verse">Speak not so coldly to me; I am hoarse already;</l>
-<l gn="2171" n="81" form="verse">I would be loathe, good fellow, to take more.</l>
-<l gn="2172" n="82" form="verse">Point me the block; I ne&#8217;er was here before.</l>
+<l gn="2171" n="81" form="rhyme">I would be loathe, good fellow, to take more.</l>
+<l gn="2172" n="82" form="rhyme">Point me the block; I ne&#8217;er was here before.</l>
 </sp>
 <sp>
 <speaker long="Hangman">HANGMAN.</speaker>
-<l gn="2173" n="83" form="verse" rend="indent(0)">To the east side, my lord.</l>
+<l gn="2173" n="83" form="verse">To the east side, my lord.</l>
 </sp>
 <sp>
 <speaker long="Sir Thomas More">MORE.</speaker>
@@ -6097,8 +6097,8 @@
 <l gn="2175" n="84" form="verse">We go to sigh; that o&#8217;er, to sleep in rest.</l>
 <l gn="2176" n="85" form="verse">Here More forsakes all mirth; good reason why;</l>
 <l gn="2177" n="86" form="verse">The fool of flesh must with her frail life die.</l>
-<l gn="2178" n="87" form="verse">No eye salute my trunk with a sad tear:</l>
-<l gn="2179" n="88" form="verse">Our birth to heaven should be thus, void of fear.</l>
+<l gn="2178" n="87" form="rhyme">No eye salute my trunk with a sad tear:</l>
+<l gn="2179" n="88" form="rhyme">Our birth to heaven should be thus, void of fear.</l>
 </sp>
 <stage sgn="2179.01" sn="88.01">
 	<dir>Exit with Hangman, etc.</dir>
@@ -6111,8 +6111,8 @@
 <speaker long="Earl of Surrey">SURREY.</speaker>
 <l gn="2180" n="89" form="verse">A very learned worthy gentleman</l>
 <l gn="2181" n="90" form="verse">Seals error with his blood. Come, we&#8217;ll to court.</l>
-<l gn="2182" n="91" form="verse">Let&#8217;s sadly hence to perfect unknown fates,</l>
-<l gn="2183" n="92" form="verse">Whilst he tends prograce to the state of states.</l>
+<l gn="2182" n="91" form="rhyme">Let&#8217;s sadly hence to perfect unknown fates,</l>
+<l gn="2183" n="92" form="rhyme">Whilst he tends prograce to the state of states.</l>
 </sp>
 <stage sgn="2183.01" sn="92.01">
 	<dir>Exit.</dir>
