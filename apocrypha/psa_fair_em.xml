@@ -1,0 +1,3472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play variant="ps-apocrypha" unique="fair-em">
+  <titleStmt>
+    <title type="common">Fair Em</title>
+    <title type="main">A Pleasant Comedy of Fair Em</title>
+    <title type="short">Fair Em</title>
+    <title type="abbr">FEm</title>
+  </titleStmt>
+  <authors status="apocrypha">
+    <author>Unknown Author</author>
+  </authors>
+  <fileDesc>
+    <publicationStmt>
+      <publisher ref="http://www.playshakespeare.com">PlayShakespeare.com</publisher>
+      <name type="person" role="editor">Ron Severdia</name>
+      <email>william at playshakespeare.com</email>
+      <date from="2005" to="2025">2005-2025</date>
+      <availability status="restricted">
+        <license>GFDL License 1.3. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation.</license>
+      </availability>
+    </publicationStmt>
+    <editionStmt>
+      <edition n="5.4"/>
+    </editionStmt>
+  </fileDesc>
+  <castList playtitle="Fair Em">
+    <castItem gender="male" id="ed6692c6-9fe5-4ef6-9b82-19254032cc52">
+      <role short="WILL.">William the Conqueror</role>
+      <persaliases>
+        <role short="SIR ROB." nameChange="disguise">Sir Robert of Windsor</role>
+      </persaliases>
+      <roleDesc>William the Conqueror is the Norman King of Britain.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="28bac946-8439-4cd0-8e02-07e2709572ac">
+      <role short="ZWENO.">Zweno, King of Denmark</role>
+      <roleDesc>Zweno is the King of Denmark and father of Blanch.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="9266b412-52e6-4f8b-b9dc-f4309aa30652">
+      <role short="MOUNT.">Mountney</role>
+      <roleDesc>Mountney is an English courtier, a sworn friend of Vallingford, and an unwanted suitor to Em.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="a595a0f3-ed20-46d8-80cd-66218d365443">
+      <role short="LUB.">Marquis of Lubeck</role>
+      <roleDesc>The Marquis of Lubeck is a Danish noble living in England and the suitor of Mariana.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="5c8a0824-1949-4297-b7e0-20b3e81ecc10">
+      <role short="VAL.">Vallingford</role>
+      <roleDesc>Vallingford is an English courtier and suitor to Em.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="9d9c5147-d003-487e-92cc-6512427e74ab">
+      <role short="MANV.">Manville</role>
+      <roleDesc>Manville is an English courtier and Em&#8217;s preferred suitor.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="6b92d523-a342-49a3-bfed-4c3ff83bd667">
+      <role short="MILL.">The Miller of Manchester</role>
+      <roleDesc>The Miller is Em&#8217;s father and an exiled Saxon nobleman living in disguise.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="93fa01a1-4c6b-48ee-9f5b-6dcecd6edf08">
+      <role short="TROT.">Trotter</role>
+      <roleDesc>Trotter is a servant to The Miller of Manchester.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="92138985-75eb-4bb1-806e-b9ecb67bf84c">
+      <role short="DIM.">Earl of Dimarch</role>
+      <roleDesc>The Earl of Dimarch is an English lord appointed co-governor with Dirot while William is away.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="602e143e-351c-43a5-bbfc-e8b71c8063aa">
+      <role short="CIT.">Citizen of Manchester</role>
+      <roleDesc>The Citizen is the father of Elner, whom Manville woos after he has spurned Em.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="4e88f93a-83df-4425-82cd-e98ce3fd1f38">
+      <role short="DIROT.">Duke Dirot</role>
+      <roleDesc>Duke Dirot is an English lord, appointed co-governor with Earl Dimarch while William is away.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="80766fe1-0896-4cc2-95b3-0eceab3c3c75">
+      <role short="ROZ.">Rozilio</role>
+      <roleDesc>Rozilio is a Danish lord attendant on King Zweno.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="98c71be3-5fb6-4452-9774-7535fb46c344">
+      <role short="EM.">Fair Em</role>
+      <roleDesc>Em is The Miller&#8217;s daughter and the object of Manville&#8217;s, Mountney&#8217;s, and Vallingford&#8217;s courtship.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="6813ffd2-8a9b-4515-b5e1-2becda4befb7">
+      <role short="MARI.">Mariana, Princess of Suethia</role>
+      <roleDesc>Mariana is a Swedish princess and Lubeck&#8217;s intended.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="2b2ec6ea-e7bd-4703-99bf-9cb1881d23eb">
+      <role short="ELNER.">Elner</role>
+      <roleDesc>Elner is the Citizen of Manchester&#8217;s daughter.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="19c3a477-7997-4d13-891f-30844305d1b0">
+      <role short="BLANCH.">Blanch, Princess of Denmark</role>
+      <roleDesc>Blanch is the daughter of Zweno, King of Denmark.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="a7bed7a0-8595-47a6-a584-2a14e41b6e79">
+      <role short="DAN. AMB.">Danish Ambassador</role>
+      <roleDesc>The Danish Ambassador is a representative of King Zweno.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="8922c9ba-2e52-4355-bcdd-03607b7d1af8">
+      <role short="SOLD.">Soldier</role>
+      <roleDesc>The Soldier is the leader of a troop of British soldiers.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="1d1def6b-b96a-42a5-b7ca-896b346ad283">
+      <role short="MESS.">Messenger</role>
+      <roleDesc>The Messenger is a servant of King William.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="22510548-3cec-4c6b-b6c2-9443e211b51b">
+      <role short="KEEP.">Keeper</role>
+      <roleDesc>The Keeper is a jailer in service of the Danish court.</roleDesc>
+    </castItem>
+  </castList>
+  <act num="1">
+    <acttitle>Act 1</acttitle>
+    <scene actnum="1" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>The English County.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+        <scenepersona short="DIROT.">Duke Dirot</scenepersona>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="MANV.">Manville</scenepersona>
+      </scenepersonae>
+      <stage sgn="0.01" sn="0.01">
+        <dir>Enter William the Conqueror, Marquis of Lubeck, with a picture, Mountney, Manville, Vallingford, and Duke Dirot.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+          <actor>DIROT.</actor>
+          <actor>MOUNT.</actor>
+          <actor>VAL.</actor>
+          <actor>LUB.</actor>
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="1" n="1" form="verse">What means fair Britain&#8217;s mighty conqueror</l>
+        <l gn="2" n="2" form="verse">So suddenly to cast away his staff,</l>
+        <l gn="3" n="3" form="verse">And all in passion to forsake the tilt?</l>
+      </sp>
+      <sp>
+        <speaker long="Duke Dirot">DIROT.</speaker>
+        <l gn="4" n="4" form="verse">My lord, this triumph we solemnize here,</l>
+        <l gn="5" n="5" form="verse">Is of mere love to your increasing joys;</l>
+        <l gn="6" n="6" form="verse">Only expecting cheerful looks for all.</l>
+        <l gn="7" n="7" form="verse">What sudden pangs than move your majesty</l>
+        <l gn="8" n="8" form="verse">To dim the brightness of the day with frowns?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="9" n="9" form="verse">Ah, good my lords, misconster not the cause;</l>
+        <l gn="10" n="10" form="verse">At least, suspect not my displeas&#232;d brows:</l>
+        <l gn="11" n="11" form="verse">I amorously do bear to your intent,</l>
+        <l gn="12" n="12" form="verse">For thanks; and all that you can wish, I yield.</l>
+        <l gn="13" n="13" form="verse">But that which makes me blush and shame to tell,</l>
+        <l gn="14" n="14" form="verse">Is cause why thus I turn my conquering eyes</l>
+        <l gn="15" n="15" form="verse">To coward&#8217;s looks and beaten fantasies.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="16" n="16" form="verse">Since we are guiltless, we the less dismay</l>
+        <l gn="17" n="17" form="verse">To see this sudden change possess your cheer;</l>
+        <l gn="18" n="18" form="verse">For if it issue from your own conceits,</l>
+        <l gn="19" n="19" form="verse">Bred by suggestion of some envious thoughts,</l>
+        <l gn="20" n="20" form="verse">Your highness&#8217; wisdom may suppress it straight.</l>
+        <l gn="21" n="21" form="verse">Yet tell us, good my lord, what thought it is</l>
+        <l gn="22" n="22" form="verse">That thus bereaves you of your late content?</l>
+        <l gn="23" n="23" form="verse">That in advise we may assist your grace,</l>
+        <l gn="24" n="24" form="verse">Or bend our forces to revive your spirits.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="25" n="25" form="verse">Ah, Marquis Lubeck, in thy power it lies</l>
+        <l gn="26" n="26" form="verse">To rid my bosom of these thralled dumps:</l>
+        <l gn="27" n="27" form="verse">And therefore, good my lords, forbear awhile</l>
+        <l gn="28" n="28" form="verse">That we may parley of these private cares,</l>
+        <l gn="29" n="29" form="verse">Whose strength subdues me more than all the world.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="30" n="30" form="verse">We go, and wish the private conference</l>
+        <l gn="31" n="31" form="verse">Public effects, in this accustomed peace.</l>
+      </sp>
+      <stage sgn="31.01" sn="31.01">
+        <dir>Exeunt all but William, and Lubeck.</dir>
+        <action type="exit">
+          <actor>DIROT.</actor>
+          <actor>MOUNT.</actor>
+          <actor>VAL.</actor>
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="32" n="32" form="verse">Now, Marquis, must a conqueror at arms</l>
+        <l gn="33" n="33" form="verse">Disclose himself thralled to unarm&#232;d thoughts,</l>
+        <l gn="34" n="34" form="verse">And, threatened of a shadow, yield to lust.</l>
+        <l gn="35" n="35" form="verse">No sooner had my sparkling eyes beheld</l>
+        <l gn="36" n="36" form="verse">The flames of beauty blazing on this piece,</l>
+        <l gn="37" n="37" form="verse">But suddenly a sense of miracle,</l>
+        <l gn="38" n="38" form="verse">Imagined on thy lovely mistress&#8217; face,</l>
+        <l gn="39" n="39" form="verse">Made me abandon bodily regard,</l>
+        <l gn="40" n="40" form="verse">And cast all pleasures on my wounded soul:</l>
+        <l gn="41" n="41" form="verse">Then, gentle Marquis, tell me what she is,</l>
+        <l gn="42" n="42" form="verse">That thus thou honorest on thy warlike shield;</l>
+        <l gn="43" n="43" form="verse">And if thy love and interest be such</l>
+        <l gn="44" n="44" form="verse">As justly may give place to mine,&#8212;</l>
+        <l gn="45" n="45" form="verse">That if it be, my soul with honor&#8217;s wings</l>
+        <l gn="46" n="46" form="verse">May fly into the bosom of my dear;&#8217;</l>
+        <l gn="47" n="47" form="verse">If not, close them and stoop into my grave.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="48" n="48" form="verse">If this be all, renown&#232;d conqueror,</l>
+        <l gn="49" n="49" form="verse">Advance your drooping spirits, and revive</l>
+        <l gn="50" n="50" form="verse">The wonted courage of your conquering mind;</l>
+        <l gn="51" n="51" form="verse">For this fair picture painted on my shield</l>
+        <l gn="52" n="52" form="verse">Is the true counterfeit of lovely Blanch,</l>
+        <l gn="53" n="53" form="verse">Princess and daughter to the king of Danes,</l>
+        <l gn="54" n="54" form="verse">Whose beauty and excess of ornaments</l>
+        <l gn="55" n="55" form="verse">Deserves another manner of defense,</l>
+        <l gn="56" n="56" form="verse">Pomp and high person to attend her state</l>
+        <l gn="57" n="57" form="verse">Then Marquis Lubeck any way presents;</l>
+        <l gn="58" n="58" form="verse">Therefore her virtues I resign to thee,</l>
+        <l gn="59" n="59" form="verse">Already shrined in thy religious breast,</l>
+        <l gn="60" n="60" form="verse">To be advanced and honored to the full,</l>
+        <l gn="61" n="61" form="verse">Nor bear I this an argument of love,</l>
+        <l gn="62" n="62" form="verse">But to renown fair Blanch, my sovereign&#8217;s child,</l>
+        <l gn="63" n="63" form="verse">In every place where I by arms may do it.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="64" n="64" form="verse">Ah, Marquis, thy words bring heaven unto my soul!</l>
+        <l gn="65" n="65" form="verse">And had I heaven to give for thy reward,</l>
+        <l gn="66" n="66" form="verse">Thou shouldst be throned in no unworthy place&#8212;</l>
+        <l gn="67" n="67" form="verse">But let my uttermost wealth suffice thy worth,</l>
+        <l gn="68" n="68" form="verse">Which here I vow: and to aspire the bliss</l>
+        <l gn="69" n="69" form="verse">That hangs on quick achievement of my love,</l>
+        <l gn="70" n="70" form="verse">Thyself and I will travel in disguise,</l>
+        <l gn="71" n="71" form="verse">To bring this lady to our Britain court.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="72" n="72" form="verse">Let William but bethink what may avail,</l>
+        <l gn="73" n="73" form="verse">And let me die if I deny my aid.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="74" n="74" form="verse">Then thus:&#8212;The Duke Dirot, and th&#8217; Earl Dimarch,</l>
+        <l gn="75" n="75" form="verse">Will I leave substitutes to rule my realm,</l>
+        <l gn="76" n="76" form="verse">While mighty love forbids my being here;</l>
+        <l gn="77" n="77" form="verse">And in the name of Sir Robert of Windsor</l>
+        <l gn="78" n="78" form="verse">Will go with thee unto the Danish court.</l>
+        <l gn="79" n="79" form="verse">Keep William&#8217;s secrets, Marquis, if thou love him.</l>
+        <l gn="80" n="80" form="verse">Bright Blanch, I come! Sweet fortune, favor me,</l>
+        <l gn="81" n="81" form="verse">And I will laud thy name eternally!</l>
+      </sp>
+      <stage sgn="81.01" sn="81.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>WILL.</actor>
+          <actor>LUB.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="2">
+      <scenetitle>Scene 2</scenetitle>
+      <scenelocation>The cottage of the Miller of Manchester.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MILL.">The Miller of Manchester</scenepersona>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+        <scenepersona short="TROT.">Trotter</scenepersona>
+      </scenepersonae>
+      <stage sgn="81.02" sn="0.01">
+        <dir>Enter the Miller and Em, his daughter.</dir>
+        <action type="enter">
+          <actor>MILL.</actor>
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="82" n="1" form="verse">Come, daughter, we must learn to shake off pomp,</l>
+        <l gn="83" n="2" form="verse">To leave the state that erst beseem&#8217;d a knight,</l>
+        <l gn="84" n="3" form="verse">And gentlemen of no mean descent,</l>
+        <l gn="85" n="4" form="verse">To undertake this homely miller&#8217;s trade:</l>
+        <l gn="86" n="5" form="verse">Thus must we mask to save our wretched lives,</l>
+        <l gn="87" n="6" form="verse">Threatened by conquest of this hapless isle,</l>
+        <l gn="88" n="7" form="verse">Whose sad invasion by the conqueror,</l>
+        <l gn="89" n="8" form="verse">Have made a number such as we subject</l>
+        <l gn="90" n="9" form="verse">Their gentle necks unto the stubborn yoke</l>
+        <l gn="91" n="10" form="verse">Of drudging labor and base peasantry.</l>
+        <l gn="92" n="11" form="verse">Sir Thomas Goddard now old Goddard is,</l>
+        <l gn="93" n="12" form="verse">Goddard the miller of fair Manchester.</l>
+        <l gn="94" n="13" form="verse">Why should not I content me with this state,</l>
+        <l gn="95" n="14" form="verse">As good Sir Edmund Trafford did the flail?</l>
+        <l gn="96" n="15" form="verse">And thou, sweet Em, must stoop from high estate</l>
+        <l gn="97" n="16" form="verse">To join with mine, that thus we may protect</l>
+        <l gn="98" n="17" form="verse">Our harmless lives, which, led in greater port,</l>
+        <l gn="99" n="18" form="verse">Would be an envious object to our foes,</l>
+        <l gn="100" n="19" form="verse">That seek to root all Britain&#8217;s gentry</l>
+        <l gn="101" n="20" form="verse">From bearing countenance against their tyranny.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="102" n="21" form="verse">Good father, let my full resolv&#232;d thoughts,</l>
+        <l gn="103" n="22" form="verse">With settled patience to support this chance,</l>
+        <l gn="104" n="23" form="verse">Be some poor comfort to your ag&#232;d soul;</l>
+        <l gn="105" n="24" form="verse">For therein rests the height of my estate&#8212;</l>
+        <l gn="106" n="25" form="verse">That you are pleased with this dejection,&#8212;</l>
+        <l gn="107" n="26" form="verse">And that all toils my hands may undertake</l>
+        <l gn="108" n="27" form="verse">May serve to work your worthiness content.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="109" n="28" form="verse">Thanks, my dear daughter; these thy pleasant words</l>
+        <l gn="110" n="29" form="verse">Transfer my soul into a second heaven:</l>
+        <l gn="111" n="30" form="verse">And in thy settled mind my joys consist,</l>
+        <l gn="112" n="31" form="verse">My state revived, and I in former plight.</l>
+        <l gn="113" n="32" form="verse">Although our outward pomp be thus abased,</l>
+        <l gn="114" n="33" form="verse">And thralled to drudging, stayless of the world,</l>
+        <l gn="115" n="34" form="verse">Let us retain those honorable minds</l>
+        <l gn="116" n="35" form="verse">That lately governed our superior state,</l>
+        <l gn="117" n="36" form="verse">Wherein true gentry is the only mean</l>
+        <l gn="118" n="37" form="verse">That makes us differ from base millers born.</l>
+        <l gn="119" n="38" form="verse">Though we expect no knightly delicates,</l>
+        <l gn="120" n="39" form="verse">Nor thirst in soul for former sovereignty,</l>
+        <l gn="121" n="40" form="verse">Yet may our minds as highly scorn to stoop</l>
+        <l gn="122" n="41" form="verse">To base desires of vulgar&#8217;s worldliness,</l>
+        <l gn="123" n="42" form="verse">As if we were in our precedent way.</l>
+        <l gn="124" n="43" form="verse">And, lovely daughter, since thy youthful years</l>
+        <l gn="125" n="44" form="verse">Must needs admit as young affections,</l>
+        <l gn="126" n="45" form="verse">And that sweet love impartial perceives</l>
+        <l gn="127" n="46" form="verse">Her dainty subjects through every part,</l>
+        <l gn="128" n="47" form="verse">In chief receive these lessons from my lips,</l>
+        <l gn="129" n="48" form="verse">The true discoverers of a virgin&#8217;s due,</l>
+        <l gn="130" n="49" form="verse">Now requisite, now that I know thy mind</l>
+        <l gn="131" n="50" form="verse">Something inclined to favor Manville&#8217;s suit,</l>
+        <l gn="132" n="51" form="verse">A gentleman, thy lover in protest;</l>
+        <l gn="133" n="52" form="verse">And that thou mayst not be by love deceived,</l>
+        <l gn="134" n="53" form="verse">But try his meaning fit for thy desert,</l>
+        <l gn="135" n="54" form="verse">In pursuit of all amorous desires,</l>
+        <l gn="136" n="55" form="verse">Regard thine honor. Let not vehement sighs,</l>
+        <l gn="137" n="56" form="verse">Nor earnest vows importing fervent love,</l>
+        <l gn="138" n="57" form="verse">Render thee subject to the wrath of lust:</l>
+        <l gn="139" n="58" form="verse">For that, transformed to former sweet delight,</l>
+        <l gn="140" n="59" form="verse">Will bring thy body and thy soul to shame.</l>
+        <l gn="141" n="60" form="verse">Chaste thoughts and modest conversations,</l>
+        <l gn="142" n="61" form="verse">Of proof to keep out all enchanting vows,</l>
+        <l gn="143" n="62" form="verse">Vain sighs, forced tears, and pitiful aspects,</l>
+        <l gn="144" n="63" form="verse">Are they that make deform&#232;d ladies fair,</l>
+        <l gn="145" n="64" form="verse">And poor ones rich; and such enticing men,</l>
+        <l gn="146" n="65" form="verse">That seek of all but only present grace,</l>
+        <l gn="147" n="66" form="verse">Shall in pers&#232;v&#8217;rance of a virgin&#8217;s vow</l>
+        <l gn="148" n="67" form="verse">Prefer the most refusers to the choice</l>
+        <l gn="149" n="68" form="verse">Of such a soul as yielded what they sought.</l>
+        <l gn="150" n="69" form="verse">But ho, where is Trotter?</l>
+      </sp>
+      <stage sgn="150.01" sn="69.01">
+        <dir>Enter Trotter, the Miller&#8217;s man, to them; and they within call to him for their grist.</dir>
+        <action type="enter">
+          <actor>TROT.</actor>
+        </action>
+        <action type="speak" offstage="true"/>
+      </stage>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="151" n="70" form="prose">Where&#8217;s Trotter? Why, Trotter is here. I&#8217;faith, you and your daughter go up and down weeping and wamanting, and keeping of a wamentation, as who should say, the mill would go with your wamenting.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="152" n="71" form="prose">How now, Trotter, why complainest thou?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="153" n="72" form="prose">Why, yonder is a company of young men and maids, keep such a stir for their grist, that they would have it before my stones be ready to grind it. But, i&#8217;faith, I would I could break wind enough backward: you should not tarry for your grist, I warrant you.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="154" n="73" form="prose">Content thee, Trotter, I&#8217;ll go pacify them.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="155" n="74" form="prose">I wish you will when I cannot. Why look, you have a mill&#8212;why, what&#8217;s your mill without me? Or rather, mistress what were I without you?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="156" n="75" form="prose">Nay, Trotter, if you fall a-chiding, I will give you over.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="157" n="76" form="prose">I chide you, dame, to amend you. You are too fine to be a miller&#8217;s daughter. For if you should but stoop to take up the toll-dish, you will have the cramp in your finger at least ten weeks after.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="158" n="77" form="prose">Ah, well said, Trotter. Teach her to play the good housewife, and thou shalt have her to thy wife, if thou canst get her good will.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="159" n="78" form="prose">Ah, words wherein I see matrimony come laden with kisses to salute me: now let me alone to pick the mill, to fill the hopper, to take the toll, to mend the sails, yea, and to make the mill go with the very force of my love.</l>
+        <stage sgn="159.01" sn="78.01">
+          <dir>They call for their grist within.</dir>
+          <action type="speak" offstage="true"/>
+        </stage>
+        <l gn="160" n="79" form="prose">I come, I come! I&#8217;faith, now you shall have your grist, or else Trotter will trot and amble himself to death.</l>
+      </sp>
+      <stage sgn="160.01" sn="79.01">
+        <dir>They call him again. Exeunt.</dir>
+        <action type="speak" offstage="true"/>
+        <action type="exit">
+          <actor>MILL.</actor>
+          <actor>TROT.</actor>
+          <actor>EM.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="3">
+      <scenetitle>Scene 3</scenetitle>
+      <scenelocation>The Danish Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="ZWENO.">Zweno, King of Denmark</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="MARI.">Mariana, Princess of Suethia</scenepersona>
+        <scenepersona short="BLANCH.">Blanch, Princess of Denmark</scenepersona>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+      </scenepersonae>
+      <stage sgn="160.02" sn="0.01">
+        <dir>Enter King of Denmark, with some Attendants; Blanch, his Daughter, Mariana, Marquis of Lubeck, and William the Conqueror, disguised.</dir>
+        <action type="enter">
+          <actor>ZWENO.</actor>
+          <actor>LUB.</actor>
+          <actor>MARI.</actor>
+          <actor>BLANCH.</actor>
+          <actor alias="SIR ROB.">WILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="161" n="1" form="verse">Lord Marquis Lubeck, welcome home.</l>
+        <l gn="162" n="2" form="verse">Welcome, brave knight, unto the Denmark king,</l>
+        <l gn="163" n="3" form="verse">For William&#8217;s sake, the noble Norman duke,</l>
+        <l gn="164" n="4" form="verse">So famous for his fortunes and success,</l>
+        <l gn="165" n="5" form="verse">That graceth him with name of Conqueror;</l>
+        <l gn="166" n="6" form="verse">Right double welcome must thou be to us.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="167" n="7" form="verse">And to my lord the king shall I recount</l>
+        <l gn="168" n="8" form="verse">Your grace&#8217;s courteous entertainment,</l>
+        <l gn="169" n="9" form="verse">That for his sake vouchsafe to honor me,</l>
+        <l gn="170" n="10" form="verse">A simple knight, attendant on his grace.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="171" n="11" form="verse">But say, sir knight, what may I call your name?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="172" n="12" form="verse">Robert Windsor, and like your majesty.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="173" n="13" form="verse">I tell thee, Robert, I so admire the man,</l>
+        <l gn="174" n="14" form="verse">As that I count it heinous guilt in him</l>
+        <l gn="175" n="15" form="verse">That honors not Duke William with his heart.</l>
+        <l gn="176" n="16" form="verse">Blanch, bid this stranger welcome, good my girl.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="177" n="17" form="verse">Sir, should I neglect your highness&#8217; charge herein,</l>
+        <l gn="178" n="18" form="verse">It might be thought of base discourtesy.</l>
+        <l gn="179" n="19" form="verse">Welcome, sir knight, to Denmark, heartily.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="180" n="20" form="verse">Thanks, gentle lady. Lord Marquis, what is she?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="181" n="21" form="verse">That same is Blanch, the daughter to the king,</l>
+        <l gn="182" n="22" form="verse">The substance of the shadow that you saw.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <stage sgn="182.01" sn="22.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor alias="SIR ROB.">WILL.</actor>
+          </action>
+        </stage>
+        <l gn="183" n="23" form="verse">May this be she for whom I crossed the seas?</l>
+        <l gn="184" n="24" form="verse">I am ashamed to think I was so fond&#8212;</l>
+        <l gn="185" n="25" form="verse">In whom there&#8217;s nothing that contents my mind&#8212;</l>
+        <l gn="186" n="26" form="verse">Ill head, worse featured, uncomely, nothing courtly;</l>
+        <l gn="187" n="27" form="verse">Swart and ill-favored, a collier&#8217;s sanguine skin:&#8212;</l>
+        <l gn="188" n="28" form="verse">I never saw a harder favored slut.</l>
+        <l gn="189" n="29" form="verse">Love her? For what? I can no whit abide her!</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="190" n="30" form="verse">Mariana, I have this day received letters</l>
+        <l gn="191" n="31" form="verse">From Swethia, that lets me understand</l>
+        <l gn="192" n="32" form="verse">Your ransom is collecting there with speed,</l>
+        <l gn="193" n="33" form="verse">And shortly shall be hither sent to us.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="194" n="34" form="verse">Not that I find occasion to mislike</l>
+        <l gn="195" n="35" form="verse">My entertainment in your grace&#8217;s court,</l>
+        <l gn="196" n="36" form="verse">But that I long to see my native home.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="197" n="37" form="verse">And reason have you, madam, for the same.</l>
+        <l gn="198" n="38" form="verse">Lord Marquis, I commit unto your charge</l>
+        <l gn="199" n="39" form="verse">The entertainment of Sir Robert here;</l>
+        <l gn="200" n="40" form="verse">Let him remain with you within the court,</l>
+        <l gn="201" n="41" form="verse">In solace and disport to spend the time.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="202" n="42" form="verse">I thank your highness, whose bounden I remain.</l>
+      </sp>
+      <stage sgn="202.01" sn="42.01">
+        <dir>Exit King of Denmark.</dir>
+        <action type="exit">
+          <actor>ZWENO.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <stage sgn="202.02" sn="42.02">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>BLANCH.</actor>
+          </action>
+        </stage>
+        <l gn="203" n="43" form="verse">Unhappy Blanch, what strange effects are these</l>
+        <l gn="204" n="44" form="verse">That work within my thoughts confusedly?</l>
+        <l gn="205" n="45" form="verse">That still, methinks, affection draws me on,</l>
+        <l gn="206" n="46" form="verse">To take, to like, nay more, to love this knight.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <stage sgn="206.01" sn="46.01">
+          <dir>Looking at Mariana.</dir>
+          <action type="action">
+            <actor alias="SIR ROB.">WILL.</actor>
+            <recipient>MARI.</recipient>
+          </action>
+        </stage>
+        <l gn="207" n="47" form="verse">A modest countenance, no heavy sullen look,</l>
+        <l gn="208" n="48" form="verse">Not very fair, but richly decked with favor;</l>
+        <l gn="209" n="49" form="verse">A sweet face, an exceeding dainty hand;</l>
+        <l gn="210" n="50" form="verse">A body, were it framed of wax</l>
+        <l gn="211" n="51" form="verse">By all the cunning artists of the world,</l>
+        <l gn="212" n="52" form="verse">It could not better be proportioned.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="213" n="53" form="verse">How now, Sir Robert? In a study, man?</l>
+        <l gn="214" n="54" form="verse">Here is no time for contemplation.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="215" n="55" form="verse">My lord, there is a certain odd conceit,</l>
+        <l gn="216" n="56" form="verse">Which on the sudden greatly troubles me.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="217" n="57" form="verse">How like you Blanch? I partly do perceive</l>
+        <l gn="218" n="58" form="verse">The little boy hath played the wag with you.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="219" n="59" form="verse">The more I look the more I love to look.</l>
+        <l gn="220" n="60" form="verse">Who says that Mariana is not fair?</l>
+        <l gn="221" n="61" form="verse">I&#8217;ll gage my gauntlet &#8216;gainst the envious man,</l>
+        <l gn="222" n="62" form="verse">That dares avow there liveth her compare.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="223" n="63" form="verse">Sir Robert, you mistake your counterfeit&#8212;</l>
+        <l gn="224" n="64" form="verse">This is the lady which you came to see.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="225" n="65" form="verse">Yea, my lord, she is counterfeit indeed:</l>
+        <l gn="226" n="66" form="verse">For there&#8217;s the substance that best contents me.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="227" n="67" form="verse">That is my love. Sir Robert, you do wrong me.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="228" n="68" form="verse">The better for you, sir, she is your love.</l>
+        <l gn="229" n="69" form="verse">As for the wrong, I see not how it grows.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="230" n="70" form="verse">In seeking that which is another&#8217;s right.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="231" n="71" form="verse">As who should say your love were privileged,</l>
+        <l gn="232" n="72" form="verse">That none might look upon her but yourself.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="233" n="73" form="verse">These jars becomes not our familiarity,</l>
+        <l gn="234" n="74" form="verse">Nor will I stand on terms to move your patience.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="235" n="75" form="verse">Why, my lord,</l>
+        <l gn="236" n="76" form="verse">Am not I of flesh and blood as well as you?</l>
+        <l gn="237" n="77" form="verse">Then give me leave to love as well as you.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="238" n="78" form="verse">To love, Sir Robert; but whom? Not she I love.</l>
+        <l gn="239" n="79" form="verse">Nor stands it with the honor of my state</l>
+        <l gn="240" n="80" form="verse">To brook corrivals with me in my love.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="241" n="81" form="verse">So, sir, we are thorough for that love.</l>
+        <l gn="242" n="82" form="verse">Ladies, farewell. Lord Marquis, will you go?</l>
+        <l gn="243" n="83" form="verse">I&#8217;ll find a time to speak with her I trow.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="244" n="84" form="verse">With all my heart. Come, ladies, will you walk?</l>
+      </sp>
+      <stage sgn="244.01" sn="84.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>LUB.</actor>
+          <actor>MARI.</actor>
+          <actor>BLANCH.</actor>
+          <actor alias="SIR ROB.">WILL.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="4">
+      <scenetitle>Scene 4</scenetitle>
+      <scenelocation>The English Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MANV.">Manville</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+      </scenepersonae>
+      <stage sgn="244.02" sn="0.01">
+        <dir>Enter Manville alone, disguised.</dir>
+        <action type="enter">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="245" n="1" form="verse">Ah, Em! The subject of my restless thoughts&#8212;</l>
+        <l gn="246" n="2" form="verse">The anvil whereupon my heart doth beat,</l>
+        <l gn="247" n="3" form="verse">Framing thy state to thy desert&#8212;</l>
+        <l gn="248" n="4" form="verse">Full ill this life becomes thy heavenly look,</l>
+        <l gn="249" n="5" form="verse">Wherein sweet love and virtue sit enthroned&#8212;</l>
+        <l gn="250" n="6" form="verse">Bad world, where riches is esteemed above them both;</l>
+        <l gn="251" n="7" form="verse">In whose base eyes nought else is bountiful!</l>
+        <l gn="252" n="8" form="verse">A miller&#8217;s daughter, says the multitude,</l>
+        <l gn="253" n="9" form="verse">Should not be loved of a gentleman&#8212;</l>
+        <l gn="254" n="10" form="verse">But let them breathe their souls into the air,</l>
+        <l gn="255" n="11" form="verse">Yet will I still affect thee as myself,</l>
+        <l gn="256" n="12" form="verse">So thou be constant in thy plighted vow.</l>
+        <l gn="257" n="13" form="verse">But here comes one&#8212;I&#8217;ll listen to his talk.</l>
+      </sp>
+      <stage sgn="257.01" sn="13.01">
+        <dir>Hides himself.</dir>
+        <action type="action">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <stage sgn="257.02" sn="13.02">
+        <dir>Enter Vallingford, disguised.</dir>
+        <action type="enter">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="258" n="14" form="verse">Go, William Conqueror, and seek thy love&#8212;</l>
+        <l gn="259" n="15" form="verse">Seek thou a minion in a foreign land,</l>
+        <l gn="260" n="16" form="verse">Whilst I draw back and court my love at home.</l>
+        <l gn="261" n="17" form="verse">The miller&#8217;s daughter of fair Manchester</l>
+        <l gn="262" n="18" form="verse">Hath bound my feet to this delightsome soil,</l>
+        <l gn="263" n="19" form="verse">And from her eyes do dart such golden beams</l>
+        <l gn="264" n="20" form="verse">That holds my heart in her subjection.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <stage sgn="264.01" sn="20.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>MANV.</actor>
+          </action>
+        </stage>
+        <l gn="265" n="21" form="verse">He ruminates on my belov&#232;d choice:</l>
+        <l gn="266" n="22" form="verse">God grant he come not to prevent my hope.</l>
+        <l gn="267" n="23" form="verse">But here&#8217;s another; him I&#8217;ll listen to.</l>
+      </sp>
+      <stage sgn="267.01" sn="23.01">
+        <dir>Enter Mountney, disguised.</dir>
+        <action type="enter">
+          <actor>MOUNT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="268" n="24" form="verse">Nature unjust, in utterance of thy art,</l>
+        <l gn="269" n="25" form="verse">To grace a peasant with a prince&#8217;s fame!</l>
+        <l gn="270" n="26" form="verse">Peasant am I, so to misterm my love:</l>
+        <l gn="271" n="27" form="verse">Although a miller&#8217;s daughter by her birth,</l>
+        <l gn="272" n="28" form="verse">Yet may her beauty and her virtues well suffice</l>
+        <l gn="273" n="29" form="verse">To hide the blemish of her birth in hell,</l>
+        <l gn="274" n="30" form="verse">Where neither envious eyes nor thought can pierce,</l>
+        <l gn="275" n="31" form="verse">But endless darkness ever smother it.</l>
+        <l gn="276" n="32" form="verse">Go, William Conqueror, and seek thy love,</l>
+        <l gn="277" n="33" form="verse">Whilst I draw back and court mine own the while,</l>
+        <l gn="278" n="34" form="verse">Decking her body with such costly robes</l>
+        <l gn="279" n="35" form="verse">As may become her beauty&#8217;s worthiness;</l>
+        <l gn="280" n="36" form="verse">That so thy labors may be laughed to scorn,</l>
+        <l gn="281" n="37" form="verse">And she thou seekest out in foreign regions,</l>
+        <l gn="282" n="38" form="verse">Be darkened and eclipsed when she arrives,</l>
+        <l gn="283" n="39" form="verse">By one that I have chosen nearer home.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="284" n="40" form="verse">What comes he too, to intercept my love?</l>
+        <l gn="285" n="41" form="verse">Then hie thee, Manville, to forestall such foes.</l>
+      </sp>
+      <stage sgn="285.01" sn="41.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="286" n="42" form="verse">What now, Lord Vallingford, are you behind?</l>
+        <l gn="287" n="43" form="verse">The king hath chosen you to go with him.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="288" n="44" form="verse">So chose he you; therefore I marvel much</l>
+        <l gn="289" n="45" form="verse">That both of us should linger in this sort.</l>
+        <l gn="290" n="46" form="verse">What may the king imagine of our stay?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="291" n="47" form="verse">The king may justly think we are to blame:</l>
+        <l gn="292" n="48" form="verse">But I imagined I might well be spared,</l>
+        <l gn="293" n="49" form="verse">And that no other man had borne my mind.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="294" n="50" form="verse">The like did I: in friendship then resolve</l>
+        <l gn="295" n="51" form="verse">What is the cause of your unlooked-for stay.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="296" n="52" form="verse">Lord Vallingford, I tell thee as a friend,</l>
+        <l gn="297" n="53" form="verse">Love is the cause why I have stayed behind.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="298" n="54" form="verse">Love, my lord, of whom?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="299" n="55" form="verse">Em, the miller&#8217;s daughter of Manchester.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="300" n="56" form="verse">But may this be?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="301" n="57" form="verse">Why not, my lord? I hope full well you know</l>
+        <l gn="302" n="58" form="verse">That love respects no difference of state,</l>
+        <l gn="303" n="59" form="verse">So beauty serve to stir affection.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="304" n="60" form="verse">But this it is that makes me wonder most,</l>
+        <l gn="305" n="61" form="verse">That you and I should be of one conceit,</l>
+        <l gn="306" n="62" form="verse">In such a strange unlikely passion.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="307" n="63" form="verse">But is that true? My lord, I hope you do but jest.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="308" n="64" form="verse">I would I did; then were my grief the less.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="309" n="65" form="verse">Nay, never grieve; for if the cause be such,</l>
+        <l gn="310" n="66" form="verse">To join our thoughts in such a sympathy,</l>
+        <l gn="311" n="67" form="verse">All envy set aside. Let us agree</l>
+        <l gn="312" n="68" form="verse">To yield to either&#8217;s fortune in this choice.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="313" n="69" form="verse">Content, say I: and whatsoe&#8217;er befall,</l>
+        <l gn="314" n="70" form="verse">Shake hands, my lord, and fortune thrive at all.</l>
+      </sp>
+      <stage sgn="314.01" sn="70.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>MOUNT.</actor>
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+  <act num="2">
+    <acttitle>Act 2</acttitle>
+    <scene actnum="2" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>The country near the Miller&#8217;s Cottage.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+        <scenepersona short="TROT.">Trotter</scenepersona>
+        <scenepersona short="MANV.">Manville</scenepersona>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+      </scenepersonae>
+      <stage sgn="314.02" sn="0.01">
+        <dir>Enter Em and Trotter, the Miller&#8217;s man, with a kerchief on his head and a urinal in his hand.</dir>
+        <action type="enter">
+          <actor>EM.</actor>
+          <actor>TROT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="315" n="1" form="prose">Trotter, where have you been?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="316" n="2" form="prose">Where have I been? Why, what signifies this?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="317" n="3" form="prose">A kerchief, doth it not?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="318" n="4" form="prose">What call you this, I pray?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="319" n="5" form="prose">I say it is an urinal.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="320" n="6" form="prose">Then this is mystically to give you to understand</l>
+        <l gn="321" n="7" form="prose">I have been at the Phismicary&#8217;s house.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="322" n="8" form="prose">How long hast thou been sick?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="323" n="9" form="prose">I&#8217;faith, e&#8217;en as long as I have not been half well, and that hath been a long time.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="324" n="10" form="prose">A loitering time, I rather imagine.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="325" n="11" form="prose">It may be so: but the Phismicary tells me that you can help me.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="326" n="12" form="prose">Why, anything I can do for recovery of thy health, be right well assured of.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="327" n="13" form="prose">Then give me your hand.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="328" n="14" form="prose">To what end?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="329" n="15" form="prose">That the ending of an old indenture is the beginning of a new bargain.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="330" n="16" form="prose">What bargain?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="331" n="17" form="prose">That you promised to do anything to recover my health.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="332" n="18" form="prose">On that condition I give thee my hand.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="333" n="19" form="prose">Ah, sweet Em!</l>
+      </sp>
+      <stage sgn="333.01" sn="19.01">
+        <dir>He offers to kiss her.</dir>
+        <action type="action">
+          <actor>TROT.</actor>
+          <recipient>EM.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="334" n="20" form="prose">How now, Trot! Your master&#8217;s daughter?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="335" n="21" form="prose">I&#8217;faith, I am at the fairest. Ah, Em, sweet Em!</l>
+        <l gn="336" n="22" form="verse">Fresh as the flower,</l>
+        <l gn="337" n="23" form="verse">That hath the power</l>
+        <l gn="338" n="24" form="verse">To wound my heart,</l>
+        <l gn="339" n="25" form="verse">And ease my smart,</l>
+        <l gn="340" n="26" form="verse">Of me, poor thief, in prison bound.&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="341" n="27" form="verse">So all your rhyme lies on the ground.</l>
+        <l gn="342" n="28" form="verse">But what means this?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="343" n="29" form="verse">Ah, mark the device&#8212;</l>
+        <l gn="344" n="30" form="verse">For thee, my love, full sick I was, in hazard of my life,</l>
+        <l gn="345" n="31" form="verse">Thy promise was to make me whole, and for to be my wife.</l>
+        <l gn="346" n="32" form="verse">Let me enjoy my love, my dear,</l>
+        <l gn="347" n="33" form="verse">And thou possess thy Trotter here.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="348" n="34" form="verse">But I meant no such matter.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="349" n="35" form="prose">Yes, woos, but you did. I&#8217;ll go to our parson Sir John, and he shall mumble up the marriage out of hand.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="350" n="36" form="verse">But here comes one that will forbid the bands.</l>
+      </sp>
+      <stage sgn="350.01" sn="36.01">
+        <dir>Enter Manville.</dir>
+        <action type="enter">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="351" n="37" form="prose">Ah, sir, you come too late.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="352" n="38" form="prose">What remedy, Trotter?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="353" n="39" form="prose">Go, Trotter, my father calls.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="354" n="40" form="prose">Would you have me go in, and leave you two here?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="355" n="41" form="prose">Why, darest thou not trust me?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="356" n="42" form="prose">Yes, faith, e&#8217;en as long as I see you.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="357" n="43" form="prose">Go thy ways, I pray thee heartily.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="358" n="44" form="prose">That same word, heartily, is of great force. I will go, but I pray, sir, beware you. Come not too near the wench.</l>
+      </sp>
+      <stage sgn="358.01" sn="44.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>TROT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="359" n="45" form="verse">I am greatly beholding to you.&#8212;</l>
+        <l gn="360" n="46" form="verse">Ah, mistress, sometime I might have said, my love,</l>
+        <l gn="361" n="47" form="verse">But time and fortune hath bereaved me of that,</l>
+        <l gn="362" n="48" form="verse">And I am abject in those gracious eyes,</l>
+        <l gn="363" n="49" form="verse">That with remorse erst saw into my grief,&#8212;</l>
+        <l gn="364" n="50" form="verse">May sit and sigh the sorrows of my heart.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="365" n="51" form="verse">Indeed my Manville hath some cause to doubt,</l>
+        <l gn="366" n="52" form="verse">When such a swain is rival in his love.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="367" n="53" form="verse">Ah, Em, were he the man that causeth this mistrust,</l>
+        <l gn="368" n="54" form="verse">I should esteem of thee as at the first.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="369" n="55" form="verse">But is my love in earnest all this while?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="370" n="56" form="verse">Believe me, Em, it is not time to jest,</l>
+        <l gn="371" n="57" form="verse">When others &#8217;joy what lately I possessed.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="372" n="58" form="verse">If, touching love, my Manville charge me thus,</l>
+        <l gn="373" n="59" form="verse">Unkindly must I take it at his hands,</l>
+        <l gn="374" n="60" form="verse">For that my conscience clears me of offense.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="375" n="61" form="verse">Ah, impudent and shameless in thy ill,</l>
+        <l gn="376" n="62" form="verse">That, with thy cunning and defraudful tongue,</l>
+        <l gn="377" n="63" form="verse">Seeks to delude the honest meaning mind!</l>
+        <l gn="378" n="64" form="verse">Was never heard in Manchester before,</l>
+        <l gn="379" n="65" form="verse">Of truer love than hath been betwixt us twain:</l>
+        <l gn="380" n="66" form="verse">And for my part, how I have hazarded</l>
+        <l gn="381" n="67" form="verse">Displeasure of my father and my friends,</l>
+        <l gn="382" n="68" form="verse">Thyself can witness; yet notwithstanding this,</l>
+        <l gn="383" n="69" form="verse">Two gentlemen attending on duke William,</l>
+        <l gn="384" n="70" form="verse">Mountney and Vallingford, as I heard them named,</l>
+        <l gn="385" n="71" form="verse">Oft times resort to see and to be seen,</l>
+        <l gn="386" n="72" form="verse">Walking the street fast by thy father&#8217;s door,</l>
+        <l gn="387" n="73" form="verse">Whose glancing eyes up to the windows cast</l>
+        <l gn="388" n="74" form="verse">Give testies of their master&#8217;s amorous heart.</l>
+        <l gn="389" n="75" form="verse">This, Em, is noted and too much talked on;</l>
+        <l gn="390" n="76" form="verse">Some see it without mistrust of ill,</l>
+        <l gn="391" n="77" form="verse">Others there are that, scorning, grin thereat,</l>
+        <l gn="392" n="78" form="verse">And saith, &#8220;There goes the miller&#8217;s daughter&#8217;s wooers&#8221;.</l>
+        <l gn="393" n="79" form="verse">Ah me! Whom chiefly and most of all it doth concern,</l>
+        <l gn="394" n="80" form="verse">To spend my time in grief and vex my soul,</l>
+        <l gn="395" n="81" form="verse">To think my love should be rewarded thus,</l>
+        <l gn="396" n="82" form="verse">And for thy sake abhor all womankind!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="397" n="83" form="verse">May not a maiden look upon a man</l>
+        <l gn="398" n="84" form="verse">Without suspicious judgment of the world?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="399" n="85" form="verse">If sight do move offense, it is the better not to see:</l>
+        <l gn="400" n="86" form="verse">But thou didst more, unconstant as thou art,</l>
+        <l gn="401" n="87" form="verse">For with them thou hadst talk and conference.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="402" n="88" form="verse">May not a maid talk with a man without mistrust?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="403" n="89" form="verse">Not with such men suspected amorous.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="404" n="90" form="verse">I grieve to see my Manville&#8217;s jealousy.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="405" n="91" form="verse">Ah, Em, faithful love is full of jealousy.</l>
+        <l gn="406" n="92" form="verse">So did I love thee true and faithfully,</l>
+        <l gn="407" n="93" form="verse">For which I am rewarded most unthankfully.</l>
+      </sp>
+      <stage sgn="407.01" sn="93.01">
+        <dir>Exit in a rage.</dir>
+        <action type="exit">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="408" n="94" form="verse">And so away? What, in displeasure gone,</l>
+        <l gn="409" n="95" form="verse">And left me such a bitter sweet to gnaw upon?</l>
+        <l gn="410" n="96" form="verse">Ah, Manville, little wottest thou</l>
+        <l gn="411" n="97" form="verse">How near this parting goeth to my heart.</l>
+        <l gn="412" n="98" form="verse">Uncourteous love, whose followers reap reward,</l>
+        <l gn="413" n="99" form="verse">Of hate, disdain, reproach, and infamy,</l>
+        <l gn="414" n="100" form="verse">The fruit of frantic, bedlam jealousy!</l>
+        <stage sgn="414.01" sn="100.01">
+          <dir>Enter Mountney.</dir>
+          <action type="enter">
+            <actor>MOUNT.</actor>
+          </action>
+        </stage>
+        <l gn="415" n="101" form="verse">But here comes one of these suspicious men:</l>
+        <l gn="416" n="102" form="verse">Witness, my God, without desert of me,</l>
+        <l gn="417" n="103" form="verse">For only Manville honor I in heart,</l>
+        <l gn="418" n="104" form="verse">Nor shall unkindness cause me from him to start.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="419" n="105" form="verse">For this good fortune, Venus be thou blessed,</l>
+        <l gn="420" n="106" form="verse">To meet my love, the mistress of my heart,</l>
+        <l gn="421" n="107" form="verse">Where time and place gives opportunity,</l>
+        <l gn="422" n="108" form="verse">At full to let her understand my love.</l>
+        <stage sgn="422.01" sn="108.01">
+          <dir>He turns to Em, and offers to take her hand; she goes from him.</dir>
+          <action type="action">
+            <actor>MOUNT.</actor>
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="423" n="109" form="verse">Fair mistress, since my fortune sorts so well,</l>
+        <l gn="424" n="110" form="verse">Hear you a word. What meaneth this?</l>
+        <l gn="425" n="111" form="verse">Nay, stay, fair Em.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="426" n="112" form="verse">I am going homewards, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="427" n="113" form="verse">Yet stay, sweet love, to whom I must disclose</l>
+        <l gn="428" n="114" form="verse">The hidden secrets of a lover&#8217;s thoughts,</l>
+        <l gn="429" n="115" form="verse">Not doubting but to find such kind remorse</l>
+        <l gn="430" n="116" form="verse">As naturally you are inclined to.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="431" n="117" form="verse">The gentleman, your friend, sir,</l>
+        <l gn="432" n="118" form="verse">I have not seen him this four days, at the least.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="433" n="119" form="verse">What&#8217;s that to me?</l>
+        <l gn="434" n="120" form="verse">I speak not, sweet, in person of my friend,</l>
+        <l gn="435" n="121" form="verse">But for myself, whom, if that love deserve</l>
+        <l gn="436" n="122" form="verse">To have regard, being honorable love,</l>
+        <l gn="437" n="123" form="verse">Not base effects of loose lascivious love,</l>
+        <l gn="438" n="124" form="verse">Whom youthful wantons play and dally with,</l>
+        <l gn="439" n="125" form="verse">But that unites in honorable bands of holy rites,</l>
+        <l gn="440" n="126" form="verse">And knits the sacred knot that gods&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="441" n="127" form="verse">What mean you, sir, to keep me here so long?</l>
+        <l gn="442" n="128" form="verse">I cannot understand you by your signs;</l>
+        <l gn="443" n="129" form="verse">You keep a-prattling with your lips,</l>
+        <l gn="444" n="130" form="verse">But never a word you speak that I can hear.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="445" n="131" form="verse">What, is she deaf? A great impediment!</l>
+        <l gn="446" n="132" form="verse">Yet remedies there are for such defects.</l>
+        <l gn="447" n="133" form="verse">Sweet Em, it is no little grief to me,</l>
+        <l gn="448" n="134" form="verse">To see where nature in her pride of art,</l>
+        <l gn="449" n="135" form="verse">Hath wrought perfections rich and admirable&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="450" n="136" form="verse">Speak you to me, sir?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="451" n="137" form="verse">To thee, my only joy.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="452" n="138" form="verse">I cannot hear you.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="453" n="139" form="verse">Oh, plague of fortune! Oh, hell without compare!</l>
+        <l gn="454" n="140" form="verse">What boots it us to gaze and not enjoy?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="455" n="141" form="verse">Fare you well, sir.</l>
+      </sp>
+      <stage sgn="455.01" sn="141.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="456" n="142" form="verse">Farewell, my love, nay, farewell life and all!</l>
+        <l gn="457" n="143" form="verse">Could I procure redress for this infirmity,</l>
+        <l gn="458" n="144" form="verse">It might be means she would regard my suit.</l>
+        <l gn="459" n="145" form="verse">I am acquainted with the king&#8217;s physicians,</l>
+        <l gn="460" n="146" form="verse">Amongst the which there&#8217;s one, mine honest friend,</l>
+        <l gn="461" n="147" form="verse">Signor Alberto, a very learn&#232;d man;</l>
+        <l gn="462" n="148" form="verse">His judgment will I have to help this ill.</l>
+        <l gn="463" n="149" form="verse">Ah, Em, fair Em, if art can make thee whole,</l>
+        <l gn="464" n="150" form="verse">I&#8217;ll buy that sense for thee, although it cost me dear.</l>
+        <l gn="465" n="151" form="verse">But, Mountney, stay; this may be but deceit,</l>
+        <l gn="466" n="152" form="verse">A matter feigned only to delude thee,</l>
+        <l gn="467" n="153" form="verse">And, not unlike, perhaps by Vallingford.</l>
+        <l gn="468" n="154" form="verse">He loves fair Em as well as I&#8212;</l>
+        <l gn="469" n="155" form="verse">As well as I? Ah, no, not half so well&#8212;</l>
+        <l gn="470" n="156" form="verse">Put case: yet may he be thine enemy,</l>
+        <l gn="471" n="157" form="verse">And give her counsel to dissemble thus.</l>
+        <l gn="472" n="158" form="verse">I&#8217;ll try the event, and if it fall out so,</l>
+        <l gn="473" n="159" form="verse">Friendship, farewell: love makes me now a foe.</l>
+      </sp>
+      <stage sgn="473.01" sn="159.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MOUNT.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="2" num="2">
+      <scenetitle>Scene 2</scenetitle>
+      <scenelocation>An antechamber at the Danish Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MARI.">Mariana, Princess of Suethia</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="KEEP.">Keeper</scenepersona>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+        <scenepersona short="MARI.">Mariana, Princess of Suethia</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="BLANCH.">Blanch, Princess of Denmark</scenepersona>
+        <scenepersona short="MESS.">Messenger</scenepersona>
+      </scenepersonae>
+      <stage sgn="473.02" sn="0.01">
+        <dir>Enter Marquis of Lubeck and Mariana.</dir>
+        <action type="enter">
+          <actor>MARI.</actor>
+          <actor>LUB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="474" n="1" form="verse">Trust me, my lord, I&#8217;m sorry for your hurt.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="475" n="2" form="verse">Gramercy, madam, but it is not great;</l>
+        <l gn="476" n="3" form="verse">Only a thrust, pricked with a rapier&#8217;s point.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="477" n="4" form="verse">How grew the quarrel, my lord?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="478" n="5" form="prose">Sweet lady, for thy sake. There was, this last night, two masks in our company, myself the foremost, the others strangers were. Amongst the which, when the music began to sound the measures, each masker made choice of his lady. And one, more forward than the rest, stepped towards thee, which I perceiving, thrust him aside and took thee myself. But this was taken in so ill part, that at my coming out of the court gate, with justling together it was my chance to be thrust into the arm. The doer thereof, because he was the original cause of the disorder at that inconvenient time, was presently committed, and is this morning sent for to answer the matter. And I think here he comes. What, Sir Robert of Windsor, how now?</l>
+      </sp>
+      <stage sgn="478.01" sn="5.01">
+        <dir>Enter Keeper with William disguised as Sir Robert of Windsor.</dir>
+        <action type="enter">
+          <actor>KEEP.</actor>
+          <actor alias="SIR ROB.">WILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="479" n="6" form="prose">I&#8217;faith, my lord, a prisoner. But what ails your arm?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="480" n="7" form="prose">Hurt the last night, by mischance.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="481" n="8" form="prose">What, not in the mask at the court gate?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="482" n="9" form="prose">Yes, trust me, there.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="483" n="10" form="prose">Why, then, my lord, I thank you for my night&#8217;s lodging.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="484" n="11" form="prose">And I for my hurt, if it were so. Keeper, away. I discharge you of your prisoner.</l>
+      </sp>
+      <stage sgn="484.01" sn="11.01">
+        <dir>Exit Keeper.</dir>
+        <action type="exit">
+          <actor>KEEP.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="485" n="12" form="prose">Lord Marquis, you offered me disgrace to shoulder me.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="486" n="13" form="prose">Sir, I knew you not, and therefore you must pardon me: and the rather, it might be alleged to me of mere simplicity to see another dance with my mistress, disguised, and I myself in presence. But seeing it was our haps to damnify each other unwillingly, let us be content with our harms, and lay the fault where it was, and so become friends.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="487" n="14" form="prose">I&#8217;faith, I am content with my night&#8217;s lodging, if you be content with your hurt.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="488" n="15" form="prose">Not content that I have it, but content to forget how I came by it.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror" alias="SIR ROB.">WILL.</speaker>
+        <l gn="489" n="16" form="prose">My lord, here comes Lady Blanch. Let&#8217;s away.</l>
+      </sp>
+      <stage sgn="489.01" sn="16.01">
+        <dir>Enter Blanch.</dir>
+        <action type="enter">
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="490" n="17" form="prose">With good will. Lady, you will stay?</l>
+      </sp>
+      <stage sgn="490.01" sn="17.01">
+        <dir>Exit Lubeck and William disguised as Sir Robert of Windsor.</dir>
+        <action type="exit">
+          <actor alias="SIR ROB.">WILL.</actor>
+          <actor>LUB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="491" n="18" form="prose">Madam&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="492" n="19" form="prose">Mariana, as I am grieved with thy presence, so am I not offended for thy absence; and, were it not a breach to modesty, thou shouldst know before I left thee.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="493" n="20" form="prose">How near is this humor to madness? If you hold on as you begin, you are in a pretty way to scolding.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="494" n="21" form="prose">To scolding, huswife?</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="495" n="22" form="prose">Madam, here comes one.</l>
+      </sp>
+      <stage sgn="495.01" sn="22.01">
+        <dir>Enters a Messenger with a letter.</dir>
+        <action type="enter">
+          <actor>MESS.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="496" n="23" form="prose">There doth indeed. Fellow, wouldst thou have any thing with anybody here?</l>
+      </sp>
+      <sp>
+        <speaker long="Messenger">MESS.</speaker>
+        <l gn="497" n="24" form="prose">I have a letter to deliver to the Lady Mariana.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="498" n="25" form="prose">Give it me.</l>
+      </sp>
+      <sp>
+        <speaker long="Messenger">MESS.</speaker>
+        <l gn="499" n="26" form="prose">There must none but she have it.</l>
+      </sp>
+      <stage sgn="499.01" sn="26.01">
+        <dir>Blanch snatcheth the letter from him.</dir>
+        <action type="action">
+          <actor>BLANCH.</actor>
+          <recipient>MESS.</recipient>
+        </action>
+      </stage>
+      <stage sgn="499.02" sn="26.02">
+        <dir>Exit Messenger.</dir>
+        <action type="exit">
+          <actor>MESS.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="500" n="27" form="prose">Go to, foolish fellow, and therefore, to ease the anger I sustain, I&#8217;ll be so bold to open it. What&#8217;s here? Sir Robert greets you well! You, mistress, his love, his life! Oh, amorous man! How he entertains his new mistress, and bestows on Lubeck, his odd friend, a horn nightcap to keep in his wit.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="501" n="28" form="prose">Madam, though you have discourteously read my letter, yet, I pray you, give it me.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <stage sgn="501.01" sn="28.01">
+          <dir>She tears it.</dir>
+          <action type="action">
+            <actor>BLANCH.</actor>
+          </action>
+        </stage>
+        <l gn="502" n="29" form="prose">Then take it, there, and there, and there.</l>
+      </sp>
+      <stage sgn="502.01" sn="29.01">
+        <dir>Exit Blanch.</dir>
+        <action type="exit">
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="503" n="30" form="prose">How far doth this differ from modesty! Yet will I gather up the pieces, which, haply, may show to me the intent thereof, though not the meaning.</l>
+        <stage sgn="503.01" sn="30.01">
+          <dir>She gathers up the pieces and joins them.</dir>
+          <action type="action">
+            <actor>MARI.</actor>
+          </action>
+        </stage>
+        <l gn="504" n="31" form="prose">&#8220;Your servant and love, Sir Robert of Windsor, <foreign xml:lang="la">alias</foreign> William the Conqueror, wisheth long health and happiness.&#8221;&#8212; Is this William the Conqueror shrouded under the name of Sir Robert of Windsor? Were he monarch of the world he should not dispossess Lubeck of his love. Therefore I will to the court, and there, if I can, close to be friends with Lady Blanch. And thereby keep Lubeck, my love, for myself, and further the Lady Blanch in her suit as much as I may.</l>
+      </sp>
+      <stage sgn="504.01" sn="31.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MARI.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="2" num="3">
+      <scenetitle>Scene 3</scenetitle>
+      <scenelocation>England near the Miller&#8217;s Cottage.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+      </scenepersonae>
+      <stage sgn="504.02" sn="0.01">
+        <dir>Enter Em.</dir>
+        <action type="enter">
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="505" n="1" form="verse">Ah, Jealousy, that sharps the lover&#8217;s sight,</l>
+        <l gn="506" n="2" form="verse">And makes him conceive and conster his intent,</l>
+        <l gn="507" n="3" form="verse">Hath so bewitched my lovely Manville&#8217;s senses</l>
+        <l gn="508" n="4" form="verse">That he misdoubts his Em, that loves his soul.</l>
+        <l gn="509" n="5" form="verse">He doth suspect corrivals in his love:</l>
+        <l gn="510" n="6" form="verse">Which how untrue it is, be judge, my God!</l>
+        <l gn="511" n="7" form="verse">But now no more: here comes Vallingford,</l>
+        <l gn="512" n="8" form="verse">Shift him off now, as thou hast done the other.</l>
+      </sp>
+      <stage sgn="512.01" sn="8.01">
+        <dir>Enter Vallingford.</dir>
+        <action type="enter">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="513" n="9" form="prose">See how fortune presents me with the hope I looked for. Fair Em!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="514" n="10" form="prose">Who&#8217;s that?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="515" n="11" form="prose">I am Vallingford, thy love and friend.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="516" n="12" form="prose">I cry you mercy, sir. I thought so by your speech.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="517" n="13" form="prose">What aileth thine eyes?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="518" n="14" form="prose">Oh blind, sir, blind. Stricken blind, by mishap, on a sudden.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="519" n="15" form="prose">But is it possible you should be taken on such a sudden? Unfortunate Vallingford, to be thus crossed in thy love!&#160;Fair Em, I am not a little sorry to see this thy hard hap. Yet nevertheless, I am acquainted with a learned physician, that will do anything for thee at my request. To him will I resort, and enquire his judgment as concerning the recovery of so excellent a sense.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="520" n="16" form="prose">Oh Lord, sir! And of all things, I cannot abide physic. The very name thereof to me is odious.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="521" n="17" form="prose">No? Not the thing will do thee so much good? Sweet Em, hither I came to parley of love, hoping to have found thee in thy wonted prosperity; and have the gods so unmercifully thwarted my expectation, by dealing so sinisterly with thee, sweet Em?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="522" n="18" form="verse">Good sir, no more. It fits not me</l>
+        <l gn="523" n="19" form="verse">To have respect to such vain fantasies,</l>
+        <l gn="524" n="20" form="verse">As idle love presents my ears withal.</l>
+        <l gn="525" n="21" form="verse">More reason I should ghostly give my life</l>
+        <l gn="526" n="22" form="verse">To sacred prayers, for this my former sin,</l>
+        <l gn="527" n="23" form="verse">For which this plague is justly fall&#8217;n upon me,</l>
+        <l gn="528" n="24" form="verse">Than hearken to the vanities of love.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="529" n="25" form="verse">Yet, sweet Em, accept this jewel at my hand,</l>
+        <l gn="530" n="26" form="verse">Which I bestow on thee in token of my love.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="531" n="27" form="verse">A jewel, sir! What pleasure can I have</l>
+        <l gn="532" n="28" form="verse">In jewels, treasure, or any worldly thing</l>
+        <l gn="533" n="29" form="verse">That want mine sight that should discern thereof?</l>
+        <l gn="534" n="30" form="verse">Ah, sir, I must leave you,</l>
+        <l gn="535" n="31" form="verse">The pain of mine eyes is so extreme,</l>
+        <l gn="536" n="32" form="verse">I cannot long stay in a place. I take my leave.</l>
+      </sp>
+      <stage sgn="536.01" sn="32.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="537" n="33" form="prose">Zounds, what a cross is this to my conceit. But, Vallingford, search the depth of this device. Why may not this be come feigned subtlety, by Mountney&#8217;s invention, to the intent that I, seeing such occasion, should leave off my suit, and not any more persist to solicit her of love? I&#8217;ll try the event; if I can by any means perceive the effect of this deceit to be procured by his means, friend Mountney, the one of us is like to repent our bargain.</l>
+      </sp>
+      <stage sgn="537.01" sn="33.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+  <act num="3">
+    <acttitle>Act 3</acttitle>
+    <scene actnum="3" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>The Danish Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="MARI.">Mariana, Princess of Suethia</scenepersona>
+        <scenepersona short="BLANCH.">Blanch, Princess of Denmark</scenepersona>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+      </scenepersonae>
+      <stage sgn="537.02" sn="0.01">
+        <dir>Enter Mariana and Marquis of Lubeck.</dir>
+        <action type="enter">
+          <actor>LUB.</actor>
+          <actor>MARI.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="538" n="1" form="verse">Lady, since that occasion, forward in our good,</l>
+        <l gn="539" n="2" form="verse">Presenteth place and opportunity,</l>
+        <l gn="540" n="3" form="verse">Let me entreat your wonted kind consent</l>
+        <l gn="541" n="4" form="verse">And friendly furtherance in a suit I have.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="542" n="5" form="verse">My lord, you know you need not to entreat,</l>
+        <l gn="543" n="6" form="verse">But may command Mariana to her power,</l>
+        <l gn="544" n="7" form="verse">Be&#8217;t no impeachment to my honest fame.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="545" n="8" form="verse">Free are my thoughts from such base villainy</l>
+        <l gn="546" n="9" form="verse">As may in question, lady, call your name;</l>
+        <l gn="547" n="10" form="verse">Yet is the matter of such consequence,</l>
+        <l gn="548" n="11" form="verse">Standing upon my honorable credit,</l>
+        <l gn="549" n="12" form="verse">To be effected with such zeal and secrecy</l>
+        <l gn="550" n="13" form="verse">As, should I speak and fail my expectation,</l>
+        <l gn="551" n="14" form="verse">It would redound greatly to my prejudice.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="552" n="15" form="verse">My lord, wherein hath Mariana</l>
+        <l gn="553" n="16" form="verse">Given you occasion that you should mistrust,</l>
+        <l gn="554" n="17" form="verse">Or else be jealous of my secrecy?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="555" n="18" form="verse">Mariana, do not misconster me:</l>
+        <l gn="556" n="19" form="verse">I not mistrust thee nor thy secrecy;</l>
+        <l gn="557" n="20" form="verse">Nor let my love misconster my intent,</l>
+        <l gn="558" n="21" form="verse">Nor think thereof but well and honorable.</l>
+        <l gn="559" n="22" form="verse">Thus stands the case:&#8212;</l>
+        <l gn="560" n="23" form="verse">Thou know&#8217;st from England hither came with me</l>
+        <l gn="561" n="24" form="verse">Robert of Windsor, a noble man at arms,</l>
+        <l gn="562" n="25" form="verse">Lusty and valiant, in spring time of his years;</l>
+        <l gn="563" n="26" form="verse">No marvel then though he prove amorous.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="564" n="27" form="verse">True, my lord, he came to see fair Blanch.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="565" n="28" form="verse">No, Mariana, that is not it:&#8212;his love to Blanch</l>
+        <l gn="566" n="29" form="verse">Was then extinct, when first he saw thy face.</l>
+        <l gn="567" n="30" form="verse">Tis thee he loves: yea, thou art only she</l>
+        <l gn="568" n="31" form="verse">That&#8217;s mistress and commander of his thoughts.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="569" n="32" form="verse">Well, well, my lord, I like you; for such drifts</l>
+        <l gn="570" n="33" form="verse">Put silly ladies often to their shifts.</l>
+        <l gn="571" n="34" form="verse">Oft have I heard you say you loved me well,</l>
+        <l gn="572" n="35" form="verse">Yea, sworn the same, and I believed you too.</l>
+        <l gn="573" n="36" form="verse">Can this be found an action of good faith,</l>
+        <l gn="574" n="37" form="verse">Thus to dissemble where you found true love?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="575" n="38" form="verse">Mariana, I not dissemble on mine honor,</l>
+        <l gn="576" n="39" form="verse">Nor fails my faith to thee; but for my friend,</l>
+        <l gn="577" n="40" form="verse">For princely William, by whom thou shalt possess</l>
+        <l gn="578" n="41" form="verse">The title of estate and majesty,</l>
+        <l gn="579" n="42" form="verse">Fitting the love and virtues of thy mind,&#8212;</l>
+        <l gn="580" n="43" form="verse">For him I speak, for him do I entreat,</l>
+        <l gn="581" n="44" form="verse">And, with thy favor, fully do resign</l>
+        <l gn="582" n="45" form="verse">To him the claim and interest of my love.</l>
+        <l gn="583" n="46" form="verse">Sweet Mariana, then, deny me not;</l>
+        <l gn="584" n="47" form="verse">Love William, love my friend, and honor me,</l>
+        <l gn="585" n="48" form="verse">Who else is clean dishonored by thy means.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="586" n="49" form="verse">Born to mishap, myself am only she</l>
+        <l gn="587" n="50" form="verse">On whom the sun of fortune never shined:</l>
+        <l gn="588" n="51" form="verse">But planets ruled by retrograde aspect,</l>
+        <l gn="589" n="52" form="verse">Foretold my ill in my nativity.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="590" n="53" form="verse">Sweet lady, cease, let my entreaty serve</l>
+        <l gn="591" n="54" form="verse">To pacify the passion of thy grief,</l>
+        <l gn="592" n="55" form="verse">Which well I know proceeds of ardent love.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="593" n="56" form="verse">But Lubeck now regards not Mariana.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="594" n="57" form="verse">Even as my life, so love I Mariana.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="595" n="58" form="verse">Why do you post me to another, then?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="596" n="59" form="verse">He is my friend, and I do love the man.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="597" n="60" form="verse">Then, will Duke William rob me of my love?</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="598" n="61" form="verse">No, as his life Mariana he doth love.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="599" n="62" form="verse">Speak for yourself, my lord, let him alone.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="600" n="63" form="verse">So do I, madam, for he and I are one.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="601" n="64" form="verse">Then loving you, I do content you both.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="602" n="65" form="verse">In loving him, you shall content us both:</l>
+        <l gn="603" n="66" form="verse">Me, for I crave that favor at your hands,</l>
+        <l gn="604" n="67" form="verse">Him, for he hopes that comfort at your hands.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="605" n="68" form="verse">Leave off, my lord, here comes the Lady Blanch.</l>
+      </sp>
+      <stage sgn="605.01" sn="68.01">
+        <dir>Enter Blanch.</dir>
+        <action type="enter">
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="606" n="69" form="verse">Hard hap to break us off our talk so soon!</l>
+        <l gn="607" n="70" form="verse">Sweet Mariana, do remember me.</l>
+      </sp>
+      <stage sgn="607.01" sn="70.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>LUB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="608" n="71" form="prose">Thy Mariana cannot chose but remember thee.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="609" n="72" form="prose">Mariana, well met. You are very forward in your love.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="610" n="73" form="prose">Madam, be it in secret spoken to yourself, if you will but follow the complot I have invented, you will not think me so forward as yourself shall prove fortunate.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="611" n="74" form="prose">As how?</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="612" n="75" form="prose">Madam, as thus. It is not unknown to you that Sir Robert of Windsor, a man that you do not a little esteem, hath long importuned me of love: but rather than I will be found false or unjust to the Marquis Lubeck, I will, as did the constant lady Penelope, undertake to effect some great task.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="613" n="76" form="prose">What of all this?</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="614" n="77" form="prose">The next time that Sir Robert shall come in his wonted sort, to solicit me with love, I will seem to agree, and like of anything that the knight shall demand, so far forth as it be no impeachment to my chastity. And to conclude, &#8217;point some place for to meet the man, for my conveyance from the Denmark court, which determined upon, he will appoint some certain time for our departure, whereof you having intelligence, you may soon set down a plot to wear the English crown, and then&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="615" n="78" form="prose">What then?</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="616" n="79" form="prose">If Sir Robert prove a king and you his queen, how then?</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="617" n="80" form="prose">Were I assured of the one, as I am persuaded of the other, there were some possibility in it. But here comes the man.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="618" n="81" form="prose">Madam, begone, and you shall see I&#8217;ll work to your desire and my content.</l>
+      </sp>
+      <stage sgn="618.01" sn="81.01">
+        <dir>Exit Blanch.</dir>
+        <action type="exit">
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+      <stage sgn="618.02" sn="81.02">
+        <dir>Enter William the Conqueror.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="619" n="82" form="verse">Lady, this is well and happily met;</l>
+        <l gn="620" n="83" form="verse">For fortune hitherto hath beene my foe,</l>
+        <l gn="621" n="84" form="verse">And though I have oft sought to speak with you,</l>
+        <l gn="622" n="85" form="verse">Yet still I have been crossed with sinister haps.</l>
+        <l gn="623" n="86" form="verse">I cannot, madam, tell a loving tale,</l>
+        <l gn="624" n="87" form="verse">Or court my mistress with fabulous discourses,</l>
+        <l gn="625" n="88" form="verse">That am a soldier sworn to follow arms;</l>
+        <l gn="626" n="89" form="verse">But this I bluntly let you understand,</l>
+        <l gn="627" n="90" form="verse">I honor you with such religious zeal</l>
+        <l gn="628" n="91" form="verse">As may become an honorable mind.</l>
+        <l gn="629" n="92" form="verse">Nor may I make my love the siege of Troy,</l>
+        <l gn="630" n="93" form="verse">That am a stranger in this country.</l>
+        <l gn="631" n="94" form="verse">First, what I am I know you are resolved,</l>
+        <l gn="632" n="95" form="verse">For that my friend hath let you understand,</l>
+        <l gn="633" n="96" form="verse">The Marquis Lubeck, to whom I am so bound</l>
+        <l gn="634" n="97" form="verse">That whilst I live I count me only his.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="635" n="98" form="verse">Surely you are beholding to the marquis,</l>
+        <l gn="636" n="99" form="verse">For he hath been an earnest spokesman in your cause.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="637" n="100" form="verse">And yields my lady then, at his request,</l>
+        <l gn="638" n="101" form="verse">To grace Duke William with her gracious love?</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="639" n="102" form="prose">My lord, I am a prisoner, and hard it were to get me from the court.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="640" n="103" form="verse">An easy matter to get you from thee court,</l>
+        <l gn="641" n="104" form="verse">If case that you will thereto give consent.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="642" n="105" form="verse">Put case I should, how would you use me then?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="643" n="106" form="verse">Not otherwise but well and honorably.</l>
+        <l gn="644" n="107" form="verse">I have at sea a ship that doth attend,</l>
+        <l gn="645" n="108" form="verse">Which shall forthwith conduct us into England;</l>
+        <l gn="646" n="109" form="verse">Where, when we are, I straight will marry thee.</l>
+        <l gn="647" n="110" form="verse">We may not stay deliberating long,</l>
+        <l gn="648" n="111" form="verse">Lest that suspicion, conscious of our weal,</l>
+        <l gn="649" n="112" form="verse">Set in a foot to hinder our pretense.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="650" n="113" form="verse">But this I think were most convenient,</l>
+        <l gn="651" n="114" form="verse">To mask my face, the better to &#8217;scape unknown.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="652" n="115" form="verse">A good device. Till then farewell, fair love.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="653" n="116" form="verse">But this I must entreat your grace,</l>
+        <l gn="654" n="117" form="verse">You would not seek by lust unlawfully</l>
+        <l gn="655" n="118" form="verse">To wrong my chaste determinations.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="656" n="119" form="verse">I hold that man most shameless in his sin,</l>
+        <l gn="657" n="120" form="verse">That seeks to wrong an honest lady&#8217;s name,</l>
+        <l gn="658" n="121" form="verse">Whom he thinks worthy of his marriage bed.</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="659" n="122" form="verse">In hope your oath is true,</l>
+        <l gn="660" n="123" form="verse">I leave your grace till the appointed time.</l>
+      </sp>
+      <stage sgn="660.01" sn="123.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MARI.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="661" n="124" form="verse">Oh, happy William, bless&#232;d in thy love,</l>
+        <l gn="662" n="125" form="verse">Most fortunate in Mariana&#8217;s love!</l>
+        <l gn="663" n="126" form="verse">Well, Lubeck, well, this courtesy of thine</l>
+        <l gn="664" n="127" form="verse">I will requite, if God permit me life.</l>
+      </sp>
+      <stage sgn="664.01" sn="127.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>WILL.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="3" num="2">
+      <scenetitle>Scene 2</scenetitle>
+      <scenelocation>England. The country near the English Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+      </scenepersonae>
+      <stage sgn="664.02" sn="0.01">
+        <dir>Enter Vallingford and Mountney at two sundry doors.</dir>
+        <action type="enter">
+          <actor>MOUNT.</actor>
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="665" n="1" form="verse">Vallingford, so hardly I disgest an injury</l>
+        <l gn="666" n="2" form="verse">Thou&#8217;st profferd me, as, were&#8217;t not I detest</l>
+        <l gn="667" n="3" form="verse">To do what stands not with the honor of my name,</l>
+        <l gn="668" n="4" form="verse">Thy death should pay the ransom of thy fault.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="669" n="5" form="verse">And, Mountney, had not my revenging wrath,</l>
+        <l gn="670" n="6" form="verse">Incensed with more than ordinary love,</l>
+        <l gn="671" n="7" form="verse">Been such for to deprive thee of thy life,</l>
+        <l gn="672" n="8" form="verse">Thou hadst not lived to brave me as thou dost.</l>
+        <l gn="673" n="9" form="verse">Wretch as thou art,</l>
+        <l gn="674" n="10" form="verse">Wherein hath Vallingford offended thee?</l>
+        <l gn="675" n="11" form="verse">That honorable bond which late we did</l>
+        <l gn="676" n="12" form="verse">Confirm in presence of the gods,</l>
+        <l gn="677" n="13" form="verse">When with the Conqueror we arriv&#232;d here,</l>
+        <l gn="678" n="14" form="verse">For my part hath been kept inviolably.</l>
+        <l gn="679" n="15" form="verse">Till, now, too much abused by thy villainy,</l>
+        <l gn="680" n="16" form="verse">I am enforced to cancel all those bands,</l>
+        <l gn="681" n="17" form="verse">By hating him which I so well did love.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="682" n="18" form="verse">Subtle thou art, and cunning in thy fraud,</l>
+        <l gn="683" n="19" form="verse">That giving me occasion of offense,</l>
+        <l gn="684" n="20" form="verse">Thou pick&#8217;st a quarrel to excuse thy shame.</l>
+        <l gn="685" n="21" form="verse">Why, Vallingford, was it not enough for thee</l>
+        <l gn="686" n="22" form="verse">To be a rival &#8217;twixt me and my love,</l>
+        <l gn="687" n="23" form="verse">But counsel her, to my no small disgrace,</l>
+        <l gn="688" n="24" form="verse">That when I came to talk with her of love,</l>
+        <l gn="689" n="25" form="verse">She should seem deaf, as feigning not to hear.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="690" n="26" form="verse">But hath she, Mountney, used thee as thou sayest?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="691" n="27" form="verse">Thou knowest too well she hath&#8212;wherein</l>
+        <l gn="692" n="28" form="verse">Thou couldst not do me greater injury.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="693" n="29" form="verse">Then I perceive we are deluded both;</l>
+        <l gn="694" n="30" form="verse">For when I offered many gifts of gold,</l>
+        <l gn="695" n="31" form="verse">And jewels to entreat for love,</l>
+        <l gn="696" n="32" form="verse">She hath refused them with a coy disdain,</l>
+        <l gn="697" n="33" form="verse">Alleging that she could not see the sun.</l>
+        <l gn="698" n="34" form="verse">The same conjectured I to be thy drift,</l>
+        <l gn="699" n="35" form="verse">That feigning so she might be rid of me.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="700" n="36" form="verse">The like did I by thee. But are not these</l>
+        <l gn="701" n="37" form="verse">Natural impediments?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="702" n="38" form="verse">In my conjecture merely counterfeit;</l>
+        <l gn="703" n="39" form="verse">Therefore let&#8217;s join hands, in friendship once again,</l>
+        <l gn="704" n="40" form="verse">Since that the jar grew only by conjecture.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="705" n="41" form="verse">With all my heart: yet let&#8217;s try the truth thereof.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="706" n="42" form="verse">With right good will. We will straight unto her father,</l>
+        <l gn="707" n="43" form="verse">And there to learn whether it be so or no.</l>
+      </sp>
+      <stage sgn="707.01" sn="43.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>MOUNT.</actor>
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="3" num="3">
+      <scenetitle>Scene 3</scenetitle>
+      <scenelocation>The Danish Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+        <scenepersona short="BLANCH.">Blanch, Princess of Denmark</scenepersona>
+      </scenepersonae>
+      <stage sgn="707.02" sn="0.01">
+        <dir>Enter William the Conqueror and Blanch disguised with a mask over her face.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+          <actor alias="MARI.">BLANCH.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="708" n="1" form="verse">Come on, my love, the comfort of my life.</l>
+        <l gn="709" n="2" form="verse">Disguis&#232;d thus, we may remain unknown,</l>
+        <l gn="710" n="3" form="verse">And get we once to sea, I force not then;</l>
+        <l gn="711" n="4" form="verse">We quickly shall attain the English shore.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch (as Mariana)" alias="MARI.">BLANCH.</speaker>
+        <l gn="712" n="5" form="verse">But this I urge you with your former oath,</l>
+        <l gn="713" n="6" form="verse">You shall not seek to violate mine honor,</l>
+        <l gn="714" n="7" form="verse">Until our marriage rights be all performed.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="715" n="8" form="verse">Mariana, here I swear to thee by heaven,</l>
+        <l gn="716" n="9" form="verse">And by the honor that I bear to arms,</l>
+        <l gn="717" n="10" form="verse">Never to seek or crave at hands of thee</l>
+        <l gn="718" n="11" form="verse">The spoil of honorable chastity,</l>
+        <l gn="719" n="12" form="verse">Until we do attain the English coast,</l>
+        <l gn="720" n="13" form="verse">Where thou shalt be my right espous&#232;d queen.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch (as Mariana)" alias="MARI.">BLANCH.</speaker>
+        <l gn="721" n="14" form="verse">In hope your oath proceedeth from your heart,</l>
+        <l gn="722" n="15" form="verse">Let&#8217;s leave the court, and betake us to His power</l>
+        <l gn="723" n="16" form="verse">That governs all things to his mighty will,</l>
+        <l gn="724" n="17" form="verse">And will reward the just with endless joy,</l>
+        <l gn="725" n="18" form="verse">And plague the bad with most extreme annoy.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="726" n="19" form="verse">Lady, as little tarriance as we may,</l>
+        <l gn="727" n="20" form="verse">Lest some misfortune happen by the way.</l>
+      </sp>
+      <stage sgn="727.01" sn="20.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>WILL.</actor>
+          <actor alias="MARI.">BLANCH.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="3" num="4">
+      <scenetitle>Scene 4</scenetitle>
+      <scenelocation>England. The Miller&#8217;s cottage.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MILL.">The Miller of Manchester</scenepersona>
+        <scenepersona short="TROT.">Trotter</scenepersona>
+        <scenepersona short="MANV.">Manville</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+        <scenepersona short="TROT.">Trotter</scenepersona>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+      </scenepersonae>
+      <stage sgn="727.02" sn="0.01">
+        <dir>Enter the Miller, his man Trotter, and Manville.</dir>
+        <action type="enter">
+          <actor>MILL.</actor>
+          <actor>TROT.</actor>
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="728" n="1" form="prose">I tell you, sir, it is no little grief to me you should so hardly conceit of my daughter, whose honest report, though I say it, was never blotted with any title of defamation.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="729" n="2" form="prose">Father Miller, the repair of those gentlemen to your house hath given me great occasion to mislike.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="730" n="3" form="prose">As for those gentlemen, I never saw in them any evil entreaty. But should they have proffered it, her chaste mind hath proof enough to prevent it.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="731" n="4" form="prose">Those gentlemen are as honest as ever I saw; for, i&#8217;faith, one of them gave me sixpence to fetch a quart of sack. See, master, here they come.</l>
+      </sp>
+      <stage sgn="731.01" sn="4.01">
+        <dir>Enter Vallingford and Mountney,</dir>
+        <action type="enter">
+          <actor>VAL.</actor>
+          <actor>MOUNT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="732" n="5" form="prose">Trotter, call Em. Now they are here together, I&#8217;ll have the matter thoroughly debated.</l>
+      </sp>
+      <stage sgn="732.01" sn="5.01">
+        <dir>Exit Trotter.</dir>
+        <action type="exit">
+          <actor>TROT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="733" n="6" form="prose">Father, well met. We are come to confer with you.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="734" n="7" form="prose">Nay, with his daughter, rather.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="735" n="8" form="prose">Thus it is, father, we are come to crave your friendship in a matter.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="736" n="9" form="prose">Gentlemen, as you are strangers to me, yet, by the way of courtesy, you shall demand any reasonable thing at my hands.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <stage sgn="736.01" sn="9.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>MANV.</actor>
+          </action>
+        </stage>
+        <l gn="737" n="10" form="prose">What, is the matter so forward they came to crave his goodwill?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="738" n="11" form="prose">It is given us to understand that your daughter is suddenly become both blind and deaf.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="739" n="12" form="prose">Marry, God forbid! I have sent for her; indeed, she hath kept her chamber this three days. It were no little grief to me if it should be so.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="740" n="13" form="prose">This is God&#8217;s judgment for her treachery!</l>
+      </sp>
+      <stage sgn="740.01" sn="13.01">
+        <dir>Enter Trotter, leading Em.</dir>
+        <action type="enter">
+          <actor>TROT.</actor>
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="741" n="14" form="prose">Gentlemen, I fear your words are too true. See where Trotter comes leading of her. What ails my Em? Not blind, I hope?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <stage sgn="741.01" sn="14.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="742" n="15" form="prose">Mountney and Vallingford both together! And Manville, to whom I have faithfully vowed my love! Now, Em, suddenly help thyself.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="743" n="16" form="prose">This is no dissembling, Vallingford.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="744" n="17" form="prose">If it be, it is cunningly contrived of all sides.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <stage sgn="744.01" sn="17.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="745" n="18" form="prose">Trotter, lend me thy hand; and as thou lovest me, keep my counsel, and justify whatsoever I say, and I&#8217;ll largely requite thee.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <stage sgn="745.01" sn="18.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>TROT.</actor>
+          </action>
+        </stage>
+        <l gn="746" n="19" form="prose">Ah, that&#8217;s as much as to say you would tell a monstrous, terrible, horrible, outrageous lie, and I shall sooth it; no, by our lady!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <stage sgn="746.01" sn="19.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="747" n="20" form="prose">My present extremity wills me, if thou love me, Trotter.</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <stage sgn="747.01" sn="20.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>TROT.</actor>
+          </action>
+        </stage>
+        <l gn="748" n="21" form="prose">That same word, love, makes me to do anything.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="749" n="22" form="prose">Trotter, where&#8217;s my father?</l>
+      </sp>
+      <sp>
+        <speaker long="Trotter">TROT.</speaker>
+        <l gn="750" n="23" form="prose">Why, what a blind dunce are you, can you not see? He standeth right before you.</l>
+      </sp>
+      <stage sgn="750.01" sn="23.01">
+        <dir>He thrusts Em upon her Father.</dir>
+        <action type="action">
+          <actor>TROT.</actor>
+          <recipient>EM.</recipient>
+          <recipient>MILL.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="751" n="24" form="prose">Is this my father? Good father, give me leave to sit where I may not be disturbed, sith God hath visited me both of my sight and hearing.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="752" n="25" form="prose">Tell me, sweet Em, how came this blindness? Thy eyes are lovely to look on, and yet have they lost the benefit of their sight. What a grief is this to thy poor father!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="753" n="26" form="prose">Good father, let me not stand as an open gazing stock to every one, but in a place alone, as fits a creature so miserable.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="754" n="27" form="prose">Trotter, lead her in. The utter overthrow of poor Goddard&#8217;s joy and only solace!</l>
+      </sp>
+      <stage sgn="754.01" sn="27.01">
+        <dir>Exit the Miller, Trotter, and Em.</dir>
+        <action type="exit">
+          <actor>EM.</actor>
+          <actor>TROT.</actor>
+          <actor>MILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="755" n="28" form="prose">Both blind and deaf! Then is she no wife for me and glad am I so good an occasion is happened. Now will I away to Manchester, and leave these gentlemen to their blind fortune.</l>
+      </sp>
+      <stage sgn="755.01" sn="28.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="756" n="29" form="prose">Since fortune hath thus spitefully crossed our hope, let us leave this quest, and hearken after our king, who at this day is landed at Liverpool.</l>
+      </sp>
+      <stage sgn="756.01" sn="29.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MOUNT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="757" n="30" form="prose">Go, my lord, I&#8217;ll follow you. Well, now Mountney is gone, I&#8217;ll stay behind to solicit my love. For I imagine that I shall find this but a feigned invention, thereby to have us leave off our suits.</l>
+      </sp>
+      <stage sgn="757.01" sn="30.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="3" num="5">
+      <scenetitle>Scene 5</scenetitle>
+      <scenelocation>The Danish Court.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="ZWENO.">Zweno, King of Denmark</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="ROZ.">Rozilio</scenepersona>
+      </scenepersonae>
+      <stage sgn="757.02" sn="0.01">
+        <dir>Enter Marquis of Lubeck and the King of Denmark, angrily, with some Attendants.</dir>
+        <action type="enter">
+          <actor>ZWENO.</actor>
+          <actor>LUB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="758" n="1" form="verse">Well, Lubeck, well, it is not possible</l>
+        <l gn="759" n="2" form="verse">But you must be consenting to this act.</l>
+        <l gn="760" n="3" form="verse">Is this the man so highly you extolled?</l>
+        <l gn="761" n="4" form="verse">And play a part so hateful with his friend?</l>
+        <l gn="762" n="5" form="verse">Since first he came with thee into the court,</l>
+        <l gn="763" n="6" form="verse">What entertainment and what countenance</l>
+        <l gn="764" n="7" form="verse">He hath received, none better knows than thou.</l>
+        <l gn="765" n="8" form="verse">In recompense whereof, he quits me well,</l>
+        <l gn="766" n="9" form="verse">To steal away fair Mariana my prisoner,</l>
+        <l gn="767" n="10" form="verse">Whose ransom being lately &#8217;greed upon,</l>
+        <l gn="768" n="11" form="verse">I am deluded of by this escape.</l>
+        <l gn="769" n="12" form="verse">Besides, I know not how to answer it,</l>
+        <l gn="770" n="13" form="verse">When she shall be demanded home to Swethia.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="771" n="14" form="verse">My gracious lord, conjecture not, I pray,</l>
+        <l gn="772" n="15" form="verse">Worser of Lubeck than he doth deserve:</l>
+        <l gn="773" n="16" form="verse">Your highness knows Mariana was my love,</l>
+        <l gn="774" n="17" form="verse">Sole paragon and mistress of my thoughts.</l>
+        <l gn="775" n="18" form="verse">Is&#8217;t likely I should know of her departure,</l>
+        <l gn="776" n="19" form="verse">Wherein there&#8217;s no man injured more than I?</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="777" n="20" form="verse">That carries reason, Marquis, I confess.</l>
+        <l gn="778" n="21" form="verse">Call forth my daughter; yet I am persuaded</l>
+        <l gn="779" n="22" form="verse">That she, poor soul, suspected not her going;</l>
+        <l gn="780" n="23" form="verse">For as I hear, she likewise loved the man,</l>
+        <l gn="781" n="24" form="verse">Which he, to blame, did not at all regard.</l>
+      </sp>
+      <stage sgn="781.01" sn="24.01">
+        <dir>Enter Rozilio.</dir>
+        <action type="enter">
+          <actor>ROZ.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Rozilio">ROZ.</speaker>
+        <l gn="782" n="25" form="verse">My lord, here is the princess Mariana;</l>
+        <l gn="783" n="26" form="verse">It is your daughter is conveyed away.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="784" n="27" form="verse">What! My daughter gone?</l>
+        <l gn="785" n="28" form="verse">Now, Marquis, now your villainy breaks forth;</l>
+        <l gn="786" n="29" form="verse">This match is of your making, gentle sir,</l>
+        <l gn="787" n="30" form="verse">And you shall dearly know the price thereof.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="788" n="31" form="verse">Knew I thereof, or that there was intent</l>
+        <l gn="789" n="32" form="verse">In Robert thus to steal your highness&#8217; daughter,</l>
+        <l gn="790" n="33" form="verse">Let heavens in justice presently confound me!</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="791" n="34" form="verse">Not all the protestations thou canst use</l>
+        <l gn="792" n="35" form="verse">Shall save thy life. Away with him to prison!</l>
+        <l gn="793" n="36" form="verse">And, minion, otherwise it cannot be</l>
+        <l gn="794" n="37" form="verse">But you are an agent in this treachery:</l>
+        <l gn="795" n="38" form="verse">I will revenge it thoroughly on you both.</l>
+        <l gn="796" n="39" form="verse">Away with her to prison!</l>
+        <l gn="797" n="40" form="verse">Here&#8217;s stuff indeed! My daughter stolen away!</l>
+        <l gn="798" n="41" form="verse">It booteth not thus to disturb myself,</l>
+        <l gn="799" n="42" form="verse">But presently to send to English William,</l>
+        <l gn="800" n="43" form="verse">To send me that proud knight of Windsor hither,</l>
+        <l gn="801" n="44" form="verse">Here in my court to suffer for his shame,</l>
+        <l gn="802" n="45" form="verse">Or at my pleasure to be punished there,</l>
+        <l gn="803" n="46" form="verse">Withal that Blanch be sent me home again,</l>
+        <l gn="804" n="47" form="verse">Or I shall fetch her unto Windsor&#8217;s cost;</l>
+        <l gn="805" n="48" form="verse">Yea, and William&#8217;s, too, if he deny her me.</l>
+      </sp>
+      <stage sgn="805.01" sn="48.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>ZWENO.</actor>
+          <actor>LUB.</actor>
+          <actor>ROZ.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="3" num="6">
+      <scenetitle>Scene 6</scenetitle>
+      <scenelocation>England. The camp of the Earl of Dimarch.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+        <scenepersona short="SOLD.">Soldier</scenepersona>
+        <scenepersona short="DIM.">Earl of Dimarch</scenepersona>
+      </scenepersonae>
+      <stage sgn="805.02" sn="0.01">
+        <dir>Enter William the Conqueror, taken with Soldiers.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+          <actor>SOLD.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="806" n="1" form="verse">Could any cross, could any plague be worse?</l>
+        <l gn="807" n="2" form="verse">Could heaven or hell, did both conspire in one</l>
+        <l gn="808" n="3" form="verse">To afflict my soul, invent a greater scourge</l>
+        <l gn="809" n="4" form="verse">Than presently I am tormented with?</l>
+        <l gn="810" n="5" form="verse">Ah, Mariana, cause of my lament!</l>
+        <l gn="811" n="6" form="verse">Joy of my heart, and comfort of my life,</l>
+        <l gn="812" n="7" form="verse">For thee I breathe my sorrows in the air</l>
+        <l gn="813" n="8" form="verse">And tire myself, for silently I sigh,</l>
+        <l gn="814" n="9" form="verse">My sorrows affect my soul with equal passion.</l>
+      </sp>
+      <sp>
+        <speaker long="Soldier">SOLD.</speaker>
+        <l gn="815" n="10" form="verse">Go to, sirrah, put up, it is to small purpose.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="816" n="11" form="verse">Hence, villains, hence! Dare you lay your hands</l>
+        <l gn="817" n="12" form="verse">Upon your sovereign?</l>
+      </sp>
+      <sp>
+        <speaker long="Soldier">SOLD.</speaker>
+        <l gn="818" n="13" form="verse">Well, sir, we will deal for that;</l>
+        <l gn="819" n="14" form="verse">But here comes one will remedy all this.</l>
+        <stage sgn="819.01" sn="14.01">
+          <dir>Enter Dimarch.</dir>
+          <action type="enter">
+            <actor>DIM.</actor>
+          </action>
+        </stage>
+        <l gn="820" n="15" form="verse">My lord, watching this night in the camp,</l>
+        <l gn="821" n="16" form="verse">We took this man, and know not what he is;</l>
+        <l gn="822" n="17" form="verse">And in his company was a gallant dame,</l>
+        <l gn="823" n="18" form="verse">A woman fair in outward show she seemed,</l>
+        <l gn="824" n="19" form="verse">But that her face was masked, we could not see</l>
+        <l gn="825" n="20" form="verse">The grace and favor of her countenance.</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="826" n="21" form="verse">Tell me, good fellow, of whence and what art thou?</l>
+      </sp>
+      <sp>
+        <speaker long="Soldier">SOLD.</speaker>
+        <l gn="827" n="22" form="verse">Why do you not answer my lord?</l>
+        <l gn="828" n="23" form="verse">He takes scorn to answer!</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="829" n="24" form="verse">And tak&#8217;st thou scorn to answer my demand?</l>
+        <l gn="830" n="25" form="verse">Thy proud behavior very well deserves</l>
+        <l gn="831" n="26" form="verse">This misdemeanor at the worst be construed.</l>
+        <l gn="832" n="27" form="verse">Why, dost thou neither know, nor hast thou heard,</l>
+        <l gn="833" n="28" form="verse">That in the absence of the Saxon duke,</l>
+        <l gn="834" n="29" form="verse">Dimarch is his especial substitute,</l>
+        <l gn="835" n="30" form="verse">To punish those that shall offend the laws?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="836" n="31" form="verse">In knowing this, I know thou art a traitor;</l>
+        <l gn="837" n="32" form="verse">A rebel, and mutinous conspirator.</l>
+        <l gn="838" n="33" form="verse">Why, Dimarch, knowest thou who I am?</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="839" n="34" form="verse">Pardon, my dread lord, the error of my sense,</l>
+        <l gn="840" n="35" form="verse">And misdemeanor to your princely excellency!</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="841" n="36" form="verse">Why, Dimarch, what is the cause my subjects are in arms?</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="842" n="37" form="verse">Free are my thoughts, my dread and gracious lord,</l>
+        <l gn="843" n="38" form="verse">From treason to your state and commonweal;</l>
+        <l gn="844" n="39" form="verse">Only revengement of a private grudge,</l>
+        <l gn="845" n="40" form="verse">By Lord Dirot lately proffered me,</l>
+        <l gn="846" n="41" form="verse">That stands not with the honor of my name,</l>
+        <l gn="847" n="42" form="verse">Is cause I have assembled for my guard</l>
+        <l gn="848" n="43" form="verse">Some men in arms, that may withstand his force,</l>
+        <l gn="849" n="44" form="verse">Whose settled malice aimeth at my life.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="850" n="45" form="verse">Where&#8217;s Lord Dirot?</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="851" n="46" form="verse">In arms, my gracious lord,</l>
+        <l gn="852" n="47" form="verse">Not past two miles from hence,</l>
+        <l gn="853" n="48" form="verse">As credibly I am ascertained.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="854" n="49" form="verse">Well, come, let&#8217;s go,</l>
+        <l gn="855" n="50" form="verse">I fear I shall find traitors of you both.</l>
+      </sp>
+      <stage sgn="855.01" sn="50.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>WILL.</actor>
+          <actor>SOLD.</actor>
+          <actor>DIM.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+  <act num="4">
+    <acttitle>Act 4</acttitle>
+    <scene actnum="4" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>Manchester. The garden before the house of a Citizen.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="CIT.">Citizen of Manchester</scenepersona>
+        <scenepersona short="ELNER.">Elner</scenepersona>
+        <scenepersona short="MANV.">Manville</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+      </scenepersonae>
+      <stage sgn="855.02" sn="0.01">
+        <dir>Enter the Citizen, and his daughter Elner, and Manville.</dir>
+        <action type="enter">
+          <actor>CIT.</actor>
+          <actor>ELNER.</actor>
+          <actor>MANV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="856" n="1" form="prose">Indeed, sir, it would do very well if you could entreat your father to come hither. But if you think it be too far, I care not much to take horse and ride to Manchester. I am sure my daughter is content with either. How sayest thou, Elner, art thou not?</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="857" n="2" form="prose">As you shall think best, I must be contented.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="858" n="3" form="prose">Well, Elner, farewell. Only thus much I pray: make all things in a readiness, either to serve here, or to carry thither with us.</l>
+      </sp>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="859" n="4" form="prose">As for that, sir, take you no care, and so I betake you to your journey.</l>
+        <stage sgn="859.01" sn="4.01">
+          <dir>Exit Manville.</dir>
+          <action type="exit">
+            <actor>MANV.</actor>
+          </action>
+        </stage>
+        <stage sgn="859.02" sn="4.02">
+          <dir>Enter Vallingford.</dir>
+          <action type="enter">
+            <actor>VAL.</actor>
+          </action>
+        </stage>
+        <l gn="860" n="5" form="prose">But soft, what gentleman is this?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="861" n="6" form="prose">God speed, sir. Might a man crave a word or two with you?</l>
+      </sp>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="862" n="7" form="prose">God forbid else, sir; I pray you speak your pleasure.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="863" n="8" form="prose">The gentleman that parted from you, was he not of Manchester, his father living there of good account?</l>
+      </sp>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="864" n="9" form="prose">Yes, marry is he, sir. Why do you ask? Belike you have had some acquaintance with him?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="865" n="10" form="prose">I have been acquainted, in times past, but, through his double dealing, I am grown weary of his company. For be it spoken to you, he hath been acquainted with a poor miller&#8217;s daughter, and divers times hath promised her marriage, but what with his delays and flouts, he hath brought her into such a taking that I fear me it will cost her her life.</l>
+      </sp>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="866" n="11" form="prose">To be plain with you, sir, his father and I have been of old acquaintance, and a motion was made between my daughter and his son, which now is thoroughly agreed upon, save only the place appointed for the marriage, whether it shall be kept here or at Manchester, and for no other occasion he is now ridden.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="867" n="12" form="prose">What hath he done to you, that you should speak so ill of the man?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="868" n="13" form="prose">Oh, gentlewoman, I cry you mercy. He is your husband that shall be.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="869" n="14" form="prose">If I knew this to be true, he should not be my husband were he never so good. And therefore, good father, I would desire you to take the pains to bear this gentleman company to Manchester, to know whether this be true or no.</l>
+      </sp>
+      <sp>
+        <speaker long="Citizen of Manchester">CIT.</speaker>
+        <l gn="870" n="15" form="prose">Now trust me, gentleman, he deals with me very hardly, knowing how well I meant to him. But I care not much to ride to Manchester, to know whether his father&#8217;s will be he should deal with me so badly. Will it please you, sir, to go in? We will presently take horse and away.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="871" n="16" form="prose">If it please you to go in, I&#8217;ll follow you presently.</l>
+        <stage sgn="871.01" sn="16.01">
+          <dir>Exit Elner and her father.</dir>
+          <action type="exit">
+            <actor>ELNER.</actor>
+            <actor>CIT.</actor>
+          </action>
+        </stage>
+        <l gn="872" n="17" form="prose">Now shall I be revenged on Manville, and by this means get Em to be my wife. And therefore I will straight to her father&#8217;s and inform them both of all that has happened.</l>
+      </sp>
+      <stage sgn="872.01" sn="17.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="4" num="2">
+      <scenetitle>Scene 2</scenetitle>
+      <scenelocation>England. A room of state in the palace of William the Conqueror.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MILL.">The Miller of Manchester</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+      </scenepersonae>
+      <stage sgn="872.02" sn="0.01">
+        <dir>Enter William the Conqueror, the Ambassador of Denmark, Dimarch, and other Attendants.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+          <actor>DAN. AMB.</actor>
+          <actor>DIM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="873" n="1" form="verse">What news with the Denmark ambassador?</l>
+      </sp>
+      <sp>
+        <speaker long="Danish Ambassador">DAN. AMB.</speaker>
+        <l gn="874" n="2" form="verse">Marry, thus: the king of Denmark, and my sovereign,</l>
+        <l gn="875" n="3" form="verse">Doth send to know of thee what is the cause,</l>
+        <l gn="876" n="4" form="verse">That, injuriously, against the law of arms,</l>
+        <l gn="877" n="5" form="verse">Thou hast stolen away his only daughter, Blanch,</l>
+        <l gn="878" n="6" form="verse">The only stay and comfort of his life?</l>
+        <l gn="879" n="7" form="verse">Therefore, by me</l>
+        <l gn="880" n="8" form="verse">He willeth thee to send his daughter Blanch,</l>
+        <l gn="881" n="9" form="verse">Or else forthwith he will levy such an host,</l>
+        <l gn="882" n="10" form="verse">As soon shall fetch her in despite of thee.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="883" n="11" form="verse">Ambassador, this answer I return thy king&#8212;</l>
+        <l gn="884" n="12" form="verse">He willeth me to send his daughter Blanch,</l>
+        <l gn="885" n="13" form="verse">Saying I conveyed her from the Danish court,</l>
+        <l gn="886" n="14" form="verse">That never yet once did as think thereof.</l>
+        <l gn="887" n="15" form="verse">As for his menacing and daunting threats,</l>
+        <l gn="888" n="16" form="verse">I will regard him nor his Danish power;</l>
+        <l gn="889" n="17" form="verse">For if he come to fetch her forth my realm,</l>
+        <l gn="890" n="18" form="verse">I will provide him such a banquet here,</l>
+        <l gn="891" n="19" form="verse">That he shall have small cause to give me thanks.</l>
+      </sp>
+      <sp>
+        <speaker long="Danish Ambassador">DAN. AMB.</speaker>
+        <l gn="892" n="20" form="verse">Is this your answer, then?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="893" n="21" form="verse">It is; and so begone.</l>
+      </sp>
+      <sp>
+        <speaker long="Danish Ambassador">DAN. AMB.</speaker>
+        <l gn="894" n="22" form="verse">I go; but to your cost.</l>
+      </sp>
+      <stage sgn="894.01" sn="22.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>DAN. AMB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="895" n="23" form="verse">Dimarch,</l>
+        <l gn="896" n="24" form="verse">Our subjects, erst levied in civil broils,</l>
+        <l gn="897" n="25" form="verse">Muster forthwith for to defend the realm;</l>
+        <l gn="898" n="26" form="verse">In hope whereof that we shall find you true,</l>
+        <l gn="899" n="27" form="verse">We freely pardon this thy late offense.</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="900" n="28" form="verse">Most humble thanks I render to your grace.</l>
+      </sp>
+      <stage sgn="900.01" sn="28.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>WILL.</actor>
+          <actor>DIM.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="4" num="3">
+      <scenetitle>Scene 3</scenetitle>
+      <scenelocation>Manchester. The Miller&#8217;s cottage.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="MILL.">The Miller of Manchester</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+      </scenepersonae>
+      <stage sgn="900.02" sn="0.01">
+        <dir>Enter the Miller and Vallingford.</dir>
+        <action type="enter">
+          <actor>MILL.</actor>
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="901" n="1" form="prose">Alas, gentleman, why should you trouble yourself so much, considering the imperfections of my daughter, which is able to withdraw the love of any man from her, as already it hath done in her first choice. Master Manville hath forsaken her, and at Chester shall be married to a man&#8217;s daughter of no little wealth. But if my daughter knew so much, it would go very near her heart, I fear me.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="902" n="2" form="prose">Father miller, such is my entire affection to your daughter, as no misfortune whatsoever can alter. My fellow, Mountney, thou seest, gave quickly over, but I, by reason of my good meaning, am not so soon to be changed, although I am borne off with scorns and denial.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="903" n="3" form="prose">Trust me, sir, I know not what to say. My daughter is not to be compelled by me. But here she comes herself. Speak to her and spare not, for I never was troubled with love matters so much before.</l>
+      </sp>
+      <stage sgn="903.01" sn="3.01">
+        <dir>Enter Em.</dir>
+        <action type="enter">
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <stage sgn="903.02" sn="3.02">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="904" n="4" form="prose">Good Lord! Shall I never be rid of this importunate man? Now must I dissemble blindness again. Once more for thy sake, Manville, thus am I enforced, because I shall complete my full resolved mind to thee.</l>
+        <l gn="905" n="5" form="prose">Father, where are you?</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="906" n="6" form="prose">Here, sweet Em. Answer this gentleman, that would so fain enjoy thy love.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="907" n="7" form="prose">Where are you, sir? Will you never leave this idle and vain pursuit of love? Is not England stord enough to content you, but you must still trouble the poor contemptible maid of Manchester?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="908" n="8" form="prose">None can content me but the fair maid of Manchester.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="909" n="9" form="prose">I perceive love is vainly described, that, being blind himself, would have you likewise troubled with a blind wife, having the benefit of your eyes. But neither follow him so much in folly, but love one in whom you may better delight.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="910" n="10" form="prose">Father miller, thy daughter shall have honor by granting me her love. I am a gentleman of King William&#8217;s court, and no mean man in King William&#8217;s favor.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="911" n="11" form="prose">If you be a lord, sir, as you say, you offer both yourself and me great wrong. Yours, as apparent, in limiting your love so unorderly, for which you rashly endure reproachment mine, as open and evident, when, being shut out from the vanities of this world, you would have me as an open gazing-stock to all the world. For lust, not love, leads you into this error. But from the one I will keep me as well as I can. And yield the other to none but to my father, as I am bound by duty.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="912" n="12" form="prose">Why, fair Em, Manville hath forsaken thee, and must at Chester be married. Which if I speak otherwise than true, let thy father speak what credibly he hath heard.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="913" n="13" form="prose">But can it be, Manville will deal so unkindly to reward my justice with such monstrous ungentleness? Have I dissembled for thy sake, and dost thou now thus requite it? Indeed, these many days I have not seen him, which hath made me marvel at his long absence.</l>
+        <stage sgn="913.01" sn="13.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>EM.</actor>
+          </action>
+        </stage>
+        <l gn="914" n="14" form="prose">But, father, are you assured of the words he spake were concerning Manville?</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="915" n="15" form="prose">In sooth, daughter, now it is forth, I must needs confirm it: Master Manville hath forsaken thee, and at Chester must be married to a man&#8217;s daughter of no little wealth. His father procures it, and therefore I dare credit it; and do thou believe it; for trust me, daughter, it is so.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="916" n="16" form="prose">Then, good father, pardon the injury that I have done to you, only causing your grief by overfond affecting a man so trothless. And you likewise, sir, I pray hold me excused, as I hope this cause will allow sufficiently for me; my love to Manville, thinking he would requite it, hath made me double with my father and you, and many more besides, which I will no longer hide from you. That enticing speeches should not beguile me, I have made myself deaf to any but to him; and lest any man&#8217;s person should please me more than his, I have dissembled the want of my sight. Both which shadows of my irrevocable affections I have not spared to confirm before him, my father, and all other amorous solicitors; wherewith not made acquainted, I perceive my true intent hath wrought mine own sorrow, and seeking by love to be regarded, am cut off with contempt, and despised.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="917" n="17" form="prose">Tell me, sweet Em, hast thou but feigned all this while for his love, that hath so discourteously forsaken thee?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="918" n="18" form="prose">Credit me, father, I have told you the truth. Wherewith I desire you and Lord Vallingford not to be displeased. For aught else I shall say, let my present grief hold me excused. But may I live to see that ungrateful man justly rewarded for his treachery, poor Em would think herself not a little happy. Favor my departing at this instant, for my troubled thought desires to meditate alone in silence.</l>
+      </sp>
+      <stage sgn="918.01" sn="18.01">
+        <dir>Exit Em.</dir>
+        <action type="exit">
+          <actor>EM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="919" n="19" form="prose">Will not Em show one cheerful look on Vallingford?</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="920" n="20" form="prose">Alas, sir, blame her not. You see she hath good cause, being so handled by this gentleman. And so I&#8217;ll leave you, and go comfort my poor wench as well as I may.</l>
+      </sp>
+      <stage sgn="920.01" sn="20.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>MILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="921" n="21" form="prose">Farewell, good father.</l>
+      </sp>
+      <stage sgn="921.01" sn="21.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>VAL.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+  <act num="5">
+    <acttitle>Act 5</acttitle>
+    <scene actnum="5" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>England. An open space prepared for the meeting of William the Conqueror and Zweno the Danish King.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="BLANCH.">Blanch, Princess of Denmark</scenepersona>
+        <scenepersona short="DIM.">Earl of Dimarch</scenepersona>
+        <scenepersona short="ELNER.">Elner</scenepersona>
+        <scenepersona short="EM.">Fair Em</scenepersona>
+        <scenepersona short="LUB.">Marquis of Lubeck</scenepersona>
+        <scenepersona short="MANV.">Manville</scenepersona>
+        <scenepersona short="MARI.">Mariana, Princess of Suethia</scenepersona>
+        <scenepersona short="MILL.">The Miller of Manchester</scenepersona>
+        <scenepersona short="MOUNT.">Mountney</scenepersona>
+        <scenepersona short="ROZ.">Rozilio</scenepersona>
+        <scenepersona short="VAL.">Vallingford</scenepersona>
+        <scenepersona short="WILL.">William the Conqueror</scenepersona>
+        <scenepersona short="ZWENO.">Zweno, King of Denmark</scenepersona>
+      </scenepersonae>
+      <stage sgn="921.02" sn="0.01">
+        <dir>Enter King of Denmark with Rozilio and other Attendants.</dir>
+        <action type="enter">
+          <actor>ZWENO.</actor>
+          <actor>ROZ.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="922" n="1" form="verse">Rocilio, is this the place whereas</l>
+        <l gn="923" n="2" form="verse">The Duke William should meet me?</l>
+      </sp>
+      <sp>
+        <speaker long="Rozilio">ROZ.</speaker>
+        <l gn="924" n="3" form="verse">It is, and like your grace.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="925" n="4" form="verse">Go, captain, away; regard the charge I gave:</l>
+        <l gn="926" n="5" form="verse">See all our men be marshalled for the fight;</l>
+        <l gn="927" n="6" form="verse">Dispose the wards, as lately was devised,</l>
+        <l gn="928" n="7" form="verse">And let the prisoners, under several guards,</l>
+        <l gn="929" n="8" form="verse">Be kept apart until you hear from us.</l>
+        <l gn="930" n="9" form="verse">Let this suffice&#8212;you know my resolution;</l>
+        <l gn="931" n="10" form="verse">If William, Duke of Saxon, be the man,</l>
+        <l gn="932" n="11" form="verse">That by his answer sent us, he would send</l>
+        <l gn="933" n="12" form="verse">Not words, but wounds; not parleys, but alarms</l>
+        <l gn="934" n="13" form="verse">Must be decider of this controversy.</l>
+        <l gn="935" n="14" form="verse">Rozilio, stay with me, the rest begone.</l>
+      </sp>
+      <stage sgn="935.01" sn="14.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>ZWENO.</actor>
+          <actor>ROZ.</actor>
+        </action>
+      </stage>
+      <stage sgn="935.02" sn="14.02">
+        <dir>Enter William the Conqueror and Dimarch with other Attendants.</dir>
+        <action type="enter">
+          <actor>WILL.</actor>
+          <actor>DIM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="936" n="15" form="verse">All but Dimarch go shroud you out of sight;</l>
+        <l gn="937" n="16" form="verse">For I&#8217;ll go parley with the prince myself.</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="938" n="17" form="verse">Should Zweno, by this parley, call you forth,</l>
+        <l gn="939" n="18" form="verse">Upon intent injuriously to deal,</l>
+        <l gn="940" n="19" form="verse">This offereth too much opportunity.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="941" n="20" form="verse">No, no, Dimarch,</l>
+        <l gn="942" n="21" form="verse">That were a breach against the law of arms;</l>
+        <l gn="943" n="22" form="verse">Therefore begone, and leave us here alone.</l>
+        <stage sgn="943.01" sn="22.01">
+          <dir>Exeunt Attendants.</dir>
+          <action type="exit"/>
+        </stage>
+        <l gn="944" n="23" form="verse">I see that Zweno is master of his word.</l>
+        <stage sgn="944.01" sn="23.01">
+          <dir>Re-enter King of Denmark and Rozilio.</dir>
+          <action type="enter">
+            <actor>ZWENO.</actor>
+            <actor>ROZ.</actor>
+          </action>
+        </stage>
+        <l gn="945" n="24" form="verse">Zweno, William of Saxony greeteth thee,</l>
+        <l gn="946" n="25" form="verse">Either well or ill, according to thy intent.</l>
+        <l gn="947" n="26" form="verse">If well thou wish to him and Saxony,</l>
+        <l gn="948" n="27" form="verse">He bids thee friendly welcome as he can;</l>
+        <l gn="949" n="28" form="verse">If ill thou wish to him and Saxony,</l>
+        <l gn="950" n="29" form="verse">He must withstand thy malice as he may.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="951" n="30" form="verse">William, for other name and title give I none</l>
+        <l gn="952" n="31" form="verse">To him, who, were he worthy of those honors</l>
+        <l gn="953" n="32" form="verse">That fortune and his predecessors left,</l>
+        <l gn="954" n="33" form="verse">I ought, by right and human courtsey,</l>
+        <l gn="955" n="34" form="verse">To grace his style with Duke of Saxony.</l>
+        <l gn="956" n="35" form="verse">But, for I find a base, degenerate mind,</l>
+        <l gn="957" n="36" form="verse">I frame my speech according to the man,</l>
+        <l gn="958" n="37" form="verse">And not the state that he unworthy holds.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="959" n="38" form="verse">Herein, Zweno, dost thou abase thy state,</l>
+        <l gn="960" n="39" form="verse">To break the peace which by our ancestors</l>
+        <l gn="961" n="40" form="verse">Hath heretofore been honorably kept.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="962" n="41" form="verse">And should that peace for ever have been kept</l>
+        <l gn="963" n="42" form="verse">Had not thyself been author of the breach;</l>
+        <l gn="964" n="43" form="verse">Nor stands it with the honor of my state,</l>
+        <l gn="965" n="44" form="verse">Or nature of a father to his child,</l>
+        <l gn="966" n="45" form="verse">That I should so be robbed of my daughter,</l>
+        <l gn="967" n="46" form="verse">And not unto the utmost of my power,</l>
+        <l gn="968" n="47" form="verse">Revenge so intolerable an injury.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="969" n="48" form="verse">Is this the color of your quarrel, Zweno?</l>
+        <l gn="970" n="49" form="verse">I well perceive the wisest men may err:&#8212;</l>
+        <l gn="971" n="50" form="verse">And think you I conveyed away you daughter Blanch?</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="972" n="51" form="verse">Art thou so impudent to deny thou didst,</l>
+        <l gn="973" n="52" form="verse">When that the proof thereof is manifest?</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="974" n="53" form="verse">What proof is there?</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="975" n="54" form="verse">Thine own confession is sufficient proof.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="976" n="55" form="verse">Did I confess I stole your daughter Blanch?</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="977" n="56" form="verse">Thou didst confess thou hadst a lady hence.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="978" n="57" form="verse">I have, and do.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="979" n="58" form="verse">Why, that was Blanch my daughter.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="980" n="59" form="verse">Nay, that was Mariana;</l>
+        <l gn="981" n="60" form="verse">Who wrongfully thou detainest prisoner.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="982" n="61" form="verse">Shameless persisting in thy ill!</l>
+        <l gn="983" n="62" form="verse">Thou dost maintain a manifest untruth,</l>
+        <l gn="984" n="63" form="verse">As she shall justify unto thy teeth.</l>
+        <l gn="985" n="64" form="verse">Rocilio, fetch her and the marquis hither.</l>
+      </sp>
+      <stage sgn="985.01" sn="64.01">
+        <dir>Exit Rozilio.</dir>
+        <action type="exit">
+          <actor>ROZ.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="986" n="65" form="verse">It cannot be I should be so deceived.</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="987" n="66" form="verse">I heard this night among the soldiers,</l>
+        <l gn="988" n="67" form="verse">That in their watch they took a pensive lady,</l>
+        <l gn="989" n="68" form="verse">Who, at th&#8217;appointment of the Lord Dirot,</l>
+        <l gn="990" n="69" form="verse">Is yet in keeping. What she is, I know not;</l>
+        <l gn="991" n="70" form="verse">Only thus much I overheard by chance.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="992" n="71" form="verse">And what of this?</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="993" n="72" form="verse">It may be Blanch, the King of Denmark&#8217;s daughter.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="994" n="73" form="verse">It may be so; but on my life it is not:</l>
+        <l gn="995" n="74" form="verse">Yet, Dimarch, go and fetch her straight.</l>
+      </sp>
+      <stage sgn="995.01" sn="74.01">
+        <dir>Exit Earl of Dimarch.</dir>
+        <action type="exit">
+          <actor>DIM.</actor>
+        </action>
+      </stage>
+      <stage sgn="995.02" sn="74.02">
+        <dir>Re-enter Rozilio with the Marquis and Mariana.</dir>
+        <action type="enter">
+          <actor>ROZ.</actor>
+          <actor>LUB.</actor>
+          <actor>MARI.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Rozilio">ROZ.</speaker>
+        <l gn="996" n="75" form="verse">Pleaseth your highness, here is the Marquis and Mariana.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="997" n="76" form="verse">See here, Duke William, your competitors,</l>
+        <l gn="998" n="77" form="verse">That were consenting to my daughter&#8217;s &#8217;scape:</l>
+        <l gn="999" n="78" form="verse">Let them resolve you of the truth herein,</l>
+        <l gn="1000" n="79" form="verse">And here I vow and solemnly protest,</l>
+        <l gn="1001" n="80" form="verse">That in thy presence they shall lose their heads,</l>
+        <l gn="1002" n="81" form="verse">Unless I hear whereas my daughter is.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1003" n="82" form="verse">Oh, Marquis Lubeck, how it grieveth me</l>
+        <l gn="1004" n="83" form="verse">That for my sake thou shouldst endure these bonds!</l>
+        <l gn="1005" n="84" form="verse">Be judge, my soul, that feels the martyrdom!</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="1006" n="85" form="verse">Duke William, you know it&#8217;s for your cause</l>
+        <l gn="1007" n="86" form="verse">It pleaseth thus the king to misconceive of me,</l>
+        <l gn="1008" n="87" form="verse">And for his pleasure doth me injury.</l>
+      </sp>
+      <stage sgn="1008.01" sn="87.01">
+        <dir>Enter Dimarch with Blanch.</dir>
+        <action type="enter">
+          <actor>DIM.</actor>
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="1009" n="88" form="verse">May it please your highness,</l>
+        <l gn="1010" n="89" form="verse">Here is the lady whom you sent me for.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1011" n="90" form="verse">Away, Dimarch, what tell&#8217;st thou me of ladies?</l>
+        <l gn="1012" n="91" form="verse">I so detest the dealing of their sex,</l>
+        <l gn="1013" n="92" form="verse">As that I count a lover&#8217;s state to be</l>
+        <l gn="1014" n="93" form="verse">The base and vildest slavery in the world!</l>
+      </sp>
+      <sp>
+        <speaker long="Earl of Dimarch">DIM.</speaker>
+        <l gn="1015" n="94" form="verse">What humors are these? Here&#8217;s a strange alteration!</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1016" n="95" form="verse">See, Duke William, is this Blanch or no?</l>
+        <l gn="1017" n="96" form="verse">You know her if you see her, I am sure.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1018" n="97" form="verse">Zweno, I was deceived, yea, utterly deceived;</l>
+        <l gn="1019" n="98" form="verse">Yet this is she: this same is Lady Blanch:</l>
+        <l gn="1020" n="99" form="verse">And for mine error here I am content</l>
+        <l gn="1021" n="100" form="verse">To do whatever Zweno shall set down.</l>
+        <l gn="1022" n="101" form="verse">Ah, cruel Mariana, thus to use</l>
+        <l gn="1023" n="102" form="verse">The man which loved and honored thee with&#8217;s heart!</l>
+      </sp>
+      <sp>
+        <speaker long="Mariana, Princess of Suethia">MARI.</speaker>
+        <l gn="1024" n="103" form="verse">When first I came into your highness&#8217; court,</l>
+        <l gn="1025" n="104" form="verse">And William oft importing me of love,</l>
+        <l gn="1026" n="105" form="verse">I did devise, to ease the grief your daughter did sustain,</l>
+        <l gn="1027" n="106" form="verse">She should meet Sir William masked, as I it were.</l>
+        <l gn="1028" n="107" form="verse">This put in proof did take so good effect,</l>
+        <l gn="1029" n="108" form="verse">As yet it seems his grace is not resolved,</l>
+        <l gn="1030" n="109" form="verse">But it was I which he conveyed away.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1031" n="110" form="verse">May this be true? It cannot be but true.</l>
+        <l gn="1032" n="111" form="verse">Was&#8217;t Lady Blanch which I conveyed away?</l>
+        <l gn="1033" n="112" form="verse">Unconstant Mariana, thus to deal</l>
+        <l gn="1034" n="113" form="verse">With him which meant to thee nought but faith!</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="1035" n="114" form="verse">Pardon, dear father, my follies that are past,</l>
+        <l gn="1036" n="115" form="verse">Wherein I have neglected my duty,</l>
+        <l gn="1037" n="116" form="verse">Which I in reverence ought to shew your grace;</l>
+        <l gn="1038" n="117" form="verse">For led by love I thus have gone astray,</l>
+        <l gn="1039" n="118" form="verse">And now repent the errors I was in.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1040" n="119" form="verse">Stand up, dear daughter. Though thy fault deserves</l>
+        <l gn="1041" n="120" form="verse">For to be punished in the extremest sort,</l>
+        <l gn="1042" n="121" form="verse">Yet love, that covers multitude of sins,</l>
+        <l gn="1043" n="122" form="verse">Makes love in parents wink at children&#8217;s faults.</l>
+        <l gn="1044" n="123" form="verse">Sufficeth, Blanch, thy father loves thee so,</l>
+        <l gn="1045" n="124" form="verse">Thy follies past he knows, but will not know.</l>
+        <l gn="1046" n="125" form="verse">And here, Duke William, take my daughter to thy wife,</l>
+        <l gn="1047" n="126" form="verse">For well I am assured she loves thee well.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1048" n="127" form="verse">A proper conjunction!</l>
+        <l gn="1049" n="128" form="verse">As who should say, lately come out of the fire,</l>
+        <l gn="1050" n="129" form="verse">I would go thrust myself into the flame.</l>
+        <l gn="1051" n="130" form="verse">Let Mistress Nice go saint it where she list,</l>
+        <l gn="1052" n="131" form="verse">And coyly quaint it with dissembling face;</l>
+        <l gn="1053" n="132" form="verse">I hold in scorn the fooleries that they use:</l>
+        <l gn="1054" n="133" form="verse">I being free, will ne&#8217;er subject myself</l>
+        <l gn="1055" n="134" form="verse">To any such as she is underneath the sun.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1056" n="135" form="verse">Refusest thou to take my daughter to thy wife?</l>
+        <l gn="1057" n="136" form="verse">I tell thee, duke, this rash denial may bring</l>
+        <l gn="1058" n="137" form="verse">More mischief on thee than thou canst avoid.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1059" n="138" form="verse">Conceit hath wrought such general dislike,</l>
+        <l gn="1060" n="139" form="verse">Through the false dealing of Mariana,</l>
+        <l gn="1061" n="140" form="verse">That utterly I do abhor their sex;</l>
+        <l gn="1062" n="141" form="verse">They&#8217;re all disloyal, unconstant, all unjust;</l>
+        <l gn="1063" n="142" form="verse">Who tries as I have tried, and finds as I have found,</l>
+        <l gn="1064" n="143" form="verse">Will say there&#8217;s no such creatures on the ground.</l>
+      </sp>
+      <sp>
+        <speaker long="Blanch, Princess of Denmark">BLANCH.</speaker>
+        <l gn="1065" n="144" form="verse">Unconstant knight, though some deserve no trust,</l>
+        <l gn="1066" n="145" form="verse">There&#8217;s others faithful, loving, loyal, and just!</l>
+      </sp>
+      <stage sgn="1066.01" sn="145.01">
+        <dir>Enter Vallingford, with Em and the Miller, Mountney, Manville, and Elner.</dir>
+        <action type="enter">
+          <actor>VAL.</actor>
+          <actor>EM.</actor>
+          <actor>ELNER.</actor>
+          <actor>MOUNT.</actor>
+          <actor>MANV.</actor>
+          <actor>MILL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1067" n="146" form="verse">How now, Lord Vallingford, what makes these women here?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1068" n="147" form="verse">Here be two women, may it please your grace,</l>
+        <l gn="1069" n="148" form="verse">That are contracted to one man, and are</l>
+        <l gn="1070" n="149" form="verse">In strife whether shall have him to her husband.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1071" n="150" form="verse">Stand forth, women, and say</l>
+        <l gn="1072" n="151" form="verse">To whether of you did he first give his faith.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1073" n="152" form="verse">To me, forsooth.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="1074" n="153" form="verse">To me, my gracious lord.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1075" n="154" form="verse">Speak, Manville; to whether didst thou give thy faith?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1076" n="155" form="verse">To say the truth, this maid had first my love.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="1077" n="156" form="verse">Yes, Manville, but there was no witness by.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1078" n="157" form="verse">Thy conscience, Manville, is a thousand witnesses.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="1079" n="158" form="verse">She hath stolen a conscience to serve her own turn;</l>
+        <l gn="1080" n="159" form="verse">But you are deceived, i&#8217;faith, he will none of you.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1081" n="160" form="verse">Indeed, dread lord, so dear I held her love,</l>
+        <l gn="1082" n="161" form="verse">As in the same I put my whole delight;</l>
+        <l gn="1083" n="162" form="verse">But some impediments, which at that instant</l>
+        <l gn="1084" n="163" form="verse">Happened, made me forsake her quite;</l>
+        <l gn="1085" n="164" form="verse">For which I had her father&#8217;s frank consent.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1086" n="165" form="verse">What were the impediments?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1087" n="166" form="verse">Why, she could neither hear nor see.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1088" n="167" form="verse">Now she doth both. Maiden, how were you cured?</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1089" n="168" form="verse">Pardon, my lord, I&#8217;ll tell your grace the truth,</l>
+        <l gn="1090" n="169" form="verse">Be it not imputed to me as discredit.</l>
+        <l gn="1091" n="170" form="verse">I loved this Manville so much, that still methought,</l>
+        <l gn="1092" n="171" form="verse">When he was absent, did present to me</l>
+        <l gn="1093" n="172" form="verse">The form and feature of that countenance</l>
+        <l gn="1094" n="173" form="verse">Which I did shrine an idol in my heart;</l>
+        <l gn="1095" n="174" form="verse">And never could I see a man, methought,</l>
+        <l gn="1096" n="175" form="verse">That equalled Manville in my partial eye.</l>
+        <l gn="1097" n="176" form="verse">Nor was there any love between us lost,</l>
+        <l gn="1098" n="177" form="verse">But that I held the same in high regard,</l>
+        <l gn="1099" n="178" form="verse">Until repair of some unto our house,</l>
+        <l gn="1100" n="179" form="verse">Of whom my Manville grew thus jealous;</l>
+        <l gn="1101" n="180" form="verse">As if he took exception I vouchsafed</l>
+        <l gn="1102" n="181" form="verse">To hear them speak, or saw them when they came;</l>
+        <l gn="1103" n="182" form="verse">On which I straight took order with myself</l>
+        <l gn="1104" n="183" form="verse">To void the scruple of his conscience,</l>
+        <l gn="1105" n="184" form="verse">By counterfeiting that I neither saw nor heard,</l>
+        <l gn="1106" n="185" form="verse">Anyways to rid my hands of them.</l>
+        <l gn="1107" n="186" form="verse">All this I did to keep my Manville&#8217;s love,</l>
+        <l gn="1108" n="187" form="verse">Which he unkindly seeks for to reward.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1109" n="188" form="verse">And did my Em, to keep her faith with me,</l>
+        <l gn="1110" n="189" form="verse">Dissemble that she neither heard nor saw?</l>
+        <l gn="1111" n="190" form="verse">Pardon me, sweet Em, for I am only thine!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1112" n="191" form="verse">Lay off thy hands, disloyal as thou art!</l>
+        <l gn="1113" n="192" form="verse">Nor shalt thou have possession of my love,</l>
+        <l gn="1114" n="193" form="verse">That canst so finely shift thy matters off.</l>
+        <l gn="1115" n="194" form="verse">Put case I had been blind and could not see,</l>
+        <l gn="1116" n="195" form="verse">As oftentimes such visitations fall,</l>
+        <l gn="1117" n="196" form="verse">That pleaseth God, which all things doth dispose,</l>
+        <l gn="1118" n="197" form="verse">Shouldst thou forsake me in regard of that?</l>
+        <l gn="1119" n="198" form="verse">I tell thee, Manville, hadst thou been blind,</l>
+        <l gn="1120" n="199" form="verse">Or deaf or dumb, or what impediments</l>
+        <l gn="1121" n="200" form="verse">Else might befall to man,</l>
+        <l gn="1122" n="201" form="verse">Em would have loved, and kept, and honored thee;</l>
+        <l gn="1123" n="202" form="verse">Yea, begged, if wealth had failed, for thy relief.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1124" n="203" form="verse">Forgive me, sweet Em!</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1125" n="204" form="verse">I do forgive thee with my heart,</l>
+        <l gn="1126" n="205" form="verse">And will forget thee too, if case I can;</l>
+        <l gn="1127" n="206" form="verse">But never speak to me, nor seem to know me.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1128" n="207" form="verse">Then farewell frost! Well fare a wench that will!</l>
+        <l gn="1129" n="208" form="verse">Now, Elner, I&#8217;m thine own, my girl.</l>
+      </sp>
+      <sp>
+        <speaker long="Elner">ELNER.</speaker>
+        <l gn="1130" n="209" form="verse">Mine, Manville? Thou never shalt be mine;</l>
+        <l gn="1131" n="210" form="verse">I so detest thy villainy,</l>
+        <l gn="1132" n="211" form="verse">That whilst I live I will abhor thy company.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1133" n="212" form="verse">Is it come to this? Of late I had choice of twain,</l>
+        <l gn="1134" n="213" form="verse">On either side, to have me to her husband,</l>
+        <l gn="1135" n="214" form="verse">And now am utterly rejected of them both.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1136" n="215" form="verse">My lord, this gentleman, when time was,</l>
+        <l gn="1137" n="216" form="verse">Stood something in our light,</l>
+        <l gn="1138" n="217" form="verse">And now I think it not amiss</l>
+        <l gn="1139" n="218" form="verse">To laugh at him that sometime scorned at us.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="1140" n="219" form="verse">Content, my lord, invent the form.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1141" n="220" form="verse">Then thus&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1142" n="221" form="verse">I see that women are not general evils&#8212;</l>
+        <l gn="1143" n="222" form="verse">Blanch is fair; methinks I see in her</l>
+        <l gn="1144" n="223" form="verse">A modest countenance, a heavenly blush.</l>
+        <l gn="1145" n="224" form="verse">Zweno, receive a reconcil&#232;d foe,</l>
+        <l gn="1146" n="225" form="verse">Not as thy friend, but as thy son-in-law,</l>
+        <l gn="1147" n="226" form="verse">If so that thou be thus content.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1148" n="227" form="verse">I joy to see your grace so tractable:&#8212;</l>
+        <l gn="1149" n="228" form="verse">Here, take my daughter Blanch,</l>
+        <l gn="1150" n="229" form="verse">And after my decease the Denmark crown.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1151" n="230" form="verse">Now, sir, how stands the case with you?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1152" n="231" form="verse">I partly am persuaded as your grace is&#8212;</l>
+        <l gn="1153" n="232" form="verse">My lord, he&#8217;s best at ease that meddleth least.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1154" n="233" form="verse">Sir, may a man be so bold</l>
+        <l gn="1155" n="234" form="verse">As to crave a word with you?</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1156" n="235" form="verse">Yea, two or three. What are they?</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1157" n="236" form="verse">I say, this maid will have thee to her husband.</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="1158" n="237" form="verse">And I say this: and therefore will I lay</l>
+        <l gn="1159" n="238" form="verse">A hundred pound.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1160" n="239" form="verse">And I say this: whereon I&#8217;ll lay as much.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1161" n="240" form="verse">And I say neither: what say you to that?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="1162" n="241" form="verse">If that be true, then are we both deceived.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1163" n="242" form="verse">Why, it is true, and you are both deceived.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="1164" n="243" form="verse">In mine eyes, this is the properest wench.</l>
+        <l gn="1165" n="244" form="verse">Might I advise thee, take her to thy wife?</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1166" n="245" form="verse">It seems to me she hath refused him.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="1167" n="246" form="verse">Why, there&#8217;s the spite.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1168" n="247" form="verse">If one refuse him, yet may he have the other.</l>
+      </sp>
+      <sp>
+        <speaker long="Marquis of Lubeck">LUB.</speaker>
+        <l gn="1169" n="248" form="verse">He&#8217;ll ask but her good will, and all her friends.</l>
+      </sp>
+      <sp>
+        <speaker long="Zweno, King of Denmark">ZWENO.</speaker>
+        <l gn="1170" n="249" form="verse">Might I advise thee? Let them both alone.</l>
+      </sp>
+      <sp>
+        <speaker long="Manville">MANV.</speaker>
+        <l gn="1171" n="250" form="verse">Yea, that&#8217;s the course, and thereon will I stand;</l>
+        <l gn="1172" n="251" form="verse">Such idle love henceforth I will detest.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1173" n="252" form="verse">The fox will eat no grapes, and why?</l>
+      </sp>
+      <sp>
+        <speaker long="Mountney">MOUNT.</speaker>
+        <l gn="1174" n="253" form="verse">I know, full well, because they hang too high.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1175" n="254" form="verse">And may&#8217;t be a miller&#8217;s daughter by her birth?</l>
+        <l gn="1176" n="255" form="verse">I cannot think but she is better born.</l>
+      </sp>
+      <sp>
+        <speaker long="Vallingford">VAL.</speaker>
+        <l gn="1177" n="256" form="verse">Sir Thomas Goddard hight this reverend man,</l>
+        <l gn="1178" n="257" form="verse">Famed for his virtues, and his good success;</l>
+        <l gn="1179" n="258" form="verse">Whose fame hath been renown&#232;d through the world.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1180" n="259" form="verse">Sir Thomas Goddard, welcome to thy prince,</l>
+        <l gn="1181" n="260" form="verse">And fair Em, frolic with thy good father.</l>
+        <l gn="1182" n="261" form="verse">As glad am I to find Sir Thomas Goddard,</l>
+        <l gn="1183" n="262" form="verse">As good Sir Edmund Treford, on the plains;</l>
+        <l gn="1184" n="263" form="verse">He like a shepherd, and thou our country miller.</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="1185" n="264" form="verse">And longer let not Goddard live a day,</l>
+        <l gn="1186" n="265" form="verse">Then he in honor loves his sovereign.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1187" n="266" form="verse">But say, Sir Thomas, shall I give thy daughter?</l>
+      </sp>
+      <sp>
+        <speaker long="The Miller of Manchester">MILL.</speaker>
+        <l gn="1188" n="267" form="verse">Sir Thomas Goddard, and all that he hath,</l>
+        <l gn="1189" n="268" form="verse">Doth rest at the pleasure of your majesty.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1190" n="269" form="verse">And what says Em to lovely Vallingford?</l>
+        <l gn="1191" n="270" form="verse">It seemed he loved you well, that for your sake</l>
+        <l gn="1192" n="271" form="verse">Durst leave his king.</l>
+      </sp>
+      <sp>
+        <speaker long="Fair Em">EM.</speaker>
+        <l gn="1193" n="272" form="verse">Em rests at the pleasure of your highness;</l>
+        <l gn="1194" n="273" form="verse">And would I were a wife for his desert.</l>
+      </sp>
+      <sp>
+        <speaker long="William the Conqueror">WILL.</speaker>
+        <l gn="1195" n="274" form="verse">Then here, Lord Vallingford, receive fair Em.</l>
+        <l gn="1196" n="275" form="verse">Here take her, make her thy espous&#232;d wife.</l>
+        <l gn="1197" n="276" form="verse">Then go we in, that preparation may be made,</l>
+        <l gn="1198" n="277" form="verse">To see these nuptials solemnly performed.</l>
+      </sp>
+      <stage sgn="1198.01" sn="277.01">
+        <dir>Exeunt. Flourish of drums and trumpets.</dir>
+        <action type="exit">
+          <actor>VAL.</actor>
+          <actor>EM.</actor>
+          <actor>ELNER.</actor>
+          <actor>MOUNT.</actor>
+          <actor>MANV.</actor>
+          <actor>MILL.</actor>
+          <actor>WILL.</actor>
+          <actor>ZWENO.</actor>
+          <actor>ROZ.</actor>
+          <actor>LUB.</actor>
+          <actor>MARI.</actor>
+          <actor>DIM.</actor>
+          <actor>BLANCH.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+</play>

@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<play variant="ps-apocrypha" unique="yorkshire-tragedy">
+  <titleStmt>
+    <title type="common">A Yorkshire Tragedy</title>
+    <title type="main">A Yorkshire Tragedy</title>
+    <title type="short">Yorkshire Tragedy</title>
+    <title type="abbr">YT</title>
+  </titleStmt>
+  <authors status="apocrypha">
+    <author>Thomas Middleton</author>
+  </authors>
+  <fileDesc>
+    <publicationStmt>
+      <publisher ref="http://www.playshakespeare.com">PlayShakespeare.com</publisher>
+      <name type="person" role="editor">Ron Severdia</name>
+      <email>william at playshakespeare.com</email>
+      <date from="2005" to="2025">2005-2025</date>
+      <availability status="restricted">
+        <license>GFDL License 1.3. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation.</license>
+      </availability>
+    </publicationStmt>
+    <editionStmt>
+      <edition n="5.4"/>
+    </editionStmt>
+  </fileDesc>
+  <castList playtitle="A Yorkshire Tragedy">
+    <castItem gender="male" id="6a3dc2b2-9ee1-4eac-aedd-377bbeabafeb">
+      <role short="HUSB.">Husband</role>
+      <roleDesc>The Husband was once a wealthy man, but has since squandered everything on alcohol. A large, angry, and jealous drunkard, he regularly beats his wife for his unfounded suspicions of infidelity.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="8c69804d-a5bb-4bee-b8df-5f01268f96e5">
+      <role short="WIFE.">Wife</role>
+      <roleDesc>The Wife is devoted to her Husband in spite of his drunken abusive behavior towards her and their three sons.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="9ce3ca9e-2c0e-4c55-a349-842e4e9c6a2b">
+      <role short="MAST.">Master of a College</role>
+      <roleDesc>The Master comes to the Husband to deliver the news that his brother has been thrown in prison as a result of the Husband not paying his debts.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="d62cdb50-9237-4afc-8ffe-c97e5b8091e4">
+      <role short="OLIV.">Oliver</role>
+      <persaliases>
+        <role short="BOTH RAL. AND OLIV.">Both Ralph and Oliver</role>
+      </persaliases>
+      <roleDesc>Oliver, along with Ralph, is a servant of a young betrothed couple in a house in Yorkshire.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="db322fed-c195-4c43-8898-e0d8bb741ca3">
+      <role short="RAL.">Ralph</role>
+      <persaliases>
+        <role short="BOTH RAL. AND OLIV.">Both Ralph and Oliver</role>
+      </persaliases>
+      <roleDesc>Ralph, along with Oliver, is a servant of a young betrothed couple in a house in Yorkshire.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="af12b31e-389c-4b74-b668-44d7a04056ac">
+      <role short="SAM.">Sam</role>
+      <roleDesc>He is the servant of a Yorkshire gentleman nearby to his friends Oliver and Ralph.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="fc707e2a-2a0b-4988-8dcd-2fc5029f2cf2">
+      <role short="1. GENT.">First Gentleman</role>
+      <persaliases>
+        <role short="ALL GENT.">All Gentlemen</role>
+      </persaliases>
+      <roleDesc>A local gentleman who has heard about the Husband&#8217;s abuse towards his wife approaches him, urging him to respect her.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="7b100715-a197-4655-8d28-72e4a7159b16">
+      <role short="2. GENT.">Second Gentleman</role>
+      <persaliases>
+        <role short="ALL GENT.">All Gentlemen</role>
+      </persaliases>
+      <roleDesc>A local gentleman who has heard about the Husband&#8217;s abuse towards his wife approaches him, urging him to respect her.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="b6b60b5f-416d-4a03-9840-e706b23c68f6">
+      <role short="3. GENT.">Third Gentleman</role>
+      <persaliases>
+        <role short="ALL GENT.">All Gentlemen</role>
+      </persaliases>
+      <roleDesc>A local gentleman who has heard about the Husband&#8217;s abuse towards his wife approaches him, urging him to respect her.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="282e0a78-262e-4149-993c-65cff712fee4">
+      <role short="4. GENT.">Fourth Gentleman</role>
+      <roleDesc>A local gentleman who has heard the Husband is being abusive towards his wife approaches the Husband to command him, in the name of his respected forefathers, to clean up his act.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="4f0e6de1-8abe-4c61-9c13-0b726f519afa">
+      <role short="SERV.">Servant</role>
+      <roleDesc>As the household servant for the Husband and Wife, he&#8217;s responsible for keeping things in order or he knows the punishment from the Husband will be brutal.</roleDesc>
+    </castItem>
+    <castItem gender="female" id="00691248-4da7-4078-b579-67978ec30a7d">
+      <role short="MAID.">Maid</role>
+      <roleDesc>The maid helps the Wife take care of their children.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="31de5d37-8786-4fd7-97f5-e00fb8dbb2cb">
+      <role short="SON.">First Son</role>
+      <roleDesc>Around four years old, he&#8217;s the oldest son of the Husband and Wife.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="3978e203-c3fa-4b3a-9724-e1bd08a1a959">
+      <role short="LUSTY.">Lusty Servant</role>
+      <roleDesc>The &#8220;lusty&#8221; servant is called such due to his size and strength.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="49da95ea-a5da-4acb-aec4-0e8f3c6cf499">
+      <role short="KNIGHT.">Knight (Justice of the Peace)</role>
+      <roleDesc>The Knight serves as the local Justice of the Peace and presides over legal matters.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="47438ca5-d3b3-4f0c-b7e7-786c3478555f">
+      <role short="1. SERV.">First Servant to the Master of the College</role>
+      <roleDesc>The First Servant attends on the Master of the College and his duties.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="e46c2e55-b894-44f0-a725-82b11b1b253b">
+      <role short="2. SERV.">Second Servant to the Master of the College</role>
+      <roleDesc>The Second Servant attends on the Master of the College and his duties.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="27939eb6-3a0f-4a5d-8d65-d4978e0d2f63">
+      <role short="BOY.">Stable Boy</role>
+      <roleDesc>A stable boy walks and grooms the horses under the supervision of Sam.</roleDesc>
+    </castItem>
+    <castItem gender="male" id="4f3daabc-edb2-48a0-a1d0-532c48bcb851">
+      <role short="HALB.">Halberdiers</role>
+      <roleDesc>Halberdiers are officers who come with the Master of the College to arrest the Husband.</roleDesc>
+    </castItem>
+  </castList>
+  <act num="1">
+    <acttitle>Act 1</acttitle>
+    <scene actnum="1" num="1">
+      <scenetitle>Scene 1</scenetitle>
+      <scenelocation>A house in Yorkshire.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="OLIV.">Oliver</scenepersona>
+        <scenepersona short="RAL.">Ralph</scenepersona>
+        <scenepersona short="SAM.">Sam</scenepersona>
+        <scenepersona short="BOY.">Stable Boy</scenepersona>
+      </scenepersonae>
+      <stage sgn="0.01" sn="0.01">
+        <dir>Enter Oliver and Ralph, two serving-men.</dir>
+        <action type="enter">
+          <actor>OLIV.</actor>
+          <actor>RAL.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="1" n="1" form="prose">Sirrah Ralph, my young mistress is in such a pitiful, passionate humor for the long absence of her love.</l>
+      </sp>
+      <sp>
+        <speaker long="Ralph">RAL.</speaker>
+        <l gn="2" n="2" form="prose">Why, can you blame her? Why, apples hanging longer on the tree then when they are ripe make so many fallings. Viz, mad wenches, because they are not gathered in time, are fain to drop of themselves, and then &#8217;tis common, you know, for every man to take &#8217;em up.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="3" n="3" form="prose">Mass, thou sayest true, &#8217;tis common indeed. But, sirrah, is neither our young master returned, nor our fellow Sam come from London?</l>
+      </sp>
+      <sp>
+        <speaker long="Ralph">RAL.</speaker>
+        <l gn="4" n="4" form="prose">Neither of either, as the puritan bawd says.</l>
+        <stage sgn="4.01" sn="4.01">
+          <dir>Noise within.</dir>
+          <action type="sound"/>
+        </stage>
+        <l gn="5" n="5" form="prose">&#8217;Slid, I hear Sam; Sam&#8217;s come, here&#8217;s tarry. Come, i&#8217;faith, now my nose itches for news.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="6" n="6" form="prose">And so does mine elbow.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <stage sgn="6.01" sn="6.01">
+          <dir>Calls within.</dir>
+          <action type="speak" offstage="true">
+            <actor>SAM.</actor>
+          </action>
+        </stage>
+        <l gn="7" n="7" form="prose">Where are you there?</l>
+        <stage sgn="7.01" sn="7.01">
+          <dir>Enter Sam and a Stable Boy.</dir>
+          <action type="enter">
+            <actor>SAM.</actor>
+            <actor>BOY.</actor>
+          </action>
+        </stage>
+        <l gn="8" n="8" form="prose">Boy, look you walk my horse with discretion; I have rid him simply. I warrant his skin sticks to his back with very heat; if &#8217;a should catch cold and get the cough of the lungs, I were well served, were I not?</l>
+        <stage sgn="8.01" sn="8.01">
+          <dir>Exit Boy.</dir>
+          <action type="exit">
+            <actor>BOY.</actor>
+          </action>
+        </stage>
+        <l gn="9" n="9" form="prose">What, Ralph and Oliver!</l>
+      </sp>
+      <sp>
+        <speaker long="Both Ralph and Oliver">BOTH RAL. AND OLIV.</speaker>
+        <l gn="10" n="10" form="prose">Honest fellow Sam, welcome, i&#8217;faith! What tricks hast thou brought from London?</l>
+      </sp>
+      <stage sgn="10.01" sn="10.01">
+        <dir>Sam is furnished with things from London which he now presents.</dir>
+        <action type="action">
+          <actor>SAM.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="11" n="11" form="prose">You see I am hang&#8217;d after the truest fashion: three hats, and two glasses bobbling upon &#8217;em, two rebato wires upon my breast, a cap-case by my side, a brush at my back, an almanac in my pocket, and three ballads in my codpiece. Nay, I am the true picture of a common serving-man.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="12" n="12" form="prose">I&#8217;ll swear thou art. Thou mayest set up when thou wilt. There&#8217;s many a one begins with less, I can tell thee, that proves a rich man ere he dies. But what&#8217;s the news from London, Sam?</l>
+      </sp>
+      <sp>
+        <speaker long="Ralph">RAL.</speaker>
+        <l gn="13" n="13" form="prose">Ay, that&#8217;s well fed. What&#8217;s the news from London, sirrah? My young mistress keeps such a puling for her love.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="14" n="14" form="prose">Why? The more fool she, ay, the more ninnyhammer she.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="15" n="15" form="prose">Why, Sam, why?</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="16" n="16" form="prose">Why, he&#8217;s married to another long ago.</l>
+      </sp>
+      <sp>
+        <speaker long="Both Ralph and Oliver">BOTH RAL. AND OLIV.</speaker>
+        <l gn="17" n="17" form="prose">I&#8217;faith, ye jest.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="18" n="18" form="prose">Why, did you not know that till now? Why, he&#8217;s married, beats his wife, and has two or three children by her: for you must note that any woman bears the more when she is beaten.</l>
+      </sp>
+      <sp>
+        <speaker long="Ralph">RAL.</speaker>
+        <l gn="19" n="19" form="prose">Ay, that&#8217;s true, for she bears the blows.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="20" n="20" form="prose">Sirrah Sam, I would not for two years&#8217; wages my young mistress knew so much. She&#8217;d run upon the left hand of her wit, and ne&#8217;er be her own woman again.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="21" n="21" form="prose">And I think she was blest in her cradle, that he never came in her bed. Why, he has consumed all, pawned his lands, and made his university brother stand in wax for him. There&#8217;s a fine phrase for a scrivener. Puh, he owes more than his skin&#8217;s worth.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="22" n="22" form="prose">Is&#8217;t possible?</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="23" n="23" form="prose">Nay, I&#8217;ll tell you moreover he calls his wife whore as familiarly as one would call Moll and Doll, and his children bastards as naturally as can be. But what have we here?</l>
+        <stage sgn="23.01" sn="23.01">
+          <dir>Pulls out two poking-sticks.</dir>
+          <action type="action">
+            <actor>SAM.</actor>
+          </action>
+        </stage>
+        <l gn="24" n="24" form="prose">I thought &#8216;twas somewhat pulled down my breeches: I quite forget my two poting-sticks. These came from London; now anything is good here that came from London.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="25" n="25" form="prose">Ay, farfetched, you know.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="26" n="26" form="prose">But speak in your conscience, i&#8217;faith: have not we as good poting-sticks i&#8217; th&#8217; country as need to be put i&#8217; th&#8217; fire? The mind of a thing is all, the mind of a thing is all. And as thou saidst e&#8217;en now, farfetched is the best thing for ladies.</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="27" n="27" form="prose">Ay, and for waiting gentlewomen, too.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="28" n="28" form="prose">But Ralph, what, is our beer sour this thunder?</l>
+      </sp>
+      <sp>
+        <speaker long="Oliver">OLIV.</speaker>
+        <l gn="29" n="29" form="prose">No, no, it holds countenance yet.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="30" n="30" form="prose">Why then, follow me. I&#8217;ll teach you the finest humor to be drunk it; I learn&#8217;d it at London last week.</l>
+      </sp>
+      <sp>
+        <speaker long="Both Ralph and Oliver">BOTH RAL. AND OLIV.</speaker>
+        <l gn="31" n="31" form="prose">Ay, faith, let&#8217;s hear it, let&#8217;s hear it.</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="32" n="32" form="prose">The bravest humor, &#8217;twould do a man good to be drunk in&#8217;t. They call it &#8220;knighting&#8221; in London, when they drink upon their knees.</l>
+      </sp>
+      <sp>
+        <speaker long="Both Ralph and Oliver">BOTH RAL. AND OLIV.</speaker>
+        <l gn="33" n="33" form="prose">Faith, that&#8217;s excellent!</l>
+      </sp>
+      <sp>
+        <speaker long="Sam">SAM.</speaker>
+        <l gn="34" n="34" form="prose">Come, follow me. I&#8217;ll give you all the degrees on&#8217;t in order.</l>
+      </sp>
+      <stage sgn="34.01" sn="34.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>SAM.</actor>
+          <actor>RAL.</actor>
+          <actor>OLIV.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="2">
+      <scenetitle>Scene 2</scenetitle>
+      <scenelocation>Outside the Husband&#8217;s house, near Yorkshire.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WIFE.">Wife</scenepersona>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="1. GENT.">First Gentleman</scenepersona>
+        <scenepersona short="2. GENT.">Second Gentleman</scenepersona>
+        <scenepersona short="3. GENT.">Third Gentleman</scenepersona>
+        <scenepersona short="4. GENT.">Fourth Gentleman</scenepersona>
+        <scenepersona short="SERV.">Servant</scenepersona>
+      </scenepersonae>
+      <stage sgn="34.02" sn="0.01">
+        <dir>Enter Wife.</dir>
+        <action type="enter">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="35" n="1" form="verse">What will become of us? All will away.</l>
+        <l gn="36" n="2" form="verse">My husband never ceases in expense,</l>
+        <l gn="37" n="3" form="verse">Both to consume his credit and his house.</l>
+        <l gn="38" n="4" form="verse">And &#8217;tis set down by Heaven&#8217;s just decree,</l>
+        <l gn="39" n="5" form="verse">That riot&#8217;s child must needs be beggary.</l>
+        <l gn="40" n="6" form="verse">Are these the virtues that his youth did promise:</l>
+        <l gn="41" n="7" form="verse">Dice, and voluptuous meetings, midnight revels,</l>
+        <l gn="42" n="8" form="verse">Taking his bed with surfeits, ill-beseeming</l>
+        <l gn="43" n="9" form="verse">The ancient honor of his house and name?</l>
+        <l gn="44" n="10" form="verse">And this not all: but that which kills me most,</l>
+        <l gn="45" n="11" form="verse">When he recounts his losses and false fortunes,</l>
+        <l gn="46" n="12" form="verse">The weakness of his state so much dejected,</l>
+        <l gn="47" n="13" form="verse">Not as a man repentant, but half mad.</l>
+        <l gn="48" n="14" form="verse">His fortunes cannot answer his expense.</l>
+        <l gn="49" n="15" form="verse">He sits and sullenly locks up his arms,</l>
+        <l gn="50" n="16" form="verse">Forgetting Heaven looks downward, which makes him</l>
+        <l gn="51" n="17" form="verse">Appear so dreadful, that he frights my heart;</l>
+        <l gn="52" n="18" form="verse">Walks heavily, as if his soul were on earth,</l>
+        <l gn="53" n="19" form="verse">Not penitent for those his sins are past,</l>
+        <l gn="54" n="20" form="verse">But vex&#8217;d his money cannot make them last:</l>
+        <l gn="55" n="21" form="verse">A fearful melancholy, ungodly sorrow.</l>
+        <l gn="56" n="22" form="verse">Oh, yonder he comes; now in despite of ills,</l>
+        <l gn="57" n="23" form="verse">I&#8217;ll speak to him, and I will hear him speak,</l>
+        <l gn="58" n="24" form="verse">And do my best to drive it from his heart.</l>
+      </sp>
+      <stage sgn="58.01" sn="24.01">
+        <dir>Enter Husband.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="59" n="25" form="verse">Pox o&#8217; th&#8217; last throw, it made</l>
+        <l gn="60" n="26" form="verse">Five hundred angels vanish from my sight!</l>
+        <l gn="61" n="27" form="verse">I&#8217;m damn&#8217;d, I&#8217;m damn&#8217;d: the angels have forsook me!</l>
+        <l gn="62" n="28" form="verse">Nay, &#8217;tis certainly true, for he that has no coin</l>
+        <l gn="63" n="29" form="verse">Is damn&#8217;d in this world: he&#8217;s gone, he&#8217;s gone.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="64" n="30" form="verse">Dear husband.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="65" n="31" form="verse">Oh, most punishment of all, I have a wife!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="66" n="32" form="verse">I do entreat you as you love your soul,</l>
+        <l gn="67" n="33" form="verse">Tell me the cause of this your discontent.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="68" n="34" form="verse">A vengeance strip thee naked, thou art cause,</l>
+        <l gn="69" n="35" form="verse">Effect, quality, property, thou, thou, thou!</l>
+      </sp>
+      <stage sgn="69.01" sn="35.01">
+        <dir>Exit Husband.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="70" n="36" form="verse">Bad turn&#8217;d to worse? Both beggary of the soul,</l>
+        <l gn="71" n="37" form="verse">As of the body; and so much unlike</l>
+        <l gn="72" n="38" form="verse">Himself at first, as if some vexed spirit</l>
+        <l gn="73" n="39" form="verse">Had got his form upon him.</l>
+        <stage sgn="73.01" sn="39.01">
+          <dir>Enter Husband.</dir>
+          <action type="enter">
+            <actor>HUSB.</actor>
+          </action>
+        </stage>
+        <stage sgn="73.02" sn="39.02">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>WIFE.</actor>
+          </action>
+        </stage>
+        <l gn="74" n="40" form="verse">He comes again.</l>
+        <l gn="75" n="41" form="verse">He says I am the cause: I never yet</l>
+        <l gn="76" n="42" form="verse">Spoke less than words of duty and of love.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <stage sgn="76.01" sn="42.01">
+          <dir>Aside.</dir>
+          <action type="aside">
+            <actor>HUSB.</actor>
+          </action>
+        </stage>
+        <l gn="77" n="43" form="prose">If marriage be honorable, then cuckolds are honorable, for they cannot be made without marriage. Fool! What meant I to marry to get beggars? Now must my eldest son be a knave or nothing. He cannot live upon the soil, for he will have no land to maintain him: that mortgage sits like a snaffle upon mine inheritance, and makes me chew upon iron. My second son must be a promoter, and my third a thief, or an underputter, a slave pander. Oh beggary, beggary, to what base uses does thou put a man!</l>
+        <l gn="78" n="44" form="verse">I think the devil scorns to be a bawd:</l>
+        <l gn="79" n="45" form="verse">He bears himself more proudly, has more care on&#8217;s credit.</l>
+        <l gn="80" n="46" form="verse">Base, slavish, abject, filthy poverty!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="81" n="47" form="verse">Good sir, by all our vows I do beseech you,</l>
+        <l gn="82" n="48" form="verse">Show me the true cause of your discontent.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="83" n="49" form="verse">Money, money, money, and thou must supply me!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="84" n="50" form="verse">Alas, I am the least cause of your discontent;</l>
+        <l gn="85" n="51" form="verse">Yet what is mine, either in rings or jewels,</l>
+        <l gn="86" n="52" form="verse">Use to your own desire. But I beseech you,</l>
+        <l gn="87" n="53" form="verse">As y&#8217;are a gentleman by many bloods,</l>
+        <l gn="88" n="54" form="verse">Though I myself be out of your respect,</l>
+        <l gn="89" n="55" form="verse">Think on the state of these three lovely boys</l>
+        <l gn="90" n="56" form="verse">You have been father to.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="91" n="57" form="verse">Puh! Bastards, bastards,</l>
+        <l gn="92" n="58" form="verse">Bastards, begot in tricks, begot in tricks!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="93" n="59" form="verse">Heaven knows how those words wrong me! But I may</l>
+        <l gn="94" n="60" form="verse">Endure these griefs among a thousand more.</l>
+        <l gn="95" n="61" form="verse">Oh, call to mind your lands already mortgaged,</l>
+        <l gn="96" n="62" form="verse">Yourself wound into debts, your hopeful brother</l>
+        <l gn="97" n="63" form="verse">At the university in bonds for you,</l>
+        <l gn="98" n="64" form="verse">Like to be seiz&#8217;d upon. And&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="99" n="65" form="verse">Ha&#8217; done, thou harlot,</l>
+        <l gn="100" n="66" form="verse">Whom though for fashion sake I married,</l>
+        <l gn="101" n="67" form="verse">I never could abide? Thinkst thou thy words</l>
+        <l gn="102" n="68" form="verse">Shall kill my pleasures? Fall off to thy friends,</l>
+        <l gn="103" n="69" form="verse">Thou and thy bastards beg: I will not bate</l>
+        <l gn="104" n="70" form="verse">A whit in humor.&#8212;Midnight, still I love you</l>
+        <l gn="105" n="71" form="verse">And revel in your company. Curb&#8217;d in,</l>
+        <l gn="106" n="72" form="verse">Shall it be said in all societies</l>
+        <l gn="107" n="73" form="verse">That I broke custom, that I flagg&#8217;d in money?</l>
+        <l gn="108" n="74" form="verse">No, those thy jewels I will play as freely</l>
+        <l gn="109" n="75" form="verse">As when my state was fullest.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="110" n="76" form="verse">Be it so.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="111" n="77" form="verse">Nay, I protest, and take that for an earnest!</l>
+        <stage sgn="111.01" sn="77.01">
+          <dir>Spurns her.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+            <recipient>WIFE.</recipient>
+          </action>
+        </stage>
+        <l gn="112" n="78" form="verse">I will forever hold thee in contempt,</l>
+        <l gn="113" n="79" form="verse">And never touch the sheets that cover thee;</l>
+        <l gn="114" n="80" form="verse">But be divorc&#8217;d in bed till thou consent</l>
+        <l gn="115" n="81" form="verse">Thy dowry shall be sold to give new life</l>
+        <l gn="116" n="82" form="verse">Unto those pleasures which I most affect.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="117" n="83" form="verse">Sir, do but turn a gentle eye on me,</l>
+        <l gn="118" n="84" form="verse">And what the law shall give me leave to do</l>
+        <l gn="119" n="85" form="verse">You shall command.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="120" n="86" form="verse">Look it be done.</l>
+        <stage sgn="120.01" sn="86.01">
+          <dir>Holding his hands in his pockets.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+          </action>
+        </stage>
+        <l gn="121" n="87" form="verse">Shall I want dust and like a slave</l>
+        <l gn="122" n="88" form="verse">Wear nothing in my pockets but my hands</l>
+        <l gn="123" n="89" form="verse">To fill them up with nails?</l>
+        <l gn="124" n="90" form="verse">Oh, much against my blood! Let it be done;</l>
+        <l gn="125" n="91" form="verse">I was never made to be a looker on.</l>
+        <l gn="126" n="92" form="verse">A bawd to dice? I&#8217;ll shake the drabs myself</l>
+        <l gn="127" n="93" form="verse">And make &#8217;em yield. I say, look it be done!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="128" n="94" form="verse">I take my leave; it shall.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="129" n="95" form="verse">Speedily, speedily!</l>
+        <stage sgn="129.01" sn="95.01">
+          <dir>Exit Wife.</dir>
+          <action type="exit">
+            <actor>WIFE.</actor>
+          </action>
+        </stage>
+        <l gn="130" n="96" form="prose">I hate the very hour I chose a wife, a trouble, trouble, three children like three evils hang upon me! Fie, fie, fie, strumpet and bastards, strumpet and bastards!</l>
+      </sp>
+      <stage sgn="130.01" sn="96.01">
+        <dir>Enter three Gentlemen hearing him.</dir>
+        <action type="enter">
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="First Gentleman">1. GENT.</speaker>
+        <l gn="131" n="97" form="verse">Still do those loathsome thoughts jar on your tongue,</l>
+        <l gn="132" n="98" form="verse">Yourself to stain the honor of your wife,</l>
+        <l gn="133" n="99" form="verse">Nobly descended. Those whom men call mad</l>
+        <l gn="134" n="100" form="verse">Endanger others, but he&#8217;s more than mad</l>
+        <l gn="135" n="101" form="verse">That wounds himself, whose own words do proclaim</l>
+        <l gn="136" n="102" form="verse">Scandals unjust, to foil his better name:</l>
+        <l gn="137" n="103" form="verse">It is not fit. I pray, forsake it.</l>
+      </sp>
+      <sp>
+        <speaker long="Second Gentleman">2. GENT.</speaker>
+        <l gn="138" n="104" form="verse">Good sir, let modesty reprove you.</l>
+      </sp>
+      <sp>
+        <speaker long="Third Gentleman">3. GENT.</speaker>
+        <l gn="139" n="105" form="verse">Let honest kindness sway so much with you.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="140" n="106" form="prose">God-den, I thank you, sir. How do you? Adieu. I&#8217;m glad to see you. Farewell.</l>
+        <stage sgn="140.01" sn="106.01">
+          <dir>Exit Gentlemen.</dir>
+          <action type="exit">
+            <actor>1. GENT.</actor>
+            <actor>2. GENT.</actor>
+            <actor>3. GENT.</actor>
+          </action>
+        </stage>
+        <l gn="141" n="107" form="prose">Instructions! Admonitions!</l>
+        <stage sgn="141.01" sn="107.01">
+          <dir>Enter Servant.</dir>
+          <action type="enter">
+            <actor>SERV.</actor>
+          </action>
+        </stage>
+        <l gn="142" n="108" form="verse">How now, sirrah, what would you?</l>
+      </sp>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="143" n="109" form="prose">Only to certify to you, sir, that my mistress was met by the way, by these who were sent for her to London by her honorable uncle, your worship&#8217;s late guardian.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="144" n="110" form="verse">So, sir, then she is gone and so may you be.</l>
+        <l gn="145" n="111" form="verse">But let her look that the thing be done she wots of,</l>
+        <l gn="146" n="112" form="verse">Or Hell will stand more pleasant than her house at home.</l>
+      </sp>
+      <stage sgn="146.01" sn="112.01">
+        <dir>Exit Servant. Enter a Fourth Gentleman.</dir>
+        <action type="exit">
+          <actor>SERV.</actor>
+        </action>
+        <action type="enter">
+          <actor>4. GENT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="147" n="113" form="verse">Well or ill met, I care not.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="148" n="114" form="verse">No, nor I.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="149" n="115" form="verse">I am come with confidence to chide you.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="150" n="116" form="prose">Who, me? Chide me? Do&#8217;t finely, then: let it not move me, for if thou chid&#8217;st me, angry I shall strike.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="151" n="117" form="verse">Strike thine own follies, for it is they</l>
+        <l gn="152" n="118" form="verse">Deserve to be well beaten. We are now in private;</l>
+        <l gn="153" n="119" form="verse">There&#8217;s none but thou and I. Thou&#8217;rt fond and peevish,</l>
+        <l gn="154" n="120" form="verse">An unclean rioter, thy lands and credit</l>
+        <l gn="155" n="121" form="verse">Lie now both sick of a consumption.</l>
+        <l gn="156" n="122" form="verse">I am sorry for thee: that man spends with shame</l>
+        <l gn="157" n="123" form="verse">That with his riches does consume his name,</l>
+        <l gn="158" n="124" form="verse">And such art thou.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="159" n="125" form="verse">Peace!</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="160" n="126" form="verse">No, thou shalt hear me further.</l>
+        <l gn="161" n="127" form="verse">Thy father&#8217;s and forefathers&#8217; worthy honors,</l>
+        <l gn="162" n="128" form="verse">Which were our country&#8217;s monuments, our grace,</l>
+        <l gn="163" n="129" form="verse">Follies in thee begin now to deface.</l>
+        <l gn="164" n="130" form="verse">The springtime of thy youth did fairly promise</l>
+        <l gn="165" n="131" form="verse">Such a most fruitful summer to thy friends,</l>
+        <l gn="166" n="132" form="verse">It scarce can enter into men&#8217;s beliefs</l>
+        <l gn="167" n="133" form="verse">Such dearth should hang on thee. We that see it</l>
+        <l gn="168" n="134" form="verse">Are sorry to believe it. In thy change</l>
+        <l gn="169" n="135" form="verse">This voice into all places will be hurl&#8217;d:</l>
+        <l gn="170" n="136" form="verse">Thou and the devil have deceived the world.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="171" n="137" form="verse">I&#8217;ll not endure thee!</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="172" n="138" form="verse">But of all the worst:</l>
+        <l gn="173" n="139" form="verse">Thy virtuous wife, right honorably allied,</l>
+        <l gn="174" n="140" form="verse">Thou hast proclaimed a strumpet.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="175" n="141" form="verse">Nay, then, I know thee:</l>
+        <l gn="176" n="142" form="verse">Thou art her champion, thou, her private friend,</l>
+        <l gn="177" n="143" form="verse">The party you wot on.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="178" n="144" form="verse">Oh, ignoble thought!</l>
+        <l gn="179" n="145" form="verse">I am past my patient blood. Shall I stand idle</l>
+        <l gn="180" n="146" form="verse">And see my reputation touch&#8217;d to death?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="181" n="147" form="verse">&#8217;T&#8217;as gall&#8217;d you this, has it?</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="182" n="148" form="verse">No, monster, I will prove</l>
+        <l gn="183" n="149" form="verse">My thoughts did only tend to virtuous love.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="184" n="150" form="verse">Love of her virtues? There it goes!</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="185" n="151" form="verse">Base spirit,</l>
+        <l gn="186" n="152" form="verse">To lay thy hate upon the fruitful honor</l>
+        <l gn="187" n="153" form="verse">Of thine own bed!</l>
+      </sp>
+      <stage sgn="187.01" sn="153.01">
+        <dir>They draw their swords and fight, and the Husband&#8217;s hurt.</dir>
+        <action type="fight">
+          <actor>4. GENT.</actor>
+          <recipient>HUSB.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="188" n="154" form="verse">Oh!</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="189" n="155" form="verse">Woult thou yield it yet?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="190" n="156" form="verse">Sir, sir, I have not done with you.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="191" n="157" form="verse">I hope, nor ne&#8217;er shall do.</l>
+      </sp>
+      <stage sgn="191.01" sn="157.01">
+        <dir>Fight again.</dir>
+        <action type="fight">
+          <actor>4. GENT.</actor>
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="192" n="158" form="verse">Have you got tricks?</l>
+        <l gn="193" n="159" form="verse">Are you in cunning with me?</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="194" n="160" form="verse">No, plain and right.</l>
+        <l gn="195" n="161" form="verse">He needs no cunning that for truth doth fight.</l>
+      </sp>
+      <stage sgn="195.01" sn="161.01">
+        <dir>Husband is wounded and falls down.</dir>
+        <action type="fight">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="196" n="162" form="verse">Hard fortune, am I leveled with the ground?</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="197" n="163" form="verse">Now, sir, you lie at mercy.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="198" n="164" form="verse">Ay, you slave!</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="199" n="165" form="verse">Alas, that hate should bring us to our grave!</l>
+        <l gn="200" n="166" form="verse">You see my sword&#8217;s not thirsty for your life.</l>
+        <l gn="201" n="167" form="verse">I am sorrier for your wound than yourself.</l>
+        <l gn="202" n="168" form="verse">Y&#8217;are of a virtuous house: show virtuous deeds;</l>
+        <l gn="203" n="169" form="verse">&#8217;Tis not your honor, &#8217;tis your folly bleeds.</l>
+        <l gn="204" n="170" form="verse">Much good has been expected in your life:</l>
+        <l gn="205" n="171" form="verse">Cancel not all men&#8217;s hopes. You have a wife</l>
+        <l gn="206" n="172" form="verse">Kind and obedient: heap not wrongful shame</l>
+        <l gn="207" n="173" form="verse">On her, your posterity. Let only sin be sore,</l>
+        <l gn="208" n="174" form="verse">And by this fall, rise never to fall more.</l>
+        <l gn="209" n="175" form="verse">And so I leave you.</l>
+      </sp>
+      <stage sgn="209.01" sn="175.01">
+        <dir>Exit Fourth Gentleman.</dir>
+        <action type="exit">
+          <actor>4. GENT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="210" n="176" form="verse">Has the dog left me then</l>
+        <l gn="211" n="177" form="verse">After his tooth hath left me? Oh, my heart</l>
+        <l gn="212" n="178" form="verse">Would fain leap after him; revenge, I say!</l>
+        <l gn="213" n="179" form="verse">I&#8217;m mad to be reveng&#8217;d! My strumpet wife,</l>
+        <l gn="214" n="180" form="verse">It is thy quarrel that rips thus my flesh,</l>
+        <l gn="215" n="181" form="verse">And makes my breast spit blood! But thou shalt bleed.</l>
+        <l gn="216" n="182" form="verse">Vanquish&#8217;d? Got down? Unable e&#8217;en to speak?</l>
+        <l gn="217" n="183" form="verse">Surely &#8217;tis want of money makes men weak.</l>
+        <l gn="218" n="184" form="verse">Ay, &#8216;twas that o&#8217;erthrew me; I&#8217;d ne&#8217;er been down else.</l>
+      </sp>
+      <stage sgn="218.01" sn="184.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="3">
+      <scenetitle>Scene 3</scenetitle>
+      <scenelocation>The Husband&#8217;s house, a room above.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WIFE.">Wife</scenepersona>
+        <scenepersona short="SERV.">Servant</scenepersona>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+      </scenepersonae>
+      <stage sgn="218.02" sn="0.01">
+        <dir>Enter Wife in a riding suit with a serving-man.</dir>
+        <action type="enter">
+          <actor>WIFE.</actor>
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="219" n="1" form="verse">Faith, mistress, if it might not be presumption</l>
+        <l gn="220" n="2" form="verse">In me to tell you so, for his excuse,</l>
+        <l gn="221" n="3" form="verse">You had small reason, knowing his abuse.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="222" n="4" form="verse">I grant I had, but alas,</l>
+        <l gn="223" n="5" form="verse">Why should our faults at home be spread abroad?</l>
+        <l gn="224" n="6" form="verse">&#8217;Tis grief enough within doors. At first sight</l>
+        <l gn="225" n="7" form="verse">Mine uncle could run o&#8217;er his prodigal life</l>
+        <l gn="226" n="8" form="verse">As perfectly as if his serious eye</l>
+        <l gn="227" n="9" form="verse">Had numbered all his follies,</l>
+        <l gn="228" n="10" form="verse">Knew of his mortgag&#8217;d lands, his friends in bonds,</l>
+        <l gn="229" n="11" form="verse">Himself withered with debts; and in that minute</l>
+        <l gn="230" n="12" form="verse">Had I added his usage and unkindness,</l>
+        <l gn="231" n="13" form="verse">&#8217;Twould have confounded every thought of good:</l>
+        <l gn="232" n="14" form="verse">Where now, fathering his riots on his youth,</l>
+        <l gn="233" n="15" form="verse">Which time and tame experience will shake off,</l>
+        <l gn="234" n="16" form="verse">Guessing his kindness to me&#8212;as I smoothed him</l>
+        <l gn="235" n="17" form="verse">With all the skill I had, though his deserts</l>
+        <l gn="236" n="18" form="verse">Are in form uglier than an unshap&#8217;d bear&#8212;</l>
+        <l gn="237" n="19" form="verse">He&#8217;s ready to prefer him to some office</l>
+        <l gn="238" n="20" form="verse">And place at court, a good and sure relief</l>
+        <l gn="239" n="21" form="verse">To all his stooping fortunes; &#8217;twill be a means, I hope,</l>
+        <l gn="240" n="22" form="verse">To make new league between us, and redeem</l>
+        <l gn="241" n="23" form="verse">His virtues with his lands.</l>
+      </sp>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="242" n="24" form="prose">I should think so, mistress. If he should not now be kind to you and love you, and cherish you up, I should think the devil himself kept open house in him.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="243" n="25" form="verse">I doubt not but he will now. Prithee, leave me; I think I hear him coming.</l>
+      </sp>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="244" n="26" form="prose">I am gone.</l>
+      </sp>
+      <stage sgn="244.01" sn="26.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="245" n="27" form="verse">By this good means I shall preserve my lands,</l>
+        <l gn="246" n="28" form="verse">And free my husband out of usurers&#8217; hands:</l>
+        <l gn="247" n="29" form="verse">Now there is no need of sale. My uncle&#8217;s kind;</l>
+        <l gn="248" n="30" form="verse">I hope, if aught, this will content his mind.</l>
+        <l gn="249" n="31" form="verse">Here comes my husband.</l>
+      </sp>
+      <stage sgn="249.01" sn="31.01">
+        <dir>Enter Husband.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="250" n="32" form="prose">Now, are you come? Where&#8217;s the money, let&#8217;s see the money. Is the rubbish sold, those wiseacres, your lands? Why, when! The money, where is&#8217;t? Pour&#8217;t down, down with it, down with it! I say, pour&#8217;t o&#8217; th&#8217; ground; let&#8217;s see&#8217;t, let&#8217;s see&#8217;t!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="251" n="33" form="verse">Good sir, keep but in patience, and I hope</l>
+        <l gn="252" n="34" form="verse">My words shall like you well. I bring you better</l>
+        <l gn="253" n="35" form="verse">Comfort than the sale of my dowry.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="254" n="36" form="verse">Hah? What&#8217;s that?</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="255" n="37" form="prose">Pray, do not fright me, sir, but vouchsafe me hearing. My uncle, glad of your kindness to me and mild usage&#8212;</l>
+        <l gn="256" n="38" form="verse">For so I made it to him&#8212;has in pity</l>
+        <l gn="257" n="39" form="verse">Of your declining fortunes, provided</l>
+        <l gn="258" n="40" form="verse">A place for you at court of worth and credit,</l>
+        <l gn="259" n="41" form="verse">Which so much overjoyed me.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="260" n="42" form="verse">Out on thee, filth!</l>
+        <l gn="261" n="43" form="verse">Over and overjoyed, when I&#8217;m in torments?</l>
+        <stage sgn="261.01" sn="43.01">
+          <dir>Spurns her.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+            <recipient>WIFE.</recipient>
+          </action>
+        </stage>
+        <l gn="262" n="44" form="prose">Thou politic whore, subtler than nine devils, was this thy journey to nuncle, to set down the history of me, of my state and fortunes? Shall I that dedicated myself to pleasure be now confin&#8217;d in service to crouch and stand like an old man i&#8217; th&#8217; hams, my hat off, I that never could abide to uncover my head i&#8217; th&#8217; church, base slut?</l>
+        <l gn="263" n="45" form="prose">This fruit bears thy complaints!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="264" n="46" form="verse">Oh, Heaven knows</l>
+        <l gn="265" n="47" form="verse">That my complaints were praises, and best words</l>
+        <l gn="266" n="48" form="verse">Of you, and your estate: only my friends</l>
+        <l gn="267" n="49" form="verse">Knew of your mortgag&#8217;d lands, and were possess&#8217;d</l>
+        <l gn="268" n="50" form="verse">Of every accident before I came.</l>
+        <l gn="269" n="51" form="verse">If thou suspect it but a plot in me</l>
+        <l gn="270" n="52" form="verse">To keep my dowry, or for mine own good</l>
+        <l gn="271" n="53" form="verse">Or my poor children&#8217;s&#8212;though it suits a mother</l>
+        <l gn="272" n="54" form="verse">To show a natural care in their reliefs,</l>
+        <l gn="273" n="55" form="verse">Yet I&#8217;ll forget myself to calm your blood&#8212;</l>
+        <l gn="274" n="56" form="verse">Consume it, as your pleasure counsels you;</l>
+        <l gn="275" n="57" form="verse">And all I wish, e&#8217;en clemency affords,</l>
+        <l gn="276" n="58" form="verse">Give me but comely looks and modest words.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="277" n="59" form="verse">Money, whore, money, or I&#8217;ll&#8212;</l>
+        <stage sgn="277.01" sn="59.01">
+          <dir>The Husband draws his dagger.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+          </action>
+        </stage>
+        <stage sgn="277.02" sn="59.02">
+          <dir>Enter a servant very hastily. The Husband speaks to his man.</dir>
+          <action type="enter">
+            <actor>SERV.</actor>
+          </action>
+          <action type="speak">
+            <actor>HUSB.</actor>
+            <recipient>SERV.</recipient>
+          </action>
+        </stage>
+        <l gn="278" n="60" form="verse">What the devil? How now? Thy hasty news?</l>
+      </sp>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <stage sgn="278.01" sn="60.01">
+          <dir>In a fear.</dir>
+          <action type="action">
+            <actor>SERV.</actor>
+          </action>
+        </stage>
+        <l gn="279" n="61" form="prose">May it please you, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="280" n="62" form="prose">What? May I not look upon my dagger? Speak, villain, or I will execute the point on thee: quick, short!</l>
+      </sp>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="281" n="63" form="prose">Why, sir, a gentleman from the university stays below to speak with you.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="282" n="64" form="verse">From the university? So, university:</l>
+        <l gn="283" n="65" form="verse">That long word runs through me.</l>
+      </sp>
+      <stage sgn="283.01" sn="65.01">
+        <dir>Exeunt Husband and Servant. Wife alone.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="284" n="66" form="verse">Was ever wife so wretchedly beset?</l>
+        <l gn="285" n="67" form="verse">Had not this news stepp&#8217;d in between, the point</l>
+        <l gn="286" n="68" form="verse">Had offered violence to my breast.</l>
+        <l gn="287" n="69" form="verse">That which some women call great misery</l>
+        <l gn="288" n="70" form="verse">Would show but little here, would scarce be seen</l>
+        <l gn="289" n="71" form="verse">Amongst my miseries. I may compare</l>
+        <l gn="290" n="72" form="verse">For wretched fortunes with all wives that are;</l>
+        <l gn="291" n="73" form="verse">Nothing will please him, until all be nothing.</l>
+        <l gn="292" n="74" form="verse">He calls it slavery to be prefer&#8217;d;</l>
+        <l gn="293" n="75" form="verse">A place of credit, a base servitude.</l>
+        <l gn="294" n="76" form="verse">What shall become of me, and my poor children,</l>
+        <l gn="295" n="77" form="verse">Two here, and one at nurse, my pretty beggars?</l>
+        <l gn="296" n="78" form="verse">I see how ruin with a palsy hand</l>
+        <l gn="297" n="79" form="verse">Begins to shake the ancient feet to dust;</l>
+        <l gn="298" n="80" form="verse">The heavy weight of sorrow draws my lids</l>
+        <l gn="299" n="81" form="verse">Over my dankish eyes, I can scarce see.</l>
+        <l gn="300" n="82" form="verse">Thus grief will last; it wakes and sleeps with me.</l>
+      </sp>
+      <stage sgn="300.01" sn="82.01">
+        <dir>Exit.</dir>
+        <action type="exit">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="4">
+      <scenetitle>Scene 4</scenetitle>
+      <scenelocation>The Husband&#8217;s house.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="SERV.">Servant</scenepersona>
+        <scenepersona short="SON.">First Son</scenepersona>
+      </scenepersonae>
+      <stage sgn="300.02" sn="0.01">
+        <dir>Enter the Husband with the Master of the College.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+          <actor>MAST.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="301" n="1" form="verse">Pray you draw near, sir, y&#8217;are exceeding welcome.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="302" n="2" form="prose">That&#8217;s my doubt, I fear; I come not to be welcome.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="303" n="3" form="prose">Yes, howsoever.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="304" n="4" form="prose">&#8217;Tis not my fashion, sir, to dwell in long circumstance, but to be plain and effectual, therefore to the purpose. The cause of my setting forth was piteous and lamentable. That hopeful young gentleman, your brother, whose virtues we all love dearly through your default and unnatural negligence, lies in bond executed for your debt, a prisoner, all his studies amazed, his hope strook dead, and the pride of his youth muffled in these dark clouds of oppression.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="305" n="5" form="prose">Hum, um, um.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="306" n="6" form="prose">Oh, you have killed the towardest hope of all our university! Wherefore without repentance and amends, expect ponderous and sudden judgments to fall grievously upon you. Your brother, a man who profited in his divine employments, might have made ten thousand souls fit for Heaven, now by your careless courses cast in prison which you must answer for; and assure your spirit it will come home at length.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="307" n="7" form="prose">Oh, God, oh.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="308" n="8" form="prose">Wifmen think ill of you, others speak ill of you, no man loves you; nay, even those whom honesty condemns, condemn you. And take this from the virtuous affection I bear your brother, never look for prosperous hour, good thought, quiet sleeps, contented walks, nor anything that makes man perfect till you redeem him. What is your answer? How will you bestow him? Upon desperate misery, or better hopes? I suffer till I hear your answer.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="309" n="9" form="prose">Sir, you have much wrought with me. I feel you in my soul; you are your arts&#8217; master. I never had sense till now; your syllables have cleft me. Both for your words and pains I thank you: I cannot but acknowledge grievous wrongs done to my brother, mighty, mighty, mighty wrongs. Within there?</l>
+      </sp>
+      <stage sgn="309.01" sn="9.01">
+        <dir>Enter a serving-man.</dir>
+        <action type="enter">
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Servant to the Husband">SERV.</speaker>
+        <l gn="310" n="10" form="prose">Sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="311" n="11" form="prose">Fill me a bowl of wine.</l>
+        <stage sgn="311.01" sn="11.01">
+          <dir>Exit Servant for wine.</dir>
+          <action type="exit">
+            <actor>SERV.</actor>
+          </action>
+        </stage>
+        <l gn="312" n="12" form="verse">Alas, poor brother,</l>
+        <l gn="313" n="13" form="verse">Bruis&#8217;d with an execution for my sake!</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="314" n="14" form="verse">A bruise indeed makes many a mortal</l>
+        <l gn="315" n="15" form="verse">Sore till the grave cure &#8217;em.</l>
+      </sp>
+      <stage sgn="315.01" sn="15.01">
+        <dir>Enter Servant with wine.</dir>
+        <action type="enter">
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="316" n="16" form="verse">Sir, I begin to you; y&#8217;have chid your welcome.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="317" n="17" form="verse">I could have wish&#8217;d it better for your sake.</l>
+        <l gn="318" n="18" form="verse">I pledge you, sir, to the kind man in prison.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="319" n="19" form="prose">Let it be so.</l>
+        <stage sgn="319.01" sn="19.01">
+          <dir>They both drink.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+            <actor>MAST.</actor>
+          </action>
+        </stage>
+        <l gn="320" n="20" form="prose">Now, sir, if you please to spend but a few minutes in a walk about my grounds below, my man shall attend you. I doubt not but by that time to be furnish&#8217;d of a sufficient answer, and therein my brother fully satisfied.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="321" n="21" form="prose">Good sir, in that the angels would be pleas&#8217;d, and the world&#8217;s murmurs calm&#8217;d, and I should say I set forth then upon a lucky day.</l>
+      </sp>
+      <stage sgn="321.01" sn="21.01">
+        <dir>Exit Master with Servant.</dir>
+        <action type="exit">
+          <actor>MAST.</actor>
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="322" n="22" form="prose">Oh thou confused man, thy pleasant sins have undone thee, thy damnation has beggar&#8217;d thee! That Heaven should say we must not sin, and yet made women, gives our senses way to find pleasure, which being found, confounds us. Why should we know those things so much misuse us? Oh, would virtue had been forbidden, we should then have proved all virtuous, for &#8217;tis our blood to love what we are forbidden! Had not drunkenness been forbidden, what man would have been fool to a beast, and zany to a swine to show tricks in the mire? What is there in three dice to make a man draw thrice three thousand acres into the compass of a round little table, and with the gentleman&#8217;s palsy in the hand, shake out his posterity? Thieves or beggars; &#8217;tis done, I ha&#8217; done&#8217;t, i&#8217;faith! Terrible, horrible misery! How well was I left, very well, very well! My lands showed like a full moon about me, but now the moon&#8217;s i&#8217; th&#8217; last quarter, waning, waning. And I am mad to think that moon was mine: mine and my father&#8217;s, and my forefathers&#8217;, generations, generations. Down goes the house of us, down, down, it sinks. Now is the name a beggar, begs in me that name which hundreds of years has made this shire famous: in me, and my posterity runs out. In my seed five are made miserable besides myself. My riot is now my brother&#8217;s jailer, my wife&#8217;s sighing, my three boys&#8217; penury, and mine own confusion.</l>
+        <stage sgn="322.01" sn="22.01">
+          <dir>Tears his hair.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+          </action>
+        </stage>
+        <l gn="323" n="23" form="verse">Why sit my hairs upon my cursed head?</l>
+        <l gn="324" n="24" form="verse">Will not this poison scatter them? Oh, my brother&#8217;s</l>
+        <l gn="325" n="25" form="verse">In execution among devils</l>
+        <l gn="326" n="26" form="verse">That stretch him and make him give. And I in want,</l>
+        <l gn="327" n="27" form="verse">Not able for to live, nor to redeem him.</l>
+        <l gn="328" n="28" form="verse">Divines and dying men may talk of Hell,</l>
+        <l gn="329" n="29" form="verse">But in my heart her several torments dwell.</l>
+        <l gn="330" n="30" form="verse">Slavery and misery! Who in this case</l>
+        <l gn="331" n="31" form="verse">Would not take up money upon his soul,</l>
+        <l gn="332" n="32" form="verse">Pawn his salvation, live at interest?</l>
+        <l gn="333" n="33" form="verse">I that did ever in abundance dwell,</l>
+        <l gn="334" n="34" form="verse">For me to want, exceeds the throes of Hell!</l>
+      </sp>
+      <stage sgn="334.01" sn="34.01">
+        <dir>Enters his little Son with a top and a scourge.</dir>
+        <action type="enter">
+          <actor>SON.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="First Son">SON.</speaker>
+        <l gn="335" n="35" form="prose">What ails you, father? Are you not well? I cannot scourge my top as long as you stand so: you take up all the room with your wide legs. Puh, you cannot make me afear&#8217;d with this; I fear no vizards, nor bugbears.</l>
+      </sp>
+      <stage sgn="335.01" sn="35.01">
+        <dir>Husband takes up the child by the skirts of his long coat in one hand and draws his dagger with th&#8217; other.</dir>
+        <action type="action">
+          <actor>HUSB.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="336" n="36" form="prose">Up, sir, for here thou hast no inheritance left!</l>
+      </sp>
+      <sp>
+        <speaker long="First Son">SON.</speaker>
+        <l gn="337" n="37" form="prose">Oh, what will you do, father? I am your white boy.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="338" n="38" form="prose">Thou shalt be my red boy; take that!</l>
+      </sp>
+      <stage sgn="338.01" sn="38.01">
+        <dir>Stabs him.</dir>
+        <action type="action">
+          <actor>HUSB.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="First Son">SON.</speaker>
+        <l gn="339" n="39" form="prose">Oh, you hurt me, father!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="340" n="40" form="prose">My eldest beggar, thou shalt not live to ask an usurer bread, to cry at a great man&#8217;s gate, or follow &#8220;Good your honor!&#8221; by a coach; no, nor your brother. &#8217;Tis charity to brain you.</l>
+      </sp>
+      <sp>
+        <speaker long="First Son">SON.</speaker>
+        <l gn="341" n="41" form="prose">How shall I learn now my head&#8217;s broke?</l>
+      </sp>
+      <stage sgn="341.01" sn="41.01">
+        <dir>The Husband stabs him.</dir>
+        <action type="action">
+          <actor>HUSB.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="342" n="42" form="verse">Bleed, bleed, rather than beg, beg;</l>
+        <l gn="343" n="43" form="verse">Be not thy name&#8217;s disgrace.</l>
+        <l gn="344" n="44" form="verse">Spurn thou thy fortunes first if they be base.</l>
+        <l gn="345" n="45" form="verse">Come view thy second brother. Fates,</l>
+        <l gn="346" n="46" form="verse">My children&#8217;s blood shall spin into your faces!</l>
+        <l gn="347" n="47" form="verse">You shall see</l>
+        <l gn="348" n="48" form="verse">How confidently we scorn beggary!</l>
+      </sp>
+      <stage sgn="348.01" sn="48.01">
+        <dir>Exit with his Son.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="5">
+      <scenetitle>Scene 5</scenetitle>
+      <scenelocation>The Husband&#8217;s house, the room above.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WIFE.">Wife</scenepersona>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="MAID.">Maid</scenepersona>
+        <scenepersona short="LUSTY.">Lusty Servant</scenepersona>
+        <scenepersona short="SON.">First Son</scenepersona>
+      </scenepersonae>
+      <stage sgn="348.02" sn="0.01">
+        <dir>Enter a Maid with a child in her arms, the mother, Wife, by her asleep.</dir>
+        <action type="enter">
+          <actor>MAID.</actor>
+        </action>
+        <action type="enter">
+          <actor>WIFE.</actor>
+        </action>
+        <action type="action">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Maid">MAID.</speaker>
+        <l gn="349" n="1" form="verse">Sleep, sweet babe: sorrow makes thy mother sleep.</l>
+        <l gn="350" n="2" form="verse">It bodes small good when Heaven falls so deep.</l>
+        <l gn="351" n="3" form="verse">Hush, pretty boy, thy hopes might have been better;</l>
+        <l gn="352" n="4" form="verse">&#8217;Tis lost at dice what ancient honors won,</l>
+        <l gn="353" n="5" form="verse">Hard when the father plays away the son;</l>
+        <l gn="354" n="6" form="verse">Nothing but misery serves in this house.</l>
+        <l gn="355" n="7" form="verse">Ruin and desolation, oh!</l>
+      </sp>
+      <stage sgn="355.01" sn="7.01">
+        <dir>Enter Husband with the boy bleeding.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+          <actor>SON.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="356" n="8" form="verse">Whore, give me that boy!</l>
+      </sp>
+      <stage sgn="356.01" sn="8.01">
+        <dir>Strives with her for the child.</dir>
+        <action type="fight">
+          <actor>HUSB.</actor>
+          <actor>MAID.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Maid">MAID.</speaker>
+        <l gn="357" n="9" form="verse">Oh, help, help! Out, alas! Murder, murder!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="358" n="10" form="verse">Are you gossiping, prating, sturdy quean?</l>
+        <l gn="359" n="11" form="verse">I&#8217;ll break your clamor with your neck downstairs:</l>
+        <l gn="360" n="12" form="verse">Tumble, tumble, headlong!</l>
+        <stage sgn="360.01" sn="12.01">
+          <dir>Throws her down.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+            <recipient>MAID.</recipient>
+          </action>
+        </stage>
+        <l gn="361" n="13" form="verse">So, the surest way to charm a woman&#8217;s tongue</l>
+        <l gn="362" n="14" form="verse">Is break her neck: a politician did it.</l>
+      </sp>
+      <sp>
+        <speaker long="First Son">SON.</speaker>
+        <l gn="363" n="15" form="verse">Mother, mother, I am kill&#8217;d, mother!</l>
+      </sp>
+      <stage sgn="363.01" sn="15.01">
+        <dir>The Wife wakes.</dir>
+        <action type="action">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="364" n="16" form="verse">Ha, who&#8217;s that cried? Oh me, my children!</l>
+        <l gn="365" n="17" form="verse">Both, both, both bloody, bloody!</l>
+      </sp>
+      <stage sgn="365.01" sn="17.01">
+        <dir>Catches up the youngest.</dir>
+        <action type="action">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="366" n="18" form="verse">Strumpet, let go the boy, let go the beggar!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="367" n="19" form="verse">Oh, my sweet husband!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="368" n="20" form="verse">Filth, harlot!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="369" n="21" form="verse">Oh, what will you do, dear husband?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="370" n="22" form="verse">Give me the bastard!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="371" n="23" form="verse">Your own sweet boy!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="372" n="24" form="verse">There are too many beggars!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="373" n="25" form="verse">Good my husband&#8212;</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="374" n="26" form="verse">Dost thou prevent me still?</l>
+      </sp>
+      <stage sgn="374.01" sn="26.01">
+        <dir>Stabs at the child in her arms.</dir>
+        <action type="action">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="375" n="27" form="verse">Oh God!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="376" n="28" form="verse">Have at his heart!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="377" n="29" form="verse">Oh, my dear boy!</l>
+      </sp>
+      <stage sgn="377.01" sn="29.01">
+        <dir>The Husband gets the child from her.</dir>
+        <action type="action">
+          <actor>HUSB.</actor>
+          <recipient>WIFE.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="378" n="30" form="verse">Brat, thou shalt not live to shame thy house!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="379" n="31" form="verse">Oh Heaven!</l>
+      </sp>
+      <stage sgn="379.01" sn="31.01">
+        <dir>She&#8217;s hurt and sinks down.</dir>
+        <action type="action">
+          <actor>WIFE.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="380" n="32" form="verse">And perish now, be gone!</l>
+        <l gn="381" n="33" form="verse">There&#8217;s whores enow, and want would make thee one!</l>
+      </sp>
+      <stage sgn="381.01" sn="33.01">
+        <dir>Enter a Lusty Servant.</dir>
+        <action type="enter">
+          <actor>LUSTY.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="382" n="34" form="verse">Oh, sir, what deeds are these?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="383" n="35" form="verse">Base slave, my vassal,</l>
+        <l gn="384" n="36" form="verse">Comest thou between my fury to question me?</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="385" n="37" form="verse">Were you the devil, I would hold you, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="386" n="38" form="verse">Hold me? Presumption, I&#8217;ll undo thee for&#8217;t!</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="387" n="39" form="verse">&#8217;Sblood, you have undone us all, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="388" n="40" form="verse">Tug at thy master?</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="389" n="41" form="verse">Tug at a monster!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="390" n="42" form="verse">Have I no power? Shall my slave fetter me?</l>
+      </sp>
+      <stage sgn="390.01" sn="42.01">
+        <dir>The Husband wrestles with the Lusty Servant.</dir>
+        <action type="fight">
+          <actor>HUSB.</actor>
+          <actor>LUSTY.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="391" n="43" form="verse">Nay then, the devil wrastles! I am thrown!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="392" n="44" form="verse">Oh, villain, now I&#8217;ll tug thee, now I&#8217;ll tear thee!</l>
+        <stage sgn="392.01" sn="44.01">
+          <dir>Overcomes him and kicks him with his spurs.</dir>
+          <action type="fight">
+            <actor>HUSB.</actor>
+            <recipient>LUSTY.</recipient>
+          </action>
+        </stage>
+        <l gn="393" n="45" form="verse">Set quick spurs to my vassal, bruise him, trample him!</l>
+        <l gn="394" n="46" form="verse">So, I think thou wilt not follow me in haste.</l>
+        <l gn="395" n="47" form="verse">My horse stands ready saddled; away, away!</l>
+        <l gn="396" n="48" form="verse">Now to my brat at nurse, my sucking beggar:</l>
+        <l gn="397" n="49" form="verse">Fates, I&#8217;ll not leave you one to trample on!</l>
+      </sp>
+      <stage sgn="397.01" sn="49.01">
+        <action type="exit">
+          <actor>MAID.</actor>
+          <actor>WIFE.</actor>
+          <actor>HUSB.</actor>
+          <actor>SON.</actor>
+          <actor>LUSTY.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="6">
+      <scenetitle>Scene 6</scenetitle>
+      <scenelocation>The Husband&#8217;s house, the room below.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="1. SERV.">First Servant to the Master of the College</scenepersona>
+        <scenepersona short="2. SERV.">Second Servant to the Master of the College</scenepersona>
+      </scenepersonae>
+      <stage sgn="397.02" sn="0.01">
+        <dir>The Husband enters and the Master, with his servants, meets him.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+          <actor>MAST.</actor>
+          <actor>1. SERV.</actor>
+          <actor>2. SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="398" n="1" form="verse">How is&#8217;t with you, sir?</l>
+        <l gn="399" n="2" form="verse">Methinks you look of a distracted color.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="400" n="3" form="verse">Who, I, sir? &#8217;Tis but your fancy.</l>
+        <l gn="401" n="4" form="verse">Please you walk in, sir, and I&#8217;ll soon resolve you.</l>
+        <l gn="402" n="5" form="verse">I want one small part to make up the sum,</l>
+        <l gn="403" n="6" form="verse">And then my brother shall rest satisfied.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="404" n="7" form="verse">I shall be glad to see it, sir. I&#8217;ll attend you.</l>
+      </sp>
+      <stage sgn="404.01" sn="7.01">
+        <dir>Exit Husband. Master and his servants go to room above.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+        </action>
+        <action type="exit">
+          <actor>MAST.</actor>
+          <actor>1. SERV.</actor>
+          <actor>2. SERV.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="7">
+      <scenetitle>Scene 7</scenetitle>
+      <scenelocation>The Husband&#8217;s house, the room above.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WIFE.">Wife</scenepersona>
+        <scenepersona short="SON.">First Son</scenepersona>
+        <scenepersona short="LUSTY.">Lusty Servant</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="1. SERV.">First Servant to the Master of the College</scenepersona>
+        <scenepersona short="2. SERV.">Second Servant to the Master of the College</scenepersona>
+      </scenepersonae>
+      <stage sgn="404.02" sn="0.01">
+        <action type="enter">
+          <actor>WIFE.</actor>
+          <actor>SON.</actor>
+          <actor>LUSTY.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="405" n="1" form="verse">Oh, I am scarce able to heave up myself:</l>
+        <l gn="406" n="2" form="verse">H&#8217;as so bruis&#8217;d me with his devilish weight,</l>
+        <l gn="407" n="3" form="verse">And torn my flesh with his blood-hasty spur.</l>
+        <l gn="408" n="4" form="verse">A man before of easy constitution</l>
+        <l gn="409" n="5" form="verse">Till now, Hell&#8217;s power supplied to his soul&#8217;s wrong.</l>
+        <l gn="410" n="6" form="verse">Oh, how damnation can make weak men strong!</l>
+        <stage sgn="410.01" sn="6.01">
+          <dir>Enter Master of the College and two Servants.</dir>
+          <action type="enter">
+            <actor>MAST.</actor>
+            <actor>1. SERV.</actor>
+            <actor>2. SERV.</actor>
+          </action>
+        </stage>
+        <l gn="411" n="7" form="verse">Oh, the most piteous deed, sir, since you came!</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="412" n="8" form="verse">A deadly greeting! Has he summ&#8217;d up this</l>
+        <l gn="413" n="9" form="verse">To satisfy his brother? Here&#8217;s another:</l>
+        <l gn="414" n="10" form="verse">And by the bleeding infants, the dead mother!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="415" n="11" form="verse">Oh, oh!</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="416" n="12" form="verse">Surgeons, surgeons! She recovers life!</l>
+        <l gn="417" n="13" form="verse">One of his men all faint and bloodied!</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="418" n="14" form="verse">Follow; our murderous master has took horse</l>
+        <l gn="419" n="15" form="verse">To kill his child at nurse! Oh, follow quickly!</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="420" n="16" form="verse">I am the readiest; it shall be my charge</l>
+        <l gn="421" n="17" form="verse">To raise the town upon him!</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="422" n="18" form="verse">Good sir, do follow him.</l>
+      </sp>
+      <stage sgn="422.01" sn="18.01">
+        <dir>Exeunt Master and Servants.</dir>
+        <action type="exit">
+          <actor>MAST.</actor>
+          <actor>1. SERV.</actor>
+          <actor>2. SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="423" n="19" form="verse">Oh, my children!</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="424" n="20" form="verse">How is it with my most afflicted mistress?</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="425" n="21" form="verse">Why do I now recover? Why half live?</l>
+        <l gn="426" n="22" form="verse">To see my children bleed before mine eyes,</l>
+        <l gn="427" n="23" form="verse">A sight able to kill a mother&#8217;s breast</l>
+        <l gn="428" n="24" form="verse">Without an executioner! What, art thou mangled, too?</l>
+      </sp>
+      <sp>
+        <speaker long="Lusty Servant">LUSTY.</speaker>
+        <l gn="429" n="25" form="prose">I, thinking to prevent what his quick mischiefs had so soon acted, came and rush&#8217;d upon him.</l>
+        <l gn="430" n="26" form="verse">We struggled, but a fouler strength than his</l>
+        <l gn="431" n="27" form="verse">O&#8217;erthrew me with his arms; then did he bruise me</l>
+        <l gn="432" n="28" form="verse">And rent my flesh, and robb&#8217;d me of my hair</l>
+        <l gn="433" n="29" form="verse">Like a man mad in execution,</l>
+        <l gn="434" n="30" form="verse">Made me unfit to rise and follow him.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="435" n="31" form="verse">What is it has beguil&#8217;d him of all grace</l>
+        <l gn="436" n="32" form="verse">And stole away humanity from his breast,</l>
+        <l gn="437" n="33" form="verse">To slay his children, purpos&#8217;d to kill his wife,</l>
+        <l gn="438" n="34" form="verse">And spoil his servants?</l>
+      </sp>
+      <stage sgn="438.01" sn="34.01">
+        <dir>Enter two Servants of the Master of the College.</dir>
+        <action type="enter">
+          <actor>1. SERV.</actor>
+          <actor>2. SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="First Servant to the Master of the College">1. SERV.</speaker>
+        <l gn="439" n="35" form="verse">Please you, leave this most accursed place;</l>
+        <l gn="440" n="36" form="verse">A surgeon waits within.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="441" n="37" form="verse">Willing to leave it.</l>
+        <l gn="442" n="38" form="verse">&#8217;Tis guilty of sweet blood, innocent blood.</l>
+        <l gn="443" n="39" form="verse">Murder has took this chamber with full hands,</l>
+        <l gn="444" n="40" form="verse">And will ne&#8217;er out as long as the house stands.</l>
+      </sp>
+      <stage sgn="444.01" sn="40.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>LUSTY.</actor>
+          <actor>1. SERV.</actor>
+          <actor>2. SERV.</actor>
+          <actor>WIFE.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="8">
+      <scenetitle>Scene 8</scenetitle>
+      <scenelocation>A road just outside Yorkshire.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="1. GENT.">First Gentleman</scenepersona>
+        <scenepersona short="2. GENT.">Second Gentleman</scenepersona>
+        <scenepersona short="3. GENT.">Third Gentleman</scenepersona>
+        <scenepersona short="HALB.">Halberdiers</scenepersona>
+      </scenepersonae>
+      <stage sgn="444.02" sn="0.01">
+        <dir>Enter Husband as being thrown off his horse, and falls.</dir>
+        <action type="enter">
+          <actor>HUSB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="445" n="1" form="verse">Oh, stumbling jade, the spavin overtake thee, the fifty diseases stop thee!</l>
+        <l gn="446" n="2" form="verse">Oh, I am sorely bruis&#8217;d! Plague founder thee!</l>
+        <l gn="447" n="3" form="verse">Thou runn&#8217;st at ease and pleasure, heart, of chance</l>
+        <l gn="448" n="4" form="verse">To throw me now with a flight o&#8217; th&#8217; town,</l>
+        <l gn="449" n="5" form="prose">In such plain even ground! &#8217;Sfoot, a man may dice upon&#8217;t, and throw away the meadows, filthy beast!</l>
+      </sp>
+      <stage sgn="449.01" sn="5.01">
+        <dir>Cries of &#8220;Follow, follow, follow!"</dir>
+        <action type="speak" offstage="true">
+          <actor>MAST.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="450" n="6" form="verse">Ha? I hear sounds of men, like hew and cry.</l>
+        <l gn="451" n="7" form="verse">Up, up, and struggle to thy horse! Make on!</l>
+        <l gn="452" n="8" form="verse">Dispatch that little beggar and all&#8217;s done!</l>
+        <stage sgn="452.01" sn="8.01">
+          <dir>Cries of &#8220;Here, this way, this way!"</dir>
+          <action type="speak" offstage="true">
+            <actor>MAST.</actor>
+          </action>
+        </stage>
+        <l gn="453" n="9" form="verse">At my back? Oh,</l>
+        <l gn="454" n="10" form="verse">What fate have I! My limbs deny me go.</l>
+        <l gn="455" n="11" form="verse">My will is bated; beggary claims a part.</l>
+        <l gn="456" n="12" form="verse">Oh, could I here reach to the infant&#8217;s heart!</l>
+      </sp>
+      <stage sgn="456.01" sn="12.01">
+        <dir>Enter Master of the College, three Gentlemen, and others with halberds. They find him.</dir>
+        <action type="enter">
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>HALB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="All Gentlemen">ALL GENT.</speaker>
+        <l gn="457" n="13" form="verse">Here, here, yonder, yonder!</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="458" n="14" form="verse">Unnatural, flinty, more than barbarous:</l>
+        <l gn="459" n="15" form="verse">The Scythians in their marble-hearted fates</l>
+        <l gn="460" n="16" form="verse">Could not have acted more remorseless deeds</l>
+        <l gn="461" n="17" form="verse">In their relentless natures than these of thine!</l>
+        <l gn="462" n="18" form="verse">Was this the answer I long waited on,</l>
+        <l gn="463" n="19" form="verse">The satisfaction of thy prisoned brother?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="464" n="20" form="verse">Why, he can have no more on&#8217;s than our skins,</l>
+        <l gn="465" n="21" form="verse">And some of &#8217;em want but fleaing.</l>
+      </sp>
+      <sp>
+        <speaker long="First Gentleman">1. GENT.</speaker>
+        <l gn="466" n="22" form="verse">Great sins have made him impudent.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="467" n="23" form="verse">H&#8217;as shed so much blood that he cannot blush.</l>
+      </sp>
+      <sp>
+        <speaker long="Second Gentleman">2. GENT.</speaker>
+        <l gn="468" n="24" form="verse">Away with him; bear him along to the justice!</l>
+        <l gn="469" n="25" form="verse">A gentleman of worship dwells at hand;</l>
+        <l gn="470" n="26" form="verse">There shall his deeds be blaz&#8217;d.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="471" n="27" form="verse">Why, all the better.</l>
+        <l gn="472" n="28" form="verse">My glory &#8217;tis to have my action known.</l>
+        <l gn="473" n="29" form="verse">I grieve for nothing, but I miss&#8217;d of one.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="474" n="30" form="verse">There&#8217;s little of a father in that grief.</l>
+        <l gn="475" n="31" form="verse">Bear him away.</l>
+      </sp>
+      <stage sgn="475.01" sn="31.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>HALB.</actor>
+          <recipient>HUSB.</recipient>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="9">
+      <scenetitle>Scene 9</scenetitle>
+      <scenelocation>The Knight&#8217;s house.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="KNIGHT.">Knight (Justice of the Peace)</scenepersona>
+        <scenepersona short="1. GENT.">First Gentleman</scenepersona>
+        <scenepersona short="2. GENT.">Second Gentleman</scenepersona>
+        <scenepersona short="3. GENT.">Third Gentleman</scenepersona>
+        <scenepersona short="4. GENT.">Fourth Gentleman</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="HALB.">Halberdiers</scenepersona>
+      </scenepersonae>
+      <stage sgn="475.02" sn="0.01">
+        <dir>Enter a Knight with the Fourth Gentlemen.</dir>
+        <action type="enter">
+          <actor>KNIGHT.</actor>
+          <actor>4. GENT.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="476" n="1" form="verse">Endangered so his wife? Murdered his children?</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="477" n="2" form="verse">So the cry comes.</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="478" n="3" form="verse">I am sorry I e&#8217;er knew him,</l>
+        <l gn="479" n="4" form="verse">That ever he took life and natural being</l>
+        <l gn="480" n="5" form="verse">From such an honored stock and fair descent</l>
+        <l gn="481" n="6" form="verse">Till this black minute without stain or blemish.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="482" n="7" form="verse">Here come the men.</l>
+      </sp>
+      <stage sgn="482.01" sn="7.01">
+        <dir>Enter the Master of the College and the rest, with the Husband prisoner.</dir>
+        <action type="enter">
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>HALB.</actor>
+          <recipient>HUSB.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="483" n="8" form="verse">The serpent of his house?</l>
+        <l gn="484" n="9" form="verse">I&#8217;m sorry for this time that I am in place of justice.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="485" n="10" form="verse">Please you, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="486" n="11" form="verse">Do not repeat it twice: I know too much.</l>
+        <l gn="487" n="12" form="verse">Would it had ne&#8217;er been thought on.</l>
+        <l gn="488" n="13" form="verse">Sir, I bleed for you.</l>
+      </sp>
+      <sp>
+        <speaker long="Fourth Gentleman">4. GENT.</speaker>
+        <l gn="489" n="14" form="verse">Your father&#8217;s sorrows are alive in men:</l>
+        <l gn="490" n="15" form="verse">What made you show such monstrous cruelty?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="491" n="16" form="verse">In a word, sir,</l>
+        <l gn="492" n="17" form="verse">I have consum&#8217;d all, play&#8217;d away Longacre,</l>
+        <l gn="493" n="18" form="verse">And I thought it the charitablest deed I could do</l>
+        <l gn="494" n="19" form="verse">To cozen beggary, and knock my house o&#8217; th&#8217; head.</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="495" n="20" form="verse">Oh, in a cooler blood you will repent it!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="496" n="21" form="verse">I repent now, that one&#8217;s left unkill&#8217;d,</l>
+        <l gn="497" n="22" form="verse">My brat at nurse. Oh, I would full fain have wean&#8217;d him!</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="498" n="23" form="verse">Well, I do not think but in tomorrow&#8217;s judgment</l>
+        <l gn="499" n="24" form="verse">The terror will sit closer to your soul</l>
+        <l gn="500" n="25" form="verse">When the dread thought of death remembers you;</l>
+        <l gn="501" n="26" form="verse">To further which, take this sad voice from me:</l>
+        <l gn="502" n="27" form="verse">Never was act play&#8217;d more unnaturally.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="503" n="28" form="verse">I thank you, sir.</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="504" n="29" form="verse">Go, lead him to the jail,</l>
+        <l gn="505" n="30" form="verse">Where justice claims all; there must pity fail.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="506" n="31" form="verse">Come, come, away with me.</l>
+      </sp>
+      <stage sgn="506.01" sn="31.01">
+        <dir>Exit the Husband as prisoner.</dir>
+        <action type="exit">
+          <actor>HALB.</actor>
+          <recipient>HUSB.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="507" n="32" form="verse">Sir, you deserve the worship of your place;</l>
+        <l gn="508" n="33" form="verse">Would all did so: in you the law is grace.</l>
+      </sp>
+      <sp>
+        <speaker long="Knight (Justice of the Peace)">KNIGHT.</speaker>
+        <l gn="509" n="34" form="verse">It is my wish it should be so. Ruinous man,</l>
+        <l gn="510" n="35" form="verse">The desolation of his house, the blot</l>
+        <l gn="511" n="36" form="verse">Upon his predecessors&#8217; honor&#8217;d name:</l>
+        <l gn="512" n="37" form="verse">That man is nearest shame that is past shame.</l>
+      </sp>
+      <stage sgn="512.01" sn="37.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>KNIGHT.</actor>
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>4. GENT.</actor>
+        </action>
+      </stage>
+    </scene>
+    <scene actnum="1" num="10">
+      <scenetitle>Scene 10</scenetitle>
+      <scenelocation>Outside the Husband&#8217;s house, near Yorkshire.</scenelocation>
+      <scenepersonae>
+        <scenepersona short="WIFE.">Wife</scenepersona>
+        <scenepersona short="HUSB.">Husband</scenepersona>
+        <scenepersona short="1. GENT.">First Gentleman</scenepersona>
+        <scenepersona short="2. GENT.">Second Gentleman</scenepersona>
+        <scenepersona short="3. GENT.">Third Gentleman</scenepersona>
+        <scenepersona short="MAST.">Master of the College</scenepersona>
+        <scenepersona short="SERV.">Servant</scenepersona>
+        <scenepersona short="HALB.">Halberdiers</scenepersona>
+        <scenepersona short="SON.">First Son</scenepersona>
+      </scenepersonae>
+      <stage sgn="512.02" sn="0.01">
+        <dir>Enter Husband with the officers, the Master and Gentlemen as going by his house.</dir>
+        <action type="enter">
+          <actor>HALB.</actor>
+          <actor>HUSB.</actor>
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>SON.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="513" n="1" form="verse">I am right against my house, seat of my ancestors.</l>
+        <l gn="514" n="2" form="verse">I hear my wife&#8217;s alive, but much endangered:</l>
+        <l gn="515" n="3" form="verse">Let me entreat to speak with her before</l>
+        <l gn="516" n="4" form="verse">The prison gripe me.</l>
+      </sp>
+      <stage sgn="516.01" sn="4.01">
+        <dir>Enter his Wife. A chair is brought in.</dir>
+        <action type="enter">
+          <actor>WIFE.</actor>
+          <actor>SERV.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="First Gentleman">1. GENT.</speaker>
+        <l gn="517" n="5" form="verse">See, here she comes of herself.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="518" n="6" form="verse">Oh, my sweet husband, my dear distressed husband,</l>
+        <l gn="519" n="7" form="verse">Now in the hands of unrelenting laws,</l>
+        <l gn="520" n="8" form="verse">My greatest sorrow, my extremest bleeding,</l>
+        <l gn="521" n="9" form="verse">Now my soul bleeds!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="522" n="10" form="prose">How now? Kind to me? Did I not wound thee, left thee for dead?</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="523" n="11" form="verse">Tut, far greater wounds did my breast feel:</l>
+        <l gn="524" n="12" form="verse">Unkindness strikes a deeper wound than steel.</l>
+        <l gn="525" n="13" form="verse">You have been still unkind to me.</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="526" n="14" form="verse">Faith, and so I think I have.</l>
+        <l gn="527" n="15" form="verse">I did my murders roughly out of hand,</l>
+        <l gn="528" n="16" form="verse">Desperate and sudden, but thou hast devis&#8217;d</l>
+        <l gn="529" n="17" form="verse">A fine way now to kill me; thou hast given mine eyes</l>
+        <l gn="530" n="18" form="verse">Seven wounds a piece. Now glides the devil from</l>
+        <l gn="531" n="19" form="verse">Me, departs at every joint, heaves up my nails!</l>
+        <l gn="532" n="20" form="verse">Oh, catch him! New torments that were ne&#8217;er invented!</l>
+        <l gn="533" n="21" form="verse">Bind him one thousand more, you blessed angels,</l>
+        <l gn="534" n="22" form="verse">In that pit bottomless! Let him not rise</l>
+        <l gn="535" n="23" form="verse">To make men act unnatural tragedies,</l>
+        <l gn="536" n="24" form="verse">To spread into a father, and in fury,</l>
+        <l gn="537" n="25" form="verse">Make him his children&#8217;s executioners,</l>
+        <l gn="538" n="26" form="verse">Murder his wife, his servants, and who not!</l>
+        <l gn="539" n="27" form="verse">For that man&#8217;s dark where Heaven is quite forgot.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="540" n="28" form="verse">Oh, my repentant husband!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="541" n="29" form="verse">My dear soul, whom I too much have wrong&#8217;d,</l>
+        <l gn="542" n="30" form="verse">For death I die, and for this have I long&#8217;d.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="543" n="31" form="verse">Thou shouldst not&#8212;be assured&#8212;for these faults die,</l>
+        <l gn="544" n="32" form="verse">If the law could forgive as soon as I.</l>
+      </sp>
+      <stage sgn="544.01" sn="32.01">
+        <dir>Children laid out.</dir>
+        <action type="action">
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <recipient>SON.</recipient>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="545" n="33" form="verse">What sight is yonder?</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="546" n="34" form="verse">Oh, our two bleeding boys laid forth upon the threshold!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="547" n="35" form="verse">Here&#8217;s weight enough to make a heartstring crack!</l>
+        <l gn="548" n="36" form="verse">Oh, were it lawful that your pretty souls</l>
+        <l gn="549" n="37" form="verse">Might look from Heaven into your father&#8217;s eyes,</l>
+        <l gn="550" n="38" form="verse">Then should you see the penitent glasses melt,</l>
+        <l gn="551" n="39" form="verse">And both your murders shoot upon my cheeks!</l>
+        <l gn="552" n="40" form="verse">But you are playing in the angels&#8217; laps,</l>
+        <l gn="553" n="41" form="verse">And will not look on me,</l>
+        <l gn="554" n="42" form="verse">Who, void of grace, kill&#8217;d you in beggary.</l>
+        <l gn="555" n="43" form="verse">Oh, that I might my wishes now attain,</l>
+        <l gn="556" n="44" form="verse">I should then wish you living were again,</l>
+        <l gn="557" n="45" form="verse">Though I did beg with you, which thing I fear&#8217;d!</l>
+        <l gn="558" n="46" form="verse">Oh, &#8216;twas the enemy my eyes so blear&#8217;d!</l>
+        <l gn="559" n="47" form="verse">Oh, would you could pray Heaven me to forgive</l>
+        <l gn="560" n="48" form="verse">That will unto my end repentant live!</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="561" n="49" form="verse">It makes me e&#8217;en forget all other sorrows</l>
+        <l gn="562" n="50" form="verse">And leaven part with this. Come, will you go?</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="563" n="51" form="verse">I&#8217;ll kiss the blood I spilt and then I go:</l>
+        <l gn="564" n="52" form="verse">My soul is bloodied, well may my lips be so.</l>
+        <stage sgn="564.01" sn="52.01">
+          <dir>He kisses the children.</dir>
+          <action type="action">
+            <actor>HUSB.</actor>
+            <recipient>SON.</recipient>
+          </action>
+        </stage>
+        <l gn="565" n="53" form="verse">Farewell, dear wife, now thou and I must part;</l>
+        <l gn="566" n="54" form="verse">I of thy wrongs repent me with my heart.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="567" n="55" form="verse">Oh, stay, thou shalt not go!</l>
+      </sp>
+      <sp>
+        <speaker long="Husband">HUSB.</speaker>
+        <l gn="568" n="56" form="verse">That&#8217;s but in vain; you must see it so.</l>
+        <l gn="569" n="57" form="verse">Farewell, ye bloody ashes of my boys;</l>
+        <l gn="570" n="58" form="verse">My punishments are their eternal joys.</l>
+        <l gn="571" n="59" form="verse">Let every father look into my deeds,</l>
+        <l gn="572" n="60" form="verse">And then their heirs may prosper while mine bleeds.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="573" n="61" form="verse">More wretched am I now in this distress</l>
+        <l gn="574" n="62" form="verse">Than former sorrows made me.</l>
+      </sp>
+      <stage sgn="574.01" sn="62.01">
+        <dir>Exeunt Husband and Halberdiers guarding him.</dir>
+        <action type="exit">
+          <actor>HUSB.</actor>
+          <actor>HALB.</actor>
+        </action>
+      </stage>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="575" n="63" form="verse">Oh kind wife, be comforted!</l>
+        <l gn="576" n="64" form="verse">One joy is yet unmurdered:</l>
+        <l gn="577" n="65" form="verse">You have a boy at nurse: your joy&#8217;s in him.</l>
+      </sp>
+      <sp>
+        <speaker long="Wife">WIFE.</speaker>
+        <l gn="578" n="66" form="verse">Dearer than all is my poor husband&#8217;s life.</l>
+        <l gn="579" n="67" form="verse">Heaven give my body strength, which yet is faint</l>
+        <l gn="580" n="68" form="verse">With much expense of blood, and I will kneel,</l>
+        <l gn="581" n="69" form="verse">Sue for his life, number up all my friends</l>
+        <l gn="582" n="70" form="verse">To plead for pardon my dear husband&#8217;s life.</l>
+      </sp>
+      <sp>
+        <speaker long="Master of a College">MAST.</speaker>
+        <l gn="583" n="71" form="verse">Was it in man to wound so kind a creature?</l>
+        <l gn="584" n="72" form="verse">I&#8217;ll ever praise a woman for thy sake.</l>
+        <l gn="585" n="73" form="verse">I must return with grief, my answer&#8217;s set.</l>
+        <l gn="586" n="74" form="verse">I shall bring news weighs heavier than the debt:</l>
+        <l gn="587" n="75" form="verse">Two brothers, one in bond lies overthrown,</l>
+        <l gn="588" n="76" form="verse">This on a deadlier execution.</l>
+      </sp>
+      <stage sgn="588.01" sn="76.01">
+        <dir>Exeunt.</dir>
+        <action type="exit">
+          <actor>MAST.</actor>
+          <actor>1. GENT.</actor>
+          <actor>2. GENT.</actor>
+          <actor>3. GENT.</actor>
+          <actor>WIFE.</actor>
+          <actor>SERV.</actor>
+          <actor>SON.</actor>
+        </action>
+      </stage>
+    </scene>
+  </act>
+</play>
