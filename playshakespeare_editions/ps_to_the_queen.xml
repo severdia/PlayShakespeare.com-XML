@@ -1,51 +1,67 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="file.xsl"?>
-<poem variant="ps-poems" unique="to-the-queen" numberOfLines="17">
-<title>
-	<common>To the Queen</common>
-	<main>To the Queen</main>
-	<short>To the Queen</short>
-	<abbr>Queen</abbr>
-</title>
-<authors>
-	<author>William Shakespeare</author>
-</authors>
-	<register>Not Registered</register>
-<bibl>
-</bibl>
-<fileDesc>
-<publicationStmt>
-<publisher ref="http://www.playshakespeare.com">PlayShakespeare.com</publisher>
-<name type="person" role="editor">Ron Severdia</name>
-<email>william at playshakespeare.com</email>
-<date from="2005" to="2024">2005-2024</date>
-<availability status="restricted">
-<license>GFDL License 1.3. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation.</license>
-</availability>
-</publicationStmt>
-<editionStmt>
-<edition n="5.2"></edition>
-</editionStmt>
-</fileDesc>
-<poembody>
-<stanza num="1">
-<l gn="1" n="1" form="verse">As the dial hand tells o&#8217;er</l>
-<l gn="2" n="2" form="verse">The same hours it had before,</l>
-<l gn="3" n="3" form="verse">Circular account still lending,</l>
-<l gn="4" n="4" form="verse">So, most mighty Queen we pray,</l>
-<l gn="5" n="5" form="verse">Like the dial day by day</l>
-<l gn="6" n="6" form="verse">You may lead the seasons on,</l>
-<l gn="7" n="7" form="verse">Making new when old are gone,</l>
-<l gn="8" n="8" form="verse">That the babe which now is young</l>
-<l gn="9" n="9" form="verse">And hath yet no use of tongue</l>
-<l gn="10" n="10" form="verse">Many a Shrovetide here may bow</l>
-<l gn="11" n="11" form="verse">To that empress I do now,</l>
-<l gn="12" n="12" form="verse">That these children of these lords,</l>
-<l gn="13" n="13" form="verse">Sitting at your council boards,</l>
-<l gn="14" n="14" form="verse">May be grave and ag&#232;d seen</l>
-<l gn="15" n="15" form="verse">Of her that was their fathers&#8217; queen.</l>
-<l gn="16" n="16" form="verse">Once I wish this wish again,</l>
-<l gn="17" n="17" form="verse">Heaven subscribe it with &#8220;Amen&#8221;.</l>
-</stanza>
-</poembody>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poem PUBLIC "" "">
+<poem variant="ps-poems" unique="to-the-queen">
+  <titleStmt>
+    <title type="common">To the Queen</title>
+    <title type="main">To the Queen</title>
+    <title type="short">To the Queen</title>
+    <title type="abbr">Queen</title>
+    <title type="translated" xml:lang="ar">للمالكة</title>
+    <title type="translated" xml:lang="zh">致女王</title>
+    <title type="translated" xml:lang="cs">Pro královnu</title>
+    <title type="translated" xml:lang="da">Til dronningen</title>
+    <title type="translated" xml:lang="nl">Voor de koningin</title>
+    <title type="translated" xml:lang="fr">À la Reine</title>
+    <title type="translated" xml:lang="de">An die Königin</title>
+    <title type="translated" xml:lang="el">Στη βασίλισσα</title>
+    <title type="translated" xml:lang="hi">रानी के लिए</title>
+    <title type="translated" xml:lang="hu">A királynőhöz</title>
+    <title type="translated" xml:lang="it">Alla regina</title>
+    <title type="translated" xml:lang="ja">女王へ</title>
+    <title type="translated" xml:lang="lv">Mīl&#275;t&#257;ju s&#363;dzība</title>
+    <title type="translated" xml:lang="pt">À Rainha</title>
+    <title type="translated" xml:lang="sr">Kraljici na zapovest</title>
+    <title type="translated" xml:lang="sk">Pre kralovnu</title>
+    <title type="translated" xml:lang="sw">Kwa Malkia</title>
+    <title type="translated" xml:lang="es">A la reina</title>
+    <title type="translated" xml:lang="uk">До Королеви</title>
+  </titleStmt>
+  <authors>
+    <author>William Shakespeare</author>
+  </authors>
+  <fileDesc>
+    <publicationStmt>
+      <publisher ref="http://www.playshakespeare.com">PlayShakespeare.com</publisher>
+      <name type="person" role="editor">Ron Severdia</name>
+      <email>william at playshakespeare.com</email>
+      <date from="2005" to="2025">2005-2025</date>
+      <availability status="restricted">
+        <license>GFDL License 1.3. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation.</license>
+      </availability>
+    </publicationStmt>
+    <editionStmt>
+      <edition n="5.4"/>
+    </editionStmt>
+  </fileDesc>
+  <poembody>
+    <lg type="stanza" num="1">
+      <l gn="1" n="1" form="verse">As the dial hand tells o&#8217;er</l>
+      <l gn="2" n="2" form="verse">The same hours it had before,</l>
+      <l gn="3" n="3" form="verse">Circular account still lending,</l>
+      <l gn="4" n="4" form="verse">So, most mighty Queen we pray,</l>
+      <l gn="5" n="5" form="verse">Like the dial day by day</l>
+      <l gn="6" n="6" form="verse">You may lead the seasons on,</l>
+      <l gn="7" n="7" form="verse">Making new when old are gone,</l>
+      <l gn="8" n="8" form="verse">That the babe which now is young</l>
+      <l gn="9" n="9" form="verse">And hath yet no use of tongue</l>
+      <l gn="10" n="10" form="verse">Many a Shrovetide here may bow</l>
+      <l gn="11" n="11" form="verse">To that empress I do now,</l>
+      <l gn="12" n="12" form="verse">That these children of these lords,</l>
+      <l gn="13" n="13" form="verse">Sitting at your council boards,</l>
+      <l gn="14" n="14" form="verse">May be grave and ag&#232;d seen</l>
+      <l gn="15" n="15" form="verse">Of her that was their fathers&#8217; queen.</l>
+      <l gn="16" n="16" form="verse">Once I wish this wish again,</l>
+      <l gn="17" n="17" form="verse">Heaven subscribe it with &#8220;Amen&#8221;.</l>
+    </lg>
+  </poembody>
 </poem>
