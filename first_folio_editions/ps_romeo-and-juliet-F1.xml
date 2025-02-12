@@ -1754,7 +1754,9 @@
       </sp>
       <stage>Exeunt.</stage>
     </sceneref>
-    <sceneref actnum="2" num="0">
+  </act>
+  <actref num="2">
+    <prologueref actnum="2" num="0">
       <sp>
         <speaker short="CHORUS." rend="center">Chorus.</speaker>
         <l gn="702" n="1">Now old de&#383;ire doth in his death bed lie,</l>
@@ -1772,7 +1774,7 @@
         <l gn="714" n="13">But pa&#383;&#383;ion lends them Power, time, meanes to meete,</l>
         <l gn="715" n="14">Temp&#8217;ring extremities with extreame &#383;weete.</l>
       </sp>
-    </sceneref>
+    </prologueref>
     <sceneref actnum="2" num="1">
       <stage>Enter Romeo alone.</stage>
       <sp>
@@ -3077,6 +3079,8 @@
         <l gn="1382" n="37">Till holy Church incorporate two in one.</l>
       </sp>
     </sceneref>
+  </actref>
+  <actref num="3">
     <sceneref actnum="3" num="1">
       <stage>Enter Mercutio, Benuolio, and men.</stage>
       <sp>
@@ -4540,6 +4544,8 @@
       </sp>
       <stage>Exeunt.</stage>
     </sceneref>
+  </actref>
+  <actref num="4">
     <sceneref actnum="4" num="1">
       <stage>Enter Frier and Countie Paris.</stage>
       <sp>
@@ -5330,6 +5336,8 @@
       </sp>
       <stage>Exit.</stage>
     </sceneref>
+  </actref>
+  <actref num="5">
     <sceneref actnum="5" num="1">
       <stage>Enter Romeo.</stage>
       <sp>
@@ -6068,7 +6076,7 @@
       </sp>
       <stage>Exeunt omnes</stage>
     </sceneref>
-  </act>
+  </actref>
   <finis rend="word">
     <finistitle>FINIS.</finistitle>
   </finis>

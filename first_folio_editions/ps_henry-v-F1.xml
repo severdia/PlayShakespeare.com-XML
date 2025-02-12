@@ -377,8 +377,8 @@
       </persaliases>
     </castItem>
   </castList>
-  <act num="0">
-    <prologue actnum="0" num="1">
+  <act num="1">
+    <prologue actnum="1" num="0">
       <stage>
         <emph rend="noitalic">Enter Prologue.</emph>
       </stage>
@@ -421,8 +421,6 @@
       </sp>
       <stage>Exit.</stage>
     </prologue>
-  </act>
-  <act num="1">
     <acttitle>A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
     <scene actnum="1" num="1">
       <scenetitle>A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
@@ -597,7 +595,8 @@
         <l gn="137" n="103">Ile wait vpon you, and I long to heare it.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="1" num="2"/>
+    </scene>
+    <sceneref actnum="1" num="2">
       <stage>Enter the King, Humfrey, Bedford, Clarence, Warwick, Westmerland, and Exeter.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -1005,53 +1004,61 @@
         <l gn="449" n="312">Wee&#8217;le chide this <name type="person">Dolphin</name> at his fathers doore.</l>
         <l gn="450" n="313">Therefore let euery man now taske his thought,</l>
         <l gn="451" n="314">That this faire A&#57348;ion may on foot be brought.</l>
-        <stage>Exeunt.</stage>
-        <stage>Flouri&#383;h. Enter Chorus.</stage>
-        <l gn="452" n="315">Now all the Youth of England are on &#64257;re,</l>
-        <l gn="453" n="316">And &#383;ilken Dalliance in the Wardrobe lyes:</l>
-        <l gn="454" n="317">Now thriue the Armorers, and Honors thought</l>
-        <l gn="455" n="318">Reignes &#383;olely in the brea&#383;t of euery man.</l>
-        <l gn="456" n="319">They &#383;ell the Pa&#383;ture now, to buy the Hor&#383;e;</l>
-        <l gn="457" n="320">Following the Mirror of all Chri&#383;tian Kings,</l>
-        <l gn="458" n="321">With winged heeles, as Engli&#383;h <emph>Mercuries</emph>.</l>
-        <l gn="459" n="322">For now &#383;its Expe&#57348;ation in the Ayre,</l>
-        <l gn="460" n="323">And hides a Sword, from Hilts vnto the Point,</l>
-        <l gn="461" n="324">With Crownes Imperiall, Crownes and Coronets,</l>
-        <l gn="462" n="325">Promis&#8217;d to <name type="person">Harry</name>, and his followers.</l>
-        <l gn="463" n="326">The French aduis&#8217;d by good intelligence</l>
-        <l gn="464" n="327">Of this mo&#383;t dreadfull preparation,</l>
-        <l gn="465" n="328">Shake in their feare, and with pale Pollicy</l>
-        <l gn="466" n="329">Seeke to diuert the Engli&#383;h purpo&#383;es.</l>
-        <l gn="467" n="330">O England: Modell to thy inward Greatne&#383;&#383;e,</l>
-        <l gn="468" n="331">Like little Body with a mightie Heart:</l>
-        <l gn="469" n="332">What might&#383;t thou do, that honour would thee do,</l>
-        <l gn="470" n="333">Were all thy children kinde and naturall:</l>
-        <l gn="471" n="334">But &#383;ee, thy fault France hath in thee found out,</l>
-        <l gn="472" n="335">A ne&#383;t of hollow bo&#383;omes, which he &#64257;lles</l>
-        <l gn="473" n="336">With treacherous Crownes, and three corrupted men:</l>
-        <l gn="474" n="337">One, <name type="person">Richard</name> Earle of Cambridge, and the &#383;econd</l>
-        <l gn="475" n="338"><name type="person">Henry</name> Lord <name type="person">Scroope</name> of <name type="person">Ma&#383;ham</name>, and the third</l>
-        <l gn="476" n="339">Sir <name type="person">Thomas Grey</name> Knight of Northumberland,</l>
-        <l gn="477" n="340">Haue for the Gilt of France (O guilt indeed)</l>
-        <l gn="478" n="341">Con&#64257;rm&#8217;d Con&#383;piracy with fearefull France,</l>
-        <l gn="479" n="342">And by their hands, this grace of Kings mu&#383;t dye.</l>
-        <l gn="480" n="343">If Hell and Trea&#383;on hold their promi&#383;es,</l>
-        <l gn="481" n="344">Ere he take &#383;hip for France; and in Southampton.</l>
-        <l gn="482" n="345">Linger your patience on, and wee&#8217;l dige&#383;t</l>
-        <l gn="483" n="346">Th&#8217; abu&#383;e of di&#383;tance; force a play:</l>
-        <l gn="484" n="347">The &#383;umme is payde, the Traitors are agreed,</l>
-        <l gn="485" n="348">The King is &#383;et from London, and the Scene</l>
-        <l gn="486" n="349">Is now tran&#383;ported (Gentles) to Southampton,</l>
-        <l gn="487" n="350">There is the Play-hou&#383;e now, there mu&#383;t you &#383;it,</l>
-        <l gn="488" n="351">And thence to France &#383;hall we conuey you &#383;afe,</l>
-        <l gn="489" n="352">And bring you backe: Charming the narrow &#383;eas</l>
-        <l gn="490" n="353">To giue you gentle Pa&#383;&#383;e: for if we may,</l>
-        <l gn="491" n="354">Wee&#8217;l not o&#64256;end one &#383;tomacke with our Play.</l>
-        <l gn="492" n="355">But till the King come forth, and not till then,</l>
-        <l gn="493" n="356">Vnto Southampton do we &#383;hift our Scene.</l>
+      </sp>
+      <stage>Exeunt.</stage>
+    </sceneref>
+  </act>
+  <actref num="2">
+    <prologueref actnum="2" num="0">
+      <stage>Flouri&#383;h. Enter Chorus.</stage>
+      <sp>
+        <speaker short="CHORUS." rend="hidden"/>
+        <l gn="452" n="1">Now all the Youth of England are on &#64257;re,</l>
+        <l gn="453" n="2">And &#383;ilken Dalliance in the Wardrobe lyes:</l>
+        <l gn="454" n="3">Now thriue the Armorers, and Honors thought</l>
+        <l gn="455" n="4">Reignes &#383;olely in the brea&#383;t of euery man.</l>
+        <l gn="456" n="5">They &#383;ell the Pa&#383;ture now, to buy the Hor&#383;e;</l>
+        <l gn="457" n="6">Following the Mirror of all Chri&#383;tian Kings,</l>
+        <l gn="458" n="7">With winged heeles, as Engli&#383;h <emph>Mercuries</emph>.</l>
+        <l gn="459" n="8">For now &#383;its Expe&#57348;ation in the Ayre,</l>
+        <l gn="460" n="9">And hides a Sword, from Hilts vnto the Point,</l>
+        <l gn="461" n="10">With Crownes Imperiall, Crownes and Coronets,</l>
+        <l gn="462" n="11">Promis&#8217;d to <name type="person">Harry</name>, and his followers.</l>
+        <l gn="463" n="12">The French aduis&#8217;d by good intelligence</l>
+        <l gn="464" n="13">Of this mo&#383;t dreadfull preparation,</l>
+        <l gn="465" n="14">Shake in their feare, and with pale Pollicy</l>
+        <l gn="466" n="15">Seeke to diuert the Engli&#383;h purpo&#383;es.</l>
+        <l gn="467" n="16">O England: Modell to thy inward Greatne&#383;&#383;e,</l>
+        <l gn="468" n="17">Like little Body with a mightie Heart:</l>
+        <l gn="469" n="18">What might&#383;t thou do, that honour would thee do,</l>
+        <l gn="470" n="19">Were all thy children kinde and naturall:</l>
+        <l gn="471" n="20">But &#383;ee, thy fault France hath in thee found out,</l>
+        <l gn="472" n="21">A ne&#383;t of hollow bo&#383;omes, which he &#64257;lles</l>
+        <l gn="473" n="22">With treacherous Crownes, and three corrupted men:</l>
+        <l gn="474" n="23">One, <name type="person">Richard</name> Earle of Cambridge, and the &#383;econd</l>
+        <l gn="475" n="24"><name type="person">Henry</name> Lord <name type="person">Scroope</name> of <name type="person">Ma&#383;ham</name>, and the third</l>
+        <l gn="476" n="25">Sir <name type="person">Thomas Grey</name> Knight of Northumberland,</l>
+        <l gn="477" n="26">Haue for the Gilt of France (O guilt indeed)</l>
+        <l gn="478" n="27">Con&#64257;rm&#8217;d Con&#383;piracy with fearefull France,</l>
+        <l gn="479" n="28">And by their hands, this grace of Kings mu&#383;t dye.</l>
+        <l gn="480" n="29">If Hell and Trea&#383;on hold their promi&#383;es,</l>
+        <l gn="481" n="30">Ere he take &#383;hip for France; and in Southampton.</l>
+        <l gn="482" n="31">Linger your patience on, and wee&#8217;l dige&#383;t</l>
+        <l gn="483" n="32">Th&#8217; abu&#383;e of di&#383;tance; force a play:</l>
+        <l gn="484" n="33">The &#383;umme is payde, the Traitors are agreed,</l>
+        <l gn="485" n="34">The King is &#383;et from London, and the Scene</l>
+        <l gn="486" n="35">Is now tran&#383;ported (Gentles) to Southampton,</l>
+        <l gn="487" n="36">There is the Play-hou&#383;e now, there mu&#383;t you &#383;it,</l>
+        <l gn="488" n="37">And thence to France &#383;hall we conuey you &#383;afe,</l>
+        <l gn="489" n="38">And bring you backe: Charming the narrow &#383;eas</l>
+        <l gn="490" n="39">To giue you gentle Pa&#383;&#383;e: for if we may,</l>
+        <l gn="491" n="40">Wee&#8217;l not o&#64256;end one &#383;tomacke with our Play.</l>
+        <l gn="492" n="41">But till the King come forth, and not till then,</l>
+        <l gn="493" n="42">Vnto Southampton do we &#383;hift our Scene.</l>
       </sp>
       <stage>Exit</stage>
-      <milestone actnum="2" num="1"/>
+    </prologueref>
+    <sceneref actnum="2" num="1">
       <stage>Enter Corporall Nym, and Lieutenant Bardolfe.</stage>
       <sp>
         <speaker short="BARD.">Bar.</speaker>
@@ -1309,7 +1316,8 @@
         <l gn="611" n="118">Let vs condole the Knight, for (Lambekins) we</l>
         <l gn="612" n="119">will liue.</l>
       </sp>
-      <milestone actnum="2" num="2"/>
+    </sceneref>
+    <sceneref actnum="2" num="2">
       <stage>Enter Exeter, Bedford, &amp; We&#383;tmerland.</stage>
       <sp>
         <speaker short="BED.">Bed.</speaker>
@@ -1598,7 +1606,8 @@
         <l gn="805" n="193">No King of England, if not King of France.</l>
       </sp>
       <stage>Flouri&#383;h.</stage>
-      <milestone actnum="2" num="3"/>
+    </sceneref>
+    <sceneref actnum="2" num="3">
       <stage>Enter Pi&#383;toll, Nim, Bardolph, Boy, and Ho&#383;te&#383;&#383;e.</stage>
       <sp>
         <speaker short="HOST.">Ho&#383;te&#383;&#383;e.</speaker>
@@ -1728,7 +1737,8 @@
         <l gn="866" n="61">Farwell: adieu.</l>
       </sp>
       <stage>Exeunt</stage>
-      <milestone actnum="2" num="4"/>
+    </sceneref>
+    <sceneref actnum="2" num="4">
       <stage>Flouri&#383;h.<lb/>Enter the French King, the Dolphin, the Dukes of Berry and Britaine.</stage>
       <sp>
         <speaker short="FR. KING.">King.</speaker>
@@ -1946,11 +1956,11 @@
         <l gn="1018" n="152">To an&#383;wer matters of this con&#383;equence.</l>
       </sp>
       <stage>Exeunt.</stage>
-    </scene>
-  </act>
+    </sceneref>
+  </actref>
   <act num="2">
     <acttitle>A&#57348;us Secundus.</acttitle>
-    <scene actnum="2" num="1">
+    <prologueref actnum="3" num="0">
       <scenetitle>A&#57348;us Secundus.</scenetitle>
       <stage>Flouri&#383;h. Enter Chorus.</stage>
       <sp>
@@ -1993,7 +2003,8 @@
         <l gn="1053" n="35">And eech out our performance with your mind.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="3" num="1"/>
+    </prologueref>
+    <sceneref actnum="3" num="1">
       <stage>Enter the King, Exeter, Bedford, and Glouce&#383;ter. Alarum: Scaling Ladders at Har&#64258;ew.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -2034,7 +2045,8 @@
         <l gn="1088" n="35">Cry, God for <name type="person">Harry</name>, England, and S. <name type="person">George</name>.</l>
       </sp>
       <stage>Alarum, and Chambers goe o&#64256;.</stage>
-      <milestone actnum="3" num="2"/>
+    </sceneref>
+    <sceneref actnum="3" num="2">
       <stage>Enter Nim, Bardolph, Pi&#383;toll, and Boy.</stage>
       <sp>
         <speaker short="BARD.">Bard.</speaker>
@@ -2281,7 +2293,8 @@
         <l gn="1224" n="136">and there is an end.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="3" num="3"/>
+    </sceneref>
+    <sceneref actnum="3" num="3">
       <stage>Enter the King and all his Traine before the Gates.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -2352,7 +2365,8 @@
         <l gn="1282" n="58">To morrow for the March are we addre&#383;t.</l>
       </sp>
       <stage>Flouri&#383;h, and enter the Towne.</stage>
-      <milestone actnum="3" num="4"/>
+    </sceneref>
+    <sceneref actnum="3" num="4">
       <stage>Enter Katherine and an old Gentlewoman.</stage>
       <sp>
         <speaker short="KATH.">Kathe.</speaker>
@@ -2562,7 +2576,8 @@
         <l gn="1338" n="56"><foreign xml:lang="fr">C&#8217;e&#383;t a&#383;&#383;es pour vne foyes, alons nous a diner</foreign>.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="3" num="5"/>
+    </sceneref>
+    <sceneref actnum="3" num="5">
       <stage>Enter the King of France, the Dolphin, the Con&#383;table of France, and others.</stage>
       <sp>
         <speaker short="FR. KING.">King.</speaker>
@@ -2670,7 +2685,8 @@
         <l gn="1407" n="69">And quickly bring vs word of Englands fall.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="3" num="6"/>
+    </sceneref>
+    <sceneref actnum="3" num="6">
       <stage>Enter Captaines, Engli&#383;h and Welch, Gower and Fluellen.</stage>
       <sp>
         <speaker short="GOW.">Gower.</speaker>
@@ -2969,7 +2985,8 @@
         <l gn="1576" n="169">And on to morrow bid them march away.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="3" num="7"/>
+    </sceneref>
+    <sceneref actnum="3" num="7">
       <stage>Enter the Con&#383;table of France, the Lord Ramburs, Orleance, Dolphin, with others.</stage>
       <sp>
         <speaker short="CON.">Con&#383;t.</speaker>
@@ -3359,11 +3376,11 @@
         <l gn="1737" n="161">Wee &#383;hall haue each a hundred Engli&#383;h men.</l>
       </sp>
       <stage>Exeunt.</stage>
-    </scene>
+    </sceneref>
   </act>
   <act num="3">
     <acttitle>A&#57348;us Tertius.</acttitle>
-    <scene actnum="3" num="1">
+    <prologueref actnum="4" num="0">
       <scenetitle>A&#57348;us Tertius.</scenetitle>
       <stage>Chorus.</stage>
       <sp>
@@ -3423,7 +3440,8 @@
         <l gn="1790" n="53">Minding true things, by what their Mock&#8217;ries bee.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="4" num="1"/>
+    </prologueref>
+    <sceneref actnum="4" num="1">
       <stage>Enter the King, Bedford, and Glouce&#383;ter.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -3995,7 +4013,8 @@
         <l gn="2102" n="312">The day, my friend, and all things &#383;tay for me.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="4" num="2"/>
+    </sceneref>
+    <sceneref actnum="4" num="2">
       <stage>Enter the Dolphin, Orleance, Ramburs, and Beaumont.</stage>
       <sp>
         <speaker short="ORL.">Orleance.</speaker>
@@ -4114,7 +4133,8 @@
         <l gn="2170" n="68">The Sunne is high, and we out-weare the day.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="4" num="3"/>
+    </sceneref>
+    <sceneref actnum="4" num="3">
       <stage>Enter Glouce&#383;ter, Bedford, Exeter, Erpingham with all his Hoa&#383;t: Salisbury, and We&#383;tmerland.</stage>
       <sp>
         <speaker short="GLOU.">Glouc.</speaker>
@@ -4334,7 +4354,8 @@
         <l gn="2310" n="140">And how thou plea&#383;e&#383;t God, di&#383;po&#383;e the day.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="4" num="4"/>
+    </sceneref>
+    <sceneref actnum="4" num="4">
       <stage>Alarum. Excur&#383;ions.<lb/>Enter Pi&#383;toll, French Souldier, Boy.</stage>
       <sp>
         <speaker short="PIST.">Pi&#383;t.</speaker>
@@ -4531,7 +4552,8 @@
         <l gn="2381" n="71">to guard it but boyes.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="4" num="5"/>
+    </sceneref>
+    <sceneref actnum="4" num="5">
       <stage>Enter Con&#383;table, Orleance, Burbon, Dolphin, and Ramburs.</stage>
       <sp>
         <speaker short="CON.">Con.</speaker>
@@ -4589,7 +4611,8 @@
         <l gn="2405" n="24">Let life be &#383;hort, el&#383;e &#383;hame will be too long.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="4" num="6"/>
+    </sceneref>
+    <sceneref actnum="4" num="6">
       <stage>Alarum. Enter the King and his trayne, with Pri&#383;oners.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -4647,13 +4670,12 @@
         <l gn="2444" n="39">Giue the word through.</l>
       </sp>
       <stage>Exit</stage>
-    </scene>
+    </sceneref>
   </act>
   <act num="4">
     <acttitle>A&#57348;us Quartus.</acttitle>
     <scene actnum="4" num="1">
       <scenetitle>A&#57348;us Quartus.</scenetitle>
-      <milestone actnum="4" num="6"/>
       <stage>Enter Fluellen and Gower.</stage>
       <sp>
         <speaker short="FLU.">Flu.</speaker>
@@ -5003,7 +5025,8 @@
         <l gn="2627" n="183">Goe you with me, Vnckle of Exeter.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone actnum="4" num="8"/>
+    </scene>
+    <sceneref actnum="4" num="8">
       <stage>Enter Gower and Williams.</stage>
       <sp>
         <speaker short="WILL.">Will.</speaker>
@@ -5255,13 +5278,12 @@
         <l gn="2757" n="130">Where ne&#8217;re from France arriu&#8217;d more happy men.</l>
       </sp>
       <stage>Exeunt.</stage>
-    </scene>
+    </sceneref>
   </act>
   <act num="5">
     <acttitle>A&#57348;us Quintus.</acttitle>
-    <scene actnum="5" num="1">
+    <prologueref actnum="5" num="0">
       <scenetitle>A&#57348;us Quintus.</scenetitle>
-      <milestone actnum="5" num="0"/>
       <stage>Enter Chorus.</stage>
       <sp>
         <speaker short="CHORUS." rend="hidden">CHORUS.</speaker>
@@ -5312,7 +5334,8 @@
         <l gn="2802" n="45">After your thoughts, &#383;traight backe againe to France.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="5" num="1"/>
+    </prologueref>
+    <sceneref actnum="5" num="1">
       <stage>Enter Fluellen and Gower.</stage>
       <sp>
         <speaker short="GOW.">Gower.</speaker>
@@ -5485,7 +5508,8 @@
         <l gn="2887" n="85">And &#383;wore I got them in the Gallia warres.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone actnum="5" num="2"/>
+    </sceneref>
+    <sceneref actnum="5" num="2">
       <stage>Enter at one doore, King Henry, Exeter, Bedford, Warwicke, and other Lords. At another, Queene I&#383;abel, the King, the Duke of Bourgougne, and other French.</stage>
       <sp>
         <speaker short="K. HEN.">King.</speaker>
@@ -6126,24 +6150,29 @@
         <l gn="3259" n="372">And all the Peeres, for &#383;uretie of our Leagues.</l>
         <l gn="3260" n="373">Then &#383;hall I &#383;weare to <name type="person">Kate</name>, and you to me,</l>
         <l gn="3261" n="374">And may our Oathes well kept and pro&#383;p&#8217;rous be.</l>
-        <stage>Senet. Exeunt.</stage>
-        <stage>Enter Chorus.</stage>
-        <l gn="3262" n="375">Thus farre with rough, and all-vnable Pen,</l>
-        <l gn="3263" n="376">Our bending Author hath pur&#383;u&#8217;d the Story,</l>
-        <l gn="3264" n="377">In little roome con&#64257;ning mightie men,</l>
-        <l gn="3265" n="378">Mangling by &#383;tarts the full cour&#383;e of their glory.</l>
-        <l gn="3266" n="379">Small time: but in that &#383;mall, mo&#383;t greatly liued</l>
-        <l gn="3267" n="380">This Starre of England. Fortune made his Sword;</l>
-        <l gn="3268" n="381">By which, the Worlds be&#383;t Garden he atchieued:</l>
-        <l gn="3269" n="382">And of it left his Sonne Imperiall Lord.</l>
-        <l gn="3270" n="383"><name type="person">Henry</name> the Sixt, in Infant Bands crown&#8217;d King</l>
-        <l gn="3271" n="384">Of France and England, did this King &#383;ucceed:</l>
-        <l gn="3272" n="385">Who&#383;e State &#383;o many had the managing,</l>
-        <l gn="3273" n="386">That they lo&#383;t France, and made his England bleed:</l>
-        <l gn="3274" n="387">Which oft our Stage hath &#383;howne; and for their &#383;ake,</l>
-        <l gn="3275" n="388">In your faire minds let this acceptance take.</l>
       </sp>
-    </scene>
+      <stage>Senet. Exeunt.</stage>
+    </sceneref>
+    <epilogue>
+      <stage>Enter Chorus.</stage>
+      <sp>
+        <speaker short="CHORUS." rend="hidden"/>
+        <l gn="3262" n="1">Thus farre with rough, and all-vnable Pen,</l>
+        <l gn="3263" n="2">Our bending Author hath pur&#383;u&#8217;d the Story,</l>
+        <l gn="3264" n="3">In little roome con&#64257;ning mightie men,</l>
+        <l gn="3265" n="4">Mangling by &#383;tarts the full cour&#383;e of their glory.</l>
+        <l gn="3266" n="5">Small time: but in that &#383;mall, mo&#383;t greatly liued</l>
+        <l gn="3267" n="6">This Starre of England. Fortune made his Sword;</l>
+        <l gn="3268" n="7">By which, the Worlds be&#383;t Garden he atchieued:</l>
+        <l gn="3269" n="8">And of it left his Sonne Imperiall Lord.</l>
+        <l gn="3270" n="9"><name type="person">Henry</name> the Sixt, in Infant Bands crown&#8217;d King</l>
+        <l gn="3271" n="10">Of France and England, did this King &#383;ucceed:</l>
+        <l gn="3272" n="11">Who&#383;e State &#383;o many had the managing,</l>
+        <l gn="3273" n="12">That they lo&#383;t France, and made his England bleed:</l>
+        <l gn="3274" n="13">Which oft our Stage hath &#383;howne; and for their &#383;ake,</l>
+        <l gn="3275" n="14">In your faire minds let this acceptance take.</l>
+      </sp>
+    </epilogue>
   </act>
   <finis>
     <finistitle>FINIS.</finistitle>

@@ -431,7 +431,8 @@
       <role short="COUN. GUARDS">Council Guards</role>
     </castItem>
   </castList>
-  <act num="0">
+  <act num="0"/>
+  <act num="1">
     <prologue>
       <scenetitle>TH<char value="E"></char><char value="P"></char>ROLOGU<char value="E"></char>.</scenetitle>
       <sp>
@@ -470,8 +471,6 @@
         <l gn="32" n="32">A Man may weepe vpon his Wedding day.</l>
       </sp>
     </prologue>
-  </act>
-  <act num="1">
     <acttitle>A&#57348;us Primus. Sc&#339;na Prima.</acttitle>
     <scene actnum="1" num="1">
       <scenetitle>A&#57348;us Primus. Sc&#339;na Prima.</scenetitle>
@@ -6001,7 +6000,7 @@
       </sp>
       <stage>Exeunt.</stage>
     </scene>
-    <epilogue actnum="5">
+    <epilogue>
       <scenetitle>The Epilogve.</scenetitle>
       <sp>
         <speaker short="EPILOGUE" rend="hidden"/>

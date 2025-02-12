@@ -189,7 +189,6 @@
     <acttitle>A&#57348;us primus, Scena prima.</acttitle>
     <scene actnum="1" num="1">
       <scenetitle>A&#57348;us primus, Scena prima.</scenetitle>
-      <milestone type="start" actnum="1" num="1"/>
       <stage>Enter the Duke of Ephe&#383;us, with the Merchant of Siracu&#383;a, Iaylor, and other attendants</stage>
       <sp>
         <speaker short="EGE.">Marchant.</speaker>
@@ -385,8 +384,8 @@
         <l gn="157" n="157">But to procra&#383;tinate his liuele&#383;&#383;e end.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone type="end" actnum="1" num="1"/>
-      <milestone type="start" actnum="1" num="2"/>
+    </scene>
+    <sceneref actnum="1" num="2">
       <stage>Enter Antipholis Erotes, a Marchant, and Dromio.</stage>
       <sp>
         <speaker short="EGE.">Mer.</speaker>
@@ -570,14 +569,12 @@
         <l gn="262" n="105">I greatly feare my monie is not &#383;afe.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone type="end" actnum="1" num="2"/>
-    </scene>
+    </sceneref>
   </act>
   <act num="2">
     <acttitle>A&#57348;us Secundus.</acttitle>
     <scene actnum="2" num="1">
       <scenetitle>A&#57348;us Secundus.</scenetitle>
-      <milestone type="start" actnum="2" num="1"/>
       <stage>Enter Adriana, wife to Antipholis Sereptus, with Luciana her Si&#383;ter</stage>
       <sp>
         <speaker short="ADR.">Adr.</speaker>
@@ -815,8 +812,8 @@
         <l gn="379" n="117">How manie fond fooles &#383;erue mad Ielou&#383;ie?</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone type="end" actnum="2" num="1"/>
-      <milestone type="start" actnum="2" num="2"/>
+    </scene>
+    <sceneref actnum="2" num="2">
       <stage>Enter Antipholis Errotis.</stage>
       <sp>
         <speaker short="S. ANT.">Ant.</speaker>
@@ -1283,14 +1280,12 @@
         <speaker short="LUC.">Luc.</speaker>
         <l gn="598" n="219">Come, come, <name type="person">Antipholus</name>, we dine to late.</l>
       </sp>
-      <milestone type="end" actnum="2" num="2"/>
-    </scene>
+    </sceneref>
   </act>
   <act num="3">
     <acttitle>A&#57348;us Tertius. Scena Prima.</acttitle>
     <scene actnum="3" num="1">
       <scenetitle>A&#57348;us Tertius. Scena Prima.</scenetitle>
-      <milestone type="start" actnum="3" num="1"/>
       <stage>Enter Antipholus of Ephe&#383;us, his man Dromio, Angelo the Gold&#383;mith, and Baltha&#383;er the Merchant</stage>
       <sp>
         <speaker short="E. ANT.">E.Anti.</speaker>
@@ -1642,8 +1637,8 @@
         <l gn="762" n="164">Do &#383;o, this ie&#383;t &#383;hall cost me &#383;ome expence.</l>
       </sp>
       <stage>Exeunt.</stage>
-      <milestone type="end" actnum="3" num="1"/>
-      <milestone type="start" actnum="3" num="2"/>
+    </scene>
+    <sceneref actnum="3" num="2">
       <stage>Enter Iuliana, with Antipholus of Siracu&#383;ia.</stage>
       <sp>
         <speaker short="LUC.">Iulia.</speaker>
@@ -2029,14 +2024,12 @@ me turne i&#8217;th wheele.</l>
         <l gn="953" n="191">If any &#383;hip put out, then &#383;traight away.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone type="end" actnum="3" num="2"/>
-    </scene>
+    </sceneref>
   </act>
   <act num="4">
     <acttitle>A&#57348;us Quartus. Sc&#339;na Prima.</acttitle>
     <scene actnum="4" num="1">
       <scenetitle>A&#57348;us Quartus. Sc&#339;na Prima.</scenetitle>
-      <milestone type="start" actnum="4" num="1"/>
       <stage>Enter a Merchant, Gold&#383;mith, and an Officer.</stage>
       <sp>
         <speaker short="2. MER.">Mar.</speaker>
@@ -2284,8 +2277,8 @@ me turne i&#8217;th wheele.</l>
         <l gn="1071" n="118">For &#383;eruants mu&#383;t their Ma&#383;ters mindes fulfill.</l>
       </sp>
       <stage>Exit</stage>
-      <milestone type="end" actnum="4" num="1"/>
-      <milestone type="start" actnum="4" num="2"/>
+    </scene>
+    <sceneref actnum="4" num="2">
       <stage>Enter Adriana and Luciana.</stage>
       <sp>
         <speaker short="ADR.">Adr.</speaker>
@@ -2466,8 +2459,8 @@ me turne i&#8217;th wheele.</l>
         <l gn="1147" n="76">Conceit, my comfort and my iniurie.</l>
       </sp>
       <stage>Exit.</stage>
-      <milestone type="end" actnum="4" num="2"/>
-      <milestone type="start" actnum="4" num="3"/>
+    </sceneref>
+    <sceneref actnum="4" num="3">
       <stage>Enter Antipholus Siracu&#383;ia.</stage>
       <sp>
         <speaker short="S. ANT." rend="hidden"/>
@@ -2647,8 +2640,8 @@ me turne i&#8217;th wheele.</l>
         <l gn="1240" n="93">My Ring away. This cour&#383;e I fitte&#383;t choo&#383;e,</l>
         <l gn="1241" n="94">For fortie Duckets is too much to loo&#383;e.</l>
       </sp>
-      <milestone type="end" actnum="4" num="3"/>
-      <milestone type="start" actnum="4" num="4"/>
+    </sceneref>
+    <sceneref actnum="4" num="4">
       <stage>Enter Antipholus Ephe&#383;. with a Iailor.</stage>
       <sp>
         <speaker short="S. ANT.">An.</speaker>
@@ -3091,8 +3084,7 @@ me turne i&#8217;th wheele.</l>
         <l gn="1412" n="171">Therefore away, to get our &#383;tuffe aboord.</l>
       </sp>
       <stage>Exeunt</stage>
-      <milestone type="end" actnum="4" num="4"/>
-    </scene>
+    </sceneref>
   </act>
   <act num="5">
     <acttitle>A&#57348;us Quintus. Sc&#339;na Prima.</acttitle>
