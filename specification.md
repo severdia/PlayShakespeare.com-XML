@@ -1095,7 +1095,7 @@ When `<action type="death">` is used, a `<death>` element can specify the manner
 
 Text content: Method of death (e.g., `"stabbing"`, `"poisoning"`, `"drowning"`).
 
-**Known death methods (from spec):** poisoning, stabbing, suicide, grief, hanging, beheading, illness, eaten by a bear, in battle, old age, treason, drowning, suffocation, burned alive, burned at the stake, struck by lightning, jump from castle, insanity, murdered, murdered in sleep, axe, lynching, buried up to his neck, limb amputation, cannonball in face, concussion, arrow in the neck.
+**Known death methods (from spec):** poisoning, stabbing, suicide, grief, hanging, beheading, illness, eaten by a bear, in battle, old age, treason, drowning, suffocation, burned alive, burned at the stake, struck by lightning, jump from castle, insanity, murdered, murdered in sleep, axe, lynching, buried up to his neck, limb amputation, cannonball in face, concussion, arrow in the neck, thrown from a horse.
 
 **Stage direction example:**
 ```xml
