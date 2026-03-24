@@ -531,10 +531,12 @@ A single soliloquy entry.
 | Attribute | Required | Type | Description |
 |---|---|---|---|
 | `act` | Optional | Integer | Act number. |
-| `scene` | Optional | Integer | Scene number. |
+| `scene` | Optional | Integer | Scene number. `0` indicates a prologue scene (see note below). |
 | `l` | Optional | Integer | Scene-level line number where the soliloquy begins. |
 | `soliloquyNumberOfLines` | Optional | Integer | Number of lines in the soliloquy. |
 | `form` | Optional | Enum | Verse form: `"verse"`, `"prose"`. |
+
+**Note:** `scene="0"` is valid and refers to prologue scenes. Soliloquies with `act=N, scene=0` occur within an act's Chorus or Prologue block. This is structurally correct and not an error.
 
 Child elements:
 - `<l>` — The first line of the soliloquy (text content only, no attributes).
@@ -853,6 +855,8 @@ Child elements within `<scene>` (standard editions):
 
 ### `<scenetitle>`
 
+The display title for a scene. In standard PS editions this is typically present in every `<scene>`. In first_folio_editions files, `<scenetitle>` is **not required** — its absence is valid and should not be flagged.
+
 | Attribute | Required | Type | Description |
 |---|---|---|---|
 | `type` | Optional | Enum | `"act-title"` for folio/quarto titles that double as act and scene markers; `"prologue"` for prologue scene titles; `"epilogue"` for epilogue scene titles. |
@@ -911,7 +915,7 @@ Contains `<scenetitle type="epilogue">`, `<scenepersonae>`, `<scenelanguage>`, `
 
 ### `<finis>`
 
-Container for the "FINIS" closing statement at the end of a work. Used in historical editions and occasionally in standard editions.
+Optional closing statement at the end of a work. Used in historical editions and occasionally in standard editions. Not required — its absence is not an error in either play-type FF files or main play files.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
@@ -1437,31 +1441,138 @@ The `<foreign>` element uses BCP 47 language codes:
 
 ## 20. First Folio / Quarto / Historical Editions Format
 
-Historical edition files use a simplified structure. Key differences are noted throughout this document; this section consolidates the elements unique to historical editions.
+### 20.1 Overview and File Location
 
-### `<edition>` (top-level, singular)
+Historical edition files are located in `/plays/first_folio_editions/`. As of 2026-03-23 there are 87 files covering:
 
-In historical edition files (not inside `<editions>`), a top-level `<edition>` element gives the edition description as plain text:
+| Variant | Count | Description |
+|---|---|---|
+| `first-folio` | 36 | First Folio of 1623 |
+| `first-quarto` | 31 | First Quarto editions |
+| `third-folio` | 7 | Third Folio of 1664 |
+| `second-quarto` | 6 | Second Quarto editions |
+| `manuscript` | 4 | Manuscript copies |
+| `second-octavo` | 1 | Second Octavo editions |
+| `first-octavo` | 1 | First Octavo editions |
+| `fourth-quarto` | 1 | Fourth Quarto editions |
+
+All files use the XSL stylesheet `../xsl/folios-and-quartos.xsl` (not `plays.xsl`).
+
+Historical editions are **companion files** to the main PS edition files — they share character UUIDs with the corresponding main play file and are cross-referenced via `corresp` attributes. They are not replacements or supplements in the editorial sense; they represent distinct source texts encoded in a simplified schema focused on faithful transcription of the original.
+
+### 20.2 Top-Level File Structure
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/folios-and-quartos.xsl"?>
+
+<play variant="first-folio" unique="hamlet">
+  <titleStmt>...</titleStmt>
+  <authors>...</authors>
+  <edition>First Folio of 1623</edition>
+  <fileDesc>...</fileDesc>
+  <castList playtitle="Hamlet">...</castList>
+  <act num="1" corresp="act-1">
+    <acttitle>...</acttitle>
+    <scene actnum="1" num="1" corresp="scene-1-1">...</scene>
+    <sceneref actnum="1" num="4" corresp="scene-1-4">...</sceneref>
+  </act>
+  <actref num="3" corresp="act-3">
+    <sceneref actnum="3" num="1" corresp="scene-3-1">...</sceneref>
+  </actref>
+  <finis>
+    <finistitle>FINIS.</finistitle>
+  </finis>
+  <endpersonae>...</endpersonae>  <!-- if present -->
+</play>
+```
+
+Poem-type historical editions (Venus and Adonis Q1, Rape of Lucrece Q1, etc.) use `<poemintro>` and `<poembody>` instead of acts and scenes, matching the pattern of the standard `<poem>` files. Manuscript files may include a `<manuscript>` description block.
+
+### 20.3 Schema Differences from Standard PS Editions
+
+Historical edition files deliberately omit the analytical layer present in standard PS editions:
+
+| Feature | Standard (PS) Edition | Historical Edition |
+|---|---|---|
+| Root element | `<play variant="ps">` | `<play variant="first-folio">` etc. |
+| XSL stylesheet | `plays.xsl` | `folios-and-quartos.xsl` |
+| `<titleStmt>` | Full with common/abbr/translated titles | Only `type="short"` and `type="main"`; `<title type="main">` may contain `<lb/>` for original title-page line breaks |
+| Editions block | `<editions>` with full publication history | Single `<edition>` element with plain-text label (e.g., `"First Folio of 1623"`) |
+| Cast list | Rich: statistics, persscenes, roleDesc, performers | Minimal: `<role short="...">` and `<persaliases>` only |
+| Cast item `category` | full range of values | Always `"minor"` or `"ensemble"` |
+| Statistics | Play-level and character-level `<statistics>` blocks | Not present |
+| Soliloquies index | `<soliloquies>` block | Not present |
+| Songs index | `<songs>` block | Not present |
+| `<longestspeech>` | Present | Not present |
+| `<listRelation>` | Present | Not present |
+| `<listBibl>` | Required | Not present |
+| `<synopsis>` | Present | Not present |
+| `<locations>` | Present | Not present |
+| Speaker element | `<speaker long="...">` | `<speaker short="...">` |
+| Line grouping | `<l>` inside `<lg>` | `<l>` direct inside `<sp>`, no `<lg>` |
+| Modern translation | `<l variant="modern">` | Not present |
+| Scene metadata | `<scenelocation>`, `<scenetime>`, `<scenepersonae>`, `<scenelanguage>` | Not present |
+| `<scenetitle>` | Present in `<scene>` elements | Not required in `<scene>` elements; omission is valid |
+| Stage directions | Structured `<stage>/<dir>/<action>` | Plain `<stage>` text element |
+| `<dropcap>` | Not used | Used for the first letter of speeches |
+| End matter | Not used | Optional `<endpersonae>` and optional `<finis>` |
+
+### 20.4 `<edition>` (top-level, singular)
+
+In historical edition files (not inside `<editions>`), a top-level `<edition>` element gives the edition description as plain text. It is a direct child of `<play>`, appearing after `<authors>`:
 
 ```xml
 <edition>First Folio of 1623</edition>
+<edition>First Quarto of 1603</edition>
 <edition>Manuscript c. 1611</edition>
 ```
 
-### `<actref>`
+### 20.5 Cast List in Historical Editions
 
-Used in historical editions where the modern PS edition has act divisions but the historical source does not. Marks the span corresponding to a PS act without adding visible act structure.
+The `<castList>` in a historical edition contains `<castItem>` elements with the same UUID as the corresponding character in the main PS edition file. The structure is simplified:
+
+```xml
+<castItem gender="male" category="minor" id="91d29aa8-e85f-4d04-9a40-bb85c88d1e35">
+  <role short="HAM.">Hamlet</role>
+  <persaliases>
+    <role short="Ham"/>
+    <role short="Ha."/>
+    <role short="Ham."/>
+    <role short="Hamlet."/>
+  </persaliases>
+</castItem>
+```
+
+In `<persaliases>`, the `<role short="...">` elements list all spelling variants of the abbreviated speaker tag used in that specific edition. These may have no text content (just the `short` attribute). The `<role>` elements here do not carry statistics attributes.
+
+`category` is always either `"minor"` or `"ensemble"` in historical edition castLists. `gender` is `"male"` or `"female"`. Neither `archetype` nor `death` attributes appear on historical edition castItems.
+
+### 20.6 Scene Alignment: `<actref>`, `<sceneref>`, and `<prologueref>`
+
+Historical editions often do not divide the text into the same act/scene structure as the modern PS edition. Three elements handle alignment:
+
+**`<act>`** — used when the historical source has act division markers at roughly the same locations as the PS edition.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `num` | Required | Integer | The corresponding PS act number. |
+| `num` | Required | Integer | Act number. Also acceptable: `actnum` (valid alternative in first_folio_editions files). |
+| `corresp` | Optional | String | Cross-reference to PS act (e.g., `"act-1"`). Omitted when no corresponding act exists in other editions. |
+
+**Note:** The `actnum` attribute is a valid alternative to `num` on `<act>` elements in first_folio_editions files. Both forms identify the act number and are treated equivalently.
+
+**`<actref>`** — used when the PS edition has an act division but the historical source does not. The span of text corresponding to the PS act is wrapped in `<actref>` without adding visible act structure.
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `num` | Required | Integer | The corresponding PS act number. Also acceptable: `actnum` (valid alternative in first_folio_editions files). |
 | `corresp` | Optional | String | Cross-reference string (e.g., `"act-3"`). |
 
-Contains `<sceneref>` elements (not `<scene>` elements).
+**Note:** The `actnum` attribute is a valid alternative to `num` on `<actref>` elements in first_folio_editions files.
 
-### `<sceneref>`
+Contains `<sceneref>` (not `<scene>`) elements.
 
-Used in historical editions where the modern PS edition has scene divisions but the historical source does not, or where scene boundaries do not align. Prevents line numbering from resetting.
+**`<sceneref>`** — used when the PS edition has scene divisions but the historical source does not, or when scene boundaries differ. Marks the span of text corresponding to a PS scene.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
@@ -1471,7 +1582,15 @@ Used in historical editions where the modern PS edition has scene divisions but 
 
 Contains direct dialogue (`<stage>`, `<sp>`) just like a `<scene>` element.
 
-### `<milestone>`
+**`<prologueref>`** — used when the PS edition has a prologue scene but the historical source does not mark it as a separate scene.
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `actnum` | Optional | Integer | The corresponding PS act number. |
+| `num` | Optional | Integer | Always `0` for prologue scenes. |
+| `corresp` | Optional | String | Cross-reference string (e.g., `"prologue-2-0"`). |
+
+### 20.7 `<milestone>`
 
 A marker for scene transitions in historical editions when scenes in editions overlap or don't align cleanly with PS scene breaks.
 
@@ -1483,21 +1602,24 @@ A marker for scene transitions in historical editions when scenes in editions ov
 
 Self-closing element.
 
-### `<endpersonae>`
+### 20.8 `<endpersonae>`
 
-The dramatis personae as it appears at the end of a folio/quarto edition (rather than at the beginning). Contains:
-- `<persloc>` — Location description (e.g., "The Scene, an un-inhabited Island").
-- `<persnames>` — Title for the names section (e.g., "Names of the Actors.").
-- `<castItem>` — Simple text entries for each character (no attributes in this context).
+The dramatis personae as it appears at the end of a folio/quarto edition. Present in 8 files. Contains:
+
+- `<persloc>` — Location description (e.g., `"The Scene, an vn-inhabited Island"`).
+- `<persnames>` — Title for the names section (e.g., `"Names of the Actors."`).
+- `<castItem>` — Simple text-content-only entries for each character (direct text content, no `id` or other attributes in this context).
 - `<castItemgroup>` — A grouped subset of characters.
+
+`<castItem>` elements inside `<endpersonae>` are distinct from the `<castItem>` elements in `<castList>`. They have no attributes and use their text content as the character name (e.g., `<castItem>Alonso, K. of Naples</castItem>`).
 
 ### `<castItemgroup>`
 
-A group of characters in the `<endpersonae>` with a shared title.
+A group of characters in `<endpersonae>` with a shared title.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `title` | Required | String | Group title (e.g., "Spirits"). |
+| `title` | Required | String | Group title (e.g., `"Spirits"`). |
 | `items` | Optional | Integer | Number of items in the group. |
 
 **Example:**
@@ -1515,18 +1637,30 @@ A group of characters in the `<endpersonae>` with a shared title.
 </endpersonae>
 ```
 
-### `<personagroup>`
+### 20.9 `<frontmatter>`
 
-A named group of characters within a dramatis personae list (also used in some PS editions for grouped cast entries).
+Some historical editions include front matter from the original publication. This element appears after `<fileDesc>` and before `<castList>`.
+
+Child elements observed:
+- `<frontispiece>` — A frontispiece image reference.
+- `<titlepage>` — The printed title page.
+- `<dedication>` — A dedication. May contain `<dedtitle>`, `<dedsubtitle>`, `<dedsubtitlesub>`, `<dedauthor>`, `<dedbody>`, `<dedclosing>`.
+- `<preface>` — An editorial preface.
+- `<castList>` — A second cast list as it appeared in the front matter (e.g., `double_falsehood_O1.xml`). When present, this duplicates the UUIDs of the primary `<castList>`.
+
+### 20.10 `<finis>`
+
+Optional closing statement at the end of a historical play edition. `<finis>` is not required — its absence in play-type or main play files is not an error. Many historical edition files include it, but omitting it is valid.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `title` | Required | String | Title describing this group. |
-| `items` | Optional | Integer | Number of items in the group. |
+| `rend` | Optional | Enum | `"word"` to display without border decoration. |
 
-### `<manuscript>`
+Contains `<finistitle>` — the text of the closing statement (e.g., `"FINIS."`). May contain `<emph>` for italic formatting.
 
-Used in manuscript editions. Container for manuscript description and scan records.
+### 20.11 `<manuscript>`
+
+Used in manuscript editions (variant `"manuscript"`). A top-level container for manuscript description and physical page data.
 
 Child elements:
 - `<description>` — Text description of the manuscript.
@@ -1553,26 +1687,40 @@ A reference to a scan/image of a manuscript or folio page.
 
 Self-closing element.
 
-### Historical Edition Speech Structure
+### 20.12 `<pubdate>`
 
-In historical editions, speeches use direct `<l>` elements without `<lg>` wrappers:
+Appears in some historical edition files as a top-level element giving the publication year as plain text (e.g., `<pubdate>1594</pubdate>`). Observed in `rape_of_lucrece_Q1.xml` and `spanish_tragedy_Q1.xml`. This is distinct from the `<date>` elements used in `<fileDesc>`.
+
+### 20.13 Historical Edition Speech Structure
+
+In historical editions, speeches use direct `<l>` elements without `<lg>` wrappers. `<speaker>` uses the `short` attribute (not `long`). The first letter of a speech is often marked with `<dropcap>`.
 
 ```xml
-<sp id="...">
-  <speaker short="BAR.">Barnardo.</speaker>
+<sp>
+  <speaker short="BAR." rend="center">Barnardo.</speaker>
   <l gn="1" n="1" order="first">
     <dropcap type="floral" size="small" render="sp1">W</dropcap>ho's there?
   </l>
 </sp>
 
-<sp id="...">
-  <speaker short="FRAN.">Fran.</speaker>
+<sp>
+  <speaker short="FRAN." rend="center">Fran.</speaker>
   <l gn="2" n="2">Nay answer me: Stand &amp; vnfold your selfe.</l>
   <l gn="3" n="3">Another line in the same speech.</l>
 </sp>
 ```
 
 Historical editions do not include `<l variant="modern">` translations.
+
+### 20.14 Relationship to Main PS Edition Files
+
+Historical edition files share character UUIDs with the corresponding main PS edition file. A `castItem` in `hamlet_FF.xml` with `id="91d29aa8-..."` is the same character as the `castItem` with the same UUID in `hamlet/hamlet.xml`. This cross-file UUID linkage connects the historical text to the full analytical data in the PS edition.
+
+The `corresp` attributes on `<act>`, `<actref>`, `<scene>`, `<sceneref>`, and `<prologueref>` elements map each historical unit to its PS edition equivalent (e.g., `corresp="scene-1-4"` links to PS scene 1.4).
+
+Role names in historical edition castLists may differ from main PS edition names for the same UUID. Differences fall into two categories:
+1. **Orthographic variants** — reflecting original spelling in the historical source (e.g., "Courtezan" for "Courtesan", "Halberds" for "Halberdiers"). Expected.
+2. **Name mismatches** — where the modern form and the historical form are inconsistently applied (e.g., "Getrude" vs "Gertrude"). These may be data errors.
 
 ---
 
