@@ -27,9 +27,8 @@
 18. [Inline Markup and Formatting](#18-inline-markup-and-formatting)
 19. [Foreign Language Tags](#19-foreign-language-tags)
 20. [First Folio / Quarto / Historical Editions Format](#20-first-folio--quarto--historical-editions-format)
-21. [Character Relationships (listRelation)](#21-character-relationships-listrelation)
-22. [Special Glyphs and Entities](#22-special-glyphs-and-entities)
-23. [Known Enumeration Values Summary](#23-known-enumeration-values-summary)
+21. [Special Glyphs and Entities](#21-special-glyphs-and-entities)
+22. [Known Enumeration Values Summary](#22-known-enumeration-values-summary)
 
 ---
 
@@ -52,7 +51,7 @@ Located in `/plays/first_folio_editions/`. These files use a simplified structur
 | Root element | `<play variant="ps">` | `<play variant="first-folio">` etc. |
 | `<titleStmt>` | Full with translations | Abbreviated |
 | Cast list | Rich (with stats, descriptions, scenes) | Minimal (role names and aliases only) |
-| Lines (`<l>`) | Inside `<lg>` groups, with modern variant | Direct inside `<sp>`, no modern variant |
+| Lines (`<l>`) | Inside `<lg>` groups when modern translations are present; direct inside `<sp>` otherwise | Direct inside `<sp>`, no modern variant |
 | Stage directions | Structured `<stage>/<dir>/<action>` | Plain `<stage>` text element |
 | Speaker | `<speaker long="...">` | `<speaker short="...">` |
 | Scene alignment | `<actref>` / `<sceneref>` for mismatches | `corresp` attribute for cross-referencing |
@@ -80,7 +79,6 @@ Located in `/plays/first_folio_editions/`. These files use a simplified structur
   <songs>...</songs>             <!-- plays only, if applicable -->
   <soliloquies>...</soliloquies> <!-- plays only, if applicable -->
   <longestspeech>...</longestspeech>
-  <listRelation>...</listRelation>
   <listBibl type="sources">...</listBibl>
   <fileDesc>...</fileDesc>
   <castList>...</castList>
@@ -177,7 +175,7 @@ The root element for all play files (both standard PS and historical editions).
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `variant` | Required | Enum | Edition type. See [Known Variant Values](#231-variant-values). |
+| `variant` | Required | Enum | Edition type. See [Known Variant Values](#221-variant-values). |
 | `unique` | Optional | String | Unique slug identifier for the work (e.g., `"hamlet"`, `"midsummer-nights-dream"`). |
 | `trans` | Optional | Enum (`yes`/`no`) | Whether translations are available. Found on apocrypha plays. |
 
@@ -410,7 +408,7 @@ A single statistical value. Self-closing element.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `commodity` | Required | Enum | What is being counted. See [Known Commodity Values](#237-commodity-values). |
+| `commodity` | Required | Enum | What is being counted. See [Known Commodity Values](#227-commodity-values). |
 | `type` | Required | Enum | Format: `"cardinal"` for counts, `"percentage"` for percentages. |
 | `value` | Required | String/Number | The numeric value. |
 | `rank` | Optional | Integer | The relative rank of this value among all plays. |
@@ -449,7 +447,7 @@ A categorical classification for the work.
 
 **Known `subtype="period"` values:** `Elizabethan`, `Jacobean`, `Roman`
 
-**Known `subtype="subgenre"` values:** `Late Romance`, `Problem`
+**Known `subtype="subgenre"` values:** `Late Romance`, `Problem`, `Roman`
 
 ### `<common>`
 
@@ -933,7 +931,7 @@ Used within an `<act>` to indicate a closing statement at the end of an individu
 
 ### `<sp>` (Speech)
 
-The wrapper for a single character's speech. Contains one `<speaker>` and one or more `<lg>` groups.
+The wrapper for a single character's speech. Contains one `<speaker>` and one or more lines. Lines may be wrapped in `<lg>` groups (when modern translations are present) or appear as direct `<l>` children.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
@@ -942,7 +940,7 @@ The wrapper for a single character's speech. Contains one `<speaker>` and one or
 | `alias` | Optional | String | The alternate abbreviated name used by a character speaking under a different identity or when two characters speak simultaneously. |
 | `rend` | Optional | Enum | `"parens"` to wrap the entire speech in parentheses. |
 
-**Note:** In historical editions, `<sp>` contains `<l>` elements directly (no `<lg>` wrapper).
+**Note:** `<lg>` wrappers are used when modern translation lines (`<l variant="modern">`) are present, pairing each original line with its translation. When no translations are available (e.g., historical editions, apocrypha with `trans="no"`, and some standard plays), `<sp>` contains `<l>` elements directly without `<lg>` wrappers.
 
 ### `<speaker>`
 
@@ -1062,7 +1060,7 @@ Structured encoding of a stage direction action.
 
 | Attribute | Required | Type | Description |
 |---|---|---|---|
-| `type` | Required | Enum | Type of action. See [Known Action Types](#235-action-types). |
+| `type` | Required | Enum | Type of action. See [Known Action Types](#225-action-types). |
 | `offstage` | Optional | Enum | `"true"` if the action occurs offstage. |
 
 Contains `<actor>` and/or `<recipient>` elements.
@@ -1505,7 +1503,6 @@ Historical edition files deliberately omit the analytical layer present in stand
 | Soliloquies index | `<soliloquies>` block | Not present |
 | Songs index | `<songs>` block | Not present |
 | `<longestspeech>` | Present | Not present |
-| `<listRelation>` | Present | Not present |
 | `<listBibl>` | Required | Not present |
 | `<synopsis>` | Present | Not present |
 | `<locations>` | Present | Not present |
@@ -1724,39 +1721,7 @@ Role names in historical edition castLists may differ from main PS edition names
 
 ---
 
-## 21. Character Relationships (listRelation)
-
-### `<listRelation>`
-
-Container for character relationship data. Appears at the play level after `<longestspeech>`.
-
-### `<relation>`
-
-A directed relationship from one character to another.
-
-| Attribute | Required | Type | Description |
-|---|---|---|---|
-| `type` | Required | String | Relationship type. See [Known Relation Types](#238-relation-types). |
-| `target` | Required | String | The abbreviated name (`short` value) of the character being related to. |
-| `note` | Optional | String | A short narrative description of the relationship. |
-
-Text content: The abbreviated name (`short` value) of the character holding the relationship.
-
-**Example:**
-```xml
-<listRelation>
-  <relation type="love_interest" target="HAM."
-    note="Ophelia is in love with Hamlet...">OPH.</relation>
-  <relation type="friend" target="HAM."
-    note="Horatio is Hamlet's closest friend.">HOR.</relation>
-  <relation type="parent" target="HAM."
-    note="Gertrude loves her son Hamlet.">QUEEN.</relation>
-</listRelation>
-```
-
----
-
-## 22. Special Glyphs and Entities
+## 21. Special Glyphs and Entities
 
 The Special Glyphs sheet documents the HTML entities and Unicode characters used in the XML files. These entities appear as numeric HTML entity references (e.g., `&#8217;` for a right curly apostrophe).
 
@@ -1823,9 +1788,9 @@ When a special glyph character is used in historical edition text, it is typical
 
 ---
 
-## 23. Known Enumeration Values Summary
+## 22. Known Enumeration Values Summary
 
-### 23.1 Variant Values
+### 22.1 Variant Values
 
 Values for the `variant` attribute on `<play>` and `<poem>`:
 
@@ -1844,12 +1809,12 @@ Values for the `variant` attribute on `<play>` and `<poem>`:
 | `manuscript` | Manuscript edition |
 | `modern` | Modern edition (used inside `<edition>` element, not as root attribute) |
 
-### 23.2 Character Gender Values
+### 22.2 Character Gender Values
 
 Values for `gender` on `<castItem>`:
 `male`, `female`, `horse`, `dog`, `bear`, `lion`, `snake`, `asps`, `crocodile`
 
-### 23.3 Character Category Values
+### 22.3 Character Category Values
 
 Values for `category` on `<castItem>`:
 
@@ -1862,12 +1827,12 @@ Values for `category` on `<castItem>`:
 | `extra` | Unnamed background characters |
 | `animal` | Non-human characters |
 
-### 23.4 Character Archetype Values
+### 22.4 Character Archetype Values
 
 Values for `archetype` on `<castItem>`:
 `hero`, `villain`, `clown`, `lover`
 
-### 23.5 Action Types
+### 22.5 Action Types
 
 Values for `type` on `<action>`:
 
@@ -1889,7 +1854,7 @@ Values for `type` on `<action>`:
 
 **Note:** The spec documentation also mentions `exeunt` as a conceptual action type, but in actual XML files all group exits use `type="exit"`.
 
-### 23.6 Name Change (alias) Values
+### 22.6 Name Change (alias) Values
 
 Values for `nameChange` on `<role>` and `<persscene>`:
 
@@ -1899,7 +1864,7 @@ Values for `nameChange` on `<role>` and `<persscene>`:
 | `ghost` | Character appears as a ghost |
 | `accession` | Character has changed title/name due to succession or office |
 
-### 23.7 Commodity Values
+### 22.7 Commodity Values
 
 Values for `commodity` on `<num>` within `<statistics>`:
 
@@ -1914,23 +1879,7 @@ Values for `commodity` on `<num>` within `<statistics>`:
 | `verse` | Percentage of verse lines |
 | `prose` | Percentage of prose lines |
 
-### 23.8 Relation Types
-
-The `type` attribute of `<relation>` supports an extensive vocabulary. The following are defined in the specification; additional values appear in actual files reflecting the breadth of character interactions:
-
-**Familial:** `parent`, `child`, `sibling`, `spouse`, `guardian`, `step-parent`, `step-child`, `cousin`, `father`, `mother`, `son`, `daughter`, `sister`, `brother`, `uncle`, `nephew`, `niece`, `grandmother`, `grandson`, `godparent`, `godfather`, `godmother`
-
-**Romantic:** `love_interest`, `admirer`, `betrothed`, `suitor`, `courting`
-
-**Social:** `friend`, `mentor`, `servant`, `master`, `confidant`, `protector`, `ward`, `acquaintance`, `follower`, `companion`, `colleague`, `associate`
-
-**Political:** `subject`, `sovereign`, `rival`, `commander`, `subordinate`, `ambassador`, `heir`, `successor`, `ally`, `rebel`, `senator`, `leader`
-
-**Antagonistic:** `enemy`, `betrayer`, `traitor`, `opponent`, `adversary`, `murderer`, `assassin`, `victim`, `usurper`
-
-**Other (observed):** `spy`, `guard`, `gravedigger`, `messenger`, `actor`, `soldier`, `captain`, `physician`, `diplomat`, `neutral`, `confidant`, `ally`, and many more derived from specific play relationships.
-
-### 23.9 Line Form Values
+### 22.8 Line Form Values
 
 Values for `form` on `<l>`:
 
@@ -1941,20 +1890,20 @@ Values for `form` on `<l>`:
 | `rhyme` | Rhyming verse |
 | `lyric` | Lyric/song verse (sung lines) |
 
-### 23.10 Genre Values
+### 22.9 Genre Values
 
 Values for `<category type="genre">`:
 `Comedy`, `Tragedy`, `History`
 
-### 23.11 Period/Subgenre Values
+### 22.10 Period/Subgenre Values
 
 Values for `<category subtype="period">`:
 `Elizabethan`, `Jacobean`, `Roman`
 
 Values for `<category subtype="subgenre">`:
-`Late Romance`, `Problem`
+`Late Romance`, `Problem`, `Roman`
 
-### 23.12 Speaker/Stage Rend Values
+### 22.11 Speaker/Stage Rend Values
 
 | Value | Context | Description |
 |---|---|---|
