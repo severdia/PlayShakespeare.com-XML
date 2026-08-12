@@ -29,6 +29,15 @@
 20. [First Folio / Quarto / Historical Editions Format](#20-first-folio--quarto--historical-editions-format)
 21. [Special Glyphs and Entities](#21-special-glyphs-and-entities)
 22. [Known Enumeration Values Summary](#22-known-enumeration-values-summary)
+23. [Character Relationships (listRelation)](#23-character-relationships-listrelation)
+24. [Textual Apparatus (app, lem, rdg)](#24-textual-apparatus-app-lem-rdg)
+25. [Dialect Indicators (scenedialect, dialect)](#25-dialect-indicators-scenedialect-dialect)
+26. [Source Metadata (textsources, playsourcedate)](#26-source-metadata-textsources-playsourcedate)
+27. [Additional Cast Grouping (castGroup, persgroup, pernamestitle)](#27-additional-cast-grouping-castgroup-persgroup-pernamestitle)
+28. [Additional Historical / First Folio Markup](#28-additional-historical--first-folio-markup)
+29. [Attribute Addenda](#29-attribute-addenda)
+30. [Generating Open-Source Editions from Pro XML](#30-generating-open-source-editions-from-pro-xml)
+31. [TEI Alignment & Legacy Reference (PDF/DTD)](#31-tei-alignment--legacy-reference-pdfdtd)
 
 ---
 
@@ -1921,6 +1930,326 @@ Values for `<category subtype="subgenre">`:
 | `noitalic` | `<name>`, `<emph>` | Remove default italic formatting |
 | `nobold` | `<bold>` | Remove default bold formatting |
 | `ls8` etc. | `<emph>` | Letter-spacing value (historical editions) |
+
+---
+
+## 23. Character Relationships (listRelation)
+
+A **Pro-only** top-level block (removed from open-source editions) that encodes the
+character-relationship graph used by the app's relationship visualizations. It appears
+before `<listBibl type="sources">` (which is followed by `<fileDesc>` and `<castList>`),
+after the statistics block that closes with `</longestspeech>`. The markup follows the TEI P5
+`<listRelation>`/`<relation>` model.
+
+Every character with a `<castItem>` in `<castList>` (all categories, including
+`ensemble` and `extra`) appears in at least one `<relation>`.
+
+Each relation records a **standing relationship** — the answer to *"who is this
+person to that person?"* (kinship, marriage, office, service, bond, enmity) — never a
+single scene's action. Othello is the Duke's *officer* (the general retained by
+Venice); the Duke is not Othello's "judge" merely because he once hears a charge
+against him.
+
+### `<listRelation>`
+
+Container for `<relation>` entries. Contains no comments or other content.
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `type` | Required | String | Always `personal` (interpersonal relationships). |
+
+### `<relation>`
+
+One relationship between two characters. Characters are referenced by pointer
+(`#` + the `id` of their `<castItem>`). Directed relations use `active`/`passive`;
+symmetric relations use a two-pointer `mutual` attribute instead, and are recorded
+once per pair (no inverse duplicates in either case).
+
+```xml
+<listRelation type="personal">
+<relation type="family" name="parent" active="#5db5cfeb-0a12-404e-83d6-e84234d52633" passive="#56025a8a-15b9-4af8-9754-c58ba23a4b54">
+	<desc>Egeon is the father of Antipholus of Syracuse.</desc>
+</relation>
+<relation type="marriage" name="spouse" mutual="#f1909468-2724-4517-b82c-08820f029e35 #eb464c46-1301-43dd-834d-dd253dd04384">
+	<desc>Antipholus of Ephesus and Adriana are husband and wife.</desc>
+</relation>
+</listRelation>
+```
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `type` | Required | Enum | Relationship category. One of `family`, `marriage`, `romance`, `service`, `allegiance`, `social`, `enmity`, `violence`. |
+| `name` | Required | Enum | The specific relationship, from the controlled vocabulary below. States what the **active** party is (or does) to the **passive** party: `name="parent"` means *active is passive's parent*; `name="killer"` means *active kills passive*. |
+| `active` | Directed only | Pointer | `#` + `castItem id` of the relationship's subject. |
+| `passive` | Directed only | Pointer | `#` + `castItem id` of the relationship's object. |
+| `mutual` | Symmetric only | Pointers | Two space-separated `#` + `castItem id` pointers. Used instead of `active`/`passive` for symmetric names. |
+
+Child element `<desc>` (required): one sentence stating the relationship in prose,
+opening with the *who-is-to-whom* statement, optionally followed by brief context.
+
+#### Controlled vocabulary (`name` by `type`)
+
+| `type` | Directed `name` values (active → passive) | Symmetric `name` values (`mutual`) |
+|---|---|---|
+| `family` | `parent`, `grandparent`, `uncle`, `aunt`, `parent-in-law`, `guardian`, `godparent` | `sibling`, `half-sibling`, `twin`, `cousin`, `kinsman`, `sibling-in-law` |
+| `marriage` | `widow` (active is passive's widow) | `spouse`, `former-spouse`, `betrothed` |
+| `romance` | `suitor` (woos), `admirer` (loves unrequited/at a distance) | `lover` |
+| `service` | `servant`, `attendant`, `page`, `steward`, `nurse`, `tutor`, `physician`, `counsellor`, `chaplain`, `officer`, `soldier`, `messenger`, `herald`, `envoy`, `guard`, `jailer`, `executioner`, `entertainer`, `summoner` — active serves passive in that capacity | — |
+| `allegiance` | `subject`, `follower`, `supporter`, `rebel` (active rebels against passive) | `ally`, `conspirator` |
+| `social` | `host`, `patron`, `debtor` (active owes passive), `presenter` (active narrates passive's story — Chorus/Gower figures) | `friend`, `companion`, `comrade`, `neighbor` |
+| `enmity` | `betrayer`, `accuser`, `deceiver` — only where this defines the pair across the play (Iago is Othello's deceiver) | `enemy`, `rival` |
+| `violence` | `killer`, `assailant`, `captor` | — |
+
+Direction conventions: the subordinate party is always `active` in `service`
+relations (the servant, not the master); employment follows who *retains* the
+service (musicians hired by Cassio are Cassio's entertainers, whoever they play
+under); household servants relate to the household's principals.
+
+---
+
+## 24. Textual Apparatus (app, lem, rdg)
+
+Inline critical-apparatus markup used in a few edited texts to record a variant
+reading against the chosen (lemma) reading. **Pro-only** (removed from open-source
+editions — the lemma text is *not* retained; the whole `<app>` is dropped).
+
+### `<app>`
+
+An apparatus entry wrapping a lemma and one or more variant readings, inline within `<l>`.
+
+```xml
+<l>Like the base <app><lem>Indian</lem><rdg>Judean</rdg></app>, threw a pearl away</l>
+```
+
+### `<lem>`
+
+The lemma — the reading adopted in this edition. Text content only.
+
+### `<rdg>`
+
+A variant reading (from another witness). Text content only.
+
+---
+
+## 25. Dialect Indicators (scenedialect, dialect)
+
+A scene-level indicator of a non-standard English dialect spoken in a scene, parallel
+to `<scenelanguage>`/`<language>` (see §13). **Pro-only** (removed from open-source
+editions).
+
+### `<scenedialect>`
+
+Container placed inside `<scene>` (near `<scenelanguage>`). Holds one or more `<dialect>`.
+
+### `<dialect>`
+
+```xml
+<scenedialect><dialect short="cy">Welsh</dialect></scenedialect>
+```
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `short` | Required | String | ISO-639 language/dialect code (e.g. `cy` for Welsh). |
+
+Text content: the human-readable dialect name.
+
+---
+
+## 26. Source Metadata (textsources, playsourcedate)
+
+Alternative/legacy source-metadata elements found inside `<listBibl>`/`<bibl>` in some
+files. **Pro-only** (removed from open-source editions along with the rest of `<listBibl>`).
+
+### `<textsources>` / `<textsource>`
+
+```xml
+<textsources><textsource title="Quarto" edition="1" date="1598">First Quarto</textsource></textsources>
+```
+
+| Attribute (on `<textsource>`) | Required | Type | Description |
+|---|---|---|---|
+| `title` | Optional | String | Source form (e.g. `Quarto`, `Folio`). |
+| `edition` | Optional | String | Edition number. |
+| `date` | Optional | String | Publication year of the source. |
+
+### `<playsourcedate>`
+
+Inside `<bibl>`; the source date of a play. Often empty. No attributes.
+
+---
+
+## 27. Additional Cast Grouping (castGroup, persgroup, pernamestitle)
+
+Grouping wrappers used inside `<castList>` (mainly in apocrypha and historical editions)
+to group characters under a heading. **Pro-only** grouping wrappers (open-source editions
+flatten the cast list).
+
+### `<castGroup>`
+
+Groups related `<castItem>`s under a title (e.g. the spirits in *The Tempest*).
+
+```xml
+<castGroup title="Spirits" items="5">
+  <castItem>Iris</castItem>
+  <castItem>Ceres</castItem>
+</castGroup>
+```
+
+| Attribute | Required | Type | Description |
+|---|---|---|---|
+| `title` | Optional | String | Group heading. |
+| `items` | Optional | Integer | Number of members. |
+
+> In historical (First Folio) editions the same concept is spelled `<castItemgroup>` (see §20.8).
+
+### `<persgroup>`
+
+An older grouping wrapper (e.g. in *Double Falsehood*) containing a `<title>` and `<castItem>`s.
+
+```xml
+<persgroup><title>MEN.</title><castItem gender="male" ...><role short="DUKE.">Duke</role></castItem></persgroup>
+```
+
+### `<pernamestitle>`
+
+A heading for the dramatis personae list in historical editions (e.g. `THE ACTORS NAMES.`).
+May contain `<lb/>`. No attributes.
+
+---
+
+## 28. Additional Historical / First Folio Markup
+
+Typographic and structural elements that appear in First Folio / Quarto / manuscript
+editions (supplementing §15.2 and §20). All are **Pro/historical-only**; they do not
+appear in open-source modern editions.
+
+| Element | Description | Attributes |
+|---|---|---|
+| `<flourish />` | A typographic flourish/ornament rule (self-closing). | none |
+| `<hangword>` | A hanging catchword (word printed at the foot of a page). | none |
+| `<lowquote>` | A low/inverted quotation mark used to flag *sententiae* (commonplace lines). Text is the mark (e.g. `&#8221;`). | none |
+| `<rightmarg>` | Right-margin content (e.g. a `<stage>` printed in the right margin). | none |
+| `<sup>` | Superscript text (e.g. abbreviations like `S`^`r`). | none |
+| `<inline>` | A short inline interjection/fragment printed within another speaker's line (common in Folio compositor layout). | none |
+| `<hand>` | Identifies the scribal hand in a manuscript (e.g. *Sir Thomas More*). | none |
+| `<argument>` | An "Argument" section preceding a poem (e.g. *The Rape of Lucrece*); contains `<subtitle>` and `<l>`s. | none |
+| `<body>` | Body wrapper used inside some historical poem/dedication editions. | none |
+| `<salutation>` | The salutation of a dedicatory letter (e.g. `To the Right HONOURABLE ...`). | none |
+| `<closing>` | The closing of a dedicatory letter (e.g. `Your most Devoted ... Servant`). | none |
+| `<printing>` | An imprint/colophon on a title page (e.g. `LONDON: Printed by ...`). | none |
+| `<toptitle>` | A top title block on a frontispiece; contains `<subtitle>`. | none |
+| `<year>` | A publication year printed on a frontispiece/title page. | none |
+| `<price>` | An inline price (e.g. a tavern bill in *1 Henry IV*, `<price>ii,d.</price>`). | none |
+| `<epilogueref>` | A cross-reference/link to an epilogue in aligned historical editions (parallels `<actref>`/`<sceneref>`/`<prologueref>`, see §20.6). | `corresp` |
+
+> See also §21 for `<dropcap>`, `<char>`, `<swash>`, `<choice>`/`<orig>`/`<reg>`, and §20.11 for `<manuscript>`/`<leaf>`/`<leaves>`/`<page>`/`<scan>`.
+
+---
+
+## 29. Attribute Addenda
+
+Attributes observed in the Pro corpus that were previously undocumented on their host
+elements:
+
+| Element | Attribute | Description |
+|---|---|---|
+| `<sp>` | `id` | UUID for the speech (Pro-only; stripped in open-source editions). |
+| `<sp>` | `type` | Speech kind, e.g. `soliloquy`, `song`, `aside`. |
+| `<sp>` | `continues` | `yes` when the speech continues a shared/split verse line from the previous speaker. |
+| `<l>` | `id` | UUID for the line (Pro-only). |
+| `<l>` | `variant` | `modern` marks a modern-translation paraphrase line (Pro-only; removed in open source). Also `original`. |
+| `<l>` | `iamb` | Scansion hint (syllable count, e.g. `10`). |
+| `<l>` | `part` | Shared-line part: `I` (initial), `M` (medial), `F` (final). |
+| `<l>` | `irend` | Internal render hint. |
+| `<l>` | `order` | `first` marks the opening line of a section (used with `<dropcap>`). |
+| `<lg>` | `id` | UUID for a line group / stanza (Pro-only; the open-source `num` may carry this value). |
+| `<role>` | `nameChanges` | Count of in-play name changes for the character. |
+| `<emph>` | `red` | `yes` to render the emphasis in red (rubrication, historical editions). |
+| `<scan>` | `mounted` | Whether the page scan is mounted/inset. |
+| `<relation>` | `target` | See §23. |
+
+`xml:lang` (on `<title type="translated">`, `<foreign>`, etc.) uses ISO-639 codes and is
+preserved in open-source editions.
+
+---
+
+## 30. Generating Open-Source Editions from Pro XML
+
+The **Pro** app XML files are the authoritative superset. The public open-source editions
+(`playshakespeare_editions/` and `apocrypha/`) are produced from them by a deterministic
+reduction plus a licence swap. The reference implementation is
+[`tools/generate_open_source.py`](tools/generate_open_source.py); the full derivation and
+validation notes are in [`tools/README_conversion.md`](tools/README_conversion.md).
+
+> **Scope:** this transform applies to modern editions and apocrypha only. The
+> `first_folio_editions/` corpus is authored/maintained separately (it carries a richer
+> transcription schema — TOC, engravings, small-caps, etc.) and is **not** generated from
+> the Pro First Folio files.
+
+The reduction rules:
+
+1. **Remove the stylesheet PI** `<?xml-stylesheet ... plays.xsl?>`.
+2. **Remove Pro-only top-level blocks:** `<editions>`, `<performances>`, `<synopsis>`,
+   `<statistics>`, `<locations>`, `<songs>`, `<soliloquies>`, `<longestspeech>`,
+   `<listRelation>`, `<listBibl>`, `<poemdescription>`, `<textsources>`. (Kept:
+   `<titleStmt>`, `<authors>`, `<fileDesc>`, `<castList>`, and the body — `<act>`s /
+   `<poembody>` / `<sonnets>` with `<prologue>`/`<epilogue>`/`<finis>`.)
+3. **Drop modern-translation lines:** every `<l variant="modern">`.
+4. **Unwrap untyped `<lg>`:** the per-line wrapper that pairs an original line with its
+   modern line (poems/sonnets) and the play-speech line group are removed, promoting the
+   surviving `<l>`s. **Typed** `<lg>` (`type="stanza"|"quatrain"|"couplet"|...`) is kept;
+   `<lg type="tercet">` becomes `<tercet>`.
+5. **Unwrap inline glossary/markup, keeping the text:** `<term>`, `<placeName>`,
+   `<lineref>`, and (inline) `<song>`.
+6. **Remove editorial `<note>`s** wherever they occur (including inside `<roleDesc>`; a
+   `<roleDesc>` left empty is then removed).
+7. **Reduce `<castList>`:** on `<castItem>` keep only `gender`/`id` and the `<role>`,
+   `<persaliases>`, and (non-empty) `<roleDesc>` children; drop `<languages>`,
+   `<statistics>`, `<persscenes>`, `<performers>` and the `category`/`archetype`/`death`/
+   `ghost`/`short` attributes.
+8. **Filter attributes** on every element to the open-source whitelist (see the script);
+   `xml:lang`/`xml:id` are always kept.
+9. **Rewrite `<fileDesc>`:** replace the "all rights reserved" `<license>` text with the
+   GFDL 1.3 licence, keep `<editionStmt>`/`<edition n=...>`, and drop `<idno>`.
+10. **Re-serialize** with a UTF-8 declaration and 2-space indentation.
+
+Validation: for the 67 modern + apocrypha works the generator reproduces the committed
+open-source structure of **58 files exactly** (element-for-element). The other 9 differ
+only by small manual copy-edits made to the committed files after they were first
+generated (e.g. an added `<finis>` in *A Funeral Elegy*, a merged speech, a corrected
+line) and by ongoing editorial updates to the Pro text — not by any missing rule.
+
+---
+
+## 31. TEI Alignment & Legacy Reference (PDF/DTD)
+
+This document supersedes two legacy files in the repository:
+
+- **`PlayShakespeare-XML-Specification.pdf`** (v0323) — the original tabular schema
+  reference. It is **out of date**: it uses superseded element names (`<playwrights>`/
+  `<playwright>` → `<authors>`/`<author>`; `<titleshort>`/`<maintitle>` →
+  `<title type="short">`/`<title type="main">`; `<personagroup>` → `<castGroup>`;
+  `<sonnetnum>`/`<stanzanum>` → `num` attributes) and lists a number of **proposed but
+  never-implemented** elements that do not occur in any actual XML file (e.g.
+  `<prologuetitle>`, `<epiloguetitle>` — both marked "Currently not used" — plus
+  `<actortitle>`, `<fulldesc>`, `<notice>`, `<playsource*>`, `<poemquarto>`, `<specialq>`,
+  `<stagedir>`, `<trailer>`, `<docAuthor>`/`<docDate>`/`<docEdition>`, `<teiHeader>`).
+  Every element that the PDF documents **and that actually appears in the XML** is covered
+  by this specification under its current name. The PDF may be removed.
+- **`playshakespeare.dtd`** — a placeholder containing only generic XML tutorial examples
+  (`note`, `NEWSPAPER`, `CATALOG`); it never described the PlayShakespeare schema and can
+  be removed.
+
+**TEI heritage.** The schema is loosely modeled on TEI P5. Many element names are used
+directly with their TEI meaning: `<sp>`, `<speaker>`, `<l>`, `<lg>`, `<stage>`,
+`<castList>`, `<castItem>`, `<role>`, `<roleDesc>`, `<titleStmt>`, `<fileDesc>`,
+`<publicationStmt>`, `<editionStmt>`, `<idno>`, `<listBibl>`, `<bibl>`, `<foreign>`,
+`<emph>`, `<name>`, `<placeName>`, `<date>`, `<milestone>`, `<lb/>`. PlayShakespeare
+adds domain-specific elements (statistics, relationships, songs/soliloquy indexes,
+per-character scene breakdowns, modern-translation lines, glossary `<term>`s, and the
+historical-edition typographic set) that have no direct TEI equivalent. The PDF's
+"TEI Equivalent" column is preserved here in spirit by this note; consult the TEI P5
+Guidelines (https://tei-c.org/release/doc/tei-p5-doc/en/html/) for the base elements.
 
 ---
 
